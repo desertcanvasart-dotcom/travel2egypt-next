@@ -1,0 +1,90 @@
+{
+ "slug": "aswan-felucca-adventure",
+ "_id": "wp-page-113206",
+ "intro": {
+  "opening": "Three hours on the Nile at Aswan in a felucca, Egypt's traditional lateen-rigged sailing boat. This is a sailing experience, not a sightseeing tour: no temples to enter, no ticket queues. You watch the Corniche slide past, track the birds above the river and let the wind do the work.",
+  "whyThisOrder": "The boat is privately yours, so it can drift longer around the islands or turn back early. Feluccas move with the wind, which at Aswan is generally reliable but never hurried. From October through April temperatures are moderate and the northerly breeze is consistent; from May onward, morning sails are noticeably cooler than afternoon ones.",
+  "returnNote": "Back at the docking point on the Corniche roughly three hours after embarkation",
+  "lunch": {
+   "status": "notIncluded",
+   "text": "Optional Nile Feast package, on board or at a riverside restaurant, chosen at booking"
+  },
+  "fitFor": [
+   "have already seen, or will see, Philae, the High Dam and the Unfinished Obelisk, and want one unstructured morning or afternoon that belongs to the river",
+   "are travelling alone or as a small party: the sail takes bookings from a single person upward, with no minimum group",
+   "are travelling as a family: there's no minimum age"
+  ],
+  "worthKnowing": [
+   "A felucca has no shade canopy. It's an open boat on open water, so plan around young children and sun exposure.",
+   "It isn't a fast-moving trip. If you're travelling with restless children or need structured commentary throughout, temper your expectations.",
+   "There are no temples to enter on this sail.",
+   "In May and June the heat intensifies and the wind can be variable. Morning departures are significantly more comfortable in the warmer months.",
+   "Children under 12 pay half price."
+  ],
+  "closingLine": "Three hours on a felucca is the quietest argument for noticing.",
+  "closingRef": "00000000002b"
+ },
+ "periods": [
+  {
+   "period": "morning",
+   "periodLabel": "The Nile at Aswan",
+   "stops": [
+    {
+     "title": "Pickup and transfer to the Aswan Corniche",
+     "glanceLabel": "Pickup",
+     "skipGlance": false,
+     "text": "A short transfer from your agreed meeting point to the Corniche, the broad riverside promenade on the east bank. Your English-speaking assistant meets you there and walks you down to the felucca.",
+     "sites": [
+      "Aswan Corniche"
+     ]
+    },
+    {
+     "title": "Sailing on the Nile",
+     "glanceLabel": "Felucca sail",
+     "skipGlance": false,
+     "text": "A traditional wooden-hulled boat with a single triangular sail. You pass the riverbanks on both sides, palm-fringed islands mid-channel and Aswan's rocky shoreline, while the assistant talks about the felucca's place in Egyptian life. Ask questions, or say nothing at all.",
+     "sites": []
+    },
+    {
+     "title": "Nile Feast lunch, if you've chosen it",
+     "glanceLabel": "Nile Feast (optional)",
+     "skipGlance": false,
+     "text": "Served at about the midpoint of the sail, on board or at a riverside restaurant. Freshly baked Egyptian bread, baba ghanoush and tahini, then grilled chicken or seasoned meat with aromatic rice and seasonal vegetables. Soft drinks and mineral water come with it.",
+     "sites": [],
+     "optional": [
+      {
+       "text": "Nile Feast lunch, on board or at a riverside restaurant: optional add-on, chosen at booking",
+       "cost": "extraCost"
+      }
+     ]
+    },
+    {
+     "title": "Back to the Corniche",
+     "glanceLabel": "Back at the Corniche",
+     "skipGlance": false,
+     "text": "The return leg follows the same river in reverse, back to the docking point on the Corniche roughly three hours after embarkation.",
+     "sites": [
+      "Aswan Corniche"
+     ]
+    }
+   ]
+  }
+ ],
+ "included": [
+  "Private felucca for your party, never shared with other guests",
+  "An English-speaking assistant",
+  "Pickup from your agreed meeting point and a short transfer to the Aswan Corniche",
+  "One bottle of mineral water per person",
+  "Tipping for your driver"
+ ],
+ "notIncluded": [
+  "Nile Feast lunch, on board or at a riverside restaurant, with soft drinks and mineral water: optional add-on, chosen at booking"
+ ],
+ "options": [
+  "Add the Nile Feast lunch, on board or at a riverside restaurant",
+  "Drift longer around the islands, or turn back early",
+  "Choose a morning or afternoon sail; the concierge can recommend the best window",
+  "Tell us how you'd like the three hours to feel"
+ ],
+ "timesSourced": false
+}

@@ -255,3 +255,109 @@ export const itineraryIntroSchema = defineType({
     prepare: ({ lang, review, opening }) => ({ title: `Journey intro — ${lang ?? '?'}`, subtitle: `${review === false ? 'approved' : 'needs review'} · ${opening ?? ''}` }),
   },
 });
+
+/**
+ * Day-tour format (owner brief, 2026-11-16): "Your day" as periods of stops.
+ * One row per period and language, in order. Times only where the product
+ * text gives them. Renders only when every period and the day-tour intro in
+ * that language are approved.
+ */
+export const dayTourPeriodSchema = defineType({
+  name: 'dayTourPeriod',
+  title: 'Part of the day',
+  type: 'object',
+  fields: [
+    defineField({ name: 'lang', title: 'Language', type: 'string', options: { list: LANGS, layout: 'radio', direction: 'horizontal' }, validation: (R) => R.required() }),
+    defineField({ name: 'period', title: 'Period', type: 'string', options: { list: ['morning', 'midday', 'afternoon', 'evening'] }, validation: (R) => R.required() }),
+    defineField({ name: 'periodLabel', title: 'Area / label (e.g. "The Giza Plateau")', type: 'string' }),
+    defineField({
+      name: 'stops',
+      title: 'Stops',
+      type: 'array',
+      of: [
+        {
+          type: 'object',
+          name: 'dayTourStop',
+          fields: [
+            defineField({ name: 'time', title: 'Time (only if the product text gives it, e.g. "09:00", "17:00–18:00")', type: 'string' }),
+            defineField({ name: 'title', title: 'Stop', type: 'string', validation: (R) => R.required() }),
+            defineField({ name: 'glanceLabel', title: 'Short name for "Your day at a glance" (defaults to the stop)', type: 'string' }),
+            defineField({ name: 'skipGlance', title: 'Leave out of "Your day at a glance" (e.g. the optional-extras stop)', type: 'boolean' }),
+            defineField({ name: 'text', title: 'Text (1–3 sentences)', type: 'text', rows: 3 }),
+            defineField({
+              name: 'sites',
+              title: 'Sites',
+              type: 'array',
+              of: [
+                {
+                  type: 'object',
+                  name: 'dayTourSite',
+                  fields: [
+                    defineField({ name: 'name', title: 'Name', type: 'string', validation: (R) => R.required() }),
+                    defineField({ name: 'guideRef', title: 'Guide / wiki page', type: 'reference', to: [{ type: 'guideArticle' }, { type: 'wikiMonument' }, { type: 'travelTip' }], weak: true }),
+                  ],
+                },
+              ],
+            }),
+            defineField({ name: 'includedNote', title: 'Included inside-visit line (e.g. "Inside a pyramid (included). …")', type: 'string' }),
+            defineField({
+              name: 'optional',
+              title: 'Optional extras at this point of the day',
+              type: 'array',
+              of: [
+                {
+                  type: 'object',
+                  name: 'dayTourOptional',
+                  fields: [
+                    defineField({ name: 'text', title: 'Text (as shown)', type: 'string', validation: (R) => R.required() }),
+                    defineField({ name: 'cost', title: 'Cost', type: 'string', options: { list: [{ title: 'Extra ticket', value: 'extraTicket' }, { title: 'Extra cost', value: 'extraCost' }] } }),
+                    defineField({ name: 'note', title: 'Note (e.g. the approved camel welfare line)', type: 'string' }),
+                  ],
+                },
+              ],
+            }),
+          ],
+          preview: { select: { time: 'time', title: 'title' }, prepare: ({ time, title }) => ({ title: [time, title].filter(Boolean).join(' · ') }) },
+        },
+      ],
+    }),
+    defineField({ name: 'source', title: 'Sources', type: 'text', rows: 2 }),
+    defineField({ name: 'needsReview', title: 'Needs review (the day-tour layout is hidden while on)', type: 'boolean', initialValue: true }),
+  ],
+  preview: {
+    select: { lang: 'lang', period: 'period', label: 'periodLabel', review: 'needsReview' },
+    prepare: ({ lang, period, label, review }) => ({ title: [period, label].filter(Boolean).join(' · '), subtitle: `${lang ?? '?'}${review === false ? '' : ' · needs review'}` }),
+  },
+});
+
+export const dayTourIntroSchema = defineType({
+  name: 'dayTourIntro',
+  title: 'Day-tour intro',
+  type: 'object',
+  fields: [
+    defineField({ name: 'lang', title: 'Language', type: 'string', options: { list: LANGS, layout: 'radio', direction: 'horizontal' }, validation: (R) => R.required() }),
+    defineField({ name: 'opening', title: 'Opening (2–3 sentences, no heading)', type: 'text', rows: 3 }),
+    defineField({ name: 'whyThisOrder', title: 'Why the day runs this way', type: 'text', rows: 4 }),
+    defineField({ name: 'pickupTime', title: 'Pickup time (only if the product text gives it)', type: 'string' }),
+    defineField({ name: 'returnNote', title: 'Back (e.g. "around 17:00–18:00, depending on your hotel\'s location")', type: 'string' }),
+    defineField({
+      name: 'lunch',
+      title: 'Lunch',
+      type: 'object',
+      fields: [
+        defineField({ name: 'status', title: 'Status', type: 'string', options: { list: [{ title: 'Included', value: 'included' }, { title: 'Not included', value: 'notIncluded' }, { title: 'Unknown', value: 'unknown' }] } }),
+        defineField({ name: 'text', title: 'Panel text (e.g. "included, at a local restaurant")', type: 'string' }),
+      ],
+    }),
+    defineField({ name: 'fitFor', title: 'A good fit if you…', type: 'array', of: [{ type: 'string' }] }),
+    defineField({ name: 'worthKnowing', title: 'Worth knowing', type: 'array', of: [{ type: 'string' }] }),
+    defineField({ name: 'closingLine', title: 'Closing line (italic)', type: 'string' }),
+    defineField({ name: 'closingRef', title: 'Essay block the closing line is (its _key; kept out of the expander)', type: 'string' }),
+    defineField({ name: 'source', title: 'Sources', type: 'text', rows: 3 }),
+    defineField({ name: 'needsReview', title: 'Needs review (the day-tour layout is hidden while on)', type: 'boolean', initialValue: true }),
+  ],
+  preview: {
+    select: { lang: 'lang', review: 'needsReview', opening: 'opening' },
+    prepare: ({ lang, review, opening }) => ({ title: `Day-tour intro — ${lang ?? '?'}`, subtitle: `${review === false ? 'approved' : 'needs review'} · ${opening ?? ''}` }),
+  },
+});

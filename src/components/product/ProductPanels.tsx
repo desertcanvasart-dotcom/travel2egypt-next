@@ -69,13 +69,13 @@ function Facts({ facts, className = '' }: { facts: PanelFact[]; className?: stri
   );
 }
 
-function FromRow({ fromEur, basis, onRequest }: { fromEur: number | null; basis: string; onRequest: string }) {
+function FromRow({ fromEur, basis, onRequest, note }: { fromEur: number | null; basis: string; onRequest: string; note?: string }) {
   return fromEur ? (
     <span className="pdp-from">
       <strong>
         <Price eur={fromEur} />
       </strong>
-      <small>{basis}</small>
+      <small>{note ? `${basis} · ${note}` : basis}</small>
     </span>
   ) : (
     <span className="pdp-from pdp-from--req">{onRequest}</span>
@@ -210,8 +210,14 @@ export async function DayHeroFacts({
   mobileLine,
   variant = 'day',
   durationDays = null,
+  fromNote,
+  afterFrom = [],
 }: Common & {
   facts: PanelFact[];
+  /** Day-tour format: shown after the per-person basis (e.g. "price depends on group size"). */
+  fromNote?: string;
+  /** Day-tour format: rows under From (children, pickup, back, lunch, guide language). */
+  afterFrom?: PanelFact[];
   fromEur: number | null;
   /** e.g. "Full day · Private" for the compact phone line. */
   mobileLine: string;
@@ -230,7 +236,11 @@ export async function DayHeroFacts({
   return (
     <div className="pdp-hf" aria-label={t('panelLabel')}>
       <Facts
-        facts={[...facts, { label: t('from'), value: <FromRow fromEur={fromEur} basis={multi ? t('basisPerPerson') : t('basisDay')} onRequest={t('priceOnRequest')} /> }]}
+        facts={[
+          ...facts,
+          { label: t('from'), value: <FromRow fromEur={fromEur} basis={multi ? t('basisPerPerson') : t('basisDay')} onRequest={t('priceOnRequest')} note={fromNote} /> },
+          ...afterFrom,
+        ]}
         className="pdp-facts--hero"
       />
       <p className="pdp-hf__line">

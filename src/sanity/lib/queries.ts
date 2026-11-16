@@ -380,6 +380,36 @@ export const tourBySlugQuery = (locale: Locale) => groq`
         },
       null
     ),
+    // Day-tour format (2026-11-16): the timeline and its intro, only when the
+    // intro AND every period in this language are approved.
+    "dayTourFormat": select(
+      count(dayTourIntro[lang == "${locale}" && needsReview == false]) > 0 &&
+      count(dayTimeline[lang == "${locale}"]) > 0 &&
+      count(dayTimeline[lang == "${locale}" && needsReview != false]) == 0
+        => {
+          "intro": dayTourIntro[lang == "${locale}" && needsReview == false][0]{
+            opening, whyThisOrder, pickupTime, returnNote, lunch, fitFor, worthKnowing, closingLine, closingRef
+          },
+          "periods": dayTimeline[lang == "${locale}"]{
+            period, periodLabel,
+            stops[]{
+              time, title, glanceLabel, skipGlance, text, includedNote,
+              optional[]{ text, cost, note },
+              sites[]{
+                name,
+                "ref": guideRef->{
+                  _type,
+                  "slug": ${localizedSlug('slug', locale)},
+                  "citySlug": select(_type == "guideArticle" => ${localizedSlug('parentCity->slug', locale)}, null)
+                }
+              }
+            }
+          }
+        },
+      null
+    ),
+    // Owner-rule panel rows (day tours) key on the cities' EN slugs.
+    "citySlugsEn": cities[]->slug[_key == "en"][0].value.current,
     // Right column (2026-11-11): the route renders only when EVERY leg in
     // this language is approved; options one by one.
     "approvedRoute": select(

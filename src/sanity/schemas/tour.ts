@@ -435,6 +435,23 @@ export const tourSchema = defineType({
       description: 'One row per language: opening, why this route works, stay and travel, who it suits.',
       of: [{ type: 'itineraryIntro' }],
     }),
+    // Day-tour format (2026-11-16): "Your day" timeline and its intro.
+    defineField({
+      name: 'dayTourIntro',
+      title: 'Day-tour intro (review-gated)',
+      type: 'array',
+      group: 'itinerary',
+      description: 'Day tours only. One row per language: opening, why the day runs this way, pickup / back / lunch, who it suits.',
+      of: [{ type: 'dayTourIntro' }],
+    }),
+    defineField({
+      name: 'dayTimeline',
+      title: 'Your day (review-gated)',
+      type: 'array',
+      group: 'itinerary',
+      description: 'Day tours only. One row per part of the day and language, in order. Renders when every row and the intro in that language are approved.',
+      of: [{ type: 'dayTourPeriod' }],
+    }),
     defineField({
       name: 'itineraryDays',
       title: 'Your days (review-gated)',

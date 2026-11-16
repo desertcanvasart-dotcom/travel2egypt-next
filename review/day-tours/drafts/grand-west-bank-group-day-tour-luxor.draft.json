@@ -1,0 +1,140 @@
+{
+ "slug": "grand-west-bank-group-day-tour-luxor",
+ "_id": "tour.grand-west-bank-group-day-tour-luxor",
+ "intro": {
+  "opening": "The full western circuit: the royal necropolis, the queens' tombs and the mortuary temples, on the side of the river where the dead were the architecture. This is the full-day version of the West Bank, five major sites in a single day, on a shared departure. It's the option for travellers who want one day on the West Bank rather than two.",
+  "whyThisOrder": "The West Bank is the side of the Nile the New Kingdom pharaohs built for the afterlife. The royal tombs were cut into the limestone of the Theban hills, and the mortuary temples placed at the cliff base. The day starts in the Valley of the Kings, moves a short drive south to the Valley of the Queens, then takes in the Colossi of Memnon, the Temple of Hatshepsut and Medinet Habu before the drive back to the East Bank.",
+  "pickupTime": "09:00",
+  "returnNote": "Drop-off at your hotel in the late afternoon",
+  "lunch": {
+   "status": "unknown",
+   "text": ""
+  },
+  "fitFor": [
+   "are giving Luxor only one West Bank day and want all five major sites covered",
+   "want one day on the West Bank rather than two"
+  ],
+  "worthKnowing": [
+   "Three tombs are the day's ration in the Valley of the Kings; the valley holds more. The tombs open follow a daily rotation set to manage conservation pressure.",
+   "Nefertari's tomb is available on request only. It carries an extra fee and sometimes needs a separate permit, so ask us when you book.",
+   "It's a full day, about eight hours.",
+   "Children under 12 pay half price."
+  ],
+  "closingLine": "The West Bank is where the New Kingdom buried its kings, its queens, and the architectural ambition that gave the New Kingdom its name.",
+  "closingRef": "000000000022"
+ },
+ "periods": [
+  {
+   "period": "morning",
+   "periodLabel": "The royal valleys",
+   "stops": [
+    {
+     "time": "09:00",
+     "title": "Pickup from your hotel",
+     "glanceLabel": "Pickup",
+     "skipGlance": false,
+     "text": "Pickup from your hotel in Luxor, then a fifteen-minute drive across the bridge to the West Bank."
+    },
+    {
+     "title": "The Valley of the Kings",
+     "glanceLabel": "Valley of the Kings",
+     "skipGlance": false,
+     "text": "The royal necropolis of the New Kingdom pharaohs, from Thutmose I to Ramses XI, used from the 16th to the 11th century BC. Sixty-three tombs have been identified.",
+     "sites": [
+      "Valley of the Kings"
+     ],
+     "includedNote": "Access to three tombs (included), on the daily rotation set to manage conservation pressure.",
+     "optional": [
+      {
+       "text": "Tutankhamun's tomb (KV62): additional ticket, available separately on site",
+       "cost": "extraTicket"
+      },
+      {
+       "text": "Seti I (KV17): additional ticket, available separately on site",
+       "cost": "extraTicket"
+      },
+      {
+       "text": "Ramses VI: extra ticket",
+       "cost": "extraTicket"
+      }
+     ]
+    },
+    {
+     "title": "The Valley of the Queens",
+     "glanceLabel": "Valley of the Queens",
+     "skipGlance": false,
+     "text": "A short drive south: the burial ground of the queens and royal children of the New Kingdom.",
+     "sites": [
+      "Valley of the Queens"
+     ],
+     "optional": [
+      {
+       "text": "The tomb of Nefertari (QV66): on request only, extra fee, sometimes a separate permit. Ask us when you book.",
+       "cost": "extraCost"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "period": "afternoon",
+   "periodLabel": "The mortuary temples",
+   "stops": [
+    {
+     "title": "The Colossi of Memnon",
+     "glanceLabel": "Colossi of Memnon",
+     "skipGlance": false,
+     "text": "Two seated quartzite figures of Amenhotep III, each around 18 metres tall, that once flanked the entrance to his mortuary temple, the largest ever built. A brief stop.",
+     "sites": [
+      "Colossi of Memnon"
+     ]
+    },
+    {
+     "title": "The Temple of Hatshepsut",
+     "glanceLabel": "Hatshepsut",
+     "skipGlance": false,
+     "text": "At Deir el-Bahari, set against an amphitheatre of vertical limestone cliffs. Three colonnaded terraces, designed by her architect Senenmut, rise toward a sanctuary cut into the cliff. The Punt expedition reliefs on the middle terrace are the centrepiece.",
+     "sites": [
+      "Temple of Hatshepsut",
+      "Deir el-Bahari"
+     ]
+    },
+    {
+     "title": "Medinet Habu",
+     "glanceLabel": "Medinet Habu",
+     "skipGlance": false,
+     "text": "Ramses III's mortuary temple, from around 1180 BC: the second-largest in Egypt after Karnak, and arguably the best-preserved. Reliefs of the Sea Peoples' invasion cover the outer walls, and the inner chambers keep pigment most other Ramesside sites have lost.",
+     "sites": [
+      "Medinet Habu"
+     ]
+    },
+    {
+     "title": "Back to your hotel",
+     "glanceLabel": "Back",
+     "skipGlance": false,
+     "text": "The drive back to the East Bank, with drop-off at your hotel in the late afternoon."
+    }
+   ]
+  }
+ ],
+ "included": [
+  "Shared group day tour",
+  "09:00 pickup from your hotel in Luxor, and drop-off at your hotel",
+  "Access to three tombs in the Valley of the Kings",
+  "A bottle of water per person",
+  "Tipping for your driver"
+ ],
+ "notIncluded": [
+  "Tutankhamun's tomb (KV62) and Seti I (KV17): additional tickets",
+  "Ramses VI: extra ticket",
+  "Nefertari's tomb: extra entry fee, sometimes a separate permit",
+  "Tipping for your guide: not obligatory, but recommended"
+ ],
+ "options": [
+  "Add Nefertari's tomb on request (extra fee, permit)",
+  "Add extra-ticket tombs such as KV62 and KV17",
+  "Pair with a Karnak and Luxor Temple East Bank day",
+  "Add a dawn balloon, or go at a private pace"
+ ],
+ "timesSourced": true
+}

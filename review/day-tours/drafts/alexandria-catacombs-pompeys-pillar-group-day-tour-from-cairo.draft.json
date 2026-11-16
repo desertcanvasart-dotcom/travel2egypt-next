@@ -1,0 +1,104 @@
+{
+  "slug": "alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+  "_id": "tour.alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+  "intro": {
+    "opening": "A long day north on the desert highway to the city Alexander founded in 331 BC. Almost none of ancient Alexandria is visible above ground, so the day reads what survives: the Catacombs of Kom el-Shoqafa, Pompey's Pillar, the Greco-Roman Museum and the Roman amphitheatre at Kom el-Dikka. Back in Cairo by evening.",
+    "whyThisOrder": "The modern city was built directly over the ancient one, and what survives is what was underground, too heavy to move, excavated below street level, or collected since. Four sites tell one story about a city's afterlife. The drive is roughly 220 kilometres each way, around two and a half to three hours in normal traffic, so the day starts early and reaches Alexandria mid-morning.",
+    "returnNote": "Drop-off at your hotel in Cairo in the evening.",
+    "lunch": {
+      "status": "unknown",
+      "text": ""
+    },
+    "fitFor": [
+      "are reading Egypt's Greco-Roman and late-antique chapter, the city that survives mostly underground"
+    ],
+    "worthKnowing": [
+      "It's about 13 hours, and as a day-return from Cairo it's genuinely long.",
+      "The drive is around two and a half to three hours each way in normal traffic.",
+      "The Greco-Roman Museum has had phased restoration; your guide will tell you which galleries are open on the day.",
+      "The lowest level of the catacombs is periodically flooded.",
+      "Children under 12 pay half price."
+    ],
+    "closingLine": "One long day from Cairo is enough to read what is left.",
+    "closingRef": "000000000021"
+  },
+  "periods": [
+    {
+      "period": "morning",
+      "periodLabel": "The drive north and Kom el-Shoqafa",
+      "stops": [
+        {
+          "title": "Early departure from Cairo",
+          "glanceLabel": "Departure",
+          "skipGlance": false,
+          "text": "An early start on the Cairo-Alexandria Desert Highway, roughly 220 kilometres, around two and a half to three hours in normal traffic, in an air-conditioned vehicle. The schedule allows arrival in Alexandria mid-morning.",
+          "sites": []
+        },
+        {
+          "title": "The Catacombs of Kom el-Shoqafa",
+          "glanceLabel": "Kom el-Shoqafa",
+          "skipGlance": false,
+          "text": "The largest known Greco-Roman burial complex in Egypt, found in 1900 when a donkey fell through a collapsed passage, cut into bedrock on three descending levels. Egyptian funerary deities, Anubis, Sobek and Thoth, are rendered in Hellenistic and Roman style, including the famous panel of Anubis in Roman armour.",
+          "sites": ["Catacombs of Kom el-Shoqafa"]
+        }
+      ]
+    },
+    {
+      "period": "afternoon",
+      "periodLabel": "Greco-Roman Alexandria",
+      "stops": [
+        {
+          "title": "Pompey's Pillar and the Serapeum",
+          "glanceLabel": "Pompey's Pillar",
+          "skipGlance": false,
+          "text": "A 26.85-metre monolithic column of red Aswan granite, erected in 297 AD in honour of the Emperor Diocletian; the name is a medieval mistake. It marks the centre of the destroyed Serapeum, the temple of Serapis. The temple was destroyed in 391 AD; the column survived.",
+          "sites": ["Pompey's Pillar", "Serapeum"]
+        },
+        {
+          "title": "The Greco-Roman Museum",
+          "glanceLabel": "Greco-Roman Museum",
+          "skipGlance": false,
+          "text": "Objects from roughly 300 BC through the seventh century AD: portrait sculpture, terracotta figurines, papyrus fragments, coins, sarcophagi. The museum has had phased restoration; your guide will tell you which galleries are open on the day.",
+          "sites": ["Greco-Roman Museum"]
+        },
+        {
+          "title": "The Roman Amphitheatre at Kom el-Dikka",
+          "glanceLabel": "Kom el-Dikka",
+          "skipGlance": false,
+          "text": "The only excavated Roman-period theatre in Egypt, built in the fourth century AD, with thirteen tiers of white marble seating around a small orchestra. Around it, Roman housing, bath complexes and lecture halls: the actual texture of late antique Alexandria.",
+          "sites": ["Roman Amphitheatre at Kom el-Dikka"]
+        }
+      ]
+    },
+    {
+      "period": "evening",
+      "periodLabel": "Back to Cairo",
+      "stops": [
+        {
+          "title": "Return drive to Cairo",
+          "glanceLabel": "Back",
+          "skipGlance": false,
+          "text": "The return drive to Cairo, with drop-off at your hotel in the evening.",
+          "sites": []
+        }
+      ]
+    }
+  ],
+  "included": [
+    "A guide in your language (English)",
+    "Transport in an air-conditioned vehicle",
+    "Pickup from your hotel in Cairo or Giza, including Cairo airport hotels",
+    "Drop-off at your hotel in the evening",
+    "A bottle of water per person",
+    "Tipping for your driver"
+  ],
+  "notIncluded": [
+    "Tipping for your guide: not obligatory, but recommended",
+    "Pickup from New Cairo, the New Administrative Capital, Sheikh Zayed or 6th of October: extra charge"
+  ],
+  "options": [
+    "Make it an overnight with a seafront stay",
+    "Book a private return trip built around your wishes, such as the fortress, the new Library or a fish lunch by the harbour"
+  ],
+  "timesSourced": false
+}

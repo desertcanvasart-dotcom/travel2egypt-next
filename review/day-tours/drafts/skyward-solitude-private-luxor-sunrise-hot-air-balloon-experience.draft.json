@@ -1,0 +1,77 @@
+{
+ "slug": "skyward-solitude-private-luxor-sunrise-hot-air-balloon-experience",
+ "_id": "wp-page-133463",
+ "intro": {
+  "opening": "The West Bank from a thousand feet up, at the moment the cliff face above the Valley of the Kings catches the first light. From the ground it is a series of separate visits; from a hot-air balloon at sunrise, it is one map. Thirty minutes of flight, two to three hours from pickup to drop-off.",
+  "whyThisOrder": "The sun sets the schedule: the flights launch with the sun, so pickup is well before dawn and the briefing and inflation take place in the dark. The weather holds the veto, and a flight can be postponed on the morning itself. We usually pair the flight with the standard West Bank day, so the ground-level visits arrive with the aerial map already in your head.",
+  "returnNote": "Back at your hotel or boat; the full trip from pickup to drop-off is two to three hours",
+  "fitFor": [
+   "are spending a full day on the West Bank and want the landscape's geography legible before you walk it",
+   "want to see the Nile at first light from above"
+  ],
+  "worthKnowing": [
+   "Flyers must be eighteen or over.",
+   "The flight is weather-dependent and can be postponed on the morning itself. If your dates have any slack, tell us which mornings could work.",
+   "Pickup is well before dawn. The flight itself is roughly thirty minutes; the whole trip is two to three hours.",
+   "The direction of the flight depends on the morning's wind."
+  ],
+  "closingLine": "The line between green and yellow is where the Nile flood used to stop. Everything you came for is on the yellow side.",
+  "closingRef": "000000000015"
+ },
+ "periods": [
+  {
+   "period": "morning",
+   "periodLabel": "Over the West Bank",
+   "stops": [
+    {
+     "title": "Pickup from your hotel or Nile boat",
+     "glanceLabel": "Pre-dawn pickup",
+     "skipGlance": false,
+     "text": "Pickup is well before dawn, because the flights launch with the sun. You're collected from your Luxor hotel or your moored Nile boat.",
+     "sites": []
+    },
+    {
+     "title": "Ferry to the West Bank launch field",
+     "glanceLabel": "Launch field",
+     "skipGlance": false,
+     "text": "You ride a small ferry across the Nile to the launch field on the West Bank, where the ground crew is already inflating the envelope. The pilot runs a short safety briefing while the basket is held to the ground.",
+     "sites": []
+    },
+    {
+     "title": "Sunrise balloon flight over the West Bank",
+     "glanceLabel": "Balloon flight",
+     "skipGlance": false,
+     "text": "Ascent comes as the sky begins to brighten, and within a minute or two you're at flying altitude, typically 300–500 metres, depending on wind. As the light comes up: the green edge of the cultivated band against the desert, then the Colossi of Memnon, Hatshepsut's terraced temple, the valley leading to the Valley of the Kings, and the Nile and Karnak beyond. The flight lasts roughly thirty minutes.",
+     "sites": [
+      "Colossi of Memnon",
+      "Temple of Hatshepsut at Deir el-Bahari",
+      "Valley of the Kings",
+      "Karnak"
+     ]
+    },
+    {
+     "title": "Landing and return to the East Bank",
+     "glanceLabel": "Back to hotel or boat",
+     "skipGlance": false,
+     "text": "Landing is on agricultural land, with the chase vehicles already in position. A short return ferry brings you back to the East Bank, and a transfer returns you to your hotel or boat.",
+     "sites": []
+    }
+   ]
+  }
+ ],
+ "included": [
+  "Private hot-air balloon flight, roughly thirty minutes",
+  "Pre-dawn pickup from your Luxor hotel or your moored Nile boat",
+  "All transportation, including the transfer to the launch field on the West Bank",
+  "A short pre-flight briefing",
+  "Light refreshments",
+  "A celebratory glass of sparkling juice",
+  "A souvenir certificate"
+ ],
+ "notIncluded": [],
+ "options": [
+  "Pair the flight with the standard West Bank day; our concierge can sequence both",
+  "Give us flexible mornings, so a postponed flight still has somewhere to go"
+ ],
+ "timesSourced": false
+}

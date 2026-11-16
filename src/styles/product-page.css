@@ -131,6 +131,28 @@
   .pdp-day__rows > div { grid-template-columns: 1fr; gap: 0; }
 }
 
+/* Day-tour format (2026-11-16) */
+.pdp-period { margin-top: 28px; }
+.lvl-single .body .pdp-period__h { font-family: var(--ui); font-weight: 500; font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--gold-dark); margin: 0 0 4px; padding-top: 18px; border-top: 1px solid var(--rule); }
+.pdp-stops { list-style: none; margin: 0; padding: 0; }
+.pdp-stop { padding: 14px 0 4px; }
+.lvl-single .body .pdp-stop__h { font-family: var(--display); font-size: clamp(20px, 2vw, 24px); line-height: 1.25; color: var(--navy); margin: 0 0 8px; }
+.pdp-stop__time { font-family: var(--ui); font-size: 15px; font-weight: 500; color: var(--gold-dark); letter-spacing: .02em; }
+.lvl-single .body .pdp-stop p { margin: 0 0 10px; }
+.lvl-single .body .pdp-stop__sites { font-family: var(--ui); font-size: 14.5px; color: var(--navy); }
+.pdp-stop__sites em { font-style: normal; color: var(--navy-mute); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; margin-right: 6px; }
+.pdp-stop__sites a { color: inherit; text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 3px; }
+.pdp-stop__sites a:hover { color: var(--gold-dark); text-decoration-color: currentColor; }
+.lvl-single .body .pdp-stop__incl { font-family: var(--ui); font-size: 14.5px; padding: 10px 14px; background: var(--paper-warm); border-left: 2px solid var(--gold); }
+.pdp-stop__opt { margin: 0 0 10px; padding: 10px 14px 10px 32px; background: var(--paper-warm); border-left: 2px solid var(--gold); font-family: var(--ui); font-size: 14.5px; list-style: disc; }
+.pdp-stop__opt li { margin: 3px 0; }
+.pdp-dayline .pdp-more { margin-top: 24px; }
+.pdp-more__body h2 { font-size: 22px !important; margin: 18px 0 8px !important; }
+.pdp-daytour .pdp-itin__closing { margin-top: 36px; }
+.pdp-dayglance .pdp-route__name { font-size: 17px; }
+.pdp-dayglance__time { display: inline-block; min-width: 6.4em; margin-right: 8px; font-family: var(--ui); font-size: 12.5px; color: var(--gold-dark); letter-spacing: .02em; }
+.pdp-dayglance .pdp-route__leg { min-height: 16px; }
+
 /* Mid-page buttons + details moved out of the old rail */
 .pdp-mid { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 22px; margin: 44px 0 0; }
 .pdp-mid .pdp-btn { width: auto; display: inline-block; padding: 12px 22px; }

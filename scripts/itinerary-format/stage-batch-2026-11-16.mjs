@@ -20,7 +20,7 @@ import { readFileSync } from 'node:fs';
 const args = process.argv.slice(2);
 const apply = args.includes('--apply');
 const files = args.filter((a) => !a.startsWith('--'));
-const client = createClient({ projectId: 'ufallvd2', dataset: 'production', apiVersion: '2024-01-01', token: process.env.SANITY_API_WRITE_TOKEN, useCdn: false });
+const client = createClient({ projectId: 'ufallvd2', dataset: 'production', apiVersion: '2024-01-01', token: process.env.SANITY_PRODUCTION_API_WRITE_TOKEN ?? process.env.SANITY_API_WRITE_TOKEN, useCdn: false });
 
 const block = (text, i) => ({ _key: `p${i}`, _type: 'block', style: 'normal', markDefs: [], children: [{ _key: `s${i}`, _type: 'span', text, marks: [] }] });
 const keyed = (arr, prefix, map) => (arr ?? []).filter(Boolean).map((x, i) => ({ _key: `${prefix}${i}`, ...map(x) }));

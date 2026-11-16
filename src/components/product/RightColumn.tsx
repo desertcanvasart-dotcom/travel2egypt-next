@@ -52,6 +52,35 @@ export async function YourRoute({ locale, legs }: { locale: Locale; legs: RouteL
   );
 }
 
+/**
+ * Day tours (2026-11-16): "Your day at a glance", the route graphic's markup
+ * with one stop per line (time, if sourced, then the stop). Approved timeline only.
+ */
+export async function YourDayAtAGlance({ locale, items }: { locale: Locale; items: Array<{ time?: string | null; label: string }> }) {
+  if (!items.length) return null;
+  const t = await getTranslations({ locale, namespace: 'productPanel' });
+  return (
+    <section className="pdp-rc pdp-route pdp-dayglance" aria-labelledby="pdp-dayglance-h">
+      <h2 id="pdp-dayglance-h" className="pdp-rc__h">{t('dayAtAGlance')}</h2>
+      <ol className="pdp-route__list">
+        {items.map((it, i) => (
+          <li key={i} className="pdp-route__stop">
+            <span className="pdp-route__name">
+              {it.time && <span className="pdp-dayglance__time">{it.time}</span>}
+              {it.label}
+            </span>
+            {i < items.length - 1 && (
+              <span className="pdp-route__leg">
+                <span className="pdp-route__line" aria-hidden="true" />
+              </span>
+            )}
+          </li>
+        ))}
+      </ol>
+    </section>
+  );
+}
+
 /** §3 — 1–4 approved options and "Ask about changes →" (opens the Customise dialog). */
 export async function MakeItYourOwn({
   locale,

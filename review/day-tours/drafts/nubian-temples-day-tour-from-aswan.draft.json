@@ -1,0 +1,110 @@
+{
+ "slug": "nubian-temples-day-tour-from-aswan",
+ "_id": "tour.nubian-temples-day-tour-from-aswan",
+ "intro": {
+  "opening": "The temples south of the Aswan High Dam are not where they used to be. When Lake Nasser was filled in the late 1960s, several Nubian monuments were saved: cut into blocks, lifted and reassembled on higher ground. On New Kalabsha island, just upstream of the dam, you visit three of them: the Temple of Kalabsha, the rock-cut Temple of Beit el-Wali and the small Roman-period Kiosk of Kertassi.",
+  "whyThisOrder": "On the island, the guide takes the three structures in sequence. Kalabsha comes first, because it's the largest and the longest visit. Then Beit el-Wali, about twenty minutes for the painted reliefs, and last the Kertassi kiosk at the water's edge for the closing photograph.",
+  "returnNote": "Hotel drop-off by early afternoon",
+  "lunch": {
+   "status": "unknown"
+  },
+  "fitFor": [
+   "are already in Aswan and want the quieter UNESCO-rescue chapter that Abu Simbel usually crowds out",
+   "want a half day to go with Philae or Abu Simbel",
+   "like a short crossing and thin crowds"
+  ],
+  "worthKnowing": [
+   "This is a shared-departure group tour.",
+   "The crossing to the island is by motor boat, roughly fifteen minutes across open water.",
+   "The temples are intact in form, but the setting is engineered: a man-made island in a man-made lake, with the dam wall visible to the north.",
+   "You spend roughly two to two and a half hours on the island.",
+   "Children under 12 pay half price."
+  ],
+  "closingLine": "Half a day on the new island is enough to give them their own chapter.",
+  "closingRef": "000000000019"
+ },
+ "periods": [
+  {
+   "period": "morning",
+   "periodLabel": "New Kalabsha island",
+   "stops": [
+    {
+     "title": "Pickup from your hotel in Aswan",
+     "glanceLabel": "Pickup",
+     "skipGlance": false,
+     "text": "A short drive south through the city to the dock just above the High Dam.",
+     "sites": [
+      "Aswan High Dam"
+     ]
+    },
+    {
+     "title": "Motor-boat crossing to New Kalabsha island",
+     "glanceLabel": "Boat to New Kalabsha",
+     "skipGlance": false,
+     "text": "Roughly fifteen minutes across open water, with the dam wall to one side.",
+     "sites": [
+      "Lake Nasser",
+      "New Kalabsha island"
+     ]
+    },
+    {
+     "title": "The Temple of Kalabsha",
+     "glanceLabel": "Kalabsha",
+     "skipGlance": false,
+     "text": "The first and longest visit. Augustus built it around 30 BC over the foundations of an older Ptolemaic temple, for the Nubian deity Mandulis, a local form of Horus. It's the largest free-standing Nubian temple outside Abu Simbel.",
+     "sites": [
+      "Temple of Kalabsha"
+     ]
+    },
+    {
+     "title": "The Temple of Beit el-Wali",
+     "glanceLabel": "Beit el-Wali",
+     "skipGlance": false,
+     "text": "About twenty minutes at a small rock-cut chapel built by Ramses II in the early thirteenth century BC. Its reliefs of his Nubian campaigns keep unusual pigment.",
+     "sites": [
+      "Temple of Beit el-Wali"
+     ]
+    },
+    {
+     "title": "The Kiosk of Kertassi",
+     "glanceLabel": "Kertassi kiosk",
+     "skipGlance": false,
+     "text": "What remains of a Roman-period rest-station: four columns and a graceful entablature at the water's edge. This is the stop for the closing photograph.",
+     "sites": [
+      "Kiosk of Kertassi"
+     ]
+    }
+   ]
+  },
+  {
+   "period": "afternoon",
+   "periodLabel": "Back to Aswan",
+   "stops": [
+    {
+     "title": "Boat back to the dock and drive to your hotel",
+     "glanceLabel": "Back to your hotel",
+     "skipGlance": false,
+     "text": "The boat returns to the dock, then it's a short drive back into central Aswan. Hotel drop-off by early afternoon.",
+     "sites": []
+    }
+   ]
+  }
+ ],
+ "included": [
+  "Shared-departure group tour",
+  "A licensed guide in your language (English, Spanish or Japanese)",
+  "Morning pickup from your hotel in Aswan, and drop-off back at your hotel",
+  "Motor-boat crossing to New Kalabsha island and back",
+  "A bottle of water per person",
+  "Tipping for your driver"
+ ],
+ "notIncluded": [
+  "Tipping for your guide: not obligatory, but recommended"
+ ],
+ "options": [
+  "Pair it with Philae the same afternoon",
+  "Ask about lunch in a Nubian village on the way back",
+  "Time the boat around your Aswan hotel or your Nile cruise berth"
+ ],
+ "timesSourced": false
+}
