@@ -1,0 +1,276 @@
+{
+  "slug": "10-day-egypt-travel-journey-through-history",
+  "_id": "wp-page-156539",
+  "intro": {
+    "opening": "A private ten-day journey through Cairo's older layers, Alexandria, Abu Simbel and the temples of Luxor, with the pyramids, the Sphinx and the Egyptian Museum reserved for the closing day. Most Egypt itineraries open with Giza; this one does not. You see the country first, then the headline.",
+    "whyRoute": "Arriving at Giza on day one risks turning everything that follows into descent, so the route is built around a reversal. Cairo opens not at Giza but at the layers around it: the first capital at Memphis, the earliest pyramid at Saqqara, the Coptic churches inside the Roman Babylon Fortress, and the Citadel of Saladin. Alexandria gets day three, while you are still fresh and before the deeper south claims your attention. A morning flight takes you to Aswan and the road to Abu Simbel; Luxor follows, with two days on either side of the river and a sunrise hot air balloon over the West Bank. The sleeper train carries you north for a single closing day: the pyramids, the Egyptian Museum on Tahrir, Khan el-Khalili and Al-Muizz Street.",
+    "whyRouteRefs": [
+      "000000000003",
+      "000000000005",
+      "000000000007",
+      "000000000009",
+      "00000000002d",
+      "00000000002f",
+      "000000000031",
+      "000000000033"
+    ],
+    "closingLine": "Ten days that save for last what most itineraries put first. By the time you reach Giza, you have seen the country that produced it.",
+    "closingRef": "00000000002b",
+    "stayAndTravel": {
+      "hotels": "Five-star accommodation throughout: three nights in Cairo at the start, two in Aswan, two in Luxor, and a final night in Cairo.",
+      "train": "The overnight sleeper train from Luxor to Cairo, in a private cabin with two berths, with dinner and breakfast on board.",
+      "flight": "A morning domestic flight from Cairo to Aswan on day four.",
+      "road": "Road journeys from Aswan to Abu Simbel and back, and from Aswan to Luxor; a day on the desert highway from Cairo to Alexandria and back.",
+      "everyDay": "Your own Egyptologist guide and private transfers throughout. The journey is fully private: one departure, operated for your party alone."
+    },
+    "fitFor": [
+      "are visiting Egypt for the first time and would rather not front-load the pyramids",
+      "prefer the night train to a fifth flight",
+      "want Giza as the closing experience rather than the opening one"
+    ],
+    "worthKnowing": [
+      "Day 2 is deliberately full: Memphis, Saqqara, the Coptic quarter and the Citadel in one day.",
+      "Day 5 is the longest single day of the trip, with the road to Abu Simbel running roughly 280 km south of Aswan and back.",
+      "Day 6 is a travelling day, roughly four hours by road from Aswan to Luxor.",
+      "Day 7 starts before dawn, for the sunrise balloon.",
+      "Day 9 is long and charged: you arrive by sleeper train in the morning and see Giza, the Egyptian Museum, Khan el-Khalili and Al-Muizz Street the same day."
+    ],
+    "makeItYoursIntro": "A private journey is built around your party, not the other way around. Common changes:"
+  },
+  "days": [
+    {
+      "day": 1,
+      "place": "Cairo",
+      "title": "Arrival, airport transfer and hotel check-in",
+      "body": [
+        "Day one is given to arrival: an airport transfer, hotel check-in and a gentle introduction to Cairo's atmosphere. The city is loud and layered, and not best met after a long flight, so there's no sightseeing today. The first evening is for rest."
+      ],
+      "overnight": "Cairo hotel",
+      "travel": "Private airport transfer and hotel check-in",
+      "pace": "Gentle; the first evening is for rest",
+      "narrativeRefs": [
+        "00000000000d"
+      ],
+      "continuesInDay": null
+    },
+    {
+      "day": 2,
+      "place": "Cairo",
+      "title": "Memphis, Saqqara, the Coptic quarter and the Citadel",
+      "segments": [
+        {
+          "label": "morning",
+          "heading": "Memphis and Saqqara",
+          "text": "The day reaches south of the city to where pyramid-building began. Memphis was the first capital of a unified Egypt, and its open-air museum keeps the colossal fallen statue of Ramses II and the great alabaster sphinx. At Saqqara stands the Step Pyramid of Djoser, built around 2650 BC under the architect Imhotep: the oldest large stone structure in the world, and the building in which the pyramid form was invented."
+        },
+        {
+          "label": "afternoon",
+          "heading": "The Coptic quarter and the Citadel",
+          "text": "Back in central Cairo, the Coptic quarter: the Hanging Church, suspended above the gatehouse of Babylon Fortress, the fifth-century Coptic Orthodox church of Saint Sergius, and the Ben Ezra Synagogue, one of the oldest in Egypt. Then up to the Citadel of Saladin on the Muqattam hills, begun in 1176 to defend Cairo and Fustat, with the nineteenth-century Mosque of Muhammad Ali at its centre. From its walls the modern city unfolds in every direction."
+        }
+      ],
+      "sites": [
+        "Memphis",
+        "Saqqara",
+        "Step Pyramid of Djoser",
+        "Hanging Church",
+        "Church of Saint Sergius",
+        "Ben Ezra Synagogue",
+        "Citadel of Saladin",
+        "Mosque of Muhammad Ali"
+      ],
+      "overnight": "Cairo hotel",
+      "travel": "Private transfers",
+      "pace": "A deliberately full day",
+      "narrativeRefs": [
+        "00000000000f"
+      ],
+      "continuesInDay": null
+    },
+    {
+      "day": 3,
+      "place": "Cairo → Alexandria → Cairo",
+      "title": "Kom el-Shoqafa, Pompey's Pillar, the Greco-Roman Museum and the Bibliotheca Alexandrina",
+      "body": [
+        "The desert highway runs north to Alexandria, founded by Alexander the Great in 331 BC and, under the Ptolemies, the intellectual capital of the ancient world. It feels Mediterranean rather than Nilotic, Greek and Roman in its architectural memory.",
+        "The Catacombs of Kom el-Shoqafa, a Roman-era burial complex of the first century AD, blend Egyptian, Greek and Roman traditions in a single underground space. Pompey's Pillar, actually a column raised in honour of Diocletian in AD 297, stands above the ancient acropolis. The Greco-Roman Museum holds the city's classical antiquities, and the Bibliotheca Alexandrina, built on the site of the ancient library, is a tilted disc of Aswan granite inscribed with scripts from around the world. Lunch is seafood on the waterfront, and you return to Cairo in the evening."
+      ],
+      "sites": [
+        "Catacombs of Kom el-Shoqafa",
+        "Pompey's Pillar",
+        "Greco-Roman Museum",
+        "Bibliotheca Alexandrina"
+      ],
+      "overnight": "Cairo hotel",
+      "meals": [
+        {
+          "meal": "lunch",
+          "note": "seafood on the waterfront"
+        }
+      ],
+      "travel": "Private transfers by the desert highway, Cairo → Alexandria, returning to Cairo in the evening",
+      "pace": "A comfortable pace",
+      "narrativeRefs": [
+        "000000000013",
+        "000000000015"
+      ],
+      "continuesInDay": null
+    },
+    {
+      "day": 4,
+      "place": "Cairo → Aswan",
+      "title": "Flight to Aswan, the High Dam and Philae Temple",
+      "body": [
+        "A morning flight takes you south to Aswan, Egypt's southernmost major city: golden light, granite outcrops, Nubian culture and a calm Nile after the urgency of Cairo. The first stop is the High Dam, completed in 1970, which reshaped the hydrology of Egypt and created the largest artificial lake in the world, at the cost of submerged Nubian villages, lost annual sediment and relocated monuments. In the afternoon a short boat ride crosses to Philae Temple on Agilkia Island, moved there between 1972 and 1980 to save it from rising water. Dedicated to Isis, it was one of the goddess's last functioning sanctuaries, closed by Byzantine decree only in the sixth century AD."
+      ],
+      "sites": [
+        "Aswan High Dam",
+        "Philae Temple"
+      ],
+      "overnight": "Aswan hotel",
+      "travel": "Morning domestic flight Cairo → Aswan · private transfers · short boat ride to Philae",
+      "narrativeRefs": [
+        "000000000019"
+      ],
+      "continuesInDay": null
+    },
+    {
+      "day": 5,
+      "place": "Aswan → Abu Simbel → Aswan",
+      "title": "The road to the Abu Simbel temples",
+      "body": [
+        "The road to Abu Simbel runs roughly 280 km south of Aswan, along the western shore of Lake Nasser through open Nubian desert. Ramses II had the two temples carved directly into a sandstone cliff in the thirteenth century BC: the Great Temple, fronted by four seated figures of the king each twenty metres high, and the smaller Temple of Nefertari. Between 1964 and 1968, with Lake Nasser rising, an international campaign cut them into 807 numbered blocks and rebuilt them 65 metres higher and 200 metres back from the water. The sanctuary still illuminates twice a year, around 22 February and 22 October. The drive then returns to Aswan for a restful evening."
+      ],
+      "sites": [
+        "Great Temple of Abu Simbel",
+        "Temple of Nefertari"
+      ],
+      "overnight": "Aswan hotel",
+      "travel": "Road journey Aswan → Abu Simbel, roughly 280 km, and back to Aswan",
+      "pace": "The longest single day of the trip, with a restful evening",
+      "narrativeRefs": [
+        "00000000001b"
+      ],
+      "continuesInDay": null
+    },
+    {
+      "day": 6,
+      "place": "Aswan → Luxor",
+      "title": "The road north along the Nile to Luxor",
+      "body": [
+        "A travelling day. The road from Aswan to Luxor follows the Nile north for roughly four hours. There's the option to stop on the way at the Temple of Horus at Edfu, built between 237 and 57 BC and the most completely preserved temple in Egypt, and at the double temple of Kom Ombo, dedicated to Sobek the crocodile god and Horus the Elder at once, with mummified crocodiles in its galleries. You reach Luxor in the afternoon, and the evening is free: ancient Thebes was the religious capital of the New Kingdom, and it deserves a quiet first night."
+      ],
+      "overnight": "Luxor hotel",
+      "travel": "Road journey Aswan → Luxor, roughly four hours",
+      "pace": "A travelling day; the evening is free",
+      "narrativeRefs": [
+        "00000000001f"
+      ],
+      "continuesInDay": null
+    },
+    {
+      "day": 7,
+      "place": "Luxor",
+      "title": "Sunrise balloon over the West Bank, the Valley of the Kings, Hatshepsut's temple and the Colossi of Memnon",
+      "body": [
+        "The day starts before dawn with a hot air balloon over the West Bank. Sunrise is the only practical time for ballooning here, as the winds are calmest before the heat builds. From above you see the West Bank as a whole: the Valley of the Kings cut into the desert cliffs, Hatshepsut's mortuary temple stepped against the same cliff face, green fields running to the Nile, and the Colossi of Memnon in their farmland.",
+        "Back on the ground, you visit each of those sites: the Valley of the Kings with its painted tombs cut into the limestone, Hatshepsut's three colonnaded terraces at Deir el-Bahri, and the two seated colossi of Amenhotep III that mark what was once the largest mortuary temple in Thebes."
+      ],
+      "sites": [
+        "Hot air balloon over the West Bank",
+        "Valley of the Kings",
+        "Temple of Hatshepsut",
+        "Colossi of Memnon"
+      ],
+      "overnight": "Luxor hotel",
+      "travel": "Private transfers",
+      "pace": "Starts before dawn",
+      "narrativeRefs": [
+        "000000000021"
+      ],
+      "continuesInDay": null
+    },
+    {
+      "day": 8,
+      "place": "Luxor → sleeper train",
+      "title": "Karnak, Luxor Temple and the sleeper train to Cairo",
+      "body": [
+        "The day crosses to the East Bank, the living side of ancient Thebes. The main subject is Karnak, the temple complex built and extended by successive pharaohs across roughly 1,500 years. Its Great Hypostyle Hall has 134 massive columns covering more than 5,000 square metres, the tallest 21 metres high. Luxor Temple, smaller and more elegant, sits in the heart of the modern city and is best seen in the late afternoon or early evening, when the columns hold warm light. In the evening you transfer to Luxor railway station for the sleeper train to Cairo: a private cabin with two berths, with dinner and breakfast on board."
+      ],
+      "sites": [
+        "Karnak",
+        "Luxor Temple"
+      ],
+      "overnight": "Sleeper train",
+      "meals": [
+        {
+          "meal": "dinner",
+          "note": "on the train"
+        }
+      ],
+      "travel": "Private transfers · transfer to Luxor railway station · overnight sleeper train Luxor → Cairo, private cabin with two berths",
+      "narrativeRefs": [
+        "000000000023"
+      ],
+      "continuesInDay": null
+    },
+    {
+      "day": 9,
+      "place": "Cairo",
+      "title": "Giza, the Egyptian Museum, Khan el-Khalili and Al-Muizz Street",
+      "segments": [
+        {
+          "label": "morning",
+          "heading": "Giza",
+          "text": "The sleeper train arrives in Cairo in the morning. After a hotel transfer and breakfast, the day begins at Giza: the Great Pyramid of Khufu, the Pyramid of Khafre with its remaining apex casing, the smaller Pyramid of Menkaure, and the Sphinx crouched below them, all built around 2500 BC. By now you have seen Memphis, Saqqara, the temples of Luxor and the Nubian shore, and the pyramids read as the apex of a building tradition you have watched develop."
+        },
+        {
+          "label": "afternoon",
+          "heading": "The Egyptian Museum, Khan el-Khalili and Al-Muizz Street",
+          "text": "The afternoon continues to the Egyptian Museum on Tahrir Square, opened in 1902, with pharaonic antiquities from the Narmer Palette to the gold of the Tanis royal tombs. From there to Khan el-Khalili, the bazaar quarter that has traded continuously since the Mamluk sultan Barquq established it in 1382, and along Al-Muizz Street, the city's medieval spine, lined with mosques, madrasas and Mamluk-era facades."
+        }
+      ],
+      "sites": [
+        "Great Pyramid of Khufu",
+        "Pyramid of Khafre",
+        "Pyramid of Menkaure",
+        "Sphinx",
+        "Egyptian Museum (Tahrir)",
+        "Khan el-Khalili",
+        "Al-Muizz Street"
+      ],
+      "overnight": "Cairo hotel",
+      "meals": [
+        {
+          "meal": "breakfast",
+          "note": "on the train"
+        }
+      ],
+      "travel": "Arrive by sleeper train · private transfer to the hotel · private transfers",
+      "pace": "A long, charged day",
+      "narrativeRefs": [
+        "000000000027",
+        "000000000029"
+      ],
+      "continuesInDay": null
+    },
+    {
+      "day": 10,
+      "place": "Cairo",
+      "title": "Departure",
+      "body": [
+        "The final day is the airport transfer for your departure flight."
+      ],
+      "overnight": null,
+      "travel": "Private airport transfer for the departure flight",
+      "continuesInDay": 9
+    }
+  ],
+  "options": [
+    "Stop at Edfu and Kom Ombo on the drive to Luxor",
+    "Add a Nile cruise between Luxor and Aswan",
+    "Spend more time at Alexandria",
+    "Pace the closing day differently"
+  ],
+  "excludedSeeDay": {}
+}

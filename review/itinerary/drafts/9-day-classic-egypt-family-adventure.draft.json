@@ -1,0 +1,205 @@
+{
+  "slug": "9-day-classic-egypt-family-adventure",
+  "_id": "wp-page-113005",
+  "intro": {
+    "opening": "A private, family-paced run at Egypt's classic itinerary: Cairo, a Nile cruise from Luxor to Aswan, and Cairo again. What families need is not a simplified Egypt but a paced one, with a structure that alternates intensity with recovery and gives children something to do with their hands as well as their eyes.",
+    "whyRoute": "The journey moves through three registers: Cairo and the Giza plateau to open, a Nile cruise from Luxor south to Aswan, and a return to Cairo to close. The cruise is the spine. It moves you between Luxor, Edfu, Kom Ombo and Aswan without repacking a suitcase each night, and its onboard downtime (pool, cooking class, hieroglyphics workshop) makes the shore days sustainable for children. Sailing from Luxor to Aswan, you travel upstream against the current and meet the temples roughly in the order their builders understood: the state religion of Thebes first, then the older sites further south, arriving at Aswan, the edge of the ancient Egyptian world, at the end.",
+    "whyRouteRefs": ["000000000003", "000000000005", "000000000007", "00000000002f", "000000000033", "000000000035", "000000000037", "000000000039"],
+    "closingLine": "Nine days is not enough to exhaust Egypt. Done this way, it is enough to give a family a version of the country they will not need to correct later.",
+    "closingRef": "000000000031",
+    "stayAndTravel": {
+      "hotels": "A hotel in Cairo on the first night.",
+      "river": "A Nile cruise ship from Luxor south to Aswan, by way of Edfu and Kom Ombo, with a pool, a hieroglyphics workshop and a cooking class on board.",
+      "flight": "A domestic flight from Cairo to Luxor at the start of the river journey, and one from Aswan back to Cairo at the end.",
+      "everyDay": "A licensed English-speaking Egyptologist guide, private air-conditioned transfers and bottled water. The trip is private, operated for your party alone and never shared with a group, and it scales to any party size."
+    },
+    "fitFor": [
+      "are a family with school-age children meeting Egypt for the first time",
+      "want the classic Cairo-and-cruise shape, paced for a party that includes children"
+    ],
+    "worthKnowing": [
+      "Day 1 combines arrival with the Giza plateau, the Grand Egyptian Museum and the Sound and Light Show at the pyramids.",
+      "The days alternate temple visits with time on board: pool, a hieroglyphics workshop and a cooking class make the Luxor and Aswan days sustainable for children.",
+      "The programme does not ask everyone to be on site at seven in the morning for nine days running.",
+      "Child pricing and room-sharing are arranged on request."
+    ],
+    "makeItYoursIntro": "A private journey is built around your party, not the other way around. Common changes:"
+  },
+  "days": [
+    {
+      "day": 1,
+      "place": "Cairo",
+      "title": "Arrival, the Giza plateau, the Grand Egyptian Museum and the Sound and Light Show",
+      "segments": [
+        {
+          "label": "morning",
+          "heading": "Giza",
+          "text": "You're met at Cairo International Airport and transferred to your hotel, and the first day moves straight to its main business: the Giza plateau. The three pyramids of Khufu, Khafre and Menkaure stand above the desert beside the Great Sphinx. Built around 2500 BC, they are not the oldest monuments in Egypt, but they set the terms of every visit."
+        },
+        {
+          "label": "afternoon",
+          "text": "The Grand Egyptian Museum, at the edge of the Giza plateau and a short hop from the pyramids, opened fully on 1 November 2025. It holds the complete Tutankhamun collection, displayed together for the first time: the gold mask, the nested shrines and the objects packed into his tomb. The original Egyptian Museum on Tahrir Square can be substituted or combined on request."
+        },
+        {
+          "label": "evening",
+          "text": "As the light goes, the Sound and Light Show at the pyramids closes the day: the plateau narrated against floodlit stone. It is theatrical, and younger travellers tend to find it memorable."
+        }
+      ],
+      "sites": ["Giza pyramids", "Great Sphinx", "Grand Egyptian Museum", "Sound and Light Show at the pyramids"],
+      "overnight": "Cairo hotel",
+      "travel": "Meet at Cairo International Airport, private transfer to your hotel",
+      "narrativeRefs": ["00000000000b", "00000000000d", "00000000000f"],
+      "continuesInDay": null
+    },
+    {
+      "day": 2,
+      "place": "Cairo → Luxor",
+      "title": "Flight to Luxor and boarding the Nile cruise",
+      "body": [
+        "A domestic flight takes you to Luxor, the site of ancient Thebes and religious capital of the New Kingdom empire, and you transfer to the Nile cruise ship that will be your home on the river. The first afternoon is given over to the ship: the pool, cultural programmes and the Nile passing the windows, a useful decompression after the density of Cairo. Dinner is on board as the ship begins south."
+      ],
+      "overnight": "Nile cruise ship",
+      "meals": [
+        {"meal": "lunch", "note": "first meal on the cruise"},
+        {"meal": "dinner", "note": "on board"}
+      ],
+      "travel": "Domestic flight Cairo → Luxor · private transfer to the cruise ship",
+      "pace": "An afternoon on board after the density of Cairo",
+      "narrativeRefs": ["000000000013"],
+      "continuesInDay": null
+    },
+    {
+      "day": 3,
+      "place": "Luxor",
+      "title": "The West Bank: the Valley of the Kings, Hatshepsut and the Colossi of Memnon",
+      "segments": [
+        {
+          "label": "morning",
+          "heading": "The West Bank",
+          "text": "The West Bank is the side the ancient Egyptians dedicated to the dead. In the Valley of the Kings, New Kingdom pharaohs were buried from the sixteenth century BC onward, in tombs whose corridors and chambers are still painted with scenes of the journey through the underworld. More than sixty have been found; several are open on any given day, and the guides direct the family to the most significant and accessible. Then the Mortuary Temple of Hatshepsut at Deir el-Bahari, rising in three colonnaded terraces against the cliff, and the Colossi of Memnon, two seated figures of Amenhotep III."
+        },
+        {
+          "label": "afternoon",
+          "text": "Back on the ship, children can take part in a hieroglyphics workshop, learning the basic system of ancient Egyptian writing and producing their own inscribed messages, while adults use the ship's amenities. The evening is on the river."
+        }
+      ],
+      "sites": ["Valley of the Kings", "Mortuary Temple of Hatshepsut", "Colossi of Memnon", "Hieroglyphics workshop on board"],
+      "overnight": "Nile cruise ship",
+      "travel": "Private transfers to the West Bank and back to the ship",
+      "narrativeRefs": ["000000000015"],
+      "continuesInDay": null
+    },
+    {
+      "day": 4,
+      "place": "Luxor → sailing toward Edfu",
+      "title": "The East Bank: Karnak, Luxor Temple and the Avenue of Sphinxes",
+      "body": [
+        "The second Luxor day stays on the East Bank, the living side. Karnak is a temple precinct built and rebuilt by successive pharaohs over roughly 1,500 years. Its Great Hypostyle Hall holds 134 columns, the tallest 21 metres high, and this day leaves time to walk it without urgency. Luxor Temple follows, with the Avenue of Sphinxes that once connected it to Karnak, a processional road some three kilometres long and now walkable for much of its length. The guides use both sites to explain how the state religion worked: the processions, the festivals and the inner sanctuaries only priests could enter. In the afternoon the ship sails on toward Edfu."
+      ],
+      "sites": ["Karnak", "Luxor Temple", "Avenue of Sphinxes"],
+      "overnight": "Nile cruise ship",
+      "travel": "Private transfers · afternoon sailing toward Edfu",
+      "pace": "Time to walk Karnak without urgency",
+      "narrativeRefs": ["000000000017"],
+      "continuesInDay": null
+    },
+    {
+      "day": 5,
+      "place": "Edfu → Kom Ombo",
+      "title": "The Temple of Horus at Edfu and a cooking class on board",
+      "body": [
+        "The Temple of Horus at Edfu is the best-preserved temple in Egypt. Its walls, roof and inner sanctuary survive, so standing inside shows how an Egyptian temple worked as a building: how light was controlled and how the spaces contracted toward the sanctuary. It was built between 237 and 57 BC, but in a rigorously traditional form, which makes it a key for reading the older temples you have already seen. The afternoon sails on to Kom Ombo, and in the evening there's an Egyptian cooking class on board: traditional dishes taught and then eaten."
+      ],
+      "sites": ["Temple of Horus at Edfu", "Cooking class on board"],
+      "overnight": "Nile cruise ship",
+      "travel": "By cruise, Edfu to Kom Ombo",
+      "narrativeRefs": ["00000000001b"],
+      "continuesInDay": null
+    },
+    {
+      "day": 6,
+      "place": "Kom Ombo → Aswan",
+      "title": "The Temple of Kom Ombo and the Crocodile Museum",
+      "body": [
+        "Kom Ombo sits above the east bank where the river bends. Its temple was dedicated to two gods at once, Sobek the crocodile deity and Horus the Elder, and its whole plan is doubled: two parallel axes run side by side through identical halls and sanctuaries, in an exact symmetry that is slightly uncanny once you notice it. Next to the temple, the crocodile museum holds mummified crocodiles from a nearby necropolis, and it tends to be what younger travellers remember most. In the afternoon the ship continues south toward Aswan."
+      ],
+      "sites": ["Temple of Kom Ombo", "Crocodile Museum"],
+      "overnight": "Nile cruise ship",
+      "travel": "By cruise, Kom Ombo to Aswan",
+      "narrativeRefs": ["00000000001d"],
+      "continuesInDay": null
+    },
+    {
+      "day": 7,
+      "place": "Aswan",
+      "title": "Philae, a felucca around Elephantine Island and Nubian music",
+      "segments": [
+        {
+          "label": "morning",
+          "heading": "Philae",
+          "text": "Aswan is Egypt's southernmost significant city, set where the Nile narrows toward the first cataract, smaller and slower than Cairo and Luxor. The day begins at the Temple of Isis on Philae Island, reached by motorboat. The temple was reassembled here in the 1970s to save it from the rising waters of Lake Nasser, in the same UNESCO rescue that lifted Abu Simbel, and the worship of Isis continued here into the fifth century AD."
+        },
+        {
+          "label": "afternoon",
+          "text": "A felucca, the traditional white-sailed Nile boat, takes you around Elephantine Island at the wind's pace, past the corniche and the botanical gardens of Kitchener's Island. The contrast with the temple mornings is the point."
+        },
+        {
+          "label": "evening",
+          "text": "The day closes with a Nubian music and dance session, an introduction to the Nubian people, whose homeland was flooded by Lake Nasser and who rebuilt their communities on the banks around Aswan. Children tend to find the participatory rhythms more engaging than any temple explanation."
+        }
+      ],
+      "sites": ["Temple of Isis at Philae", "Felucca around Elephantine Island", "Nubian music and dance"],
+      "overnight": "Nile cruise ship",
+      "travel": "Motorboat to Philae · felucca around Elephantine Island",
+      "narrativeRefs": ["000000000021", "000000000023", "000000000025"],
+      "continuesInDay": null
+    },
+    {
+      "day": 8,
+      "place": "Aswan → Cairo",
+      "title": "Flight to Cairo, Khan el-Khalili and a farewell Nile dinner cruise",
+      "segments": [
+        {
+          "label": "morning",
+          "text": "Disembarkation, and a flight north to Cairo."
+        },
+        {
+          "label": "afternoon",
+          "text": "Khan el-Khalili, the medieval bazaar quarter of Islamic Cairo, trading continuously since the fourteenth century: dense, noisy, negotiable and very good for souvenirs, from brass and copper work and spices sold by weight from open sacks to cotton, papyrus and jewellery. The guides know which parts of the market are worth the time and which are not."
+        },
+        {
+          "label": "evening",
+          "text": "A farewell Nile dinner cruise closes the trip, with the lit city on both banks and minarets and bridges moving past as the boat turns: a formal close to a journey that began with the Nile in a different mood, at a different latitude."
+        }
+      ],
+      "sites": ["Khan el-Khalili", "Farewell Nile dinner cruise"],
+      "overnight": "Cairo",
+      "meals": [
+        {"meal": "breakfast", "note": "last meal on the cruise"},
+        {"meal": "dinner", "label": "farewell dinner", "note": "on a Nile dinner cruise"}
+      ],
+      "travel": "Domestic flight Aswan → Cairo · private transfers",
+      "narrativeRefs": ["000000000029", "00000000002b"],
+      "continuesInDay": null
+    },
+    {
+      "day": 9,
+      "place": "Cairo",
+      "title": "Departure",
+      "body": [
+        "A transfer to the airport. For families with a later departure, the guides can suggest options."
+      ],
+      "overnight": null,
+      "travel": "Private transfer to the airport",
+      "narrativeRefs": [],
+      "continuesInDay": 8
+    }
+  ],
+  "options": [
+    "Combine the Grand Egyptian Museum with the Tahrir Egyptian Museum, or substitute the Tahrir museum",
+    "Extend the Cairo opening",
+    "Upgrade to a higher-grade cruise ship",
+    "Add an Abu Simbel day at Aswan"
+  ],
+  "excludedSeeDay": {}
+}
