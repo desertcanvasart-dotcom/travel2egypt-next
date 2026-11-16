@@ -21,7 +21,7 @@ import '@/styles/product-page.css';
 /**
  * Product page template (owner spec, 2026-11-09): a decision panel directly
  * under the H1 + dek (sticky right column from 1024px), the review-gated
- * Included / Itinerary-at-a-glance block, and the end block. Rows render only
+ * Included block, and the end block. Rows render only
  * when Sanity holds the data — no fact is ever filled in or guessed here.
  */
 
@@ -304,71 +304,45 @@ export async function DayTourPanel({
 }
 
 /**
- * §3 + §4 — Included / Not included, then Itinerary at a glance (multi-day).
- * Inputs are already filtered to owner-approved items (query). The itinerary
- * renders only when it covers every day of the product.
+ * §3 — Included / Not included (layout before the multi-day itinerary format;
+ * "Itinerary at a glance" was removed 2026-11-16). Inputs are already filtered
+ * to owner-approved items (query).
  */
 export async function ProductFactsBlock({
   locale,
   included,
   excluded,
-  itinerary,
-  durationDays,
 }: {
   locale: Locale;
   included: string[];
   excluded: string[];
-  itinerary?: Array<{ day: number; title: string; overnight?: string | null }>;
-  durationDays?: number | null;
 }) {
   const t = await getTranslations({ locale, namespace: 'productPanel' });
-  const days = itinerary ?? [];
-  const fullItinerary =
-    days.length > 0 &&
-    typeof durationDays === 'number' &&
-    days.length === durationDays &&
-    days.every((d, i) => d.day === i + 1);
-  if (included.length === 0 && excluded.length === 0 && !fullItinerary) return null;
+  if (included.length === 0 && excluded.length === 0) return null;
   return (
     <section className="pdp-factsblock">
-      {(included.length > 0 || excluded.length > 0) && (
-        <div className="pdp-incl">
-          {included.length > 0 && (
-            <div>
-              <h2>{t('included')}</h2>
-              <ul className="yes">
-                {included.map((x, i) => (
-                  <li key={i}>{x}</li>
-                ))}
-              </ul>
-            </div>
-          )}
-          {excluded.length > 0 && (
-            <div>
-              <h2>{t('notIncluded')}</h2>
-              <ul className="no">
-                {excluded.map((x, i) => (
-                  <li key={i}>{x}</li>
-                ))}
-              </ul>
-            </div>
-          )}
-        </div>
-      )}
-      {fullItinerary && (
-        <div className="pdp-glance">
-          <h2>{t('atAGlance')}</h2>
-          <ol>
-            {days.map((d) => (
-              <li key={d.day}>
-                <span className="pdp-glance__day">{t('dayN', { n: d.day })}</span>
-                <span className="pdp-glance__title">{d.title}</span>
-                <span className="pdp-glance__night">{d.overnight ? t('night', { place: d.overnight }) : t('departure')}</span>
-              </li>
-            ))}
-          </ol>
-        </div>
-      )}
+      <div className="pdp-incl">
+        {included.length > 0 && (
+          <div>
+            <h2>{t('included')}</h2>
+            <ul className="yes">
+              {included.map((x, i) => (
+                <li key={i}>{x}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {excluded.length > 0 && (
+          <div>
+            <h2>{t('notIncluded')}</h2>
+            <ul className="no">
+              {excluded.map((x, i) => (
+                <li key={i}>{x}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
     </section>
   );
 }

@@ -1,0 +1,352 @@
+{
+  "slug": "10-days-nile-dreamer-tour-experience",
+  "_id": "wp-page-89376",
+  "intro": {
+    "opening": "A private journey that treats the Nile as the spine of the trip rather than transport between sites: Cairo by car, Cairo to Aswan by sleeper train, three nights cruising from Aswan to Luxor, and the flight from Luxor back to Cairo. Egypt has two spines, and this tour follows both of them.",
+    "whyRoute": "The first spine is the Nile, the river that made Egyptian civilisation possible and still the most logical way to move between the monuments of the south. The second is time: a sequence that begins with the familiar landmarks of Cairo, moves deep into Upper Egypt and returns. You travel south from Cairo to Aswan by overnight train, board a Nile cruise for three nights, sail north through Kom Ombo and Edfu to Luxor, then fly back to Cairo. The cruise is the centre of the journey, not a luxury appendage: three nights on the river reframe what you saw in Cairo and prepare you for Luxor. Ten days is enough to do this properly, if the structure is right.",
+    "whyRouteRefs": [
+      "000000000003",
+      "000000000005",
+      "000000000007",
+      "000000000009",
+      "00000000000b",
+      "000000000033",
+      "000000000035",
+      "000000000037",
+      "000000000039"
+    ],
+    "closingLine": "Ten days cannot show you all of Egypt — the country is too old and too large for that. What this journey does instead is rarer: it puts you on the river itself, and lets the monuments come to you.",
+    "closingRef": "000000000031",
+    "stayAndTravel": {
+      "hotels": "Five nights in carefully selected five-star hotels: four in Cairo and one in Aswan.",
+      "river": "Three nights aboard a five-star cruise vessel with onboard pool, spa and entertainment, sailing from Aswan to Luxor via Kom Ombo and Edfu. A traditional felucca sail at Aswan and a farewell Nile dinner cruise in Cairo are included.",
+      "train": "One overnight train journey from Cairo to Aswan, with dinner on board and breakfast on waking.",
+      "flight": "A domestic flight from Luxor back to Cairo.",
+      "everyDay": "A licensed English-speaking Egyptologist at every site, private air-conditioned transfers throughout, and full board. The trip is private, operated for your party alone and never shared with a group."
+    },
+    "fitFor": [
+      "are visiting Egypt for the first time and want the country in proper depth",
+      "prefer a cruise to repeated hotel moves",
+      "want the river itself to be the point"
+    ],
+    "worthKnowing": [
+      "Day 2 is the most demanding day of the trip, and it starts early.",
+      "Day 5 is deliberately unstructured: no sites, just settling into the cruise.",
+      "The pace is full but not punishing. The free part of Day 9 is built in as recovery, not padding.",
+      "On Day 10, a later flight leaves room for additional arrangements before the airport."
+    ],
+    "makeItYoursIntro": "This is a private journey, built around your party. Common changes:"
+  },
+  "days": [
+    {
+      "day": 1,
+      "place": "Cairo",
+      "title": "Arrival at Cairo airport and transfer to your hotel",
+      "body": [
+        "You are met at Cairo International Airport and transferred to your hotel. The first day is short and exists to set up what follows: lunch and dinner are provided, and the schedule asks nothing more. Cairo is a large, loud, layered city, and it benefits from a single quiet arrival before the programme begins. Use the afternoon to get your bearings: the scale of the streets, the sound of the call to prayer, the light. Tomorrow starts early."
+      ],
+      "overnight": "Cairo",
+      "meals": [
+        {
+          "meal": "lunch"
+        },
+        {
+          "meal": "dinner"
+        }
+      ],
+      "travel": "Airport meeting and transfer to your hotel",
+      "pace": "Short: an arrival day, and the schedule asks nothing more",
+      "narrativeRefs": [
+        "00000000000f"
+      ],
+      "continuesInDay": null
+    },
+    {
+      "day": 2,
+      "place": "Cairo",
+      "title": "The Giza pyramids, the Great Sphinx and the Egyptian Museum",
+      "body": [
+        "The day begins at Giza. The three pyramids of the Old Kingdom, Khufu, Khafre and Menkaure, were built around 2500 BC, with the Great Sphinx below them, carved from a single limestone outcrop, its function still debated. After lunch the day moves into the city, to the Egyptian Museum on Tahrir Square. This is the original museum of antiquities, and it still houses one of the densest collections of pharaonic material on earth. It is not the newer Grand Egyptian Museum at Giza, which holds the complete Tutankhamun collection. The night is spent again at your Cairo hotel."
+      ],
+      "sites": [
+        "Pyramid of Khufu",
+        "Pyramid of Khafre",
+        "Pyramid of Menkaure",
+        "Great Sphinx",
+        "Egyptian Museum (Tahrir Square)"
+      ],
+      "overnight": "Cairo",
+      "meals": [
+        {
+          "meal": "breakfast"
+        },
+        {
+          "meal": "lunch"
+        },
+        {
+          "meal": "dinner"
+        }
+      ],
+      "travel": "Private air-conditioned transfers",
+      "pace": "The most demanding day of the trip, with an early start",
+      "narrativeRefs": [
+        "000000000011"
+      ],
+      "continuesInDay": null
+    },
+    {
+      "day": 3,
+      "place": "Cairo → sleeper train",
+      "title": "The Citadel, the Mosque of Muhammad Ali, Khan el-Khalili and the overnight train",
+      "body": [
+        "Day three stays in Cairo. It climbs to the Saladin Citadel, the medieval fortification that has anchored Cairo's skyline since the twelfth century, and the Mosque of Muhammad Ali inside it. The afternoon ends in Khan el-Khalili, the bazaar quarter that has traded continuously since the fourteenth century. In the evening you board the overnight train to Aswan, with dinner served on board. The train is both transport and transition: by the time you arrive in the morning, the Cairo chapter will already feel like a different country."
+      ],
+      "sites": [
+        "Saladin Citadel",
+        "Mosque of Muhammad Ali",
+        "Khan el-Khalili"
+      ],
+      "overnight": "Sleeper train",
+      "meals": [
+        {
+          "meal": "breakfast"
+        },
+        {
+          "meal": "lunch"
+        },
+        {
+          "meal": "dinner",
+          "note": "on the train"
+        }
+      ],
+      "travel": "Private air-conditioned transfers · overnight train Cairo → Aswan",
+      "pace": "A full day in Cairo, then the overnight train",
+      "narrativeRefs": [
+        "r2day3"
+      ],
+      "continuesInDay": null
+    },
+    {
+      "day": 4,
+      "place": "Aswan",
+      "title": "The Aswan High Dam, the Unfinished Obelisk and Philae Temple",
+      "body": [
+        "You wake on the train to breakfast and the landscape of Upper Egypt outside the window. Aswan is Egypt's southernmost major city, where the Nile narrows toward the first cataract. The day takes three sites in sequence. The Aswan High Dam, completed in 1970, reshaped modern Egypt's agriculture and economy and created Lake Nasser. The Unfinished Obelisk, still lying in its quarry where a crack forced its abandonment, shows precisely how obelisks were carved from the living rock. Philae Temple, dedicated to Isis, was dismantled and reassembled on higher ground in the 1970s to save it from the rising waters. It now sits on Agilkia Island, reached by a short boat crossing. Tonight is spent in a hotel in Aswan."
+      ],
+      "sites": [
+        "Aswan High Dam",
+        "Unfinished Obelisk",
+        "Philae Temple"
+      ],
+      "overnight": "Aswan hotel",
+      "meals": [
+        {
+          "meal": "breakfast",
+          "note": "on the train"
+        },
+        {
+          "meal": "lunch"
+        },
+        {
+          "meal": "dinner"
+        }
+      ],
+      "travel": "Arrive by sleeper train · private air-conditioned transfers · short boat crossing to Philae",
+      "narrativeRefs": [
+        "000000000015",
+        "000000000017"
+      ],
+      "continuesInDay": null
+    },
+    {
+      "day": 5,
+      "place": "Aswan · on the Nile",
+      "title": "Boarding the Nile cruise",
+      "body": [
+        "After breakfast you board your Nile cruise, a vessel with a pool deck, a spa and onboard entertainment, moving at the river's pace. It will carry you for three nights. The day is deliberately unstructured, and there are no sites on the programme. After two full days in Cairo and a day of Aswan monuments, a day of open water, fine dining and the riverbanks drifting past is a recalibration, not a gap in the itinerary. This first afternoon is for settling in."
+      ],
+      "overnight": "Cruise",
+      "meals": [
+        {
+          "meal": "breakfast"
+        },
+        {
+          "meal": "lunch"
+        },
+        {
+          "meal": "dinner"
+        }
+      ],
+      "travel": "Private air-conditioned transfer to the ship · by cruise",
+      "pace": "Deliberately unstructured, with no sites on the programme",
+      "narrativeRefs": [
+        "00000000001b"
+      ],
+      "continuesInDay": null
+    },
+    {
+      "day": 6,
+      "place": "On the Nile: Kom Ombo → Edfu",
+      "title": "The temples of Kom Ombo and Edfu",
+      "body": [
+        "The cruise moves north to the heart of its monument programme. The first stop is Kom Ombo, a temple dedicated to two deities at once: Sobek, the crocodile god, and Horus the Elder, the hawk-headed sky god. It is laid out in perfect bilateral symmetry, each half a mirror of the other, to honour both cults equally. From Kom Ombo the cruise continues to Edfu and the Temple of Horus, the best-preserved temple in Egypt, its walls, roof, inner sanctuary and pylons largely intact. Built between roughly 237 and 57 BC, it shows how a functioning temple operated more clearly than almost any other site. Dinner is on board as the cruise continues toward Luxor."
+      ],
+      "sites": [
+        "Temple of Kom Ombo",
+        "Temple of Horus at Edfu"
+      ],
+      "overnight": "Cruise",
+      "meals": [
+        {
+          "meal": "breakfast"
+        },
+        {
+          "meal": "lunch"
+        },
+        {
+          "meal": "dinner"
+        }
+      ],
+      "travel": "By cruise",
+      "narrativeRefs": [
+        "00000000001d",
+        "00000000001f"
+      ],
+      "continuesInDay": null
+    },
+    {
+      "day": 7,
+      "place": "Luxor · East Bank",
+      "title": "Karnak, Luxor Temple and the Avenue of Sphinxes",
+      "body": [
+        "The cruise arrives in Luxor, ancient Thebes, the religious capital of the New Kingdom, and the day is given to the East Bank. Karnak is a complex of temples, sanctuaries, pylons and processional avenues, built and enlarged by successive pharaohs across roughly 1,500 years. Its Great Hypostyle Hall, a forest of 134 columns with the tallest rising to 21 metres, rewards slow walking, which the day's pace allows. Luxor Temple is Karnak's smaller, architecturally refined counterpart, and the remains of the Avenue of Sphinxes once connected the two over two kilometres. In the evening there is free time aboard the cruise or in the town, with the West Bank cliffs going gold across the water at dusk."
+      ],
+      "sites": [
+        "Karnak Temple",
+        "Luxor Temple",
+        "Avenue of Sphinxes"
+      ],
+      "overnight": "Cruise",
+      "meals": [
+        {
+          "meal": "breakfast"
+        },
+        {
+          "meal": "lunch"
+        },
+        {
+          "meal": "dinner"
+        }
+      ],
+      "travel": "By cruise to Luxor · private air-conditioned transfers",
+      "pace": "Unhurried at Karnak, with free time in the evening",
+      "narrativeRefs": [
+        "000000000023"
+      ],
+      "continuesInDay": null
+    },
+    {
+      "day": 8,
+      "place": "Luxor · West Bank → Cairo",
+      "title": "The Valley of the Kings, the Temple of Hatshepsut and the Colossi of Memnon, then the flight to Cairo",
+      "segments": [
+        {
+          "label": "morning",
+          "heading": "The West Bank",
+          "text": "The West Bank is where the New Kingdom pharaohs buried their dead. The Valley of the Kings holds more than sixty royal tombs cut into the desert hills, their corridors and burial chambers painted with scenes of the afterlife. Tutankhamun's tomb is here, modest in scale, along with the grander tombs of Ramses VI, Seti I and the Thutmosid rulers. The Mortuary Temple of Hatshepsut rises in three colonnaded terraces against the cliff at Deir el-Bahari. The Colossi of Memnon, two seated quartzite figures of Amenhotep III eighteen metres tall, are the only visible remains of what was once the largest mortuary temple in Thebes."
+        },
+        {
+          "label": "afternoon",
+          "heading": "Flight to Cairo",
+          "text": "You disembark and transfer to Luxor Airport for the short domestic flight back to Cairo, where your driver meets you and takes you to your hotel for the night."
+        }
+      ],
+      "sites": [
+        "Valley of the Kings",
+        "Mortuary Temple of Hatshepsut",
+        "Colossi of Memnon"
+      ],
+      "overnight": "Cairo",
+      "meals": [
+        {
+          "meal": "breakfast",
+          "note": "on the cruise"
+        },
+        {
+          "meal": "lunch"
+        },
+        {
+          "meal": "dinner"
+        }
+      ],
+      "travel": "Transfer to Luxor Airport · domestic flight Luxor → Cairo · met by your driver and taken to your hotel",
+      "narrativeRefs": [
+        "000000000025"
+      ],
+      "continuesInDay": null
+    },
+    {
+      "day": 9,
+      "place": "Memphis, Saqqara and Dahshur → Cairo",
+      "title": "Memphis, Saqqara, Dahshur and a Nile dinner cruise",
+      "body": [
+        "The final full day reaches back to the beginning of pyramid building. Memphis was the first capital of a unified Egypt, established around 3100 BC, and its open-air museum holds the colossal fallen statue of Ramses II. At Saqqara stands the Step Pyramid of Djoser, built around 2650 BC by the architect Imhotep, the oldest large stone structure in the world. At Dahshur, the Bent Pyramid and the Red Pyramid show the architects learning to manage the angles of the smooth-sided pyramid.",
+        "The rest of the day is yours, deliberately: revisit a Cairo site, explore on your own, or use the hotel pool. The day ends with a dinner cruise on the Nile, the lit city moving past the windows."
+      ],
+      "sites": [
+        "Memphis open-air museum",
+        "Step Pyramid of Djoser",
+        "Saqqara",
+        "Bent Pyramid",
+        "Red Pyramid",
+        "Nile dinner cruise"
+      ],
+      "overnight": "Cairo",
+      "meals": [
+        {
+          "meal": "breakfast"
+        },
+        {
+          "meal": "lunch"
+        },
+        {
+          "meal": "dinner",
+          "label": "farewell Nile dinner cruise"
+        }
+      ],
+      "travel": "Private air-conditioned transfers",
+      "pace": "Sightseeing, then the rest of the day free by design",
+      "narrativeRefs": [
+        "000000000029",
+        "00000000002b"
+      ],
+      "continuesInDay": null
+    },
+    {
+      "day": 10,
+      "place": "Cairo",
+      "title": "Departure",
+      "body": [
+        "A final breakfast and the transfer to Cairo International Airport. With a later flight there is room for additional arrangements, so your last hours in Egypt are not spent in a terminal."
+      ],
+      "overnight": null,
+      "meals": [
+        {
+          "meal": "breakfast"
+        }
+      ],
+      "travel": "Transfer to Cairo International Airport",
+      "narrativeRefs": [
+        "00000000002f"
+      ],
+      "continuesInDay": null
+    }
+  ],
+  "options": [
+    "Add Abu Simbel at Aswan",
+    "Swap the Tahrir museum for the Grand Egyptian Museum or the National Museum of Egyptian Civilisation",
+    "Add a hot-air balloon over the West Bank",
+    "Fly south instead of taking the sleeper train"
+  ],
+  "excludedSeeDay": {}
+}

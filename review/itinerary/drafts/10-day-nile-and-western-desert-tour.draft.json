@@ -1,0 +1,152 @@
+{
+  "slug": "10-day-nile-and-western-desert-tour",
+  "_id": "wp-page-89005",
+  "intro": {
+    "opening": "A private journey that insists on the Egypt beyond the river: the oases, the White Desert, and the silence between two historical bookends. Egypt is usually understood as a river country, and this journey insists on the rest of it. The Nile is here, with Giza, Saqqara, the temples of Luxor and the Egyptian Museum, but the engine of these ten days is the Western Desert.",
+    "whyRoute": "The route is roughly circular, and its logic is geographic rather than chronological. It opens in Cairo with the monuments the Nile made possible, turns west into the desert for four days through Bahariya, the White Desert, Dakhla and Kharga, pivots at Kharga toward Luxor and the Nile again, and closes back in Cairo. The oases, inhabited since prehistory, are not detours: they are the reason to take ten days rather than five, and the whole route is built around them. What it gives you is a sense of Egypt's actual geography, not just the thin green ribbon along the river but the enormous quiet beyond it.",
+    "whyRouteRefs": ["000000000003", "000000000005", "000000000007", "000000000009", "000000000023", "000000000027", "000000000029", "00000000002b", "00000000002d"],
+    "closingLine": "Most Egypt itineraries follow the Nile and call it the whole country. This one goes where the Nile does not — and comes back changed.",
+    "closingRef": "000000000025",
+    "stayAndTravel": {
+      "flight": "A flight from Luxor returns the journey to Cairo for its final chapter.",
+      "camp": "One night camping in the White Desert.",
+      "everyDay": "Fully private, operated for your party alone and never a shared group, with your own Egyptologist and desert drivers."
+    },
+    "fitFor": [
+      "want to see the Egypt beyond the Nile",
+      "are a repeat visitor to Egypt",
+      "are drawn to desert and silence as much as to monuments"
+    ],
+    "worthKnowing": [
+      "This is a demanding itinerary: the desert drives are long, and the rewards are proportional.",
+      "Long drives suit older children best.",
+      "One night is spent camping in the White Desert.",
+      "Tutankhamun's treasure is now at the Grand Egyptian Museum, not the Egyptian Museum; it can be added on request.",
+      "About 10 days and 9 nights, and the shape is a starting point rather than a fixed schedule."
+    ],
+    "makeItYoursIntro": "This is a private journey, built around your party, not the other way around. Common changes:"
+  },
+  "days": [
+    {
+      "day": 1,
+      "place": "Cairo",
+      "title": "Arrival in Cairo",
+      "body": [
+        "The journey opens in Cairo, with the monuments the Nile made possible."
+      ],
+      "narrativeRefs": [],
+      "continuesInDay": null
+    },
+    {
+      "day": 2,
+      "place": "Cairo",
+      "title": "Giza, Memphis and Saqqara",
+      "body": [
+        "The journey begins with the Old Kingdom at full scale. At Giza you see what was built around 2500 BC: Khufu's pyramid, Khafre's behind it and the Sphinx crouched below. Memphis, the first capital of a unified Egypt, holds the fallen colossus of Ramses II. At Saqqara stands the Step Pyramid of Djoser, built around 2650 BC and the oldest large stone structure on earth, where Imhotep worked out in stages how to turn a stack of mastabas into a pyramid. Giza is the perfection of the idea and Saqqara is where it began, and your Egyptologist sets them side by side so you hold the whole sequence at once."
+      ],
+      "sites": ["Giza pyramids", "Great Sphinx", "Memphis", "Step Pyramid of Djoser (Saqqara)"],
+      "narrativeRefs": ["00000000000d"],
+      "continuesInDay": null
+    },
+    {
+      "day": 3,
+      "place": "Cairo → Bahariya",
+      "title": "Into the Western Desert: Bahariya Oasis",
+      "body": [
+        "The route leaves the Nile valley, and the character of the trip changes entirely. Bahariya, the gateway oasis, sits in a depression some 370 kilometres from Cairo, with Pyramid Mountain on its skyline. Here are an ethnographic museum of oasis life and the Valley of the Golden Mummies, a Graeco-Roman necropolis that has yielded more than 250 gilded mummies since its discovery in 1996. Alexander the Great was crowned pharaoh here in 332 BC, and a temple to him still stands."
+      ],
+      "sites": ["Ethnographic museum", "Valley of the Golden Mummies", "Temple of Alexander the Great"],
+      "travel": "Desert drive with your desert drivers",
+      "pace": "Long desert drive",
+      "narrativeRefs": ["000000000011", "000000000013"],
+      "continuesInDay": null
+    },
+    {
+      "day": 4,
+      "place": "Black Desert → White Desert",
+      "title": "By 4×4 through the Black Desert to a night camping in the White Desert",
+      "body": [
+        "The desert days are the heart of the journey. By 4×4 you cross the Black Desert, its hills coated in dark basalt, and enter the White Desert, a protected expanse where wind has carved the chalk into sculptural forms, some like mushrooms or animals, some simply abstract. Tonight you camp there, far from any city, under the desert sky. This night is not incidental to the trip: for most travelers it is the thing they describe first when they get home."
+      ],
+      "sites": ["Black Desert", "White Desert"],
+      "overnight": "Desert camp (White Desert)",
+      "travel": "By 4×4",
+      "narrativeRefs": ["000000000015"],
+      "continuesInDay": null
+    },
+    {
+      "day": 5,
+      "place": "White Desert → Dakhla",
+      "title": "Dakhla: Deir el-Haggar and Qasr Dakhla",
+      "body": [
+        "The route continues south to Dakhla, the second of the three inhabited oases on this journey, after Bahariya and before Kharga. It is larger and greener, with the smell of date palms instead of traffic. The Roman temple of Deir el-Haggar survives remarkably intact, and the medieval village of Qasr Dakhla is still inhabited, still threaded with mudbrick lanes."
+      ],
+      "sites": ["Deir el-Haggar", "Qasr Dakhla"],
+      "travel": "Desert drive with your desert drivers",
+      "pace": "Long desert drive",
+      "narrativeRefs": ["000000000017"],
+      "continuesInDay": null
+    },
+    {
+      "day": 6,
+      "place": "Dakhla → Kharga",
+      "title": "Kharga: the Hibis Temple and El-Bagawat",
+      "body": [
+        "East to Kharga, the largest of the oases, at the head of the Darb el-Arba'in, the Forty Days Road that once carried caravans to sub-Saharan Africa. The Hibis Temple is the best-preserved ancient temple in the Western Desert, its sanctuary still painted. El-Bagawat is one of the oldest Christian cemeteries in the world: hundreds of mudbrick funerary chapels on a desert ridge, with painted interiors surviving from the third to seventh centuries. These are sites most Egypt itineraries never reach."
+      ],
+      "sites": ["Hibis Temple", "El-Bagawat"],
+      "travel": "Desert drive with your desert drivers",
+      "pace": "Long desert drive",
+      "narrativeRefs": [],
+      "continuesInDay": 5
+    },
+    {
+      "day": 7,
+      "place": "Kharga → Luxor",
+      "title": "Back to the Nile: Luxor and Karnak",
+      "body": [
+        "From the desert's edge the route turns to Luxor: ancient Thebes, the religious capital of the New Kingdom, with more monumental architecture per square kilometre than almost anywhere on earth. Karnak is not a single temple but a complex built and rebuilt across 1,500 years, and its Hypostyle Hall is a forest of 134 columns. After the desert's silence, Luxor's density lands differently: you arrive understanding the river that made all of it possible."
+      ],
+      "sites": ["Karnak"],
+      "narrativeRefs": ["00000000001b"],
+      "continuesInDay": null
+    },
+    {
+      "day": 8,
+      "place": "Luxor",
+      "title": "The West Bank: the Valley of the Kings, Hatshepsut's temple and the Colossi of Memnon",
+      "body": [
+        "Across the Nile lies the land of the dead. The Valley of the Kings holds its painted afterlife corridors, Hatshepsut's terraced temple rises against the cliff, and the Colossi of Memnon stand alone in the fields. Luxor is the finale of the route, one of its fixed points alongside the oasis chain and the desert night."
+      ],
+      "sites": ["Valley of the Kings", "Temple of Hatshepsut", "Colossi of Memnon"],
+      "narrativeRefs": [],
+      "continuesInDay": 7
+    },
+    {
+      "day": 9,
+      "place": "Luxor → Cairo",
+      "title": "Flight to Cairo: the Egyptian Museum and Khan el-Khalili",
+      "body": [
+        "A flight returns the journey to Cairo for its final chapter. At the Egyptian Museum, the objects pulled from the sites you have spent the journey walking through are gathered together; Tutankhamun's treasure is now at the Grand Egyptian Museum, which can be added on request. Then the medieval bazaar of Khan el-Khalili, trading continuously since the fourteenth century."
+      ],
+      "sites": ["Egyptian Museum", "Khan el-Khalili"],
+      "travel": "Flight Luxor → Cairo",
+      "narrativeRefs": ["00000000001f"],
+      "continuesInDay": null
+    },
+    {
+      "day": 10,
+      "place": "Cairo",
+      "title": "Departure",
+      "overnight": null,
+      "narrativeRefs": [],
+      "continuesInDay": null
+    }
+  ],
+  "options": [
+    "Add the Grand Egyptian Museum to the Cairo days",
+    "Spend more time in the oases",
+    "Pace the desert driving differently"
+  ],
+  "excludedSeeDay": {}
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "4-day-history-culture-escape",
+  "_id": "wp-page-153242",
+  "intro": {
+    "opening": "Four private days in Cairo, read as a single five-thousand-year argument in stone: the Giza plateau, the Grand Egyptian Museum, Saqqara and Memphis, and the Coptic and Islamic city. A weekend can show you Cairo's headlines. Four days can show you its sequence.",
+    "whyRoute": "Cairo accumulates. The Step Pyramid is older than the Great Pyramid, the Great Pyramid is older than the Hanging Church, the Hanging Church is older than the Citadel, and the Citadel is older than the bazaar that still trades beneath its walls. Most short itineraries pick one or two of these; this one runs the whole line. At its centre is the Grand Egyptian Museum, which opened fully on 1 November 2025 on the edge of the Giza plateau. A serious museum day set against a serious plateau day is the spine of the trip.",
+    "whyRouteRefs": ["000000000003", "000000000005", "000000000007", "000000000009", "00000000001d", "000000000021", "000000000023", "000000000025", "000000000027"],
+    "closingLine": "Four days will not exhaust Cairo. What they give you is the right four days — the monuments in the right order, with enough time at each to make them mean something.",
+    "closingRef": "00000000001f",
+    "stayAndTravel": {
+      "hotels": "Three nights' accommodation in Cairo, full board.",
+      "everyDay": "A licensed English-speaking Egyptologist, and private air-conditioned transfers. The trip is private, operated for your party alone and never shared with a group."
+    },
+    "fitFor": [
+      "are visiting for the first time and want Cairo properly read",
+      "are returning to Egypt for the new Grand Egyptian Museum",
+      "prefer one city done well over several done lightly"
+    ],
+    "worthKnowing": [
+      "The schedule is full. Early starts protect you from the worst of the midday heat at Giza (Day 1) and Saqqara (Day 3).",
+      "Day 2 is slower by design: the museum rewards depth over coverage, and your Egyptologist shapes the route to your interests.",
+      "The royal mummies are not at the Grand Egyptian Museum; they remain at the National Museum of Egyptian Civilisation.",
+      "The Pyramid of Khafre interior, if you choose it, is a low, steep passage.",
+      "Children are welcome on request."
+    ],
+    "makeItYoursIntro": "This is a private journey, built around your party. Common changes:"
+  },
+  "days": [
+    {
+      "day": 1,
+      "place": "Giza",
+      "title": "The Giza pyramids, the Sphinx and the Sound and Light Show",
+      "body": [
+        "The trip starts on the Giza plateau, where most people's idea of Egypt was formed. The pyramids of Khufu, Khafre and Menkaure were built across roughly fifty years around 2500 BC, with the Great Sphinx below them, carved from a single limestone outcrop. The scale is what photographs fail to convey: the plateau is large and the stones are enormous. Entry into the Pyramid of Khafre, a low, steep passage into the body of the structure, is available for those who want it. As the light changes, the Sound and Light Show closes the day, the plateau's history narrated against floodlit stone."
+      ],
+      "sites": ["Great Pyramid of Khufu", "Pyramid of Khafre", "Pyramid of Menkaure", "Great Sphinx", "Sound and Light Show"],
+      "overnight": "Cairo",
+      "travel": "Private air-conditioned transfers",
+      "pace": "Early start, to avoid the worst of the midday heat at Giza",
+      "narrativeRefs": ["00000000000d"],
+      "continuesInDay": null
+    },
+    {
+      "day": 2,
+      "place": "Giza",
+      "title": "A full day at the Grand Egyptian Museum",
+      "body": [
+        "A full day at the Grand Egyptian Museum, the largest archaeological museum in the world. Its permanent galleries bring together objects once scattered across several institutions, many of them in storage for decades. The treasures of Tutankhamun are here, reassembled and shown in full for the first time since their excavation a century ago, alongside statuary, papyri, reconstructed chariots and furniture. The museum rewards depth over coverage, so your Egyptologist shapes the route to your interests rather than walking you through every gallery. The royal mummies are not here: they remain at the National Museum of Egyptian Civilisation."
+      ],
+      "sites": ["Grand Egyptian Museum", "Tutankhamun collection"],
+      "overnight": "Cairo",
+      "meals": [{"meal": "breakfast"}, {"meal": "lunch"}, {"meal": "dinner"}],
+      "travel": "Private air-conditioned transfers",
+      "pace": "A day for slowing down: depth over coverage",
+      "narrativeRefs": ["000000000011"],
+      "continuesInDay": null
+    },
+    {
+      "day": 3,
+      "place": "Saqqara and Memphis → Old Cairo",
+      "title": "The Step Pyramid, Memphis, Coptic Cairo and a Tanoura performance",
+      "segments": [
+        {"label": "morning", "heading": "Saqqara and Memphis", "text": "Saqqara is where the pyramid was invented. The Step Pyramid of Djoser, built around 2650 BC under the architect Imhotep, is the oldest large stone structure in the world, and the structural experiment from which Giza would follow. The surrounding necropolis is large and only partly excavated, and new finds continue to emerge. Nearby Memphis, the ancient capital, preserves the colossal fallen statue of Ramses II and a large alabaster sphinx."},
+        {"label": "afternoon", "heading": "Old Cairo", "text": "The day moves forward to Cairo's older inhabited layers. In the Coptic quarter, the Hanging Church and the Church of St Sergius and Bacchus record Egypt's Christian centuries. The Ben Ezra Synagogue was rebuilt on a site associated with a Jewish presence in Cairo going back well over a thousand years."},
+        {"label": "evening", "heading": "Wekalet El-Ghoury", "text": "The day ends at Wekalet El-Ghoury, an Ottoman-era caravanserai in the heart of Islamic Cairo, for a Tanoura performance: the Sufi spinning ritual that has been part of Cairo's cultural fabric for centuries."}
+      ],
+      "sites": ["Step Pyramid of Djoser", "Saqqara necropolis", "Memphis", "Hanging Church", "Church of St Sergius and Bacchus", "Ben Ezra Synagogue", "Wekalet El-Ghoury"],
+      "overnight": "Cairo",
+      "meals": [{"meal": "breakfast"}, {"meal": "lunch"}, {"meal": "dinner"}],
+      "travel": "Private air-conditioned transfers",
+      "pace": "Early start, to avoid the worst of the midday heat at Saqqara",
+      "narrativeRefs": ["000000000015"],
+      "continuesInDay": null
+    },
+    {
+      "day": 4,
+      "place": "Cairo",
+      "title": "The Citadel, the Mosque of Muhammad Ali and Khan el-Khalili, then departure",
+      "body": [
+        "The last day is for medieval Cairo before the airport. The Saladin Citadel, built in the twelfth century AD on a spur of the Mokattam hills, has commanded the skyline for eight hundred years. Inside stands the Mosque of Muhammad Ali, completed in the 1840s in the Ottoman style, its twin minarets visible from most of the city below. The Citadel also offers one of the better elevated views open to visitors. Then down into Khan el-Khalili, the bazaar quarter that has traded continuously since the fourteenth century. A final lunch, then the transfer to the airport."
+      ],
+      "sites": ["Saladin Citadel", "Mosque of Muhammad Ali", "Khan el-Khalili"],
+      "overnight": null,
+      "meals": [{"meal": "breakfast"}, {"meal": "lunch", "note": "final lunch"}],
+      "travel": "Private air-conditioned transfers · private transfer to the airport",
+      "narrativeRefs": ["000000000019"],
+      "continuesInDay": null
+    }
+  ],
+  "options": [
+    "Spend a longer day at the Grand Egyptian Museum",
+    "Add a visit to Dahshur",
+    "Swap the Tanoura evening for a dinner cruise",
+    "Enter the Pyramid of Khafre"
+  ],
+  "excludedSeeDay": {}
+}

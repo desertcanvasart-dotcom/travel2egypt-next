@@ -344,11 +344,41 @@ export const tourBySlugQuery = (locale: Locale) => groq`
     // it covers every day, so a partial itinerary never renders.
     "approvedInclusions": inclusions[lang == "${locale}" && needsReview == false].text,
     "approvedExclusions": exclusions[lang == "${locale}" && needsReview == false].text,
+    "approvedExclusionRows": exclusions[lang == "${locale}" && needsReview == false]{ _key, text, seeSection },
+    // Panel Nights (2026-11-16): computed from the days' overnights once
+    // every overnight in this language is approved (titles may still be in
+    // review), so the count is right everywhere, not only on new-format pages.
     "approvedItinerary": select(
       count(itineraryDays[lang == "${locale}"]) > 0 &&
-      count(itineraryDays[lang == "${locale}" && (needsReview != false || overnightNeedsReview != false)]) == 0
-        => itineraryDays[lang == "${locale}"] | order(day asc){ day, title, overnight },
+      count(itineraryDays[lang == "${locale}" && overnightNeedsReview != false]) == 0
+        => itineraryDays[lang == "${locale}"] | order(day asc){ day, overnight },
       []
+    ),
+    // Multi-day itinerary format (2026-11-16): the day blocks and the journey
+    // intro, only when the intro AND every day in this language are approved.
+    "itineraryFormat": select(
+      count(itineraryIntro[lang == "${locale}" && needsReview == false]) > 0 &&
+      count(itineraryDays[lang == "${locale}"]) > 0 &&
+      count(itineraryDays[lang == "${locale}" && (needsReview != false || overnightNeedsReview != false)]) == 0
+        => {
+          "intro": itineraryIntro[lang == "${locale}" && needsReview == false][0]{
+            opening, whyRoute, whyRouteRefs, closingLine, closingRef, stayAndTravel, fitFor, worthKnowing, makeItYoursIntro
+          },
+          "days": itineraryDays[lang == "${locale}"] | order(day asc){
+            day, place, title, body, segments[]{ label, heading, text }, overnight,
+            meals[]{ meal, label, note }, travel, pace,
+            optional[]{ text, cost, exclusionRef }, narrativeRefs, continuesInDay,
+            sites[]{
+              name,
+              "ref": guideRef->{
+                _type,
+                "slug": ${localizedSlug('slug', locale)},
+                "citySlug": select(_type == "guideArticle" => ${localizedSlug('parentCity->slug', locale)}, null)
+              }
+            }
+          }
+        },
+      null
     ),
     // Right column (2026-11-11): the route renders only when EVERY leg in
     // this language is approved; options one by one.

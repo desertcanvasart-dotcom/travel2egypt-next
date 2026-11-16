@@ -17,6 +17,8 @@ import { TourProse } from './TourProse';
 import { LazyFloatingConcierge } from '../LazyFloatingConcierge';
 import { MultiDayPanel, DayHeroFacts, ProductFactsBlock, MidCta, EndBlock, type PanelFact } from '../product/ProductPanels';
 import { YourRoute, MakeItYourOwn, CompactStickyCard } from '../product/RightColumn';
+import { ItineraryFormat, itineraryFormatReady, type ItineraryFormatData } from '../product/ItineraryFormat';
+import { countNights, nightParts } from '@/lib/products/nights';
 import { routeStops, type RouteLegRow } from '@/lib/products/routeLabels';
 import { ProductLeadButton, ProductViewTracker } from '../product/ProductActions';
 import { HOME_COPY, homeLocale } from '../home-sales/copy';
@@ -75,7 +77,11 @@ export interface PackageDoc {
   relatedTours?: Array<{ _id: string; title: string; slug: string; durationLabel?: string; priceFrom?: number | null }> | null;
   approvedInclusions?: string[] | null;
   approvedExclusions?: string[] | null;
-  approvedItinerary?: Array<{ day: number; title: string; overnight?: string | null }> | null;
+  approvedExclusionRows?: Array<{ _key?: string; text: string; seeSection?: string | null }> | null;
+  /** Approved overnights (every overnight in this language approved), for the Nights count. */
+  approvedItinerary?: Array<{ day: number; overnight?: string | null }> | null;
+  /** Multi-day itinerary format: intro + days, only when all approved in this language. */
+  itineraryFormat?: ItineraryFormatData | null;
   /** Owner-approved route legs (all legs in this language, or none). */
   approvedRoute?: RouteLegRow[] | null;
   approvedOptions?: string[] | null;
@@ -84,8 +90,6 @@ export interface PackageDoc {
   relatedGuideArticles?: Array<{ _id: string; _type?: string; title?: string; slug?: string; parentCity?: { slug?: string } | null }> | null;
   journalRefs?: Array<{ _id: string; title?: string; slug?: string }> | null;
 }
-
-const CRUISE_RE = /cruise|nile|dahabiya|river|boat|felucca/i;
 
 export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: Locale }) {
   // Trust line: approved Short licence string + IATA item (fix round 2).
@@ -110,11 +114,20 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   const durationDays = tour.durationDays ?? days.length;
   const approvedItin = tour.approvedItinerary ?? [];
   const itinCovers = approvedItin.length > 0 && approvedItin.length === durationDays;
-  const nights = itinCovers
-    ? approvedItin.filter((d) => d.overnight).length
-    : durationDays > 0
-      ? durationDays - 1
-      : 0;
+  // Nights (2026-11-16): computed from the overnights, grouped hotel / sleeper
+  // train / river / camp: the approved per-day overnights when they cover every
+  // day, else the legacy days[].accommodation, else days − 1 (all hotel).
+  // The legacy list keeps the old total (days − 1); its train, river and camp
+  // nights are counted and the rest are hotel nights, as before.
+  const legacyStays = days.map((d) => d.accommodation).filter(Boolean) as string[];
+  const nightCounts = (() => {
+    if (itinCovers) return countNights(approvedItin.map((d) => d.overnight));
+    if (legacyStays.length === 0) return null;
+    const c = countNights(legacyStays);
+    const total = durationDays > 0 ? durationDays - 1 : c.total;
+    return { ...c, hotel: Math.max(total - c.train - c.river - c.camp, 0), total };
+  })();
+  const nights = nightCounts ? nightCounts.total : durationDays > 0 ? durationDays - 1 : 0;
 
   // ── Group package: the scheduled-departures apparatus. Built deterministically
   // at render/build time so the soonest FUTURE date is selected. ──
@@ -150,14 +163,14 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   const reserveHref = (dateRange: string) =>
     `${WHATSAPP}?text=${encodeURIComponent(ts('pkgGrpReserveText', { title: tour.title, date: dateRange }))}`;
 
-  // Nights split (hotel vs river) — derived from days[].accommodation when present.
-  const cruiseNights = itinCovers
-    ? approvedItin.filter((d) => d.overnight && CRUISE_RE.test(d.overnight)).length
-    : days.filter((d) => d.accommodation && CRUISE_RE.test(d.accommodation)).length;
+  // Nights split: shown when the nights are of more than one kind
+  // ("2 hotel · 1 sleeper train · 3 on the river").
+  const NIGHT_KEY = { hotel: 'nightsHotel', train: 'nightsTrain', river: 'nightsRiver', camp: 'nightsCamp' } as const;
+  const parts = nightCounts ? nightParts(nightCounts) : [];
+  const cruiseNights = nightCounts?.river ?? 0;
   const nightsSplit =
-    cruiseNights > 0 && nights > 0
-      ? ts('pkgNightsSplit', { hotel: Math.max(nights - cruiseNights, 0), river: cruiseNights })
-      : '';
+    parts.length > 1 ? parts.map((p) => tp(NIGHT_KEY[p.kind], { n: p.n })).join(locale === 'ja' ? '・' : ' · ') : '';
+  const itinFormat = itineraryFormatReady(tour.itineraryFormat, durationDays) ? tour.itineraryFormat : null;
 
 
   // "From" amount: group packages show the base price (falling back to
@@ -195,6 +208,10 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   const approvedOut = tour.approvedExclusions ?? [];
   const included = approvedIn.length || approvedOut.length ? approvedIn : tour.includedItems ?? [];
   const notIncluded = approvedIn.length || approvedOut.length ? approvedOut : tour.notIncludedItems ?? [];
+  const notIncludedRows =
+    approvedIn.length || approvedOut.length
+      ? tour.approvedExclusionRows ?? approvedOut.map((text) => ({ text }))
+      : notIncluded.map((text) => ({ text }));
 
   const guideItems = [...(tour.relatedGuides ?? []), ...(tour.relatedGuideArticles ?? [])].filter((g) => g.title);
   const journal = (tour.journalRefs ?? []).filter((j) => j.title);
@@ -319,6 +336,63 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
     )
   ) : null;
 
+  // Practical information, scheduled departures and the access note: after
+  // the days in either layout.
+  const afterDays = (
+    <>
+      {Array.isArray(tour.practicalInfo) && tour.practicalInfo.length > 0 && (
+        <section className="practical" id="practical">
+          <TourProse value={tour.practicalInfo} locale={locale} lead={false} />
+        </section>
+      )}
+
+      {isGroup && dep && dep.rows.length > 0 && (
+        <section className="departures" id="departures">
+          <h2>{ts('pkgGrpDepTitle')}</h2>
+          <p className="dep-sub">{ts('pkgGrpDepSub', { count: dep.count })}</p>
+          <div className="dep-table">
+            {dep.rows.map((r, i) => {
+              const statusCls = r.status ? STATUS_CLASS[r.status] ?? 's-open' : '';
+              const joinLabel = r.status === 'soldout'
+                ? ts('pkgGrpWaitlist')
+                : r.status === 'onrequest'
+                  ? ts('pkgGrpEnquire')
+                  : ts('pkgGrpHoldDate');
+              return (
+                <div className={r.isSoldOut ? 'dep-row is-out' : 'dep-row'} key={i}>
+                  <div className="dp-date">{r.dateRange}</div>
+                  <div className={`dp-status ${statusCls}`}>{r.status ? STATUS_LABEL[r.status] : ''}</div>
+                  <div className="dp-places">{typeof r.placesLeft === 'number' ? ts('pkgGrpPlaces', { count: r.placesLeft }) : ''}</div>
+                  <div className="dp-price">
+                    {r.price != null ? <Price eur={r.price} /> : ts('priceOnInquiry')}
+                    {r.price != null && <small>{ts('pkgGrpPerPerson')}</small>}
+                  </div>
+                  <a
+                    className={r.isSoldOut ? 'dp-join is-disabled' : 'dp-join'}
+                    href={r.isSoldOut ? undefined : reserveHref(r.dateRange)}
+                    target={r.isSoldOut ? undefined : '_blank'}
+                    rel="noopener noreferrer"
+                  >
+                    {joinLabel}
+                  </a>
+                </div>
+              );
+            })}
+          </div>
+          <p className="dep-note">{ts('pkgGrpDepNote')}</p>
+        </section>
+      )}
+
+      {tour.accessNote && (
+        <>
+          <h2>{tour.accessNoteTitle ?? ts('accessTitle')}</h2>
+          <p>{tour.accessNote}</p>
+        </>
+      )}
+
+    </>
+  );
+
   return (
     <div className="tour-doc lvl-single">
       <JsonLd data={[tripSchema, breadcrumbSchema]} />
@@ -407,16 +481,36 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
           </div>
 
           <div className="pdp-main">
-            <ProductFactsBlock
-              locale={locale}
-              included={included}
-              excluded={notIncluded}
-              itinerary={approvedItin}
-              durationDays={durationDays || null}
-            />
+            {!itinFormat && (
+              <ProductFactsBlock locale={locale} included={included} excluded={notIncluded} />
+            )}
 
             <article className="body">
-              <TourProse value={tour.body} locale={locale} />
+              {itinFormat ? (
+                <ItineraryFormat
+                  locale={locale}
+                  slug={tour.slug}
+                  data={itinFormat}
+                  essay={tour.body}
+                  included={included}
+                  excluded={notIncludedRows}
+                  options={tour.approvedOptions ?? []}
+                  beforeMakeItYours={afterDays}
+                  cta={
+              <MidCta
+                locale={locale}
+                kind="multi"
+                slug={tour.slug}
+                title={tour.title}
+                waHref={waHref}
+                durationDays={durationDays || null}
+                fromEur={null}
+              />
+                  }
+                />
+              ) : (
+                <>
+                  <TourProse value={tour.body} locale={locale} />
 
               {days.length > 0 && (
                 <>
@@ -438,55 +532,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
                 </>
               )}
 
-              {Array.isArray(tour.practicalInfo) && tour.practicalInfo.length > 0 && (
-                <section className="practical" id="practical">
-                  <TourProse value={tour.practicalInfo} locale={locale} lead={false} />
-                </section>
-              )}
-
-              {isGroup && dep && dep.rows.length > 0 && (
-                <section className="departures" id="departures">
-                  <h2>{ts('pkgGrpDepTitle')}</h2>
-                  <p className="dep-sub">{ts('pkgGrpDepSub', { count: dep.count })}</p>
-                  <div className="dep-table">
-                    {dep.rows.map((r, i) => {
-                      const statusCls = r.status ? STATUS_CLASS[r.status] ?? 's-open' : '';
-                      const joinLabel = r.status === 'soldout'
-                        ? ts('pkgGrpWaitlist')
-                        : r.status === 'onrequest'
-                          ? ts('pkgGrpEnquire')
-                          : ts('pkgGrpHoldDate');
-                      return (
-                        <div className={r.isSoldOut ? 'dep-row is-out' : 'dep-row'} key={i}>
-                          <div className="dp-date">{r.dateRange}</div>
-                          <div className={`dp-status ${statusCls}`}>{r.status ? STATUS_LABEL[r.status] : ''}</div>
-                          <div className="dp-places">{typeof r.placesLeft === 'number' ? ts('pkgGrpPlaces', { count: r.placesLeft }) : ''}</div>
-                          <div className="dp-price">
-                            {r.price != null ? <Price eur={r.price} /> : ts('priceOnInquiry')}
-                            {r.price != null && <small>{ts('pkgGrpPerPerson')}</small>}
-                          </div>
-                          <a
-                            className={r.isSoldOut ? 'dp-join is-disabled' : 'dp-join'}
-                            href={r.isSoldOut ? undefined : reserveHref(r.dateRange)}
-                            target={r.isSoldOut ? undefined : '_blank'}
-                            rel="noopener noreferrer"
-                          >
-                            {joinLabel}
-                          </a>
-                        </div>
-                      );
-                    })}
-                  </div>
-                  <p className="dep-note">{ts('pkgGrpDepNote')}</p>
-                </section>
-              )}
-
-              {tour.accessNote && (
-                <>
-                  <h2>{tour.accessNoteTitle ?? ts('accessTitle')}</h2>
-                  <p>{tour.accessNote}</p>
-                </>
-              )}
+              {afterDays}
 
               {tour.audienceNote && (
                 <div className="audience">
@@ -511,6 +557,8 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
                 durationDays={durationDays || null}
                 fromEur={null}
               />
+                </>
+              )}
             </article>
           </div>
         </div>
