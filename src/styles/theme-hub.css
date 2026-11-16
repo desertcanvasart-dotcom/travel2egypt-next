@@ -75,3 +75,9 @@ html[lang='ja'] .lvl-theme .theme-dek-below { font-style: normal; font-size: 16p
   .lvl-theme .theme-band .mast-stats dd { font-size: 17px; }
   html[lang='ja'] .lvl-theme .theme-hero h1 { font-size: clamp(24px, 6.4vw, 32px); }
 }
+
+/* Day-tour city pages share this layout (2026-11-15). Their titles are
+   longer ("Excursiones de un día en grupo reducido…"): a wider measure keeps
+   the H1 to two lines at 1440px. */
+.lvl-cityhub .theme-hero h1 { max-width: 30ch; }
+html[lang='ja'] .lvl-cityhub .theme-hero h1 { max-width: 26em; }
