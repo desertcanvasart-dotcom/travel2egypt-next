@@ -13,6 +13,21 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/luxor-2-day-tour-by-plane-from-cairo",
+    "destination": "/02-day-luxor-tour-by-plane-from-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/odisea-aerea-luxor-2-dias-en-avion-desde-el-cairo",
+    "destination": "/es/luxor-en-avion-desde-el-cairo-tour-de-dos-dias",
+    "permanent": true
+  },
+  {
+    "source": "/ja/tenku-no-tabi-kairo-hatsu-rukusoru-2-nichikan-tsua-hikoki",
+    "destination": "/ja/kuro-de-iku-rukusoru-kairo-hatsu-2-nichikan-tsua",
+    "permanent": true
+  },
+  {
     "source": "/2-day-egypt-s-majestic-trio-aswan-and-abu-simbel-from-luxor",
     "destination": "/aswan-and-abu-simbel-from-luxor",
     "permanent": true
@@ -1159,7 +1174,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/aerial-odyssey-luxor-2-day-tour-by-plane-from-cairo",
-    "destination": "/luxor-2-day-tour-by-plane-from-cairo",
+    "destination": "/02-day-luxor-tour-by-plane-from-cairo",
     "permanent": true
   },
   {
@@ -29479,7 +29494,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/天空の旅：カイロ発ルクソール2日間ツアー（飛行",
-    "destination": "/ja/tenku-no-tabi-kairo-hatsu-rukusoru-2-nichikan-tsua-hikoki",
+    "destination": "/ja/kuro-de-iku-rukusoru-kairo-hatsu-2-nichikan-tsua",
     "permanent": true
   },
   {

@@ -64,6 +64,8 @@ export interface PackageDoc {
   practicalInfo?: unknown[] | null;
   days?: PackageDay[] | null;
   conciergeNote?: string;
+  /** This language only (no EN fallback) — the itinerary format's note. */
+  conciergeNoteStrict?: string | null;
   faq?: LandingFaqItem[];
   includedItems?: string[] | null;
   notIncludedItems?: string[] | null;
@@ -494,6 +496,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
 
             <article className="body">
               {itinFormat ? (
+                <>
                 <ItineraryFormat
                   locale={locale}
                   slug={tour.slug}
@@ -515,6 +518,15 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
               />
                   }
                 />
+                {/* The owner's closing concierge note, after "Make it your own".
+                    JA never shows concierge content (the concierge is EN/ES only). */}
+                {locale !== 'ja' && tour.conciergeNoteStrict && (
+                  <div className="note">
+                    <span className="t2e-kicker">{ts('conciergeNoteLabel')}</span>
+                    <p>{tour.conciergeNoteStrict}</p>
+                  </div>
+                )}
+                </>
               ) : (
                 <>
                   <TourProse value={tour.body} locale={locale} />

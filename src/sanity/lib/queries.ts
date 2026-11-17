@@ -113,7 +113,7 @@ export const cityBySlugQuery = (locale: Locale) => groq`
         "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
       }
     },
-    "relatedTours": *[_type == "tour" && references(^._id)] | order(_createdAt desc)[0...6]{
+    "relatedTours": *[_type == "tour" && hidden != true && references(^._id)] | order(_createdAt desc)[0...6]{
       _id,
       type,
       durationDays,
@@ -529,6 +529,8 @@ export const tourBySlugQuery = (locale: Locale) => groq`
       "description": ${localizedField('description', locale)}
     },
     "conciergeNote": ${localizedField('conciergeNote', locale)},
+    // The itinerary format shows the note only in its own language (JA: never).
+    "conciergeNoteStrict": ${localizedFieldStrict('conciergeNote', locale)},
     "faq": faq[]{
       _key,
       "question": ${localizedFieldStrict('question', locale)},
@@ -625,7 +627,7 @@ export const groupDayLandingsQuery = (locale: Locale) => groq`
  * All packages, ordered for listing pages.
  */
 export const allPackagesQuery = (locale: Locale) => groq`
-  *[_type == "tour" && type == "package"] | order(_createdAt desc){
+  *[_type == "tour" && type == "package" && hidden != true] | order(_createdAt desc){
     ${tourCardProjection(locale)}
   }
 `;
@@ -638,7 +640,7 @@ export const allPackagesQuery = (locale: Locale) => groq`
  * counts are derived client-side from this single list.
  */
 export const privatePackagesQuery = (locale: Locale) => groq`
-  *[_type == "tour" && type == "package" && tourMode == "private"] | order(durationDays asc, _createdAt desc){
+  *[_type == "tour" && type == "package" && tourMode == "private" && hidden != true] | order(durationDays asc, _createdAt desc){
     ${tourCardProjection(locale)}
   }
 `;
@@ -687,7 +689,7 @@ export const packageCategoryQuery = (locale: Locale, key = 'private-package') =>
  * originRegion (japan-east-asia / uk-europe / usa-canada), NOT theme.
  */
 export const groupPackagesQuery = (locale: Locale) => groq`
-  *[_type == "tour" && type == "package" && tourMode == "group"] | order(durationDays asc, _createdAt desc){
+  *[_type == "tour" && type == "package" && tourMode == "group" && hidden != true] | order(durationDays asc, _createdAt desc){
     ${tourCardProjection(locale)}
   }
 `;
@@ -754,7 +756,7 @@ export const packagesByThemeQuery = (locale: Locale) => groq`
     "slug": ${localizedSlug('slug', locale)},
     "description": ${localizedField('description', locale)},
     orderRank,
-    "packages": *[_type == "tour" && type == "package" && references(^._id)] | order(durationDays asc){
+    "packages": *[_type == "tour" && type == "package" && hidden != true && references(^._id)] | order(durationDays asc){
       ${tourCardProjection(locale)}
     }
   }[count(packages) > 0]
