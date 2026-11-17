@@ -434,6 +434,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
               mobileLine={mobileLine}
               variant="multi"
               durationDays={durationDays || null}
+              fromNote={tp('fromGroupNote')}
             />
           </header>
 

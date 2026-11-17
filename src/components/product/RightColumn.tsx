@@ -61,7 +61,7 @@ export async function YourDayAtAGlance({ locale, items }: { locale: Locale; item
   const t = await getTranslations({ locale, namespace: 'productPanel' });
   return (
     <section className="pdp-rc pdp-route pdp-dayglance" aria-labelledby="pdp-dayglance-h">
-      <h2 id="pdp-dayglance-h" className="pdp-rc__h">{t('dayAtAGlance')}</h2>
+      <h2 id="pdp-dayglance-h" className="pdp-rc__h">{t('routeTitle')}</h2>
       <ol className="pdp-route__list">
         {items.map((it, i) => (
           <li key={i} className="pdp-route__stop">
