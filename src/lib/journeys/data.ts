@@ -46,7 +46,7 @@ const query = groq`{
   "hubs": *[_id in $hubIds]{
     _id,
     "slug": coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current),
-    "n": count(*[_type == "tour" && type == "package" && tourMode == "private" && !(_id in path("drafts.**")) && theme._ref == ^.themeRef._ref])
+    "n": count(*[_type == "tour" && type == "package" && tourMode == "private" && !(_id in path("drafts.**")) && hidden != true && theme._ref == ^.themeRef._ref])
   }
 }`;
 

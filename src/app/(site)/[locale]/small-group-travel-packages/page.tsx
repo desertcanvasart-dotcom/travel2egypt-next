@@ -37,7 +37,7 @@ export async function generateMetadata({
  * the facts the card shows: region, departures, max group, from price.
  */
 const smallGroupToursQuery = groq`{
-  "tours": *[_type == "tour" && type == "package" && tourMode == "group" && !(_id in path("drafts.**"))]
+  "tours": *[_type == "tour" && type == "package" && tourMode == "group" && !(_id in path("drafts.**")) && hidden != true]
     | order(durationDays asc, _createdAt desc){
     _id,
     "slug": ${EN_SLUG},

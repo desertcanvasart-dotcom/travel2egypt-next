@@ -35,7 +35,7 @@ export async function generateMetadata({
 
 /** Every published private multi-day package, with its "from" price (EUR). */
 const hubPackagesQuery = groq`
-  *[_type == "tour" && type == "package" && tourMode == "private" && !(_id in path("drafts.**"))]
+  *[_type == "tour" && type == "package" && tourMode == "private" && !(_id in path("drafts.**")) && hidden != true]
     | order(durationDays asc, _createdAt desc){
     _id,
     "enSlug": slug[_key=="en"][0].value.current,
