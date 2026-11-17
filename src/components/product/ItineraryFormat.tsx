@@ -41,7 +41,9 @@ export interface ItinIntro {
   whyRouteRefs?: string[] | null;
   closingLine?: string | null;
   closingRef?: string | null;
-  stayAndTravel?: { hotels?: string | null; river?: string | null; train?: string | null; flight?: string | null; camp?: string | null; road?: string | null; everyDay?: string | null } | null;
+  stayAndTravel?: { hotels?: string | null; river?: string | null; train?: string | null; flight?: string | null; camp?: string | null; road?: string | null; arrival?: string | null; everyDay?: string | null; water?: string | null } | null;
+  /** A note above the days (e.g. the cruise's sailing order). */
+  daysNote?: { lead?: string | null; text?: string | null } | null;
   fitFor?: string[] | null;
   worthKnowing?: string[] | null;
   makeItYoursIntro?: string | null;
@@ -120,7 +122,9 @@ export async function ItineraryFormat({
     [t('stayFlight'), stay.flight],
     [t('stayCamp'), stay.camp],
     [t('stayRoad'), stay.road],
+    [t('stayArrival'), stay.arrival],
     [t('stayEveryDay'), stay.everyDay],
+    [t('stayWater'), stay.water],
   ];
   const routeMore = pick(intro.whyRouteRefs);
 
@@ -142,6 +146,12 @@ export async function ItineraryFormat({
 
       <section className="pdp-days" aria-labelledby="pdp-days-h">
         <h2 id="pdp-days-h">{t('yourDays', { n: countWord(days.length, locale) })}</h2>
+        {intro.daysNote?.text && (
+          <p className="pdp-days__note">
+            {intro.daysNote.lead && <strong>{intro.daysNote.lead} </strong>}
+            {intro.daysNote.text}
+          </p>
+        )}
         <ol className="pdp-days__list">
           {days.map((d) => {
             const more = pick(d.narrativeRefs);

@@ -241,7 +241,18 @@ export const itineraryIntroSchema = defineType({
         defineField({ name: 'flight', title: 'Flight', type: 'text', rows: 2 }),
         defineField({ name: 'camp', title: 'Camp', type: 'text', rows: 2 }),
         defineField({ name: 'road', title: 'By road', type: 'text', rows: 2 }),
+        defineField({ name: 'arrival', title: 'Arriving and leaving', type: 'text', rows: 2 }),
         defineField({ name: 'everyDay', title: 'Every day', type: 'text', rows: 2 }),
+        defineField({ name: 'water', title: 'On the water', type: 'text', rows: 2 }),
+      ],
+    }),
+    defineField({
+      name: 'daysNote',
+      title: 'Note above the days (e.g. "Your ship sets the exact order.")',
+      type: 'object',
+      fields: [
+        defineField({ name: 'lead', title: 'Lead (bold)', type: 'string' }),
+        defineField({ name: 'text', title: 'Text', type: 'text', rows: 3 }),
       ],
     }),
     defineField({ name: 'fitFor', title: 'A good fit if you…', type: 'array', of: [{ type: 'string' }] }),
