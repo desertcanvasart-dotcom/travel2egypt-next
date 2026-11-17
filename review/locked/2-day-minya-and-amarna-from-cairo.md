@@ -38,7 +38,7 @@ An early pickup from your Cairo hotel and the drive south, three to four hours d
 **Late afternoon.** Tell el-Amarna, Akhenaten’s "Horizon of the Aten", built around 1346 BC. The courtiers’ cliff tombs show the royal family under the rays of the Aten, each ray ending in a small hand. Then to your hotel in Minya for dinner.
 
 **The day:** Beni Hassan · Hermopolis (Ashmunein) · Tuna el-Gebel · Tomb of Petosiris · Tell el-Amarna
-**Overnight:** Minya hotel
+**Overnight:** Omar El Khayam Al Minya Hotel
 **Meals:** Lunch · dinner
 **Travel:** Pickup from your Cairo hotel · private air-conditioned car
 **Pace:** A long day, with uneven ground at Beni Hassan
@@ -67,7 +67,7 @@ Not repetition, a second pass. Both sites are big enough that the first visit sh
 
 ## Your stay and travel
 
-**Hotel:** one night in Minya, a working provincial city rather than a resort, with dinner and breakfast.
+**Hotel:** one night at the Omar El Khayam Al Minya Hotel, in Minya, a working provincial city rather than a resort, with dinner and breakfast.
 
 **On the road:** a private air-conditioned car from your Cairo hotel and back, about three to four hours each way.
 
@@ -81,7 +81,7 @@ Not repetition, a second pass. Both sites are big enough that the first visit sh
 - Private tour for your party
 - A licensed Egyptologist guide in your language (English, Spanish or Japanese)
 - Private air-conditioned car from and back to your Cairo hotel
-- One night in a Minya hotel, with dinner and breakfast
+- One night at the Omar El Khayam Al Minya Hotel, with dinner and breakfast
 - Lunch at a local restaurant on both days
 - A bottle of water per person
 - Entrance tickets to the sites in the daily programme

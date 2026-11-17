@@ -38,7 +38,7 @@ Recogida temprano en tu hotel de El Cairo y viaje hacia el sur, de tres a cuatro
 **Última hora de la tarde.** Tell el-Amarna, el «Horizonte de Atón» de Akenatón, construido hacia el 1346 a. C. Las tumbas de los cortesanos, excavadas en el acantilado, muestran a la familia real bajo los rayos de Atón, cada uno de los cuales termina en una pequeña mano. Después, a tu hotel de Minia para la cena.
 
 **El día:** Beni Hasan · Hermópolis (Ashmunein) · Tuna el-Gebel · tumba de Petosiris · Tell el-Amarna
-**Noche:** hotel en Minia
+**Noche:** Omar El Khayam Al Minya Hotel
 **Comidas:** almuerzo · cena
 **Traslados:** recogida en tu hotel de El Cairo · coche privado con aire acondicionado
 **Ritmo:** un día largo, con terreno irregular en Beni Hasan
@@ -67,7 +67,7 @@ No es repetir, es una segunda pasada. Los dos lugares son lo bastante grandes co
 
 ## Alojamiento y traslados
 
-**Hotel:** una noche en Minia, una ciudad de provincias con vida propia, no un lugar de vacaciones, con cena y desayuno.
+**Hotel:** una noche en el Omar El Khayam Al Minya Hotel, en Minia, una ciudad de provincias con vida propia, no un lugar de vacaciones, con cena y desayuno.
 
 **En la carretera:** coche privado con aire acondicionado desde tu hotel de El Cairo y de vuelta, unas tres o cuatro horas en cada sentido.
 
@@ -81,7 +81,7 @@ No es repetir, es una segunda pasada. Los dos lugares son lo bastante grandes co
 - Viaje privado para tu grupo
 - Un guía egiptólogo con licencia, en tu idioma (inglés, español o japonés)
 - Coche privado con aire acondicionado desde tu hotel de El Cairo y de vuelta
-- Una noche en un hotel de Minia, con cena y desayuno
+- Una noche en el Omar El Khayam Al Minya Hotel, con cena y desayuno
 - Almuerzo en un restaurante local los dos días
 - Una botella de agua por persona
 - Entradas a los lugares del programa diario
