@@ -31,6 +31,8 @@ export function figures(s, lang) {
     t = t.replace(/(\d+(?:\.\d+)?)万/g, (_, n) => ` ${Math.round(parseFloat(n) * 10000)} `).replace(/(\d+(?:\.\d+)?)千/g, (_, n) => ` ${Math.round(parseFloat(n) * 1000)} `);
     // 一日 / 二つ / 三泊: single kanji numerals before a counter
     t = t.replace(/([一二三四五六七八九十])(?=[日泊つ人回か週柱羽体基本名階大度])/g, (k) => ` ${JA_KANJI[k]} `);
+    // 七不思議 (the Seven Wonders)
+    t = t.replace(/七不思議/g, ' 7 ');
     // Hiragana counts: ふたつ / ふたり / みっつ / よっつ
     t = t.replace(/ふた[つり]/g, ' 2 ').replace(/みっつ/g, ' 3 ').replace(/よっつ/g, ' 4 ');
     // 1960〜70年代 → 1960 1970
@@ -44,6 +46,8 @@ export function figures(s, lang) {
     t = t.replace(/\b(twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|one|two|three|four|five|six|seven|eight|nine|ten) million\b/g, (_, w) => ` ${EN_WORDS[w] * 1000000} `);
     for (const [w, n] of Object.entries({ ...EN_WORDS, ...ORDINAL_EN })) t = t.replace(new RegExp(`\\b${w}\\b`, 'g'), ` ${n} `);
     t = t.replace(/\bmillion\b/g, '');
+    // "four thousand years" → 4000
+    t = t.replace(/\b(\d+)\s+thousand\b/g, (_, n) => ` ${parseInt(n, 10) * 1000} `);
     // A month name is a date only next to a number ("November 2021", "1 March"), not "a march through".
     for (const [w, n] of Object.entries(MONTHS_EN)) t = t.replace(new RegExp(`\\b${w}\\b(?=\\s+\\d)|(?<=\\d\\s+)\\b${w}\\b`, 'g'), ` ${n} `);
   }
@@ -55,6 +59,8 @@ export function figures(s, lang) {
     for (const [w, n] of Object.entries(MONTHS_ES)) t = t.replace(new RegExp(`(^|[^\\p{L}])${w}(?=[^\\p{L}]|$)`, 'gu'), `$1 ${n} `);
     for (const [w, n] of Object.entries({ ...ES_WORDS, ...ORDINAL_ES })) t = t.replace(new RegExp(`(^|[^\\p{L}])${w}(?=[^\\p{L}]|$)`, 'gu'), `$1 ${n} `);
   }
+  // "cuatro mil años" → 4000 (after the ES words became digits)
+  if (lang === 'es') t = t.replace(/\b(\d+)\s+mil\b/g, (_, n) => ` ${parseInt(n, 10) * 1000} `);
   for (const m of t.matchAll(/\d+(?:\.\d+)?/g)) out.push(Number(m[0]));
   // 1 is left out: "a", "one of", "un/una", 一 are articles far more often than figures.
   return out.filter((n) => n !== 1);
