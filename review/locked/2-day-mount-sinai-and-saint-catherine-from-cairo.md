@@ -108,7 +108,7 @@ Out of Cairo, under the Suez Canal through the Ahmed Hamdi tunnel and down the e
 **Worth knowing:**
 - The climb starts at 01:00, in the dark, and the Steps of Repentance are steep.
 - Not recommended for children under 10.
-- The monastery receives visitors from 08:45 to 11:30. On Fridays it opens only from 10:45 to 11:30, and its museum is closed. It’s closed on Sundays and on the Orthodox holidays in its published calendar. We check your date against that calendar when you book. If your Day 2 falls on a Friday, the climb starts later so you reach the monastery for its 10:45 opening. If it falls on a Sunday or a holiday, we move your dates.
+- {{saint-catherine-monastery-hours}} We check your date against that calendar when you book. If your Day 2 falls on a Friday, the climb starts later so you reach the monastery for its 10:45 opening. If it falls on a Sunday or a holiday, we move your dates.
 
 ---
 

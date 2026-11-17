@@ -108,7 +108,7 @@ Salida de El Cairo, bajo el canal de Suez por el túnel Ahmed Hamdi, y hacia el 
 **Conviene saber**
 - La subida empieza a la 01:00, de noche, y los Escalones del Arrepentimiento son empinados.
 - No recomendado para menores de 10 años.
-- El monasterio recibe visitas de 08:45 a 11:30. Los viernes solo abre de 10:45 a 11:30, y su museo está cerrado. Cierra los domingos y en las fiestas ortodoxas de su calendario publicado. Comprobamos tu fecha con ese calendario al reservar. Si tu segundo día cae en viernes, la subida empieza más tarde para llegar al monasterio a su apertura de las 10:45. Si cae en domingo o en un día festivo, cambiamos las fechas.
+- {{saint-catherine-monastery-hours}} Comprobamos tu fecha con ese calendario al reservar. Si tu segundo día cae en viernes, la subida empieza más tarde para llegar al monasterio a su apertura de las 10:45. Si cae en domingo o en un día festivo, cambiamos las fechas.
 
 ---
 
