@@ -13,6 +13,21 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/2-day-egypt-s-majestic-trio-aswan-and-abu-simbel-from-luxor",
+    "destination": "/aswan-and-abu-simbel-from-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/dos-dias-de-luxor-a-abu-simbel-con-una-noche-por-medio",
+    "destination": "/es/trio-majestuoso-de-egipto-de-2-dias-asuan-y-abu-simbel-desde-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/ja/rukusoru-kara-abu-shin-beru-e-ni-nichikan-tochu-ni-ichiya-o",
+    "destination": "/ja/2-nichikan-de-ejiputo-no-sodai-na-san-juso-rukusoru-kara",
+    "permanent": true
+  },
+  {
     "source": "/tours/private-tour-dendera-and-abydos-by-bus",
     "destination": "/dendera-and-abydos-temples-from-luxor",
     "permanent": true
@@ -1189,7 +1204,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/2-day-egypt-s-majestic-trio-aswan-and-abu-simbel-from-luxor",
-    "destination": "/ja/rukusoru-kara-abu-shin-beru-e-ni-nichikan-tochu-ni-ichiya-o",
+    "destination": "/ja/2-nichikan-de-ejiputo-no-sodai-na-san-juso-rukusoru-kara",
     "permanent": true
   },
   {
@@ -6089,7 +6104,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/2-day-egypt-s-majestic-trio-aswan-and-abu-simbel-from-luxor",
-    "destination": "/es/dos-dias-de-luxor-a-abu-simbel-con-una-noche-por-medio",
+    "destination": "/es/trio-majestuoso-de-egipto-de-2-dias-asuan-y-abu-simbel-desde-luxor",
     "permanent": true
   },
   {

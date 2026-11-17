@@ -44,6 +44,9 @@ export interface ItinIntro {
   stayAndTravel?: { hotels?: string | null; river?: string | null; train?: string | null; flight?: string | null; camp?: string | null; road?: string | null; arrival?: string | null; everyDay?: string | null; water?: string | null } | null;
   /** A note above the days (e.g. the cruise's sailing order). */
   daysNote?: { lead?: string | null; text?: string | null } | null;
+  /** Panel rows (packages that start and end in different places). */
+  pickup?: string | null;
+  ends?: string | null;
   fitFor?: string[] | null;
   worthKnowing?: string[] | null;
   makeItYoursIntro?: string | null;
