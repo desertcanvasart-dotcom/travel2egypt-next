@@ -10,7 +10,8 @@
  * "Your guide speaks" panel row and the stay rows, included / not included,
  * route legs), the new titles ×3, a new summary ×3 (the old one used the
  * retired spellings), and the essay corrections (Gate A.3) in the passages the
- * page shows under "More about this stop". It keeps its slugs, hero, essay,
+ * page shows under "More about this stop". Safe to re-run: fixes already applied
+ * are skipped (17 Nov evening: the hotel, Omar El Khayam Al Minya Hotel, added). It keeps its slugs, hero, essay,
  * price (€399; ES €421, JA €435) and relatedTours. No concierge note.
  *
  * Day 1 opens with a plain paragraph and then has Morning / Afternoon / Late
@@ -157,6 +158,8 @@ const body = tour.body.map((row) => {
       for (const [, find, repl] of fixes) {
         const alts = [find, find.replace(/’/g, "'")];
         const i = children.findIndex((c) => alts.some((f) => c.text.includes(f)));
+        // Re-runs (e.g. the hotel name, 17 Nov evening): a fix already applied is skipped.
+        if (i < 0 && children.some((c) => c.text.includes(repl))) continue;
         if (i < 0) throw new Error(`${l} ${b._key}: "${find.slice(0, 50)}" not found in one run`);
         children[i] = { ...children[i], text: children[i].text.replace(alts.find((f) => children[i].text.includes(f)), repl) };
       }
