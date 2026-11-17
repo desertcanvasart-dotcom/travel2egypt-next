@@ -44,3 +44,5 @@ jobs:
         run: npm run test:linkmap
       - name: Analytics + lead form tests
         run: npm run test:analytics
+      - name: Monastery hours data
+        run: npm run test:monastery-hours

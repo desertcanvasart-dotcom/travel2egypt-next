@@ -4,6 +4,7 @@ import { getTranslations } from 'next-intl/server';
 import type { Locale } from '@/i18n/routing';
 import { Link } from '@/i18n/navigation';
 import { pathFromDoc, type SitemapDocType } from '@/lib/path-from-doc';
+import { MONASTERY_HOURS_TOKEN, hoursSentence, upcomingHolidays, holidaysLabel, formatClosure, saintCatherineMonastery } from '@/data/monastery-hours';
 
 /**
  * Sections shared by the multi-day itinerary format and the day-tour format
@@ -126,12 +127,33 @@ export async function ForYou({ locale, heading, fitFor, worthKnowing }: { locale
           <p className="pdp-foryou__h">{t('worthKnowing')}</p>
           <ul>
             {worth.map((x, i) => (
-              <li key={i}>{x}</li>
+              <li key={i}>{x.includes(MONASTERY_HOURS_TOKEN) ? <MonasteryHours locale={locale} text={x} /> : x}</li>
             ))}
           </ul>
         </>
       )}
     </section>
+  );
+}
+
+/** A "Worth knowing" line with the monastery marker: the hours from src/data/monastery-hours,
+ *  then the holiday closures for this year and later, with the data's "checked" stamp. */
+function MonasteryHours({ locale, text }: { locale: Locale; text: string }) {
+  const years = upcomingHolidays();
+  return (
+    <>
+      {text.replace(MONASTERY_HOURS_TOKEN, hoursSentence(locale))}
+      {years.map(({ year, dates }) => (
+        <details key={year} className="pdp-foryou__dates">
+          <summary>{holidaysLabel(locale, year)}</summary>
+          <p>
+            {dates.map((d) => formatClosure(d, locale)).join(' · ')}
+            <br />
+            <small>{saintCatherineMonastery.checked[locale]}</small>
+          </p>
+        </details>
+      ))}
+    </>
   );
 }
 

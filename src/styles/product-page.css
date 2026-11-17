@@ -126,6 +126,11 @@
 .pdp-incl-extra .no a { color: inherit; text-underline-offset: 3px; }
 .lvl-single .body .pdp-foryou__h { font-family: var(--ui); font-weight: 500; font-size: 15px; margin: 16px 0 4px; }
 .pdp-foryou ul, .pdp-yours ul { margin: 0 0 8px; padding-left: 20px; }
+/* Monastery closure dates under a "Worth knowing" line (src/data/monastery-hours). */
+.pdp-foryou__dates { margin: 6px 0 2px; }
+.pdp-foryou__dates summary { cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.pdp-foryou__dates p { margin: 6px 0 0; font-size: 0.92em; line-height: 1.6; }
+.pdp-foryou__dates small { opacity: 0.75; }
 .pdp-yours { scroll-margin-top: 120px; }
 .pdp-yours .pdp-mid { margin-top: 20px; }
 @media (max-width: 620px) {

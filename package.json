@@ -23,6 +23,7 @@
     "test:redirect-map-regenerate": "tsx scripts/wp-import/__tests__/redirect-map-regenerate.test.ts",
     "test:journeys": "tsx src/lib/__tests__/journeys-phase-b.test.ts",
     "test:nights": "tsx src/lib/__tests__/nights.test.ts",
+    "test:monastery-hours": "tsx src/lib/__tests__/monastery-hours.test.ts",
     "test:content-lint": "node scripts/content-lint/__tests__/lint.test.mjs",
     "content-lint": "node scripts/content-lint/index.mjs",
     "test:retired-content": "tsx src/lib/__tests__/retired-content.test.ts",
