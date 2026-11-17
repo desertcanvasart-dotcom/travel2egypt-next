@@ -1,0 +1,1289 @@
+{
+ "_createdAt": "2026-11-17T12:35:18Z",
+ "_id": "drafts.tour.2-day-egypt-s-majestic-trio-aswan-and-abu-simbel-from-luxor",
+ "_rev": "NlLVdBCLq6hiQuJJ8vknHv",
+ "_system": {
+  "base": {
+   "id": "tour.2-day-egypt-s-majestic-trio-aswan-and-abu-simbel-from-luxor",
+   "rev": "djgbgtoqo7PDAdGRjEevTq"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-17T12:35:18Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers who want Abu Simbel without the punishment of the day-trip; anyone using Luxor as the base for Upper Egypt"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros que quieren Abu Simbel sin la penitencia de la excursión de un día; quien use Luxor como base para el Alto Egipto"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "アブ・シンベルを日帰りの消耗ではなくきちんと体験したい方／ルクソールを上エジプトの拠点とする方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Two Days from Luxor to Abu Simbel — With a Night in Between"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A short private journey that refuses to do Abu Simbel as a 4 a.m. day-trip — and lets Aswan and the lake have their own evening."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "The standard way to see Abu Simbel from Luxor is brutal: a 3 a.m. convoy departure, six hours each way, ninety minutes at the temples, back at the hotel after sunset, no recall of anything in between. This route is built differently. The drive from Luxor to Aswan is the first day's work, and the night is spent in Aswan rather than back where you started — which is what makes the second morning's transfer to Abu Simbel feel like an arrival rather than an endurance test."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "It is two days, privately operated, with your own Egyptologist guide and driver. The shape is simple: south to Aswan and its monuments on day one; out to Abu Simbel and back on day two, with a return option that leaves you in Aswan, at the airport, or back in Luxor depending on what comes next."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan: Philae, the obelisk, the dam"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The route south from Luxor reaches Aswan in time for the city's three signature stops, and your guide will sequence them in whichever order the light and the crowds suggest."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Philae Temple, dedicated to Isis, is reached by motor launch — the whole complex was lifted between 1972 and 1980 from its original island to Agilkia, the rescue operation that followed the High Dam's flooding of the first cataract. The columns and the inner sanctuary are intact; the carved reliefs of Isis nursing Horus are among the clearest you will see anywhere. The temple was one of the last functioning ancient Egyptian religious sites — closed only in the sixth century AD."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "The Unfinished Obelisk lies in the granite quarries on the eastern bank: a single shaft, 42 metres if it had ever been raised, abandoned where a flaw cracked the stone. It is the closest you will get to seeing how ancient Egyptian masons actually worked."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "The Aswan High Dam, completed in 1970, is the modern bookend — the engineering project that displaced roughly 100,000 Nubians from their ancestral villages, created Lake Nasser, and necessitated the rescue of Philae, Abu Simbel and a dozen other temples. Your guide will explain what was lost as well as what was gained."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Lunch is in Aswan; the afternoon is unhurried. Depending on the day's energy, there is a felucca around Elephantine, a motor-launch crossing to a Nubian village whose houses are painted the colours the High Dam erased, or simply the cataract terrace at the hotel. Dinner and the night are in Aswan."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Abu Simbel: the morning the route is built around"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "The drive to Abu Simbel leaves early — well before dawn — but only three hours, not six. You arrive with the temples to yourselves before the day-trip convoys catch up from the north."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "The two rock-cut temples were carved into the cliff under Ramses II in the thirteenth century BC: the larger for Ramses himself, fronted by four seated colossi over 20 metres tall; the smaller for his queen Nefertari and the goddess Hathor — one of the rare ancient Egyptian temples in which the queen is shown at the same scale as the king. The interior reliefs of the Battle of Kadesh cover the great hall."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "What makes Abu Simbel a different sort of site is that the entire mountain it sits in is artificial. Between 1964 and 1968, as Lake Nasser rose behind the new dam, the temples were cut into more than a thousand blocks, lifted 65 metres up the cliff, and reassembled inside a hollow dome that mimics the original hillside. The solar alignment that lights the inner sanctuary on roughly 22 February and 22 October — the days when sunlight reaches the back wall to illuminate three of the four seated gods — was preserved within a day of its original timing. The story of the rescue is, in some ways, as remarkable as the temples themselves."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Lunch is in Abu Simbel. After that, the route gives you choices: a transfer back to Luxor by road or train, a drop at your Aswan hotel, or onward to Aswan Airport for a flight north — whichever fits the larger trip."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "How this journey works"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a private departure — never a shared coach, never a convoy — and the shape above is built around what makes Abu Simbel worth doing properly rather than around clock time. The night in Aswan is the whole point: it turns a logistically painful day-trip into a real two-day journey, and it gives the lake and the dam their own evening rather than treating them as filler between drives."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Most travellers do Abu Simbel and come back the same night not remembering it. This route insists you stop the clock."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The shape of the journey"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Where · Luxor → Aswan (Philae, Unfinished Obelisk, High Dam) → Abu Simbel → onward"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Duration · 2 days / 1 night — return option set on enquiry"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Character · Fully private · your own Egyptologist + driver · overnight in Aswan rather than a round-trip from Luxor"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Dos días de Luxor a Abu Simbel — con una noche por medio"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un trayecto privado breve que se niega a tratar Abu Simbel como una excursión de cinco horas de madrugada, y que devuelve a Asuán y al lago su propia tarde."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "La manera estándar de ver Abu Simbel desde Luxor es dura: salida del convoy a las tres de la mañana, seis horas de carretera en cada sentido, noventa minutos en los templos y vuelta al hotel después del ocaso, sin recuerdo claro de nada de lo intermedio. Esta ruta está construida de otro modo. El traslado de Luxor a Asuán es el trabajo del primer día, y la noche se pasa en Asuán y no de regreso al punto de partida; eso es lo que convierte la mañana siguiente en una llegada y no en una prueba de resistencia."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Son dos días en régimen privado, con su propio egiptólogo y su propio chófer. La forma es sencilla: rumbo al sur hasta Asuán y sus monumentos el primer día; salida a Abu Simbel y regreso el segundo, con una opción de devolución que lo deja en Asuán, en el aeropuerto o de vuelta en Luxor según lo que venga después."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Asuán: File, el obelisco y la presa"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta al sur desde Luxor alcanza Asuán a tiempo para las tres paradas que definen la ciudad, y su guía las ordenará según lo que la luz y las aglomeraciones aconsejen."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "El Templo de File, dedicado a Isis, se alcanza en lancha. El complejo entero fue trasladado entre 1972 y 1980 desde su isla original a la de Agilkia, la operación de rescate que siguió al anegamiento de la primera catarata tras la Presa Alta. Las columnas y el santuario interior están intactos; los relieves tallados de Isis amamantando a Horus se cuentan entre los más nítidos que se ven en cualquier parte. El templo fue uno de los últimos lugares religiosos del antiguo Egipto en funcionamiento; se cerró sólo en el siglo VI d. C."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "El Obelisco Inacabado yace en las canteras de granito de la orilla oriental: un único fuste de 42 metros si alguna vez se hubiera levantado, abandonado allí donde una grieta partió la piedra. Es lo más cerca que estará usted de ver cómo trabajaban realmente los canteros del antiguo Egipto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "La Presa Alta de Asuán, completada en 1970, es el contrapunto moderno: el proyecto de ingeniería que desplazó a alrededor de 100 000 nubios de sus aldeas ancestrales, creó el lago Nasser e hizo necesario el rescate de File, Abu Simbel y otra docena de templos. Su guía explicará lo que se perdió tanto como lo que se ganó."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "El almuerzo es en Asuán; la tarde transcurre sin prisas. Según la energía del día, hay una faluca alrededor de Elefantina, una travesía en lancha hasta una aldea nubia cuyas casas se pintan con los colores que la Presa Alta borró, o sencillamente la terraza de las cataratas en el hotel. La cena y la noche son en Asuán."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Abu Simbel: la mañana en torno a la cual se construye la ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "El traslado a Abu Simbel sale temprano —antes del amanecer—, pero son sólo tres horas, no seis. Se llega con los templos casi vacíos, antes de que los convoyes del día alcancen el sitio desde el norte."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Los dos templos excavados en la roca fueron tallados en el acantilado bajo Ramsés II en el siglo XIII a. C.: el mayor para el propio Ramsés, flanqueado por cuatro colosos sedentes de más de 20 metros; el menor para la reina Nefertari y la diosa Hathor, uno de los raros templos egipcios en los que la reina aparece a la misma escala que el rey. Los relieves interiores de la batalla de Qadesh cubren la gran sala."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Lo que convierte a Abu Simbel en un sitio de otra naturaleza es que la montaña entera en la que se asienta es artificial. Entre 1964 y 1968, mientras el lago Nasser subía detrás de la nueva presa, los templos fueron cortados en más de mil bloques, elevados 65 metros por el acantilado y reensamblados dentro de una cúpula hueca que reproduce la ladera original. La alineación solar que ilumina el santuario interior en torno al 22 de febrero y al 22 de octubre —los días en que el sol alcanza el muro del fondo para iluminar a tres de las cuatro divinidades sedentes— se conservó con apenas un día de desfase respecto del original. La historia del rescate es, en cierto modo, tan notable como los propios templos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "El almuerzo es en Abu Simbel. Después, la ruta ofrece opciones: traslado por carretera o tren de vuelta a Luxor, dejar a su grupo en el hotel de Asuán, o continuar al aeropuerto de Asuán para un vuelo al norte; lo que mejor encaje en el viaje mayor."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Cómo funciona este trayecto"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Es una salida privada —nunca un autobús compartido, nunca un convoy— y la forma anterior se construye en torno a lo que hace que Abu Simbel valga la pena hacerse bien, no en torno al reloj. La noche en Asuán es la clave del asunto: convierte una jornada logísticamente penosa en un trayecto real de dos días, y devuelve al lago y a la presa su propia tarde en lugar de tratarlos como relleno entre carreteras."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "La mayoría de viajeros hacen Abu Simbel y regresan la misma noche sin recordarlo. Esta ruta insiste en detener el reloj."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La forma del viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Dónde · Luxor → Asuán (File, Obelisco Inacabado, Presa Alta) → Abu Simbel → continuación"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Duración · 2 días / 1 noche — punto de regreso definido en consulta"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Carácter · Salida privada · su propio egiptólogo y chófer · noche en Asuán en lugar de ida y vuelta desde Luxor"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールからアブ・シンベルへ、二日間――途中に一夜を挟む旅"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "アブ・シンベルを午前四時の日帰りで片付けないために。アスワンと湖に、独立した一晩をあてた短い私的旅程です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールからアブ・シンベルを訪れる「標準的な」方法はあまりに過酷です。午前三時の車列出発、片道六時間、神殿に九十分、ホテルに戻るのは日没後。途中の景色は何ひとつ記憶に残らない――そんな日帰りが今も主流です。この旅は構造そのものを変えました。一日目はルクソールからアスワンへ南下し、夜はアスワンで過ごす。二日目の朝にアブ・シンベルへ向かう。だからこそ、神殿到着が「耐久試験の終点」ではなく「到達」として記憶に残ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "二日間、完全プライベート運行。専属のエジプト学ガイドとドライバーが同行し、形は明快です。一日目はアスワンとその記念建造物を巡り、二日目にアブ・シンベルを往復。帰路はアスワン残留、空港、ルクソール帰着のいずれにも対応します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワン――フィラエ、未完成のオベリスク、ハイダム"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールから南下する道は、午後の早い時間にアスワンへ到達します。市内三大見どころの順序は、光と人の流れを読みながら現地で組み立てます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "イシス神殿として知られるフィラエ神殿へは小型ボートで渡ります。アスワン・ハイダムの貯水が第一急湍を水没させたあと、神殿群全体は1972年から1980年にかけてアギルキア島へ移設されました。柱列と内陣はそのまま、ホルスに授乳するイシスのレリーフは保存状態が際立って良好です。フィラエは古代エジプトの宗教施設のうち最後まで機能していた神殿のひとつで、閉鎖は六世紀のことでした。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "未完成のオベリスクは東岸の花崗岩採石場に横たわっています。立ち上げられていれば42メートルに達したはずの一本の柱が、亀裂の発見により放棄されたまま残る。古代の石工がどのように働いていたか、その現場感に最も近づける場所です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "1970年完成のアスワン・ハイダムは、近代側のもう一方の柱です。約10万人のヌビア人を先祖代々の村から移住させ、ナセル湖を生み、フィラエ、アブ・シンベル、その他十数の神殿の救出を必要としたプロジェクト。ガイドは得たものと失ったものの両方を語ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "昼食はアスワン市内。午後はゆっくりと――エレファンティン島の周りをファルーカで巡るか、ハイダムが消した色彩で家々を塗り直したヌビア村へ渡るか、あるいはホテルのカタラクト・テラスで休むか。夕食と宿泊はアスワン。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "アブ・シンベル――この旅程が組み上げられた朝"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "アブ・シンベルへの出発は早朝、夜明け前。それでも片道三時間で、六時間ではありません。北からの日帰りバスが到達する前に神殿を独占できます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "岩窟神殿は紀元前十三世紀、ラムセス二世の治世に崖を彫って造られました。大神殿は王自身のためのもので、20メートルを超える四体の座像が正面を飾ります。小神殿は王妃ネフェルタリと女神ハトホルに捧げられ、王妃が王と同じ大きさで表現された稀有な例です。大広間の内壁にはカデシュの戦いのレリーフが広がります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "アブ・シンベルが他の遺跡と決定的に異なるのは、神殿が立つ山そのものが人工物であるという事実です。1964年から1968年、ナセル湖が新ダムの背後で水位を上げる中、神殿は千を超えるブロックに切り分けられ、65メートル上方へ持ち上げられ、本来の丘陵を模した中空のドームの中に組み直されました。内陣に届く太陽光が四体の座像のうち三体を照らす――2月22日と10月22日の太陽整列は、元の日付の一日以内の精度で保存されています。救出事業の物語そのものが、神殿に劣らず驚嘆に値します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "昼食はアブ・シンベル。その後の選択肢は柔軟です。陸路あるいは鉄道でルクソールへ戻る、アスワンのホテルへ送る、空港から北行きの便に乗る――旅全体に合わせて決めます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "この旅の組み立て方"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "完全プライベート出発――団体バスでも車列でもありません。形は時計に合わせてではなく、アブ・シンベルを正しく訪れるという目的を中心に組まれています。アスワンでの一夜こそが核心であり、それが行程を「過酷な日帰り」から「本物の二日間」へ変え、湖とダムにも独立した夕景の時間を与えるのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "多くの旅人はアブ・シンベルを訪れ、同じ夜のうちに帰り、何も覚えていません。この旅は、時計を一度止めることを求めます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "旅の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · ルクソール → アスワン（フィラエ、未完成のオベリスク、ハイダム） → アブ・シンベル → 各方面"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "日数 · 2日間／1泊 — 帰路はお問い合わせ時に決定"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 完全プライベート出発 · 専属のエジプト学ガイドとドライバー · ルクソール往復ではなくアスワン宿泊"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private journey is built around your party, not the other way around. Tell our team where you'd want to land on day two — back in Luxor, onward to Aswan, or out via the airport — and we'll shape the two days to fit."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Un trayecto privado se diseña en torno a su grupo y no al revés. Díganos a nuestro equipo dónde quiere aterrizar en el segundo día —de regreso a Luxor, adelante a Asuán o saliendo por el aeropuerto— y daremos forma a los dos días para que encajen."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "私的な旅は、ご一行に合わせて形を作ります。二日目の終着地をどこにするか――ルクソールへ戻るか、アスワンに留まるか、空港から飛ぶか――私どもにお聞かせください。二日間の形を整えます。"
+  }
+ ],
+ "durationDays": 2,
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 432,
+  "ja": 446
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Feluccas under sail on the Nile at Aswan, passing granite boulders below a golden dune"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Falucas navegando por el Nilo en Asuán, entre rocas de granito y bajo una duna dorada"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "アスワンのナイル川を帆走するファルーカ。花崗岩の岩々と金色の砂丘のそばを進む"
+   }
+  ],
+  "asset": {
+   "_ref": "image-e99821270cbedea94709a56a413cb7d61fc732da-3000x1999-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "At Aswan the river narrows between granite boulders and golden dunes, and feluccas thread the channels under sail."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "En Asuán el río se estrecha entre rocas de granito y dunas doradas, y las falucas recorren los canales a vela."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "アスワンでは川が花崗岩の岩場と金色の砂丘の間で狭まり、ファルーカが帆を張って水路を縫うように進む。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "8r42wiy6ew",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "It is two days, privately operated, with your own Egyptologist guide and driver.",
+   "text": "Your own Egyptologist guide and driver"
+  },
+  {
+   "_key": "cvawjdqp45",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Son dos días en régimen privado, con su propio egiptólogo y su propio chófer.",
+   "text": "Régimen privado"
+  },
+  {
+   "_key": "2rz9orrhx2",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Son dos días en régimen privado, con su propio egiptólogo y su propio chófer.",
+   "text": "Su propio egiptólogo"
+  },
+  {
+   "_key": "a5ssp7uvb9",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Son dos días en régimen privado, con su propio egiptólogo y su propio chófer.",
+   "text": "Su propio chófer"
+  },
+  {
+   "_key": "ip0evx3c6w",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "二日間、完全プライベート運行。",
+   "text": "完全プライベート運行"
+  },
+  {
+   "_key": "ovarrdmyek",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "専属のエジプト学ガイドとドライバーが同行し、形は明快です。",
+   "text": "専属のエジプト学ガイドとドライバーが同行"
+  }
+ ],
+ "itineraryDays": [
+  {
+   "_key": "83bkjr3f7q",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Aswan",
+   "overnightNeedsReview": true,
+   "source": "The shape is simple: south to Aswan and its monuments on day one; out to Abu Simbel and back on day two, with a return option that leaves you in Aswan, at the airport, or back in Luxor depending on what comes next.",
+   "title": "South to Aswan and its monuments"
+  },
+  {
+   "_key": "xzqws185ze",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "The shape is simple: south to Aswan and its monuments on day one; out to Abu Simbel and back on day two, with a return option that leaves you in Aswan, at the airport, or back in Luxor depending on what comes next.",
+   "title": "Out to Abu Simbel and back"
+  },
+  {
+   "_key": "g82zehby2p",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Asuán",
+   "overnightNeedsReview": true,
+   "source": "El traslado de Luxor a Asuán es el trabajo del primer día, y la noche se pasa en Asuán y no de regreso al punto de partida; eso es lo que convierte la mañana siguiente en una llegada y no en una prueba de resistencia.",
+   "title": "Traslado de Luxor a Asuán"
+  },
+  {
+   "_key": "c1vhoystt5",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "La forma es sencilla: rumbo al sur hasta Asuán y sus monumentos el primer día; salida a Abu Simbel y regreso el segundo, con una opción de devolución que lo deja en Asuán, en el aeropuerto o de vuelta en Luxor según lo que venga después.",
+   "title": "Salida a Abu Simbel y regreso"
+  },
+  {
+   "_key": "rjq4ml1eo7",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "アスワン",
+   "overnightNeedsReview": true,
+   "source": "一日目はルクソールからアスワンへ南下し、夜はアスワンで過ごす。",
+   "title": "ルクソールからアスワンへ南下"
+  },
+  {
+   "_key": "dn6iscumlf",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "二日目の朝にアブ・シンベルへ向かう。",
+   "title": "二日目の朝にアブ・シンベルへ"
+  }
+ ],
+ "migration": {
+  "note": "Merged into /aswan-and-abu-simbel-from-luxor (owner, 17 Nov); 301s in PR #265.",
+  "status": "superseded-duplicate",
+  "supersededAt": "2026-11-17",
+  "supersededBy": "wp-page-102370",
+  "wpUrl": "https://travel2egypt.org/2-day-egypt-s-majestic-trio-aswan-and-abu-simbel-from-luxor/"
+ },
+ "priceFrom": 410,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_156421",
+   "_ref": "wp-page-156421",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_136566",
+   "_ref": "wp-page-136566",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88992",
+   "_ref": "wp-page-88992",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_10_day_egypt_group_tour_cairo_nile_red_sea",
+   "_ref": "tour.10-day-egypt-group-tour-cairo-nile-red-sea",
+   "_type": "reference"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "2-day-egypt-s-majestic-trio-aswan-and-abu-simbel-from-luxor"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "dos-dias-de-luxor-a-abu-simbel-con-una-noche-por-medio"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "rukusoru-kara-abu-shin-beru-e-ni-nichikan-tochu-ni-ichiya-o"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A short private journey that refuses to do Abu Simbel as a 4 a.m. day-trip — and lets Aswan and the lake have their own evening."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Un trayecto privado breve que se niega a tratar Abu Simbel como una excursión de cinco horas de madrugada, y que devuelve a Asuán y al lago su propia tarde."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "アブ・シンベルを午前四時の日帰りで片付けないために。アスワンと湖に、独立した一晩をあてた短い私的旅程です。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-egypt-on-the-go",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Two Days from Luxor to Abu Simbel — With a Night in Between"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Dos días de Luxor a Abu Simbel — con una noche por medio"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ルクソールからアブ・シンベルへ、二日間――途中に一夜を挟む旅"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}
