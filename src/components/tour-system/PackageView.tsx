@@ -291,6 +291,8 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   // so no detail is lost and nothing is shown twice.
   const panelFacts: PanelFact[] = [
     { label: tp('route'), value: shape?.where || routeRow },
+    { label: tp('pickup'), value: itinFormat?.intro.pickup ?? '' },
+    { label: tp('ends'), value: itinFormat?.intro.ends ?? '' },
     ...(isGroup
       ? [
           { label: ts('pkgGrpGroupLabel'), value: typeof tour.maxGroup === 'number' ? ts('pkgGrpMaxGroup', { n: tour.maxGroup }) : '' },

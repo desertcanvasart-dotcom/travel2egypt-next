@@ -246,6 +246,8 @@ export const itineraryIntroSchema = defineType({
         defineField({ name: 'water', title: 'On the water', type: 'text', rows: 2 }),
       ],
     }),
+    defineField({ name: 'pickup', title: 'Panel: Pickup (e.g. "from your hotel in Luxor")', type: 'string' }),
+    defineField({ name: 'ends', title: 'Panel: Ends (e.g. "in Aswan, at your hotel…")', type: 'string' }),
     defineField({
       name: 'daysNote',
       title: 'Note above the days (e.g. "Your ship sets the exact order.")',
