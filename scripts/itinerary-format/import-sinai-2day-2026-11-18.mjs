@@ -12,7 +12,7 @@
  * at 01:00, Daniela Village or similar, "the drive back", and the page's own names for
  * the places (ES tú). It keeps its slugs, hero, price (€325; ES €347, JA €361) and
  * relatedTours. The unpublished draft copy (drafts.tour.mount-sinai-pilgrimage-…) is
- * not touched.
+ * not touched. 18 Nov: "Worth knowing" gains the owner's Friday (later start) and Sunday/holiday (dates moved) line.
  *
  * Day 2 has 01:00 / 08:45 / breakfast parts, each with a bold lead, stored as
  * paragraphs (parser leadParas), as on Minya.
