@@ -1,0 +1,1656 @@
+{
+ "_createdAt": "2026-05-28T11:45:32Z",
+ "_id": "tour.private-tour-pyramids-of-giza-sphinx-memphis-and-saqqara",
+ "_rev": "pzh5FM4q1DBt3H4LGqNNJZ",
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:46Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers who want all three Old Kingdom anchors in chronological reverse — from Khufu's perfection back to Djoser's invention"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Primer viaje con interes en piramides"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "ギザの大ピラミッドと「ピラミッドの原型」サッカラを同じ一日で対比したい歴史志向の旅人"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "The Giza Plateau, Memphis & Saqqara: One Day, Forty-Five Centuries"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "Egypt compresses time in a way that few places on earth can match. Within a forty-kilometre radius of central Cairo, you can stand before the only surviving wonder of the ancient world, walk through the open-air ruins of Egypt's first capital, and descend into a necropolis where the idea of the pyramid was invented. This tour does all three in a single day — a long, full day, honest about its pace, but one that earns every hour."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "It suits travellers who have limited time in Cairo and want more than a photograph in front of the Giza pyramids. The itinerary moves south with purpose: Giza first, in the morning light when the plateau is at its clearest; then Memphis, now a quiet archaeological park south of the modern suburb of Mit Rahina; then Saqqara, which rewards the effort of getting there with tombs that the crowds at Giza rarely reach. A private vehicle connects all three, and a knowledgeable guide accompanies you throughout."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "The driving time between sites is modest — Giza to Memphis is roughly thirty kilometres; Memphis to Saqqara is another ten — but the day starts early and the sites are physically demanding. Wear comfortable shoes. Bring water. The desert sun at Giza is not metaphorical."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "This is not a tour for anyone wanting a gentle half-morning. It is for those who want to understand why Egypt's Old Kingdom — roughly 2700 to 2200 BC — produced a civilisation so architecturally confident that its monuments still set the terms of the conversation four and a half millennia later."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "The day opens at the "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Giza Plateau"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": ", where three pyramids built across roughly seventy years — from around 2560 to 2490 BC — define the western horizon of Cairo. The largest of them, the "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Great Pyramid of Khufu"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ", was the tallest man-made structure on earth for nearly four thousand years. It is made from approximately 2.3 million limestone and granite blocks, and the precision of its alignment to true north is within a fraction of a degree. You approach it from the outside, reading the scale of it; that scale is the argument, and it takes a few minutes of standing still to absorb."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "The "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Pyramid of Khafre"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": ", Khufu's son, sits on slightly higher ground and retains a band of its original polished limestone casing at the apex — the only pyramid on the plateau to do so. The "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Pyramid of Menkaure"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": ", the smallest of the three, dates to around 2510 BC and is the one you enter: a narrow descending passage leads into the burial chamber, which is empty now but retains the granite-lined geometry that made it a space of some solemnity. Entry into a pyramid interior is not for the claustrophobic, and it requires some crouching, but the experience of being inside that geometry — built without iron tools, without the wheel as a conveyance, without mortar in the limestone courses — is worth the effort."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "From the pyramid complex, the tour moves to the "
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Great Sphinx"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": ": 73 metres long, 20 metres high, carved from a single limestone outcrop during Khafre's reign. Its function as guardian of the plateau has been debated for centuries. Its eroded face has been debated longer. What is not debated is that it is the largest monolithic statue in the world, and standing before it at ground level — rather than seeing it in the compressed perspective of photographs — resets your sense of its size."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Before leaving the plateau, there is a "
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "camel ride"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": " across the desert flank of Giza, which gives a panoramic view of all three pyramids in alignment — the angle from which their proportional relationship becomes legible. It is a practical vantage point as much as it is an experience; the photographs from that position are the ones that actually convey the site's geography."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "The route then heads south to "
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Memphis"
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": ", founded around 3100 BC by Narmer (whom ancient sources call Menes) as the administrative capital of a newly unified Egypt. It remained a major city for three thousand years. What survives today is an open-air museum in a palm-shaded garden, modest in scale but precise in what it preserves. The centrepiece is a "
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "colossal limestone statue of Ramses II"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": " — one of several the pharaoh commissioned across Egypt during his reign in the 13th century BC — displayed horizontally in an enclosure because its legs are missing. The detail in the carving of the face and torso is extraordinary at close range. Nearby stands the "
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Alabaster Sphinx of Memphis"
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": ", smaller than its Giza counterpart but carved in a single piece of calcite alabaster and better preserved; its surface retains a translucency that the Giza Sphinx, in weathered limestone, cannot match."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Memphis is not a ruin of columns and temples in the conventional sense. It is a place that requires some imagination — the ancient city lies largely beneath the modern agricultural land — but the museum grounds offer enough to make the visit coherent, and the context your guide provides here tends to land differently than it does at the more spectacular Giza sites."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "The final stop is "
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Saqqara"
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": ", the vast necropolis that served Memphis for three millennia and contains more than a dozen pyramids, hundreds of mastaba tombs, and some of the most intact painted tomb chambers in Egypt. The anchor of any visit is the "
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Step Pyramid of Djoser"
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": ", built around 2650 BC by the architect Imhotep for the Third Dynasty pharaoh Djoser. It is the world's oldest large-scale cut-stone structure and the first pyramid — not a refinement of an existing form but an invention: Imhotep stacked six mastabas of decreasing size, one on top of another, to produce a stepped profile rising 62 metres above the desert. The complex around it — a mortuary temple, courts, and dummy buildings designed to function in the afterlife — is enclosed within a 10-metre-high perimeter wall and is one of the most architecturally coherent ancient sites in Egypt."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "The surrounding "
+      },
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "mastaba tombs"
+      },
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": " at Saqqara are less visited and, for many travellers, more affecting than the pyramids themselves: their interior walls carry painted reliefs depicting daily life in the Old Kingdom — agricultural scenes, fishing, bread-making, cattle herding — in pigments that have survived because the tombs were sealed and buried for thousands of years. The level of observational detail is remarkable."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Four and a half thousand years of Egyptian history is an abstraction until you stand inside a pyramid, walk a Memphis garden with a limestone colossus at your feet, and read the painted walls of a Saqqara tomb."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "One day is not enough. It is, however, a start."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000049",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000048",
+       "_type": "span",
+       "marks": [],
+       "text": "The camel ride is included but easy to skip on the day."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004a",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "La meseta de Guiza, Menfis y Saqqara: un día, cuarenta y cinco siglos"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una ruta privada para colocar Guiza dentro de un proceso — no para tratarla como milagro aislado."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Egipto comprime el tiempo como pocos lugares en la tierra. En un radio de cuarenta kilómetros desde el centro de El Cairo se puede estar ante la única maravilla del mundo antiguo que ha sobrevivido, caminar por las ruinas al aire libre de la primera capital de Egipto y bajar a una necrópolis donde se inventó la idea misma de la pirámide. Este tour hace los tres en un solo día —una jornada larga y completa, honesta sobre su ritmo, que se gana cada hora—."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Conviene a viajeros que disponen de poco tiempo en El Cairo y quieren algo más que una fotografía frente a las pirámides. El itinerario baja al sur con propósito: primero Guiza, en la luz matinal cuando la meseta está más limpia; luego Menfis, hoy un parque arqueológico tranquilo al sur del barrio moderno de Mit Rahina; finalmente Saqqara, que recompensa el esfuerzo de llegar con tumbas a las que las multitudes de Guiza rara vez se acercan. Un vehículo privado conecta las tres paradas y un guía solvente os acompaña durante todo el día."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "El tiempo de conducción entre sitios es modesto —Guiza a Menfis son unos treinta kilómetros; Menfis a Saqqara, otros diez—, pero el día empieza pronto y los sitios son físicamente exigentes. Calzado cómodo. Agua. El sol del desierto en Guiza no es metáfora."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "No es un tour para quien busca media mañana suave. Es para quien quiere entender por qué el Reino Antiguo de Egipto —aproximadamente 2700 a 2200 a. C.— produjo una civilización tan arquitectónicamente segura que sus monumentos siguen fijando los términos de la conversación cuatro milenios y medio después."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "El día abre en la "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "meseta de Guiza"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ", donde tres pirámides construidas a lo largo de aproximadamente setenta años —desde alrededor de 2560 a 2490 a. C.— definen el horizonte occidental de El Cairo. La mayor, la "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Gran Pirámide de Keops"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ", fue la estructura artificial más alta de la tierra durante casi cuatro mil años. Está hecha con aproximadamente 2,3 millones de bloques de caliza y granito, y la precisión de su alineación con el norte verdadero está dentro de una fracción de grado. Se aproxima desde fuera, leyendo la escala; esa escala es el argumento, y hacen falta unos minutos de quietud para asimilarla."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "La "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "pirámide de Kefrén"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": ", hijo de Keops, descansa sobre terreno ligeramente más elevado y conserva una franja de su revestimiento original de caliza pulida en el vértice: la única pirámide de la meseta que aún lo muestra. La "
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "pirámide de Micerinos"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": ", la menor de las tres, data de en torno a 2510 a. C. y es la que se puede penetrar: un pasaje descendente estrecho lleva a la cámara funeraria, ahora vacía pero con la geometría revestida en granito que la hacía un espacio de cierta solemnidad. La entrada al interior de una pirámide no es para claustrofóbicos y exige agacharse, pero estar dentro de esa geometría —levantada sin herramientas de hierro, sin la rueda como medio de transporte, sin mortero entre las hiladas de caliza— bien vale el esfuerzo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde el complejo piramidal, el itinerario se desplaza hacia la "
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Gran Esfinge"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": ": 73 metros de longitud, 20 metros de altura, tallada en un único afloramiento de caliza durante el reinado de Kefrén. Su función como guardián de la meseta se discute desde hace siglos. Su rostro erosionado lleva discutiéndose aún más. Lo que no se discute es que es la mayor estatua monolítica del mundo, y verla a pie de calle —en lugar de en la perspectiva comprimida de las fotos— reajusta la idea que uno tiene de su tamaño."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Antes de dejar la meseta, hay un "
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "paseo en camello"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": " por el flanco desértico de Guiza, que ofrece la vista panorámica de las tres pirámides en alineación: el ángulo desde el que su relación de proporciones se vuelve legible. Es un punto de observación práctico tanto como una experiencia; las fotos desde esa posición son las que transmiten realmente la geografía del sitio."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta enfila luego al sur hasta "
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Menfis"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": ", fundada hacia 3100 a. C. por Narmer (a quien las fuentes antiguas llaman Menes) como capital administrativa de un Egipto recién unificado. Siguió siendo una ciudad importante durante tres mil años. Lo que sobrevive hoy es un museo al aire libre en un jardín umbrío de palmeras, modesto en escala pero preciso en lo que conserva. La pieza central es una "
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "estatua colosal en caliza de Ramsés II"
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": " —una de varias que el faraón encargó por todo Egipto durante su reinado en el siglo XIII a. C.— exhibida en horizontal en un pabellón cerrado porque le faltan las piernas. El detalle de la talla en el rostro y el torso es extraordinario a corta distancia. Cerca se halla la "
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Esfinge de alabastro de Menfis"
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": ", menor que su homóloga de Guiza pero tallada en una sola pieza de calcita alabastro y mejor conservada; su superficie conserva una translucidez que la Esfinge de Guiza, en caliza meteorizada, no alcanza."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Menfis no es una ruina de columnas y templos en el sentido convencional. Es un lugar que exige cierta imaginación —la ciudad antigua yace en gran medida bajo el terreno agrícola moderno—, pero los terrenos del museo bastan para hacer coherente la visita, y el contexto que aporta el guía aquí suele aterrizar de modo distinto al que aterriza en los sitios más espectaculares de Guiza."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "La última parada es "
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Saqqara"
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": ", la vasta necrópolis que sirvió a Menfis durante tres milenios y que contiene más de una docena de pirámides, cientos de tumbas mastaba y algunas de las cámaras funerarias pintadas más intactas de Egipto. El ancla de cualquier visita es la "
+      },
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "pirámide escalonada de Zóser"
+      },
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": ", construida hacia 2650 a. C. por el arquitecto Imhotep para el faraón de la dinastía III. Es la estructura de piedra tallada a gran escala más antigua del mundo y la primera pirámide —no el refinamiento de una forma existente, sino una invención: Imhotep apiló seis mastabas de tamaño decreciente, una sobre otra, para producir un perfil escalonado que se eleva 62 metros sobre el desierto—. El complejo a su alrededor —templo funerario, patios y edificios falsos diseñados para funcionar en el más allá— se halla cerrado por un muro perimetral de 10 metros de altura y es uno de los sitios antiguos más arquitectónicamente coherentes de Egipto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Las "
+      },
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "mastabas circundantes"
+      },
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": " en Saqqara son menos visitadas y, para muchos viajeros, más conmovedoras que las propias pirámides: sus muros interiores conservan relieves pintados con escenas de la vida cotidiana del Reino Antiguo —faenas agrícolas, pesca, panadería, pastoreo— en pigmentos que han sobrevivido porque las tumbas estuvieron selladas y enterradas durante miles de años. El nivel de detalle observacional es notable."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Cuatro mil quinientos años de historia egipcia son una abstracción hasta que uno entra en una pirámide, recorre un jardín en Menfis con un coloso de caliza a los pies y lee los muros pintados de una tumba en Saqqara."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un día no basta. Pero es un comienzo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004c",
+       "_type": "span",
+       "marks": [],
+       "text": "Es la mejor manera de que Guiza tenga origen, no solo grandeza."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000050",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004e",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta es una ruta abierta. Si quieres ajustar el ritmo, cambiar el orden de las visitas o añadir un complemento, podemos adaptarla contigo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "ギザ高原、メンフィス、サッカラ：一日、四十五世紀"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプトは、地上の数少ない場所にしかできないやり方で、時を圧縮します。カイロ中心部から半径40キロのうちに、古代世界で唯一現存する七不思議の前に立ち、エジプト最初の首都の野外に残る廃墟を歩き、ピラミッドという概念が発明された墓地へと降りていくことができます。このツアーは、その三つすべてをたった一日で——長く、まる一日の、そのペースについて正直な、けれど一時間ごとに報われる一日で——成し遂げます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロに割ける時間が限られていて、ギザのピラミッドの前で写真を撮る以上のものを求める方に向いています。行程は意図をもって南へ進みます——高原が最も澄んで見える朝の光のなか、まずギザ、次に、近代の郊外ミト・ラヒーナの南にいまや静かな考古公園として広がるメンフィス、そして、ギザの雑踏がめったに届かない墓へとたどり着く労に報いてくれるサッカラ。プライベートの車両がその三つを結び、知識豊かなガイドが終始同行します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "遺跡間の移動時間はささやかなものです——ギザからメンフィスはおよそ30キロ、メンフィスからサッカラはさらに10キロ——けれど一日は早くに始まり、遺跡は体力を要します。履き慣れた靴を。水をお持ちください。ギザの砂漠の太陽は、比喩ではありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "これは、穏やかな半日の午前を求める方のためのツアーではありません。エジプトの古王国——おおよそ紀元前2700年から2200年——が、なぜその記念建造物が四千五百年後のいまも議論の前提を定め続けるほど建築的に自信に満ちた文明を生んだのか、それを理解したい方のためのものです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "一日は"
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ギザ高原"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "で開きます。ここでは、おおよそ70年——紀元前2560年ごろから2490年ごろ——にわたって築かれた三基のピラミッドが、カイロの西の地平を定めています。そのうち最大の"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "クフ王の大ピラミッド"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "は、四千年近くにわたり地上で最も高い人工構造物でした。約230万個の石灰岩と花崗岩のブロックでできており、真北への整列の精度は一度の何分の一かにおさまっています。外から近づき、その規模を読みとる——その規模こそが論証であり、それを受けとめるには立ち止まって数分を要します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "クフ王の息子、"
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "カフラー王のピラミッド"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "は、やや高い地盤の上にあり、頂部に当初の磨かれた石灰岩の化粧張りを帯状に残しています——高原で唯一それを残すピラミッドです。三基で最も小さい"
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "メンカウラー王のピラミッド"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "は紀元前2510年ごろのもので、内部に入れるのはこれです——狭い下り通路が玄室へと導きます。いまは空ですが、ある種の荘厳さをたたえた空間にしていた花崗岩張りの幾何学が残っています。ピラミッド内部への入場は閉所が苦手な方には向かず、かがむ必要もありますが、その幾何学の内側に身を置く体験——鉄の道具もなく、運搬の手段としての車輪もなく、石灰岩の積層にモルタルも用いずに築かれた——は、その労に値します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "ピラミッド複合体から、ツアーは"
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "大スフィンクス"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "へ移ります——全長73メートル、高さ20メートル、カフラー王の治世に一塊の石灰岩の露頭から彫り出されました。高原の守護者としてのその役割は幾世紀も議論されてきました。風化したその顔は、さらに長く議論されてきました。議論の余地がないのは、それが世界最大の一枚岩の彫像だということ、そして、写真の圧縮された遠近法のなかで見るのではなく地上で正面に立つことが、その大きさの感覚をあらためてリセットしてくれるということです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "高原を離れる前に、ギザの砂漠側の斜面を渡る"
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ラクダの乗馬"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "があり、三基のピラミッドが一列に並ぶ全景を見渡せます——その比例関係が読みとれるようになる角度です。それは体験であると同時に、実用的な視点でもあります——その位置からの写真こそが、この遺跡の地理を実際に伝えてくれるものです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "ルートはそれから南へ向かい、"
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "メンフィス"
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "へ。紀元前3100年ごろ、ナルメル（古代の史料が「メネス」と呼ぶ人物）が、新たに統一されたエジプトの行政の首都として築きました。三千年にわたって主要な都市であり続けました。今日残るのは、ヤシの木陰の庭にある野外博物館で、規模はささやかながら、保つものについては精緻です。中心となるのは"
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ラムセス2世の巨大な石灰岩像"
+      },
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "——この王が紀元前13世紀の治世にエジプト各地で造らせた数体のうちの一体で、脚を失っているため囲い地に横たえて展示されています。顔と胴体の彫りの細部は、近くで見ると尋常ではありません。近くには"
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "メンフィスのアラバスター・スフィンクス"
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "が立ち、ギザのものより小さいものの、一塊の方解石アラバスターから彫られ、保存状態もよく、風化した石灰岩のギザのスフィンクスには出せない半透明の表面を残しています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "メンフィスは、通常の意味での円柱や神殿の廃墟ではありません。いくらかの想像力を要する場所です——古代都市の大半は近代の農地の下に眠っています——けれど博物館の敷地は訪れを一貫したものにするだけのものを差し出してくれますし、ここでガイドが添える文脈は、より壮観なギザの遺跡でとは違ったかたちで心に落ちる傾向があります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "最後の立ち寄りは"
+      },
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "サッカラ"
+      },
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "、三千年にわたってメンフィスに仕えた広大な墓地で、十数基を超えるピラミッド、数百のマスタバ墓、そしてエジプトで最も保存状態のよい彩色墓室のいくつかを擁します。どの訪問でも要となるのは"
+      },
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ジェセル王の階段ピラミッド"
+      },
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "で、紀元前2650年ごろ、第三王朝のファラオ・ジェセルのために建築家イムホテプが築きました。世界最古の大規模な切石構造物であり、最初のピラミッドです——既存の形式の洗練ではなく、発明でした。イムホテプは大きさを減じる六つのマスタバを一つまた一つと積み重ね、砂漠の上に62メートルそびえる階段状の輪郭を生み出しました。それを取り巻く複合体——葬祭神殿、中庭、そして来世で機能するよう設計された見せかけの建物群——は高さ10メートルの周壁の内に囲まれ、エジプトで最も建築的に一貫した古代遺跡のひとつです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "サッカラを取り巻く"
+      },
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "マスタバ墓"
+      },
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "は訪れる人が少なく、多くの旅人にとって、ピラミッドそのものよりも心を打ちます——その内壁には、古王国の日常を描いた彩色のレリーフが残っています——農耕の場面、漁、パン作り、牛追い——墓が数千年にわたり封じられ埋もれていたために生き延びた顔料で。観察眼の細やかさは目を見張るものです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "四千五百年のエジプト史は、ピラミッドの内に立ち、足もとに石灰岩の巨像を置いてメンフィスの庭を歩き、サッカラの墓の彩色された壁を読むまでは、抽象のままです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000041",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "一日では足りません。けれど、それは始まりではあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004e",
+       "_type": "span",
+       "marks": [],
+       "text": "メンカウラー王の内部入場の可否、ラクダの所要、午後のサッカラの暑さ対策など、コンシェルジュが事前に組み立てをご一緒に整えます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000052",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000050",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "As routed, the day runs history backwards — you begin at Giza's finished perfection and end at Djoser's first attempt. Some travellers prefer the story told forwards; the private format lets us flip the order so the plateau becomes your finale. Tell our concierge which way round your party wants its 4,500 years."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Tal como está trazado, el día recorre la historia al revés: empiezas en la perfección acabada de Guiza y terminas en el primer intento de Zoser. Hay viajeros que prefieren el relato hacia delante; al ser privado, podemos invertir el orden para que la meseta sea tu final. Dinos en qué sentido quiere tu grupo recorrer 4.500 años."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "この行程は、歴史を逆向きにたどります——完成の極みであるギザから始まり、ジェセル王の最初の試みで終わるのです。物語を時代順に味わいたい方には、プライベートならではの利点として順路を反転し、ギザ台地を一日の締めくくりに置くこともできます。4,500年をどちら向きに歩きたいか、コンシェルジュにお聞かせください。"
+  }
+ ],
+ "customisationOptions": [
+  {
+   "_key": "oou0g4m7ce",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The camel ride is included but easy to skip on the day.",
+   "text": "Skip the camel ride on the day"
+  },
+  {
+   "_key": "4r2dtgbebm",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Some travellers prefer the story told forwards; the private format lets us flip the order so the plateau becomes your finale.",
+   "text": "Flip the order to end at the Giza Plateau"
+  },
+  {
+   "_key": "n1szdvetg8",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Hay viajeros que prefieren el relato hacia delante; al ser privado, podemos invertir el orden para que la meseta sea tu final.",
+   "text": "Invertir el orden para terminar en la meseta de Guiza"
+  },
+  {
+   "_key": "c40dw7rvyp",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "物語を時代順に味わいたい方には、プライベートならではの利点として順路を反転し、ギザ台地を一日の締めくくりに置くこともできます。",
+   "text": "順路を反転して、ギザ台地で一日を締めくくる"
+  }
+ ],
+ "durationHours": 9,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Full day · ~9–10 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Día completo · ~9–10 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "終日・約9〜10時間"
+  }
+ ],
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 122,
+  "ja": 129
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The terraced Step Pyramid of Djoser at Saqqara rising in stages from the desert, scaffolding on one side"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "La pirámide escalonada de Zoser en Saqqara, elevándose por niveles desde el desierto, con andamios en un lado"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "サッカラの砂漠に段状にそびえるジェセル王の階段ピラミッド。片側に足場がかかる"
+   }
+  ],
+  "asset": {
+   "_ref": "image-15efc7b5f04d0a53e2104b5a7da5ad1e32010300-3000x2179-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The Step Pyramid of Djoser rises in stages at Saqqara."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "La Pirámide Escalonada de Zoser se alza por niveles en Saqqara."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "サッカラで段状にそびえるジェゼル王の階段ピラミッド。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "mklxohe060",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A private vehicle connects all three, and a knowledgeable guide accompanies you throughout.",
+   "text": "Private vehicle connecting all three sites"
+  },
+  {
+   "_key": "lwoegi36du",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A private vehicle connects all three, and a knowledgeable guide accompanies you throughout.",
+   "text": "Knowledgeable guide throughout"
+  },
+  {
+   "_key": "nh2jsc6x3i",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The camel ride is included but easy to skip on the day.",
+   "text": "Camel ride"
+  },
+  {
+   "_key": "8zpd64vl1w",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Un vehículo privado conecta las tres paradas y un guía solvente os acompaña durante todo el día.",
+   "text": "Vehículo privado que conecta las tres paradas"
+  },
+  {
+   "_key": "fg0jqfw1m0",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Un vehículo privado conecta las tres paradas y un guía solvente os acompaña durante todo el día.",
+   "text": "Guía durante todo el día"
+  },
+  {
+   "_key": "0r7380u92z",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "プライベートの車両がその三つを結び、知識豊かなガイドが終始同行します。",
+   "text": "プライベートの車両"
+  },
+  {
+   "_key": "7eh8sic8uy",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "プライベートの車両がその三つを結び、知識豊かなガイドが終始同行します。",
+   "text": "知識豊かなガイドが終始同行"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/private-tour-pyramids-of-giza-sphinx-memphis-and-saqqara/"
+ },
+ "priceFrom": 111,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_alexandria_catacombs_pompeys_pillar_group_day_tour_from_cairo",
+   "_ref": "tour.alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_transfer_from_cairo_airport_to_hotel",
+   "_ref": "tour.transfer-from-cairo-airport-to-hotel",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_cairo_dinner_cruise_with_belly_dancing_show",
+   "_ref": "tour.cairo-dinner-cruise-with-belly-dancing-show",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_nmec_royal_mummies_old_cairo",
+   "_ref": "tour.nmec-royal-mummies-old-cairo",
+   "_type": "reference"
+  }
+ ],
+ "routeLegs": [],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Fully private · own licensed Egyptologist · air-conditioned vehicle · includes a Giza camel ride for the three-pyramid panorama · pyramid interior descent at Menkaure · tiered pricing"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Tour privado arqueologico clasico · Activo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "プライベート・冷房付き車両 ／ 専属エジプト学ガイド ／ ギザでのラクダ乗馬込み ／ 段階制（ベース／＋入場料／＋入場料・昼食）"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Full day, ≈9–10 hours"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Dia completo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "終日・約9〜10時間"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Giza Plateau → Memphis → Saqqara"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Guiza, Menfis y Saqqara"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "カイロ／ギザ → ギザ高原（クフ・カフラー・メンカウラー、スフィンクス、ラクダの展望） → メンフィス → サッカラ → カイロ／ギザ"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "private-tour-pyramids-of-giza-sphinx-memphis-and-saqqara"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "guiza-menfis-y-saqqara-las-millas-mas-antiguas-de-egipto-en-un-dia"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "giza-menfisu-sakkara-ejiputo-saiko-no-michinori-o-ichi-nichi"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "From Khufu's pyramid to Djoser's step-sided revolution, this full-day circuit covers 4,500 years of Egyptian history without a wasted hour."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "De la pirámide de Keops a la revolución escalonada de Zóser, este circuito de día completo cubre 4500 años de historia egipcia sin una hora desperdiciada."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "クフ王のピラミッドからジェセル王の階段状の革命まで、この終日の周遊は4,500年のエジプト史を一時間も無駄にせず巡ります。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Giza, Memphis & Saqqara: Egypt's Oldest Miles in One Day"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Guiza, Menfis y Saqqara: las millas más antiguas de Egipto en un día"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ギザ、メンフィス、サッカラ：エジプト最古の道のりを一日で"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}
