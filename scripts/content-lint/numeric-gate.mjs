@@ -31,16 +31,21 @@ export function figures(s, lang) {
     t = t.replace(/(\d+(?:\.\d+)?)万/g, (_, n) => ` ${Math.round(parseFloat(n) * 10000)} `).replace(/(\d+(?:\.\d+)?)千/g, (_, n) => ` ${Math.round(parseFloat(n) * 1000)} `);
     // 一日 / 二つ / 三泊: single kanji numerals before a counter
     t = t.replace(/([一二三四五六七八九十])(?=[日泊つ人回か週柱羽体基本名階大度])/g, (k) => ` ${JA_KANJI[k]} `);
+    // Hiragana counts: ふたつ / ふたり / みっつ / よっつ
+    t = t.replace(/ふた[つり]/g, ' 2 ').replace(/みっつ/g, ' 3 ').replace(/よっつ/g, ' 4 ');
     // 1960〜70年代 → 1960 1970
     t = t.replace(/(\d{2})(\d{2})\s*[〜~～ー-]\s*(\d{2})年代/g, (_, c, d1, d2) => ` ${c}${d1} ${c}${d2} `);
   }
   t = t.replace(/(\d),(\d{3})/g, '$1$2');
+  // ES writes thousands with a point (1.200, 5.000).
+  if (lang === 'es') t = t.replace(/(\d)\.(\d{3})(?!\d)/g, '$1$2');
   if (lang === 'en') {
     t = t.replace(/\b(\d{4})s\b/g, '$1');
     t = t.replace(/\b(twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|one|two|three|four|five|six|seven|eight|nine|ten) million\b/g, (_, w) => ` ${EN_WORDS[w] * 1000000} `);
     for (const [w, n] of Object.entries({ ...EN_WORDS, ...ORDINAL_EN })) t = t.replace(new RegExp(`\\b${w}\\b`, 'g'), ` ${n} `);
     t = t.replace(/\bmillion\b/g, '');
-    for (const [w, n] of Object.entries(MONTHS_EN)) t = t.replace(new RegExp(`\\b${w}\\b`, 'g'), ` ${n} `);
+    // A month name is a date only next to a number ("November 2021", "1 March"), not "a march through".
+    for (const [w, n] of Object.entries(MONTHS_EN)) t = t.replace(new RegExp(`\\b${w}\\b(?=\\s+\\d)|(?<=\\d\\s+)\\b${w}\\b`, 'g'), ` ${n} `);
   }
   if (lang === 'es') {
     // "los años sesenta y setenta" (decades) → 1960 1970
