@@ -23,7 +23,7 @@ export type ItinSite = SiteRef;
 export interface ItinDay {
   day: number;
   place?: string | null;
-  title: string;
+  title?: string | null;
   body?: unknown[] | null;
   segments?: Array<{ label?: string | null; heading?: string | null; text: string }> | null;
   sites?: ItinSite[] | null;
@@ -47,6 +47,9 @@ export interface ItinIntro {
   /** Panel rows (packages that start and end in different places). */
   pickup?: string | null;
   ends?: string | null;
+  /** Rows with the locked copy's own labels (panel / Your stay and travel). */
+  panelRows?: Array<{ label?: string | null; text?: string | null }> | null;
+  stayRows?: Array<{ label?: string | null; text?: string | null }> | null;
   fitFor?: string[] | null;
   worthKnowing?: string[] | null;
   makeItYoursIntro?: string | null;
@@ -60,7 +63,7 @@ export interface ItineraryFormatData {
 export function itineraryFormatReady(f: ItineraryFormatData | null | undefined, durationDays: number): f is ItineraryFormatData {
   if (!f || !f.intro || !Array.isArray(f.days) || f.days.length === 0) return false;
   if (durationDays > 0 && f.days.length !== durationDays) return false;
-  return f.days.every((d, i) => d.day === i + 1 && !!d.title);
+  return f.days.every((d, i) => d.day === i + 1);
 }
 
 const EN_WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'];
@@ -118,7 +121,9 @@ export async function ItineraryFormat({
     l === 'morning' ? t('segMorning') : l === 'midday' ? t('segMidday') : l === 'afternoon' ? t('segAfternoon') : l === 'evening' ? t('segEvening') : '';
 
   const stay = intro.stayAndTravel ?? {};
-  const stayRows: Array<[string, string | null | undefined]> = [
+  const stayRows: Array<[string, string | null | undefined]> = intro.stayRows?.length
+    ? intro.stayRows.map((r) => [r.label ?? '', r.text])
+    : [
     [t('stayHotels'), stay.hotels],
     [t('stayRiver'), stay.river],
     [t('stayTrain'), stay.train],
@@ -128,7 +133,7 @@ export async function ItineraryFormat({
     [t('stayArrival'), stay.arrival],
     [t('stayEveryDay'), stay.everyDay],
     [t('stayWater'), stay.water],
-  ];
+      ];
   const routeMore = pick(intro.whyRouteRefs);
 
   return (
@@ -183,7 +188,7 @@ export async function ItineraryFormat({
                   <span className="pdp-day__n">{t('dayN', { n: d.day })}</span>
                   {d.place && <span className="pdp-day__place">{sep}{d.place}</span>}
                 </h3>
-                <p className="pdp-day__title">{d.title}</p>
+                {d.title && <p className="pdp-day__title">{d.title}</p>}
                 {Array.isArray(d.segments) && d.segments.length > 0
                   ? d.segments.map((s, i) => (
                       <p key={i}>
