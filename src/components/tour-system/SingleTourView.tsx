@@ -202,8 +202,6 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
   ];
   const sep = locale === 'ja' ? '・' : ' · ';
   const mobileLine = [durationBand || tour.durationLabel || '', typeLabel].filter(Boolean).join(sep);
-  // The right-column panel keeps only what the hero does not show.
-  const panelFacts: PanelFact[] = [{ label: tp('startsFrom'), value: tour.departsFrom ?? '' }];
   const fromEur = typeof fromAmount === 'number' && fromAmount > 0 ? fromAmount : null;
 
   // Day-tour format (2026-11-16). Owner-rule rows (children 50% off, guide
@@ -242,6 +240,9 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
         { label: tp('back'), value: backText },
         { label: tp('lunch'), value: intro?.lunch?.text ?? '' },
       ];
+  // The header keeps Type, Duration and From only, as on the packages
+  // (owner, 2026-11-17); the practical rows sit in the panel under the photo.
+  const panelFacts: PanelFact[] = [{ label: tp('startsFrom'), value: tour.departsFrom ?? '' }, ...ruleRows];
   const exclusionRows = (approvedIn.length || approvedOut.length ? tour.approvedExclusionRows : null) ?? notIncluded.map((text) => ({ text }));
 
   const accessBlock = tour.accessNote ? (
@@ -282,8 +283,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
               fromEur={fromEur}
               guidePriced={tour.guidePriced}
               mobileLine={mobileLine}
-              fromNote={dayFormat ? tp('fromGroupNote') : undefined}
-              afterFrom={ruleRows}
+              fromNote={tp('fromGroupNote')}
             />
           </header>
 

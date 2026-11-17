@@ -69,13 +69,13 @@ function Facts({ facts, className = '' }: { facts: PanelFact[]; className?: stri
   );
 }
 
-function FromRow({ fromEur, basis, onRequest, note }: { fromEur: number | null; basis: string; onRequest: string; note?: string }) {
+function FromRow({ fromEur, basis, onRequest, note, sep = ' · ' }: { fromEur: number | null; basis: string; onRequest: string; note?: string; sep?: string }) {
   return fromEur ? (
     <span className="pdp-from">
       <strong>
         <Price eur={fromEur} />
       </strong>
-      <small>{note ? `${basis} · ${note}` : basis}</small>
+      <small>{note ? `${basis}${sep}${note}` : basis}</small>
     </span>
   ) : (
     <span className="pdp-from pdp-from--req">{onRequest}</span>
@@ -238,7 +238,7 @@ export async function DayHeroFacts({
       <Facts
         facts={[
           ...facts,
-          { label: t('from'), value: <FromRow fromEur={fromEur} basis={multi ? t('basisPerPerson') : t('basisDay')} onRequest={t('priceOnRequest')} note={fromNote} /> },
+          { label: t('from'), value: <FromRow fromEur={fromEur} basis={multi ? t('basisPerPerson') : t('basisDay')} onRequest={t('priceOnRequest')} note={fromNote} sep={locale === 'ja' ? '・' : ' · '} /> },
           ...afterFrom,
         ]}
         className="pdp-facts--hero"
@@ -247,7 +247,7 @@ export async function DayHeroFacts({
         {mobileLine}
         {fromEur ? (
           <>
-            {mobileLine ? ' · ' : ''}
+            {mobileLine ? (locale === 'ja' ? '・' : ' · ') : ''}
             {t('from')} <strong><Price eur={fromEur} /></strong>
           </>
         ) : null}
