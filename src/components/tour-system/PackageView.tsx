@@ -109,7 +109,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   // the linked cities. A single-stop route shows no row (never "Cairo" alone).
   const approvedRoute = tour.approvedRoute ?? [];
   const stops = approvedRoute.length ? routeStops(approvedRoute) : cityNames;
-  const routeRow = stops.length >= 2 ? stops.join(' · ') : '';
+  const routeRow = stops.length >= 2 ? stops.join(locale === 'ja' ? '・' : ' · ') : '';
   const days = (tour.days ?? []).filter((d) => d.title || d.morning || d.afternoon || d.dayNumber);
   const durationDays = tour.durationDays ?? days.length;
   const approvedItin = tour.approvedItinerary ?? [];
@@ -291,8 +291,12 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   // so no detail is lost and nothing is shown twice.
   const panelFacts: PanelFact[] = [
     { label: tp('route'), value: shape?.where || routeRow },
-    { label: tp('pickup'), value: itinFormat?.intro.pickup ?? '' },
-    { label: tp('ends'), value: itinFormat?.intro.ends ?? '' },
+    ...(itinFormat?.intro.panelRows?.length
+      ? itinFormat.intro.panelRows.map((r) => ({ label: r.label ?? '', value: r.text ?? '' }))
+      : [
+          { label: tp('pickup'), value: itinFormat?.intro.pickup ?? '' },
+          { label: tp('ends'), value: itinFormat?.intro.ends ?? '' },
+        ]),
     ...(isGroup
       ? [
           { label: ts('pkgGrpGroupLabel'), value: typeof tour.maxGroup === 'number' ? ts('pkgGrpMaxGroup', { n: tour.maxGroup }) : '' },

@@ -247,6 +247,18 @@ export const itineraryIntroSchema = defineType({
       ],
     }),
     defineField({ name: 'pickup', title: 'Panel: Pickup (e.g. "from your hotel in Luxor")', type: 'string' }),
+    defineField({
+      name: 'panelRows',
+      title: 'Panel rows, label and text as in the locked copy (replace Pickup / Ends when set)',
+      type: 'array',
+      of: [{ type: 'object', name: 'labelledRow', fields: [defineField({ name: 'label', type: 'string' }), defineField({ name: 'text', type: 'text', rows: 2 })] }],
+    }),
+    defineField({
+      name: 'stayRows',
+      title: 'Your stay and travel rows, label and text as in the locked copy (replace the fixed rows when set)',
+      type: 'array',
+      of: [{ type: 'object', name: 'labelledRow', fields: [defineField({ name: 'label', type: 'string' }), defineField({ name: 'text', type: 'text', rows: 2 })] }],
+    }),
     defineField({ name: 'ends', title: 'Panel: Ends (e.g. "in Aswan, at your hotel…")', type: 'string' }),
     defineField({
       name: 'daysNote',

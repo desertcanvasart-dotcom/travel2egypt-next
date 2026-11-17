@@ -362,7 +362,7 @@ export const tourBySlugQuery = (locale: Locale) => groq`
       count(itineraryDays[lang == "${locale}" && (needsReview != false || overnightNeedsReview != false)]) == 0
         => {
           "intro": itineraryIntro[lang == "${locale}" && needsReview == false][0]{
-            opening, whyRoute, whyRouteRefs, closingLine, closingRef, stayAndTravel, daysNote, pickup, ends, fitFor, worthKnowing, makeItYoursIntro
+            opening, whyRoute, whyRouteRefs, closingLine, closingRef, stayAndTravel, daysNote, pickup, ends, panelRows, stayRows, fitFor, worthKnowing, makeItYoursIntro
           },
           "days": itineraryDays[lang == "${locale}"] | order(day asc){
             day, place, title, body, segments[]{ label, heading, text }, overnight,

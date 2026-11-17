@@ -32,7 +32,7 @@ const bullets = (t) => t.split('\n').filter((l) => l.startsWith('- ')).map((l) =
 /** "**Label:** value" / "**ラベル：** value" */
 const labelled = (line) => { const m = line.match(/^\*\*(.+?)[:：]\*\*\s*(.*)$/); return m ? [m[1].trim(), clean(m[2])] : null; };
 
-export function parse(lang, { locked, stayKeys, jaSites = {} }) {
+export function parse(lang, { locked, stayKeys = null, jaSites = {}, dayTitles = true }) {
   const LOCKED = locked;
   const JA_SITES = jaSites;
   const md = readFileSync(new URL(LOCKED[lang], ROOT), 'utf8');
@@ -61,7 +61,7 @@ export function parse(lang, { locked, stayKeys, jaSites = {} }) {
       rest = cut[0];
     }
     const ps = paras(rest);
-    const titleLine = clean(ps.shift().replace(/^\*\*(.*)\*\*\s*(⚑)?$/, '$1'));
+    const titleLine = dayTitles ? clean(ps.shift().replace(/^\*\*(.*)\*\*\s*(⚑)?$/, '$1')) : null;
     const segments = [];
     const body = [];
     const rows = {};
@@ -77,6 +77,12 @@ export function parse(lang, { locked, stayKeys, jaSites = {} }) {
       const sm = lang === 'ja' ? p.match(/^\*\*(.+?)\*\*\s+([\s\S]+)$/) : p.match(/^\*\*(.+?)\.\*\*\s+([\s\S]+)$/);
       if (sm && SEG[lang][sm[1]]) {
         segments.push({ label: SEG[lang][sm[1]], ...(SEG_HEADING[lang].includes(sm[1]) ? { heading: sm[1] } : {}), text: clean(sm[2]) });
+        continue;
+      }
+      const stopM = !dayTitles && pl[0].match(/^\*\*(.+)\*\*$/);
+      if (stopM) {
+        const text = clean(pl.slice(1).join(' '));
+        segments.push({ heading: clean(stopM[1]), ...(text ? { text } : {}) });
         continue;
       }
       body.push(clean(p));
@@ -105,7 +111,7 @@ export function parse(lang, { locked, stayKeys, jaSites = {} }) {
   };
   const stayRows = paras(stay.text).map(labelled).filter(Boolean);
   const STAY_KEYS = stayKeys;
-  if (stayRows.length !== STAY_KEYS.length) throw new Error(`${lang}: expected ${STAY_KEYS.length} stay rows, found ${stayRows.length}`);
+  if (STAY_KEYS && stayRows.length !== STAY_KEYS.length) throw new Error(`${lang}: expected ${STAY_KEYS.length} stay rows, found ${stayRows.length}`);
   const [inc, exc] = sub(incl.text);
   const [fit, worth] = sub(forYou.text);
   const mineP = mine.text.split('\n').map((l) => l.trim()).filter(Boolean);
@@ -121,7 +127,10 @@ export function parse(lang, { locked, stayKeys, jaSites = {} }) {
     daysNote,
     days,
     closingLine,
-    stayAndTravel: Object.fromEntries(STAY_KEYS.map((k, i) => [k, stayRows[i][1]])),
+    stayAndTravel: STAY_KEYS ? Object.fromEntries(STAY_KEYS.map((k, i) => [k, stayRows[i][1]])) : null,
+    stayRows: stayRows.map(([label, text]) => ({ label, text })),
+    // Panel lines in order: Type/Duration, Route, Nights, … From …; the rest keep their own labels.
+    panelRows: paras(panel.text).flatMap((p) => p.split('\n')).map(labelled).filter(Boolean).slice(3).filter(([l, v]) => !/\{.*\}/.test(v)).map(([label, text]) => ({ label, text })),
     included: inc.items,
     excluded,
     fitFor: fit.items,
