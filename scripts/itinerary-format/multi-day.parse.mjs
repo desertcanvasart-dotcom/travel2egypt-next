@@ -1,7 +1,7 @@
 /**
  * Parses an owner's locked multi-day file (EN/ES/JA, same structure as the
  * 4-Day Nile Cruise files) into the multi-day itinerary fields, per config:
- *   { locked: {en,es,ja}, stayKeys: [...], jaSites: {day: [names]} } Every reader-visible string
+ *   { locked: {en,es,ja}, stayKeys: [...], jaSites: {day: [names]}, leadParas } Every reader-visible string
  * comes from the files as written; the parser only splits them. The ⚑ marks
  * (the owner's own review flags) and the "More about this stop →" pointer
  * lines are not copy and are dropped.
@@ -32,7 +32,7 @@ const bullets = (t) => t.split('\n').filter((l) => l.startsWith('- ')).map((l) =
 /** "**Label:** value" / "**ラベル：** value" */
 const labelled = (line) => { const m = line.match(/^\*\*(.+?)[:：]\*\*\s*(.*)$/); return m ? [m[1].trim(), clean(m[2])] : null; };
 
-export function parse(lang, { locked, stayKeys = null, jaSites = {}, dayTitles = true }) {
+export function parse(lang, { locked, stayKeys = null, jaSites = {}, dayTitles = true, leadParas = false }) {
   const LOCKED = locked;
   const JA_SITES = jaSites;
   const md = readFileSync(new URL(LOCKED[lang], ROOT), 'utf8');
@@ -75,6 +75,10 @@ export function parse(lang, { locked, stayKeys = null, jaSites = {}, dayTitles =
       }
       if (/^\*\*(Optional|Optional on this day|Opcional|オプション)[:：]\*\*$/.test(pl[0])) { optional.push(...bullets(p)); continue; }
       const sm = lang === 'ja' ? p.match(/^\*\*(.+?)\*\*\s+([\s\S]+)$/) : p.match(/^\*\*(.+?)\.\*\*\s+([\s\S]+)$/);
+      // leadParas: a day that opens with a plain paragraph and then has "**Morning.** …" parts
+      // keeps them all as paragraphs, each with its bold lead word as written (the page
+      // cannot show a plain paragraph and segments on the same day).
+      if (leadParas && sm) { body.push({ lead: clean(sm[1]) + (lang === 'ja' ? '' : '.'), text: clean(sm[2]) }); continue; }
       if (sm && SEG[lang][sm[1]]) {
         segments.push({ label: SEG[lang][sm[1]], ...(SEG_HEADING[lang].includes(sm[1]) ? { heading: sm[1] } : {}), text: clean(sm[2]) });
         continue;
