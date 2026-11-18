@@ -13,6 +13,21 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/3-day-bahariya-white-desert-tour",
+    "destination": "/4-days-white-desert-wadi-al-hittan-exploration",
+    "permanent": true
+  },
+  {
+    "source": "/es/3-day-bahariya-white-desert-tour",
+    "destination": "/es/desierto-blanco-y-wadi-al-hitan-en-cuatro-dias-del-fayum-a-bahariya",
+    "permanent": true
+  },
+  {
+    "source": "/ja/3-day-bahariya-white-desert-tour",
+    "destination": "/ja/kaseki-to-suna-faiyumu-kara-shirasuna-baku-e-no-4-nichikan",
+    "permanent": true
+  },
+  {
     "source": "/2-day-nubian-desert-nature-wildlife-retreat",
     "destination": "/lake-nasser-birdwatching-boat-safari",
     "permanent": true
@@ -1019,17 +1034,17 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/bahariya-oasis-and-white-desert-3-day-tour",
-    "destination": "/3-day-bahariya-white-desert-tour",
+    "destination": "/4-days-white-desert-wadi-al-hittan-exploration",
     "permanent": true
   },
   {
     "source": "/es/oasis-del-desierto-aventura-de-3-dias-bahariya-desierto-blanco",
-    "destination": "/es/3-day-bahariya-white-desert-tour",
+    "destination": "/es/desierto-blanco-y-wadi-al-hitan-en-cuatro-dias-del-fayum-a-bahariya",
     "permanent": true
   },
   {
     "source": "/ja/sabaku-no-oashisu-bahariyaoashisu-to-howaito-dezato-3",
-    "destination": "/ja/3-day-bahariya-white-desert-tour",
+    "destination": "/ja/kaseki-to-suna-faiyumu-kara-shirasuna-baku-e-no-4-nichikan",
     "permanent": true
   },
   {
