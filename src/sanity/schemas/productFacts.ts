@@ -364,6 +364,7 @@ export const dayTourIntroSchema = defineType({
     defineField({ name: 'opening', title: 'Opening (2–3 sentences, no heading)', type: 'text', rows: 3 }),
     defineField({ name: 'whyThisOrder', title: 'Why the day runs this way', type: 'text', rows: 4 }),
     defineField({ name: 'pickupTime', title: 'Pickup time (only if the product text gives it)', type: 'string' }),
+    defineField({ name: 'pickupLine', title: 'Pickup row, the whole line as written (outside Cairo and Giza, e.g. "06:00 from your hotel in Aswan")', type: 'string' }),
     defineField({ name: 'returnTime', title: 'Return time (field, e.g. "17:00–18:00"; only if the product text gives it)', type: 'string' }),
     defineField({ name: 'returnNote', title: 'Back: qualifier after the time (e.g. "depending on your hotel\'s location"). Legacy rows may hold the whole line.', type: 'string' }),
     defineField({

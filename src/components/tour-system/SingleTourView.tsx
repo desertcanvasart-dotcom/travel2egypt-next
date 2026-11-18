@@ -206,8 +206,10 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
 
   // Day-tour format (2026-11-16). Owner-rule rows (children 50% off, guide
   // language = page language, the Cairo/Giza pickup zones) show on every Cairo
-  // and Giza day tour now; other cities wait for their rules. Pickup time,
-  // Back and Lunch come only from an approved day-tour intro.
+  // and Giza day tour. Elsewhere (owner, 18 Nov: standing rules 8–9) they show
+  // once the tour has an approved day-tour intro, with the Pickup row taken
+  // whole from intro.pickupLine. Pickup time, Back and Lunch come only from an
+  // approved day-tour intro.
   const dayFormat = dayTourFormatReady(tour.dayTourFormat) ? tour.dayTourFormat : null;
   const intro = dayFormat?.intro;
   const cairoGiza = (tour.citySlugsEn ?? []).some((c) => c === 'cairo' || c === 'giza');
@@ -236,10 +238,19 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
         { label: tp('lunch'), value: intro?.lunch?.text ?? '' },
         { label: tp('guideSpeaks'), value: tp('guideLanguage') },
       ]
-    : [
-        { label: tp('back'), value: backText },
-        { label: tp('lunch'), value: intro?.lunch?.text ?? '' },
-      ];
+    : intro
+      ? [
+          { label: tp('children'), value: tp('childrenValue') },
+          { label: tp('pickup'), value: intro.pickupLine ?? '' },
+          { label: tp('back'), value: backText },
+          { label: tp('lunch'), value: intro.lunch?.text ?? '' },
+          { label: tp('guideSpeaks'), value: tp('guideLanguage') },
+        ]
+      : [
+          // No approved intro: Back and Lunch have nothing to show yet (kept for the layout).
+          { label: tp('back'), value: backText },
+          { label: tp('lunch'), value: '' },
+        ];
   // The header keeps Type, Duration and From only, as on the packages
   // (owner, 2026-11-17); the practical rows sit in the panel under the photo.
   const panelFacts: PanelFact[] = [{ label: tp('startsFrom'), value: tour.departsFrom ?? '' }, ...ruleRows];
