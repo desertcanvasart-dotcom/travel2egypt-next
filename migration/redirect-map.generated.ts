@@ -13,6 +13,21 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/2-day-nubian-desert-nature-wildlife-retreat",
+    "destination": "/lake-nasser-birdwatching-boat-safari",
+    "permanent": true
+  },
+  {
+    "source": "/es/dos-dias-en-el-desierto-nubio-un-retiro-silencioso-cerca-del-lago-nasser",
+    "destination": "/es/safari-en-barco-y-observacion-de-aves-en-el-lago-nasser",
+    "permanent": true
+  },
+  {
+    "source": "/ja/nubia-sabaku-no-ni-nichikan-naseru-mizuumi-chikaku-no",
+    "destination": "/ja/naseru-ko-yacho-kansatsu-boto-safari",
+    "permanent": true
+  },
+  {
     "source": "/luxor-2-day-tour-by-plane-from-cairo",
     "destination": "/02-day-luxor-tour-by-plane-from-cairo",
     "permanent": true
@@ -1224,7 +1239,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/2-day-nubian-desert-nature-wildlife-retreat",
-    "destination": "/ja/nubia-sabaku-no-ni-nichikan-naseru-mizuumi-chikaku-no",
+    "destination": "/ja/naseru-ko-yacho-kansatsu-boto-safari",
     "permanent": true
   },
   {
@@ -6124,7 +6139,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/2-day-nubian-desert-nature-wildlife-retreat",
-    "destination": "/es/dos-dias-en-el-desierto-nubio-un-retiro-silencioso-cerca-del-lago-nasser",
+    "destination": "/es/safari-en-barco-y-observacion-de-aves-en-el-lago-nasser",
     "permanent": true
   },
   {
@@ -6589,7 +6604,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/2-day-desert-nature-wildlife-retreat",
-    "destination": "/es/dos-dias-en-el-desierto-nubio-un-retiro-silencioso-cerca-del-lago-nasser",
+    "destination": "/es/safari-en-barco-y-observacion-de-aves-en-el-lago-nasser",
     "permanent": true
   },
   {
@@ -10289,12 +10304,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/2-day-desert-nature-wildlife-retreat",
-    "destination": "/2-day-nubian-desert-nature-wildlife-retreat",
+    "destination": "/lake-nasser-birdwatching-boat-safari",
     "permanent": true
   },
   {
     "source": "/ja/2-nichikan-no-nubia-sabaku-no-shizen-to-yasei-dobutsu-no",
-    "destination": "/ja/nubia-sabaku-no-ni-nichikan-naseru-mizuumi-chikaku-no",
+    "destination": "/ja/naseru-ko-yacho-kansatsu-boto-safari",
     "permanent": true
   },
   {
@@ -29744,7 +29759,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/2日間のヌビア砂漠の自然と野生動物の隠れ家",
-    "destination": "/ja/nubia-sabaku-no-ni-nichikan-naseru-mizuumi-chikaku-no",
+    "destination": "/ja/naseru-ko-yacho-kansatsu-boto-safari",
     "permanent": true
   },
   {
