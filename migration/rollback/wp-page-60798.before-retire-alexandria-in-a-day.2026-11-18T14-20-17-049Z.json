@@ -1,0 +1,2415 @@
+{
+ "_createdAt": "2026-05-06T23:04:10Z",
+ "_id": "wp-page-60798",
+ "_rev": "6je0itagKXDsMyXfn8J68D",
+ "_type": "wikiMonument",
+ "_updatedAt": "2026-10-31T12:07:45Z",
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Syrian Monastery in Wadi El Natrun"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "The Syrian Monastery, a significant Coptic Orthodox monastery, is located in Wadi El Natrun, Beheira Governorate, Egypt. Known for its rich history and ecclesiastical significance, it is a key spiritual site. Here’s an overview: "
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Location and Naming"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Situated about 500 meters northwest of the "
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [
+        "000000000007"
+       ],
+       "text": "Monastery of Saint Pishoy"
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [],
+       "text": " in Wadi El Natrun."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "000000000007",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-60796",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [],
+       "text": "Officially dedicated to the Virgin Mary, it is popularly known as the "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "00000000000c"
+       ],
+       "text": "Syrian Monastery"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": " due to its historical use by Syriac monks."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "00000000000c",
+       "_type": "externalLink",
+       "href": "/guide/dahab",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Foundational History"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "The monastery’s foundation dates back to the 6th century, linked to the Julian heresy era under Pope Timothy III of Alexandria."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Originally established by Orthodox monks as a response to the Julian heresy, it was later sold to Syrian merchants and became a hub for Syrian monks."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Medieval Period"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "The monastery faced several attacks but was rebuilt in the 9th century."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Moses of Nisibis, a monk from the monastery, significantly contributed to its wealth by acquiring numerous Syriac manuscripts."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "The Door of Prophecies, a symbolic artifact in the monastery, depicts Christian faith’s past and future."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Later Developments"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "In the 12th century, the monastery experienced difficulties due to the absence of Syrian priests but saw an influx of Syrian refugees in the 13th century."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "The miraculous Tree of Saint Ephrem, associated with a legend involving Saints Ephrem and Pishoy, is a notable feature."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Modern Era"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "The monastery’s Syriac manuscripts spurred significant research in Syriac language and culture."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Wall paintings from the 7th to the 13th centuries have been uncovered, restored, and conserved, showcasing the development of Coptic art."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "Architectural Features"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Enclosed by a 9th-century wall, the monastery has a keep (tower) and a refectory."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Houses five churches, dedicated to the Virgin Mary, the Forty Nine Elder Martyrs of Scetes, Saints Honnos and Marutha, and Saint John the Dwarf"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Current Status"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "Continues to be a place of religious and historical study, preserving important Christian and Syriac heritage."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "Attracts scholars and visitors interested in Coptic history, Christian monasticism, and art history. "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": " The Syria Monastery in Wadi El Natrun stands as a monument to the enduring legacy of Christian monasticism, reflecting centuries of religious, cultural, and artistic evolution. Its historical manuscripts and art make it a valuable resource for understanding early Christian and Syriac traditions."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003a",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/wady-el-natron-1.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Ancient domed Coptic monasteries with a tall bell tower nestled among palm trees in Wadi El Natron, Egyp"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "The timeless beauty of Wadi El Natron's Coptic monasteries, a testament to Egypt's Christian heritage"
+      }
+     ]
+    },
+    {
+     "_key": "00000000003b",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/bramous-monastery-egypt-054.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "An aerial view of the Bramous Monastery in Egypt, showcasing two bell towers and a courtyard with a palm tree"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "Amidst Egypt's sands, the Bramous Monastery rises with faith and history etched into its walls"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Monasterio sirio en Wadi El Natrun"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000000a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "El Monasterio Sirio, un importante monasterio copto ortodoxo, está situado en Wadi El Natrun, gobernación de Beheira, "
+      },
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Egipto"
+      },
+      {
+       "_key": "000000000005",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      },
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [],
+       "text": "Conocido por su rica historia y su importancia eclesiástica, es un lugar espiritual clave."
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [],
+       "text": "He aquí una visión general: "
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [],
+       "text": "Localización y denominación"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [],
+       "text": "Situado a unos 500 metros al noroeste del "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "00000000000e"
+       ],
+       "text": "Monasterio de San Pishoy"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ", en el Wadi El Natrun."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "00000000000e",
+       "_type": "externalLink",
+       "href": "/es/wiki/monuments/monasterio-de-san-pishoy",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Oficialmente dedicado a la Virgen María, se le conoce popularmente como Monasterio Sirio debido a su uso histórico por monjes siriacos."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Historia fundacional"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "La fundación del monasterio se remonta al siglo VI, vinculada a la época de la herejía juliana bajo el papa Timoteo III de "
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [
+        "000000000017"
+       ],
+       "text": "Alejandría"
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "000000000017",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-87976",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": "Fundada originalmente por monjes ortodoxos como respuesta a la herejía juliana, más tarde fue vendida a comerciantes sirios y se convirtió en un centro de monjes sirios."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000020",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": "Época Medieval"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000022",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [],
+       "text": "El monasterio sufrió varios ataques, pero fue reconstruido en el siglo IX."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000024",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [],
+       "text": "Moisés de Nisibis, monje del monasterio, contribuyó significativamente a su riqueza adquiriendo numerosos manuscritos siríacos."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000026",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [],
+       "text": "La Puerta de las Profecías, un artefacto simbólico del monasterio, representa el pasado y el futuro de la fe cristiana."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000028",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [],
+       "text": "Desarrollos posteriores"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [],
+       "text": "En el siglo XII, el monasterio experimentó dificultades debido a la ausencia de sacerdotes sirios, pero en el siglo XIII vio una afluencia de refugiados sirios."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [],
+       "text": "Destaca el Árbol milagroso de San Efrén, asociado a una leyenda "
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [
+        "00000000002c"
+       ],
+       "text": "que implica a los"
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": " santos Efrén y Pishoy."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "00000000002c",
+       "_type": "externalLink",
+       "href": "/es/guide/beni-suef/que-hacer-en-beni-suef",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Época Moderna"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000036",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Los manuscritos siríacos del monasterio impulsaron importantes investigaciones sobre la lengua y la "
+      },
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [
+        "000000000033"
+       ],
+       "text": "cultura"
+      },
+      {
+       "_key": "000000000035",
+       "_type": "span",
+       "marks": [],
+       "text": " siríacas."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "000000000033",
+       "_type": "externalLink",
+       "href": "/es/blog/souq-bab-el-louk-el-mercado-fresco-de-el-cairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [],
+       "text": "Se han descubierto, restaurado y conservado pinturas murales de los siglos VII al XIII, "
+      },
+      {
+       "_key": "000000000039",
+       "_type": "span",
+       "marks": [
+        "000000000038"
+       ],
+       "text": "que muestran el desarrollo del arte copto"
+      },
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "000000000038",
+       "_type": "externalLink",
+       "href": "/es/blog/museos-de-visita-obligada-en-egipto-descubre-artefactos-y-tesoros-antiguos",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "Características arquitectónicas"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000042",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": "Cerrado por una muralla del siglo IX, el "
+      },
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [
+        "00000000003f"
+       ],
+       "text": "monasterio tiene una torre del"
+      },
+      {
+       "_key": "000000000041",
+       "_type": "span",
+       "marks": [],
+       "text": " homenaje y un refectorio."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "00000000003f",
+       "_type": "externalLink",
+       "href": "/es/wiki/monuments/biblioteca-del-monasterio",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000044",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000043",
+       "_type": "span",
+       "marks": [],
+       "text": "Alberga cinco iglesias, dedicadas a la Virgen María, a los Cuarenta y Nueve Ancianos Mártires de Scetes, a los Santos Honnos y Marutha y a San Juan el Enano."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000046",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000045",
+       "_type": "span",
+       "marks": [],
+       "text": "Situación actual"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000004b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000047",
+       "_type": "span",
+       "marks": [],
+       "text": "Sigue siendo un "
+      },
+      {
+       "_key": "000000000049",
+       "_type": "span",
+       "marks": [],
+       "text": "lugar de estudio religioso"
+      },
+      {
+       "_key": "00000000004a",
+       "_type": "span",
+       "marks": [],
+       "text": " e histórico, que conserva un importante patrimonio cristiano y siríaco."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000050",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004c",
+       "_type": "span",
+       "marks": [],
+       "text": "Atrae a estudiosos y visitantes interesados en la "
+      },
+      {
+       "_key": "00000000004e",
+       "_type": "span",
+       "marks": [
+        "00000000004d"
+       ],
+       "text": "historia copta"
+      },
+      {
+       "_key": "00000000004f",
+       "_type": "span",
+       "marks": [],
+       "text": ", el monacato cristiano y la historia del arte."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "00000000004d",
+       "_type": "externalLink",
+       "href": "/es/blog/los-coptos-de-egipto-guardianes-de-una-antigua-fe",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000057",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000051",
+       "_type": "span",
+       "marks": [],
+       "text": "El Monasterio Sirio de Wadi El Natrun se erige como monumento al perdurable legado del monacato cristiano, reflejo de siglos de evolución religiosa, cultural y artística."
+      },
+      {
+       "_key": "000000000052",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000053",
+       "_type": "span",
+       "marks": [],
+       "text": "Sus manuscritos históricos y su arte lo convierten en un valioso recurso "
+      },
+      {
+       "_key": "000000000055",
+       "_type": "span",
+       "marks": [
+        "000000000054"
+       ],
+       "text": "para comprender las"
+      },
+      {
+       "_key": "000000000056",
+       "_type": "span",
+       "marks": [],
+       "text": " primeras tradiciones cristianas y siríacas."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "000000000054",
+       "_type": "externalLink",
+       "href": "/es/travel-tips/viajar-a-egipto-con-ninos-el-dia-a-dia-practico",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000059",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000058",
+       "_type": "span",
+       "marks": [],
+       "text": "Creado el 18 de marzo de 2020"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000005b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005a",
+       "_type": "span",
+       "marks": [],
+       "text": "Actualizado en Ago , 2024"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000005d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005c",
+       "_type": "span",
+       "marks": [],
+       "text": "PRESENTACIÓN DE WADI AL NATRON"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000060",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005f",
+       "_type": "span",
+       "marks": [
+        "00000000005e"
+       ],
+       "text": "Historia"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000005e",
+       "_type": "externalLink",
+       "href": "/es/guide/wadi-al-natron/historia-de-wadi-el-natrun",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000063",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000062",
+       "_type": "span",
+       "marks": [
+        "000000000061"
+       ],
+       "text": "El tiempo"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000061",
+       "_type": "externalLink",
+       "href": "/es/guide/wadi-al-natron/clima-en-wadi-al-natron",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000065",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000064",
+       "_type": "span",
+       "marks": [],
+       "text": "PLANIFICA TU VIAJE"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000068",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000067",
+       "_type": "span",
+       "marks": [
+        "000000000066"
+       ],
+       "text": "Cómo ir"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000066",
+       "_type": "externalLink",
+       "href": "/es/guide/wadi-al-natron/como-ir-a-wadi-al-natron",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006a",
+       "_type": "span",
+       "marks": [
+        "000000000069"
+       ],
+       "text": "Dónde alojarse"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000069",
+       "_type": "externalLink",
+       "href": "/es/guide/wadi-al-natron/donde-alojarse-en-wadi-al-natron",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006c",
+       "_type": "span",
+       "marks": [],
+       "text": "MIENTRAS ESTÉS ALLÍ"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000070",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006f",
+       "_type": "span",
+       "marks": [],
+       "text": "Cómo desplazarse"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000073",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000072",
+       "_type": "span",
+       "marks": [
+        "000000000071"
+       ],
+       "text": "Cosas que hacer"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000071",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.wadi-el-natrun.things-to-do-in-wadi-el-natrun",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000075",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000074",
+       "_type": "span",
+       "marks": [],
+       "text": "LUGARES DONDE IR"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000078",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000077",
+       "_type": "span",
+       "marks": [
+        "000000000076"
+       ],
+       "text": "Monasterio de Paromeos"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000076",
+       "_type": "externalLink",
+       "href": "/es/wiki/monuments/monasterio-de-paromeos",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000007b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000007a",
+       "_type": "span",
+       "marks": [
+        "000000000079"
+       ],
+       "text": "Monasterio de San Pishoy"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000079",
+       "_type": "externalLink",
+       "href": "/es/wiki/monuments/monasterio-de-san-pishoy",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000007e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000007d",
+       "_type": "span",
+       "marks": [
+        "00000000007c"
+       ],
+       "text": "Monasterio de San Macario el Grande"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000007c",
+       "_type": "externalLink",
+       "href": "/es/guide/wadi-al-natron/monasterio-de-san-macario-el-grande",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000081",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000080",
+       "_type": "span",
+       "marks": [
+        "00000000007f"
+       ],
+       "text": "Monasterio sirio"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000007f",
+       "_type": "externalLink",
+       "href": "/es/wiki/monuments/monasterio-sirio",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000083",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000082",
+       "_type": "span",
+       "marks": [],
+       "text": "OTROS"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000086",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000085",
+       "_type": "span",
+       "marks": [
+        "000000000084"
+       ],
+       "text": "Visitas"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000084",
+       "_type": "externalLink",
+       "href": "/es/guide/wadi-al-natron/mejores-tours-en-wadi-al-natron",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000089",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000088",
+       "_type": "span",
+       "marks": [
+        "000000000087"
+       ],
+       "text": "Alimentación"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000087",
+       "_type": "externalLink",
+       "href": "/es/guide/wadi-al-natron/gastronomia-de-wadi-al-natron",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000008c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000008b",
+       "_type": "span",
+       "marks": [
+        "00000000008a"
+       ],
+       "text": "Sólo aquí"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000008a",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.wadi-el-natrun.only-in-wadi-el-natrun",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000008d",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/wady-el-natron-1.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Ancient domed Coptic monasteries with a tall bell tower nestled among palm trees in Wadi El Natron, Egyp"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "La belleza atemporal de los monasterios coptos de Wadi El Natron, un testimonio de la herencia cristiana de Egipto"
+      }
+     ]
+    },
+    {
+     "_key": "00000000008e",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/bramous-monastery-egypt-054.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "An aerial view of the Bramous Monastery in Egypt, showcasing two bell towers and a courtyard with a palm tree"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "Amidst Egypt's sands, the Bramous Monastery rises with faith and history etched into its walls"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "ワディ・エル・ナトロンのシリア修道院"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "シリア修道院は、エジプトのベヘイラ県ワディ・エル・ナトロンに位置する重要なコプト正教会の修道院です。その豊かな歴史と宗教的意義から、重要な霊的拠点として知られています。以下はその概要です："
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "所在地と名称"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "この修道院は、ワディ・エル・ナトロンにある聖ピショイ修道院から北西へ約500メートルの場所に位置しています。"
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "正式には聖母マリアに捧げられていますが、歴史的にシリアの修道士たちが利用していたことから、シリア修道院として広く知られています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "創設の歴史"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "この修道院の創設は6世紀に遡り、アレクサンドリアのティモシオス3世教皇の治世にジュリアン主義異端が広がった時代に関連しています。"
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "当初、正教会の修道士たちがジュリアン主義に対抗するために設立しましたが、その後、シリア商人に売却され、シリア修道士たちの中心地となりました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "中世期"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "この修道院は幾度かの攻撃を受けましたが、9世紀に再建されました。"
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "修道士モーセ・オブ・ニシビスは、多くのシリア語写本を収集し、修道院の財産を大いに増やしました。"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "修道院にある「予言の扉」と呼ばれる象徴的な遺物は、キリスト教信仰の過去と未来を描いています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "その後の発展"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "12世紀にはシリア人司祭がいないことにより修道院は困難に直面しましたが、13世紀にシリア人難民が流入したことで状況が変わりました。"
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": " また、聖エフレムと聖ピショイにまつわる伝説がある「聖エフレムの奇跡の木」が、この修道院の注目すべき特徴の一つです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "近現代"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "修道院に所蔵されているシリア語の写本は、シリア語の言語と文化に関する重要な研究を促進しました。また、7世紀から13世紀にかけての壁画が発見され、修復・保存されています。これらはコプト美術の発展を示す貴重な文化財です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "建築的特徴"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "この修道院は、9世紀に建設された壁に囲まれており、塔や食堂が特徴的です。また、以下の5つの教会を有しています："
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "聖母マリアに捧げられた教会"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "スケテの49人の長老殉教者に捧げられた教会"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "聖ホンノスと聖マルーサに捧げられた教会"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "聖ジョン・ザ・ドワーフに捧げられた教会"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "現在の状況"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "この修道院は現在も、キリスト教とシリア文化の重要な遺産を保存する、宗教的・歴史的研究の場として機能しています。"
+      },
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "コプト教会の歴史やキリスト教修道制、美術史に興味を持つ学者や訪問者を引き付けています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "ワディ・エル・ナトロンにあるシリア修道院は、キリスト教修道制の不朽の遺産を体現しており、宗教、文化、美術の進化を反映する記念碑的存在です。その歴史的な写本や美術作品は、初期キリスト教とシリア文化の伝統を理解するための貴重な資料となっています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "作成日：2020年3月18日"
+      },
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": " 更新日：2025年3月23日"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": "ワディ・アル・ナトロンをご紹介"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003d",
+       "_type": "span",
+       "marks": [
+        "00000000003c"
+       ],
+       "text": "歴史"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000003c",
+       "_type": "externalLink",
+       "href": "/ja/guide/wadi-aru-natoron/wadi-aru-natoron-no-rekishi",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000041",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": "天気"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000043",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [],
+       "text": "旅行の計画"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000046",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000045",
+       "_type": "span",
+       "marks": [
+        "000000000044"
+       ],
+       "text": "行き方"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000044",
+       "_type": "externalLink",
+       "href": "/ja/guide/wadi-aru-natoron/wadi-aru-natoron-e-no-iki-kata",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000049",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000048",
+       "_type": "span",
+       "marks": [
+        "000000000047"
+       ],
+       "text": "宿泊先"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000047",
+       "_type": "externalLink",
+       "href": "/ja/guide/wadi-aru-natoron/wadi-aru-natoron-no-shukuhaku-shisetsu",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004a",
+       "_type": "span",
+       "marks": [],
+       "text": "滞在中に"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004d",
+       "_type": "span",
+       "marks": [],
+       "text": "現地での移動方法"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000051",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000050",
+       "_type": "span",
+       "marks": [
+        "00000000004f"
+       ],
+       "text": "おすすめのアクティビティ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000004f",
+       "_type": "externalLink",
+       "href": "/ja/guide/wadi-aru-natoron/wadiarunatorun-de-yaru-beki-koto",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000053",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000052",
+       "_type": "span",
+       "marks": [],
+       "text": "見どころ"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000056",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000055",
+       "_type": "span",
+       "marks": [
+        "000000000054"
+       ],
+       "text": "バラムス修道院"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000054",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-60797",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000059",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000058",
+       "_type": "span",
+       "marks": [
+        "000000000057"
+       ],
+       "text": "聖ピショイ修道院"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000057",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-60796",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000005c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005b",
+       "_type": "span",
+       "marks": [
+        "00000000005a"
+       ],
+       "text": "聖マカリオス大修道院"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000005a",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/聖マカリオス大修道院",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000005f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005e",
+       "_type": "span",
+       "marks": [
+        "00000000005d"
+       ],
+       "text": "シリア修道院"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000005d",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-60798",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000061",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000060",
+       "_type": "span",
+       "marks": [],
+       "text": "その他"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000064",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000063",
+       "_type": "span",
+       "marks": [
+        "000000000062"
+       ],
+       "text": "ツアー"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000062",
+       "_type": "externalLink",
+       "href": "/ja/guide/wadi-aru-natoron/wadi-aru-natoron-no-osusume-tsua",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000067",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000066",
+       "_type": "span",
+       "marks": [
+        "000000000065"
+       ],
+       "text": "食事"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000065",
+       "_type": "externalLink",
+       "href": "/ja/guide/wadi-aru-natoron/sabaku-no-kyoen-wadiaru-natoron-no-ryori-dento",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000069",
+       "_type": "span",
+       "marks": [
+        "000000000068"
+       ],
+       "text": "ここだけの体験"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000068",
+       "_type": "externalLink",
+       "href": "/ja/guide/wadi-aru-natoron/wadiarunatorun-dake-no-mono",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006b",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/taba-thegem-blog-default.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Aerial view of the stunning blue waters surrounded by rugged mountains at Fjord Bay."
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "タバのサラーフ・エル・ディン城は、歴史と自然が見事に融合した城です。"
+      }
+     ]
+    },
+    {
+     "_key": "00000000006c",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Deir_as_Suriani.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Image of the beige walls and rounded domes of Deir as-Suriani monastery under a clear blue sky, with a palm tree in the foreground"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "デイル・アス・スリアニ修道院 - 砂漠の中の静かなオアシス"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "city": {
+  "_ref": "wp-page-58731",
+  "_type": "reference"
+ },
+ "migration": {
+  "migratedAt": "2026-05-07T11:14:44.678Z",
+  "reviewFlag": "superseded-by-guideArticle",
+  "source": "wp-import",
+  "supersededAt": "2026-05-20T15:23:40.818Z",
+  "supersededBy": "guideArticle.wadi-el-natrun.syrian-monastery",
+  "wpId": 60798,
+  "wpModifiedAt": "2025-08-05T16:49:28",
+  "wpTemplate": "elementor_header_footer",
+  "wpUrl": "https://travel2egypt.org/syrian-monastery/"
+ },
+ "monumentType": "monastery",
+ "name": [
+  {
+   "_key": "en",
+   "value": "Syrian Monastery"
+  },
+  {
+   "_key": "es",
+   "value": "Monasterio sirio"
+  },
+  {
+   "_key": "ja",
+   "value": "デイル・アル・スリアーニ（シリア修道院）"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "value": {
+    "_type": "slug",
+    "current": "syrian-monastery"
+   }
+  },
+  {
+   "_key": "es",
+   "value": {
+    "_type": "slug",
+    "current": "monasterio-sirio"
+   }
+  },
+  {
+   "_key": "ja",
+   "value": {
+    "_type": "slug",
+    "current": "デイル・アル・スリアーニ-シリア修道院"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "Syrian Monastery in Wadi El Natrun The Syrian Monastery, a significant Coptic Orthodox monastery, is located in Wadi El Natrun, Beheira Governorate, Egypt. Known for its rich history and ecclesiastical significance, it is a key spiritual si"
+  },
+  {
+   "_key": "es",
+   "value": "Monasterio sirio en Wadi El Natrun El Monasterio Sirio, un importante monasterio copto ortodoxo, está situado en Wadi El Natrun, gobernación de Beheira, Egipto.Conocido por su rica historia y su importancia eclesiástica, es un lugar espirit"
+  },
+  {
+   "_key": "ja",
+   "value": "ワディ・エル・ナトロンのシリア修道院 シリア修道院は、エジプトのベヘイラ県ワディ・エル・ナトロンに位置する重要なコプト正教会の修道院です。その豊かな歴史と宗教的意義から、重要な霊的拠点として知られています。以下はその概要です： 所在地と名称 この修道院は、ワディ・エル・ナトロンにある聖ピショイ修道院から北西へ約500メートルの場所に位置しています。正式には聖母マリアに捧げられていますが、歴史的にシリアの修道士たちが利用していたことから、シリア修道院として広く知られています。 "
+  }
+ ]
+}
