@@ -1,0 +1,485 @@
+{
+ "_createdAt": "2026-11-14T21:29:27Z",
+ "_id": "tourLanding.egypt-tours-from-usa",
+ "_rev": "I13soljhRYf3SIEeZeYD9t",
+ "_type": "tourLanding",
+ "_updatedAt": "2026-11-18T12:50:32Z",
+ "category": {
+  "_ref": "tourCategory.private-package",
+  "_type": "reference"
+ },
+ "faq": [
+  {
+   "_key": "faq-usa-1",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "b8",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s9",
+         "_type": "span",
+         "marks": [],
+         "text": "Yes. US citizens need a visa to enter Egypt, and tourists can apply for an e-visa or get one on arrival. Conditions and prices can change, so check Egypt’s official e-visa site and US State Department travel information before you go."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Do US citizens need a visa for Egypt?"
+    }
+   ]
+  },
+  {
+   "_key": "faq-usa-2",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "ba",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "sb",
+         "_type": "span",
+         "marks": [],
+         "text": "Usually, yes. After a long-haul flight, a night in Cairo before Luxor or Aswan is easier than connecting the same day, when delays and fatigue add up."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Should we stop in Cairo before heading south?"
+    }
+   ]
+  },
+  {
+   "_key": "faq-usa-3",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "bc",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "sd",
+         "_type": "span",
+         "marks": [],
+         "text": "Yes. Christmas, New Year and Easter are peak dates in Egypt. Scheduled departures on those dates usually cost 30% more, and private journeys cost more over the same dates too."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Do prices change by season?"
+    }
+   ]
+  }
+ ],
+ "intro": [
+  {
+   "_key": "en",
+   "value": [
+    {
+     "_key": "b0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s1",
+       "_type": "span",
+       "marks": [],
+       "text": "Planning the trip from the USA"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "b2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s3",
+       "_type": "span",
+       "marks": [],
+       "text": "From around New York, a direct flight to Cairo can be an option. From most other US cities, travellers connect through a European, Middle Eastern or Turkish hub, so check the connection time and the arrival hour, not just the airline."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b4",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s5",
+       "_type": "span",
+       "marks": [],
+       "text": "Plan at least seven nights for Cairo and Luxor. Ten to twelve days lets Cairo, Luxor, Aswan, a Nile cruise and Abu Simbel fit together, and twelve to fourteen leaves room for a few days on the Red Sea."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b6",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s7",
+       "_type": "span",
+       "marks": [],
+       "text": "October to April is the comfortable season. November, February and March balance weather and crowds; December and January are busier and cost more."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "journalRefs": [
+  {
+   "_key": "j1u",
+   "_ref": "wp-post-135096-en",
+   "_type": "reference"
+  }
+ ],
+ "relatedTours": [
+  {
+   "_key": "te",
+   "_ref": "tour.11-day-egypt-group-tour-cairo-red-sea-nile",
+   "_type": "reference"
+  },
+  {
+   "_key": "tf",
+   "_ref": "wp-page-89558",
+   "_type": "reference"
+  },
+  {
+   "_key": "tg",
+   "_ref": "wp-page-156539",
+   "_type": "reference"
+  },
+  {
+   "_key": "th",
+   "_ref": "tour.agatha-dahabiya-journey-along-the-nile",
+   "_type": "reference"
+  },
+  {
+   "_key": "ti",
+   "_ref": "tour.7-days-dahabiya-nile-cruise-from-aswan-to-luxor",
+   "_type": "reference"
+  },
+  {
+   "_key": "tj",
+   "_ref": "tour.7-days-luxor-to-aswan-dahabiya-cruise",
+   "_type": "reference"
+  },
+  {
+   "_key": "tk",
+   "_ref": "tour.7-days-luxury-dahabiya-cruise-on-the-nile",
+   "_type": "reference"
+  },
+  {
+   "_key": "tl",
+   "_ref": "tour.7-days-luxury-dahabiya-nile-cruise",
+   "_type": "reference"
+  },
+  {
+   "_key": "tm",
+   "_ref": "tour.7-days-of-splendor-exploring-the-nile-on-a-roman-dahabiya",
+   "_type": "reference"
+  },
+  {
+   "_key": "tn",
+   "_ref": "tour.adelaide-dahabiya-nile-cruise",
+   "_type": "reference"
+  },
+  {
+   "_key": "to",
+   "_ref": "wp-page-160129",
+   "_type": "reference"
+  },
+  {
+   "_key": "tp",
+   "_ref": "wp-page-136519",
+   "_type": "reference"
+  },
+  {
+   "_key": "tq",
+   "_ref": "wp-page-136566",
+   "_type": "reference"
+  },
+  {
+   "_key": "tr",
+   "_ref": "wp-page-155539",
+   "_type": "reference"
+  },
+  {
+   "_key": "ts",
+   "_ref": "tour.the-pearl-of-red-sea-hurghada",
+   "_type": "reference"
+  },
+  {
+   "_key": "tt",
+   "_ref": "tour.8-days-best-of-egypt-tour-package",
+   "_type": "reference"
+  },
+  {
+   "_key": "tu",
+   "_ref": "wp-page-86844",
+   "_type": "reference"
+  },
+  {
+   "_key": "tv",
+   "_ref": "wp-page-89510",
+   "_type": "reference"
+  },
+  {
+   "_key": "tw",
+   "_ref": "wp-page-86867",
+   "_type": "reference"
+  },
+  {
+   "_key": "tx",
+   "_ref": "wp-page-88972",
+   "_type": "reference"
+  },
+  {
+   "_key": "ty",
+   "_ref": "wp-page-89436",
+   "_type": "reference"
+  },
+  {
+   "_key": "tz",
+   "_ref": "wp-page-89649",
+   "_type": "reference"
+  },
+  {
+   "_key": "t10",
+   "_ref": "wp-page-90416",
+   "_type": "reference"
+  },
+  {
+   "_key": "t11",
+   "_ref": "wp-page-237732",
+   "_type": "reference"
+  },
+  {
+   "_key": "t12",
+   "_ref": "wp-page-89895",
+   "_type": "reference"
+  },
+  {
+   "_key": "t13",
+   "_ref": "wp-page-86855",
+   "_type": "reference"
+  },
+  {
+   "_key": "t14",
+   "_ref": "wp-page-89435",
+   "_type": "reference"
+  },
+  {
+   "_key": "t15",
+   "_ref": "wp-page-113005",
+   "_type": "reference"
+  },
+  {
+   "_key": "t16",
+   "_ref": "wp-page-156421",
+   "_type": "reference"
+  },
+  {
+   "_key": "t17",
+   "_ref": "wp-page-87255",
+   "_type": "reference"
+  },
+  {
+   "_key": "t18",
+   "_ref": "wp-page-86857",
+   "_type": "reference"
+  },
+  {
+   "_key": "t19",
+   "_ref": "wp-page-88992",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1a",
+   "_ref": "wp-page-89005",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1b",
+   "_ref": "wp-page-89343",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1c",
+   "_ref": "wp-page-89376",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1d",
+   "_ref": "wp-page-89602",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1e",
+   "_ref": "wp-page-89015",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1f",
+   "_ref": "wp-page-89619",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1g",
+   "_ref": "wp-page-89438",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1h",
+   "_ref": "wp-page-86836",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1i",
+   "_ref": "wp-page-89284",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1j",
+   "_ref": "wp-page-89177",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1k",
+   "_ref": "wp-page-90450",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1l",
+   "_ref": "wp-page-156550",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1m",
+   "_ref": "tour.egypt-and-the-red-sea-paradise",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1n",
+   "_ref": "wp-page-112993",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1o",
+   "_ref": "wp-page-88994",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1p",
+   "_ref": "wp-page-89524",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1q",
+   "_ref": "wp-page-90326",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1r",
+   "_ref": "wp-page-90335",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1s",
+   "_ref": "wp-page-113004",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1t",
+   "_ref": "wp-page-86875",
+   "_type": "reference"
+  }
+ ],
+ "seo": {
+  "metaDescription": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayTextValue",
+    "value": "Egypt tours for travellers from the USA: seven to fourteen days across Cairo, Luxor, Aswan and the Nile, private on any date or with a small group from the USA and Canada."
+   }
+  ],
+  "metaTitle": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Egypt Tours from the USA: Private Journeys and Small-Group Departures"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "egypt-tours-from-usa"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "From the USA, the long flight shapes the trip: under a week on the ground in Egypt becomes rushed. The tours here run seven to fourteen days, private on any date, or as a small-group departure planned for travellers from the USA and Canada."
+  }
+ ],
+ "themeRef": {
+  "_ref": "theme-country-usa",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Egypt Tours from the USA"
+  }
+ ]
+}
