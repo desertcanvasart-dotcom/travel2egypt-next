@@ -13,6 +13,36 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/private-tour-2-day-trip-to-alexandria-from-cairo",
+    "destination": "/private-tour-day-tour-to-alexandria-from-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/alejandria-en-un-dia-desde-el-cairo-catacumbas-columnas-y-costa-mediterranea",
+    "destination": "/es/tour-privado-a-alejandria-desde-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ichi-nichi-de-meguru-arekusandoria-katakombe-enchu-chichukai",
+    "destination": "/ja/kairo-hatsu-arekusandoria-puraibeto-higaeri-tsua-yottsu-no",
+    "permanent": true
+  },
+  {
+    "source": "/2-day-pyramids-mediterranean-tour",
+    "destination": "/private-tour-day-tour-to-alexandria-from-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/de-el-cairo-a-alejandria-excursion-de-2-dias-a-las-piramides-y-el-mediterraneo",
+    "destination": "/es/tour-privado-a-alejandria-desde-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/kairo-kara-arekusandoria-e-2-nichikan-piramiddo-to-chichukai",
+    "destination": "/ja/kairo-hatsu-arekusandoria-puraibeto-higaeri-tsua-yottsu-no",
+    "permanent": true
+  },
+  {
     "source": "/bahariya-and-siwa-oasis-vacation",
     "destination": "/desert-horizons-7-day-bahariya-siwa-oasis-tour",
     "permanent": true
@@ -1289,7 +1319,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/cairo-to-alexandria-2-day-pyramids-mediterranean-tour",
-    "destination": "/private-tour-2-day-trip-to-alexandria-from-cairo",
+    "destination": "/private-tour-day-tour-to-alexandria-from-cairo",
     "permanent": true
   },
   {
@@ -2004,7 +2034,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/private-tour-2-day-trip-to-alexandria-from-cairo",
-    "destination": "/ja/ichi-nichi-de-meguru-arekusandoria-katakombe-enchu-chichukai",
+    "destination": "/ja/kairo-hatsu-arekusandoria-puraibeto-higaeri-tsua-yottsu-no",
     "permanent": true
   },
   {
@@ -6914,7 +6944,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/private-tour-2-day-trip-to-alexandria-from-cairo",
-    "destination": "/es/alejandria-en-un-dia-desde-el-cairo-catacumbas-columnas-y-costa-mediterranea",
+    "destination": "/es/tour-privado-a-alejandria-desde-el-cairo",
     "permanent": true
   },
   {
@@ -11949,7 +11979,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/patrimonio-mediterraneo-excursion-privada-de-2-dias-a-alejandria-desde-el-cairo",
-    "destination": "/es/alejandria-en-un-dia-desde-el-cairo-catacumbas-columnas-y-costa-mediterranea",
+    "destination": "/es/tour-privado-a-alejandria-desde-el-cairo",
     "permanent": true
   },
   {
@@ -19284,7 +19314,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/de-el-cairo-a-alejandria-excursion-de-2-dias-a-las-piramides-y-el-mediterraneo",
-    "destination": "/2-day-pyramids-mediterranean-tour",
+    "destination": "/private-tour-day-tour-to-alexandria-from-cairo",
     "permanent": true
   },
   {
@@ -29069,7 +29099,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/alejandria-en-un-dia-desde-el-cairo-catacumbas-columnas-y-costa-mediterranea",
-    "destination": "/es/alejandria-en-un-dia-desde-el-cairo-catacumbas-columnas-y-costa-mediterranea",
+    "destination": "/es/tour-privado-a-alejandria-desde-el-cairo",
     "permanent": true
   },
   {
