@@ -13,6 +13,36 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/8-day-cairo-and-egypt-desert-safari",
+    "destination": "/the-great-pharaohs-and-white-desert",
+    "permanent": true
+  },
+  {
+    "source": "/white-desert-wonders-4-day-cairo-and-white-desert-tour",
+    "destination": "/the-great-pharaohs-and-white-desert",
+    "permanent": true
+  },
+  {
+    "source": "/es/arenas-del-tiempo-ocho-dias-de-el-cairo-al-desierto-occidental",
+    "destination": "/es/faraones-y-desierto-blanco-viaje-privado-de-seis-dias-de-el-cairo-al-sahara",
+    "permanent": true
+  },
+  {
+    "source": "/es/el-cairo-y-el-desierto-blanco-cuatro-dias-de-las-piramides-a-la-tiza",
+    "destination": "/es/faraones-y-desierto-blanco-viaje-privado-de-seis-dias-de-el-cairo-al-sahara",
+    "permanent": true
+  },
+  {
+    "source": "/ja/toki-no-suna-kairo-kara-seiho-sabaku-e-no-8-nichikan",
+    "destination": "/ja/fa-rao-to-shirasuna-baku-kairo-kara-sahara-e-6-nichikan-no",
+    "permanent": true
+  },
+  {
+    "source": "/ja/kairo-to-shirasuna-baku-piramiddo-kara-choku-daichi-e-no-4",
+    "destination": "/ja/fa-rao-to-shirasuna-baku-kairo-kara-sahara-e-6-nichikan-no",
+    "permanent": true
+  },
+  {
     "source": "/4-days-city-break",
     "destination": "/4-day-history-culture-escape",
     "permanent": true
@@ -1924,7 +1954,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/8-day-cairo-and-egypt-desert-safari",
-    "destination": "/ja/toki-no-suna-kairo-kara-seiho-sabaku-e-no-8-nichikan",
+    "destination": "/ja/fa-rao-to-shirasuna-baku-kairo-kara-sahara-e-6-nichikan-no",
     "permanent": true
   },
   {
@@ -2104,7 +2134,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/white-desert-wonders-4-day-cairo-and-white-desert-tour",
-    "destination": "/ja/kairo-to-shirasuna-baku-piramiddo-kara-choku-daichi-e-no-4",
+    "destination": "/ja/fa-rao-to-shirasuna-baku-kairo-kara-sahara-e-6-nichikan-no",
     "permanent": true
   },
   {
@@ -6834,7 +6864,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/8-day-cairo-and-egypt-desert-safari",
-    "destination": "/es/arenas-del-tiempo-ocho-dias-de-el-cairo-al-desierto-occidental",
+    "destination": "/es/faraones-y-desierto-blanco-viaje-privado-de-seis-dias-de-el-cairo-al-sahara",
     "permanent": true
   },
   {
@@ -7014,7 +7044,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/white-desert-wonders-4-day-cairo-and-white-desert-tour",
-    "destination": "/es/el-cairo-y-el-desierto-blanco-cuatro-dias-de-las-piramides-a-la-tiza",
+    "destination": "/es/faraones-y-desierto-blanco-viaje-privado-de-seis-dias-de-el-cairo-al-sahara",
     "permanent": true
   },
   {
@@ -29099,7 +29129,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/maravillas-del-desierto-blanco-excursion-de-4-dias-a-el-cairo-y-el-desierto-blanco",
-    "destination": "/es/el-cairo-y-el-desierto-blanco-cuatro-dias-de-las-piramides-a-la-tiza",
+    "destination": "/es/faraones-y-desierto-blanco-viaje-privado-de-seis-dias-de-el-cairo-al-sahara",
     "permanent": true
   },
   {

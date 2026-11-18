@@ -1,0 +1,1606 @@
+{
+ "_createdAt": "2026-05-28T11:45:36Z",
+ "_id": "tour.the-white-desert-and-djara-cave",
+ "_rev": "K2pi3eY73hTRu2vMGMySnV",
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:49Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers drawn to rock art, prehistoric archaeology and deep-desert silence; repeat visitors to Egypt; anyone wanting more than the standard White Desert overnight"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros atraídos por el arte rupestre, la arqueología prehistórica y el silencio del desierto profundo; visitantes que regresan a Egipto; quienes quieren más que la pernocta estándar en el Desierto Blanco"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "岩絵、先史考古学、深い砂漠の静寂に惹かれる旅人、エジプト・リピーター、標準的な白砂漠1泊以上を求める方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "The Desert Interior: Five Days from Bahariya to Djara Cave"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A private journey that pushes from Cairo into the Western Desert by stages — Bahariya, the chalk plateau of the White Desert, and a remote limestone cave that ancient travellers were already using as a waypoint four thousand years ago."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Egypt's most-visited monuments stand in the Nile Valley, and for good reason. But the country extends a long way west of the river, into a desert that has its own archaeology, its own landscape logic, and its own kind of silence."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "These five days move into that interior. The route opens at Bahariya Oasis, roughly 370 kilometres southwest of Cairo, and pushes deeper west with each subsequent day — through the Valley of the Golden Mummies, across the chalk-white formations of the White Desert, and finally to Djara Cave, a prehistoric limestone cavern in the open Western Desert that most visitors to Egypt never reach. The return is overland, back through Bahariya to Cairo. The shape is simple: each day moves further from the familiar. Bahariya is the threshold; the White Desert is the visual centrepiece; Djara is the destination that earns the trip its name. It is not a monument-hopping itinerary, and it should not pretend to be. It asks tolerance for long drives on desert tracks, for two nights of camping under open sky, and for the particular discomforts of the deep desert — heat in the day, cold at night, no infrastructure between stops. It repays all of that."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Bahariya: the threshold oasis"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The opening stretch is the drive from Cairo to Bahariya — about four hours southwest through the desert plateau — and the oasis itself."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Bahariya is not a mirage-movie oasis; it is a working agricultural town, fed by natural springs, with date palms and olive groves and a history that stretches back at least to the New Kingdom. It was a staging post on the ancient desert caravan routes, and later a Roman administrative centre. The afternoon climbs to Pyramid Mountain and English Mountain — the former named for its silhouette, with wide views across the oasis basin; the latter preserving the ruins of a British First World War outpost, an incongruous piece of twentieth-century history sitting in a landscape measured in millennia. The Ancient Village and the Ethnic Museum give context to the layered past: objects and documents from the area's Roman, Islamic, and Bedouin heritage. The night is spent at a Bahariya hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "The Black Desert and the White Desert by 4×4"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "The second stretch is the longest and most varied of the route, and it earns its length."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "It begins at the Valley of the Golden Mummies, the burial site discovered by accident in 1996 when a donkey stumbled into a shaft near Bahariya. Excavation has since revealed more than 250 mummies from the Graeco-Roman period, first to fourth centuries AD, many of them encased in gilded cartonnage masks — the \"golden\" of the name. The site also holds traces of a temple associated with Alexander the Great, who passed through Bahariya on his way to the Siwa oracle in 332 BC. The combination of Hellenistic portraiture and Egyptian burial practice on display here is unlike anything in the Nile Valley."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "From the valley the route turns south and west into 4×4 country with the desert drivers. The Black Desert — a plateau darkened by wind-scattered volcanic dolerite and its basalt cones — is the transitional landscape between the oasis and the deeper desert. Crystal Mountain, a small outcrop of quartzite and calcite crystals exposed by erosion, sits along the road and stops most people long enough to be worth stopping for. The Agabat area, a maze of sculpted chalk inselbergs, begins the transition into what comes next."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "The White Desert is the day's finale. The formations here — Mushroom Rock and its neighbours, tall chalk pillars and splayed shapes eroded by wind over millions of years — are genuinely strange: white against the ochre sand, often compared to snow or bone, and most effective at dusk when the light catches them at an angle. Camp is set up among them for the night, in the open desert, with the chalk shapes visible by moonlight. It is one of the more unusual nights available on any Egypt itinerary."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "West to Djara Cave: the deep desert"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "The third stretch breaks camp in the White Desert and moves further into the Western Desert — a genuinely remote stretch of road with very little between the stopping points."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "The Acacia Tree is a lone "
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Acacia raddiana"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": " that has become a landmark in the flat desert landscape, chiefly because there is nothing else near it for a very long way. It is the kind of detail that becomes significant in the desert, where the absence of things is itself a form of meaning. Watermelon Valley is named for its rounded dark stones, which read in the heat as something improbable — the geological process that produced them is ordinary; the visual effect is not. Camp is made beside Djara Cave, some 150 kilometres from the White Desert camp. This is the remotest night of the tour."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "The following day belongs to the cave. Djara is a limestone cavern in the Western Desert plateau, known to the ancient Egyptians and referenced in a document from around 2025 BC as a waypoint on the desert road. Its interior holds stalactites and stalagmites of genuine geological interest, and its walls carry prehistoric drawings — animals, human figures, symbols — made by people moving through this desert long before pharaonic Egypt existed. The drawings are believed to be at least 7,000 years old, from the period when the Sahara was wetter and more habitable than it is now. The full day is given to the cave and its surroundings. This is not a crowded site; you will almost certainly have it to yourself or close to it. The time allows for real exploration rather than a glance."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "In the late afternoon, the drive back to Bahariya begins — several hours on desert tracks and roads. The night is spent at a hotel in the oasis, which registers as genuine comfort after two nights under canvas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Back to Cairo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "A final breakfast in Bahariya, then the four-hour drive northeast back to Cairo. The desert gives way gradually to the outskirts of the city. For travellers with evening departures, time can be arranged in Cairo before transfer to the airport."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "How this journey works"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a private departure — operated for your party alone, never a shared group. Your Egyptologist handles the oasis archaeology and the cave interpretation; the desert drivers handle the off-road sections. The shape above is the spine; the pacing — how long you linger at Djara, whether the route includes a third desert camp, whether the Golden Mummies day is slowed down — is built around your party. The desert drives are long and the rewards are proportional."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "The Nile Valley has been on the itinerary of serious travellers since Herodotus. This desert has not — and that is precisely the point. Five days west are enough to put a very old and very empty landscape into your possession, with the evidence of the people who moved through it still visible on the walls of the cave."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The shape of the journey"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Where · Cairo → Bahariya Oasis → Black Desert → White Desert → Djara Cave → Bahariya → Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Duration · ≈5 days / 4 nights — adjustable"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · two nights in Bahariya hotels, two nights camping (White Desert and beside Djara)"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "El interior del desierto: cinco días de Bahariya a la cueva de Djara"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un viaje privado que empuja por etapas desde El Cairo hacia el desierto occidental —Bahariya, la meseta de tiza del Desierto Blanco y una cueva caliza remota que los viajeros antiguos ya usaban como punto de paso hace cuatro mil años—."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Los monumentos más visitados de Egipto se alzan en el valle del Nilo, y con razón. Pero el país se extiende un largo trecho al oeste del río, en un desierto que tiene su propia arqueología, su propia lógica paisajística y su propio tipo de silencio."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Estos cinco días se internan en ese interior. La ruta abre en el oasis de Bahariya, aproximadamente 370 kilómetros al suroeste de El Cairo, y empuja más al oeste con cada jornada sucesiva —a través del Valle de las Momias Doradas, cruzando las formaciones blanco-tiza del Desierto Blanco y, finalmente, hasta la cueva de Djara, una caverna caliza prehistórica en el desierto occidental abierto a la que la mayoría de los visitantes de Egipto no llega—. El regreso es por tierra, de vuelta por Bahariya a El Cairo. La forma es simple: cada jornada se aleja un paso más de lo familiar. Bahariya es el umbral; el Desierto Blanco es la pieza visual central; Djara es el destino que justifica el nombre del viaje. No es un itinerario de saltar de monumento en monumento, y no debe pretenderlo. Pide tolerancia a las conducciones largas por pistas del desierto, a dos noches de acampada a cielo abierto y a las incomodidades particulares del desierto profundo —calor de día, frío de noche, sin infraestructura entre paradas—. Compensa todo eso."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Bahariya: el oasis del umbral"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "El tramo inicial es la conducción desde El Cairo hasta Bahariya —unas cuatro horas al suroeste por la meseta del desierto— y el propio oasis."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Bahariya no es un oasis de película; es un pueblo agrícola en activo, alimentado por manantiales naturales, con palmeras datileras y olivares y una historia que se remonta al menos al Reino Nuevo. Fue puesto de etapa en las antiguas rutas de caravanas del desierto y, más tarde, centro administrativo romano. La tarde sube a la Montaña de la Pirámide y a la Montaña Inglesa —la primera llamada así por su silueta, con vistas amplias sobre la cuenca del oasis; la segunda conservando las ruinas de un puesto británico de la Primera Guerra Mundial, una pieza incongruente del siglo XX en un paisaje que se mide en milenios—. La Aldea Antigua y el Museo Etnográfico dan contexto al pasado estratificado: objetos y documentos del legado romano, islámico y beduino del área. La noche se pasa en un hotel de Bahariya."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "El Desierto Negro y el Desierto Blanco en 4×4"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "El segundo tramo es el más largo y más variado de la ruta, y se gana su extensión."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Empieza en el Valle de las Momias Doradas, el yacimiento funerario descubierto por accidente en 1996 cuando un burro tropezó en un pozo cerca de Bahariya. La excavación ha revelado desde entonces más de 250 momias del período grecorromano, del siglo I al IV d. C., muchas envueltas en máscaras de cartonaje dorado —el \"doradas\" del nombre—. El sitio conserva también rastros de un templo asociado con Alejandro Magno, que pasó por Bahariya camino del oráculo de Siwa en 332 a. C. La combinación de retrato helenístico y práctica funeraria egipcia que se muestra aquí no se parece a nada del valle del Nilo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde el valle, la ruta gira al sur y al oeste hacia terreno de 4×4 con los conductores del desierto. El Desierto Negro —una meseta oscurecida por dolerita volcánica dispersada por el viento y por sus conos basálticos— es el paisaje de transición entre el oasis y el desierto más profundo. La Montaña de Cristal, un pequeño afloramiento de cristales de cuarzo y calcita expuesto por la erosión, se sitúa junto a la pista y detiene a la mayoría lo suficiente como para merecer la parada. El área de Agabat, un laberinto de inselbergs de tiza esculpidos, abre la transición a lo que sigue."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "El Desierto Blanco es el cierre de la jornada. Las formaciones aquí —Roca del Champiñón y vecinas, pilares altos de tiza y formas abiertas erosionadas por el viento a lo largo de millones de años— son genuinamente extrañas: blancas contra la arena ocre, comparadas a menudo con nieve o hueso, y más eficaces al crepúsculo, cuando la luz las captura en ángulo. El campamento se monta entre ellas, en el desierto abierto, con las siluetas de tiza visibles a la luz de la luna. Es una de las noches más inusuales disponibles en cualquier itinerario egipcio."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Al oeste, a la cueva de Djara: el desierto profundo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "El tercer tramo desmonta el campamento en el Desierto Blanco y se mueve más adentro del desierto occidental —un tramo genuinamente remoto con muy poco entre las paradas—."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "El Árbol de la Acacia es una sola "
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Acacia raddiana"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": " que se ha convertido en un punto de referencia en el paisaje desértico llano, principalmente porque no hay nada más cerca durante un trecho muy largo. Es el tipo de detalle que se vuelve significativo en el desierto, donde la ausencia de cosas es por sí misma una forma de sentido. El Valle de la Sandía debe su nombre a sus piedras oscuras redondeadas que, bajo el calor, se leen como algo improbable —el proceso geológico que las produjo es corriente; el efecto visual no—. El campamento se monta junto a la cueva de Djara, a unos 150 kilómetros del campamento del Desierto Blanco. Es la noche más remota del viaje."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "La jornada siguiente pertenece a la cueva. Djara es una caverna caliza en la meseta del desierto occidental, conocida por los antiguos egipcios y mencionada en un documento de alrededor del 2025 a. C. como punto de paso en la ruta del desierto. Su interior conserva estalactitas y estalagmitas de auténtico interés geológico, y sus paredes llevan dibujos prehistóricos —animales, figuras humanas, símbolos— hechos por gente que se desplazaba por este desierto mucho antes de que existiera el Egipto faraónico. Se cree que los dibujos tienen al menos 7.000 años, del período en que el Sahara era más húmedo y más habitable que hoy. La jornada completa se dedica a la cueva y su entorno. No es un sitio concurrido; con casi total seguridad lo tendrán para sí o casi. El tiempo permite exploración real y no un vistazo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "A media tarde empieza la conducción de regreso a Bahariya —varias horas por pistas y carreteras del desierto—. La noche se pasa en un hotel del oasis, que se registra como confort genuino después de dos noches bajo lona."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "De vuelta a El Cairo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Un último desayuno en Bahariya y luego la conducción de cuatro horas al noreste, de regreso a El Cairo. El desierto cede gradualmente a las afueras de la ciudad. Para viajeros con salidas vespertinas, puede organizarse tiempo en El Cairo antes del traslado al aeropuerto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Cómo funciona este viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Es una salida privada —operada en exclusiva para su grupo, nunca compartida—. Su egiptólogo se ocupa de la arqueología del oasis y de la interpretación de la cueva; los conductores del desierto manejan los tramos fuera de carretera. La forma anterior es el esqueleto; el ritmo —cuánto se prolonga en Djara, si la ruta incluye un tercer campamento en el desierto, si la jornada de las Momias Doradas se ralentiza— se construye en torno a su grupo. Las conducciones por el desierto son largas y las recompensas son proporcionales."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "El valle del Nilo está en el itinerario de los viajeros serios desde Heródoto. Este desierto no —y precisamente ahí está el punto—. Cinco días al oeste bastan para poner en su haber un paisaje muy antiguo y muy vacío, con la huella de la gente que pasó por él aún visible en las paredes de la cueva."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La forma del viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Dónde · El Cairo → oasis de Bahariya → Desierto Negro → Desierto Blanco → cueva de Djara → Bahariya → El Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Duración · ≈5 días / 4 noches, ajustable como viaje privado"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "Carácter · Salida privada · su propio egiptólogo más conductores de 4×4 del desierto · dos noches en hoteles de Bahariya y dos acampados (Desierto Blanco y junto a Djara)"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "砂漠の内陸：バハリーヤからジャラ洞窟への5日間"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "カイロから西方砂漠へ段階的に押し込んでいくプライベートな旅——バハリーヤ、白砂漠のチョーク台地、そして四千年前から古代の旅人が中継地として既に使っていた遠隔の石灰岩の洞窟。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプトで最も訪問されている記念建造物はナイル谷に立ち、それには正当な理由があります。しかしこの国は川の西へ遠くまで広がり、その砂漠には独自の考古学、独自の風景論理、独自の静寂があります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "これら5日間はその内陸へ進みます。ルートはバハリーヤ・オアシス——カイロから南西へおよそ370キロメートル——で開き、続く一日ごとにさらに西へ押し込みます——黄金のミイラの谷を通り、白砂漠のチョーク色の岩塔を横切り、最後に開けた西方砂漠にあるジャラ洞窟——先史時代の石灰岩の洞穴で、エジプトを訪れるほとんどの旅人が辿り着かない——まで。戻りは陸路、バハリーヤを経てカイロへ。形はシンプル：日ごとに馴染みから離れていきます。バハリーヤは閾、白砂漠は視覚的な中心、ジャラは旅にその名を与える目的地です。これは記念建造物を消化していく旅程ではなく、そう装うべきではありません。砂漠路での長距離走行、開けた空のもとでの二夜のキャンプ、そして深い砂漠の独特の不快——昼の暑さ、夜の冷え、停泊地間のインフラの不在——への寛容を求めます。それらすべての対価を返します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "バハリーヤ：閾のオアシス"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "開きの一段はカイロからバハリーヤまでのドライブ——砂漠台地を南西におよそ4時間——とオアシスそのものです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "バハリーヤは蜃気楼映画のオアシスではありません。天然の泉に養われ、ナツメヤシ畑とオリーブの林を抱える、機能する農業の町で、その歴史は少なくとも新王国まで遡ります。古代の砂漠隊商路の中継地で、後にローマの行政中心地でした。午後はピラミッド山とイングリッシュ・マウンテンへ登ります——前者はシルエットからの命名、オアシス盆地を見渡す広い眺望、後者は第一次世界大戦時の英国哨所の遺構を保存しています。千年単位で測られる風景のなかに、不釣り合いに座る二十世紀の歴史の一片です。古代の村と民族博物館が積層した過去に文脈を与えます——この地域のローマ、イスラム、ベドウィン遺産からの遺物と記録。夜はバハリーヤのホテル。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "黒砂漠と白砂漠、4×4で"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "二段目はルートで最も長く多様で、その長さに値する内容を持ちます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "黄金のミイラの谷から始まります。1996年にロバがバハリーヤ近くの竪坑に踏み抜いた偶然から発見された埋葬地です。発掘以来、紀元一世紀から四世紀のグレコ・ローマ期ミイラ250体超が明らかになり、その多くが金箔のカルトナージュ・マスクに包まれていました——「黄金の」と呼ばれる所以です。サイトにはアレクサンドロス大王関連の神殿の痕跡もあります。彼は紀元前332年にシワのオラクルへ向かう途中バハリーヤを通過しました。ヘレニズム肖像画とエジプトの埋葬慣行の組み合わせは、ナイル谷のどこにもないものです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "谷からルートは南西へ転じ、砂漠ドライバーとともに4×4の領域に入ります。黒砂漠——風で散らされた火山ドレライトとその玄武岩ドームで黒ずんだ台地——は、オアシスとさらに深い砂漠の間の移行的な風景です。クリスタル・マウンテンは、浸食で露出した石英と方解石の結晶の小さな露頭で、道沿いに座って大半の人を立ち止まる価値の分だけ立ち止まらせます。アガバート地域、彫刻された白亜の島山の迷路が、次に来るものへの移行を始めます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "その日の決め手は白砂漠。ここの岩塔——マッシュルーム・ロックとその近隣、何百万年もの風で侵食された高いチョーク柱と扇のような形——は本当に奇妙です：砂のオレンジを背に白く、雪や骨にしばしば例えられ、光が斜めに当たる夕暮れに最も効果的です。岩塔の間、開けた砂漠にキャンプを設営し、月光のなかでチョークの形が見えます。エジプト旅程で得られるなかでも特に珍しい一夜です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "西へジャラ洞窟へ：深い砂漠"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "三段目は白砂漠でキャンプを畳み、西方砂漠のさらに奥へ移ります——本当に遠隔な道のりで、停泊地の間にほとんど何もありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "アカシアの樹は一本の"
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Acacia raddiana"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "で、平らな砂漠風景でランドマークになっています。主な理由は、他にずっと近くに何もないからです。砂漠で、ものの不在そのものが意味の一形態となる、まさにそういう類の細部です。スイカ谷は、その丸い暗い石にちなんで名付けられました——熱の中で見るとそれは不可能なものに映ります。それを生んだ地質過程は普通ですが、視覚的効果は普通ではありません。キャンプは白砂漠キャンプから約150キロメートル、ジャラ洞窟のかたわらに張ります。この旅で最も遠隔な夜です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "翌日は洞窟のものです。ジャラは西方砂漠台地の石灰岩の洞穴で、古代エジプト人に知られ、紀元前2025年頃の文書に砂漠路の中継地として言及されます。内部には地質学的に本物の関心に値する鍾乳石と石筍があり、壁にはファラオ・エジプトが存在するずっと前にこの砂漠を移動した人々が残した先史時代の絵——動物、人の像、シンボル——が刻まれています。これらの絵は少なくとも7,000年前のものとされ、サハラが今よりずっと湿潤で居住可能だった時代のものです。一日丸ごとが洞窟とその周辺に充てられます。これは混雑するサイトではありません——ほぼ確実に、自分たちだけかそれに近い状態で過ごせます。時間は一瞥ではなく本物の探索を可能にします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "午後遅く、バハリーヤへの戻りが始まります——砂漠路と道路で数時間。夜はオアシスのホテルに泊まり、キャンバスの下で二泊した後の本物の快適として登録されます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロへ戻る"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "バハリーヤで最後の朝食、そして北東にカイロへの4時間のドライブ。砂漠は徐々に街の外縁に道を譲ります。夕方便の旅人には、空港送迎前にカイロで時間を取ることもできます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "この旅の組み立て方"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "これは完全プライベート出発——あなたのパーティーだけのために運営される旅で、グループ混成は一切ありません。専属のエジプト学ガイドがオアシス考古学と洞窟の解釈を、砂漠ドライバーがオフロード区間を担当します。上の形は背骨で、ペース——ジャラでどれだけ留まるか、ルートに三度目の砂漠キャンプを含めるか、黄金のミイラの日を緩めるか——はあなたのパーティーに合わせて組み立てます。砂漠走行は長く、報酬はそれに比例します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "ナイル谷はヘロドトス以来、真剣な旅人の旅程に乗ってきました。この砂漠はそうではありませんでした——そしてそれこそが要点です。西への5日間は、非常に古く非常に空な風景を自分のものにするのに足り、その風景を移動した人々の証拠が洞窟の壁に今も見えます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "旅の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · カイロ → バハリーヤ・オアシス → 黒砂漠 → 白砂漠 → ジャラ洞窟 → バハリーヤ → カイロ"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "日数 · 5日間／4泊 — 調整可能"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド ＋ 4×4砂漠ドライバー · バハリーヤのホテルで2泊、キャンプ2泊（白砂漠とジャラのかたわら）"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private journey is built around your party, not the other way around. Tell our team how you'd want to shape it — a second day at Djara, an additional desert camp, a slower Bahariya opening — and we will build the five days to fit."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Un viaje privado se construye en torno a su grupo, no al revés. Cuéntenos cómo querría perfilar el viaje —un segundo día en Djara, un campamento adicional en el desierto, una apertura más pausada en Bahariya— y armamos los cinco días a medida."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "プライベートな旅はあなたのパーティーを中心に組み立てるものです。どう描き直したいか——ジャラで二日とる、砂漠キャンプを追加する、バハリーヤをゆっくり開く——私どもチームへお知らせいただければ、その形にお仕立てします。"
+  }
+ ],
+ "durationDays": 5,
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 924,
+  "ja": 944
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Wind-carved white chalk rock formations, one shaped like a mushroom, on the desert floor under a blue sky"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Formaciones de roca caliza blanca esculpidas por el viento, una con forma de seta, en el suelo del desierto bajo un cielo azul"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "青空の下、砂漠の地面に立つ、風が刻んだ白い石灰岩の岩。ひとつはキノコのような形。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-ae477d9e60860b06c910e194d3ed6eb2b7df0077-3000x2010-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Chalk formations rise from the floor of the White Desert."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Formaciones de creta se alzan en el suelo del Desierto Blanco."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "白砂漠の地面から立ち上がる石灰岩の岩。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "p6pvvvy5ox",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · two nights in Bahariya hotels, two nights camping (White Desert and beside Djara)",
+   "text": "your own Egyptologist"
+  },
+  {
+   "_key": "0wlzpcbpfb",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · two nights in Bahariya hotels, two nights camping (White Desert and beside Djara)",
+   "text": "4×4 desert drivers"
+  },
+  {
+   "_key": "ee5ercx8dz",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · two nights in Bahariya hotels, two nights camping (White Desert and beside Djara)",
+   "text": "two nights in Bahariya hotels"
+  },
+  {
+   "_key": "gy2o6jytxy",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · two nights in Bahariya hotels, two nights camping (White Desert and beside Djara)",
+   "text": "two nights camping (White Desert and beside Djara)"
+  },
+  {
+   "_key": "e43tnzdwd5",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "これは完全プライベート出発——あなたのパーティーだけのために運営される旅で、グループ混成は一切ありません。",
+   "text": "完全プライベート出発"
+  },
+  {
+   "_key": "88xgoxyzf4",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "専属のエジプト学ガイドがオアシス考古学と洞窟の解釈を、砂漠ドライバーがオフロード区間を担当します。",
+   "text": "専属のエジプト学ガイド"
+  },
+  {
+   "_key": "x80rzxw0f1",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド ＋ 4×4砂漠ドライバー · バハリーヤのホテルで2泊、キャンプ2泊（白砂漠とジャラのかたわら）",
+   "text": "4×4砂漠ドライバー"
+  },
+  {
+   "_key": "7x0r7jtsx2",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド ＋ 4×4砂漠ドライバー · バハリーヤのホテルで2泊、キャンプ2泊（白砂漠とジャラのかたわら）",
+   "text": "バハリーヤのホテルで2泊"
+  },
+  {
+   "_key": "64mvb3ukdv",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド ＋ 4×4砂漠ドライバー · バハリーヤのホテルで2泊、キャンプ2泊（白砂漠とジャラのかたわら）",
+   "text": "キャンプ2泊（白砂漠とジャラのかたわら）"
+  }
+ ],
+ "itineraryDays": [
+  {
+   "_key": "zj5fy5aibk",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Bahariya hotel",
+   "overnightNeedsReview": true,
+   "source": "The night is spent at a Bahariya hotel.",
+   "title": "Drive from Cairo to Bahariya"
+  },
+  {
+   "_key": "1v55ga7s02",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "White Desert camp",
+   "overnightNeedsReview": true,
+   "source": "Camp is set up among them for the night, in the open desert, with the chalk shapes visible by moonlight.",
+   "title": "Golden Mummies, Black and White Desert"
+  },
+  {
+   "_key": "nej1m7lg8v",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Camp beside Djara Cave",
+   "overnightNeedsReview": true,
+   "source": "Camp is made beside Djara Cave, some 150 kilometres from the White Desert camp.",
+   "title": "West to Djara Cave: the deep desert"
+  },
+  {
+   "_key": "7ohvaadjka",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Hotel in Bahariya oasis",
+   "overnightNeedsReview": true,
+   "source": "The night is spent at a hotel in the oasis, which registers as genuine comfort after two nights under canvas.",
+   "title": "Djara Cave, drive back to Bahariya"
+  },
+  {
+   "_key": "wgbuvev1o3",
+   "_type": "itineraryDay",
+   "day": 5,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "A final breakfast in Bahariya, then the four-hour drive northeast back to Cairo.",
+   "title": "Back to Cairo"
+  },
+  {
+   "_key": "7mjlw12uup",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "hotel de Bahariya",
+   "overnightNeedsReview": true,
+   "source": "La noche se pasa en un hotel de Bahariya.",
+   "title": "Bahariya: el oasis del umbral"
+  },
+  {
+   "_key": "skspn70swe",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Campamento en el Desierto Blanco",
+   "overnightNeedsReview": true,
+   "source": "El campamento se monta entre ellas, en el desierto abierto, con las siluetas de tiza visibles a la luz de la luna.",
+   "title": "El Desierto Negro y el Desierto Blanco en 4×4"
+  },
+  {
+   "_key": "s7jphvcyui",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Campamento junto a la cueva de Djara",
+   "overnightNeedsReview": true,
+   "source": "El campamento se monta junto a la cueva de Djara, a unos 150 kilómetros del campamento del Desierto Blanco.",
+   "title": "Al oeste, a la cueva de Djara"
+  },
+  {
+   "_key": "ns3s4ju5w9",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "hotel del oasis",
+   "overnightNeedsReview": true,
+   "source": "La noche se pasa en un hotel del oasis, que se registra como confort genuino después de dos noches bajo lona.",
+   "title": "La jornada siguiente pertenece a la cueva"
+  },
+  {
+   "_key": "23osbmrtz1",
+   "_type": "itineraryDay",
+   "day": 5,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "Un último desayuno en Bahariya y luego la conducción de cuatro horas al noreste, de regreso a El Cairo.",
+   "title": "De vuelta a El Cairo"
+  },
+  {
+   "_key": "k4ufuljsyg",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "バハリーヤのホテル",
+   "overnightNeedsReview": true,
+   "source": "夜はバハリーヤのホテル。",
+   "title": "カイロからバハリーヤ・オアシスへ"
+  },
+  {
+   "_key": "qdg5gkq5x1",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "白砂漠のキャンプ",
+   "overnightNeedsReview": true,
+   "source": "岩塔の間、開けた砂漠にキャンプを設営し、月光のなかでチョークの形が見えます。",
+   "title": "黄金のミイラの谷、黒砂漠と白砂漠"
+  },
+  {
+   "_key": "zyj2t5jniw",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "ジャラ洞窟のかたわらのキャンプ",
+   "overnightNeedsReview": true,
+   "source": "キャンプは白砂漠キャンプから約150キロメートル、ジャラ洞窟のかたわらに張ります。",
+   "title": "西へジャラ洞窟へ：深い砂漠"
+  },
+  {
+   "_key": "8deovjzkfq",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "オアシスのホテル",
+   "overnightNeedsReview": true,
+   "source": "夜はオアシスのホテルに泊まり、キャンバスの下で二泊した後の本物の快適として登録されます。",
+   "title": "ジャラ洞窟、バハリーヤへの戻り"
+  },
+  {
+   "_key": "nx3qdvyd4c",
+   "_type": "itineraryDay",
+   "day": 5,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "バハリーヤで最後の朝食、そして北東にカイロへの4時間のドライブ。",
+   "title": "カイロへ戻る"
+  }
+ ],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/the-white-desert-and-djara-cave/"
+ },
+ "priceFrom": 890,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_4_days_white_desert_wadi_al_hittan_exploration",
+   "_ref": "tour.4-days-white-desert-wadi-al-hittan-exploration",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_87974",
+   "_ref": "wp-page-87974",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_89435",
+   "_ref": "wp-page-89435",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_89436",
+   "_ref": "wp-page-89436",
+   "_type": "reference"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "the-white-desert-and-djara-cave"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "el-interior-del-desierto-cinco-dias-de-bahariya-a-la-cueva-de-djara"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "sabaku-no-nairiku-bahariya-kara-jara-dokutsu-e-no-5-nichikan"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "A five-day private journey west of Cairo into Egypt's desert interior — Bahariya Oasis, the Valley of the Golden Mummies, the White Desert, and the prehistoric chambers of Djara Cave."
+  },
+  {
+   "_key": "es",
+   "value": "Un viaje privado de cinco días al oeste de El Cairo, hacia el interior desértico de Egipto: el oasis de Bahariya, el Valle de las Momias Doradas, el Desierto Blanco y las cámaras prehistóricas de la cueva de Djara."
+  },
+  {
+   "_key": "ja",
+   "value": "カイロ西方のエジプトの砂漠内陸へ向かう5日間のプライベートな旅——バハリーヤ・オアシス、黄金のミイラの谷、白砂漠、そしてジャラ洞窟の先史室。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-special-interest",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "value": "5-Day White Desert & Djara Cave Tour: Bahariya, the Golden Mummies and the Western Desert"
+  },
+  {
+   "_key": "es",
+   "value": "El interior del desierto: cinco días de Bahariya a la cueva de Djara"
+  },
+  {
+   "_key": "ja",
+   "value": "砂漠の内陸：バハリーヤからジャラ洞窟への5日間"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}

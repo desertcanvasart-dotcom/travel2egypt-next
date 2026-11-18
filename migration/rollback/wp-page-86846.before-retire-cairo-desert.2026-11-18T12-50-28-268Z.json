@@ -1,0 +1,1161 @@
+{
+ "_createdAt": "2026-05-13T22:22:44Z",
+ "_id": "wp-page-86846",
+ "_rev": "oRLc4GQfASfWuYVB4SKyxQ",
+ "_system": {
+  "base": {
+   "id": "wp-page-86846",
+   "rev": "I3z6540U8Hkd6LbcFYK2mg"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-18T11:31:39Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "First-time visitors with limited time; travellers who want Cairo taken seriously rather than skimmed on the way to a cruise; anyone interested in the architectural sequence from Saqqara to Giza"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Primer viaje con tiempo limitado; viajeros que quieren El Cairo tomado en serio y no rozado de camino a un crucero; cualquiera interesado en la secuencia arquitectónica que va de Saqqara a Guiza"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "限られた日数で初めてカイロを訪れる方、クルーズに向かう途中の通過点としてではなくカイロそのものを真剣に味わいたい方、サッカラからギザに至る建築の系譜を辿りたい方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Four Days in Cairo: The City Beyond the Plateau"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A short luxury city break that refuses to reduce Cairo to its silhouette — the pharaonic, the medieval, and the moment the pyramid was invented, in four properly paced days."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo does not ease you in gently. It opens with the pyramids and works from there."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Four days is short, but it is the right length for a city break that takes the capital seriously without pretending to exhaust it — continuously inhabited for well over a millennium, with a civilisation in its museums that ran for three thousand years before the city itself existed. What this short luxury stay does is sequence the encounter properly: the pharaonic world at Giza and the Grand Egyptian Museum, the medieval city at the Citadel and Khan el-Khalili, then a day reaching back past Giza to the pyramids that came before. A five-star hotel is the base, an Egyptologist is at every site, and the pace respects the heat."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Giza and the Grand Egyptian Museum"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The trip opens at the argument Egypt has been making for 4,500 years. The Giza plateau holds the Great Pyramid of Khufu, the Pyramid of Khafre, the Pyramid of Menkaure, and the Great Sphinx — built in concentrated succession around 2500 BC. Standing among them resolves something photographs fail to convey: the sheer physical scale of what the Old Kingdom chose to build. The interior of the Pyramid of Khafre can be entered on request — a steep, low, airless descent that clarifies certain things about Old Kingdom ambition no exterior view manages."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "The afternoon turns to the Grand Egyptian Museum at the foot of the plateau, which opened fully on 1 November 2025 and now houses the most comprehensive collection of ancient Egyptian material ever assembled under one roof. The Tutankhamun galleries alone — holding the intact burial equipment of a minor pharaoh, including the gold death mask, the gilded shrine, and the royal chariots — occupy more space than many national museums. The effect is cumulative; the afternoon is given to it properly."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "The Egyptian Museum, the Citadel, and Khan el-Khalili"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "A second day moves through three layers of Cairo's history. The morning begins at the Egyptian Museum of Antiquities on Tahrir Square — the original museum, opened in 1902, whose labyrinthine galleries still hold objects that have not transferred to Giza: the Old Kingdom statuary, the Amarna-period reliefs, and the accumulated strangeness of two centuries of archaeological excavation. (The royal mummies are now displayed at the National Museum of Egyptian Civilisation in Old Cairo.)"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "The day climbs to the Saladin Citadel, the medieval fortification begun in the twelfth century that served as the seat of Egyptian government for seven hundred years. The view from its ramparts takes in Cairo's full sprawl and the Giza pyramids on the horizon. Within the precinct stands the Mosque of Muhammad Ali, completed in the nineteenth century in an Ottoman style that owes a visible debt to Istanbul's imperial mosques. The day ends in Khan el-Khalili, the bazaar quarter established in the fourteenth century and trading continuously since — the spice merchants, coppersmiths, jewellers and coffee houses that occupy its lanes today are not a reconstruction but a continuation. Dinner is taken in the neighbourhood."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Memphis, Saqqara and Dahshur: where the pyramid was invented"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "A full day reaches back to before Giza — to the moment when the pyramid was being invented rather than perfected. Memphis was the first capital of a unified Egypt, established around 3100 BC. Its open-air museum holds the colossal fallen statue of Ramses II — nearly ten metres long, commanding flat on its back — and the great alabaster sphinx, smaller than the one at Giza but more finely worked."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Saqqara, the necropolis that served Memphis, holds the Step Pyramid of Djoser, built by the architect Imhotep around 2650 BC. It is the oldest large stone structure in the world, and the building in which the pyramid form was effectively conceived: six mastaba platforms stacked in diminishing tiers. Walking around it, you can see the logic of Giza being worked out three generations before Khufu's architects arrived at the smooth-sided solution. Dahshur completes the sequence — the Bent Pyramid, its upper section at a shallower angle than its base after a structural correction mid-construction, and the Red Pyramid, the first true smooth-sided pyramid ever completed. Together, the three sites form the most coherent account of architectural evolution anywhere in the ancient world."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "How this break works"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "The pace is full but not brutal. Each day concentrates on one area, with time built in for the heat and the standing-still that turns a visit into a memory. The hotel is a five-star property selected for your party; transfers are private and air-conditioned; the Egyptologist is yours alone for the duration. Children are welcome and the routing scales to any party size."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Four days is not enough to know Cairo. It never is. But it is enough to understand why people come back."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The shape of the journey"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Where · Cairo — Giza, the Grand Egyptian Museum, the Egyptian Museum on Tahrir, the Citadel, Khan el-Khalili, Memphis, Saqqara, Dahshur"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Duration · 4 days / 3 nights — adjustable"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Character · Fully private · your own Egyptologist · five-star Cairo hotel · concentrated city break, depth over distance"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Cuatro días en El Cairo: la ciudad más allá de la meseta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una escapada de lujo breve que se niega a reducir El Cairo a su silueta — el Egipto faraónico, la ciudad medieval y el momento en el que se inventó la pirámide, en cuatro días con el ritmo adecuado."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo no entra suavemente. Abre con las pirámides y a partir de ahí trabaja todo lo demás."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Cuatro días son pocos, pero son la duración justa para una escapada que toma la capital en serio sin pretender agotarla — una ciudad continuamente habitada durante más de un milenio, con una civilización en sus museos que funcionó tres mil años antes de que la propia ciudad existiera. Lo que hace esta estancia corta de alto nivel es ordenar bien el encuentro: el mundo faraónico en Guiza y el Gran Museo Egipcio, la ciudad medieval en la Ciudadela y Jan el-Jalili, y luego un día completo retrocediendo más allá de Guiza, hasta las pirámides que llegaron antes. La base es un hotel de cinco estrellas, hay un egiptólogo en cada visita y el ritmo respeta el calor."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Guiza y el Gran Museo Egipcio"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "El viaje se abre con el argumento que Egipto lleva 4500 años defendiendo. La meseta de Guiza reúne la Gran Pirámide de Keops, la pirámide de Kefrén, la pirámide de Micerinos y la Gran Esfinge, levantados en sucesión concentrada hacia el año 2500 a. C. Estar entre ellos resuelve algo que las fotografías nunca terminan de transmitir: la escala física pura de lo que el Imperio Antiguo decidió construir. El interior de la pirámide de Kefrén puede visitarse a petición — un descenso empinado, bajo y sin aire que aclara ciertas cosas sobre la ambición del Imperio Antiguo que ninguna vista exterior consigue."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "La tarde se entrega al Gran Museo Egipcio, al pie de la meseta, que abrió plenamente el 1 de noviembre de 2025 y que ahora reúne la colección más completa de material egipcio antiguo jamás presentada bajo un mismo techo. Solo las salas de Tutankamón — con el ajuar funerario íntegro de un faraón menor, incluida la máscara de oro, las capillas doradas y los carros reales — ocupan más espacio que muchos museos nacionales. El efecto es acumulativo; la tarde se le entrega como corresponde."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "El Museo Egipcio, la Ciudadela y Jan el-Jalili"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "El segundo día atraviesa tres capas de la historia de El Cairo. La mañana empieza en el Museo Egipcio de Antigüedades de la plaza de Tahrir — el museo original, inaugurado en 1902, cuyas salas laberínticas siguen guardando objetos que no han pasado a Guiza: la estatuaria del Imperio Antiguo, los relieves del periodo de Amarna y la extrañeza acumulada de dos siglos de excavación arqueológica. Las momias reales, conviene recordarlo, se exponen ahora en el Museo Nacional de la Civilización Egipcia, en El Cairo antiguo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "El día asciende a la Ciudadela de Saladino, la fortificación medieval iniciada en el siglo XII y sede del gobierno egipcio durante setecientos años. La vista desde sus murallas abarca toda la extensión de El Cairo y, al fondo, las pirámides de Guiza en el horizonte. Dentro del recinto está la mezquita de Mohamed Alí, terminada en el siglo XIX en un estilo otomano que debe una deuda visible a las grandes mezquitas imperiales de Estambul. La jornada se cierra en Jan el-Jalili, el barrio del bazar establecido en el siglo XIV y en funcionamiento continuo desde entonces — los mercaderes de especias, los caldereros, los joyeros y las cafeterías que ocupan hoy sus callejones no son una reconstrucción, son una continuación. La cena se toma en el barrio."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Menfis, Saqqara y Dahshur: donde se inventó la pirámide"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Una jornada completa retrocede a antes de Guiza, al momento en el que la pirámide estaba inventándose y no perfeccionándose. Menfis fue la primera capital del Egipto unificado, fundada hacia el 3100 a. C. Su museo al aire libre conserva la colosal estatua caída de Ramsés II — casi diez metros de largo, imponente tendida de espaldas — y la gran esfinge de alabastro, más pequeña que la de Guiza pero más finamente trabajada."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Saqqara, la necrópolis que sirvió a Menfis, alberga la pirámide escalonada de Zoser, levantada por el arquitecto Imhotep hacia el 2650 a. C. Es la estructura monumental de piedra más antigua del mundo y el edificio en el que la forma piramidal quedó concebida: seis mastabas apiladas en niveles decrecientes. Caminando a su alrededor se ve la lógica de Guiza siendo formulada tres generaciones antes de que los arquitectos de Keops llegaran a la solución de caras lisas. Dahshur completa la secuencia — la pirámide acodada, con su sección superior en un ángulo más suave que la base tras una corrección estructural a mitad de obra, y la pirámide Roja, la primera pirámide de caras lisas efectivamente terminada. Juntos, los tres sitios forman el relato más coherente de evolución arquitectónica en cualquier parte del mundo antiguo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Cómo funciona esta escapada"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "El ritmo es lleno, no brutal. Cada día se concentra en una zona, con tiempo previsto para el calor y para esos momentos de quedarse quieto que convierten una visita en recuerdo. El hotel es una propiedad de cinco estrellas seleccionada para el grupo; los traslados son privados y climatizados; el egiptólogo es exclusivo durante toda la estancia. Los niños son bienvenidos y el recorrido se adapta a cualquier tamaño de grupo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Cuatro días no bastan para conocer El Cairo. Nunca bastan. Pero sí alcanzan para entender por qué la gente vuelve."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La forma del viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Dónde · El Cairo — Guiza, Gran Museo Egipcio, Museo Egipcio de Tahrir, Ciudadela, Jan el-Jalili, Menfis, Saqqara, Dahshur"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Duración · 4 días / 3 noches, ajustable como viaje privado"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Carácter · Salida privada · su propio egiptólogo · hotel de cinco estrellas en El Cairo · escapada urbana concentrada, profundidad antes que distancia"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロの4日間：シルエットの向こうの街"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "カイロをその輪郭だけに還元しない短いラグジュアリー滞在。ファラオ時代、中世イスラム期、そしてピラミッドが発明された瞬間を、無理のないペースで4日間に組み立てます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロはやんわりと迎え入れたりはしません。ピラミッドで幕を開け、そこから話を進めていきます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "4日間は短いですが、首都を真剣に受け止めるシティブレイクとしては妥当な長さです。網羅したふりはしません——千年以上にわたって連続して人が住み続け、博物館にはこの街が生まれる三千年前から続いた文明が並んでいるのですから。この短い滞在が行うのは、出会いの順序を整えることです。ギザと大エジプト博物館でファラオ時代の世界を、シタデルとハーン・ハリーリで中世カイロを、そして最終日にはギザよりさらに古い「先行するピラミッド」へ。拠点は5つ星ホテル、各遺跡には専属のエジプト学ガイドが付き、ペースは暑さに合わせて組まれています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "ギザと大エジプト博物館"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "旅はエジプトが4,500年にわたって語り続けてきた主張から始まります。ギザ高原にはクフ王のピラミッド、カフラー王のピラミッド、メンカウラー王のピラミッド、そして大スフィンクスが、紀元前2500年頃に集中して築かれて並んでいます。その間に立つと、写真では伝わらない何かが解像されます——古王国時代が選び取った造形の、純粋な物理的スケールです。ご希望に応じてカフラー王のピラミッド内部にも入れます。急で低く、空気の薄い下降路を進む体験は、外観をいくら眺めても掴めない古王国時代の野心の輪郭を、別の言葉で教えてくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "午後は高原の麓に位置する大エジプト博物館へ。2025年11月1日に全面開館したこの博物館は、いま、古代エジプト関連資料の最も包括的なコレクションを一つ屋根の下に収めています。ツタンカーメンの展示室群だけで——黄金のマスク、黄金の厨子、王の戦車を含む、小王の墓所副葬品一式が完全な形で——多くの国立博物館より広い面積を占めます。効果は累積的で、午後はまるごとここに充てるのが理にかなっています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプト考古学博物館、シタデル、そしてハーン・ハリーリ"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "2日目はカイロの歴史の三つの層を進みます。朝はタハリール広場の旧館——1902年に開館したエジプト考古学博物館です。迷路状の展示室には、ギザに移管されなかった品々がいまも並んでいます——古王国時代の彫像群、アマルナ期のレリーフ、そして二世紀にわたる発掘が積み上げてきた独特の雰囲気です。（王のミイラ群は現在、旧カイロの国立エジプト文明博物館＝NMECに移されています。）"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "午後はサラディン城塞へ登ります。12世紀に着工された中世の要塞で、その後700年にわたってエジプト統治の中心であり続けた場所です。胸壁から眺める景色には、カイロの広大な拡がりと、地平線上のギザのピラミッドが収まります。敷地内に建つムハンマド・アリ・モスクは19世紀のオスマン様式で、イスタンブールの帝都モスクへの目に見える借りを持っています。日の締めくくりはハーン・ハリーリ——14世紀に開かれ、それ以来一度も商いを途切れさせていないバザール地区です。香料商、銅細工師、宝石商、そしてコーヒーハウスがいまも路地に並びますが、それは再現ではなく、続いている現実です。夕食はこの界隈で取ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "メンフィス、サッカラ、ダハシュール：ピラミッドが発明された場所"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "3日目は丸一日かけてギザの「前」へ——つまりピラミッドが完成形に磨かれる前に「発明されつつあった」瞬間にまで遡ります。メンフィスは統一エジプトの最初の首都で、紀元前3100年頃に成立しました。野外博物館には、長さおよそ10メートルの倒れたままのラムセス2世の巨像と、ギザのものより小さいが彫りはより精緻なアラバスター製の大スフィンクスが置かれています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "サッカラはそのメンフィスの墓地で、紀元前2650年頃に建築家イムホテプによって築かれたジョセル王の階段ピラミッドが立ちます。これは世界最古の大型石造建造物であり、ピラミッドという形式がここで事実上構想された建物です——マスタバ墓六層を逓減させながら積み上げた姿で、クフ王の建築家たちがあの滑らかな四面体の解にたどり着く三世代前に、ギザの論理がどう組み立てられていったかを目の前で見ることができます。ダハシュールがこの流れを締めくくります——途中で構造補正が入り上部の傾斜が緩くなっている屈折ピラミッド、そして史上初めて完成された真の滑面ピラミッドである赤いピラミッドです。この三遺跡が合わさって、古代世界のどこにも残っていない、もっとも整った建築進化の記録を形作っています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "この滞在の組み立て方"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "ペースは充実していますが酷ではありません。各日は一つのエリアに集中し、暑さと、訪問を記憶へ変える「立ち止まる時間」が組み込まれています。ホテルはあなたのご一行に合わせて選定した5つ星、移動は専用エアコン車、エジプト学ガイドは期間中あなたのご一行専属です。お子様連れも歓迎しており、人数規模に応じてルートを調整します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "4日間でカイロを知り尽くすことはできません。それは決して足りない。けれど、人がなぜここに戻ってくるのかを理解するには、4日間で十分です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "旅の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · カイロ — ギザ、大エジプト博物館、タハリール広場のエジプト考古学博物館、シタデル、ハーン・ハリーリ、メンフィス、サッカラ、ダハシュール"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "日数 · 4日間／3泊 — 調整可能"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド · 5つ星カイロ・ホテル · 距離ではなく深さに振った都市集中型"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "wp-page-83284",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private journey is built around your party, not the other way around. Tell our team how you would want to shape it — a particular hotel, additional time at the Grand Egyptian Museum, an Old Cairo afternoon added before Dahshur — and we will build the four days to fit."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Un viaje privado se construye alrededor del grupo, no al revés. Cuéntenos cómo quiere darle forma — un hotel concreto, más tiempo en el Gran Museo Egipcio, una tarde añadida en El Cairo copto antes de Dahshur — y construimos los cuatro días a su medida."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "プライベート旅行はご一行に合わせて組み立てます。ご希望のホテル、大エジプト博物館での延長時間、ダハシュール前にオールド・カイロの午後を差し込む——そんな調整は、ご相談の上で形にします。"
+  }
+ ],
+ "durationDays": 4,
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 677,
+  "ja": 691
+ },
+ "heroImage": {
+  "_type": "image",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The pyramids of Giza rising from desert sand beneath a dramatic blue and cloudy sky."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Las pirámides de Guiza alzándose sobre la arena bajo un cielo azul y nuboso."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "劇的な青空と雲の下、砂漠の砂からそびえ立つギザのピラミッド。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-480d8c9ddabcdbb4ca3bc11825c8412672088a7e-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The Giza pyramids stand against a sweep of dramatic cloud."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Las pirámides de Guiza se recortan contra un cielo cargado de nubes."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ギザのピラミッドが劇的な雲を背に立つ。"
+   }
+  ]
+ },
+ "hidden": true,
+ "inclusions": [
+  {
+   "_key": "898q145ynn",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The hotel is a five-star property selected for your party; transfers are private and air-conditioned; the Egyptologist is yours alone for the duration.",
+   "text": "Five-star hotel selected for your party"
+  },
+  {
+   "_key": "qie6h50ltg",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The hotel is a five-star property selected for your party; transfers are private and air-conditioned; the Egyptologist is yours alone for the duration.",
+   "text": "Private, air-conditioned transfers"
+  },
+  {
+   "_key": "kcpk8nyg6z",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The hotel is a five-star property selected for your party; transfers are private and air-conditioned; the Egyptologist is yours alone for the duration.",
+   "text": "Private Egyptologist for the duration"
+  },
+  {
+   "_key": "txpbi55is5",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A five-star hotel is the base, an Egyptologist is at every site, and the pace respects the heat.",
+   "text": "Egyptologist at every site"
+  },
+  {
+   "_key": "wzdir9b6r4",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El hotel es una propiedad de cinco estrellas seleccionada para el grupo; los traslados son privados y climatizados; el egiptólogo es exclusivo durante toda la estancia.",
+   "text": "Hotel de cinco estrellas"
+  },
+  {
+   "_key": "dh79icf28h",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El hotel es una propiedad de cinco estrellas seleccionada para el grupo; los traslados son privados y climatizados; el egiptólogo es exclusivo durante toda la estancia.",
+   "text": "Traslados privados y climatizados"
+  },
+  {
+   "_key": "44mslbzjol",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El hotel es una propiedad de cinco estrellas seleccionada para el grupo; los traslados son privados y climatizados; el egiptólogo es exclusivo durante toda la estancia.",
+   "text": "Egiptólogo exclusivo durante toda la estancia"
+  },
+  {
+   "_key": "j5dv1vgr36",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ホテルはあなたのご一行に合わせて選定した5つ星、移動は専用エアコン車、エジプト学ガイドは期間中あなたのご一行専属です。",
+   "text": "5つ星ホテル"
+  },
+  {
+   "_key": "uuwzx3e2l3",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ホテルはあなたのご一行に合わせて選定した5つ星、移動は専用エアコン車、エジプト学ガイドは期間中あなたのご一行専属です。",
+   "text": "専用エアコン車での移動"
+  },
+  {
+   "_key": "eg68ldrxkd",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ホテルはあなたのご一行に合わせて選定した5つ星、移動は専用エアコン車、エジプト学ガイドは期間中あなたのご一行専属です。",
+   "text": "期間中ご一行専属のエジプト学ガイド"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "reviewFlag": "superseded-duplicate",
+  "supersededAt": "2026-11-18T11:31:37.659Z",
+  "supersededBy": "wp-page-153242",
+  "wpUrl": "https://travel2egypt.org/4-days-city-break/"
+ },
+ "priceFrom": 655,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_86851",
+   "_ref": "wp-page-86851",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_89411",
+   "_ref": "wp-page-89411",
+   "_type": "reference"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "4-days-city-break"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "escapada-de-lujo-a-el-cairo-en-4-dias-piramides-museos-ciudadela-y-bazar"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "4-nichikan-kairoshitibureiku-piramiddo-hakubutsukan"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "A short luxury city break that takes Cairo on its own terms — Giza, the Grand Egyptian Museum, the Citadel, Khan el-Khalili, and the long sequence at Saqqara and Dahshur where the pyramid was invented."
+  },
+  {
+   "_key": "es",
+   "value": "Una escapada urbana corta que toma El Cairo en serio: Guiza, el Gran Museo Egipcio, la Ciudadela, Jan el-Jalili y la larga secuencia de Saqqara y Dahshur donde se inventó la pirámide."
+  },
+  {
+   "_key": "ja",
+   "value": "カイロを腰を据えて受け止める短いラグジュアリー滞在。ギザと大エジプト博物館、シタデルとハーン・ハリーリ、そしてピラミッドが発明された場所——サッカラとダハシュールへ。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-luxury",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "value": "Cairo City Break: 4-Day Pyramids, Museums, Citadel and the Bazaar"
+  },
+  {
+   "_key": "es",
+   "value": "Escapada de lujo a El Cairo en 4 días: pirámides, museos, Ciudadela y bazar"
+  },
+  {
+   "_key": "ja",
+   "value": "4日間カイロ・シティブレイク：ピラミッド、博物館、シタデル、そしてバザール"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}
