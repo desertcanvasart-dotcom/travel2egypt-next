@@ -13,6 +13,21 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/bahariya-and-siwa-oasis-vacation",
+    "destination": "/desert-horizons-7-day-bahariya-siwa-oasis-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/unas-vacaciones-inolvidables-en-los-oasis-de-bahariya-y-siwa-desde-india",
+    "destination": "/es/bahariya-y-siwa-en-siete-dias-el-desierto-occidental-de-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/indo-kara-no-wasure-rare-nai-bafuriya-to-shiwa-oashisu-no",
+    "destination": "/ja/sabaku-no-chiheisen-ejiputo-no-seiho-sabaku-o-7-nichikan-de",
+    "permanent": true
+  },
+  {
     "source": "/the-white-desert-and-djara-cave",
     "destination": "/western-desert-djara-and-obeiyed-caves",
     "permanent": true
@@ -18344,7 +18359,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/bahariya-and-siwa-oasis-vacation-from-india",
-    "destination": "/bahariya-and-siwa-oasis-vacation",
+    "destination": "/desert-horizons-7-day-bahariya-siwa-oasis-tour",
     "permanent": true
   },
   {
@@ -22429,7 +22444,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/bahariya-and-siwa-oasis-vacation",
-    "destination": "/ja/indo-kara-no-wasure-rare-nai-bafuriya-to-shiwa-oashisu-no",
+    "destination": "/ja/sabaku-no-chiheisen-ejiputo-no-seiho-sabaku-o-7-nichikan-de",
     "permanent": true
   },
   {
@@ -27214,7 +27229,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/unas-vacaciones-inolvidables-en-los-oasis-de-bahariya-y-siwa-desde-alemania",
-    "destination": "/es/unas-vacaciones-inolvidables-en-los-oasis-de-bahariya-y-siwa-desde-india",
+    "destination": "/es/bahariya-y-siwa-en-siete-dias-el-desierto-occidental-de-egipto",
     "permanent": true
   },
   {
@@ -27514,7 +27529,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/エジプト西部砂漠を巡る冒険７日間",
-    "destination": "/ja/indo-kara-no-wasure-rare-nai-bafuriya-to-shiwa-oashisu-no",
+    "destination": "/ja/sabaku-no-chiheisen-ejiputo-no-seiho-sabaku-o-7-nichikan-de",
     "permanent": true
   },
   {
@@ -28984,12 +28999,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/bahariya-and-siwa-oasis-vacation-from-germany",
-    "destination": "/bahariya-and-siwa-oasis-vacation",
+    "destination": "/desert-horizons-7-day-bahariya-siwa-oasis-tour",
     "permanent": true
   },
   {
     "source": "/bahariya-and-siwa-oasis-vacation-from-spain",
-    "destination": "/bahariya-and-siwa-oasis-vacation",
+    "destination": "/desert-horizons-7-day-bahariya-siwa-oasis-tour",
     "permanent": true
   },
   {
@@ -29149,7 +29164,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/unas-vacaciones-inolvidables-en-los-oasis-de-bahariya-y-siwa-desde-espana",
-    "destination": "/es/unas-vacaciones-inolvidables-en-los-oasis-de-bahariya-y-siwa-desde-india",
+    "destination": "/es/bahariya-y-siwa-en-siete-dias-el-desierto-occidental-de-egipto",
     "permanent": true
   },
   {

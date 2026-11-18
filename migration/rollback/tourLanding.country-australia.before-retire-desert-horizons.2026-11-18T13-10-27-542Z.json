@@ -1,0 +1,485 @@
+{
+ "_createdAt": "2026-11-14T21:49:51Z",
+ "_id": "tourLanding.country-australia",
+ "_rev": "I13soljhRYf3SIEeZeYD9t",
+ "_type": "tourLanding",
+ "_updatedAt": "2026-11-18T12:50:32Z",
+ "category": {
+  "_ref": "tourCategory.private-package",
+  "_type": "reference"
+ },
+ "faq": [
+  {
+   "_key": "faq-australia-1",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "b22",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s23",
+         "_type": "span",
+         "marks": [],
+         "text": "Australians can get a visa on arrival in Egypt. Rules and fees change, so check Egypt’s official e-visa site and Smartraveller before you go."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Do Australians need a visa for Egypt?"
+    }
+   ]
+  },
+  {
+   "_key": "faq-australia-2",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "b24",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s25",
+         "_type": "span",
+         "marks": [],
+         "text": "Usually, yes. After a long journey with a connection, a night in Cairo before heading south is easier than travelling on the same day."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Should we rest in Cairo after arriving?"
+    }
+   ]
+  },
+  {
+   "_key": "faq-australia-3",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "b26",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s27",
+         "_type": "span",
+         "marks": [],
+         "text": "Yes. Christmas, New Year and Easter are peak dates in Egypt. Scheduled departures on those dates usually cost 30% more, and private journeys cost more over the same dates too."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Do prices change by season?"
+    }
+   ]
+  }
+ ],
+ "intro": [
+  {
+   "_key": "en",
+   "value": [
+    {
+     "_key": "b1u",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s1v",
+       "_type": "span",
+       "marks": [],
+       "text": "Planning the trip from Australia"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "b1w",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s1x",
+       "_type": "span",
+       "marks": [],
+       "text": "Most flights from Australia to Egypt connect through Doha, Dubai or Kuala Lumpur. Check the connection time and the arrival hour in Cairo, not just the airline: after a late-night arrival, treat the first day as rest."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b1y",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s1z",
+       "_type": "span",
+       "marks": [],
+       "text": "Seven days is the shortest trip that connects Cairo with Luxor and Aswan properly. Ten days adds Abu Simbel and time to go deeper at each place."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b20",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s21",
+       "_type": "span",
+       "marks": [],
+       "text": "October to April is the comfortable season for sightseeing. December and January are the busiest and cost more."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "journalRefs": [
+  {
+   "_key": "j3o",
+   "_ref": "wp-post-136112-en",
+   "_type": "reference"
+  }
+ ],
+ "relatedTours": [
+  {
+   "_key": "t28",
+   "_ref": "tour.12-day-egypt-group-tour-cairo-dahabiya-red-sea",
+   "_type": "reference"
+  },
+  {
+   "_key": "t29",
+   "_ref": "wp-page-156539",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2a",
+   "_ref": "wp-page-113004",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2b",
+   "_ref": "tour.agatha-dahabiya-journey-along-the-nile",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2c",
+   "_ref": "tour.7-days-dahabiya-nile-cruise-from-aswan-to-luxor",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2d",
+   "_ref": "tour.7-days-luxor-to-aswan-dahabiya-cruise",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2e",
+   "_ref": "tour.7-days-luxury-dahabiya-cruise-on-the-nile",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2f",
+   "_ref": "tour.7-days-luxury-dahabiya-nile-cruise",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2g",
+   "_ref": "tour.7-days-of-splendor-exploring-the-nile-on-a-roman-dahabiya",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2h",
+   "_ref": "tour.adelaide-dahabiya-nile-cruise",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2i",
+   "_ref": "wp-page-160129",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2j",
+   "_ref": "wp-page-136519",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2k",
+   "_ref": "wp-page-136566",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2l",
+   "_ref": "wp-page-155539",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2m",
+   "_ref": "tour.the-pearl-of-red-sea-hurghada",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2n",
+   "_ref": "tour.8-days-best-of-egypt-tour-package",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2o",
+   "_ref": "wp-page-86844",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2p",
+   "_ref": "wp-page-89510",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2q",
+   "_ref": "wp-page-86867",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2r",
+   "_ref": "wp-page-88972",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2s",
+   "_ref": "wp-page-89436",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2t",
+   "_ref": "wp-page-89649",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2u",
+   "_ref": "wp-page-90416",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2v",
+   "_ref": "wp-page-237732",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2w",
+   "_ref": "wp-page-89895",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2x",
+   "_ref": "wp-page-89558",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2y",
+   "_ref": "wp-page-86855",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2z",
+   "_ref": "wp-page-89435",
+   "_type": "reference"
+  },
+  {
+   "_key": "t30",
+   "_ref": "wp-page-113005",
+   "_type": "reference"
+  },
+  {
+   "_key": "t31",
+   "_ref": "wp-page-156421",
+   "_type": "reference"
+  },
+  {
+   "_key": "t32",
+   "_ref": "wp-page-87255",
+   "_type": "reference"
+  },
+  {
+   "_key": "t33",
+   "_ref": "wp-page-86857",
+   "_type": "reference"
+  },
+  {
+   "_key": "t34",
+   "_ref": "wp-page-88992",
+   "_type": "reference"
+  },
+  {
+   "_key": "t35",
+   "_ref": "wp-page-89005",
+   "_type": "reference"
+  },
+  {
+   "_key": "t36",
+   "_ref": "wp-page-89343",
+   "_type": "reference"
+  },
+  {
+   "_key": "t37",
+   "_ref": "wp-page-89376",
+   "_type": "reference"
+  },
+  {
+   "_key": "t38",
+   "_ref": "wp-page-89602",
+   "_type": "reference"
+  },
+  {
+   "_key": "t39",
+   "_ref": "wp-page-89015",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3a",
+   "_ref": "wp-page-89619",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3b",
+   "_ref": "wp-page-89438",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3c",
+   "_ref": "wp-page-86836",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3d",
+   "_ref": "wp-page-89284",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3e",
+   "_ref": "wp-page-89177",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3f",
+   "_ref": "wp-page-90450",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3g",
+   "_ref": "wp-page-156550",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3h",
+   "_ref": "tour.egypt-and-the-red-sea-paradise",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3i",
+   "_ref": "wp-page-112993",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3j",
+   "_ref": "wp-page-88994",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3k",
+   "_ref": "wp-page-89524",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3l",
+   "_ref": "wp-page-90326",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3m",
+   "_ref": "wp-page-90335",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3n",
+   "_ref": "wp-page-86875",
+   "_type": "reference"
+  }
+ ],
+ "seo": {
+  "metaDescription": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayTextValue",
+    "value": "Egypt tours for travellers from Australia: seven to fourteen days across Cairo, Luxor, Aswan and the Nile, private on any date or with a small group planned for Australians."
+   }
+  ],
+  "metaTitle": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Egypt Tours from Australia: Private Journeys and Small-Group Departures"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "egypt-tours-from-australia"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "From Australia, most travellers reach Cairo through Doha, Dubai or Kuala Lumpur, so the trip starts with a long day of travel. The tours here run seven to fourteen days, private on any date, or as a small-group departure planned for travellers from Australia."
+  }
+ ],
+ "themeRef": {
+  "_ref": "theme-country-australia",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Egypt Tours from Australia"
+  }
+ ]
+}
