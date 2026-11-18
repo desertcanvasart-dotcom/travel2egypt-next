@@ -2053,18 +2053,20 @@
     },
     {
       "source": "/bahariya-and-siwa-oasis-vacation-from-india",
-      "destination": "/bahariya-and-siwa-oasis-vacation",
-      "previousDestination": null,
+      "destination": "/desert-horizons-7-day-bahariya-siwa-oasis-tour",
+      "previousDestination": "/bahariya-and-siwa-oasis-vacation",
       "evidence": {
         "source": "/bahariya-and-siwa-oasis-vacation-from-india",
-        "destination": "/bahariya-and-siwa-oasis-vacation",
+        "destination": "/desert-horizons-7-day-bahariya-siwa-oasis-tour",
         "reason": "Exact WordPress URL recorded on the CMS document",
         "documentId": "wp-page-160129",
         "legacyUrl": "https://travel2egypt.org/bahariya-and-siwa-oasis-vacation-from-india/",
         "documentType": "tour",
         "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert — Travel2Egypt",
         "verifiedStatus": 200,
-        "verifiedAt": "2026-09-22"
+        "verifiedAt": "2026-09-22",
+        "retiredOn": "2026-11-18",
+        "retiredReason": "the destination tour was merged into this one (owner, 18 Nov)"
       }
     },
     {
