@@ -1,0 +1,1394 @@
+{
+ "_createdAt": "2026-05-13T22:20:28Z",
+ "_id": "wp-page-153242",
+ "_rev": "iz86e8aTwjjIfI965VIq02",
+ "_system": {
+  "base": {
+   "id": "wp-page-153242",
+   "rev": "WARbvYUZNjQADgogAemrDS"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-17T15:29:50Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "First-timers wanting Cairo properly read; repeat visitors returning for the new Grand Egyptian Museum; travellers who prefer one city done well over several done lightly"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Primeros viajeros que quieren El Cairo bien leído; repetidores que vuelven por el nuevo Gran Museo Egipcio; quien prefiere una ciudad hecha a fondo a varias hechas en superficie"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "初訪問でカイロをきちんと「読み解いて」帰りたい方、新しい大エジプト博物館のために再訪する方、複数都市を浅く回るより一つの街を深くやりたい方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Four Days in Cairo: The Architectural Sequence"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A short private city break that reads Cairo as a single five-thousand-year argument in stone — Saqqara to Giza, Giza to the Grand Egyptian Museum, museum to Coptic and Islamic city."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "A weekend can show you Cairo's headlines. Four days can show you its sequence — and the sequence is the whole point."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo accumulates. The Step Pyramid is older than the Great Pyramid; the Great Pyramid is older than the Hanging Church; the Hanging Church is older than the Citadel; the Citadel is older than the bazaar that still trades beneath its walls. Most short itineraries pick one or two of these and call it Egypt. This one runs the whole line. Four days, used properly, give you the city's architectural argument in the order it was actually built — and that is a different kind of trip from the standard pyramids-and-museum dash."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "The Grand Egyptian Museum, which opened fully on 1 November 2025 on the edge of the Giza plateau, is now the centre of gravity for that argument. The complete Tutankhamun collection is here, reassembled and properly displayed for the first time since the excavation. So is a vast share of what spent the previous century in Cairo's older Tahrir Square building. A serious museum day, set against a serious plateau day, is the spine of any modern Cairo break — and this itinerary builds around it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The Giza plateau"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "The first day goes straight to Giza, because the plateau is where most people's idea of Egypt was formed and where it either holds or deepens. The Great Pyramid of Khufu, the Pyramid of Khafre, and the Pyramid of Menkaure were built across roughly fifty years around 2500 BC, with the Great Sphinx below them carved from a single limestone outcrop. The scale of the complex is what photographs consistently fail to convey: the plateau is large, the stones are enormous, and the fact of the Old Kingdom's ambition settles on you differently in person than it does in any image. The option to enter the Pyramid of Khafre — a low, steep passage into the body of the structure — is available for those who want it. As the afternoon light changes, the Sound and Light Show at the pyramids closes the day, the plateau's history narrated against floodlit stone. Cairo gives you the headline first; that is the right call."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "The Grand Egyptian Museum"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "The second day belongs to the collection. The Grand Egyptian Museum is the largest archaeological museum in the world, and its permanent galleries finally bring together objects that were previously scattered across several institutions — many in storage for decades — into a single, properly scaled, rigorously organised display. The treasures of Tutankhamun are here, reassembled and presented in full for the first time since their excavation a century ago. The statuary, the papyri, the reconstructed chariots, the furniture of people dead for three millennia — all of it in a building large enough to give it room. (The royal mummies remain at the National Museum of Egyptian Civilisation in Old Cairo, where their dedicated gallery was built around them.) This is a day for slowing down; the museum rewards depth over coverage, and our Egyptologist will shape the route to your interests rather than walking you through every gallery."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Saqqara and Old Cairo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "The third day reaches back past Giza to the very beginning of monumental stone construction, then forward to Cairo's older inhabited layers. Saqqara is where the pyramid was invented: the Step Pyramid of Djoser, built around 2650 BC under the architect Imhotep, is the oldest large stone structure in the world — the first time human builders stacked cut stone at this scale, and the structural experiment from which Giza would eventually follow. The surrounding necropolis is large and only partially excavated; new finds continue to emerge. Memphis nearby preserves the colossal fallen statue of Ramses II and a large alabaster sphinx from the ancient capital that once stood here. The afternoon moves into Old Cairo — the Coptic quarter, where the Hanging Church and the Church of St Sergius and Bacchus record Egypt's Christian centuries, and the Ben Ezra Synagogue, rebuilt on a site associated with a Jewish presence in Cairo going back well over a thousand years. The day ends at Wekalet El-Ghoury, an Ottoman-era caravanserai in the heart of Islamic Cairo, for a Tanoura performance — the Sufi spinning ritual that has been part of Cairo's cultural fabric for centuries."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "The Citadel and the bazaar"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "The final day belongs to medieval Cairo before the airport transfer. The Saladin Citadel, built in the twelfth century AD on a spur of the Mokattam hills, has commanded the skyline for eight hundred years. Inside it stands the Mosque of Muhammad Ali, completed in the 1840s in Ottoman style, its twin minarets visible from most of the city below. The Citadel also holds military and police museums and offers one of the better elevated views available to visitors. From there the day moves down into Khan el-Khalili, the bazaar quarter that has traded continuously since the fourteenth century — loud, dense, and unhurried in the way only old markets are. It is the right place to end a Cairo visit: not a monument to the past but an active city doing what it has always done. A final lunch, and the transfer to the airport follows."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "How four days in Cairo work"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a private departure — operated for your party alone, never a shared group. A licensed English-speaking Egyptologist, private air-conditioned transfers, three nights' accommodation, and full board are included throughout; children are welcome on request. The schedule is full but not loose — early starts protect you from the worst of the midday heat at Giza and Saqqara, and our team holds each day to its window so the four days deliver what they promise."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Four days will not exhaust Cairo. What they give you is the right four days — the monuments in the right order, with enough time at each to make them mean something."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The shape of the journey"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Where · Cairo (Giza · Grand Egyptian Museum · Saqqara · Memphis · Coptic Cairo · Islamic Cairo)"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Duration · 4 days / 3 nights — adjustable"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Character · Fully private · your own Egyptologist · serious museum day at GEM · architectural sequence rather than highlights dash"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Cuatro días en El Cairo: la secuencia arquitectónica"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una escapada urbana privada que lee El Cairo como un único argumento de cinco mil años en piedra: Saqqara hacia Guiza, Guiza hacia el Gran Museo Egipcio, museo hacia la ciudad copta e islámica."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Un fin de semana puede mostrar los titulares de El Cairo. Cuatro días pueden mostrar su secuencia, y la secuencia es precisamente lo que importa."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo se acumula. La pirámide escalonada es más antigua que la Gran Pirámide; la Gran Pirámide es más antigua que la Iglesia Colgante; la Iglesia Colgante es más antigua que la Ciudadela; la Ciudadela es más antigua que el bazar que todavía comercia a sus pies. La mayoría de los itinerarios breves elige uno o dos de estos puntos y lo llama Egipto. Este recorrido sigue la línea entera. Cuatro días bien usados ofrecen el argumento arquitectónico de la ciudad en el orden en que se construyó realmente, y eso convierte la visita en algo distinto del clásico recorrido pirámides–museo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "El Gran Museo Egipcio, que abrió plenamente el 1 de noviembre de 2025 en el borde de la meseta de Guiza, es ahora el centro de gravedad de ese argumento. La colección completa de Tutankamón está aquí, reagrupada y montada por primera vez desde la excavación. Junto a ella, una parte enorme de lo que durante un siglo estuvo en el antiguo edificio de la plaza Tahrir. Un día de museo serio, encadenado con un día de meseta serio, es la columna vertebral de cualquier escapada moderna a El Cairo, y este itinerario se construye en torno a eso."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "La meseta de Guiza"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "El primer día va directo a Guiza, porque la meseta es donde se formó la idea que la mayoría tiene de Egipto y donde esa idea o aguanta o se profundiza. La Gran Pirámide de Keops, la pirámide de Kefrén y la pirámide de Micerinos se levantaron a lo largo de unos cincuenta años hacia 2500 a. C., con la Gran Esfinge debajo, tallada en un único afloramiento de caliza. La escala del conjunto es lo que las fotografías nunca consiguen transmitir: la meseta es vasta, las piedras son enormes y la ambición del Imperio Antiguo se asienta sobre el visitante de una forma que ninguna imagen sustituye. Quien quiera entrar en la pirámide de Kefrén puede hacerlo: un pasadizo bajo y empinado hasta el interior del monumento. Al caer la tarde, el espectáculo de luz y sonido cierra la jornada, con la meseta narrada contra la piedra iluminada. El Cairo da primero el titular; es la decisión correcta."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "El Gran Museo Egipcio"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "El segundo día pertenece a la colección. El Gran Museo Egipcio es el mayor museo arqueológico del mundo y sus galerías permanentes reúnen al fin, en un único edificio a escala adecuada y con curaduría rigurosa, objetos que durante décadas estuvieron repartidos en varias instituciones —muchos en almacén— o expuestos sin el espacio que merecían. Los tesoros de Tutankamón están aquí, reagrupados y presentados en su totalidad por primera vez desde la excavación de hace un siglo. Estatuaria, papiros, carros reconstruidos, mobiliario de personas muertas hace tres milenios: todo en un edificio lo bastante grande para darles aire. Las momias reales se conservan en el Museo Nacional de la Civilización Egipcia (NMEC), en El Cairo Antiguo, donde se construyó una galería específica a su alrededor. Esta jornada se hace para no correr; el museo recompensa la profundidad antes que la cobertura, y nuestro egiptólogo modulará el recorrido en función de tus intereses, no de cada vitrina."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Saqqara y El Cairo antiguo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "El tercer día retrocede más allá de Guiza, hasta el origen mismo de la construcción monumental en piedra, y luego avanza hacia las capas habitadas más antiguas de la ciudad. Saqqara es donde se inventó la pirámide: la pirámide escalonada de Zoser, levantada hacia 2650 a. C. bajo el arquitecto Imhotep, es la mayor estructura de piedra más antigua del mundo —la primera vez que se apilaron sillares a esa escala, y el experimento estructural del que Guiza acabaría derivando. La necrópolis circundante es vasta y solo en parte excavada; los nuevos hallazgos siguen apareciendo. Menfis, cerca, conserva el colosal Ramsés II caído y una gran esfinge de alabastro de la antigua capital que estuvo aquí. La tarde entra en El Cairo Antiguo: el barrio copto, con la Iglesia Colgante y la iglesia de los santos Sergio y Baco como testigos de los siglos cristianos de Egipto, y la sinagoga Ben Ezra, reconstruida sobre un emplazamiento ligado a una presencia judía en la ciudad de más de mil años. El día cierra en Wekalet el-Ghouri, caravasar otomano en pleno corazón islámico, con un espectáculo de tanura: el ritual sufí giratorio que forma parte del tejido cultural cairota desde hace siglos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "La Ciudadela y el bazar"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "El último día pertenece al Cairo medieval antes del traslado al aeropuerto. La Ciudadela de Saladino, levantada en el siglo XII sobre un espolón de las colinas del Moqattam, lleva ochocientos años marcando el horizonte. Dentro se alza la mezquita de Mohamed Alí, terminada en la década de 1840 en estilo otomano, con sus dos minaretes visibles desde casi cualquier rincón de la ciudad. La Ciudadela alberga también museos militares y de policía y ofrece una de las mejores vistas elevadas disponibles para el visitante. Desde allí, la jornada baja a Jan el-Jalili, el barrio del bazar que comercia de manera continua desde el siglo XIV: ruidoso, denso y con la calma propia solo de los mercados antiguos. Es el sitio adecuado para cerrar una visita a El Cairo: no un monumento al pasado, sino una ciudad activa haciendo lo que siempre ha hecho. Un último almuerzo y el traslado al aeropuerto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Cómo funcionan cuatro días en El Cairo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "La salida es privada —operada solo para tu grupo, nunca compartida—. Un egiptólogo licenciado de habla hispana, traslados privados climatizados, tres noches de alojamiento y pensión completa están incluidos en todo momento; se reciben familias con niños sin problema. El programa es completo pero no apretado: los inicios tempranos protegen del peor calor del mediodía en Guiza y Saqqara, y nuestro equipo mantiene cada día dentro de su ventana para que los cuatro días entreguen lo que prometen."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Cuatro días no agotan El Cairo. Lo que entregan son los cuatro días correctos: los monumentos en su orden y con el tiempo necesario para que signifiquen algo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La forma del viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Dónde · El Cairo (Guiza · Gran Museo Egipcio · Saqqara · Menfis · El Cairo copto · El Cairo islámico)"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Duración · 4 días / 3 noches, ajustable como viaje privado"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Carácter · Salida privada · su propio egiptólogo · día serio en el GEM · secuencia arquitectónica en vez de carrera de hitos"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロを4日間で——順序で読み解く街"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "サッカラからギザへ、ギザから大エジプト博物館へ、博物館からコプトとイスラム・カイロへ——カイロを「石による5000年にわたる一本の議論」として読む、短いプライベート・シティブレイク。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "週末はカイロの「見出し」だけを見せます。4日間は「順序」を見せられます——そして順序こそが、この街の核心です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロは積層する街です。階段ピラミッドは大ピラミッドより古く、大ピラミッドは「吊り教会」より古く、吊り教会は城塞より古く、城塞はその城壁の下でいまも商いを続ける市場より古い。短い行程の多くはこの連なりから一つか二つを選んで「エジプトを見た」と称しますが、この行程は連なりそのものを通します。きちんと使えば、4日間でカイロという街の建築史を、実際に築かれた順序のままに読むことができます——王道の「ピラミッドと博物館の駆け足」とは別種の旅です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "2025年11月1日に全面開館した大エジプト博物館（GEM）はギザ高原のへりに立ち、いまやこの議論の重心です。ツタンカーメンのコレクション一式はここに集約され、発掘以来初めて再構成された形で展示されています。タハリール広場の旧館で長らく公開されてきた膨大な品々の多くも、ここに移管されました。本気の博物館一日と、本気の高原一日——その二日を背骨に据えるのが、現代のカイロ行程の組み方であり、本行程もそこを軸に組み立てています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "ギザ高原"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "初日は迷わずギザへ。多くの方の「エジプト」のイメージは高原で形づくられ、ここで深まるか、覆るかが決まります。クフ王の大ピラミッド、カフラー王のピラミッド、メンカウラー王のピラミッドは紀元前2500年ごろ、ほぼ50年ほどのあいだに築かれ、足元の大スフィンクスは一枚岩の石灰岩から掘り出されました。写真が一貫して伝えそこねるのは、ここのスケールです——高原は広く、石は巨大で、古王国の野心が「実物」となって沈黙のうちに語りかけてくる。ご希望の方は、カフラー王ピラミッド内部への参入（低く急な通路を下って構造の内側へ入る）も選択できます。午後の光が転じるころ、ピラミッドの音と光のショーで一日を閉じます——投光に照らされた石を背に、高原の歴史が語られる時間です。最初に「見出し」を出し切る——これは正しい配置です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "大エジプト博物館"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "二日目はコレクションの日です。GEMは世界最大の考古学博物館で、その常設ギャラリーは、これまで複数の機関に散在していた（多くは長く収蔵庫に眠っていた）品々を、ようやく一つの、ふさわしい規模と厳密な構成のもとに統合しました。ツタンカーメンの宝物は一世紀前の発掘以来はじめて、ここで全点が再構成されて並びます。彫像、パピルス、復元された戦車、3000年前に生きた人々の家具——すべてが、それを置くに足る空間のなかにあります。（王のミイラ群は旧カイロの国立エジプト文明博物館（NMEC）に留まり、専用ギャラリーが彼らに合わせて設えられています。）この日はゆっくり時間を取ります。GEMは「網羅」より「深く読む」ことに報いる館で、私たちのエジプト学ガイドはお客様の関心に沿って動線を組みます——全ギャラリーを順に流したりはしません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "サッカラと旧カイロ"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "三日目はギザの背後にさかのぼり、記念碑的石造建築の出発点へ、そしてそこからカイロのより古い「生活の層」へと進みます。サッカラはピラミッドが発明された場所——紀元前2650年ごろ、建築家イムホテプの設計によるジェセル王の階段ピラミッドは、世界最古の大規模石造建造物です。切石をこの規模で積み上げた最初の例であり、やがてギザへと続いていく構造実験の起点。周辺のネクロポリスは広大で、まだ全面的には発掘されていません——新しい発見が今も続いています。近くのメンフィスには、かつての首都の名残として、ラメセス2世の倒れた巨像と中王国期の大型アラバスター・スフィンクスが残ります。午後は旧カイロへ。コプト地区では「吊り教会」と聖セルギウス聖バッカス教会がエジプトのキリスト教時代を伝え、ベン・エズラ・シナゴーグは千年以上前にさかのぼるカイロのユダヤ人の歴史と結びつく場所に再建されています。一日はイスラム・カイロの中心、オスマン期の隊商宿ウィカーラ・アル＝グーリーで締めくくります——何世紀にもわたってカイロの文化を形づくってきたスーフィーの旋舞、タヌーラの公演です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "城塞と市場"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "最終日は、空港送迎の前、中世のカイロに充てます。サラディン城塞は12世紀、ムカッタムの丘の稜線上に築かれ、以来800年にわたりこの街のスカイラインを支配してきました。内部のムハンマド・アリー・モスクは1840年代にオスマン様式で完成、二本の尖塔（ミナレット）は街のほぼどこからでも見えます。城塞内には軍事博物館と警察博物館があり、訪問者が得られる眺望としてはカイロでも屈指のものです。そこから下って、ハーン・ハリーリへ——14世紀以来絶えることなく商いの続く市場の一画です。賑やかで、密度が高く、古い市場だけが持つ「焦らなさ」がここにあります。カイロ滞在を締めくくるのにふさわしい場所です——過去の記念碑ではなく、現に動いている街、それも昔と変わらぬことを続けている街。最後の昼食ののち、空港へお送りします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "この4日間の組み立て方"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "完全プライベートの催行です——お客様のご一行のみで運行し、相乗りはありません。ライセンスを持つ英語対応のエジプト学ガイド、冷房付き専用車両、3泊分の宿泊と全食が含まれます。お子様はご要望に応じて歓迎します。日程は充実していますがゆるんではいません——早朝発でギザとサッカラの正午の暑さを避け、私たちのチームが各日の時間枠を守って、4日間が約束を果たすよう動きます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "4日間でカイロを使い切ることはできません。差し上げるのは「適切な4日間」——順序の正しい記念建造物の連なりと、それぞれに意味を持たせるだけの時間です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "旅の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · カイロ（ギザ・大エジプト博物館・サッカラ・メンフィス・コプト・カイロ・イスラム・カイロ）"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "日数 · 4日間／3泊 — 調整可能"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド · GEMに本気の一日 · 駆け足ではなく建築史の順序で読む構成"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "wp-page-83284",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private journey is built around your party, not the other way around. Tell our team how you'd want to shape it — a longer GEM day, a Dahshur add-on, the Tanoura evening swapped for a dinner cruise — and we will build the four days to fit."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Un viaje privado se construye alrededor de tu grupo, no al revés. Dinos cómo querrías ajustarlo —una jornada más larga en el GEM, Dahshur añadido, la noche de tanura cambiada por una cena-crucero— y armaremos los cuatro días contigo."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "4日間はご一行のかたちに合わせて組み直せます——GEMをさらに長くする、ダハシュールを加える、タヌーラの夜をディナークルーズに差し替える、など。具体的なご希望をお寄せください。"
+  }
+ ],
+ "customisationOptions": [
+  {
+   "_key": "bax1rqsxjp",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Tell our team how you'd want to shape it — a longer GEM day, a Dahshur add-on, the Tanoura evening swapped for a dinner cruise — and we will build the four days to fit.",
+   "text": "Spend a longer day at the Grand Egyptian Museum"
+  },
+  {
+   "_key": "nr0hr09qa9",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Tell our team how you'd want to shape it — a longer GEM day, a Dahshur add-on, the Tanoura evening swapped for a dinner cruise — and we will build the four days to fit.",
+   "text": "Add a visit to Dahshur"
+  },
+  {
+   "_key": "suq9s6eysh",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Tell our team how you'd want to shape it — a longer GEM day, a Dahshur add-on, the Tanoura evening swapped for a dinner cruise — and we will build the four days to fit.",
+   "text": "Swap the Tanoura evening for a dinner cruise"
+  },
+  {
+   "_key": "qxm835qshf",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "The option to enter the Pyramid of Khafre — a low, steep passage into the body of the structure — is available for those who want it.",
+   "text": "Enter the Pyramid of Khafre"
+  },
+  {
+   "_key": "tqhgvv5dp9",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Dinos cómo querrías ajustarlo —una jornada más larga en el GEM, Dahshur añadido, la noche de tanura cambiada por una cena-crucero— y armaremos los cuatro días contigo.",
+   "text": "Pasar una jornada más larga en el Gran Museo Egipcio"
+  },
+  {
+   "_key": "u4vpy3wek6",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Dinos cómo querrías ajustarlo —una jornada más larga en el GEM, Dahshur añadido, la noche de tanura cambiada por una cena-crucero— y armaremos los cuatro días contigo.",
+   "text": "Añadir una visita a Dahshur"
+  },
+  {
+   "_key": "4usrxui8q6",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Dinos cómo querrías ajustarlo —una jornada más larga en el GEM, Dahshur añadido, la noche de tanura cambiada por una cena-crucero— y armaremos los cuatro días contigo.",
+   "text": "Cambiar la noche de tanura por una cena-crucero"
+  },
+  {
+   "_key": "yq0uzw9gla",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Quien quiera entrar en la pirámide de Kefrén puede hacerlo: un pasadizo bajo y empinado hasta el interior del monumento.",
+   "text": "Entrar en la pirámide de Kefrén"
+  },
+  {
+   "_key": "96hzm81rqi",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "4日間はご一行のかたちに合わせて組み直せます——GEMをさらに長くする、ダハシュールを加える、タヌーラの夜をディナークルーズに差し替える、など。",
+   "text": "大エジプト博物館での滞在時間をさらに長くする"
+  },
+  {
+   "_key": "zcm22o1gx4",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "4日間はご一行のかたちに合わせて組み直せます——GEMをさらに長くする、ダハシュールを加える、タヌーラの夜をディナークルーズに差し替える、など。",
+   "text": "ダハシュールの見学を加える"
+  },
+  {
+   "_key": "wrou1uabko",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "4日間はご一行のかたちに合わせて組み直せます——GEMをさらに長くする、ダハシュールを加える、タヌーラの夜をディナークルーズに差し替える、など。",
+   "text": "タヌーラの夜をディナークルーズに差し替える"
+  },
+  {
+   "_key": "ef1sefo9so",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "ご希望の方は、カフラー王ピラミッド内部への参入（低く急な通路を下って構造の内側へ入る）も選択できます。",
+   "text": "カフラー王のピラミッド内部に入る"
+  }
+ ],
+ "durationDays": 4,
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 542,
+  "ja": 556
+ },
+ "heroImage": {
+  "_type": "image",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The twin white bell towers of the Hanging Church rising above a courtyard in Coptic Cairo"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Los dos campanarios blancos de la Iglesia Colgante sobre un patio de El Cairo copto"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "コプト地区のカイロ、中庭の上にそびえる「吊り下げ教会」の白い双塔"
+   }
+  ],
+  "asset": {
+   "_ref": "image-811897b6964d78b4c247dfac539ff79414881cf0-3000x2199-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The Hanging Church towers rise over Coptic Cairo."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Las torres de la Iglesia Colgante se alzan sobre el Cairo copto."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "コプト・カイロにそびえる宙吊り教会の鐘楼。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "1ceycp94sj",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, three nights' accommodation, and full board are included throughout; children are welcome on request.",
+   "text": "A licensed English-speaking Egyptologist"
+  },
+  {
+   "_key": "pwq5gc2vdb",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, three nights' accommodation, and full board are included throughout; children are welcome on request.",
+   "text": "private air-conditioned transfers"
+  },
+  {
+   "_key": "8oe8qw5k3x",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, three nights' accommodation, and full board are included throughout; children are welcome on request.",
+   "text": "three nights' accommodation"
+  },
+  {
+   "_key": "ybbk6xpqbj",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, three nights' accommodation, and full board are included throughout; children are welcome on request.",
+   "text": "full board"
+  },
+  {
+   "_key": "k5sgfdwxgo",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados, tres noches de alojamiento y pensión completa están incluidos en todo momento; se reciben familias con niños sin problema.",
+   "text": "Egiptólogo licenciado de habla hispana"
+  },
+  {
+   "_key": "u7tzo33wde",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados, tres noches de alojamiento y pensión completa están incluidos en todo momento; se reciben familias con niños sin problema.",
+   "text": "Traslados privados climatizados"
+  },
+  {
+   "_key": "v160hye08u",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados, tres noches de alojamiento y pensión completa están incluidos en todo momento; se reciben familias con niños sin problema.",
+   "text": "Tres noches de alojamiento"
+  },
+  {
+   "_key": "nrkjxu4wrr",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados, tres noches de alojamiento y pensión completa están incluidos en todo momento; se reciben familias con niños sin problema.",
+   "text": "Pensión completa"
+  },
+  {
+   "_key": "5tar0dg4r1",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "完全プライベートの催行です——お客様のご一行のみで運行し、相乗りはありません。",
+   "text": "完全プライベートの催行（相乗りなし）"
+  },
+  {
+   "_key": "gdt5qebned",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ライセンスを持つ英語対応のエジプト学ガイド、冷房付き専用車両、3泊分の宿泊と全食が含まれます。",
+   "text": "ライセンスを持つ英語対応のエジプト学ガイド"
+  },
+  {
+   "_key": "esz7b5oppk",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ライセンスを持つ英語対応のエジプト学ガイド、冷房付き専用車両、3泊分の宿泊と全食が含まれます。",
+   "text": "冷房付き専用車両"
+  },
+  {
+   "_key": "b1tmko7m5o",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ライセンスを持つ英語対応のエジプト学ガイド、冷房付き専用車両、3泊分の宿泊と全食が含まれます。",
+   "text": "3泊分の宿泊"
+  },
+  {
+   "_key": "71wt5zz727",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ライセンスを持つ英語対応のエジプト学ガイド、冷房付き専用車両、3泊分の宿泊と全食が含まれます。",
+   "text": "全食"
+  },
+  {
+   "_key": "550ci3lp1n",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "最後の昼食ののち、空港へお送りします。",
+   "text": "空港へお送りします"
+  }
+ ],
+ "itineraryDays": [
+  {
+   "_key": "vlmyy73d47",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "The first day goes straight to Giza, because the plateau is where most people's idea of Egypt was formed and where it either holds or deepens.",
+   "title": "The Giza plateau"
+  },
+  {
+   "_key": "wmqj56gvap",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "The second day belongs to the collection.",
+   "title": "The Grand Egyptian Museum"
+  },
+  {
+   "_key": "jwfcq3m9iy",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "The third day reaches back past Giza to the very beginning of monumental stone construction, then forward to Cairo's older inhabited layers.",
+   "title": "Saqqara and Old Cairo"
+  },
+  {
+   "_key": "lsganmlymw",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "The final day belongs to medieval Cairo before the airport transfer.",
+   "title": "The Citadel and the bazaar"
+  },
+  {
+   "_key": "3btfxwsb0f",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "カイロ",
+   "overnightNeedsReview": true,
+   "source": "初日は迷わずギザへ。",
+   "title": "ギザ高原"
+  },
+  {
+   "_key": "kpmaf1qda3",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "カイロ",
+   "overnightNeedsReview": true,
+   "source": "二日目はコレクションの日です。",
+   "title": "大エジプト博物館（コレクションの日）"
+  },
+  {
+   "_key": "eigpvn8yc6",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "カイロ",
+   "overnightNeedsReview": true,
+   "source": "三日目はギザの背後にさかのぼり、記念碑的石造建築の出発点へ、そしてそこからカイロのより古い「生活の層」へと進みます。",
+   "title": "サッカラと旧カイロ"
+  },
+  {
+   "_key": "ah5vuy92fb",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "最終日は、空港送迎の前、中世のカイロに充てます。",
+   "title": "城塞と市場、空港送迎"
+  }
+ ],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/4-day-history-culture-escape/"
+ },
+ "priceFrom": 520,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_86790",
+   "_ref": "tour.02-day-luxor-tour-by-plane-from-cairo",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_89411",
+   "_ref": "wp-page-89411",
+   "_type": "reference"
+  }
+ ],
+ "routeLegs": [],
+ "seo": {
+  "_type": "seo",
+  "metaDescription": [
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayTextValue",
+    "value": "Cuatro días privados en El Cairo: la pirámide escalonada de Saqqara, Guiza, el Gran Museo Egipcio y la ciudad copta e islámica."
+   }
+  ],
+  "metaTitle": [
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Egipto en 4 días: tour privado por El Cairo"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "4-day-history-culture-escape"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "el-cairo-en-4-dias-piramides-gran-museo-egipcio-y-el-cairo-antiguo"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "4-nichikan-no-kairo-piramiddo-dai-ejiputo-hakubutsukan"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "Four private days in Cairo, sequenced as a single architectural argument — from the Step Pyramid at Saqqara through Giza, into the Grand Egyptian Museum, and forward to Coptic and Islamic Cairo."
+  },
+  {
+   "_key": "es",
+   "value": "Cuatro días privados en El Cairo, ordenados como un único argumento arquitectónico: de la pirámide escalonada de Saqqara a Guiza, al Gran Museo Egipcio y a la ciudad copta e islámica."
+  },
+  {
+   "_key": "ja",
+   "value": "サッカラの階段ピラミッドから始めて、ギザ、大エジプト博物館、コプトとイスラム・カイロまで——カイロを一本の建築史として読む、4日間のプライベート・シティブレイク。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-egypt-on-the-go",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "value": "4-Day Cairo: Pyramids, the Grand Egyptian Museum and Old Cairo"
+  },
+  {
+   "_key": "es",
+   "value": "El Cairo en 4 días: Pirámides, Gran Museo Egipcio y El Cairo Antiguo"
+  },
+  {
+   "_key": "ja",
+   "value": "4日間のカイロ：ピラミッド、大エジプト博物館、そして旧市街"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}
