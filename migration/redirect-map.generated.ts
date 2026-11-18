@@ -13,6 +13,36 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/the-white-desert-and-djara-cave",
+    "destination": "/western-desert-djara-and-obeiyed-caves",
+    "permanent": true
+  },
+  {
+    "source": "/5-day-the-obeiyed-cave-safari-tour",
+    "destination": "/western-desert-djara-and-obeiyed-caves",
+    "permanent": true
+  },
+  {
+    "source": "/es/el-interior-del-desierto-cinco-dias-de-bahariya-a-la-cueva-de-djara",
+    "destination": "/es/las-dos-cuevas-del-desierto-occidental-djara-y-obeiyed",
+    "permanent": true
+  },
+  {
+    "source": "/es/el-desierto-occidental-en-sus-propios-terminos-safari-privado-de-cinco-dias-a-la-cueva-de-el-obeiyed",
+    "destination": "/es/las-dos-cuevas-del-desierto-occidental-djara-y-obeiyed",
+    "permanent": true
+  },
+  {
+    "source": "/ja/sabaku-no-nairiku-bahariya-kara-jara-dokutsu-e-no-5-nichikan",
+    "destination": "/ja/seiho-sabaku-jara-obeiyado-dokutsu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/seiho-sabaku-o-sono-ryugi-de-obeiyado-dokutsu-e-no-5",
+    "destination": "/ja/seiho-sabaku-jara-obeiyado-dokutsu",
+    "permanent": true
+  },
+  {
     "source": "/8-day-cairo-and-egypt-desert-safari",
     "destination": "/the-great-pharaohs-and-white-desert",
     "permanent": true
@@ -1674,7 +1704,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/the-white-desert-and-djara-cave",
-    "destination": "/ja/sabaku-no-nairiku-bahariya-kara-jara-dokutsu-e-no-5-nichikan",
+    "destination": "/ja/seiho-sabaku-jara-obeiyado-dokutsu",
     "permanent": true
   },
   {
@@ -1764,7 +1794,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/5-day-the-obeiyed-cave-safari-tour",
-    "destination": "/ja/seiho-sabaku-o-sono-ryugi-de-obeiyado-dokutsu-e-no-5",
+    "destination": "/ja/seiho-sabaku-jara-obeiyado-dokutsu",
     "permanent": true
   },
   {
@@ -6579,7 +6609,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/the-white-desert-and-djara-cave",
-    "destination": "/es/el-interior-del-desierto-cinco-dias-de-bahariya-a-la-cueva-de-djara",
+    "destination": "/es/las-dos-cuevas-del-desierto-occidental-djara-y-obeiyed",
     "permanent": true
   },
   {
@@ -6674,7 +6704,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/5-day-the-obeiyed-cave-safari-tour",
-    "destination": "/es/el-desierto-occidental-en-sus-propios-terminos-safari-privado-de-cinco-dias-a-la-cueva-de-el-obeiyed",
+    "destination": "/es/las-dos-cuevas-del-desierto-occidental-djara-y-obeiyed",
     "permanent": true
   },
   {
@@ -12044,7 +12074,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/safari-de-5-dias-por-las-cuevas-de-obeiyed",
-    "destination": "/es/el-desierto-occidental-en-sus-propios-terminos-safari-privado-de-cinco-dias-a-la-cueva-de-el-obeiyed",
+    "destination": "/es/las-dos-cuevas-del-desierto-occidental-djara-y-obeiyed",
     "permanent": true
   },
   {
@@ -26864,7 +26894,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/ホワイトデザートとジャラ洞窟",
-    "destination": "/ja/sabaku-no-nairiku-bahariya-kara-jara-dokutsu-e-no-5-nichikan",
+    "destination": "/ja/seiho-sabaku-jara-obeiyado-dokutsu",
     "permanent": true
   },
   {
@@ -29774,7 +29804,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/砂漠の冒険：5日間-オベイエッド洞窟サファリツア",
-    "destination": "/ja/seiho-sabaku-o-sono-ryugi-de-obeiyado-dokutsu-e-no-5",
+    "destination": "/ja/seiho-sabaku-jara-obeiyado-dokutsu",
     "permanent": true
   },
   {

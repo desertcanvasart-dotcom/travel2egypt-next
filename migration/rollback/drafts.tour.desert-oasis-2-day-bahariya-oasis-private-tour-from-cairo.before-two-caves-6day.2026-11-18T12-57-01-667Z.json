@@ -1,0 +1,1068 @@
+{
+ "_createdAt": "2026-05-29T22:45:52Z",
+ "_id": "drafts.tour.desert-oasis-2-day-bahariya-oasis-private-tour-from-cairo",
+ "_rev": "I13soljhRYf3SIEeZeYD9t",
+ "_system": {
+  "base": {
+   "id": "tour.desert-oasis-2-day-bahariya-oasis-private-tour-from-cairo",
+   "rev": "PUXUI6sshIht1BONylWti5"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-18T12:50:32Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers folding a desert pause into a Cairo trip; first-timers curious about Egypt beyond the Nile; photographers"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros que pliegan una pausa desértica dentro de un viaje a El Cairo; primerizos con curiosidad por el Egipto más allá del Nilo; fotógrafos"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "カイロ旅程に砂漠の合間を挟みたい方／ナイルを越えるエジプトに関心のある初訪の方／写真愛好家"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Two Days from Cairo into the Western Desert: Bahariya, Black and White"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A private two-day route from Cairo to the Bahariya Oasis — golden mummies, a Temple of Alexander, and the chalk forms of the White Desert under one of Egypt's quietest skies."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Most travellers see Egypt as a thin green ribbon along the Nile. This route insists on the rest of it. Two days, a private 4×4 and driver, from Cairo into the Bahariya Oasis — the gateway oasis of the Western Desert, roughly 370 kilometres south-west of the city, in a depression below the level of the surrounding plateau."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "It is short by Western Desert standards. The classic White Desert overnight is three days minimum. But a two-day version exists for travellers who want the desert without committing the rest of their trip to it, and the shape of it is honest: a Bahariya day with the oasis sites, an antiquities-and-desert day, and the drive back to Cairo by evening."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Bahariya: the oasis day"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The road south-west from Cairo follows the old caravan route. The drive is roughly four hours; the landscape opens steadily into pure desert and then drops, suddenly, into the Bahariya depression — palm groves, mudbrick villages, the basin floor maybe 100 metres below the surrounding plateau."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Check-in is at a working oasis lodge — the Sands Bahariya, or one of its peers — and the afternoon is the oasis proper. The Ancient Village (al-Qasr) gives the children and adults alike a glimpse of how the oasis was lived in for most of its history: narrow lanes, mudbrick houses, the Ethnic Museum a single artist's collection of oasis artefacts that explains more than a state museum would. Pyramid Mountain — named for its silhouette — gives the panoramic view of the basin floor. English Mountain (Gebel al-Ingleez) holds the ruins of a First World War fortress with a long view back across the oasis, and the sunset there is the day's close. Dinner is at the lodge."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "The antiquities, the deserts, the drive back"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "The morning is the antiquity round. The Valley of the Golden Mummies, discovered in 1996 when a donkey stumbled into a tomb, is a Greco-Roman necropolis that has now yielded more than 250 gilded mummies — the largest cache of its kind in Egypt. The decorated tombs of Zed Amun ef Ankh and Bannentiu, two wealthy local merchants of the 26th dynasty, hold painted ceilings and intact figural reliefs."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "The Temple of Alexander the Great at Bahariya is a small sandstone structure dedicated to Amun and Horus — and the only known temple in Egypt with surviving reliefs showing Alexander himself in pharaonic dress, presented as the legitimate son of Amun. The link runs back to his 332 BC pilgrimage to the Oracle at Siwa, the consultation that confirmed his divine descent. The Ain Muftella chapels, four small 26th-dynasty shrines, sit nearby."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "The afternoon is the 4×4 leg — Crystal Mountain (a quartz outcrop on the road south), the Black Desert (volcanic basalt hills coating the dunes black), Agabat with its sandstone cliffs and dune fields, and the White Desert proper: the protected national park where wind has carved the chalk outcrops into mushroom, animal and abstract forms over thousands of years. The two-day version of the trip does not overnight in the White Desert — that is the three-day route — but a long late-afternoon traverse of the park is the second day's substance, and the photography in low sun is the part travellers remember."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "The return drive to Cairo brings the trip back to the city by late evening."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "This is the shortest piece of the Western Desert it is honest to do. Three days would be better. But two days is enough to know what the rest of Egypt actually looks like."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The shape of the journey"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Where · Cairo → Bahariya Oasis → Black Desert / White Desert / Agabat → Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Duration · 2 days / 1 night (at an oasis lodge) — extendable to 3 days with a White Desert overnight"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Character · Fully private · your own guide and 4×4 driver · oasis lodge stay · brisk pace, long driving days"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Dos días desde El Cairo al desierto occidental: Bahariya, negro y blanco"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una ruta privada de dos días desde El Cairo hasta el oasis de Bahariya: las momias doradas, un templo de Alejandro y las formas de creta del Desierto Blanco bajo uno de los cielos más quietos de Egipto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "La mayoría de viajeros ve Egipto como una fina cinta verde a lo largo del Nilo. Esta ruta insiste en el resto. Dos días, un 4×4 privado con chófer, desde El Cairo hasta el oasis de Bahariya: el oasis-puerta del desierto occidental, unos 370 kilómetros al suroeste de la ciudad, en una depresión por debajo del nivel de la meseta circundante."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Es corto para los parámetros del desierto occidental. La ruta clásica con noche en el Desierto Blanco son tres días como mínimo. Pero existe una versión de dos días para viajeros que quieren el desierto sin comprometer el resto de su viaje, y su forma es honesta: una jornada en Bahariya con los sitios del oasis, una jornada de antigüedades y desierto, y el regreso a El Cairo al final de la tarde."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Bahariya: la jornada del oasis"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "La carretera al suroeste desde El Cairo sigue la antigua ruta de las caravanas. El trayecto son cerca de cuatro horas; el paisaje se abre de manera continua hacia el desierto puro y después cae, súbito, en la depresión de Bahariya: palmerales, aldeas de adobe, el fondo de la cuenca quizá 100 metros bajo la meseta circundante."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "El registro de entrada es en un lodge operativo del oasis —el Sands Bahariya o alguno de sus pares— y la tarde es el oasis propiamente dicho. La Aldea Antigua (al-Qasr) ofrece tanto a niños como a adultos una mirada a cómo se habitó el oasis durante la mayor parte de su historia: callejones estrechos, casas de adobe y el Museo Étnico, la colección de un único artista sobre artefactos del oasis que explica más que un museo estatal. La Montaña Pirámide —llamada así por su silueta— ofrece la vista panorámica del fondo de la cuenca. La Montaña Inglesa (Gebel al-Ingleez) conserva las ruinas de una fortaleza de la Primera Guerra Mundial con una larga vista de vuelta sobre el oasis, y el ocaso allí es el cierre del día. La cena es en el lodge."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Las antigüedades, los desiertos, el regreso"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "La mañana es la ronda de antigüedades. El Valle de las Momias Doradas, descubierto en 1996 cuando un burro tropezó con una tumba, es una necrópolis grecorromana que ha entregado hasta hoy más de 250 momias doradas: el mayor depósito de su clase en Egipto. Las tumbas decoradas de Zed Amun ef Ankh y de Bannentiu, dos prósperos comerciantes locales de la dinastía XXVI, conservan techos pintados y relieves figurativos intactos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "El Templo de Alejandro Magno en Bahariya es una pequeña estructura de arenisca dedicada a Amón y a Horus, y el único templo conocido en Egipto con relieves supervivientes que muestran al propio Alejandro vestido de faraón, presentado como hijo legítimo de Amón. El vínculo se remonta a su peregrinación del 332 a. C. al Oráculo de Siwa, la consulta que confirmó su filiación divina. Las capillas de Ain Muftella, cuatro pequeños santuarios de la dinastía XXVI, quedan cerca."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "La tarde es el tramo en 4×4: la Montaña de Cristal (un afloramiento de cuarzo en la carretera al sur), el Desierto Negro (colinas de basalto volcánico que cubren las dunas de negro), Agabat con sus acantilados de arenisca y campos de dunas, y el Desierto Blanco propiamente dicho: el parque nacional protegido donde el viento ha tallado los afloramientos de creta en formas de seta, animales y figuras abstractas a lo largo de miles de años. La versión de dos días no pernocta en el Desierto Blanco —ése es el itinerario de tres días—, pero un recorrido largo a la luz baja por el parque es la sustancia del segundo día, y la fotografía en luz oblicua es la parte que los viajeros recuerdan."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "El regreso por carretera devuelve el viaje a la ciudad ya entrada la noche."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Esta es la pieza más corta del desierto occidental que es honesto hacer. Tres días serían mejor. Pero dos bastan para saber cómo es el resto de Egipto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La forma del viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Dónde · El Cairo → oasis de Bahariya → Desierto Negro / Desierto Blanco / Agabat → El Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Duración · 2 días / 1 noche (en lodge del oasis) — ampliable a 3 días con noche en el Desierto Blanco"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Carácter · Salida privada · guía y chófer 4×4 propios · estancia en lodge del oasis · ritmo enérgico, largas jornadas de carretera"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロから西方砂漠へ、二日間――バハレイヤ、黒砂漠と白砂漠"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "カイロからバハレイヤ・オアシスへの私的二日間。黄金のミイラ、アレクサンドロス神殿、そしてエジプトでも有数の静謐な空の下にひろがる白い石灰の彫刻群。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "多くの旅人はエジプトを「ナイル沿いの細い緑の帯」として見ます。この旅程は、それ以外の部分を主張します。二日間、プライベートの4×4とドライバーで、カイロから西方砂漠の入口オアシスであるバハレイヤへ――カイロから南西へおよそ370キロ、周辺台地より低い盆地の中にあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "西方砂漠の旅としては短い構成です。古典的な白砂漠の宿泊は最短でも三日。それでも、旅の残り全部を砂漠に賭けないで砂漠を体験したい方のために、二日間の正直な形が成立します。バハレイヤのオアシス見学日、古代遺跡と砂漠の日、そして夕方にカイロへ戻る一日――それだけです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "バハレイヤ――オアシスの一日"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロから南西へ向かう道は、かつての隊商路をなぞります。約四時間の運転で景観は徐々に純粋な砂漠へ開け、そして突然バハレイヤ凹地へ落ち込みます――ナツメヤシ林、泥煉瓦の村、盆地床は周辺台地よりおよそ100メートル低い位置にあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "チェックインはオアシスの実働ロッジ、サンズ・バハレイヤやその同等施設へ。午後はオアシスそのものを巡ります。古村（アル・カスル）は、オアシスがその歴史の大半においてどう住まわれてきたかを伝えます――狭い路地、泥煉瓦の家々、そして一人の芸術家による民俗博物館は、国営の博物館以上に多くを物語ります。ピラミッド・マウンテンは、そのシルエットから名づけられた山で、盆地床のパノラマを与えてくれます。イングリッシュ・マウンテン（ゲベル・アル・イングレーズ）は第一次世界大戦の要塞跡で、オアシスを見渡す長い眺望と、ここでの日没が一日の締めくくりです。夕食はロッジで。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "古代遺跡、砂漠、帰路"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "朝は古代遺跡の巡回です。黄金のミイラの谷は、1996年にロバが墓に踏み込んだことで発見されたグレコ・ローマン期のネクロポリスで、これまでに250体を超える金箔ミイラが出土しました――エジプトでも最大規模の発見例です。装飾を持つ二つの墓――第26王朝の地元の富裕商人ゼド・アムン・エフ・アンクとバンネンチウの墓――には、彩色天井と無傷の人物レリーフが残っています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "バハレイヤのアレクサンドロス大王神殿は、アムン神とホルス神に捧げる小さな砂岩造りの構造物です。エジプトにおいて、アレクサンドロス自身がファラオの装束をまとい、アムンの正統な子として表現された現存レリーフを持つ唯一の神殿とされています。この連関は、紀元前332年のシワ神託への巡礼――神授の系譜を確認した相談――まで遡ります。アイン・ムフテラの礼拝堂群、第26王朝の四つの小さな祠も近くにあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "午後は4×4の行程です。クリスタル・マウンテン（南進路沿いの石英露頭）、黒砂漠（玄武岩が砂丘を黒く覆う火山丘陵）、砂岩崖と砂丘が並ぶアガバット、そして本領の白砂漠――風が数千年かけて石灰の岩塊をキノコ、動物、抽象形へ彫り出した国立保護公園。二日間版では白砂漠での宿泊はしません――それは三日間ルートです。けれども午後遅くから夕暮れにかけての長い横断こそが二日目の本体で、低い光のもとでの撮影は旅人の記憶に最も残る部分です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "帰路の運転で、夜遅くカイロへ戻ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "これは西方砂漠を体験する最短にして正直な構成です。三日間ならもっと良い。それでも二日間は、エジプトのその他の部分が実際にどう見えるかを知るのに十分です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "旅の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · カイロ → バハレイヤ・オアシス → 黒砂漠／白砂漠／アガバット → カイロ"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "日数 · 2日間／1泊（オアシスロッジ） — 白砂漠泊を加えて3日間に延長可能"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 完全プライベート · 専属ガイドと4×4ドライバー · オアシスロッジ宿泊 · テンポは速め、長距離運転日あり"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private route is shaped around your party. Tell our team whether you'd want to extend to three days with the White Desert overnight (the version we'd quietly recommend), whether the Valley of the Golden Mummies belongs at the centre, and how much driving suits your party — and we'll build the trip to match."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Una ruta privada se moldea en torno a su grupo. Díganos a nuestro equipo si quiere extender a tres días con la noche en el Desierto Blanco (la versión que recomendaríamos en voz baja), si el Valle de las Momias Doradas pertenece al centro de la jornada, y cuánta carretera le sienta bien al grupo, y construiremos el viaje a juego."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "私的なルートはご一行に合わせて作ります。三日間に延ばして白砂漠で一泊するか（私どもがそっと推奨する版）、黄金のミイラの谷を中心に据えるか、運転をどこまで許容するか――お聞かせください。旅を整えます。"
+  }
+ ],
+ "durationDays": 2,
+ "exclusions": [
+  {
+   "_key": "9vwmcp2xlr",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "二日間版では白砂漠での宿泊はしません――それは三日間ルートです。",
+   "text": "白砂漠での宿泊はしません"
+  }
+ ],
+ "heroImage": {
+  "_type": "localizedImage",
+  "asset": {
+   "_ref": "image-c4eeda6e10818e35c91564d5b34d8faf7f0202b3-3000x2000-jpg",
+   "_type": "reference"
+  }
+ },
+ "inclusions": [
+  {
+   "_key": "i76fvspavy",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Two days, a private 4×4 and driver, from Cairo into the Bahariya Oasis — the gateway oasis of the Western Desert, roughly 370 kilometres south-west of the city, in a depression below the level of the surrounding plateau.",
+   "text": "Private 4×4 and driver"
+  },
+  {
+   "_key": "2rx1327quk",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · your own guide and 4×4 driver · oasis lodge stay · brisk pace, long driving days",
+   "text": "Your own guide and 4×4 driver"
+  },
+  {
+   "_key": "wk071mp8l4",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Duration · 2 days / 1 night (at an oasis lodge) — extendable to 3 days with a White Desert overnight",
+   "text": "1 night at an oasis lodge"
+  },
+  {
+   "_key": "98yhku9ch7",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Carácter · Salida privada · guía y chófer 4×4 propios · estancia en lodge del oasis · ritmo enérgico, largas jornadas de carretera",
+   "text": "Salida privada"
+  },
+  {
+   "_key": "qe1oug8ubs",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Carácter · Salida privada · guía y chófer 4×4 propios · estancia en lodge del oasis · ritmo enérgico, largas jornadas de carretera",
+   "text": "Guía y chófer 4×4 propios"
+  },
+  {
+   "_key": "2qt1esxw9o",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Duración · 2 días / 1 noche (en lodge del oasis) — ampliable a 3 días con noche en el Desierto Blanco",
+   "text": "Estancia en lodge del oasis (1 noche)"
+  },
+  {
+   "_key": "x7bzmrbf66",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "二日間、プライベートの4×4とドライバーで、カイロから西方砂漠の入口オアシスであるバハレイヤへ――カイロから南西へおよそ370キロ、周辺台地より低い盆地の中にあります。",
+   "text": "プライベートの4×4とドライバー"
+  },
+  {
+   "_key": "o82mors0n5",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "性格 · 完全プライベート · 専属ガイドと4×4ドライバー · オアシスロッジ宿泊 · テンポは速め、長距離運転日あり",
+   "text": "専属ガイドと4×4ドライバー"
+  },
+  {
+   "_key": "gyscg6wnqk",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "日数 · 2日間／1泊（オアシスロッジ） — 白砂漠泊を加えて3日間に延長可能",
+   "text": "1泊（オアシスロッジ）"
+  }
+ ],
+ "itineraryDays": [
+  {
+   "_key": "hanh9cvxcr",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Oasis lodge (Sands Bahariya or one of its peers)",
+   "overnightNeedsReview": true,
+   "source": "Check-in is at a working oasis lodge — the Sands Bahariya, or one of its peers — and the afternoon is the oasis proper.",
+   "title": "Bahariya: the oasis day"
+  },
+  {
+   "_key": "c9vuvgcwxj",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "The return drive to Cairo brings the trip back to the city by late evening.",
+   "title": "The antiquities, the deserts, the drive back"
+  },
+  {
+   "_key": "k57kah4wyl",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Lodge del oasis de Bahariya",
+   "overnightNeedsReview": true,
+   "source": "El registro de entrada es en un lodge operativo del oasis —el Sands Bahariya o alguno de sus pares— y la tarde es el oasis propiamente dicho.",
+   "title": "Bahariya: la jornada del oasis"
+  },
+  {
+   "_key": "ipo4jjqg3u",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "El regreso por carretera devuelve el viaje a la ciudad ya entrada la noche.",
+   "title": "Las antigüedades, los desiertos, el regreso"
+  },
+  {
+   "_key": "ngjbloiaa5",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "オアシスロッジ（サンズ・バハレイヤやその同等施設）",
+   "overnightNeedsReview": true,
+   "source": "チェックインはオアシスの実働ロッジ、サンズ・バハレイヤやその同等施設へ。",
+   "title": "バハレイヤ――オアシスの一日"
+  },
+  {
+   "_key": "c8tppko5nb",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "帰路の運転で、夜遅くカイロへ戻ります。",
+   "title": "古代遺跡、砂漠、帰路"
+  }
+ ],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/desert-oasis-2-day-bahariya-oasis-private-tour-from-cairo/"
+ },
+ "relatedTours": [
+  {
+   "_key": "rel_tour_4_days_white_desert_wadi_al_hittan_exploration",
+   "_ref": "tour.4-days-white-desert-wadi-al-hittan-exploration",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_the_white_desert_and_djara_cave",
+   "_ref": "tour.the-white-desert-and-djara-cave",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_87974",
+   "_ref": "wp-page-89510",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_89435",
+   "_ref": "wp-page-89435",
+   "_type": "reference"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "desert-oasis-2-day-bahariya-oasis-private-tour-from-cairo"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "dos-dias-desde-el-cairo-al-desierto-occidental-bahariya-negro-y-blanco"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "kairo-kara-seiho-sabaku-e-ni-nichikan-bahareiya-kuro-sabaku"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A private two-day route from Cairo to the Bahariya Oasis — golden mummies, a Temple of Alexander, and the chalk forms of the White Desert under one of Egypt's quietest skies."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Una ruta privada de dos días desde El Cairo hasta el oasis de Bahariya: las momias doradas, un templo de Alejandro y las formas de creta del Desierto Blanco bajo uno de los cielos más quietos de Egipto."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "カイロからバハレイヤ・オアシスへの私的二日間。黄金のミイラ、アレクサンドロス神殿、そしてエジプトでも有数の静謐な空の下にひろがる白い石灰の彫刻群。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-special-interest",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Two Days from Cairo into the Western Desert: Bahariya, Black and White"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Dos días desde El Cairo al desierto occidental: Bahariya, negro y blanco"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "カイロから西方砂漠へ、二日間――バハレイヤ、黒砂漠と白砂漠"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}
