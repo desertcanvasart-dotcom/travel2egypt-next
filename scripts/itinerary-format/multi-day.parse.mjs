@@ -92,9 +92,17 @@ export function parse(lang, { locked, stayKeys = null, jaSites = {}, dayTitles =
       body.push(clean(p));
     }
     if (segments.length && body.length) throw new Error(`${lang} day ${day}: mixed segments and body`);
-    const sites = lang === 'ja' && JA_SITES[day] ? JA_SITES[day] : rows.sites.split(lang === 'ja' ? '・' : ' · ').map((s) => s.trim());
-    if (sites.join(lang === 'ja' ? '・' : ' · ') !== rows.sites) throw new Error(`${lang} day ${day}: site split does not match the file`);
-    const meals = rows.meals.split(sep).map((m) => {
+    // An arrival or departure day may have no "The day:" row (no sites) and no "Meals:" row.
+    const sites = rows.sites == null ? [] : lang === 'ja' && JA_SITES[day] ? JA_SITES[day] : rows.sites.split(lang === 'ja' ? '・' : ' · ').map((s) => s.trim());
+    if (rows.sites != null && sites.join(lang === 'ja' ? '・' : ' · ') !== rows.sites) throw new Error(`${lang} day ${day}: site split does not match the file`);
+    // A note in brackets may itself contain the separator (JA 「ナギーブ・マフフーズ」), so pieces are rejoined until the bracket closes.
+    const mealParts = (rows.meals == null ? [] : rows.meals.split(sep)).reduce((acc, piece) => {
+      const last = acc[acc.length - 1];
+      if (last != null && (last.match(/[（(]/g) ?? []).length > (last.match(/[）)]/g) ?? []).length) acc[acc.length - 1] = last + sep + piece;
+      else acc.push(piece);
+      return acc;
+    }, []);
+    const meals = mealParts.map((m) => {
       const mm = m.trim().match(/^(.+?)\s*[（(](.+)[）)]$/) ?? [null, m.trim(), null];
       const meal = MEAL[lang][mm[1].toLowerCase()];
       if (!meal) throw new Error(`${lang} day ${day}: unknown meal "${m}"`);
