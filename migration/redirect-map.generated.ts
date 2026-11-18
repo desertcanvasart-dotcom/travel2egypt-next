@@ -13,6 +13,21 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/4-days-city-break",
+    "destination": "/4-day-history-culture-escape",
+    "permanent": true
+  },
+  {
+    "source": "/es/escapada-de-lujo-a-el-cairo-en-4-dias-piramides-museos-ciudadela-y-bazar",
+    "destination": "/es/el-cairo-en-4-dias-piramides-gran-museo-egipcio-y-el-cairo-antiguo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/4-nichikan-kairoshitibureiku-piramiddo-hakubutsukan",
+    "destination": "/ja/4-nichikan-no-kairo-piramiddo-dai-ejiputo-hakubutsukan",
+    "permanent": true
+  },
+  {
     "source": "/3-day-bahariya-white-desert-tour",
     "destination": "/4-days-white-desert-wadi-al-hittan-exploration",
     "permanent": true
@@ -1794,7 +1809,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/4-days-city-break",
-    "destination": "/ja/4-nichikan-kairoshitibureiku-piramiddo-hakubutsukan",
+    "destination": "/ja/4-nichikan-no-kairo-piramiddo-dai-ejiputo-hakubutsukan",
     "permanent": true
   },
   {
@@ -6704,7 +6719,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/4-days-city-break",
-    "destination": "/es/escapada-de-lujo-a-el-cairo-en-4-dias-piramides-museos-ciudadela-y-bazar",
+    "destination": "/es/el-cairo-en-4-dias-piramides-gran-museo-egipcio-y-el-cairo-antiguo",
     "permanent": true
   },
   {
@@ -10224,37 +10239,37 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/4-day-cairo-travel-package",
-    "destination": "/4-days-city-break",
+    "destination": "/4-day-history-culture-escape",
     "permanent": true
   },
   {
     "source": "/4-day-cairo-travel-package-from-india",
-    "destination": "/4-days-city-break",
+    "destination": "/4-day-history-culture-escape",
     "permanent": true
   },
   {
     "source": "/es/escape-a-egipto-paquete-de-viaje-de-4-dias-a-el-cairo-desde-india",
-    "destination": "/es/escapada-de-lujo-a-el-cairo-en-4-dias-piramides-museos-ciudadela-y-bazar",
+    "destination": "/es/el-cairo-en-4-dias-piramides-gran-museo-egipcio-y-el-cairo-antiguo",
     "permanent": true
   },
   {
     "source": "/ja/india-hatsu-ejiputo-esukepu-4-nichikan-no-kairo-ryoko",
-    "destination": "/ja/4-nichikan-kairoshitibureiku-piramiddo-hakubutsukan",
+    "destination": "/ja/4-nichikan-no-kairo-piramiddo-dai-ejiputo-hakubutsukan",
     "permanent": true
   },
   {
     "source": "/egypt-escape-4-day-cairo-travel-package-from-australia",
-    "destination": "/4-days-city-break",
+    "destination": "/4-day-history-culture-escape",
     "permanent": true
   },
   {
     "source": "/es/escapada-a-egipto-paquete-de-viaje-a-el-cairo-de-4-dias-desde-australia",
-    "destination": "/es/escapada-de-lujo-a-el-cairo-en-4-dias-piramides-museos-ciudadela-y-bazar",
+    "destination": "/es/el-cairo-en-4-dias-piramides-gran-museo-egipcio-y-el-cairo-antiguo",
     "permanent": true
   },
   {
     "source": "/ja/ejiputo-esukepu-osutoraria-hatsu-4-nichikan-kairo-ryoko",
-    "destination": "/ja/4-nichikan-kairoshitibureiku-piramiddo-hakubutsukan",
+    "destination": "/ja/4-nichikan-no-kairo-piramiddo-dai-ejiputo-hakubutsukan",
     "permanent": true
   },
   {
@@ -19644,7 +19659,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/escapada-de-lujo-a-el-cairo-en-4-dias-piramides-museos-ciudadela-y-bazar",
-    "destination": "/4-days-city-break",
+    "destination": "/4-day-history-culture-escape",
     "permanent": true
   },
   {
@@ -27199,7 +27214,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/エジプトの休暇-カナダ発-4日間のカイロ旅行パッ",
-    "destination": "/ja/4-nichikan-kairoshitibureiku-piramiddo-hakubutsukan",
+    "destination": "/ja/4-nichikan-no-kairo-piramiddo-dai-ejiputo-hakubutsukan",
     "permanent": true
   },
   {
@@ -27419,7 +27434,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/escapada-rapida-de-4-dias-a-el-cairo",
-    "destination": "/es/escapada-de-lujo-a-el-cairo-en-4-dias-piramides-museos-ciudadela-y-bazar",
+    "destination": "/es/el-cairo-en-4-dias-piramides-gran-museo-egipcio-y-el-cairo-antiguo",
     "permanent": true
   },
   {

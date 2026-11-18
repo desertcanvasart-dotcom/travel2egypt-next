@@ -1,0 +1,647 @@
+{
+ "_createdAt": "2026-11-14T20:29:20Z",
+ "_id": "tourLanding.4-days-egypt-tours",
+ "_rev": "DlRgh6He0vvlWAkJrEq0yi",
+ "_type": "tourLanding",
+ "_updatedAt": "2026-11-18T10:38:38Z",
+ "category": {
+  "_ref": "tourCategory.private-package",
+  "_type": "reference"
+ },
+ "faq": [
+  {
+   "_key": "faq-dur4-1",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "b8",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s9",
+         "_type": "span",
+         "marks": [],
+         "text": "Private journeys start on any date and run at your pace. Small-group tours run on fixed departure dates with a capped group. Where a small-group departure exists at this length, it’s listed here."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "esb8",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "ess9",
+         "_type": "span",
+         "marks": [],
+         "text": "Los viajes privados empiezan cualquier día y van a tu ritmo. Los viajes en grupo reducido salen en fechas fijas y con un número limitado de viajeros. Si existe una salida en grupo reducido de esta duración, aparece en esta página."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "value": [
+      {
+       "_key": "jabm",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "jasn",
+         "_type": "span",
+         "marks": [],
+         "text": "プライベート旅行はどの日からでも始められ、ご自身のペースで進みます。少人数グループのツアーは決まった出発日に、人数を限って催行します。この日数の少人数グループの出発がある場合は、このページに掲載しています。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Private or small group?"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Privado o en grupo reducido?"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "プライベートと少人数グループ、どちらがいいですか？"
+    }
+   ]
+  },
+  {
+   "_key": "faq-dur4-2",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "ba",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "sb",
+         "_type": "span",
+         "marks": [],
+         "text": "Yes. Christmas, New Year and Easter are peak dates in Egypt. Scheduled departures on those dates usually cost 30% more, and private journeys cost more over the same dates too."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "esba",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "essb",
+         "_type": "span",
+         "marks": [],
+         "text": "Sí. Navidad, Año Nuevo y Semana Santa son fechas de temporada alta en Egipto. Las salidas programadas en esas fechas suelen costar un 30 % más. Los viajes privados también se encarecen en esas mismas fechas."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "value": [
+      {
+       "_key": "jabo",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "jasp",
+         "_type": "span",
+         "marks": [],
+         "text": "はい。クリスマス、年末年始、イースターはエジプトのピークシーズンです。この時期の定期出発ツアーは通常30％高くなります。プライベート旅行も同じ時期は料金が上がります。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Do prices change by season?"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Cambian los precios según la temporada?"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "季節によって料金は変わりますか？"
+    }
+   ]
+  },
+  {
+   "_key": "faq-dur4-3",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "bc",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "sd",
+         "_type": "span",
+         "marks": [],
+         "text": "A cruise between Luxor and Aswan combines travel and accommodation, so you don’t move your luggage every day, and it stops at Edfu, Kom Ombo and Esna on the way. The trade-off is flexibility: the boat sets the timetable. Flying, or driving with a private car, lets you set your own."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "esbc",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "essd",
+         "_type": "span",
+         "marks": [],
+         "text": "Un crucero entre Luxor y Asuán combina transporte y alojamiento, así que no mueves el equipaje cada día, y hace escala en Edfu, Kom Ombo y Esna. La contrapartida es la flexibilidad: el barco marca el horario. Volar, o viajar en coche privado, te deja fijar el tuyo."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "value": [
+      {
+       "_key": "jabq",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "jasr",
+         "_type": "span",
+         "marks": [],
+         "text": "ルクソールとアスワンを結ぶクルーズは移動と宿泊を兼ねるため、毎日荷物を動かす必要がなく、途中でエドフ、コム・オンボ、エスナに立ち寄ります。その代わり、時間は船の予定に合わせることになります。飛行機や専用車なら、ご自身で日程を決められます。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Nile cruise, or flights and hotels?"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Crucero por el Nilo, o vuelos y hoteles?"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "ナイルクルーズと、飛行機とホテル、どちらがいいですか？"
+    }
+   ]
+  }
+ ],
+ "intro": [
+  {
+   "_key": "en",
+   "value": [
+    {
+     "_key": "b0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s1",
+       "_type": "span",
+       "marks": [],
+       "text": "What fits in four days"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "b2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s3",
+       "_type": "span",
+       "marks": [],
+       "text": "Egypt takes more travel time than the map suggests: Cairo traffic, airports, domestic flights and the walking at each site all eat into the day. On a short trip, one region done well beats several done in a hurry."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b4",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s5",
+       "_type": "span",
+       "marks": [],
+       "text": "With four days, add one major thing to Cairo and Giza. That could be Saqqara, Dahshur and Memphis, which show how pyramid-building developed, or a day or a night in Alexandria."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b6",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s7",
+       "_type": "span",
+       "marks": [],
+       "text": "With five days, a northern trip of Cairo, Giza, Saqqara and Alexandria works without strain. So does a trip based in Aswan, for Philae, the Nubian Museum and Abu Simbel. Fitting Cairo, Luxor, Aswan and Abu Simbel all into five days leaves too much of it in transit."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "value": [
+    {
+     "_key": "esb0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "ess1",
+       "_type": "span",
+       "marks": [],
+       "text": "Qué cabe en cuatro días"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "esb2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "ess3",
+       "_type": "span",
+       "marks": [],
+       "text": "Egipto exige más tiempo de traslado de lo que sugiere el mapa: el tráfico de El Cairo, los aeropuertos, los vuelos internos y las caminatas en cada yacimiento consumen el día. En un viaje corto, una región bien vista vale más que varias vistas con prisa."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "esb4",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "ess5",
+       "_type": "span",
+       "marks": [],
+       "text": "Con cuatro días, añade una sola extensión a El Cairo y Guiza: Saqqara, Dahshur y Menfis, que muestran cómo evolucionó la construcción de pirámides, o un día o una noche en Alejandría."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "esb6",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "ess7",
+       "_type": "span",
+       "marks": [],
+       "text": "Con cinco días funciona bien un norte concentrado (El Cairo, Guiza, Saqqara y Alejandría) o un sur concentrado con base en Asuán, para Filé, el Museo Nubio y Abu Simbel. Meter El Cairo, Luxor, Asuán y Abu Simbel en cinco días deja demasiado tiempo en tránsito."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "value": [
+    {
+     "_key": "jabe",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasf",
+       "_type": "span",
+       "marks": [],
+       "text": "4日間でできること"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "jabg",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jash",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプトの移動は、地図で見るより時間がかかります。カイロの渋滞、空港、国内線、遺跡ごとの歩く距離が、一日を少しずつ削ります。短い旅では、いくつもの地域を急いで回るより、一つの地域をしっかり見るほうが満足度は高くなります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jabi",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasj",
+       "_type": "span",
+       "marks": [],
+       "text": "4日間あれば、カイロとギザに加えて一つだけ大きな追加ができます。ピラミッド建築の発展をたどれるサッカラ、ダハシュール、メンフィス、またはアレクサンドリアへの日帰りや一泊です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jabk",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasl",
+       "_type": "span",
+       "marks": [],
+       "text": "5日間なら、カイロ、ギザ、サッカラ、アレクサンドリアを回る北の旅も、アスワンを拠点にフィラエ、ヌビア博物館、アブ・シンベルを訪ねる南の旅も無理なく組めます。5日間でカイロ、ルクソール、アスワン、アブ・シンベルをすべて入れる旅程は、移動の密度が高すぎます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "journalRefs": [
+  {
+   "_key": "jy",
+   "_ref": "wp-post-152503-en",
+   "_type": "reference"
+  },
+  {
+   "_key": "jz",
+   "_ref": "wp-post-136112-en",
+   "_type": "reference"
+  }
+ ],
+ "relatedTours": [
+  {
+   "_key": "te",
+   "_ref": "wp-page-153242",
+   "_type": "reference"
+  },
+  {
+   "_key": "tf",
+   "_ref": "wp-page-86851",
+   "_type": "reference"
+  },
+  {
+   "_key": "tg",
+   "_ref": "wp-page-237730",
+   "_type": "reference"
+  },
+  {
+   "_key": "ti",
+   "_ref": "tour.cairo-weekend-city-break-2-nights-3-days",
+   "_type": "reference"
+  },
+  {
+   "_key": "tj",
+   "_ref": "wp-page-113521",
+   "_type": "reference"
+  },
+  {
+   "_key": "tk",
+   "_ref": "wp-page-129996",
+   "_type": "reference"
+  },
+  {
+   "_key": "tl",
+   "_ref": "tour.marriott-mena-house-4-days-stay",
+   "_type": "reference"
+  },
+  {
+   "_key": "tm",
+   "_ref": "tour.4-days-white-desert-wadi-al-hittan-exploration",
+   "_type": "reference"
+  },
+  {
+   "_key": "tn",
+   "_ref": "wp-page-86846",
+   "_type": "reference"
+  },
+  {
+   "_key": "to",
+   "_ref": "wp-page-89411",
+   "_type": "reference"
+  },
+  {
+   "_key": "tp",
+   "_ref": "wp-page-90402",
+   "_type": "reference"
+  },
+  {
+   "_key": "tq",
+   "_ref": "wp-page-90443",
+   "_type": "reference"
+  },
+  {
+   "_key": "tr",
+   "_ref": "wp-page-113061",
+   "_type": "reference"
+  },
+  {
+   "_key": "ts",
+   "_ref": "wp-page-130067",
+   "_type": "reference"
+  },
+  {
+   "_key": "tt",
+   "_ref": "tour.the-white-desert-and-djara-cave",
+   "_type": "reference"
+  },
+  {
+   "_key": "tu",
+   "_ref": "tour.cairo-alexandria-city-break-5-days",
+   "_type": "reference"
+  },
+  {
+   "_key": "tv",
+   "_ref": "wp-page-90411",
+   "_type": "reference"
+  },
+  {
+   "_key": "tw",
+   "_ref": "wp-page-90425",
+   "_type": "reference"
+  },
+  {
+   "_key": "tx",
+   "_ref": "wp-page-131889",
+   "_type": "reference"
+  }
+ ],
+ "seo": {
+  "metaDescription": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayTextValue",
+    "value": "Short Egypt tours of three to five days: Cairo and the pyramids, Alexandria, a stretch of the Nile or the Western Desert. Private, and starting on any date."
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayTextValue",
+    "value": "Viajes cortos por Egipto de tres a cinco días: El Cairo y las pirámides, Alejandría, un tramo del Nilo o el desierto occidental. Privados y en las fechas que elijas."
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayTextValue",
+    "value": "3〜5日間のエジプト短期ツアー。カイロとピラミッド、アレクサンドリア、ナイルの一区間、または西方砂漠。プライベートで、ご希望の日から出発できます。"
+   }
+  ],
+  "metaTitle": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "4-Day Egypt Tours: Short Breaks of 3 to 5 Days"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Circuitos por Egipto de 4 días: escapadas de 3 a 5 días"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "エジプト4日間のツアー：3〜5日間の短い旅"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "4-days-egypt-tours"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "circuitos-por-egipto-de-4-dias"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "ejiputo-4-nichikan-no-tsua"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Four days is enough for Cairo and Giza with one more thing added, not for the whole country. The tours here run three to five days, and each keeps to one region: Cairo and the pyramids, Alexandria on the Mediterranean, a stretch of the Nile, or the Western Desert."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Cuatro días bastan para El Cairo y Guiza con una extensión, no para todo el país. Los viajes de esta página duran de tres a cinco días y cada uno se centra en una sola región: El Cairo y las pirámides, Alejandría junto al Mediterráneo, un tramo del Nilo o el desierto occidental."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "4日間あれば、カイロとギザに一つだけ追加できますが、国全体は回れません。このページのツアーは3〜5日間で、どれも一つの地域に絞っています。カイロとピラミッド、地中海のアレクサンドリア、ナイルの一区間、または西方砂漠です。"
+  }
+ ],
+ "themeRef": {
+  "_ref": "theme-duration-4",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "4-Day Egypt Tours"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Circuitos por Egipto de 4 días"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "エジプト4日間のツアー"
+  }
+ ]
+}
