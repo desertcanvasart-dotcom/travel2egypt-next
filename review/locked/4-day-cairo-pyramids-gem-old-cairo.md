@@ -6,7 +6,7 @@
 
 **Type:** Private · **Duration:** 4 days, 3 nights
 **Route:** Cairo airport · Grand Egyptian Museum · Giza · Coptic Cairo · the Citadel · Khan El Khalili · Memphis · Saqqara · Dahshur · Cairo airport
-**Nights:** 3 hotel, bed and breakfast (Barceló Cairo Pyramids or Prince Park Resort)
+**Nights:** 3 hotel, bed and breakfast (Barceló Cairo Pyramids or Pyramids Park Resort)
 **Arrival:** built around midday arrivals in Cairo
 **From:** {lowest per-person tier} per person · price depends on group size
 **Your guide speaks:** English *(ES: español · JA: 日本語)*
@@ -37,7 +37,7 @@ The museum comes first, so the first afternoon gives you the overview: the objec
 **Evening.** Check in at your hotel. The evening is free.
 
 **The day:** Grand Egyptian Museum · Tutankhamun galleries
-**Overnight:** Barceló Cairo Pyramids or Prince Park Resort
+**Overnight:** Barceló Cairo Pyramids or Pyramids Park Resort
 **Meals:** Lunch
 **Travel:** Meet and greet at Cairo airport · private air-conditioned transfers
 **Pace:** Straight from the airport, then an easy evening
@@ -56,7 +56,7 @@ The museum comes first, so the first afternoon gives you the overview: the objec
 **Afternoon.** Across the city to Old Cairo’s Coptic quarter: the Hanging Church, the church of Saints Sergius and Bacchus (Abu Serga), and the Ben Ezra Synagogue. Then the Citadel of Saladin, built in the 12th century on a spur of the Mokattam hills, with the Mosque of Muhammad Ali, completed in the 1840s, its twin minarets visible from most of the city, and views over Cairo from the walls. The day ends in Khan El Khalili, trading since the 14th century: not a monument to the past, but a city still doing what it has always done.
 
 **The day:** Giza pyramids · inside Khafre or Menkaure · panorama viewpoint · Great Sphinx · Valley Temple · Hanging Church · Abu Serga · Ben Ezra Synagogue · Citadel of Saladin · Mosque of Muhammad Ali · Khan El Khalili
-**Overnight:** Barceló Cairo Pyramids or Prince Park Resort
+**Overnight:** Barceló Cairo Pyramids or Pyramids Park Resort
 **Meals:** Breakfast · lunch
 **Travel:** Private air-conditioned transfers
 **Pace:** The fullest day of the trip
@@ -79,7 +79,7 @@ The museum comes first, so the first afternoon gives you the overview: the objec
 **Afternoon.** Dahshur, where Sneferu built the Bent Pyramid and the Red Pyramid: the step between Djoser’s steps and the smooth sides of Giza, in a quieter corner of the desert. You go inside the Red Pyramid. Then back to your hotel.
 
 **The day:** Memphis · Colossus of Ramses II · Saqqara · Step Pyramid of Djoser · Dahshur · Bent Pyramid · inside the Red Pyramid
-**Overnight:** Barceló Cairo Pyramids or Prince Park Resort
+**Overnight:** Barceló Cairo Pyramids or Pyramids Park Resort
 **Meals:** Breakfast · lunch
 **Travel:** Private air-conditioned transfers
 
@@ -104,7 +104,7 @@ Your flight leaves early, so the day is kept clear: the private transfer from yo
 
 ## Your stay and travel
 
-**Hotel:** three nights at the Barceló Cairo Pyramids or the Prince Park Resort, bed and breakfast.
+**Hotel:** three nights at the Barceló Cairo Pyramids or the Pyramids Park Resort, bed and breakfast.
 
 **Meals:** breakfast at your hotel, and lunch at a local restaurant on each sightseeing day. Dinners aren’t included, so your evenings are your own.
 
@@ -119,7 +119,7 @@ Your flight leaves early, so the day is kept clear: the private transfer from yo
 - A licensed Egyptologist guide in your language (English, Spanish or Japanese)
 - Meet and greet at Cairo airport, and the transfer back on Day 4
 - Private air-conditioned transfers throughout
-- Three nights at the Barceló Cairo Pyramids or the Prince Park Resort, with breakfast (a breakfast box on Day 4 if you leave before it’s served)
+- Three nights at the Barceló Cairo Pyramids or the Pyramids Park Resort, with breakfast (a breakfast box on Day 4 if you leave before it’s served)
 - Lunch at a local restaurant on Days 1, 2 and 3
 - Entrance to the Grand Egyptian Museum, including the Tutankhamun galleries
 - Entrance to the Giza plateau, including the panorama viewpoint, the Great Sphinx and the Valley Temple, and inside one pyramid (Khafre or Menkaure)

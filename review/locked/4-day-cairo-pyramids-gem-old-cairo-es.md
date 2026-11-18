@@ -6,7 +6,7 @@
 
 **Tipo:** privado · **Duración:** 4 días, 3 noches
 **Ruta:** aeropuerto de El Cairo · Gran Museo Egipcio · Giza · Cairo copto · la Ciudadela · Jan el-Jalili · Menfis · Saqqara · Dahshur · aeropuerto de El Cairo
-**Noches:** 3 en hotel, en alojamiento y desayuno (Barceló Cairo Pyramids o Prince Park Resort)
+**Noches:** 3 en hotel, en alojamiento y desayuno (Barceló Cairo Pyramids o Pyramids Park Resort)
 **Llegada:** pensado para llegadas a El Cairo a mediodía
 **Desde:** {tramo por persona más bajo} por persona · el precio depende del tamaño del grupo
 **Tu guía habla:** español
@@ -37,7 +37,7 @@ El museo va primero, así que la primera tarde te da la visión de conjunto: los
 **Noche.** Llegada a tu hotel. La noche es libre.
 
 **El día:** Gran Museo Egipcio · galerías de Tutankamón
-**Noche:** Barceló Cairo Pyramids o Prince Park Resort
+**Noche:** Barceló Cairo Pyramids o Pyramids Park Resort
 **Comidas:** almuerzo
 **Traslados:** recibimiento en el aeropuerto de El Cairo · traslados privados con aire acondicionado
 **Ritmo:** directo desde el aeropuerto y, después, una noche tranquila
@@ -56,7 +56,7 @@ El museo va primero, así que la primera tarde te da la visión de conjunto: los
 **Tarde.** Cruzamos la ciudad hasta el barrio copto del Cairo antiguo: la Iglesia Colgante, la iglesia de los Santos Sergio y Baco (Abu Serga) y la sinagoga Ben Ezra. Después, la Ciudadela de Saladino, construida en el siglo XII sobre un espolón de las colinas de Mokattam, con la mezquita de Muhammad Ali, terminada en la década de 1840, cuyos dos minaretes se ven desde casi toda la ciudad, y vistas sobre El Cairo desde las murallas. El día termina en Jan el-Jalili, que comercia desde el siglo XIV: no es un monumento al pasado, sino una ciudad que sigue haciendo lo que siempre ha hecho.
 
 **El día:** pirámides de Giza · interior de Kefrén o Micerino · mirador panorámico · Gran Esfinge · Templo del Valle · Iglesia Colgante · Abu Serga · sinagoga Ben Ezra · Ciudadela de Saladino · mezquita de Muhammad Ali · Jan el-Jalili
-**Noche:** Barceló Cairo Pyramids o Prince Park Resort
+**Noche:** Barceló Cairo Pyramids o Pyramids Park Resort
 **Comidas:** desayuno · almuerzo
 **Traslados:** traslados privados con aire acondicionado
 **Ritmo:** el día más completo del viaje
@@ -79,7 +79,7 @@ El museo va primero, así que la primera tarde te da la visión de conjunto: los
 **Tarde.** Dahshur, donde Seneferu construyó la Pirámide Acodada y la Pirámide Roja: el paso entre los escalones de Djoser y las caras lisas de Giza, en un rincón más tranquilo del desierto. Entras en la Pirámide Roja. Después, regreso a tu hotel.
 
 **El día:** Menfis · coloso de Ramsés II · Saqqara · Pirámide Escalonada de Djoser · Dahshur · Pirámide Acodada · interior de la Pirámide Roja
-**Noche:** Barceló Cairo Pyramids o Prince Park Resort
+**Noche:** Barceló Cairo Pyramids o Pyramids Park Resort
 **Comidas:** desayuno · almuerzo
 **Traslados:** traslados privados con aire acondicionado
 
@@ -104,7 +104,7 @@ Tu vuelo sale temprano, así que el día queda libre: el traslado privado de tu 
 
 ## Alojamiento y traslados
 
-**Hotel:** tres noches en el Barceló Cairo Pyramids o en el Prince Park Resort, en alojamiento y desayuno.
+**Hotel:** tres noches en el Barceló Cairo Pyramids o en el Pyramids Park Resort, en alojamiento y desayuno.
 
 **Comidas:** desayuno en tu hotel y almuerzo en un restaurante local cada día de visitas. Las cenas no están incluidas, así que las noches son tuyas.
 
@@ -119,7 +119,7 @@ Tu vuelo sale temprano, así que el día queda libre: el traslado privado de tu 
 - Un guía egiptólogo con licencia, en tu idioma (inglés, español o japonés)
 - Recibimiento en el aeropuerto de El Cairo y traslado de vuelta el día 4
 - Traslados privados con aire acondicionado durante todo el viaje
-- Tres noches en el Barceló Cairo Pyramids o en el Prince Park Resort, con desayuno (una caja de desayuno el día 4 si sales antes de que se sirva)
+- Tres noches en el Barceló Cairo Pyramids o en el Pyramids Park Resort, con desayuno (una caja de desayuno el día 4 si sales antes de que se sirva)
 - Almuerzo en un restaurante local los días 1, 2 y 3
 - Entrada al Gran Museo Egipcio, incluidas las galerías de Tutankamón
 - Entrada a la meseta de Giza, incluidos el mirador panorámico, la Gran Esfinge y el Templo del Valle, y el interior de una pirámide (Kefrén o Micerino)
