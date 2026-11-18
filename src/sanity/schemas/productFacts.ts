@@ -293,7 +293,7 @@ export const dayTourPeriodSchema = defineType({
   type: 'object',
   fields: [
     defineField({ name: 'lang', title: 'Language', type: 'string', options: { list: LANGS, layout: 'radio', direction: 'horizontal' }, validation: (R) => R.required() }),
-    defineField({ name: 'period', title: 'Period', type: 'string', options: { list: ['morning', 'midday', 'afternoon', 'evening', 'arrival', 'departure'] }, validation: (R) => R.required() }),
+    defineField({ name: 'period', title: 'Period', type: 'string', options: { list: ['morning', 'midday', 'afternoon', 'evening', 'arrival', 'departure', 'label'] }, validation: (R) => R.required() }),
     defineField({ name: 'periodLabel', title: 'Area / label (e.g. "The Giza Plateau")', type: 'string' }),
     defineField({
       name: 'stops',

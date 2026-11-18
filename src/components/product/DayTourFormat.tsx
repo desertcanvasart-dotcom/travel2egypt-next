@@ -27,7 +27,8 @@ export interface DayTourStop {
   optional?: Array<{ text: string; cost?: string | null; note?: string | null }> | null;
 }
 export interface DayTourPeriod {
-  period: 'morning' | 'midday' | 'afternoon' | 'evening' | 'arrival' | 'departure';
+  /** 'label': the heading is the label alone (no time-of-day word), e.g. a sail that runs morning or afternoon. */
+  period: 'morning' | 'midday' | 'afternoon' | 'evening' | 'arrival' | 'departure' | 'label';
   periodLabel?: string | null;
   stops?: DayTourStop[] | null;
 }
@@ -122,8 +123,14 @@ export async function DayTourFormat({
         {periods.map((p, pi) => (
           <div className="pdp-period" key={pi}>
             <h3 className="pdp-period__h">
-              {periodWord(p.period)}
-              {p.periodLabel && <span className="pdp-day__place">{sep}{p.periodLabel}</span>}
+              {p.period === 'label' && p.periodLabel ? (
+                p.periodLabel
+              ) : (
+                <>
+                  {periodWord(p.period)}
+                  {p.periodLabel && <span className="pdp-day__place">{sep}{p.periodLabel}</span>}
+                </>
+              )}
             </h3>
             <ol className="pdp-stops">
               {(p.stops ?? []).map((s, si) => {
