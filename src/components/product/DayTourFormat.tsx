@@ -27,7 +27,7 @@ export interface DayTourStop {
   optional?: Array<{ text: string; cost?: string | null; note?: string | null }> | null;
 }
 export interface DayTourPeriod {
-  period: 'morning' | 'midday' | 'afternoon' | 'evening';
+  period: 'morning' | 'midday' | 'afternoon' | 'evening' | 'arrival' | 'departure';
   periodLabel?: string | null;
   stops?: DayTourStop[] | null;
 }
@@ -39,6 +39,8 @@ export interface DayTourIntro {
   pickupLine?: string | null;
   /** Plane day trips: the whole Flights row as written. */
   flightsLine?: string | null;
+  /** Per-car products: the panel's rows as written (prices by area, vehicle, arrival, departure, add-ons). */
+  panelRows?: Array<{ label?: string | null; text?: string | null }> | null;
   /** Return time as a field (canon II.7), e.g. "17:00–18:00". */
   returnTime?: string | null;
   returnNote?: string | null;
@@ -101,7 +103,7 @@ export async function DayTourFormat({
   const colon = locale === 'ja' ? '：' : ': ';
   const { intro, periods } = data;
   const periodWord = (p: string) =>
-    p === 'morning' ? t('dtMorning') : p === 'midday' ? t('dtMidday') : p === 'afternoon' ? t('dtAfternoon') : t('dtEvening');
+    p === 'morning' ? t('dtMorning') : p === 'midday' ? t('dtMidday') : p === 'afternoon' ? t('dtAfternoon') : p === 'arrival' ? t('dtArrival') : p === 'departure' ? t('dtDeparture') : t('dtEvening');
   const more = essayForExpander(essay, intro.closingRef, intro.skipRefs);
 
   return (

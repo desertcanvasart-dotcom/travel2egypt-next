@@ -222,6 +222,16 @@ export const tourMetaFields = [
   defineField({ name: 'effortLevel', title: 'Effort (meta)', type: 'internationalizedArrayString', group: 'classification', description: 'Meta row. e.g. "Moderate–demanding".' }),
   defineField({ name: 'departsFrom', title: 'Departs (meta)', type: 'internationalizedArrayString', group: 'classification', description: 'Meta row. e.g. "Sharm · Dahab".' }),
   defineField({ name: 'priceFrom', title: 'From price (number)', type: 'number', group: 'pricing', description: 'Numeric "from" price (per person), e.g. 1290. Currency is EUR, applied by the renderer — do NOT type a symbol. Falls back to the first price tier. This is the price with an English-speaking guide.' }),
+  // Price basis (owner, 2026-11-18): transfers and private car (and guide) days are priced
+  // per car, each way; the "from" is the default area's smallest vehicle. Empty = per person.
+  defineField({
+    name: 'priceBasis',
+    title: 'Price basis',
+    type: 'string',
+    group: 'pricing',
+    description: 'Per person (default) or per car (transfers, private car and guide). Per car: the "From" reads "per car, each way", and the panel shows the day-tour intro\'s own rows (prices by area, vehicle, add-ons) instead of the per-person rows.',
+    options: { list: [{ title: 'Per person', value: 'perPerson' }, { title: 'Per car', value: 'perCar' }], layout: 'radio', direction: 'horizontal' },
+  }),
   // Guide-language prices (owner decision 2026-11-09): Spanish- and
   // Japanese-speaking guides cost more, so ES and JA pages show their own
   // "from" price. Empty → the page falls back to priceFrom. Price tiers on

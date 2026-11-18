@@ -132,6 +132,7 @@ export async function CompactStickyCard({
   durationDays,
   ticks,
   accred,
+  basis,
 }: {
   locale: Locale;
   kind: 'multi' | 'day';
@@ -148,6 +149,8 @@ export async function CompactStickyCard({
    */
   ticks?: string[];
   accred?: string;
+  /** Overrides the basis after the price (per-car products: "per car, each way"). */
+  basis?: string;
 }) {
   const t = await getTranslations({ locale, namespace: 'productPanel' });
   const L = homeLocale(locale);
@@ -168,7 +171,7 @@ export async function CompactStickyCard({
             <strong>
               <Price eur={fromEur} />
             </strong>{' '}
-            <small>{kind === 'multi' ? t('basisPerPerson') : t('basisDay')}</small>
+            <small>{basis ?? (kind === 'multi' ? t('basisPerPerson') : t('basisDay'))}</small>
           </>
         ) : (
           <span>{t('priceOnRequest')}</span>

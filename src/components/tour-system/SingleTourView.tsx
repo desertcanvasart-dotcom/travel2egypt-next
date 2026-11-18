@@ -66,6 +66,8 @@ export interface SingleTour {
   priceNote?: string;
   /** ES/JA: priceFrom includes the guide-language supplement. */
   guidePriced?: boolean | null;
+  /** Owner, 2026-11-18: transfers and private car (and guide) days are priced per car. */
+  priceBasis?: 'perPerson' | 'perCar' | null;
   trustSignals?: string[] | null;
   accreditations?: string;
   relatedTours?: Array<{ _id: string; title: string; slug: string; durationLabel?: string; cities?: CityRef[]; priceFrom?: number | null }> | null;
@@ -230,7 +232,12 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
   const backText = intro?.returnTime
     ? `${tp('backAround', { time: intro.returnTime })}${intro.returnNote ? (locale === 'ja' ? intro.returnNote : `, ${intro.returnNote}`) : ''}`
     : intro?.returnNote ?? '';
-  const ruleRows: PanelFact[] = cairoGiza
+  // Per-car products (owner, 2026-11-18) show their own rows as written — prices by area,
+  // vehicle, arrival, departure, add-ons — not the per-person rows (children, guide language).
+  const perCar = tour.priceBasis === 'perCar';
+  const ruleRows: PanelFact[] = perCar
+    ? (intro?.panelRows ?? []).map((r) => ({ label: r.label ?? '', value: r.text ?? '' }))
+    : cairoGiza
     ? [
         { label: tp('children'), value: tp('childrenValue') },
         { label: tp('pickup'), value: pickupText },
@@ -296,7 +303,8 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
               fromEur={fromEur}
               guidePriced={tour.guidePriced}
               mobileLine={mobileLine}
-              fromNote={tp('fromGroupNote')}
+              fromNote={perCar ? tp('fromCarNote') : tp('fromGroupNote')}
+              basis={perCar ? tp('basisCar') : undefined}
             />
           </header>
 
@@ -326,6 +334,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
               durationDays={null}
               ticks={trustSignals}
               accred={trustLine}
+              basis={perCar ? tp('basisCar') : undefined}
             />
           </div>
 

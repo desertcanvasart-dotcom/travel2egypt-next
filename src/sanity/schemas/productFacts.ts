@@ -293,7 +293,7 @@ export const dayTourPeriodSchema = defineType({
   type: 'object',
   fields: [
     defineField({ name: 'lang', title: 'Language', type: 'string', options: { list: LANGS, layout: 'radio', direction: 'horizontal' }, validation: (R) => R.required() }),
-    defineField({ name: 'period', title: 'Period', type: 'string', options: { list: ['morning', 'midday', 'afternoon', 'evening'] }, validation: (R) => R.required() }),
+    defineField({ name: 'period', title: 'Period', type: 'string', options: { list: ['morning', 'midday', 'afternoon', 'evening', 'arrival', 'departure'] }, validation: (R) => R.required() }),
     defineField({ name: 'periodLabel', title: 'Area / label (e.g. "The Giza Plateau")', type: 'string' }),
     defineField({
       name: 'stops',
@@ -364,6 +364,12 @@ export const dayTourIntroSchema = defineType({
     defineField({ name: 'opening', title: 'Opening (2–3 sentences, no heading)', type: 'text', rows: 3 }),
     defineField({ name: 'whyThisOrder', title: 'Why the day runs this way', type: 'text', rows: 4 }),
     defineField({ name: 'pickupTime', title: 'Pickup time (only if the product text gives it)', type: 'string' }),
+    defineField({
+      name: 'panelRows',
+      title: 'Panel rows, as written (per-car products: prices by area, vehicle, arrival, departure, add-ons)',
+      type: 'array',
+      of: [{ type: 'object', name: 'dayPanelRow', fields: [defineField({ name: 'label', type: 'string' }), defineField({ name: 'text', type: 'string' })] }],
+    }),
     defineField({ name: 'pickupLine', title: 'Pickup row, the whole line as written (outside Cairo and Giza, e.g. "06:00 from your hotel in Aswan")', type: 'string' }),
     defineField({ name: 'flightsLine', title: 'Flights row, the whole line as written (plane day trips, e.g. "not included; the fare depends on the date and availability")', type: 'string' }),
     defineField({ name: 'returnTime', title: 'Return time (field, e.g. "17:00–18:00"; only if the product text gives it)', type: 'string' }),
