@@ -37,6 +37,8 @@ export interface DayTourIntro {
   pickupTime?: string | null;
   /** Outside Cairo and Giza: the whole Pickup row as written (e.g. "06:00 from your hotel in Aswan"). */
   pickupLine?: string | null;
+  /** Plane day trips: the whole Flights row as written. */
+  flightsLine?: string | null;
   /** Return time as a field (canon II.7), e.g. "17:00–18:00". */
   returnTime?: string | null;
   returnNote?: string | null;
