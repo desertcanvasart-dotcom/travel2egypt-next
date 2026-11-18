@@ -13,6 +13,21 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/2-day-pyramids-mediterranean-tour",
+    "destination": "/private-tour-day-tour-to-alexandria-from-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/de-el-cairo-a-alejandria-excursion-de-2-dias-a-las-piramides-y-el-mediterraneo",
+    "destination": "/es/tour-privado-a-alejandria-desde-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/kairo-kara-arekusandoria-e-2-nichikan-piramiddo-to-chichukai",
+    "destination": "/ja/kairo-hatsu-arekusandoria-puraibeto-higaeri-tsua-yottsu-no",
+    "permanent": true
+  },
+  {
     "source": "/bahariya-and-siwa-oasis-vacation",
     "destination": "/desert-horizons-7-day-bahariya-siwa-oasis-tour",
     "permanent": true
@@ -19284,7 +19299,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/de-el-cairo-a-alejandria-excursion-de-2-dias-a-las-piramides-y-el-mediterraneo",
-    "destination": "/2-day-pyramids-mediterranean-tour",
+    "destination": "/private-tour-day-tour-to-alexandria-from-cairo",
     "permanent": true
   },
   {
