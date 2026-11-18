@@ -366,7 +366,7 @@ export const dayTourIntroSchema = defineType({
     defineField({ name: 'pickupTime', title: 'Pickup time (only if the product text gives it)', type: 'string' }),
     defineField({
       name: 'panelRows',
-      title: 'Panel rows, as written (per-car products: prices by area, vehicle, arrival, departure, add-ons)',
+      title: 'Panel rows, as written: when present they replace the rule rows (per-car products; tours whose facts differ from the rules)',
       type: 'array',
       of: [{ type: 'object', name: 'dayPanelRow', fields: [defineField({ name: 'label', type: 'string' }), defineField({ name: 'text', type: 'string' })] }],
     }),

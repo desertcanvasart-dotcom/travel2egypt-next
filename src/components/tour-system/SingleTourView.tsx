@@ -232,11 +232,14 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
   const backText = intro?.returnTime
     ? `${tp('backAround', { time: intro.returnTime })}${intro.returnNote ? (locale === 'ja' ? intro.returnNote : `, ${intro.returnNote}`) : ''}`
     : intro?.returnNote ?? '';
-  // Per-car products (owner, 2026-11-18) show their own rows as written — prices by area,
-  // vehicle, arrival, departure, add-ons — not the per-person rows (children, guide language).
+  // A day tour whose approved intro carries its own panel rows shows them as written, in place
+  // of the rule rows: per-car products (owner, 2026-11-18: prices by area, vehicle, arrival,
+  // departure, add-ons) and tours whose facts differ from the rules (an English-only specialist
+  // guide on every page, binoculars, a choice of waters).
   const perCar = tour.priceBasis === 'perCar';
-  const ruleRows: PanelFact[] = perCar
-    ? (intro?.panelRows ?? []).map((r) => ({ label: r.label ?? '', value: r.text ?? '' }))
+  const ownRows = intro?.panelRows?.length ? intro.panelRows : null;
+  const ruleRows: PanelFact[] = ownRows
+    ? ownRows.map((r) => ({ label: r.label ?? '', value: r.text ?? '' }))
     : cairoGiza
     ? [
         { label: tp('children'), value: tp('childrenValue') },
