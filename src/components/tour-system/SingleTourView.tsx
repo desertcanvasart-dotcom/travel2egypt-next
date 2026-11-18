@@ -241,6 +241,8 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
     : intro
       ? [
           { label: tp('children'), value: tp('childrenValue') },
+          // Plane day trips say whether the flights are in the price (empty rows are not shown).
+          { label: tp('flights'), value: intro.flightsLine ?? '' },
           { label: tp('pickup'), value: intro.pickupLine ?? '' },
           { label: tp('back'), value: backText },
           { label: tp('lunch'), value: intro.lunch?.text ?? '' },
