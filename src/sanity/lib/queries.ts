@@ -388,7 +388,7 @@ export const tourBySlugQuery = (locale: Locale) => groq`
       count(dayTimeline[lang == "${locale}" && needsReview != false]) == 0
         => {
           "intro": dayTourIntro[lang == "${locale}" && needsReview == false][0]{
-            opening, whyThisOrder, pickupTime, returnTime, returnNote, lunch, fitFor, worthKnowing, closingLine, closingRef, skipRefs
+            opening, whyThisOrder, pickupTime, pickupLine, returnTime, returnNote, lunch, fitFor, worthKnowing, closingLine, closingRef, skipRefs
           },
           "periods": dayTimeline[lang == "${locale}"]{
             period, periodLabel,
