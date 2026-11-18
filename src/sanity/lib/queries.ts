@@ -266,6 +266,7 @@ const tourCardProjection = (locale: Locale) => `
   basePrice,
   "priceFrom": ${guidePrice(locale)},
   "guidePriced": ${guidePriced(locale)},
+  priceBasis,
   "enSlug": slug[_key=="en"][0].value.current,
   peakUpliftPct,
   maxGroup,
@@ -388,7 +389,7 @@ export const tourBySlugQuery = (locale: Locale) => groq`
       count(dayTimeline[lang == "${locale}" && needsReview != false]) == 0
         => {
           "intro": dayTourIntro[lang == "${locale}" && needsReview == false][0]{
-            opening, whyThisOrder, pickupTime, pickupLine, flightsLine, returnTime, returnNote, lunch, fitFor, worthKnowing, closingLine, closingRef, skipRefs
+            opening, whyThisOrder, pickupTime, pickupLine, flightsLine, panelRows[]{ label, text }, returnTime, returnNote, lunch, fitFor, worthKnowing, closingLine, closingRef, skipRefs
           },
           "periods": dayTimeline[lang == "${locale}"]{
             period, periodLabel,
@@ -524,6 +525,7 @@ export const tourBySlugQuery = (locale: Locale) => groq`
     "departsFrom": ${localizedField('departsFrom', locale)},
     "priceFrom": ${guidePrice(locale)},
     "guidePriced": ${guidePriced(locale)},
+    priceBasis,
     "timeline": timeline[]{
       "time": ${localizedField('time', locale)},
       "description": ${localizedField('description', locale)}

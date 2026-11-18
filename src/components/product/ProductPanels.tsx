@@ -211,11 +211,14 @@ export async function DayHeroFacts({
   variant = 'day',
   durationDays = null,
   fromNote,
+  basis,
   afterFrom = [],
 }: Common & {
   facts: PanelFact[];
   /** Day-tour format: shown after the per-person basis (e.g. "price depends on group size"). */
   fromNote?: string;
+  /** Overrides the basis after the price (per-car products: "per car, each way"). */
+  basis?: string;
   /** Day-tour format: rows under From (children, pickup, back, lunch, guide language). */
   afterFrom?: PanelFact[];
   fromEur: number | null;
@@ -238,7 +241,7 @@ export async function DayHeroFacts({
       <Facts
         facts={[
           ...facts,
-          { label: t('from'), value: <FromRow fromEur={fromEur} basis={multi ? t('basisPerPerson') : t('basisDay')} onRequest={t('priceOnRequest')} note={fromNote} sep={locale === 'ja' ? '・' : ' · '} /> },
+          { label: t('from'), value: <FromRow fromEur={fromEur} basis={basis ?? (multi ? t('basisPerPerson') : t('basisDay'))} onRequest={t('priceOnRequest')} note={fromNote} sep={locale === 'ja' ? '・' : ' · '} /> },
           ...afterFrom,
         ]}
         className="pdp-facts--hero"

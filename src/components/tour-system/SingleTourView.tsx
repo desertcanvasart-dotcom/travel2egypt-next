@@ -66,6 +66,8 @@ export interface SingleTour {
   priceNote?: string;
   /** ES/JA: priceFrom includes the guide-language supplement. */
   guidePriced?: boolean | null;
+  /** Owner, 2026-11-18: transfers and private car (and guide) days are priced per car. */
+  priceBasis?: 'perPerson' | 'perCar' | null;
   trustSignals?: string[] | null;
   accreditations?: string;
   relatedTours?: Array<{ _id: string; title: string; slug: string; durationLabel?: string; cities?: CityRef[]; priceFrom?: number | null }> | null;
@@ -230,7 +232,15 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
   const backText = intro?.returnTime
     ? `${tp('backAround', { time: intro.returnTime })}${intro.returnNote ? (locale === 'ja' ? intro.returnNote : `, ${intro.returnNote}`) : ''}`
     : intro?.returnNote ?? '';
-  const ruleRows: PanelFact[] = cairoGiza
+  // A day tour whose approved intro carries its own panel rows shows them as written, in place
+  // of the rule rows: per-car products (owner, 2026-11-18: prices by area, vehicle, arrival,
+  // departure, add-ons) and tours whose facts differ from the rules (an English-only specialist
+  // guide on every page, binoculars, a choice of waters).
+  const perCar = tour.priceBasis === 'perCar';
+  const ownRows = intro?.panelRows?.length ? intro.panelRows : null;
+  const ruleRows: PanelFact[] = ownRows
+    ? ownRows.map((r) => ({ label: r.label ?? '', value: r.text ?? '' }))
+    : cairoGiza
     ? [
         { label: tp('children'), value: tp('childrenValue') },
         { label: tp('pickup'), value: pickupText },
@@ -296,7 +306,8 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
               fromEur={fromEur}
               guidePriced={tour.guidePriced}
               mobileLine={mobileLine}
-              fromNote={tp('fromGroupNote')}
+              fromNote={perCar ? tp('fromCarNote') : tp('fromGroupNote')}
+              basis={perCar ? tp('basisCar') : undefined}
             />
           </header>
 
@@ -326,6 +337,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
               durationDays={null}
               ticks={trustSignals}
               accred={trustLine}
+              basis={perCar ? tp('basisCar') : undefined}
             />
           </div>
 
