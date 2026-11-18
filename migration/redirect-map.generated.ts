@@ -13,21 +13,6 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
-    "source": "/private-tour-2-day-trip-to-alexandria-from-cairo",
-    "destination": "/private-tour-day-tour-to-alexandria-from-cairo",
-    "permanent": true
-  },
-  {
-    "source": "/es/alejandria-en-un-dia-desde-el-cairo-catacumbas-columnas-y-costa-mediterranea",
-    "destination": "/es/tour-privado-a-alejandria-desde-el-cairo",
-    "permanent": true
-  },
-  {
-    "source": "/ja/ichi-nichi-de-meguru-arekusandoria-katakombe-enchu-chichukai",
-    "destination": "/ja/kairo-hatsu-arekusandoria-puraibeto-higaeri-tsua-yottsu-no",
-    "permanent": true
-  },
-  {
     "source": "/2-day-pyramids-mediterranean-tour",
     "destination": "/private-tour-day-tour-to-alexandria-from-cairo",
     "permanent": true
@@ -1319,7 +1304,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/cairo-to-alexandria-2-day-pyramids-mediterranean-tour",
-    "destination": "/private-tour-day-tour-to-alexandria-from-cairo",
+    "destination": "/private-tour-2-day-trip-to-alexandria-from-cairo",
     "permanent": true
   },
   {
@@ -2034,7 +2019,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/private-tour-2-day-trip-to-alexandria-from-cairo",
-    "destination": "/ja/kairo-hatsu-arekusandoria-puraibeto-higaeri-tsua-yottsu-no",
+    "destination": "/ja/ichi-nichi-de-meguru-arekusandoria-katakombe-enchu-chichukai",
     "permanent": true
   },
   {
@@ -6944,7 +6929,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/private-tour-2-day-trip-to-alexandria-from-cairo",
-    "destination": "/es/tour-privado-a-alejandria-desde-el-cairo",
+    "destination": "/es/alejandria-en-un-dia-desde-el-cairo-catacumbas-columnas-y-costa-mediterranea",
     "permanent": true
   },
   {
@@ -11979,7 +11964,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/patrimonio-mediterraneo-excursion-privada-de-2-dias-a-alejandria-desde-el-cairo",
-    "destination": "/es/tour-privado-a-alejandria-desde-el-cairo",
+    "destination": "/es/alejandria-en-un-dia-desde-el-cairo-catacumbas-columnas-y-costa-mediterranea",
     "permanent": true
   },
   {
@@ -29099,7 +29084,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/alejandria-en-un-dia-desde-el-cairo-catacumbas-columnas-y-costa-mediterranea",
-    "destination": "/es/tour-privado-a-alejandria-desde-el-cairo",
+    "destination": "/es/alejandria-en-un-dia-desde-el-cairo-catacumbas-columnas-y-costa-mediterranea",
     "permanent": true
   },
   {
