@@ -1,0 +1,1904 @@
+{
+ "_createdAt": "2026-05-14T15:59:42Z",
+ "_id": "wp-page-131814",
+ "_rev": "cLNhBzULpou1D0gJWOQf3o",
+ "_system": {
+  "base": {
+   "id": "wp-page-131814",
+   "rev": "eLUUL06Q6sOsFevOsphJzy"
+  }
+ },
+ "_type": "hotel",
+ "_updatedAt": "2026-10-31T12:02:39Z",
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Facts"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "About The Hotel"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Wow, the "
+      },
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [
+        "000000000005"
+       ],
+       "text": "Sandrose Hotel"
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [],
+       "text": " sounds like an epic spot to unwind and soak up the desert vibes! Nestled right at the edge of the "
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [
+        "000000000008"
+       ],
+       "text": "Bahariya Oasis"
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": ", about 360 kilometers southwest of Cairo, it’s like a little paradise for those bitten by the wanderlust bug, wouldn’t you agree?"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000005",
+       "_type": "externalLink",
+       "href": "https://www.sandrose-hotel-baharia.com/",
+       "newTab": true
+      },
+      {
+       "_key": "000000000008",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-post-151997-en",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Imagine kicking back by the pool after a day of desert adventures—just floating there, the sky above stretching endlessly, painted with the warm hues of a desert sunset. What more could you want? The hotel itself seems like a blend of modern comforts and traditional charm. I love that it has a courtyard where you can chill and share stories with fellow travelers, kind of like a modern bedouin gathering spot."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000012",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "And let’s talk about the adventures that await! Whether it’s a jeep safari through the sweeping landscapes of the Black Desert, a trek to the ethereal Crystal Mountain, or exploring the otherworldly "
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [
+        "00000000000f"
+       ],
+       "text": "White Desert,"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [],
+       "text": " it sounds like the Sandrose Hotel is the perfect launchpad for all sorts of epic journeys. Plus, the idea of organizing your own safari trips—by jeep, camel, or on foot—adds such a personal touch to exploring, don’t you think?"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000000f",
+       "_type": "externalLink",
+       "href": "/guide/farafra-oasis",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000014",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [],
+       "text": "The fact that the hotel offers all these modern amenities—like air conditioning, WiFi, and a restaurant serving regional dishes—means you can explore the wilds of the desert by day and return to comfort by night. Peace, relaxation, and a touch of adventure—truly, the Sandrose Hotel seems like a hidden gem in the heart of Egypt’s desert oasis. Are you thinking about heading there for your next adventure, or just dreaming about desert escapes?"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000016",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": "Location"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo International Airport"
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [],
+       "text": "Golden Mummies Museum "
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Temple of Alexander,"
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [],
+       "text": "Temple of Ain Al Muftella "
+      },
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000038",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000035",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "Black Desert "
+      },
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000039",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000003b",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "Gebel Al Ingleez"
+      },
+      {
+       "_key": "00000000003d",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000045",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003f",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000041",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000043",
+       "_type": "span",
+       "marks": [],
+       "text": "4 hours "
+      },
+      {
+       "_key": "000000000044",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000046",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000047",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000048",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000049",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000004a",
+       "_type": "span",
+       "marks": [],
+       "text": "10 min"
+      },
+      {
+       "_key": "00000000004b",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000053",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004d",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000004e",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000004f",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000050",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000051",
+       "_type": "span",
+       "marks": [],
+       "text": "10 min"
+      },
+      {
+       "_key": "000000000052",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000005a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000054",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000055",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000056",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000057",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000058",
+       "_type": "span",
+       "marks": [],
+       "text": "20 min"
+      },
+      {
+       "_key": "000000000059",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000060",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005b",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000005c",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000005d",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000005e",
+       "_type": "span",
+       "marks": [],
+       "text": "110 min"
+      },
+      {
+       "_key": "00000000005f",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000067",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000061",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000062",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000063",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000064",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000065",
+       "_type": "span",
+       "marks": [],
+       "text": "25 min"
+      },
+      {
+       "_key": "000000000066",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Hechos"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "Sobre el Hotel"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000000a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Vaya, el "
+      },
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [
+        "000000000005"
+       ],
+       "text": "Hotel Sandrose"
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [],
+       "text": " parece un lugar épico para relajarse y empaparse de las vibraciones del desierto."
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [],
+       "text": " Enclavado justo al borde del Oasis de Bahariya, a unos 360 kilómetros al suroeste de El Cairo, es como un pequeño paraíso para los que les pica el gusanillo de viajar, ¿no te parece? "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000005",
+       "_type": "externalLink",
+       "href": "https://www.sandrose-hotel-baharia.com/",
+       "newTab": true
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000012",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [],
+       "text": "Imagínate relajándote junto a la piscina tras un día de aventuras por el desierto, flotando allí, con el cielo extendiéndose infinitamente, pintado con los cálidos tonos de una puesta de sol en el desierto."
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [],
+       "text": " ¿Qué más se puede pedir?"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": " El hotel en sí parece una mezcla de comodidades modernas y encanto tradicional."
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [],
+       "text": " Me encanta que tenga un patio donde puedes relajarte y compartir historias con tus compañeros de viaje, algo así como un moderno punto de reunión beduino. "
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [],
+       "text": "¡Y hablemos de las aventuras que te esperan!"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": " Ya se trate de un safari en jeep por los extensos paisajes del Desierto Negro, de una excursión a la etérea Montaña de Cristal o de explorar "
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "000000000016"
+       ],
+       "text": "el Desierto Blanco,"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": " de otro mundo "
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "000000000019"
+       ],
+       "text": ","
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": " parece que el Hotel Sandrose es la plataforma de lanzamiento perfecta para todo tipo de viajes épicos."
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": " Además, la idea de organizar tus propios safaris en jeep, camello o a pie añade un toque personal a la exploración, ¿no crees? "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000016",
+       "_type": "externalLink",
+       "href": "/guide/farafra-oasis",
+       "newTab": false
+      },
+      {
+       "_key": "000000000019",
+       "_type": "externalLink",
+       "href": "/guide/farafra-oasis",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000024",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": "El hecho de que el hotel ofrezca todas estas comodidades modernas -como aire acondicionado, WiFi y un restaurante que sirve platos regionales- significa que puedes explorar la naturaleza salvaje del desierto durante el día y volver a la comodidad por la noche."
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [],
+       "text": " Paz, relajación y un toque de aventura: realmente, el Hotel Sandrose parece una joya escondida en el corazón del oasis del desierto de Egipto."
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [],
+       "text": " ¿Estás pensando en ir allí para tu próxima aventura, o simplemente sueñas con escapadas al desierto? "
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000026",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [],
+       "text": "Ubicación"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Aeropuerto Internacional de El Cairo"
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [],
+       "text": "Museo de las Momias Doradas "
+      },
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000035",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "Templo de Alejandro,"
+      },
+      {
+       "_key": "000000000039",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000041",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003b",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000003d",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000003f",
+       "_type": "span",
+       "marks": [],
+       "text": "Templo de Ain Al Muftella "
+      },
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000048",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000043",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000044",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000045",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000046",
+       "_type": "span",
+       "marks": [],
+       "text": "Desierto Negro "
+      },
+      {
+       "_key": "000000000047",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000049",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000004a",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000004b",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000004c",
+       "_type": "span",
+       "marks": [],
+       "text": "Gebel Al Ingleez"
+      },
+      {
+       "_key": "00000000004d",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000055",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004f",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000050",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000051",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000052",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000053",
+       "_type": "span",
+       "marks": [],
+       "text": "4 horas "
+      },
+      {
+       "_key": "000000000054",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000005c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000056",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000057",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000058",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000059",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000005a",
+       "_type": "span",
+       "marks": [],
+       "text": "10 min"
+      },
+      {
+       "_key": "00000000005b",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000063",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005d",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000005e",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000005f",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000060",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000061",
+       "_type": "span",
+       "marks": [],
+       "text": "10 min"
+      },
+      {
+       "_key": "000000000062",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000064",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000065",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000066",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000067",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000068",
+       "_type": "span",
+       "marks": [],
+       "text": "20 min"
+      },
+      {
+       "_key": "000000000069",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000070",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006b",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000006c",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000006d",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "00000000006e",
+       "_type": "span",
+       "marks": [],
+       "text": "110 min"
+      },
+      {
+       "_key": "00000000006f",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000077",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000071",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000072",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000073",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000074",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      },
+      {
+       "_key": "000000000075",
+       "_type": "span",
+       "marks": [],
+       "text": "25 min"
+      },
+      {
+       "_key": "000000000076",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "value": [
+    {
+     "_key": "jasandrose0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasandrose0s",
+       "_type": "span",
+       "marks": [],
+       "text": "基本情報"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jasandrose1",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasandrose1s",
+       "_type": "span",
+       "marks": [],
+       "text": "ホテルについて"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "jasandrose2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasandrose2s",
+       "_type": "span",
+       "marks": [],
+       "text": "サンドローズ・ホテルは、砂漠の空気に浸りながらゆったりと過ごすのにうってつけの一軒です。カイロの南西約360キロ、バハリヤ・オアシスの縁に位置し、旅心をくすぐられる方にとってはまさに小さな楽園といえるでしょう。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jasandrose3",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasandrose3s",
+       "_type": "span",
+       "marks": [],
+       "text": "砂漠での一日を終え、プールに身をゆだねるひとときを想像してみてください——頭上には果てしなく広がる空、砂漠の夕日が描く温かな色彩。これ以上、何を望むでしょうか。ホテルそのものも、現代的な快適さと伝統的な趣をほどよく兼ね備えています。中庭では旅人同士が語らいの時間を過ごすことができ、さながら現代のベドウィンの集いの場のようです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jasandrose4",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasandrose4s",
+       "_type": "span",
+       "marks": [],
+       "text": "そして、待ち受ける冒険の数々も見逃せません。黒砂漠の雄大な風景を駆けるジープサファリ、幻想的なクリスタル・マウンテンへのトレッキング、この世のものとは思えない白砂漠の探検——サンドローズ・ホテルは、あらゆる旅の出発点として理想的な立地にあります。ジープ、ラクダ、徒歩と、自分だけのサファリを組み立てられるのも大きな魅力です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jasandrose5",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasandrose5s",
+       "_type": "span",
+       "marks": [],
+       "text": "エアコン、Wi-Fi、郷土料理を供するレストランといった現代的な設備が整っているため、日中は砂漠の大自然を探検し、夜は快適な空間へ戻ることができます。安らぎとくつろぎ、そしてひとさじの冒険——サンドローズ・ホテルは、エジプトの砂漠のオアシスに息づく隠れた名宿です。次の旅の目的地として、一度検討してみてはいかがでしょうか。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jasandrose6",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasandrose6s",
+       "_type": "span",
+       "marks": [],
+       "text": "ロケーション"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "jasandrose7",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasandrose7s",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロ国際空港"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jasandrose8",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasandrose8s",
+       "_type": "span",
+       "marks": [],
+       "text": "黄金のミイラ博物館"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jasandrose9",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasandrose9s",
+       "_type": "span",
+       "marks": [],
+       "text": "アレクサンダー神殿"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jasandrose10",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasandrose10s",
+       "_type": "span",
+       "marks": [],
+       "text": "アイン・アル・ムフテラ神殿"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jasandrose11",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasandrose11s",
+       "_type": "span",
+       "marks": [],
+       "text": "黒砂漠"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jasandrose12",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasandrose12s",
+       "_type": "span",
+       "marks": [],
+       "text": "ゲベル・アル・イングレーズ"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jasandrose13",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasandrose13s",
+       "_type": "span",
+       "marks": [],
+       "text": "4時間"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jasandrose14",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasandrose14s",
+       "_type": "span",
+       "marks": [],
+       "text": "10分"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jasandrose15",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasandrose15s",
+       "_type": "span",
+       "marks": [],
+       "text": "10分"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jasandrose16",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasandrose16s",
+       "_type": "span",
+       "marks": [],
+       "text": "20分"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jasandrose17",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasandrose17s",
+       "_type": "span",
+       "marks": [],
+       "text": "110分"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jasandrose18",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasandrose18s",
+       "_type": "span",
+       "marks": [],
+       "text": "25分"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "category": "standard",
+ "city": {
+  "_ref": "wp-page-58769",
+  "_type": "reference"
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Domed stone bungalows with arched wooden doors at a desert hotel in Bahariya Oasis."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Bungalós de piedra con cúpulas y puertas de madera arqueadas en un hotel desértico del oasis de Bahariya."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "バハレイヤ・オアシスの砂漠ホテル、アーチ型の木製扉を備えたドーム屋根の石造りバンガロー。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-5a5b0288194c9c51b7bb1934853e8854c0568fa0-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Domed stone rooms and a young cypress make up this quiet Bahariya Oasis desert lodge."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Habitaciones de piedra abovedadas y un ciprés joven en este tranquilo refugio del oasis de Bahariya."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ドーム屋根の石造りの客室と若い糸杉が並ぶ、バハレイヤ・オアシスの静かな砂漠ロッジ。"
+   }
+  ]
+ },
+ "migration": {
+  "categoryResolution": "default-standard",
+  "cityResolution": "full-slug-scan",
+  "migratedAt": "2026-05-14T15:59:42.554Z",
+  "source": "wp-import",
+  "wpId": 131814,
+  "wpModifiedAt": "2024-06-26T15:46:49",
+  "wpTemplate": "",
+  "wpUrl": "https://travel2egypt.org/sandrose-hotel-bahariya/"
+ },
+ "name": [
+  {
+   "_key": "en",
+   "value": "Sandrose Hotel Bahariya"
+  },
+  {
+   "_key": "es",
+   "value": "Hotel Sandrose Bahariya"
+  },
+  {
+   "_key": "ja",
+   "value": "サンドローズ・ホテル・バハリヤ"
+  }
+ ],
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_87974",
+   "_ref": "wp-page-87974",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_89005",
+   "_ref": "wp-page-89005",
+   "_type": "reference"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "value": {
+    "_type": "slug",
+    "current": "sandrose-hotel-bahariya"
+   }
+  },
+  {
+   "_key": "es",
+   "value": {
+    "_type": "slug",
+    "current": "hotel-sandrose-bahariya"
+   }
+  },
+  {
+   "_key": "ja",
+   "value": {
+    "_type": "slug",
+    "current": "sandrose-hotel-bahariya"
+   }
+  }
+ ],
+ "starRating": 2,
+ "summary": [
+  {
+   "_key": "en",
+   "value": "Wow, the Sandrose Hotel sounds like an epic spot to unwind and soak up the desert vibes! Nestled right at the edge of the Bahariya Oasis, about 360 kilometers southwest of Cairo, it’s like a little paradise for th"
+  },
+  {
+   "_key": "es",
+   "value": "Vaya, el Hotel Sandrose parece un lugar épico para relajarse y empaparse de las vibraciones del desierto. Enclavado justo al borde del Oasis de Bahariya, a unos 360 kilómetros al suroeste de El Cairo, es como un p"
+  },
+  {
+   "_key": "ja",
+   "value": "サンドローズ・ホテルは、カイロの南西約360キロ、バハリヤ・オアシスの縁に佇む砂漠のホテルです。砂漠の空気に浸りながらゆったりと過ごせる、旅心をくすぐる小さな楽園といえるでしょう。"
+  }
+ ]
+}

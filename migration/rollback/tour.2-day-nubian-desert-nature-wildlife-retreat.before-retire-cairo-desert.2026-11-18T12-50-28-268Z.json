@@ -1,0 +1,975 @@
+{
+ "_createdAt": "2026-05-29T22:45:52Z",
+ "_id": "tour.2-day-nubian-desert-nature-wildlife-retreat",
+ "_rev": "DlRgh6He0vvlWAkJrD4QWK",
+ "_system": {
+  "base": {
+   "id": "tour.2-day-nubian-desert-nature-wildlife-retreat",
+   "rev": "Gld8uu6aNV1EOrqGERrOlq"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-17T22:50:56Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers wanting a quiet, non-monumental piece of Egypt; birders and naturalists; anyone folding a desert pause into an Aswan or Lake Nasser itinerary"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros que buscan una pieza serena y no monumental de Egipto; observadores de aves y naturalistas; quien pliegue una pausa desértica dentro de Asuán o el lago Nasser"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "記念建造物ではない静かなエジプトを求める方／野鳥観察家と博物学愛好家／アスワンやナセル湖の旅程に砂漠の合間を挟みたい方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Two Days in the Nubian Desert: A Quiet Retreat near Lake Nasser"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A short private retreat into the desert south of Aswan — a lodge near a protected reserve, a guided wildlife walk, a night under the lake's sky."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "This is the inverse of the monument circuit. There are no temples to time, no convoy departures, no pre-dawn alarms. Two days, a lodge on the edge of a protected nature reserve in the Nubian desert, a guide who knows what walks the dunes at first light, and a night so dark you stop trying to photograph it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "It is built for travellers who want one quiet piece of Egypt that is not about the Pharaohs — or who want to fold a desert pause into a longer Aswan and Lake Nasser itinerary. The Nubian Desert, the southern third of Egypt's eastern Sahara, was for most of its history more lake-and-savanna than dune. What remains is a landscape of low hills, wadis, acacia stands, and a wildlife list that still includes Dorcas gazelle, fennec and Rüppell's fox, hare, and a long ledger of resident and migratory birds."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "The lodge and the reserve"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The base is a small lodge, deliberately remote, within easy reach of a protected reserve in the desert south of Aswan. There is no schedule on arrival; the afternoon is what the temperature and your energy make of it. A guided nature walk — the lodge's resident naturalist, on foot, at a pace set by what is visible — introduces the desert flora that the rains briefly raise each spring and the tracks and scat that record the night."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Evening at the lodge is a Bedouin dinner cooked over coals, the staff who run the lodge from local Nubian families, and an hour around the fire. The night sky south of Aswan, with Lake Nasser absorbing whatever light might otherwise rise from the north, is the darkest you will see in inhabited Egypt."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Morning: wildlife and the desert's other hours"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "The wildlife safari leaves before first light. Dawn is when the desert is animate: gazelles drifting between the acacias, foxes returning to dens, the larks and wheatears that this corner of Africa shares with the Mediterranean coast. Your guide carries scope and binoculars; the route adjusts to what tracks have been laid overnight."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Breakfast is back at the lodge. The rest of the morning is yours: a conservation walk with the reserve's staff (water-station maintenance, plant-survey work, the small daily texture of running a protected area), a photography tour of the harder light as it builds, or simply the shade of the lodge until the air softens. Departure is after lunch."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "The desert is not a backdrop to Egypt. It is most of the country, and most of it is empty. Two days is enough to remember that."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The shape of the journey"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Where · Aswan or Abu Simbel base → desert lodge near a protected reserve (Nubian Desert / Lake Nasser hinterland)"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Duration · 2 days / 1 night — extendable"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Character · Fully private · resident naturalist guide · one night at a remote lodge · light pace, very early morning safari"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Dos días en el desierto nubio: un retiro silencioso cerca del lago Nasser"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un retiro privado breve en el desierto al sur de Asuán: un lodge junto a una reserva protegida, un paseo guiado de fauna y una noche bajo el cielo del lago."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Esto es la inversa del circuito de monumentos. No hay templos que cronometrar, ni salidas de convoy, ni alarmas antes del alba. Dos días, un lodge en el borde de una reserva natural protegida del desierto nubio, un guía que sabe qué camina por las dunas con la primera luz, y una noche tan oscura que deja usted de intentar fotografiarla."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Está pensado para viajeros que quieren un fragmento sereno de Egipto que no gira en torno a los faraones, o para quienes deseen plegar una pausa desértica dentro de un itinerario más amplio por Asuán y el lago Nasser. El desierto nubio, el tercio meridional del Sahara oriental egipcio, fue durante la mayor parte de su historia más laguna y sabana que duna. Lo que queda es un paisaje de colinas bajas, "
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "wadis"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": ", manchas de acacia y un registro de fauna que aún incluye gacelas dorcas, zorros del desierto y de Rüppell, liebres y un largo catálogo de aves residentes y migratorias."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "El lodge y la reserva"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "La base es un lodge pequeño, deliberadamente remoto, a tiro de piedra de una reserva protegida en el desierto al sur de Asuán. No hay agenda al llegar; la tarde es lo que la temperatura y su ánimo decidan. Un paseo guiado de naturaleza —el naturalista residente del lodge, a pie y al ritmo que marque lo visible— introduce la flora del desierto que las lluvias breves levantan cada primavera y las huellas y excrementos que registran la noche."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "La velada en el lodge es una cena beduina cocinada al rescoldo, el personal procedente de familias nubias locales y una hora alrededor del fuego. El cielo nocturno al sur de Asuán, con el lago Nasser absorbiendo cualquier luz que pudiera levantarse desde el norte, es el más oscuro que verá en el Egipto habitado."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "La mañana: fauna y las otras horas del desierto"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "El safari de fauna sale antes de la primera luz. El amanecer es el momento en que el desierto se anima: gacelas que se deslizan entre las acacias, zorros que regresan a sus madrigueras, alondras y collalbas que este rincón de África comparte con la costa mediterránea. Su guía lleva telescopio y prismáticos; la ruta se ajusta a las huellas que se hayan trazado durante la noche."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "El desayuno es de vuelta en el lodge. El resto de la mañana es suyo: una caminata de conservación con el personal de la reserva (mantenimiento de bebederos, censos de plantas, la pequeña textura cotidiana de gestionar un área protegida), una salida de fotografía con la luz más dura a medida que se eleva, o sencillamente la sombra del lodge hasta que el aire ablande. La salida es después del almuerzo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "El desierto no es el telón de fondo de Egipto. Es la mayor parte del país, y la mayor parte está vacía. Dos días bastan para recordarlo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La forma del viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Dónde · Base en Asuán o Abu Simbel → lodge desértico junto a una reserva protegida (desierto nubio / interior del lago Nasser)"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Duración · 2 días / 1 noche — ampliable"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Carácter · Salida privada · naturalista residente como guía · una noche en lodge remoto · ritmo ligero, safari matinal muy temprano"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "ヌビア砂漠の二日間――ナセル湖近くの静かなリトリート"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "アスワンの南、保護区に隣接するロッジへの短い私的滞在。早朝の野生動物観察、ヌビアの夕餉、湖の闇に覆われる夜。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "これは記念建造物巡りの裏返しです。神殿の時間管理も、車列出発も、夜明け前のアラームもありません。二日間、ヌビア砂漠の保護区縁に建つロッジ、夜明けに砂丘を歩くものを知るガイド、そして撮影をあきらめるほどの深い闇――それだけの旅です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "ファラオを軸としないエジプトを静かに一片だけ味わいたい方、あるいはアスワンとナセル湖の長い旅程に砂漠の小休止を織り込みたい方のために構成されています。ヌビア砂漠――エジプト東部サハラの南三分の一――は歴史の大半において、砂丘よりむしろ湖とサバンナの土地でした。今残るのは、低い丘、涸れ谷、アカシアの群落、そしてドルカスガゼル、フェネック、リュッペルキツネ、野ウサギ、定住種と渡り鳥の長い記録です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "ロッジと保護区"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "拠点は、アスワン南方の保護区に容易に到達できる、意図的に辺鄙な場所に建つ小さなロッジです。到着時の予定表はありません。午後は気温とご一行の体力次第。ロッジ専属の自然ガイドが徒歩で案内する自然散策は、見えるものに合わせて歩調を決め、春の短い雨が一時的に立ち上げる砂漠の植生と、夜の足跡や糞が記録する動物相を紹介します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "夜はロッジで、炭火で調理されたベドウィン式の夕食、ヌビアの地元家族で構成されるスタッフ、そして焚き火を囲む一時間。アスワン南方の夜空は、北からの光をナセル湖が吸収するため、エジプトの居住域で最も暗い空のひとつです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "朝の時間――野生動物と、砂漠のもう一つの顔"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "野生動物サファリは夜明け前に出発します。砂漠が動き出す時間は明け方です。アカシアの間を漂うガゼル、巣穴へ戻るキツネ、北アフリカと地中海沿岸が共有するヒバリやサバクヒタキ。ガイドはスコープと双眼鏡を携え、ルートは前夜に残された足跡に合わせて調整します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "朝食はロッジへ戻ってから。残りの午前はご自由に――保護区スタッフと一緒の保全ウォーク（給水所の保守、植生調査、保護区運営の日常）、光が硬くなる時間帯のフォトツアー、あるいは大気が柔らぐまでロッジの日陰で休む。出発は昼食後です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "砂漠はエジプトの背景ではありません。国土の大半であり、その大半は人気がない。二日間は、それを思い出すのに十分な時間です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "旅の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · アスワンまたはアブ・シンベルを起点に → ヌビア砂漠／ナセル湖後背地の保護区近くのロッジ"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "日数 · 2日間／1泊 — 延長可能"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 完全プライベート · 専属の自然ガイド · 辺鄙なロッジで一泊 · 軽い行程、夜明け前のサファリ"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private retreat is built around your party, not a fixed group. Tell us how many nights you'd want, whether to anchor it into a wider Lake Nasser or Abu Simbel trip, and what you'd like to see at first light — and we'll arrange the lodge, the guide, and the timing to fit."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Un retiro privado se construye en torno a su grupo y no a un cupo fijo. Díganos cuántas noches le gustaría, si quiere anclarlo en un viaje más amplio por el lago Nasser o Abu Simbel y qué le interesa ver con la primera luz, y organizaremos el lodge, el guía y los tiempos a su medida."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "私的なリトリートは、固定の団体ではなくご一行に合わせて作ります。何泊を希望されるか、より長いナセル湖やアブ・シンベルの旅程に組み込むか、夜明けに何を見たいか――お聞かせいただければ、ロッジ、ガイド、時間配分を整えます。"
+  }
+ ],
+ "durationDays": 2,
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 402,
+  "ja": 416
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "asset": {
+   "_ref": "image-a97882daca8cfc5edf08821c2cb9819120c16a4f-3000x2000-jpg",
+   "_type": "reference"
+  }
+ },
+ "hidden": true,
+ "inclusions": [
+  {
+   "_key": "sy4w7fs4lt",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · resident naturalist guide · one night at a remote lodge · light pace, very early morning safari",
+   "text": "resident naturalist guide"
+  },
+  {
+   "_key": "hu0xfj574s",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · resident naturalist guide · one night at a remote lodge · light pace, very early morning safari",
+   "text": "one night at a remote lodge"
+  },
+  {
+   "_key": "qje32oj9dp",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "性格 · 完全プライベート · 専属の自然ガイド · 辺鄙なロッジで一泊 · 軽い行程、夜明け前のサファリ",
+   "text": "辺鄙なロッジで一泊"
+  },
+  {
+   "_key": "8afmqhu223",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "性格 · 完全プライベート · 専属の自然ガイド · 辺鄙なロッジで一泊 · 軽い行程、夜明け前のサファリ",
+   "text": "専属の自然ガイド"
+  },
+  {
+   "_key": "fld0qn53u1",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "性格 · 完全プライベート · 専属の自然ガイド · 辺鄙なロッジで一泊 · 軽い行程、夜明け前のサファリ",
+   "text": "完全プライベート"
+  },
+  {
+   "_key": "v8nsnnc7tf",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "性格 · 完全プライベート · 専属の自然ガイド · 辺鄙なロッジで一泊 · 軽い行程、夜明け前のサファリ",
+   "text": "夜明け前のサファリ"
+  }
+ ],
+ "itineraryDays": [
+  {
+   "_key": "6a3c0duns4",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "desert lodge",
+   "overnightNeedsReview": true,
+   "source": "The base is a small lodge, deliberately remote, within easy reach of a protected reserve in the desert south of Aswan.",
+   "title": "The lodge and the reserve"
+  },
+  {
+   "_key": "3wb8cszowp",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "Departure is after lunch.",
+   "title": "Morning: wildlife and the desert's other hours"
+  },
+  {
+   "_key": "hxdftewryk",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "lodge",
+   "overnightNeedsReview": true,
+   "source": "La base es un lodge pequeño, deliberadamente remoto, a tiro de piedra de una reserva protegida en el desierto al sur de Asuán.",
+   "title": "El lodge y la reserva"
+  },
+  {
+   "_key": "08sibwiwj6",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "La salida es después del almuerzo.",
+   "title": "La mañana: fauna y salida"
+  },
+  {
+   "_key": "uub1nfs8da",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "ロッジ",
+   "overnightNeedsReview": true,
+   "source": "拠点は、アスワン南方の保護区に容易に到達できる、意図的に辺鄙な場所に建つ小さなロッジです。",
+   "title": "保護区近くのロッジへ到着、自然散策"
+  },
+  {
+   "_key": "lchdtsycp1",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "出発は昼食後です。",
+   "title": "夜明け前の野生動物サファリ、昼食後出発"
+  }
+ ],
+ "migration": {
+  "reviewFlag": "superseded-duplicate",
+  "supersededAt": "2026-11-17T22:50:54.202Z",
+  "supersededBy": "tour.lake-nasser-birdwatching-boat-safari",
+  "wpUrl": "https://travel2egypt.org/2-day-nubian-desert-nature-wildlife-retreat/"
+ },
+ "priceFrom": 380,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_4_days_white_desert_wadi_al_hittan_exploration",
+   "_ref": "tour.4-days-white-desert-wadi-al-hittan-exploration",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_the_white_desert_and_djara_cave",
+   "_ref": "tour.the-white-desert-and-djara-cave",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_87974",
+   "_ref": "wp-page-87974",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_89435",
+   "_ref": "wp-page-89435",
+   "_type": "reference"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "2-day-nubian-desert-nature-wildlife-retreat"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "dos-dias-en-el-desierto-nubio-un-retiro-silencioso-cerca-del-lago-nasser"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "nubia-sabaku-no-ni-nichikan-naseru-mizuumi-chikaku-no"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A short private retreat into the desert south of Aswan — a lodge near a protected reserve, a guided wildlife walk, a night under the lake's sky."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Un retiro privado breve en el desierto al sur de Asuán: un lodge junto a una reserva protegida, un paseo guiado de fauna y una noche bajo el cielo del lago."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "アスワンの南、保護区に隣接するロッジへの短い私的滞在。早朝の野生動物観察、ヌビアの夕餉、湖の闇に覆われる夜。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-egypt-on-the-go",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Two Days in the Nubian Desert: A Quiet Retreat near Lake Nasser"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Dos días en el desierto nubio: un retiro silencioso cerca del lago Nasser"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ヌビア砂漠の二日間――ナセル湖近くの静かなリトリート"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}

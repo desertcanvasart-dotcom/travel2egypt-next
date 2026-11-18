@@ -1,0 +1,1570 @@
+{
+ "_createdAt": "2026-05-28T11:45:16Z",
+ "_id": "tour.4-days-white-desert-wadi-al-hittan-exploration",
+ "_rev": "K2pi3eY73hTRu2vMGMySnV",
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:49Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers drawn to geology, palaeontology and silence rather than monuments; second-time visitors; anyone wanting the Egypt beyond the Nile in a short window"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros atraídos por la geología, la paleontología y el silencio antes que por los monumentos; visitantes que regresan a Egipto; quienes desean el Egipto más allá del Nilo en una ventana corta"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "記念建造物よりも地質学・古生物学・静寂に惹かれる旅人、リピーター、短い時間でナイルを離れたエジプトを見たい方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Fossils and Sand: Four Days from Fayoum to the White Desert"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A short private journey that reads Egypt in geological rather than dynastic time — from the whale fossils of Wadi Al Hittan to a night camped under the chalk formations."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Egypt's deserts are not empty. That is the argument these four days are built to make."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Most itineraries treat the Western Desert as an afterthought — a single novelty night bolted onto a pharaonic programme. This one gives it the centre of the page. The route moves southwest from Cairo in two stages: first into Fayoum, the agricultural depression that fringes the Nile Valley, and then deeper into the Sahara toward Bahariya Oasis and the Black and White Deserts beyond. The logic is geological as much as geographical. The journey begins with evidence of a vanished sea — fossilised whales lying in the open desert — and ends inside a landscape that wind has sculpted into shapes Egypt's monuments do not prepare you for. There are no pharaonic temples on this programme, and no Nile cruise. What it offers instead is the other Egypt: vast, quiet, and very old in a different register."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Fayoum: Karanis, Wadi El Ryan, and the Valley of Whales"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The first stretch is dense and varied, and it moves about ninety minutes southwest of Cairo into the Fayoum depression — a green pocket fed by the Bahr Yussef channel and inhabited since the Old Kingdom."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "The Kom Aushim Museum opens the sequence, built on the ruins of Karanis, a Graeco-Roman town founded in the third century BC and occupied for several hundred years. The collection's standout objects are the Fayoum mummy portraits: painted wooden panels placed over the faces of the mummified dead during the Roman period, depicting their subjects with a directness that feels startlingly modern. They sit exactly at the intersection of Egyptian funerary tradition and Greek-Roman naturalism, and they are the reason to take this museum seriously rather than glance at it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "From Karanis the route continues to Wadi El Ryan, a protected area in the southwestern Fayoum depression where the waterfalls — fed by agricultural drainage from the farmlands above, not by any natural spring — fall between two connected desert lakes. The cascade is modest in scale and improbable in existence, and the surrounding reserve supports Egyptian gazelle and migrating birds."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "The afternoon belongs to Wadi Al Hittan, the Valley of Whales — a UNESCO World Heritage Site and the most significant cetacean fossil locality on earth. Forty to fifty million years ago this stretch of the Sahara lay beneath a shallow sea, and the fossils preserved here are of Archaeoceti, an extinct suborder of primitive whales that still retained vestigial hind limbs. The site holds hundreds of skeletons exposed in the open desert, the largest more than twenty metres long, with the on-site museum contextualising the finds clearly. It is the world's best physical record of how land mammals returned to the ocean — and it reorients your sense of how recently, in geological terms, the Sahara was anything but desert. The night is spent at a Fayoum campsite, with the lights of the city absent and the sky doing what desert skies do."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "West to Bahariya: the oasis and its springs"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "The route then turns northwest toward Bahariya Oasis, roughly four hours through open desert from the Fayoum side."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Bahariya sits in a natural depression of the Libyan plateau some 370 kilometres southwest of Cairo, and it has been continuously inhabited since at least the Middle Kingdom. Its ancient cemeteries are still being excavated; the area around the modern town of Bawiti yielded the Valley of the Golden Mummies in 1996, a necropolis containing more than 250 gilded Graeco-Roman mummies. Alexander the Great passed through here on his way to the Siwa oracle in 332 BC. The desert keeps connecting to the broad sweep of history in ways its emptiness never quite suggests."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "The afternoon is given to the oasis's hot springs. These are genuinely thermal — iron-rich and warm enough to be therapeutic in the particular way that very hot water in a cold desert evening is therapeutic. The night is spent in a Bahariya hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Into the Black and White Deserts"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "The third stretch is the one this tour is built around, and it is paced to give the landscape time to accumulate."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "The morning begins in Bahariya itself — Pyramid Mountain, named for its silhouette rather than any pharaonic connection, with a wide view across the depression; English Mountain, a flat-topped hill where the British maintained an outpost during the First World War; and the Bahariya Ethnographic Museum, modest in scale, documenting the material life of the oasis communities. Then lunch at El Haiz, and the off-road section begins."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "The vehicles head south through the Black Desert first — a region of dark basalt cones and hills whose volcanic rock coats the surrounding plateau in black gravel, a striking contrast to what comes next. Crystal Mountain is an outcrop of quartzite and calcite crystals exposed by erosion, the crystals catching the light in ways that justify the name without requiring embellishment. The Agabat Valley and the Flower Desert follow, where iron-oxide deposits stain the formations ochre and rust."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "And then the White Desert. The White Desert National Park is a chalk plateau whose softer rock has been carved by wind into formations that do not look like anything else in Egypt — Mushroom Rock and the splayed fins and free-standing chalk blocks that have come to define this part of the country in photographs. The formations are dramatic in daylight. At night, especially under a full moon, they take on something closer to the surreal. Camp is made among them, dinner is cooked over open fire, and the desert does the rest. Breakfast at the campsite the following morning, as the light comes up over the chalk, is the best possible argument for an early start. The drive returns through Bahariya and back to Cairo through the afternoon, which gives the landscape time to settle in memory before the city reasserts itself."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "How this journey works"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a private departure — operated for your party alone, never a shared group. Your Egyptologist and the desert drivers have run this circuit many times, which is most of what makes it possible to do well. The shape above is the spine; the pace is built around your party. Four days is short for a desert journey, but it is enough to understand why those who make it rarely describe it as optional."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "The Sahara is what is left when the river is taken out of the picture. These four days insist you see it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The shape of the journey"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "Where · Cairo → Fayoum & Wadi Al Hittan → Bahariya Oasis → Black Desert → White Desert → Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Duration · ≈4 days / 3 nights — adjustable"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · one night at a Fayoum campsite, one in a Bahariya hotel, one camped in the White Desert"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Fósiles y arena: cuatro días del Fayum al Desierto Blanco"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un viaje privado breve que lee Egipto en tiempo geológico antes que dinástico —desde las ballenas fósiles de Wadi al-Hitan hasta una noche acampados bajo las formaciones de tiza—."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Los desiertos de Egipto no están vacíos. Esa es la tesis que sostienen estos cuatro días."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "La mayoría de los itinerarios trata el desierto occidental como un añadido: una sola noche curiosa pegada a un programa faraónico. Este lo coloca en el centro de la página. La ruta avanza al suroeste desde El Cairo en dos etapas: primero hacia el Fayum, la depresión agrícola que bordea el valle del Nilo, y después más adentro del Sahara hacia el oasis de Bahariya y los desiertos Negro y Blanco. La lógica es tan geológica como geográfica. El viaje empieza con la prueba de un mar desaparecido —ballenas fosilizadas tendidas a cielo abierto en el desierto— y termina dentro de un paisaje que el viento ha esculpido en formas para las que los monumentos egipcios no preparan. No hay templos faraónicos en este programa, ni crucero por el Nilo. Lo que ofrece a cambio es el otro Egipto: vasto, silencioso y muy antiguo en otro registro."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "El Fayum: Karanis, Wadi al-Rayan y el Valle de las Ballenas"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "El primer tramo es denso y variado, y se interna a unos noventa minutos al suroeste de El Cairo, en la depresión del Fayum —un bolsillo verde alimentado por el canal del Bahr Yussef y habitado desde el Reino Antiguo—."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "El Museo de Kom Aushim abre la secuencia, levantado sobre las ruinas de Karanis, una ciudad grecorromana fundada en el siglo III a. C. y ocupada durante varios cientos de años. Los objetos más notables de la colección son los retratos funerarios del Fayum: paneles pintados sobre madera colocados sobre el rostro de los difuntos momificados en época romana, que retratan a sus modelos con una franqueza sorprendentemente moderna. Se sitúan justo en el cruce entre la tradición funeraria egipcia y el naturalismo grecorromano, y son la razón por la que conviene tomarse este museo en serio y no como un vistazo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde Karanis la ruta continúa a Wadi al-Rayan, área protegida en el suroeste de la depresión donde las cascadas —alimentadas por el drenaje agrícola de las tierras altas, no por un manantial natural— caen entre dos lagos del desierto conectados. La caída es modesta en escala e improbable en su existencia, y la reserva sostiene gacelas egipcias y aves migratorias."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "La tarde pertenece a Wadi al-Hitan, el Valle de las Ballenas —patrimonio mundial de la UNESCO y la localidad de fósiles de cetáceos más relevante del planeta—. Hace entre cuarenta y cincuenta millones de años, este tramo del Sahara estaba bajo un mar somero, y los fósiles aquí preservados corresponden a Archaeoceti, un suborden extinto de ballenas primitivas que aún conservaba extremidades posteriores vestigiales. El sitio sostiene cientos de esqueletos expuestos a cielo abierto, los mayores de más de veinte metros, con un museo in situ que contextualiza los hallazgos con claridad. Es el mejor registro físico del planeta sobre cómo los mamíferos terrestres regresaron al océano —y reorienta el sentido de cuán reciente, en términos geológicos, fue el Sahara como algo distinto del desierto—. La noche se pasa en un campamento del Fayum, sin las luces de la ciudad y con el cielo haciendo lo que los cielos del desierto hacen."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Al oeste, a Bahariya: el oasis y sus manantiales"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta gira luego al noroeste hacia el oasis de Bahariya, aproximadamente cuatro horas a través del desierto abierto desde el lado del Fayum."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Bahariya se asienta en una depresión natural de la meseta libia, a unos 370 kilómetros al suroeste de El Cairo, y ha estado habitada de manera continuada al menos desde el Reino Medio. Sus cementerios antiguos siguen siendo excavados; la zona en torno a la moderna Bawiti reveló en 1996 el Valle de las Momias Doradas, una necrópolis con más de 250 momias doradas del período grecorromano. Alejandro Magno pasó por aquí camino del oráculo de Siwa en el 332 a. C. El desierto sigue conectando con el largo arco de la historia de maneras que su vacío no llega a sugerir."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "La tarde se entrega a los manantiales termales del oasis. Son genuinamente termales —ricos en hierro y lo suficientemente calientes como para resultar terapéuticos en la manera particular en que el agua muy caliente, en una tarde fría del desierto, es terapéutica—. La noche se pasa en un hotel de Bahariya."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Dentro de los desiertos Negro y Blanco"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "El tercer tramo es el eje sobre el que está construido este viaje, y su ritmo está pensado para dar al paisaje tiempo a acumularse."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "La mañana arranca en la propia Bahariya: la Montaña de la Pirámide, llamada así por su silueta y no por conexión faraónica alguna, con vistas amplias sobre la depresión; la Montaña Inglesa, una colina de cima plana donde los británicos mantuvieron un puesto durante la Primera Guerra Mundial; y el Museo Etnográfico de Bahariya, modesto en escala, que documenta la vida material de las comunidades del oasis. Después, almuerzo en El Heiz, y empieza el tramo fuera de carretera."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Los vehículos descienden al sur por el Desierto Negro primero —una región de conos y colinas de basalto oscuro cuya roca volcánica cubre la meseta circundante con gravas negras, un contraste marcado con lo que viene después—. La Montaña de Cristal es un afloramiento de cuarzo y calcita expuesto por la erosión, con los cristales capturando la luz de un modo que justifica el nombre sin necesidad de adornos. Siguen el valle de Agabat y el Desierto de las Flores, donde los depósitos de óxido de hierro tiñen las formaciones de ocre y herrumbre."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Y entonces el Desierto Blanco. El Parque Nacional del Desierto Blanco es una meseta de tiza cuya roca más blanda ha sido tallada por el viento en formas que no se parecen a nada más en Egipto —la Roca del Champiñón y los pináculos abiertos y los bloques aislados de tiza que han llegado a definir esta parte del país en las fotografías—. Las formaciones son notables a plena luz. De noche, sobre todo con luna llena, adquieren algo cercano a lo surreal. Se acampa entre ellas, la cena se cocina al fuego y el desierto hace el resto. El desayuno en el campamento, a la mañana siguiente, mientras la luz sube sobre la tiza, es el mejor argumento posible a favor del madrugón. El regreso atraviesa Bahariya y vuelve a El Cairo durante la tarde, lo que da al paisaje tiempo para asentarse en la memoria antes de que la ciudad vuelva a imponerse."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Cómo funciona este viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Es una salida privada —operada en exclusiva para su grupo, nunca compartida—. Su egiptólogo y los conductores del desierto han recorrido este circuito muchas veces, que es lo que en buena parte permite hacerlo bien. La forma anterior es el esqueleto; el ritmo se construye en torno a su grupo. Cuatro días son pocos para un viaje al desierto, pero bastan para entender por qué quienes lo hacen rara vez lo describen como prescindible."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "El Sahara es lo que queda cuando se retira el río del cuadro. Estos cuatro días insisten en que se vea."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La forma del viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "Dónde · El Cairo → Fayum y Wadi al-Hitan → oasis de Bahariya → Desierto Negro → Desierto Blanco → El Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Duración · ≈4 días / 3 noches, ajustable como viaje privado"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Carácter · Salida privada · su propio egiptólogo más conductores de 4×4 del desierto · una noche en campamento del Fayum, una en hotel de Bahariya y una acampados en el Desierto Blanco"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "化石と砂：ファイユームから白砂漠への4日間"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "ワディ・アル・ヒッタンのクジラ化石から、チョーク岩塔の下で過ごす一夜まで——王朝の時間ではなく地質の時間でエジプトを読む、短いプライベートな旅。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプトの砂漠は空ではない。この4日間が立てる主張はそれです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "ほとんどの旅程は西方砂漠を後付け扱いにします——ファラオ中心のプログラムに一夜だけ目新しさとして接いで済ませる。この旅は逆に砂漠を紙面の中央に置きます。ルートはカイロから南西へ二段階で進みます。最初はナイル谷の縁に広がる農業の窪地ファイユームへ、次にバハリーヤ・オアシスと黒砂漠・白砂漠の奥へ。論理は地理であると同時に地質です。旅は失われた海の証拠——砂漠に剥き出しになったクジラの化石——から始まり、エジプトの記念建造物では予習できない形に風が削り上げた風景の内側で終わります。ファラオ神殿はこのプログラムにはありません。ナイル・クルーズもありません。代わりに差し出されるのは別のエジプト——広大で、静かで、別の譜面で書かれた古さです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "ファイユーム：カラニス、ワディ・エル・ラヤン、クジラ谷"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "最初の一段はカイロから南西へ約90分、ファイユーム盆地へ降りていきます——バハル・ユスフ水路に養われた緑のポケットで、古王国期から人が住んできました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "コム・アウシム博物館がその冒頭を開けます。紀元前三世紀に建設され数百年間続いたグレコ・ローマ期の町カラニスの遺構の上に建つ博物館です。コレクションの白眉は、ファイユームの肖像画——ローマ期に死者の顔の上に置かれた板絵で、被写体を驚くほど現代的な直截さで描き出します。エジプトの葬制とギリシャ・ローマの写実性がちょうど交わる地点に立つもので、この博物館を一瞥ではなく真剣に扱う理由がそこにあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "カラニスからルートはワディ・エル・ラヤンへ続きます。ファイユーム盆地南西部の保護区で、滝が——自然の湧水ではなく、上手の農地からの排水によって——二つの繋がった砂漠湖の間を落ちています。規模は控えめで存在は不思議です。保護区はエジプトガゼルと渡り鳥を抱えています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "午後はワディ・アル・ヒッタン、クジラ谷に充てられます——UNESCO世界遺産にして、地上で最も重要なクジラ化石産地。4,000万から5,000万年前、サハラのこの一帯は浅い海の底でした。ここで保存された化石は、後肢の痕跡器官を残す原始的なクジラ類、アーケオセティ亜目のものです。サイトには数百体の骨格が砂漠に剥き出しで残り、最大のものは20メートルを超え、現地の博物館が見つかりを明快に文脈化しています。陸生哺乳類が海に戻った過程を物理的に最もよく示す地上の記録であり、地質学的時間軸で見ればサハラがつい最近まで砂漠以外の何かであったという感覚を組み直してくれます。夜はファイユームのキャンプで、街の灯りなく、砂漠の空が砂漠の空のすることをする。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "西へ、バハリーヤへ：オアシスと泉"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "ルートは北西に転じてバハリーヤ・オアシスへ向かいます——ファイユーム側から砂漠を抜けておよそ4時間。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "バハリーヤはリビア台地の自然の窪地に位置し、カイロから南西におよそ370キロメートル、少なくとも中王国期から人が住み続けてきました。古代の墓地は今も発掘が進行中で、近代のバウィーティ市街の周辺は1996年に黄金のミイラの谷を産出しました——250体超の金箔のグレコ・ローマ期ミイラを含む墓地です。アレクサンドロス大王は紀元前332年、シワのオラクルへ向かう途上ここを通りました。砂漠はその空白からは推測できない仕方で歴史の広い流れに繋がり続けます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "午後はオアシスの温泉に。本物の温泉で、鉄分を含み、寒い砂漠の夕方に熱い湯が持つ独特の癒しの強度があります。夜はバハリーヤのホテル。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "黒砂漠と白砂漠へ"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "三段目はこの旅が組み立てられた中心で、風景が積み上がる時間を持てるようにペース配分されています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "朝はバハリーヤ自身から始まります——ピラミッド山（シルエットからの命名で、ファラオとの関係はありません）、台地を見渡せる、第一次世界大戦中に英軍が哨所を置いた平頂のイングリッシュ・マウンテン、そしてオアシス共同体の物質生活を記録する控えめなバハリーヤ民族博物館。続いてエル・ハイズで昼食、オフロードの区間が始まります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "車両はまず黒砂漠を南下します——周囲の台地を黒い礫で覆う暗い玄武岩のドームと丘の地帯で、次に続くものとの対比が際立ちます。クリスタル・マウンテンは、浸食で露出した石英と方解石の結晶の露頭。結晶が光を捉える様は、誇張なしに名前を正当化します。アガバート谷とフラワー砂漠が続きます。酸化鉄の堆積が岩塔をオレンジから錆色に染め上げています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "そして白砂漠。白砂漠国立公園は、軟らかい石をもつチョーク台地を風が削って——マッシュルーム・ロックや扇のような尾根、自立するチョーク塊といった、エジプトの他のどこにも似ない形——を作り上げてきた場所です。岩塔は日中も劇的です。夜、とくに満月の下では、現実から少し外れた何かを帯びます。岩塔の間にキャンプを設営し、夕食は薪火で。あとは砂漠が仕事を引き受けます。翌朝、チョークの上に光が昇るキャンプサイトでの朝食は、早起きを正当化する最良の論拠です。ドライブはバハリーヤを経てカイロへ戻ります。午後の戻り道は、街が再び主張し始める前に風景が記憶の中に落ち着く時間を与えてくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "この旅の組み立て方"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "これは完全プライベート出発——あなたのパーティーだけのために運営される旅で、グループ混成は一切ありません。エジプト学ガイドと砂漠のドライバーはこの周回を何度も走っており、それがうまくやるための鍵の大半です。上の形は背骨で、ペースはあなたのパーティーに合わせて組みます。砂漠の旅としては4日は短いですが、これを経験した人がそれを「省略可能」と表現することがほぼないことを理解するには十分です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "サハラとは、風景から川を抜いたときに残るものです。この4日間はそれを見ることを譲りません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "旅の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · カイロ → ファイユーム＆ワディ・アル・ヒッタン → バハリーヤ・オアシス → 黒砂漠 → 白砂漠 → カイロ"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "日数 · 4日間／3泊 — 調整可能"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド ＋ 4×4砂漠ドライバー · ファイユームでキャンプ1泊、バハリーヤでホテル1泊、白砂漠の岩塔の間でキャンプ1泊"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private journey is built around your party, not the other way around. Tell our team how you'd want to shape it — more time at Wadi Al Hittan's fossil beds, a second night in the White Desert, a slower Bahariya day — and we will build the four days to fit."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Un viaje privado se construye en torno a su grupo, no al revés. Cuéntenos cómo querría perfilar el viaje —más tiempo en los yacimientos de Wadi al-Hitan, una segunda noche en el Desierto Blanco, un día más pausado en Bahariya— y armamos los cuatro días a medida."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "プライベートな旅はあなたのパーティーを中心に組み立てるものです。どう描き直したいか——ワディ・アル・ヒッタンの化石床でより長く過ごす、白砂漠で二泊する、バハリーヤをゆっくりと——私どもチームへお知らせいただければ、その形にお仕立てします。"
+  }
+ ],
+ "durationDays": 4,
+ "exclusions": [
+  {
+   "_key": "tj0rwvdohc",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ファラオ神殿はこのプログラムにはありません。",
+   "text": "ファラオ神殿はこのプログラムにはありません"
+  },
+  {
+   "_key": "8h8avg1u7h",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ナイル・クルーズもありません。",
+   "text": "ナイル・クルーズもありません"
+  }
+ ],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 667,
+  "ja": 681
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Eroded yellow sandstone formation and a stone-lined desert path at Wadi Al Hittan, Egypt's Valley of the Whales"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Formación de arenisca amarilla y un sendero de piedras en Wadi Al Hittan, el Valle de las Ballenas de Egipto"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "エジプトのクジラの谷、ワディ・アル・ヒタンの黄色い砂岩層と石で縁取られた砂漠の小道。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-0d73182e8751727524d8b31ef7089d80ca634d49-3000x2001-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A marked trail crosses Wadi Al Hittan, the Valley of the Whales."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Un sendero señalizado cruza Wadi Al Hittan, el Valle de las Ballenas."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "クジラの谷、ワディ・アル・ヒタンを横切る石で示された小道。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "n56r2pg5tr",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · one night at a Fayoum campsite, one in a Bahariya hotel, one camped in the White Desert",
+   "text": "Fully private"
+  },
+  {
+   "_key": "6n8gpvgtn9",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · one night at a Fayoum campsite, one in a Bahariya hotel, one camped in the White Desert",
+   "text": "your own Egyptologist"
+  },
+  {
+   "_key": "s14jbszxjl",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · one night at a Fayoum campsite, one in a Bahariya hotel, one camped in the White Desert",
+   "text": "4×4 desert drivers"
+  },
+  {
+   "_key": "7dy4ikq6i9",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · one night at a Fayoum campsite, one in a Bahariya hotel, one camped in the White Desert",
+   "text": "one night at a Fayoum campsite"
+  },
+  {
+   "_key": "w49c5lsc7e",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · one night at a Fayoum campsite, one in a Bahariya hotel, one camped in the White Desert",
+   "text": "one in a Bahariya hotel"
+  },
+  {
+   "_key": "60hqg5quqs",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · one night at a Fayoum campsite, one in a Bahariya hotel, one camped in the White Desert",
+   "text": "one camped in the White Desert"
+  },
+  {
+   "_key": "3f5u33z3mm",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Carácter · Salida privada · su propio egiptólogo más conductores de 4×4 del desierto · una noche en campamento del Fayum, una en hotel de Bahariya y una acampados en el Desierto Blanco",
+   "text": "su propio egiptólogo"
+  },
+  {
+   "_key": "9t6asici5j",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Carácter · Salida privada · su propio egiptólogo más conductores de 4×4 del desierto · una noche en campamento del Fayum, una en hotel de Bahariya y una acampados en el Desierto Blanco",
+   "text": "conductores de 4×4 del desierto"
+  },
+  {
+   "_key": "hsfl5zsqfp",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Carácter · Salida privada · su propio egiptólogo más conductores de 4×4 del desierto · una noche en campamento del Fayum, una en hotel de Bahariya y una acampados en el Desierto Blanco",
+   "text": "una noche en campamento del Fayum"
+  },
+  {
+   "_key": "n3v9hn0y3r",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Carácter · Salida privada · su propio egiptólogo más conductores de 4×4 del desierto · una noche en campamento del Fayum, una en hotel de Bahariya y una acampados en el Desierto Blanco",
+   "text": "una noche en hotel de Bahariya"
+  },
+  {
+   "_key": "zns7dfyug5",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Carácter · Salida privada · su propio egiptólogo más conductores de 4×4 del desierto · una noche en campamento del Fayum, una en hotel de Bahariya y una acampados en el Desierto Blanco",
+   "text": "una noche acampados en el Desierto Blanco"
+  },
+  {
+   "_key": "jhenbaw2o8",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "これは完全プライベート出発——あなたのパーティーだけのために運営される旅で、グループ混成は一切ありません。",
+   "text": "完全プライベート出発"
+  },
+  {
+   "_key": "sdl3xen2am",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド ＋ 4×4砂漠ドライバー · ファイユームでキャンプ1泊、バハリーヤでホテル1泊、白砂漠の岩塔の間でキャンプ1泊",
+   "text": "専属のエジプト学ガイド"
+  },
+  {
+   "_key": "fvxik3pvxc",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド ＋ 4×4砂漠ドライバー · ファイユームでキャンプ1泊、バハリーヤでホテル1泊、白砂漠の岩塔の間でキャンプ1泊",
+   "text": "4×4砂漠ドライバー"
+  },
+  {
+   "_key": "20jy33zjy3",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド ＋ 4×4砂漠ドライバー · ファイユームでキャンプ1泊、バハリーヤでホテル1泊、白砂漠の岩塔の間でキャンプ1泊",
+   "text": "ファイユームでキャンプ1泊"
+  },
+  {
+   "_key": "wb99orirz3",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド ＋ 4×4砂漠ドライバー · ファイユームでキャンプ1泊、バハリーヤでホテル1泊、白砂漠の岩塔の間でキャンプ1泊",
+   "text": "バハリーヤでホテル1泊"
+  },
+  {
+   "_key": "eed3f1mjg9",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド ＋ 4×4砂漠ドライバー · ファイユームでキャンプ1泊、バハリーヤでホテル1泊、白砂漠の岩塔の間でキャンプ1泊",
+   "text": "白砂漠の岩塔の間でキャンプ1泊"
+  }
+ ],
+ "itineraryDays": [
+  {
+   "_key": "ippdtzmquy",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Fayoum campsite",
+   "overnightNeedsReview": true,
+   "source": "The night is spent at a Fayoum campsite, with the lights of the city absent and the sky doing what desert skies do.",
+   "title": "Fayoum: Karanis, Wadi El Ryan, Valley of Whales"
+  },
+  {
+   "_key": "002gu5ha4y",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Bahariya hotel",
+   "overnightNeedsReview": true,
+   "source": "The night is spent in a Bahariya hotel.",
+   "title": "West to Bahariya: the oasis and its springs"
+  },
+  {
+   "_key": "pux0zkrezm",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "White Desert camp",
+   "overnightNeedsReview": true,
+   "source": "Camp is made among them, dinner is cooked over open fire, and the desert does the rest.",
+   "title": "Into the Black and White Deserts"
+  },
+  {
+   "_key": "wjnhp85set",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "The drive returns through Bahariya and back to Cairo through the afternoon, which gives the landscape time to settle in memory before the city reasserts itself.",
+   "title": "Breakfast at the campsite, back to Cairo"
+  },
+  {
+   "_key": "6bk5blan56",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Campamento del Fayum",
+   "overnightNeedsReview": true,
+   "source": "La noche se pasa en un campamento del Fayum, sin las luces de la ciudad y con el cielo haciendo lo que los cielos del desierto hacen.",
+   "title": "El Fayum: Karanis, Wadi al-Rayan y Wadi al-Hitan"
+  },
+  {
+   "_key": "in95ux6p15",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Hotel de Bahariya",
+   "overnightNeedsReview": true,
+   "source": "La noche se pasa en un hotel de Bahariya.",
+   "title": "Al oeste, a Bahariya: el oasis y sus manantiales"
+  },
+  {
+   "_key": "szrfdjmxjj",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Campamento en el Desierto Blanco",
+   "overnightNeedsReview": true,
+   "source": "Se acampa entre ellas, la cena se cocina al fuego y el desierto hace el resto.",
+   "title": "Dentro de los desiertos Negro y Blanco"
+  },
+  {
+   "_key": "gx36k7ta4t",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "El regreso atraviesa Bahariya y vuelve a El Cairo durante la tarde, lo que da al paisaje tiempo para asentarse en la memoria antes de que la ciudad vuelva a imponerse.",
+   "title": "Regreso por Bahariya a El Cairo"
+  },
+  {
+   "_key": "4ilyga2vpw",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "ファイユームのキャンプ",
+   "overnightNeedsReview": true,
+   "source": "夜はファイユームのキャンプで、街の灯りなく、砂漠の空が砂漠の空のすることをする。",
+   "title": "ファイユーム：カラニス、ワディ・エル・ラヤン、クジラ谷"
+  },
+  {
+   "_key": "8a7x5afdti",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "バハリーヤのホテル",
+   "overnightNeedsReview": true,
+   "source": "夜はバハリーヤのホテル。",
+   "title": "西へ、バハリーヤへ：オアシスと泉"
+  },
+  {
+   "_key": "z6gy7mu2r7",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "白砂漠の岩塔の間のキャンプ",
+   "overnightNeedsReview": true,
+   "source": "岩塔の間にキャンプを設営し、夕食は薪火で。",
+   "title": "黒砂漠と白砂漠へ"
+  },
+  {
+   "_key": "tql3pzabhz",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "ドライブはバハリーヤを経てカイロへ戻ります。",
+   "title": "バハリーヤを経てカイロへ戻ります"
+  }
+ ],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/4-days-white-desert-wadi-al-hittan-exploration/"
+ },
+ "priceFrom": 645,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_the_white_desert_and_djara_cave",
+   "_ref": "tour.the-white-desert-and-djara-cave",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_87974",
+   "_ref": "wp-page-87974",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_89435",
+   "_ref": "wp-page-89435",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_89436",
+   "_ref": "wp-page-89436",
+   "_type": "reference"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "4-days-white-desert-wadi-al-hittan-exploration"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "desierto-blanco-y-wadi-al-hitan-en-cuatro-dias-del-fayum-a-bahariya"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "kaseki-to-suna-faiyumu-kara-shirasuna-baku-e-no-4-nichikan"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "A four-day private journey from the fossil whales of Fayoum to the chalk formations of the White Desert — Egypt read in geological time."
+  },
+  {
+   "_key": "es",
+   "value": "Un viaje privado de cuatro días desde las ballenas fósiles del Fayum hasta las formaciones de tiza del Desierto Blanco: Egipto leído en tiempo geológico."
+  },
+  {
+   "_key": "ja",
+   "value": "ファイユームのクジラ化石から白砂漠のチョーク岩塔まで——王朝史ではなく地質時間でエジプトを読み直す4日間のプライベートな旅。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-special-interest",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "value": "4-Day White Desert & Wadi Al Hittan Tour: Fayoum to Bahariya"
+  },
+  {
+   "_key": "es",
+   "value": "Desierto Blanco y Wadi al-Hitan en cuatro días: del Fayum a Bahariya"
+  },
+  {
+   "_key": "ja",
+   "value": "化石と砂：ファイユームから白砂漠への4日間"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}
