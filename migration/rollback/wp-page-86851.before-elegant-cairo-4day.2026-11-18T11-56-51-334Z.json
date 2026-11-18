@@ -1,0 +1,1390 @@
+{
+ "_createdAt": "2026-05-13T22:22:41Z",
+ "_id": "wp-page-86851",
+ "_rev": "oRLc4GQfASfWuYVB4SKyxQ",
+ "_type": "tour",
+ "_updatedAt": "2026-11-18T11:31:39Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers who want Cairo on its own terms, not as a stopover; first-time visitors who would rather understand one city than skim three; anyone drawn to the Coptic and Jewish layers, not only the pharaonic"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros que quieren El Cairo en sus propios términos, no como escala; primer viaje que prefiere entender una ciudad y no rozar tres; quien se siente atraído por las capas copta y judía y no solo por la faraónica"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "カイロを通過点ではなく主役として体験したい方、三つの街を撫でるより一つの街を理解したい初訪問の方、ファラオ時代だけでなくコプトとユダヤの層にも関心がある方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "The Elegant Cairo: Four Days in the City That Invented Civilisation"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A luxury Cairo break that chooses depth over distance — the royal mummies at NMEC before the pyramids, the Coptic and Jewish quarters before the bazaar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo is not a city that eases you in gently."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "It is enormous, layered, and relentlessly itself — a metropolis of twenty-odd million people built on top of one of the longest continuous civilisations in human history. The mosques and minarets stand above the Coptic churches, which stand above the pharaonic foundations, which stand above the river that made all of it possible. To visit Cairo well is to accept that these layers do not sit neatly apart; they press against each other, and the pressure is the point."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Four days is modest for a city this dense, and this tour does not pretend otherwise. What it does is make a clear editorial choice: rather than scatter the time across everything, it concentrates on what repays sustained attention. The route stays within Greater Cairo throughout — no domestic flights, no long drives — and the hotel, the Four Seasons at the First Residence (or the Marriott Mena House, the St. Regis, or the Ritz-Carlton by arrangement), is used as a proper base rather than a place to collapse between transfers."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Arrival and the city at walking pace"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "You are met at Cairo International and transferred to the hotel. There is no monument on the first day's schedule, and there should not be. Cairo at arrival is best met at walking pace — the Corniche, a long coffee, the noise and motion of a city that is always awake. The first day is for calibration."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "NMEC and the Giza plateau: the collection before the monuments"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "The second day carries the tour's two heaviest sites, and the sequencing is deliberate: the collection before the monuments, so that what you have read in the galleries is visible in stone on the plateau."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "The morning begins at the National Museum of Egyptian Civilisation in Fustat — not the old Egyptian Museum on Tahrir Square, but its successor on the edge of Ain el-Sira lake. The NMEC's permanent collection moves from prehistoric Egypt to the present, but it is the Royal Mummies Hall that commands the most attention: twenty-two royal mummies, including Ramses II, Seti I, and Hatshepsut, displayed with a care and dignity the old museum's arrangements never quite managed. These are the actual remains of the people who built the world you are about to visit. Lunch is taken at the Oberoi's felucca-themed restaurant on the Nile."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "The afternoon moves to Giza. The three pyramids — Khufu, Khafre, and Menkaure, built in the twenty-fifth century BC — are still more impressive in person than in any preparation. The scale resolves things photographs distort: the individual courses of limestone at chest height; the plateau's sheer horizontal extent; the Sphinx below. The day closes with a camel ride across the plateau as the light drops."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Coptic Cairo, the Ben Ezra Synagogue, and Khan el-Khalili"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "A third day is Cairo's other history — the one that predates the Arab conquest and runs back through Byzantium to the early Christian communities of the first and second centuries."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Old Cairo holds a concentration of ancient churches and institutions within walking distance of each other. The Hanging Church — al-Muallaqah, built above two towers of a Roman fortress — is among the oldest churches in Africa, its nave suspended between the towers, its interior dense with icons and carved screens. Beside it, the Coptic Museum holds the most complete collection of Coptic art in the world. The Ben Ezra Synagogue nearby occupies a site of considerable antiquity; the building itself dates largely to the nineteenth century, but the Cairo Geniza discovered here in 1896 — a cache of nearly 300,000 manuscript fragments — proved to be one of the most significant archival finds in the history of scholarship."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Lunch is at the Naguib Mahfouz Café in Khan el-Khalili: a restaurant named for Egypt's Nobel laureate, set in the bazaar quarter he wrote about repeatedly. The afternoon is free for the bazaar itself. Khan el-Khalili has sold spices, metalwork, textiles, and jewellery since the Mamluk sultan Barquq laid it out in 1382. It is still doing all of those things."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "How this tour works"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "A final breakfast at the hotel, then a transfer to Cairo International. Later departures can extend the morning. The tour is private throughout: a licensed Egyptologist, private transfers, entrances included on the programme. The ambition is depth over distance, and it holds to that."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Cairo does not give up its depth quickly. Four days is what this tour can give it. Used this way, it is enough."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The shape of the journey"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Where · Cairo — Four Seasons First Residence (or equivalent); NMEC; Giza plateau; Coptic Old Cairo; Ben Ezra Synagogue; Khan el-Khalili"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Duration · 4 days / 3 nights — adjustable"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Character · Fully private · your own Egyptologist · five-star Cairo hotel · depth over distance, no transfers beyond Greater Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo elegante: cuatro días en la ciudad que inventó la civilización"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una escapada de lujo a El Cairo que elige profundidad sobre distancia — las momias reales en el NMEC antes de las pirámides, los barrios copto y judío antes del bazar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo no es una ciudad que entre suave."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Es enorme, estratificada e implacablemente fiel a sí misma — una metrópoli de unos veinte millones de habitantes levantada sobre una de las civilizaciones continuas más largas de la historia humana. Las mezquitas y los alminares se alzan sobre las iglesias coptas, que se alzan sobre los cimientos faraónicos, que se alzan sobre el río que hizo posible todo lo demás. Visitar bien El Cairo es aceptar que esas capas no se mantienen netamente separadas; se presionan unas a otras, y esa presión es la cuestión."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Cuatro días son modestos para una ciudad de esta densidad y este viaje no finge lo contrario. Lo que hace es tomar una decisión editorial clara: en lugar de dispersar el tiempo en todo, concentrarlo en lo que recompensa la atención sostenida. La ruta se mantiene dentro del Gran Cairo en todo momento — sin vuelos internos, sin trayectos largos — y el hotel, el Four Seasons en First Residence (o el Marriott Mena House, el St. Regis o el Ritz-Carlton según preferencia), se utiliza como base real y no como sitio donde derrumbarse entre traslados."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Llegada y la ciudad al paso de quien la camina"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Le esperan en el Aeropuerto Internacional de El Cairo y le trasladan al hotel. No hay ningún monumento en el programa del primer día, y no debe haberlo. El Cairo a la llegada se conoce mejor caminando — la Corniche, un café largo, el ruido y el movimiento de una ciudad que está siempre despierta. El primer día es para calibrar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "NMEC y la meseta de Guiza: la colección antes que los monumentos"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "El segundo día carga con los dos sitios más pesados del viaje, y el orden es deliberado: la colección antes que los monumentos, para que lo que se ha leído en las salas se vea luego en piedra sobre la meseta."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "La mañana empieza en el Museo Nacional de la Civilización Egipcia, en Fustat — no el viejo Museo Egipcio de la plaza de Tahrir, sino su sucesor a orillas del lago Ain el-Sira. La colección permanente del NMEC recorre desde el Egipto prehistórico hasta el presente, pero es la Sala de las Momias Reales la que reclama la atención principal: veintidós momias reales, entre ellas Ramsés II, Seti I y Hatshepsut, expuestas con un cuidado y una dignidad que las disposiciones del museo antiguo nunca terminaron de alcanzar. Son los restos reales de las personas que construyeron el mundo que se está a punto de visitar. El almuerzo se toma en el restaurante de inspiración fluvial del Oberoi sobre el Nilo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "La tarde se mueve a Guiza. Las tres pirámides — Keops, Kefrén y Micerinos, levantadas en el siglo XXV a. C. — siguen siendo más imponentes en persona que en cualquier preparación previa. La escala resuelve cosas que las fotografías distorsionan: las hiladas individuales de piedra caliza a la altura del pecho, la pura extensión horizontal de la meseta, la Esfinge abajo. El día se cierra con un paseo en camello sobre la meseta a medida que cae la luz."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo copto, la sinagoga Ben Ezra y Jan el-Jalili"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Un tercer día se dedica a la otra historia de El Cairo — la que precede a la conquista árabe y se remonta, pasando por Bizancio, hasta las comunidades cristianas tempranas de los siglos I y II."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo antiguo concentra una notable acumulación de iglesias e instituciones antiguas a distancia caminable unas de otras. La Iglesia Colgante — al-Muallaqah, edificada sobre dos torres de una fortaleza romana — está entre las iglesias más antiguas de África, con su nave suspendida entre las torres y un interior denso de iconos y pantallas talladas. Al lado, el Museo Copto guarda la colección más completa de arte copto del mundo. La sinagoga Ben Ezra, próxima, ocupa un solar de considerable antigüedad; el edificio actual data en su mayor parte del siglo XIX, pero la Guenizá de El Cairo descubierta aquí en 1896 — un fondo de cerca de 300 000 fragmentos manuscritos — resultó ser uno de los hallazgos documentales más significativos en la historia de la erudición."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "El almuerzo es en el café Naguib Mahfouz en Jan el-Jalili: un restaurante que toma el nombre del Premio Nobel egipcio, instalado en el barrio del bazar que él escribió una y otra vez. La tarde queda libre para el propio bazar. Jan el-Jalili ha vendido especias, metalistería, textiles y joyería desde que el sultán mameluco Barquq lo trazó en 1382. Sigue haciéndolo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Cómo funciona este viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Un último desayuno en el hotel y traslado al Aeropuerto Internacional de El Cairo. Las salidas más tarde permiten extender la mañana. El viaje es privado en todo su recorrido: un egiptólogo titulado, traslados privados, entradas incluidas en el programa. La ambición es profundidad antes que distancia, y se mantiene en ella."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "El Cairo no entrega su profundidad deprisa. Cuatro días es lo que este viaje puede darle. Usados así, bastan."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La forma del viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Dónde · El Cairo — Four Seasons First Residence (o equivalente); NMEC; meseta de Guiza; El Cairo copto; sinagoga Ben Ezra; Jan el-Jalili"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Duración · 4 días / 3 noches, ajustable como viaje privado"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Carácter · Salida privada · su propio egiptólogo · hotel de cinco estrellas en El Cairo · profundidad por encima de distancia, sin traslados fuera del Gran Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "エレガント・カイロ：文明を発明した街での4日間"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "距離より深さを選ぶカイロのラグジュアリー・ブレイク——ピラミッドの前にNMECの王のミイラ群、バザールの前にコプトとユダヤの層。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロは、訪問者をやんわり迎え入れる街ではありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "巨大で、多層的で、容赦なく自分のままです。人類史上もっとも長く続いた文明のひとつの上に築かれた、二千万人を超す大都市。モスクとミナレットがコプト教会の上に、その教会がファラオ時代の基礎の上に、そしてそれらすべてが「全てを可能にした川」の上に立っています。カイロを正しく訪れるとは、これらの層がきれいに分かれて並んでいるわけではないと認めることです。層は互いに圧しあっており、その圧こそが要点です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "この密度の街には4日間は短い。本ツアーはそのふりはしません。代わりにこの旅が行うのは明快な編集判断です——時間をあれもこれもに散らすのではなく、持続的な注意に応えるものに集中させる。ルートはずっとグレーター・カイロ圏内に留まり——国内線も長距離移動もありません——そしてホテル（フォー・シーズンズ・カイロ・アット・ザ・ファースト・レジデンス、あるいはご要望に応じてマリオット・メナハウス、セント・レジス、ザ・リッツ・カールトン）を、移動と移動の間に倒れ込む場所ではなく、本物の拠点として使います。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "到着、そして街を歩くペースで"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロ国際空港でお迎えし、ホテルへ。初日の予定に記念建造物は入れません。それでよいのです。到着のカイロは、歩くペースで会うのがいちばんです——コルニッシュ、長いコーヒー、いつも目覚めている街の音と動き。初日は調律のためにあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "NMECとギザ高原：記念建造物の前に、まず収蔵品を"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "2日目は本ツアーの最も重い二つの場所を扱いますが、順序は意図されたものです——記念建造物の前に収蔵品を見ておくことで、高原の石の上に、展示室で読んだものが見えてくるようにする。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "午前はフスタートにある国立エジプト文明博物館（NMEC）から——タハリール広場の旧館ではなく、アイン・エル・シーラ湖畔に立つその後継機関です。常設展示は先史エジプトから現代までを辿りますが、もっとも重い力を放つのは王のミイラ室です——ラムセス2世、セティ1世、ハトシェプストを含む22体の王のミイラが、旧館の展示ではついぞ実現しなかった敬意と気配りをもって並べられています。これは、これから訪ねる世界を築いた人々の、実際の遺骸です。昼食はナイル上のオベロイ系のフェルッカをモチーフにしたレストランで。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "午後はギザへ。三つのピラミッド——クフ、カフラー、メンカウラー、紀元前25世紀に築かれた——は、どれだけ準備をしても、実物の方が常に上回ります。スケールは写真が歪めるものを解像してくれます——胸の高さの石灰岩の層、高原の純粋に水平方向への拡がり、下方に控えるスフィンクス。日没にかけて高原を渡るラクダ騎乗で一日を締めくくります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "コプトのカイロ、ベン・エズラ・シナゴーグ、そしてハーン・ハリーリ"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "3日目はカイロのもう一つの歴史——アラブ征服以前、ビザンツを経て1世紀・2世紀の初期キリスト教共同体までさかのぼる線——です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "オールド・カイロには、徒歩圏内に古代の教会や宗教機関が密集して立ちます。ハンギング・チャーチ（アル・ムアラカ）——ローマ砦の二つの塔の上に建てられ、身廊が塔の間に「吊られた」ように渡っている——はアフリカ最古級の教会の一つで、内部はイコンと彫刻スクリーンが満ちています。隣のコプト博物館には世界で最も完全なコプト美術のコレクションが並びます。すぐ近くのベン・エズラ・シナゴーグは、たいへん古い由緒のある敷地に建ちます。建物自体は19世紀のものですが、1896年にここで発見された「カイロ・ゲニザ」——およそ30万点の手稿断片——は、研究史上もっとも重要なアーカイブ発見の一つです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "昼食はハーン・ハリーリの「ナギーブ・マフフーズ・カフェ」で。エジプトのノーベル賞受賞者にちなんで名付けられ、彼が繰り返し書いたバザール地区に置かれた一軒です。午後はバザール自体に充てます。ハーン・ハリーリは1382年にマムルーク朝のスルタン・バルクークが整備して以来、香料、金属細工、織物、宝飾品を商い続けています。いまもそれをそのままやっています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "このツアーの組み立て方"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "最終日はホテルでの朝食、その後カイロ国際空港へ。便が遅い場合は午前を延長できます。ツアー期間中はすべてプライベート——免許を持つエジプト学ガイド、専用送迎、プログラム上の入場料はすべて含まれます。狙いは距離より深さで、それを最後まで貫いています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "カイロは深さを早々には差し出してくれません。4日間はこのツアーが差し出せる時間で、この使い方であれば、その時間は十分です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "旅の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · カイロ — フォー・シーズンズ・ファースト・レジデンス（または同等ホテル）、NMEC、ギザ高原、コプトのオールド・カイロ、ベン・エズラ・シナゴーグ、ハーン・ハリーリ"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "日数 · 4日間／3泊 — 調整可能"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド · 5つ星カイロ・ホテル · グレーター・カイロ圏内で完結、長距離移動なし"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "wp-page-83284",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private journey is built around your party, not the other way around. Tell our team how you would want to shape it — the Mena House in place of the Four Seasons, the Grand Egyptian Museum added, Islamic Cairo extended into its own day — and we will build the four days to fit."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Un viaje privado se construye alrededor del grupo, no al revés. Cuéntenos cómo quiere darle forma — el Mena House en lugar del Four Seasons, el Gran Museo Egipcio añadido, El Cairo islámico extendido como jornada propia — y construimos los cuatro días a su medida."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "プライベート旅行はご一行に合わせて組み立てます。フォー・シーズンズに代えてマリオット・メナハウス、大エジプト博物館の追加、イスラム・カイロを独立した一日に拡張——どんな整え方も、ご相談の上で形にします。"
+  }
+ ],
+ "durationDays": 4,
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 1472,
+  "ja": 1486
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Courtyard of a Coptic church in Old Cairo with twin bell towers and saintly icons."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Patio de una iglesia copta en el Viejo Cairo con dos campanarios e iconos de santos."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "双子の鐘楼と聖人のイコンがある旧カイロのコプト教会の中庭。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-a414e342977ee8a015dd4f902f0b14dad871dd9f-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A quiet courtyard in Coptic Cairo, framed by icons and twin bell towers."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Un patio tranquilo del Cairo copto, enmarcado por iconos y dos campanarios."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "イコンと双子の鐘楼に囲まれた、コプト・カイロの静かな中庭。"
+   }
+  ],
+  "crop": {
+   "_type": "sanity.imageCrop",
+   "bottom": 0,
+   "left": 0,
+   "right": 0,
+   "top": 0
+  },
+  "hotspot": {
+   "_type": "sanity.imageHotspot",
+   "height": 0.7,
+   "width": 0.7,
+   "x": 0.5,
+   "y": 0.35
+  }
+ },
+ "inclusions": [
+  {
+   "_key": "9en2lm8g93",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "You are met at Cairo International and transferred to the hotel.",
+   "text": "Meet at Cairo International and transfer to the hotel"
+  },
+  {
+   "_key": "5u3mbji5uq",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The tour is private throughout: a licensed Egyptologist, private transfers, entrances included on the programme.",
+   "text": "Licensed Egyptologist"
+  },
+  {
+   "_key": "c03vh0htia",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The tour is private throughout: a licensed Egyptologist, private transfers, entrances included on the programme.",
+   "text": "Private transfers"
+  },
+  {
+   "_key": "53eok877wf",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The tour is private throughout: a licensed Egyptologist, private transfers, entrances included on the programme.",
+   "text": "Entrances included on the programme"
+  },
+  {
+   "_key": "c89frvxzoy",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A final breakfast at the hotel, then a transfer to Cairo International.",
+   "text": "Transfer to Cairo International on departure"
+  },
+  {
+   "_key": "zosgtgzd24",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El viaje es privado en todo su recorrido: un egiptólogo titulado, traslados privados, entradas incluidas en el programa.",
+   "text": "Egiptólogo titulado"
+  },
+  {
+   "_key": "5a9azehkj7",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El viaje es privado en todo su recorrido: un egiptólogo titulado, traslados privados, entradas incluidas en el programa.",
+   "text": "Traslados privados"
+  },
+  {
+   "_key": "8h42kjlhc6",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El viaje es privado en todo su recorrido: un egiptólogo titulado, traslados privados, entradas incluidas en el programa.",
+   "text": "Entradas incluidas en el programa"
+  },
+  {
+   "_key": "zxppei7zmc",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ツアー期間中はすべてプライベート——免許を持つエジプト学ガイド、専用送迎、プログラム上の入場料はすべて含まれます。",
+   "text": "免許を持つエジプト学ガイド"
+  },
+  {
+   "_key": "bkraowo6x8",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ツアー期間中はすべてプライベート——免許を持つエジプト学ガイド、専用送迎、プログラム上の入場料はすべて含まれます。",
+   "text": "専用送迎"
+  },
+  {
+   "_key": "pvuuje6emf",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ツアー期間中はすべてプライベート——免許を持つエジプト学ガイド、専用送迎、プログラム上の入場料はすべて含まれます。",
+   "text": "プログラム上の入場料"
+  }
+ ],
+ "itineraryDays": [
+  {
+   "_key": "esy7g74vmm",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "You are met at Cairo International and transferred to the hotel.",
+   "title": "Arrival and the city at walking pace"
+  },
+  {
+   "_key": "qlvdum304k",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "The second day carries the tour's two heaviest sites, and the sequencing is deliberate: the collection before the monuments, so that what you have read in the galleries is visible in stone on the plateau.",
+   "title": "NMEC and the Giza plateau"
+  },
+  {
+   "_key": "9jjfohxbe4",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "A third day is Cairo's other history — the one that predates the Arab conquest and runs back through Byzantium to the early Christian communities of the first and second centuries.",
+   "title": "Coptic Cairo, Ben Ezra Synagogue, Khan el-Khalili"
+  },
+  {
+   "_key": "q8i72aunfq",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "A final breakfast at the hotel, then a transfer to Cairo International.",
+   "title": "Final breakfast, transfer to Cairo International"
+  },
+  {
+   "_key": "425q1r3wyz",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "El Cairo",
+   "overnightNeedsReview": true,
+   "source": "Le esperan en el Aeropuerto Internacional de El Cairo y le trasladan al hotel.",
+   "title": "Llegada y la ciudad al paso"
+  },
+  {
+   "_key": "rwis49cncj",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "El Cairo",
+   "overnightNeedsReview": true,
+   "source": "El segundo día carga con los dos sitios más pesados del viaje, y el orden es deliberado: la colección antes que los monumentos, para que lo que se ha leído en las salas se vea luego en piedra sobre la meseta.",
+   "title": "NMEC y la meseta de Guiza"
+  },
+  {
+   "_key": "fnb2jm06by",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "El Cairo",
+   "overnightNeedsReview": true,
+   "source": "Un tercer día se dedica a la otra historia de El Cairo — la que precede a la conquista árabe y se remonta, pasando por Bizancio, hasta las comunidades cristianas tempranas de los siglos I y II.",
+   "title": "El Cairo copto, Ben Ezra y Jan el-Jalili"
+  },
+  {
+   "_key": "5n1viaag9y",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "Un último desayuno en el hotel y traslado al Aeropuerto Internacional de El Cairo.",
+   "title": "Último desayuno y traslado al aeropuerto"
+  },
+  {
+   "_key": "vm9y24iiqb",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "カイロ",
+   "overnightNeedsReview": true,
+   "source": "カイロ国際空港でお迎えし、ホテルへ。",
+   "title": "到着、そして街を歩くペースで"
+  },
+  {
+   "_key": "p61krtpmmy",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "カイロ",
+   "overnightNeedsReview": true,
+   "source": "2日目は本ツアーの最も重い二つの場所を扱いますが、順序は意図されたものです——記念建造物の前に収蔵品を見ておくことで、高原の石の上に、展示室で読んだものが見えてくるようにする。",
+   "title": "NMECとギザ高原"
+  },
+  {
+   "_key": "326hb3up1q",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "カイロ",
+   "overnightNeedsReview": true,
+   "source": "3日目はカイロのもう一つの歴史——アラブ征服以前、ビザンツを経て1世紀・2世紀の初期キリスト教共同体までさかのぼる線——です。",
+   "title": "コプトのカイロ、ベン・エズラ・シナゴーグ、ハーン・ハリーリ"
+  },
+  {
+   "_key": "ppgm0lvvnx",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "最終日はホテルでの朝食、その後カイロ国際空港へ。",
+   "title": "ホテルでの朝食、カイロ国際空港へ"
+  }
+ ],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/the-elegant-cairo-4-days-tour/"
+ },
+ "priceFrom": 1450,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_86846",
+   "_ref": "wp-page-153242",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_89411",
+   "_ref": "wp-page-89411",
+   "_type": "reference"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "the-elegant-cairo-4-days-tour"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "el-cairo-elegante-4-dias-entre-la-ciudad-antigua-y-la-ciudad-viva"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "ereganto-kairo-kodai-to-gendai-no-machi-o-meguru-4-nichikan"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "Four days in Cairo with depth chosen over distance — the National Museum of Egyptian Civilisation and its royal mummies, the Giza plateau, Coptic Old Cairo, and Khan el-Khalili."
+  },
+  {
+   "_key": "es",
+   "value": "Cuatro días en El Cairo con la profundidad elegida por encima de la distancia — el Museo Nacional de la Civilización Egipcia y sus momias reales, la meseta de Guiza, El Cairo copto y Jan el-Jalili."
+  },
+  {
+   "_key": "ja",
+   "value": "カイロを腰を据えて読む4日間——NMECの王のミイラ群を先に、ギザ高原、コプトのオールド・カイロ、ハーン・ハリーリ。距離ではなく深さを選ぶ短いラグジュアリー滞在。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-luxury",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "value": "The Elegant Cairo: A 4-Day Tour of the Ancient and the Living City"
+  },
+  {
+   "_key": "es",
+   "value": "El Cairo elegante: 4 días entre la ciudad antigua y la ciudad viva"
+  },
+  {
+   "_key": "ja",
+   "value": "エレガント・カイロ：古代と現代の街を巡る4日間"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}
