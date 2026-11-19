@@ -1,0 +1,63 @@
+# Page health (Playwright) — owner, 19 Nov 2026.
+#
+# Opens the sample pages (e2e/pages.ts) in English, Spanish and Japanese, on a phone
+# and on desktop, against the LIVE site, and checks what a visitor would notice:
+# the page loads, nothing scrolls sideways, images load, the title, price and
+# booking button show. Screenshots go into the design-review gallery.
+#
+# It runs against a deployed site, not the pull request's code: CI cannot build
+# the site (no Sanity/Supabase secrets here). So it runs every morning and after
+# each push to main (once the deploy has had time to finish), and on demand with
+# any address — e.g. a staging deploy.
+#
+# Red = a breakage on the live site; GitHub emails the repository owner. Small tap
+# targets and console errors are notes in the gallery, never red.
+# Download: the run's "page-health-gallery" artifact → unzip → open gallery.html.
+name: Page health
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # daily 06:00 UTC ≈ 08:00 Cairo
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: 'Site to check (default: https://travel2egypt.org)'
+        required: false
+        default: 'https://travel2egypt.org'
+
+concurrency:
+  group: page-health
+  cancel-in-progress: true
+
+jobs:
+  pages:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      T2E_BASE_URL: ${{ inputs.base_url || 'https://travel2egypt.org' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Install Playwright's Chromium
+        run: npx playwright install chromium --with-deps
+      - name: Wait for the deploy (push to main only)
+        if: github.event_name == 'push'
+        run: sleep 420
+      - name: Check the pages
+        run: npm run test:pages
+      - name: Upload the gallery and the report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: page-health-gallery
+          path: |
+            reports/page-health/gallery.html
+            reports/page-health/shots/
+            reports/page-health/html/
+          retention-days: 14
