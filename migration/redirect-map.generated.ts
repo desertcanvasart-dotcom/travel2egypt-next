@@ -13,6 +13,21 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/esna-temple-and-el-kab-day-tour-from-luxor",
+    "destination": "/esna-el-kab-and-gebel-silsila-from-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/esna-y-el-kab-desde-luxor",
+    "destination": "/es/esna-el-kab-y-gebel-silsila-desde-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/ja/rukusoru-hatsu-esuna-eru-kabu-higaeri-tsua-shinden-haka",
+    "destination": "/ja/rukusoru-hatsu-esuna-eru-kabu-geberu-shirushira",
+    "permanent": true
+  },
+  {
     "source": "/aswan-to-el-kab-and-edfu-temple-tour",
     "destination": "/edfu-el-kab-and-gebel-silsila-from-aswan",
     "permanent": true
@@ -2059,7 +2074,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/esna-temple-and-el-kab-day-tour-from-luxor",
-    "destination": "/ja/rukusoru-hatsu-esuna-eru-kabu-higaeri-tsua-shinden-haka",
+    "destination": "/ja/rukusoru-hatsu-esuna-eru-kabu-geberu-shirushira",
     "permanent": true
   },
   {
@@ -6969,7 +6984,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/esna-temple-and-el-kab-day-tour-from-luxor",
-    "destination": "/es/esna-y-el-kab-desde-luxor",
+    "destination": "/es/esna-el-kab-y-gebel-silsila-desde-luxor",
     "permanent": true
   },
   {
@@ -11424,7 +11439,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/las-orillas-del-tiempo-excursion-de-un-dia-a-esna-y-el-kab-desde-luxor",
-    "destination": "/es/esna-y-el-kab-desde-luxor",
+    "destination": "/es/esna-el-kab-y-gebel-silsila-desde-luxor",
     "permanent": true
   },
   {
