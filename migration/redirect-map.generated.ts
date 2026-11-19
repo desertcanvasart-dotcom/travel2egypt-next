@@ -13,6 +13,21 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/egyptian-museum-and-bazaar-tour",
+    "destination": "/egyptian-museum-coptic-cairo-al-muizz-and-khan-el-khalili",
+    "permanent": true
+  },
+  {
+    "source": "/es/el-cairo-en-un-dia-museo-egipcio-cairo-copto-y-jan-el-jalili",
+    "destination": "/es/museo-egipcio-cairo-copto-al-muizz-y-jan-el-jalili",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ichi-nichi-de-meguru-kairo-ejiputo-hakubutsukan-koputokairo",
+    "destination": "/ja/ejiputo-kokogaku-hakubutsukan-koputo-chiku-muizzu-dori-han-hariri",
+    "permanent": true
+  },
+  {
     "source": "/aswan-to-el-kab-and-edfu-temple-tour",
     "destination": "/edfu-el-kab-and-gebel-silsila-from-aswan",
     "permanent": true
@@ -1989,7 +2004,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/egyptian-museum-and-bazaar-tour",
-    "destination": "/ja/ichi-nichi-de-meguru-kairo-ejiputo-hakubutsukan-koputokairo",
+    "destination": "/ja/ejiputo-kokogaku-hakubutsukan-koputo-chiku-muizzu-dori-han-hariri",
     "permanent": true
   },
   {
@@ -6899,7 +6914,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/egyptian-museum-and-bazaar-tour",
-    "destination": "/es/el-cairo-en-un-dia-museo-egipcio-cairo-copto-y-jan-el-jalili",
+    "destination": "/es/museo-egipcio-cairo-copto-al-muizz-y-jan-el-jalili",
     "permanent": true
   },
   {
@@ -19604,7 +19619,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/ichi-nichi-de-meguru-kairo-ejiputo-hakubutsukan-koputokairo",
-    "destination": "/es/el-cairo-en-un-dia-museo-egipcio-cairo-copto-y-jan-el-jalili",
+    "destination": "/es/museo-egipcio-cairo-copto-al-muizz-y-jan-el-jalili",
     "permanent": true
   },
   {
@@ -19914,7 +19929,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ichi-nichi-de-meguru-kairo-ejiputo-hakubutsukan-koputokairo",
-    "destination": "/egyptian-museum-and-bazaar-tour",
+    "destination": "/egyptian-museum-coptic-cairo-al-muizz-and-khan-el-khalili",
     "permanent": true
   },
   {
