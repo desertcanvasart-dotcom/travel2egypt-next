@@ -216,6 +216,34 @@ export default async function GuideArticlePage({ params }: Props) {
           excludeIds: inlineTours.map((t) => t._id),
         });
 
+  const climateHero = Boolean(climate && !isRewrittenWeather);
+  const articleHead = (
+    <>
+      {/* Eyebrow: City · Region — each segment is a link. */}
+      <p className="mb-3 font-sans text-xs font-medium uppercase tracking-[0.18em] text-ink-soft">
+        <Link href={`/guide/${citySlug}`} className="hover:text-ink">
+          {article.parentCity.name}
+        </Link>
+        {regionLabel && cityRegion && (
+          <>
+            <span aria-hidden className="mx-2">·</span>
+            <Link href={`/guide#${cityRegion}`} className="hover:text-ink">
+              {regionLabel}
+            </Link>
+          </>
+        )}
+      </p>
+      <h1 className="mb-6 font-serif text-5xl font-medium leading-tight text-ink md:text-6xl">
+        {article.title}
+      </h1>
+      {(article.dek || article.summary) && (
+        <p className="mb-10 font-serif text-2xl italic leading-relaxed text-ink-soft">
+          {article.dek || article.summary}
+        </p>
+      )}
+    </>
+  );
+
   return (
     <article>
       <JsonLd
@@ -248,8 +276,12 @@ export default async function GuideArticlePage({ params }: Props) {
       <div className="mx-auto max-w-7xl px-6 py-12">
         <Breadcrumb items={breadcrumbItems} className="mb-8" />
 
+        {/* Title first, then the photo: a visitor from search used to land on a
+            460px photo with no headline above the fold (design review #7). */}
+        {!climateHero && <header className="max-w-4xl">{articleHead}</header>}
+
         {/* Weather pages: climate signature (per-locale copy). Otherwise the photo hero. */}
-        {climate && !isRewrittenWeather ? (
+        {climateHero && climate ? (
           <div className="mb-10">
             <ClimateSignature
               title={article.title}
@@ -287,28 +319,10 @@ export default async function GuideArticlePage({ params }: Props) {
 
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-[1fr_320px]">
           <div>
-            {/* Eyebrow: City · Region — each segment is a link. */}
-            <p className="mb-3 font-sans text-xs font-medium uppercase tracking-[0.18em] text-ink-soft">
-              <Link href={`/guide/${citySlug}`} className="hover:text-ink">
-                {article.parentCity.name}
-              </Link>
-              {regionLabel && cityRegion && (
-                <>
-                  <span aria-hidden className="mx-2">·</span>
-                  <Link href={`/guide#${cityRegion}`} className="hover:text-ink">
-                    {regionLabel}
-                  </Link>
-                </>
-              )}
-            </p>
-            <h1 className="mb-6 font-serif text-5xl font-medium leading-tight text-ink md:text-6xl">
-              {article.title}
-            </h1>
-            {(article.dek || article.summary) && (
-              <p className="mb-10 font-serif text-2xl italic leading-relaxed text-ink-soft">
-                {article.dek || article.summary}
-              </p>
-            )}
+            {/* Title block: here only when the climate signature replaces the photo
+                hero (it opens the page with its own visual); otherwise it sits above
+                the photo (design review #7, 19 Nov 2026). */}
+            {climateHero && articleHead}
             {(() => {
               // Rewritten weather page: inject the ruled inline climate
               // signature at the marker's position, dropping the marker block.
