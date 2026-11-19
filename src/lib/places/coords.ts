@@ -20,6 +20,9 @@ export const PLACES = {
   giza: { lat: 29.98, lon: 31.13, name: { en: 'Giza', es: 'Guiza', ja: 'ギザ' } },
   saqqara: { lat: 29.87, lon: 31.22, name: { en: 'Saqqara', es: 'Saqqara', ja: 'サッカラ' } },
   alexandria: { lat: 31.2, lon: 29.92, name: { en: 'Alexandria', es: 'Alejandría', ja: 'アレクサンドリア' } },
+  // Phase B2 (2026-11-11): the monasteries (Deir Anba Bishoy). Name as in the
+  // cultural essay (EN/ES) and its JA copy.
+  'wadi-el-natrun': { lat: 30.32, lon: 30.36, name: { en: 'Wadi El Natrun', es: 'Wadi El Natrun', ja: 'ワディ・エル・ナトルン' } },
   minya: { lat: 28.11, lon: 30.75, name: { en: 'Minya', es: 'Al Minya', ja: 'アルミンヤ' } },
   amarna: { lat: 27.65, lon: 30.9, name: { en: 'Amarna', es: 'Amarna', ja: 'アマルナ' } },
   abydos: { lat: 26.18, lon: 31.92, name: { en: 'Abydos', es: 'Abidos', ja: 'アビドス' } },
@@ -27,6 +30,8 @@ export const PLACES = {
   edfu: { lat: 24.98, lon: 32.87, name: { en: 'Edfu', es: 'Edfu', ja: 'エドフ' } },
   'kom-ombo': { lat: 24.45, lon: 32.93, name: { en: 'Kom Ombo', es: 'Kom Ombo', ja: 'コム・オンボ' } },
   aswan: { lat: 24.09, lon: 32.9, name: { en: 'Aswan', es: 'Asuán', ja: 'アスワン' } },
+  // Phase B2 (2026-11-11): the family map's Red Sea stop (Sanity city doc names).
+  hurghada: { lat: 27.26, lon: 33.81, name: { en: 'Hurghada', es: 'Hurghada', ja: 'ハルガダ' } },
   'abu-simbel': { lat: 22.34, lon: 31.63, name: { en: 'Abu Simbel', es: 'Abu Simbel', ja: 'アブ・シンベル' } },
   bahariya: { lat: 28.35, lon: 28.86, name: { en: 'Bahariya', es: 'Bahariya', ja: 'バハリヤ・オアシス' } },
   'white-desert': { lat: 27.33, lon: 28.17, name: { en: 'White Desert', es: 'Desierto Blanco', ja: '白砂漠' } },
