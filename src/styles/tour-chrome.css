@@ -449,7 +449,12 @@ body:has([data-end-form]) .t2e-footer { padding-top: 48px; }
 
 /* #4 Japanese headings broke words mid-way (プライベー / ト). Phrase-aware
    breaking where the browser supports it (Chrome / Edge 119+); elsewhere the
-   property is ignored and lines break as before. */
+   property is ignored and lines break as before.
+   overflow-wrap: anywhere — a phrase longer than its box may still break. Without
+   it a long card title (一日で巡るアレクサンドリア：…) became one unbreakable
+   phrase, widened the day-tours grid and made the JA listing scroll sideways
+   (page health, 19 Nov: 1504 px wide on a 1366 px screen; 563 px on a phone). */
 html[lang='ja'] :is(h1, h2, h3, h4, nav[aria-label='Breadcrumb']) {
   word-break: auto-phrase;
+  overflow-wrap: anywhere;
 }
