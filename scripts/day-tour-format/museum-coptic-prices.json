@@ -1,0 +1,6 @@
+{
+  "_note": "Per-person selling prices in EUR for 2 travellers sharing, by guide language — the LAST step before publishing. Rule (lib/publish/public-rate in Autoura): engine figure for 2 travellers, house margin 30 %, lowest season, higher of EU / other, cheapest complete tier, rounded UP to the whole euro; ES and JA = the same with a Spanish / Japanese guide. Source: Autoura T2E tenant, a tour matching this day (Egyptian Museum, Hanging Church, Abu Serga, Ben Ezra, lunch, Al-Muizz combined ticket, Khan El Khalili, Cairo car, guide, water). Read 19 Nov from Autoura T2E-DT-CAI-02 (it already lists the Egyptian Museum, Hanging Church, Al Muizz Street and Khan El Khalili; Abu Serga and Ben Ezra are free entry), budget tier complete in every language: EN €78.23, ES €89.25, JA €105.77, rounded up. The import refuses --apply while any is null.",
+  "en": 79,
+  "es": 90,
+  "ja": 106
+}
