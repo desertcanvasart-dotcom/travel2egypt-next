@@ -417,3 +417,39 @@ body:has([data-end-form]) .t2e-footer { padding-top: 48px; }
   .t2e-foot-band-actions { justify-content: flex-start; }
   .t2e-foot-legal .legal-prefs { margin-left: 0; margin-top: 8px; }
 }
+
+/* ── Design review, 19 Nov 2026 ─────────────────────────────────────────────
+   #3 Phone breadcrumbs: the full trail (which repeats the page title) ran to
+   three or four lines of 11px capitals with 14px-tall links. On phones show
+   only the nearest parent link, "← Cairo", with a 44px tap area. Desktop keeps
+   the full trail; the BreadcrumbList JSON-LD is untouched. Covers both trails:
+   tour pages (.t2e-crumb) and guide articles (components/Breadcrumb.tsx). The
+   @supports guard keeps the full trail in a browser without :has(). */
+@media (max-width: 640px) {
+  @supports selector(li:has(a)) {
+    .t2e-crumb { padding-top: 8px; }
+    nav[aria-label='Breadcrumb'] li { display: none; }
+    nav[aria-label='Breadcrumb'] li:has(a):not(:has(~ li a)) { display: flex; }
+    /* !important: `.t2e-crumb li:not(:last-child)::after` (the "/") is more specific. */
+    nav[aria-label='Breadcrumb'] li:has(a):not(:has(~ li a))::after { content: none !important; }
+    nav[aria-label='Breadcrumb'] li:has(a):not(:has(~ li a)) > span[aria-hidden='true'] { display: none; }
+    nav[aria-label='Breadcrumb'] li:has(a):not(:has(~ li a)) a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      font-size: 12px;
+    }
+    nav[aria-label='Breadcrumb'] li:has(a):not(:has(~ li a)) a::before {
+      content: '←';
+      margin-right: 8px;
+      letter-spacing: 0;
+    }
+  }
+}
+
+/* #4 Japanese headings broke words mid-way (プライベー / ト). Phrase-aware
+   breaking where the browser supports it (Chrome / Edge 119+); elsewhere the
+   property is ignored and lines break as before. */
+html[lang='ja'] :is(h1, h2, h3, h4, nav[aria-label='Breadcrumb']) {
+  word-break: auto-phrase;
+}

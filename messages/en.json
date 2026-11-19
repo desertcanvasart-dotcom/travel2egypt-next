@@ -892,7 +892,11 @@
     "accept": "Accept analytics",
     "decline": "Essential only",
     "currentAccepted": "Your current choice: analytics accepted.",
-    "currentDeclined": "Your current choice: essential cookies only."
+    "currentDeclined": "Your current choice: essential cookies only.",
+    "short": "We use a few essential cookies to run the site. No analytics, no ads.",
+    "shortAnalytics": "We use essential cookies to run the site, and Google Analytics only if you agree. No ads.",
+    "details": "Details",
+    "hideDetails": "Hide details"
   },
   "tourSystem": {
     "mastKicker": "Day by day · Across Egypt",
