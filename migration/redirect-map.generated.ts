@@ -13,6 +13,36 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/aswan-to-el-kab-and-edfu-temple-tour",
+    "destination": "/edfu-el-kab-and-gebel-silsila-from-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/de-asuan-a-el-kab-y-edfu-un-dia-entre-la-dinastia-xviii-y-el-ultimo-templo-en-funcionamiento",
+    "destination": "/es/edfu-el-kab-y-gebel-silsila-desde-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/asuwan-kara-eru-kabu-to-edofu-e-dai-ju-hachi-ocho-to-ejiputo",
+    "destination": "/ja/asuwan-hatsu-edofu-eru-kabu-geberu-shirushira",
+    "permanent": true
+  },
+  {
+    "source": "/el-kab-and-esna-temple-day-tour-from-aswan",
+    "destination": "/edfu-el-kab-and-gebel-silsila-from-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/el-kab-y-esna-desde-asuan",
+    "destination": "/es/edfu-el-kab-y-gebel-silsila-desde-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/asuwan-hatsu-eru-kabu-esuna-shinden-higaeri-tsua-ejiputo-no",
+    "destination": "/ja/asuwan-hatsu-edofu-eru-kabu-geberu-shirushira",
+    "permanent": true
+  },
+  {
     "source": "/2-day-pyramids-mediterranean-tour",
     "destination": "/private-tour-day-tour-to-alexandria-from-cairo",
     "permanent": true
@@ -1769,7 +1799,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/aswan-to-el-kab-and-edfu-temple-tour",
-    "destination": "/ja/asuwan-kara-eru-kabu-to-edofu-e-dai-ju-hachi-ocho-to-ejiputo",
+    "destination": "/ja/asuwan-hatsu-edofu-eru-kabu-geberu-shirushira",
     "permanent": true
   },
   {
@@ -2084,7 +2114,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/el-kab-and-esna-temple-day-tour-from-aswan",
-    "destination": "/ja/asuwan-hatsu-eru-kabu-esuna-shinden-higaeri-tsua-ejiputo-no",
+    "destination": "/ja/asuwan-hatsu-edofu-eru-kabu-geberu-shirushira",
     "permanent": true
   },
   {
@@ -6674,7 +6704,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/aswan-to-el-kab-and-edfu-temple-tour",
-    "destination": "/es/de-asuan-a-el-kab-y-edfu-un-dia-entre-la-dinastia-xviii-y-el-ultimo-templo-en-funcionamiento",
+    "destination": "/es/edfu-el-kab-y-gebel-silsila-desde-asuan",
     "permanent": true
   },
   {
@@ -6994,7 +7024,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/el-kab-and-esna-temple-day-tour-from-aswan",
-    "destination": "/es/el-kab-y-esna-desde-asuan",
+    "destination": "/es/edfu-el-kab-y-gebel-silsila-desde-asuan",
     "permanent": true
   },
   {
@@ -19149,12 +19179,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/asuwan-hatsu-eru-kabu-esuna-shinden-higaeri-tsua-ejiputo-no",
-    "destination": "/el-kab-and-esna-temple-day-tour-from-aswan",
+    "destination": "/edfu-el-kab-and-gebel-silsila-from-aswan",
     "permanent": true
   },
   {
     "source": "/asuwan-kara-eru-kabu-to-edofu-e-dai-ju-hachi-ocho-to-ejiputo",
-    "destination": "/aswan-to-el-kab-and-edfu-temple-tour",
+    "destination": "/edfu-el-kab-and-gebel-silsila-from-aswan",
     "permanent": true
   },
   {
