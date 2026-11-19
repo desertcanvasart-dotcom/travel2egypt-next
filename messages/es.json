@@ -892,7 +892,11 @@
     "accept": "Aceptar analítica",
     "decline": "Solo esenciales",
     "currentAccepted": "Tu elección actual: analítica aceptada.",
-    "currentDeclined": "Tu elección actual: solo cookies esenciales."
+    "currentDeclined": "Tu elección actual: solo cookies esenciales.",
+    "short": "Usamos algunas cookies esenciales para que el sitio funcione. Sin analítica ni publicidad.",
+    "shortAnalytics": "Usamos cookies esenciales para que el sitio funcione, y Google Analytics solo si aceptas. Sin publicidad.",
+    "details": "Detalles",
+    "hideDetails": "Ocultar detalles"
   },
   "tourSystem": {
     "mastKicker": "Día a día · Por todo Egipto",

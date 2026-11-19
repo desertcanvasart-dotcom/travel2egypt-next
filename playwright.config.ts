@@ -32,9 +32,9 @@ export default defineConfig({
   ],
   use: {
     baseURL,
-    // Marks the checker's requests in the site's logs. Analytics are blocked in the
-    // spec itself, so these visits never count as visitors.
-    extraHTTPHeaders: { 'X-T2E-Page-Health': '1' },
+    // No custom request header: it went to third parties too, and Sentry and
+    // Cloudflare refused it (CORS), which blocked their scripts during a run.
+    // Analytics are answered empty in the spec, so checker visits never count.
     screenshot: 'off',
     trace: 'retain-on-failure',
   },

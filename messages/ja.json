@@ -791,7 +791,11 @@
     "accept": "アクセス解析を許可",
     "decline": "必須のみ",
     "currentAccepted": "現在の設定：アクセス解析を許可しています。",
-    "currentDeclined": "現在の設定：必須クッキーのみ。"
+    "currentDeclined": "現在の設定：必須クッキーのみ。",
+    "short": "サイトの運営に必要な最小限のCookieのみを使用しています。アクセス解析や広告は行いません。",
+    "shortAnalytics": "サイトの運営に必要なCookieを使用しています。Googleアナリティクスは同意いただいた場合のみ使用します。広告は配信しません。",
+    "details": "詳細",
+    "hideDetails": "詳細を閉じる"
   },
   "tourSystem": {
     "mastKicker": "一日ごとに · エジプト全土へ",

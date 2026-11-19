@@ -48,6 +48,8 @@ for (const sample of PAGES) {
     test(`${sample.label} · ${locale}`, async ({ page }, testInfo) => {
       const consoleErrors: string[] = [];
       page.on('console', (m) => { if (m.type() === 'error') consoleErrors.push(m.text().slice(0, 200)); });
+      // A script that throws (not only one that logs) is a note too.
+      page.on('pageerror', (e) => consoleErrors.push(`script error: ${e.message.slice(0, 200)}`));
 
       const path = await localeUrl(page, sample.en, locale);
       testInfo.annotations.push({ type: 'url', description: path });
@@ -57,7 +59,12 @@ for (const sample of PAGES) {
 
       // The screenshot first, so the gallery has it even when a check below fails.
       // JPEG at CSS scale keeps the gallery small (phones render at 2.6× otherwise).
-      await testInfo.attach('page', { body: await page.screenshot({ fullPage: true, type: 'jpeg', quality: 60, scale: 'css' }), contentType: 'image/jpeg' });
+      // JPEG cannot exceed 65,535 px; the day-tours listing is taller than that on a
+      // phone, and its screenshot came out unreadable. Long pages are cut at 20,000 px.
+      const { width, height } = await page.evaluate(() => ({ width: document.documentElement.clientWidth, height: document.documentElement.scrollHeight }));
+      const clip = height > 20_000 ? { x: 0, y: 0, width, height: 20_000 } : undefined;
+      if (clip) testInfo.annotations.push({ type: 'note: long page', description: `${height}px tall; the screenshot shows the first 20,000px` });
+      await testInfo.attach('page', { body: await page.screenshot({ fullPage: true, clip, type: 'jpeg', quality: 60, scale: 'css' }), contentType: 'image/jpeg' });
 
       // Title.
       await expect(page.locator('h1').first(), 'visible page title (h1)').toBeVisible();
