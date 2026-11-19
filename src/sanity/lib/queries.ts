@@ -1933,7 +1933,8 @@ export const sitemapDocsQuery = groq`
     ] && !(_id in path("drafts.**")) && seo.noIndex != true
       // Exclude soft-archived/hidden guideArticles (e.g. de-duplicated legacy
       // pages) so they drop out of the sitemap; their slugs 301 elsewhere.
-      && !(_type == "guideArticle" && hidden == true)]{
+      // Retired (hidden) tours too (19 Nov 2026): 10 were still listed, each URL a 301.
+      && !(_type in ["guideArticle", "tour"] && hidden == true)]{
       _id,
       _type,
       _updatedAt,
