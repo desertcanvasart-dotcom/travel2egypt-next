@@ -328,6 +328,9 @@ export async function CategoryView({
             lengthLabels={{ label: t('filterLength'), any: t('anyLength'), half: t('lengthHalf'), full: t('lengthFull'), extended: t('lengthExtended') }}
             lengthNote={t('lengthHint')}
             hub={hub}
+            // Open the full list on the first Nile Valley city (Cairo & Giza), not all
+            // of them at once: design review #8, owner's choice 19 Nov 2026.
+            defaultCity={cityOpts.nile[0]?.value}
           />
         </div>
       </section>
