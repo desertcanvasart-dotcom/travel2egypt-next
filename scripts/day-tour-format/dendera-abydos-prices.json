@@ -1,0 +1,6 @@
+{
+  "_note": "Per-person selling prices in EUR for 2 travellers sharing, by guide language — the LAST step before publishing. Rule (lib/publish/public-rate in Autoura): engine figure for 2 travellers, house margin 30 %, lowest season, higher of EU / other, cheapest complete tier, rounded UP to the whole euro; ES and JA = the same with a Spanish / Japanese guide. Autoura had no Dendera & Abydos tour on 19 Nov (the rates exist: 'Hotel → Dendra + Abydos' day trip, Abydos Temple, Dandarah Temple). The import refuses --apply while any is null.",
+  "en": null,
+  "es": null,
+  "ja": null
+}
