@@ -12,6 +12,11 @@ import { LeadButton } from '@/components/leads/LeadProvider';
  * (?mode=&city=&length=&budget=&sort=), the empty state, and the Red Sea
  * section below the main list. Cards are rendered on the server and passed
  * in by id; this component only orders and filters them.
+ *
+ * `defaultCity` (owner, 19 Nov 2026, design review #8): the list opens on one
+ * city instead of every tour at once (97 cards, 65,000px on a phone). "All"
+ * stays one tap away (?city=all), and so does the Red Sea section: "All", or a
+ * link to #red-sea, brings it back.
  */
 
 export interface DayHubItem {
@@ -57,6 +62,7 @@ export function DayHubList({
   redSeaCta,
   emptySource = 'day_tour_hub',
   hub,
+  defaultCity,
 }: {
   items: DayHubItem[];
   cards: Record<string, ReactNode>;
@@ -73,10 +79,14 @@ export function DayHubList({
   redSeaCta?: ReactNode;
   emptySource?: 'day_tour_hub';
   hub: string;
+  /** The city the list opens on; omit to open on every city. */
+  defaultCity?: string;
 }) {
   const t = useTranslations('dayHub');
   const [mode, setMode] = useState<'private' | 'group' | null>(null);
-  const [city, setCity] = useState<string | null>(null);
+  const [city, setCity] = useState<string | null>(defaultCity ?? null);
+  // A jump to #red-sea while one city is shown: switch to "All" first, then scroll.
+  const [scrollToRedSea, setScrollToRedSea] = useState(false);
   const [length, setLength] = useState<string | null>(null);
   const [budget, setBudget] = useState<Budget | null>(null);
   const [sort, setSort] = useState<Sort>('recommended');
@@ -96,7 +106,8 @@ export function DayHubList({
     const m = q.get('mode');
     if (showMode && (m === 'private' || m === 'group')) setMode(m);
     const rawCity = q.get('city');
-    if (rawCity && cityOptions) {
+    if (rawCity === 'all' && defaultCity) setCity(null);
+    else if (rawCity && cityOptions) {
       const key = cityAliases[rawCity] ?? (rawCity === 'giza' || rawCity === 'cairo' ? 'cairo-giza' : rawCity);
       if (cityKeys.has(key)) setCity(key);
     }
@@ -109,13 +120,33 @@ export function DayHubList({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  // #red-sea (the navigator's "Red Sea" line, or a shared link) needs the "All" view.
+  useEffect(() => {
+    if (!defaultCity) return;
+    const onHash = () => {
+      if (window.location.hash !== '#red-sea') return;
+      setCity(null);
+      setScrollToRedSea(true);
+    };
+    onHash();
+    window.addEventListener('hashchange', onHash);
+    return () => window.removeEventListener('hashchange', onHash);
+  }, [defaultCity]);
+  useEffect(() => {
+    if (!scrollToRedSea || city != null) return;
+    setScrollToRedSea(false);
+    // Instant: the site's smooth scrolling would still be travelling when the list grows.
+    document.getElementById('red-sea')?.scrollIntoView({ behavior: 'instant', block: 'start' });
+  }, [scrollToRedSea, city]);
+
   // state → URL (replaceState: no history entry per click).
   useEffect(() => {
     if (!touched) return;
     const url = new URL(window.location.href);
     const set = (k: string, v: string | null) => (v ? url.searchParams.set(k, v) : url.searchParams.delete(k));
     set('mode', mode);
-    set('city', city);
+    // With a default city, "All" must be written down too, or a reload would reopen on the default.
+    set('city', city ?? (defaultCity ? 'all' : null));
     set('length', length);
     set('budget', budget);
     set('sort', sort === 'recommended' ? null : sort);
