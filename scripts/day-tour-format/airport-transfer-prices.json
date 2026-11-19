@@ -1,0 +1,178 @@
+{
+  "_note": "Selling prices per car, each way, in EUR — the LAST step before publishing (owner, 19 Nov: 'postpone the rates as a last step'). Rule (owner, 18 Nov): Autoura cost x 1.30 (T2E house margin) at Autoura's EGP->EUR rate on the day, rounded up to the whole euro; car = 1-2 travellers, van = 3-8. Areas in the same order as the locked copy's 'Prices by area' row. A page is applied only when EVERY figure for it is filled (no null) — the import refuses otherwise. Read the Autoura cards and the rate again at publishing; prices move. \"fromArea\" = Autoura's default area: its car price is the page's \"From\".",
+  "cairo": {
+    "fromArea": "Cairo",
+    "areas": [
+      {
+        "en": "Cairo",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "Giza",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "6th of October and Sheikh Zayed",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "New Cairo",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "New Administrative Capital",
+        "car": null,
+        "van": null
+      }
+    ],
+    "meetAssist": null
+  },
+  "luxor": {
+    "fromArea": "East Bank",
+    "areas": [
+      {
+        "en": "East Bank",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "West Bank",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "South City",
+        "car": null,
+        "van": null
+      }
+    ],
+    "meetAssist": null
+  },
+  "aswan": {
+    "fromArea": "City",
+    "areas": [
+      {
+        "en": "City",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "West of Sehail",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "South of the Aswan bridge, including the cruise docks",
+        "car": null,
+        "van": null
+      }
+    ],
+    "meetAssist": null
+  },
+  "hurghada": {
+    "fromArea": "Hurghada",
+    "areas": [
+      {
+        "en": "El Gouna",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "Al Ahyaa",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "El Dahar",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "Hurghada",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "El Mamsha",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "Sahl Hasheesh",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "Soma Bay",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "Safaga",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "El Quseir",
+        "car": null,
+        "van": null
+      }
+    ],
+    "meetAssist": null
+  },
+  "sharm-el-sheikh": {
+    "fromArea": "Naama Bay",
+    "areas": [
+      {
+        "en": "Nabq Bay",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "Ras Nasrani",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "Shark's Bay",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "SOHO Square",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "Naama Bay",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "Hay el Nour",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "Hadaba",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "Ras Um Sid",
+        "car": null,
+        "van": null
+      },
+      {
+        "en": "Old Market (Sharm El Maya)",
+        "car": null,
+        "van": null
+      }
+    ],
+    "meetAssist": null
+  }
+}
