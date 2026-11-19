@@ -15,11 +15,9 @@
  * per person, at the house margin (30 %), lowest season, the higher of the EU / other bases,
  * the cheapest complete tier, rounded UP to the whole euro:
  *   English guide €53.31 → €54 (complete in every tier: car "HOREL -DAY-TOUR", English guide, water)
- *   Spanish guide  NOT COMPLETE: four T2E Spanish egyptologist rates apply to Cairo at
- *                  different prices (3,000 / 3,500 EGP) — the engine needs one kept
- *   Japanese guide NOT COMPLETE: no T2E Japanese egyptologist rate for Cairo (only "senior")
- * So NEW.es / NEW.ja stay null and --apply refuses until they are filled from Autoura.
- * Dry run and --preview keep the live ES / JA prices and say so.
+ *   Spanish guide  €64.33 → €65 \  re-read 19 Nov after the owner fixed the guide rates (the four
+ *   Japanese guide €80.85 → €81 /  Spanish rates had two prices; the Cairo Japanese rate was "senior")
+ * (Until then NEW.es / NEW.ja were null and --apply refused.)
  *
  * The panel uses the Cairo/Giza rule rows (children 50 %, the pickup zones, guide = page
  * language); the EN copy's "(ES: español · JA: 日本語)" note is an editor's aside, not written.
@@ -46,8 +44,8 @@ import { numericGate } from '../content-lint/numeric-gate.mjs';
 
 const DOC_ID = 'wp-page-87764';
 const OLD = { from: 52, es: 63, ja: 70 };
-// es / ja: null until Autoura prices them (see the header). --apply refuses while null.
-const NEW = { from: 54, es: null, ja: null };
+// From Autoura T2E-DT-CAI-07 for 2 travellers (see the header). --apply refuses while one is null.
+const NEW = { from: 54, es: 65, ja: 81 };
 const LANGS = ['en', 'es', 'ja'];
 const ROOT = new URL('../../', import.meta.url);
 const B0 = 'review/locked/cairo-private-car-and-guide-day-tour';
