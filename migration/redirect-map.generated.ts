@@ -13,6 +13,21 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/transfer-from-hotel-to-airport",
+    "destination": "/transfer-from-cairo-airport-to-hotel",
+    "permanent": true
+  },
+  {
+    "source": "/es/traslado-privado-del-hotel-al-aeropuerto-de-el-cairo",
+    "destination": "/es/traslado-privado-del-aeropuerto-de-el-cairo-al-hotel",
+    "permanent": true
+  },
+  {
+    "source": "/ja/hoteru-kara-kairo-kokusai-kuko-e-puraibeto-shuppatsu-sogei",
+    "destination": "/ja/kairo-kuko-kara-hoteru-e-puraibeto-tochaku-sogei",
+    "permanent": true
+  },
+  {
     "source": "/2-day-pyramids-mediterranean-tour",
     "destination": "/private-tour-day-tour-to-alexandria-from-cairo",
     "permanent": true
@@ -1744,7 +1759,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/transfer-from-hotel-to-airport",
-    "destination": "/ja/hoteru-kara-kairo-kokusai-kuko-e-puraibeto-shuppatsu-sogei",
+    "destination": "/ja/kairo-kuko-kara-hoteru-e-puraibeto-tochaku-sogei",
     "permanent": true
   },
   {
@@ -6649,7 +6664,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/transfer-from-hotel-to-airport",
-    "destination": "/es/traslado-privado-del-hotel-al-aeropuerto-de-el-cairo",
+    "destination": "/es/traslado-privado-del-aeropuerto-de-el-cairo-al-hotel",
     "permanent": true
   },
   {
@@ -12014,7 +12029,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/salida-elegante-traslado-al-aeropuerto-internacional-de-el-cairo",
-    "destination": "/es/traslado-privado-del-hotel-al-aeropuerto-de-el-cairo",
+    "destination": "/es/traslado-privado-del-aeropuerto-de-el-cairo-al-hotel",
     "permanent": true
   },
   {
