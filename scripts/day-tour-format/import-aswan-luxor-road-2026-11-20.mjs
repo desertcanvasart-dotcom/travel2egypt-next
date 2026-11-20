@@ -357,7 +357,7 @@ if (previewOut) {
 
 if (apply) {
   if (!ready) throw new Error('prices not ready — fill aswan-luxor-road-prices.json from Autoura first.');
-  await writeRollback(client, [DOC_ID], 'before-giza-museum-khan-day-tour');
+  await writeRollback(client, [DOC_ID], 'before-aswan-luxor-road-day-tour');
   await client.patch(DOC_ID).set(set).commit();
   console.log(`APPLIED to production ${DOC_ID}`);
 } else if (!previewOut) console.log('dry run (prices filled + --apply --flags-approved writes production)');
