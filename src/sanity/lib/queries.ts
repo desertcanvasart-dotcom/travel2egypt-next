@@ -422,6 +422,8 @@ export const tourBySlugQuery = (locale: Locale) => groq`
       []
     ),
     "approvedOptions": customisationOptions[lang == "${locale}" && needsReview == false].text,
+    // Same rows, same order: the tour an option links to, if any (linkRef).
+    "approvedOptionLinks": customisationOptions[lang == "${locale}" && needsReview == false]{ "slug": linkRef->{ "s": ${localizedSlug('slug', locale)} }.s },
     "priceUpdatedAt": _updatedAt,
     "days": days[]{
       dayNumber,
