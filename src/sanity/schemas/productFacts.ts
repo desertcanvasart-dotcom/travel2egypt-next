@@ -27,6 +27,13 @@ export const productFactSchema = defineType({
       type: 'string',
       options: { list: [{ title: 'Make it yours', value: 'make-it-yours' }] },
     }),
+    defineField({
+      name: 'linkRef',
+      title: 'Links to (Make it yours only: the item links to this tour in the page\'s language)',
+      type: 'reference',
+      to: [{ type: 'tour' }],
+      weak: true,
+    }),
     defineField({ name: 'needsReview', title: 'Needs review (hidden on the site while on)', type: 'boolean', initialValue: true }),
   ],
   preview: {
