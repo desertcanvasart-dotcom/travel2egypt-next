@@ -13,6 +13,21 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/giza-pyramids-the-citadel-cairo-bazaar-day-tour",
+    "destination": "/giza-pyramids-sultan-hassan-and-khan-el-khalili",
+    "permanent": true
+  },
+  {
+    "source": "/es/piramides-de-guiza-mezquitas-de-la-ciudadela-y-jan-el-jalili-un-dia-en-el-cairo",
+    "destination": "/es/piramides-de-guiza-sultan-hassan-y-jan-el-jalili",
+    "permanent": true
+  },
+  {
+    "source": "/ja/giza-no-piramiddo-josai-no-mosuku-gun-hanhariri-kairo-no",
+    "destination": "/ja/giza-no-piramiddo-sorutan-hasan-mosuku-han-hariri",
+    "permanent": true
+  },
+  {
     "source": "/egyptian-museum-and-bazaar-tour",
     "destination": "/egyptian-museum-coptic-cairo-al-muizz-and-khan-el-khalili",
     "permanent": true
@@ -2039,7 +2054,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/giza-pyramids-the-citadel-cairo-bazaar-day-tour",
-    "destination": "/ja/giza-no-piramiddo-josai-no-mosuku-gun-hanhariri-kairo-no",
+    "destination": "/ja/giza-no-piramiddo-sorutan-hasan-mosuku-han-hariri",
     "permanent": true
   },
   {
@@ -6949,7 +6964,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/giza-pyramids-the-citadel-cairo-bazaar-day-tour",
-    "destination": "/es/piramides-de-guiza-mezquitas-de-la-ciudadela-y-jan-el-jalili-un-dia-en-el-cairo",
+    "destination": "/es/piramides-de-guiza-sultan-hassan-y-jan-el-jalili",
     "permanent": true
   },
   {
