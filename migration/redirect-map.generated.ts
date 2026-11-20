@@ -13,6 +13,21 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/islamic-cairo-day-tour",
+    "destination": "/the-grand-islamic-day-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/tour-privado-por-el-cairo-islamico-ciudadela-mezquitas-y-jan-el-jalili",
+    "destination": "/es/el-gran-tour-por-el-cairo-islamico-siete-siglos-en-un-dia",
+    "permanent": true
+  },
+  {
+    "source": "/ja/isuramu-chiku-kairodeitsua-josai-mosuku-han-hariri",
+    "destination": "/ja/gurandoisuramikkukairo-deitsua-ichi-nichi-de-roku-seiki",
+    "permanent": true
+  },
+  {
     "source": "/giza-pyramids-the-citadel-cairo-bazaar-day-tour",
     "destination": "/giza-pyramids-sultan-hassan-and-khan-el-khalili",
     "permanent": true
@@ -284,22 +299,22 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/guide/cairo/saladin-citadel-khan-el-khalili-bazaar-cairo",
-    "destination": "/islamic-cairo-day-tour",
+    "destination": "/the-grand-islamic-day-tour",
     "permanent": true
   },
   {
     "source": "/saladin-citadel-khan-el-khalili-bazaar-cairo",
-    "destination": "/islamic-cairo-day-tour",
+    "destination": "/the-grand-islamic-day-tour",
     "permanent": true
   },
   {
     "source": "/es/guide/cairo/ciudadela-de-saladino-y-bazar-de-khan-el-khalili-el-cairo",
-    "destination": "/es/tour-privado-por-el-cairo-islamico-ciudadela-mezquitas-y-jan-el-jalili",
+    "destination": "/es/el-gran-tour-por-el-cairo-islamico-siete-siglos-en-un-dia",
     "permanent": true
   },
   {
     "source": "/ja/guide/cairo/saradin-josai-kan-eru-kariri-bazaru-kairo",
-    "destination": "/ja/isuramu-chiku-kairodeitsua-josai-mosuku-han-hariri",
+    "destination": "/ja/gurandoisuramikkukairo-deitsua-ichi-nichi-de-roku-seiki",
     "permanent": true
   },
   {
@@ -364,17 +379,17 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/guide/cairo/islamic-cairo-day-tour",
-    "destination": "/islamic-cairo-day-tour",
+    "destination": "/the-grand-islamic-day-tour",
     "permanent": true
   },
   {
     "source": "/es/guide/cairo/el-corazon-espiritual-de-el-cairo-excursion-islamica-de-un-dia-por-el-cairo",
-    "destination": "/es/tour-privado-por-el-cairo-islamico-ciudadela-mezquitas-y-jan-el-jalili",
+    "destination": "/es/el-gran-tour-por-el-cairo-islamico-siete-siglos-en-un-dia",
     "permanent": true
   },
   {
     "source": "/ja/guide/cairo/kairo-no-seishin-teki-na-kokoro-isuramu-kairo-higaeri-tsua",
-    "destination": "/ja/isuramu-chiku-kairodeitsua-josai-mosuku-han-hariri",
+    "destination": "/ja/gurandoisuramikkukairo-deitsua-ichi-nichi-de-roku-seiki",
     "permanent": true
   },
   {
@@ -1639,7 +1654,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/islamic-cairo-day-tour",
-    "destination": "/ja/isuramu-chiku-kairodeitsua-josai-mosuku-han-hariri",
+    "destination": "/ja/gurandoisuramikkukairo-deitsua-ichi-nichi-de-roku-seiki",
     "permanent": true
   },
   {
@@ -6544,7 +6559,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/islamic-cairo-day-tour",
-    "destination": "/es/tour-privado-por-el-cairo-islamico-ciudadela-mezquitas-y-jan-el-jalili",
+    "destination": "/es/el-gran-tour-por-el-cairo-islamico-siete-siglos-en-un-dia",
     "permanent": true
   },
   {
@@ -12049,7 +12064,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/el-corazon-espiritual-de-el-cairo-excursion-islamica-de-un-dia-por-el-cairo",
-    "destination": "/es/tour-privado-por-el-cairo-islamico-ciudadela-mezquitas-y-jan-el-jalili",
+    "destination": "/es/el-gran-tour-por-el-cairo-islamico-siete-siglos-en-un-dia",
     "permanent": true
   },
   {
