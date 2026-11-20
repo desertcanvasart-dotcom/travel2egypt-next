@@ -1,0 +1,1440 @@
+{
+ "_createdAt": "2026-05-28T11:45:32Z",
+ "_id": "tour.private-tour-transfer-from-aswan-to-luxor-by-bus",
+ "_rev": "pzh5FM4q1DBt3H4LGqNNJZ",
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:46Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers leaving a Nile cruise or finishing Aswan who want the temples on the road read with proper attention, not skimmed"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros que dejan un crucero del Nilo o terminan Asuán y quieren los templos de ruta leídos con atención, no de pasada"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "アスワンでの滞在やクルーズを終えてルクソールへ移動する旅人で、二神殿を片づけながら陸路を取りたい方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "The Nile Road: Private Transfer from Aswan to Luxor"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "The drive from Aswan to Luxor is not a journey to be hurried through. The road north follows the river for most of its 215 kilometres, threading between sugarcane fields and villages, the Nile appearing and disappearing to the west. It takes roughly four to five hours at a steady pace — longer if you stop, which you should seriously consider. Two temples stand directly on the route, and both are worth the detour."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a transfer, not a guided tour. The vehicle is "
+      },
+      {
+       "_key": "000000000005",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "private, exclusive to your party"
+      },
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": ", the driver is yours alone, and the pace is largely your own. It "
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "takes bookings from a single traveller upward"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": ", with no minimum group, and "
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "one bottle of mineral water per person"
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": " is provided. It suits travellers who have finished their time in Aswan — whether staying in the city or disembarking from a Nile cruise — and need a practical, comfortable way to reach Luxor without doubling back to an airport or boarding an overnight train. It also suits those who want one last piece of Upper Egypt before the holiday ends."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "If you are travelling with luggage, an early morning departure from Aswan is advisable. The road is well maintained and the drive straightforward, but an early start leaves room for temple stops without arriving in Luxor in the dark."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "The honest word on pace: this is not a leisurely scenic drive. The road passes through working towns as well as agricultural land, and the landscape, though interesting, is not dramatic in the way that the Nile valley north of Luxor can be. The temples are the reason to take the overland route rather than fly."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Departure is from your hotel in Aswan, or from the Aswan cruise terminal if you are joining the transfer from a boat. The driver will confirm the pick-up point in advance."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "The first optional stop, approximately 45 kilometres north of Aswan, is "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Kom Ombo"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": ". The temple here is genuinely unusual: it was built during the Ptolemaic period, largely between the 2nd and 1st centuries BC, and dedicated jointly to two gods — Sobek, the crocodile deity, and Horus the Elder. The double dedication is not symbolic. The sanctuary is architecturally symmetrical, with two parallel axes running from the entrance pylons to the twin sanctuaries at the rear, one for each god. Nothing else in Egypt is quite arranged this way. The setting on a bend of the Nile adds to the appeal; the temple sits close to the water's edge, and the light in the early morning is excellent. Within the complex, the Crocodile Museum displays mummified crocodiles recovered from nearby catacombs — a small collection, but a real one, and it contextualises the Sobek cult in a way that the temple carvings alone do not."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "From Kom Ombo, the road continues a further 60 kilometres to "
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Edfu"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": ", home to the Temple of Horus — the best-preserved ancient Egyptian temple still standing. Construction began under Ptolemy III in 237 BC and was completed roughly 180 years later. Because it was buried under sand and silt for much of the medieval period, and because local settlement encroached from above rather than demolishing it, the temple emerged from 19th-century excavations in remarkable condition. The pylons, at 36 metres, are intact. The hypostyle halls retain their ceilings. The inner sanctuary still holds the granite shrine that once housed the cult statue. For travellers who have been inside the heavily reconstructed or partially ruined temples of the Luxor and Karnak complexes, Edfu gives a clear sense of what a complete Ptolemaic temple actually looked like — proportioned, enclosed, and deliberately imposing. Allow at least an hour if you stop here."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "After Edfu, the road runs north for another 115 kilometres to Luxor. There are no further significant historical stops on this stretch, and the landscape becomes flatter and more agricultural. Arrival at your chosen destination in Luxor — hotel, cruise ship berth, or the airport — completes the transfer."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "If neither temple stop appeals, or if time is short, the direct transfer is a clean, no-interruption journey of around four hours."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "The Temples in Brief"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "A note for those adding stops without a guide: both Kom Ombo and Edfu are easily navigated independently if you are a confident traveller and comfortable reading site maps. The carvings at both temples are labelled in situ with English signage, though selectively. An Egyptologist guide, available as an optional add-on, will make significantly more sense of what you are looking at — particularly at Edfu, where the mythological texts on the walls are among the most complete surviving accounts of the Horus cycle. Whether the additional cost is worthwhile depends on your interest level; the temples reward knowledge but are visually impressive in their own right without commentary."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Entrance fees to both sites are not included in the transfer price and are paid on arrival in Egyptian pounds. Bring cash; card facilities at temple gates are inconsistent."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "The road between Aswan and Luxor is one of the oldest inhabited corridors in the world, and the temples along it were already ancient when Rome was still a republic."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Four hours in a comfortable car, and two thousand years of history at the roadside — it is a reasonable use of a morning."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "Adding the Egyptologist makes a real difference at Edfu, where the Horus mythological cycle is dense. The concierge can arrange the guide and your Luxor handover at the close."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "La carretera del Nilo: traslado privado de Asuán a Luxor"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "El traslado privado que reaprovecha el desplazamiento entre las dos ciudades para encajar dos de los templos ptolemaicos más íntegros del país."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "La conducción de Asuán a Luxor no es un trayecto al que convenga apresurarse. La carretera al norte sigue el río buena parte de sus 215 kilómetros, cosiendo campos de caña de azúcar y aldeas con el Nilo apareciendo y desapareciendo al oeste. Lleva entre cuatro y cinco horas a ritmo sostenido, más si se hacen paradas, y debería considerarse la posibilidad seriamente. Dos templos quedan directamente sobre la ruta, y ambos merecen el desvío."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Es un traslado, no un tour guiado. El vehículo es "
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "privado, en exclusiva para su grupo"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": ", el conductor es enteramente suyo y el ritmo, en gran medida, también. "
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Se reserva desde un único viajero"
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": ", sin tamaño mínimo de grupo, y se entrega "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "una botella de agua mineral por persona"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": ". Conviene al viajero que ha cerrado su tiempo en Asuán —tanto si pernoctaba en la ciudad como si desembarca de un crucero del Nilo— y necesita una manera práctica y cómoda de llegar a Luxor sin volver a un aeropuerto ni abordar un tren nocturno. Se ajusta también a quien quiere una última pieza de Alto Egipto antes de que termine el viaje."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Si viaja con equipaje, conviene una salida temprana desde Asuán. La carretera está bien mantenida y la conducción es directa, pero un arranque a primera hora deja margen para las paradas en los templos sin llegar a Luxor de noche."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Una palabra honesta sobre el ritmo: este no es un trayecto escénico pausado. La carretera atraviesa localidades en activo además de terreno agrícola, y el paisaje, aunque interesante, no es dramático al modo en que puede serlo el valle al norte de Luxor. Los templos son la razón para tomar la ruta por tierra en vez de volar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "La salida se realiza desde su hotel de Asuán, o desde la terminal de cruceros de Asuán si se incorpora al traslado desde un barco. El conductor confirmará el punto de recogida por adelantado."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "La primera parada opcional, a unos 45 kilómetros al norte de Asuán, es "
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Kom Ombo"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": ". El templo de aquí es genuinamente atípico: se construyó durante el periodo ptolemaico, en gran medida entre los siglos II y I a. C., y se consagró conjuntamente a dos dioses: Sobek, divinidad cocodrilo, y Horus el Viejo. La doble consagración no es simbólica. El santuario es arquitectónicamente simétrico, con dos ejes paralelos que arrancan de los pilonos de entrada y desembocan en los dos santuarios gemelos del fondo, uno para cada dios. Ningún otro yacimiento en Egipto se dispone así. El emplazamiento sobre un meandro del Nilo añade atractivo; el templo se asienta cerca del borde del agua y la luz a primera hora de la mañana es excelente. Dentro del recinto, el Museo del Cocodrilo expone cocodrilos momificados recuperados de catacumbas cercanas: una colección pequeña, pero real, que contextualiza el culto a Sobek de una manera que las tallas del templo, por sí solas, no consiguen."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde Kom Ombo, la carretera continúa otros 60 kilómetros hasta "
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Edfu"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": ", sede del Templo de Horus, el templo egipcio antiguo mejor conservado que sigue en pie. La construcción se inició bajo Ptolomeo III en el 237 a. C. y se completó unos 180 años después. Por haber estado sepultado bajo arena y aluvión la mayor parte del periodo medieval, y por haber recibido el avance del asentamiento local por encima en lugar de ser demolido, el templo emergió de las excavaciones del siglo XIX en condiciones notables. Los pilonos, de 36 metros, están íntegros. Las salas hipóstilas conservan sus techos. El sanctasanctórum interior aún alberga el santuario de granito que custodiaba la estatua de culto. Para el viajero que ha entrado en los templos fuertemente reconstruidos o parcialmente arruinados de los complejos de Luxor y Karnak, Edfu da una idea clara de cómo se veía realmente un templo ptolemaico completo: proporcionado, cerrado y deliberadamente imponente. Reserve al menos una hora si decide detenerse."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Tras Edfu, la carretera prosigue al norte otros 115 kilómetros hasta Luxor. No hay más paradas históricas significativas en este tramo, y el paisaje se vuelve más llano y más agrícola. La llegada al destino elegido en Luxor —hotel, atracadero de crucero o aeropuerto— cierra el traslado."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Si ninguna de las paradas le interesa, o el tiempo es ajustado, el traslado directo es un trayecto limpio y sin interrupciones de unas cuatro horas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Los templos, en breve"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Una nota para quien añada paradas sin guía: tanto Kom Ombo como Edfu son recorribles de forma independiente si se trata de un viajero confiado y cómodo con los planos de yacimiento. Las tallas de ambos templos están señalizadas in situ con cartelería en inglés, aunque de manera selectiva. Un guía egiptólogo, disponible como complemento opcional, hará mucho más legible lo que se está viendo, en particular en Edfu, donde los textos mitológicos de los muros se hallan entre los relatos más completos del ciclo de Horus que se conservan. Si el coste adicional compensa depende del nivel de interés; los templos recompensan el conocimiento, pero son visualmente impresionantes por derecho propio incluso sin comentario."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Las entradas a ambos yacimientos no se incluyen en el precio del traslado y se abonan a la llegada en libras egipcias. Lleve efectivo; las instalaciones de tarjeta en las puertas de los templos son inconsistentes."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "La carretera entre Asuán y Luxor es uno de los corredores habitados más antiguos del mundo, y los templos que la jalonan ya eran antiguos cuando Roma seguía siendo una república."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Cuatro horas en un coche cómodo y dos mil años de historia al borde de la carretera: un uso razonable de una mañana."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": "Sumar el egiptólogo marca una diferencia real en Edfu, donde el ciclo mitológico de Horus es denso. El concierge puede gestionar el guía y la entrega en Luxor al cierre."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "ナイルの道：アスワンからルクソールへのプライベート送迎"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワンからルクソールへのドライブは、急いで通り抜けるべき道のりではありません。北への道は、その215キロメートルの大半で川沿いをたどり、サトウキビ畑と村々のあいだを縫い、ナイルが西に現れては消えていきます。一定のペースでおよそ4時間から5時間かかります——途中で止まればより長く、そしてそれを真剣にご検討いただく価値があります。二つの神殿がルートの真上に立っており、どちらも寄り道する価値があります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "これは送迎であって、ガイド付きツアーではありません。車両は"
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "お客様のご一行だけのプライベートな専用車"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "で、ドライバーはお客様だけのもの、そしてペースはおおむねお客様自身のものです。"
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "一名から承り"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "、最少催行人数はなく、"
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ミネラルウォーター1人1本"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "が提供されます。アスワンでの時間を終えた方——街に滞在していたにせよ、ナイルクルーズから下船するにせよ——で、空港へ引き返したり夜行列車に乗ったりせずに、実用的で快適にルクソールへたどり着く手段を必要とする方に向いています。また、休暇が終わる前に上エジプトをもう一片味わいたい方にも向いています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "荷物を伴ってのご移動なら、アスワンからの早朝の出発をおすすめします。道はよく整備されていてドライブは順調ですが、早く出発すれば、暗くなる前にルクソールへ着きつつ神殿に立ち寄る余裕が生まれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "ペースについての正直な一言——これはのんびりとした景観のドライブではありません。道は農地だけでなく働く町々も通り抜け、その風景は、興味深くはあっても、ルクソールより北のナイル渓谷のような劇的さはありません。神殿こそが、飛行機ではなく陸路を取る理由です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "出発はアスワンのホテルから、あるいはボートから送迎にご参加なら、アスワンのクルーズ・ターミナルからです。ドライバーがお迎え地点を事前に確認します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "最初の任意の立ち寄り先は、アスワンの北およそ45キロメートルの"
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "コム・オンボ"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "です。ここの神殿は本当に異例です——プトレマイオス朝の時代、おおむね紀元前2世紀から1世紀のあいだに築かれ、二柱の神に共同で奉献されました——ワニの神セベクと、年長のホルスです。この二重の奉献は象徴的なものではありません。至聖所は建築的に対称をなしており、入口の塔門から後方の二つの至聖所まで、各神に一本ずつ、二本の並行する軸が走っています。エジプトのほかのどこも、これほどの配置ではありません。ナイルの湾曲部という立地が魅力を加えています——神殿は水際近くに立ち、早朝の光が見事です。複合体の内には、ワニの博物館が、近くの地下墓所から回収されたミイラ化されたワニを展示しています——小さな、しかし本物のコレクションで、神殿の浮彫だけでは果たせない仕方でセベク信仰に文脈を与えています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "コム・オンボから道はさらに60キロメートル続いて"
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "エドフ"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "へ、いまなお立つ古代エジプトの神殿で最もよく保存されたホルス神殿の地です。建設は紀元前237年にプトレマイオス3世のもとで始まり、およそ180年後に完成しました。中世の大半のあいだ砂と泥に埋もれていたこと、そして地元の集落が上から押し寄せて取り壊すのではなくその上に居着いたことから、神殿は19世紀の発掘で目覚ましい状態で姿を現しました。塔門は36メートルで、無傷です。列柱広間は天井を保っています。内陣には、かつて礼拝像を納めた花崗岩の厨子がいまも残っています。ルクソールやカルナックの複合体の、大いに復元されたり部分的に廃墟となったりした神殿に入ったことのある方にとって、エドフは、完全なプトレマイオス朝の神殿が実際にどう見えたのか——均整がとれ、囲われ、ことさらに堂々とした姿——を明瞭に感じさせてくれます。ここで立ち寄るなら、少なくとも1時間を見込んでください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "エドフのあと、道は北へさらに115キロメートル、ルクソールへと走ります。この区間にこれ以上の重要な歴史的な立ち寄り先はなく、風景はより平坦に、より農耕的になります。ルクソールでお選びの目的地——ホテル、クルーズ船の停泊地、あるいは空港——への到着で、送迎は完了します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "どちらの神殿の立ち寄りもお好みでない場合、あるいは時間が足りない場合は、直行の送迎は、中断のない、約4時間のすっきりとした道のりになります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "神殿について手短に"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "ガイドなしで立ち寄りを加える方への注記——コム・オンボとエドフは、自信のある旅人で、遺跡の地図を読むのに不自由しなければ、どちらも独力で容易に巡れます。両神殿の彫刻は、選択的にではありますが、その場で英語の表示が付されています。任意の追加として手配できるエジプト学ガイドは、目にしているものをはるかに筋道立てて理解させてくれます——とりわけエドフでは、壁の神話の文が、ホルスの物語について現存する最も完全な記録のひとつなのです。その追加費用が見合うかどうかは、お客様の関心の度合い次第です。神殿は知識に報いますが、解説なしでもそれ自体で視覚的に印象的です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "両遺跡への入場料は送迎の料金に含まれず、到着時にエジプト・ポンドでお支払いです。現金をご持参ください。神殿の門でのカード設備は当てになりません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "アスワンとルクソールのあいだの道は、世界でも最も古くから人の住んできた回廊のひとつで、その沿道の神殿は、ローマがまだ共和政だったころには、すでに古代のものでした。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "快適な車での4時間、そして道端の二千年の歴史——それは、一朝の、理にかなった使い方です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "ガイドを付けるか、両神殿に立ち寄るか直行か、ルクソール側の到着先（ホテル／クルーズ船／空港）——コンシェルジュが、出発時刻と到着の希望に合わせて段取りを整えます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000040",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58758",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "At its plainest this is a transfer, and it does honest work as one — four hours or so, door to door. The stops are where it becomes a day: Kom Ombo, Edfu, both, or neither, depending on the hour you need to be in Luxor. Give us your two bookends and we'll set the departure."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "En su versión más sencilla esto es un traslado, y como tal cumple: unas cuatro horas de puerta a puerta. Las paradas son lo que lo convierte en un día — Kom Ombo, Edfu, ambas o ninguna, según la hora a la que necesites estar en Luxor. Danos tus dos extremos y fijamos la salida."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "何より正直に言えば、これは送迎です——ドアからドアまでおよそ四時間の、堅実な移動です。それを一日の旅に変えるのが途中の寄り道で、コム・オンボ、エドフ、その両方、あるいは直行と、ルクソールに着くべき時刻に合わせて選べます。出発地と到着後のご予定をお知らせいただければ、出発時刻を整えます。"
+  }
+ ],
+ "durationHours": 4,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Half day · ~4–5 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Medio día · ~4–5 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "半日・約4〜5時間"
+  }
+ ],
+ "exclusions": [
+  {
+   "_key": "dec8jezmqx",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Entrance fees to both sites are not included in the transfer price and are paid on arrival in Egyptian pounds.",
+   "text": "Entrance fees to both sites"
+  },
+  {
+   "_key": "j0t9f154n3",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "An Egyptologist guide, available as an optional add-on, will make significantly more sense of what you are looking at — particularly at Edfu, where the mythological texts on the walls are among the most complete surviving accounts of the Horus cycle.",
+   "text": "Egyptologist guide (optional add-on)"
+  },
+  {
+   "_key": "ho2r34qraq",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Las entradas a ambos yacimientos no se incluyen en el precio del traslado y se abonan a la llegada en libras egipcias.",
+   "text": "Entradas a ambos yacimientos (se abonan a la llegada en libras egipcias)"
+  },
+  {
+   "_key": "y63g4cqe6i",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Un guía egiptólogo, disponible como complemento opcional, hará mucho más legible lo que se está viendo, en particular en Edfu, donde los textos mitológicos de los muros se hallan entre los relatos más completos del ciclo de Horus que se conservan.",
+   "text": "Guía egiptólogo (complemento opcional)"
+  },
+  {
+   "_key": "nun9kswwp2",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "両遺跡への入場料は送迎の料金に含まれず、到着時にエジプト・ポンドでお支払いです。",
+   "text": "両遺跡への入場料"
+  },
+  {
+   "_key": "lumho0phkw",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "これは送迎であって、ガイド付きツアーではありません。",
+   "text": "ガイド（送迎であって、ガイド付きツアーではない）"
+  }
+ ],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 93,
+  "ja": 100
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The columned facade of the Temple of Kom Ombo floodlit against a deep blue night sky beside the Nile"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "La fachada con columnas del Templo de Kom Ombo iluminada contra el cielo nocturno azul, junto al Nilo"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ナイルのほとり、濃紺の夜空を背にライトアップされたコム・オンボ神殿の列柱のファサード。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-55471b2fb7764e6d3b9ed67b3f1a04741a9a0e3b-3000x2001-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The Temple of Kom Ombo glows above the Nile at night."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El Templo de Kom Ombo brilla sobre el Nilo de noche."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "夜、ナイルのほとりに輝くコム・オンボ神殿。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "i4geg8t2zn",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The vehicle is private, exclusive to your party, the driver is yours alone, and the pace is largely your own.",
+   "text": "Private vehicle, exclusive to your party"
+  },
+  {
+   "_key": "v9u2y5mu5y",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The vehicle is private, exclusive to your party, the driver is yours alone, and the pace is largely your own.",
+   "text": "Driver"
+  },
+  {
+   "_key": "6pn1p88j65",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "It takes bookings from a single traveller upward, with no minimum group, and one bottle of mineral water per person is provided.",
+   "text": "One bottle of mineral water per person"
+  },
+  {
+   "_key": "zgajejpwu8",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Departure is from your hotel in Aswan, or from the Aswan cruise terminal if you are joining the transfer from a boat.",
+   "text": "Pick-up from your hotel in Aswan or the Aswan cruise terminal"
+  },
+  {
+   "_key": "tf3qbnr9kk",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Arrival at your chosen destination in Luxor — hotel, cruise ship berth, or the airport — completes the transfer.",
+   "text": "Drop-off at your chosen destination in Luxor (hotel, cruise ship berth, or the airport)"
+  },
+  {
+   "_key": "fctnf3qap6",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El vehículo es privado, en exclusiva para su grupo, el conductor es enteramente suyo y el ritmo, en gran medida, también.",
+   "text": "Vehículo privado, en exclusiva para su grupo"
+  },
+  {
+   "_key": "wbi6xvksin",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El vehículo es privado, en exclusiva para su grupo, el conductor es enteramente suyo y el ritmo, en gran medida, también.",
+   "text": "Conductor privado"
+  },
+  {
+   "_key": "grmw5gjk9c",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se reserva desde un único viajero, sin tamaño mínimo de grupo, y se entrega una botella de agua mineral por persona.",
+   "text": "Una botella de agua mineral por persona"
+  },
+  {
+   "_key": "4mhywyonii",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La salida se realiza desde su hotel de Asuán, o desde la terminal de cruceros de Asuán si se incorpora al traslado desde un barco.",
+   "text": "Salida desde su hotel de Asuán o desde la terminal de cruceros de Asuán"
+  },
+  {
+   "_key": "samnheioa6",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La llegada al destino elegido en Luxor —hotel, atracadero de crucero o aeropuerto— cierra el traslado.",
+   "text": "Llegada al destino elegido en Luxor (hotel, atracadero de crucero o aeropuerto)"
+  },
+  {
+   "_key": "4fquf1nvzm",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "車両はお客様のご一行だけのプライベートな専用車で、ドライバーはお客様だけのもの、そしてペースはおおむねお客様自身のものです。",
+   "text": "プライベートな専用車"
+  },
+  {
+   "_key": "lthl9hi636",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "車両はお客様のご一行だけのプライベートな専用車で、ドライバーはお客様だけのもの、そしてペースはおおむねお客様自身のものです。",
+   "text": "専属ドライバー"
+  },
+  {
+   "_key": "2zsgvhu1nk",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "一名から承り、最少催行人数はなく、ミネラルウォーター1人1本が提供されます。",
+   "text": "ミネラルウォーター1人1本"
+  },
+  {
+   "_key": "7d2j07zvsq",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "出発はアスワンのホテルから、あるいはボートから送迎にご参加なら、アスワンのクルーズ・ターミナルからです。",
+   "text": "アスワンのホテルまたはクルーズ・ターミナルからの出発"
+  },
+  {
+   "_key": "b5wod6kfg5",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ルクソールでお選びの目的地——ホテル、クルーズ船の停泊地、あるいは空港——への到着で、送迎は完了します。",
+   "text": "ルクソールの目的地（ホテル、クルーズ船の停泊地、空港）への到着"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/private-tour-transfer-from-aswan-to-luxor-by-bus/"
+ },
+ "priceFrom": 82,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_private_tour_abu_simble_by_bus_from_aswan",
+   "_ref": "tour.private-tour-abu-simble-by-bus-from-aswan",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_abu_simble_by_plane_from_aswan",
+   "_ref": "tour.abu-simble-by-plane-from-aswan",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_abu_simbel_temples_day_tour_from_aswan",
+   "_ref": "tour.abu-simbel-temples-day-tour-from-aswan",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_aswan_airport_transfer",
+   "_ref": "tour.aswan-airport-transfer",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Private to your party · air-conditioned vehicle · professional driver · optional Egyptologist guide add-on · pickup from hotel or cruise berth"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Privado a su grupo · vehículo con aire acondicionado · conductor profesional · egiptólogo opcional como complemento · recogida en hotel o atracadero de crucero · Flexible, con paradas opcionales"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "完全プライベート・専用車両・ガイドは任意の追加・ホテル／クルーズ・ターミナルからのお迎え"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Around 4–5 hours direct; up to 7–8 with both temple stops"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Alrededor de 4–5 horas en directo; hasta 7–8 con ambas paradas en templos"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "直行でおよそ4時間、両神殿に立ち寄って5〜6時間"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Aswan → optional stops at Kom Ombo and Edfu (Temple of Horus) → Luxor"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Asuán → paradas opcionales en Kom Ombo y Edfu (templo de Horus) → Luxor"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "アスワン → コム・オンボ（任意） → エドフ（任意） → ルクソール"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "private-tour-transfer-from-aswan-to-luxor-by-bus"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "traslado-privado-de-asuan-a-luxor-con-paradas"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "puraibeto-sogei-asuwan-kara-rukusoru-e-rikuro-de-tochu-gesha"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A private car links Aswan and Luxor in roughly four hours — with the option to break the journey at Kom Ombo and Edfu, two of Egypt's most rewarding temples."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Un coche privado conecta Asuán y Luxor en aproximadamente cuatro horas, con la opción de partir el trayecto en Kom Ombo y Edfu, dos de los templos más recompensantes de Egipto."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "プライベートカーがアスワンとルクソールをおよそ4時間で結びます——エジプト屈指の報いある二つの神殿、コム・オンボとエドフで道のりを区切る選択肢つきで。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Private Transfer: Aswan to Luxor by Road, With Stops"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Traslado privado de Asuán a Luxor con paradas"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "プライベート送迎：アスワンからルクソールへ陸路で、途中下車つき"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}
