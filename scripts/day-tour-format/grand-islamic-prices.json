@@ -1,0 +1,6 @@
+{
+  "_note": "Per-person selling prices in EUR for 2 travellers sharing, by guide language. Rule (lib/publish/public-rate in Autoura): engine figure for 2 travellers, house margin 30 %, lowest season, higher of EU / other, cheapest complete tier, rounded UP to the whole euro; ES and JA = the same with a Spanish / Japanese guide. Source: Autoura T2E-DT-CAI-10 (Gayer-Anderson, the Citadel, Sultan Hassan (its ticket covers the Rifai), Beit el-Suhaymi, Al-Muizz, Khan El Khalili, lunch, water, guide, the Cairo car 'HOTEL- DAY TOUR'). Autoura has no fee for the Mosque of Ibn Tulun (entry is usually free; open item To confirm 1), so it adds nothing. Read 20 Nov: budget tier complete in every language, EN €92.28, ES €103.29, JA €119.80, rounded up. Live today: EN €79, ES €90, JA €97.",
+  "en": 93,
+  "es": 104,
+  "ja": 120
+}
