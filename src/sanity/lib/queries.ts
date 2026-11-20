@@ -373,7 +373,8 @@ export const tourBySlugQuery = (locale: Locale) => groq`
               name,
               "ref": guideRef->{
                 _type,
-                "slug": ${localizedSlug('slug', locale)},
+                // Blog articles (one document per language) keep a plain slug.current.
+                "slug": coalesce(${localizedSlug('slug', locale)}, slug.current),
                 "citySlug": select(_type == "guideArticle" => ${localizedSlug('parentCity->slug', locale)}, null)
               }
             }
@@ -400,7 +401,8 @@ export const tourBySlugQuery = (locale: Locale) => groq`
                 name,
                 "ref": guideRef->{
                   _type,
-                  "slug": ${localizedSlug('slug', locale)},
+                  // Blog articles (one document per language) keep a plain slug.current.
+                  "slug": coalesce(${localizedSlug('slug', locale)}, slug.current),
                   "citySlug": select(_type == "guideArticle" => ${localizedSlug('parentCity->slug', locale)}, null)
                 }
               }
