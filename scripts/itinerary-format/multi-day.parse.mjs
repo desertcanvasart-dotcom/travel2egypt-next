@@ -19,8 +19,8 @@ const SEG = {
 const SEG_HEADING = { en: ['Early morning'], es: ['A primera hora'], ja: ['早朝'] };
 const ROW = {
   en: { 'The day': 'sites', Overnight: 'overnight', Meals: 'meals', Travel: 'travel', Pace: 'pace' },
-  es: { 'El día': 'sites', Noche: 'overnight', Comidas: 'meals', Traslados: 'travel', Ritmo: 'pace' },
-  ja: { この日の見学: 'sites', 宿泊: 'overnight', 食事: 'meals', 移動: 'travel', ペース: 'pace' },
+  es: { 'El día': 'sites', Noche: 'overnight', Comidas: 'meals', Traslados: 'travel', Trayecto: 'travel', Ritmo: 'pace' },
+  ja: { この日の見学: 'sites', この日の見どころ: 'sites', 宿泊: 'overnight', 食事: 'meals', 移動: 'travel', ペース: 'pace' },
 };
 const MEAL = { en: { breakfast: 'breakfast', lunch: 'lunch', dinner: 'dinner' }, es: { desayuno: 'breakfast', almuerzo: 'lunch', cena: 'dinner' }, ja: { 朝食: 'breakfast', 昼食: 'lunch', 夕食: 'dinner' } };
 const SEE_DAY = { en: /[:,] see Day (\d+)$/, es: /[:,] ver día (\d+)$/, ja: /[：、](\d+)日目をご参照ください$/ };
@@ -50,7 +50,7 @@ export function parse(lang, { locked, stayKeys = null, jaSites = {}, dayTitles =
   const days = parts.slice(1).map((chunk, idx) => {
     const lines = chunk.split('\n');
     const h = lines[0].trim(); // "Day 1 · Aswan" / "1日目・アスワン"
-    const place = clean(h.replace(/^(Day|Día)\s*\d+\s*·\s*/, '').replace(/^\d+日目・/, ''));
+    const place = clean(h.replace(/^(Day|Día)\s*\d+\s*·\s*/, '').replace(/^\d+日目\s*[・·]\s*/, ''));
     const day = idx + 1;
     let rest = lines.slice(1).join('\n');
     // Closing line after the last day (after a --- rule).
@@ -68,6 +68,7 @@ export function parse(lang, { locked, stayKeys = null, jaSites = {}, dayTitles =
     const optional = [];
     for (const p of ps) {
       if (p.startsWith('>')) continue; // "More about this stop →" pointer
+      if (/^(More about this (stop|day)|Más sobre (esta parada|este día)|この(見どころ|日)についてもっと見る)\s*→$/.test(p)) continue; // the same pointer, written as a plain line
       const pl = p.split('\n');
       if (labelled(pl[0]) && ROW[lang][labelled(pl[0])[0]]) {
         for (const l of pl) { const lv = labelled(l); if (lv && ROW[lang][lv[0]]) rows[ROW[lang][lv[0]]] = lv[1]; }
@@ -93,8 +94,9 @@ export function parse(lang, { locked, stayKeys = null, jaSites = {}, dayTitles =
     }
     if (segments.length && body.length) throw new Error(`${lang} day ${day}: mixed segments and body`);
     // An arrival or departure day may have no "The day:" row (no sites) and no "Meals:" row.
-    const sites = rows.sites == null ? [] : lang === 'ja' && JA_SITES[day] ? JA_SITES[day] : rows.sites.split(lang === 'ja' ? '・' : ' · ').map((s) => s.trim());
-    if (rows.sites != null && sites.join(lang === 'ja' ? '・' : ' · ') !== rows.sites) throw new Error(`${lang} day ${day}: site split does not match the file`);
+    const jaDot = lang === 'ja' && rows.sites != null && rows.sites.includes('·'); // 「　·　」 between names that contain 「・」
+    const sites = rows.sites == null ? [] : lang === 'ja' && JA_SITES[day] ? JA_SITES[day] : jaDot ? rows.sites.split(/\s*·\s*/).map((s) => s.trim()) : rows.sites.split(lang === 'ja' ? '・' : ' · ').map((s) => s.trim());
+    if (rows.sites != null && !jaDot && sites.join(lang === 'ja' ? '・' : ' · ') !== rows.sites) throw new Error(`${lang} day ${day}: site split does not match the file`);
     // A note in brackets may itself contain the separator (JA 「ナギーブ・マフフーズ」), so pieces are rejoined until the bracket closes.
     const mealParts = (rows.meals == null ? [] : rows.meals.split(sep)).reduce((acc, piece) => {
       const last = acc[acc.length - 1];
@@ -121,7 +123,9 @@ export function parse(lang, { locked, stayKeys = null, jaSites = {}, dayTitles =
     for (const blk of t.split(/\n(?=\*\*)/)) { const m = blk.match(/^\*\*(.+?)\*\*/); if (m) out.push({ h: m[1], items: bullets(blk) }); }
     return out;
   };
-  const stayRows = paras(stay.text).map(labelled).filter(Boolean);
+  let stayRows = paras(stay.text).map(labelled).filter(Boolean);
+  // Stay rows written as one bulleted list ("- **Hotel:** …"): one row per bullet.
+  if (!stayRows.length) stayRows = stay.text.split('\n').filter((l) => /^- \*\*/.test(l)).map((l) => labelled(l.slice(2))).filter(Boolean);
   const STAY_KEYS = stayKeys;
   if (STAY_KEYS && stayRows.length !== STAY_KEYS.length) throw new Error(`${lang}: expected ${STAY_KEYS.length} stay rows, found ${stayRows.length}`);
   const [inc, exc] = sub(incl.text);
