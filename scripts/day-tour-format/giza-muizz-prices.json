@@ -1,0 +1,6 @@
+{
+  "_note": "Per-person selling prices in EUR for 2 travellers sharing, by guide language — the LAST step before publishing. Rule (lib/publish/public-rate in Autoura): engine figure for 2 travellers, house margin 30 %, lowest season, higher of EU / other, cheapest complete tier, rounded UP to the whole euro; ES and JA = the same with a Spanish / Japanese guide. Source: Autoura T2E-DT-CAI-06 (572be71a-…, 'Pyramids of Giza, the Sphinx & Old Cairo', attractions Giza Plateau, Al Muizz Street, Khan El Khalili). Read 20 Nov: INCOMPLETE in every language — no Cairo day-tour car card covers Giza Plateau + Al Muizz Street + Khan El Khalili (cards: 'HOTEL- DAY TOUR'), so transport is missing. Fix in Autoura: add those sights to the 'HOTEL- DAY TOUR' card's 'Sights covered' (Rates → Transportation), then re-read. The partial engine figures, WITHOUT the car, were EN €56.17, ES €67.18, JA €83.69 (budget tier) — not usable. Live today: EN €86, ES €97, JA €104. The import refuses --apply while any is null.",
+  "en": null,
+  "es": null,
+  "ja": null
+}
