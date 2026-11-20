@@ -80,6 +80,7 @@ export interface SingleTour {
   citySlugsEn?: Array<string | null> | null;
   /** Owner-approved "Make it your own" options (this language). */
   approvedOptions?: string[] | null;
+  approvedOptionLinks?: Array<{ slug?: string | null } | null> | null;
   priceUpdatedAt?: string;
   relatedGuides?: Array<{ _id: string; _type?: string; title?: string; slug?: string; parentCity?: { slug?: string } | null }> | null;
   relatedGuideArticles?: Array<{ _id: string; _type?: string; title?: string; slug?: string; parentCity?: { slug?: string } | null }> | null;
@@ -213,6 +214,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
   // whole from intro.pickupLine. Pickup time, Back and Lunch come only from an
   // approved day-tour intro.
   const dayFormat = dayTourFormatReady(tour.dayTourFormat) ? tour.dayTourFormat : null;
+  const optionLinks = (tour.approvedOptionLinks ?? []).map((o) => o?.slug ?? null);
   const intro = dayFormat?.intro;
   const cairoGiza = (tour.citySlugsEn ?? []).some((c) => c === 'cairo' || c === 'giza');
   const pickupText = (() => {
@@ -321,6 +323,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
             <MakeItYourOwn
               locale={locale}
               options={tour.approvedOptions ?? []}
+              optionLinks={optionLinks}
               kind="day"
               slug={tour.slug}
               title={tour.title}
@@ -354,6 +357,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
                   included={included}
                   excluded={exclusionRows}
                   options={tour.approvedOptions ?? []}
+                  optionLinks={optionLinks}
                   beforeMakeItYours={accessBlock}
                   cta={
               <MidCta
