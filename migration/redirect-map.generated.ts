@@ -13,6 +13,21 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/fayoum-oasis-including-pyramids-of-meydum-hawara",
+    "destination": "/meidum-and-hawara-pyramids-from-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/oasis-de-fayoum-piramides-de-meidum-y-hawara-jornada-completa",
+    "destination": "/es/piramides-de-meidum-y-hawara-desde-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/faiyumuoashisu-meidumu-hawara-no-piramiddo-shujitsu-tsua",
+    "destination": "/ja/kairo-hatsu-meidumu-to-hawara-no-piramiddo",
+    "permanent": true
+  },
+  {
     "source": "/islamic-cairo-day-tour",
     "destination": "/the-grand-islamic-day-tour",
     "permanent": true
@@ -2079,7 +2094,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/fayoum-oasis-including-pyramids-of-meydum-hawara",
-    "destination": "/ja/faiyumuoashisu-meidumu-hawara-no-piramiddo-shujitsu-tsua",
+    "destination": "/ja/kairo-hatsu-meidumu-to-hawara-no-piramiddo",
     "permanent": true
   },
   {
@@ -6989,7 +7004,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/fayoum-oasis-including-pyramids-of-meydum-hawara",
-    "destination": "/es/oasis-de-fayoum-piramides-de-meidum-y-hawara-jornada-completa",
+    "destination": "/es/piramides-de-meidum-y-hawara-desde-el-cairo",
     "permanent": true
   },
   {
@@ -12499,7 +12514,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/oasis-de-fayoum-con-las-piramides-de-meydum-y-hawara",
-    "destination": "/es/oasis-de-fayoum-piramides-de-meidum-y-hawara-jornada-completa",
+    "destination": "/es/piramides-de-meidum-y-hawara-desde-el-cairo",
     "permanent": true
   },
   {
@@ -19849,7 +19864,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/faiyumuoashisu-meidumu-hawara-no-piramiddo-shujitsu-tsua",
-    "destination": "/fayoum-oasis-including-pyramids-of-meydum-hawara",
+    "destination": "/meidum-and-hawara-pyramids-from-cairo",
     "permanent": true
   },
   {

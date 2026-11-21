@@ -1,0 +1,2560 @@
+{
+ "_createdAt": "2026-05-13T22:24:50Z",
+ "_id": "wp-page-87835",
+ "_rev": "K2pi3eY73hTRu2vMGMyRaJ",
+ "_system": {
+  "base": {
+   "id": "wp-page-87835",
+   "rev": "WARbvYUZNjQADgogAemwi0"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:41Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Repeat visitors and history-minded travellers wanting Old Kingdom and Middle Kingdom pyramid evolution outside the Giza crowds, paired with a genuine Fayoum landscape"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros que ya conocen Guiza o buscan una ruta menos masiva"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "ギザの定番を済ませ、ピラミッド伝統の実験と失敗の側を、人混みのない場で読みたい方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "One Day, Three Eras: Fayoum Oasis, Meidum, and Hawara"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "Egypt's pyramid belt does not end at Giza. Drive roughly 100 kilometres south-west of Cairo and you enter a stretch of desert and cultivated depression that contains some of the country's least-visited and most architecturally candid monuments — structures that failed, were abandoned, or simply outlived the civilisations that built them. This tour strings three of those sites together in a single long day, bookended by an early hotel pick-up and an evening return."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "The Fayoum is not a marketing invention. It is a genuine oasis depression — fed by a Nile branch, farmed since at least the Middle Kingdom, and home to Lake Qarun, a saltwater remnant of a far larger prehistoric lake. The region sits about 80 metres below sea level at its lowest point, which gives the landscape a particular quality of light: flat, wide, and noticeably quieter than anywhere in greater Cairo. You will spend the first part of the morning here before the day pivots to stone."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Meidum and Hawara are the two pyramids on the itinerary, and they reward visitors precisely because they are incomplete or compromised. Meidum looks, from a distance, like a medieval tower rising from a rubble skirt; Hawara is a low, eroded mound that betrays almost nothing of its original scale. Neither is glamorous in the Giza sense, and that is the point. They show the pyramid tradition from the inside out — the experiments, the structural failures, the ambition that outpaced the engineering."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "This day suits travellers with a genuine interest in Egyptian history beyond the canonical sites, or anyone who has already done Cairo's main circuit and wants a longer view. It is a physically moderate day but a long one in terms of driving. Come prepared to spend several hours in a vehicle; the reward is access to monuments that most visitors to Egypt never see."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "The day begins early, with a hotel pick-up in Cairo before the city's traffic has fully assembled. The drive south-west towards Fayoum takes approximately 90 minutes on a good day — longer if you leave after rush hour builds. The road crosses the desert plateau before dropping into the oasis depression, where the air changes and the date palms begin."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "The first stop is "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Lake Qarun"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ", the saline lake at the northern edge of the oasis. It is one of Egypt's oldest lakes, and in the New Kingdom period it was substantially larger and far more ecologically rich — Ptolemaic-era settlements along its shores testify to the importance of its fisheries. Today it is quieter and somewhat diminished, but the scale of the water against the desert is striking in a way that is difficult to anticipate. The route then continues into "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Wadi El Rayan"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ", a protected area of interconnected lakes formed by agricultural drainage in the twentieth century. The lower lake feeds the upper via a modest waterfall — notable less for its size than for the fact that it is Egypt's only significant natural waterfall, which in this landscape counts for something."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "A brief passage through local villages and monasteries follows. The Fayoum has a long Coptic Christian history — several monasteries in the area predate the Arab conquest by centuries — and even a short walk through the neighbourhood gives a sense of the oasis as a lived-in place rather than a tourist site."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "By late morning the group moves on. "
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Meidum"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": " lies on the desert edge, roughly 50 kilometres from the oasis, and the drive there transitions quickly from the green of the cultivated depression back into pale open sand. The pyramid at Meidum was begun during the reign of Huni, last pharaoh of the Third Dynasty (c. 2600 BC), and completed or modified by Sneferu, founder of the Fourth. Its current form — a three-stepped tower surrounded by an enormous cone of collapsed casing stones — is the result of a structural failure, probably ancient rather than modern, that stripped away the outer skin and left the inner steps exposed. The guided tour of the site covers this structural history, and a descent into the internal corridor is possible (a low, sloping passage, not recommended for those with claustrophobia or mobility limitations). The nearby mastaba tombs of Rahotep and Nofret are among the finest of the Old Kingdom, their painted relief work still in good condition."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "After Meidum, the day pauses for lunch at a local restaurant — traditional Egyptian cooking, timing and venue approximate to local availability."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "The afternoon is given to "
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Hawara"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": ", another 25 kilometres or so to the north, back towards the oasis. This pyramid was built by Amenemhat III of the Twelfth Dynasty, c. 1850 BC, and was once the centrepiece of a mortuary complex so vast that Herodotus called it the Labyrinth and declared it more impressive than the pyramids themselves. The labyrinth is gone — stripped for building material over millennia — but the site retains considerable archaeological weight. The pyramid itself is constructed from mud brick rather than stone, which is why it has eroded so dramatically; from the outside it looks more like a natural hill than a monument. The guided overview covers both the pyramid's construction method and the historical significance of the Labyrinth, including what the Greek and later Roman accounts suggest about its scale."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "By late afternoon the return journey to Cairo is underway. Expect arrival back at your hotel in the early evening, depending on traffic."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "The Fayoum in Context"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "The oasis has been continuously inhabited for a very long time — Palaeolithic and Neolithic sites ring its edges, and a series of Ptolemaic towns (Karanis, Medinet Madi, Bakchias) have been excavated across the depression. The famous Fayoum portraits, found in Roman-period cemeteries here and now held in collections worldwide, are among the most lifelike paintings to survive from antiquity. None of those sites are on this particular itinerary, but they form part of the background density that makes the region worth more than a single visit."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "The two pyramids belong to different periods and represent different approaches to the same basic problem. Meidum is a transitional monument — architecturally between the step pyramids of the Third Dynasty and the true pyramids of the Fourth. Hawara belongs to the Middle Kingdom revival of pyramid building, some seven centuries later, when the form had returned to fashion but the resources and engineering tradition had shifted. Read against each other in a single afternoon, they compress a thousand years of royal funerary thinking into something comprehensible."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Egypt's most visited monuments survive partly because they were too large to dismantle. The sites in this day — a collapsed pyramid, an eroded mud-brick mound, a desert lake — endure for stranger, quieter reasons."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "That is what makes them worth the drive."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "The interior corridor at Meidum involves a steep descent and low ceiling — fine for most adults but worth flagging if mobility or claustrophobia is a concern. Tell us whether you want the full corridor descent included or skipped, and we will pace the day accordingly."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Un día, tres épocas: el oasis de Fayoum, Meidum y Hawara"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una salida privada al suroeste de El Cairo, donde oasis, lago y arquitectura experimental cambian la idea de las pirámides."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "El cinturón de pirámides de Egipto no termina en Guiza. Conduciendo unos 100 kilómetros al suroeste de El Cairo se entra en un tramo de desierto y depresión cultivada que reúne algunos de los monumentos menos visitados y más arquitectónicamente sinceros del país: estructuras que fracasaron, fueron abandonadas o sencillamente sobrevivieron a las civilizaciones que las construyeron. Este tour hilvana tres de esos sitios en una sola jornada larga, abierta con una recogida temprana en el hotel y cerrada con un regreso al anochecer."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "El Fayoum no es un invento de marketing. Es un oasis genuino en depresión —alimentado por un brazo del Nilo, cultivado al menos desde el Imperio Medio y sede del lago Qarún, un resto salobre de un lago prehistórico mucho mayor—. La región se sitúa unos 80 metros por debajo del nivel del mar en su punto más bajo, lo que da al paisaje una cualidad lumínica particular: plana, ancha y notablemente más silenciosa que cualquier punto del Gran Cairo. Aquí se pasará la primera parte de la mañana antes de que el día gire hacia la piedra."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Meidum y Hawara son las dos pirámides del itinerario, y recompensan al visitante precisamente porque están incompletas o comprometidas. Meidum parece, desde lejos, una torre medieval que se eleva sobre una falda de cascotes; Hawara es un montículo bajo y erosionado que apenas insinúa su escala original. Ninguna es glamurosa al estilo de Guiza, y ese es el punto. Muestran la tradición piramidal desde dentro: los experimentos, los fracasos estructurales, la ambición que se adelantó a la ingeniería."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Este día conviene a viajeros con un interés genuino en la historia egipcia más allá de los sitios canónicos, o a quienes ya hayan completado el circuito principal del Cairo y quieran ampliar la perspectiva. Es una jornada físicamente moderada pero larga en términos de conducción. Hay que prepararse para varias horas en vehículo; la recompensa es el acceso a monumentos que la mayoría de los visitantes de Egipto nunca ven."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "El día comienza temprano, con recogida en el hotel del Cairo antes de que el tráfico se haya cuajado del todo. El trayecto hacia el suroeste, hacia el Fayoum, dura aproximadamente 90 minutos un buen día —más si se sale después de la hora punta—. La carretera cruza la meseta desértica antes de descender a la depresión del oasis, donde el aire cambia y empiezan las palmeras datileras."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "La primera parada es el "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "lago Qarún"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ", el lago salino del extremo norte del oasis. Es uno de los lagos más antiguos de Egipto y, en el Imperio Nuevo, fue sustancialmente mayor y ecológicamente mucho más rico: los asentamientos de época ptolemaica a lo largo de sus orillas dan fe de la importancia de su pesca. Hoy es más silencioso y algo disminuido, pero la escala del agua frente al desierto resulta impactante de un modo difícil de anticipar. La ruta continúa después hacia "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Wadi el-Rayan"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": ", un área protegida de lagos interconectados formados por drenaje agrícola en el siglo XX. El lago inferior alimenta al superior a través de una cascada modesta —notable menos por su tamaño que por ser la única cascada natural significativa de Egipto, lo cual en este paisaje cuenta para algo—."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Sigue un breve paso por aldeas y monasterios locales. El Fayoum tiene una larga historia cristiana copta —varios monasterios de la zona son anteriores a la conquista árabe en siglos— e incluso una caminata corta por el barrio da la sensación de un oasis habitado, no de un sitio turístico."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "A media mañana, el grupo continúa. "
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Meidum"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": " se levanta en el borde del desierto, a unos 50 kilómetros del oasis, y el trayecto pasa rápidamente del verde de la depresión cultivada al arenal abierto. La pirámide de Meidum se inició en el reinado de Huni, último faraón de la III dinastía (h. 2600 a. C.), y fue completada o modificada por Snefru, fundador de la IV. Su forma actual —una torre de tres escalones rodeada de un enorme cono de revestimiento colapsado— es resultado de un fallo estructural, probablemente antiguo más que moderno, que despojó la piel exterior y dejó al descubierto los escalones interiores. La visita guiada del sitio cubre esta historia estructural, y es posible descender al corredor interior (un pasaje bajo e inclinado, no recomendable para personas con claustrofobia o problemas de movilidad). Las mastabas cercanas de Rahotep y Nofret figuran entre las mejores del Imperio Antiguo y sus relieves pintados aún se conservan en buenas condiciones."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Tras Meidum, el día se detiene para almorzar en un restaurante local —cocina egipcia tradicional, horario y lugar aproximados a la disponibilidad—."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "La tarde se entrega a "
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Hawara"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": ", otros 25 kilómetros aproximadamente al norte, de vuelta hacia el oasis. Esta pirámide fue construida por Amenemhat III, de la XII dinastía, hacia el 1850 a. C., y fue en su día el centro de un complejo funerario tan vasto que Heródoto lo llamó el Laberinto y lo declaró más impresionante que las propias pirámides. El Laberinto ha desaparecido —despojado de su material durante milenios—, pero el sitio conserva un peso arqueológico considerable. La pirámide está construida en ladrillo de barro en lugar de piedra, lo cual explica su dramática erosión; desde fuera parece más una colina natural que un monumento. La visita guiada cubre tanto el método constructivo de la pirámide como el significado histórico del Laberinto, incluido lo que las fuentes griegas y romanas posteriores sugieren sobre su escala."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "A última hora de la tarde se inicia el regreso a El Cairo. La llegada al hotel se produce a primera hora de la tarde-noche, según el tráfico."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "El Fayoum en contexto"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "El oasis ha estado habitado de forma continua durante un tiempo muy largo —yacimientos paleolíticos y neolíticos rodean sus bordes y una serie de poblaciones ptolemaicas (Karanis, Medinet Madi, Bakchias) han sido excavadas en la depresión—. Los célebres retratos del Fayoum, hallados en cementerios de época romana de la zona y hoy conservados en colecciones de todo el mundo, figuran entre las pinturas más realistas que sobreviven de la antigüedad. Ninguno de esos sitios figura en este itinerario, pero forman parte de la densidad de fondo que hace que la región merezca más de una visita."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Las dos pirámides pertenecen a períodos distintos y representan enfoques diferentes ante el mismo problema básico. Meidum es un monumento de transición —arquitectónicamente situado entre las pirámides escalonadas de la III dinastía y las pirámides verdaderas de la IV—. Hawara pertenece al renacer del construir piramidal en el Imperio Medio, unos siete siglos después, cuando la forma había vuelto a la moda pero los recursos y la tradición ingeniera habían cambiado. Leídas una contra la otra en una sola tarde, comprimen mil años de pensamiento funerario regio en algo comprensible."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Los monumentos más visitados de Egipto sobreviven en parte porque eran demasiado grandes para desmontarlos. Los sitios de esta jornada —una pirámide colapsada, un montículo de adobe erosionado, un lago en el desierto— perduran por razones más extrañas y más calladas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Eso es lo que justifica el viaje."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "El corredor interior de Meidum implica un descenso pronunciado y techo bajo —llevadero para la mayoría de los adultos, pero conviene avisar si la movilidad o la claustrofobia son una preocupación—. Cuéntanos si quieres incluir o saltarte el descenso completo y ajustaremos el ritmo del día en consecuencia."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "一日、三つの時代：ファイユーム・オアシス、メイドゥム、ハワーラ"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプトのピラミッド地帯はギザで終わりません。カイロから南西へおよそ100キロ走れば、砂漠と耕作されたくぼ地の一帯に入ります——そこには、国でも最も訪れる人の少ない、最も建築的に率直な記念建造物のいくつかがあります。それらを築いた文明の手で失敗し、棄てられ、あるいは単にその文明より長く生き延びた構造物です。このツアーは、そうした遺跡のうちの三つを、早朝のホテルへのお迎えと夕方の帰着に挟まれたひとつの長い一日のうちに連ねます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "ファイユームはマーケティングの発明ではありません。本物のオアシスのくぼ地です——ナイルの支流に養われ、少なくとも中王国時代から耕され、はるかに大きかった先史時代の湖の塩水の名残であるカルーン湖を擁します。この地域は、最も低い地点で海面下およそ80メートルに位置し、そのことが風景に独特の光の質を与えています——平らで、広く、そして大カイロのどこよりもいちじるしく静かです。午前のはじめの部分をここで過ごしてから、一日は石へと軸を移します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "メイドゥムとハワーラは行程の二つのピラミッドで、まさにそれらが未完成または損なわれているがゆえに訪問者に報います。メイドゥムは、遠くからは、瓦礫の裾から立ち上がる中世の塔のように見えます。ハワーラは、もとの規模をほとんど何も明かさない、低く浸食された塚です。どちらもギザ的な意味では華やかではなく、そこにこそ妙味があります。それらはピラミッドの伝統を内側から外へと見せてくれます——実験、構造上の失敗、工学を追い越した野心を。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "この一日は、定番の遺跡を超えてエジプト史に本物の関心を寄せる旅行者、あるいはカイロの主要な周遊をすでに済ませ、より長い視野を求める方に向いています。身体的には穏やかな一日ですが、運転という点では長い一日です。車中で数時間を過ごす覚悟をもってお越しください。その見返りは、エジプトを訪れる大半の人が決して見ない記念建造物への接近です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "一日は早くにはじまります——街の交通がすっかり立ち込める前に、カイロでホテルへのお迎えを。ファイユームへの南西のドライブは、調子のよい日でおよそ90分です——ラッシュアワーがたまったあとに出れば、より長くかかります。道は砂漠の台地を越え、オアシスのくぼ地へと降り、そこで空気が変わり、ナツメヤシがはじまります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "最初の立ち寄りはカルーン湖です——オアシスの北の縁の塩水湖です。エジプトでも最も古い湖のひとつで、新王国時代にはずっと大きく、はるかに生態的に豊かでした——その岸辺のプトレマイオス朝の集落が、その漁業の重要さを物語っています。今日はより静かで、いくらか縮小していますが、砂漠を背にした水の規模は、予期しがたい仕方で印象的です。ルートはそれからワディ・エル・ラヤンへと続きます——20世紀に農業排水によって形成された、つながり合う湖の保護区です。下の湖が、ささやかな滝を通じて上の湖を養っています——その大きさよりも、エジプト唯一の主立った自然の滝であるという事実において注目に値します。この風景のなかでは、それはなにがしかの意味をもつのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "地元の村々と修道院を通る短い行程が続きます。ファイユームには長いコプト・キリスト教の歴史があり——この地域のいくつかの修道院はアラブの征服より幾世紀も前にさかのぼります——短く界隈を歩くだけでも、観光地ではなく人の暮らす場所としてのオアシスの感じが伝わります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "午前の遅くには、一行は先へ進みます。メイドゥムは砂漠の縁に、オアシスからおよそ50キロのところにあり、そこへのドライブは、耕されたくぼ地の緑から、淡く開けた砂へとすばやく移り変わります。メイドゥムのピラミッドは、第三王朝の最後のファラオ、フニの治世（紀元前2600年ごろ）に着工され、第四王朝の創始者スネフェルによって完成または改変されました。その現在の形——崩れた化粧石の巨大な円錐に取り囲まれた三段の塔——は、おそらく近代ではなく古代の構造上の失敗の結果で、外皮を剥ぎ取り、内側の段を露わにしました。この遺跡のガイド付き見学は、この構造の歴史を取り上げ、内部の通路への下り（低く、傾いた通路で、閉所恐怖や移動に制限のある方にはおすすめしません）も可能です。近くのラホテプとノフレトのマスタバ墓は、古王国時代でも最も見事なもののうちにあり、その彩色されたレリーフは今もよい状態を保っています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "メイドゥムのあと、一日は地元のレストランでの昼食のために小休止します——伝統的なエジプト料理で、時間と会場は現地の都合におおむね合わせます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "午後はハワーラに充てられます——もう25キロほど北、オアシスのほうへ戻ったところにあります。このピラミッドは第十二王朝のアメンエムハト3世によって紀元前1850年ごろに築かれ、かつてはあまりに広大な葬祭複合体の中心であったため、ヘロドトスはそれを「迷宮（ラビュリントス）」と呼び、ピラミッドそのものよりも見事だと断じました。迷宮は失われています——幾千年にもわたって建材として剥ぎ取られました——けれど遺跡はかなりの考古学的な重みをとどめています。ピラミッドそのものは石ではなく日干し煉瓦で造られており、それゆえこれほど劇的に浸食されました——外から見ると、記念建造物というよりむしろ自然の丘のように見えます。ガイド付きの概観は、ピラミッドの建造法と、「迷宮」の歴史的意義の双方を取り上げ、その規模についてギリシアやのちのローマの記述が示唆するものも含みます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "午後の遅くには、カイロへの帰路が進んでいます。交通状況により、夕方の早い時間にホテルへの帰着を見込んでください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "ファイユームの文脈"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "このオアシスは、たいへん長いあいだ絶えず人が住んできました——旧石器時代と新石器時代の遺跡がその縁を取り巻き、一連のプトレマイオス朝の町（カラニス、メディネット・マディ、バクキアス）がくぼ地のあちこちで発掘されてきました。名高いファイユームの肖像画は、ここのローマ時代の墓地で見つかり、いまや世界中のコレクションに収められていますが、古代から残る最も生き生きとした絵画のうちにあります。それらの遺跡はこの特定の行程には入っていませんが、この地域が一度の訪問以上の値打ちをもつ、背景の密度の一部をなしています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "二つのピラミッドは異なる時代に属し、同じ基本的な問いへの異なる取り組み方を表しています。メイドゥムは過渡期の記念建造物です——建築的には、第三王朝の階段ピラミッドと第四王朝の真正ピラミッドのあいだにあります。ハワーラは、それからおよそ七世紀のちの、中王国時代のピラミッド建造の復興に属します——その形が再び流行に返ったものの、資源と工学の伝統は移り変わっていた時代です。ひとつの午後のうちに互いに照らし合わせて読めば、両者は千年にわたる王の葬祭の思想を、把握できる何かへと圧縮してくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "エジプトで最も多く訪れられる記念建造物は、ひとつには、解体するには大きすぎたからこそ生き延びました。この一日の遺跡——崩れたピラミッド、浸食された日干し煉瓦の塚、砂漠の湖——は、もっと奇妙で、もっと静かな理由で残り続けています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "それこそが、それらをこのドライブに値するものにしているのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000038",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "メイドゥム内部の通路に下りるかどうか、ワディ・エル・ラヤンの滞在時間、修道院を含めるかなど、体力とご関心に合わせて段取りを整えます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "This day splits its attention between water and stone — Lake Qarun and Wadi El Rayan on one side, Meidum and Hawara on the other — and ten to twelve hours only just holds both. If your party leans toward the desert lakes or toward the archaeology, tell our concierge and we'll weight the hours accordingly."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Este día reparte su atención entre el agua y la piedra — el lago Qarun y Wadi El Rayan por un lado, Meidum y Hawara por el otro — y las diez o doce horas apenas alcanzan para ambos. Si tu grupo se inclina por los lagos del desierto o por la arqueología, díselo a nuestro concierge y ajustaremos las horas en consecuencia."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "この一日は、カルーン湖とワディ・エル・ラヤンの水辺と、メイドゥムとハワラの石の遺跡——そのふたつに時間を分け合う行程で、十時間から十二時間でもぎりぎりの器です。砂漠の湖に心が傾くか、それとも考古学の側か、ご希望をコンシェルジュにお聞かせいただければ、時間の配分をそのように整えます。"
+  }
+ ],
+ "days": [
+  {
+   "_key": "day-1",
+   "_type": "tourDay",
+   "dayNumber": 1,
+   "morning": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000001",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "Discover Egypt’s hidden treasures with our streamlined one-day tour, perfect for those seeking a memorable yet efficient adventure."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000003",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Morning"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000005",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Departure from Cairo Early Morning"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [],
+         "text": "Comfortable transfer from your hotel to "
+        },
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [
+          "000000000007"
+         ],
+         "text": "AL-Fayoum"
+        },
+        {
+         "_key": "000000000009",
+         "_type": "span",
+         "marks": [],
+         "text": " Oasis."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000007",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/al-fayoum-travel-guide/"
+         },
+         "_type": "externalLink",
+         "href": "/guide/al-fayoum",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000b",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Explore AL-Fayoum Oasis"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000d",
+         "_type": "span",
+         "marks": [],
+         "text": "Visit Lake Qarun and Wadi El Rayan."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000f",
+         "_type": "span",
+         "marks": [],
+         "text": "Brief walk through local villages and monasteries."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000011",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Late Morning"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000013",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Travel to "
+        },
+        {
+         "_key": "000000000015",
+         "_type": "span",
+         "marks": [
+          "strong",
+          "000000000014"
+         ],
+         "text": "Meidum"
+        },
+        {
+         "_key": "000000000016",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": " Pyramid"
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000014",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/beni-suef-travel-guide/meidum-necropolis/"
+         },
+         "_type": "externalLink",
+         "href": "/guide/beni-suef/meidum-necropolis",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000019",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000018",
+         "_type": "span",
+         "marks": [],
+         "text": "Quick drive to the ancient Meidum Pyramid."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000001a",
+         "_type": "span",
+         "marks": [],
+         "text": "Short guided tour of this early pyramid structure."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000001c",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Afternoon"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000001e",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Lunch Break"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000021",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000020",
+         "_type": "span",
+         "marks": [],
+         "text": "Enjoy traditional Egyptian cuisine at a local restaurant."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000023",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000022",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Visit Hawara Pyramids"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000025",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000024",
+         "_type": "span",
+         "marks": [],
+         "text": "Explore the remains of the Hawara Pyramid and learn about the legendary Labyrinth."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000027",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000026",
+         "_type": "span",
+         "marks": [],
+         "text": "Insightful overview of Middle Kingdom architecture."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000029",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000028",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Evening"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000002a",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Return to Cairo"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000002c",
+         "_type": "span",
+         "marks": [],
+         "text": "Depart Hawara Pyramids and arrive back at your hotel in the evening."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000001",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Itinerario detallado:"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Recogida en tu hotel:"
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [],
+         "text": " Comienza tu velada con un cómodo viaje desde tu "
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [
+          "000000000004"
+         ],
+         "text": "hotel en El Cairo"
+        },
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [],
+         "text": "."
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": "Nuestros modernos vehículos con aire acondicionado garantizan un viaje agradable a "
+        },
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [
+          "000000000009"
+         ],
+         "text": "Wikala"
+        },
+        {
+         "_key": "00000000000b",
+         "_type": "span",
+         "marks": [],
+         "text": " El Ghoury."
+        },
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000000d",
+         "_type": "span",
+         "marks": [],
+         "text": "Reúnete con tu "
+        },
+        {
+         "_key": "00000000000f",
+         "_type": "span",
+         "marks": [
+          "00000000000e"
+         ],
+         "text": "guía en el vestíbulo del hotel"
+        },
+        {
+         "_key": "000000000010",
+         "_type": "span",
+         "marks": [],
+         "text": " 15 minutos antes de la salida para comenzar tu aventura sin contratiempos."
+        }
+       ],
+       "level": 1,
+       "listItem": "number",
+       "markDefs": [
+        {
+         "_key": "000000000004",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/discovering-the-best-hotels-in-cairo/"
+         },
+         "_type": "externalLink",
+         "href": "/blog/discovering-the-best-hotels-in-cairo",
+         "newTab": false
+        },
+        {
+         "_key": "000000000009",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/cairo-travel-guide/wikala-of-al-ghouri/"
+         },
+         "_type": "externalLink",
+         "href": "/guide/cairo",
+         "newTab": false
+        },
+        {
+         "_key": "00000000000e",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/budget-hotels-near-the-pyramids/"
+         },
+         "_type": "externalLink",
+         "href": "https://affordegypt.com",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000012",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Llegada a Wikala El Ghoury:"
+        },
+        {
+         "_key": "000000000013",
+         "_type": "span",
+         "marks": [],
+         "text": " Llega a Wikala El Ghoury, un caravasar bellamente restaurado que personifica el rico tejido cultural de "
+        },
+        {
+         "_key": "000000000015",
+         "_type": "span",
+         "marks": [
+          "000000000014"
+         ],
+         "text": "El Cairo islámico"
+        },
+        {
+         "_key": "000000000016",
+         "_type": "span",
+         "marks": [],
+         "text": "."
+        },
+        {
+         "_key": "000000000017",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000018",
+         "_type": "span",
+         "marks": [],
+         "text": "Al entrar en este lugar histórico, te transportarás atrás en "
+        },
+        {
+         "_key": "00000000001a",
+         "_type": "span",
+         "marks": [
+          "000000000019"
+         ],
+         "text": "el tiempo"
+        },
+        {
+         "_key": "00000000001b",
+         "_type": "span",
+         "marks": [],
+         "text": ", preparando el escenario perfecto para una velada inolvidable."
+        }
+       ],
+       "level": 1,
+       "listItem": "number",
+       "markDefs": [
+        {
+         "_key": "000000000014",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/islamic-cairo-and-its-religious-significance/"
+         },
+         "_type": "externalLink",
+         "href": "/blog/islamic-cairo-and-its-religious-significance",
+         "newTab": false
+        },
+        {
+         "_key": "000000000019",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/esna-travel-guide/weather/"
+         },
+         "_type": "externalLink",
+         "href": "/guide/esna/esna-weather",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000001d",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Espectáculo de Danza Tanoora:"
+        },
+        {
+         "_key": "00000000001e",
+         "_type": "span",
+         "marks": [],
+         "text": " Experimenta la hipnotizante Danza Tanoora durante hora y media, "
+        },
+        {
+         "_key": "000000000020",
+         "_type": "span",
+         "marks": [
+          "00000000001f"
+         ],
+         "text": "donde cobra vida la esencia espiritual"
+        },
+        {
+         "_key": "000000000021",
+         "_type": "span",
+         "marks": [],
+         "text": " de la tradición sufí."
+        },
+        {
+         "_key": "000000000022",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000023",
+         "_type": "span",
+         "marks": [],
+         "text": "Observa a los derviches ejecutar su "
+        },
+        {
+         "_key": "000000000025",
+         "_type": "span",
+         "marks": [
+          "000000000024"
+         ],
+         "text": "danza meditativa con"
+        },
+        {
+         "_key": "000000000026",
+         "_type": "span",
+         "marks": [],
+         "text": " trajes vibrantes, cada giro simboliza un paso hacia el amor divino y la iluminación."
+        },
+        {
+         "_key": "000000000027",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000028",
+         "_type": "span",
+         "marks": [],
+         "text": "No se trata de una mera representación, sino de la encarnación del viaje "
+        },
+        {
+         "_key": "00000000002a",
+         "_type": "span",
+         "marks": [
+          "000000000029"
+         ],
+         "text": "del alma hacia los reinos"
+        },
+        {
+         "_key": "00000000002b",
+         "_type": "span",
+         "marks": [],
+         "text": " celestiales."
+        }
+       ],
+       "level": 1,
+       "listItem": "number",
+       "markDefs": [
+        {
+         "_key": "00000000001f",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/wadi-al-natron-travel-guide/spiritual-retreats/"
+         },
+         "_type": "externalLink",
+         "href": "/guide/wadi-el-natrun/wadi-el-natrun-accommodation-guide",
+         "newTab": false
+        },
+        {
+         "_key": "000000000024",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/cairo-dinner-cruise-with-belly-dancing-show/"
+         },
+         "_type": "externalLink",
+         "href": "/cairo-dinner-cruise-with-belly-dancing-show",
+         "newTab": false
+        },
+        {
+         "_key": "000000000029",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/old-kingdom-pharaohs/"
+         },
+         "_type": "externalLink",
+         "href": "/blog/old-kingdom-pharaohs",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000034",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000002d",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Regreso a tu hotel:"
+        },
+        {
+         "_key": "00000000002e",
+         "_type": "span",
+         "marks": [],
+         "text": " Tras el espectáculo, serás transportado de vuelta a tu hotel, enriquecido con las "
+        },
+        {
+         "_key": "000000000030",
+         "_type": "span",
+         "marks": [
+          "00000000002f"
+         ],
+         "text": "experiencias"
+        },
+        {
+         "_key": "000000000031",
+         "_type": "span",
+         "marks": [],
+         "text": " espirituales y culturales de la noche."
+        },
+        {
+         "_key": "000000000032",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000033",
+         "_type": "span",
+         "marks": [],
+         "text": "Reflexiona sobre el encanto místico y la expresión artística que has presenciado mientras te relajas en la comodidad de tu transporte."
+        }
+       ],
+       "level": 1,
+       "listItem": "number",
+       "markDefs": [
+        {
+         "_key": "00000000002f",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-dahab/experiencias/"
+         },
+         "_type": "externalLink",
+         "href": "/es/guide/dahab",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000003",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "エジプトの"
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "隠れた宝"
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [],
+         "text": "を発見する、効率的かつ充実した1日ツアー。思い出に残る冒険をお届けします。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000005",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "朝"
+        }
+       ],
+       "markDefs": [],
+       "style": "h3"
+      },
+      {
+       "_key": "000000000007",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "早朝カイロ出発"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": "ホテルから"
+        },
+        {
+         "_key": "000000000009",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "快適な専用車"
+        },
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": "でエル・ファイユーム・オアシスへ移動。"
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "エル・ファイユーム・オアシス探訪"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000e",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "カールーン湖とワディ・エル・ラヤーン"
+        },
+        {
+         "_key": "00000000000f",
+         "_type": "span",
+         "marks": [],
+         "text": "を訪問。"
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000013",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000011",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "地元の村や修道院"
+        },
+        {
+         "_key": "000000000012",
+         "_type": "span",
+         "marks": [],
+         "text": "を短時間散策し、エジプトの自然と文化に触れます。"
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000014",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "午前後半"
+        }
+       ],
+       "markDefs": [],
+       "style": "h3"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000016",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "メイドゥーム・ピラミッドへ移動"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000018",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "古代のメイドゥーム・ピラミッド"
+        },
+        {
+         "_key": "000000000019",
+         "_type": "span",
+         "marks": [],
+         "text": "まで短時間のドライブ。"
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000001b",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ガイド付きのショートツアー"
+        },
+        {
+         "_key": "00000000001c",
+         "_type": "span",
+         "marks": [],
+         "text": "で、この初期ピラミッド建築の特徴を学びます。"
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000001e",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "午後"
+        }
+       ],
+       "markDefs": [],
+       "style": "h3"
+      },
+      {
+       "_key": "000000000021",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000020",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ランチ休憩"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000022",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "地元レストランでの伝統的なエジプト料理"
+        },
+        {
+         "_key": "000000000023",
+         "_type": "span",
+         "marks": [],
+         "text": "を堪能。"
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000026",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000025",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ハワラのピラミッド訪問"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000029",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000027",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ハワラ・ピラミッドの遺跡"
+        },
+        {
+         "_key": "000000000028",
+         "_type": "span",
+         "marks": [],
+         "text": "を探索し、中王国時代の建築技術に触れます。"
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000002a",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "伝説のラビリンス"
+        },
+        {
+         "_key": "00000000002b",
+         "_type": "span",
+         "marks": [],
+         "text": "（迷宮）についての興味深い解説をお楽しみください。"
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000002d",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "夕方"
+        }
+       ],
+       "markDefs": [],
+       "style": "h3"
+      },
+      {
+       "_key": "000000000030",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000002f",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "カイロへ帰還"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000034",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000031",
+         "_type": "span",
+         "marks": [],
+         "text": "ハワラ・ピラミッドを出発し、"
+        },
+        {
+         "_key": "000000000032",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "夕方にはホテルへ到着"
+        },
+        {
+         "_key": "000000000033",
+         "_type": "span",
+         "marks": [],
+         "text": "。"
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000038",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000035",
+         "_type": "span",
+         "marks": [],
+         "text": "このツアーでは、"
+        },
+        {
+         "_key": "000000000036",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "エジプトの自然美と歴史の奥深さを1日で満喫"
+        },
+        {
+         "_key": "000000000037",
+         "_type": "span",
+         "marks": [],
+         "text": "できます！"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "value": "Fayoum Oasis including Pyramids of Meydum & Hawara"
+    },
+    {
+     "_key": "es",
+     "value": "Día 1 Oasis de Fayoum, incluidas las pirámides de Meydum y Hawara"
+    },
+    {
+     "_key": "ja",
+     "value": "ファイユーム・オアシスとメイドゥーム & ハワラのピラミッド"
+    }
+   ]
+  }
+ ],
+ "durationDays": 1,
+ "durationHours": 10,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Full day · ~10–12 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Día completo · ~10–12 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "終日・約10〜12時間"
+  }
+ ],
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 197,
+  "ja": 204
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Sandstone bluffs overlook the still blue waters of Lake Qarun in Egypt's Fayoum depression."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Acantilados de arenisca dominan las aguas azules del lago Qarun en la depresión de Fayoum."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "エジプト・ファイユーム低地のカルーン湖の静かな青い水を見下ろす砂岩の崖。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-cfe2b087d7a14487156df17977e622578d4480dc-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Desert dunes give way to the shimmering lake at the heart of Fayoum."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Las dunas del desierto dan paso al lago resplandeciente en el corazón de Fayoum."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "砂漠の砂丘の先に、ファイユームの中心できらめく湖が広がる。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "bzcizp6ywd",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The day begins early, with a hotel pick-up in Cairo before the city's traffic has fully assembled.",
+   "text": "Hotel pick-up in Cairo"
+  },
+  {
+   "_key": "9wx3ci2wra",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Comfortable transfer from your hotel to AL-Fayoum Oasis.",
+   "text": "Transfer from your hotel to AL-Fayoum Oasis"
+  },
+  {
+   "_key": "v016aremm3",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Short guided tour of this early pyramid structure.",
+   "text": "Short guided tour of Meidum Pyramid"
+  },
+  {
+   "_key": "bqj5zgly4k",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Depart Hawara Pyramids and arrive back at your hotel in the evening.",
+   "text": "Return to your hotel"
+  },
+  {
+   "_key": "rfl08ku2e9",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El día comienza temprano, con recogida en el hotel del Cairo antes de que el tráfico se haya cuajado del todo.",
+   "text": "Recogida en el hotel del Cairo"
+  },
+  {
+   "_key": "5q4385jmlm",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La visita guiada del sitio cubre esta historia estructural, y es posible descender al corredor interior (un pasaje bajo e inclinado, no recomendable para personas con claustrofobia o problemas de movilidad).",
+   "text": "Visita guiada del sitio de Meidum"
+  },
+  {
+   "_key": "moy37o6h4z",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La visita guiada cubre tanto el método constructivo de la pirámide como el significado histórico del Laberinto, incluido lo que las fuentes griegas y romanas posteriores sugieren sobre su escala.",
+   "text": "Visita guiada de Hawara"
+  },
+  {
+   "_key": "s9kegg3lmt",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "一日は早くにはじまります——街の交通がすっかり立ち込める前に、カイロでホテルへのお迎えを。",
+   "text": "カイロでホテルへのお迎え"
+  },
+  {
+   "_key": "p2dkef0hna",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ホテルから快適な専用車でエル・ファイユーム・オアシスへ移動。",
+   "text": "快適な専用車での移動"
+  },
+  {
+   "_key": "5fj93b3y2t",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ガイド付きのショートツアーで、この初期ピラミッド建築の特徴を学びます。",
+   "text": "メイドゥーム・ピラミッドのガイド付きショートツアー"
+  },
+  {
+   "_key": "qgh9wcgwbl",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ガイド付きの概観は、ピラミッドの建造法と、「迷宮」の歴史的意義の双方を取り上げ、その規模についてギリシアやのちのローマの記述が示唆するものも含みます。",
+   "text": "ハワーラのガイド付きの概観"
+  },
+  {
+   "_key": "b9ms2zwxoz",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ハワラ・ピラミッドを出発し、夕方にはホテルへ到着。",
+   "text": "夕方にホテルへ到着"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/fayoum-oasis-including-pyramids-of-meydum-hawara/"
+ },
+ "priceFrom": 186,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_alexandria_catacombs_pompeys_pillar_group_day_tour_from_cairo",
+   "_ref": "tour.alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_transfer_from_cairo_airport_to_hotel",
+   "_ref": "tour.transfer-from-cairo-airport-to-hotel",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_cairo_dinner_cruise_with_belly_dancing_show",
+   "_ref": "tour.cairo-dinner-cruise-with-belly-dancing-show",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_nmec_royal_mummies_old_cairo",
+   "_ref": "tour.nmec-royal-mummies-old-cairo",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Fully private · own licensed Egyptologist · air-conditioned vehicle · adults only (minimum age 18, given the desert sites and the narrow interior descent at Meidum) · tiered pricing with optional entrance-fee and lunch bundles"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Tour privado de oasis y arqueologia · Activo, con carretera y paisaje abierto"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "お客様のご一行だけのプライベートツアー · 公認エジプト学ガイド · エアコン付き専用車両 · 18歳以上 · 三段階のプライシング（ベース／＋入場料／＋入場料・昼食）"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Full day, roughly ten to twelve hours including the drives in and out"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Dia completo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "終日（早朝出発、夕方の早い時間帰着。車中で数時間）"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Cairo → Lake Qarun → Wadi El Rayan → Meidum → Hawara → Cairo"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "El Cairo, Fayoum, Meidum, Hawara y Wadi el-Rayan"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "カイロ → カルーン湖 → ワディ・エル・ラヤン → ファイユームの村々と修道院 → メイドゥムのピラミッド（ラホテプとノフレトのマスタバを含む） → ハワーラのピラミッド → カイロ"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "fayoum-oasis-including-pyramids-of-meydum-hawara"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "oasis-de-fayoum-piramides-de-meidum-y-hawara-jornada-completa"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "faiyumuoashisu-meidumu-hawara-no-piramiddo-shujitsu-tsua"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "One long day west of Cairo takes in a desert oasis, a collapsed proto-pyramid, and the ruined tomb of a Middle Kingdom pharaoh. Here is what to expect."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Un día largo al suroeste de El Cairo: oasis en depresión, una proto-pirámide colapsada y la tumba arruinada de un faraón del Imperio Medio."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "カイロの西、ひとつの長い一日が、砂漠のオアシス、崩れた原ピラミッド、そして中王国のファラオの朽ちた墓を取り込みます。その見どころをご案内します。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Fayoum Oasis, Meidum & Hawara Pyramids: A Full-Day Tour"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Oasis de Fayoum, pirámides de Meidum y Hawara: jornada completa"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ファイユーム・オアシス、メイドゥム＆ハワーラのピラミッド：終日ツアー"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}
