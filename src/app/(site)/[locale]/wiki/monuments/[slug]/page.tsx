@@ -3,6 +3,7 @@ import { RelatedToursBlock } from '@/components/related-tours/RelatedToursBlock'
 import { fallbackTours, splitAfterSection, type ArticleTour } from '@/lib/articleTours';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { redirectForeignSlug } from '@/lib/foreign-slug';
 import Image from 'next/image';
 
 import { Link } from '@/i18n/navigation';
@@ -87,7 +88,11 @@ export default async function MonumentPage({ params }: Props) {
 
   const t = await getTranslations('wiki');
   const m = await client.fetch(monumentBySlugQuery(locale as Locale), { slug });
-  if (!m) notFound();
+  if (!m) {
+    // Wrong-language slug (old GSC discoveries) → 308 to the right page.
+    await redirectForeignSlug('wikiMonument', locale, [slug]);
+    notFound();
+  }
 
   const heroUrl = m.heroImage?.asset
     ? urlFor(m.heroImage).width(2400).height(1200).quality(85).url()

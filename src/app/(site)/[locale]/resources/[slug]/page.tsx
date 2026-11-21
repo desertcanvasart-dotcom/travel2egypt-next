@@ -3,6 +3,7 @@ import { cache } from 'react';
 import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { redirectForeignSlug } from '@/lib/foreign-slug';
 
 import { ArticleJsonLd } from '@/components/ArticleJsonLd';
 import type { Locale } from '@/i18n/routing';
@@ -127,7 +128,11 @@ export default async function FieldGuidePage({ params }: Props) {
   setRequestLocale(locale);
 
   const data = await getResource(slug, locale);
-  if (!data) notFound();
+  if (!data) {
+    // Wrong-language slug (old GSC discoveries) → 308 to the right page.
+    await redirectForeignSlug('fieldGuide', locale, [slug]);
+    notFound();
+  }
   const tFg = await getTranslations({ locale, namespace: 'resources' });
 
   return (
