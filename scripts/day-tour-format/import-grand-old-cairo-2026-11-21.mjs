@@ -9,7 +9,9 @@
  * back. Entrance to every site on the route (Al-Azhar Park included), the Bab Zuweila and Ibn Tulun
  * climbs, lunch, water, the driver's tip. No tiers; children under 12 pay 50 %; no age line. The
  * title is the locked one. Guide in the page's language, so ES/JA keep their own price
- * (grand-old-cairo-prices.json, Autoura T2E-DT-CAI-08).
+ * (grand-old-cairo-prices.json, Autoura T2E-DT-CAI-08). PRICE PENDING: the Mosque of Ibn Tulun gets
+ * an entrance fee (EGP 200, owner 21 Nov); the current 66 / 77 / 93 exclude it. Re-run CAI-08 once
+ * the fee is in Autoura and update the JSON before --apply.
  *
  * Panel: Cairo, so the rule rows show (children 50 %, the Cairo/Giza pickup zones, guide = page
  * language); the intro carries the pickup line and the lunch text.
