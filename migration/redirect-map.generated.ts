@@ -13,6 +13,76 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/siwa-oasis-travel-guide/historical-tapestry/844-1755-44411",
+    "destination": "/guide/siwa-oasis/siwa-oasis-historical-overview",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-luxor/el-templo-mortuorio-de-la-reina-hatshepsut/844-1755-44411",
+    "destination": "/es/guide/luxor/el-templo-mortuorio-de-la-reina-hatshepsut",
+    "permanent": true
+  },
+  {
+    "source": "/safaga-travel-guide/travel-essentials/844-1755-44411",
+    "destination": "/guide/safaga/only-in-safaga",
+    "permanent": true
+  },
+  {
+    "source": "/hurghada-travel-guide/hurghada-aquarium/844-1755-44411",
+    "destination": "/guide/hurghada/hurghada-aquarium",
+    "permanent": true
+  },
+  {
+    "source": "/cairo-travel-guide/madrassa-mausoleum-of-qalawun/844-1755-44411",
+    "destination": "/guide/cairo/complex-of-sultan-al-mansur-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-beni-suef/visitas/844-1755-44411",
+    "destination": "/es/guide/beni-suef",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-del-oasis-de-farafra/como-desplazarse",
+    "destination": "/es/guide/farafra/como-moverse-por-el-oasis-de-farafra",
+    "permanent": true
+  },
+  {
+    "source": "/al-arish-travel-guide/beyond-ordinary",
+    "destination": "/guide/al-arish/only-in-al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/al-minya-travel-guide/tuna-el-gebel",
+    "destination": "/guide/al-minya/tuna-el-gebel",
+    "permanent": true
+  },
+  {
+    "source": "/aswan-travel-guide/st-simeon-monastery",
+    "destination": "/guide/aswan/saint-simeon-monastery",
+    "permanent": true
+  },
+  {
+    "source": "/transport-to-giza",
+    "destination": "/guide/giza",
+    "permanent": true
+  },
+  {
+    "source": "/baris-travel-guide/experiences-beyond",
+    "destination": "/guide/baris/things-to-do-in-baris",
+    "permanent": true
+  },
+  {
+    "source": "/when-to-explore-dakhla-oasis",
+    "destination": "/guide/dakhla-oasis/when-to-explore-dakhla-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/soledad-en-el-cielo-experiencia-privada-en-globo-aerostatico-al-amanecer-en-luxor",
+    "destination": "/es/globo-al-amanecer-en-luxor-media-hora-sobre-la-orilla-occidental",
+    "permanent": true
+  },
+  {
     "source": "/fayoum-oasis-including-pyramids-of-meydum-hawara",
     "destination": "/meidum-and-hawara-pyramids-from-cairo",
     "permanent": true
@@ -11779,7 +11849,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/siwa-oasis-travel-guide/historical-tapestry",
-    "destination": "/guide/siwa-oasis",
+    "destination": "/guide/siwa-oasis/siwa-oasis-historical-overview",
     "permanent": true
   },
   {
