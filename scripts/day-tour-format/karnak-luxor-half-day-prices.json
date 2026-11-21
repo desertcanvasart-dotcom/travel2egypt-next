@@ -1,6 +1,6 @@
 {
-  "_note": "Per-person selling prices in EUR for 2 travellers sharing, by guide language. Rule (lib/publish/public-rate in Autoura): engine figure for 2 travellers, house margin 30 %, lowest season, higher of EU / other, cheapest complete tier, rounded UP to the whole euro; ES and JA = the same with a Spanish / Japanese guide. Source: Autoura T2E-DT-LXR-02 (Karnak, Luxor Temple, lunch, water, Luxor guide, the car 'Hotel - East Bank'); the Avenue of Sphinxes has no fee row. Read 21 Nov: budget tier complete in every language, EN €71.14, ES €82.15, JA €98.66, rounded up. Owner check: LXR-02 is still set as an 8-hour day in Autoura (duration_hours 8); the product is now a half day of up to 5 hours, so a half-day guide / car rate could make it cheaper. Live today (tiered): EN €89, ES €100, JA €107.",
-  "en": 72,
-  "es": 83,
-  "ja": 99
+  "_note": "Per-person selling prices in EUR for 2 travellers sharing, by guide language. Rule (lib/publish/public-rate in Autoura): engine figure for 2 travellers, house margin 30 %, lowest season, higher of EU / other, cheapest complete tier, rounded UP to the whole euro; ES and JA = the same with a Spanish / Japanese guide. Source: Autoura T2E-DT-LXR-02, set to a HALF DAY on 21 Nov at the owner's request ('Reprice half day first'): itinerary sightseeing_length 'half_day', duration_hours 8 → 5, name = the new title; snapshot autoura-saas/scripts/tmp-t2e/lxr02.before.json. Half day = half-day car card 'Hotel - Luxor Temple' (€10.16 for 2, budget) + Luxor guide + Karnak + Luxor Temple + lunch + water + restaurant tip; the Avenue of Sphinxes has no fee row. Read 21 Nov: budget tier complete in every language, EN €65.64, ES €76.65, JA €93.16, rounded up. (As a full 8-hour day it was EN €71.14, ES €82.15, JA €98.66.) Live today (tiered): EN €89, ES €100, JA €107.",
+  "en": 66,
+  "es": 77,
+  "ja": 94
 }
