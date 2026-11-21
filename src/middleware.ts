@@ -78,11 +78,6 @@ export const RETIRED_PATH = new RegExp(
     '|/wp-(?:admin|json|content|includes)(?:/.*)?' +
     '|/(?:category|tag|author)(?:/.*)?' +
     '|/\\d{4}/\\d{2}(?:/\\d{2})?(?:/.*)?' +
-    // Junk-suffix crawl artefacts: 350 GSC "Not found" URLs are real old
-    // paths with `/844-1755-44411` appended (a WP-era tracking fragment);
-    // the base paths are themselves retired, so the suffixed form never
-    // had a successor.
-    '|/.+/844-1755-44411' +
     // Spam HLS playlists planted under the old WP install (45 GSC rows).
     '|/upload(?:/.*)?' +
   ')/?$',
@@ -94,6 +89,21 @@ export default async function middleware(request: NextRequest) {
   // WordPress search used the locale homepage with ?s=. The new site has
   // no such search endpoint; otherwise these URLs silently serve a homepage.
   const retiredSearch = /^\/(?:en\/?|es\/?|ja\/?)?$/.test(pathname) && searchParams.has('s');
+  if (!retiredPath) {
+    // Junk-suffix crawl artefacts: old WP paths with `/844-1755-44411`
+    // appended (a WP-era tracking fragment). Until 21 Nov 2026 these were
+    // 410'd on the assumption that the base paths were retired too — but most
+    // bases now redirect to live guide pages (GSC "crawled – not indexed"
+    // export, 21 Nov). Strip the fragment and let the base path resolve:
+    // redirect-map row → live page, retired family → 410, else 404.
+    const junk = pathname.match(/^(\/.+?)\/844-1755-44411\/?$/);
+    if (junk) {
+      // A plain URL: nextUrl.clone() would re-add the original trailing slash.
+      const url = new URL(request.url);
+      url.pathname = junk[1];
+      return NextResponse.redirect(url, 308);
+    }
+  }
   if (retiredPath || retiredSearch) {
     return new NextResponse(
       '<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Page removed | Travel2Egypt</title></head><body><main><h1>This page has been removed</h1><p>This content is no longer available.</p><p><a href="/">English</a> · <a href="/es">Español</a> · <a href="/ja">日本語</a></p></main></body></html>',
