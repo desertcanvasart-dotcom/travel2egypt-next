@@ -1,0 +1,6 @@
+{
+  "_note": "Per-person selling prices in EUR for 2 travellers sharing, by guide language. Rule (lib/publish/public-rate in Autoura): engine figure for 2 travellers, house margin 30 %, lowest season, higher of EU / other, cheapest complete tier, rounded UP to the whole euro; ES and JA = the same with a Spanish / Japanese guide. Source: Autoura T2E-DT-LXR-07, created 21 Nov (Karnak, Luxor Temple, Luxor Museum EGP 450, lunch, water, guide). The Luxor full-day car card 'Hotel - East Bank' (and its South City twin) was widened on 21 Nov at the owner's request to cover the Luxor Museum, rates unchanged; snapshot autoura-saas/scripts/tmp-t2e/widen-luxor-card.before.json. Read 21 Nov: budget tier complete, car 'Hotel - East Bank', EN €81.05, ES €92.06, JA €108.57, rounded up. Live today (tiered): €99 / €110 / €117.",
+  "en": 82,
+  "es": 93,
+  "ja": 109
+}
