@@ -1,0 +1,2561 @@
+{
+ "_createdAt": "2026-05-13T22:24:32Z",
+ "_id": "wp-page-87828",
+ "_rev": "K2pi3eY73hTRu2vMGMyRaJ",
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:41Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers who have done Giza and want the rest of Cairo — Islamic, Coptic, Jewish, and the unexpected Cave Church"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Interesados en arquitectura, fe e historia social"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "一日でイスラム・コプト・ユダヤの「三つのカイロ」を、現役の礼拝の場として味わいたい好奇心ある旅人"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Old Cairo in a Day: Islamic Gates, Coptic Churches, and the City Below the City"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo does not reveal itself from a rooftop bar or a hotel lobby. It reveals itself at street level, in the shadow of a gate that has stood since 1092, inside a church suspended above a Roman fortress wall, and down a lane in a medieval bazaar where a craftsman is doing what his grandfather did. This tour is built around that premise: a private, full-day circuit through three of the city's oldest and most distinct quarters — Islamic Cairo, Coptic Cairo, and the Mokattam Hills — ending in the green anomaly of Al-Azhar Park as the afternoon light softens over the minarets."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "It is a day that suits curious, moderately active travellers who want context rather than captions. You will walk on uneven stone, climb narrow stairs if you choose, and stand inside buildings that have been continuously used for worship for over a thousand years. The pace is deliberate, not rushed, and a private guide means you spend as long as you like at the places that hold you."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "The day spans roughly twelve centuries of the city's life. That breadth is the point. Cairo is not one city but several laid on top of each other, and this itinerary is one of the few ways to feel that stratigraphy in a single outing. You begin in medieval Islamic Cairo, drop south into the Coptic and Jewish quarter that predates the Arab conquest, climb into the hills above the city for something unlike anything else in Egypt, and finish in a park that was, until 2005, a rubbish dump — now among the finest city gardens in the Arab world."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "It is a full day. Expect six to eight hours on the ground, depending on your pace and how long you linger. Wear comfortable shoes. Bring water. This is not a day for heels or new trainers."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Bab Zuweila"
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [],
+       "text": " is where the day begins, and it is the right place to start. Built in 1092 by the Fatimid vizier Badr al-Gamali, this is one of only three surviving gates of medieval Fatimid Cairo. The twin minarets above it belong to the Mosque of Sultan al-Mu'ayyad, added in the fifteenth century, and together they form one of the most satisfying vertical compositions in the city. Climbing to the top is optional but recommended: the view down into the Mu'izz Street corridor gives a sense of how densely this part of Cairo has been occupied and rebuilt across a thousand years. Your guide meets you here and uses the gate as a text — a starting point for understanding the Islamic city that grew up around it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000012",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": "From Bab Zuweila, the route moves west and south to the "
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Mosque of Ibn Tulun"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [],
+       "text": ", the oldest mosque in Cairo to survive largely in its original form. It was completed in 879 AD by Ahmad ibn Tulun, the Abbasid governor who briefly made Egypt his own, and its scale is still startling: nine hectares of open courtyard surrounded by covered arcades, with a distinctive spiral minaret — the only one of its kind in Egypt — rising from the outer ziyada. The architecture draws on Samarra, Ibn Tulun's home city in Iraq, which gives it a character unlike anything else in Cairo. The courtyard's austerity is not emptiness; it is confidence. A spiralling minaret climb is available for those who want it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000018",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [],
+       "text": "The tour then crosses into "
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Coptic Cairo"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": ", the older southern district that sits over the site of Babylon-in-Egypt, a Roman fortress established around the first century AD. The "
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Hanging Church"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [],
+       "text": " — the Coptic name is Al-Mu'allaqa, meaning \"the suspended one\" — is built above the southern gatehouse towers of that fortress, which is why its nave appears to float. The interior is dense with carved ivory, inlaid screens, and Coptic icons, many dating to the medieval period. It has been a place of worship since at least the fourth century, making it one of the oldest functioning churches in the world. Your guide can explain the iconographic programme if you want it; if you prefer to sit quietly in the nave, there is space for that too."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [],
+       "text": "A short walk brings you to "
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Saint Sergius and Bacchus Church"
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": " — Abu Serga in common usage — which is older still, or at least claims to sit over older ground. Tradition holds that the Holy Family rested here during their flight into Egypt, and a crypt below the nave is identified as the site. The claim cannot be verified, but the church itself, dating in its present form to around the fourth or fifth century, is genuine and worth time. Its nave columns are mismatched, pulled from earlier structures, which is its own kind of history."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000020",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": "Nearby, the "
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Ben Ezra Synagogue"
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": " closes out the Coptic quarter's triangle of faiths. It is reputedly the site where the infant Moses was found in the bulrushes — another unverifiable tradition, but one that has drawn Jewish pilgrims for centuries. The synagogue's fame in the scholarly world rests on something more concrete: the Cairo Geniza, a repository of over 300,000 medieval Jewish manuscript fragments discovered here in 1896, which transformed the study of medieval Mediterranean history. The building itself was restored in the 1980s and is elegant rather than grand."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000026",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [],
+       "text": "From Coptic Cairo, the route climbs east to the "
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Mokattam Hills"
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [],
+       "text": " for the "
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Cave Church of Saint Simon"
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [],
+       "text": " — locally called the Monastery of Saint Simon the Tanner, or simply the Zabbaleen Church. Carved directly into the limestone cliff face and capable of holding 20,000 worshippers in its largest amphitheatre, this is one of the most extraordinary religious sites in Egypt and one of the least known to international visitors. The Zabbaleen — Cairo's Coptic garbage-collecting community — have worshipped here since the 1970s, and the rock-cut reliefs illustrating biblical scenes, executed by a Polish artist named Mario Doulas, cover the cliff walls at a scale that is genuinely monumental. The setting, the community, and the carvings together make this the most unexpected stop on the itinerary."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [],
+       "text": "The afternoon turns to commerce at "
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Khan El Khalili"
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [],
+       "text": ", the medieval bazaar that has occupied its present site since the fourteenth century. The tourist lanes — silver, papyrus, alabaster — are real enough, but the point here is the artisans rather than the shops. Your guide can navigate you to the craftsmen: coppersmiths, tent-makers in the nearby Khayamiyya district, makers of moucharabieh woodwork. What you buy or don't buy is entirely your business."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [],
+       "text": "The day closes in "
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Al-Azhar Park"
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [],
+       "text": ", 74 acres of gardens laid over what was, for five centuries, Cairo's largest rubbish heap. The Aga Khan Trust for Culture developed it between 1984 and 2005, and the result — terraced gardens, fountains, a restored Ayyubid wall running along the western edge — is a genuine civic achievement. From the upper terrace, the view takes in the minarets of the Mosque of Ibn Tulun, the Citadel, and the whole eastern skyline. It is a calm end to a dense day."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000030",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Cairo has been burying and rebuilding itself for fourteen centuries, and the best way to understand it is to follow one layer down to the next."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000032",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "This is a day that does exactly that."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000040",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003f",
+       "_type": "span",
+       "marks": [],
+       "text": "The Mokattam Cave Church is the surprise of this itinerary and not every operator includes it. The concierge can confirm access conditions and adjust the order if you'd prefer to end the day in the park rather than the bazaar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000043",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000041",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo antiguo en un día: puertas islámicas, iglesias coptas y la ciudad bajo la ciudad"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una jornada privada por las capas religiosas y urbanas que hacen de El Cairo algo más que pirámides."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo no se revela desde un bar en azotea o un vestíbulo de hotel. Se revela a pie de calle, a la sombra de una puerta que se mantiene en pie desde 1092, dentro de una iglesia suspendida sobre el muro de una fortaleza romana y al fondo de un callejón en un bazar medieval donde un artesano sigue haciendo lo mismo que hacía su abuelo. Este tour está construido sobre esa premisa: un circuito privado de día completo por tres de los cuartos más antiguos y distintos de la ciudad —El Cairo islámico, el Cairo copto y los montes Muqattam— que termina en el verdor anómalo del parque al-Azhar cuando la luz de la tarde se ablanda sobre los alminares."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Es una jornada que conviene a viajeros curiosos y moderadamente activos que buscan contexto antes que pies de foto. Caminarás sobre piedra irregular, subirás escaleras estrechas si quieres y permanecerás dentro de edificios que llevan utilizándose para el culto sin interrupción más de mil años. El ritmo es deliberado, no apresurado, y el guía privado significa que pasarás el tiempo que decidas en los lugares que te detengan."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "La jornada abarca aproximadamente doce siglos de la vida de la ciudad. Esa amplitud es el punto. El Cairo no es una sino varias ciudades superpuestas y este itinerario es una de las pocas maneras de sentir esa estratigrafía en una sola salida. Empiezas en El Cairo islámico medieval, bajas al sur al barrio copto y judío que precede a la conquista árabe, subes a los cerros sobre la ciudad para algo distinto a cualquier otra cosa en Egipto y terminas en un parque que, hasta 2005, era un vertedero —hoy entre los jardines urbanos más logrados del mundo árabe—."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Es un día completo. Calcula de seis a ocho horas sobre el terreno, según el ritmo y cuánto te demores. Calzado cómodo. Agua. No es jornada para tacones ni para zapatillas estrenadas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000010",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Bab Zuweila"
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": " es donde arranca el día y es el punto correcto donde empezar. Construida en 1092 por el visir fatimí Badr al-Yamali, es una de las tres únicas puertas que sobreviven del Cairo fatimí medieval. Los dos alminares que se alzan sobre ella pertenecen a la mezquita del sultán al-Muayyad, añadida en el siglo XV, y juntos forman una de las composiciones verticales más satisfactorias de la ciudad. Subir a lo alto es opcional pero recomendable: la vista sobre el corredor de la calle Al-Muizz da idea de cómo de densamente ocupada y reconstruida ha estado esta parte de El Cairo a lo largo de mil años. Tu guía te recibe aquí y utiliza la puerta como un texto: punto de partida para entender la ciudad islámica que creció a su alrededor."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000016",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde Bab Zuweila, la ruta se mueve al oeste y al sur hasta la "
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "mezquita de Ibn Tulún"
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [],
+       "text": ", la mezquita más antigua de El Cairo que sobrevive en gran medida en su forma original. Se completó en 879 d. C. por Áhmad ibn Tulún, gobernador abasí que durante un breve periodo hizo de Egipto algo propio, y su escala todavía sorprende: nueve hectáreas de patio abierto rodeadas por arcadas cubiertas, con un alminar de espiral distintivo —el único de su clase en Egipto— que se eleva desde la "
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "ziyada"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": " exterior. La arquitectura bebe de Samarra, ciudad natal de Ibn Tulún en Irak, lo que le confiere un carácter distinto a cualquier otra cosa en El Cairo. La austeridad del patio no es vacío: es seguridad. La subida en espiral al alminar está disponible para quien la quiera."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [],
+       "text": "El tour cruza después a "
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "El Cairo copto"
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [],
+       "text": ", el barrio más antiguo del sur, asentado sobre el solar de Babilonia de Egipto, una fortaleza romana establecida hacia el siglo I d. C. La "
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Iglesia Colgante"
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": " —en copto al-Muallaqa, «la suspendida»— se levanta sobre las torres de la puerta sur de aquella fortaleza, razón por la cual su nave parece flotar. El interior es denso en marfil tallado, cancelas con taracea e iconos coptos, muchos de época medieval. Ha sido lugar de culto desde al menos el siglo IV, lo que la convierte en una de las iglesias en activo más antiguas del mundo. El guía puede explicar el programa iconográfico si lo deseas; si prefieres sentarte en silencio en la nave, hay espacio para eso también."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000020",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": "Un breve paseo lleva a la "
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "iglesia de los santos Sergio y Baco"
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": " —Abu Serga en uso común—, aún más antigua, o al menos asentada sobre un terreno más antiguo. La tradición sostiene que la Sagrada Familia se refugió aquí durante su huida a Egipto, y una cripta bajo la nave se identifica como el lugar. La afirmación no se puede verificar, pero la iglesia en sí, fechada en su forma actual hacia los siglos IV o V, es genuina y merece tiempo. Las columnas de su nave son desiguales, reaprovechadas de estructuras anteriores: su propia clase de historia."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000024",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [],
+       "text": "Cerca, la "
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "sinagoga Ben Ezra"
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [],
+       "text": " cierra el triángulo de credos del barrio copto. Se dice que es el lugar donde fue hallado el niño Moisés entre los juncos —otra tradición no verificable, pero que ha atraído peregrinos judíos durante siglos—. La fama de la sinagoga en el mundo académico descansa en algo más concreto: la Guenizá de El Cairo, un depósito de más de 300 000 fragmentos manuscritos judíos medievales descubierto aquí en 1896, que transformó el estudio de la historia mediterránea medieval. El edificio se restauró en los años ochenta y es elegante más que grandioso."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde El Cairo copto, la ruta sube al este hasta los "
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "montes Muqattam"
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [],
+       "text": " para la "
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "iglesia de la cueva de San Simón"
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [],
+       "text": " —localmente, monasterio de San Simón el Curtidor, o sencillamente iglesia de los zabbalín—. Tallada directamente en el acantilado de caliza y capaz de acoger a 20 000 fieles en su anfiteatro mayor, es uno de los sitios religiosos más extraordinarios de Egipto y uno de los menos conocidos por el visitante internacional. Los zabbalín —la comunidad cristiana copta que se dedica a la recogida de basuras en El Cairo— rezan aquí desde los años setenta, y los relieves excavados en la roca con escenas bíblicas, ejecutados por un artista polaco llamado Mario Doulas, cubren las paredes del acantilado en una escala genuinamente monumental. El emplazamiento, la comunidad y la talla en piedra hacen de esta la parada más imprevista del itinerario."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [],
+       "text": "La tarde gira hacia el comercio en "
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Jan el-Jalili"
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [],
+       "text": ", el bazar medieval que ocupa su solar actual desde el siglo XIV. Las calles turísticas —plata, papiro, alabastro— son reales, pero el asunto aquí son los artesanos antes que las tiendas. El guía puede llevarte a los maestros: caldereros, fabricantes de tiendas en el cercano distrito de la Jayamiyya, ebanistas que trabajan la celosía. Lo que compres o no compres es asunto enteramente tuyo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000032",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [],
+       "text": "La jornada termina en el "
+      },
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "parque al-Azhar"
+      },
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [],
+       "text": ", 30 hectáreas de jardines tendidas sobre lo que durante cinco siglos fue el mayor montón de basura de El Cairo. El Aga Khan Trust for Culture lo desarrolló entre 1984 y 2005, y el resultado —jardines en terrazas, fuentes, un muro ayubí restaurado a lo largo del borde occidental— es un logro cívico genuino. Desde la terraza superior la vista abarca los alminares de la mezquita de Ibn Tulún, la Ciudadela y el horizonte oriental entero. Es un cierre tranquilo a un día denso."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000034",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "El Cairo lleva enterrándose y reconstruyéndose catorce siglos, y la mejor forma de entenderlo es seguir una capa hasta la siguiente."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000036",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000035",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Este es un día que hace exactamente eso."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000046",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000045",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo antiguo no es una sola epoca. Es la ciudad aprendiendo a vivir encima de si misma."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000049",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000047",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta es una ruta abierta. Si quieres ajustar el ritmo, cambiar el orden de las visitas o añadir un complemento, podemos adaptarla contigo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "オールド・カイロを一日で：イスラムの門、コプトの教会、そして都市の下の都市"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロは、屋上のバーやホテルのロビーからは姿を現しません。それが姿を現すのは路上、1092年から立ち続ける門の影のなか、ローマの要塞の壁の上に吊られた教会の内、そして職人が祖父のしてきたことをしている中世のバザールの路地でです。このツアーはその前提の上に組まれています——市内で最も古く、最も性格の異なる三つの界隈、すなわちイスラム・カイロ、コプト・カイロ、そしてムカッタムの丘を巡る、プライベートの終日の周遊で、午後の光がミナレットの上にやわらぐころ、アル＝アズハル公園という緑の異例で締めくくられます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "好奇心が強く、ほどほどに活動的で、キャプションよりも文脈を求める旅人に向いた一日です。凹凸のある石の上を歩き、お望みなら狭い階段を上り、千年以上にわたって途切れず礼拝に使われてきた建物の内に立つことになります。ペースは意図的で、急がず、プライベートガイドということは、心をとらえる場所には好きなだけ留まれるということです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "一日は、この都市の生のおよそ十二世紀にわたります。その広がりこそが眼目です。カイロは一つの都市ではなく、いくつもの都市が積み重なったもので、この行程は、その層位を一度の外出で感じとれる数少ない方法のひとつです。中世イスラム・カイロから始め、アラブの征服に先立つコプトとユダヤの界隈へと南に降り、エジプトのほかのどことも似ないもののために都市の上の丘へ登り、2005年まではごみ捨て場だった——いまやアラブ世界で最も優れた都市庭園のひとつである——公園で終えます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "まる一日です。ペースとどれだけ留まるかにより、地上で6時間から8時間を見込んでください。履き慣れた靴を。水をお持ちください。ハイヒールや新しいスニーカーのための一日ではありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000014",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "バーブ・ズウェイラ"
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [],
+       "text": "が一日の始まりで、それは正しい出発点です。1092年にファーティマ朝の宰相バドル・アル＝ガマーリーが建てたこれは、中世ファーティマ朝カイロに現存するわずか三つの門のひとつです。その上にそびえる双子のミナレットは、15世紀に加えられたスルタン・アル＝ムアイヤド・モスクのもので、両者は相まって、市内で最も心地よい垂直の構成のひとつをかたちづくります。頂上へ登るのは任意ですが、おすすめです——ムイッズ通りの回廊を見おろす眺めは、カイロのこの一帯が千年にわたっていかに密に占有され建て直されてきたかを感じさせてくれます。ガイドはここでお出迎えし、この門を一篇のテクストとして——その周りに育ったイスラムの都市を理解するための出発点として——用います。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000018",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": "バーブ・ズウェイラから、ルートは西へ南へと進み、"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "イブン・トゥールーン・モスク"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [],
+       "text": "へ。カイロでおおむね当初の姿のまま残る最古のモスクです。879年にアッバース朝の総督アフマド・イブン・トゥールーン——一時エジプトを我がものとした人物——によって完成され、その規模はいまも人を驚かせます。9ヘクタールの開けた中庭が屋根付きの列柱廊に囲まれ、外側の前庭（ジヤーダ）からは独特の螺旋ミナレット——エジプトでこの種唯一のもの——が立ち上がります。建築はイブン・トゥールーンの故郷であるイラクのサマッラーに着想を得ており、それがカイロのほかの何とも違う性格を与えています。中庭の簡素さは空虚ではありません——それは自信です。お望みの方には螺旋ミナレットの登攀ができます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [],
+       "text": "ツアーはそれから"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "コプト・カイロ"
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": "へと渡ります。これは、紀元1世紀ごろに築かれたローマの要塞「バビロン・イン・エジプト」の跡地の上にある、より古い南の界隈です。"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "吊り教会"
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": "——コプト名はアル＝ムアッラカ、すなわち「吊られたもの」の意——は、その要塞の南の門楼の塔の上に建てられており、それゆえ身廊が宙に浮いているように見えます。内部は彫られた象牙、象嵌の仕切り、そして多くが中世にさかのぼるコプトのイコンで密に満ちています。少なくとも4世紀から礼拝の場であり続け、世界で最も古い現役の教会のひとつです。お望みなら、ガイドがイコンの構成を説明できますし、身廊で静かに座っていたいなら、そのための場所もあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000022",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": "少し歩くと"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "聖セルギウス・バッコス教会"
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [],
+       "text": "——通称アブ・セルガ——に着きます。さらに古い、あるいは少なくともより古い地層の上に建つと主張する教会です。伝承では、聖家族がエジプトへの逃避の途中ここで休んだとされ、身廊の下の地下室がその場所と特定されています。その主張は検証できませんが、教会そのものは、現在の形では4世紀から5世紀ごろにさかのぼり、本物であり、時間をかける価値があります。身廊の円柱はそろっておらず、より古い建造物から運ばれたもので、それもまた一種の歴史です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000026",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [],
+       "text": "近くでは、"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ベン・エズラ・シナゴーグ"
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [],
+       "text": "がコプト界隈の三つの信仰の三角形を締めくくります。幼子モーセが葦のなかから見いだされた場所と伝えられています——これもまた検証できない伝承ですが、幾世紀にもわたってユダヤ教の巡礼者を引き寄せてきたものです。学問の世界でのこのシナゴーグの名声は、より具体的なものに拠っています——カイロ・ゲニザ、すなわち1896年にここで発見された30万点を超える中世ユダヤ教の写本断片の集積で、これが中世地中海史の研究を一変させました。建物そのものは1980年代に修復され、壮大というよりは優美です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [],
+       "text": "コプト・カイロから、ルートは東へ登り、"
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ムカッタムの丘"
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [],
+       "text": "の"
+      },
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "聖シメオン洞窟教会"
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [],
+       "text": "へ——地元では皮なめし職人聖シメオン修道院、あるいは単にザッバーリーン教会と呼ばれます。石灰岩の崖の壁に直接彫り込まれ、最大の円形劇場には2万人の礼拝者を収容できるこれは、エジプトで最も並外れた宗教施設のひとつであり、海外の訪問者に最も知られていないもののひとつです。ザッバーリーン——カイロのコプト系のごみ収集の共同体——は1970年代からここで礼拝してきました。マリオ・ドゥラスというポーランド人芸術家による、聖書の場面を描いた岩刻のレリーフが、まさしくモニュメンタルな規模で崖の壁を覆っています。その舞台、その共同体、そしてその彫刻が相まって、これを行程のなかで最も予想外の立ち寄り先にしています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000030",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [],
+       "text": "午後は"
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ハーン・ハリーリ"
+      },
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [],
+       "text": "で商いへと転じます。14世紀から現在の地に居を構える中世のバザールです。観光客向けの路地——銀、パピルス、アラバスター——も十分に本物ですが、ここでの眼目は店よりも職人たちです。ガイドが職人たちのもとへ案内できます——銅細工師、近くのハヤーミーヤ地区の天幕職人、ムシャラビーヤの木工の作り手たち。何を買うか買わないかは、まったくお客様次第です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000034",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [],
+       "text": "一日は"
+      },
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "アル＝アズハル公園"
+      },
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [],
+       "text": "で締めくくられます。五世紀にわたってカイロ最大のごみの山だった場所の上に敷かれた74エーカーの庭園です。アガ・カーン文化トラストが1984年から2005年にかけて整備し、その成果——段々畑の庭園、噴水、西の縁に沿って走る修復されたアイユーブ朝の壁——は、まさしく市民的な達成です。上のテラスからは、イブン・トゥールーン・モスクのミナレット、城塞、そして東のスカイライン全体が眺めに入ります。密度の濃い一日の、穏やかな終わりです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000036",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000035",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "カイロは十四世紀にわたって自らを埋めては建て直してきました。それを理解する最良の方法は、一つの層からその下の層へとたどることです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000038",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "これは、まさにそれをする一日です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000046",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000045",
+       "_type": "span",
+       "marks": [],
+       "text": "服装の段取り、洞窟教会への午後のドライブ、バザールの過ごし方など、コンシェルジュが各々の関心に合わせて行程を調えます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000049",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000047",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "This is a day spent in Cairo's working streets rather than behind ticket gates, and the city will be living around you the whole time. Twelve centuries is a lot to walk; if one quarter — Islamic, Coptic, or the Mokattam hills — deserves more of your day than the others, tell us and we'll weight the circuit."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Este día transcurre por las calles vivas de El Cairo más que tras taquillas, y la ciudad seguirá con lo suyo a tu alrededor todo el tiempo. Doce siglos son mucho que caminar; si un barrio — el islámico, el copto o las colinas de Mokattam — merece más horas que los demás, dínoslo y cargaremos el circuito hacia allí."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "この一日は、チケット売り場の向こうの遺跡ではなく、いまも人の暮らすカイロの街路を歩く日です。周囲では終始、街の日常が続いています。十二世紀ぶんを歩くのは相当な道のりですから、イスラーム地区、コプト地区、あるいはモカッタムの丘——どこかに時間を厚くしたいご希望があれば、遠慮なくお申し付けください。"
+  }
+ ],
+ "days": [
+  {
+   "_key": "day-1",
+   "_type": "tourDay",
+   "dayNumber": 1,
+   "morning": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000003",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Meet and Greet at Bab Zuweila"
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [],
+         "text": "Start your exploration at one of Cairo's oldest surviving gates, where your guide will share captivating tales of Cairo’s medieval past. Climb to the top for a panoramic city view."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000009",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Explore the Mosque of "
+        },
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [
+          "strong",
+          "000000000005"
+         ],
+         "text": "Ibn Tulun"
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": "Visit one of Cairo's oldest and most significant mosques. Admire its architectural beauty and expansive courtyard, and consider climbing the minaret for a unique perspective."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000005",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/cairo-travel-guide/ibn-tulun-citadel/"
+         },
+         "_type": "externalLink",
+         "href": "/guide/cairo",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "The Hanging Church"
+        },
+        {
+         "_key": "00000000000b",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [],
+         "text": "Enter this iconic church, built above a gatehouse of the old Roman fortress. Its rich history and artistic interior are as fascinating as its architectural design."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000013",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000f",
+         "_type": "span",
+         "marks": [
+          "strong",
+          "00000000000e"
+         ],
+         "text": "Saint Sergius and Bacchus Church"
+        },
+        {
+         "_key": "000000000010",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": " (Abu Serga)"
+        },
+        {
+         "_key": "000000000011",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000012",
+         "_type": "span",
+         "marks": [],
+         "text": "Explore this historical church, reputed to be a resting place of the Holy Family during their escape to Egypt. The serene ambiance adds to its profound historical importance."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "00000000000e",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/cairo-travel-guide/church-of-st-sergius-bacchus/"
+         },
+         "_type": "externalLink",
+         "href": "/guide/cairo/church-of-saint-sergius-and-bacchus-abu-serga",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000014",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Ben Ezra Synagogue"
+        },
+        {
+         "_key": "000000000015",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000016",
+         "_type": "span",
+         "marks": [],
+         "text": "Visit one of the oldest Jewish synagogues in Egypt, renowned for its rich history and elegant architecture."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000018",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "The "
+        },
+        {
+         "_key": "00000000001a",
+         "_type": "span",
+         "marks": [
+          "strong",
+          "000000000019"
+         ],
+         "text": "Cave Church"
+        },
+        {
+         "_key": "00000000001b",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": " in Mokattam"
+        },
+        {
+         "_key": "00000000001c",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000001d",
+         "_type": "span",
+         "marks": [],
+         "text": "Discover the impressive Cave Church, also known as the Monastery of Saint Simon. Nestled in the Mokattam Hills, this unique church, carved into the rock, serves as a place of worship for the Zabbaleen (garbage collectors) community and features stunning biblical carvings."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000019",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/cave-church-cairo/"
+         },
+         "_type": "externalLink",
+         "href": "/blog/cave-church-cairo",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000022",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000001f",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Artisans of Khan El Khalili"
+        },
+        {
+         "_key": "000000000020",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000021",
+         "_type": "span",
+         "marks": [],
+         "text": "Wander through the vibrant lanes of Khan El Khalili. Meet with local artisans, delve into their crafts, and perhaps find unique souvenirs to take home."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000026",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000023",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Stroll in Al-Azhar Park"
+        },
+        {
+         "_key": "000000000024",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000025",
+         "_type": "span",
+         "marks": [],
+         "text": "Wrap up your day with a leisurely walk in one of Cairo’s largest parks. Enjoy the lush landscapes and breathtaking views of the city skyline."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000001",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Por la mañana: Comienza por las Puertas Históricas y El Cairo Islámico"
+        }
+       ],
+       "markDefs": [],
+       "style": "h3"
+      },
+      {
+       "_key": "000000000006",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Encuentro en Bab Zuweila"
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [],
+         "text": "Comienza tu exploración en una de las puertas más antiguas que se conservan en El Cairo, donde tu guía compartirá cautivadoras historias del pasado medieval de El Cairo."
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [],
+         "text": "Sube a la cima para disfrutar de una vista panorámica de la ciudad."
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Explora la Mezquita de Ibn Tulun"
+        },
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": "Visita una de las mezquitas más antiguas y significativas de El Cairo."
+        },
+        {
+         "_key": "000000000009",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": "Admira su belleza arquitectónica y su amplio patio, y considera la posibilidad de subir al minarete para disfrutar de una perspectiva única."
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Media Mañana: Descubre El Cairo copto"
+        }
+       ],
+       "markDefs": [],
+       "style": "h3"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000e",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "La Iglesia Colgante"
+        },
+        {
+         "_key": "00000000000f",
+         "_type": "span",
+         "marks": [],
+         "text": "Entra en esta emblemática iglesia, construida sobre una puerta de la antigua fortaleza romana."
+        },
+        {
+         "_key": "000000000010",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000011",
+         "_type": "span",
+         "marks": [],
+         "text": "Su rica historia y su artístico interior son tan fascinantes como su diseño arquitectónico."
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000013",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Iglesia de San Sergio y Baco (Abu Serga)"
+        },
+        {
+         "_key": "000000000014",
+         "_type": "span",
+         "marks": [],
+         "text": "Explora esta iglesia histórica con fama de ser el lugar de descanso de la Sagrada Familia durante su huida a Egipto."
+        },
+        {
+         "_key": "000000000015",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000016",
+         "_type": "span",
+         "marks": [],
+         "text": "El ambiente sereno se suma a su profunda importancia histórica"
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000019",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000018",
+         "_type": "span",
+         "marks": [],
+         "text": " "
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000001a",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Por la tarde: Patrimonio judío y artesanía local"
+        }
+       ],
+       "markDefs": [],
+       "style": "h3"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000001c",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Sinagoga Ben Ezra"
+        },
+        {
+         "_key": "00000000001d",
+         "_type": "span",
+         "marks": [],
+         "text": "Visita una de las sinagogas judías más antiguas de Egipto, famosa por su rica historia y su elegante arquitectura."
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000023",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000001f",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Artesanos de Khan El Khalili"
+        },
+        {
+         "_key": "000000000020",
+         "_type": "span",
+         "marks": [],
+         "text": "Pasea por las vibrantes callejuelas de Khan El Khalili."
+        },
+        {
+         "_key": "000000000021",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000022",
+         "_type": "span",
+         "marks": [],
+         "text": "Reúnete con artesanos locales, profundiza en su artesanía y quizás encuentres recuerdos únicos que llevarte a casa."
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000025",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000024",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "A última hora de la tarde: Relájate en el Parque Al-Azhar"
+        }
+       ],
+       "markDefs": [],
+       "style": "h3"
+      },
+      {
+       "_key": "00000000002a",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000026",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Paseo por el Parque Al-Azhar"
+        },
+        {
+         "_key": "000000000027",
+         "_type": "span",
+         "marks": [],
+         "text": "Termina el día con un tranquilo paseo por uno de los parques más grandes de El Cairo."
+        },
+        {
+         "_key": "000000000028",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000029",
+         "_type": "span",
+         "marks": [],
+         "text": "Disfruta de los exuberantes paisajes y de las impresionantes vistas del perfil de la ciudad."
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000002b",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Consejos adicionales:"
+        }
+       ],
+       "markDefs": [],
+       "style": "h3"
+      },
+      {
+       "_key": "00000000002f",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000002d",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Vístete con modestia:"
+        },
+        {
+         "_key": "00000000002e",
+         "_type": "span",
+         "marks": [],
+         "text": " Vístete de forma conservadora, ya que visitarás lugares religiosos."
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000032",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000030",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Calzado cómodo:"
+        },
+        {
+         "_key": "000000000031",
+         "_type": "span",
+         "marks": [],
+         "text": " Prepárate para caminar mucho llevando calzado cómodo."
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000035",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000033",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Mantente hidratado:"
+        },
+        {
+         "_key": "000000000034",
+         "_type": "span",
+         "marks": [],
+         "text": " Mantente hidratado mientras disfrutas de tu día bajo el sol."
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000005",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "バーブ・ズウェイラでの出迎え"
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [],
+         "text": "ツアーは、カイロ最古の門のひとつであるバーブ・ズウェイラからスタート。"
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": "ここでガイドと合流し、中世カイロの魅力あふれる歴史についての話を聞きながら、門の上に登り、街のパノラマビューを楽しみましょう。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [],
+         "text": "イブン・トゥルーン・モスクの探索"
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": "カイロ最古のモスクのひとつであり、エジプト・イスラム建築の傑作とされるイブン・トゥルーン・モスクを訪問。"
+        },
+        {
+         "_key": "000000000009",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": "壮大な中庭と緻密な装飾が施された礼拝堂を鑑賞し、らせん階段を登れば、モスクのミナレット（尖塔）から街を一望できます。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [],
+         "text": "ハンギング・チャーチ（聖母マリア教会）"
+        },
+        {
+         "_key": "00000000000d",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000000e",
+         "_type": "span",
+         "marks": [],
+         "text": "ローマ時代の要塞の門の上に建てられた、象徴的なハンギング・チャーチへ。"
+        },
+        {
+         "_key": "00000000000f",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000010",
+         "_type": "span",
+         "marks": [],
+         "text": "コプト教会の代表的な建築のひとつで、美しい装飾や歴史あるイコンが魅力です。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000012",
+         "_type": "span",
+         "marks": [],
+         "text": "聖セルギウス＆バッカス教会（アブ・セルガ教会）"
+        },
+        {
+         "_key": "000000000013",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000014",
+         "_type": "span",
+         "marks": [],
+         "text": "この教会は、聖家族がエジプト逃避の際に一時滞在した場所とされており、その静謐な雰囲気が訪れる人々を魅了します。"
+        },
+        {
+         "_key": "000000000015",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000016",
+         "_type": "span",
+         "marks": [],
+         "text": "歴史的に重要なスポットで、地下の礼拝堂や美しいフレスコ画も見どころです。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000018",
+         "_type": "span",
+         "marks": [],
+         "text": "ベン・エズラ・シナゴーグ"
+        },
+        {
+         "_key": "000000000019",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000001a",
+         "_type": "span",
+         "marks": [],
+         "text": "エジプト最古級のユダヤ教会堂であり、かつて旧約聖書の写本「カイロ・ゲニザ」が発見されたことで知られています。"
+        },
+        {
+         "_key": "00000000001b",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000001c",
+         "_type": "span",
+         "marks": [],
+         "text": "イスラムやコプト文化の影響を受けた美しい建築も見どころです。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000023",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000001e",
+         "_type": "span",
+         "marks": [],
+         "text": "モカッタムの洞窟教会"
+        },
+        {
+         "_key": "00000000001f",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000020",
+         "_type": "span",
+         "marks": [],
+         "text": "モカッタムの丘にある巨大な洞窟教会（聖サイモン修道院）へ。"
+        },
+        {
+         "_key": "000000000021",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000022",
+         "_type": "span",
+         "marks": [],
+         "text": "ザバリーン（ゴミ回収業者）コミュニティの信仰の場であり、岩壁に刻まれた壮麗な聖書の彫刻が印象的です。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000029",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000024",
+         "_type": "span",
+         "marks": [],
+         "text": "ハーン・エル・ハリーリの職人たちと交流"
+        },
+        {
+         "_key": "000000000025",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000026",
+         "_type": "span",
+         "marks": [],
+         "text": "カイロ最大のバザールで、地元の職人が作る伝統工芸品を見学。"
+        },
+        {
+         "_key": "000000000027",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000028",
+         "_type": "span",
+         "marks": [],
+         "text": "手作りのジュエリー、香辛料、織物などが並ぶ賑やかな市場で、職人たちの技を間近で体験し、お土産探しを楽しみましょう。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000002f",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000002a",
+         "_type": "span",
+         "marks": [],
+         "text": "アル・アズハル公園の散策"
+        },
+        {
+         "_key": "00000000002b",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000002c",
+         "_type": "span",
+         "marks": [],
+         "text": "ツアーの締めくくりは、カイロのオアシスアル・アズハル公園でのリラックスタイム。"
+        },
+        {
+         "_key": "00000000002d",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000002e",
+         "_type": "span",
+         "marks": [],
+         "text": "緑豊かな庭園を歩きながら、カイロのスカイラインを一望し、一日の旅をゆったりと振り返ります。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000031",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000030",
+         "_type": "span",
+         "marks": [],
+         "text": "このツアーを通じて、カイロの豊かな歴史と文化を深く味わいましょう！"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "value": "Cairo's Treasures"
+    },
+    {
+     "_key": "es",
+     "value": "Día 1 Tesoros de El Cairo"
+    },
+    {
+     "_key": "ja",
+     "value": "1日目 カイロの至宝"
+    }
+   ]
+  }
+ ],
+ "durationDays": 1,
+ "durationHours": 8,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Full day · ~8 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Día completo · ~8 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "終日・約8時間"
+  }
+ ],
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 80,
+  "ja": 87
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Courtyard of a Coptic church in Old Cairo with twin bell towers and saintly icons."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Patio de una iglesia copta en el Viejo Cairo con dos campanarios e iconos de santos."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "双子の鐘楼と聖人のイコンがある旧カイロのコプト教会の中庭。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-a414e342977ee8a015dd4f902f0b14dad871dd9f-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A quiet courtyard in Coptic Cairo, framed by icons and twin bell towers."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Un patio tranquilo del Cairo copto, enmarcado por iconos y dos campanarios."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "イコンと双子の鐘楼に囲まれた、コプト・カイロの静かな中庭。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "ke3ur1juxb",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "From a medieval gate to a rock-hewn church, this full-day Cairo tour moves through Islamic, Coptic, and Jewish Cairo with a private guide and no crowds.",
+   "text": "Private guide"
+  },
+  {
+   "_key": "ap5bwzfnnv",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El ritmo es deliberado, no apresurado, y el guía privado significa que pasarás el tiempo que decidas en los lugares que te detengan.",
+   "text": "guía privado"
+  },
+  {
+   "_key": "56hv02d9ww",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "中世の門から岩を穿った教会まで、この終日のカイロ・デイツアーは、プライベートガイドとともに雑踏を避け、イスラム、コプト、ユダヤのカイロを巡ります。",
+   "text": "プライベートガイド"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/private-tour-the-grand-old-cairo-tour/"
+ },
+ "priceFrom": 69,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_alexandria_catacombs_pompeys_pillar_group_day_tour_from_cairo",
+   "_ref": "tour.alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_transfer_from_cairo_airport_to_hotel",
+   "_ref": "tour.transfer-from-cairo-airport-to-hotel",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_cairo_dinner_cruise_with_belly_dancing_show",
+   "_ref": "tour.cairo-dinner-cruise-with-belly-dancing-show",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_nmec_royal_mummies_old_cairo",
+   "_ref": "tour.nmec-royal-mummies-old-cairo",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Fully private · own licensed Egyptologist · air-conditioned vehicle · three faiths and twelve centuries in one circuit · tiered pricing"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Tour privado urbano y religioso · Activo, con caminatas"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "プライベート・冷房付き車両 ／ 専属エジプト学ガイド ／ 段階制（ベース／＋入場料／＋入場料・昼食） ／ ご家族歓迎"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Full day, ≈8 hours"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Dia completo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "終日・地上で約6〜8時間"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Bab Zuweila → Ibn Tulun → Coptic Cairo → Mokattam Hills → Khan El Khalili → Al-Azhar Park"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Cairo islamico, Cairo copto y barrios historicos"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "バーブ・ズウェイラ → イブン・トゥールーン → コプト・カイロ（吊り教会、聖セルギウス、ベン・エズラ） → ムカッタムの洞窟教会 → ハーン・ハリーリ → アル＝アズハル公園"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "private-tour-the-grand-old-cairo-tour"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "tour-privado-la-gran-jornada-por-el-cairo-antiguo"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "puraibeto-tsua-gurando-orudo-kairo-deitsua"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "From a medieval gate to a rock-hewn church, this full-day Cairo tour moves through Islamic, Coptic, and Jewish Cairo with a private guide and no crowds."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "De una puerta medieval a una iglesia excavada en la roca, este tour privado de día completo cruza El Cairo islámico, copto y judío sin grupos."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "中世の門から岩を穿った教会まで、この終日のカイロ・デイツアーは、プライベートガイドとともに雑踏を避け、イスラム、コプト、ユダヤのカイロを巡ります。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Private Tour: The Grand Old Cairo Day Tour"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Tour privado: la gran jornada por El Cairo antiguo"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "プライベートツアー：グランド・オールド・カイロ デイツアー"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}
