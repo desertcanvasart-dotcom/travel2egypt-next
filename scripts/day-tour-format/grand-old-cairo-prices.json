@@ -1,6 +1,6 @@
 {
-  "_note": "PRICE PENDING: these figures EXCLUDE the Mosque of Ibn Tulun entrance fee (EGP 200, owner 21 Nov), which the owner is adding to Autoura; re-run T2E-DT-CAI-08 and replace en/es/ja before --apply. Per-person selling prices in EUR for 2 travellers sharing, by guide language. Rule (lib/publish/public-rate in Autoura): engine figure for 2 travellers, house margin 30 %, lowest season, higher of EU / other, cheapest complete tier, rounded UP to the whole euro; ES and JA = the same with a Spanish / Japanese guide. Source: Autoura T2E-DT-CAI-08 (fees for Bab Zuwaila, the Hanging Church, Khan El Khalili and Al-Azhar Park, lunch, water, guide, the Cairo car 'HOTEL- DAY TOUR'). Abu Serga, the Ben Ezra Synagogue and the Cave Church have no fee (free, owner 21 Nov). Read 21 Nov, before the Ibn Tulun fee: budget tier complete in every language, EN €65.08, ES €76.10, JA €92.61, rounded up. Live today: EN €69, ES €80, JA €87.",
-  "en": 66,
-  "es": 77,
-  "ja": 93
+  "_note": "Per-person selling prices in EUR for 2 travellers sharing, by guide language. Rule (lib/publish/public-rate in Autoura): engine figure for 2 travellers, house margin 30 %, lowest season, higher of EU / other, cheapest complete tier, rounded UP to the whole euro; ES and JA = the same with a Spanish / Japanese guide. Source: Autoura T2E-DT-CAI-08 (fees for Bab Zuwaila, the Mosque of Ibn Tulun, the Hanging Church, Khan El Khalili and Al-Azhar Park, lunch, water, guide, the Cairo car 'HOTEL- DAY TOUR'). Ibn Tulun: the owner's fee row 'Ibn Tolun Mosque' (EGP 100, added 21 Nov) and added to CAI-08's attractions 21 Nov (snapshot autoura-saas/scripts/tmp-t2e/ibn-tulun.before.json). Abu Serga, the Ben Ezra Synagogue and the Cave Church have no fee (free, owner 21 Nov). Read 21 Nov with Ibn Tulun: budget tier complete in every language, EN €67.29, ES €78.30, JA €94.81, rounded up. (Without it: €66 / €77 / €93.) Live today: EN €69, ES €80, JA €87.",
+  "en": 68,
+  "es": 79,
+  "ja": 95
 }
