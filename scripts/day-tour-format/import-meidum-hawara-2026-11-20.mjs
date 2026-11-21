@@ -31,9 +31,9 @@
  * locale (productFact.linkRef → wp-page-156014, /fayoum-desert-adventure; new field, this PR).
  *
  * Guide links (open items): Meidum Pyramid and Hawara Pyramid have guide pages and are linked from
- * their site lines. The Labyrinth, the Fayoum portraits and the Egyptian Museum have no site line
- * of their own in the locked copy (the Labyrinth has no guide page; the museum is named in the
- * mastaba note, which has no Sites line) — reported in the PR, not invented.
+ * their site lines. The Labyrinth site links to the new blog article
+ * (per locale, see LABYRINTH). The Fayoum portraits and the Egyptian Museum have no site line of
+ * their own in the locked copy (the museum is named in the mastaba note) — reported, not invented.
  *
  * Summary (the dek and, with no seo.metaDescription, the meta description): it named the "desert
  * oasis"; the new one names Meidum, the village monastery and Hawara (correction 8), in the locked
@@ -91,9 +91,12 @@ const G = {
   meidum: 'guideArticle.beni-suef.pyramid-of-meidum',
   hawara: 'guideArticle.al-fayoum.the-pyramid-of-hawara',
 };
-// Sites per stop that has them, in file order: "Meidum Pyramid"; "Hawara Pyramid · the Labyrinth"
-// (no guide page for the Labyrinth).
-const SITE_GUIDES = [[G.meidum], [G.hawara, null]];
+// Sites per stop that has them, in file order: "Meidum Pyramid"; "Hawara Pyramid · the Labyrinth".
+// The Labyrinth links to the owner's new blog article (21 Nov, PR #329), one doc per language, so the
+// map is per locale (an ES row pointing at the EN doc would resolve to /es/blog/hawara-labyrinth, a 404).
+// Weak refs: either the tour or the article can be published first.
+const LABYRINTH = { en: 'article.hawara-labyrinth-en', es: 'article.hawara-labyrinth-es', ja: 'article.hawara-labyrinth-ja' };
+const SITE_GUIDES = Object.fromEntries(['en', 'es', 'ja'].map((l) => [l, [[G.meidum], [G.hawara, LABYRINTH[l]]]]));
 const DURATION_LABEL = { en: 'Full day · ~10 hrs', es: 'Día completo · ~10 h', ja: '終日・約10時間' };
 const DURATION_HOURS = 10;
 // New addresses (open items, "Proposed URLs"). JA: the repo's romaji pattern (see the header).
@@ -178,7 +181,7 @@ for (const l of ['es', 'ja']) {
 }
 for (const l of LANGS) for (const k of ['pickup', 'lunch', 'back']) if (!P[l].panelRows[PANEL[l][k]]) throw new Error(`${l}: no ${k} row in the panel (${Object.keys(P[l].panelRows).join(', ')})`);
 const siteStops = P.en.periods.flatMap((x) => x.stops).filter((s) => s.sites);
-if (siteStops.length !== SITE_GUIDES.length || siteStops.some((s, i) => s.sites.length !== SITE_GUIDES[i].length)) throw new Error('sites ≠ SITE_GUIDES');
+if (siteStops.length !== SITE_GUIDES.en.length || siteStops.some((s, i) => s.sites.length !== SITE_GUIDES.en[i].length)) throw new Error('sites ≠ SITE_GUIDES');
 for (const l of LANGS) if (P[l].options.filter((o) => FAYOUM_OPTION[l].test(o)).length !== 1) throw new Error(`${l}: the Fayoum-trip option is not exactly one item`);
 // Gate B (open items §5.2): the lakes appear nowhere in the locked copy.
 for (const l of LANGS) if (/Qarun|Qarún|Rayan|カルーン|ラヤン/.test(JSON.stringify(P[l]))) throw new Error(`${l}: the locked copy names Lake Qarun or Wadi el-Rayan`);
@@ -213,7 +216,7 @@ function build(l) {
   const timeline = p.periods.map((x, pi) => ({
     _key: `dt-${l}-${pi + 1}`, _type: 'dayTourPeriod', lang: l, period: x.period, periodLabel: x.periodLabel,
     stops: x.stops.map((s, si) => {
-      const guides = s.sites ? SITE_GUIDES[siteStop++] : null;
+      const guides = s.sites ? SITE_GUIDES[l][siteStop++] : null;
       if (s.sites && guides.length !== s.sites.length) throw new Error(`${l}: site/guide count mismatch at ${s.title}`);
       return {
         _key: `s${pi + 1}-${si + 1}`, _type: 'dayTourStop', title: s.title, ...(s.text ? { text: s.text } : {}),
