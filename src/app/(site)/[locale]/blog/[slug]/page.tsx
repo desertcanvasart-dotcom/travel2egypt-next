@@ -4,6 +4,7 @@ import { fallbackTours, splitAfterSection, type ArticleTour } from '@/lib/articl
 import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { redirectForeignSlug } from '@/lib/foreign-slug';
 import Image from 'next/image';
 
 import { Link } from '@/i18n/navigation';
@@ -183,7 +184,11 @@ export default async function ArticlePage({ params }: Props) {
   const t = await getTranslations('blog');
   const tNav = await getTranslations('nav');
   const article = (await getArticle(locale, slug)) as ArticleDoc | null;
-  if (!article) notFound();
+  if (!article) {
+    // Wrong-language slug (old GSC discoveries) → 308 to the right page.
+    await redirectForeignSlug('article', locale, [slug]);
+    notFound();
+  }
 
   const primaryCity = article.primaryCity ?? null;
 

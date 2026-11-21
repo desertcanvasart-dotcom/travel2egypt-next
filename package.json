@@ -28,7 +28,7 @@
     "content-lint": "node scripts/content-lint/index.mjs",
     "test:retired-content": "tsx src/lib/__tests__/retired-content.test.ts",
     "test:redirect-map-integrity": "tsx src/lib/__tests__/redirect-map-integrity.test.ts",
-    "test:migration-routing": "tsx src/lib/__tests__/migration-routing.test.ts && tsx src/lib/__tests__/sitemap-policy.test.ts && tsx src/lib/__tests__/monument-locale.test.ts && tsx src/lib/__tests__/canonical-content-href.test.ts",
+    "test:migration-routing": "tsx src/lib/__tests__/migration-routing.test.ts && tsx src/lib/__tests__/sitemap-policy.test.ts && tsx src/lib/__tests__/monument-locale.test.ts && tsx src/lib/__tests__/canonical-content-href.test.ts && tsx src/lib/__tests__/foreign-slug.test.ts",
     "verify:migration-destinations": "tsx scripts/verify-migration-destinations.ts",
     "test:no-streaming-boundary": "tsx src/lib/__tests__/no-streaming-boundary-above-not-found.test.ts",
     "test:import-md": "tsx scripts/wp-import-md/__tests__/run-all.ts",
