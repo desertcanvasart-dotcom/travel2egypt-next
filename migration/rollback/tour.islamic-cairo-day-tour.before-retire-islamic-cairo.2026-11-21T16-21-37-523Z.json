@@ -1,0 +1,1405 @@
+{
+ "_createdAt": "2026-05-28T11:45:27Z",
+ "_id": "tour.islamic-cairo-day-tour",
+ "_rev": "pzh5FM4q1DBt3H4LGqNNJZ",
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:46Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Visitors with a genuine appetite for medieval Islamic architecture and urban history — not the right day for anyone hoping for a leisurely morning and an early pool return"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Amantes de arquitectura islamica e historia urbana"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "中世イスラム建築・都市史に本物の関心があり、北部墓地まで足を延ばして一日歩くことを厭わない方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Islamic Cairo: A Day in the City That Saladin Built"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo is not one city but several, layered on top of each other across millennia. Most visitors spend their time with the Pharaonic layer — the pyramids, the temples, the gilded masks — and leave having barely touched the one that shaped the city's actual daily life for the past fourteen centuries. Islamic Cairo, the dense medieval quarter that UNESCO recognised in 1979 as one of the world's most important historic urban environments, is where Cairo became itself: a capital of caliphates, a seat of Mamluk power, a centre of Sunni scholarship, and a market city of extraordinary energy."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "This day tour moves through that quarter with real purpose. It is not a highlights-reel of mosques photographed from a bus window. The itinerary takes you inside four major sites — the Citadel of Saladin, the Mosque of Mohamed Ali, the Sultan Hassan Mosque-Madrassa, and the Rifai Mosque — then out to the Northern Cemetery to walk among the Mamluk funerary complexes, before finishing in the controlled chaos of Khan El-Khalili. That is a substantial amount of ground to cover, and the day will be full. Expect four to six hours on your feet across uneven stone, with intermittent shade."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "The tour suits anyone with a genuine interest in medieval Islamic architecture, urban history, or the way religion and political power shaped built environments. It is not the tour for someone who wants a leisurely morning and an early pool return. It is the tour for someone who wants to understand why Cairo became one of the great cities of the medieval world — and why, walking through it today, that claim still feels entirely plausible."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "A note on timing: Islamic Cairo is best approached in the morning, before the heat peaks and before the larger tour groups arrive at the Citadel. The district is a living neighbourhood, not a preserved museum, and you will share it with schoolchildren, merchants, and residents going about their day. That is part of what makes it worth visiting."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "The day begins at the "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Citadel of Saladin"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": ", the hilltop fortress that Salah ad-Din — the Kurdish general who founded the Ayyubid dynasty and recaptured Jerusalem in 1187 — began constructing around 1176 AD. For nearly seven centuries, until Khedive Ismail moved the seat of government to Abdeen Palace in the 1870s, the Citadel was the centre of Egyptian political power. The walls still read as genuinely fortified rather than decorative, and the elevated position gives you one of the best vantage points in Cairo — on a clear morning, with low dust, you can see the Giza pyramids from the northern terrace."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Inside the Citadel complex, the dominant structure is the "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Mosque of Mohamed Ali"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ", completed in 1848 and modelled closely on the Ottoman mosques of Istanbul, particularly the Sultan Ahmed Mosque. Mohamed Ali Pasha, the Albanian-born commander who seized power after Napoleon's withdrawal and founded the dynasty that ruled Egypt until 1952, built it as a statement of ambition and legitimacy. The twin minarets are slender and conspicuously Turkish in style; the interior is vast, domed, and hung with lanterns that create a warm amber light even on overcast days. His tomb stands in the southwestern corner. The military museum within the complex is worth a brief stop for anyone interested in how Egyptian nationalist history is narrated — the curation tells you as much about the twentieth century as it does about the periods it covers."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "From the Citadel you descend to the square below, where two of the finest surviving examples of medieval Islamic architecture in the world stand facing each other with a narrow street between them. The "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Mosque-Madrassa of Sultan Hassan"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": ", built between 1356 and 1363 during the reign of the Bahri Mamluk sultan of the same name, is one of the most ambitious building projects of the medieval Islamic world. It was designed simultaneously as a mosque, a tomb, and a theological school teaching all four Sunni schools of jurisprudence. The scale is genuinely striking: the entrance portal alone is around 38 metres high, making it one of the tallest in the Islamic world. The interior courtyard opens to the sky through a void that functions almost like a Gothic nave in its verticality. The calligraphic bands running around the walls are among the finest examples of Mamluk decorative stonework surviving anywhere."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Directly across the street stands the "
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Rifai Mosque"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": ", which reads at first glance as a natural companion to Sultan Hassan but is in fact a century newer than it appears: construction began in 1869 under Khedive Ismail's mother and was completed in 1912. The architects were instructed to match the Mamluk aesthetic of the neighbourhood, which they did with considerable skill. Beyond its architectural interest, the Rifai Mosque holds an unusual collection of graves: the royal family of Egypt's last reigning dynasty, including King Farouk, is buried here, as is Mohammad Reza Pahlavi, the last Shah of Iran, who died in Cairo in 1980 after the Islamic Revolution ended his exile options elsewhere."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "The itinerary then moves north and east to the "
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Northern Cemetery"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": ", the area popularly known as the City of the Dead — a designation that is both accurate and misleading, since the district is also heavily inhabited by living Cairenes, as it has been for centuries. The Mamluk sultans who ruled Egypt from 1250 to 1517 built elaborate funerary complexes here, and three of the finest are on this tour. The "
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Mausoleum of Sultan Qaitbey"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": ", built in 1474, is one of the most technically accomplished pieces of Mamluk architecture in existence: the stone dome above the tomb chamber is carved with an interlocking arabesque pattern of extraordinary delicacy, and the minaret beside it stacks three distinct decorative zones with perfect proportional control. The complexes of "
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Sultan Ashraf Baresbay"
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": " and "
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Faraj Ibn Barquq"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": " are quieter and receive far fewer visitors than the mosque complexes near the Citadel, which means you can take time with them. The Ibn Barquq complex, built around 1411, contains two stone domes of unusual size — it was among the first funerary complexes in Cairo to use stone rather than brick for dome construction."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "The day closes at "
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Khan El-Khalili"
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": ", the great bazaar established in the 1380s when the Mamluk emir Djaharks el-Khalili built a caravanserai on the site of a Fatimid royal cemetery. The market has been continuously trading ever since and is now a dense warren of lanes selling gold, silver, spices, perfume oils, papyrus, textiles, leather, and an extensive range of objects that will look considerably less appealing once you get them home. That is not a criticism — Khan El-Khalili is genuinely one of the great urban markets of the world, and wandering it without a shopping agenda is its own reward. The surrounding neighbourhood of Al-Muizz li-Din Allah Street, just steps away, contains a remarkable concentration of medieval Islamic monuments if you have energy left and want to extend."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "The Scale of What You're Seeing"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "It bears stating plainly: the buildings on this itinerary span roughly 750 years of Islamic architecture, from the Ayyubid fortifications of the twelfth century through the Mamluk high period of the fourteenth and fifteenth centuries to the Ottoman-inflected work of the nineteenth. Each period had distinct structural priorities and decorative vocabularies. The Mamluks in particular — a military caste of originally enslaved soldiers who ruled Egypt for 267 years — were prolific and serious patrons of architecture; Cairo's Islamic quarter is largely a Mamluk city, and understanding that context makes the buildings considerably more interesting than seeing them as an undifferentiated sequence of old mosques."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Cairo's Islamic quarter is not a heritage zone preserved behind glass — it is a living city that has been continuously inhabited, argued over, and built upon for nearly a thousand years."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A day here does not exhaust it. It gives you the thread to follow back."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000040",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": "The Northern Cemetery is the section most often dropped by rival tours and the one most worth keeping in — Qaitbey's carved stone dome alone justifies the detour. Tell us whether you want a slower architectural read at three or four monuments or a wider sweep across the whole arc, and we will brief the guide accordingly."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo islámico: un día en la ciudad que Saladino fortificó"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una jornada privada para recorrer fortalezas, mezquitas, mercados y necrópolis que explican mil años de historia urbana."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo no es una ciudad sino varias, apiladas unas sobre otras a lo largo de los milenios. La mayoría de los visitantes pasa el tiempo con la capa faraónica —las pirámides, los templos, las máscaras doradas— y se marcha sin haber tocado apenas la que dio forma a la vida diaria de la ciudad durante los últimos catorce siglos. El Cairo islámico, el denso barrio medieval que la UNESCO reconoció en 1979 como uno de los entornos urbanos históricos más importantes del mundo, es donde El Cairo se convirtió en sí mismo: capital de califatos, sede del poder mameluco, centro de erudición suní y ciudad-mercado de energía extraordinaria."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Este tour de día recorre ese barrio con propósito real. No es un montaje de mezquitas fotografiadas desde la ventanilla. El itinerario lleva al viajero al interior de cuatro grandes sitios —la Ciudadela de Saladino, la mezquita de Mohamed Ali, la mezquita-madrasa del sultán Hassan y la mezquita de al-Rifa'i— para después salir a la Necrópolis Norte a caminar entre los complejos funerarios mamelucos y rematar en el caos controlado de Jan el-Jalili. Es un terreno sustancial que cubrir, y la jornada estará llena. Hay que contar entre cuatro y seis horas a pie sobre piedra desigual, con sombra intermitente."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "El tour conviene a cualquiera con un interés genuino por la arquitectura islámica medieval, la historia urbana o el modo en que la religión y el poder político conformaron entornos construidos. No es el tour para quien busca una mañana relajada y un regreso temprano a la piscina. Es el tour para quien quiere entender por qué El Cairo se convirtió en una de las grandes ciudades del mundo medieval, y por qué, al caminarla hoy, esa afirmación sigue siendo plausible."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Una nota sobre horarios: el Cairo islámico se aborda mejor por la mañana, antes de que el calor llegue a su máximo y antes de que los grupos de turistas grandes lleguen a la Ciudadela. El barrio es una zona viva, no un museo conservado, y se compartirá con escolares, comerciantes y residentes que hacen su día. Eso forma parte de lo que vale la pena ver."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "El día comienza en la "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Ciudadela de Saladino"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ", la fortaleza en lo alto de la colina que Salah ad-Din —el general kurdo que fundó la dinastía ayubí y reconquistó Jerusalén en 1187— empezó a construir hacia 1176 d. C. Durante casi siete siglos, hasta que el jedive Ismail trasladó la sede del gobierno al palacio de Abdín en la década de 1870, la Ciudadela fue el centro del poder político egipcio. Los muros aún se leen como genuinamente fortificados antes que decorativos, y la posición elevada ofrece uno de los mejores miradores del Cairo: en una mañana clara, con poco polvo, se pueden ver las pirámides de Guiza desde la terraza norte."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Dentro del recinto de la Ciudadela, la estructura dominante es la "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "mezquita de Mohamed Ali"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": ", terminada en 1848 y modelada estrechamente sobre las mezquitas otomanas de Estambul, en particular la Mezquita Azul. Mohamed Ali Pachá, el comandante de origen albanés que tomó el poder tras la retirada napoleónica y fundó la dinastía que gobernó Egipto hasta 1952, la construyó como declaración de ambición y legitimidad. Los dos minaretes son esbeltos y manifiestamente turcos en estilo; el interior es vasto, abovedado y cuelga de él una constelación de lámparas que crean una luz ámbar incluso en días nublados. Su tumba se encuentra en la esquina suroeste. El museo militar del complejo merece una breve parada para quien tenga curiosidad por cómo se narra la historia nacionalista egipcia: la curaduría dice tanto del siglo XX como de los periodos que cubre."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde la Ciudadela se desciende a la plaza inferior, donde dos de los mejores ejemplos supervivientes de arquitectura islámica medieval en el mundo se enfrentan con una calle estrecha de por medio. La "
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "mezquita-madrasa del sultán Hassan"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": ", construida entre 1356 y 1363 durante el reinado del sultán mameluco bahrí homónimo, es uno de los proyectos arquitectónicos más ambiciosos del mundo islámico medieval. Fue diseñada simultáneamente como mezquita, tumba y escuela teológica que enseñaba las cuatro escuelas suníes de jurisprudencia. La escala impresiona genuinamente: el portal de entrada por sí solo ronda los 38 metros de alto, uno de los más altos del mundo islámico. El patio interior se abre al cielo a través de un vacío que funciona casi como una nave gótica en su verticalidad. Las bandas caligráficas que recorren los muros figuran entre los mejores ejemplos de cantería decorativa mameluca que sobreviven en cualquier parte."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Justo enfrente se levanta la "
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "mezquita de al-Rifa'i"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": ", que a primera vista parece un compañero natural del sultán Hassan pero es en realidad un siglo más reciente de lo que aparenta: la construcción comenzó en 1869 bajo la madre del jedive Ismail y se completó en 1912. A los arquitectos se les indicó que igualaran la estética mameluca del barrio, lo cual hicieron con notable habilidad. Más allá de su interés arquitectónico, la mezquita de al-Rifa'i alberga un conjunto de tumbas inusual: la familia real de la última dinastía reinante de Egipto, incluido el rey Faruk, está enterrada aquí, así como Mohammad Reza Pahlavi, el último sah de Irán, que murió en El Cairo en 1980 después de que la Revolución Islámica acabara con sus opciones de exilio en otros lugares."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "El itinerario se desplaza después hacia el norte y el este, hasta la "
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Necrópolis Norte"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": ", la zona popularmente conocida como la Ciudad de los Muertos —una denominación a la vez exacta y engañosa, ya que el distrito también está fuertemente habitado por cairotas vivos, como lo ha estado durante siglos—. Los sultanes mamelucos que gobernaron Egipto entre 1250 y 1517 construyeron aquí complejos funerarios elaborados, y tres de los mejores figuran en este tour. El "
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "mausoleo del sultán Qaitbey"
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": ", construido en 1474, es una de las piezas técnicamente más logradas de la arquitectura mameluca que existen: la cúpula de piedra sobre la cámara funeraria está labrada con un patrón arabesco entrelazado de extraordinaria delicadeza, y el minarete contiguo apila tres zonas decorativas distintas con un control proporcional perfecto. Los complejos del "
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "sultán Ashraf Barsbay"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": " y de "
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Faraj ibn Barquq"
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": " son más silenciosos y reciben muchísimos menos visitantes que los conjuntos de mezquitas cercanas a la Ciudadela, lo que permite dedicarles tiempo. El complejo de Ibn Barquq, construido hacia 1411, contiene dos cúpulas de piedra de tamaño inusual: fue uno de los primeros complejos funerarios del Cairo en emplear piedra y no ladrillo para la construcción de las cúpulas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "El día se cierra en "
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Jan el-Jalili"
+      },
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": ", el gran bazar fundado en la década de 1380 cuando el emir mameluco Djaharks el-Khalili construyó un caravasar sobre el solar de un cementerio real fatimí. El mercado ha comerciado de forma continua desde entonces y es hoy un denso laberinto de callejones que vende oro, plata, especias, aceites perfumados, papiro, textiles, cuero y un extenso catálogo de objetos que parecerán mucho menos atractivos al llegar a casa. No es una crítica: Jan el-Jalili es genuinamente uno de los grandes mercados urbanos del mundo, y deambular por él sin agenda de compras es su propia recompensa. El barrio vecino de la calle Al-Muizz li-Din Allah, a pocos pasos, concentra una densidad notable de monumentos islámicos medievales por si quedan energías para ampliar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "La escala de lo que se está viendo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Conviene decirlo con claridad: los edificios de este itinerario abarcan unos 750 años de arquitectura islámica, desde las fortificaciones ayubíes del siglo XII, pasando por el alto periodo mameluco de los siglos XIV y XV, hasta el trabajo de inflexión otomana del siglo XIX. Cada periodo tenía prioridades estructurales y vocabularios decorativos distintos. Los mamelucos en particular —una casta militar formada originalmente por soldados esclavizados que gobernó Egipto durante 267 años— fueron prolíficos y serios mecenas de la arquitectura; el barrio islámico del Cairo es en gran medida una ciudad mameluca, y entender ese contexto vuelve los edificios considerablemente más interesantes que verlos como una secuencia indiferenciada de mezquitas viejas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "El barrio islámico del Cairo no es una zona patrimonial preservada tras un cristal: es una ciudad viva habitada, discutida y construida de manera continua durante casi mil años."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un día aquí no la agota. Da el hilo del que tirar de vuelta."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000044",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [],
+       "text": "La Necrópolis Norte es la sección que los tours rivales suelen omitir y la que más conviene mantener: solo la cúpula tallada de Qaitbey justifica el desvío. Cuéntanos si prefieres una lectura arquitectónica más pausada en tres o cuatro monumentos o un barrido más amplio por todo el arco, y daremos las instrucciones precisas al guía."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "イスラム地区カイロ：サラディンが築いた都市での一日"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロはひとつの都市ではなく、いくつもの都市が、幾千年をかけて互いの上に積み重なったものです。多くの来訪者はファラオ時代の層——ピラミッド、神殿、金で飾られたマスク——とともに時を過ごし、過去十四世紀にわたってこの都市の実際の日々の暮らしを形づくってきたもうひとつの層には、ほとんど触れないまま去ってゆきます。イスラム地区カイロ、ユネスコが1979年に世界で最も重要な歴史的都市環境のひとつとして認めた、密集した中世の街区——ここで、カイロはカイロそのものになりました。すなわち、カリフ国の首都であり、マムルーク朝権力の座であり、スンナ派学問の中心であり、並外れた活気を放つ市場都市です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "このデイツアーは、その街区を、本物の目的意識をもって巡ります。バスの窓越しに撮影されたモスクのハイライト集ではありません。行程は四つの主要な遺跡——サラディン城塞、ムハンマド・アリー・モスク、スルタン・ハサン・モスク・マドラサ、そしてリファーイー・モスク——の内部へお連れし、それから北部墓地へと足を延ばしてマムルーク朝の葬祭複合体のあいだを歩き、最後にハーン・ハリーリの制御された混沌のなかで締めくくります。これはかなりの距離を巡る一日で、中身は濃密です。凹凸のある石の上を、断続的な日陰のなか、4〜6時間は歩くものと見込んでください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "このツアーは、中世イスラム建築、都市史、あるいは宗教と政治権力がいかに建造環境を形づくったかに、本物の関心をお持ちのどなたにも向いています。穏やかな朝と早めのプールへの帰還を望む方には向きません。なぜカイロが中世世界の大都市のひとつになったのか——そして今日それを歩いてもなお、なぜその主張がまったく説得力をもって感じられるのか——を理解したい方にこそ、向いています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "時間配分についてひとこと。イスラム地区カイロは、暑さが頂点に達する前、そして大きなツアー団体が城塞に到着する前の、午前に訪ねるのが最良です。この地区は保存された博物館ではなく、生きた住宅街であり、学校へ通う子どもたち、商人たち、日々を営む住民たちと、空間を分かち合うことになります。それこそが、ここを訪ねる価値の一部です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "一日は"
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "サラディン城塞"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "から始まります。サラーフ・アッディーン——アイユーブ朝を創始し、1187年にエルサレムを奪回したクルド人の将軍——が1176年ごろに築き始めた、丘の上の要塞です。クハーヴ・イスマーイールが1870年代に政府の座をアブディーン宮殿へ移すまでの七世紀近く、城塞はエジプトの政治権力の中心でした。城壁は今も装飾的ではなく、まぎれもなく要塞としての姿を伝え、その高みからは、カイロ随一の見晴らしのひとつが得られます——埃の少ない、晴れた朝には、北のテラスからギザのピラミッドが見えるほどです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "城塞複合体の内部で、ひときわ目を引く建造物が"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ムハンマド・アリー・モスク"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "です。1848年に完成し、イスタンブールのオスマン朝のモスク、とりわけスルタン・アフメト・モスクをきわめて忠実に範としています。ナポレオンの撤退後に権力を握り、1952年までエジプトを統べた王朝を創始した、アルバニア生まれの司令官ムハンマド・アリー・パシャが、その野心と正統性の表明として築きました。双塔のミナレットは細く、いちじるしくトルコ風で、内部は広大なドームに覆われ、曇りの日でさえ温かな琥珀色の光をつくり出すランタンが吊るされています。彼の墓は南西の隅にあります。複合体内の軍事博物館は、エジプトの民族主義の歴史がいかに語られているかに関心のある方には、短い立ち寄りの価値があります——その展示の組み立ては、扱う時代についてと同じくらい、二十世紀について多くを物語っています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "城塞から下りた先の広場では、世界の中世イスラム建築のなかでも最も優れた現存例のうち二つが、狭い通りをはさんで向かい合って立っています。"
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "スルタン・ハサン・モスク・マドラサ"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "は、同名のバフリー・マムルーク朝のスルタンの治世下、1356年から1363年にかけて建てられたもので、中世イスラム世界で最も野心的な建築事業のひとつです。モスクであり、墓であり、スンナ派四大法学派すべてを教える神学校でもあるよう、同時に設計されました。その規模はまぎれもなく圧倒的で、入口の門だけでもおよそ38メートルの高さがあり、イスラム世界で最も高いもののひとつです。中庭の内部は、その垂直性においてほとんどゴシックの身廊のように機能する空隙を通じて、天へと開けています。壁面をめぐる書道の帯は、世界のどこに現存するもののなかでも、マムルーク朝の装飾石工の最も優れた例に数えられます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "通りをはさんだちょうど向かいに立つのが"
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "リファーイー・モスク"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "で、一見スルタン・ハサンの自然な相方のように見えますが、実際にはその見かけより一世紀新しいものです。建造はクハーヴ・イスマーイールの母のもとで1869年に始まり、1912年に完成しました。建築家たちは街区のマムルーク様式の美意識に合わせるよう指示され、かなりの技量でそれをやり遂げました。建築上の関心を超えて、リファーイー・モスクは異色の墓の集まりを擁しています——ファルーク王を含むエジプト最後の統治王朝の王室一族がここに葬られ、また、イスラム革命によって他所への亡命の道を断たれ、1980年にカイロで没したイランの最後のシャー、ムハンマド・レザー・パフラヴィーも同じくここに眠っています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "行程はそれから北東へ進み、俗に「死者の街」として知られる地区である"
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "北部墓地"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "へ向かいます——その呼び名は、正確であると同時に誤解を招くものです。なぜなら、この地区は何世紀ものあいだそうであったように、生きたカイロの人々によっても色濃く居住されているからです。1250年から1517年までエジプトを統べたマムルーク朝のスルタンたちは、ここに精巧な葬祭複合体を築き、そのうち最も優れた三つがこのツアーに含まれます。1474年に建てられた"
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "スルタン・カーイトバーイの霊廟"
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "は、現存するマムルーク建築のなかでも最も技術的に完成されたもののひとつです——墓室の上の石のドームは、並外れて繊細な連続するアラベスク模様で彫られ、そのかたわらのミナレットは、三つの異なる装飾の帯をきわめて整った比例の制御のもとに積み上げています。"
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "スルタン・アシュラフ・バルスバイ"
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "および"
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ファラジュ・イブン・バルクーク"
+      },
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "の複合体は、より静かで、城塞近くのモスク複合体よりはるかに少ない来訪者しか集めません——つまり、じっくりと時間をかけられるということです。1411年ごろに建てられたイブン・バルクークの複合体には、異例の大きさの石のドームが二つあります——カイロでドームの建造に煉瓦ではなく石を用いた最初期の葬祭複合体のひとつでした。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "一日は"
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ハーン・ハリーリ"
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "で締めくくられます。マムルーク朝のアミール、ジャハルクス・エル・ハリーリが、ファーティマ朝の王室墓地の跡地にキャラバンサライを築いた1380年代に始まった、大バザールです。市場はそれ以来休まず商いを続けており、今では金、銀、香辛料、香水、パピルス、織物、革、そして家に持ち帰るとずっと魅力の薄れる、ありとあらゆる品々を売る、密集した路地の迷宮になっています。これは批判ではありません——ハーン・ハリーリはまぎれもなく世界の大都市市場のひとつであり、買い物の目当てなく歩き回ること自体が、ひとつの報いです。すぐ近くの、これを取り巻くアル・ムイッズ・リ・ディーニッラー通りの界隈には、体力に余裕があってさらに足を延ばしたい方のために、中世イスラムの記念建造物が驚くべき密度で集まっています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "あなたが目にしているものの規模"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "率直に述べておく価値があります。この行程上の建造物は、十二世紀のアイユーブ朝の城壁から、十四・十五世紀のマムルーク朝の最盛期を経て、十九世紀のオスマン朝の影響を帯びた作品まで、およそ750年のイスラム建築にわたります。それぞれの時代には、独自の構造上の優先事項と装飾の語彙がありました。とりわけマムルーク朝——もともと奴隷とされた兵士の軍事カーストで、267年にわたってエジプトを統べました——は、建築の多作で真剣な庇護者でした。カイロのイスラム地区は、おおむねマムルーク朝の都市であり、その文脈を理解することが、これらの建造物を、古いモスクの区別なき連なりとして見るよりはるかに面白いものにしてくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "カイロのイスラム地区は、ガラスの向こうに保存された遺産地帯ではありません——千年近くにわたって、絶え間なく人が住み、論じられ、その上に築き続けられてきた、生きた都市です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "ここでの一日は、それを汲み尽くしはしません。たどり戻るための糸を、あなたに手渡してくれるのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000046",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000044",
+       "_type": "span",
+       "marks": [],
+       "text": "北部墓地のどのマムルーク朝霊廟に時間を割くか、ムイッズ通りまで足を延ばすかなど、体力に合わせて段取りを整えます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Four working mosques in a single arc means modest dress from morning to close — light, covering layers are worth planning the night before. We collect from hotels and cruise ships alike; tell our concierge where you're berthed or staying, and whether the day is shared with children, and we'll pace it to suit."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Cuatro mezquitas en activo en un mismo arco significan vestimenta discreta de la mañana al cierre — capas ligeras que cubran, pensadas la noche anterior, funcionan mejor que cualquier improvisación. Recogemos tanto en hoteles como en cruceros; dile a nuestro concierge dónde te alojas o atracas, y si el día se comparte con niños, y lo llevaremos al ritmo adecuado."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "現役のモスクを四つ巡る一日ですから、朝から終わりまで肌を覆う控えめな服装が必要です——軽くて覆いのある装いを、前の晩に用意しておくのが賢明です。お迎えはホテルからでもクルーズ船からでも承ります。ご滞在先または停泊先を、そしてお子様連れかどうかをコンシェルジュにお知らせください。それに合わせて一日の歩調を整えます。"
+  }
+ ],
+ "durationHours": 8,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Full day · ~8 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Día completo · ~8 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "終日・約8時間"
+  }
+ ],
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 88,
+  "ja": 95
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The arcaded courtyard and brick minaret of the Mosque of al-Hakim in Islamic Cairo under a blue sky"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El patio porticado y el alminar de ladrillo de la Mezquita de al-Hakim en el Cairo islámico, bajo un cielo azul"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "青空の下、イスラム・カイロのハーキム・モスクのアーケードの中庭とレンガのミナレット。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-544f8fde839088b5d1ff9affb6b3dba7f1b4e80d-3000x2250-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The courtyard of the Mosque of al-Hakim in Islamic Cairo."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El patio de la Mezquita de al-Hakim en el Cairo islámico."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "イスラム・カイロのハーキム・モスクの中庭。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "er59tr97su",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "1250年から1517年までエジプトを統べたマムルーク朝のスルタンたちは、ここに精巧な葬祭複合体を築き、そのうち最も優れた三つがこのツアーに含まれます。",
+   "text": "北部墓地のマムルーク朝葬祭複合体（最も優れた三つ）"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/islamic-cairo-day-tour/"
+ },
+ "priceFrom": 77,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_alexandria_catacombs_pompeys_pillar_group_day_tour_from_cairo",
+   "_ref": "tour.alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_transfer_from_cairo_airport_to_hotel",
+   "_ref": "tour.transfer-from-cairo-airport-to-hotel",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_cairo_dinner_cruise_with_belly_dancing_show",
+   "_ref": "tour.cairo-dinner-cruise-with-belly-dancing-show",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_nmec_royal_mummies_old_cairo",
+   "_ref": "tour.nmec-royal-mummies-old-cairo",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Fully private · own licensed Egyptologist · air-conditioned vehicle · modest dress required for the four mosque visits · no minimum age, families welcome · tiered pricing with optional entrance-fee and lunch bundles"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Tour privado historico · Activo, con caminatas"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "お客様のご一行だけのプライベートツアー · 公認エジプト学ガイド · エアコン付き専用車両 · 年齢制限なし（モスクは慎ましい装い、女性はスカーフ） · 三段階のプライシング（ベース／＋入場料／＋入場料・昼食）"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Full day, approximately eight hours from hotel or cruise-ship pickup"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Dia completo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "終日（凹凸のある石の上を4〜6時間歩く）"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Citadel of Saladin · Mosque of Mohamed Ali · Sultan Hassan Mosque-Madrassa · Rifai Mosque · Northern Cemetery (Qaitbey, Ashraf Baresbay, Faraj Ibn Barquq) · Khan El-Khalili"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Ciudadela, mezquitas, Cairo islamico y bazar"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "サラディン城塞・ムハンマド・アリー・モスク → スルタン・ハサン・モスク・マドラサ → リファーイー・モスク → 北部墓地（カーイトバーイ／バルスバイ／イブン・バルクーク） → ハーン・ハリーリ"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "islamic-cairo-day-tour"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "tour-privado-por-el-cairo-islamico-ciudadela-mezquitas-y-jan-el-jalili"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "isuramu-chiku-kairodeitsua-josai-mosuku-han-hariri"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "From Saladin's medieval citadel to the labyrinthine lanes of Khan El-Khalili, this day traces a thousand years of Islamic Cairo in a single arc."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "De la ciudadela medieval de Saladino a los callejones laberínticos de Jan el-Jalili, un día trazando mil años de Cairo islámico en un solo arco."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "サラディンの中世の城塞から、迷宮のようなハーン・ハリーリの路地まで——この一日が、イスラム地区カイロの千年を、ひとつの弧として描き出します。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Islamic Cairo Day Tour: The Citadel, Mosques & Khan El-Khalili"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Tour privado por el Cairo islámico: Ciudadela, mezquitas y Jan el-Jalili"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "イスラム地区カイロ・デイツアー：城塞、モスク、ハーン・ハリーリ"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}
