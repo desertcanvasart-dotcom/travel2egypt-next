@@ -21,10 +21,21 @@ async function main() {
     '/ja/category/', '/tag/escapada-a-alejandria-y-el-cairo/844-1755-44411', '/author/admin/',
     // WordPress date archives + date permalinks
     '/2017/05/15/', '/2017/05', '/ja/2019/03/', '/2017/05/15/some-old-post/', '/es/2018/11/02/entrada.html',
-    // junk-suffix crawl artefacts + planted spam playlists (GSC "Not found" export 2026-09-14)
-    '/ja/ビアフム/844-1755-44411', '/es/escape-a-egipto-paquete-de-4-dias/844-1755-44411',
-    '/some-old-tour/844-1755-44411/', '/upload/6868292358.m3u8', '/upload/', '/es/upload/x.m3u8',
+    // planted spam playlists (GSC "Not found" export 2026-09-14)
+    '/upload/6868292358.m3u8', '/upload/', '/es/upload/x.m3u8',
   ];
+  // Junk-suffix artefacts: 308 to the base path (which then resolves itself).
+  const stripped: Array<[string, string]> = [
+    ['/some-old-tour/844-1755-44411/', '/some-old-tour'],
+    ['/es/escape-a-egipto-paquete-de-4-dias/844-1755-44411', '/es/escape-a-egipto-paquete-de-4-dias'],
+    ['/siwa-oasis-travel-guide/historical-tapestry/844-1755-44411', '/siwa-oasis-travel-guide/historical-tapestry'],
+  ];
+  for (const [path, base] of stripped) {
+    assert.equal(unstable_doesMiddlewareMatch({ config, nextConfig: {}, url: path }), true, path);
+    const response = await middleware(new NextRequest(`https://travel2egypt.org${path}`, { headers: { host: 'travel2egypt.org' } }));
+    assert.equal(response.status, 308, path);
+    assert.equal(new URL(response.headers.get('location') ?? '').pathname, base, path);
+  }
   const retained = [
     '/', '/es', '/ja', '/guide', '/es/guide', '/ja/guide',
     '/first-time-in-egypt', '/financial', '/?utm_source=test',
@@ -53,7 +64,7 @@ async function main() {
   // next.config redirects run before middleware: none may intercept a retired path.
   const intercepting = redirects.filter(({ source }) => RETIRED_PATH.test(source));
   assert.deepEqual(intercepting, [], 'redirect rows intercept retired paths');
-  console.log(`Retired-content regression checks passed (${removed.length} removed, ${retained.length} retained).`);
+  console.log(`Retired-content regression checks passed (${removed.length} removed, ${stripped.length} stripped, ${retained.length} retained).`);
 }
 
 main().catch((error) => { console.error(error); process.exitCode = 1; });
