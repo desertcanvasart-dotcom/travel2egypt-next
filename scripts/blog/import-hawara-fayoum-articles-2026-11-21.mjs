@@ -113,11 +113,23 @@ const PIECES = {
   fayoum: {
     id: 'fayoum-portraits',
     locked: { en: 'review/locked/blog/fayoum-portraits.md', es: 'review/locked/blog/fayoum-portraits-es.md', ja: 'review/locked/blog/fayoum-portraits-ja.md' },
-    // OWNER DECIDES. Set to an image asset _id (and fill `hero` below) to give the
-    // Portraits docs a hero; while null the docs are built without heroImage and
-    // --apply refuses them unless --allow-no-hero.
-    heroAsset: null,
-    hero: null, // { en: { alt, caption }, es: {…}, ja: {…} }
+    // Owner's image (21 Nov, Desktop/fayum-portrait.png, 1536×1024), uploaded as JPG. A mummy portrait
+    // in the Fayoum style; the caption names no museum or sitter.
+    heroAsset: 'image-5760587d85c73cd462eee95ccd9b0ceb48725cc3-1536x1024-jpg',
+    hero: {
+      en: {
+        alt: 'A painted mummy portrait of a young woman with dark curly hair, a gilded wreath, gold earrings and a red mantle, on an arched wooden panel.',
+        caption: 'A mummy portrait in the Fayoum style: painted on wood, made to lie over the face of the dead.',
+      },
+      es: {
+        alt: 'Un retrato de momia pintado de una mujer joven de pelo oscuro y rizado, con corona dorada, pendientes de oro y manto rojo, sobre una tabla de madera de remate curvo.',
+        caption: 'Un retrato de momia al estilo de El Fayum: pintado sobre madera, para cubrir el rostro del difunto.',
+      },
+      ja: {
+        alt: '上部が丸い木の板に描かれたミイラ肖像画。黒い巻き毛に金の冠、金の耳飾り、赤い外衣をまとった若い女性。',
+        caption: 'ファイユーム様式のミイラ肖像画。木の板に描かれ、亡くなった人の顔の上に置かれました。',
+      },
+    },
     names: {
       en: [
         { anchor: 'Egyptian Museum in Tahrir', ref: G.egyptianMuseum },
