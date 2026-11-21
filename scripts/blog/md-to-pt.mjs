@@ -14,7 +14,8 @@
  *   - markdown tables → a `definitionList` block (no table type exists in the
  *     article schema; Body.tsx already renders definitionList and reads plain
  *     strings): header row first, then one row per line — term = column 1,
- *     note = column 2, description = column 3. Every cell stays verbatim.
+ *     note = column 2, description = column 3 (a 4th column is appended to the
+ *     description with TABLE_JOIN). Every cell stays verbatim.
  *
  * Nothing here talks to Sanity.
  */
@@ -33,6 +34,13 @@ export function makeKeys(prefix) {
   let n = 0;
   return (p) => `${prefix}${p}${(n++).toString(36)}`;
 }
+
+/**
+ * A 4-column table has no 4th slot in `definitionList` (term / note / description):
+ * columns 3 and 4 share the description, joined by this separator. Both cells stay
+ * verbatim; callers split on it for the verbatim check.
+ */
+export const TABLE_JOIN = ' · ';
 
 const INLINE_RE = /\[([^\]]+)\]\(([^)\s]+)\)|\*\*(.+?)\*\*|\*(.+?)\*/g;
 
@@ -110,8 +118,12 @@ export function parseArticle(raw, { key, resolveLink }) {
     if (/^\|?\s*:?-{3,}/.test(line) && line.includes('|')) continue; // table separator row
     sourceLines.push(stripMd(line.replace(/^#{1,4}\s+|^-\s+/, '')));
     if (line.startsWith('|')) {
-      const cells = line.replace(/^\||\|$/g, '').split('|').map((c) => c.trim());
-      if (cells.length !== 3) throw new Error(`table row with ${cells.length} cells (expected 3): ${line}`);
+      const cells = line.replace(/^\||\|$/g, '').split('|').map((c) => stripMd(c.trim()));
+      if (cells.length !== 3 && cells.length !== 4) throw new Error(`table row with ${cells.length} cells (expected 3 or 4): ${line}`);
+      if (cells.length === 4) {
+        if (cells.some((c) => c.includes(TABLE_JOIN))) throw new Error(`table cell contains the join separator "${TABLE_JOIN}": ${line}`);
+        cells.splice(2, 2, `${cells[2]}${TABLE_JOIN}${cells[3]}`);
+      }
       (table ??= []).push(cells);
       consumed++;
       continue;
