@@ -1,0 +1,6 @@
+{
+  "_note": "ONE per-person selling price in EUR for 2 travellers sharing, the same in every language (no guide on these evenings: a driver, the show ticket and, at Philae, the motor boat). Owner, 21 Nov: 'Use the 2-traveller price, one price for all languages'. Rule (lib/publish/public-rate in Autoura): engine figure for 2 travellers, house margin 30 %, lowest season, higher of EU / other, rounded UP to the whole euro. Autoura templates created 21 Nov: T2E-DT-CAI-14 (Giza: car 'HOTEL-SOUND&LIGHT' 2,500 EGP + show $20 pp → €51.20), T2E-DT-LXR-08 (Karnak: car 'Hotel - Sound & Light' 820 EGP + show $20 pp → €32.71), T2E-DT-ASW-06 (Philae: car 'Hotel → Sound & Light → Hotel (Philae)' 1,210 EGP + motor boat 800 EGP + show $15 pp → €39.89). The show tickets are the activity rates added 16 Nov (USD per person). Before: Giza €73 (ES €84, JA €91), Karnak €73 (ES €84, JA €91), Philae €61 (ES €72, JA €79).",
+  "giza": { "id": "wp-page-110952", "old": [73, 84, 91], "price": 52 },
+  "karnak": { "id": "tour.sound-light-show-at-karnak-temple-in-luxor", "old": [73, 84, 91], "price": 33 },
+  "philae": { "id": "wp-page-88604", "old": [61, 72, 79], "price": 40 }
+}
