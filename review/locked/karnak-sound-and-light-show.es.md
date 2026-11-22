@@ -6,7 +6,7 @@
 
 **Tipo:** traslados privados, espectáculo compartido · **Duración:** unas 2 a 2½ horas desde la recogida hasta el regreso, con un espectáculo de alrededor de una hora
 **Desde:** {lowest per-person tier} por persona · el precio depende del tamaño del grupo
-**Niños y estudiantes:** alrededor de un 50 % de descuento
+**Niños menores de 12 años y estudiantes:** alrededor de un 50 % de descuento
 **Recogida:** por la tarde-noche, en tu hotel de Luxor
 **Regreso:** a tu hotel después del espectáculo
 **Idioma del espectáculo:** hay sesiones en varios idiomas; te confirmamos la tuya
@@ -69,6 +69,7 @@ La narración sigue a las dinastías que construyeron Karnak, la ruptura de Aken
 - El espectáculo se comparte con otros visitantes; tus traslados son privados.
 - La narración y la producción son de su época: ve por el ambiente y la arquitectura, no por efectos de última generación.
 - A los niños pequeños una hora de narración puede hacérseles lenta.
+- Los estudiantes deben presentar un carné de estudiante válido esa noche.
 
 ---
 
