@@ -1,0 +1,2069 @@
+{
+ "_createdAt": "2026-05-13T22:23:50Z",
+ "_id": "wp-page-88179",
+ "_rev": "K2pi3eY73hTRu2vMGMyRaJ",
+ "_system": {
+  "base": {
+   "id": "wp-page-88179",
+   "rev": "hfH9i9C1WObc0VBSEzdHA1"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:41Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers moving between Luxor and Aswan who want three Ptolemaic-Roman temples done seriously rather than as a Nile-cruise drive-by"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros que se desplazan entre Luxor y Asuán y desean recorrer los tres templos ptolemaico-romanos con seriedad, no como una parada de crucero"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "ルクソールからアスワンへ南下する片道の移動を、観光ではなく三つのプトレマイオス朝・ローマ神殿の連なりとしてこなしたい方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Three Temples, One Long Drive: Esna, Edfu & Kom Ombo from Luxor"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "There is a stretch of the Nile Valley between Luxor and Aswan where the Ptolemies and their Roman successors built with exceptional ambition — not ruins, not fragments, but temples that still have their roofs, their painted ceilings, and in some cases their original iron-red and blue pigments. This day tour connects three of them: Esna, Edfu, and Kom Ombo, ending in Aswan rather than looping back. That last detail matters. This is a one-way journey south, and it is a long one."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "The driving alone will take the better part of three hours across the day, so this is not a gentle morning out. Expect an early departure from Luxor, a full afternoon on your feet, and an arrival in Aswan by early evening. Travellers who approach it as a driving tour with three serious stops will be rewarded; those hoping for a leisurely pace at each site may find the schedule tight."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "What the three temples share is the Ptolemaic and Greco-Roman imprint — a period (roughly 332 BC to the 4th century AD) when Egypt was ruled by Macedonian Greeks and then Romans who adopted Egyptian religious forms with genuine enthusiasm, funding enormous building programmes and commissioning hieroglyphic texts they could not themselves read. The resulting architecture is distinct: larger, more theatrical, and more completely preserved than anything from earlier dynasties, partly because the later periods had less time to erode and partly because some of these temples were simply buried in sand and silt until modern excavation."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "This suits a particular type of traveller well: someone who has done the Karnak and Luxor Temple circuit and wants to push further south, or someone arriving overland from Cairo who wants to cover the Valley's southern temples before reaching Aswan. It also works as a one-way transfer between the two cities dressed as a tour, which is an honest and efficient way to spend the day."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "private tour, operated for your party alone"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": " — never shared with other guests. Because it is private, it "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "runs for as few as one traveller, with no minimum group size and no waiting on other bookings"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "; larger parties are accommodated in a suitable vehicle. A "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "private, air-conditioned vehicle"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ", a "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "licensed, English-speaking Egyptologist guide"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ", and "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "one bottle of mineral water per person"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": " are included in every tier. Given the long drive, the heat, and the uneven temple ground, the "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "minimum age for this tour is 18"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "The tour comes in three tiers, so you only pay for what you want: a "
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": " package (private vehicle, guide, water, and all driving and logistics); "
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base + Entrance Fees"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": " (the same, plus entry to all three temples); and "
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base + Entrance Fees & Lunch"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": " (those entrance fees plus a midday meal). Egyptian entrance fees are revised often, so keeping them separate keeps the base fare honest. Tier prices are shown at booking."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "The day begins in Luxor and heads south along the west bank of the Nile, the first stop arriving after roughly 55 kilometres."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "The "
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Temple of Khnum at Esna"
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": " sits not on the riverbank but in the middle of the modern town, sunk about nine metres below street level in a deep excavation pit — the accumulated debris of two millennia of habitation piled up around it. The colonnaded hypostyle hall you enter is primarily a construction of the 1st and 2nd centuries AD, built under the Roman emperors, though the site itself was founded during the New Kingdom era, more than a thousand years earlier. Khnum was the ram-headed god who shaped human beings on a potter's wheel and controlled the Nile's annual inundation from a cave beneath Elephantine Island. The hall's 24 columns carry some of the latest hieroglyphic inscriptions known to scholars — texts carved as late as the 3rd century AD, long after hieroglyphics had fallen out of everyday use — and the ceiling retains enough paint to give a genuine sense of the original colour. What makes Esna worth the stop rather than a passing mention is exactly that strangeness: a Roman-era ceiling, in a town that has simply grown up over it, still telling stories about a god whose cult stretched back three thousand years."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "From Esna the road continues south for another 60 kilometres to "
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Edfu"
+      },
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": ", and here the scale shifts considerably. The Temple of Horus at Edfu is the largest and most completely preserved Ptolemaic temple in Egypt, and by most measures the best-preserved ancient Egyptian temple of any period after Luxor Temple. Construction began under Ptolemy III in 237 BC and was completed, after nearly two centuries of building and decoration, by Ptolemy XII in 57 BC. It was then buried under sand and village housing until the 1860s, when Auguste Mariette's excavations revealed it nearly intact. Walking through the great pylon — 36 metres high, flanked by two granite falcons representing Horus — into the forecourt and then into the progressively darker hypostyle halls gives a clearer picture of how a functioning Egyptian temple was structured than almost any other site in the country. The walls record the Myth of Horus in detailed relief: his battles with Set, the annual sacred drama performed here, the theological mechanics of divine kingship. This is the stop that justifies the day."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "The road continues south-east, now approaching the point where the Nile narrows at the Silsila sandstone quarries, before reaching "
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Kom Ombo"
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": ", 45 kilometres north of Aswan. The Temple of Kom Ombo is architecturally unusual in Egypt because it is symmetrically duplicated: two complete sets of halls, sanctuaries, and axes running in parallel, one dedicated to Horus the Elder (a form distinct from Horus the falcon god of Edfu) and one to Sobek, the crocodile-headed god associated with the Nile's power and fertility. The dual design was not an accident or a later addition but an original structural decision, reflecting the dual nature of this particular cult site at a place where Nile crocodiles once gathered in great numbers. Within the complex, a separate room houses dozens of mummified crocodiles discovered nearby, offering an unexpectedly vivid illustration of the physical reality behind the iconography. The site sits directly on the riverbank, and the light in the late afternoon, when the stones go warm gold, is worth arriving for."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "The tour concludes in "
+      },
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Aswan"
+      },
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": ", where the day ends. Aswan is a city worth its own time — Philae Temple, the Unfinished Obelisk, the High Dam, and the Nubian neighbourhoods of the west bank all reward unhurried attention. If your itinerary allows an overnight, the next morning is well spent. If you are continuing south or flying out, the city's compact centre is accessible from most hotels within minutes."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "The Temples in Context"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "All three sites cluster in the centuries between Alexander the Great's conquest in 332 BC and the Roman Empire's eventual suppression of the old cults in the 4th century AD. This was a period when Egypt's new rulers found it politically useful to present themselves as successors to the pharaohs, funding temple construction and appearing in carved relief wearing the double crown. The resulting buildings are lavish, their inscriptions exhaustive, and their state of preservation extraordinary compared to structures a thousand years older. That said, they are not monuments to Greek or Roman religion — the theology is Egyptian, the rituals are Egyptian, and the priests who staffed these temples were Egyptian. The foreign rulers provided the funding; the local clergy provided the content."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Three temples, built across four centuries, still legible in their original form — that is a rarer thing than any temple description fully conveys."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "The drive south earns it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000049",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000048",
+       "_type": "span",
+       "marks": [],
+       "text": "Three tiers (Base / + Entrance Fees / + Entrance Fees & Lunch) let you pay only for what you want; entrance fees are kept separate because Egypt revises them often. The concierge can advise on which tier suits your party and confirm your Aswan accommodation at the close."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004a",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Tres templos, una larga ruta: Esna, Edfu y Kom Ombo desde Luxor"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una jornada privada que recorre el Egipto ptolemaico y romano en sentido sur, terminando en Asuán en lugar de regresar a Luxor."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Existe un tramo del valle del Nilo, entre Luxor y Asuán, donde los Ptolomeos y sus sucesores romanos construyeron con una ambición excepcional: no ruinas ni fragmentos, sino templos que conservan aún sus techos, sus cielos pintados y, en algunos casos, los pigmentos originales en rojo hierro y azul. Este tour privado de día completo conecta tres de ellos —Esna, Edfu y Kom Ombo— y termina en Asuán en vez de volver a Luxor. Ese detalle importa. Es un viaje en un solo sentido hacia el sur, y es largo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Solo de conducción se suman cerca de tres horas a lo largo de la jornada, de modo que no se trata de una mañana ligera. Hay que contar con una salida temprana desde Luxor, una tarde completa de pie y una llegada a Asuán al anochecer. El viajero que lo entienda como un día de carretera con tres paradas serias quedará compensado; quien busque ritmo pausado en cada templo lo encontrará ajustado."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Lo que une a los tres templos es la huella ptolemaica y grecorromana: un periodo —aproximadamente del 332 a. C. al siglo IV d. C.— en el que Egipto estuvo gobernado por los griegos macedonios y, después, por los romanos, que adoptaron las formas religiosas egipcias con auténtico entusiasmo, financiaron enormes programas constructivos y encargaron textos jeroglíficos que ellos mismos no podían leer. La arquitectura resultante es distinta: más amplia, más teatral y mucho más completa que cualquier obra de las dinastías anteriores, en parte porque tuvo menos tiempo de erosionarse y en parte porque algunos de estos templos quedaron sepultados bajo arena y aluvión hasta su excavación moderna."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "El día se ajusta especialmente bien a un perfil concreto: quien ya ha completado el circuito de Karnak y del templo de Luxor y quiere empujar más al sur, o quien llega por tierra desde El Cairo y desea cubrir los templos meridionales del valle antes de instalarse en Asuán. Funciona también como traslado en un sentido entre ambas ciudades vestido de tour, que es una forma honesta y eficiente de aprovechar la jornada."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Se trata de un "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "tour estrictamente privado, operado en exclusiva para su grupo"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": " y nunca compartido con otros viajeros. Por su carácter privado, "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "opera desde un único viajero, sin tamaño mínimo de grupo y sin esperas a otras reservas"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "; los grupos más amplios se acomodan en un vehículo adecuado. Cada nivel incluye "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "vehículo privado con aire acondicionado"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ", "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "guía egiptólogo licenciado de habla hispana"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": " y "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "una botella de agua mineral por persona"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": ". Dada la duración de la carretera, el calor y el terreno irregular de los templos, la "
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "edad mínima para este tour es de 18 años"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel "
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": " (vehículo privado, guía, agua y toda la logística de conducción); "
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base + entradas"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": " (lo anterior más el acceso a los tres templos); y "
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base + entradas y almuerzo"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": " (las entradas más una comida al mediodía). Las tarifas egipcias se revisan con frecuencia, así que mantenerlas separadas evita inflar de forma artificial el precio base. Los precios por nivel se indican en el momento de reservar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "El día arranca en Luxor y avanza hacia el sur por la orilla occidental del Nilo; la primera parada llega tras unos 55 kilómetros."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "El "
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Templo de Khnum en Esna"
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": " no se alza junto al río, sino en pleno centro de la ciudad moderna, hundido unos nueve metros por debajo del nivel de la calle, en una fosa de excavación profunda: el sedimento acumulado de dos milenios de ocupación urbana se ha apilado a su alrededor. La sala hipóstila columnada que se atraviesa al entrar pertenece sobre todo a los siglos I y II d. C., construida bajo los emperadores romanos, aunque el yacimiento se fundó ya en el Imperio Nuevo, mil años antes. Khnum era el dios con cabeza de carnero que modelaba a los seres humanos en su torno de alfarero y controlaba la inundación anual del Nilo desde una caverna situada bajo la isla Elefantina. Las 24 columnas de la sala muestran algunas de las inscripciones jeroglíficas más tardías conocidas por los especialistas —textos grabados hasta el siglo III d. C., mucho después de que los jeroglíficos hubieran caído en desuso cotidiano— y el techo conserva pintura suficiente para que el color original siga siendo legible. Lo que justifica detenerse en Esna, y no apenas mencionarla, es precisamente esa extrañeza: un techo de época romana, en una localidad que ha crecido literalmente por encima, que aún narra episodios de un dios cuyo culto se extendía tres mil años atrás."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde Esna, la carretera sigue 60 kilómetros más al sur hasta "
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Edfu"
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": ", y aquí la escala cambia notablemente. El Templo de Horus en Edfu es el templo ptolemaico más grande y mejor conservado de Egipto y, por la mayoría de medidas, el templo egipcio antiguo de cualquier época más íntegro tras el templo de Luxor. La construcción se inició bajo Ptolomeo III en el 237 a. C. y se completó, después de casi dos siglos de obras y decoración, bajo Ptolomeo XII en el 57 a. C. Quedó luego sepultado bajo arena y casas de aldea hasta que las excavaciones de Auguste Mariette, en la década de 1860, lo sacaron a la luz prácticamente intacto. Atravesar el gran pilono —36 metros de altura, flanqueado por dos halcones de granito que representan a Horus— hasta el patio y, después, las salas hipóstilas progresivamente más oscuras ofrece una imagen más nítida del funcionamiento de un templo egipcio activo que casi cualquier otro yacimiento del país. Los muros recogen el Mito de Horus con un detalle minucioso: sus combates con Set, el drama sagrado representado anualmente en este recinto, la mecánica teológica de la realeza divina. Es la parada que justifica el día."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "La carretera continúa hacia el sureste, ya cerca del estrechamiento del Nilo en las canteras de arenisca de Silsila, hasta alcanzar "
+      },
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Kom Ombo"
+      },
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": ", 45 kilómetros al norte de Asuán. El Templo de Kom Ombo es arquitectónicamente atípico en Egipto porque está duplicado de manera simétrica: dos conjuntos completos de salas, santuarios y ejes corren en paralelo, uno consagrado a Horus el Viejo (una forma distinta del Horus halcón de Edfu) y otro a Sobek, el dios con cabeza de cocodrilo asociado a la fuerza y a la fertilidad del Nilo. La doble planta no fue un accidente ni una añadidura tardía, sino una decisión estructural original que refleja la naturaleza dual de este santuario, en un lugar donde los cocodrilos del Nilo se concentraban antiguamente en gran número. Dentro del complejo, una sala anexa alberga decenas de cocodrilos momificados hallados en las inmediaciones, que ilustran con sorprendente fuerza la realidad física detrás de la iconografía. El recinto se asienta directamente sobre la orilla del río, y la luz de la última hora de la tarde, cuando las piedras adquieren un tono dorado cálido, merece por sí sola coordinar la llegada."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "El tour concluye en "
+      },
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Asuán"
+      },
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": ", donde termina la jornada. Asuán es una ciudad que pide su propio tiempo: el templo de Philae, el Obelisco Inacabado, la Alta Presa y los barrios nubios de la orilla occidental recompensan a quien los visita sin prisa. Si su itinerario permite una noche en la ciudad, la mañana siguiente está bien empleada. Si va a continuar hacia el sur o tomar un vuelo, el centro compacto de Asuán está accesible desde la mayoría de los hoteles en pocos minutos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "Los templos en su contexto"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "Los tres yacimientos se concentran en los siglos que median entre la conquista de Alejandro Magno en el 332 a. C. y la supresión final de los antiguos cultos por el Imperio romano en el siglo IV d. C. Fue un periodo en el que los nuevos gobernantes de Egipto consideraron políticamente útil presentarse como sucesores de los faraones, financiando templos y apareciendo en los relieves con la doble corona. Los edificios resultantes son fastuosos, sus inscripciones exhaustivas y su estado de conservación, extraordinario frente a estructuras mil años más antiguas. Dicho esto, no son monumentos a la religión griega o romana: la teología es egipcia, el ritual es egipcio y los sacerdotes que atendían estos templos eran egipcios. Los gobernantes extranjeros aportaron la financiación; el clero local aportó el contenido."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Tres templos, levantados a lo largo de cuatro siglos, todavía legibles en su forma original: eso es algo más raro de lo que cualquier descripción transmite."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "La carretera hacia el sur lo justifica."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004c",
+       "_type": "span",
+       "marks": [],
+       "text": "Los tres niveles (Base / + entradas / + entradas y almuerzo) permiten pagar solo por lo que interesa; las entradas se mantienen separadas porque Egipto revisa sus tarifas con frecuencia. El concierge puede aconsejar el nivel adecuado para su grupo y confirmar el alojamiento de Asuán al cierre del día."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000050",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004e",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "三つの神殿、ひとつの長いドライブ：ルクソールからエスナ・エドフ・コム・オンボへ"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールとアスワンのあいだには、プトレマイオス朝とそれを継いだローマの統治者たちが、並外れた野心をもって築いたナイル渓谷の一区間があります——廃墟でも断片でもなく、いまだ屋根を、彩色された天井を、そして場合によっては当初の鉄錆色や青の顔料までをとどめた神殿の数々です。この日帰りツアーは、そのうちの三つを結びます——エスナ、エドフ、そしてコム・オンボ——ルクソールへ折り返すのではなく、アスワンで一日を終えます。この最後の点が大切です。これは南へ向かう片道の旅であり、しかも長い旅です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "ドライブだけでも一日のうちでおよそ三時間近くを占めますので、これはのんびりとした朝の外出ではありません。ルクソールからの早い出発、丸一日歩きづめの午後、そして夕刻のはやい時刻のアスワン到着をご想定ください。三つのしっかりした立ち寄り先を伴うドライブツアーとして臨む旅人は報われ、各遺跡でゆったりとしたペースを期待する方には日程が窮屈に感じられるかもしれません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "三つの神殿に共通するのは、プトレマイオス朝とギリシャ・ローマの刻印です——エジプトがマケドニアのギリシャ人に、続いてローマ人に統治され、彼らがエジプトの宗教形式を真の熱意をもって受け入れ、巨大な建設計画に資金を投じ、自らは読むことのできない象形文字の銘文を彫らせた時代（おおむね紀元前332年から紀元4世紀まで）です。その結果生まれた建築は際立っています——より大きく、より劇的で、それ以前のどの王朝のものよりも完全に保存されています。後の時代ほど浸食される時間が短かったことが理由のひとつであり、これらの神殿のいくつかは近代の発掘まで砂と泥にすっかり埋もれていたことも、もうひとつの理由です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "これはある特定のタイプの旅人によく合います——カルナックとルクソール神殿のひと巡りを終え、さらに南へ足をのばしたい方や、カイロから陸路でやって来て、アスワンに着く前に渓谷の南の神殿群を押さえたい方です。また、二都市間の片道移動をツアーの装いでこなすやり方としても働き、それは正直で効率のよい一日の過ごし方でもあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "一日はルクソールに始まり、ナイルの西岸沿いを南へ向かいます。最初の立ち寄り先は、およそ55キロメートルののちに訪れます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000016",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "エスナのクヌム神殿"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": "は、川岸にではなく、近代の町のただなかに、街路の高さよりおよそ9メートル低い深い発掘坑に沈んで建っています——二千年にわたる居住の堆積した瓦礫が、そのまわりに積み上がったのです。足を踏み入れる列柱のある列柱室は、主として紀元1世紀から2世紀の、ローマ皇帝たちのもとでの建造ですが、遺跡そのものはそれより千年以上前、新王国時代に創建されました。クヌムは、ろくろの上で人間を形づくり、エレファンティネ島の地下の洞窟からナイルの年に一度の氾濫を司った、雄羊の頭をもつ神です。列柱室の24本の柱は、学者に知られるなかで最も新しい象形文字の銘文のいくつかを担っています——日常の使用から象形文字がすたれてから久しい、紀元3世紀という遅くまで彫られた銘文です——そして天井は、当初の色彩を真に感じさせるだけの顔料をとどめています。エスナを、通りすがりの言及ではなく、立ち寄る価値のあるものにしているのは、まさにその奇妙さです——町がただその上に育ってきたなかにある、ローマ時代の天井が、三千年さかのぼる信仰をもつ神の物語をいまなお語っているのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [],
+       "text": "エスナから道はさらに60キロメートル南の"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "エドフ"
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [],
+       "text": "へと続き、ここで規模が大きく変わります。エドフのホルス神殿はエジプト最大かつ最も完全に保存されたプトレマイオス朝の神殿であり、多くの尺度において、ルクソール神殿に次いで、いかなる時代のものよりもよく保存された古代エジプトの神殿です。建造は紀元前237年のプトレマイオス3世のもとで始まり、二世紀近い建設と装飾を経て、紀元前57年にプトレマイオス12世によって完成しました。その後は1860年代まで砂と村の家屋の下に埋もれ、そのときオーギュスト・マリエットの発掘がほぼ無傷のそれを明るみに出しました。大塔門——高さ36メートル、ホルスを表す二体の花崗岩の隼を脇に従えています——を抜けて前庭へ、そして次第に暗くなる列柱室へと歩めば、機能していたエジプトの神殿がどのように構成されていたかが、国内のほぼどの遺跡よりもはっきりと見えてきます。壁面はホルス神話を詳細な浮彫で記録しています——セトとの戦い、ここで演じられた年ごとの神聖な劇、神の王権の神学的なしくみです。この立ち寄りこそが、一日を正当化します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": "道はさらに南東へ続き、ナイルがシルシラの砂岩石切場で狭まる地点に近づいたのち、アスワンの北45キロメートルにある"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "コム・オンボ"
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": "へと至ります。コム・オンボ神殿は、エジプトでは建築的に異例です。左右対称に二重化されているからです——二組の完全な広間、至聖所、そして軸が並行して走り、一方はホルス（エドフの隼の神とは別の姿）たるハロエリス、つまり年長のホルスに、もう一方は、ナイルの力と豊穣に結びついたワニの頭をもつ神、セベクに捧げられています。この二重の設計は偶然でも後世の追加でもなく、当初からの構造的な決定でした。かつてナイルのワニが大挙して集まったこの地で、信仰の二重の性格を映していたのです。複合体のなかには別室があり、近くで発見された数十体のミイラ化されたワニを収めていて、図像の背後にある物理的な現実を、思いがけず鮮やかに示してくれます。遺跡は川岸にじかに立ち、午後の遅い時刻、石が暖かな金色に染まるころの光は、そのために到着する価値があります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000022",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": "ツアーは"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "アスワン"
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [],
+       "text": "で終わり、ここで一日が締めくくられます。アスワンは、それ自体に時間を割く価値のある街です——フィラエ神殿、未完のオベリスク、ハイダム、そして西岸のヌビア人地区は、いずれも急がない注意に報いてくれます。旅程が一泊を許すなら、翌朝はよく費やせます。南へ続くか飛行機で発つのであれば、街のこぢんまりとした中心部は、大半のホテルから数分で行き来できます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000024",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [],
+       "text": "神殿を背景のなかで"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000026",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [],
+       "text": "三つの遺跡はすべて、紀元前332年のアレクサンドロス大王の征服から、ローマ帝国がやがて旧来の信仰を抑圧する紀元4世紀までの数世紀に集中しています。これは、エジプトの新しい統治者たちが、自らをファラオの後継者として示すことを政治的に有益だと見いだした時代でした。彼らは神殿の建造に資金を投じ、二重冠を戴いた姿で浮彫に現れました。その結果生まれた建物はきらびやかで、その銘文は事細かであり、千年古い構造物に比べてその保存状態は並外れています。とはいえ、これらはギリシャやローマの宗教の記念建造物ではありません——神学はエジプトのもの、儀礼はエジプトのもの、そしてこれらの神殿に仕えた神官はエジプト人でした。外来の統治者は資金を提供し、地元の聖職者が内容を提供したのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000028",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "四世紀にわたって築かれた三つの神殿が、当初の姿のままなお読み取れる——それは、どんな神殿の説明が十分に伝えるよりも、ずっとまれなことです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "南へのドライブが、それに値するのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000038",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールからアスワンへの移動を、神殿の連なりとして組み立て直したい方には、コンシェルジュが出発時刻、神殿での所要、そしてアスワン到着後の翌日の計画までを含めて道筋を整えます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000039",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58877",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "This day moves you as well as shows you: it starts in Luxor and doesn't come back, so it works best as the hinge of a longer Nile plan. The three temples needn't get equal hours — most parties find one holds them longest. Tell our concierge which way your interest leans and we'll weight the stops before you set out."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Este día te traslada además de mostrarte cosas: empieza en Luxor y no vuelve, así que rinde mejor como bisagra de un plan más largo por el Nilo. Los tres templos no tienen por qué recibir las mismas horas — casi todos los grupos descubren que uno los retiene más. Dile a nuestro concierge hacia dónde se inclina tu interés y repartiremos las paradas antes de salir."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "この一日は見せるだけでなく、旅そのものを南へ運びます。ルクソールに始まりアスワンで終わる片道の行程ですから、ナイルの長い旅程の蝶番として最も生きる一日です。三つの神殿に均等な時間を割く必要はありません——どこか一つに、長く足が止まるものです。関心がどちらへ傾いているか、出発前にコンシェルジュへお聞かせください。停まり方をそれに合わせます。"
+  }
+ ],
+ "days": [
+  {
+   "_key": "day-1",
+   "_type": "tourDay",
+   "dayNumber": 1,
+   "morning": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000005",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Temple of Khnum in "
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [
+          "strong",
+          "000000000001"
+         ],
+         "text": "Esna"
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": ":"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": " Start your exploration at the Temple of Khnum, constructed in the 1st century AD during the Greco-Roman period. This site was originally founded during the New Kingdom. Dedicated to Khnum, the god of creation and the Nile's waters, the temple features a well-preserved hypostyle hall with vibrant reliefs and hieroglyphic inscriptions that offer insight into ancient religious practices."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000001",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/esna-temple-and-el-kab-day-tour-from-luxor/"
+         },
+         "_type": "externalLink",
+         "href": "/esna-temple-and-el-kab-day-tour-from-luxor",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Temple of Edfu:"
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": " Travel next to the Temple of Edfu, the most intact Ptolemaic temple in Egypt, finished in the 2nd century BC. Dedicated to Horus, the falcon god, the temple showcases spectacular architecture, grand entrances, and detailed reliefs, providing a deep dive into ancient Egyptian mythology and religious life."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000009",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Temple of Kom Ombo:"
+        },
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": " Continue your journey to the Temple of Kom Ombo, uniquely dedicated to two gods: Horus the Elder and Sobek, the crocodile god. This temple is notable for its dual design, featuring symmetrical halls and sanctuaries. The site's architectural nuances and the crocodile mummification area reflect the complexity of ancient Egyptian theology."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Arrival in Aswan:"
+        },
+        {
+         "_key": "00000000000d",
+         "_type": "span",
+         "marks": [],
+         "text": " Your tour concludes in Aswan, a city renowned for its scenic landscape and historical significance. Opt to extend your stay and explore Aswan’s key attractions like the Philae Temple, the Unfinished Obelisk, and the High Dam, or choose to return to Luxor."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000009",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Templo de Khnum en Esna:"
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [],
+         "text": " Comienza tu exploración en el Templo de Khnum, construido en el siglo I d.C. durante el periodo grecorromano."
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [],
+         "text": "Este lugar se fundó originalmente durante el Reino Nuevo."
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [],
+         "text": "Dedicado a Khnum, el dios de la creación y de las aguas "
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": "del Nilo"
+        },
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": ", el templo presenta una sala hipóstila bien conservada con relieves vibrantes e inscripciones jeroglíficas que ofrecen una visión de las antiguas prácticas religiosas."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000b",
+         "_type": "span",
+         "marks": [
+          "strong",
+          "00000000000a"
+         ],
+         "text": "Templo de Edfu"
+        },
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": ":"
+        },
+        {
+         "_key": "00000000000d",
+         "_type": "span",
+         "marks": [],
+         "text": " Viaja junto al Templo de Edfu, el templo ptolemaico más intacto de Egipto, terminado en el siglo II a.C."
+        },
+        {
+         "_key": "00000000000e",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000000f",
+         "_type": "span",
+         "marks": [],
+         "text": "Dedicado a Horus, el dios halcón, el templo muestra una arquitectura espectacular, grandes entradas y relieves detallados, que proporcionan una inmersión profunda en la mitología y la vida religiosa del antiguo Egipto."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "00000000000a",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-edfu/templo-de-edfu/"
+         },
+         "_type": "externalLink",
+         "href": "/es/guide/edfu",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000019",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000012",
+         "_type": "span",
+         "marks": [
+          "strong",
+          "000000000011"
+         ],
+         "text": "Templo de Kom Ombo"
+        },
+        {
+         "_key": "000000000013",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": ":"
+        },
+        {
+         "_key": "000000000014",
+         "_type": "span",
+         "marks": [],
+         "text": " Continúa tu viaje hacia el Templo de Kom Ombo, dedicado de forma única a dos dioses: Horus el Viejo y Sobek, el dios cocodrilo."
+        },
+        {
+         "_key": "000000000015",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000016",
+         "_type": "span",
+         "marks": [],
+         "text": "Este templo destaca por su diseño dual, con salas y santuarios simétricos."
+        },
+        {
+         "_key": "000000000017",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000018",
+         "_type": "span",
+         "marks": [],
+         "text": "Los matices arquitectónicos del lugar y la zona de momificación del cocodrilo reflejan la complejidad de la antigua teología egipcia."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000011",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/alineaciones-de-templos-excursion-de-un-dia-a-los-templos-de-kom-ombo-y-edfu/"
+         },
+         "_type": "externalLink",
+         "href": "/es/templos-de-esna-edfu-y-kom-ombo-desde-luxor",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000001b",
+         "_type": "span",
+         "marks": [
+          "00000000001a",
+          "strong"
+         ],
+         "text": "Llegada a Asuán:"
+        },
+        {
+         "_key": "00000000001c",
+         "_type": "span",
+         "marks": [
+          "00000000001a"
+         ],
+         "text": " Tu viaje"
+        },
+        {
+         "_key": "00000000001d",
+         "_type": "span",
+         "marks": [],
+         "text": " concluye en Asuán, ciudad famosa por su paisaje escénico y su importancia histórica."
+        },
+        {
+         "_key": "00000000001e",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000001f",
+         "_type": "span",
+         "marks": [],
+         "text": "Puedes prolongar tu estancia y explorar las principales atracciones de Asuán, como el Templo de Philae, el Obelisco Inacabado y la Presa Alta, o regresar a Luxor."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "00000000001a",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-dahab/como-llegar-a-dahab-tu-companero-de-viaje-definitivo/"
+         },
+         "_type": "externalLink",
+         "href": "/es/guide/dahab/como-llegar-a-dahab",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000002",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "クヌム神殿（エスナ）:"
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [],
+         "text": " エスナのクヌム神殿から探検を始めましょう。紀元1世紀のグレコローマン時代に建設され、もともとは新王国時代に創建されました。この神殿は、創造の神でありナイルの水を司るクヌムに捧げられており、鮮やかなレリーフとヒエログリフの碑文が施された保存状態の良い列柱室を備えています。古代の宗教儀式についての深い洞察を与えてくれる場所です。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000005",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "エドフ神殿:"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": " 次に向かうのはエドフ神殿。紀元前2世紀に完成した、エジプトで最も完全な状態で残るプトレマイオス朝時代の神殿です。隼の神ホルスに捧げられたこの神殿は、壮大な建築、大きな入口、そして詳細なレリーフを特徴とし、古代エジプトの神話や宗教生活を深く理解することができます。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "コムオンボ神殿:"
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": " 旅を続けて、二柱の神に捧げられたユニークなコムオンボ神殿を訪れます。年長のホルス神とワニの神ソベクに捧げられたこの神殿は、対称的なホールや聖域を備えた二重設計が特徴です。この神殿の建築的なニュアンスやワニのミイラ保存区域は、古代エジプトの神学の複雑さを反映しています。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000009",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "アスワン到着:"
+        },
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": " ツアーはアスワンで終了します。この都市はその景色の美しさと歴史的な重要性で有名です。アスワン滞在を延長してフィラエ神殿、未完のオベリスク、アスワンハイダムなどの主要観光地を探訪するか、ルクソールへ戻ることを選択できます。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "value": "Full Day Visit To Esna, Edfu & Kom-Ombo From Luxor"
+    },
+    {
+     "_key": "es",
+     "value": "Día 1 Visita de un día completo a Esna, Edfu y Kom-Ombo desde Luxor"
+    },
+    {
+     "_key": "ja",
+     "value": "1日目 エスナ、エドフ、コムオンボを巡るルクソール発の日帰りツアー"
+    }
+   ]
+  }
+ ],
+ "durationDays": 1,
+ "durationHours": 10,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Full day · ~10–11 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Día completo · ~10–11 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "終日・約10〜11時間"
+  }
+ ],
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 173,
+  "ja": 180
+ },
+ "heroImage": {
+  "_type": "image",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A carved temple relief showing a pharaoh flanked by deities crowning him, with hieroglyphs."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Un relieve tallado que muestra a un faraón coronado por dos deidades, con jeroglíficos."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "二柱の神に戴冠されるファラオを象形文字とともに刻んだ神殿のレリーフ。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-15f3f5f060bd2b3bac2bd51490f260c7edd77228-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A finely carved relief of a coronation scene at Kom Ombo Temple."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Un relieve finamente tallado de una escena de coronación en el templo de Kom Ombo."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "コム・オンボ神殿に精緻に刻まれた戴冠の場面。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "2ewm38724u",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A private, air-conditioned vehicle, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person are included in every tier.",
+   "text": "Private, air-conditioned vehicle"
+  },
+  {
+   "_key": "620k2qgem2",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A private, air-conditioned vehicle, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person are included in every tier.",
+   "text": "Licensed, English-speaking Egyptologist guide"
+  },
+  {
+   "_key": "6c70dkcvup",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A private, air-conditioned vehicle, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person are included in every tier.",
+   "text": "One bottle of mineral water per person"
+  },
+  {
+   "_key": "zk5o8lca2n",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all driving and logistics); Base + Entrance Fees (the same, plus entry to all three temples); and Base + Entrance Fees & Lunch (those entrance fees plus a midday meal).",
+   "text": "All driving and logistics (Base package)"
+  },
+  {
+   "_key": "pini3l5qsn",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all driving and logistics); Base + Entrance Fees (the same, plus entry to all three temples); and Base + Entrance Fees & Lunch (those entrance fees plus a midday meal).",
+   "text": "Entry to all three temples (Base + Entrance Fees and Base + Entrance Fees & Lunch tiers only)"
+  },
+  {
+   "_key": "wz7l3uta8q",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all driving and logistics); Base + Entrance Fees (the same, plus entry to all three temples); and Base + Entrance Fees & Lunch (those entrance fees plus a midday meal).",
+   "text": "Midday meal (Base + Entrance Fees & Lunch tier only)"
+  },
+  {
+   "_key": "76t3lbz85f",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cada nivel incluye vehículo privado con aire acondicionado, guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona.",
+   "text": "Vehículo privado con aire acondicionado"
+  },
+  {
+   "_key": "ikveze9pmo",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cada nivel incluye vehículo privado con aire acondicionado, guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona.",
+   "text": "Guía egiptólogo licenciado de habla hispana"
+  },
+  {
+   "_key": "cv8r4c2yzb",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cada nivel incluye vehículo privado con aire acondicionado, guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona.",
+   "text": "Una botella de agua mineral por persona"
+  },
+  {
+   "_key": "qyemy21ooj",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística de conducción); Base + entradas (lo anterior más el acceso a los tres templos); y Base + entradas y almuerzo (las entradas más una comida al mediodía).",
+   "text": "Toda la logística de conducción (nivel Base)"
+  },
+  {
+   "_key": "qcxjjza5jd",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística de conducción); Base + entradas (lo anterior más el acceso a los tres templos); y Base + entradas y almuerzo (las entradas más una comida al mediodía).",
+   "text": "Acceso a los tres templos (solo niveles Base + entradas y Base + entradas y almuerzo)"
+  },
+  {
+   "_key": "rj3b298enk",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística de conducción); Base + entradas (lo anterior más el acceso a los tres templos); y Base + entradas y almuerzo (las entradas más una comida al mediodía).",
+   "text": "Una comida al mediodía (solo nivel Base + entradas y almuerzo)"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/day-tour-to-esna-edfu-kom-ombo-from-luxor/"
+ },
+ "priceFrom": 162,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_88178",
+   "_ref": "wp-page-88178",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88167",
+   "_ref": "wp-page-88167",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_esna_edfu_kom_ombo_temples_group_day_tour_from_luxor",
+   "_ref": "tour.esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88170",
+   "_ref": "wp-page-88170",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Fully private · own licensed Egyptologist · air-conditioned vehicle · tiered pricing with optional entrance-fee bundle · minimum age 18"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Tour estrictamente privado · egiptólogo licenciado propio · vehículo con aire acondicionado · tarifas por niveles con paquete de entradas opcional · edad mínima 18 años · Activo, con carretera continua y tres visitas largas"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "完全プライベート・専属のエジプト学ガイド・冷房付き車両・三段階の料金構成・18歳以上"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Full day, ≈10–11 hours, ending in Aswan"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Día completo largo, unas 10–11 horas, terminando en Asuán"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "終日、片道のドライブ込みでおよそ10〜12時間"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Luxor → Esna → Edfu → Kom Ombo → Aswan (one-way south)"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Luxor → Esna → Edfu → Kom Ombo → Asuán (sentido único hacia el sur)"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "ルクソール → エスナ → エドフ → コム・オンボ → アスワン"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "day-tour-to-esna-edfu-kom-ombo-from-luxor"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "esna-edfu-y-kom-ombo-desde-luxor"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "rukusoru-hatsu-shujitsu-tsua-esunaedofukomuombo"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Three of Egypt's best-preserved ancient temples in a single long day — from Luxor to the edge of Aswan, moving south through two thousand years of religious architecture."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Tres de los templos antiguos mejor conservados de Egipto en un solo día largo, de Luxor hasta las puertas de Asuán, recorriendo dos mil años de arquitectura religiosa."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "エジプト屈指の保存状態を誇る三つの古代神殿を、長い一日でめぐります——ルクソールからアスワンの手前まで、二千年におよぶ宗教建築のなかを南へ。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Full Day Tour: Esna, Edfu & Kom Ombo from Luxor"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Esna, Edfu y Kom Ombo desde Luxor"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ルクソール発 終日ツアー：エスナ・エドフ・コム・オンボ"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}
