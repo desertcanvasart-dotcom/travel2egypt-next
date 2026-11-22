@@ -2144,7 +2144,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/private-tour-memphis-and-saqqara",
-    "destination": "/ja/puraibetodeitsua-menfisu-sakkara-soshite-isuramu-chiku-kairo",
+    "destination": "/ja/menfisu-sakkara-shitaderu-han-eru-hariri",
     "permanent": true
   },
   {
@@ -7054,7 +7054,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/private-tour-memphis-and-saqqara",
-    "destination": "/es/menfis-saqqara-y-el-cairo-islamico",
+    "destination": "/es/menfis-saqqara-ciudadela-y-khan-el-khalili",
     "permanent": true
   },
   {
@@ -30610,6 +30610,21 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/rukusoru-no-kodai-iseki-o-sora-kara-nagameru-asayake-no",
     "destination": "/ja/rukusoru-yoake-no-netsu-kikyu-seigan-o-sora-kara-san-ju-fun",
+    "permanent": true
+  },
+  {
+    "source": "/private-tour-memphis-and-saqqara",
+    "destination": "/memphis-saqqara-citadel-khan-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/menfis-saqqara-y-el-cairo-islamico",
+    "destination": "/es/menfis-saqqara-ciudadela-y-khan-el-khalili",
+    "permanent": true
+  },
+  {
+    "source": "/ja/puraibetodeitsua-menfisu-sakkara-soshite-isuramu-chiku-kairo",
+    "destination": "/ja/menfisu-sakkara-shitaderu-han-eru-hariri",
     "permanent": true
   }
 ];
