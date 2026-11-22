@@ -6,7 +6,7 @@
 
 **Type:** Private transfers, shared show · **Duration:** About 2 to 2½ hours from pickup to return, with a show of about an hour
 **From:** {lowest per-person tier} per person · price depends on group size
-**Children and students:** about 50% off
+**Children under 12 and students:** about 50% off
 **Pickup:** in the evening, from your hotel in Luxor
 **Back:** to your hotel after the show
 **Show language:** sessions run in several languages; we confirm yours
@@ -69,6 +69,7 @@ The narration follows the dynasties that built Karnak, Akhenaten’s break with 
 - The show is shared with other visitors; your transfers are private.
 - The narration and production are of their era: go for the atmosphere and the architecture, not cutting-edge effects.
 - Young children may find an hour of narration slow.
+- Students need to show a valid student card on the night.
 
 ---
 
