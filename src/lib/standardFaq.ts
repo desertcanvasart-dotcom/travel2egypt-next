@@ -109,7 +109,7 @@ export function standardFaq(locale: string): LandingFaqItem[] {
  * included" answer would be wrong there (owner, 2026-11-15: the Cairo
  * private car & guide day is the only one; its own page states it).
  */
-const NO_ENTRANCE_FEES = new Set(['wp-page-87764']);
+const NO_ENTRANCE_FEES = new Set(['wp-page-87764', 'tour.private-tour-transfer-from-luxor-to-aswan-by-bus']);
 
 /** Page FAQs first, then the standard set (skipping any same-question duplicate). */
 export function withStandardFaq(
