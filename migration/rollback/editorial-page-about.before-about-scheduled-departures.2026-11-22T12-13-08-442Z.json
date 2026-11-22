@@ -1,0 +1,815 @@
+{
+ "_createdAt": "2026-05-16T20:04:52Z",
+ "_id": "editorial-page-about",
+ "_rev": "YgUtN3ye2wAN3dkUqqc7al",
+ "_system": {
+  "base": {
+   "id": "editorial-page-about",
+   "rev": "0o8iG1XkEtNHsGcBGGajmv"
+  }
+ },
+ "_type": "editorialPage",
+ "_updatedAt": "2026-11-08T18:41:49Z",
+ "bottomCtaPrimary": {
+  "href": "https://wa.me/201551772258?text=Hi%20Islam%2C%20I%20read%20your%20About%20page%20and%20would%20like%20to%20start%20a%20conversation%20about%20a%20trip%20to%20Egypt.",
+  "label": [
+   {
+    "_key": "en",
+    "value": "Reach me on WhatsApp"
+   },
+   {
+    "_key": "es",
+    "value": "Hablar conmigo por WhatsApp"
+   },
+   {
+    "_key": "ja",
+    "value": "WhatsApp で連絡する"
+   }
+  ]
+ },
+ "heroHeading": [
+  {
+   "_key": "en",
+   "value": "About"
+  },
+  {
+   "_key": "es",
+   "value": "Sobre nosotros"
+  },
+  {
+   "_key": "ja",
+   "value": "私たちについて"
+  }
+ ],
+ "kind": "about",
+ "lastUpdated": "2026-05-17",
+ "sections": [
+  {
+   "_key": "962af94e1776",
+   "_type": "section",
+   "body": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "6eea56a88117",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "62112e5a0fd4",
+         "_type": "span",
+         "marks": [],
+         "text": "I grew up in Aswan in the 1980s. The Nile was a half-block from our door, and the granite hills above the city were where children went when they wanted to be alone. I learned the cataracts before I learned arithmetic. The Nubian families on Elephantine Island were our neighbors, and the felucca captains knew my father by name.."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "c1bd9cebdf59",
+       "_type": "image",
+       "alt": "Illustration of a young child waving at travelers on a felucca boat along the Nile in Aswan, with palm trees, Nubian-style buildings, and calm blue water in the background.",
+       "asset": {
+        "_ref": "image-9a641f6aaff91ed6a2048bd6eb6628db73baa29d-1200x675-webp",
+        "_type": "reference"
+       },
+       "caption": "An illustrated childhood memory on the banks of the Nile in Aswan, where palm trees, Nubian architecture, and passing feluccas capture the warmth and wonder of travel in Egypt."
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "es-s1p1",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "es-s1p1s",
+         "_type": "span",
+         "marks": [],
+         "text": "Crecí en Asuán en los años ochenta. El Nilo estaba a media manzana de nuestra puerta, y las colinas de granito sobre la ciudad eran adonde iban los niños cuando querían estar a solas. Aprendí las cataratas antes de aprender aritmética. Las familias nubias de la isla Elefantina eran nuestras vecinas, y los capitanes de faluca conocían a mi padre por su nombre."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "es-s1-img",
+       "_type": "image",
+       "alt": "Ilustración de un niño saludando a viajeros en una faluca sobre el Nilo en Asuán, con palmeras, edificios de estilo nubio y aguas tranquilas de fondo.",
+       "asset": {
+        "_ref": "image-9a641f6aaff91ed6a2048bd6eb6628db73baa29d-1200x675-webp",
+        "_type": "reference"
+       },
+       "caption": "Un recuerdo ilustrado de la infancia a orillas del Nilo en Asuán, donde las palmeras, la arquitectura nubia y las falucas reflejan la calidez y la magia de viajar por Egipto."
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "ja-s1p1",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "ja-s1p1s",
+         "_type": "span",
+         "marks": [],
+         "text": "私は1980年代のアスワンで育ちました。ナイル川はうちの戸口から半ブロックのところにあり、街の上の花崗岩の丘は、子供たちがひとりになりたいときに行く場所でした。算術より先に、カタラクトを覚えました。エレファンティネ島のヌビアの家族たちは私たちの隣人でしたし、フェルッカの船頭たちは父を名前で呼ぶ仲でした。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "ja-s1-img",
+       "_type": "image",
+       "alt": "アスワンのナイル川で、ファルーカに乗る旅行者へ手を振る子どものイラスト。背景にはヤシの木、ヌビア風の建物、穏やかな青い水面が描かれています。",
+       "asset": {
+        "_ref": "image-9a641f6aaff91ed6a2048bd6eb6628db73baa29d-1200x675-webp",
+        "_type": "reference"
+       },
+       "caption": "アスワンのナイル川岸での幼い頃の思い出を描いたイラスト。ヤシの木、ヌビア風の建物、行き交うファルーカが、エジプト旅行の温かさと魅力を表しています。"
+      }
+     ]
+    }
+   ],
+   "heading": [
+    {
+     "_key": "en",
+     "value": "An Aswan childhood"
+    },
+    {
+     "_key": "es",
+     "value": "Una infancia en Asuán"
+    },
+    {
+     "_key": "ja",
+     "value": "アスワンの子供時代"
+    }
+   ]
+  },
+  {
+   "_key": "b41ded8965a8",
+   "_type": "section",
+   "body": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "9f6af8a44cf0",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "77cc4e5b3440",
+         "_type": "span",
+         "marks": [],
+         "text": "I started guiding visitors in 1993. I was twenty, and I knew the temples better than the textbook. The first group I took to Philae had no idea what they were looking at, and by the end of the morning I understood something that has shaped the next thirty years of my work: most people arrive in Egypt with the wrong expectations. The country they have read about and the country they are standing in are not the same place. Part of the work of a guide — and later, a tour operator — is to gently bridge that distance."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "1fa20bdbebf1",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "e3cecc137a9b",
+         "_type": "span",
+         "marks": [],
+         "text": "By the late 1990s I was running marketing for a Cairo-based operator. In 2003 I registered my own company, Travel2Egypt. Over the next decade we opened branches in Tokyo, Damascus, and Amman. We had staff in four countries and routes that ran across the Middle East."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "es-s2p1",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "es-s2p1s",
+         "_type": "span",
+         "marks": [],
+         "text": "Empecé a guiar visitantes en 1993. Tenía veinte años, y conocía los templos mejor que los libros de texto. El primer grupo que llevé a Filé no tenía idea de qué estaba mirando, y al final de la mañana entendí algo que ha dado forma a los siguientes treinta años de mi trabajo: la mayoría de las personas llega a Egipto con las expectativas equivocadas. El país sobre el que han leído y el país en el que están no son el mismo lugar. Parte del trabajo de un guía —y, más tarde, de un operador— es tender suavemente ese puente."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "es-s2p2",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "es-s2p2s",
+         "_type": "span",
+         "marks": [],
+         "text": "Para finales de los años noventa estaba a cargo del marketing de un operador con sede en El Cairo. En 2003 registré mi propia empresa, Travel2Egypt. Durante la siguiente década abrimos sucursales en Tokio, Damasco y Amán. Tuvimos personal en cuatro países y rutas que recorrían el Oriente Medio."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "ja-s2p1",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "ja-s2p1s",
+         "_type": "span",
+         "marks": [],
+         "text": "私が訪問者を案内し始めたのは1993年です。二十歳でしたが、神殿のことなら教科書よりも詳しかったのです。フィラエに案内した最初のグループは、自分たちが何を見ているのか分からない様子で、その朝が終わるころには、私は、その後の三十年の仕事を形作ることになる何かを理解していました——たいていの人は、間違った期待を抱えてエジプトに到着するのです。彼らが読んできた国と、彼らがいま立っている国は、同じ場所ではありません。ガイドの——のちに、ツアーオペレーターの——仕事のうちには、その隔たりにそっと橋を渡すことが含まれます。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "ja-s2p2",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "ja-s2p2s",
+         "_type": "span",
+         "marks": [],
+         "text": "1990年代の終わりには、カイロを拠点とするオペレーターのマーケティングを担当していました。2003年、自分の会社、Travel2Egyptを登記しました。その後の十年で、東京、ダマスカス、アンマンに支店を開きました。四つの国に職員がいて、ルートは中東中に走っていました。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "heading": [
+    {
+     "_key": "en",
+     "value": "Thirty years of work"
+    },
+    {
+     "_key": "es",
+     "value": "Treinta años de trabajo"
+    },
+    {
+     "_key": "ja",
+     "value": "三十年の仕事"
+    }
+   ]
+  },
+  {
+   "_key": "d6a4956ef3c2",
+   "_type": "section",
+   "body": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "3fcf20f103ce",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "5477677b00dc",
+         "_type": "span",
+         "marks": [],
+         "text": "Then several things happened at once. The Syrian war closed our Damascus office. The Jordan branch became difficult to justify. The Egyptian tourism economy shifted under our feet during the years after 2011, and the model that had worked at scale stopped working. Around the same time, my health required me to make some choices about how to spend my time."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "c5cfd9e9f3dc",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "13520a2aa914",
+         "_type": "span",
+         "marks": [],
+         "text": "I made a deliberate decision to step back to a smaller operation. Online-only. Founder-led. The travelers we work with now reach me directly. The trips we plan are not pulled from a catalog. The guides we use are people I have known for fifteen or twenty years."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "es-s3p1",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "es-s3p1s",
+         "_type": "span",
+         "marks": [],
+         "text": "Entonces varias cosas ocurrieron a la vez. La guerra siria cerró nuestra oficina de Damasco. La sucursal de Jordania se volvió difícil de justificar. La economía turística egipcia cambió bajo nuestros pies durante los años posteriores a 2011, y el modelo que había funcionado a escala dejó de funcionar. Por las mismas fechas, mi salud me obligó a tomar algunas decisiones sobre cómo emplear mi tiempo."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "es-s3p2",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "es-s3p2s",
+         "_type": "span",
+         "marks": [],
+         "text": "Tomé la decisión deliberada de dar un paso atrás hacia una operación más pequeña. Solo en línea. Dirigida por el fundador. Los viajeros con los que trabajamos ahora llegan directamente a mí. Los viajes que planeamos no se sacan de un catálogo. Los guías que usamos son personas a las que conozco desde hace quince o veinte años."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "ja-s3p1",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "ja-s3p1s",
+         "_type": "span",
+         "marks": [],
+         "text": "そこへ、いくつかのことが一度に起こりました。シリア内戦で、私たちのダマスカス事務所は閉鎖されました。ヨルダンの支店は維持を正当化するのが難しくなりました。2011年以降の数年で、エジプトの観光経済は私たちの足元で変わってしまい、規模で機能していたモデルが機能しなくなりました。同じころ、私の健康のために、時間の使い方についていくつかの選択をする必要が生じました。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "ja-s3p2",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "ja-s3p2s",
+         "_type": "span",
+         "marks": [],
+         "text": "私は、より小さな事業体へと一歩退くという、意図した決断をしました。オンラインのみ。創業者みずから手を入れる体制で。いま私たちが付き合う旅行者は、直接私のところに辿り着きます。私たちが組む旅は、カタログから取り出されるものではありません。私たちが用いるガイドは、私が十五年、二十年と知り続けている人たちです。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "heading": [
+    {
+     "_key": "en",
+     "value": "A deliberate decision"
+    },
+    {
+     "_key": "es",
+     "value": "Una decisión deliberada"
+    },
+    {
+     "_key": "ja",
+     "value": "意図した決断"
+    }
+   ]
+  },
+  {
+   "_key": "001a89657b82",
+   "_type": "section",
+   "body": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "567f03064444",
+       "_type": "image",
+       "alt": "Group photo of an Egypt travel team standing in front of the Great Pyramid of Giza, with tour staff and guides dressed professionally.",
+       "asset": {
+        "_ref": "image-3decb15bd43d5414480432b0a24873b747be782e-1280x850-jpg",
+        "_type": "reference"
+       },
+       "caption": "Our Egypt travel team gathered in front of the Great Pyramid of Giza, representing the local expertise, hospitality, and dedication behind every journey we create."
+      },
+      {
+       "_key": "b36e6070309a",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "858bbe111195",
+         "_type": "span",
+         "marks": [],
+         "text": "The team photograph above is most of the people who actually deliver these trips: Egyptologist guides, drivers, operations staff in Cairo and Aswan and Luxor. Our licence: {licenceFull}. Most travelers will not care about that, but it matters when something goes wrong on the ground. In thirty years of work in Egyptian tourism, the things that go wrong are not the things you can prepare for in advance. They are handled by people who know the country, the regulations, and each other."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "e5a9df83a03a",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "a047a5b974b4",
+         "_type": "span",
+         "marks": [],
+         "text": "Travel2Egypt now operates at a deliberately small scale. We plan roughly a hundred and thirty distinct trips a year, almost all of them built around the specific traveler rather than fitted to a template. We do not run scheduled departures. We do not bulk-book hotels. We do not sell add-ons. The work is closer to what a private travel adviser does than what an online tour platform does, and it produces a different kind of trip."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "es-s4-img",
+       "_type": "image",
+       "alt": "Foto grupal de un equipo de viajes en Egipto frente a la Gran Pirámide de Guiza, con guías y personal turístico vestidos de manera profesional.",
+       "asset": {
+        "_ref": "image-3decb15bd43d5414480432b0a24873b747be782e-1280x850-jpg",
+        "_type": "reference"
+       },
+       "caption": "Nuestro equipo de viajes en Egipto reunido frente a la Gran Pirámide de Guiza, reflejando la experiencia local, la hospitalidad y la dedicación detrás de cada viaje que creamos."
+      },
+      {
+       "_key": "es-s4p1",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "es-s4p1s",
+         "_type": "span",
+         "marks": [],
+         "text": "La fotografía del equipo arriba muestra a la mayoría de las personas que de verdad ejecutan estos viajes: guías egiptólogos, conductores, personal de operaciones en El Cairo, en Asuán y en Luxor. Nuestra licencia: {licenceFull}. A la mayoría de los viajeros no les importará, pero sí importa cuando algo sale mal sobre el terreno. En treinta años de trabajo en el turismo egipcio, las cosas que salen mal no son las cosas para las que uno puede prepararse por adelantado. Las resuelven personas que conocen el país, la normativa y entre sí."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "es-s4p2",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "es-s4p2s",
+         "_type": "span",
+         "marks": [],
+         "text": "Travel2Egypt opera ahora a una escala deliberadamente pequeña. Planeamos en torno a ciento treinta viajes distintos al año, casi todos ellos construidos alrededor del viajero específico en lugar de ajustarse a una plantilla. No tenemos salidas programadas. No reservamos hoteles al por mayor. No vendemos extras. El trabajo se parece más al de un asesor privado de viajes que al de una plataforma de tours en línea, y produce un tipo de viaje distinto."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "ja-s4-img",
+       "_type": "image",
+       "alt": "ギザの大ピラミッドの前に立つエジプト旅行チームの集合写真。プロフェッショナルな服装のガイドや旅行スタッフが写っています。",
+       "asset": {
+        "_ref": "image-3decb15bd43d5414480432b0a24873b747be782e-1280x850-jpg",
+        "_type": "reference"
+       },
+       "caption": "ギザの大ピラミッドを背景に集まった私たちのエジプト旅行チーム。私たちがご提供する旅を支える、現地の専門知識、おもてなし、そして誠実な姿勢を表しています。"
+      },
+      {
+       "_key": "ja-s4p1",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "ja-s4p1s",
+         "_type": "span",
+         "marks": [],
+         "text": "上のチーム写真に写っているのは、これらの旅を実際に届けている人たちの大半です——エジプト学のガイドたち、ドライバーたち、そしてカイロ、アスワン、ルクソールの運営スタッフ。当社の認可：{licenceFull}。多くの旅行者にとってはどうでもよいことかもしれませんが、現場で何かが起きたときには、これが効いてきます。エジプト観光業での三十年で、起きるとまずいことは、前もって備えられるたぐいのものではありません。それを処理するのは、この国を知り、規制を知り、互いを知っている人たちです。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "ja-s4p2",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "ja-s4p2s",
+         "_type": "span",
+         "marks": [],
+         "text": "Travel2Egyptはいま、意図的に小さな規模で運営しています。年におよそ百三十の、それぞれ別の旅を組み立てています——そのほとんどが、テンプレートに当てはめるのではなく、特定の旅行者のまわりに組まれます。私たちは定期出発を運営しません。ホテルを一括予約しません。追加のオプションを売りません。仕事の中身は、オンライン旅行プラットフォームというより、プライベートな旅行アドバイザーのするものに近く、それゆえ別の種類の旅が生まれます。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "heading": [
+    {
+     "_key": "en",
+     "value": "How we work now"
+    },
+    {
+     "_key": "es",
+     "value": "Cómo trabajamos ahora"
+    },
+    {
+     "_key": "ja",
+     "value": "いまの仕事の仕方"
+    }
+   ]
+  },
+  {
+   "_key": "24b3fe32686c",
+   "_type": "section",
+   "body": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "c6935bc78304",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "067210c50149",
+         "_type": "span",
+         "marks": [],
+         "text": "What we do is plan journeys in Egypt and walk travelers through them. "
+        },
+        {
+         "_key": "9a75d5585ccc",
+         "_type": "span",
+         "marks": [
+          "09c9cd0be17e"
+         ],
+         "text": "The journal"
+        },
+        {
+         "_key": "29654eb97f41",
+         "_type": "span",
+         "marks": [],
+         "text": " is where we share what we have learned about traveling in this country well. "
+        },
+        {
+         "_key": "08b0c5931d0a",
+         "_type": "span",
+         "marks": [
+          "6291adf15435"
+         ],
+         "text": "The tour pages"
+        },
+        {
+         "_key": "dd06f2a537ee",
+         "_type": "span",
+         "marks": [],
+         "text": " show some of what we currently offer, though most trips begin as a conversation rather than as a booking. When you are ready to talk through a trip of your own, you can reach me directly."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "09c9cd0be17e",
+         "_type": "externalLink",
+         "href": "/blog",
+         "newTab": false
+        },
+        {
+         "_key": "6291adf15435",
+         "_type": "externalLink",
+         "href": "/tours",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "a839d76805b9",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "15258de0c16a",
+         "_type": "span",
+         "marks": [
+          "em"
+         ],
+         "text": "— Islam Hussein, Founder, Travel2Egypt"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "es-s5p",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "es-s5s1",
+         "_type": "span",
+         "marks": [],
+         "text": "Lo que hacemos es planear viajes por Egipto y acompañar a los viajeros a través de ellos. "
+        },
+        {
+         "_key": "es-s5s2",
+         "_type": "span",
+         "marks": [
+          "es-s5mB"
+         ],
+         "text": "El diario"
+        },
+        {
+         "_key": "es-s5s3",
+         "_type": "span",
+         "marks": [],
+         "text": " es donde compartimos lo que hemos aprendido sobre viajar bien por este país. "
+        },
+        {
+         "_key": "es-s5s4",
+         "_type": "span",
+         "marks": [
+          "es-s5mT"
+         ],
+         "text": "Las páginas de tours"
+        },
+        {
+         "_key": "es-s5s5",
+         "_type": "span",
+         "marks": [],
+         "text": " muestran parte de lo que ofrecemos actualmente, aunque la mayoría de los viajes comienzan como una conversación más que como una reserva. Cuando esté listo para hablar de un viaje propio, puede contactarme directamente."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "es-s5mB",
+         "_type": "externalLink",
+         "href": "/blog",
+         "newTab": false
+        },
+        {
+         "_key": "es-s5mT",
+         "_type": "externalLink",
+         "href": "/tours",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "es-s5sig",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "es-s5sigs",
+         "_type": "span",
+         "marks": [
+          "em"
+         ],
+         "text": "— Islam Hussein, fundador de Travel2Egypt"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "ja-s5p",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "ja-s5s1",
+         "_type": "span",
+         "marks": [],
+         "text": "私たちがしているのは、エジプトでの旅を組み立て、旅行者にその中を歩んでいただくことです。"
+        },
+        {
+         "_key": "ja-s5s2",
+         "_type": "span",
+         "marks": [
+          "ja-s5mB"
+         ],
+         "text": "ジャーナル"
+        },
+        {
+         "_key": "ja-s5s3",
+         "_type": "span",
+         "marks": [],
+         "text": "では、この国でうまく旅をすることについて、私たちが学んできたことを記しています。"
+        },
+        {
+         "_key": "ja-s5s4",
+         "_type": "span",
+         "marks": [
+          "ja-s5mT"
+         ],
+         "text": "ツアーページ"
+        },
+        {
+         "_key": "ja-s5s5",
+         "_type": "span",
+         "marks": [],
+         "text": "では、いまお勧めしているものの一部をご覧いただけますが、ほとんどの旅は、予約というよりは、会話として始まります。ご自身の旅について話してみたいと思われたときは、直接私にご連絡ください。"
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "ja-s5mB",
+         "_type": "externalLink",
+         "href": "/blog",
+         "newTab": false
+        },
+        {
+         "_key": "ja-s5mT",
+         "_type": "externalLink",
+         "href": "/tours",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "ja-s5sig",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "ja-s5sigs",
+         "_type": "span",
+         "marks": [
+          "em"
+         ],
+         "text": "— イスラム・フセイン（Travel2Egypt 創業者）"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "heading": [
+    {
+     "_key": "en",
+     "value": "An invitation"
+    },
+    {
+     "_key": "es",
+     "value": "Una invitación"
+    },
+    {
+     "_key": "ja",
+     "value": "ご招待"
+    }
+   ]
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "value": {
+    "_type": "slug",
+    "current": "about"
+   }
+  }
+ ],
+ "title": "About"
+}
