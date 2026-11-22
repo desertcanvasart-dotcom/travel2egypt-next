@@ -30596,5 +30596,20 @@ export const redirects: RedirectRule[] = [
     "source": "/ja/menfisu-sakkara-josai-hanhariri-kairo-deitsua",
     "destination": "/ja/menfisu-sakkara-shitaderu-han-eru-hariri",
     "permanent": true
+  },
+  {
+    "source": "/sunrise-hot-air-balloon-ride-over-luxors-ancient-landmarks",
+    "destination": "/skyward-solitude-private-luxor-sunrise-hot-air-balloon-experience",
+    "permanent": true
+  },
+  {
+    "source": "/es/paseo-en-globo-al-amanecer-sobre-los-antiguos-monumentos-de-luxor",
+    "destination": "/es/globo-al-amanecer-en-luxor-media-hora-sobre-la-orilla-occidental",
+    "permanent": true
+  },
+  {
+    "source": "/ja/rukusoru-no-kodai-iseki-o-sora-kara-nagameru-asayake-no",
+    "destination": "/ja/rukusoru-yoake-no-netsu-kikyu-seigan-o-sora-kara-san-ju-fun",
+    "permanent": true
   }
 ];
