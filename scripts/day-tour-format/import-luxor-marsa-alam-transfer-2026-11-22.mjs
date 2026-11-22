@@ -167,7 +167,7 @@ const CLOSING_REF = { en: '00000000001d', es: '00000000001f', ja: '000000000023'
 // Hidden: the closing's second sentence · the helper note (now "Make it your own") · empty blocks.
 const SKIP = {
   en: ['00000000001f', '00000000002d', '000000000030'],
-  es: ['000000000021', '000000000031', '000000000034'],
+  es: ['000000000003', '000000000021', '000000000031', '000000000034'],
   ja: ['000000000025', '000000000033', '000000000036'],
 };
 // [block, find, replace]; each find sits inside one text run.
@@ -176,16 +176,54 @@ const FIX = {
     ['000000000005', 'without the indignities of a domestic flight', 'without a domestic flight'],
     ['000000000009', 'sits on the Red Sea coast roughly 200 kilometres south of Hurghada', 'sits on the Red Sea coast, well south of Hurghada'],
     ['00000000000d', 'will be confirmed by your operator,', 'will be confirmed with your booking,'],
+    ['000000000003', ' in a single long day.', ' in a single day.'],
+    ['000000000003', 'roughly eight hours of road', 'roughly four to five hours of road'],
+    ['000000000009', 'Arrival by mid-afternoon gives you the remainder of the day at your own pace.', 'Arrival around midday gives you the rest of the day at your own pace.'],
+    ['00000000000d', 'typically in the morning to allow for a reasonable afternoon arrival', 'typically in the morning, to arrive around midday'],
+    ['00000000000f', 'The first stretch heads east out of Luxor, leaving behind the West Bank and the East Bank temple complexes, and climbs gradually into the Eastern Desert.', 'The first stretch heads south out of Luxor, leaving behind the West Bank and the East Bank temple complexes, and follows the Nile Valley to Edfu, where the road turns east into the Eastern Desert.'],
+    ['00000000000f', ' The Nile Valley drops away quickly — within twenty minutes of the city the vegetation thins and the road opens into open desert.', ' Beyond Edfu the vegetation thins and the road opens into open desert.'],
+    ['00000000000f', 'This is the Qena–Safaga corridor, a route used for decades', 'This is the Edfu–Marsa Alam road, used for decades'],
+    ['000000000011', 'Past the midpoint, the road descends toward the Red Sea Hills before the coast comes into view.', 'Past the midpoint, the desert road runs on towards the Red Sea until the coast comes into view.'],
+    ['000000000011', ' The final section runs south along the coastal highway toward Marsa Alam.', ' The final stretch brings you down to Marsa Alam.'],
+    ['000000000011', ' The full journey takes around eight hours including any brief rest stops — a long day\'s drive, well to the south of the Luxor–Hurghada route.', ' The full journey takes around four to five hours including any brief rest stops.'],
+    ['000000000013', 'is planned for the afternoon', 'is planned around midday'],
+    ['000000000017', 'Eight hours in a car is eight hours in a car.', 'Four to five hours in a car is still a long drive.'],
+    ['000000000019', 'on the Qena–Safaga road', 'on the Edfu–Marsa Alam road'],
   ],
   es: [
     ['000000000007', 'sin las indignidades de un vuelo doméstico', 'sin un vuelo doméstico'],
     ['00000000000b', 'se asienta en la costa del mar Rojo unos 200 kilómetros al sur de Hurghada', 'se asienta en la costa del mar Rojo, bien al sur de Hurghada'],
     ['00000000000f', 'la confirmará su operador,', 'se confirmará con su reserva,'],
+    ['000000000005', ' en un único día largo.', ' en un único día.'],
+    ['000000000005', 'aproximadamente ocho horas de carretera', 'aproximadamente cuatro o cinco horas de carretera'],
+    ['00000000000b', ' La llegada hacia media tarde le deja el resto del día a su propio ritmo.', ' La llegada hacia el mediodía le deja el resto del día a su propio ritmo.'],
+    ['00000000000f', 'para asegurar una llegada razonable por la tarde', 'para llegar hacia el mediodía'],
+    ['000000000011', 'El primer tramo se dirige al este al salir de Luxor, deja atrás los complejos templarios de las orillas occidental y oriental y sube progresivamente hacia el Desierto Oriental.', 'El primer tramo se dirige al sur al salir de Luxor, deja atrás los complejos templarios de las orillas occidental y oriental y sigue el valle del Nilo hasta Edfu, donde la carretera gira al este hacia el Desierto Oriental.'],
+    ['000000000011', ' El valle del Nilo cae rápido: a veinte minutos de la ciudad, la vegetación se aclara y la carretera se abre al desierto.', ' Pasado Edfu, la vegetación se aclara y la carretera se abre al desierto.'],
+    ['000000000011', 'Este es el corredor Qena-Safaga, una vía utilizada', 'Esta es la carretera Edfu-Marsa Alam, una vía utilizada'],
+    ['000000000013', 'Pasado el ecuador del trayecto, la carretera desciende hacia los montes del mar Rojo antes de que aparezca la costa.', 'Pasado el ecuador del trayecto, la carretera del desierto sigue hacia el mar Rojo hasta que aparece la costa.'],
+    ['000000000013', ' El tramo final discurre hacia el sur por la autovía costera en dirección a Marsa Alam.', ' El tramo final baja hasta Marsa Alam.'],
+    ['000000000013', ' El recorrido completo dura unas ocho horas, incluidos breves descansos: una jornada larga, claramente al sur de la ruta Luxor-Hurghada.', ' El recorrido completo dura entre cuatro y cinco horas, incluidos breves descansos.'],
+    ['000000000015', 'se planifica para la tarde', 'se planifica hacia el mediodía'],
+    ['000000000019', 'Ocho horas en un coche son ocho horas en un coche.', 'De cuatro a cinco horas en un coche siguen siendo un trayecto largo.'],
+    ['00000000001b', 'del corredor Qena-Safaga', 'de la carretera Edfu-Marsa Alam'],
   ],
   ja: [
     ['00000000000b', '国内便の不快さや相乗りバスの煩わしさなしに', '国内便を使わず、相乗りバスの煩わしさもなしに'],
     ['00000000000f', 'ハルガダのおよそ200キロメートル南、紅海の海岸に座しています', 'ハルガダのずっと南、紅海の海岸に座しています'],
     ['000000000013', '正確な出発時刻は事業者が確認しますが', '正確な出発時刻はご予約時に確認しますが'],
+    ['000000000009', 'およそ8時間の道のり', 'およそ4〜5時間の道のり'],
+    ['00000000000f', '午後なかばの到着で', '正午ごろの到着で'],
+    ['000000000013', '午後の妥当な到着を見込んで', '正午ごろの到着を見込んで'],
+    ['000000000015', '最初の区間はルクソールを出て東へ向かい、西岸と東岸の神殿複合体を後にして、東部砂漠へと徐々に登っていきます。', '最初の区間はルクソールを出て南へ向かい、西岸と東岸の神殿複合体を後にして、ナイル渓谷をエドフまで進み、そこで道は東部砂漠へと折れます。'],
+    ['000000000015', 'ナイル渓谷はすぐに遠ざかります——街を出て20分のうちに植生が薄くなり、道は開けた砂漠へと開けていきます。', 'エドフを過ぎると植生が薄くなり、道は開けた砂漠へと開けていきます。'],
+    ['000000000015', 'これはケナ＝サファガ回廊で、', 'これはエドフ＝マルサ・アラムの道で、'],
+    ['000000000017', '中間地点を過ぎると、道は海岸が見えてくる前に紅海の丘へと下っていきます。', '中間地点を過ぎると、砂漠の道は海岸が見えてくるまで紅海へと続きます。'],
+    ['000000000017', '最後の区間は海岸の幹線道路を南へ、マルサ・アラムへと走ります。', '最後の区間でマルサ・アラムへ下ります。'],
+    ['000000000017', '道のり全体は、短い休憩を含めておよそ8時間かかります——ルクソール＝ハルガダのルートよりずっと南の、長い一日のドライブです。', '道のり全体は、短い休憩を含めておよそ4〜5時間かかります。'],
+    ['000000000019', '到着は午後に計画されています', '到着は正午ごろに計画されています'],
+    ['00000000001d', '車での8時間は、車での8時間です。', '車での4〜5時間は、やはり長いドライブです。'],
+    ['00000000001f', 'ケナ＝サファガの道沿い', 'エドフ＝マルサ・アラムの道沿い'],
   ],
 };
 const body = doc.body.map((row) => {
@@ -211,9 +249,9 @@ const body = doc.body.map((row) => {
 });
 // Nothing "More about this day", the summary or the notes may keep per-person price wording or what the page corrects.
 const RETIRED = {
-  en: /per person|per-person|group size|minimum age|south-west|indignities|200 kilomet|your operator/i,
-  es: /por persona|tamaño del grupo|edad mínima|suroeste|indignidades|200 kilómetros|su operador/i,
-  ja: /1人あたり|一人あたり|人数により|最低年齢|南西|不快さ|200キロ|事業者が/,
+  en: /per person|per-person|group size|minimum age|south-west|indignities|200 kilomet|your operator|eight hours|Qena|coastal highway|Red Sea Hills/i,
+  es: /por persona|tamaño del grupo|edad mínima|suroeste|indignidades|200 kilómetros|su operador|ocho horas|Qena|autovía costera|montes del mar Rojo/i,
+  ja: /1人あたり|一人あたり|人数により|最低年齢|南西|不快さ|200キロ|事業者が|8時間|八時間|ケナ|海岸の幹線道路/,
 };
 for (const row of body) {
   const l = row._key;
@@ -223,11 +261,31 @@ for (const row of body) {
 for (const l of LANGS) {
   if (RETIRED[l].test(SUMMARY[l])) throw new Error(`${l}: summary still shows "${SUMMARY[l].match(RETIRED[l])[0]}"`);
   const note = doc.conciergeNote?.find((n) => n._key === l)?.value ?? '';
-  if (RETIRED[l].test(note)) throw new Error(`${l}: concierge note still shows "${note.match(RETIRED[l])[0]}": ${note.slice(0, 200)}`);
+  if (RETIRED[l].test(note)) console.log(`(live concierge note shows "${note.match(RETIRED[l])[0]}": rewritten below)`);
   const ch = doc.shapeOfDay?.character?.find((n) => n._key === l)?.value ?? '';
   if (RETIRED[l].test(ch)) console.log(`NOTE ${l}: shapeOfDay.character shows "${ch.match(RETIRED[l])[0]}"`);
 }
+const NOTE = {
+  en: [['Eight hours is a proper travelling day, and it goes better treated as one', 'Four to five hours is a proper drive, and it goes better with an early start']],
+  es: [['Ocho horas son una jornada de viaje en toda regla, y se llevan mejor tratándolas como tal', 'De cuatro a cinco horas son un buen trayecto, y se llevan mejor con una salida temprana']],
+  ja: [['八時間は、まぎれもない移動の一日です。', '四、五時間は、しっかりした移動です。']],
+};
+const conciergeNote = LANGS.map((l) => {
+  const row = doc.conciergeNote.find((n) => n._key === l);
+  let v = row.value;
+  for (const [f, r] of NOTE[l]) v = v.replace(f, r);
+  if (/eight hours|ocho horas|八時間/i.test(v)) throw new Error(`${l}: concierge note still says eight hours: ${v.slice(0, 200)}`);
+  return { ...row, value: v };
+});
+const DURATION_LABEL = { en: '~4–5 hrs', es: '~4–5 h', ja: '約4〜5時間' };
+const SHAPE = {
+  duration: { en: 'Around 4 to 5 hours on the road, arrival around midday', es: 'Aproximadamente 4 a 5 horas de carretera, llegada hacia el mediodía', ja: 'およそ4〜5時間（短い休憩込み）' },
+  where: { en: 'Luxor → Edfu → the desert road → Marsa Alam', es: 'Luxor → Edfu → carretera del desierto → Marsa Alam', ja: 'ルクソール → エドフ → 砂漠の道 → マルサ・アラム' },
+};
 const set = {
+  conciergeNote,
+  durationLabel: LANGS.map((l) => ({ ...(doc.durationLabel?.find((t) => t._key === l) ?? { _key: l, _type: 'internationalizedArrayStringValue' }), value: DURATION_LABEL[l] })),
+  durationHours: 5,
   priceBasis: 'perCar',
   priceFrom: 136,
   title: LANGS.map((l) => ({ ...(doc.title.find((t) => t._key === l) ?? { _key: l, _type: 'object' }), value: P[l].title })),
@@ -240,6 +298,7 @@ const set = {
   body,
 };
 for (const f of ['dayTourIntro', 'dayTimeline', 'inclusions', 'exclusions', 'customisationOptions']) set[f] = curlyRows(set[f], 'en');
+for (const f of ['duration', 'where']) set[`shapeOfDay.${f}`] = LANGS.map((l) => ({ ...(doc.shapeOfDay?.[f]?.find((n) => n._key === l) ?? { _key: l, _type: 'internationalizedArrayStringValue' }), value: SHAPE[f][l] }));
 // shapeOfDay.character carried "minimum age 18" (rule 9); the day-tour layout does not show it.
 const UNSET = ['guideLanguagePrices', ...(doc.shapeOfDay?.character ? ['shapeOfDay.character'] : [])];
 /* ── Gates ────────────────────────────────────────────────────────────── */
@@ -283,7 +342,7 @@ if (previewOut) {
 }
 
 if (apply) {
-  await writeRollback(client, [DOC_ID], 'before-luxor-marsa-alam');
+  await writeRollback(client, [DOC_ID], 'before-marsa-alam-edfu-road');
   await client.patch(DOC_ID).set(set).unset(UNSET).commit();
   if (DRAFT) await client.patch(`drafts.${DOC_ID}`).set(set).unset(UNSET).commit();
   console.log(`APPLIED to production ${DOC_ID}`);

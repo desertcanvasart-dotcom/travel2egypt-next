@@ -4,42 +4,40 @@
 
 ## Panel
 
-**Type:** Private transfer · **Duration:** A full travelling day, about 8 hours with rest stops
+**Type:** Private transfer · **Duration:** About 4 to 5 hours by the Edfu road, with rest stops
 **From:** {lowest per-car price} per car, not per person
 **Pickup:** early to mid morning, from your hotel in Luxor; time confirmed with your booking
-**Drop-off:** your hotel or resort in the Marsa Alam area, in the afternoon; you choose your exact area when you book
+**Drop-off:** your hotel or resort in the Marsa Alam area, around midday or early afternoon; you choose your exact area when you book
 
 ---
 
 ## Opening
 
-From the temples of the Nile Valley to the quiet southern Red Sea, in one private car on one long day. No commentary, no tickets, no set itinerary: a driver, an air-conditioned car and the Eastern Desert, a landscape of gravel plains, low escarpments and real silence that most visitors never see. After several days of temples, tombs and early starts, it’s a quiet transition you control.
+From the temples of the Nile Valley to the quiet southern Red Sea, in one private car, by the desert road from Edfu. No commentary, no tickets, no set itinerary: a driver, an air-conditioned car and the Eastern Desert, a landscape of gravel plains, low escarpments and real silence that most visitors never see. After several days of temples, tombs and early starts, it’s a quiet transition you control.
 
 ---
 
 ## Why the day runs this way
 
-It’s a proper travelling day, and it goes better treated as one: an early start, so you arrive in the afternoon with time to settle in, and pauses taken when your party wants them, not on anyone else’s clock. The route climbs out of the valley into the desert, then drops through the Red Sea Hills to the coast and runs south to Marsa Alam.
+It's a half-day on the road, and it goes better with an early start, so you arrive around midday with time to settle in, and with pauses taken when your party wants them, not on anyone else's clock. The route follows the Nile south to Edfu, then crosses the Eastern Desert on the direct road to the coast at Marsa Alam.
 
 ---
 
 ## Your day
 
-### Morning · Into the Eastern Desert
+### Morning · South to Edfu, then across the desert
 
 **Pickup from your hotel**
-Your driver collects you in a private air-conditioned car. Within twenty minutes of Luxor, the green thins and the road opens into desert.
+Your driver collects you in a private air-conditioned car and heads south along the Nile.
+
+**South to Edfu**
+The road follows the Nile Valley through farmland and small towns to Edfu, where it turns east into the desert.
 
 **Across the desert**
-Gravel plains, low escarpments and dry valleys: spare, austere and worth watching for the first hour or two, before it settles into a long rhythm. Rest stops are at functional roadside cafés.
-
-### Afternoon · The Red Sea coast
-
-**Down to the coast**
-The road descends through the Red Sea Hills until the sea comes into view, then follows the coast south.
+Gravel plains, low escarpments and dry valleys: spare, austere and worth watching, before it settles into a long rhythm. Rest stops are at functional roadside cafés.
 
 **Arrival in Marsa Alam**
-Your driver takes you straight to your hotel or resort.
+The desert road meets the coast and the sea comes into view. Your driver takes you straight to your hotel or resort.
 
 ---
 
@@ -65,7 +63,7 @@ Your driver takes you straight to your hotel or resort.
 - would rather have a quiet, comfortable day on the road than a domestic flight
 
 **Worth knowing:**
-- Eight hours in a car is eight hours in a car: bring reading, music or whatever makes a long drive easy.
+- Four to five hours in a car is still a long drive: bring reading, music or whatever makes it easy.
 - From April to October, the desert is very hot; the car is air-conditioned.
 - Your driver speaks enough English for the practicalities. There are no shopping stops unless you ask for them.
 
