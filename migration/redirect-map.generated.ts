@@ -13,6 +13,21 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/kom-ombo-and-edfu-temples-day-tour-from-aswan",
+    "destination": "/private-tour-transfer-from-aswan-to-luxor-by-bus",
+    "permanent": true
+  },
+  {
+    "source": "/es/kom-ombo-y-edfu-desde-asuan-hasta-luxor",
+    "destination": "/es/traslado-privado-de-asuan-a-luxor-con-paradas",
+    "permanent": true
+  },
+  {
+    "source": "/ja/asuwan-kara-rukusoru-e-komuombo-edofu-shinden-higaeri-tsua",
+    "destination": "/ja/puraibeto-sogei-asuwan-kara-rukusoru-e-rikuro-de-tochu-gesha",
+    "permanent": true
+  },
+  {
     "source": "/siwa-oasis-travel-guide/historical-tapestry/844-1755-44411",
     "destination": "/guide/siwa-oasis/siwa-oasis-historical-overview",
     "permanent": true
@@ -2299,7 +2314,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/kom-ombo-and-edfu-temples-day-tour-from-aswan",
-    "destination": "/ja/asuwan-kara-rukusoru-e-komuombo-edofu-shinden-higaeri-tsua",
+    "destination": "/ja/puraibeto-sogei-asuwan-kara-rukusoru-e-rikuro-de-tochu-gesha",
     "permanent": true
   },
   {
@@ -7209,7 +7224,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/kom-ombo-and-edfu-temples-day-tour-from-aswan",
-    "destination": "/es/kom-ombo-y-edfu-desde-asuan-hasta-luxor",
+    "destination": "/es/traslado-privado-de-asuan-a-luxor-con-paradas",
     "permanent": true
   },
   {
@@ -19329,7 +19344,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/asuwan-kara-rukusoru-e-komuombo-edofu-shinden-higaeri-tsua",
-    "destination": "/kom-ombo-and-edfu-temples-day-tour-from-aswan",
+    "destination": "/private-tour-transfer-from-aswan-to-luxor-by-bus",
     "permanent": true
   },
   {
@@ -27929,7 +27944,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/アスワンから古代へ：コム・オンボ＆エドフ神殿",
-    "destination": "/ja/asuwan-kara-rukusoru-e-komuombo-edofu-shinden-higaeri-tsua",
+    "destination": "/ja/puraibeto-sogei-asuwan-kara-rukusoru-e-rikuro-de-tochu-gesha",
     "permanent": true
   },
   {
@@ -29394,7 +29409,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/templos-de-kom-ombo-y-edfu",
-    "destination": "/es/kom-ombo-y-edfu-desde-asuan-hasta-luxor",
+    "destination": "/es/traslado-privado-de-asuan-a-luxor-con-paradas",
     "permanent": true
   },
   {
