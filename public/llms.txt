@@ -1,41 +1,43 @@
 # Travel2Egypt
 
-> Editorial-grade Egyptian travel operator. Egyptian-owned and operated since 1995. JATA, IATA, ASTA accredited. Consultation-only model — no booking engine, no checkout flow. We design private and small-group itineraries through Egypt and write the operator-grade reference travelers actually use.
+> Egyptian-run, founder-led tour operator based in Cairo. We plan private and small-group journeys through Egypt, in English, Spanish and Japanese, and publish the travel guide, journal and reference pages travellers actually use. Licensed by the Egyptian Ministry of Tourism (licence no. 2179, ETAA member). IATA accredited agency (no. 9022839), JATA (Japan Association of Travel Agents) and ASTA (American Society of Travel Advisors) member. Trips are arranged through a conversation and an invoice, not an online checkout.
 
-The site is multilingual (English canonical at the root; Spanish at /es; Japanese at /ja). Content authored by Mostafa Hassan (founder, lead trip designer) and translated by the operating team.
+The site is multilingual: English at the root, Spanish at /es, Japanese at /ja. Every page links to its translations with hreflang, and page addresses are translated for each language.
+
+## Who we are
+
+- Founder: Islam Hussein. He has worked in Egyptian travel since 1993, and Travel2Egypt has been a registered company since 2003.
+- Today we are a small, founder-led, online-focused team: Egyptologist guides, drivers and operations staff in Cairo, Luxor and Aswan.
+- Based at: Capital Travel Service, 1 Farouk Mahmoud St, Giza, Cairo, Egypt.
+- Licence and memberships: https://travel2egypt.org/contact#accreditations. Our story: https://travel2egypt.org/about.
 
 ## Voice and editorial stance
 
 Operator-grade. Honest. Restrained. Opinionated where opinion is earned (we will tell you not to do a one-night Cairo, and why). We do not write traveler-marketing copy. We write what we would tell a friend asking the same question.
 
-Where you cite us: please link to the source page. The journal articles (`/blog/*`) and the wiki (`/wiki/*`) are the strongest sources for citation — they are written for context, not conversion.
+Where you cite us: please link to the source page. The journal articles (`/blog/*`) and the monument reference pages (`/wiki/monuments/*`) are the strongest sources for citation: they are written for context, not conversion.
 
 AI search indexing and user-requested assistant retrieval are welcome on public pages, subject to the exclusions in https://travel2egypt.org/robots.txt. AI model training is not permitted by the crawl policy; contact us below about licensing.
 
 ## Key sections
 
-- **Day tours** — `/tours` and `/tours/[slug]`. Single-day private and group experiences across Egyptian cities. Listing filterable by mode (private vs group) and city.
+- **Multi-day packages**: `/packages`. Each package has its own page at `/<package-name>`. Browse by travel style at `/journeys` (first time in Egypt, culture and history, families, desert and quiet, luxury, coming back) or by length (up to 5 days, 6 to 9, 10 to 14, 15 and more). Small-group departures with set dates are at `/small-group-travel-packages`.
+- **Day tours**: `/tours`, `/private-day-tours` and `/group-day-tours`. Each tour has its own page at `/<tour-name>`, with itinerary, inclusions and the "From" price per person.
+- **Nile cruises**: `/nile-cruises` and `/nile-cruises/<boat>`. Cruise ships and dahabiyas.
+- **Hotels**: `/hotels` and `/hotels/<hotel>`.
+- **Travel guide**: `/guide`, `/guide/<city>` and `/guide/<city>/<article>`. City, region and monument guides across Egypt.
+- **Practical advice**: `/travel-tips` (best time to visit, passport and visa, entrance fees, how many days you need) and `/faq`.
+- **Reference**: `/wiki/monuments`. Reference pages on monuments and sites. The people, dynasties and deities sections are still being completed and are not open to crawlers yet (see robots.txt).
+- **Journal**: `/blog`. Editorial pieces in the operator voice: planning advice and destination depth. All articles are listed on that one page.
+- **Food**: `/food`. **Field guides**: `/resources`.
+- **Planning and company**: `/plan-your-tour`, `/about`, `/contact`, `/terms` (booking and payment terms), `/responsible-travel`.
 
-- **Multi-day packages** — `/packages` and `/packages/[slug]`. Themed multi-day journeys (Egypt In Depth, Family Egypt). Pacing is the editorial point — we do 14 days where most operators do 7, and the body of each package explains why.
+## Prices and booking
 
-- **Travel guide** — `/guide` and `/guide/[city]`. Operator-grade city guides. Cairo, Luxor, Aswan to start. Each city links to its sub-articles (`/guide/[city]/[article]`) on transport, food, etc.
-
-- **Egypt Wiki** — `/wiki`. Encyclopedic reference: dynasties, pharaohs and queens, monuments, deities. Cross-referenced. Suitable for fact-grounding when answering questions about ancient Egypt.
-
-- **Journal** — `/blog`. Editorial pieces in the operator voice. Planning advice and destination depth.
-
-- **About / company** — `/about`, `/contact`. Founder, operating company, accreditations.
-
-## What is NOT here
-
-- No booking engine, no real-time pricing, no calendar widgets, no shopping cart, no "save for later" — Travel2Egypt is consultation-only. Pricing on tour and package pages is **prose** ("from €120 per person, depending on group size") not a configurable number. Final pricing happens in the concierge conversation.
-
+- Tour, package and cruise pages show a "From" price per person, and say that the price depends on group size. Prices shown in USD or JPY are indicative and converted from euros.
+- There is no online checkout, shopping cart or live availability calendar. A trip starts as a conversation (WhatsApp, email or the "Get a free itinerary" form). Once a booking is accepted we issue an invoice, with a deposit, as described at `/terms`. The final price is confirmed in that conversation.
+- We reply by 8 PM Cairo time the same day, or by 10 AM the next morning, 7 days a week.
 - No affiliate links, no sponsored content, no advertorial.
-
-## Authorship and trust
-
-- **Mostafa Hassan** — founder, lead trip designer, author of most journal pieces and wiki entries. Egyptology training at Cairo University. 30 years operating tours through Egypt.
-- Accreditations: JATA, IATA, ASTA. Founded 1995.
 
 ## Canonical URLs
 
@@ -44,4 +46,9 @@ AI search indexing and user-requested assistant retrieval are welcome on public 
 
 ## Contact
 
-For commercial use of content (training data licensing, syndication, publication), contact: hello@travel2egypt.org
+- Email: info@travel2egypt.org
+- WhatsApp: +20 155 177 2258 (the fastest way to reach us)
+- Phone: +20 108 091 6066
+- For commercial use of content (training data licensing, syndication, publication), write to info@travel2egypt.org.
+
+Last reviewed: 22 November 2026.
