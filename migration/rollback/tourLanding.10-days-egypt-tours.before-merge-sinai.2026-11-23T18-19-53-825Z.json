@@ -1,0 +1,647 @@
+{
+ "_createdAt": "2026-11-14T20:29:20Z",
+ "_id": "tourLanding.10-days-egypt-tours",
+ "_rev": "WQxyNmGMjSphcJjPeBffcq",
+ "_type": "tourLanding",
+ "_updatedAt": "2026-11-23T17:06:22Z",
+ "category": {
+  "_ref": "tourCategory.private-package",
+  "_type": "reference"
+ },
+ "faq": [
+  {
+   "_key": "faq-dur10-1",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "b2b",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s2c",
+         "_type": "span",
+         "marks": [],
+         "text": "Private journeys start on any date and run at your pace. Small-group tours run on fixed departure dates with a capped group. Where a small-group departure exists at this length, it’s listed here."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "esb1s",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "ess1t",
+         "_type": "span",
+         "marks": [],
+         "text": "Los viajes privados empiezan cualquier día y van a tu ritmo. Los viajes en grupo reducido salen en fechas fijas y con un número limitado de viajeros. Si existe una salida en grupo reducido de esta duración, aparece en esta página."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "value": [
+      {
+       "_key": "jab26",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "jas27",
+         "_type": "span",
+         "marks": [],
+         "text": "プライベート旅行はどの日からでも始められ、ご自身のペースで進みます。少人数グループのツアーは決まった出発日に、人数を限って催行します。この日数の少人数グループの出発がある場合は、このページに掲載しています。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Private or small group?"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Privado o en grupo reducido?"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "プライベートと少人数グループ、どちらがいいですか？"
+    }
+   ]
+  },
+  {
+   "_key": "faq-dur10-2",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "b2d",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s2e",
+         "_type": "span",
+         "marks": [],
+         "text": "Yes. Christmas, New Year and Easter are peak dates in Egypt. Scheduled departures on those dates usually cost 30% more, and private journeys cost more over the same dates too."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "esb1u",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "ess1v",
+         "_type": "span",
+         "marks": [],
+         "text": "Sí. Navidad, Año Nuevo y Semana Santa son fechas de temporada alta en Egipto. Las salidas programadas en esas fechas suelen costar un 30 % más. Los viajes privados también se encarecen en esas mismas fechas."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "value": [
+      {
+       "_key": "jab28",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "jas29",
+         "_type": "span",
+         "marks": [],
+         "text": "はい。クリスマス、年末年始、イースターはエジプトのピークシーズンです。この時期の定期出発ツアーは通常30％高くなります。プライベート旅行も同じ時期は料金が上がります。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Do prices change by season?"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Cambian los precios según la temporada?"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "季節によって料金は変わりますか？"
+    }
+   ]
+  },
+  {
+   "_key": "faq-dur10-3",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "b2f",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s2g",
+         "_type": "span",
+         "marks": [],
+         "text": "A cruise between Luxor and Aswan combines travel and accommodation, so you don’t move your luggage every day, and it stops at Edfu, Kom Ombo and Esna on the way. The trade-off is flexibility: the boat sets the timetable. Flying, or driving with a private car, lets you set your own."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "esb1w",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "ess1x",
+         "_type": "span",
+         "marks": [],
+         "text": "Un crucero entre Luxor y Asuán combina transporte y alojamiento, así que no mueves el equipaje cada día, y hace escala en Edfu, Kom Ombo y Esna. La contrapartida es la flexibilidad: el barco marca el horario. Volar, o viajar en coche privado, te deja fijar el tuyo."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "value": [
+      {
+       "_key": "jab2a",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "jas2b",
+         "_type": "span",
+         "marks": [],
+         "text": "ルクソールとアスワンを結ぶクルーズは移動と宿泊を兼ねるため、毎日荷物を動かす必要がなく、途中でエドフ、コム・オンボ、エスナに立ち寄ります。その代わり、時間は船の予定に合わせることになります。飛行機や専用車なら、ご自身で日程を決められます。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Nile cruise, or flights and hotels?"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Crucero por el Nilo, o vuelos y hoteles?"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "ナイルクルーズと、飛行機とホテル、どちらがいいですか？"
+    }
+   ]
+  }
+ ],
+ "intro": [
+  {
+   "_key": "en",
+   "value": [
+    {
+     "_key": "b23",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s24",
+       "_type": "span",
+       "marks": [],
+       "text": "What ten days adds"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "b25",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s26",
+       "_type": "span",
+       "marks": [],
+       "text": "In Cairo, there’s time beyond Giza: Saqqara or Dahshur make the history of the pyramids three-dimensional, and the museums and Islamic Cairo show the city beyond antiquity."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b27",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s28",
+       "_type": "span",
+       "marks": [],
+       "text": "In Luxor, the west bank no longer has to fit into one day. The Valley of the Kings, Hatshepsut’s temple, Medinet Habu and Deir el-Medina, the village of the tomb-builders, can be split by interest."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b29",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s2a",
+       "_type": "span",
+       "marks": [],
+       "text": "At eleven days, the Red Sea or Sinai becomes possible as an addition to the Nile valley. Choose one; including both scatters the trip."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "value": [
+    {
+     "_key": "esb1k",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "ess1l",
+       "_type": "span",
+       "marks": [],
+       "text": "Qué añaden diez días"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "esb1m",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "ess1n",
+       "_type": "span",
+       "marks": [],
+       "text": "En El Cairo hay tiempo más allá de Guiza: Saqqara o Dahshur dan profundidad a la historia de las pirámides, y los museos y el Cairo islámico muestran la ciudad más allá de la Antigüedad."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "esb1o",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "ess1p",
+       "_type": "span",
+       "marks": [],
+       "text": "En Luxor, la orilla occidental ya no tiene que caber en un solo día: el Valle de los Reyes, Hatshepsut, Medinet Habu y Deir el-Medina, la aldea de los constructores de tumbas, se pueden repartir según tu interés."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "esb1q",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "ess1r",
+       "_type": "span",
+       "marks": [],
+       "text": "Con once días aparece la opción de añadir el mar Rojo o el Sinaí al eje del Nilo. Elige uno: incluir los dos dispersa el viaje."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "value": [
+    {
+     "_key": "jab1y",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jas1z",
+       "_type": "span",
+       "marks": [],
+       "text": "10日間で加わること"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "jab20",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jas21",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロでは、ギザの先まで時間があります。サッカラやダハシュールを加えるとピラミッドの歴史が立体的になり、博物館やイスラーム地区では古代以外のカイロの厚みが見えてきます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jab22",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jas23",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールでは、西岸を一日に詰め込む必要がなくなります。王家の谷、ハトシェプスト女王葬祭殿、メディネト・ハブ、墓づくりの職人の村デル・エル・メディーナを、関心に合わせて分けて見られます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jab24",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jas25",
+       "_type": "span",
+       "marks": [],
+       "text": "11日間あれば、ナイル流域の旅に紅海またはシナイを加える余地が出てきます。どちらか一つを選びましょう。両方を入れると旅が散りやすくなります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "journalRefs": [
+  {
+   "_key": "j34",
+   "_ref": "wp-post-136767-en",
+   "_type": "reference"
+  },
+  {
+   "_key": "j35",
+   "_ref": "wp-post-136112-en",
+   "_type": "reference"
+  }
+ ],
+ "relatedTours": [
+  {
+   "_key": "t2i",
+   "_ref": "tour.10-day-egypt-group-tour-cairo-nile-red-sea",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2k",
+   "_ref": "tour.9-day-egypt-group-tour-cairo-abu-simbel-nile",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2l",
+   "_ref": "wp-page-86855",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2m",
+   "_ref": "wp-page-89435",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2o",
+   "_ref": "wp-page-87255",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2p",
+   "_ref": "wp-page-86857",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2r",
+   "_ref": "wp-page-89005",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2s",
+   "_ref": "wp-page-89343",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2t",
+   "_ref": "wp-page-89376",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2u",
+   "_ref": "wp-page-89602",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2v",
+   "_ref": "wp-page-89015",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2w",
+   "_ref": "wp-page-89619",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2x",
+   "_ref": "wp-page-89438",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2y",
+   "_ref": "tour.11-day-egypt-group-tour-cairo-red-sea-nile",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2z",
+   "_ref": "wp-page-86836",
+   "_type": "reference"
+  },
+  {
+   "_key": "t30",
+   "_ref": "wp-page-89284",
+   "_type": "reference"
+  },
+  {
+   "_key": "t31",
+   "_ref": "wp-page-89177",
+   "_type": "reference"
+  },
+  {
+   "_key": "t32",
+   "_ref": "wp-page-90450",
+   "_type": "reference"
+  },
+  {
+   "_key": "t33",
+   "_ref": "wp-page-156550",
+   "_type": "reference"
+  }
+ ],
+ "seo": {
+  "metaDescription": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayTextValue",
+    "value": "Egypt tours of nine to eleven days: Cairo, Luxor, Aswan and Abu Simbel without the rush, with private journeys on any date and small-group departures on fixed dates."
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayTextValue",
+    "value": "Viajes por Egipto de nueve a once días: El Cairo, Luxor, Asuán y Abu Simbel sin prisas, con viajes privados en cualquier fecha y salidas en grupo reducido en fechas fijas."
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayTextValue",
+    "value": "9〜11日間のエジプトツアー。カイロ、ルクソール、アスワン、アブ・シンベルを無理なく。プライベート旅行はどの日からでも、少人数グループは決まった出発日に。"
+   }
+  ],
+  "metaTitle": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "10-Day Egypt Tours: Cairo, the Nile and Abu Simbel in Depth"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Circuitos por Egipto de 10 días: El Cairo, el Nilo y Abu Simbel a fondo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "エジプト10日間のツアー：カイロ、ナイル、アブ・シンベルをじっくり"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "10-days-egypt-tours"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "circuitos-por-egipto-de-10-dias"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "ejiputo-10-nichikan-no-tsua"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Ten days is where an Egypt trip stops being a race. Cairo, Luxor, Aswan and Abu Simbel connect without strain, with time to go deeper at each. The tours here run nine to eleven days."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Con diez días, el viaje a Egipto deja de ser una carrera. El Cairo, Luxor, Asuán y Abu Simbel se enlazan sin tensión, con margen para profundizar en cada lugar. Los viajes de esta página duran de nueve a once días."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "10日間になると、エジプト旅行は駆け足ではなくなります。カイロ、ルクソール、アスワン、アブ・シンベルを無理なくつなぎ、場所ごとに少し深く見る余裕が生まれます。このページのツアーは9〜11日間です。"
+  }
+ ],
+ "themeRef": {
+  "_ref": "theme-duration-10",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "10-Day Egypt Tours"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Circuitos por Egipto de 10 días"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "エジプト10日間のツアー"
+  }
+ ]
+}

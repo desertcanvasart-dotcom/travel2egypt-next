@@ -1,0 +1,138 @@
+{
+ "_createdAt": "2026-05-14T11:37:50Z",
+ "_id": "drafts.wp-page-158052",
+ "_rev": "I13soljhRYf3SIEeZeYD9t",
+ "_system": {
+  "base": {
+   "id": "wp-page-158052",
+   "rev": "WARbvYUZNjQADgogAemrOy"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-18T12:50:32Z",
+ "cities": [
+  {
+   "_key": "wp-page-83284",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "durationDays": 7,
+ "heroImage": {
+  "_type": "image",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Minaret and historic stone facades along a quiet street in Islamic Cairo's old quarter."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Minarete y fachadas de piedra históricas en una calle tranquila del Cairo islámico."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "イスラム・カイロ旧市街の静かな通りに立つ尖塔と古い石造りの建物。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-9c5d33d6e4382662757934f371fe8a00c7b2545d-3000x2112-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Morning light on the medieval mosques and merchant houses of Islamic Cairo."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Luz matinal sobre las mezquitas medievales y casas de mercaderes del Cairo islámico."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "イスラム・カイロの中世のモスクと商人の家に差し込む朝の光。"
+   }
+  ]
+ },
+ "migration": {
+  "cityResolution": "default-cairo",
+  "durationDaysSource": "package-placeholder",
+  "migratedAt": "2026-05-14T11:37:50.462Z",
+  "source": "wp-import",
+  "themeMatchedPattern": "from-{country}",
+  "wpId": 158052,
+  "wpModifiedAt": "2025-04-09T11:56:45",
+  "wpTemplate": "",
+  "wpUrl": "https://travel2egypt.org/egypt-tours-from-the-uk/"
+ },
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_89558",
+   "_ref": "wp-page-89558",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_136519",
+   "_ref": "wp-page-136519",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_87974",
+   "_ref": "wp-page-89510",
+   "_type": "reference"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "value": {
+    "_type": "slug",
+    "current": "egypt-tours"
+   }
+  },
+  {
+   "_key": "ja",
+   "value": {
+    "_type": "slug",
+    "current": "igirisu-hatsu-ejiputo-tsua"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "viajes-a-egipto-desde-el-reino-unido"
+   }
+  }
+ ],
+ "summary": [],
+ "theme": {
+  "_ref": "theme-hassle-free",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Egypt Tours from the UK"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Viajes a Egipto desde el Reino Unido"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "イギリス発エジプトツアー"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}
