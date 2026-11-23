@@ -328,6 +328,9 @@ export const tourBySlugQuery = (locale: Locale) => groq`
      slug[_key == "en"][0].value.current == $slug)
   )][0]{
     ${tourCardProjection(locale)},
+    // 23 Nov 2026: only the noIndex flag, so a tour page held back for review carries the robots meta
+    // (meta title/description stay the tour's own title and summary, as for every tour).
+    "seo": { "noIndex": seo.noIndex },
     "body": ${portableTextBodyProjection('body', locale)},
     // Locale-strict: no English fallback, so a language without its own
     // practical information shows none rather than English text.
