@@ -84,7 +84,7 @@ The Citadel of Saladin and the Mosque of Muhammad Ali, with its domes, courtyard
 A short flight south to Luxor, boarding at midday and lunch on board. The first visit is Luxor Temple at dusk, its floodlit columns in the middle of the modern city, dramatic enough to hold the children’s attention after a travel day.
 
 **The day:** Luxor Temple at dusk
-**Overnight:** M/S Sara, Luxor
+**Overnight:** Nile cruise ship, Luxor
 **Meals:** Breakfast · lunch · dinner
 **Travel:** Domestic flight Cairo → Luxor · private transfers
 
@@ -96,7 +96,7 @@ A short flight south to Luxor, boarding at midday and lunch on board. The first 
 The Valley of the Kings, with three tombs chosen for the children’s ages: the painted ceiling of Seti I, the corridor of Ramses VI, and a third to suit their interests. Hatshepsut’s terraced temple at Deir el-Bahari, which children take to once they know her story, and a quick stop at the Colossi of Memnon. Pool time on board in the afternoon, and in the evening, a hieroglyphics workshop where the children write their names in the pharaohs’ script and take the cartouche home.
 
 **The day:** Valley of the Kings · Temple of Hatshepsut · Colossi of Memnon · hieroglyphics workshop
-**Overnight:** M/S Sara
+**Overnight:** Nile cruise ship
 **Meals:** Breakfast · lunch · dinner
 **Travel:** Private transfers
 
@@ -113,7 +113,7 @@ The Valley of the Kings, with three tombs chosen for the children’s ages: the 
 The ship sails south overnight. In the morning, Edfu’s Temple of Horus, the falcon god, buried for centuries and dug out in the 19th century, with sharp reliefs and a treasure-card game for younger children. In the afternoon, Kom Ombo’s twin temple for Sobek the crocodile and Horus, and the crocodile museum children remember. Aswan by evening, with an optional galabiya dress-up night.
 
 **The day:** Temple of Horus at Edfu · Temple of Kom Ombo · Crocodile Museum
-**Overnight:** M/S Sara, Aswan
+**Overnight:** Nile cruise ship, Aswan
 **Meals:** Breakfast · lunch · dinner
 **Travel:** By cruise
 
@@ -127,7 +127,7 @@ The ship sails south overnight. In the morning, Edfu’s Temple of Horus, the fa
 The High Dam, completed in 1970, and what it cost and gave. The Unfinished Obelisk, left where the granite cracked, the nearest the children will get to watching ancient masons at work. Philae, the temple of Isis, by motor launch. Then a felucca around Elephantine Island and a visit to a brightly painted Nubian village, where children meet children. A farewell dinner on board, with Nubian music and dance.
 
 **The day:** Aswan High Dam · Unfinished Obelisk · Temple of Philae · felucca · Nubian village · Nubian music and dance
-**Overnight:** M/S Sara, Aswan
+**Overnight:** Nile cruise ship, Aswan
 **Meals:** Breakfast · lunch · dinner
 **Travel:** Private transfers · motor launch · felucca
 
@@ -155,9 +155,9 @@ Breakfast, disembarkation, and the flight to Cairo, with assistance through to y
 
 ## Your stay and travel
 
-**Hotels:** three nights at the Pyramids Park Resort or a similar family-friendly Cairo hotel, bed and breakfast.
+**Hotels:** three nights at a family-friendly Cairo hotel such as the Pyramids Park Resort, bed and breakfast.
 
-**On the Nile:** four nights on the M/S Sara, a five-star cruise ship from Luxor to Aswan, chosen for its family cabins, full board. The ship is shared with other guests.
+**On the Nile:** four nights on a five-star cruise ship from Luxor to Aswan, such as the M/S Sara, chosen for its family cabins, full board. The ship is shared with other guests.
 
 **Flights:** Cairo to Luxor, and Aswan to Cairo, with airport assistance.
 
@@ -170,7 +170,7 @@ Breakfast, disembarkation, and the flight to Cairo, with assistance through to y
 **Included**
 - A licensed Egyptologist guide in your language (English, Spanish or Japanese), in Cairo and on every shore visit
 - Private transfers and airport assistance
-- Three nights in a Cairo hotel, with breakfast, and four nights on the five-star M/S Sara, full board
+- Three nights in a Cairo hotel, with breakfast, and four nights on a five-star Nile cruise ship, full board
 - Lunch on the sightseeing days in Cairo
 - Domestic flights
 - A Nile dinner cruise in Cairo, the hieroglyphics workshop, a felucca, a Nubian village visit and Nubian music and dance on board

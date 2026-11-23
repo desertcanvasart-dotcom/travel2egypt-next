@@ -80,7 +80,7 @@ La Ciudadela de Saladino y la mezquita de Muhammad Ali, con sus cúpulas, patios
 Un vuelo corto al sur, a Luxor, embarque a mediodía y almuerzo a bordo. La primera visita es el templo de Luxor al anochecer, con sus columnas iluminadas en medio de la ciudad moderna, lo bastante dramático para mantener la atención de los niños tras un día de viaje.
 
 **El día:** templo de Luxor al anochecer
-**Noche:** M/S Sara, Luxor
+**Noche:** crucero por el Nilo, Luxor
 **Comidas:** desayuno · almuerzo · cena
 **Traslados:** vuelo interno El Cairo → Luxor · traslados privados
 
@@ -92,7 +92,7 @@ Un vuelo corto al sur, a Luxor, embarque a mediodía y almuerzo a bordo. La prim
 El Valle de los Reyes, con tres tumbas elegidas según las edades de los niños: el techo pintado de Seti I, el corredor de Ramsés VI y una tercera a su gusto. El templo escalonado de Hatshepsut en Deir el-Bahari, que a los niños les encanta una vez que conocen su historia, y una parada rápida en los Colosos de Memnón. Piscina a bordo por la tarde y, por la noche, un taller de jeroglíficos en el que los niños escriben su nombre con la escritura de los faraones y se llevan el cartucho a casa.
 
 **El día:** Valle de los Reyes · templo de Hatshepsut · Colosos de Memnón · taller de jeroglíficos
-**Noche:** M/S Sara
+**Noche:** crucero por el Nilo
 **Comidas:** desayuno · almuerzo · cena
 **Traslados:** traslados privados
 
@@ -107,7 +107,7 @@ El Valle de los Reyes, con tres tumbas elegidas según las edades de los niños:
 El barco navega al sur durante la noche. Por la mañana, el templo de Horus en Edfu, el dios halcón, enterrado durante siglos y desenterrado en el siglo XIX, con relieves nítidos y un juego de cartas del tesoro para los más pequeños. Por la tarde, el templo gemelo de Kom Ombo para Sobek, el cocodrilo, y Horus, y el museo de cocodrilos que los niños recuerdan. Asuán al caer la tarde, con una noche opcional de disfraces de galabiya.
 
 **El día:** templo de Horus en Edfu · templo de Kom Ombo · Museo de los Cocodrilos
-**Noche:** M/S Sara, Asuán
+**Noche:** crucero por el Nilo, Asuán
 **Comidas:** desayuno · almuerzo · cena
 **Traslados:** en crucero
 
@@ -119,7 +119,7 @@ El barco navega al sur durante la noche. Por la mañana, el templo de Horus en E
 La Gran Presa, terminada en 1970, y lo que costó y dio. El Obelisco Inacabado, abandonado donde el granito se agrietó, lo más cerca que los niños estarán de ver trabajar a los antiguos canteros. Filé, el templo de Isis, en lancha motora. Después, una falúa alrededor de la isla Elefantina y una visita a un pueblo nubio de colores vivos, donde los niños conocen a otros niños. Una cena de despedida a bordo, con música y baile nubios.
 
 **El día:** Gran Presa de Asuán · Obelisco Inacabado · templo de Filé · falúa · pueblo nubio · música y baile nubios
-**Noche:** M/S Sara, Asuán
+**Noche:** crucero por el Nilo, Asuán
 **Comidas:** desayuno · almuerzo · cena
 **Traslados:** traslados privados · lancha motora · falúa
 
@@ -145,9 +145,9 @@ Desayuno, desembarco y vuelo a El Cairo, con asistencia hasta tu salida internac
 
 ## Alojamiento y traslados
 
-**Hoteles:** tres noches en el Pyramids Park Resort u otro hotel familiar similar de El Cairo, con alojamiento y desayuno.
+**Hoteles:** tres noches en un hotel familiar de El Cairo, como el Pyramids Park Resort, con alojamiento y desayuno.
 
-**En el Nilo:** cuatro noches en el M/S Sara, un crucero de cinco estrellas de Luxor a Asuán, elegido por sus camarotes familiares, en pensión completa. El barco se comparte con otros huéspedes.
+**En el Nilo:** cuatro noches en un crucero de cinco estrellas de Luxor a Asuán, como el M/S Sara, elegido por sus camarotes familiares, en pensión completa. El barco se comparte con otros huéspedes.
 
 **Vuelos:** de El Cairo a Luxor y de Asuán a El Cairo, con asistencia en el aeropuerto.
 
@@ -160,7 +160,7 @@ Desayuno, desembarco y vuelo a El Cairo, con asistencia hasta tu salida internac
 **Incluido**
 - Un egiptólogo con licencia en tu idioma (español), en El Cairo y en cada visita en tierra
 - Traslados privados y asistencia en el aeropuerto
-- Tres noches en un hotel de El Cairo, con desayuno, y cuatro noches en el M/S Sara, de cinco estrellas, en pensión completa
+- Tres noches en un hotel de El Cairo, con desayuno, y cuatro noches en un crucero de cinco estrellas por el Nilo, en pensión completa
 - Almuerzo en los días de visitas en El Cairo
 - Vuelos internos
 - Una cena en un crucero por el Nilo en El Cairo, el taller de jeroglíficos, una falúa, una visita a un pueblo nubio y música y baile nubios a bordo

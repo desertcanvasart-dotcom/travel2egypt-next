@@ -19284,7 +19284,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/9-nichikan-no-ejiputo-bunka-to-rekishi-tsua",
-    "destination": "/a-9-day-egypt-tour-of-culture-and-history",
+    "destination": "/cairo-and-nile-cruise-tour",
     "permanent": true
   },
   {
@@ -19544,7 +19544,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/9-nichikan-no-ejiputo-bunka-to-rekishi-tsua",
-    "destination": "/es/maravillas-de-egipto-tour-clasico-de-9-dias",
+    "destination": "/es/el-cairo-y-el-nilo-en-8-dias-piramides-rio-luxor-y-asuan",
     "permanent": true
   },
   {
@@ -30675,6 +30675,21 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/kurashikku-ejiputo-kazoku-no-tabi-kairo-kara-nairu-soshite",
     "destination": "/ja/go-kazoku-no-tame-no-hachi-nichikan-kairo-to-nairu-gawa",
+    "permanent": true
+  },
+  {
+    "source": "/a-9-day-egypt-tour-of-culture-and-history",
+    "destination": "/cairo-and-nile-cruise-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/maravillas-de-egipto-tour-clasico-de-9-dias",
+    "destination": "/es/el-cairo-y-el-nilo-en-8-dias-piramides-rio-luxor-y-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/9-nichikan-no-ejiputo-bunka-to-rekishi-tsua",
+    "destination": "/ja/8-nichikan-kairo-nairu-kuruzu-tsua-piramiddo-kawa-rukusoru",
     "permanent": true
   }
 ];
