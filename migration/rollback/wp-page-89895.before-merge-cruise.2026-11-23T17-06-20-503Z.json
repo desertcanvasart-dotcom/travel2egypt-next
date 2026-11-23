@@ -1,0 +1,3829 @@
+{
+ "_createdAt": "2026-05-13T22:22:22Z",
+ "_id": "wp-page-89895",
+ "_rev": "SW99D0Q78v2PfPjYiMB0rm",
+ "_system": {
+  "base": {
+   "id": "wp-page-89895",
+   "rev": "eLUUL06Q6sOsFevOspSvvT"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-23T17:06:00Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "First-time visitors to Egypt who want both the pyramids and the river in a single arc; travellers who want to see what is at the Grand Egyptian Museum"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Primer visitante a Egipto que quiere pirámides y río en un mismo arco; viajeros que quieren ver lo que hay en el Gran Museo Egipcio"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "はじめてエジプトを訪れ、ピラミッドと川を一本の弧で見たい方、GEMが何を抱えているかを確かめたい方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo and the Nile: Eight Days from the Pyramids to Aswan"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A privately guided tour built around a simple geographical fact — the Nile runs from south to north, and Egyptian civilisation ran along it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "This is the canonical Egypt itinerary, compressed into eight days and bracketed by Cairo at both ends."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "The route is coherent if tight: arrival in Cairo, then Giza, Memphis and Saqqara, then a flight south to Luxor and the cruise, then the Theban West Bank, then sail down to Aswan via Edfu and Kom Ombo, then a flight back to Cairo for the Grand Egyptian Museum, the Citadel and Khan el-Khalili. You begin at the monuments the whole world recognises, follow the river that made those monuments possible, arrive at Aswan where the Nile narrows and slows, and close at the museum that finally houses what was carried out of the sites you have just walked through. Cairo at the start and Cairo at the close gives the trip its bookends. Your party travels with its own Egyptologist; aboard the Nile you have a private cabin on a five-star cruise ship."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo: arrival and the founding monuments"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The tour begins quietly. You are met at Cairo International Airport and transferred to your hotel — no programme, just arrival and rest. Cairo can be disorienting on first contact: loud, vast, and moving at its own speed."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "The next day carries the weight of the entire opening chapter of Egyptian history. It begins on the Giza plateau, where the three pyramids of the Fourth Dynasty — Khufu, Khafre, and Menkaure — have stood since around 2500 BC. The Great Sphinx crouches below them, facing east. Standing at their base settles something that photographs never resolve: the sheer, unreasonable scale of what was built here, and the precision with which it was built. From Giza the day continues south to Memphis, the first capital of a unified Egypt, where an open-air museum preserves the colossal fallen statue of Ramses II and the great alabaster sphinx. Then to Saqqara, where the Step Pyramid of Djoser — built around 2650 BC — is the oldest large stone structure in the world. This is the building in which the pyramid was effectively invented. Seeing Saqqara after Giza is to see the finished thing after the experiment, and the order makes both more legible."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "South to Luxor: the East Bank and the Valley of the Kings"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "A short domestic flight south brings you to Luxor."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor was ancient Thebes, the religious capital of the New Kingdom empire. You board your Nile cruise ship, take lunch on board, then go directly to Karnak — which is less a temple than a temple city, built and extended by successive pharaohs across roughly 1,500 years. Its Great Hypostyle Hall, with 134 massive columns rising to 21 metres, is one of the most overwhelming interior spaces that survives from the ancient world. As the evening comes in, the day closes at Luxor Temple, connected to Karnak by the Avenue of Sphinxes ceremonially reopened in November 2021. Seeing it after dark — the columns lit from below, the crowds thinned — is a genuine privilege."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Day four crosses to the land of the dead. The Valley of the Kings holds more than sixty royal tombs; their corridors and burial chambers are still bright with painted scenes of the afterlife journey, texts from the Book of the Dead, and the intricate theology of royal resurrection. Tutankhamun's tomb is here — modest in size, enormous in fame; the contents are now permanently together at the Grand Egyptian Museum since the museum fully opened on 1 November 2025 — but the tombs of Ramses III, Seti I, and Thutmose III show what royal burial on a proper scale looked like. The day also visits the Mortuary Temple of Hatshepsut at Deir el-Bahari, rising in three colonnaded terraces against the cliff face — the monument of a woman who ruled as pharaoh for roughly twenty years in the fifteenth century BC. The Colossi of Memnon, two seated quartzite figures of Amenhotep III, close the West Bank circuit."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "The river days: Edfu, Kom Ombo and the felucca"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Day five is a travelling day in the best sense."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "The first stop is Edfu, home to the Temple of Horus — the most completely preserved temple in Egypt, its walls, roof, and inner sanctuary still intact. Built in the Ptolemaic period between 237 and 57 BC, its state of preservation is extraordinary. The second is Kom Ombo, unusual in Egyptian architecture for being dedicated symmetrically to two gods: Sobek, the crocodile deity, and Horus the Elder. The layout runs in parallel — two of everything, mirror-imaged. The day ends on the water, aboard a traditional felucca sailing around Kitchener's Island at Aswan as the light drops."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan: Philae, the dam and the Unfinished Obelisk"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan is Egypt's southernmost city on this itinerary, set where the Nile narrows toward the first cataract."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "The morning goes to Philae — strictly Agilkia Island, where the Temple of Isis was relocated in the 1970s to save it from Lake Nasser. The rescue operation that moved it block by block to higher ground was one of the great international preservation efforts of the twentieth century. From Philae the day moves to the Aswan High Dam, completed in 1970 — controlling the Nile's annual flood, generating hydroelectric power, and creating Lake Nasser. Its consequences are still being reckoned with — and Abu Simbel, lifted 65 metres between 1964 and 1968, is the most visible monument it forced into motion. The Unfinished Obelisk, abandoned in its granite quarry, closes the day — at roughly 42 metres and 1,200 tonnes, it would have been far larger than any obelisk standing today."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo again: the Grand Egyptian Museum and the close"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "You fly back to Cairo, and the day is given to the city's later layers — Islamic Cairo and the great museum that now houses the country's pharaonic collection."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "The Grand Egyptian Museum, which opened fully on 1 November 2025 on the edge of the Giza plateau, holds one of the world's great collections of ancient Egyptian artefacts, including the complete contents of Tutankhamun's tomb, displayed together. (The royal mummies are housed separately at the National Museum of Egyptian Civilisation in Old Cairo.) After the sites you have spent the trip walking through, seeing the objects they once contained is a different kind of encounter: more intimate, more legible."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "From the museum the day climbs to the Saladin Citadel, the medieval fortification that was the seat of Egypt's rulers for some 700 years, into the nineteenth century. The Mosque of Muhammad Ali, with its Ottoman silhouette and alabaster-lined courtyard, dominates Cairo's skyline from the plateau. It ends in Khan el-Khalili, the bazaar quarter that has traded continuously since the fourteenth century. After a final breakfast the following morning, you are transferred to Cairo International Airport."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Eight days is not enough to exhaust Egypt. Nothing is. But it is enough to understand why people keep coming back."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The shape of the journey"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Where · Cairo (Giza, Memphis, Saqqara) → Luxor → Edfu → Kom Ombo → Aswan → Cairo (GEM, Citadel, Khan el-Khalili)"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Duration · 8 days / 7 nights — 2 in Cairo (split), 4 aboard a five-star Nile cruise vessel"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Character · Fully private · your own Egyptologist · standard 4–5 star cruise ship · canonical Cairo-plus-cruise structure"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo y el Nilo: ocho días de las pirámides a Asuán"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una ruta privada articulada en torno a un hecho geográfico simple —el Nilo corre de sur a norte, y la civilización egipcia corrió a lo largo de él."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Este es el itinerario canónico de Egipto, comprimido en ocho días y enmarcado por El Cairo a la entrada y la salida."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta es coherente aunque apretada: llegada a El Cairo, luego Guiza, Menfis y Saqqara, vuelo al sur hasta Luxor y embarque, después la orilla occidental tebana, navegación rumbo a Asuán vía Edfu y Kom Ombo, vuelo de vuelta a El Cairo para el Gran Museo Egipcio, la Ciudadela y Jan el-Jalili. Se empieza por los monumentos que el mundo entero reconoce, se sigue el río que los hizo posibles, se llega a Asuán donde el Nilo se estrecha y aminora, y se cierra en el museo que por fin acoge lo que se sacó de los lugares por los que se acaba de caminar. El Cairo al principio y El Cairo al final dan al viaje sus dos marcos. El grupo viaja con su propio egiptólogo; a bordo del Nilo se dispone de camarote privado en un crucero de cinco estrellas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo: llegada y los monumentos fundacionales"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "El viaje arranca con calma. Se recibe al viajero en el aeropuerto internacional de El Cairo y se le traslada a su hotel —sin programa, solo llegada y descanso. El Cairo puede ser desorientador en el primer contacto: ruidoso, vasto y con un tempo propio."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "El día siguiente carga con el peso del capítulo entero que abre la historia egipcia. Comienza en la meseta de Guiza, donde las tres pirámides de la cuarta dinastía —Keops, Kefrén y Micerinos— se levantan desde hacia el 2500 a. C. La Gran Esfinge se agazapa más abajo, mirando al este. Plantarse al pie acomoda algo que las fotografías nunca resuelven: la escala pura, irrazonable, de lo que se edificó aquí, y la precisión con que se hizo. Desde Guiza la jornada continúa hacia el sur, a Menfis, primera capital del Egipto unificado, donde un museo al aire libre conserva el coloso caído de Ramsés II y la gran esfinge de alabastro. Después a Saqqara, donde la pirámide escalonada de Zoser —edificada hacia el 2650 a. C.— es la primera gran estructura en piedra del mundo. Es el edificio en que la pirámide se inventó de hecho. Ver Saqqara después de Guiza es ver la cosa terminada después del experimento, y el orden vuelve a ambas más legibles."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Al sur, a Luxor: orilla oriental y Valle de los Reyes"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Un corto vuelo doméstico lleva al sur, a Luxor."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor fue la antigua Tebas, capital religiosa del imperio del Reino Nuevo. Se embarca en el crucero por el Nilo, se almuerza a bordo y se va directamente a Karnak —menos un templo que una ciudad de templos, edificada y ampliada por faraones sucesivos a lo largo de unos 1.500 años. Su Gran Sala Hipóstila, con 134 columnas masivas que alcanzan 21 metros, es uno de los espacios interiores más abrumadores que han llegado del mundo antiguo. Allí se levanta también el obelisco superviviente de Hatshepsut, de 29,5 metros, el más alto de Egipto. Al caer la tarde, el día cierra en el templo de Luxor, unido a Karnak por la avenida de las Esfinges, reabierta ceremonialmente en noviembre de 2021. Visitarlo de noche —columnas iluminadas desde abajo, el gentío ya disuelto— es un privilegio cierto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "El cuarto día cruza a la tierra de los muertos. El Valle de los Reyes alberga más de sesenta tumbas reales; sus corredores y cámaras funerarias siguen vivos con escenas pintadas del viaje al más allá, textos del Libro de los Muertos y la teología minuciosa de la resurrección regia. La tumba de Tutankamón está aquí —modesta en tamaño, enorme en fama; su ajuar funerario se reúne hoy de forma permanente en el Gran Museo Egipcio desde que el museo abrió plenamente el 1 de noviembre de 2025—, pero las de Ramsés III, Seti I y Tutmosis III muestran lo que un enterramiento real a escala adecuada significaba. La jornada visita también el templo funerario de Hatshepsut en Deir el-Bahari, alzado en tres terrazas con columnatas contra el acantilado —el monumento de una mujer que gobernó como faraón unos veinte años en el siglo XV a. C. Los colosos de Memnón, las dos figuras sedentes de cuarcita de Amenhotep III, cierran el circuito occidental."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Días de río: Edfu, Kom Ombo y la faluca"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "El quinto día es jornada de navegación, en su mejor versión."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "La primera parada es Edfu, sede del templo de Horus —el templo más íntegramente conservado de Egipto, con muros, techo y santuario interior aún intactos. Edificado en época ptolemaica entre el 237 y el 57 a. C., su estado de conservación es extraordinario. La segunda es Kom Ombo, inusual en la arquitectura egipcia por estar consagrado simétricamente a dos dioses: Sobek, el dios cocodrilo, y Horus el Mayor. La planta avanza en paralelo —dos de todo, en imagen especular. El día termina sobre el agua, a bordo de una faluca tradicional, rodeando la isla Kitchener en Asuán mientras la luz cae."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Asuán: File, la presa y el obelisco inacabado"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Asuán es la ciudad más meridional del itinerario, situada donde el Nilo se estrecha hacia la primera catarata."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "La mañana se va a File —en rigor, a la isla de Agilkia, donde el templo de Isis fue reubicado entre 1972 y 1980, a unos 500 metros al oeste, para salvarlo del lago Nasser. La operación de rescate que lo trasladó bloque a bloque a cota más alta fue una de las grandes empresas internacionales de preservación del siglo XX. Desde File el día se traslada a la presa Alta de Asuán, completada en 1970 —que controla la crecida anual del Nilo, genera energía hidroeléctrica y dio origen al lago Nasser, desplazando en el proceso a alrededor de 100 000 nubios. Sus consecuencias siguen pesando, y Abu Simbel, elevado 65 metros entre 1964 y 1968 bajo dirección de la UNESCO, es el monumento más visible que la presa forzó a moverse. El obelisco inacabado, dejado en su cantera de granito, cierra la jornada —con sus 42 metros y 1.200 toneladas estimadas, habría sido mucho mayor que cualquier obelisco que se mantiene en pie hoy."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo, otra vez: el Gran Museo Egipcio y el cierre"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Se vuela a El Cairo y la jornada se reserva para las capas más recientes de la ciudad —El Cairo islámico y el gran museo que ahora acoge la colección faraónica del país."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "El Gran Museo Egipcio, que abrió plenamente el 1 de noviembre de 2025 al borde de la meseta de Guiza, conserva una de las grandes colecciones de objetos del Egipto antiguo del mundo, incluido el ajuar completo de la tumba de Tutankamón, expuesto en conjunto. (Las momias reales se conservan aparte, en el Museo Nacional de la Civilización Egipcia, en El Cairo Antiguo.) Después de los lugares por los que se ha caminado durante el viaje, ver los objetos que en su día contuvieron es un encuentro distinto: más íntimo, más legible."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde el museo, la jornada asciende a la Ciudadela de Saladino, fortificación medieval que fue la sede de los gobernantes de Egipto durante unos 700 años, hasta entrado el siglo XIX. La mezquita de Mohamed Ali, con su silueta otomana y su patio revestido de alabastro, domina el perfil de la ciudad desde la plataforma. Termina en Jan el-Jalili, el barrio del bazar que comercia de forma continuada desde el siglo XIV. Tras un último desayuno a la mañana siguiente, se traslada al viajero al aeropuerto internacional de El Cairo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Ocho días no bastan para agotar Egipto. Nada lo basta. Pero sí alcanzan para entender por qué la gente vuelve."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La forma del viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Dónde · El Cairo (Guiza, Menfis, Saqqara) → Luxor → Edfu → Kom Ombo → Asuán → El Cairo (GEM, Ciudadela, Jan el-Jalili)"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Duración · 8 días / 7 noches —2 en El Cairo (repartidas), 4 a bordo de un crucero de cinco estrellas por el Nilo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Carácter · Salida privada · su propio egiptólogo · barco estándar de 4–5 estrellas · estructura canónica de El Cairo más crucero"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロとナイル：ピラミッドからアスワンへの8日間"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "ひとつの地理的事実——ナイルは南から北へ流れ、エジプト文明はそれに沿って流れた——を軸に組まれたプライベートツアー。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプトの正攻法の行程を、カイロで両端を挟むかたちに8日に凝縮したものです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "ルートは引き締まりながらも筋が通っています——カイロ到着、ギザ・メンフィス・サッカラ、空路で南のルクソールへ、そしてクルーズ、テーベ西岸、エドフとコム・オンボを経てアスワンへ南下、再びカイロへ飛び、大エジプト博物館（GEM）、シタデル、ハーン・ハリーリー。誰もが知る記念建造物から始まり、それを可能にした川を追い、ナイルが狭まり鎮まるアスワンに到着し、行程で歩いた遺跡から出土した品々を遂に納めた博物館で締めくくる。冒頭と末尾のカイロが旅に枠を与えます。ご一行には専属のエジプト学ガイドが同行し、ナイル上では五つ星のクルーズ船に専用の客室を確保します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロ：到着と建国の記念建造物"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "旅は静かに始まります。カイロ国際空港でお迎えし、ホテルへお送りします——プログラムはなく、ただ到着して休む夜。カイロは最初の接触では戸惑いやすい都市——大きく、騒がしく、独自の速度で動きます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "翌日はエジプト史の冒頭まるごとの重みを引き受けます。朝はギザ高原から——第4王朝の三大ピラミッド、クフ、カフラー、メンカウラーが紀元前2500年ごろから立ち続け、足下に大スフィンクスが東を向いて伏します。基部に立つとき、写真ではけして決着のつかない事実が落ち着きます——築かれたものの、不条理なほどの規模、そして築かれた精度です。ギザから南下してメンフィスへ。統一エジプト最初の首都であり、青空博物館にはラムセス2世の倒像とアラバスター製の大スフィンクスが残ります。続くサッカラでは、紀元前2650年ごろ築かれたジョセル王の階段ピラミッドが——世界最古の大規模石造建築。ピラミッドは事実上ここで発明されました。ギザの完成形のあとにサッカラの実験を見ると、両者が互いを照らし合います。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "南へ、ルクソール：東岸と王家の谷"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "短い国内線で南のルクソールへ。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールは古代テーベ、新王国時代の帝国の宗教的首都でした。ナイルクルーズ船に乗船し、船内で昼食をとったあと、まっすぐカルナックへ——神殿というより神殿の都市、約1,500年にわたり歴代ファラオが増築を重ねた聖域。大列柱室は134本の巨大柱が21メートルまで立ち上がり、古代世界から伝わる屋内空間のなかでもとりわけ圧倒的なひとつです。夕暮れには、スフィンクス参道（2021年11月に式典のうえ再開通）で結ばれるルクソール神殿へ。日没後の柱列が下から照らされ、人足が引いたあとに訪ねる時間は、真の特権です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "四日目は死者の地へ。王家の谷には六十を超える王墓があり、その通路と玄室は、いまも来世の場面、死者の書の章、王の復活の精緻な神学を彩色のままに伝えます。ツタンカーメンの墓もここに——規模は控えめながら名声は巨大、出土品はいまや一括して、2025年11月1日に全面開館したGEMに常設展示されています——ラムセス3世、セティ1世、トトメス3世の墓は、王の埋葬が本来どのような規模であったかを示します。続いてデイル・エル=バハリのハトシェプスト葬祭殿へ——崖を背に三層の列柱テラスが立ち上がります。紀元前15世紀におよそ20年エジプトを治めた、女性ファラオの記念物。一日はメムノンの巨像で締めくくります——アメンホテプ3世の二体の座像です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "川の一日：エドフ、コム・オンボ、フェルッカ"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "五日目は、本来の意味での移動の一日。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "最初はエドフのホルス神殿——エジプトでもっとも完全なかたちの神殿で、壁、屋根、内陣がほぼ無傷。プトレマイオス朝期、紀元前237年から57年にかけて建てられ、その保存状態は格別です。続くコム・オンボは、二柱の神——ワニのソベクと年長のホルス——に対称的に捧げられた異色の神殿。平面はすべて二組で鏡映に並びます。一日は、アスワンに着く頃の傾いた光のなか、キッチナー島周りのフェルッカ帆走で水上で締めくくります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワン：フィラエ、ダムと未完のオベリスク"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワンは、この行程の南限。ナイルが第一急湍へ狭まる地点です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "午前はフィラエへ——正確にはアギルキア島。1970年代、ナセル湖から救うためイシス神殿が移設されました。一帯のブロックを高台へ運んだその救出は、20世紀の国際的保存事業のなかでも屈指のものです。続いて1970年完成のアスワン・ハイダムへ——氾濫の制御、水力発電、そしてナセル湖の創出。その余波はいまだに勘定されている最中で、1964〜1968年に65メートル上方へ持ち上げられたアブ・シンベルは、ダムが動かしたもっとも目に見える記念物です。最後は未完のオベリスク——花崗岩の石切場に置き去られたまま、長さ約42メートル、推定1,200トン。完成していれば、今日立っているどのオベリスクよりもはるかに大きなものだったはずです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "再びカイロ：大エジプト博物館と締めくくり"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロへ戻る空路。最後の章はこの街の後年の層に充てます——イスラム期のカイロと、エジプト古代の宝物を集成するGEMです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "2025年11月1日にギザ高原のすぐ脇で全面開館した大エジプト博物館は、世界有数の古代エジプト遺物のコレクションを抱え、ツタンカーメンの墓の出土品が完全な形で一堂に並びます。（王のミイラ群は、旧カイロの国立エジプト文明博物館に別途展示されています。）旅のあいだ歩いてきた遺跡が抱えていた品々を見ることは、別種の出会いになります——より親密で、より読み解きやすい時間です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "博物館から、シタデル——中世の城塞、約700年にわたり、19世紀までエジプトの統治者の拠点だった地——へ高度を上げます。ムハンマド・アリ・モスクは、オスマン風の輪郭とアラバスター張りの中庭で、高原からカイロのスカイラインを支配します。一日はハーン・ハリーリーで終わります——14世紀以来連続して商いを続けてきたバザール街区です。翌朝の朝食ののち、カイロ国際空港へお送りします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "8日間でエジプトを汲み尽くすことはできません。何をもってしてもできません。けれども、なぜ人々が何度も戻ってくるのかを理解するには、ちょうど足ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "旅の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · カイロ（ギザ、メンフィス、サッカラ） → ルクソール → エドフ → コム・オンボ → アスワン → カイロ（GEM、シタデル、ハーン・ハリーリー）"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "日数 · 8日間／7泊 — カイロ2泊（分割）、五つ星ナイルクルーズ船で4泊"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド · 標準的な四〜五つ星クルーズ船 · 正攻法の「カイロ＋クルーズ」構成"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "wp-page-83284",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  },
+  {
+   "_key": "e47924a89466",
+   "_ref": "wp-page-58877",
+   "_type": "reference"
+  },
+  {
+   "_key": "b77cd47e9db7",
+   "_ref": "wp-page-58758",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private journey is built around your party, not the other way around. Tell our team how you'd want to shape it — a longer Cairo opening, an Abu Simbel day flight from Aswan, a Lake Nasser extension before the return flight — and we'll build the eight days to fit."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Un viaje privado se construye en torno a su grupo, no al revés. Cuéntele a nuestro equipo cómo quiere darle forma —una apertura más larga en El Cairo, un vuelo a Abu Simbel desde Asuán o una extensión al lago Nasser antes del vuelo de regreso— y armaremos los ocho días a su medida."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "プライベートの旅は、お客様のご一行を軸に組み立てます。カイロ導入をもっと長く、アスワン発のアブ・シンベル日帰り、復路前のナセル湖延長——どんな形にしたいかをお聞かせください。8日間を、それに合わせて組み上げます。"
+  }
+ ],
+ "customisationOptions": [
+  {
+   "_key": "dah-opt-en-0",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "A longer Cairo opening, with the Egyptian Museum on Tahrir Square and Al-Muizz Street"
+  },
+  {
+   "_key": "dah-opt-en-1",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "A day in Old Cairo for the Hanging Church and the Ben Ezra Synagogue"
+  },
+  {
+   "_key": "dah-opt-en-2",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Take the overnight sleeper train from Aswan to Cairo instead of the flight"
+  },
+  {
+   "_key": "dah-opt-en-3",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "An Abu Simbel day by air from Aswan"
+  },
+  {
+   "_key": "dah-opt-en-4",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "A Lake Nasser extension before the flight back"
+  },
+  {
+   "_key": "dah-opt-es-0",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Una apertura más larga en El Cairo, con el Museo Egipcio de la plaza Tahrir y la calle Al-Muizz"
+  },
+  {
+   "_key": "dah-opt-es-1",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Un día en el Cairo antiguo para la Iglesia Colgante y la sinagoga Ben Ezra"
+  },
+  {
+   "_key": "dah-opt-es-2",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Tomar el tren nocturno con cama de Asuán a El Cairo en lugar del vuelo"
+  },
+  {
+   "_key": "dah-opt-es-3",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Un día a Abu Simbel en avión desde Asuán"
+  },
+  {
+   "_key": "dah-opt-es-4",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Una ampliación al lago Nasser antes del vuelo de vuelta"
+  },
+  {
+   "_key": "dah-opt-ja-0",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "カイロでの滞在を長くして、タハリール広場のエジプト博物館とアル・ムイッズ通りへ"
+  },
+  {
+   "_key": "dah-opt-ja-1",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "オールド・カイロで1日、ハンギング・チャーチとベン・エズラ・シナゴーグへ"
+  },
+  {
+   "_key": "dah-opt-ja-2",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "飛行機の代わりに、アスワンからカイロへの寝台列車で移動"
+  },
+  {
+   "_key": "dah-opt-ja-3",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "アスワンから飛行機でアブ・シンベルへの日帰り"
+  },
+  {
+   "_key": "dah-opt-ja-4",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "帰りのフライトの前に、ナセル湖への延長"
+  }
+ ],
+ "durationDays": 8,
+ "exclusions": [
+  {
+   "_key": "dah-ex-en-0",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "International flights"
+  },
+  {
+   "_key": "dah-ex-en-1",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Egypt visa"
+  },
+  {
+   "_key": "dah-ex-en-2",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Tipping"
+  },
+  {
+   "_key": "dah-ex-en-3",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Drinks"
+  },
+  {
+   "_key": "dah-ex-en-4",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Dinners in Cairo"
+  },
+  {
+   "_key": "dah-ex-en-5",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Entry inside the pyramids"
+  },
+  {
+   "_key": "dah-ex-en-6",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "The tombs of Tutankhamun, Seti I and Ramses VI"
+  },
+  {
+   "_key": "dah-ex-es-0",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Vuelos internacionales"
+  },
+  {
+   "_key": "dah-ex-es-1",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Visado de Egipto"
+  },
+  {
+   "_key": "dah-ex-es-2",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Propinas"
+  },
+  {
+   "_key": "dah-ex-es-3",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Bebidas"
+  },
+  {
+   "_key": "dah-ex-es-4",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Cenas en El Cairo"
+  },
+  {
+   "_key": "dah-ex-es-5",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Entrar en las pirámides"
+  },
+  {
+   "_key": "dah-ex-es-6",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Las tumbas de Tutankamón, Seti I y Ramsés VI"
+  },
+  {
+   "_key": "dah-ex-ja-0",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "国際線航空券"
+  },
+  {
+   "_key": "dah-ex-ja-1",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "エジプトのビザ"
+  },
+  {
+   "_key": "dah-ex-ja-2",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "チップ"
+  },
+  {
+   "_key": "dah-ex-ja-3",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "飲み物"
+  },
+  {
+   "_key": "dah-ex-ja-4",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "カイロでの夕食"
+  },
+  {
+   "_key": "dah-ex-ja-5",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "ピラミッドの内部"
+  },
+  {
+   "_key": "dah-ex-ja-6",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "ツタンカーメン、セティ1世、ラムセス6世の墓"
+  }
+ ],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 1632,
+  "ja": 1672
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A twin-sailed dahabiya cruise boat on the Nile beneath Aswan's desert hills."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Un barco dahabiya de dos velas en el Nilo bajo las colinas desérticas de Asuán."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "アスワンの砂漠の丘の下、二枚帆のダハビーヤ船がナイル川を行く。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-be17a29caca30fb409d832217a0480d20330a92d-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A traditional dahabiya sails the Nile below the sandstone hills near Aswan."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Una dahabiya tradicional navega el Nilo bajo las colinas de arenisca de Asuán."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "アスワン近郊の砂岩の丘を背に、ナイル川を帆走する伝統的なダハビーヤ。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "dah-in-en-0",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "A licensed Egyptologist guide in your language (English, Spanish or Japanese)"
+  },
+  {
+   "_key": "dah-in-en-1",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Private transfers throughout"
+  },
+  {
+   "_key": "dah-in-en-2",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Three nights in Cairo hotels, with breakfast"
+  },
+  {
+   "_key": "dah-in-en-3",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Four nights on a five-star Nile cruise ship, full board"
+  },
+  {
+   "_key": "dah-in-en-4",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Lunch on the sightseeing days in Cairo"
+  },
+  {
+   "_key": "dah-in-en-5",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Domestic flights Cairo → Luxor and Aswan → Cairo"
+  },
+  {
+   "_key": "dah-in-en-6",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "A felucca sail in Aswan and the motor boat to Philae"
+  },
+  {
+   "_key": "dah-in-en-7",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Meet and greet at Cairo airport"
+  },
+  {
+   "_key": "dah-in-en-8",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Entrance tickets to the sights in the daily programme, including the Grand Egyptian Museum"
+  },
+  {
+   "_key": "dah-in-es-0",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Un egiptólogo con licencia en tu idioma (español)"
+  },
+  {
+   "_key": "dah-in-es-1",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Traslados privados en todo el viaje"
+  },
+  {
+   "_key": "dah-in-es-2",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Tres noches en hoteles de El Cairo, con desayuno"
+  },
+  {
+   "_key": "dah-in-es-3",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Cuatro noches en un crucero de cinco estrellas por el Nilo, en pensión completa"
+  },
+  {
+   "_key": "dah-in-es-4",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Almuerzo en los días de visitas en El Cairo"
+  },
+  {
+   "_key": "dah-in-es-5",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Vuelos internos El Cairo → Luxor y Asuán → El Cairo"
+  },
+  {
+   "_key": "dah-in-es-6",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Un paseo en falúa en Asuán y la barca a Filé"
+  },
+  {
+   "_key": "dah-in-es-7",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Recibimiento en el aeropuerto de El Cairo"
+  },
+  {
+   "_key": "dah-in-es-8",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "Entradas a los lugares del programa diario, incluido el Gran Museo Egipcio"
+  },
+  {
+   "_key": "dah-in-ja-0",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "日本語を話す公認エジプト学ガイド"
+  },
+  {
+   "_key": "dah-in-ja-1",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "全行程の専用車での送迎"
+  },
+  {
+   "_key": "dah-in-ja-2",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "カイロのホテル3泊（朝食付き）"
+  },
+  {
+   "_key": "dah-in-ja-3",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "5つ星のナイル川クルーズ船4泊（全食事付き）"
+  },
+  {
+   "_key": "dah-in-ja-4",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "カイロの観光日の昼食"
+  },
+  {
+   "_key": "dah-in-ja-5",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "国内線フライト カイロ→ルクソール、アスワン→カイロ"
+  },
+  {
+   "_key": "dah-in-ja-6",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "アスワンでのファルーカとフィラエ神殿へのボート"
+  },
+  {
+   "_key": "dah-in-ja-7",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "カイロ空港でのお出迎え"
+  },
+  {
+   "_key": "dah-in-ja-8",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "text": "日程に含まれる見学地の入場料（大エジプト博物館を含む）"
+  }
+ ],
+ "itineraryDays": [
+  {
+   "_key": "dah-en-1",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "You’re met at Cairo airport and taken to your hotel. No programme: just arrival and rest. Cairo can be disorienting on first contact, loud, vast and moving at its own speed."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 1,
+   "lang": "en",
+   "meals": [],
+   "narrativeRefs": [
+    "00000000000b"
+   ],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "Cairo hotel",
+   "overnightNeedsReview": false,
+   "pace": "Easy",
+   "place": "Cairo",
+   "sites": [],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "Arrival",
+   "travel": "Meet and greet at the airport, private transfer to your hotel"
+  },
+  {
+   "_key": "dah-en-2",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "The opening chapter of Egyptian history in one day. Giza, where the pyramids of Khufu, Khafre and Menkaure have stood since around 2500 BC, with the Great Sphinx below them facing east. Then south to Memphis, first capital of a united Egypt, with the fallen colossus of Ramses II and the great alabaster sphinx. Last, Saqqara, where the Step Pyramid of Djoser, built around 2650 BC, is where the pyramid was invented. Seeing the experiment after the finished thing makes both easier to read."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 2,
+   "lang": "en",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    }
+   ],
+   "narrativeRefs": [
+    "00000000000d"
+   ],
+   "needsReview": false,
+   "optional": [
+    {
+     "_key": "o0",
+     "_type": "dayOptional",
+     "cost": "extraTicket",
+     "text": "Inside one of the pyramids: extra ticket"
+    }
+   ],
+   "overnight": "Cairo hotel",
+   "overnightNeedsReview": false,
+   "place": "Cairo",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.giza.the-giza-plateau",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Giza pyramids"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.giza.the-great-sphinx",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Great Sphinx"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.giza.memphis-mit-rahina",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Memphis"
+    },
+    {
+     "_key": "site3",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.giza.the-saqqara-necropolis",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Saqqara"
+    },
+    {
+     "_key": "site4",
+     "_type": "daySite",
+     "name": "Step Pyramid of Djoser"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "Giza, Memphis and Saqqara",
+   "travel": "Private transfers"
+  },
+  {
+   "_key": "dah-en-3",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "A short flight south to Luxor, ancient Thebes. You board your cruise ship for lunch, then go straight to Karnak, less a temple than a temple city, built and extended over about 1,500 years; its Great Hypostyle Hall has 134 columns up to 21 metres high. As evening comes, Luxor Temple, at the end of the Avenue of Sphinxes, seen after dark with the columns lit from below and the crowds thinned."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 3,
+   "lang": "en",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [
+    "000000000011",
+    "000000000013"
+   ],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "Nile cruise ship, Luxor",
+   "overnightNeedsReview": false,
+   "place": "Cairo → Luxor",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.luxor.the-karnak-temple",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Karnak"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "name": "Great Hypostyle Hall"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "name": "Avenue of Sphinxes"
+    },
+    {
+     "_key": "site3",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.luxor.the-luxor-temple",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Luxor Temple by night"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "Karnak, and Luxor Temple after dark",
+   "travel": "Domestic flight Cairo → Luxor · private transfers"
+  },
+  {
+   "_key": "dah-en-4",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "The land of the dead. The Valley of the Kings, more than sixty royal tombs, their corridors still bright with the journey through the afterlife; Tutankhamun’s is the most famous, but the tombs of Ramses III, Seti I and Thutmose III show royal burial on its proper scale. Then Hatshepsut’s three terraces at Deir el-Bahari, built for the woman who ruled as pharaoh for some twenty years, and the Colossi of Memnon, two seated figures of Amenhotep III."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 4,
+   "lang": "en",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [
+    "000000000015"
+   ],
+   "needsReview": false,
+   "optional": [
+    {
+     "_key": "o0",
+     "_type": "dayOptional",
+     "cost": "extraTicket",
+     "text": "The tombs of Tutankhamun, Seti I and Ramses VI: extra tickets"
+    }
+   ],
+   "overnight": "Nile cruise ship",
+   "overnightNeedsReview": false,
+   "place": "Luxor · the West Bank",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.luxor.valley-of-the-kings",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Valley of the Kings"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.luxor.the-mortuary-temple-of-queen-hatshepsut",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Temple of Hatshepsut"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.luxor.the-colossi-of-memnon",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Colossi of Memnon"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "The Valley of the Kings, Hatshepsut and the Colossi",
+   "travel": "Private transfers"
+  },
+  {
+   "_key": "dah-en-5",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "A travelling day in the best sense. Edfu and the Temple of Horus, built between 237 and 57 BC, with its walls, roof and inner sanctuary still intact. Then Kom Ombo, built for Sobek the crocodile and Horus the Elder in exact mirror image. The day ends on the water at Aswan, in a felucca around Kitchener’s Island as the light drops."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 5,
+   "lang": "en",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [
+    "000000000019",
+    "00000000001b"
+   ],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "Nile cruise ship, Aswan",
+   "overnightNeedsReview": false,
+   "place": "On the Nile → Aswan",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.edfu.edfu-temple",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Temple of Horus at Edfu"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.kom-ombo.the-temple-of-kom-ombo",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Temple of Kom Ombo"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "name": "felucca around Kitchener’s Island"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "Edfu, Kom Ombo and a felucca at Aswan",
+   "travel": "By cruise · felucca"
+  },
+  {
+   "_key": "dah-en-6",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "Philae, on Agilkia Island, where the Temple of Isis was moved block by block in the 1970s to save it from Lake Nasser. Then the High Dam, completed in 1970, which tamed the annual flood, generates power and created the lake, with consequences still being reckoned with. Last, the Unfinished Obelisk, about 42 metres long, abandoned in its granite quarry."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 6,
+   "lang": "en",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [
+    "00000000001f",
+    "000000000021"
+   ],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "Nile cruise ship",
+   "overnightNeedsReview": false,
+   "place": "Aswan",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.aswan.the-philae-temple",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Temple of Philae"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "name": "Aswan High Dam"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.aswan.the-unfinished-obelisk",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Unfinished Obelisk"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "Philae, the High Dam and the Unfinished Obelisk",
+   "travel": "Private transfers · boat to Philae"
+  },
+  {
+   "_key": "dah-en-7",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "You fly back to Cairo. The Grand Egyptian Museum holds the complete contents of Tutankhamun’s tomb, and after the sites you’ve walked through, seeing what they once held is a more intimate kind of encounter. Then up to the Citadel of Saladin and the Mosque of Muhammad Ali, its Ottoman silhouette dominating the skyline, and finally Khan El Khalili, trading since the 14th century."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 7,
+   "lang": "en",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast",
+     "note": "on the cruise"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    }
+   ],
+   "narrativeRefs": [
+    "000000000025",
+    "000000000027",
+    "000000000029"
+   ],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "Cairo hotel",
+   "overnightNeedsReview": false,
+   "pace": "A full day",
+   "place": "Aswan → Cairo",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "name": "Grand Egyptian Museum"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.cairo.the-citadel-of-saladin",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Citadel of Saladin"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.cairo.mosque-of-muhammad-ali",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Mosque of Muhammad Ali"
+    },
+    {
+     "_key": "site3",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.cairo.khan-el-khalili",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Khan El Khalili"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "The Grand Egyptian Museum, the Citadel and Khan El Khalili",
+   "travel": "Domestic flight Aswan → Cairo · private transfers"
+  },
+  {
+   "_key": "dah-en-8",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "A last breakfast and the transfer to Cairo airport."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 8,
+   "lang": "en",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnightNeedsReview": false,
+   "place": "Cairo",
+   "sites": [],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "Departure",
+   "travel": "Private transfer to the airport"
+  },
+  {
+   "_key": "dah-es-1",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "Te recibimos en el aeropuerto de El Cairo y te llevamos al hotel. Sin programa: solo llegada y descanso. El Cairo puede desorientar en el primer contacto, ruidoso, inmenso y a su propio ritmo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 1,
+   "lang": "es",
+   "meals": [],
+   "narrativeRefs": [
+    "00000000000b"
+   ],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "hotel en El Cairo",
+   "overnightNeedsReview": false,
+   "pace": "tranquilo",
+   "place": "El Cairo",
+   "sites": [],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "Llegada",
+   "travel": "recibimiento en el aeropuerto, traslado privado al hotel"
+  },
+  {
+   "_key": "dah-es-2",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "El primer capítulo de la historia egipcia en un solo día. Guiza, donde las pirámides de Keops, Kefrén y Micerino se alzan desde aproximadamente 2500 a. C., con la Gran Esfinge a sus pies, mirando al este. Después, al sur, Menfis, primera capital de un Egipto unido, con el coloso caído de Ramsés II y la gran esfinge de alabastro. Por último, Saqqara, donde la pirámide escalonada de Dyoser, construida hacia 2650 a. C., es el lugar donde se inventó la pirámide. Ver el experimento después de lo ya terminado hace más fácil leer ambos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 2,
+   "lang": "es",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    }
+   ],
+   "narrativeRefs": [
+    "00000000000d"
+   ],
+   "needsReview": false,
+   "optional": [
+    {
+     "_key": "o0",
+     "_type": "dayOptional",
+     "cost": "extraTicket",
+     "text": "Entrar en una de las pirámides: entrada extra"
+    }
+   ],
+   "overnight": "hotel en El Cairo",
+   "overnightNeedsReview": false,
+   "place": "El Cairo",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.giza.the-giza-plateau",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "pirámides de Guiza"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.giza.the-great-sphinx",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Gran Esfinge"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.giza.memphis-mit-rahina",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Menfis"
+    },
+    {
+     "_key": "site3",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.giza.the-saqqara-necropolis",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Saqqara"
+    },
+    {
+     "_key": "site4",
+     "_type": "daySite",
+     "name": "pirámide escalonada de Dyoser"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "Guiza, Menfis y Saqqara",
+   "travel": "traslados privados"
+  },
+  {
+   "_key": "dah-es-3",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "Un vuelo corto al sur, a Luxor, la antigua Tebas. Embarcas en tu crucero para almorzar y vas directo a Karnak, más una ciudad de templos que un templo, construida y ampliada a lo largo de unos 1500 años; su Gran Sala Hipóstila tiene 134 columnas de hasta 21 metros de altura. Al caer la tarde, el templo de Luxor, al final de la Avenida de las Esfinges, visto de noche con las columnas iluminadas desde abajo y menos gente."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 3,
+   "lang": "es",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [
+    "000000000011",
+    "000000000013"
+   ],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "crucero por el Nilo, Luxor",
+   "overnightNeedsReview": false,
+   "place": "El Cairo → Luxor",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.luxor.the-karnak-temple",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Karnak"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "name": "Gran Sala Hipóstila"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "name": "Avenida de las Esfinges"
+    },
+    {
+     "_key": "site3",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.luxor.the-luxor-temple",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "templo de Luxor de noche"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "Karnak y el templo de Luxor de noche",
+   "travel": "vuelo interno El Cairo → Luxor · traslados privados"
+  },
+  {
+   "_key": "dah-es-4",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "La tierra de los muertos. El Valle de los Reyes, con más de sesenta tumbas reales, sus corredores aún brillantes con el viaje por el más allá; la de Tutankamón es la más famosa, pero las tumbas de Ramsés III, Seti I y Tutmosis III muestran el enterramiento real en su verdadera escala. Después, las tres terrazas de Hatshepsut en Deir el-Bahari, construidas para la mujer que reinó como faraón unos veinte años, y los Colosos de Memnón, dos figuras sentadas de Amenhotep III."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 4,
+   "lang": "es",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [
+    "000000000015"
+   ],
+   "needsReview": false,
+   "optional": [
+    {
+     "_key": "o0",
+     "_type": "dayOptional",
+     "cost": "extraTicket",
+     "text": "Las tumbas de Tutankamón, Seti I y Ramsés VI: entradas extra"
+    }
+   ],
+   "overnight": "crucero por el Nilo",
+   "overnightNeedsReview": false,
+   "place": "Luxor · La orilla oeste",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.luxor.valley-of-the-kings",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Valle de los Reyes"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.luxor.the-mortuary-temple-of-queen-hatshepsut",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "templo de Hatshepsut"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.luxor.the-colossi-of-memnon",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Colosos de Memnón"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "El Valle de los Reyes, Hatshepsut y los Colosos",
+   "travel": "traslados privados"
+  },
+  {
+   "_key": "dah-es-5",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "Una jornada de viaje en el mejor sentido. Edfu y el templo de Horus, construido entre 237 y 57 a. C., con sus muros, su techo y su santuario interior intactos. Después, Kom Ombo, construido para Sobek, el cocodrilo, y Horus el Viejo, en perfecta imagen especular. El día termina sobre el agua en Asuán, en una falúa alrededor de la isla Kitchener mientras baja la luz."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 5,
+   "lang": "es",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [
+    "000000000019",
+    "00000000001b"
+   ],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "crucero por el Nilo, Asuán",
+   "overnightNeedsReview": false,
+   "place": "Por el Nilo → Asuán",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.edfu.edfu-temple",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "templo de Horus en Edfu"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.kom-ombo.the-temple-of-kom-ombo",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "templo de Kom Ombo"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "name": "falúa alrededor de la isla Kitchener"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "Edfu, Kom Ombo y una falúa en Asuán",
+   "travel": "en crucero · falúa"
+  },
+  {
+   "_key": "dah-es-6",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "Filé, en la isla de Agilkia, donde el templo de Isis se trasladó bloque a bloque en la década de 1970 para salvarlo del lago Nasser. Después, la Gran Presa, terminada en 1970, que domó la crecida anual, genera electricidad y creó el lago, con consecuencias que aún se están valorando. Por último, el Obelisco Inacabado, de unos 42 metros de largo, abandonado en su cantera de granito."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 6,
+   "lang": "es",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [
+    "00000000001f",
+    "000000000021"
+   ],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "crucero por el Nilo",
+   "overnightNeedsReview": false,
+   "place": "Asuán",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.aswan.the-philae-temple",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "templo de Filé"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "name": "Gran Presa de Asuán"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.aswan.the-unfinished-obelisk",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Obelisco Inacabado"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "Filé, la Gran Presa y el Obelisco Inacabado",
+   "travel": "traslados privados · barca a Filé"
+  },
+  {
+   "_key": "dah-es-7",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "Vuelas de vuelta a El Cairo. El Gran Museo Egipcio guarda el contenido completo de la tumba de Tutankamón, y después de los lugares que has recorrido, ver lo que guardaban es un encuentro más íntimo. Después, a la Ciudadela de Saladino y la mezquita de Muhammad Ali, con su silueta otomana dominando el horizonte, y por último Jan el-Jalili, que comercia desde el siglo XIV."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 7,
+   "lang": "es",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast",
+     "note": "en el crucero"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    }
+   ],
+   "narrativeRefs": [
+    "000000000025",
+    "000000000027",
+    "000000000029"
+   ],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "hotel en El Cairo",
+   "overnightNeedsReview": false,
+   "pace": "una jornada completa",
+   "place": "Asuán → El Cairo",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "name": "Gran Museo Egipcio"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.cairo.the-citadel-of-saladin",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Ciudadela de Saladino"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.cairo.mosque-of-muhammad-ali",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "mezquita de Muhammad Ali"
+    },
+    {
+     "_key": "site3",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.cairo.khan-el-khalili",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Jan el-Jalili"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "El Gran Museo Egipcio, la Ciudadela y Jan el-Jalili",
+   "travel": "vuelo interno Asuán → El Cairo · traslados privados"
+  },
+  {
+   "_key": "dah-es-8",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "Un último desayuno y el traslado al aeropuerto de El Cairo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 8,
+   "lang": "es",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnightNeedsReview": false,
+   "place": "El Cairo",
+   "sites": [],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "Despedida",
+   "travel": "traslado privado al aeropuerto"
+  },
+  {
+   "_key": "dah-ja-1",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロ空港でお出迎えし、ホテルへご案内します。予定はなく、到着して休むだけです。カイロは初めて触れると、騒がしく、広大で、独自のペースで動く街で、戸惑うこともあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 1,
+   "lang": "ja",
+   "meals": [],
+   "narrativeRefs": [
+    "00000000000b"
+   ],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "カイロのホテル",
+   "overnightNeedsReview": false,
+   "pace": "ゆったり",
+   "place": "カイロ",
+   "sites": [],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "到着",
+   "travel": "空港でのお出迎え、ホテルまで専用車での送迎"
+  },
+  {
+   "_key": "dah-ja-2",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプト史の最初の章を1日で。クフ王、カフラー王、メンカウラー王のピラミッドが紀元前2500年ごろから立ち続けるギザと、東を向くその足元の大スフィンクス。続いて南へ、統一エジプト最初の首都メンフィスで、倒れたラムセス2世の巨像と大きなアラバスターのスフィンクスを見ます。最後は、紀元前2650年ごろに築かれたジョセル王の階段ピラミッドのあるサッカラ。ここでピラミッドが生まれました。完成形を見たあとに試行錯誤を見ると、どちらも読み解きやすくなります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 2,
+   "lang": "ja",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    }
+   ],
+   "narrativeRefs": [
+    "00000000000d"
+   ],
+   "needsReview": false,
+   "optional": [
+    {
+     "_key": "o0",
+     "_type": "dayOptional",
+     "cost": "extraTicket",
+     "text": "ピラミッドの内部見学（1か所）：別途チケット"
+    }
+   ],
+   "overnight": "カイロのホテル",
+   "overnightNeedsReview": false,
+   "place": "カイロ",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.giza.the-giza-plateau",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "ギザのピラミッド"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.giza.the-great-sphinx",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "大スフィンクス"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.giza.memphis-mit-rahina",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "メンフィス"
+    },
+    {
+     "_key": "site3",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.giza.the-saqqara-necropolis",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "サッカラ"
+    },
+    {
+     "_key": "site4",
+     "_type": "daySite",
+     "name": "ジョセル王の階段ピラミッド"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "ギザ、メンフィス、サッカラ",
+   "travel": "専用車での送迎"
+  },
+  {
+   "_key": "dah-ja-3",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "南へ短いフライトで、古代テーベのルクソールへ。昼食のためにクルーズ船に乗船し、そのままカルナック神殿へ。神殿というより神殿の街で、約1500年かけて築かれ、増築されてきました。大列柱室には、高さ最大21メートルの柱が134本並びます。夕方には、スフィンクス参道の終点にあるルクソール神殿へ。夜、柱が下から照らされ、人出も落ち着いたころに訪れます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 3,
+   "lang": "ja",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [
+    "000000000011",
+    "000000000013"
+   ],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "ナイル川クルーズ船、ルクソール",
+   "overnightNeedsReview": false,
+   "place": "カイロ→ルクソール",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.luxor.the-karnak-temple",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "カルナック神殿"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "name": "大列柱室"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "name": "スフィンクス参道"
+    },
+    {
+     "_key": "site3",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.luxor.the-luxor-temple",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "夜のルクソール神殿"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "カルナック神殿と、夜のルクソール神殿",
+   "travel": "国内線カイロ→ルクソール・専用車での送迎"
+  },
+  {
+   "_key": "dah-ja-4",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "死者の地。六十を超える王墓のある王家の谷では、回廊が今も来世への旅を鮮やかに描いています。ツタンカーメンの墓が最も有名ですが、ラムセス3世、セティ1世、トトメス3世の墓は、王の埋葬の本来の規模を示しています。続いて、約二十年にわたってファラオとして君臨した女性のために築かれた、デイル・エル・バハリの三段のテラス、ハトシェプスト女王葬祭殿と、アメンヘテプ3世の座像2体、メムノンの巨像。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 4,
+   "lang": "ja",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [
+    "000000000015"
+   ],
+   "needsReview": false,
+   "optional": [
+    {
+     "_key": "o0",
+     "_type": "dayOptional",
+     "cost": "extraTicket",
+     "text": "ツタンカーメン、セティ1世、ラムセス6世の墓：別途チケット"
+    }
+   ],
+   "overnight": "ナイル川クルーズ船",
+   "overnightNeedsReview": false,
+   "place": "ルクソール・西岸",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.luxor.valley-of-the-kings",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "王家の谷"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.luxor.the-mortuary-temple-of-queen-hatshepsut",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "ハトシェプスト女王葬祭殿"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.luxor.the-colossi-of-memnon",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "メムノンの巨像"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "王家の谷、ハトシェプスト女王、メムノンの巨像",
+   "travel": "専用車での送迎"
+  },
+  {
+   "_key": "dah-ja-5",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "最も良い意味での移動日です。紀元前237年から紀元前57年にかけて建てられたエドフのホルス神殿は、壁も屋根も奥の至聖所も無傷のまま残っています。続いて、ワニの神セベクと大ホルスのために、まったくの鏡像で築かれたコム・オンボ。1日の終わりは、アスワンの水の上、光が落ちるころにキッチナー島をめぐるファルーカで。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 5,
+   "lang": "ja",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [
+    "000000000019",
+    "00000000001b"
+   ],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "ナイル川クルーズ船、アスワン",
+   "overnightNeedsReview": false,
+   "place": "ナイル川→アスワン",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.edfu.edfu-temple",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "エドフのホルス神殿"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.kom-ombo.the-temple-of-kom-ombo",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "コム・オンボ神殿"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "name": "ファルーカでキッチナー島を周遊"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "エドフ、コム・オンボ、アスワンでファルーカ",
+   "travel": "クルーズ船・ファルーカ"
+  },
+  {
+   "_key": "dah-ja-6",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "アギルキア島のフィラエ神殿。イシス神殿は、ナセル湖から守るため、1970年代に1ブロックずつ移されました。続いて、1970年に完成したハイ・ダム。毎年の洪水を抑え、電力を生み、湖を生み出しましたが、その影響は今も見極められているところです。最後は、花崗岩の石切場に置き去りにされた、長さ約42メートルの切りかけのオベリスク。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 6,
+   "lang": "ja",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [
+    "00000000001f",
+    "000000000021"
+   ],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "ナイル川クルーズ船",
+   "overnightNeedsReview": false,
+   "place": "アスワン",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.aswan.the-philae-temple",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "フィラエ神殿"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "name": "アスワン・ハイ・ダム"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.aswan.the-unfinished-obelisk",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "切りかけのオベリスク"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "フィラエ神殿、ハイ・ダム、切りかけのオベリスク",
+   "travel": "専用車での送迎・フィラエ神殿へはボート"
+  },
+  {
+   "_key": "dah-ja-7",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロへ戻るフライト。大エジプト博物館には、ツタンカーメンの墓の副葬品がすべて揃っていて、巡ってきた遺跡のあとに、そこにあったものを見るのは、より身近な出会いです。続いて、サラディンのシタデルと、オスマン様式のシルエットが街を見下ろすムハンマド・アリ・モスク、そして14世紀から商いを続けるハーン・ハリーリへ。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 7,
+   "lang": "ja",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast",
+     "note": "クルーズ船"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    }
+   ],
+   "narrativeRefs": [
+    "000000000025",
+    "000000000027",
+    "000000000029"
+   ],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "カイロのホテル",
+   "overnightNeedsReview": false,
+   "pace": "丸1日",
+   "place": "アスワン→カイロ",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "name": "大エジプト博物館"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.cairo.the-citadel-of-saladin",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "サラディンのシタデル"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.cairo.mosque-of-muhammad-ali",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "ムハンマド・アリ・モスク"
+    },
+    {
+     "_key": "site3",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.cairo.khan-el-khalili",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "ハーン・ハリーリ"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "大エジプト博物館、シタデル、ハーン・ハリーリ",
+   "travel": "国内線アスワン→カイロ・専用車での送迎"
+  },
+  {
+   "_key": "dah-ja-8",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "最後の朝食と、カイロ空港までの送迎。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 8,
+   "lang": "ja",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnightNeedsReview": false,
+   "place": "カイロ",
+   "sites": [],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "title": "出発",
+   "travel": "空港までの専用車での送迎"
+  }
+ ],
+ "itineraryIntro": [
+  {
+   "_key": "intro-en",
+   "_type": "itineraryIntro",
+   "closingLine": "Eight days isn’t enough to exhaust Egypt. Nothing is. But it’s enough to understand why people keep coming back.",
+   "closingRef": "00000000002b",
+   "fitFor": [
+    "are visiting for the first time and want the pyramids and the river in one arc",
+    "want to see what’s now at the Grand Egyptian Museum"
+   ],
+   "lang": "en",
+   "makeItYoursIntro": "This is a private journey, built around your party. Common changes:",
+   "needsReview": false,
+   "opening": "Egypt’s classic itinerary in eight days, with Cairo at both ends: the pyramids, a flight south, a Nile cruise from Luxor to Aswan, and a flight back for the Grand Egyptian Museum, the Citadel and Khan El Khalili. Your own Egyptologist throughout, and a private cabin on a five-star cruise ship.",
+   "panelRows": [
+    {
+     "_key": "pr0",
+     "_type": "labelledRow",
+     "label": "Meals",
+     "text": "breakfast at the hotel, lunch on sightseeing days, full board on the ship"
+    },
+    {
+     "_key": "pr1",
+     "_type": "labelledRow",
+     "label": "Your guide speaks",
+     "text": "English"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "stayRows": [
+    {
+     "_key": "sr0",
+     "_type": "labelledRow",
+     "label": "Hotels",
+     "text": "three nights at a Cairo hotel such as the Pyramids Park Resort, two at the start and one at the end, bed and breakfast."
+    },
+    {
+     "_key": "sr1",
+     "_type": "labelledRow",
+     "label": "On the Nile",
+     "text": "four nights in a private cabin on a five-star Nile cruise ship, such as the M/S Sara (the ship is shared), full board."
+    },
+    {
+     "_key": "sr2",
+     "_type": "labelledRow",
+     "label": "Flights",
+     "text": "domestic flights from Cairo to Luxor and from Aswan to Cairo."
+    },
+    {
+     "_key": "sr3",
+     "_type": "labelledRow",
+     "label": "Every day",
+     "text": "your own licensed Egyptologist, in your language, and private transfers."
+    }
+   ],
+   "whyRoute": "The Nile runs from south to north, and Egyptian civilisation ran along it. You start at the monuments the whole world recognises, follow the river that made them possible to Aswan, where it narrows and slows, and finish at the museum that now holds what was carried out of the sites you’ve just walked through. Seeing the objects after the places makes both more legible.",
+   "whyRouteRefs": [],
+   "worthKnowing": [
+    "It’s tight: Day 2 and Day 7 are both full.",
+    "All hotel nights are bed and breakfast; dinners in Cairo are not included."
+   ]
+  },
+  {
+   "_key": "intro-es",
+   "_type": "itineraryIntro",
+   "closingLine": "Ocho días no bastan para agotar Egipto. Nada lo consigue. Pero bastan para entender por qué la gente sigue volviendo.",
+   "closingRef": "00000000002b",
+   "fitFor": [
+    "visitas Egipto por primera vez y quieres las pirámides y el río en un solo arco",
+    "quieres ver lo que hay ahora en el Gran Museo Egipcio"
+   ],
+   "lang": "es",
+   "makeItYoursIntro": "Este es un viaje privado, hecho a la medida de tu grupo. Cambios habituales:",
+   "needsReview": false,
+   "opening": "El itinerario clásico de Egipto en ocho días, con El Cairo en los dos extremos: las pirámides, un vuelo al sur, un crucero por el Nilo de Luxor a Asuán y un vuelo de vuelta para el Gran Museo Egipcio, la Ciudadela y Jan el-Jalili. Tu propio egiptólogo en todo momento y un camarote privado en un crucero de cinco estrellas.",
+   "panelRows": [
+    {
+     "_key": "pr0",
+     "_type": "labelledRow",
+     "label": "Comidas",
+     "text": "desayuno en el hotel, almuerzo en los días de visitas, pensión completa en el barco"
+    },
+    {
+     "_key": "pr1",
+     "_type": "labelledRow",
+     "label": "Tu guía habla",
+     "text": "español"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "stayRows": [
+    {
+     "_key": "sr0",
+     "_type": "labelledRow",
+     "label": "Hoteles",
+     "text": "tres noches en un hotel de El Cairo como el Pyramids Park Resort, dos al principio y una al final, con alojamiento y desayuno."
+    },
+    {
+     "_key": "sr1",
+     "_type": "labelledRow",
+     "label": "En el Nilo",
+     "text": "cuatro noches en un camarote privado de un crucero de cinco estrellas por el Nilo, como el M/S Sara (el barco se comparte), en pensión completa."
+    },
+    {
+     "_key": "sr2",
+     "_type": "labelledRow",
+     "label": "Vuelos",
+     "text": "vuelos internos de El Cairo a Luxor y de Asuán a El Cairo."
+    },
+    {
+     "_key": "sr3",
+     "_type": "labelledRow",
+     "label": "Cada día",
+     "text": "tu propio egiptólogo con licencia, en tu idioma, y traslados privados."
+    }
+   ],
+   "whyRoute": "El Nilo corre de sur a norte, y la civilización egipcia corrió a lo largo de él. Empiezas en los monumentos que reconoce todo el mundo, sigues el río que los hizo posibles hasta Asuán, donde se estrecha y se ralentiza, y terminas en el museo que guarda ahora lo que se llevó de los lugares que acabas de recorrer. Ver los objetos después de los lugares hace que ambos se entiendan mejor.",
+   "whyRouteRefs": [],
+   "worthKnowing": [
+    "Es un programa apretado: el día 2 y el día 7 son completos.",
+    "Todas las noches de hotel son con alojamiento y desayuno; las cenas en El Cairo no están incluidas."
+   ]
+  },
+  {
+   "_key": "intro-ja",
+   "_type": "itineraryIntro",
+   "closingLine": "8日間では、エジプトを味わいつくすことはできません。それは誰にもできません。けれど、人がなぜ何度も訪れるのかを理解するには十分です。",
+   "closingRef": "00000000002b",
+   "fitFor": [
+    "初めてのエジプトで、ピラミッドと川をひと続きの流れで見たい方",
+    "今の大エジプト博物館を見たい方"
+   ],
+   "lang": "ja",
+   "makeItYoursIntro": "これはお客様に合わせて組み立てるプライベートの旅です。よくあるご変更：",
+   "needsReview": false,
+   "opening": "エジプトの王道の旅を8日間で、始まりも終わりもカイロで。ピラミッド、南へのフライト、ルクソールからアスワンまでのナイル川クルーズ、そして大エジプト博物館、シタデル、ハーン・ハリーリのために帰りのフライト。最初から最後まで専属のエジプト学ガイドが付き、5つ星のクルーズ船では個室キャビンをご用意します。",
+   "panelRows": [
+    {
+     "_key": "pr0",
+     "_type": "labelledRow",
+     "label": "食事",
+     "text": "ホテルでの朝食、観光日の昼食、船内は全食付き"
+    },
+    {
+     "_key": "pr1",
+     "_type": "labelledRow",
+     "label": "ガイドの言語",
+     "text": "日本語"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-cairo-and-nile-cruise-tour\" (EN/ES/JA), 23 Nov 2026.",
+   "stayRows": [
+    {
+     "_key": "sr0",
+     "_type": "labelledRow",
+     "label": "ホテル",
+     "text": "カイロで3泊。ピラミッズ・パーク・リゾートなどのホテルで、最初に2泊、最後に1泊（朝食付き）。"
+    },
+    {
+     "_key": "sr1",
+     "_type": "labelledRow",
+     "label": "ナイル川では",
+     "text": "M/S サラ号などの5つ星のナイル川クルーズ船で、個室キャビン4泊（船は共用）。全食事付きです。"
+    },
+    {
+     "_key": "sr2",
+     "_type": "labelledRow",
+     "label": "フライト",
+     "text": "カイロからルクソール、アスワンからカイロへの国内線。"
+    },
+    {
+     "_key": "sr3",
+     "_type": "labelledRow",
+     "label": "毎日",
+     "text": "ご希望の言語を話す公認エジプト学ガイドが同行し、移動は専用車です。"
+    }
+   ],
+   "whyRoute": "ナイル川は南から北へ流れ、エジプト文明はその流れに沿って育ちました。まず、世界中が知る遺跡から始め、それを可能にした川をたどってアスワンへ。そこで川は狭まり、ゆるやかになります。そして、巡ってきた遺跡から運び出されたものを今収めている博物館で締めくくります。場所のあとに収蔵品を見ることで、どちらもよりよく理解できます。",
+   "whyRouteRefs": [],
+   "worthKnowing": [
+    "余裕のない日程です。2日目と7日目はどちらも盛りだくさんです。",
+    "ホテルはすべて朝食付きです。カイロでの夕食は含まれません。"
+   ]
+  }
+ ],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/cairo-and-nile-cruise-tour/"
+ },
+ "priceFrom": 1565,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_156421",
+   "_ref": "wp-page-156421",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_90416",
+   "_ref": "wp-page-90416",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_136519",
+   "_ref": "wp-page-136519",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_87974",
+   "_ref": "wp-page-89510",
+   "_type": "reference"
+  }
+ ],
+ "routeLegs": [],
+ "shapeOfDay": {
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayTextValue",
+    "value": "Cairo · Luxor · Edfu · Kom Ombo · Aswan · Cairo"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayTextValue",
+    "value": "El Cairo · Luxor · Edfu · Kom Ombo · Asuán · El Cairo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayTextValue",
+    "value": "カイロ・ルクソール・エドフ・コム・オンボ・アスワン・カイロ"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "cairo-and-nile-cruise-tour"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "el-cairo-y-el-nilo-en-8-dias-piramides-rio-luxor-y-asuan"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "8-nichikan-kairo-nairu-kuruzu-tsua-piramiddo-kawa-rukusoru"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private eight-day tour of Egypt's classic route: the pyramids of Giza, Memphis and Saqqara, Karnak and the Valley of the Kings, four nights on a five-star Nile cruise from Luxor to Aswan, and the Grand Egyptian Museum to close."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Un tour privado de ocho días por la ruta clásica de Egipto: las pirámides de Guiza, Menfis y Saqqara, Karnak y el Valle de los Reyes, cuatro noches en un crucero de cinco estrellas por el Nilo de Luxor a Asuán y el Gran Museo Egipcio para terminar."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "エジプトの王道をたどる、プライベートな8日間のツアー。ギザ、メンフィス、サッカラのピラミッド、カルナック神殿と王家の谷、ルクソールからアスワンまで5つ星のナイル川クルーズで4泊、そして最後に大エジプト博物館。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-nile-cruise",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "8-Day Cairo and Nile Cruise Tour: the Pyramids, the River, Luxor and Aswan"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Tour de 8 días por El Cairo y el Nilo en crucero: las pirámides, el río, Luxor y Asuán"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "カイロとナイル川クルーズ8日間：ピラミッド、川、ルクソール、アスワン"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}
