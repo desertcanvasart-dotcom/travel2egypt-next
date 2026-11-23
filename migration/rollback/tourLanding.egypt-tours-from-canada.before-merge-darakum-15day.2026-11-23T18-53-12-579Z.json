@@ -1,0 +1,335 @@
+{
+ "_createdAt": "2026-11-14T21:29:27Z",
+ "_id": "tourLanding.egypt-tours-from-canada",
+ "_rev": "XMwJPU5bIc1qqcV3EMq2wR",
+ "_type": "tourLanding",
+ "_updatedAt": "2026-11-23T18:19:56Z",
+ "category": {
+  "_ref": "tourCategory.private-package",
+  "_type": "reference"
+ },
+ "faq": [
+  {
+   "_key": "faq-canada-1",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "b23",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s24",
+         "_type": "span",
+         "marks": [],
+         "text": "Yes. Canadian passport holders need a tourist visa. You can apply for an e-visa in advance or get a 30-day tourist visa on arrival, usually paid in US-dollar cash. Rules change, so check Egypt’s official e-visa site and Canadian government travel advice before you go."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Do Canadians need a visa for Egypt?"
+    }
+   ]
+  },
+  {
+   "_key": "faq-canada-2",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "b25",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s26",
+         "_type": "span",
+         "marks": [],
+         "text": "EgyptAir flies direct from Toronto Pearson to Cairo. From other Canadian cities, you’ll connect through Toronto, Europe or the Middle East."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Is there a direct flight from Canada?"
+    }
+   ]
+  },
+  {
+   "_key": "faq-canada-3",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "b27",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s28",
+         "_type": "span",
+         "marks": [],
+         "text": "Yes. Christmas, New Year and Easter are peak dates in Egypt. Scheduled departures on those dates usually cost 30% more, and private journeys cost more over the same dates too."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Do prices change by season?"
+    }
+   ]
+  }
+ ],
+ "intro": [
+  {
+   "_key": "en",
+   "value": [
+    {
+     "_key": "b1v",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s1w",
+       "_type": "span",
+       "marks": [],
+       "text": "Planning the trip from Canada"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "b1x",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s1y",
+       "_type": "span",
+       "marks": [],
+       "text": "EgyptAir flies direct from Toronto Pearson to Cairo. From Montreal, Vancouver, Calgary or Ottawa, travellers compare connections through Toronto, Europe or the Middle East, and the transfer time and arrival hour matter more than the airline."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b1z",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s20",
+       "_type": "span",
+       "marks": [],
+       "text": "A workable first trip: two or three nights in Cairo, two or three in Luxor, three or four for a Nile cruise or Aswan, and two or three on the Red Sea at the end."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b21",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s22",
+       "_type": "span",
+       "marks": [],
+       "text": "October to April is the easiest window. February is a particularly good choice from Canada: you leave the cold behind and find walkable temperatures for sightseeing."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "journalRefs": [
+  {
+   "_key": "j2y",
+   "_ref": "wp-post-155033-en",
+   "_type": "reference"
+  }
+ ],
+ "relatedTours": [
+  {
+   "_key": "t29",
+   "_ref": "tour.11-day-egypt-group-tour-cairo-red-sea-nile",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2b",
+   "_ref": "wp-page-89524",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2c",
+   "_ref": "wp-page-87255",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2d",
+   "_ref": "wp-page-86857",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2f",
+   "_ref": "wp-page-89005",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2g",
+   "_ref": "wp-page-89343",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2h",
+   "_ref": "wp-page-89376",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2i",
+   "_ref": "wp-page-89602",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2j",
+   "_ref": "wp-page-89015",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2k",
+   "_ref": "wp-page-89619",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2l",
+   "_ref": "wp-page-89438",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2m",
+   "_ref": "wp-page-86836",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2o",
+   "_ref": "wp-page-89177",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2p",
+   "_ref": "wp-page-90450",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2q",
+   "_ref": "wp-page-156550",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2r",
+   "_ref": "tour.egypt-and-the-red-sea-paradise",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2s",
+   "_ref": "wp-page-112993",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2t",
+   "_ref": "wp-page-88994",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2u",
+   "_ref": "wp-page-90326",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2v",
+   "_ref": "wp-page-90335",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2w",
+   "_ref": "wp-page-113004",
+   "_type": "reference"
+  },
+  {
+   "_key": "t2x",
+   "_ref": "wp-page-86875",
+   "_type": "reference"
+  }
+ ],
+ "seo": {
+  "metaDescription": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayTextValue",
+    "value": "Egypt tours for travellers from Canada: ten to fourteen days across Cairo, Luxor, Aswan and the Nile, private on any date or with a small group from the USA and Canada."
+   }
+  ],
+  "metaTitle": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Egypt Tours from Canada: Ten Days or More, Private or Small Group"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "egypt-tours-from-canada"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "From Canada, aim for at least ten days, ideally twelve to fourteen: the flight alone uses a big chunk of time, and seven days pushes you to rush. The tours here run ten to fourteen days, private on any date, or as a small-group departure planned for travellers from the USA and Canada."
+  }
+ ],
+ "themeRef": {
+  "_ref": "theme-country-canada",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Egypt Tours from Canada"
+  }
+ ]
+}

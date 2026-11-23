@@ -1,0 +1,1172 @@
+{
+ "_createdAt": "2026-05-28T17:10:19Z",
+ "_id": "hotel.oberoi-sahl-hasheesh",
+ "_rev": "I3z6540U8Hkd6LbcFYJPpq",
+ "_type": "hotel",
+ "_updatedAt": "2026-06-12T17:14:05Z",
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "The Oberoi Beach Resort, Sahl Hasheesh"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "The Oberoi Group has operated in Egypt since 1934, and the Sahl Hasheesh property is the clearest expression of what the brand means on the Red Sea coast: unhurried, architecturally considered, and organised entirely around the principle that guests should never feel they need to ask for anything twice."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "The resort spans 48 acres of beachfront in Sahl Hasheesh. The architecture is North African in character — domed structures, traditional arches and columns, courtyards, and shaded pergolas — spread across enough land that the property never feels dense. Distances between buildings are navigated on foot or by the resort's internal transport, and the sense of space is genuine rather than manufactured."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a suite-only property. There are no standard rooms. Every accommodation category has its own private terrace or courtyard, and the upper categories add private pools overlooking either the garden or the sea. Glass-walled bathrooms with marble tubs overlooking private garden spaces are a recurring feature across the suite range. The consequence is a price point that sits near the top of the Egyptian Red Sea market — not far below the Four Seasons in Sharm — but the value proposition is coherent: if what you want is genuine privacy, exceptional service, and a dining programme worth leaving the terrace for, the Oberoi delivers it consistently."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "The Suites"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The suite range runs from Junior Suites with pool or sea views through Premier Suites to the One-Bedroom Suite with private pool. All include daily fruit and flowers, complimentary water, tea and coffee facilities, LED televisions, DVD players, and Wi-Fi throughout. The glass-walled bathroom design — where the tub looks into a private garden — is both architecturally distinctive and practically enjoyable, and it appears across multiple suite categories rather than only in the most expensive rooms."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Pillow menus and the Oberoi's own guest recognition programme (Oberoi One) add the personal-service layer that the brand is known for across its 32 properties in five countries."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Dining"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Four outlets, each distinct enough to merit the distinction. The Restaurant is the main venue: breakfast and dinner in a high-ceilinged dining hall with Red Sea and garden views, or on the open-air terrace, or in the shaded courtyard. The cuisine spans Mediterranean, Indian, and Middle Eastern, at a standard that a February 2026 review in The Week described as maintaining five-star quality across every dish — rare even among genuine luxury hotels."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Zaafran is the Indian speciality restaurant and the Oberoi's signature evening outlet: candlelit tables beneath a silver-leaf ceiling, arched windows framing a starlit desert courtyard, live traditional music, and a kitchen led by executive chefs with long Oberoi tenure. The kebabs, daal, and grilled seafood — specifically the catch of the day — appear repeatedly in guest accounts as individual meals worth the journey."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "The Pergola handles poolside and beach dining in a more casual register, while The Beach Bar serves tropical cocktails and grilled food with Red Sea views and the kind of relaxed energy that the main restaurant's smart casual dress code doesn't attempt. The Bar — Spanish marble interiors, polished wood, Cuban cigars, and the infinity pool and sea beyond — is the evening cocktail destination."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "The Pool and Beach"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "The main pool is 43 metres long with two Jacuzzis, facing the Red Sea directly. An adults-only swim area and a children's pool divide the experience for mixed-age parties. The poolside bar means cold drinks are never more than a raised hand away."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "The private beach is accessed in two minutes from the hotel building and is exclusively for resort guests — a meaningful distinction in Sahl Hasheesh, where some resorts share beach access with neighbouring properties. The PADI-certified dive centre operates from the beach with certified instructors, and the reef at Sahl Hasheesh is accessible from the shoreline with less impact from Hurghada's commercial dive traffic than the reefs closer to the city."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Spa and Wellness"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "The Oberoi Spa has private treatment rooms, couples' suites, and a steam room set in a private garden. The spa menu covers Ayurvedic treatments, Thai massage, facials, and full body programmes. Daily yoga and stretching classes are included. Activities beyond the spa include cooking classes with the executive chef, pottery (described by the property as the ancient Egyptian art), speed ball, and star gazing — a range that goes well beyond the standard wellness programme."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Practical Notes"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "The airport is approximately 13 kilometres from the property, around 25 to 30 minutes by road. The resort is not all-inclusive; dining is charged separately at à la carte rates. For guests comparing the Oberoi to the Le Rêve next door, the key differences are: the Oberoi admits families (there is a children's pool and a Kids Club), the Le Rêve is adults-only; the Oberoi is not all-inclusive, the Le Rêve is; the Oberoi is suite-only at a higher price point. The right choice depends entirely on which of those distinctions matters more."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Updated: 18 May 2026"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "The Oberoi Beach Resort, Sahl Hasheesh no compite por ruido, animación ni tamaño de buffet. Compite por espacio, privacidad, arquitectura y servicio. Es un resort all-suite de 48 acres sobre el mar Rojo, con cúpulas, arcos, patios, pérgolas, jardines y una escala que permite respirar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "No hay habitaciones estándar. La idea de base es que cada huésped tenga una suite, terraza o patio privado, baño generoso y una relación más íntima con el exterior. Las categorías superiores añaden piscinas privadas y más vista al mar o al jardín."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "El resultado es un producto caro dentro del mercado del mar Rojo, pero coherente. Quien busca fiesta, all-inclusive masivo o un programa familiar ruidoso no está mirando el hotel correcto. Quien busca calma, buen servicio y una estética más considerada, sí."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Suites, patios y privacidad"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Oberoi presenta la propiedad como un resort solo de suites. Las categorías visibles incluyen suites superiores, deluxe, premier y opciones con piscina privada. Muchas trabajan con terrazas, patios o jardines privados, y los baños con bañera de mármol y vistas hacia un patio íntimo son parte del lenguaje arquitectónico del hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "La diferencia frente a un resort convencional no está solo en metros cuadrados. Está en el modo de estar. Aquí la suite no es un lugar para cambiarse entre actividades, sino una parte importante de la estancia: leer, desayunar, descansar, cerrar la puerta y no sentir el hotel encima."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Para parejas, lunas de miel o viajeros que valoran privacidad real, esa configuración tiene mucho peso. Para familias que quieren animación constante, puede sentirse demasiado tranquila."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Restaurantes: The Restaurant, Zaafran y The Pergola"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "La restauración es una de las fortalezas del Oberoi. The Restaurant funciona como el espacio principal, con desayuno y cena en sala, terraza o patio. La cocina combina líneas mediterráneas, indias y de Oriente Medio, con una ejecución más cuidada que la de muchos resorts de playa."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Zaafran, el restaurante indio de especialidad, es la cena más distintiva. Trabaja kebabs, daal, mariscos, platos al tandoor y una atmósfera más escénica, con arcos, luz baja y una relación más clara con la tradición culinaria india del grupo Oberoi."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "The Pergola ofrece una lectura más informal junto a la piscina, mientras que Beach Bar cubre bebidas, platos ligeros y momentos frente al mar. La ventaja no es tener una lista interminable de outlets, sino que cada espacio tenga sentido."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Piscina y playa"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "La piscina principal mide 43 m y mira hacia el mar Rojo. Oberoi la describe con zona de natación adults' area, dos whirlpools y splash pool para niños. Es una piscina elegante, más de ritmo lento que de actividad constante."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "La playa privada y el PADI-certified dive centre añaden el componente marino. En Sahl Hasheesh, el arrecife y el buceo son parte importante del viaje, pero el Oberoi lo plantea sin la sensación de operación masiva. Se puede hacer snorkel, buceo o simplemente pasar el día en la arena sin que el resort pierda su tono tranquilo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "El hotel admite familias, pero no se siente como un resort construido alrededor de niños. Esa distinción es importante: hay kids club y splash pool, pero la atmósfera general sigue siendo de calma adulta."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Spa, yoga y bienestar"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "The Oberoi Spa trabaja con tratamientos personalizados, salas privadas, masajes, terapias corporales, faciales y una línea de bienestar que incluye influencias ayurvédicas, Thai massage y programas más contemporáneos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "La propiedad también menciona yoga, stretching, actividades creativas, experiencias culinarias, pottery y star gazing. Este tipo de programación encaja bien con la identidad del hotel: no se trata de llenar el calendario de ruido, sino de ofrecer pequeñas experiencias de ritmo lento."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "Para viajeros que quieren descansar de verdad después de un circuito por Egipto, el Oberoi funciona como cierre natural: menos excursión, más recuperación."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Sahl Hasheesh y la comparación con Le Rêve"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Sahl Hasheesh está al sur de Hurghada, con una lógica más tranquila y cerrada que la ciudad. El aeropuerto suele quedar a unos 25 o 30 minutos por carretera, según tráfico y traslado."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "La comparación más útil es con Premier Le Rêve, cercano en posicionamiento de lujo pero distinto en filosofía. Le Rêve es adults-only y all-inclusive. Oberoi admite familias, no funciona por defecto como all-inclusive y apuesta más por privacidad, suite, servicio y cocina à la carte."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "La elección depende del viaje. Si se quiere adults-only y paquete cerrado, Le Rêve puede tener más sentido. Si se quiere una suite amplia, servicio Oberoi, estética arquitectónica y menos sensación de resort programado, el Oberoi es más coherente."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Para quién funciona mejor"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "The Oberoi Beach Resort, Sahl Hasheesh funciona para parejas, lunas de miel, viajeros que valoran servicio, privacidad, buen diseño y una experiencia de playa tranquila. También para familias que quieren lujo sereno y no necesitan animación intensa."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": "Funciona peor para huéspedes que buscan all-inclusive ilimitado, vida nocturna, grandes shows, múltiples buffets o una energía de resort familiar muy activa."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000041",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": "Su lujo es más silencioso. Y en el mar Rojo, donde tantos resorts compiten por volumen, ese silencio es precisamente lo que lo distingue."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000045",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000044",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "The Oberoi no intenta entretener a todos todo el tiempo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000047",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000046",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Intenta dejar espacio."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000049",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000048",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Para el viajero que sabe usarlo, ese espacio es el verdadero lujo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004a",
+       "_type": "span",
+       "marks": [],
+       "text": "Última actualización: mayo de 2026"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "オベロイ・ビーチ・リゾート、サハル・ハシーシュは、紅海沿岸のサハル・ハシーシュに建つ全室スイートのリゾートです。公式情報では、ハルガダ国際空港から20km、車で約20分、ショッピングやナイトライフの中心部から約25分と案内されています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "リゾートは48エーカーの敷地に広がり、ドーム、アーチ、柱、中庭、日陰のテラスが、北アフリカらしい建築のリズムを作ります。大型リゾートでありながら、宿泊棟を小さなまとまりで配置しているため、海と庭園の間に余白が残るのが特徴です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "ここでは、標準的なホテル客室ではなくスイートに泊まります。庭園や紅海を望む客室、専用中庭やテラス、上位カテゴリーのプライベートプールなど、滞在の中心は部屋そのものにあります。賑やかなオールインクルーシブ型リゾートというより、空間、静けさ、食事、海を丁寧に楽しむための一軒です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "スイート"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "公式ページでは、宿泊はすべてスイート。客室は小さなクラスター状に配置され、庭園と紅海の眺めを生かす設計とされています。伝統的なエジプト風の意匠を取り入れながら、室内は現代的な設備を備えた構成です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Deluxe Suiteは53m²の室内空間を持つカテゴリーとして案内され、より上位にはGrand SuiteやRoyal Suiteなどがあります。Royal Suiteでは、ベッドルーム、リビング、パウダールーム、パントリー、プール、屋外のダイニングパビリオンなどが紹介されています。部屋で過ごす時間を旅の一部にしたい人に向いた客室構成です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "食事"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "食事は、地中海料理、インド料理、中東料理を軸にした構成です。The Restaurantはメイン会場で、朝食と夕食に対応し、ダイニングホール、テラス、中庭から紅海と庭園の眺めを楽しめると案内されています。朝食は7:00〜10:30、夕食は19:00〜22:30です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Zaafranはインド料理のレストランで、キャンドルの灯るテーブル、銀箔の天井、アーチ窓、伝統音楽を伴う夜の会場として紹介されています。営業時間は19:00〜22:30。滞在中に一度は夕食をゆっくり取る場所として考えたいレストランです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "そのほか、The Pergolaはプールサイドの食事、The Barは飲み物と葉巻を楽しむ落ち着いた空間として案内されています。リゾート内で静かに食事を組み立てたい人には、会場ごとの温度差が使いやすい構成です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "プールとビーチ"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "公式ウェルネス情報では、紅海を望む43mのインフィニティプール、2つのワールプール、大人用の遊泳エリア、子ども用のスプラッシュプールが案内されています。海を眺めながら静かに過ごす時間と、家族で使いやすい水辺の両方があります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "紅海での大きな魅力は、ダイビングです。公式ページでは、敷地内のPADI認定ダイブセンターから、ボートでアクセスしやすい水中景観や、オープンウォーターダイバー、アドベンチャーダイバー、レスキューダイバー、ダイブマスターなどのコースが案内されています。体験内容や催行条件は、天候と海況に合わせて確認が必要です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "スパとウェルネス"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "The Oberoi Spaは宿泊者専用として案内されています。スパ、フィットネスセンター、プール、海辺の時間を組み合わせ、滞在全体をゆっくり整えるためのリゾートです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "公式の体験ページでは、ダイビング以外にも、料理体験、陶芸、星空観察などが紹介されています。アクティビティを詰め込むより、スイート、海、食事、ウェルネスの間に余白を残して過ごすほうが、このホテルらしさが出ます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "実務情報"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "住所はThe Oberoi 117, Sahl Hasheesh, Red Sea, Egypt。公式情報では、ハルガダ国際空港から20km、車で約20分です。ハルガダ中心部からは25km、約30分と案内されています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "このホテルが合いやすいのは、紅海で静かな高級滞在を求める人、部屋の広さとプライバシーを重視する人、ダイビングやスパを無理なく組み込みたい人です。賑やかな大型オールインクルーシブや、夜遅くまで外に出歩く滞在を求める場合は、ハルガダ中心部や別タイプのリゾートのほうが合うこともあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "オベロイは、紅海を急いで消費するためのホテルではありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "48エーカーの庭園、全室スイート、43mのプール、PADI認定ダイブセンター。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "海と部屋と食事の間に、静かな余白を残したい人のための一軒です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "最終更新：2026年5月"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "category": "luxury",
+ "city": {
+  "_ref": "wp-page-58859",
+  "_type": "reference"
+ },
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/oberoi-sahl-hasheesh/"
+ },
+ "name": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "The Oberoi Beach Resort, Sahl Hasheesh: All-Suite Luxury"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "オベロイ・ビーチ・リゾート、サハル・ハシーシュ"
+  },
+  {
+   "_key": "es",
+   "value": "The Oberoi Beach Resort, Sahl Hasheesh: lujo all-suite en el mar Rojo"
+  }
+ ],
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_86875",
+   "_ref": "wp-page-86875",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_249752",
+   "_ref": "wp-page-249752",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_121071",
+   "_ref": "wp-page-121071",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_cairo_by_bus_group_day_tour_from_hurghada",
+   "_ref": "tour.cairo-by-bus-group-day-tour-from-hurghada",
+   "_type": "reference"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "oberoi-sahl-hasheesh"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "oberoi-sahl-hasheesh"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "oberoibichirizoto-saharuhashishu"
+   }
+  }
+ ],
+ "starRating": 5,
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "The Oberoi's Red Sea resort: all-suite, architecturally considered and unhurried, on the Sahl Hasheesh coast. The honest review."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "48エーカーの北アフリカ建築、全室スイート、紅海沿岸"
+  },
+  {
+   "_key": "es",
+   "value": "El resort all-suite de Oberoi en Sahl Hasheesh: 48 acres, suites con terraza o patio, piscina infinity de 43 m, spa, PADI dive centre y una restauración más cuidada que masiva."
+  }
+ ]
+}
