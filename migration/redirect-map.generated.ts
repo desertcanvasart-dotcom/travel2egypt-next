@@ -2059,7 +2059,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/15-day-nile-cruise-and-hurghada-tour",
-    "destination": "/ja/15-nichikan-nairu-kuruzu-harugada-rukusoru-asuwan-soshite",
+    "destination": "/ja/14-nichikan-no-nairu-kuruzu-furugada-rukusoru-asuwan-soshite",
     "permanent": true
   },
   {
@@ -2344,7 +2344,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/11-day-nile-cruise-from-luxor-to-cairo",
-    "destination": "/ja/gurando-nairu-koro-rukusoru-kara-kairo-e-no-nairu-kuruzu-11",
+    "destination": "/ja/14-nichikan-no-chokyori-nairu-kuruzu-asuwan-kara-kairo-e",
     "permanent": true
   },
   {
@@ -2424,7 +2424,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/13-day-nile-cruise-from-cairo-to-luxor",
-    "destination": "/ja/roiyaru-nairu-koro-kairo-kara-rukusoru-e-no-nairu-kuruzu-13",
+    "destination": "/ja/15-nichikan-no-nairu-no-sorei-kairo-kara-asuwan-e-kawa-o",
     "permanent": true
   },
   {
@@ -6969,7 +6969,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/15-day-nile-cruise-and-hurghada-tour",
-    "destination": "/es/crucero-por-el-nilo-y-hurghada-en-15-dias-luxor-asuan-y-el-mar-rojo",
+    "destination": "/es/crucero-por-el-nilo-de-14-dias-y-estancia-en-hurghada-luxor-asuan-y-el-mar-rojo",
     "permanent": true
   },
   {
@@ -7254,7 +7254,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/11-day-nile-cruise-from-luxor-to-cairo",
-    "destination": "/es/gran-travesia-del-nilo-crucero-de-11-dias-de-luxor-a-el-cairo",
+    "destination": "/es/crucero-de-14-dias-por-el-nilo-de-asuan-a-el-cairo-por-el-rio",
     "permanent": true
   },
   {
@@ -7334,7 +7334,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/13-day-nile-cruise-from-cairo-to-luxor",
-    "destination": "/es/pasaje-real-del-nilo-crucero-de-13-dias-de-el-cairo-a-luxor",
+    "destination": "/es/grandeza-del-nilo-en-15-dias-de-el-cairo-a-asuan-por-el-rio",
     "permanent": true
   },
   {
@@ -10434,37 +10434,37 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/egypt-nile-cruise-vacation-from-india",
-    "destination": "/11-day-nile-cruise-from-luxor-to-cairo",
+    "destination": "/14-day-long-nile-cruise-aswan-cairo",
     "permanent": true
   },
   {
     "source": "/es/vacaciones-en-egipto-crucero-por-el-nilo-de-11-dias-de-luxor-a-el-cairo-desde-india",
-    "destination": "/es/gran-travesia-del-nilo-crucero-de-11-dias-de-luxor-a-el-cairo",
+    "destination": "/es/crucero-de-14-dias-por-el-nilo-de-asuan-a-el-cairo-por-el-rio",
     "permanent": true
   },
   {
     "source": "/ja/indo-hatsu-11-nichikan-rukusoru-kairo-ejiputo-nairu-kuruzu",
-    "destination": "/ja/gurando-nairu-koro-rukusoru-kara-kairo-e-no-nairu-kuruzu-11",
+    "destination": "/ja/14-nichikan-no-chokyori-nairu-kuruzu-asuwan-kara-kairo-e",
     "permanent": true
   },
   {
     "source": "/11-day-luxor-to-cairo-egypt-nile-cruise-vacation",
-    "destination": "/11-day-nile-cruise-from-luxor-to-cairo",
+    "destination": "/14-day-long-nile-cruise-aswan-cairo",
     "permanent": true
   },
   {
     "source": "/11-day-luxor-to-cairo-egypt-nile-cruise-vacation-from-canada",
-    "destination": "/11-day-nile-cruise-from-luxor-to-cairo",
+    "destination": "/14-day-long-nile-cruise-aswan-cairo",
     "permanent": true
   },
   {
     "source": "/es/crucero-por-el-nilo-de-11-dias-de-luxor-a-el-cairo-vacaciones-en-egipto-desde-canada",
-    "destination": "/es/gran-travesia-del-nilo-crucero-de-11-dias-de-luxor-a-el-cairo",
+    "destination": "/es/crucero-de-14-dias-por-el-nilo-de-asuan-a-el-cairo-por-el-rio",
     "permanent": true
   },
   {
     "source": "/ja/kanada-hatsu-11-nichikan-rukusoru-kairo-ejiputo-nairu-kuruzu",
-    "destination": "/ja/gurando-nairu-koro-rukusoru-kara-kairo-e-no-nairu-kuruzu-11",
+    "destination": "/ja/14-nichikan-no-chokyori-nairu-kuruzu-asuwan-kara-kairo-e",
     "permanent": true
   },
   {
@@ -10579,22 +10579,22 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/luxor-to-cairo-egypt-nile-cruise-vacation",
-    "destination": "/11-day-nile-cruise-from-luxor-to-cairo",
+    "destination": "/14-day-long-nile-cruise-aswan-cairo",
     "permanent": true
   },
   {
     "source": "/luxor-to-cairo-egypt-nile-cruise-vacation-from-australia",
-    "destination": "/11-day-nile-cruise-from-luxor-to-cairo",
+    "destination": "/14-day-long-nile-cruise-aswan-cairo",
     "permanent": true
   },
   {
     "source": "/es/vacaciones-de-11-dias-en-egipto-crucero-por-el-nilo-de-luxor-a-el-cairo-desde-australia",
-    "destination": "/es/gran-travesia-del-nilo-crucero-de-11-dias-de-luxor-a-el-cairo",
+    "destination": "/es/crucero-de-14-dias-por-el-nilo-de-asuan-a-el-cairo-por-el-rio",
     "permanent": true
   },
   {
     "source": "/ja/osutoraria-hatsu-11-nichikan-rukusoru-hatsu-kairo-gi-nairu",
-    "destination": "/ja/gurando-nairu-koro-rukusoru-kara-kairo-e-no-nairu-kuruzu-11",
+    "destination": "/ja/14-nichikan-no-chokyori-nairu-kuruzu-asuwan-kara-kairo-e",
     "permanent": true
   },
   {
@@ -12179,7 +12179,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/crucero-integral-de-13-dias-por-el-nilo-de-el-cairo-a-luxor",
-    "destination": "/es/pasaje-real-del-nilo-crucero-de-13-dias-de-el-cairo-a-luxor",
+    "destination": "/es/grandeza-del-nilo-en-15-dias-de-el-cairo-a-asuan-por-el-rio",
     "permanent": true
   },
   {
@@ -17324,7 +17324,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/nile-cruise-hurghada-stay-15-day-tour",
-    "destination": "/15-day-nile-cruise-and-hurghada-tour",
+    "destination": "/14-night-nile-cruise-and-hurghada-stay",
     "permanent": true
   },
   {
@@ -27294,7 +27294,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/luxor-to-cairo-egypt-nile-cruise-vacation-from-usa",
-    "destination": "/11-day-nile-cruise-from-luxor-to-cairo",
+    "destination": "/14-day-long-nile-cruise-aswan-cairo",
     "permanent": true
   },
   {
@@ -27414,7 +27414,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/カイロからルクソールへ：13日間の総合ナイルクル",
-    "destination": "/ja/roiyaru-nairu-koro-kairo-kara-rukusoru-e-no-nairu-kuruzu-13",
+    "destination": "/ja/15-nichikan-no-nairu-no-sorei-kairo-kara-asuwan-e-kawa-o",
     "permanent": true
   },
   {
@@ -29279,7 +29279,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/crucero-de-11-dias-por-el-nilo-de-luxor-a-el-cairo",
-    "destination": "/es/gran-travesia-del-nilo-crucero-de-11-dias-de-luxor-a-el-cairo",
+    "destination": "/es/crucero-de-14-dias-por-el-nilo-de-asuan-a-el-cairo-por-el-rio",
     "permanent": true
   },
   {
@@ -29349,7 +29349,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/15-dias-por-el-nilo-y-tour-por-hurghada",
-    "destination": "/es/crucero-por-el-nilo-y-hurghada-en-15-dias-luxor-asuan-y-el-mar-rojo",
+    "destination": "/es/crucero-por-el-nilo-de-14-dias-y-estancia-en-hurghada-luxor-asuan-y-el-mar-rojo",
     "permanent": true
   },
   {
@@ -30725,6 +30725,51 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/13-day-impressive-egypt-tour",
     "destination": "/13-day-egypt-nile-sinai-and-red-sea",
+    "permanent": true
+  },
+  {
+    "source": "/13-day-nile-cruise-from-cairo-to-luxor",
+    "destination": "/15-day-ultimate-nile-cruise-from-cairo-to-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/pasaje-real-del-nilo-crucero-de-13-dias-de-el-cairo-a-luxor",
+    "destination": "/es/grandeza-del-nilo-en-15-dias-de-el-cairo-a-asuan-por-el-rio",
+    "permanent": true
+  },
+  {
+    "source": "/ja/roiyaru-nairu-koro-kairo-kara-rukusoru-e-no-nairu-kuruzu-13",
+    "destination": "/ja/15-nichikan-no-nairu-no-sorei-kairo-kara-asuwan-e-kawa-o",
+    "permanent": true
+  },
+  {
+    "source": "/11-day-nile-cruise-from-luxor-to-cairo",
+    "destination": "/14-day-long-nile-cruise-aswan-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/gran-travesia-del-nilo-crucero-de-11-dias-de-luxor-a-el-cairo",
+    "destination": "/es/crucero-de-14-dias-por-el-nilo-de-asuan-a-el-cairo-por-el-rio",
+    "permanent": true
+  },
+  {
+    "source": "/ja/gurando-nairu-koro-rukusoru-kara-kairo-e-no-nairu-kuruzu-11",
+    "destination": "/ja/14-nichikan-no-chokyori-nairu-kuruzu-asuwan-kara-kairo-e",
+    "permanent": true
+  },
+  {
+    "source": "/15-day-nile-cruise-and-hurghada-tour",
+    "destination": "/14-night-nile-cruise-and-hurghada-stay",
+    "permanent": true
+  },
+  {
+    "source": "/es/crucero-por-el-nilo-y-hurghada-en-15-dias-luxor-asuan-y-el-mar-rojo",
+    "destination": "/es/crucero-por-el-nilo-de-14-dias-y-estancia-en-hurghada-luxor-asuan-y-el-mar-rojo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/15-nichikan-nairu-kuruzu-harugada-rukusoru-asuwan-soshite",
+    "destination": "/ja/14-nichikan-no-nairu-kuruzu-furugada-rukusoru-asuwan-soshite",
     "permanent": true
   }
 ];
