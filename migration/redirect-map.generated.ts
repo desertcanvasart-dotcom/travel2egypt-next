@@ -1939,7 +1939,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/9-day-classic-egypt-family-adventure",
-    "destination": "/ja/kurashikku-ejiputo-kazoku-no-tabi-kairo-kara-nairu-soshite",
+    "destination": "/ja/go-kazoku-no-tame-no-hachi-nichikan-kairo-to-nairu-gawa",
     "permanent": true
   },
   {
@@ -6844,7 +6844,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/9-day-classic-egypt-family-adventure",
-    "destination": "/es/viaje-familiar-clasico-por-egipto-en-9-dias",
+    "destination": "/es/ocho-dias-para-familias-el-cairo-y-crucero-por-el-nilo-bien-acompasado",
     "permanent": true
   },
   {
@@ -19754,7 +19754,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/kurashikku-ejiputo-kazoku-no-tabi-kairo-kara-nairu-soshite",
-    "destination": "/es/viaje-familiar-clasico-por-egipto-en-9-dias",
+    "destination": "/es/ocho-dias-para-familias-el-cairo-y-crucero-por-el-nilo-bien-acompasado",
     "permanent": true
   },
   {
@@ -30660,6 +30660,21 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/10-days-unforgettable-egypt-tour",
     "destination": "/10-day-egypt-cairo-alexandria-luxor-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/9-day-classic-egypt-family-adventure",
+    "destination": "/cairo-and-nile-cruise-8-day-family-package",
+    "permanent": true
+  },
+  {
+    "source": "/es/viaje-familiar-clasico-por-egipto-en-9-dias",
+    "destination": "/es/ocho-dias-para-familias-el-cairo-y-crucero-por-el-nilo-bien-acompasado",
+    "permanent": true
+  },
+  {
+    "source": "/ja/kurashikku-ejiputo-kazoku-no-tabi-kairo-kara-nairu-soshite",
+    "destination": "/ja/go-kazoku-no-tame-no-hachi-nichikan-kairo-to-nairu-gawa",
     "permanent": true
   }
 ];
