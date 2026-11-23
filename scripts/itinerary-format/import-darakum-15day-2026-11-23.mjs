@@ -162,7 +162,7 @@ console.log(`UPDATE ${TOUR} in place (${existing.priceFrom} / ${JSON.stringify(e
 console.log(`  slugs unchanged: ${LANGS.map((l) => SLUGS[l]).join(' | ')}`);
 for (const l of LANGS) console.log(`  ${l}: /${l === 'en' ? '' : `${l}/`}${SLUGS[l]}\n    title: ${P[l].title}\n    where: ${WHERE[l]}\n    panel: ${JSON.stringify(B[l].intro.panelRows.map((r) => `${r.label}: ${r.text}`))}\n    days: ${JSON.stringify(B[l].days.map((d) => `${d.day} ${d.place} | ${d.overnight ?? '—'} | ${d.meals.map((m) => m.meal[0]).join('')} | opt ${d.optional.length} | essay ${d.narrativeRefs.length}`))}`);
 for (const f of ['itineraryDays', 'itineraryIntro', 'inclusions', 'exclusions', 'customisationOptions']) console.log(`  ${f}: ${(existing[f] ?? []).length} → ${doc[f].length}`);
-console.log(`  body essay: 26 blocks ×3, corrected: ${Object.keys(ESSAY_FIX.en).length} blocks in EN`);
+console.log('  body essay: unchanged (not shown on this page)');
 
 if (apply) {
   await writeRollback(client, [TOUR], 'before-darakum-15day');
