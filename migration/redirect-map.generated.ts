@@ -1444,7 +1444,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/9-days-cairo-st-catherine-sharm-el-sheikh",
-    "destination": "/11-day-explore-egypt-and-red-sea-tour",
+    "destination": "/13-day-egypt-nile-sinai-and-red-sea",
     "permanent": true
   },
   {
@@ -2349,7 +2349,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/11-day-explore-egypt-and-red-sea-tour",
-    "destination": "/ja/11-nichikan-ejiputo-kokai-tambo-rukusoru-nairu-kairo",
+    "destination": "/ja/ejiputo-13-nichikan-kairo-nairu-rukusoru-shinai-kokai",
     "permanent": true
   },
   {
@@ -2404,7 +2404,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/essential-egypt",
-    "destination": "/ja/essensharuejiputo-8-nichikan-kairo-arekusandoria-asuwan",
+    "destination": "/ja/honshitsu-no-ejiputo-giza-kara-nubia-no-minami-made-10",
     "permanent": true
   },
   {
@@ -7259,7 +7259,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/11-day-explore-egypt-and-red-sea-tour",
-    "destination": "/es/egipto-y-el-mar-rojo-en-11-dias-luxor-el-nilo-el-cairo-y-sharm-el-sheij",
+    "destination": "/es/egipto-impresionante-en-13-dias-el-cairo-el-nilo-luxor-sinai-y-el-mar-rojo",
     "permanent": true
   },
   {
@@ -7314,7 +7314,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/essential-egypt",
-    "destination": "/es/egipto-esencial-en-8-dias-el-cairo-alejandria-asuan-y-luxor",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
     "permanent": true
   },
   {
@@ -24109,7 +24109,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/explore-egypt-and-red-sea",
-    "destination": "/11-day-explore-egypt-and-red-sea-tour",
+    "destination": "/13-day-egypt-nile-sinai-and-red-sea",
     "permanent": true
   },
   {
@@ -28024,7 +28024,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/9-days-cairo-·-st-catherine-·-sharm-el-sheikh",
-    "destination": "/11-day-explore-egypt-and-red-sea-tour",
+    "destination": "/13-day-egypt-nile-sinai-and-red-sea",
     "permanent": true
   },
   {
@@ -29119,7 +29119,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/tours-de-8-dias-por-egipto",
-    "destination": "/es/egipto-esencial-en-8-dias-el-cairo-alejandria-asuan-y-luxor",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
     "permanent": true
   },
   {
@@ -30690,6 +30690,41 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/9-nichikan-no-ejiputo-bunka-to-rekishi-tsua",
     "destination": "/ja/8-nichikan-kairo-nairu-kuruzu-tsua-piramiddo-kawa-rukusoru",
+    "permanent": true
+  },
+  {
+    "source": "/essential-egypt",
+    "destination": "/10-day-egypt-cairo-alexandria-luxor-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/egipto-esencial-en-8-dias-el-cairo-alejandria-asuan-y-luxor",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/essensharuejiputo-8-nichikan-kairo-arekusandoria-asuwan",
+    "destination": "/ja/honshitsu-no-ejiputo-giza-kara-nubia-no-minami-made-10",
+    "permanent": true
+  },
+  {
+    "source": "/11-day-explore-egypt-and-red-sea-tour",
+    "destination": "/13-day-egypt-nile-sinai-and-red-sea",
+    "permanent": true
+  },
+  {
+    "source": "/es/egipto-y-el-mar-rojo-en-11-dias-luxor-el-nilo-el-cairo-y-sharm-el-sheij",
+    "destination": "/es/egipto-impresionante-en-13-dias-el-cairo-el-nilo-luxor-sinai-y-el-mar-rojo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/11-nichikan-ejiputo-kokai-tambo-rukusoru-nairu-kairo",
+    "destination": "/ja/ejiputo-13-nichikan-kairo-nairu-rukusoru-shinai-kokai",
+    "permanent": true
+  },
+  {
+    "source": "/13-day-impressive-egypt-tour",
+    "destination": "/13-day-egypt-nile-sinai-and-red-sea",
     "permanent": true
   }
 ];
