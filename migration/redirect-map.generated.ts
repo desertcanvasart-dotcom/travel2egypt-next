@@ -1489,7 +1489,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/timeless-wonders-10-days-eternal-egypt-tour",
-    "destination": "/10-days-unforgettable-egypt-tour",
+    "destination": "/10-day-egypt-cairo-alexandria-luxor-aswan",
     "permanent": true
   },
   {
@@ -2324,7 +2324,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/10-day-marvelous-abu-simbel-ancient-egypt-tour",
-    "destination": "/ja/abu-shin-beru-e-soshite-modoru-kodai-ejiputo-10-nichikan-no",
+    "destination": "/ja/honshitsu-no-ejiputo-giza-kara-nubia-no-minami-made-10",
     "permanent": true
   },
   {
@@ -7234,7 +7234,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/10-day-marvelous-abu-simbel-ancient-egypt-tour",
-    "destination": "/es/abu-simbel-y-el-antiguo-egipto-en-10-dias",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
     "permanent": true
   },
   {
@@ -12499,7 +12499,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/abu-simble-y-el-antiguo-egipto",
-    "destination": "/es/abu-simbel-y-el-antiguo-egipto-en-10-dias",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
     "permanent": true
   },
   {
@@ -24124,7 +24124,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/marvelous-abu-simble-ancient-egypt",
-    "destination": "/10-day-marvelous-abu-simbel-ancient-egypt-tour",
+    "destination": "/10-day-egypt-cairo-alexandria-luxor-aswan",
     "permanent": true
   },
   {
@@ -29124,7 +29124,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/tours-por-egipto-de-10-dias",
-    "destination": "/es/patrimonio-egipcio-descubrimiento-cultural-de-10-dias",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
     "permanent": true
   },
   {
@@ -29289,7 +29289,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/templos-intemporales-tour-de-10-dias-por-el-maravilloso-abu-simbel-y-el-antiguo-egipto",
-    "destination": "/es/abu-simbel-y-el-antiguo-egipto-en-10-dias",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
     "permanent": true
   },
   {
@@ -30625,6 +30625,41 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/puraibetodeitsua-menfisu-sakkara-soshite-isuramu-chiku-kairo",
     "destination": "/ja/menfisu-sakkara-shitaderu-han-eru-hariri",
+    "permanent": true
+  },
+  {
+    "source": "/10-day-marvelous-abu-simbel-ancient-egypt-tour",
+    "destination": "/10-day-egypt-cairo-alexandria-luxor-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/abu-simbel-y-el-antiguo-egipto-en-10-dias",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/abu-shin-beru-e-soshite-modoru-kodai-ejiputo-10-nichikan-no",
+    "destination": "/ja/honshitsu-no-ejiputo-giza-kara-nubia-no-minami-made-10",
+    "permanent": true
+  },
+  {
+    "source": "/10-day-egypt-travel-journey-through-history",
+    "destination": "/10-day-egypt-cairo-alexandria-luxor-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/patrimonio-egipcio-descubrimiento-cultural-de-10-dias",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/10-nichikan-no-rekishi-o-meguru-ejiputo-ryoko-jani",
+    "destination": "/ja/honshitsu-no-ejiputo-giza-kara-nubia-no-minami-made-10",
+    "permanent": true
+  },
+  {
+    "source": "/10-days-unforgettable-egypt-tour",
+    "destination": "/10-day-egypt-cairo-alexandria-luxor-aswan",
     "permanent": true
   }
 ];
