@@ -35,7 +35,7 @@ The museum comes first, while you’re fresh, because the mummies deserve your f
 Your driver and Egyptologist collect you in a private air-conditioned car for the twenty- to thirty-minute drive to Fustat.
 
 **The Royal Mummies Hall**
-The mummies of New Kingdom kings and queens, moved here from Tahrir in 2021 in a procession that shut central Cairo, lie in a hushed hall designed to feel like a tomb. Seqenenre Taa II still shows the wounds of a battlefield death in the Hyksos wars; Ramses II lived to about ninety; Hatshepsut ruled as pharaoh for more than two decades. Your guide explains the forensic work behind the identifications.
+The mummies of New Kingdom kings and queens, twenty-two in all, moved here from Tahrir in 2021 in a procession that shut central Cairo, lie in a hushed hall designed to feel like a tomb. Seqenenre Taa II still shows the wounds of a battlefield death in the Hyksos wars; Ramses II lived to about ninety; Hatshepsut ruled as pharaoh for more than two decades. Your guide explains the forensic work behind the identifications.
 
 **The main galleries**
 Egyptian civilisation from the prehistoric Nazlet Khater skeleton through Pharaonic, Coptic and Islamic times, and a textile gallery of some six hundred pieces. About two hours in the museum altogether.
