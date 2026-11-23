@@ -1,0 +1,2340 @@
+{
+ "_createdAt": "2026-05-14T11:38:24Z",
+ "_id": "wp-page-89376",
+ "_rev": "K2pi3eY73hTRu2vMGMyThO",
+ "_system": {
+  "base": {
+   "id": "wp-page-89376",
+   "rev": "djgbgtoqo7PDAdGRjIhFpv"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:52Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "First-timers wanting the country in proper depth; travellers who prefer the cruise to repeated hotel moves; anyone for whom the river itself is the point"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Primeros viajeros que quieren el país con verdadera profundidad; quienes prefieren el crucero a cambiar repetidamente de hotel; cualquiera para quien el río en sí sea el motivo del viaje"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "初訪問でエジプトをきちんとした深さで一巡したい方、ホテル移動の繰り返しよりクルーズの連続宿泊を望む方、ナイル川そのものを旅の主役にしたい方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "The Nile as Throughline: Ten Days from Cairo to Aswan and Back by River"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A private journey that treats the Nile not as transport between sites but as the spine of the trip — Cairo by car, Cairo to Aswan by sleeper train, Aswan to Luxor by cruise across three nights, and Luxor to Cairo by flight, with the river running through every day."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Egypt has two spines, and this tour follows both of them."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "The first is the Nile itself — the river that made Egyptian civilisation possible, that still organises the landscape, and that remains, even now, the most logical way to move between the monuments of the south. The second is time: a sequence that begins with the familiar landmarks of Cairo, moves deep into Upper Egypt, and returns having earned the perspective only the slow river journey delivers. Ten days is enough to do this properly, if the structure is right."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "This itinerary moves south from Cairo to Aswan by overnight train, boards a Nile cruise for three nights, sails north through Kom Ombo and Edfu to Luxor, and then returns to Cairo by flight to close. It is not a loop of geography so much as a loop of chronology — you arrive knowing nothing and leave having watched Egypt unfold, oldest to newest and back again, from the window of a train and the deck of a boat."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The cruise is the centre of the journey, not a luxury appendage. Three nights on the Nile, with the riverbanks moving past and the temples rising and receding, reframes everything you saw in Cairo and prepares everything you will see in Luxor. Remove it and the trip becomes a series of sites; keep it and the trip becomes a journey."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo: the opening"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "The first day is short and exists to set up what follows. You are met at Cairo International Airport and transferred to your hotel. Lunch and dinner are provided, and the schedule asks nothing more. Cairo is a large, loud, layered city, and it benefits from a single quiet arrival before the programme begins. Use the afternoon to get your bearings — the scale of the streets, the sound of the call to prayer, the light — because tomorrow starts early and does not slow down."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "The second day is the most demanding of the trip, and it is honest to say so. It begins at Giza, where the three pyramids of the Old Kingdom — Khufu, Khafre, and Menkaure, built around 2500 BC — remain the most concentrated demonstration of what pharaonic ambition could achieve. The Great Sphinx sits below them, carved from a single limestone outcrop, its function still debated. After lunch the day moves into the city. The Egyptian Museum on Tahrir Square — the original museum of antiquities, not the newer Grand Egyptian Museum at Giza, which holds the complete Tutankhamun collection and opened fully on 1 November 2025 — still houses one of the densest collections of pharaonic material on earth. (The royal mummies are at the National Museum of Egyptian Civilisation in Old Cairo, where their dedicated gallery was built around them. Either or both can be substituted for the Tahrir visit on request.) The night is spent again at your Cairo hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "r2day3",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "r2day3s",
+       "_type": "span",
+       "marks": [],
+       "text": "Day three stays in Cairo. The day climbs to the Saladin Citadel, the medieval fortification that has anchored Cairo's skyline since the twelfth century, and the Mosque of Muhammad Ali inside it. The afternoon ends in Khan el-Khalili, the bazaar quarter that has traded continuously since the fourteenth century. In the evening you board the overnight train to Aswan, with dinner served onboard. The train is both transport and transition — by the time you arrive in the morning, the Cairo chapter will already feel like a different country."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan: the southern arrival"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "On day four you wake on the train to breakfast and the landscape of Upper Egypt outside the window — the river wide and brown, the desert beginning at the edge of the cultivation, the light already strong. Aswan is Egypt's southernmost major city, where the Nile narrows toward the first cataract and the granite breaks through the riverbed."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "The day takes three sites in sequence. The Aswan High Dam, completed in 1970, is the engineering project that reshaped modern Egypt's agriculture and economy, and that created Lake Nasser — one of the largest artificial reservoirs in the world. The Unfinished Obelisk, still lying in its quarry where a crack forced its abandonment, is a 3,500-year-old instruction manual in the limits of ancient stonecraft — it shows precisely how obelisks were carved from the living rock. The Philae Temple, dedicated to Isis, was itself a rescue operation. Like Abu Simbel to the south, it was dismantled and reassembled on higher ground in the 1970s to save it from the waters rising behind the new dam. It now sits on Agilkia Island, reached by a short boat crossing, and the setting is one of the most quietly beautiful in Egypt. Tonight is spent in a hotel in Aswan; the cruise boards tomorrow morning."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "The river days: Kom Ombo and Edfu"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "The fifth day marks the shift in the character of the trip. After breakfast you board your Nile cruise — a vessel with a pool deck, a spa, and onboard entertainment, moving at the river's pace. The day is deliberately unstructured. There are no sites on the programme, and that is the point: after two full days in Cairo and a day of Aswan monuments, a day of open water, fine dining, and the riverbanks drifting past is not a gap in the itinerary but a recalibration. The cruise will carry you for three nights; this first afternoon is for settling into it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Day six is the heart of the cruise's monument programme, and it moves north. The first stop is Kom Ombo, a temple unusual in Egypt for being dedicated to two deities simultaneously: Sobek, the crocodile god, and Horus the Elder — the hawk-headed sky god distinct from the more familiar Horus the son of Osiris. The temple is laid out in perfect bilateral symmetry, each half a mirror of the other, to honour both cults equally. It is an architectural argument about religious compromise, and it works."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "From Kom Ombo the cruise continues to Edfu, home to the Temple of Horus — the best-preserved temple in Egypt, its walls, roof, inner sanctuary, and pylons largely intact. Most Egyptian temples survive as ruins; Edfu survives as a building. Walking its corridors, with the reliefs still sharp and the proportions of the original structure unambiguous, gives a clearer picture of how a functioning temple actually operated than almost any other site in the country. It was built during the Ptolemaic period, between roughly 237 and 57 BC, which makes it young by Egyptian standards and almost impossibly complete. Dinner is taken onboard as the cruise continues toward Luxor."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor: Karnak and the Theban West Bank"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "On day seven the cruise arrives in Luxor — ancient Thebes, the religious capital of the New Kingdom — and the day is given to the East Bank. The main event is Karnak, which is not quite a temple in the ordinary sense. It is a complex of temples, sanctuaries, pylons, and processional avenues built and enlarged by successive pharaohs across roughly 1,500 years, from the Middle Kingdom to the Ptolemaic period. Its Great Hypostyle Hall — a forest of 134 columns, the tallest rising to 21 metres — is one of the most overwhelming interior spaces left from the ancient world. It rewards slow walking, which this day's pace allows. The East Bank also takes in Luxor Temple, the smaller but architecturally refined counterpart to Karnak, and the remains of the Avenue of Sphinxes that once connected the two complexes over two kilometres. In the evening there is free time aboard the cruise or in the town, with the West Bank's limestone cliffs going gold across the water at dusk."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Day eight is for the West Bank, where the New Kingdom pharaohs buried their dead, and it deserves the morning it gets. The Valley of the Kings holds more than sixty royal tombs cut into the desert hills, their corridors and burial chambers painted with dense scenes of the afterlife. Tutankhamun's tomb is here — modest in scale, as befits a short-lived king — but the grander tombs of Ramses VI, Seti I, and the Thutmosid rulers show what the New Kingdom's full ambitions looked like underground. The Mortuary Temple of Hatshepsut rises in three colonnaded terraces against the cliff at Deir el-Bahari, one of the most distinctive elevations in Egyptian architecture. Hatshepsut ruled as pharaoh for roughly twenty years in the fifteenth century BC — the most successful female ruler in the country's history — and this temple, built as her mortuary monument, is the place her ambition is most legible. The Colossi of Memnon, two seated quartzite figures of Amenhotep III standing eighteen metres tall, are the only visible remains of a mortuary temple that was, in its time, the largest in Thebes. In the afternoon you disembark and transfer to Luxor Airport for the short domestic flight back to Cairo, where your driver meets you and takes you to your hotel for the night."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo again: the close"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Day nine, the final full day, reaches back to the very beginning of the pyramid-building sequence. Memphis was the first capital of a unified Egypt, established around 3100 BC, and its open-air museum holds the colossal fallen statue of Ramses II and a large alabaster sphinx of the Middle Kingdom. Saqqara, the necropolis that served Memphis, holds the Step Pyramid of Djoser — the oldest large stone structure in the world, built around 2650 BC by the architect Imhotep, and the building in which the pyramid form was effectively invented. The step was the original form; the smooth-sided pyramid came later, worked out by trial and adjustment at Dahshur, where the Bent Pyramid and the Red Pyramid record the architects learning — visibly, in stone — how to manage the angles."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "The rest of the day belongs to you. The programme makes no further demands — after more than a week of early starts and dense itineraries, this is deliberate. You can return to any Cairo site that deserved more time, and several do; or explore on your own (the Islamic Cairo neighbourhood, the Coptic quarter around the Hanging Church, the view from the Citadel without a guide's pace to keep); or the hotel pool, which is also a legitimate answer after more than a week of monuments. The day ends with a dinner cruise on the Nile in Cairo, the lit city moving past the windows, the river that has carried the whole journey carrying it one final time. The night is spent at your Cairo hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "How a ten-day Nile journey works"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Day ten is the departure: a final breakfast and the transfer to Cairo International Airport, with later flights giving room for additional arrangements so the last hours in Egypt are not spent in a terminal. This is a private departure — operated for your party alone, never a shared group. Five nights in carefully selected five-star hotels, three nights aboard a five-star cruise vessel with onboard pool, spa, and entertainment, one overnight train journey (Cairo to Aswan, with dinner onboard), a Luxor–Cairo domestic flight, a traditional felucca sail at Aswan, a farewell Nile dinner cruise in Cairo, private air-conditioned transfers throughout, a licensed English-speaking Egyptologist at every site, and full board — these are the operating mechanics. The pace is full but not punishing, with free time after the cruise built in as recovery rather than padding."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Ten days cannot show you all of Egypt — the country is too old and too large for that. What this journey does instead is rarer: it puts you on the river itself, and lets the monuments come to you."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The shape of the journey"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "Where · Cairo → (sleeper train) → Aswan → Kom Ombo → Edfu → Luxor → (flight) → Cairo (with Memphis, Saqqara and Dahshur on the close)"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "Duration · 10 days / 9 nights — 5 hotel nights + 1 sleeper-train night + 3 cruise nights"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "Character · Fully private · your own Egyptologist · three-night Nile cruise · one sleeper-train crossing · open recovery day after the cruise · farewell dinner cruise in Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "El Nilo como hilo conductor: diez días entre El Cairo y Asuán, ida y vuelta por el río"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un viaje privado que entiende el Nilo no como traslado entre monumentos, sino como columna vertebral del recorrido: El Cairo en coche, El Cairo a Asuán en tren nocturno, Asuán a Luxor en crucero durante tres noches y vuelta a la capital en avión, con el río presente en cada jornada."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Egipto tiene dos columnas vertebrales y este viaje sigue las dos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "La primera es el Nilo: el río que hizo posible la civilización faraónica, que sigue ordenando el paisaje y que continúa siendo, incluso hoy, la forma más lógica de moverse entre los monumentos del sur. La segunda es el tiempo: una secuencia que arranca con los grandes hitos de El Cairo, baja a lo más profundo del Alto Egipto y vuelve con la perspectiva que solo el ritmo del agua puede dar. Diez días son suficientes para hacerlo en serio, si la estructura es la correcta."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta desciende de El Cairo a Asuán en tren nocturno, sube de nuevo a bordo de un crucero durante tres noches por Kom Ombo y Edfu hasta Luxor y regresa a la capital en avión. No es un círculo de geografía, sino un círculo de cronología: el viajero llega sin contexto y se va habiendo visto desplegarse Egipto, de lo más antiguo a lo más reciente y vuelta, desde la ventana de un tren y la cubierta de un barco."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "El crucero es el centro del recorrido, no un apéndice de lujo. Tres noches sobre el Nilo, con las orillas pasando y los templos apareciendo y retirándose, reformulan todo lo visto en El Cairo y preparan todo lo que vendrá en Luxor. Sin crucero, el viaje sería una lista de visitas; con él, se convierte en un trayecto con forma propia."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo: la apertura"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "El primer día es breve y existe para preparar lo que sigue. Recibimos al viajero en el Aeropuerto Internacional de El Cairo y lo trasladamos al hotel. Almuerzo y cena incluidos, sin más exigencias. El Cairo es una ciudad grande, sonora y de muchas capas, y conviene una llegada tranquila antes de que arranque el programa. La tarde sirve para situarse: la escala de las calles, el sonido de la llamada a la oración, la luz. La jornada siguiente empieza pronto y no afloja."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "El segundo día es el más exigente del viaje, y conviene decirlo. Empieza en Guiza, donde las tres pirámides del Imperio Antiguo —Keops, Kefrén y Micerinos, levantadas hacia 2500 a. C.— siguen siendo la demostración más concentrada de lo que podía conseguir la ambición faraónica. La Gran Esfinge está debajo, tallada en un único afloramiento de caliza, con función todavía discutida. Tras el almuerzo, el día entra en la ciudad. El Museo Egipcio de Tahrir —el museo histórico de antigüedades, no el nuevo Gran Museo Egipcio de Guiza, que conserva la colección completa de Tutankamón y abrió plenamente el 1 de noviembre de 2025— sigue albergando una de las concentraciones más densas de material faraónico del mundo. Las momias reales están en el Museo Nacional de la Civilización Egipcia (NMEC), en El Cairo Antiguo, donde se construyó una galería específica a su alrededor. Cualquiera de las dos opciones, o ambas, puede sustituir la visita a Tahrir si se pide. La noche se pasa de nuevo en el hotel de El Cairo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "r2day3",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "r2day3s",
+       "_type": "span",
+       "marks": [],
+       "text": "El tercer día sigue en El Cairo. La jornada sube a la Ciudadela de Saladino, la fortificación medieval que ancla el horizonte cairota desde el siglo XII, y a la mezquita de Mohamed Alí dentro de ella. La tarde termina en Jan el-Jalili, el barrio del bazar que comercia de manera continua desde el siglo XIV. Por la noche se embarca el tren nocturno a Asuán, con cena a bordo. El tren es a la vez transporte y transición: al llegar por la mañana, el capítulo de El Cairo ya parecerá otro país."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Asuán: la llegada al sur"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "El cuarto día se desayuna en el tren con el paisaje del Alto Egipto al otro lado de la ventana: el río ancho y marrón, el desierto que empieza al borde del cultivo, la luz ya intensa. Asuán es la gran ciudad más meridional de Egipto, donde el Nilo se estrecha hacia la primera catarata y el granito asoma en el lecho."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "La jornada toma tres sitios en orden. La presa Alta de Asuán, completada en 1970, es el proyecto de ingeniería que reorganizó la agricultura y la economía del Egipto moderno, y que creó el lago Nasser —uno de los mayores embalses artificiales del mundo— al precio de desplazar alrededor de 100 000 nubios. El obelisco inacabado, todavía en su cantera con la grieta que obligó a abandonarlo, es un manual de instrucciones de 3500 años sobre los límites de la cantería antigua: muestra con precisión cómo se tallaban los obeliscos a partir de la roca viva. El templo de File, dedicado a Isis, fue a su vez una operación de rescate: como Abu Simbel más al sur, se desmontó y se reconstruyó en terreno más alto entre 1972 y 1980 para salvarlo de las aguas que subían tras la nueva presa. Hoy se sitúa en la isla de Agilkia, unos 500 metros al oeste de la isla original, y se llega en barca. Esta noche se pasa en un hotel de Asuán; el crucero se embarca mañana por la mañana."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Los días de río: Kom Ombo y Edfu"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "El quinto día marca el cambio de carácter del viaje. Tras el desayuno se embarca el crucero por el Nilo —un barco con cubierta de piscina, spa y programa a bordo, que se mueve al ritmo del río—. La jornada es deliberadamente abierta. No hay visitas programadas, y ese es el sentido: después de dos jornadas completas en El Cairo y una jornada de monumentos en Asuán, un día de agua abierta, comida cuidada y orillas pasando no es un vacío del itinerario, sino un reajuste. El crucero acompañará tres noches; esta primera tarde sirve para entrar en él."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "El sexto día concentra el programa de monumentos del crucero, y avanza hacia el norte. La primera parada es Kom Ombo, un templo inusual en Egipto por estar dedicado a dos divinidades a la vez: Sobek, el dios cocodrilo, y Horus el Viejo, el dios celeste con cabeza de halcón distinto del Horus hijo de Osiris. El templo tiene una simetría bilateral perfecta, con cada mitad reflejando a la otra para honrar ambos cultos por igual. Es un argumento arquitectónico sobre el compromiso religioso, y funciona."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde Kom Ombo, el crucero sigue hasta Edfu, donde está el templo de Horus, el mejor conservado de Egipto: muros, techo, santuario interior y pilonos en su mayor parte intactos. Casi todos los templos egipcios sobreviven como ruinas; Edfu sobrevive como edificio. Caminar por sus corredores, con los relieves todavía nítidos y las proporciones del edificio original sin ambigüedad, da una imagen más clara de cómo funcionaba un templo en uso que casi cualquier otro sitio del país. Se construyó en época ptolemaica, entre 237 y 57 a. C. aproximadamente, lo que lo hace joven en términos egipcios y casi imposiblemente completo. La cena se sirve a bordo mientras el crucero continúa hacia Luxor."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor: Karnak y la orilla occidental tebana"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "El séptimo día el crucero llega a Luxor —la antigua Tebas, capital religiosa del Imperio Nuevo— y la jornada se dedica a la orilla oriental. El plato fuerte es Karnak, que no es exactamente un templo en sentido convencional. Es un complejo de templos, capillas, pilonos y avenidas procesionales construido y ampliado por sucesivos faraones a lo largo de unos 1500 años, del Imperio Medio al periodo ptolemaico. Su Gran Sala Hipóstila —un bosque de 134 columnas, la más alta de 21 metros— es uno de los espacios interiores más imponentes que sobreviven del mundo antiguo. Premia el paso lento, y el ritmo de esta jornada lo permite. La orilla oriental incluye también el templo de Luxor, contraparte más pequeña pero arquitectónicamente más refinada, y los restos de la Avenida de las Esfinges, que conectaba ambos complejos a lo largo de más de dos kilómetros y que fue reabierta ceremonialmente en noviembre de 2021. Al caer la tarde queda tiempo libre en el crucero o en la ciudad, con los acantilados calizos de la orilla occidental volviéndose dorados sobre el agua al atardecer."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "El octavo día es para la orilla occidental, donde los faraones del Imperio Nuevo enterraron a sus muertos, y merece la mañana entera. El Valle de los Reyes guarda más de sesenta tumbas reales excavadas en las colinas del desierto, con corredores y cámaras pintadas con escenas densas del más allá. La tumba de Tutankamón está aquí —modesta en escala, como corresponde a un rey de reinado corto—, pero las tumbas mayores de Ramsés VI, Seti I y los Tutmósidas muestran lo que la ambición plena del Imperio Nuevo significaba bajo tierra. El templo funerario de Hatshepsut asciende en tres terrazas con columnatas contra el acantilado de Deir el-Bahari, una de las elevaciones más reconocibles de la arquitectura egipcia. Hatshepsut gobernó como faraón durante unos veinte años en el siglo XV a. C. —la soberana más eficaz del país— y este templo, levantado como su monumento funerario, es donde su ambición se lee mejor. Su obelisco superviviente en Karnak mide 29,5 metros. Los Colosos de Memnón, dos estatuas sedentes de cuarcita de Amenhotep III de unos dieciocho metros, son lo único visible de un templo funerario que en su tiempo fue el mayor de Tebas. Por la tarde, desembarque y traslado al aeropuerto de Luxor para el breve vuelo doméstico de regreso a El Cairo, donde su conductor le recibe y le lleva al hotel para pasar la noche."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo otra vez: el cierre"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "El noveno día, el último completo, recupera el inicio mismo de la secuencia de las pirámides. Menfis fue la primera capital del Egipto unificado hacia 3100 a. C., y su museo al aire libre conserva el colosal Ramsés II caído y una gran esfinge de alabastro del Imperio Medio. Saqqara, la necrópolis que servía a Menfis, alberga la pirámide escalonada de Zoser, la mayor estructura de piedra más antigua del mundo, levantada hacia 2650 a. C. por el arquitecto Imhotep, y el edificio en el que la forma piramidal se inventó. El escalonado fue la forma original; la pirámide de caras lisas vino después, resuelta por ensayo y corrección en Dahshur, donde la pirámide acodada y la pirámide Roja registran a los arquitectos aprendiendo —visiblemente, en piedra— a manejar los ángulos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "El resto del día pertenece al viajero. El programa no exige nada más: después de más de una semana de madrugones y jornadas densas, esto es deliberado. Se puede volver a cualquier sitio de El Cairo que merezca más tiempo —y varios lo merecen—, explorar por libre (la zona islámica, el barrio copto en torno a la Iglesia Colgante, la vista desde la Ciudadela sin el ritmo de un guía) o quedarse en la piscina del hotel, respuesta también legítima tras más de una semana de monumentos. El día termina con una cena-crucero por el Nilo en El Cairo, la ciudad iluminada pasando por las ventanas y el río que ha sostenido todo el viaje sosteniéndolo una vez más. La noche se pasa en el hotel de El Cairo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "Cómo funciona un viaje de diez días con el Nilo en el centro"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "El décimo día es la salida: último desayuno y traslado al Aeropuerto Internacional de El Cairo, con vuelos posteriores que dejan margen para añadir alguna cosa más, de modo que las últimas horas en Egipto no se pasen en una terminal. La salida es privada —operada solo para tu grupo, nunca compartida—. Cinco noches en hoteles cinco estrellas cuidadosamente seleccionados, tres noches en un crucero cinco estrellas con piscina, spa y programa a bordo, un trayecto en tren nocturno (El Cairo–Asuán, con cena a bordo), un vuelo doméstico Luxor–El Cairo, una salida tradicional en faluca en Asuán, una cena-crucero de despedida en El Cairo, traslados privados climatizados durante todo el viaje, un egiptólogo licenciado de habla hispana en cada visita y pensión completa: estas son las piezas operativas. El ritmo es completo pero no extenuante, con tiempo libre después del crucero pensado como recuperación, no como relleno."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Diez días no muestran todo Egipto —el país es demasiado antiguo y demasiado vasto para eso—. Lo que sí hace este viaje es algo más raro: pone al viajero sobre el río y deja que los monumentos vengan a él."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La forma del viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "Dónde · El Cairo → (tren nocturno) → Asuán → Kom Ombo → Edfu → Luxor → (vuelo) → El Cairo (con Menfis, Saqqara y Dahshur en el cierre)"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "Duración · 10 días / 9 noches — 5 noches de hotel + 1 noche en tren nocturno + 3 noches de crucero"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "Carácter · Salida privada · su propio egiptólogo · crucero de tres noches por el Nilo · un trayecto en tren nocturno · jornada abierta tras el crucero · cena-crucero de despedida en El Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "背骨としてのナイル——カイロから南へ、川で戻る10日間"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "遺跡と遺跡をつなぐ「移動」ではなく、ナイルそのものを旅の背骨に据えるプライベート行程。カイロは車で、カイロからアスワンは寝台列車で、アスワンからルクソールは3泊のクルーズで、そしてルクソールからカイロは国内線で。川がすべての日に流れています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプトには二つの背骨があり、この旅はその両方をたどります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "ひとつはナイル川そのもの——エジプト文明を可能にした川であり、いまも風景を組織し、上エジプトの遺跡群を巡るうえで依然として最も理にかなった経路です。もうひとつは時間そのもの——カイロの馴染みの記念建造物から始まり、上エジプトの奥へと進み、ゆっくりとした川旅でしか得られない視座を持ち帰る、その順序です。10日間は、構造さえ正しく組めば、これを丁寧にやり切るのにちょうどよい長さです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "行程はカイロから夜行列車でアスワンへ南下し、3泊のナイル・クルーズに乗り換え、コム・オンボとエドフを経て北上しルクソールへ。ルクソールから国内線でカイロへ戻って締めくくります。これは地理の周回ではなく、年代の周回です——何も知らずに到着し、エジプトが古いものから新しいものへ、そしてふたたび古いものへと、列車の窓と船のデッキから順に立ち現れるのを見届けて帰る。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "クルーズはこの旅の中心であり、付加的な贅沢ではありません。3泊、岸辺が流れ、神殿が浮かんでは退く——その時間がカイロで見たすべてに別の文脈を与え、ルクソールで見るすべてに準備をさせます。外すと旅は遺跡の連続になり、残せば旅は一つの航海になります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロ——旅の入口"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "初日は短く、これから始まることのための一日です。カイロ国際空港でお出迎えしてホテルへお送りし、昼食と夕食をご用意します。それ以上は何も予定しません。カイロは大きく、騒がしく、層の厚い街で、本格的な行程が始まる前に、静かな到着がひとつあるだけで吸収が変わります。午後は街の感覚をつかむ時間——通りのスケール、礼拝の呼びかけの響き、光の質。翌日は早朝発で、ペースを緩めません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "二日目はこの旅で最もきつい一日で、それは正直に申し上げます。朝はギザから——古王国の三大ピラミッド、紀元前2500年ごろに築かれたクフ、カフラー、メンカウラーの三王のピラミッド。ファラオの野心が達し得たものを、もっとも凝縮された形で示しています。足元には大スフィンクスが、一枚岩の石灰岩から掘り出され、その用途はいまも議論の対象です。昼食後は街なかへ移ります。タハリール広場のエジプト考古学博物館——2025年11月1日に全面開館したギザの大エジプト博物館（GEM）ではなく、旧来の考古学博物館です。GEMはツタンカーメンのコレクションを一括展示しており、王のミイラ群は旧カイロの国立エジプト文明博物館（NMEC）の専用ギャラリーに収まっています。ご要望に応じて、タハリールをこのいずれか、または両方と差し替えることもできます。この夜もカイロのホテルに宿泊します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "r2day3",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "r2day3s",
+       "_type": "span",
+       "marks": [],
+       "text": "三日目もカイロです。サラディン城塞へ登り、12世紀以来カイロのスカイラインを支えてきた中世の要塞と、内部のムハンマド・アリー・モスクをご覧いただきます。午後はハーン・ハリーリで締めくくります——14世紀以来、絶えることなく商いの続く市場の一画です。夕刻、アスワン行きの夜行列車に乗車し、車内で夕食をお召し上がりいただきます。列車は移動であると同時に転場の儀でもあります。朝、目を覚ますころには、カイロの章はすでに別の国のように感じられます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワン——南の到着"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "四日目、列車で朝食を取りつつ目を覚ますと、窓の外には上エジプトの景色が広がっています——茶色く広がる川、耕地のへりで始まる砂漠、すでに強い光。アスワンはエジプト最南の主要都市、ナイルが第一急湍に向けて狭まり、川床から花崗岩が頭をもたげる地点です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "午前は三つの場所を順に巡ります。アスワン・ハイ・ダム（1970年完成）は現代エジプトの農業と経済を組み直した土木事業であり、世界最大級の人工湖であるナセル湖を生みました。未完成のオベリスクは、亀裂のため切り出しを断念されたまま岩盤に横たわる——3500年前の石工技術の限界を、現物そのもので教えてくれる教科書です。フィラエ神殿はイシス女神に捧げられた聖地で、南のアブ・シンベル同様、新ダムの背後に水位が上がるのを避けるため、1970年代に解体・移設されました。いまはアギルキア島に立ち、短い渡し船で渡ります。エジプトでも静かな美しさで際立つ場所です。今夜はアスワンのホテルに宿泊し、クルーズへの乗船は翌朝です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "川の日々——コム・オンボとエドフ"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "五日目は、旅の性格が切り替わる日です。朝食ののち、ナイル・クルーズに乗船します——プールデッキ、スパ、船内エンタテインメントを備えた船で、川のペースで進みます。この一日は意図的に予定を空けてあります。プログラム上の遺跡はなく、それがこの日の意味です。カイロでの濃い二日とアスワンの遺跡の一日のあと、開けた水面と落ち着いた食事と流れていく岸辺だけの一日は、行程の空白ではなく、リカリブレーションそのものです。クルーズはこのあと3泊にわたって運んでくれます——最初の午後はそれに馴染む時間です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "六日目はクルーズの遺跡プログラムの中心で、北へ進みます。最初の停泊はコム・オンボ。エジプト国内で異例の、二柱の神に同時に捧げられた神殿です——ワニ神ソベクと、ハヤブサ頭の天空神「大ホルス」（オシリスの子としてよく知られるホルスとは区別される存在）。両派を等しく祀るため、神殿は完全な左右対称に設計されています。宗教的妥協の建築的解答であり、そして見事に機能しています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "コム・オンボからクルーズはエドフへ。ホルス神殿は、エジプトで最も保存状態の良い神殿です——壁、屋根、内陣、塔門のいずれもがほぼ完全に残ります。エジプトの神殿の大半は廃墟として残りますが、エドフは「建築物」として残っています。レリーフはなおシャープで、当初構造の比例が曖昧な部分なく読める——機能していた神殿が実際にどう動いていたのかを、これほど明瞭に示す場所はほかにありません。建立はプトレマイオス朝期、紀元前237年ごろから57年ごろ。エジプトの基準では「若い」神殿ながら、ほとんど信じがたいほど完全に残っています。クルーズはルクソールへ向かい、夕食は船上で。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソール——カルナックとテーベ西岸"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "七日目、クルーズはルクソール——古代テーベ、新王国の宗教的首都——に到着し、この日は東岸に充てます。中心はカルナック。いわゆる神殿というよりも、神殿、聖域、塔門、参道が累代のファラオによってほぼ1500年（中王国からプトレマイオス朝まで）にわたって築き継がれた複合体です。大列柱室——134本の柱が並び、最も高いものは21メートルに達する——は、古代世界が残した室内空間として最も圧倒的なもののひとつ。ゆっくり歩くほどに見えてきます。東岸はさらにルクソール神殿——カルナックよりも小ぶりながら建築的に洗練された対の存在——と、かつて両者を2キロにわたって結んでいたスフィンクス参道（2021年11月に式典開通）の遺構にも及びます。夕刻は船または市内で自由時間。日が沈むころ、西岸の石灰岩の崖が川越しに金色に染まります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "八日目の朝は西岸。新王国時代のファラオたちが眠る、ひと朝かけるに値する場所です。王家の谷には60を超す王墓が砂漠の丘に掘られ、回廊と玄室の壁を来世の場面が密に覆っています。ツタンカーメンの墓もここに——短命の王にふさわしく規模は控えめですが、ラメセス6世、セティ1世、トトメス系の王たちのより壮麗な墓は、新王国の野心が地下でどこまで広がっていたかを示します。ハトシェプスト葬祭殿は、ディール・アル・バハリの崖に三段の柱廊で立ち上がる、エジプト建築でもひときわ際立つ立面です。ハトシェプストは紀元前15世紀におよそ20年間ファラオとして統治した、エジプト史上最も成功した女性君主であり、この葬祭殿は彼女の野心が最も読み取れる場所です。メムノンの巨像——アメンホテプ3世の高さ18メートルの座像、石英岩——は、当時テーベ最大だった葬祭殿の唯一の可視の遺構です。午後は下船してルクソール空港へ向かい、国内線の短いフライトでカイロへ戻ります。到着後はドライバーがお出迎えし、その夜のホテルへお送りします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "ふたたびのカイロ——締めくくり"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "九日目、最終フル日は、ピラミッド建造の最初の章へと立ち戻ります。メンフィスは紀元前3100年ごろ、統一エジプト最初の首都として設けられました。露天博物館にはラメセス2世の倒れた巨像と、中王国期のアラバスター製スフィンクスが残ります。サッカラはメンフィスのネクロポリスで、その中心にあるのがジェセル王の階段ピラミッド——世界最古の大規模石造建造物、紀元前2650年ごろ、建築家イムホテプが事実上「ピラミッド」という形を発明した建物です。段は最初の形であり、なめらかな辺をもつ古典的なピラミッドはその後、ダハシュールでの試行と修正のなかから現れました——屈折ピラミッドと赤いピラミッドが、設計者たちが石のなかで角度を学習していく過程を、目に見える形で残しています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "残りの時間は自由です。一週間以上早朝発と密度の高い日程を続けてきたあとに、これは意図して置いた時間です。もっと時間を取りたかったカイロの遺跡へ戻る、ご自身で街を歩く（イスラム・カイロの一画、ハンギング・チャーチ周辺のコプト地区、ガイドのペースに縛られず城塞からの眺めを味わう）、あるいはホテルのプールで過ごす——一週間以上の遺跡行程を経たあとなら、それも正当な答えです。一日はカイロでのナイル・ディナークルーズで締めくくります。光をまとった街が窓辺を流れ、旅をずっと運んできた川が、もう一度だけ運んでくれる夜です。その夜もカイロのホテルに宿泊します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "この10日間の組み立て方"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "10日目は出発日です。朝食ののちカイロ国際空港へお送りします。遅めのフライトをお取りいただければ、最後の数時間をターミナルで過ごさずに済むよう、追加の手配を組むこともできます。完全プライベートの催行で、相乗りは一切ありません。5つ星ホテル5泊と、プール、スパ、エンタテインメントを備えた5つ星クルーズ船での3泊、車内夕食付きの夜行列車1区間（カイロ→アスワン）、ルクソール—カイロの国内線、アスワンでの伝統的なフェルッカ帆走、カイロでの送別ナイル・ディナークルーズ、全行程の冷房付き専用車両、ライセンスを持つ英語対応のエジプト学ガイド、そして全食——これが運行上の骨格です。ペースは充実していますが酷ではなく、クルーズ後の自由時間が「埋め草」ではなく「回復」のために組み込まれています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "10日間でエジプトのすべてをお見せすることはできません——この国は、そうするには古く、大きすぎます。代わりにこの旅がするのは、もっと稀なこと——お客様を川そのものに乗せ、記念建造物のほうから訪ねてくるに任せる、ということです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "旅の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · カイロ →（寝台列車）→ アスワン → コム・オンボ → エドフ → ルクソール →（国内線）→ カイロ（締めにメンフィス、サッカラ、ダハシュール）"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "日数 · 10日間／9泊 — ホテル5泊＋寝台列車1泊＋クルーズ3泊 — 調整可能"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド · 3泊のナイル・クルーズ · 寝台列車1区間 · クルーズ後の自由日（回復目的） · カイロでの送別ディナークルーズ"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "wp-page-83284",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private journey is built around your party, not the other way around. Tell our team how you'd want to shape it — Abu Simbel added at Aswan, GEM swapped in for the Tahrir museum, a hot-air balloon over the West Bank, a flight south instead of the sleeper — and we will build the ten days to fit."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Un viaje privado se construye alrededor de tu grupo, no al revés. Dinos cómo querrías ajustarlo —Abu Simbel añadido en Asuán, el GEM en lugar del museo de Tahrir, un vuelo en globo sobre la orilla occidental, un vuelo al sur en vez del tren nocturno— y armaremos los diez días contigo."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "10日間はご一行のかたちに合わせて組み直せます——アスワンでアブ・シンベルを加える、タハリール博物館をGEMに差し替える、西岸での熱気球を組み込む、寝台ではなく国内線で南北を移動する。組み立て方をお知らせください。"
+  }
+ ],
+ "customisationOptions": [
+  {
+   "_key": "8o8bbz71rt",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Tell our team how you'd want to shape it — Abu Simbel added at Aswan, GEM swapped in for the Tahrir museum, a hot-air balloon over the West Bank, a flight south instead of the sleeper — and we will build the ten days to fit.",
+   "text": "Add Abu Simbel at Aswan"
+  },
+  {
+   "_key": "fu772iper8",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Either or both can be substituted for the Tahrir visit on request.)",
+   "text": "Swap the Tahrir museum for the GEM or NMEC"
+  },
+  {
+   "_key": "t9osq9ohjn",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Tell our team how you'd want to shape it — Abu Simbel added at Aswan, GEM swapped in for the Tahrir museum, a hot-air balloon over the West Bank, a flight south instead of the sleeper — and we will build the ten days to fit.",
+   "text": "Add a hot-air balloon over the West Bank"
+  },
+  {
+   "_key": "1vvprc8jou",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Tell our team how you'd want to shape it — Abu Simbel added at Aswan, GEM swapped in for the Tahrir museum, a hot-air balloon over the West Bank, a flight south instead of the sleeper — and we will build the ten days to fit.",
+   "text": "Fly south instead of the sleeper train"
+  },
+  {
+   "_key": "m7cerntvk4",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Dinos cómo querrías ajustarlo —Abu Simbel añadido en Asuán, el GEM en lugar del museo de Tahrir, un vuelo en globo sobre la orilla occidental, un vuelo al sur en vez del tren nocturno— y armaremos los diez días contigo.",
+   "text": "Añadir Abu Simbel en Asuán"
+  },
+  {
+   "_key": "j5qx2gtuty",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cualquiera de las dos opciones, o ambas, puede sustituir la visita a Tahrir si se pide.",
+   "text": "Cambiar el museo de Tahrir por el GEM o el NMEC"
+  },
+  {
+   "_key": "fo46vpl0wq",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Dinos cómo querrías ajustarlo —Abu Simbel añadido en Asuán, el GEM en lugar del museo de Tahrir, un vuelo en globo sobre la orilla occidental, un vuelo al sur en vez del tren nocturno— y armaremos los diez días contigo.",
+   "text": "Añadir un vuelo en globo sobre la orilla occidental"
+  },
+  {
+   "_key": "vhda4dvvps",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Dinos cómo querrías ajustarlo —Abu Simbel añadido en Asuán, el GEM en lugar del museo de Tahrir, un vuelo en globo sobre la orilla occidental, un vuelo al sur en vez del tren nocturno— y armaremos los diez días contigo.",
+   "text": "Volar al sur en lugar de ir en tren nocturno"
+  },
+  {
+   "_key": "60mdghhfa8",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "10日間はご一行のかたちに合わせて組み直せます——アスワンでアブ・シンベルを加える、タハリール博物館をGEMに差し替える、西岸での熱気球を組み込む、寝台ではなく国内線で南北を移動する。",
+   "text": "アスワンでアブ・シンベルを加える"
+  },
+  {
+   "_key": "0qgw1yac7b",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ご要望に応じて、タハリールをこのいずれか、または両方と差し替えることもできます。",
+   "text": "タハリールの博物館をGEMまたはNMECに差し替える"
+  },
+  {
+   "_key": "sza2rns72r",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "10日間はご一行のかたちに合わせて組み直せます——アスワンでアブ・シンベルを加える、タハリール博物館をGEMに差し替える、西岸での熱気球を組み込む、寝台ではなく国内線で南北を移動する。",
+   "text": "西岸での熱気球を加える"
+  },
+  {
+   "_key": "7m5ry1rf5g",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "10日間はご一行のかたちに合わせて組み直せます——アスワンでアブ・シンベルを加える、タハリール博物館をGEMに差し替える、西岸での熱気球を組み込む、寝台ではなく国内線で南北を移動する。",
+   "text": "寝台列車の代わりに国内線で南へ移動する"
+  }
+ ],
+ "durationDays": 10,
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 2300,
+  "ja": 2353
+ },
+ "heroImage": {
+  "_type": "image",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A traditional dahabiya sailing boat cruising the Nile past palm-lined banks."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Una dahabiya tradicional navegando por el Nilo junto a orillas bordeadas de palmeras"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ヤシの並ぶ岸辺に沿ってナイル川を進む伝統的なダハビーヤ"
+   }
+  ],
+  "asset": {
+   "_ref": "image-d25f8ee01cb0b1ff7c9be0625ab3eb153a171ef3-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A wooden dahabiya glides along the Nile past palm groves and desert hills."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Una dahabiya de madera se desliza por el Nilo entre palmerales y colinas desérticas."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "木造のダハビーヤが、ヤシの林と砂漠の丘を背にナイル川を進む。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "07gxo6cnwn",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Five nights in carefully selected five-star hotels, three nights aboard a five-star cruise vessel with onboard pool, spa, and entertainment, one overnight train journey (Cairo to Aswan, with dinner onboard), a Luxor–Cairo domestic flight, a traditional felucca sail at Aswan, a farewell Nile dinner cruise in Cairo, private air-conditioned transfers throughout, a licensed English-speaking Egyptologist at every site, and full board — these are the operating mechanics.",
+   "text": "Five nights in carefully selected five-star hotels"
+  },
+  {
+   "_key": "0kz914duu4",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Five nights in carefully selected five-star hotels, three nights aboard a five-star cruise vessel with onboard pool, spa, and entertainment, one overnight train journey (Cairo to Aswan, with dinner onboard), a Luxor–Cairo domestic flight, a traditional felucca sail at Aswan, a farewell Nile dinner cruise in Cairo, private air-conditioned transfers throughout, a licensed English-speaking Egyptologist at every site, and full board — these are the operating mechanics.",
+   "text": "three nights aboard a five-star cruise vessel with onboard pool, spa, and entertainment"
+  },
+  {
+   "_key": "7w1k8punsi",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Five nights in carefully selected five-star hotels, three nights aboard a five-star cruise vessel with onboard pool, spa, and entertainment, one overnight train journey (Cairo to Aswan, with dinner onboard), a Luxor–Cairo domestic flight, a traditional felucca sail at Aswan, a farewell Nile dinner cruise in Cairo, private air-conditioned transfers throughout, a licensed English-speaking Egyptologist at every site, and full board — these are the operating mechanics.",
+   "text": "one overnight train journey (Cairo to Aswan, with dinner onboard)"
+  },
+  {
+   "_key": "tiv8ly8xwz",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Five nights in carefully selected five-star hotels, three nights aboard a five-star cruise vessel with onboard pool, spa, and entertainment, one overnight train journey (Cairo to Aswan, with dinner onboard), a Luxor–Cairo domestic flight, a traditional felucca sail at Aswan, a farewell Nile dinner cruise in Cairo, private air-conditioned transfers throughout, a licensed English-speaking Egyptologist at every site, and full board — these are the operating mechanics.",
+   "text": "a Luxor–Cairo domestic flight"
+  },
+  {
+   "_key": "rvuf6p3kmr",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Five nights in carefully selected five-star hotels, three nights aboard a five-star cruise vessel with onboard pool, spa, and entertainment, one overnight train journey (Cairo to Aswan, with dinner onboard), a Luxor–Cairo domestic flight, a traditional felucca sail at Aswan, a farewell Nile dinner cruise in Cairo, private air-conditioned transfers throughout, a licensed English-speaking Egyptologist at every site, and full board — these are the operating mechanics.",
+   "text": "a traditional felucca sail at Aswan"
+  },
+  {
+   "_key": "xzh3yuxliq",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Five nights in carefully selected five-star hotels, three nights aboard a five-star cruise vessel with onboard pool, spa, and entertainment, one overnight train journey (Cairo to Aswan, with dinner onboard), a Luxor–Cairo domestic flight, a traditional felucca sail at Aswan, a farewell Nile dinner cruise in Cairo, private air-conditioned transfers throughout, a licensed English-speaking Egyptologist at every site, and full board — these are the operating mechanics.",
+   "text": "a farewell Nile dinner cruise in Cairo"
+  },
+  {
+   "_key": "w9xm71zp9w",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Five nights in carefully selected five-star hotels, three nights aboard a five-star cruise vessel with onboard pool, spa, and entertainment, one overnight train journey (Cairo to Aswan, with dinner onboard), a Luxor–Cairo domestic flight, a traditional felucca sail at Aswan, a farewell Nile dinner cruise in Cairo, private air-conditioned transfers throughout, a licensed English-speaking Egyptologist at every site, and full board — these are the operating mechanics.",
+   "text": "private air-conditioned transfers throughout"
+  },
+  {
+   "_key": "g41tygfgl5",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Five nights in carefully selected five-star hotels, three nights aboard a five-star cruise vessel with onboard pool, spa, and entertainment, one overnight train journey (Cairo to Aswan, with dinner onboard), a Luxor–Cairo domestic flight, a traditional felucca sail at Aswan, a farewell Nile dinner cruise in Cairo, private air-conditioned transfers throughout, a licensed English-speaking Egyptologist at every site, and full board — these are the operating mechanics.",
+   "text": "a licensed English-speaking Egyptologist at every site"
+  },
+  {
+   "_key": "sw40fimxwz",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Five nights in carefully selected five-star hotels, three nights aboard a five-star cruise vessel with onboard pool, spa, and entertainment, one overnight train journey (Cairo to Aswan, with dinner onboard), a Luxor–Cairo domestic flight, a traditional felucca sail at Aswan, a farewell Nile dinner cruise in Cairo, private air-conditioned transfers throughout, a licensed English-speaking Egyptologist at every site, and full board — these are the operating mechanics.",
+   "text": "full board"
+  },
+  {
+   "_key": "5y0lju7c8k",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "You are met at Cairo International Airport and transferred to your hotel.",
+   "text": "Airport meeting and transfer to hotel on arrival"
+  },
+  {
+   "_key": "zf2j891tsq",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Lunch and dinner are provided, and the schedule asks nothing more.",
+   "text": "Lunch and dinner on day one"
+  },
+  {
+   "_key": "e84cx8c70d",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Day ten is the departure: a final breakfast and the transfer to Cairo International Airport, with later flights giving room for additional arrangements so the last hours in Egypt are not spent in a terminal.",
+   "text": "Transfer to Cairo International Airport on departure"
+  },
+  {
+   "_key": "yd9gx8ppas",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cinco noches en hoteles cinco estrellas cuidadosamente seleccionados, tres noches en un crucero cinco estrellas con piscina, spa y programa a bordo, un trayecto en tren nocturno (El Cairo–Asuán, con cena a bordo), un vuelo doméstico Luxor–El Cairo, una salida tradicional en faluca en Asuán, una cena-crucero de despedida en El Cairo, traslados privados climatizados durante todo el viaje, un egiptólogo licenciado de habla hispana en cada visita y pensión completa: estas son las piezas operativas.",
+   "text": "Cinco noches en hoteles cinco estrellas cuidadosamente seleccionados"
+  },
+  {
+   "_key": "n1hkze7vo6",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cinco noches en hoteles cinco estrellas cuidadosamente seleccionados, tres noches en un crucero cinco estrellas con piscina, spa y programa a bordo, un trayecto en tren nocturno (El Cairo–Asuán, con cena a bordo), un vuelo doméstico Luxor–El Cairo, una salida tradicional en faluca en Asuán, una cena-crucero de despedida en El Cairo, traslados privados climatizados durante todo el viaje, un egiptólogo licenciado de habla hispana en cada visita y pensión completa: estas son las piezas operativas.",
+   "text": "Tres noches en un crucero cinco estrellas con piscina, spa y programa a bordo"
+  },
+  {
+   "_key": "004v9l0klq",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cinco noches en hoteles cinco estrellas cuidadosamente seleccionados, tres noches en un crucero cinco estrellas con piscina, spa y programa a bordo, un trayecto en tren nocturno (El Cairo–Asuán, con cena a bordo), un vuelo doméstico Luxor–El Cairo, una salida tradicional en faluca en Asuán, una cena-crucero de despedida en El Cairo, traslados privados climatizados durante todo el viaje, un egiptólogo licenciado de habla hispana en cada visita y pensión completa: estas son las piezas operativas.",
+   "text": "Un trayecto en tren nocturno (El Cairo–Asuán, con cena a bordo)"
+  },
+  {
+   "_key": "48473ngweu",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cinco noches en hoteles cinco estrellas cuidadosamente seleccionados, tres noches en un crucero cinco estrellas con piscina, spa y programa a bordo, un trayecto en tren nocturno (El Cairo–Asuán, con cena a bordo), un vuelo doméstico Luxor–El Cairo, una salida tradicional en faluca en Asuán, una cena-crucero de despedida en El Cairo, traslados privados climatizados durante todo el viaje, un egiptólogo licenciado de habla hispana en cada visita y pensión completa: estas son las piezas operativas.",
+   "text": "Un vuelo doméstico Luxor–El Cairo"
+  },
+  {
+   "_key": "kachh9wkl6",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cinco noches en hoteles cinco estrellas cuidadosamente seleccionados, tres noches en un crucero cinco estrellas con piscina, spa y programa a bordo, un trayecto en tren nocturno (El Cairo–Asuán, con cena a bordo), un vuelo doméstico Luxor–El Cairo, una salida tradicional en faluca en Asuán, una cena-crucero de despedida en El Cairo, traslados privados climatizados durante todo el viaje, un egiptólogo licenciado de habla hispana en cada visita y pensión completa: estas son las piezas operativas.",
+   "text": "Una salida tradicional en faluca en Asuán"
+  },
+  {
+   "_key": "x9005yw8d4",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cinco noches en hoteles cinco estrellas cuidadosamente seleccionados, tres noches en un crucero cinco estrellas con piscina, spa y programa a bordo, un trayecto en tren nocturno (El Cairo–Asuán, con cena a bordo), un vuelo doméstico Luxor–El Cairo, una salida tradicional en faluca en Asuán, una cena-crucero de despedida en El Cairo, traslados privados climatizados durante todo el viaje, un egiptólogo licenciado de habla hispana en cada visita y pensión completa: estas son las piezas operativas.",
+   "text": "Una cena-crucero de despedida en El Cairo"
+  },
+  {
+   "_key": "3gnd2xraym",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cinco noches en hoteles cinco estrellas cuidadosamente seleccionados, tres noches en un crucero cinco estrellas con piscina, spa y programa a bordo, un trayecto en tren nocturno (El Cairo–Asuán, con cena a bordo), un vuelo doméstico Luxor–El Cairo, una salida tradicional en faluca en Asuán, una cena-crucero de despedida en El Cairo, traslados privados climatizados durante todo el viaje, un egiptólogo licenciado de habla hispana en cada visita y pensión completa: estas son las piezas operativas.",
+   "text": "Traslados privados climatizados durante todo el viaje"
+  },
+  {
+   "_key": "rzisd3mjva",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cinco noches en hoteles cinco estrellas cuidadosamente seleccionados, tres noches en un crucero cinco estrellas con piscina, spa y programa a bordo, un trayecto en tren nocturno (El Cairo–Asuán, con cena a bordo), un vuelo doméstico Luxor–El Cairo, una salida tradicional en faluca en Asuán, una cena-crucero de despedida en El Cairo, traslados privados climatizados durante todo el viaje, un egiptólogo licenciado de habla hispana en cada visita y pensión completa: estas son las piezas operativas.",
+   "text": "Un egiptólogo licenciado de habla hispana en cada visita"
+  },
+  {
+   "_key": "zgrvxbkkrj",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cinco noches en hoteles cinco estrellas cuidadosamente seleccionados, tres noches en un crucero cinco estrellas con piscina, spa y programa a bordo, un trayecto en tren nocturno (El Cairo–Asuán, con cena a bordo), un vuelo doméstico Luxor–El Cairo, una salida tradicional en faluca en Asuán, una cena-crucero de despedida en El Cairo, traslados privados climatizados durante todo el viaje, un egiptólogo licenciado de habla hispana en cada visita y pensión completa: estas son las piezas operativas.",
+   "text": "Pensión completa"
+  },
+  {
+   "_key": "yaq1l5154d",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Almuerzo y cena incluidos, sin más exigencias.",
+   "text": "Almuerzo y cena incluidos el primer día"
+  },
+  {
+   "_key": "dfgnr5jp50",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La salida es privada —operada solo para tu grupo, nunca compartida—.",
+   "text": "Salida privada, operada solo para tu grupo"
+  },
+  {
+   "_key": "4e6uglyvy2",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "5つ星ホテル5泊と、プール、スパ、エンタテインメントを備えた5つ星クルーズ船での3泊、車内夕食付きの夜行列車1区間（カイロ→アスワン）、ルクソール—カイロの国内線、アスワンでの伝統的なフェルッカ帆走、カイロでの送別ナイル・ディナークルーズ、全行程の冷房付き専用車両、ライセンスを持つ英語対応のエジプト学ガイド、そして全食——これが運行上の骨格です。",
+   "text": "5つ星ホテル5泊"
+  },
+  {
+   "_key": "ait0ptta9k",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "5つ星ホテル5泊と、プール、スパ、エンタテインメントを備えた5つ星クルーズ船での3泊、車内夕食付きの夜行列車1区間（カイロ→アスワン）、ルクソール—カイロの国内線、アスワンでの伝統的なフェルッカ帆走、カイロでの送別ナイル・ディナークルーズ、全行程の冷房付き専用車両、ライセンスを持つ英語対応のエジプト学ガイド、そして全食——これが運行上の骨格です。",
+   "text": "プール、スパ、エンタテインメントを備えた5つ星クルーズ船での3泊"
+  },
+  {
+   "_key": "4hv1nn4a6u",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "5つ星ホテル5泊と、プール、スパ、エンタテインメントを備えた5つ星クルーズ船での3泊、車内夕食付きの夜行列車1区間（カイロ→アスワン）、ルクソール—カイロの国内線、アスワンでの伝統的なフェルッカ帆走、カイロでの送別ナイル・ディナークルーズ、全行程の冷房付き専用車両、ライセンスを持つ英語対応のエジプト学ガイド、そして全食——これが運行上の骨格です。",
+   "text": "車内夕食付きの夜行列車1区間（カイロ→アスワン）"
+  },
+  {
+   "_key": "kkh5bx3d06",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "5つ星ホテル5泊と、プール、スパ、エンタテインメントを備えた5つ星クルーズ船での3泊、車内夕食付きの夜行列車1区間（カイロ→アスワン）、ルクソール—カイロの国内線、アスワンでの伝統的なフェルッカ帆走、カイロでの送別ナイル・ディナークルーズ、全行程の冷房付き専用車両、ライセンスを持つ英語対応のエジプト学ガイド、そして全食——これが運行上の骨格です。",
+   "text": "ルクソール—カイロの国内線"
+  },
+  {
+   "_key": "vwe7bt174j",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "5つ星ホテル5泊と、プール、スパ、エンタテインメントを備えた5つ星クルーズ船での3泊、車内夕食付きの夜行列車1区間（カイロ→アスワン）、ルクソール—カイロの国内線、アスワンでの伝統的なフェルッカ帆走、カイロでの送別ナイル・ディナークルーズ、全行程の冷房付き専用車両、ライセンスを持つ英語対応のエジプト学ガイド、そして全食——これが運行上の骨格です。",
+   "text": "アスワンでの伝統的なフェルッカ帆走"
+  },
+  {
+   "_key": "zssrdutsr9",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "5つ星ホテル5泊と、プール、スパ、エンタテインメントを備えた5つ星クルーズ船での3泊、車内夕食付きの夜行列車1区間（カイロ→アスワン）、ルクソール—カイロの国内線、アスワンでの伝統的なフェルッカ帆走、カイロでの送別ナイル・ディナークルーズ、全行程の冷房付き専用車両、ライセンスを持つ英語対応のエジプト学ガイド、そして全食——これが運行上の骨格です。",
+   "text": "カイロでの送別ナイル・ディナークルーズ"
+  },
+  {
+   "_key": "6jy2j1ylqg",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "5つ星ホテル5泊と、プール、スパ、エンタテインメントを備えた5つ星クルーズ船での3泊、車内夕食付きの夜行列車1区間（カイロ→アスワン）、ルクソール—カイロの国内線、アスワンでの伝統的なフェルッカ帆走、カイロでの送別ナイル・ディナークルーズ、全行程の冷房付き専用車両、ライセンスを持つ英語対応のエジプト学ガイド、そして全食——これが運行上の骨格です。",
+   "text": "全行程の冷房付き専用車両"
+  },
+  {
+   "_key": "e029jk8lp0",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "5つ星ホテル5泊と、プール、スパ、エンタテインメントを備えた5つ星クルーズ船での3泊、車内夕食付きの夜行列車1区間（カイロ→アスワン）、ルクソール—カイロの国内線、アスワンでの伝統的なフェルッカ帆走、カイロでの送別ナイル・ディナークルーズ、全行程の冷房付き専用車両、ライセンスを持つ英語対応のエジプト学ガイド、そして全食——これが運行上の骨格です。",
+   "text": "ライセンスを持つ英語対応のエジプト学ガイド"
+  },
+  {
+   "_key": "sujkyw9c17",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "5つ星ホテル5泊と、プール、スパ、エンタテインメントを備えた5つ星クルーズ船での3泊、車内夕食付きの夜行列車1区間（カイロ→アスワン）、ルクソール—カイロの国内線、アスワンでの伝統的なフェルッカ帆走、カイロでの送別ナイル・ディナークルーズ、全行程の冷房付き専用車両、ライセンスを持つ英語対応のエジプト学ガイド、そして全食——これが運行上の骨格です。",
+   "text": "全食"
+  },
+  {
+   "_key": "eggujf6ljg",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "完全プライベートの催行で、相乗りは一切ありません。",
+   "text": "完全プライベートの催行"
+  },
+  {
+   "_key": "1gt6x63kzc",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "カイロ国際空港でお出迎えしてホテルへお送りし、昼食と夕食をご用意します。",
+   "text": "カイロ国際空港でのお出迎えとホテルへの送迎"
+  },
+  {
+   "_key": "r1n5xqwhp9",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "到着後はドライバーがお出迎えし、その夜のホテルへお送りします。",
+   "text": "カイロ到着後のドライバーお出迎えとホテルへの送迎"
+  },
+  {
+   "_key": "l5dhe7tf4e",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "朝食ののちカイロ国際空港へお送りします。",
+   "text": "カイロ国際空港へのお見送り"
+  }
+ ],
+ "itineraryDays": [
+  {
+   "_key": "i956sgnqvm",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": false,
+   "source": "You are met at Cairo International Airport and transferred to your hotel.",
+   "title": "Arrival in Cairo"
+  },
+  {
+   "_key": "rowxn6c9st",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": false,
+   "source": "The night is spent again at your Cairo hotel.",
+   "title": "Giza pyramids, Sphinx and Egyptian Museum"
+  },
+  {
+   "_key": "he2plmt12y",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Sleeper train",
+   "overnightNeedsReview": false,
+   "source": "In the evening you board the overnight train to Aswan, with dinner served onboard.",
+   "title": "Citadel, Khan el-Khalili, overnight train"
+  },
+  {
+   "_key": "yvqde8qrch",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Aswan hotel",
+   "overnightNeedsReview": false,
+   "source": "Tonight is spent in a hotel in Aswan; the cruise boards tomorrow morning.",
+   "title": "High Dam, Unfinished Obelisk, Philae Temple"
+  },
+  {
+   "_key": "b61w92bcd2",
+   "_type": "itineraryDay",
+   "day": 5,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cruise",
+   "overnightNeedsReview": false,
+   "source": "The cruise will carry you for three nights; this first afternoon is for settling into it.",
+   "title": "Board your Nile cruise"
+  },
+  {
+   "_key": "zo8mv9c5su",
+   "_type": "itineraryDay",
+   "day": 6,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cruise",
+   "overnightNeedsReview": false,
+   "source": "Dinner is taken onboard as the cruise continues toward Luxor.",
+   "title": "Kom Ombo and Edfu"
+  },
+  {
+   "_key": "tkae6d59ay",
+   "_type": "itineraryDay",
+   "day": 7,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cruise",
+   "overnightNeedsReview": false,
+   "source": "In the evening there is free time aboard the cruise or in the town, with the West Bank's limestone cliffs going gold across the water at dusk.",
+   "title": "Luxor East Bank: Karnak, Luxor Temple"
+  },
+  {
+   "_key": "afr8bzxmui",
+   "_type": "itineraryDay",
+   "day": 8,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": false,
+   "source": "In the afternoon you disembark and transfer to Luxor Airport for the short domestic flight back to Cairo, where your driver meets you and takes you to your hotel for the night.",
+   "title": "West Bank, flight back to Cairo"
+  },
+  {
+   "_key": "8z1ij405n4",
+   "_type": "itineraryDay",
+   "day": 9,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": false,
+   "source": "The night is spent at your Cairo hotel.",
+   "title": "Memphis, Saqqara, Dahshur and dinner cruise"
+  },
+  {
+   "_key": "6awfxr2qc0",
+   "_type": "itineraryDay",
+   "day": 10,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": false,
+   "source": "Day ten is the departure: a final breakfast and the transfer to Cairo International Airport, with later flights giving room for additional arrangements so the last hours in Egypt are not spent in a terminal.",
+   "title": "Departure"
+  },
+  {
+   "_key": "5mfbeec8h2",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "El Cairo",
+   "overnightNeedsReview": true,
+   "source": "Recibimos al viajero en el Aeropuerto Internacional de El Cairo y lo trasladamos al hotel.",
+   "title": "Recepción en el aeropuerto de El Cairo"
+  },
+  {
+   "_key": "omye20vzkk",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "El Cairo",
+   "overnightNeedsReview": true,
+   "source": "La noche se pasa de nuevo en el hotel de El Cairo.",
+   "title": "Guiza y Museo Egipcio de Tahrir"
+  },
+  {
+   "_key": "4ummlcc9on",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Tren nocturno",
+   "overnightNeedsReview": true,
+   "source": "Por la noche se embarca el tren nocturno a Asuán, con cena a bordo.",
+   "title": "Ciudadela, Jan el-Jalili y tren nocturno"
+  },
+  {
+   "_key": "9g84a13743",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Asuán",
+   "overnightNeedsReview": true,
+   "source": "Esta noche se pasa en un hotel de Asuán; el crucero se embarca mañana por la mañana.",
+   "title": "Presa Alta, obelisco inacabado y File"
+  },
+  {
+   "_key": "7dktvc0oeb",
+   "_type": "itineraryDay",
+   "day": 5,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Crucero por el Nilo",
+   "overnightNeedsReview": true,
+   "source": "Tras el desayuno se embarca el crucero por el Nilo —un barco con cubierta de piscina, spa y programa a bordo, que se mueve al ritmo del río—.",
+   "title": "Embarque en el crucero por el Nilo"
+  },
+  {
+   "_key": "tzm4mohe71",
+   "_type": "itineraryDay",
+   "day": 6,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Crucero por el Nilo",
+   "overnightNeedsReview": true,
+   "source": "La cena se sirve a bordo mientras el crucero continúa hacia Luxor.",
+   "title": "Kom Ombo y Edfu"
+  },
+  {
+   "_key": "g2b8nerc7y",
+   "_type": "itineraryDay",
+   "day": 7,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Crucero por el Nilo",
+   "overnightNeedsReview": true,
+   "source": "El séptimo día el crucero llega a Luxor —la antigua Tebas, capital religiosa del Imperio Nuevo— y la jornada se dedica a la orilla oriental.",
+   "title": "Luxor: Karnak y la orilla oriental"
+  },
+  {
+   "_key": "0e64fx6tln",
+   "_type": "itineraryDay",
+   "day": 8,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "El Cairo",
+   "overnightNeedsReview": true,
+   "source": "Por la tarde, desembarque y traslado al aeropuerto de Luxor para el breve vuelo doméstico de regreso a El Cairo, donde su conductor le recibe y le lleva al hotel para pasar la noche.",
+   "title": "Orilla occidental y vuelo a El Cairo"
+  },
+  {
+   "_key": "f3u6rkigng",
+   "_type": "itineraryDay",
+   "day": 9,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "El Cairo",
+   "overnightNeedsReview": true,
+   "source": "La noche se pasa en el hotel de El Cairo.",
+   "title": "Menfis, Saqqara y cena-crucero en El Cairo"
+  },
+  {
+   "_key": "bloosf1bl5",
+   "_type": "itineraryDay",
+   "day": 10,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "El décimo día es la salida: último desayuno y traslado al Aeropuerto Internacional de El Cairo, con vuelos posteriores que dejan margen para añadir alguna cosa más, de modo que las últimas horas en Egipto no se pasen en una terminal.",
+   "title": "Salida desde El Cairo"
+  },
+  {
+   "_key": "4yst8z1rm2",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "カイロ",
+   "overnightNeedsReview": true,
+   "source": "カイロ国際空港でお出迎えしてホテルへお送りし、昼食と夕食をご用意します。",
+   "title": "カイロ——旅の入口"
+  },
+  {
+   "_key": "zuwbsup8pu",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "カイロ",
+   "overnightNeedsReview": true,
+   "source": "この夜もカイロのホテルに宿泊します。",
+   "title": "ギザのピラミッドとエジプト考古学博物館"
+  },
+  {
+   "_key": "1y4egnhv1o",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "夜行列車",
+   "overnightNeedsReview": true,
+   "source": "夕刻、アスワン行きの夜行列車に乗車し、車内で夕食をお召し上がりいただきます。",
+   "title": "サラディン城塞とハーン・ハリーリ、夜行列車"
+  },
+  {
+   "_key": "2oh9lodkix",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "アスワン",
+   "overnightNeedsReview": true,
+   "source": "今夜はアスワンのホテルに宿泊し、クルーズへの乗船は翌朝です。",
+   "title": "アスワン——南の到着"
+  },
+  {
+   "_key": "2ikazpi8wn",
+   "_type": "itineraryDay",
+   "day": 5,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "ナイル・クルーズ",
+   "overnightNeedsReview": true,
+   "source": "朝食ののち、ナイル・クルーズに乗船します——プールデッキ、スパ、船内エンタテインメントを備えた船で、川のペースで進みます。",
+   "title": "ナイル・クルーズに乗船"
+  },
+  {
+   "_key": "tbeg2om99l",
+   "_type": "itineraryDay",
+   "day": 6,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "ナイル・クルーズ",
+   "overnightNeedsReview": true,
+   "source": "クルーズはルクソールへ向かい、夕食は船上で。",
+   "title": "川の日々——コム・オンボとエドフ"
+  },
+  {
+   "_key": "yvhjto8est",
+   "_type": "itineraryDay",
+   "day": 7,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "ナイル・クルーズ",
+   "overnightNeedsReview": true,
+   "source": "七日目、クルーズはルクソール——古代テーベ、新王国の宗教的首都——に到着し、この日は東岸に充てます。",
+   "title": "ルクソール東岸、カルナックとルクソール神殿"
+  },
+  {
+   "_key": "5qf4jim3fz",
+   "_type": "itineraryDay",
+   "day": 8,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "カイロ",
+   "overnightNeedsReview": true,
+   "source": "午後は下船してルクソール空港へ向かい、国内線の短いフライトでカイロへ戻ります。",
+   "title": "西岸と国内線でカイロへ"
+  },
+  {
+   "_key": "zw0x44qsul",
+   "_type": "itineraryDay",
+   "day": 9,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "カイロ",
+   "overnightNeedsReview": true,
+   "source": "その夜もカイロのホテルに宿泊します。",
+   "title": "メンフィス、サッカラとナイル・ディナークルーズ"
+  },
+  {
+   "_key": "noyi7khqci",
+   "_type": "itineraryDay",
+   "day": 10,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "10日目は出発日です。",
+   "title": "出発日"
+  }
+ ],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/10-days-nile-dreamer-tour-experience/"
+ },
+ "priceFrom": 2210,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_86857",
+   "_ref": "wp-page-86857",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_87255",
+   "_ref": "wp-page-87255",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_156539",
+   "_ref": "wp-page-156539",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_89005",
+   "_ref": "wp-page-89005",
+   "_type": "reference"
+  }
+ ],
+ "routeLegs": [
+  {
+   "_key": "8siwnirqwr",
+   "_type": "routeLeg",
+   "from": "Cairo",
+   "lang": "en",
+   "mode": "sleeper_train",
+   "needsReview": true,
+   "nights": 1,
+   "source": "In the evening you board the overnight train to Aswan, with dinner served onboard. … Duration · 10 days / 9 nights — 5 hotel nights + 1 sleeper-train night + 3 cruise nights",
+   "to": "Aswan",
+   "via": []
+  },
+  {
+   "_key": "65n737av6y",
+   "_type": "routeLeg",
+   "from": "Aswan",
+   "lang": "en",
+   "mode": "nile_cruise",
+   "needsReview": true,
+   "nights": 3,
+   "source": "This itinerary moves south from Cairo to Aswan by overnight train, boards a Nile cruise for three nights, sails north through Kom Ombo and Edfu to Luxor, and then returns to Cairo by flight to close.",
+   "to": "Luxor",
+   "via": [
+    "Kom Ombo",
+    "Edfu"
+   ]
+  },
+  {
+   "_key": "qdbu73yqr2",
+   "_type": "routeLeg",
+   "from": "Luxor",
+   "lang": "en",
+   "mode": "flight",
+   "needsReview": true,
+   "source": "In the afternoon you disembark and transfer to Luxor Airport for the short domestic flight back to Cairo, where your driver meets you and takes you to your hotel for the night.",
+   "to": "Cairo",
+   "via": []
+  },
+  {
+   "_key": "n75inugbyt",
+   "_type": "routeLeg",
+   "from": "El Cairo",
+   "lang": "es",
+   "mode": "sleeper_train",
+   "needsReview": true,
+   "nights": 1,
+   "source": "Dónde · El Cairo → (tren nocturno) → Asuán → Kom Ombo → Edfu → Luxor → (vuelo) → El Cairo (con Menfis, Saqqara y Dahshur en el cierre) … La ruta desciende de El Cairo a Asuán en tren nocturno, sube de nuevo a bordo de un crucero durante tres noches por Kom Ombo y Edfu hasta Luxor y regresa a la capital en avión.",
+   "to": "Asuán",
+   "via": []
+  },
+  {
+   "_key": "0xl211gnu4",
+   "_type": "routeLeg",
+   "from": "Asuán",
+   "lang": "es",
+   "mode": "nile_cruise",
+   "needsReview": true,
+   "nights": 3,
+   "source": "Dónde · El Cairo → (tren nocturno) → Asuán → Kom Ombo → Edfu → Luxor → (vuelo) → El Cairo (con Menfis, Saqqara y Dahshur en el cierre) … La ruta desciende de El Cairo a Asuán en tren nocturno, sube de nuevo a bordo de un crucero durante tres noches por Kom Ombo y Edfu hasta Luxor y regresa a la capital en avión.",
+   "to": "Luxor",
+   "via": [
+    "Kom Ombo",
+    "Edfu"
+   ]
+  },
+  {
+   "_key": "6bd5uwdffg",
+   "_type": "routeLeg",
+   "from": "Luxor",
+   "lang": "es",
+   "mode": "flight",
+   "needsReview": true,
+   "source": "Dónde · El Cairo → (tren nocturno) → Asuán → Kom Ombo → Edfu → Luxor → (vuelo) → El Cairo (con Menfis, Saqqara y Dahshur en el cierre) … Por la tarde, desembarque y traslado al aeropuerto de Luxor para el breve vuelo doméstico de regreso a El Cairo, donde su conductor le recibe y le lleva al hotel para pasar la noche.",
+   "to": "El Cairo",
+   "via": []
+  },
+  {
+   "_key": "0n1tmu7ec3",
+   "_type": "routeLeg",
+   "from": "カイロ",
+   "lang": "ja",
+   "mode": "sleeper_train",
+   "needsReview": true,
+   "nights": 1,
+   "source": "ルート · カイロ →（寝台列車）→ アスワン → コム・オンボ → エドフ → ルクソール →（国内線）→ カイロ（締めにメンフィス、サッカラ、ダハシュール） … カイロは車で、カイロからアスワンは寝台列車で、アスワンからルクソールは3泊のクルーズで、そしてルクソールからカイロは国内線で。",
+   "to": "アスワン",
+   "via": []
+  },
+  {
+   "_key": "r462wyhleg",
+   "_type": "routeLeg",
+   "from": "アスワン",
+   "lang": "ja",
+   "mode": "nile_cruise",
+   "needsReview": true,
+   "nights": 3,
+   "source": "ルート · カイロ →（寝台列車）→ アスワン → コム・オンボ → エドフ → ルクソール →（国内線）→ カイロ（締めにメンフィス、サッカラ、ダハシュール） … 行程はカイロから夜行列車でアスワンへ南下し、3泊のナイル・クルーズに乗り換え、コム・オンボとエドフを経て北上しルクソールへ。",
+   "to": "ルクソール",
+   "via": [
+    "コム・オンボ",
+    "エドフ"
+   ]
+  },
+  {
+   "_key": "ztevm8zrih",
+   "_type": "routeLeg",
+   "from": "ルクソール",
+   "lang": "ja",
+   "mode": "flight",
+   "needsReview": true,
+   "source": "ルート · カイロ →（寝台列車）→ アスワン → コム・オンボ → エドフ → ルクソール →（国内線）→ カイロ（締めにメンフィス、サッカラ、ダハシュール） … ルクソールから国内線でカイロへ戻って締めくくります。",
+   "to": "カイロ",
+   "via": []
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "10-days-nile-dreamer-tour-experience"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "nile-dreamer-10-dias-con-el-nilo-como-eje-del-viaje"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "nairudorima-10-nichikan-kairo-asuwan-nairu-gawa-kuruzu"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "Ten private days that take the Nile as the throughline — Cairo, the sleeper train south, three nights cruising from Aswan to Luxor, the Theban temples, and the flight back to Cairo to close."
+  },
+  {
+   "_key": "es",
+   "value": "Diez días privados con el Nilo como hilo conductor: El Cairo, tren nocturno al sur, tres noches de crucero entre Asuán y Luxor, y regreso a la capital en avión para cerrar."
+  },
+  {
+   "_key": "ja",
+   "value": "ナイルを「移動手段」ではなく旅の背骨として捉える、プライベートな10日間。カイロから寝台列車で南へ、アスワンからルクソールまで3泊の川旅、そして国内線で北のカイロへ戻る。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-egypt-on-the-go",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "value": "10-Day Nile Dreamer Tour: Cairo, Aswan, a Nile Cruise, and Luxor"
+  },
+  {
+   "_key": "es",
+   "value": "Nile Dreamer: 10 días con el Nilo como eje del viaje"
+  },
+  {
+   "_key": "ja",
+   "value": "ナイル・ドリーマー10日間：カイロ、アスワン、ナイル川クルーズ、ルクソール"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}

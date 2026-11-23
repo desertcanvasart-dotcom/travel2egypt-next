@@ -1,0 +1,1367 @@
+{
+ "_createdAt": "2026-04-27T21:39:23Z",
+ "_id": "wp-post-144398-es",
+ "_rev": "FUEkhWHvgd2WF4Ii2rPaZP",
+ "_type": "article",
+ "_updatedAt": "2026-11-09T18:00:55Z",
+ "author": {
+  "_ref": "author-legacy-archive",
+  "_type": "reference"
+ },
+ "body": [
+  {
+   "_key": "000000000001",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000000",
+     "_type": "span",
+     "marks": [],
+     "text": "Los museos de Egipto no son solo lugares donde ver objetos famosos."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000003",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000002",
+     "_type": "span",
+     "marks": [],
+     "text": "Por supuesto, hay tesoros capaces de justificar una visita por sí solos: máscaras funerarias, estatuas colosales, momias reales, ataúdes pintados, retratos de Fayum, manuscritos coptos, metalistería mameluca y piezas que han definido la imagen mundial del antiguo Egipto. Pero lo más interesante aparece cuando se entiende que cada museo cumple una función distinta."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000005",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "8rhplxaafxbd",
+     "_type": "span",
+     "marks": [],
+     "text": "El Gran Museo Egipcio cuenta la gran historia faraónica junto a las pirámides. El NMEC muestra la continuidad de la civilización egipcia desde la prehistoria hasta la época moderna. El Museo Egipcio de Tahrir conserva la memoria de la egiptología y de la museografía del siglo XX. "
+    },
+    {
+     "_key": "l9n5tzhc8u1v",
+     "_type": "span",
+     "marks": [
+      "dcj67pxs2zdf"
+     ],
+     "text": "El Museo de Luxor"
+    },
+    {
+     "_key": "jt9l0s93e3vw",
+     "_type": "span",
+     "marks": [],
+     "text": " permite leer Tebas con calma. "
+    },
+    {
+     "_key": "1d8qpnt7efax",
+     "_type": "span",
+     "marks": [
+      "91y290c6cokw"
+     ],
+     "text": "El Museo Nubio"
+    },
+    {
+     "_key": "va01zy98rgmt",
+     "_type": "span",
+     "marks": [],
+     "text": " explica el sur del Nilo y una memoria parcialmente sumergida. "
+    },
+    {
+     "_key": "zgrk2tfii002",
+     "_type": "span",
+     "marks": [
+      "uamy3sikk1h6"
+     ],
+     "text": "El Museo Copto"
+    },
+    {
+     "_key": "85p2reghikt1",
+     "_type": "span",
+     "marks": [],
+     "text": " y "
+    },
+    {
+     "_key": "eg3rggl4ml42",
+     "_type": "span",
+     "marks": [
+      "qmgx8m46uy9n"
+     ],
+     "text": "el Museo de Arte Islámico"
+    },
+    {
+     "_key": "56zbhpb3nqws",
+     "_type": "span",
+     "marks": [],
+     "text": " recuerdan que Egipto no termina con los faraones."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "dcj67pxs2zdf",
+     "_type": "internalLink",
+     "reference": {
+      "_ref": "guideArticle.luxor.the-luxor-museum",
+      "_type": "reference"
+     }
+    },
+    {
+     "_key": "91y290c6cokw",
+     "_type": "internalLink",
+     "reference": {
+      "_ref": "guideArticle.aswan.the-nubian-museum",
+      "_type": "reference"
+     }
+    },
+    {
+     "_key": "uamy3sikk1h6",
+     "_type": "internalLink",
+     "reference": {
+      "_ref": "guideArticle.cairo.the-coptic-museum",
+      "_type": "reference"
+     }
+    },
+    {
+     "_key": "qmgx8m46uy9n",
+     "_type": "internalLink",
+     "reference": {
+      "_ref": "guideArticle.cairo.museum-of-islamic-art",
+      "_type": "reference"
+     }
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000007",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000006",
+     "_type": "span",
+     "marks": [],
+     "text": "Un solo museo no puede explicar todo el país."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000009",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000008",
+     "_type": "span",
+     "marks": [],
+     "text": "Por eso conviene elegir por función, no solo por fama."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000000b",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000000a",
+     "_type": "span",
+     "marks": [],
+     "text": "Gran Museo Egipcio"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "00000000000d",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "lkxv6x81h40c",
+     "_type": "span",
+     "marks": [],
+     "text": "El Gran Museo Egipcio, en "
+    },
+    {
+     "_key": "gozzlg0dz02r",
+     "_type": "span",
+     "marks": [
+      "k5bfz7n9yzea"
+     ],
+     "text": "Guiza"
+    },
+    {
+     "_key": "rxfvykun9cps",
+     "_type": "span",
+     "marks": [],
+     "text": ", es una de las visitas museísticas centrales del Egipto actual."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "k5bfz7n9yzea",
+     "_type": "internalLink",
+     "reference": {
+      "_ref": "wp-page-58854",
+      "_type": "reference"
+     }
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000000f",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000000e",
+     "_type": "span",
+     "marks": [],
+     "text": "Su ubicación, cerca de las pirámides, no es un detalle menor. El edificio fue concebido para presentar grandes colecciones del antiguo Egipto en una escala nueva, con espacio para piezas monumentales y para conjuntos que antes se veían de forma más fragmentada."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000011",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000010",
+     "_type": "span",
+     "marks": [],
+     "text": "El caso más evidente es Tutankamón. Más que buscar únicamente la máscara de oro, la visita permite entender el ajuar funerario como un universo completo: objetos rituales, muebles, carros, cofres, joyería, símbolos de poder y detalles íntimos de una tumba que, aunque pequeña para la realeza egipcia, cambió la imaginación moderna sobre el antiguo Egipto."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000013",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000012",
+     "_type": "span",
+     "marks": [],
+     "text": "No conviene subestimar el tiempo. El museo es grande, las distancias internas pesan y la cantidad de información puede saturar. Si el antiguo Egipto es una prioridad del viaje, reserva al menos varias horas; si además quieres combinarlo con las pirámides de Guiza el mismo día, piensa en el cansancio, el calor y los traslados."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000015",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000014",
+     "_type": "span",
+     "marks": [],
+     "text": "Una fórmula realista es visitar las pirámides temprano y dejar el museo para después, sobre todo en meses calurosos. La combinación funciona, pero no debe tratarse como una mañana ligera."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000017",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000016",
+     "_type": "span",
+     "marks": [],
+     "text": "Para entradas, horarios y posibles cambios de acceso, lo prudente es usar el canal oficial del museo antes de viajar. En una institución tan nueva y de esta escala, la operación de visita puede ajustarse con el tiempo."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000019",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000018",
+     "_type": "span",
+     "marks": [],
+     "text": "NMEC"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "00000000001b",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "kc1fft7aho1r",
+     "_type": "span",
+     "marks": [
+      "akl0savtqs11"
+     ],
+     "text": "El Museo Nacional"
+    },
+    {
+     "_key": "p1jhiq3n7bsc",
+     "_type": "span",
+     "marks": [],
+     "text": " de la Civilización Egipcia, NMEC, tiene una función distinta."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "akl0savtqs11",
+     "_type": "internalLink",
+     "reference": {
+      "_ref": "guideArticle.alexandria.alexandria-national-museum",
+      "_type": "reference"
+     }
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000001d",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000001c",
+     "_type": "span",
+     "marks": [],
+     "text": "No está pensado solo como museo faraónico. Su argumento es la continuidad: prehistoria, Egipto antiguo, periodos grecorromano, copto e islámico, y etapas más recientes de la historia del país."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000001f",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000001e",
+     "_type": "span",
+     "marks": [],
+     "text": "La sala de las momias reales es la visita más conocida. Allí, reyes y reinas que muchas personas conocen por nombre histórico aparecen de pronto como cuerpos humanos preservados. Ramsés II, Hatshepsut, Seti I y otros gobernantes dejan de ser solo figuras de templo o de libro."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000021",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000020",
+     "_type": "span",
+     "marks": [],
+     "text": "Esa experiencia exige una mirada respetuosa. Las momias no son una curiosidad macabra ni una atracción de feria. Son restos humanos, presentados dentro de una política de conservación, investigación y dignidad. Si hay restricciones de fotografía o indicaciones específicas de sala, conviene seguirlas sin discutir."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000023",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000022",
+     "_type": "span",
+     "marks": [],
+     "text": "El NMEC merece medio día si se quiere leer bien. Frente al Gran Museo Egipcio, que concentra la gran colección faraónica, el NMEC ayuda a entender Egipto como una civilización de muchas capas. Ver ambos cambia mucho la lectura del país."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000025",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000024",
+     "_type": "span",
+     "marks": [],
+     "text": "Museo Egipcio de Tahrir"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "000000000027",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000026",
+     "_type": "span",
+     "marks": [],
+     "text": "El Museo Egipcio de la plaza Tahrir ya no cumple exactamente el mismo papel que tuvo durante más de un siglo."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000029",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "pglcenhw1v9c",
+     "_type": "span",
+     "marks": [],
+     "text": "Abierto en 1902, fue durante décadas el gran museo del antiguo Egipto en "
+    },
+    {
+     "_key": "53vu7e9p34k5",
+     "_type": "span",
+     "marks": [
+      "0i8pm2pate04"
+     ],
+     "text": "El Cairo"
+    },
+    {
+     "_key": "navdwfu7byvs",
+     "_type": "span",
+     "marks": [],
+     "text": ". Allí se acumularon estatuas, sarcófagos, joyas, papiros, ajuares funerarios y algunas de las piezas más conocidas de la egiptología moderna. Con los traslados hacia el Gran Museo Egipcio y el NMEC, parte de esa función se ha redistribuido."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "0i8pm2pate04",
+     "_type": "internalLink",
+     "reference": {
+      "_ref": "wp-page-83284",
+      "_type": "reference"
+     }
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000002b",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000002a",
+     "_type": "span",
+     "marks": [],
+     "text": "Eso no significa que Tahrir haya perdido interés."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000002d",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000002c",
+     "_type": "span",
+     "marks": [],
+     "text": "Su valor está cambiando. El edificio permite entender cómo se exhibía el antiguo Egipto en el siglo XX, cómo se formaron las colecciones, cómo creció la egiptología como disciplina y cómo una ciudad moderna colocó su pasado faraónico en el centro simbólico de la capital."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000002f",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000002e",
+     "_type": "span",
+     "marks": [],
+     "text": "Si lo visitas, no lo pienses como sustituto directo del Gran Museo Egipcio. Es mejor verlo como un museo con memoria propia: un lugar donde la historia de los objetos se cruza con la historia de cómo Egipto decidió mostrarlos."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000031",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000030",
+     "_type": "span",
+     "marks": [],
+     "text": "Antes de organizar una visita específica por una sala concreta, conviene comprobar qué galerías y colecciones están accesibles."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000033",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "2ay1agterh6e",
+     "_type": "span",
+     "marks": [],
+     "text": "Museo de "
+    },
+    {
+     "_key": "j0elink1uy51",
+     "_type": "span",
+     "marks": [
+      "mrhet8hcvwlv"
+     ],
+     "text": "Luxor"
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "mrhet8hcvwlv",
+     "_type": "internalLink",
+     "reference": {
+      "_ref": "wp-page-58877",
+      "_type": "reference"
+     }
+    }
+   ],
+   "style": "h2"
+  },
+  {
+   "_key": "000000000035",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000034",
+     "_type": "span",
+     "marks": [],
+     "text": "El Museo de Luxor es una de las instituciones más fáciles de recomendar en Egipto."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000037",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000036",
+     "_type": "span",
+     "marks": [],
+     "text": "No compite por tamaño. Compite por selección. En vez de llenar sala tras sala con piezas, presenta una colección más contenida, con buena iluminación, espacio y una relación directa con la antigua Tebas."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000039",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "tyzazib86qj3",
+     "_type": "span",
+     "marks": [],
+     "text": "Ese vínculo con el lugar es lo esencial. Después de caminar por Karnak, "
+    },
+    {
+     "_key": "fn9ksscxfi5p",
+     "_type": "span",
+     "marks": [
+      "ic8d3oblm06w"
+     ],
+     "text": "el templo de Luxor"
+    },
+    {
+     "_key": "yhndcf59rern",
+     "_type": "span",
+     "marks": [],
+     "text": " o "
+    },
+    {
+     "_key": "gj0uhali3dmx",
+     "_type": "span",
+     "marks": [
+      "ccj3chvdc6vd"
+     ],
+     "text": "el Valle de los Reyes"
+    },
+    {
+     "_key": "nc4sf8hlkvwt",
+     "_type": "span",
+     "marks": [],
+     "text": ", las esculturas, relieves y objetos del museo dejan de parecer piezas aisladas. Empiezan a funcionar como una forma de ordenar lo visto en la ciudad."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "ic8d3oblm06w",
+     "_type": "internalLink",
+     "reference": {
+      "_ref": "guideArticle.luxor.the-luxor-temple",
+      "_type": "reference"
+     }
+    },
+    {
+     "_key": "ccj3chvdc6vd",
+     "_type": "internalLink",
+     "reference": {
+      "_ref": "guideArticle.luxor.valley-of-the-kings",
+      "_type": "reference"
+     }
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000003b",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000003a",
+     "_type": "span",
+     "marks": [],
+     "text": "Las obras asociadas al Reino Nuevo, a Amenhotep III, a Horemheb y a los hallazgos procedentes del templo de Luxor dejan una impresión fuerte incluso en una visita breve."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000003d",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000003c",
+     "_type": "span",
+     "marks": [],
+     "text": "Si en Luxor solo quieres añadir un museo al itinerario, este suele ser la elección más equilibrada. No agota, no dispersa y ayuda a mirar mejor los templos y tumbas."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000003f",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000003e",
+     "_type": "span",
+     "marks": [],
+     "text": "Museo de la Momificación"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "000000000041",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000040",
+     "_type": "span",
+     "marks": [],
+     "text": "El Museo de la Momificación, también en Luxor, es pequeño y muy claro en su propósito."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000043",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000042",
+     "_type": "span",
+     "marks": [],
+     "text": "Su tema no es la muerte como espectáculo, sino la momificación como parte de una visión religiosa del cuerpo y del más allá. Natrón, vendas, amuletos, vasos canopos, herramientas y momias animales ayudan a entender que conservar el cuerpo no era un gesto técnico aislado, sino una condición para la continuidad de la persona."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000045",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000044",
+     "_type": "span",
+     "marks": [],
+     "text": "La visita funciona especialmente bien antes o después del Valle de los Reyes, o en combinación con la sala de momias reales del NMEC. No requiere mucho tiempo, pero llena un vacío que los museos más grandes no siempre explican con tanta concentración."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000047",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000046",
+     "_type": "span",
+     "marks": [],
+     "text": "Para familias o viajeros que necesitan una pausa entre templos, puede ser una parada muy eficaz."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000049",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000048",
+     "_type": "span",
+     "marks": [],
+     "text": "Museo Nubio"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "00000000004b",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "583pw8gw1z2r",
+     "_type": "span",
+     "marks": [],
+     "text": "En "
+    },
+    {
+     "_key": "wuhrgqtd1ebt",
+     "_type": "span",
+     "marks": [
+      "kpvae99cp0xw"
+     ],
+     "text": "Asuán"
+    },
+    {
+     "_key": "34kr9or6z6s4",
+     "_type": "span",
+     "marks": [],
+     "text": ", el Museo Nubio no debería tratarse como un añadido menor."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "kpvae99cp0xw",
+     "_type": "internalLink",
+     "reference": {
+      "_ref": "wp-page-58758",
+      "_type": "reference"
+     }
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000004d",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000004c",
+     "_type": "span",
+     "marks": [],
+     "text": "Nubia no es simplemente \"el sur de Egipto\". Es una región con lenguas, reinos, rutas comerciales, arquitectura y memoria propias. En algunos periodos, los gobernantes nubios llegaron a controlar Egipto; en otros, Nubia fue frontera, corredor, rival y territorio sometido a presión política."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000004f",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "qo9die5f6mak",
+     "_type": "span",
+     "marks": [],
+     "text": "El museo también habla de una pérdida moderna. La construcción de "
+    },
+    {
+     "_key": "vhvvvg6o8xdx",
+     "_type": "span",
+     "marks": [
+      "p6fn3koj6ecv"
+     ],
+     "text": "la presa alta de Asuán"
+    },
+    {
+     "_key": "6m84sd029bmx",
+     "_type": "span",
+     "marks": [],
+     "text": " y la creación del lago Nasser cambiaron profundamente el paisaje nubio. Templos como "
+    },
+    {
+     "_key": "7437y95r09sd",
+     "_type": "span",
+     "marks": [
+      "o8pekfhthhjh"
+     ],
+     "text": "Abu Simbel"
+    },
+    {
+     "_key": "uofk9oqx27wj",
+     "_type": "span",
+     "marks": [],
+     "text": " y Filae fueron trasladados, pero muchas aldeas, lugares y formas de vida no podían moverse del mismo modo."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "p6fn3koj6ecv",
+     "_type": "internalLink",
+     "reference": {
+      "_ref": "wp-page-59236",
+      "_type": "reference"
+     }
+    },
+    {
+     "_key": "o8pekfhthhjh",
+     "_type": "internalLink",
+     "reference": {
+      "_ref": "wp-page-56813",
+      "_type": "reference"
+     }
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000051",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000050",
+     "_type": "span",
+     "marks": [],
+     "text": "Por eso el Museo Nubio no es solo arqueológico. Es también un museo de memoria. Reúne materiales prehistóricos, piezas de reinos nubios, objetos de periodos islámicos y modernos, reconstrucciones de vida cotidiana y una arquitectura que dialoga con el paisaje de Asuán."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000053",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000052",
+     "_type": "span",
+     "marks": [],
+     "text": "Si en Asuán solo se visitan Filae y Abu Simbel, la comprensión del sur queda incompleta. El Museo Nubio da contexto a lo que se salvó, a lo que se perdió y a lo que sigue vivo."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000055",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000054",
+     "_type": "span",
+     "marks": [],
+     "text": "Museo Copto"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "000000000057",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000056",
+     "_type": "span",
+     "marks": [],
+     "text": "El Museo Copto, en el Cairo antiguo, es fundamental para no reducir Egipto a una secuencia de faraones y califas."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000059",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000058",
+     "_type": "span",
+     "marks": [],
+     "text": "Durante siglos, Egipto fue también un país mayoritariamente cristiano. Esa etapa produjo iglesias, manuscritos, textiles, madera tallada, relieves, iconos y objetos litúrgicos que no son una nota al pie, sino una parte central de la historia egipcia."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000005b",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "ts05g8gyjema",
+     "_type": "span",
+     "marks": [],
+     "text": "La ubicación del museo ayuda. Está cerca de la fortaleza de Babilonia, de "
+    },
+    {
+     "_key": "yotei285o7mm",
+     "_type": "span",
+     "marks": [
+      "uzks1j88gety"
+     ],
+     "text": "la Iglesia Colgante"
+    },
+    {
+     "_key": "lzjwpu8uajle",
+     "_type": "span",
+     "marks": [],
+     "text": " y de otros lugares del Cairo copto, de modo que la visita se integra muy bien en una ruta por el barrio."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "uzks1j88gety",
+     "_type": "internalLink",
+     "reference": {
+      "_ref": "guideArticle.cairo.hanging-church-al-mu-allaqa",
+      "_type": "reference"
+     }
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000005d",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000005c",
+     "_type": "span",
+     "marks": [],
+     "text": "Lo más interesante es ver la continuidad visual. Motivos, materiales y técnicas no desaparecen de golpe cuando cambian las religiones o los poderes. En muchos objetos coptos se perciben ecos del Egipto antiguo, del mundo grecorromano y de tradiciones cristianas orientales."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000005f",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000005e",
+     "_type": "span",
+     "marks": [],
+     "text": "Para un viajero que quiere entender el país más allá del imaginario faraónico, este museo es una parada muy importante."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000061",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000060",
+     "_type": "span",
+     "marks": [],
+     "text": "Museo de Arte Islámico"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "000000000063",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000062",
+     "_type": "span",
+     "marks": [],
+     "text": "El Museo de Arte Islámico de El Cairo permite mirar en serio los siglos islámicos de Egipto."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000065",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000064",
+     "_type": "span",
+     "marks": [],
+     "text": "Su colección incluye madera, metal, cerámica, vidrio, textiles, manuscritos, instrumentos científicos y fragmentos arquitectónicos de distintos periodos: fatimí, ayyubí, mameluco, otomano y otros momentos de la historia islámica."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000067",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000066",
+     "_type": "span",
+     "marks": [],
+     "text": "Si antes has caminado por al-Muizz, Sultan Hassan, la Ciudadela o Khan el-Khalili, el museo gana profundidad. Muchos detalles que en la calle aparecen como puertas, inscripciones, lámparas, celosías o decoraciones de fachada se vuelven más legibles cuando se ven en objetos pequeños y bien expuestos."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000069",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000068",
+     "_type": "span",
+     "marks": [],
+     "text": "El museo sufrió daños por una explosión en 2014 y reabrió tras restauración. Más allá de ese episodio, su importancia está en el argumento que sostiene: la historia islámica de Egipto no es un apéndice posterior al mundo faraónico. Es una parte larguísima y central de la vida del país."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000006b",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000006a",
+     "_type": "span",
+     "marks": [],
+     "text": "Museo Grecorromano de Alejandría"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "00000000006d",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000006c",
+     "_type": "span",
+     "marks": [],
+     "text": "En Alejandría, el Museo Grecorromano ayuda a entender una ciudad que no encaja del todo en las categorías simples."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000006f",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000006e",
+     "_type": "span",
+     "marks": [],
+     "text": "Tras Alejandro Magno y los Ptolomeos, Egipto se convirtió en un espacio donde se cruzaron lenguas, dioses, administración imperial, vida urbana mediterránea y tradiciones egipcias más antiguas. El periodo romano añadió otra capa a esa mezcla."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000071",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000070",
+     "_type": "span",
+     "marks": [],
+     "text": "El museo, reabierto tras una larga restauración, permite leer mejor esa Alejandría híbrida: ni puramente griega, ni puramente egipcia, ni solo romana. Esculturas, retratos, objetos funerarios, inscripciones y piezas de vida cotidiana muestran una ciudad hecha de cruces culturales."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000073",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000072",
+     "_type": "span",
+     "marks": [],
+     "text": "Si el viaje incluye catacumbas, la columna de Pompeyo, la cornisa y el tejido moderno de Alejandría, este museo ayuda a ordenar la experiencia. Es el lugar donde la ciudad antigua se vuelve más comprensible."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000075",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000074",
+     "_type": "span",
+     "marks": [],
+     "text": "Antes de viajar expresamente por una sala o colección concreta, revisa la información oficial o local actualizada, porque los museos que han reabierto después de restauraciones largas pueden ajustar accesos y recorridos."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000077",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000076",
+     "_type": "span",
+     "marks": [],
+     "text": "Cómo combinarlos"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "000000000079",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000078",
+     "_type": "span",
+     "marks": [],
+     "text": "Si es tu primer viaje a Egipto y solo puedes elegir dos museos, el Gran Museo Egipcio y el NMEC forman la combinación más completa en El Cairo: uno concentra la gran narrativa faraónica; el otro explica la continuidad de la civilización egipcia."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000007b",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000007a",
+     "_type": "span",
+     "marks": [],
+     "text": "Si quieres profundizar en el antiguo Egipto, conecta el Gran Museo Egipcio con el Museo de Luxor, Karnak, el templo de Luxor y el Valle de los Reyes. La secuencia funciona mejor que ver objetos y monumentos como experiencias separadas."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000007d",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000007c",
+     "_type": "span",
+     "marks": [],
+     "text": "Si quieres entender Egipto como una civilización larga y no como un país congelado en la antigüedad, combina NMEC, Museo Copto, Museo de Arte Islámico y una caminata por el Cairo islámico."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000007f",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000007e",
+     "_type": "span",
+     "marks": [],
+     "text": "Si el viaje baja hacia Asuán, reserva tiempo para el Museo Nubio. Cambia la manera de mirar Filae, Abu Simbel, el lago Nasser y la historia del sur."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000081",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000080",
+     "_type": "span",
+     "marks": [],
+     "text": "Si vas a Alejandría, el Museo Grecorromano añade una capa que El Cairo y Luxor no pueden dar del mismo modo: el Egipto mediterráneo."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000083",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000082",
+     "_type": "span",
+     "marks": [],
+     "text": "Museos como mapa"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "000000000085",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000084",
+     "_type": "span",
+     "marks": [],
+     "text": "Los museos de Egipto no son solo una alternativa para un día de calor o de lluvia."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000087",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000086",
+     "_type": "span",
+     "marks": [],
+     "text": "Son una forma de ordenar el tiempo."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000089",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000088",
+     "_type": "span",
+     "marks": [],
+     "text": "En Guiza, la historia faraónica se presenta a gran escala. En el NMEC, Egipto aparece como continuidad. En Tahrir, se lee la historia de la egiptología. En Luxor, Tebas se vuelve más clara. En Asuán, Nubia recupera voz. En el Cairo copto e islámico, el país sigue después de los faraones. En Alejandría, el Mediterráneo entra en la historia del Nilo."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000008b",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000008a",
+     "_type": "span",
+     "marks": [],
+     "text": "Elegidos así, los museos no interrumpen el viaje."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000008d",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000008c",
+     "_type": "span",
+     "marks": [],
+     "text": "Lo vuelven más inteligible."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  }
+ ],
+ "category": {
+  "_ref": "wp-category-74",
+  "_type": "reference"
+ },
+ "deck": "Gran Museo Egipcio, NMEC, Museo Egipcio de Tahrir, Museo de Luxor, Museo Nubio, Museo Copto, Museo de Arte Islámico y Museo Grecorromano: cómo elegirlos por lo que cada uno explica.",
+ "endTours": [
+  {
+   "_key": "v3rtod4eo0k",
+   "_ref": "wp-page-136519",
+   "_type": "reference"
+  },
+  {
+   "_key": "fpxlhq2euot",
+   "_ref": "wp-page-89895",
+   "_type": "reference"
+  },
+  {
+   "_key": "zbvvlwzm2j",
+   "_ref": "wp-page-156539",
+   "_type": "reference"
+  }
+ ],
+ "heroImage": {
+  "_type": "image",
+  "alt": "Fachada neoclásica rosa del Museo Egipcio de El Cairo enmarcada por palmeras bajo un cielo azul despejado",
+  "asset": {
+   "_ref": "image-1d739b6756f00578c7a1da9ca38fa17852f76cd7-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": "La fachada rosa con cúpula del Museo Egipcio de El Cairo se alza tras hileras de palmeras en la plaza Tahrir."
+ },
+ "language": "es",
+ "migration": {
+  "migratedAt": "2026-05-11T23:36:09.478Z",
+  "source": "wp-import",
+  "wpAuthorId": 2,
+  "wpAuthorSlug": "islam",
+  "wpCategorySlugs": [
+   "tours"
+  ],
+  "wpId": 110008,
+  "wpModifiedAt": "2025-05-29T18:22:50",
+  "wpTemplate": "",
+  "wpUrl": "https://travel2egypt.org/must-visit-museums-in-egypt/"
+ },
+ "publishedAt": "2024-04-25T16:18:15",
+ "seo": {
+  "metaDescription": "Explora los mejores museos de Egipto y descubre antiguos tesoros.\nRepasa nuestros viajes para una visita cultural completa ",
+  "metaTitle": ""
+ },
+ "slug": {
+  "_type": "slug",
+  "current": "museos-de-visita-obligada-en-egipto-descubre-artefactos-y-tesoros-antiguos"
+ },
+ "title": "Museos imprescindibles de Egipto"
+}
