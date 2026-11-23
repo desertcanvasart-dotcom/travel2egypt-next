@@ -35,7 +35,7 @@ El museo va primero, mientras estás fresco, porque las momias merecen toda tu a
 Tu conductor y tu egiptólogo te recogen en un coche privado con aire acondicionado para el trayecto de veinte a treinta minutos hasta Fustat.
 
 **La Sala de las Momias Reales**
-Las momias de reyes y reinas del Imperio Nuevo, trasladadas aquí desde Tahrir en 2021 en un desfile que paralizó el centro de El Cairo, reposan en una sala silenciosa pensada para evocar una tumba. Seqenenre Taa II todavía muestra las heridas de una muerte en combate durante las guerras contra los hicsos; Ramsés II vivió hasta los noventa años, aproximadamente; Hatshepsut reinó como faraón más de dos décadas. Tu guía te explica el trabajo forense que hay detrás de las identificaciones.
+Las momias de reyes y reinas del Imperio Nuevo, veintidós en total, trasladadas aquí desde Tahrir en 2021 en un desfile que paralizó el centro de El Cairo, reposan en una sala silenciosa pensada para evocar una tumba. Seqenenre Taa II todavía muestra las heridas de una muerte en combate durante las guerras contra los hicsos; Ramsés II vivió hasta los noventa años, aproximadamente; Hatshepsut reinó como faraón más de dos décadas. Tu guía te explica el trabajo forense que hay detrás de las identificaciones.
 
 **Las salas principales**
 La civilización egipcia desde el esqueleto prehistórico de Nazlet Khater, pasando por las épocas faraónica, copta e islámica, y una galería textil de unas seiscientas piezas. Unas dos horas en el museo en total.
