@@ -226,7 +226,8 @@ Desayuno y traslado al aeropuerto de El Cairo.
 
 Este es un viaje privado, hecho a la medida de tu grupo. Cambios habituales:
 - El crucero solo, sin los días en El Cairo: ocho días, de Luxor a Luxor. Pregúntanos
-- Abu Simbel por carretera, el día libre
+- Abu Simbel por carretera o en avión, el día libre
+- Noches extra en Luxor, en un hotel de cinco estrellas, tras el crucero, con los días a tu aire
 - El Museo Egipcio de la plaza Tahrir, más antiguo, el día 10
 - Una noche más en El Cairo, antes o después
 
