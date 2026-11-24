@@ -48,7 +48,7 @@ const SUMMARY = {
   es: 'Un crucero de quince días con guía de El Cairo a Asuán en un crucero de cinco estrellas por el Nilo: Guiza y Saqqara, Beni Hassan, Tell el-Amarna y Abidos, Dendera, Luxor, Edfu, Kom Ombo y Asuán, en fechas de salida fijas.',
   ja: 'カイロからアスワンまで、5つ星のナイル川クルーズ船でめぐる15日間のガイド付きクルーズ。ギザとサッカラ、ベニ・ハサン、テル・エル・アマルナ、アビドス、デンデラ、ルクソール、エドフ、コム・オンボ、アスワンへ。出発日は決まっています。',
 };
-const DEPARTURES = ['2027-02-24', '2027-04-17', '2027-05-13', '2027-09-13', '2027-10-09', '2027-11-04'];
+const DEPARTURES = ['2027-02-24', '2027-03-22', '2027-04-17', '2027-05-13', '2027-09-13', '2027-10-09', '2027-11-04'];
 const panelText = (l, t) => (l === 'en' ? t.replace(/\s*\*\(ES:.*\)\*\s*$/, '') : t);
 const paraText = (s) => (typeof s === 'string' ? s : `${s.lead} ${s.text}`);
 

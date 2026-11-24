@@ -4,10 +4,11 @@
 
 ## Panel
 
-**Type:** Private guiding, on a five-star Nile cruise ship · **Duration:** 14 days, 13 nights
+**Type:** Scheduled departures, guided on a five-star Nile cruise ship · **Duration:** 14 days, 13 nights
 **Route:** Cairo · Aswan · Kom Ombo · Edfu · Luxor · Dendera · Abydos · Tell el-Amarna · Minya · Beni Hassan · Cairo
 **Nights:** 12 on the river · 1 in Cairo
 **Meals:** full board on the ship
+**Departures 2027:** arrive in Cairo on 11 February · 9 March · 4 April · 30 April · 31 August · 26 September · 22 October; the ship leaves Aswan the next day
 **From:** {lowest per-person tier} per person · price depends on group size
 **Your guide speaks:** English *(ES: español · JA: 日本語)*
 
@@ -262,15 +263,14 @@ Breakfast, disembarkation and the transfer to Cairo airport.
 
 **Worth knowing:**
 - Day 9 is a sailing day with nothing ashore.
-- The ship sails on fixed dates; the sailing dates are set by the ship’s schedule.
+- The ship sails from Aswan on 12 February, 10 March, 5 April, 1 May, 1 September, 27 September and 23 October 2027; you arrive in Cairo the day before.
 - Sights can change with circumstances beyond anyone’s control, as on every Nile cruise.
 
 ---
 
 ## Make it your own
 
-This is a private journey, built around your party. Common changes:
-- Join the ship in Luxor on Day 5, a nine-night version from Luxor to Cairo that skips Aswan, Kom Ombo and Edfu
+The sailing dates are set by the ship’s schedule; the guiding and the extras are arranged around your party. Common changes:
 - A longer stay in Cairo at the end
 - An extra day in Luxor
 

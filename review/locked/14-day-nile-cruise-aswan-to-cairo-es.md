@@ -4,10 +4,11 @@
 
 ## Panel
 
-**Tipo:** Guía privado, en un crucero de cinco estrellas por el Nilo · **Duración:** 14 días, 13 noches
+**Tipo:** Salidas programadas, con guía en un crucero de cinco estrellas por el Nilo · **Duración:** 14 días, 13 noches
 **Ruta:** El Cairo · Asuán · Kom Ombo · Edfu · Luxor · Dendera · Abidos · Tell el-Amarna · Minya · Beni Hassan · El Cairo
 **Noches:** 12 en el río · 1 en El Cairo
 **Comidas:** pensión completa en el barco
+**Salidas 2027:** llegada a El Cairo el 11 de febrero · 9 de marzo · 4 de abril · 30 de abril · 31 de agosto · 26 de septiembre · 22 de octubre; el barco sale de Asuán al día siguiente
 **Desde:** {lowest per-person tier} por persona · el precio depende del tamaño del grupo
 **Tu guía habla:** español
 
@@ -242,15 +243,14 @@ Desayuno, desembarco y traslado al aeropuerto de El Cairo.
 
 **Conviene saber:**
 - El día 9 es de navegación, sin nada en tierra.
-- El barco navega en fechas fijas; las fechas las marca el calendario del barco.
+- El barco sale de Asuán el 12 de febrero, 10 de marzo, 5 de abril, 1 de mayo, 1 de septiembre, 27 de septiembre y 23 de octubre de 2027; llegas a El Cairo el día anterior.
 - Las visitas pueden cambiar por circunstancias ajenas a todos, como en cualquier crucero por el Nilo.
 
 ---
 
 ## Hazlo a tu medida
 
-Este es un viaje privado, hecho a la medida de tu grupo. Cambios habituales:
-- Subir al barco en Luxor el día 5, una versión de nueve noches de Luxor a El Cairo que se salta Asuán, Kom Ombo y Edfu
+Las fechas de salida las marca el calendario del barco; el guiado y los extras se organizan en torno a tu grupo. Cambios habituales:
 - Una estancia más larga en El Cairo al final
 - Un día más en Luxor
 

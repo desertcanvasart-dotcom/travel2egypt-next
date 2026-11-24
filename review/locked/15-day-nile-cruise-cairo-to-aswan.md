@@ -8,7 +8,7 @@
 **Route:** Cairo · Beni Suef · Minya · Tell el-Amarna · Asyut · Sohag · Abydos · Dendera · Luxor · Edfu · Kom Ombo · Aswan
 **Nights:** 14 on the river
 **Meals:** full board
-**Departures 2027:** 24 February · 17 April · 13 May · 13 September · 9 October · 4 November
+**Departures 2027:** 24 February · 22 March · 17 April · 13 May · 13 September · 9 October · 4 November
 **From:** {lowest per-person tier} per person · price depends on group size
 **Your guide speaks:** English *(ES: español · JA: 日本語)*
 
@@ -285,6 +285,5 @@ The sailing dates are set by the ship’s schedule; the guiding and the extras a
 - A slower stay in Luxor
 - A morning at Saqqara at the start
 - An extra day in Cairo
-- A shorter version that ends in Luxor, on the same sailing dates and one more, 22 March: ask us
 
 **[Customise this trip]** · Quick WhatsApp inquiry →

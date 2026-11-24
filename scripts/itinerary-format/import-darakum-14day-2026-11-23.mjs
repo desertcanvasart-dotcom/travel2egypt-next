@@ -44,10 +44,14 @@ const GUIDES = {
   10: [null, null, null, null], 11: [null], 12: [G.hanging, G.coptic, G.benEzra], 13: [G.giza, G.sphinx, G.egMuseum], 14: [],
 };
 const SUMMARY = {
-  en: 'A private-guided fourteen-day cruise from Aswan to Cairo on a five-star Nile cruise ship: Kom Ombo, Edfu, Luxor, Dendera and Abydos, Tell el-Amarna, Beni Hassan, then the pyramids and the Egyptian Museum, on fixed sailing dates.',
+  en: 'A guided fourteen-day cruise from Aswan to Cairo on a five-star Nile cruise ship: Kom Ombo, Edfu, Luxor, Dendera and Abydos, Tell el-Amarna, Beni Hassan, then the pyramids and the Egyptian Museum, on fixed sailing dates.',
   es: 'Un crucero de catorce días con guía de Asuán a El Cairo en un crucero de cinco estrellas por el Nilo: Kom Ombo, Edfu, Luxor, Dendera y Abidos, Tell el-Amarna, Beni Hassan, y después las pirámides y el Museo Egipcio, en fechas de salida fijas.',
   ja: 'アスワンからカイロまで、5つ星のナイル川クルーズ船でめぐる14日間のガイド付きクルーズ。コム・オンボ、エドフ、ルクソール、デンデラ、アビドス、テル・エル・アマルナ、ベニ・ハサン、そしてピラミッドとエジプト博物館へ。出発日は決まっています。',
 };
+// Official Mövenpick M/S Darakum 2027 sailings from Aswan (owner, 24 Nov); Day 1 of this page is arrival in Cairo, the day before.
+const SAILINGS = ['2027-02-12', '2027-03-10', '2027-04-05', '2027-05-01', '2027-09-01', '2027-09-27', '2027-10-23'];
+const dayBefore = (d) => new Date(Date.parse(`${d}T00:00:00Z`) - 86400000).toISOString().slice(0, 10);
+const DEPARTURES = SAILINGS.map(dayBefore);
 const panelText = (l, t) => (l === 'en' ? t.replace(/\s*\*\(ES:.*\)\*\s*$/, '') : t);
 const paraText = (s) => (typeof s === 'string' ? s : `${s.lead} ${s.text}`);
 
@@ -143,6 +147,8 @@ const doc = {
   exclusions: LANGS.flatMap((l) => B[l].excluded),
   customisationOptions: LANGS.flatMap((l) => B[l].options),
   routeLegs: [],
+  tourMode: 'group',
+  departures: DEPARTURES.map((d, i) => ({ _key: `dep-${i + 1}`, _type: 'departure', startDate: d, isPeak: false })),
 };
 for (const f of ['itineraryDays', 'itineraryIntro', 'inclusions', 'exclusions', 'customisationOptions']) doc[f] = curlyRows(doc[f], 'en');
 const targets = Object.values(G);
