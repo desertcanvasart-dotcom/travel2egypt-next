@@ -145,6 +145,7 @@ const doc = {
   customisationOptions: LANGS.flatMap((l) => B[l].options),
   routeLegs: [],
   tourMode: 'group',
+  privateGuiding: true, // fixed dates, our own private sightseeing (owner, 24 Nov): shown as a private tour
   departures: DEPARTURES.map((d, i) => ({ _key: `dep-${i + 1}`, _type: 'departure', startDate: d, isPeak: false })),
 };
 for (const f of ['itineraryDays', 'itineraryIntro', 'inclusions', 'exclusions', 'customisationOptions']) doc[f] = curlyRows(doc[f], 'en');
