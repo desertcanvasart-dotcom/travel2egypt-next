@@ -1404,7 +1404,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/12-day-red-sea-desert-friends-escape",
-    "destination": "/egypt-and-the-red-sea-paradise",
+    "destination": "/11-day-the-splendor-of-egypt-tour",
     "permanent": true
   },
   {
@@ -1699,7 +1699,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/egypt-and-the-red-sea-paradise",
-    "destination": "/ja/12-nichikan-ejiputo-to-kokai-kairo-nairu-rukusoru-asuwan",
+    "destination": "/ja/ejiputo-no-hana-piramiddo-kara-kokai-e-no-11-nichikan",
     "permanent": true
   },
   {
@@ -6604,7 +6604,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/egypt-and-the-red-sea-paradise",
-    "destination": "/es/egipto-y-el-mar-rojo-en-12-dias-el-cairo-el-nilo-luxor-asuan-y-alejandria",
+    "destination": "/es/el-esplendor-de-egipto-en-11-dias",
     "permanent": true
   },
   {
@@ -23824,7 +23824,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/odisea-egipcia-aventura-de-11-dias-por-el-nilo-la-historia-y-el-mar-rojo",
-    "destination": "/11-day-egypt-tour-of-history-adventure-relaxation",
+    "destination": "/11-day-the-splendor-of-egypt-tour",
     "permanent": true
   },
   {
@@ -29339,7 +29339,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/programa-paraiso-12-dias-en-egipto-y-el-mar-rojo",
-    "destination": "/es/egipto-y-el-mar-rojo-en-12-dias-el-cairo-el-nilo-luxor-asuan-y-alejandria",
+    "destination": "/es/el-esplendor-de-egipto-en-11-dias",
     "permanent": true
   },
   {
@@ -30770,6 +30770,36 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/15-nichikan-nairu-kuruzu-harugada-rukusoru-asuwan-soshite",
     "destination": "/ja/14-nichikan-no-nairu-kuruzu-furugada-rukusoru-asuwan-soshite",
+    "permanent": true
+  },
+  {
+    "source": "/11-day-egypt-tour-of-history-adventure-relaxation",
+    "destination": "/11-day-the-splendor-of-egypt-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/odisea-egipcia-aventura-de-11-dias-por-el-nilo-la-historia-y-el-mar-rojo",
+    "destination": "/es/el-esplendor-de-egipto-en-11-dias",
+    "permanent": true
+  },
+  {
+    "source": "/ja/11-nichikan-no-rekishi-boken-rirakuzeshon-no-ejiputo-tsua",
+    "destination": "/ja/ejiputo-no-hana-piramiddo-kara-kokai-e-no-11-nichikan",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-and-the-red-sea-paradise",
+    "destination": "/11-day-the-splendor-of-egypt-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/egipto-y-el-mar-rojo-en-12-dias-el-cairo-el-nilo-luxor-asuan-y-alejandria",
+    "destination": "/es/el-esplendor-de-egipto-en-11-dias",
+    "permanent": true
+  },
+  {
+    "source": "/ja/12-nichikan-ejiputo-to-kokai-kairo-nairu-rukusoru-asuwan",
+    "destination": "/ja/ejiputo-no-hana-piramiddo-kara-kokai-e-no-11-nichikan",
     "permanent": true
   }
 ];
