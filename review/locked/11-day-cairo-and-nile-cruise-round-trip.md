@@ -226,7 +226,8 @@ Breakfast, and the transfer to Cairo airport.
 
 This is a private trip, built around your party. Common changes:
 - The cruise on its own, without the Cairo days: eight days, Luxor to Luxor. Ask us
-- Abu Simbel by road, on the leisure day
+- Abu Simbel by road or by air, on the leisure day
+- Extra nights in Luxor at a five-star hotel after the cruise, with your days left open
 - The older Egyptian Museum on Tahrir Square, on Day 10
 - An extra night in Cairo, before or after
 

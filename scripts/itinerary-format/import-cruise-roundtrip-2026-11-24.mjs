@@ -151,7 +151,7 @@ for (const f of ['itineraryDays', 'itineraryIntro', 'inclusions', 'exclusions', 
 console.log('  body essay: unchanged (not shown on this page)');
 
 if (apply) {
-  await writeRollback(client, [TOUR], 'before-cruise-roundtrip');
+  await writeRollback(client, [TOUR], 'before-cruise-roundtrip-options');
   await client.patch(TOUR).set(doc).commit();
   console.log(`APPLIED: ${TOUR} updated in production`);
 } else console.log('dry run (pass --apply --flags-approved to write production)');

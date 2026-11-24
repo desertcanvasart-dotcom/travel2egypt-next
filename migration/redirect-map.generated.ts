@@ -2439,7 +2439,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/15-day-luxor-nile-cruise-vacation",
-    "destination": "/ja/15-nichikan-no-rukusoru-nairu-kuruzu-no-kyuka-rukusoru-nairu",
+    "destination": "/ja/kairo-to-nairu-kuruzu-no-ofuku-11-nichikan-piramiddo-kawa",
     "permanent": true
   },
   {
@@ -7349,7 +7349,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/15-day-luxor-nile-cruise-vacation",
-    "destination": "/es/vacaciones-de-15-dias-en-luxor-y-crucero-por-el-nilo-luxor-el-nilo-y-el-cairo",
+    "destination": "/es/el-cairo-y-el-nilo-en-11-dias-ida-y-vuelta-piramides-rio-luxor",
     "permanent": true
   },
   {
@@ -12334,7 +12334,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/luxor-and-nile-cruise-vacation-15-day",
-    "destination": "/15-day-luxor-nile-cruise-vacation",
+    "destination": "/11-day-cairo-and-nile-cruise-round-trip",
     "permanent": true
   },
   {
@@ -29884,7 +29884,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/ナイルの旅：ルクソール＆ナイルクルーズ15日間の",
-    "destination": "/ja/15-nichikan-no-rukusoru-nairu-kuruzu-no-kyuka-rukusoru-nairu",
+    "destination": "/ja/kairo-to-nairu-kuruzu-no-ofuku-11-nichikan-piramiddo-kawa",
     "permanent": true
   },
   {
@@ -30829,6 +30829,21 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/8-nichikan-rukusoru-hatchaku-nairu-kuruzu-shinden-haka",
+    "destination": "/ja/kairo-to-nairu-kuruzu-no-ofuku-11-nichikan-piramiddo-kawa",
+    "permanent": true
+  },
+  {
+    "source": "/15-day-luxor-nile-cruise-vacation",
+    "destination": "/11-day-cairo-and-nile-cruise-round-trip",
+    "permanent": true
+  },
+  {
+    "source": "/es/vacaciones-de-15-dias-en-luxor-y-crucero-por-el-nilo-luxor-el-nilo-y-el-cairo",
+    "destination": "/es/el-cairo-y-el-nilo-en-11-dias-ida-y-vuelta-piramides-rio-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/ja/15-nichikan-no-rukusoru-nairu-kuruzu-no-kyuka-rukusoru-nairu",
     "destination": "/ja/kairo-to-nairu-kuruzu-no-ofuku-11-nichikan-piramiddo-kawa",
     "permanent": true
   }
