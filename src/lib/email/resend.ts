@@ -164,13 +164,21 @@ export async function sendAutouraFailureAlert(args: AutouraFailureAlertParams): 
 
 /**
  * Website lead (homepage itinerary form / day-tour date request) →
- * TEAM_INBOX_EMAIL, Reply-To = the visitor. Throws when the inbox is unset or
+ * TEAM_INBOX_EMAIL (+ LEAD_EXTRA_EMAILS), Reply-To = the visitor. Throws when the inbox is unset or
  * Resend fails, so /api/lead can tell the visitor to use WhatsApp instead of
  * silently losing the request.
  */
 export async function sendLeadEmail(args: LeadEmailParams): Promise<void> {
-  const to = process.env.TEAM_INBOX_EMAIL;
-  if (!to) throw new Error('TEAM_INBOX_EMAIL must be set for website leads');
+  const main = process.env.TEAM_INBOX_EMAIL;
+  if (!main) throw new Error('TEAM_INBOX_EMAIL must be set for website leads');
+  // Website leads can reach more than one mailbox: LEAD_EXTRA_EMAILS is a
+  // comma-separated list added to TEAM_INBOX_EMAIL. Only this email — the
+  // other team mails keep going to TEAM_INBOX_EMAIL alone.
+  const extra = (process.env.LEAD_EXTRA_EMAILS ?? '')
+    .split(',')
+    .map((e) => e.trim())
+    .filter((e) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e));
+  const to = [...new Set([main, ...extra])];
   const { subject, html, text } = leadTeamEmail(args);
   const { error } = await client().emails.send({
     from: FROM,
