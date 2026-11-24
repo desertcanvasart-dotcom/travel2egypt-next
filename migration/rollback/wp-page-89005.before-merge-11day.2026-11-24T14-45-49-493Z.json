@@ -1,0 +1,1335 @@
+{
+ "_createdAt": "2026-05-14T11:38:32Z",
+ "_id": "wp-page-89005",
+ "_rev": "K2pi3eY73hTRu2vMGMyThO",
+ "_system": {
+  "base": {
+   "id": "wp-page-89005",
+   "rev": "3aGdzqdORsUAhOJNQK9EsN"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:52Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travelers who want Egypt beyond the Nile; repeat visitors; anyone drawn to desert and silence as much as monuments. Long drives suit older children best."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros que quieren el Egipto que está más allá del Nilo; visitantes repetidores; cualquiera atraído por el desierto y el silencio tanto como por los monumentos. Las distancias largas convienen mejor a niños algo mayores"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "ナイルの向こうのエジプトを望む方。リピーター。記念建造物に劣らず、砂漠と静寂に惹かれる方。長距離の移動は年長のお子様向きです。"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Desert Rivers: Ten Days from the Nile into the Western Desert and Back"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A private journey that insists on the Egypt beyond the river — the oases, the White Desert, and the silence between two historical bookends."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Egypt is usually understood as a river country. This journey insists on the rest of it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "The Nile is here — Giza, Saqqara, the temples of Luxor, the Egyptian Museum — but the engine of these ten days is the Western Desert: the vast limestone and sand plateau west of the valley that holds, improbably, a chain of inhabited oases occupied since prehistory. Bahariya, Dakhla, Kharga. These are not detours. They are the reason to take ten days rather than five, and the whole route is built around them."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "The shape of the trip is roughly circular, and the logic is geographic rather than chronological. It opens in Cairo with the monuments the Nile made possible, turns west into the desert for the four days most travelers end up remembering most clearly, pivots at Kharga toward Luxor and the Nile again, and closes back in Cairo. What it gives you is a sense of Egypt's actual geography — not just the thin green ribbon everyone photographs, but the enormous quiet beyond it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo: the monuments the river made"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "The journey begins with the Old Kingdom at full scale. Giza resolves something photographs never quite manage — the sheer physical fact of what was built around 2500 BC, Khufu's pyramid with Khafre behind it and the Sphinx crouched below. Memphis, the first capital of a unified Egypt, holds the fallen colossus of Ramses II. And Saqqara reorders everything: the Step Pyramid of Djoser, around 2650 BC, is the oldest large stone structure on earth — the building where Imhotep worked out, in stages, how to turn a stack of mastabas into a pyramid. Giza is the perfection of the idea; Saqqara is where the idea began. Your Egyptologist will set them side by side so you hold the whole sequence at once."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "West into the desert: the oases"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Then the route leaves the valley, and the character of the trip changes entirely."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Bahariya, the gateway oasis, sits in a depression some 370 kilometres from Cairo — Pyramid Mountain on its skyline, an ethnographic museum of oasis life, and the Valley of the Golden Mummies, a Graeco-Roman necropolis that has yielded more than 250 gilded mummies since its discovery in 1996. Alexander the Great was crowned pharaoh here in 332 BC; a temple to him still stands. The desert keeps connecting to the broad sweep of history in ways the empty landscape never suggests."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "The desert days themselves are the heart of the journey. By 4×4 through the Black Desert, its hills coated in dark basalt, and into the White Desert — a protected expanse where wind has carved the chalk into sculptural forms, some like mushrooms or animals, some simply abstract. The night camped there, at that distance from any city, under that sky, is not incidental to the trip. For most travelers it is the thing they describe first when they get home."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "South to Dakhla, larger and greener, with the smell of date palms instead of traffic — the Roman temple of Deir el-Haggar remarkably intact, the inhabited medieval village of Qasr Dakhla still threaded with mudbrick lanes. Then east to Kharga, the largest of the oases, sitting at the head of the Darb el-Arba'in, the Forty Days Road that once carried caravans to sub-Saharan Africa. Here the Hibis Temple — the best-preserved ancient temple in the Western Desert, its sanctuary still painted — and El-Bagawat, one of the oldest Christian cemeteries in the world, hundreds of mudbrick funerary chapels on a desert ridge, painted interiors surviving from the third to seventh centuries. These are sites most Egypt itineraries never reach."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Back to the river: Luxor"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "From the desert's edge the route turns to Luxor — ancient Thebes, the religious capital of the New Kingdom, more monumental architecture per square kilometre than almost anywhere on earth. Karnak is not a temple but a complex built and rebuilt across 1,500 years, its Hypostyle Hall a forest of 134 columns. Across the Nile, the land of the dead: the Valley of the Kings with its painted afterlife corridors, Hatshepsut's terraced temple rising against the cliff, the Colossi of Memnon alone in the fields. After the desert's silence, Luxor's density lands differently — you arrive understanding the river that made all of it possible."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo again: the close"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "A flight returns the journey to Cairo for its final chapter — the Egyptian Museum, where the objects pulled from the sites you've spent ten days walking through are gathered (Tutankhamun's treasure now at the Grand Egyptian Museum, addable on request), and the medieval bazaar of Khan el-Khalili, trading continuously since the fourteenth century."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "How this journey works"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a private departure — operated for your party alone, never a shared group — and the shape above is a starting point, not a fixed schedule. The circular route, the oasis chain, the desert night, the Luxor finale: those are the spine. How long you linger at each, whether the Grand Egyptian Museum joins the Cairo days, how the desert driving is paced for your party and your children — those are built around you. It is a demanding itinerary, honestly; the desert drives are long and the rewards are proportional. Your Egyptologist and the desert drivers have run this circuit many times, which is most of what makes it possible to do well."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Most Egypt itineraries follow the Nile and call it the whole country. This one goes where the Nile does not — and comes back changed."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The shape of the journey"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Where · Cairo → Bahariya → White Desert → Dakhla → Kharga → Luxor → Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Duration · ≈10 days / 9 nights — adjustable"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "Character · Fully private · your own Egyptologist + desert drivers · one night camping in the White Desert · demanding pace, long desert drives"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Ríos del desierto: diez días desde el Nilo al Desierto Occidental y de vuelta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una ruta privada que insiste en el Egipto más allá del río: los oasis, el Desierto Blanco y el silencio entre dos paréntesis históricos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "A Egipto se le suele explicar como un país de río. Este viaje insiste en todo lo demás."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "El Nilo está aquí —Guiza, Saqqara, los templos de Luxor, el Museo Egipcio—, pero el motor de estos diez días es el Desierto Occidental: la vasta meseta de caliza y arena al oeste del valle que conserva, contra todo pronóstico, una cadena de oasis habitados desde la prehistoria. Bahariya, Dakhla, Kharga. No son desvíos. Son la razón de hacer diez días en lugar de cinco, y toda la ruta se construye en torno a ellos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "La forma del viaje es aproximadamente circular y su lógica es geográfica más que cronológica. Abre en El Cairo con los monumentos que hizo posibles el Nilo, gira al oeste hacia el desierto para los cuatro días que la mayor parte de los viajeros termina recordando con más claridad, pivota en Kharga hacia Luxor y el Nilo de nuevo, y cierra otra vez en El Cairo. Lo que ofrece es una idea de la geografía real de Egipto: no solo la fina cinta verde que todo el mundo fotografía, sino el enorme silencio que la rodea."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo: los monumentos que hizo posibles el río"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "El viaje empieza con el Imperio Antiguo a plena escala. Guiza resuelve algo que las fotografías nunca logran del todo: el hecho físico de lo que se construyó hacia 2500 a. C., la pirámide de Keops con la de Kefrén detrás y la Esfinge agachada al pie. Menfis, la primera capital del Egipto unificado, conserva el coloso caído de Ramsés II. Y Saqqara reordena todo lo demás: la pirámide escalonada de Zoser, hacia 2650 a. C., es la estructura grande de piedra más antigua del planeta, el edificio en el que Imhotep fue resolviendo, por etapas, cómo convertir una pila de mastabas en una pirámide. Guiza es la perfección de la idea; Saqqara es donde la idea empezó. Su egiptólogo las pondrá una junto a la otra para que se sostengan a la vez en la cabeza."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Hacia el oeste: los oasis del Desierto Occidental"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Después la ruta deja el valle, y el carácter del viaje cambia por completo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Bahariya, el oasis de entrada, se encuentra en una depresión a unos 370 kilómetros de El Cairo: la Montaña de la Pirámide en su horizonte, un museo etnográfico de la vida del oasis y el Valle de las Momias Doradas, una necrópolis grecorromana que ha entregado más de 250 momias doradas desde su hallazgo en 1996. Alejandro Magno fue coronado faraón aquí en 332 a. C.; un templo dedicado a su nombre sigue en pie. El desierto sigue conectándose con la amplia trama de la historia de maneras que el paisaje vacío no parece sugerir."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Los días en el desierto son el corazón del viaje. Por el Desierto Negro en 4x4, con sus colinas cubiertas de basalto oscuro, hasta entrar en el Desierto Blanco: una extensión protegida en la que el viento ha esculpido la tiza en formas escultóricas, algunas como setas o animales, otras simplemente abstractas. La noche acampada allí, a esa distancia de cualquier ciudad, bajo ese cielo, no es accesoria al viaje. Para la mayoría de viajeros es lo primero que describen al volver a casa."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Más al sur, Dakhla, más grande y más verde, con el olor de los palmerales en lugar de tráfico: el templo romano de Deir el-Hagar notablemente intacto, el poblado medieval habitado de Qasr Dakhla aún recorrido por callejones de adobe. Después al este hacia Kharga, el mayor de los oasis, en la cabecera del Darb el-Arba'in, la Ruta de los Cuarenta Días que en otro tiempo llevaba caravanas al África subsahariana. Aquí, el templo de Hibis —el mejor conservado del Desierto Occidental, con el santuario todavía pintado— y El Bagawat, uno de los cementerios cristianos más antiguos del mundo, cientos de capillas funerarias de adobe en una loma desértica, con interiores pintados que sobreviven del siglo III al VII. Son lugares a los que casi ningún itinerario de Egipto llega."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "De vuelta al río: Luxor"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde el borde del desierto, la ruta gira hacia Luxor —la antigua Tebas, capital religiosa del Imperio Nuevo, con más arquitectura monumental por kilómetro cuadrado que casi cualquier otro lugar del planeta—. Karnak no es un templo, sino un recinto construido y reconstruido durante 1500 años, con una sala hipóstila que es un bosque de 134 columnas, las más altas de 21 metros. Al otro lado del Nilo, la tierra de los muertos: el Valle de los Reyes, con sus corredores pintados del Más Allá; el templo de Hatshepsut, ascendiendo en terrazas contra el acantilado de Deir el-Bahari, con el obelisco superviviente de la reina en Karnak de 29,5 metros como su otra firma; los Colosos de Memnón solitarios en los campos. Después del silencio del desierto, la densidad de Luxor se siente de otra manera: se llega entendiendo el río que lo hizo todo posible."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo de nuevo: el cierre"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Un vuelo devuelve el viaje a El Cairo para su capítulo final. El Museo Egipcio de la plaza Tahrir reúne los objetos extraídos de los sitios que se han recorrido durante diez días; la colección completa de Tutankamón se encuentra ahora en el Gran Museo Egipcio, plenamente abierto desde el 1 de noviembre de 2025, y puede añadirse a petición. Jan el-Jalili, el bazar medieval que comercia sin interrupción desde el siglo XIV, cierra la jornada con la otra cara de la ciudad."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Cómo funciona este viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta es una salida privada —operada solo para su grupo, nunca compartida— y la forma anterior es un punto de partida, no un horario fijo. La ruta circular, la cadena de oasis, la noche en el desierto, el final en Luxor: esa es la columna. Cuánto se demora cada tramo, si el Gran Museo Egipcio se suma a los días de El Cairo, cómo se cadencia la conducción por el desierto para su grupo y sus niños, eso se construye alrededor de ustedes. Es un itinerario exigente, con honestidad: las distancias por el desierto son largas y las recompensas son proporcionales. Su egiptólogo y los conductores del desierto han recorrido este circuito muchas veces, y eso es buena parte de lo que lo hace posible."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "La mayoría de itinerarios siguen el Nilo y lo llaman el país entero. Este va donde el Nilo no llega y vuelve cambiado."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La forma del viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Dónde · El Cairo → Bahariya → Desierto Blanco → Dakhla → Kharga → Luxor → El Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Duración · Unos 10 días / 9 noches, ajustable como viaje privado"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "Carácter · Salida privada · su propio egiptólogo y conductores del desierto · una noche acampados en el Desierto Blanco · ritmo exigente, largas distancias en pista"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "砂漠の川——ナイルから西方砂漠へ、そして戻る10日間"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "川の向こうにあるエジプトに踏みとどまる、プライベートな旅。オアシス、白砂漠、そして二つの歴史的な両端に挟まれた静寂を主役にする。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプトはふつう、川の国として理解されています。この旅は、その残りの部分にこだわります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "ナイルはここにあります——ギザ、サッカラ、ルクソールの神殿、エジプト博物館——けれども、この10日間の原動力は西方砂漠です。渓谷の西に広がる広大な石灰岩と砂の高原で、先史以来人が住み続けてきたオアシスの連なりを、ありそうもないことに抱えています。バハリヤ、ダフラ、ハルガ。これらは寄り道ではありません。五日ではなく十日をかける、まさにその眼目であり、ルート全体がこれらを軸に組まれています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "旅の形はおおむね円であり、その論理は年代ではなく地理に従います。ナイルが可能にした記念建造物とともにカイロに始まり、四日間を砂漠へ向きを変え——たいていの旅人が最もはっきりと覚えて帰る四日間——ハルガでルクソールとナイルへと舵を切り直し、カイロへ戻って閉じます。この旅が差し出すのは、エジプトの実際の地理の感覚です。誰もが写真に撮るあの細い緑の帯だけでなく、その向こうの巨大な静寂までを。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロ：川がつくった記念建造物"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "旅は、古王国を本来の規模で受けとめるところから始まります。ギザは、写真がいつまでも仕損ねるものを、ようやく腑に落とします——紀元前2500年ごろにここに築かれたものの、純然たる物理的な実在です。クフ王のピラミッド、その背後のカフラー王、そのふもとにうずくまるスフィンクス。統一エジプト最初の首都メンフィスには、ラムセス2世の倒れた巨像があります。そしてサッカラが、すべてを並べ替えます。紀元前2650年ごろのジェセル王の階段ピラミッドは、地上最古の大規模な石造建造物——イムホテプが、段階を踏んで、マスタバをどう積み重ねてピラミッドにするかを解き明かした建物です。ギザは着想の完成であり、サッカラはその着想が始まった場所です。ガイドはその二つを並べて、連なりの全体をあなたが一度に手にできるようにします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "西方砂漠：オアシスの連なり"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "そして旅は渓谷をあとにし、性格がまるごと変わります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "玄関口のオアシス、バハリヤは、カイロのおよそ370キロ南西の自然のくぼ地に広がります。スカイラインを支配するピラミッド・マウンテン、オアシスの暮らしの民族博物館、そして黄金のミイラの谷——1996年の発見以来、これまでに250を超える金箔のカルトナージュに包まれたミイラを出土させてきたグレコ・ローマン期の墓地です。アレクサンドロス大王は紀元前332年にここでファラオとして戴冠しました。その神殿はいまも立っています。砂漠は、何もない風景がけっして示唆しない仕方で、歴史の大きな流れに結びついていきます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "砂漠そのものの日々が、この旅の心臓部です。四輪駆動車で、暗い玄武岩の小石に覆われた黒砂漠を抜け、保護された国の指定地域である白砂漠へ。風が白亜を彫り上げた彫刻のような形——きのこや動物に似たもの、ただ抽象的なもの——が並びます。そこで野営する夜は、どの街からもそれだけ離れた空のもと、この旅に付随的なものではありません。多くの方が、帰ってきてから最初に話すのが、まさにこの夜です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "南のダフラはより大きく、より緑ゆたかで、交通ではなくナツメヤシの匂いがします——ローマ期の砂岩の神殿デイル・エル・ハガルが珍しくよく保存され、中世のイスラームの城塞化された村カスル・ダフラには、日干し煉瓦の路地にいまも人が住んでいます。さらに東のハルガは、オアシスのなかで最も大きく、サハラ以南のアフリカへとキャラバンを運んだ古代の隊商路ダルブ・エル・アルバイーン（四十日の道）の北端に位置します。ここにあるヒビス神殿は西方砂漠で最もよく保存された古代の神殿で、内陣はいまも彩色を残します。エル・バガワトは、世界最古のキリスト教徒の墓地の一つで、3〜7世紀の彩色された内部を擁する日干し煉瓦の葬祭礼拝堂が、砂漠の尾根に並んでいます。たいていのエジプトの行程が決して訪れない場所です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "ナイルへ戻る：ルクソール"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "砂漠のへりからルートはルクソールへ向きを変えます。古代テーベ、新王国の宗教的首都であり、一平方キロあたりの記念建築の密度が、地上のほとんどどこよりも高い場所です。カルナックは神殿ではなく、1,500年にわたって築かれ建て直された複合体で、その大列柱室は134本の柱の森です。ナイルを渡って死者の地へ——王家の谷の彩色された来世の回廊、崖の壁を背にせり上がるハトシェプスト葬祭殿、平野に単独で立つメムノンの巨像。砂漠の静寂のあとでは、ルクソールの密度は別の届き方をします——そのすべてを可能にした川を、ようやく理解した状態で、あなたはここに到着します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "もう一度カイロ：締めくくり"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "便があなたを最後の章のためにカイロへ戻します。あなたが10日間歩いて過ごした遺跡から出土した品々が集められたエジプト博物館——ツタンカーメンの財宝はいまや大エジプト博物館にあり、ご要望に応じて加えることができます——と、14世紀以来とぎれることなく商いを続けてきた中世のバザール、ハン・ハリーリです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "この旅の組み立て方"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "これはプライベートな出発です——ご一行だけのために運行し、相席のグループになることはありません。上にお示しした形は出発点であり、固定されたスケジュールではありません。円を描くルート、オアシスの連なり、砂漠での一夜、ルクソールの終幕——これらが背骨です。それぞれにどれだけ滞在するか、カイロの日々に大エジプト博物館を加えるか、お子様連れに合わせて砂漠の運転をどう刻むか——それは、お客様を中心に組み立てます。骨の折れる行程であることは、正直にお伝えしておきます。砂漠のドライブは長く、その見返りもまた相応です。ガイドと砂漠のドライバーは、この巡回路を幾度となく走ってきました。それが、この旅をきちんと実現できる理由の大半です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "たいていのエジプトの行程はナイルをたどり、それを国全体と呼びます。この旅は、ナイルが行かないところへ行き、変わって戻ってきます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "旅の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · カイロ → バハリヤ → 白砂漠 → ダフラ → ハルガ → ルクソール → カイロ"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "日数 · およそ10日間／9泊 — 調整可能"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド＋砂漠ドライバー · 白砂漠での野営一泊 · 長い砂漠移動を含む、骨の折れるペース"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "wp-page-83284",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  },
+  {
+   "_key": "e18bc6851f25",
+   "_ref": "wp-page-58769",
+   "_type": "reference"
+  },
+  {
+   "_key": "72676d8d67e3",
+   "_ref": "wp-page-58783",
+   "_type": "reference"
+  },
+  {
+   "_key": "757ecec2b3d0",
+   "_ref": "wp-page-58877",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private journey is built around your party, not the other way around. Tell our team how you'd want to shape it — more time in the oases, the Grand Egyptian Museum added, the desert driving paced differently — and we'll build the ten days to fit."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Un viaje privado se construye alrededor de su grupo, no al revés. Cuéntenos cómo quieren modelarlo —más tiempo en los oasis, el Gran Museo Egipcio añadido, los tramos de desierto con otro ritmo— y armaremos los diez días a su medida."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "プライベートな旅は、お客様のご一行を中心に組み立てます。オアシスでの滞在を長くする、大エジプト博物館を加える、砂漠の運転をより穏やかなペースにする——どのように形にしたいか、私どもまでお聞かせください。10日間をその形に合わせて組み立てます。"
+  }
+ ],
+ "customisationOptions": [
+  {
+   "_key": "63ne8rxsej",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Tell our team how you'd want to shape it — more time in the oases, the Grand Egyptian Museum added, the desert driving paced differently — and we'll build the ten days to fit.",
+   "text": "Add the Grand Egyptian Museum to the Cairo days"
+  },
+  {
+   "_key": "34lqtsyi8d",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Tell our team how you'd want to shape it — more time in the oases, the Grand Egyptian Museum added, the desert driving paced differently — and we'll build the ten days to fit.",
+   "text": "Spend more time in the oases"
+  },
+  {
+   "_key": "egezdmqjr7",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Tell our team how you'd want to shape it — more time in the oases, the Grand Egyptian Museum added, the desert driving paced differently — and we'll build the ten days to fit.",
+   "text": "Pace the desert driving differently"
+  },
+  {
+   "_key": "mm43kqg94o",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cuánto se demora cada tramo, si el Gran Museo Egipcio se suma a los días de El Cairo, cómo se cadencia la conducción por el desierto para su grupo y sus niños, eso se construye alrededor de ustedes.",
+   "text": "Añadir el Gran Museo Egipcio a los días de El Cairo"
+  },
+  {
+   "_key": "ugcszxl100",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cuéntenos cómo quieren modelarlo —más tiempo en los oasis, el Gran Museo Egipcio añadido, los tramos de desierto con otro ritmo— y armaremos los diez días a su medida.",
+   "text": "Pasar más tiempo en los oasis"
+  },
+  {
+   "_key": "ra0is7i763",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cuánto se demora cada tramo, si el Gran Museo Egipcio se suma a los días de El Cairo, cómo se cadencia la conducción por el desierto para su grupo y sus niños, eso se construye alrededor de ustedes.",
+   "text": "Cambiar el ritmo de la conducción por el desierto"
+  },
+  {
+   "_key": "g8mxnvw33b",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "それぞれにどれだけ滞在するか、カイロの日々に大エジプト博物館を加えるか、お子様連れに合わせて砂漠の運転をどう刻むか——それは、お客様を中心に組み立てます。",
+   "text": "カイロの日程に大エジプト博物館を加える"
+  },
+  {
+   "_key": "qr400ltji",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "オアシスでの滞在を長くする、大エジプト博物館を加える、砂漠の運転をより穏やかなペースにする——どのように形にしたいか、私どもまでお聞かせください。",
+   "text": "オアシスでの滞在を長くする"
+  },
+  {
+   "_key": "8djzs98svi",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "それぞれにどれだけ滞在するか、カイロの日々に大エジプト博物館を加えるか、お子様連れに合わせて砂漠の運転をどう刻むか——それは、お客様を中心に組み立てます。",
+   "text": "砂漠の運転のペースを変える"
+  }
+ ],
+ "durationDays": 10,
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 2560,
+  "ja": 2613
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The recumbent colossal statue of Ramesses II inside the museum at Memphis"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "La colosal estatua yacente de Ramsés II en el museo de Menfis"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "メンフィスの博物館に横たわるラムセス2世の巨像"
+   }
+  ],
+  "asset": {
+   "_ref": "image-66569d395d16b27f3a8f56b70e3cc2ee0b89d2e9-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The fallen colossus of Ramesses II reclines in its hall at Memphis."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El coloso caído de Ramsés II reposa en su sala en Menfis."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "メンフィスの展示室に横たわるラムセス2世の倒れた巨像。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "g9m1ykb6nk",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Carácter · Salida privada · su propio egiptólogo y conductores del desierto · una noche acampados en el Desierto Blanco · ritmo exigente, largas distancias en pista",
+   "text": "su propio egiptólogo y conductores del desierto"
+  },
+  {
+   "_key": "kki6jusdf",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Carácter · Salida privada · su propio egiptólogo y conductores del desierto · una noche acampados en el Desierto Blanco · ritmo exigente, largas distancias en pista",
+   "text": "una noche acampados en el Desierto Blanco"
+  },
+  {
+   "_key": "u8w0awu2ez",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド＋砂漠ドライバー · 白砂漠での野営一泊 · 長い砂漠移動を含む、骨の折れるペース",
+   "text": "専属のエジプト学ガイド＋砂漠ドライバー"
+  },
+  {
+   "_key": "twuikmc97d",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド＋砂漠ドライバー · 白砂漠での野営一泊 · 長い砂漠移動を含む、骨の折れるペース",
+   "text": "白砂漠での野営一泊"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/10-day-nile-and-western-desert-tour/"
+ },
+ "priceFrom": 2470,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_89343",
+   "_ref": "wp-page-89343",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_90450",
+   "_ref": "wp-page-90450",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_156550",
+   "_ref": "wp-page-156550",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_113004",
+   "_ref": "wp-page-113004",
+   "_type": "reference"
+  }
+ ],
+ "routeLegs": [],
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "10-day-nile-and-western-desert-tour"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "nilo-y-desierto-occidental-en-10-dias"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "sabaku-no-kawa-nairu-kara-seiho-sabaku-e-soshite-modoru-10"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "Ten days from the Giza plateau into the Western Desert oases and back through Luxor to Cairo. A private journey that insists on the Egypt beyond the river — the oases, the White Desert, and the silence between two historical bookends."
+  },
+  {
+   "_key": "es",
+   "value": "Un viaje privado de diez días desde la meseta de Guiza hacia los oasis del Desierto Occidental y de regreso por Luxor a El Cairo: el Egipto que la mayoría de itinerarios omite."
+  },
+  {
+   "_key": "ja",
+   "value": "ギザ高原から、バハリヤ、白砂漠、ダフラ、ハルガの西方砂漠のオアシスへ、そしてルクソールを経てカイロへ戻る10日間。川の向こうにあるエジプトを軸に組まれたプライベートな旅。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-special-interest",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "value": "10-Day Nile and Western Desert Tour: Cairo, the Oases, and Luxor"
+  },
+  {
+   "_key": "es",
+   "value": "Nilo y Desierto Occidental en 10 días"
+  },
+  {
+   "_key": "ja",
+   "value": "砂漠の川——ナイルから西方砂漠へ、そして戻る10日間"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}
