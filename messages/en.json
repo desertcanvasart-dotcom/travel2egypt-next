@@ -1750,12 +1750,28 @@
     "concierge": "Get advice from our Egypt travel specialists →",
     "howKicker": "How it works"
   },
+  "groupDepartures": {
+    "metaTitle": "Group Egypt Tours: All Departure Dates",
+    "metaDescription": "Every scheduled group departure in one list, by month: dates, length, price per person and status, each linking to the full itinerary.",
+    "crumb": "Group departure dates",
+    "kicker": "Scheduled departures",
+    "title": "Group Tours: All Departure Dates",
+    "dek": "Every fixed-date group departure in date order. Choose a date to open the full itinerary.",
+    "count": "{count, plural, one {# departure} other {# departures}} open to book",
+    "jump": "Jump to a month",
+    "peak": "Peak season",
+    "see": "See the tour →",
+    "empty": "No dates are open right now. Ask us and we will tell you the next departure.",
+    "note": "Prices are per person sharing. A date leaves this list 14 days before it starts, unless it already has bookings. Don't see a date that works? We can sometimes open a private departure for your own party.",
+    "howItWorks": "How a group departure works →"
+  },
   "smallGroupHub": {
     "crumb": "Small-group departures",
     "title": "Small Group Egypt Tours",
     "dek": "Scheduled Egypt tours with a capped group and a licensed Egyptologist. Fixed dates, shared costs, every hotel and transfer arranged.",
     "primary": "Ask for departure dates",
     "secondary": "See the departures ↓",
+    "allDates": "All dates by month →",
     "statTours": "Group tours",
     "statToursValue": "{count}",
     "statFrom": "From",

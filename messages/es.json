@@ -1750,12 +1750,28 @@
     "concierge": "Pide consejo a nuestros especialistas en Egipto →",
     "howKicker": "Cómo funciona"
   },
+  "groupDepartures": {
+    "metaTitle": "Tours en grupo por Egipto: todas las fechas de salida",
+    "metaDescription": "Todas las salidas en grupo programadas en una lista, por mes: fechas, duración, precio por persona y estado, cada una con enlace al itinerario completo.",
+    "crumb": "Fechas de salidas en grupo",
+    "kicker": "Salidas programadas",
+    "title": "Tours en grupo: todas las fechas de salida",
+    "dek": "Todas las salidas en grupo con fecha fija, por orden de fecha. Elige una fecha para abrir el itinerario completo.",
+    "count": "{count, plural, one {# salida} other {# salidas}} para reservar",
+    "jump": "Ir a un mes",
+    "peak": "Temporada alta",
+    "see": "Ver el tour →",
+    "empty": "Ahora mismo no hay fechas abiertas. Pregúntanos y te diremos la próxima salida.",
+    "note": "Los precios son por persona en habitación compartida. Una fecha sale de esta lista 14 días antes de empezar, salvo que ya tenga reservas. ¿No ves una fecha que te venga bien? A veces podemos abrir una salida privada para tu propio grupo.",
+    "howItWorks": "Cómo funciona una salida en grupo →"
+  },
   "smallGroupHub": {
     "crumb": "Salidas en grupo reducido",
     "title": "Salidas en grupo reducido",
     "dek": "Viajes por Egipto con fechas fijas, grupo limitado y un egiptólogo con licencia. Costes compartidos y todos los hoteles y traslados organizados.",
     "primary": "Consultar fechas de salida",
     "secondary": "Ver las salidas ↓",
+    "allDates": "Todas las fechas por mes →",
     "statTours": "Viajes en grupo",
     "statToursValue": "{count}",
     "statFrom": "Desde",

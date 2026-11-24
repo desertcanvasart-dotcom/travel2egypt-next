@@ -76,6 +76,7 @@ const STATIC_PATHS: Array<{ path: string; priority?: number }> = [
   // These four were previously absent from the sitemap in every locale.
   { path: '/egypt-travel-packages', priority: 0.9 },
   { path: '/small-group-travel-packages', priority: 0.9 },
+  { path: '/group-departures', priority: 0.8 },
   { path: '/private-day-tours', priority: 0.9 },
   { path: '/group-day-tours', priority: 0.9 },
   { path: '/guide', priority: 0.9 },
