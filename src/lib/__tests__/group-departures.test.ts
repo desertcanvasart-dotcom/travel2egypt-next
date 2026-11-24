@@ -7,7 +7,7 @@ import { buildCalendar, type CalendarTour } from '../groupDepartures';
 const now = new Date('2026-11-24T12:00:00Z');
 const tours: CalendarTour[] = [
   {
-    _id: 'a', title: 'Nile Cruise', href: 'nile-cruise', durationDays: 15, priceFrom: 6000, maxGroup: 12,
+    _id: 'a', title: 'Nile Cruise', href: 'nile-cruise', privateGuiding: true, durationDays: 15, priceFrom: 6000, maxGroup: 12,
     departures: [
       { startDate: '2026-11-22' }, // started: gone
       { startDate: '2026-12-02' }, // 8 days away, unbooked: hidden by the 14-day cut-off
@@ -36,6 +36,8 @@ assert.equal(out.price, null, 'no base price → on inquiry');
 assert.equal(cal[2].label, 'February 2027');
 assert.equal(buildCalendar(tours, { now, locale: 'es' })[2].label, 'febrero de 2027');
 assert.equal(buildCalendar(tours, { now, locale: 'ja' })[2].label, '2027年2月');
+assert.equal(peak.isPrivate, true, 'privateGuiding carries through to the row');
+assert.equal(out.isPrivate, false, 'shared-guide tours are not marked private');
 assert.deepEqual(buildCalendar([], { now, locale: 'en' }), []);
 assert.equal(cal.flatMap((m) => m.rows).some((r) => r.tourId === 'd'), false, 'a tour without a link is skipped');
 console.log('group-departures: ok');

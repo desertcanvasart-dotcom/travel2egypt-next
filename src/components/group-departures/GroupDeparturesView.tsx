@@ -98,7 +98,11 @@ export async function GroupDeparturesView({ months, locale }: { months: Calendar
                     <div className="gd-date">{r.dateRange}</div>
                     <div className="gd-tour">
                       <Link href={`/${r.href}` as never} className="gd-title">{r.title}</Link>
-                      {r.days != null && <span className="gd-days">{ts('pkgCatDayCount', { count: r.days })}</span>}
+                      <span className="gd-days">
+                        {r.days != null && ts('pkgCatDayCount', { count: r.days })}
+                        {r.days != null && ' · '}
+                        {r.isPrivate ? t('kindPrivate') : t('kindGroup')}
+                      </span>
                     </div>
                     <div className={`gd-status ${r.status ? STATUS_CLASS[r.status] ?? 's-open' : ''}`}>
                       {r.status ? STATUS_LABEL[r.status] : ''}

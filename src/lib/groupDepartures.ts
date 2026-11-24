@@ -21,6 +21,8 @@ export interface CalendarTour {
   priceFrom?: number | null;
   peakUpliftPct?: number | null;
   maxGroup?: number | null;
+  /** Fixed dates, private guiding (long Nile cruises). */
+  privateGuiding?: boolean | null;
   departures?: RawDeparture[] | null;
 }
 
@@ -37,6 +39,8 @@ export interface CalendarRow {
   title: string;
   href: string;
   days: number | null;
+  /** True: the dates are fixed but the guiding, car and sightseeing are private to the party. */
+  isPrivate: boolean;
 }
 
 export interface CalendarMonth {
@@ -74,6 +78,7 @@ export function buildCalendar(tours: CalendarTour[], opts: { now: Date; locale: 
         title: t.title,
         href: t.href,
         days,
+        isPrivate: Boolean(t.privateGuiding),
       });
     }
   }

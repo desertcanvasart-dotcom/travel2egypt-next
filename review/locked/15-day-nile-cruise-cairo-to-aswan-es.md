@@ -4,7 +4,7 @@
 
 ## Panel
 
-**Tipo:** Salidas programadas, con guía en un crucero de cinco estrellas por el Nilo · **Duración:** 15 días, 14 noches
+**Tipo:** Tour privado con salidas fijas, con guía en un crucero de cinco estrellas por el Nilo · **Duración:** 15 días, 14 noches
 **Ruta:** El Cairo · Beni Suef · Minya · Tell el-Amarna · Asyut · Sohag · Abidos · Dendera · Luxor · Edfu · Kom Ombo · Asuán
 **Noches:** 14 en el río
 **Comidas:** pensión completa

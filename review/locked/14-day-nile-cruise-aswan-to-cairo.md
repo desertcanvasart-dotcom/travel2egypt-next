@@ -4,7 +4,7 @@
 
 ## Panel
 
-**Type:** Scheduled departures, guided on a five-star Nile cruise ship · **Duration:** 14 days, 13 nights
+**Type:** Private tour on fixed departures, guided on a five-star Nile cruise ship · **Duration:** 14 days, 13 nights
 **Route:** Cairo · Aswan · Kom Ombo · Edfu · Luxor · Dendera · Abydos · Tell el-Amarna · Minya · Beni Hassan · Cairo
 **Nights:** 12 on the river · 1 in Cairo
 **Meals:** full board on the ship

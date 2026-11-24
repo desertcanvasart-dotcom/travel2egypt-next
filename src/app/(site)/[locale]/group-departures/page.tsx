@@ -34,6 +34,7 @@ const groupDeparturesQuery = groq`*[_type == "tour" && tourMode == "group" && co
   durationDays,
   peakUpliftPct,
   maxGroup,
+  privateGuiding,
   departures[]{ startDate, isPeak, status, placesLeft }
 }`;
 

@@ -270,6 +270,7 @@ const tourCardProjection = (locale: Locale) => `
   "enSlug": slug[_key=="en"][0].value.current,
   peakUpliftPct,
   maxGroup,
+  privateGuiding,
   "title": ${localizedField('title', locale)},
   "slug": ${localizedSlug('slug', locale)},
   "allSlugs": slug[]{ _key, "current": value.current },
@@ -567,6 +568,7 @@ export const tourBySlugQuery = (locale: Locale) => groq`
     basePrice,
     peakUpliftPct,
     maxGroup,
+    privateGuiding,
     "departures": departures[]{
       "startDate": startDate,
       "isPeak": isPeak,
