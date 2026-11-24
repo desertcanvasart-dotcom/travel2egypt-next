@@ -1929,7 +1929,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/12-day-amazing-family-vacation-in-egypt",
-    "destination": "/ja/12-nichikan-famiri-bakeshon",
+    "destination": "/ja/14-nichikan-no-ejiputoragujuari-kazoku-kiko-piramiddo-kawa",
     "permanent": true
   },
   {
@@ -6834,7 +6834,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/12-day-amazing-family-vacation-in-egypt",
-    "destination": "/es/viaje-familiar-por-egipto-en-12-dias",
+    "destination": "/es/vacaciones-familiares-de-lujo-en-egipto-en-14-dias",
     "permanent": true
   },
   {
@@ -27854,7 +27854,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/12日間-エジプト・アメージング・ファミリーバケ",
-    "destination": "/ja/12-nichikan-famiri-bakeshon",
+    "destination": "/ja/14-nichikan-no-ejiputoragujuari-kazoku-kiko-piramiddo-kawa",
     "permanent": true
   },
   {
@@ -29129,7 +29129,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/tours-por-egipto-de-12-dias",
-    "destination": "/es/viaje-familiar-por-egipto-en-12-dias",
+    "destination": "/es/vacaciones-familiares-de-lujo-en-egipto-en-14-dias",
     "permanent": true
   },
   {
@@ -29324,7 +29324,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/vacaciones-familiares-de-12-dias-en-egipto",
-    "destination": "/es/viaje-familiar-por-egipto-en-12-dias",
+    "destination": "/es/vacaciones-familiares-de-lujo-en-egipto-en-14-dias",
     "permanent": true
   },
   {
@@ -30800,6 +30800,21 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/12-nichikan-ejiputo-to-kokai-kairo-nairu-rukusoru-asuwan",
     "destination": "/ja/ejiputo-no-hana-piramiddo-kara-kokai-e-no-11-nichikan",
+    "permanent": true
+  },
+  {
+    "source": "/12-day-amazing-family-vacation-in-egypt",
+    "destination": "/14-day-egypt-luxury-family-holiday",
+    "permanent": true
+  },
+  {
+    "source": "/es/viaje-familiar-por-egipto-en-12-dias",
+    "destination": "/es/vacaciones-familiares-de-lujo-en-egipto-en-14-dias",
+    "permanent": true
+  },
+  {
+    "source": "/ja/12-nichikan-famiri-bakeshon",
+    "destination": "/ja/14-nichikan-no-ejiputoragujuari-kazoku-kiko-piramiddo-kawa",
     "permanent": true
   }
 ];
