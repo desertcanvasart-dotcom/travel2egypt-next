@@ -2454,7 +2454,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/8-day-luxor-to-luxor-cruise",
-    "destination": "/ja/8-nichikan-rukusoru-hatchaku-nairu-kuruzu-shinden-haka",
+    "destination": "/ja/kairo-to-nairu-kuruzu-no-ofuku-11-nichikan-piramiddo-kawa",
     "permanent": true
   },
   {
@@ -7364,7 +7364,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/8-day-luxor-to-luxor-cruise",
-    "destination": "/es/crucero-de-8-dias-por-el-nilo-de-luxor-a-luxor-templos-tumbas-y-rio",
+    "destination": "/es/el-cairo-y-el-nilo-en-11-dias-ida-y-vuelta-piramides-rio-luxor",
     "permanent": true
   },
   {
@@ -30815,6 +30815,21 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/12-nichikan-famiri-bakeshon",
     "destination": "/ja/14-nichikan-no-ejiputoragujuari-kazoku-kiko-piramiddo-kawa",
+    "permanent": true
+  },
+  {
+    "source": "/8-day-luxor-to-luxor-cruise",
+    "destination": "/11-day-cairo-and-nile-cruise-round-trip",
+    "permanent": true
+  },
+  {
+    "source": "/es/crucero-de-8-dias-por-el-nilo-de-luxor-a-luxor-templos-tumbas-y-rio",
+    "destination": "/es/el-cairo-y-el-nilo-en-11-dias-ida-y-vuelta-piramides-rio-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/ja/8-nichikan-rukusoru-hatchaku-nairu-kuruzu-shinden-haka",
+    "destination": "/ja/kairo-to-nairu-kuruzu-no-ofuku-11-nichikan-piramiddo-kawa",
     "permanent": true
   }
 ];
