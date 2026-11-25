@@ -5,8 +5,8 @@
     "areas": [
       {
         "en": "Cairo",
-        "car": null,
-        "van": null
+        "car": 56,
+        "van": 59
       },
       {
         "en": "Giza",
@@ -20,8 +20,8 @@
       },
       {
         "en": "New Cairo",
-        "car": null,
-        "van": null
+        "car": 56,
+        "van": 65
       },
       {
         "en": "New Administrative Capital",
@@ -36,34 +36,34 @@
     "areas": [
       {
         "en": "East Bank",
-        "car": null,
-        "van": null
+        "car": 41,
+        "van": 50
       },
       {
         "en": "West Bank",
-        "car": null,
-        "van": null
+        "car": 59,
+        "van": 71
       },
       {
         "en": "South City",
-        "car": null,
-        "van": null
+        "car": 48,
+        "van": 58
       }
     ],
-    "meetAssist": null
+    "meetAssist": 16
   },
   "aswan": {
     "fromArea": "City",
     "areas": [
       {
         "en": "City",
-        "car": null,
-        "van": null
+        "car": 50,
+        "van": 57
       },
       {
         "en": "West of Sehail",
-        "car": null,
-        "van": null
+        "car": 50,
+        "van": 72
       },
       {
         "en": "South of the Aswan bridge, including the cruise docks",
@@ -71,15 +71,15 @@
         "van": null
       }
     ],
-    "meetAssist": null
+    "meetAssist": 16
   },
   "hurghada": {
     "fromArea": "Hurghada",
     "areas": [
       {
         "en": "El Gouna",
-        "car": null,
-        "van": null
+        "car": 41,
+        "van": 47
       },
       {
         "en": "Al Ahyaa",
@@ -93,8 +93,8 @@
       },
       {
         "en": "Hurghada",
-        "car": null,
-        "van": null
+        "car": 34,
+        "van": 41
       },
       {
         "en": "El Mamsha",
@@ -103,26 +103,26 @@
       },
       {
         "en": "Sahl Hasheesh",
-        "car": null,
-        "van": null
+        "car": 41,
+        "van": 47
       },
       {
         "en": "Soma Bay",
-        "car": null,
-        "van": null
+        "car": 41,
+        "van": 47
       },
       {
         "en": "Safaga",
-        "car": null,
-        "van": null
+        "car": 98,
+        "van": 131
       },
       {
         "en": "El Quseir",
-        "car": null,
-        "van": null
+        "car": 86,
+        "van": 112
       }
     ],
-    "meetAssist": null
+    "meetAssist": 16
   },
   "sharm-el-sheikh": {
     "fromArea": "Naama Bay",
@@ -173,6 +173,7 @@
         "van": null
       }
     ],
-    "meetAssist": null
-  }
+    "meetAssist": 16
+  },
+  "_read": "Autoura read 25 Nov 2026, EUR/EGP 59.3534. Each car/van figure = (car card + representative 700 EGP + airport driver tip 250 EGP; the tip rate on file is for Cairo) x 1.3, rounded up (owner, 25 Nov: add representative and tip). Meet and assist add-on = 700 EGP x 1.3. null = no rate card (or, Cairo meet and assist, two conflicting figures). For owner approval; not applied."
 }
