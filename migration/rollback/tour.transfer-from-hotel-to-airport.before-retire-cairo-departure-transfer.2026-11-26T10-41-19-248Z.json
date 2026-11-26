@@ -1,0 +1,993 @@
+{
+ "_createdAt": "2026-05-28T11:45:36Z",
+ "_id": "tour.transfer-from-hotel-to-airport",
+ "_rev": "K2pi3eY73hTRu2vMGMyRaJ",
+ "_system": {
+  "base": {
+   "id": "tour.transfer-from-hotel-to-airport",
+   "rev": "QIbTiukOLK0KckCunqSH7l"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:41Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Departing travellers who want a confirmed pickup time, terminal certainty, and no last-morning improvisation"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Vuelos internacionales, familias y salidas tempranas"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "カイロ最終日、早朝便・夜便、ご家族や荷物の多い方、最後を慌てたくない方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "The Quiet Exit: Private Transfer to Cairo International Airport"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "There is a particular kind of travel anxiety that has nothing to do with the sights you came to see. It lives in the final morning: the checkout clock, the unfamiliar traffic, the question of whether you have left enough time. This transfer exists to eliminate that entirely."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "It is not a tour. It is not an experience in the conventional sense. It is a single, well-executed logistical service — a private car, a professional driver, and a representative who meets you in your hotel lobby so that the last thing Egypt asks of you is nothing more strenuous than sitting back and watching Cairo slide past the window one final time."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "That, done well, is worth something."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "What the Journey Holds"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "On your departure day, a Travel2Egypt representative will be waiting for you in the lobby of your hotel. They will be holding a sign with your name clearly displayed — no scanning the crowd, no uncertainty about who you are looking for. Introductions are brief; the focus is on getting you moving with time to spare."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "From the lobby, you are escorted directly to a private, air-conditioned vehicle. The drive from central Cairo or Giza to Cairo International Airport varies in length depending on your hotel's location and the time of day — the city's traffic is legendary, and an early-morning rush or a midday crawl can add meaningful time to any route. Your driver will account for this. The transfer is timed to ensure you arrive with a genuine buffer before your flight, not a theoretical one."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "The road to the airport carries you through neighbourhoods that most visitors only ever glimpse from a tour bus window. Depending on your route, you may pass the older residential quarters of Heliopolis, the wide municipal avenues of eastern Cairo, or stretches of elevated expressway with the skyline falling behind you. It is not a guided commentary — it is simply Cairo, unscripted, on your way out."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo International Airport is served by Terminal 1 and Terminal 2. Your driver will deliver you to the correct terminal for your airline. If you are uncertain which terminal applies to your flight, it is worth confirming in advance with your airline — your representative can help clarify if needed."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Egypt will have asked a great deal of you — heat, crowds, scale, and the particular exhaustion of having seen too much that mattered."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "The least it can do is let you leave in peace."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Pickup time is confirmed the evening before, calibrated to your flight and likely traffic. The concierge can advise on the right buffer for international vs. domestic departures and on luggage storage if your checkout falls earlier than the transfer."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000026",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "La salida tranquila: traslado privado al aeropuerto internacional de El Cairo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un traslado privado para cerrar el viaje sin negociaciones, tráfico improvisado ni dudas de terminal."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Hay un tipo particular de ansiedad de viaje que nada tiene que ver con los sitios a los que viniste. Vive en la última mañana: el reloj del "
+      },
+      {
+       "_key": "000000000005",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "checkout"
+      },
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": ", el tráfico desconocido, la duda de si has dejado tiempo suficiente. Este traslado existe para eliminarla por completo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "No es un tour. No es una experiencia en el sentido convencional. Es un único servicio logístico bien ejecutado: un coche privado, un conductor profesional y un representante que te recibe en el vestíbulo del hotel para que lo último que Egipto te pida no sea nada más esforzado que sentarte hacia atrás y ver desfilar El Cairo por la ventanilla una vez más."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Bien hecho, eso ya tiene un valor."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Cómo es el trayecto"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "El día de salida, un representante de Travel2Egypt estará esperándote en el vestíbulo de tu hotel. Llevará un cartel con tu nombre claramente visible —sin tener que rastrear a la multitud, sin incertidumbre sobre a quién buscas—. Las presentaciones son breves; el foco está en ponerte en marcha con margen."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde el vestíbulo se te acompaña directamente a un vehículo privado con aire acondicionado. El trayecto desde el centro de El Cairo o Guiza al aeropuerto internacional de El Cairo varía en duración según la ubicación del hotel y la hora del día —el tráfico de la ciudad es legendario y una hora punta a primera hora o un atasco al mediodía pueden añadir un tiempo considerable a cualquier ruta—. El conductor lo tendrá en cuenta. El traslado se calcula para que llegues con un margen real antes de tu vuelo, no con uno teórico."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "La carretera hacia el aeropuerto te lleva por barrios que la mayoría de visitantes solo entrevé desde la ventanilla de un autobús turístico. Según la ruta, puedes pasar por los cuarteles residenciales más antiguos de Heliópolis, por las amplias avenidas municipales del este de El Cairo o por tramos de autopista elevada con el horizonte cayendo a tu espalda. No hay comentario guiado: es simplemente El Cairo, sin guion, en tu camino de salida."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "El aeropuerto internacional de El Cairo opera con las terminales 1 y 2. Tu conductor te dejará en la terminal correspondiente a tu compañía aérea. Si no estás seguro de qué terminal te toca, conviene confirmarlo de antemano con la aerolínea; el representante puede ayudar a aclararlo si hace falta."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Egipto te habrá pedido mucho —calor, multitudes, escala y el agotamiento particular de haber visto demasiado de lo que importa—."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Lo menos que puede hacer es dejarte salir en paz."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "El mejor traslado de salida es el que no se recuerda por ningun problema."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta es una ruta abierta. Si quieres ajustar el ritmo, cambiar el orden de las visitas o añadir un complemento, podemos adaptarla contigo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "静かな退場：カイロ国際空港へのプライベート送迎"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "見に来た景色とはまったく関わりのない、ある種の旅の不安があります。それは最後の朝に住みつきます——チェックアウトの時計、不慣れな交通、十分な時間を残したかという問い。この送迎は、それをそっくり取り除くために存在します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "これはツアーではありません。通常の意味での体験でもありません。たった一つの、見事に遂行される段取りのサービスです——プライベートの車、プロのドライバー、そしてホテルのロビーでお迎えする係員——そうしてエジプトが最後にお客様に求めるのは、座って、カイロが最後にもう一度窓を流れ過ぎるのを眺める以上に骨の折れることは何もありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "それが、うまくなされれば、価値あるものなのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "道のりで待ち受けるもの"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "ご出発の日、Travel2Egypt の係員がホテルのロビーでお待ちしています。お名前をはっきりと記した札を持っています——人ごみを見渡すことも、誰を探せばよいのか迷うこともありません。あいさつは手短に——余裕をもって動き出すことに焦点があります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "ロビーから、プライベートの冷房付き車両へ直接ご案内します。カイロ中心部やギザからカイロ国際空港へのドライブは、ホテルの場所と時間帯によって長さが変わります——この街の交通は伝説的で、早朝のラッシュや日中ののろのろ運転は、どの経路にもかなりの時間を足しうるのです。ドライバーがそれを織り込みます。送迎は、便の前に理論上ではなく本物の余裕をもって着けるよう、時刻を組んでいます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "空港への道は、大半の訪問者がツアーバスの窓からしか目にしない界隈を通り抜けます。経路によっては、ヘリオポリスの古い住宅地区、東カイロの広い市の大通り、あるいはスカイラインが背後に退いていく高架の高速道路の区間を過ぎることもあります。ガイド付きの解説ではありません——ただ、お発ちになる途上の、台本のないカイロです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロ国際空港はターミナル1とターミナル2で運用されています。ドライバーがご利用の航空会社の正しいターミナルへお送りします。ご自身の便にどのターミナルが当たるか不確かな場合は、あらかじめ航空会社にご確認になる価値があります——必要なら係員が明らかにするお手伝いをします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "エジプトはお客様に多くを求めてきたことでしょう——暑さ、雑踏、規模、驚嘆、そして大切なものを見すぎたことの、あの特有の疲れを。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "せめてそれができるのは、お客様を安らかにお発たせすることです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "国際線出発前に2時間半〜3時間の余裕を見込みます。お迎えの時刻は前夜に最終確認します。考古学的購入品の輸出書類など、最後の段取りもこの一日を一緒に組み立てるください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Cairo has two terminals and no patience for a wrong guess, so the drop is planned to the door, not just to the airport. If your flight moves, the pickup moves with it — nothing to renegotiate. Tell our concierge your airline and departure time and let the last morning stay unhurried."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "El Cairo tiene dos terminales y poca paciencia con las conjeturas, así que la llegada se planifica hasta la puerta, no solo hasta el aeropuerto. Si tu vuelo cambia, la recogida cambia con él — nada que renegociar. Dile a nuestro concierge tu aerolínea y tu hora de salida, y deja que la última mañana transcurra sin prisa."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "カイロ空港にはターミナルが二つあり、当て推量は禁物です。ですから降車地点は空港までではなく、正しいターミナルの扉の前まで計画します。フライトが変われば、お迎えの時刻もそれに合わせて動きます——改めての調整は要りません。航空会社と出発時刻をコンシェルジュにお伝えのうえ、最後の朝はどうぞ急がずお過ごしください。"
+  }
+ ],
+ "durationDays": 1,
+ "durationHours": 2,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "~2 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "~2 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "約2時間"
+  }
+ ],
+ "exclusions": [
+  {
+   "_key": "l07b6zzdbg",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "It is not a guided commentary — it is simply Cairo, unscripted, on your way out.",
+   "text": "Not a guided commentary"
+  },
+  {
+   "_key": "yk27bhz5yj",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "No hay comentario guiado: es simplemente El Cairo, sin guion, en tu camino de salida.",
+   "text": "Comentario guiado"
+  },
+  {
+   "_key": "vc2bdptflu",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ガイド付きの解説ではありません——ただ、お発ちになる途上の、台本のないカイロです。",
+   "text": "ガイド付きの解説ではありません"
+  }
+ ],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 46,
+  "ja": 53
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A row of self-service airline check-in desks with overhead screens in a modern airport terminal"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Una hilera de mostradores de facturación de autoservicio con pantallas elevadas en una terminal de aeropuerto moderna"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "現代的な空港ターミナルで、頭上のスクリーンを備えたセルフサービスの航空会社チェックインカウンターの列。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-715c19635f83717903790f9ea346237ebb9a2981-3000x1687-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Airline check-in desks at a departure terminal."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Mostradores de facturación en una terminal de salidas."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "出発ターミナルの航空会社チェックインカウンター。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "m9qrj1jioc",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A private, air-conditioned transfer from your Cairo or Giza hotel to Cairo International Airport — prompt, professional, and entirely stress-free.",
+   "text": "Private, air-conditioned transfer from your Cairo or Giza hotel to Cairo International Airport"
+  },
+  {
+   "_key": "mqo6i0q6tx",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "On your departure day, a Travel2Egypt representative will be waiting for you in the lobby of your hotel.",
+   "text": "Travel2Egypt representative waiting in your hotel lobby"
+  },
+  {
+   "_key": "2qkuj3sibm",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Your driver will deliver you to the correct terminal for your airline.",
+   "text": "Drop-off at the correct terminal for your airline"
+  },
+  {
+   "_key": "6qem2b9fmh",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Es un único servicio logístico bien ejecutado: un coche privado, un conductor profesional y un representante que te recibe en el vestíbulo del hotel para que lo último que Egipto te pida no sea nada más esforzado que sentarte hacia atrás y ver desfilar El Cairo por la ventanilla una vez más.",
+   "text": "Coche privado"
+  },
+  {
+   "_key": "dcrnxix5a7",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Es un único servicio logístico bien ejecutado: un coche privado, un conductor profesional y un representante que te recibe en el vestíbulo del hotel para que lo último que Egipto te pida no sea nada más esforzado que sentarte hacia atrás y ver desfilar El Cairo por la ventanilla una vez más.",
+   "text": "Conductor profesional"
+  },
+  {
+   "_key": "a4xc9ml8t3",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Es un único servicio logístico bien ejecutado: un coche privado, un conductor profesional y un representante que te recibe en el vestíbulo del hotel para que lo último que Egipto te pida no sea nada más esforzado que sentarte hacia atrás y ver desfilar El Cairo por la ventanilla una vez más.",
+   "text": "Representante que te recibe en el vestíbulo del hotel"
+  },
+  {
+   "_key": "h9wzk29u9v",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Desde el vestíbulo se te acompaña directamente a un vehículo privado con aire acondicionado.",
+   "text": "Vehículo privado con aire acondicionado"
+  },
+  {
+   "_key": "qnuwkbea9c",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Tu conductor te dejará en la terminal correspondiente a tu compañía aérea.",
+   "text": "Traslado hasta la terminal correspondiente a tu compañía aérea"
+  },
+  {
+   "_key": "5pq06okqp5",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "カイロまたはギザのホテルからカイロ国際空港への、プライベートの冷房付き送迎——迅速に、プロらしく、そしてまったくわずらわしさなく。",
+   "text": "カイロまたはギザのホテルからカイロ国際空港への、プライベートの冷房付き送迎"
+  },
+  {
+   "_key": "33rvcbe87z",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "たった一つの、見事に遂行される段取りのサービスです——プライベートの車、プロのドライバー、そしてホテルのロビーでお迎えする係員——そうしてエジプトが最後にお客様に求めるのは、座って、カイロが最後にもう一度窓を流れ過ぎるのを眺める以上に骨の折れることは何もありません。",
+   "text": "プライベートの車"
+  },
+  {
+   "_key": "xgayqbrm9n",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "たった一つの、見事に遂行される段取りのサービスです——プライベートの車、プロのドライバー、そしてホテルのロビーでお迎えする係員——そうしてエジプトが最後にお客様に求めるのは、座って、カイロが最後にもう一度窓を流れ過ぎるのを眺める以上に骨の折れることは何もありません。",
+   "text": "プロのドライバー"
+  },
+  {
+   "_key": "h7fxrarv5y",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "たった一つの、見事に遂行される段取りのサービスです——プライベートの車、プロのドライバー、そしてホテルのロビーでお迎えする係員——そうしてエジプトが最後にお客様に求めるのは、座って、カイロが最後にもう一度窓を流れ過ぎるのを眺める以上に骨の折れることは何もありません。",
+   "text": "ホテルのロビーでお迎えする係員"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/transfer-from-hotel-to-airport/"
+ },
+ "priceFrom": 35,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_alexandria_catacombs_pompeys_pillar_group_day_tour_from_cairo",
+   "_ref": "tour.alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_transfer_from_cairo_airport_to_hotel",
+   "_ref": "tour.transfer-from-cairo-airport-to-hotel",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_cairo_dinner_cruise_with_belly_dancing_show",
+   "_ref": "tour.cairo-dinner-cruise-with-belly-dancing-show",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_nmec_royal_mummies_old_cairo",
+   "_ref": "tour.nmec-royal-mummies-old-cairo",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Private air-conditioned vehicle · English-speaking driver · hotel-lobby meet-and-greet with named signage · drop-off at the correct terminal"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Traslado privado de salida · Directo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "プライベート・冷房付き車両 ／ 名札を持つ英語対応の係員 ／ 正しいターミナルへのお送り"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "≈45–90 minutes one way, depending on hotel location and traffic"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Segun trafico y terminal"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "片道約30〜60分（交通状況によります）"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Hotel in Cairo or Giza → Cairo International Airport (Terminal 1 or 2)"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Hotel en El Cairo o Guiza al aeropuerto"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "カイロまたはギザのホテル → カイロ国際空港（ターミナル1または2）"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "transfer-from-hotel-to-airport"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "traslado-privado-del-hotel-al-aeropuerto-de-el-cairo"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "hoteru-kara-kairo-kokusai-kuko-e-puraibeto-shuppatsu-sogei"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A private, air-conditioned transfer from your Cairo or Giza hotel to Cairo International Airport — prompt, professional, and entirely stress-free."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Un traslado privado y climatizado desde tu hotel en El Cairo o Guiza hasta el aeropuerto internacional de El Cairo — puntual, profesional y sin tensión."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "カイロまたはギザのホテルからカイロ国際空港への、プライベートの冷房付き送迎——迅速に、プロらしく、そしてまったくわずらわしさなく。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Hotel to Cairo International Airport: Private Departure Transfer"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Traslado privado del hotel al aeropuerto de El Cairo"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ホテルからカイロ国際空港へ：プライベート出発送迎"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}
