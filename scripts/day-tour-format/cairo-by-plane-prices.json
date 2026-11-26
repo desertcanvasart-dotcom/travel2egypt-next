@@ -1,6 +1,6 @@
 {
-  "_note": "Per-person selling prices in EUR for 2 travellers sharing, by guide language — the LAST step before publishing (owner, 19 Nov: prices after the Autoura data is in). Rule: Autoura's public figure for 2 travellers (house margin 30 %, lowest season, higher of EU / other, cheapest complete tier), rounded UP to the whole euro; ES and JA = the same with a Spanish / Japanese guide. Flights are NOT in the price. The import refuses --apply while any is null.",
-  "en": null,
-  "es": null,
-  "ja": null
+  "_note": "Per-person selling prices in EUR for 2 travellers sharing, by guide language (26 Nov 2026; owner: 'Publish at €198/209/226'). Rule (lib/publish/public-rate in Autoura): engine figure for 2 travellers, house margin 30 %, higher of EU / other, rounded UP; ES and JA = the same with a Spanish / Japanese guide. Flights are NOT in the price (owner rule, 26 Nov). Source: Autoura T2E-DT-CAI-16 (created 26 Nov): Giza Plateau, Khafre interior, the GEM, Khan El Khalili, lunch, guide, Cairo airport meet & greet and departure assist, two Cairo airport driver tips, water = engine budget tier EN €127.30, ES €138.18, JA €154.48, with the car 'AIRPORT - HOTEL' (EGP 1,300). Added by hand at the same margin (per party, then /2 x 1.3): the Cairo car swapped for 'AIRPORT-FULL-DAY-AIRPORT' sedan EGP 5,500 (+EUR 70.27), two Luxor hotel-airport sedan transfers 'Airport ↔ Hotel' EGP 900 each (EUR 30.12) and their two driver tips (EUR 8.36) = EUR 108.75 per party = €70.69 per person. EN 127.30+70.69=197.99, ES 138.18+70.69=208.87, JA 154.48+70.69=225.17, rounded up.",
+  "en": 198,
+  "es": 209,
+  "ja": 226
 }
