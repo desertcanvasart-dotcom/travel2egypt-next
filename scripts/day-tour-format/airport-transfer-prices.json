@@ -29,7 +29,7 @@
         "van": 59
       }
     ],
-    "meetAssist": "ask"
+    "meetAssist": 16
   },
   "luxor": {
     "fromArea": "East Bank",
@@ -176,5 +176,5 @@
     "meetAssist": 16
   },
   "_read": "Autoura read 25 Nov 2026, EUR/EGP 59.3534. Each car/van figure = (car card + representative 700 EGP + airport driver tip 250 EGP; the tip rate on file is for Cairo) x 1.3, rounded up (owner, 25 Nov: add representative and tip). Meet and assist add-on = 700 EGP x 1.3. null = no rate card (or, Cairo meet and assist, two conflicting figures). For owner approval; not applied.",
-  "_cityRate": "Owner, 26 Nov: an area without its own rate card takes the city's standard rate (Cairo, Aswan, Hurghada filled that way). Cairo meet and assist is still open: the page says ask us."
+  "_cityRate": "Owner, 26 Nov: an area without its own rate card takes the city's standard rate (Cairo, Aswan, Hurghada filled that way). Cairo meet and assist: 16 (owner, 26 Nov). Sharm El Sheikh: owner adds rates later."
 }
