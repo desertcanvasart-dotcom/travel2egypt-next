@@ -1864,7 +1864,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/ramasside-tours-desert-adventure-snorkeling-experience",
-    "destination": "/ja/sharumu-kara-dahabu-e-shinai-sabaku-no-nairiku-to-buruhoru-o",
+    "destination": "/ja/ramesses-jidai-tsua",
     "permanent": true
   },
   {
@@ -6769,7 +6769,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/ramasside-tours-desert-adventure-snorkeling-experience",
-    "destination": "/es/de-sharm-a-dahab-un-dia-entre-el-desierto-del-sinai-y-el-blue-hole",
+    "destination": "/es/tours-ramasside-aventura-en-el-desierto-y-experiencia-de-snorkel",
     "permanent": true
   },
   {
@@ -30935,6 +30935,21 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/hoteru-kara-kairo-kokusai-kuko-e-puraibeto-shuppatsu-sogei",
     "destination": "/ja/kairo-kuko-kara-hoteru-e-puraibeto-tochaku-sogei",
+    "permanent": true
+  },
+  {
+    "source": "/ramasside-tours-desert-adventure-snorkeling-experience",
+    "destination": "/ramasside-tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/de-sharm-a-dahab-un-dia-entre-el-desierto-del-sinai-y-el-blue-hole",
+    "destination": "/es/tours-ramasside-aventura-en-el-desierto-y-experiencia-de-snorkel",
+    "permanent": true
+  },
+  {
+    "source": "/ja/sharumu-kara-dahabu-e-shinai-sabaku-no-nairiku-to-buruhoru-o",
+    "destination": "/ja/ramesses-jidai-tsua",
     "permanent": true
   }
 ];
