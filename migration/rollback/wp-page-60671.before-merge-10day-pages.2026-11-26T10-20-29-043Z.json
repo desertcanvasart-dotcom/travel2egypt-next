@@ -1,0 +1,2804 @@
+{
+ "_createdAt": "2026-05-06T23:02:47Z",
+ "_id": "wp-page-60671",
+ "_rev": "cLNhBzULpou1D0gJWOR3y4",
+ "_type": "wikiMonument",
+ "_updatedAt": "2026-10-31T12:07:18Z",
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Madinat Habu Temple Overview"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000008",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000003",
+       "_type": "span",
+       "marks": [],
+       "text": "Madinat Habu"
+      },
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": ", a monumental temple complex in Luxor, is an architectural marvel that showcases ancient Egypt’s grandeur and the legacy of"
+      },
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [
+        "000000000005"
+       ],
+       "text": " Ramses III."
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [],
+       "text": " Known for its size, historical significance, and well-preserved artistry, it offers a fascinating journey into Egypt’s past."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000005",
+       "_type": "externalLink",
+       "href": "https://en.wikipedia.org/wiki/Ramesses_III",
+       "newTab": true
+      }
+     ],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [],
+       "text": "Location and Historical Significance"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Situated"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": ": In Luxor, on the West Bank of the Nile."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000010",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Historical Context"
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": ": Serves as the mortuary temple of Ramses III, comparable to the Ramesseum of Ramses II."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000012",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [],
+       "text": "Architectural and Artistic Features"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Size"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": ": Second only to the Karnak Temple in terms of scale."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000018",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Design Influence"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [],
+       "text": ": Inspired by the architectural style of the Ramesseum."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Fortification"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": ": Notable for its massive fortified walls, providing refuge during invasions."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Statuary"
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": ": Imposing statues of Ramses III, symbolizing his power and divine stature."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000020",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": "Preservation and Conversion"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Reliefs and Colors"
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": ": Exceptionally well-preserved due to its conversion into a Christian monastery, which inadvertently protected its walls."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000026",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Christian Influence"
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [],
+       "text": ": Some areas exhibit the overlay of Christian iconography over original Egyptian art."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000028",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [],
+       "text": "Highlights"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Military Achievements"
+      },
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": ": The temple walls depict Ramses III’s military triumphs, offering insights into his reign and strategies."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Artistic Value"
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [],
+       "text": ": Rich in colors and intricate reliefs, the temple is a testament to the artistic excellence of the period."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Cultural Importance"
+      },
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": ": Reflects the religious, cultural, and political ethos of Ramses III’s era."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Accessibility and Tourism"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000036",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Visitor Experience"
+      },
+      {
+       "_key": "000000000035",
+       "_type": "span",
+       "marks": [],
+       "text": ": Less frequented by tourists, it offers a more tranquil exploration compared to other Luxor temples."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Educational Value"
+      },
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": ": Ideal for those interested in Pharaonic history, military campaigns, and religious practices of ancient Egypt."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": "Conclusion"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "Madinat Habu stands as a significant cultural and historical landmark in Luxor. Its impressive scale, rich historical narratives, and the fusion of Pharaonic and Christian elements make it an intriguing destination for history enthusiasts and those seeking a deeper understanding of Egypt’s multifaceted heritage."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003e",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/calin-stan-Mv15X2n8JVE-unsplash-2.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Close-up of an ancient Egyptian column covered in intricate hieroglyphics"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "Ancient wisdom etched in stone—hieroglyphs from a bygone era tell tales of gods and pharaohs"
+      }
+     ]
+    },
+    {
+     "_key": "00000000003f",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/dmitrii-zhodzishskii-5aEHOQrb2Qk-unsplash-1.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Close-up of two ancient Egyptian cartouches engraved in stone"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "This image showcases a pair of Egyptian cartouches, which are oval with a horizontal line at one end, indicating that the text enclosed is a royal name. The intricate hieroglyphs are carved in relief on a stone surface"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Visión general del templo de Madinat Habu"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000000a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000003",
+       "_type": "span",
+       "marks": [
+        "000000000002"
+       ],
+       "text": "Madinat Habu"
+      },
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": ", un monumental complejo de templos en Luxor, es una maravilla arquitectónica que muestra la grandeza del antiguo Egipto y el legado de "
+      },
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [
+        "000000000005"
+       ],
+       "text": "Ramsés III"
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [],
+       "text": "Conocido por su tamaño, importancia histórica y arte bien conservado, ofrece un fascinante viaje al pasado de Egipto. "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000002",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-89602",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "000000000005",
+       "_type": "externalLink",
+       "href": "https://es.wikipedia.org/wiki/Rams%C3%A9s_III",
+       "newTab": true
+      }
+     ],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [],
+       "text": "Localización y significado histórico"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Situada"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": ": En Luxor, en la orilla occidental del Nilo."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000012",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Contexto histórico"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [],
+       "text": ": Sirve como templo mortuorio de Ramsés III, comparable al Ramesseum de Ramsés II."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000014",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [],
+       "text": "Características arquitectónicas y artísticas"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Tamaño"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": ": Sólo superado por "
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [
+        "000000000017"
+       ],
+       "text": "el Templo de Karnak"
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [],
+       "text": " en términos de escala."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "000000000017",
+       "_type": "externalLink",
+       "href": "/es/blog/129-razones-para-visitar-el-templo-de-karnak",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000020",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Influencia del diseño"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": ": Inspirado en el "
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "00000000001d"
+       ],
+       "text": "estilo arquitectónico del"
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": " Ramesseum."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "00000000001d",
+       "_type": "externalLink",
+       "href": "/es/blog/cine-de-egipto",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000026",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Fortificación"
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": ": Destaca por sus enormes murallas fortificadas, "
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "000000000023"
+       ],
+       "text": "que proporcionan refugio durante las"
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [],
+       "text": " invasiones."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "000000000023",
+       "_type": "externalLink",
+       "href": "/es/guide/guiza/la-mastaba-de-ptahshepses-en-abusir",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Estatuaria"
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": ": Imponentes estatuas de Ramsés III, que simbolizan su poder y su estatura divina."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Conservación y reconversión"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Relieves y colores"
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [],
+       "text": ": Excepcionalmente bien conservado debido a su conversión en monasterio cristiano, que protegió inadvertidamente sus muros."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000034",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Influencia cristiana"
+      },
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": ": Algunas zonas muestran la superposición de iconografía cristiana "
+      },
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "000000000031"
+       ],
+       "text": "sobre el arte egipcio"
+      },
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [],
+       "text": " original."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "000000000031",
+       "_type": "externalLink",
+       "href": "/es/blog/egipto-en-el-cine",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000036",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000035",
+       "_type": "span",
+       "marks": [],
+       "text": "Destacados"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000003c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Logros militares"
+      },
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": ": "
+      },
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [
+        "000000000039"
+       ],
+       "text": "Los muros del templo"
+      },
+      {
+       "_key": "00000000003b",
+       "_type": "span",
+       "marks": [],
+       "text": " representan los triunfos militares de Ramsés III, ofreciendo una visión de su reinado y sus estrategias."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "000000000039",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "tour.nubian-temples-day-tour-from-aswan",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Valor artístico"
+      },
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": ": Rico en colores y relieves intrincados, el templo es un testimonio de la excelencia artística de la época."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000042",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Importancia cultural"
+      },
+      {
+       "_key": "000000000041",
+       "_type": "span",
+       "marks": [],
+       "text": ": Refleja el ethos religioso, cultural y político de la época de Ramsés III."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000044",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000043",
+       "_type": "span",
+       "marks": [],
+       "text": "Accesibilidad y turismo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000004a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000045",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Experiencia del visitante"
+      },
+      {
+       "_key": "000000000046",
+       "_type": "span",
+       "marks": [],
+       "text": ": Menos frecuentado por los turistas, ofrece una exploración más tranquila en comparación con otros "
+      },
+      {
+       "_key": "000000000048",
+       "_type": "span",
+       "marks": [
+        "000000000047"
+       ],
+       "text": "templos de Luxor"
+      },
+      {
+       "_key": "000000000049",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "000000000047",
+       "_type": "externalLink",
+       "href": "/es/guide/luxor/el-templo-de-luxor",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000050",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Valor educativo"
+      },
+      {
+       "_key": "00000000004c",
+       "_type": "span",
+       "marks": [],
+       "text": ": Ideal para los interesados en la historia faraónica, las campañas militares y las prácticas religiosas del antiguo "
+      },
+      {
+       "_key": "00000000004e",
+       "_type": "span",
+       "marks": [
+        "00000000004d"
+       ],
+       "text": "Egipto"
+      },
+      {
+       "_key": "00000000004f",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "00000000004d",
+       "_type": "externalLink",
+       "href": "/es/blog/vacaciones-en-grupo-en-egipto-para-parejas",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000052",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000051",
+       "_type": "span",
+       "marks": [],
+       "text": "Conclusión"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000005c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000053",
+       "_type": "span",
+       "marks": [],
+       "text": "Madinat Habu es un importante hito cultural e histórico de "
+      },
+      {
+       "_key": "000000000055",
+       "_type": "span",
+       "marks": [
+        "000000000054"
+       ],
+       "text": "Luxor"
+      },
+      {
+       "_key": "000000000056",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      },
+      {
+       "_key": "000000000057",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000058",
+       "_type": "span",
+       "marks": [],
+       "text": "Su impresionante escala, sus ricos relatos históricos "
+      },
+      {
+       "_key": "00000000005a",
+       "_type": "span",
+       "marks": [
+        "000000000059"
+       ],
+       "text": "y la fusión de elementos faraónicos"
+      },
+      {
+       "_key": "00000000005b",
+       "_type": "span",
+       "marks": [],
+       "text": " y cristianos la convierten en un destino intrigante para los entusiastas de la historia y para quienes buscan una comprensión más profunda del polifacético patrimonio egipcio."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000054",
+       "_type": "externalLink",
+       "href": "/es/guide/farafra/parque-nacional-del-desierto-blanco",
+       "newTab": false
+      },
+      {
+       "_key": "000000000059",
+       "_type": "externalLink",
+       "href": "/es/blog/faraones-del-reino-medio-logros-y-legado",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000005e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005d",
+       "_type": "span",
+       "marks": [],
+       "text": "Creado el 18 de marzo de 2020"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000060",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005f",
+       "_type": "span",
+       "marks": [],
+       "text": "Actualizado en 23 de Séptiembre, 2024"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000062",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000061",
+       "_type": "span",
+       "marks": [],
+       "text": "PRESENTACIÓN DE LUXOR"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000065",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000064",
+       "_type": "span",
+       "marks": [
+        "000000000063"
+       ],
+       "text": "Historia"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000063",
+       "_type": "externalLink",
+       "href": "/es/guide/luxor/historia-de-luxor",
+       "newTab": true
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000068",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000067",
+       "_type": "span",
+       "marks": [
+        "000000000066"
+       ],
+       "text": "El tiempo"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000066",
+       "_type": "externalLink",
+       "href": "/es/guide/luxor/pronostico-del-tiempo-para-luxor",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000069",
+       "_type": "span",
+       "marks": [],
+       "text": "PLANIFICA TU VIAJE"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006c",
+       "_type": "span",
+       "marks": [
+        "00000000006b"
+       ],
+       "text": "Cómo ir"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000006b",
+       "_type": "externalLink",
+       "href": "/es/guide/luxor/maneras-de-llegar-a-luxor",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000070",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006f",
+       "_type": "span",
+       "marks": [
+        "00000000006e"
+       ],
+       "text": "Dónde alojarse"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000006e",
+       "_type": "externalLink",
+       "href": "/es/guide/luxor/mejores-hoteles-en-luxor",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000072",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000071",
+       "_type": "span",
+       "marks": [],
+       "text": "MIENTRAS ESTÉS ALLÍ"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000075",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000074",
+       "_type": "span",
+       "marks": [
+        "000000000073"
+       ],
+       "text": "Cómo desplazarse"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000073",
+       "_type": "externalLink",
+       "href": "/es/guide/luxor/como-moverse-en-luxor",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000078",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000077",
+       "_type": "span",
+       "marks": [
+        "000000000076"
+       ],
+       "text": "Cosas que hacer"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000076",
+       "_type": "externalLink",
+       "href": "/es/guide/luxor/que-hacer-en-luxor",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000007a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000079",
+       "_type": "span",
+       "marks": [],
+       "text": "LUGARES DONDE IR"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000007d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000007c",
+       "_type": "span",
+       "marks": [
+        "00000000007b"
+       ],
+       "text": "El templo de Luxor"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000007b",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-60663",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000080",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000007f",
+       "_type": "span",
+       "marks": [
+        "00000000007e"
+       ],
+       "text": "El Valle de las Reinas"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000007e",
+       "_type": "externalLink",
+       "href": "/es/guide/luxor/el-valle-de-las-reinas",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000083",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000082",
+       "_type": "span",
+       "marks": [
+        "000000000081"
+       ],
+       "text": "Los Colosos de Memnon"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000081",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.luxor.the-colossi-of-memnon",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000086",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000085",
+       "_type": "span",
+       "marks": [
+        "000000000084"
+       ],
+       "text": "Deir El-Madina"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000084",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.luxor.deir-el-madina",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000089",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000088",
+       "_type": "span",
+       "marks": [
+        "000000000087"
+       ],
+       "text": "Museo de Luxor"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000087",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-60670",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000008c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000008b",
+       "_type": "span",
+       "marks": [
+        "00000000008a"
+       ],
+       "text": "Templo de Madinat Habu"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000008a",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-60671",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000008f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000008e",
+       "_type": "span",
+       "marks": [
+        "00000000008d"
+       ],
+       "text": "El Templo de Karnak"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000008d",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.luxor.the-karnak-temple",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000092",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000091",
+       "_type": "span",
+       "marks": [
+        "000000000090"
+       ],
+       "text": "El Valle de los Reyes"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000090",
+       "_type": "externalLink",
+       "href": "/es/guide/luxor/el-valle-de-los-reyes",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000094",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000093",
+       "_type": "span",
+       "marks": [],
+       "text": "OTROS"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000097",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000096",
+       "_type": "span",
+       "marks": [
+        "000000000095"
+       ],
+       "text": "Visitas"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000095",
+       "_type": "externalLink",
+       "href": "/es/guide/luxor/mejores-tours-en-luxor",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000009a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000099",
+       "_type": "span",
+       "marks": [
+        "000000000098"
+       ],
+       "text": "Alimentación"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000098",
+       "_type": "externalLink",
+       "href": "/es/guide/luxor/festin-en-luxor",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000009d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000009c",
+       "_type": "span",
+       "marks": [
+        "00000000009b"
+       ],
+       "text": "Sólo aquí"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000009b",
+       "_type": "externalLink",
+       "href": "/es/guide/luxor/solo-en-luxor",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000a0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000009f",
+       "_type": "span",
+       "marks": [
+        "00000000009e"
+       ],
+       "text": "Evento"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000009e",
+       "_type": "externalLink",
+       "href": "/es/guide/luxor/fiestas-en-luxor",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000a1",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/calin-stan-Mv15X2n8JVE-unsplash-2.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Close-up of an ancient Egyptian column covered in intricate hieroglyphics"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "Sabiduría ancestral grabada en piedra—jeroglíficos de una era pasada cuentan historias de dioses y faraones"
+      }
+     ]
+    },
+    {
+     "_key": "0000000000a2",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/dmitrii-zhodzishskii-5aEHOQrb2Qk-unsplash-1.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Close-up of two ancient Egyptian cartouches engraved in stone"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "Esta imagen muestra un par de cartuchos egipcios, que son ovalados con una línea horizontal en un extremo, lo que indica que el texto adjunto es un nombre real. Los intrincados jeroglíficos están tallados en relieve sobre una superficie de piedra"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "マディナット・ハブ神殿の概要"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "マディナット・ハブは、ルクソールにある壮大な神殿複合体で、古代エジプトの偉大さとラメセス3世の遺産を示す建築の驚異です。その規模、歴史的重要性、そして良好に保存された芸術作品で知られ、エジプトの過去へと誘う魅力的な旅を提供します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "位置と歴史的重要性"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "所在地"
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [],
+       "text": ": ルクソール、ナイル川西岸"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "歴史的背景"
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": ": ラメセス3世の墓所であり、"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [
+        "00000000000b"
+       ],
+       "text": "ラメセウム"
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [],
+       "text": "（ラメセス2世の神殿）に匹敵する重要な神殿です。"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000000b",
+       "_type": "externalLink",
+       "href": "https://luxorwind.seesaa.net/article/466762785.html",
+       "newTab": true
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000010",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": "建築と芸術的特徴"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "規模"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ": カルナック神殿に次ぐ規模を誇ります。"
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "デザインの影響"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": ": ラメセウムの建築様式に触発されたデザイン。"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "防壁"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": ": 大規模な fortified walls が特徴で、侵略時には避難所として機能しました。"
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "像"
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": ": ラメセス3世の威厳を象徴する巨大な像が並び、彼の権力と神聖な地位を示しています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": "保存と転用"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000024",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "レリーフと色彩"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": ": キリスト教の修道院に転用されたことで、壁が無意識に保護され、非常に良好に保存されています。"
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "キリスト教の影響"
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [],
+       "text": ": 一部のエリアでは、元々のエジプト芸術にキリスト教の象徴が重ねられています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000026",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [],
+       "text": "ハイライト"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "軍事的功績"
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": ": 神殿の壁にはラメセス3世の軍事的勝利が描かれており、彼の治世と戦略への洞察を提供します。"
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "芸術的価値"
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [],
+       "text": ": 色彩豊かで精緻なレリーフが施されており、この時代の芸術的優秀さを証明しています。"
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "文化的重要性"
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": ": ラメセス3世の時代の宗教的、文化的、政治的な精神を反映しています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "アクセスと観光"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000003a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "訪問者体験"
+      },
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [],
+       "text": ": 他の"
+      },
+      {
+       "_key": "000000000035",
+       "_type": "span",
+       "marks": [
+        "000000000034"
+       ],
+       "text": "ルクソールの神殿"
+      },
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "に比べて観光客が少なく、静かな探索が楽しめます。"
+      },
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "教育的価値"
+      },
+      {
+       "_key": "000000000039",
+       "_type": "span",
+       "marks": [],
+       "text": ": 古代エジプトのファラオ時代の歴史、軍事的遠征、宗教的実践に興味のある人々に最適です。"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000034",
+       "_type": "externalLink",
+       "href": "/ja/guide/rukusoru/rukusoru-shinden",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003b",
+       "_type": "span",
+       "marks": [],
+       "text": "結論"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000003e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003d",
+       "_type": "span",
+       "marks": [],
+       "text": "マディナット・ハブは、ルクソールにおける重要な文化的・歴史的なランドマークです。その壮大な規模、豊かな歴史的物語、そしてファラオ時代とキリスト教的要素が融合した神殿は、歴史愛好者やエジプトの多面的な遺産に深く触れたい人々にとって魅力的な目的地です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000042",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003f",
+       "_type": "span",
+       "marks": [],
+       "text": "作成日：2020年3月18日"
+      },
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000041",
+       "_type": "span",
+       "marks": [],
+       "text": "更新日：2025年6月3日"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000044",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000043",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールのご紹介"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000047",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000046",
+       "_type": "span",
+       "marks": [
+        "000000000045"
+       ],
+       "text": "歴史"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000045",
+       "_type": "externalLink",
+       "href": "/ja/guide/rukusoru/rukusoru-no-rekishi-teki-isan-o-meguru",
+       "newTab": true
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000049",
+       "_type": "span",
+       "marks": [],
+       "text": "天気"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004b",
+       "_type": "span",
+       "marks": [],
+       "text": "旅行の計画"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004e",
+       "_type": "span",
+       "marks": [
+        "00000000004d"
+       ],
+       "text": "行き方"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000004d",
+       "_type": "externalLink",
+       "href": "/ja/guide/rukusoru/rukusoru-e-no-iki-kata",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000052",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000051",
+       "_type": "span",
+       "marks": [
+        "000000000050"
+       ],
+       "text": "宿泊先"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000050",
+       "_type": "externalLink",
+       "href": "/ja/guide/rukusoru/rukusoru-no-shukuhaku-shisetsu",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000054",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000053",
+       "_type": "span",
+       "marks": [],
+       "text": "滞在中に"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000057",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000056",
+       "_type": "span",
+       "marks": [
+        "000000000055"
+       ],
+       "text": "現地での移動方法"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000055",
+       "_type": "externalLink",
+       "href": "/ja/guide/rukusoru/rukusoru-no-ido-shudan-arekore",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000005a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000059",
+       "_type": "span",
+       "marks": [
+        "000000000058"
+       ],
+       "text": "おすすめのアクティビティ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000058",
+       "_type": "externalLink",
+       "href": "/ja/guide/rukusoru/rukusoru-no-akutibiti",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000005c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005b",
+       "_type": "span",
+       "marks": [],
+       "text": "見どころ"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000005f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005e",
+       "_type": "span",
+       "marks": [
+        "00000000005d"
+       ],
+       "text": "カルナック神殿"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000005d",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/カルナック神殿",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000062",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000061",
+       "_type": "span",
+       "marks": [
+        "000000000060"
+       ],
+       "text": "ルクソール神殿"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000060",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/ルクソール神殿",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000065",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000064",
+       "_type": "span",
+       "marks": [
+        "000000000063"
+       ],
+       "text": "ルクソール博物館"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000063",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/ルクソール博物館",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000068",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000067",
+       "_type": "span",
+       "marks": [
+        "000000000066"
+       ],
+       "text": "王家の谷"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000066",
+       "_type": "externalLink",
+       "href": "/ja/guide/rukusoru/oke-no-tani",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006a",
+       "_type": "span",
+       "marks": [
+        "000000000069"
+       ],
+       "text": "王妃の谷"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000069",
+       "_type": "externalLink",
+       "href": "/ja/guide/rukusoru/ohi-no-tani",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006d",
+       "_type": "span",
+       "marks": [],
+       "text": "デイル・エル・マディーナ"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000071",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000070",
+       "_type": "span",
+       "marks": [
+        "00000000006f"
+       ],
+       "text": "マディナ・ハブ神殿"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000006f",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/マディナット・ハブ神殿",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000074",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000073",
+       "_type": "span",
+       "marks": [
+        "000000000072"
+       ],
+       "text": "メムノンの巨像"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000072",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/メムノンの巨像",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000076",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000075",
+       "_type": "span",
+       "marks": [],
+       "text": "その他"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000079",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000078",
+       "_type": "span",
+       "marks": [
+        "000000000077"
+       ],
+       "text": "ツアー"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000077",
+       "_type": "externalLink",
+       "href": "/ja/guide/rukusoru/rukusoru-no-osusume-tsua",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000007c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000007b",
+       "_type": "span",
+       "marks": [
+        "00000000007a"
+       ],
+       "text": "食べ物"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000007a",
+       "_type": "externalLink",
+       "href": "/ja/guide/rukusoru/rukusoru-no-resutoran-gurume",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000007f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000007e",
+       "_type": "span",
+       "marks": [
+        "00000000007d"
+       ],
+       "text": "ここだけ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000007d",
+       "_type": "externalLink",
+       "href": "/ja/guide/rukusoru/rukusoru-dake-no-taiken",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000082",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000081",
+       "_type": "span",
+       "marks": [
+        "000000000080"
+       ],
+       "text": "イベント"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000080",
+       "_type": "externalLink",
+       "href": "/ja/guide/rukusoru/rukusoru-no-o-matsuri",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000083",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/sean-wang-ZmsTWtUc03w-unsplash-1.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "A serene river with lush greenery on the bank and a small boat moored near the shore"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "水上の静寂 – 川辺の自然の抱擁"
+      }
+     ]
+    },
+    {
+     "_key": "000000000084",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/ahmed-shabana-ADa9bb3tqR4-unsplash-1.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Close-up of an ancient Egyptian pharaoh statue carved in stone"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "永遠の石の番人であるファラオの顔は、揺るぎない威厳をもって時の経過を観察している。"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "city": {
+  "_ref": "wp-page-58877",
+  "_type": "reference"
+ },
+ "migration": {
+  "migratedAt": "2026-05-07T11:13:48.963Z",
+  "reviewFlag": "superseded-by-guideArticle",
+  "source": "wp-import",
+  "supersededAt": "2026-05-20T15:23:40.818Z",
+  "supersededBy": "guideArticle.luxor.madinat-habu-temple",
+  "wpId": 60671,
+  "wpModifiedAt": "2025-07-24T16:12:10",
+  "wpTemplate": "elementor_header_footer",
+  "wpUrl": "https://travel2egypt.org/madinat-habu-temple/"
+ },
+ "monumentType": "temple",
+ "name": [
+  {
+   "_key": "en",
+   "value": "Madinat Habu Temple"
+  },
+  {
+   "_key": "es",
+   "value": "Templo de Madinat Habu"
+  },
+  {
+   "_key": "ja",
+   "value": "マディナット・ハブ神殿"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "value": {
+    "_type": "slug",
+    "current": "madinat-habu-temple"
+   }
+  },
+  {
+   "_key": "es",
+   "value": {
+    "_type": "slug",
+    "current": "templo-de-madinat-habu"
+   }
+  },
+  {
+   "_key": "ja",
+   "value": {
+    "_type": "slug",
+    "current": "マディナット・ハブ神殿"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "Madinat Habu Temple Overview Madinat Habu, a monumental temple complex in Luxor, is an architectural marvel that showcases ancient Egypt s grandeur and the legacy of Ramses III. Known for its size, historical significance, and well-preserve"
+  },
+  {
+   "_key": "es",
+   "value": "Visión general del templo de Madinat Habu Madinat Habu, un monumental complejo de templos en Luxor, es una maravilla arquitectónica que muestra la grandeza del antiguo Egipto y el legado de Ramsés III. Conocido por su tamaño, importancia hi"
+  },
+  {
+   "_key": "ja",
+   "value": "マディナット・ハブ神殿の概要 マディナット・ハブは、ルクソールにある壮大な神殿複合体で、古代エジプトの偉大さとラメセス3世の遺産を示す建築の驚異です。その規模、歴史的重要性、そして良好に保存された芸術作品で知られ、エジプトの過去へと誘う魅力的な旅を提供します。 位置と歴史的重要性 所在地: ルクソール、ナイル川西岸歴史的背景: ラメセス3世の墓所であり、ラメセウム（ラメセス2世の神殿）に匹敵する重要な神殿です。 建築と芸術的特徴 規模: カルナック神殿に次ぐ規模を誇ります。デ"
+  }
+ ]
+}
