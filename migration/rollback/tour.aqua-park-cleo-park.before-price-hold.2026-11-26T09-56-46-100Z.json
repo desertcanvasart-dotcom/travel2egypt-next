@@ -1,0 +1,1420 @@
+{
+ "_createdAt": "2026-05-28T11:45:20Z",
+ "_id": "tour.aqua-park-cleo-park",
+ "_rev": "pzh5FM4q1DBt3H4LGqNNJZ",
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:46Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Families with young children, or anyone trading a beach day for slides, pools, and a sun lounger"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Familias y ninos"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "シャルムの古代や海洋ツアーの合間に、お子様連れで気軽な水のレジャーを差し挟みたいご家族"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "A Day at Cleo Park: Sharm el-Sheikh's Aqua Park, Honestly Reviewed"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "There are days in Egypt built around antiquity, and then there are days built around a sun lounger, a wave pool, and the particular pleasure of watching a child hurtle down a slide and immediately demand to go again. Cleo Park, situated in the Hadaba district of Sharm el-Sheikh, is firmly in the second category — and it makes no apologies for that."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a straightforward leisure day. It suits families with young children most of all, though the park's thirty-four slides range widely enough in intensity that adults travelling without kids will find the steeper runs worth the queue. It does not suit anyone looking for cultural weight or sightseeing. What it offers is uncomplicated: water, sun, and a reliable half-day or full-day escape from the hotel room."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "The Hadaba area sits on the southern tip of the Sinai Peninsula, and the drive from most Sharm el-Sheikh hotels is short — typically under thirty minutes depending on your accommodation's location. Pickup is from your hotel lobby, in an air-conditioned vehicle, at a pre-arranged time. That simplicity is part of the appeal."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "The hotel transfer is "
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "private to your party"
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "; Cleo Park itself is a "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "shared, ticketed venue"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": ". The outing "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "takes bookings from a single person upward"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": ", with no minimum group, and "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "one bottle of mineral water per person"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": " is provided for the transfer. There is "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "no minimum age"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": " — it is built for families — though individual slides enforce their own height and weight limits at the entrance to each ride, as standard safety practice."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "The day begins at your hotel, where a representative meets you in the lobby and transfers you by private air-conditioned vehicle to Cleo Park. The drive south through Hadaba is brief, passing the coastal strip's mix of resort towers and desert scrub before the park's entrance comes into view."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Once inside, the day is genuinely unstructured — which is the point. The park's thirty-four water slides are the headline attraction, running from wide, gentle family tubes suitable for children old enough to sit unaided, through to near-vertical drops that require a reasonable tolerance for speed and a brief loss of dignity. There is no prescribed order; you move between slides, pools, and rest areas as the mood takes you."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Families with younger children will gravitate toward the dedicated children's section, which keeps the slides low and the pool depth shallow. It is well-designed for its purpose: small enough that parents can watch from the edge without anxiety, varied enough that children do not exhaust it in twenty minutes."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "The pool areas offer the alternative to slides: open swimming, floating, or simply claiming a lounger and doing very little. The park's setting in Hadaba means the sun is reliably strong from mid-morning onward; shade is available but not always abundant, so awareness of that is worth carrying in."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "By mid-afternoon the park begins to quieten slightly as day-trippers start thinking about departure. The return transfer collects you at the agreed time and brings you back to your hotel. The journey is the same comfortable, air-conditioned ride in reverse."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "The Park in Practical Context"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Cleo Park is a privately operated aqua park — not a public beach or a government site — so entry is by ticket and the facilities are maintained to resort standards. Locker hire, food, and beverages are available on-site but sold separately; the entrance fee does not cover in-park spending. If you are travelling with children who will want snacks and drinks through the day, budget accordingly and carry Egyptian pounds or check current payment options on arrival, as card acceptance at individual vendors can vary."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "The park draws a mixed crowd of hotel guests and day visitors. In high season — particularly July, August, and the winter holiday weeks when European families fill the Sharm resorts — it can be busy at the most popular slides. An early start helps; the hottest part of the day, roughly 11 am to 2 pm, is both the most crowded period and the one where the shade shortage becomes most relevant."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Not every day in Egypt needs to end with a deeper understanding of the ancient world."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Sometimes it ends with waterlogged ears, a sunburned nose, and a child already asking when they can come back."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "A straightforward leisure day with private hotel pickup, a ticketed park, and no cultural agenda. The concierge can confirm current height guidelines for younger children and arrange the pickup window that best suits the family's pace."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Un día en Cleo Park: el parque acuático de Sharm el-Sheij, sin idealizaciones"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una salida familiar para quienes quieren piscina, toboganes y una pausa sencilla del mar abierto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Hay días en Egipto construidos en torno a la Antigüedad y luego hay días construidos en torno a una tumbona, una piscina de olas y el placer particular de ver a un crío lanzarse por un tobogán y volver de inmediato a la cola para repetir. Cleo Park, en el distrito de Hadaba de Sharm el-Sheij, se sitúa con firmeza en la segunda categoría —y no pide disculpas por ello—."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Es una jornada de ocio sin complicaciones. Conviene sobre todo a familias con niños, aunque los treinta y cuatro toboganes del parque varían lo suficiente en intensidad como para que un adulto que viaje sin niños encuentre que las bajadas más pronunciadas pagan la cola. No conviene a quien busque peso cultural o visita patrimonial. Lo que ofrece es sencillo: agua, sol y una escapada fiable de medio día o día completo de la habitación de hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "La zona de Hadaba se asienta en el extremo sur de la península del Sinaí, y el desplazamiento desde la mayoría de hoteles de Sharm es corto —típicamente menos de treinta minutos según la ubicación del alojamiento—. La recogida se realiza en el vestíbulo del hotel, en un vehículo con aire acondicionado, a la hora pactada. Esa sencillez forma parte del atractivo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "El traslado al hotel es "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "privado para tu grupo"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "; Cleo Park en sí es un "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "recinto compartido con entrada"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": ". La salida "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "acepta reservas a partir de una persona"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ", sin grupo mínimo, y se proporciona "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "una botella de agua mineral por persona"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": " para el trayecto. "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "No hay edad mínima"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": " —está pensado para familias—, aunque cada tobogán aplica sus propios límites de altura y peso en la entrada, como práctica de seguridad estándar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "El día comienza en tu hotel, donde un representante te recibe en el vestíbulo y te traslada en un vehículo privado con aire acondicionado a Cleo Park. El trayecto al sur por Hadaba es breve y pasa por la mezcla de torres turísticas y matorral desértico del cordón costero antes de que aparezca la entrada del parque."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Una vez dentro, el día es genuinamente desestructurado, que es el punto. Los treinta y cuatro toboganes son la atracción de cabecera y van de los tubos familiares anchos y suaves —aptos para niños con edad suficiente para sentarse sin ayuda— hasta caídas casi verticales que exigen una tolerancia razonable a la velocidad y una breve pérdida de dignidad. No hay orden prescrito; te mueves entre toboganes, piscinas y zonas de descanso al ritmo que prefieras."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Las familias con niños pequeños gravitarán hacia la sección infantil dedicada, que mantiene los toboganes bajos y poca profundidad en la piscina. Está bien diseñada para su propósito: lo bastante pequeña para que los padres vigilen desde el borde sin ansiedad y lo bastante variada para que los niños no se la agoten en veinte minutos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Las áreas de piscina ofrecen la alternativa a los toboganes: nado libre, flotar o sencillamente reclamar una tumbona y hacer muy poco. El emplazamiento del parque en Hadaba significa que el sol pega fuerte de manera fiable a partir de media mañana; hay sombra disponible pero no siempre abundante, así que conviene tenerlo presente al entrar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "A media tarde el parque empieza a quedarse algo más tranquilo cuando los excursionistas comienzan a pensar en marcharse. El traslado de regreso te recoge a la hora pactada y te devuelve al hotel. El trayecto es el mismo viaje cómodo y climatizado a la inversa."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "El parque en su contexto práctico"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Cleo Park es un parque acuático de gestión privada —no una playa pública ni un sitio público estatal— de modo que el acceso es por entrada y las instalaciones se mantienen a estándares de resort. Hay alquiler de taquillas, comida y bebida en el recinto, pero se venden por separado; la entrada no cubre el gasto interior. Si viajas con niños que querrán meriendas y bebidas a lo largo del día, presupuesta en consecuencia y lleva libras egipcias o consulta las formas de pago al llegar, ya que la aceptación de tarjeta en los puestos varía."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "El parque atrae a una mezcla de huéspedes de hotel y visitantes de jornada. En temporada alta —especialmente julio, agosto y las semanas de vacaciones de invierno, cuando las familias europeas llenan los resorts de Sharm— puede haber cola en los toboganes más populares. Llegar temprano ayuda; la parte más cálida del día, aproximadamente de 11 a 14 horas, es a la vez el periodo más concurrido y el momento en que la escasez de sombra se vuelve más relevante."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "No todo día en Egipto necesita terminar con una comprensión más profunda del mundo antiguo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A veces termina con los oídos encharcados, una nariz quemada y un niño que ya pregunta cuándo puede volver."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": "No todo dia de viaje tiene que explicar Egipto. Algunos dias solo tienen que funcionar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta es una ruta abierta. Si quieres ajustar el ritmo, cambiar el orden de las visitas o añadir un complemento, podemos adaptarla contigo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "クレオ・パークで過ごす一日：シャルム・エル・シェイクのアクアパークを、正直にご紹介"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプトには古代を中心に組み立てられた一日があり、その一方で、サンラウンジャーと波のプール、そして子どもがスライダーを猛烈な勢いで滑り降り、着くやいなや「もう一回」とせがむさまを眺める、あの格別な楽しみを中心に組み立てられた一日があります。シャルム・エル・シェイクのハダバ地区に位置するクレオ・パークは、まぎれもなく後者です——そしてそのことに、なんの言い訳もしません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "これは飾り気のないレジャーの一日です。何より小さなお子様連れのご家族に向いていますが、パークの34本のスライダーは強度の幅が十分に広く、お子様を伴わない大人の方も、より急なコースなら並ぶ価値を見いだすでしょう。文化的な手応えや観光を求める方には向きません。ここが差し出すのは、こみ入ったところのないもの——水と、太陽と、ホテルの一室からの確かな半日または一日の脱出です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "ハダバ地区はシナイ半島の南端に位置し、シャルム・エル・シェイクのほとんどのホテルからのドライブは短く——宿の場所にもよりますが、おおむね30分以内です。お迎えはホテルのロビーから、冷房付きの車両で、あらかじめ取り決めた時刻に。そのシンプルさも、魅力の一部です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "ホテルの送迎は"
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "お客様のご一行だけのプライベート"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "です。クレオ・パークそのものは"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "乗合の、チケット制の施設"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "です。この外出は"
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "一名から承り"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "、最少催行人数はなく、送迎には"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ミネラルウォーター1人1本"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "が含まれます。"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "年齢制限はありません"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "——ご家族のために造られた場所です——ただし、各スライダーは標準的な安全上の慣行として、それぞれの乗り場で独自の身長・体重の制限を設けています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "一日はお客様のホテルから始まり、係員がロビーでお出迎えし、プライベートの冷房付き車両でクレオ・パークへお送りします。ハダバを南へ抜けるドライブは短く、リゾートの高層棟と砂漠の灌木が入りまじる海沿いの帯を過ぎると、やがてパークの入口が見えてきます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "中に入ってしまえば、一日は本当に決まりのないもの——そしてそれこそが眼目です。パークの34本のウォータースライダーが目玉の呼びもので、ひとりで座れる年齢のお子様に向いた幅広くおだやかなファミリー向けチューブから、相応のスピードへの耐性と、つかのまの威厳の喪失を要する、ほぼ垂直の落下までそろっています。決まった順番はなく、気分のおもむくままにスライダー、プール、休憩エリアのあいだを行き来します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "小さなお子様連れのご家族は、子ども専用のセクションに自然と引き寄せられるでしょう。ここはスライダーを低く、プールの深さを浅く保っています。その目的によく適った造りで——親御さんが心配せず縁から見守れる程度に小ぶりでありながら、お子様が20分で遊びつくしてしまわない程度に変化に富んでいます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "プールのエリアは、スライダーに代わる楽しみを差し出します——自由に泳ぐ、浮かぶ、あるいはただラウンジャーを陣取ってほとんど何もしない。ハダバというパークの立地ゆえ、午前半ばからは陽射しが確実に強く、日陰はありますが必ずしも豊富ではないので、その点を心に留めておくとよいでしょう。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "午後の半ばになると、日帰りの来園者が帰り支度を考えはじめ、パークはわずかに静まりはじめます。帰りの送迎が取り決めた時刻にお迎えにあがり、ホテルへお送りします。道のりは、同じ心地よい冷房付きの乗り心地を逆にたどるものです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "実用の観点から見たパーク"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "クレオ・パークは民間が運営するアクアパークで——公共のビーチでも政府の施設でもない——ため、入場はチケット制で、設備はリゾートの水準に保たれています。ロッカーの貸し出し、飲食物は園内で提供されますが別料金で、入場料に園内での支出は含まれません。一日を通じて軽食や飲み物を欲しがるお子様連れの場合は、それを見込んでご予算を立て、エジプト・ポンドを携えるか、個々の売店ではカードの利用可否がまちまちなので、到着時に現在の支払い手段をご確認ください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "パークはホテルの宿泊客と日帰りの来園者が入りまじる客層を集めます。ハイシーズン——とりわけ7月、8月、そしてヨーロッパからの家族連れがシャルムのリゾートを満たす冬の休暇の週——には、最も人気のスライダーは混み合うことがあります。早めの出発が助けになります。一日で最も暑い時間帯、おおよそ午前11時から午後2時は、最も混み合う時間であると同時に、日陰の不足が最も切実になる時間でもあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "道のりについてのひとこと"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "ハダバへのドライブは、シャルムのほぼどのホテルからも短いものですが、出発の時刻は当日の混雑にやさしく効いてきます。早めに発てば、開園と同時に入場でき、最も人気のスライダーを、まだ列が形になる前に味わえます。午前遅くの出発は、午後の暑さのいちばん厳しい時間にパーク入りすることになるので、その点を織り込んで支度をなさってください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "エジプトでのすべての一日が、古代世界へのより深い理解で終わる必要はありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "ときにそれは、水の入った耳と、日焼けした鼻と、「次はいつ来られるの」とすでに尋ねている子どもとともに終わるのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000041",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": "ご一行の構成、出発の時刻、午前と午後どちらの枠が向くかは、コンシェルジュが現地の混み具合に照らして整えます。お子様の年齢や、別の海・砂漠のアクティビティとの組み合わせ方も、あわせてご相談を。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000044",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58927",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "An honest note: the park is a shared, ticketed day — what's private is the transfer, and that's where the flexibility lives. Younger children often fade by mid-afternoon, which is exactly what the half-day finish is for. Tell us how your family's stamina usually runs and we'll set the return accordingly."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Una aclaración honesta: el parque es un recinto compartido con entrada — lo privado es el traslado, y ahí vive la flexibilidad. Los más pequeños suelen rendirse a media tarde, y para eso existe justamente el final de medio día. Cuéntanos cómo suele aguantar tu familia y ajustamos la hora de vuelta."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "正直に申し上げますと、パーク自体はチケット制の共有施設で、プライベートなのは送迎の部分——そして柔軟に動かせるのもそこです。小さなお子様は午後の半ばで力尽きることが多く、半日で切り上げる選択肢はまさにそのためにあります。ご家族の体力の傾向をお知らせいただければ、お迎えの時刻をそれに合わせます。"
+  }
+ ],
+ "durationHours": 8,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Full day · ~8 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Día completo · ~8 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "終日・約8時間"
+  }
+ ],
+ "exclusions": [
+  {
+   "_key": "h02ool6bhd",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Locker hire, food, and beverages are available on-site but sold separately; the entrance fee does not cover in-park spending.",
+   "text": "Locker hire, food, and beverages sold separately"
+  },
+  {
+   "_key": "4r2s39zaa4",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Hay alquiler de taquillas, comida y bebida en el recinto, pero se venden por separado; la entrada no cubre el gasto interior.",
+   "text": "Alquiler de taquillas, comida y bebida (se venden por separado)"
+  },
+  {
+   "_key": "q95wuo2z54",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ロッカーの貸し出し、飲食物は園内で提供されますが別料金で、入場料に園内での支出は含まれません。",
+   "text": "ロッカーの貸し出し（別料金）"
+  },
+  {
+   "_key": "pzgraok0q",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ロッカーの貸し出し、飲食物は園内で提供されますが別料金で、入場料に園内での支出は含まれません。",
+   "text": "園内の飲食物（別料金）"
+  },
+  {
+   "_key": "txb0anvlnk",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ロッカーの貸し出し、飲食物は園内で提供されますが別料金で、入場料に園内での支出は含まれません。",
+   "text": "園内での支出"
+  }
+ ],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 83,
+  "ja": 90
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Colourful spiralling water slides above a bright blue pool at a desert aqua park under a clear sky"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Coloridos toboganes en espiral sobre una piscina azul brillante en un parque acuático del desierto, bajo un cielo despejado"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "澄んだ空の下、砂漠のアクアパークで鮮やかな青いプールの上にうねる色とりどりのウォータースライダー。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-51fe04a836c9eccad95b1270975935220a2d3ba4-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Spiralling slides drop into the pool at Cleo Park, Sharm el-Sheikh."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Toboganes en espiral caen a la piscina de Cleo Park, en Sharm el-Sheij."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "シャルム・エル・シェイクのクレオ・パークで、プールへ落ちるらせん状のスライダー。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "dt77fseiyr",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Pickup is from your hotel lobby, in an air-conditioned vehicle, at a pre-arranged time.",
+   "text": "Hotel lobby pickup in an air-conditioned vehicle"
+  },
+  {
+   "_key": "s7yxbx0g2g",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The hotel transfer is private to your party; Cleo Park itself is a shared, ticketed venue.",
+   "text": "Private hotel transfer"
+  },
+  {
+   "_key": "71llevkudz",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The outing takes bookings from a single person upward, with no minimum group, and one bottle of mineral water per person is provided for the transfer.",
+   "text": "One bottle of mineral water per person for the transfer"
+  },
+  {
+   "_key": "p0kfn6s98v",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The return transfer collects you at the agreed time and brings you back to your hotel.",
+   "text": "Return transfer to your hotel"
+  },
+  {
+   "_key": "drvvzd45fh",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La recogida se realiza en el vestíbulo del hotel, en un vehículo con aire acondicionado, a la hora pactada.",
+   "text": "Recogida en el vestíbulo del hotel en vehículo con aire acondicionado"
+  },
+  {
+   "_key": "dauhllljlx",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El traslado al hotel es privado para tu grupo; Cleo Park en sí es un recinto compartido con entrada.",
+   "text": "Traslado privado para tu grupo"
+  },
+  {
+   "_key": "y8hkq0aes5",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La salida acepta reservas a partir de una persona, sin grupo mínimo, y se proporciona una botella de agua mineral por persona para el trayecto.",
+   "text": "Una botella de agua mineral por persona para el trayecto"
+  },
+  {
+   "_key": "t0lcsf42za",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El traslado de regreso te recoge a la hora pactada y te devuelve al hotel.",
+   "text": "Traslado de regreso al hotel"
+  },
+  {
+   "_key": "d2rmvhgcq3",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ホテルの送迎はお客様のご一行だけのプライベートです。",
+   "text": "ホテルの送迎（ご一行だけのプライベート）"
+  },
+  {
+   "_key": "ib3rfiktw6",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "この外出は一名から承り、最少催行人数はなく、送迎にはミネラルウォーター1人1本が含まれます。",
+   "text": "ミネラルウォーター1人1本"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/aqua-park-cleo-park/"
+ },
+ "priceFrom": 72,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_dahab_blue_hole_desert_snorkel_group_day_tour_from_sharm",
+   "_ref": "tour.dahab-blue-hole-desert-snorkel-group-day-tour-from-sharm",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_dolphin_show_sharm_el_sheikh",
+   "_ref": "tour.dolphin-show-sharm-el-sheikh",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_87634",
+   "_ref": "wp-page-87634",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_jerusalem_dead_sea_bethlehem_group_day_tour_from_sharm",
+   "_ref": "tour.jerusalem-dead-sea-bethlehem-group-day-tour-from-sharm",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Private hotel transfers · shared ticketed aqua park · thirty-four slides · dedicated children's section · no minimum age"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Actividad privada organizada · Relajado"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "プライベートのホテル送迎 · 乗合のチケット制アクアパーク · 冷房付き車両 · 34本のスライダーと子ども専用区画"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Full day, with optional half-day finish"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Medio dia a dia completo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "半日または一日、ホテル送迎込みでおよそ5〜8時間"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Hadaba district, Sharm el-Sheikh"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Hotel en Sharm y Cleo Park"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "シャルム・エル・シェイク（ハダバ地区のクレオ・パーク）"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "aqua-park-cleo-park"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "cleo-park-hadaba-una-jornada-completa-en-el-parque-acuatico-de-sharm"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "kureo-paku-hadaba-chiku-sharumu-no-wota-paku-de-sugosu-ichi"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Thirty-four water slides, dedicated children's pools, and a full day of sun in Sharm el-Sheikh's Hadaba district. Here is what to expect."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Treinta y cuatro toboganes, piscinas infantiles dedicadas y un día entero de sol en el distrito de Hadaba de Sharm el-Sheij. Esto es lo que cabe esperar."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "34本のウォータースライダー、子ども専用プール、そしてシャルム・エル・シェイクのハダバ地区で過ごす陽光あふれる一日。期待できることをご紹介します。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Cleo Park Aqua Park, Hadaba: A Full Day at Sharm's Water Park"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Cleo Park, Hadaba: una jornada completa en el parque acuático de Sharm"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "クレオ・パーク（ハダバ地区）：シャルムのウォーターパークで過ごす一日"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}
