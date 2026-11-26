@@ -1,0 +1,1103 @@
+{
+ "_createdAt": "2026-05-28T11:06:52Z",
+ "_id": "tourLanding.sharm-el-sheikh-private-day-tours",
+ "_rev": "8lul89r3wK2W8gMdXwFvEN",
+ "_system": {
+  "base": {
+   "id": "tourLanding.sharm-el-sheikh-private-day-tours",
+   "rev": "c7D10UIoL2h5Xn5KW3JqoU"
+  }
+ },
+ "_type": "tourLanding",
+ "_updatedAt": "2026-11-11T16:00:15Z",
+ "category": {
+  "_ref": "tourCategory.private-day-tour",
+  "_type": "reference"
+ },
+ "destinationCity": {
+  "_ref": "wp-page-58927",
+  "_type": "reference"
+ },
+ "editorByline": {
+  "heading": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Sharm is not one destination. It is three different doors."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Sharm no es un solo destino: son tres puertas distintas."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "シャルムは一つの目的地ではありません。三つの異なる扉です。"
+   }
+  ],
+  "intro": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Use this page to decide whether your free day belongs to the reef, the mountain, or the Bedouin interior — then pick the private day that matches your energy."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Usa esta página para decidir si tu día libre es para el arrecife, la montaña o el interior beduino; luego elige el día privado que vaya con tu energía."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "自由な一日を、サンゴ礁か、山か、ベドウィンの内陸か——このページで決め、あなたの体力に合うプライベートな一日をお選びください。"
+   }
+  ],
+  "kicker": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Editor's view"
+   }
+  ],
+  "mini": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Curated by the Travel2Egypt Sinai team, for travellers who want a guided, private day shaped entirely around them."
+   }
+  ]
+ },
+ "facts": [
+  {
+   "_key": "k0",
+   "_type": "object",
+   "label": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": "Best for"
+    }
+   ],
+   "value": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": "Sea, desert & mountain days"
+    }
+   ]
+  },
+  {
+   "_key": "k1",
+   "_type": "object",
+   "label": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": "Group size"
+    }
+   ],
+   "value": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": "Your party alone"
+    }
+   ]
+  },
+  {
+   "_key": "k2",
+   "_type": "object",
+   "label": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": "Ideal stay"
+    }
+   ],
+   "value": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": "4–7 nights in Sharm"
+    }
+   ]
+  },
+  {
+   "_key": "k3",
+   "_type": "object",
+   "label": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": "Best season"
+    }
+   ],
+   "value": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": "October–April inland"
+    }
+   ]
+  }
+ ],
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Two thatched four-poster beach canopies on pale sand facing the turquoise sea under a clear blue sky"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Dos camas con dosel de paja sobre la arena clara frente al mar turquesa bajo un cielo azul despejado"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "澄んだ青空の下、ターコイズの海に面した淡い砂浜の、茅葺きの天蓋付きビーチベッド二台。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-0ec849f3e73a7738d5ff6ad3f7476275a86d5dab-3000x1167-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Canopy beds face the turquoise sea on a quiet beach."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Camas con dosel frente al mar turquesa en una playa tranquila."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "静かな浜辺でターコイズの海に面した天蓋ベッド。"
+   }
+  ]
+ },
+ "heroNote": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Written as an editorial guide first. The private days come further down — after we help you work out which Sinai fits your trip."
+  }
+ ],
+ "intro": [
+  {
+   "_key": "en",
+   "value": [
+    {
+     "_key": "k0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "k1",
+       "_type": "span",
+       "marks": [],
+       "text": "Sharm El-Sheikh sits at the southern tip of the Sinai Peninsula, where the desert runs straight into the Red Sea at the mouth of the Gulf of Aqaba. That meeting is the whole character of the place: Ras Mohammed, declared Egypt's first marine reserve in 1983, gives it some of the clearest water and steepest reef walls in the country, while a few hours inland the granite of St. Catherine rises out of open desert. Sold as a beach resort, it is really a base — close to the sea, the mountain, and the quiet Bedouin interior at once."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "k2",
+     "_type": "pullQuote",
+     "quote": [
+      {
+       "_key": "en",
+       "_type": "object",
+       "value": "Reef at the morning angle, a Bedouin fire in the interior at dusk, the Great Pyramid the next day if you want it — the three Egypts of the south, from one Sinai base."
+      }
+     ]
+    },
+    {
+     "_key": "k3",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "k4",
+       "_type": "span",
+       "marks": [],
+       "text": "Who this works for"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "k5",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "k6",
+       "_type": "span",
+       "marks": [],
+       "text": "Travellers who already have a Red Sea hotel and want a memorable day or two beyond it: couples, families, and solo visitors who'd rather have the guide and the vehicle to themselves than share a coach. It suits anyone drawn to nature, light adventure, snorkelling, or the idea of reaching St. Catherine and Mount Sinai at their own pace."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "k7",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "k8",
+       "_type": "span",
+       "marks": [],
+       "text": "Who should think twice"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "k9",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "ka",
+       "_type": "span",
+       "marks": [],
+       "text": "If your main interest is pharaonic archaeology, Sharm is not the natural base — Cairo, Luxor and Aswan will serve you far better. From here the strongest days are natural and spiritual rather than museum-like: reef walls, desert tracks, monastery mornings, and the physical effort of the Mount Sinai climb. Worth knowing before you build a trip around it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "value": [
+    {
+     "_key": "kb",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "kc",
+       "_type": "span",
+       "marks": [],
+       "text": "Sharm el-Sheij se asienta en el extremo meridional de la península del Sinaí, donde el desierto desemboca directamente en el mar Rojo, en la boca del golfo de Aqaba. Ese encuentro es todo el carácter del lugar: Ras Mohamed, declarada en 1983 la primera reserva marina de Egipto, le da algunas de las aguas más claras y los muros de arrecife más escarpados del país, mientras que a pocas horas hacia el interior el granito de Santa Catalina se alza sobre el desierto abierto. Vendida como un destino de playa, en realidad es una base — cerca del mar, de la montaña y del tranquilo interior beduino a la vez."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "kd",
+     "_type": "pullQuote",
+     "quote": [
+      {
+       "_key": "es",
+       "_type": "object",
+       "value": "El arrecife en la luz de la mañana, una hoguera beduina en el interior al anochecer, la Gran Pirámide al día siguiente si lo deseas — los tres Egiptos del sur, desde una sola base en el Sinaí."
+      }
+     ]
+    },
+    {
+     "_key": "ke",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "kf",
+       "_type": "span",
+       "marks": [],
+       "text": "Para quién funciona"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "kg",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "kh",
+       "_type": "span",
+       "marks": [],
+       "text": "Viajeros que ya tienen un hotel en el mar Rojo y quieren uno o dos días memorables más allá de él: parejas, familias y viajeros solos que prefieren tener el guía y el vehículo para ellos solos antes que compartir un autocar. Conviene a quien le atrae la naturaleza, la aventura ligera, el esnórquel o la idea de llegar a Santa Catalina y el monte Sinaí a su propio ritmo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "ki",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "kj",
+       "_type": "span",
+       "marks": [],
+       "text": "Quién debería pensárselo dos veces"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "kk",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "kl",
+       "_type": "span",
+       "marks": [],
+       "text": "Si tu principal interés es la arqueología faraónica, Sharm no es la base natural — El Cairo, Luxor y Asuán te servirán mucho mejor. Desde aquí los días más fuertes son naturales y espirituales más que de museo: muros de arrecife, pistas del desierto, mañanas de monasterio y el esfuerzo físico de la subida al monte Sinaí. Conviene saberlo antes de planear un viaje en torno a ello."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "value": [
+    {
+     "_key": "km",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "kn",
+       "_type": "span",
+       "marks": [],
+       "text": "シャルム・エル・シェイクはシナイ半島の最南端、アカバ湾の入り口で砂漠がまっすぐ紅海へと落ち込む場所にあります。この出会いこそが、この土地のすべての性格です。1983年にエジプト初の海洋保護区に指定されたラス・モハメッドは、国内でも屈指の透明度の高い海と切り立った珊瑚の壁をもたらし、数時間内陸へ入れば聖カタリナの花崗岩が開けた砂漠から立ち上がります。ビーチリゾートとして売られていますが、実際には拠点です——海にも、山にも、静かなベドウィンの内陸にも、同時に近い。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "ko",
+     "_type": "pullQuote",
+     "quote": [
+      {
+       "_key": "ja",
+       "_type": "object",
+       "value": "朝の光に照らされた珊瑚礁、夕暮れの内陸のベドウィンの焚き火、望めば翌日には大ピラミッド——南の三つのエジプトを、一つのシナイの拠点から。"
+      }
+     ]
+    },
+    {
+     "_key": "kp",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "kq",
+       "_type": "span",
+       "marks": [],
+       "text": "こんな方に向いています"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "kr",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "ks",
+       "_type": "span",
+       "marks": [],
+       "text": "すでに紅海沿いのホテルに滞在し、ビーチの先で記憶に残る一日か二日を求める旅行者へ。カップル、ご家族、そして大型バスを相乗りするより、ガイドと車をご自分たちだけで使いたいおひとり旅の方に。自然、軽いアドベンチャー、シュノーケリング、あるいはご自分のペースで聖カタリナとシナイ山を訪れたいという思いに惹かれる方に向いています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "kt",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "ku",
+       "_type": "span",
+       "marks": [],
+       "text": "再考したほうがよい方"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "kv",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "kw",
+       "_type": "span",
+       "marks": [],
+       "text": "主なご関心がファラオ時代の考古学にあるなら、シャルムは自然な拠点ではありません——カイロ、ルクソール、アスワンのほうがはるかに向いています。ここでの最も力強い一日は、博物館的というより自然で精神的なものです——珊瑚の壁、砂漠の道、修道院の朝、そしてシナイ山登頂の肉体的な手応え。旅をここを中心に組み立てる前に、知っておく価値があります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "journalRefs": [
+  {
+   "_key": "kk",
+   "_ref": "guideArticle.sharm-el-sheikh.ras-mohammed-national-park",
+   "_type": "reference"
+  },
+  {
+   "_key": "kl",
+   "_ref": "guideArticle.saint-catherine.mount-sinai-jebel-musa",
+   "_type": "reference"
+  },
+  {
+   "_key": "km",
+   "_ref": "guideArticle.sharm-el-sheikh.tours-in-sharm-el-sheikh",
+   "_type": "reference"
+  }
+ ],
+ "migration": {
+  "migratedAt": "2026-05-05T12:55:02.261Z",
+  "source": "wp-import",
+  "wpId": 86911,
+  "wpModifiedAt": "2026-04-19T22:46:36",
+  "wpTemplate": "",
+  "wpUrl": "https://travel2egypt.org/sharm-el-sheikh-private-day-tours/"
+ },
+ "moodChooser": {
+  "cards": [
+   {
+    "_key": "k4",
+    "_type": "object",
+    "body": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Easy beauty, warm water, a day that still feels like a holiday. Best for snorkellers, relaxed families, and the Red Sea at its clearest."
+     }
+    ],
+    "bullets": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+       "Ras Mohammed",
+       "Tiran reefs",
+       "Boat or shore snorkelling"
+      ]
+     }
+    ],
+    "eyebrow": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Sea Sinai"
+     }
+    ],
+    "image": {
+     "_type": "localizedImage",
+     "alt": [
+      {
+       "_key": "en",
+       "_type": "internationalizedArrayStringValue",
+       "value": "Turquoise Red Sea water along the Sharm el-Sheikh coast on a clear day"
+      }
+     ],
+     "asset": {
+      "_ref": "image-f74623f1acf98541f954f27c2c4be79908e6bac3-3000x2000-jpg",
+      "_type": "reference"
+     }
+    },
+    "jumpLabel": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "See the reef days ↓"
+     }
+    ],
+    "title": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Reefs & blue water"
+     }
+    ]
+   },
+   {
+    "_key": "k5",
+    "_type": "object",
+    "body": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "The most memorable inland day: a climb before dawn, cold air at the summit for sunrise, then St. Catherine’s Monastery at the foot of the mountain."
+     }
+    ],
+    "bullets": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+       "Mount Sinai",
+       "St. Catherine",
+       "Overnight departure"
+      ]
+     }
+    ],
+    "eyebrow": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Mountain Sinai"
+     }
+    ],
+    "image": {
+     "_type": "localizedImage",
+     "alt": [
+      {
+       "_key": "en",
+       "_type": "internationalizedArrayStringValue",
+       "value": "Mount Sinai at first light on the Sinai Peninsula, above St. Catherine’s Monastery"
+      }
+     ],
+     "asset": {
+      "_ref": "image-1de835c4a4f3652e4dd7b88ad1433530b486fa82-3000x2250-jpg",
+      "_type": "reference"
+     }
+    },
+    "jumpLabel": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "See the mountain days ↓"
+     }
+    ],
+    "title": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Sunrise & monastery"
+     }
+    ]
+   },
+   {
+    "_key": "k6",
+    "_type": "object",
+    "body": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "The quieter, more local Sinai: dunes, desert tracks, tea, simple food, stories, and wide space away from the resort coast."
+     }
+    ],
+    "bullets": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+       "Dahab & the Blue Hole",
+       "Desert quad routes",
+       "Bedouin camp evenings"
+      ]
+     }
+    ],
+    "eyebrow": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Desert Sinai"
+     }
+    ],
+    "image": {
+     "_type": "localizedImage",
+     "alt": [
+      {
+       "_key": "en",
+       "_type": "internationalizedArrayStringValue",
+       "value": "Open desert and dunes in the Sinai interior, away from the resort coast"
+      }
+     ],
+     "asset": {
+      "_ref": "image-1b2524fabae4787cf65423c1108d8e1ac3e5de88-3000x2000-jpg",
+      "_type": "reference"
+     }
+    },
+    "jumpLabel": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "See the desert days ↓"
+     }
+    ],
+    "title": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Wadis & Bedouin life"
+     }
+    ]
+   }
+  ],
+  "heading": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Choose your Sharm."
+   }
+  ],
+  "intro": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Start with the kind of day you want to remember, not with a product. Each leads to a different mood, pace and level of effort."
+   }
+  ]
+ },
+ "orientation": {
+  "baseLabel": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "From your hotel base"
+   }
+  ],
+  "baseName": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Sharm El-Sheikh"
+   }
+  ],
+  "copyBody": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The reef days feel natural from a beach hotel — an hour out, back for dinner. The mountain days are deeper and more demanding, starting late evening or before dawn. That difference is the thing to plan around."
+   }
+  ],
+  "copyHeading": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Easy on the coast, slower in the mountains."
+   }
+  ],
+  "copyKicker": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "How the days spread out"
+   }
+  ],
+  "effort": [
+   {
+    "_key": "kb",
+    "_type": "object",
+    "label": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Easy day"
+     }
+    ],
+    "value": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Ras Mohammed, or a relaxed snorkelling boat"
+     }
+    ]
+   },
+   {
+    "_key": "kc",
+    "_type": "object",
+    "label": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Active day"
+     }
+    ],
+    "value": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Dahab, the desert and the Blue Hole"
+     }
+    ]
+   },
+   {
+    "_key": "kd",
+    "_type": "object",
+    "label": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Signature day"
+     }
+    ],
+    "value": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Mount Sinai sunrise & St. Catherine’s Monastery"
+     }
+    ]
+   }
+  ],
+  "stops": [
+   {
+    "_key": "k7",
+    "_type": "object",
+    "effort": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Easy"
+     }
+    ],
+    "name": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Ras Mohammed National Park"
+     }
+    ],
+    "sub": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Reefs & coastal park"
+     }
+    ],
+    "time": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "~1 hr"
+     }
+    ]
+   },
+   {
+    "_key": "k8",
+    "_type": "object",
+    "effort": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Easy"
+     }
+    ],
+    "name": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Nabq Protected Area"
+     }
+    ],
+    "sub": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Mangroves & desert"
+     }
+    ],
+    "time": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "~45 min"
+     }
+    ]
+   },
+   {
+    "_key": "k9",
+    "_type": "object",
+    "effort": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Active"
+     }
+    ],
+    "name": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Dahab & the Blue Hole"
+     }
+    ],
+    "sub": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Coast & canyon"
+     }
+    ],
+    "time": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "~1.5 hr"
+     }
+    ]
+   },
+   {
+    "_key": "ka",
+    "_type": "object",
+    "effort": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Signature"
+     }
+    ],
+    "name": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "St. Catherine & Mount Sinai"
+     }
+    ],
+    "sub": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "Mountain & monastery"
+     }
+    ],
+    "time": [
+     {
+      "_key": "en",
+      "_type": "object",
+      "value": "~2.5 hr"
+     }
+    ]
+   }
+  ]
+ },
+ "seo": {
+  "metaDescription": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayTextValue",
+    "value": "The southern Sinai, privately guided — Ras Mohammed and the Red Sea's finest reefs, desert safaris and Bedouin nights, and day flights to Cairo's pyramids. Sea, desert and ancient Egypt from one base."
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayTextValue",
+    "value": "El Sinaí meridional con guía privado — Ras Mohamed y los mejores arrecifes del mar Rojo, safaris por el desierto y noches beduinas, y vuelos de un día a las pirámides de El Cairo. Mar, desierto y Egipto antiguo desde una sola base."
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayTextValue",
+    "value": "南シナイをプライベートガイドで——ラス・モハメッドと紅海屈指のサンゴ礁、砂漠サファリとベドウィンの夜、そしてカイロのピラミッドへの日帰りフライト。海と砂漠と古代エジプトを一つの拠点で。"
+   }
+  ],
+  "metaTitle": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Sharm El-Sheikh Private Day Tours"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Excursiones privadas de un día desde Sharm El Sheikh"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "シャルム・エル・シェイク プライベート1日ツアー"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "value": {
+    "_type": "slug",
+    "current": "sharm-el-sheikh-private-day-tours"
+   }
+  },
+  {
+   "_key": "es",
+   "value": {
+    "_type": "slug",
+    "current": "sharm-el-sheikh-excursiones-privadas-de-un-dia"
+   }
+  },
+  {
+   "_key": "ja",
+   "value": {
+    "_type": "slug",
+    "current": "sharumu-eru-sheiku-puraibeto-dei-tsua"
+   }
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "value": "Sharm El-Sheikh Private Day Tours"
+  },
+  {
+   "_key": "es",
+   "value": "Excursiones privadas de un día desde Sharm El Sheikh"
+  },
+  {
+   "_key": "ja",
+   "value": "シャルム・エル・シェイク プライベートデイツアー"
+  }
+ ],
+ "tourPresentation": [
+  {
+   "_key": "ke",
+   "_type": "object",
+   "featured": true,
+   "label": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": "Editor's pick"
+    }
+   ],
+   "tour": {
+    "_ref": "tour.ramasside-tours-desert-adventure-snorkeling-experience",
+    "_type": "reference"
+   },
+   "why": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": "Choose this if you want the one Sinai day that feels larger than a tour — desert, canyon and the Blue Hole in a single run."
+    }
+   ]
+  },
+  {
+   "_key": "kf",
+   "_type": "object",
+   "featured": false,
+   "label": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": "Best first day"
+    }
+   ],
+   "tour": {
+    "_ref": "tour.diving-sea-trip-in-sharm-el-sheikh",
+    "_type": "reference"
+   },
+   "why": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": "The calm way to read the Red Sea — two reef stops, your party alone."
+    }
+   ]
+  },
+  {
+   "_key": "kg",
+   "_type": "object",
+   "featured": false,
+   "label": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": "Best inland contrast"
+    }
+   ],
+   "tour": {
+    "_ref": "wp-page-87637",
+    "_type": "reference"
+   },
+   "why": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": "Desert, dunes and a Bedouin evening as the light goes."
+    }
+   ]
+  },
+  {
+   "_key": "kh",
+   "_type": "object",
+   "featured": false,
+   "label": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": "The big day"
+    }
+   ],
+   "tour": {
+    "_ref": "wp-page-87634",
+    "_type": "reference"
+   },
+   "why": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": "The Pyramids and the Egyptian Museum, there and back in a day by air."
+    }
+   ]
+  },
+  {
+   "_key": "ki",
+   "_type": "object",
+   "featured": false,
+   "label": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": "Driest sea day"
+    }
+   ],
+   "tour": {
+    "_ref": "tour.royal-sea-scope",
+    "_type": "reference"
+   },
+   "why": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": "Reef life without getting wet — easy for mixed-ability families."
+    }
+   ]
+  },
+  {
+   "_key": "kj",
+   "_type": "object",
+   "featured": false,
+   "label": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": "For families"
+    }
+   ],
+   "tour": {
+    "_ref": "tour.swimming-with-dolphins",
+    "_type": "reference"
+   },
+   "why": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": "A gentle morning in the water the children will talk about for weeks."
+    }
+   ]
+  }
+ ]
+}
