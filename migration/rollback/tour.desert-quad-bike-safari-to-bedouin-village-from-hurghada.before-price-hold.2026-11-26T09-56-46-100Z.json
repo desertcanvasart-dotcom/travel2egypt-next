@@ -1,0 +1,1345 @@
+{
+ "_createdAt": "2026-05-28T11:45:23Z",
+ "_id": "tour.desert-quad-bike-safari-to-bedouin-village-from-hurghada",
+ "_rev": "pzh5FM4q1DBt3H4LGqNNJZ",
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:46Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Adults with some confidence on a motorbike or ATV who want a physical desert evening rather than another beach sunset, paired with genuine time at a Bedouin settlement"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Adultos con cierta confianza sobre una moto o un quad que prefieren una tarde de desierto con cuerpo en lugar de otra puesta de sol en la playa, sumada a tiempo real en un asentamiento beduino"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "短い半日でクワッドバイクの開放感と砂漠の村を体験したい初級〜中級者"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Into the Eastern Desert: Quad Biking and Bedouin Hospitality from Hurghada"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "Hurghada sits at the edge of one of the world's great deserts, yet most visitors see only the coast. This four-hour excursion corrects that. You leave your hotel in the afternoon, ride a quad bike across 30 kilometres of open desert terrain, then spend the evening in a Bedouin village — camel ride, traditional tea, a BBQ dinner, and enough dark sky to make the stars feel close. It is not an archaeological tour. It is not a beach day. It is a straightforward desert experience for people who want to understand something of the landscape and culture that exists just beyond the resort strip."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "The tour suits adults who are reasonably comfortable on a motorbike or ATV — the quad bikes are not technically demanding, but you will be riding for around 40 minutes across uneven ground, so a degree of physical confidence is useful."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "The hotel transfer is "
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "private to your party"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "; the quad-bike ride, village visit, and BBQ dinner are "
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "shared"
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": " with other guests at the desert camp. The outing "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "takes bookings from a single person upward"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": ", with no minimum group, and "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "one bottle of mineral water per person"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": " is provided. The "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "minimum age for driving a quad bike is 18"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": " — the controls and the terrain make this a non-negotiable, and there is no younger-passenger arrangement on the bikes themselves."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "The Bedouin communities of Egypt's Eastern Desert have occupied this terrain for centuries, moving between the Red Sea hills and the Nile Valley along trade and pilgrimage routes that predate the modern roads by a thousand years. The village visit on this tour is a curated introduction rather than a full ethnographic encounter — honest to say so — but it is a genuine one, with time to sit, drink tea, and speak with people who actually live this way."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Your guide collects you from your Hurghada hotel and drives you to the quad bike station at the edge of the desert — a short transfer, typically 20 to 30 minutes depending on where you are staying. At the station, you receive a helmet and safety equipment, and a briefing covers the controls and the route ahead. If you have not ridden a quad bike before, say so; the guides are experienced at starting people from scratch."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "You set off into the desert proper. The route covers 30 kilometres of open terrain — rock-strewn flats, low dunes, the occasional dry wadi — and takes roughly 40 minutes at a moderate pace. The Eastern Desert here is not the towering sand-sea of the Sahara; it is a harder, more austere landscape, pale ochre and grey, with the Red Sea Hills visible to the east on a clear day. Ride it in the late afternoon and the light changes quickly, the shadows lengthening and the rock faces turning red before the sun goes down."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Near the village, you transfer from the quad bikes to a 4×4 vehicle for the final approach — the terrain immediately around the settlement is better suited to it, and this also marks the shift in pace from the ride to the visit."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "At the Bedouin village, the tempo slows considerably. A camel ride comes first — a brief circuit that gives you the animal's-eye view of the encampment and the surrounding desert. Afterwards, you sit with members of the community over glasses of sweet tea, and if you choose, a hookah. The conversation, facilitated by your guide, touches on daily life, the desert's seasonal rhythms, and the traditions — herding, weaving, navigation by stars — that still structure how people live here. It is worth arriving with some curiosity and a few genuine questions; the exchange is richer for it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "As the sky darkens, a BBQ dinner is set out — grilled meats, bread, soft drinks, and mineral water. A short dinner show follows, drawing on regional music and performance traditions. Then the real attraction asserts itself: the Eastern Desert, far from Hurghada's lights, produces a night sky of unusual clarity. You are given time to look up before the 4×4 brings you back to the quad station and your waiting transfer for the return to your hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "The Desert in Context"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "The Eastern Desert stretching west from the Red Sea coast is one of Egypt's least-visited regions despite being one of its most historically layered. Ancient Egyptians quarried porphyry and granite here; Roman caravans crossed it to reach the port of Berenice; Coptic monasteries still stand in its wadis. None of that is part of this particular tour, but knowing the ground has that depth makes the landscape feel less empty. The Bedouin presence is the living continuation of a very long story of human habitation in a place that looks, at first glance, uninhabitable."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "The Red Sea coast is not short of ways to spend an afternoon. This one takes you off it entirely, into a landscape and a culture that most Hurghada visitors never reach."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Four hours in the Eastern Desert. That is the offer."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "If anyone in the party would rather skip the riding and join only for the camel, village and dinner, that arrangement is usually workable — tell us in advance and we will coordinate it with the operator."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000038",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Hacia el Desierto Oriental: quad y hospitalidad beduina desde Hurgada"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una salida física y honesta a un paisaje y una cultura que la mayoría de los visitantes de Hurgada no llega a ver."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Hurgada se asoma al borde de uno de los grandes desiertos del mundo, y sin embargo casi todos los visitantes solo conocen la costa. Esta excursión de cuatro horas corrige ese desequilibrio. Se sale del hotel por la tarde, se conducen quads sobre treinta kilómetros de desierto abierto y se pasa el anochecer en una aldea beduina: paseo en camello, té tradicional, cena a la parrilla y un cielo lo bastante oscuro para sentir las estrellas cerca. No es una excursión arqueológica. No es un día de playa. Es una experiencia de desierto directa, pensada para quien quiera entender algo del paisaje y la cultura que existen justo más allá de la franja hotelera."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "La salida conviene a adultos razonablemente cómodos sobre una moto o un quad: la conducción no es técnicamente exigente, pero se rueda unos cuarenta minutos por terreno irregular, así que cierta confianza física ayuda."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "El traslado desde el hotel es "
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "privado para su grupo"
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "; el recorrido en quad, la visita a la aldea y la cena son "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "compartidos"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": " con otros huéspedes en el campamento. La salida "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "acepta reservas desde una sola persona"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": ", sin mínimo de grupo, y se incluye "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "una botella de agua mineral por persona"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ". La "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "edad mínima para conducir un quad es 18 años"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ": los mandos y el terreno la convierten en innegociable, y no hay opción de llevar a menores como pasajeros en las propias máquinas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Las comunidades beduinas del Desierto Oriental egipcio ocupan este territorio desde hace siglos, moviéndose entre las colinas del mar Rojo y el valle del Nilo por rutas comerciales y de peregrinación que anteceden mil años a las carreteras actuales. La visita a la aldea es una introducción cuidada, no un encuentro etnográfico completo —es justo decirlo—, pero es genuina y deja tiempo para sentarse, tomar té y conversar con quienes viven así de verdad."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "El guía recoge al viajero en el hotel de Hurgada y lo lleva a la estación de quads al borde del desierto, en un trayecto corto, normalmente de veinte a treinta minutos según la zona de alojamiento. En la estación se entregan casco y equipo de seguridad, y un briefing cubre los mandos y el recorrido por venir. Si nunca se ha conducido un quad, conviene decirlo: los guías tienen experiencia partiendo de cero."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Después se entra al desierto propiamente dicho. La ruta cubre "
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "treinta kilómetros de terreno abierto"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": " —llanuras sembradas de piedras, dunas bajas, algún uadi seco— y dura unos "
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "cuarenta minutos a ritmo moderado"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": ". El Desierto Oriental no es el gran mar de arena del Sahara: es un paisaje más duro y austero, de ocres pálidos y grises, con las colinas del mar Rojo a la vista hacia el este en los días despejados. Recorrido al final de la tarde, la luz cambia deprisa, las sombras se alargan y las paredes de roca se vuelven rojas antes de que se ponga el sol."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Cerca de la aldea se traslada del quad a un 4x4 para el tramo final: el terreno justo en torno al asentamiento se presta mejor a ese vehículo, y el cambio marca también el paso del ritmo de la conducción al ritmo de la visita."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "En la "
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "aldea beduina"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": " el tempo baja claramente. Primero llega el paseo en camello, un circuito breve que ofrece la vista a la altura del animal sobre el campamento y el desierto circundante. Después se comparte té dulce con miembros de la comunidad y, quien quiera, narguile. La conversación, facilitada por el guía, toca la vida cotidiana, los ritmos estacionales del desierto y las tradiciones —pastoreo, tejido, orientación por las estrellas— que aún estructuran la vida aquí. Conviene llegar con algo de curiosidad y unas cuantas preguntas reales; el intercambio se enriquece con ellas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Cuando el cielo oscurece se sirve una "
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "cena a la parrilla"
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": ": carnes a la brasa, pan, refrescos y agua mineral. Sigue un breve espectáculo de sobremesa con música y artes escénicas regionales. Después se impone el verdadero protagonista: lejos de las luces de Hurgada, el Desierto Oriental ofrece un cielo nocturno de una claridad poco común. Hay tiempo para mirar hacia arriba antes de que el 4x4 devuelva al grupo a la estación de quads y al traslado de regreso al hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "El desierto en su contexto"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "El Desierto Oriental que se extiende al oeste de la costa del mar Rojo es una de las regiones menos visitadas de Egipto pese a ser una de las más estratificadas históricamente. Los antiguos egipcios extrajeron de aquí pórfido y granito; las caravanas romanas lo cruzaban para llegar al puerto de Berenice; en sus uadis todavía se conservan monasterios coptos. Nada de eso forma parte concreta de este programa, pero saber que el suelo guarda esa profundidad hace que el paisaje se sienta menos vacío. La presencia beduina es la continuación viva de una historia muy larga de habitación humana en un lugar que, a primera vista, parece inhabitable."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "La costa del mar Rojo no carece de modos de pasar una tarde. Esta lo saca al viajero por completo de ella, hacia un paisaje y una cultura que la mayoría de quienes visitan Hurgada nunca alcanzan."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Cuatro horas en el Desierto Oriental. Esa es la oferta."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000042",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": "Si alguien del grupo prefiere saltarse la conducción y sumarse solo al camello, la aldea y la cena, ese arreglo suele ser viable: avísenos con antelación y lo coordinamos con el operador."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "東方砂漠へ：ハルガダ発のクアッドバイクとベドウィンのもてなし"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "ハルガダは世界有数の大砂漠の縁に位置していますが、たいていの旅行者は海岸しか目にしません。この4時間の遠出が、それを正します。午後にホテルを出発し、30キロの開けた砂漠の地形をクアッドバイクで駆け、それから夕べをベドウィンの村で過ごします——ラクダ乗り、伝統的な紅茶、バーベキューの夕食、そして星々を近く感じさせるだけの暗い空。これは考古学のツアーではありません。ビーチの一日でもありません。リゾートの帯のすぐ向こうに存在する景観と文化を、いくらか理解したい人のための、率直な砂漠の体験です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "このツアーは、バイクやATVにそれなりに慣れた大人の方に向いています——クアッドバイクは技術的に難しいものではありませんが、凹凸のある地面を40分ほど走ることになるので、ある程度の身体的な自信があると役立ちます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "ホテルの送迎は"
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "お客様のご一行だけの貸し切り"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "です。クアッドバイクの走り、村の訪問、バーベキューの夕食は、砂漠のキャンプでほかのゲストと"
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "相乗り"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "になります。この遠出は"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "一名から承り"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "、最少催行人数はありません。"
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ミネラルウォーター1人1本"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "が含まれます。"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "クアッドバイクを運転する参加年齢は18歳以上"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "です——操作と地形を考えれば、これは譲れない条件であり、バイクそのものに年少の同乗者を乗せる仕組みはありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプトの東方砂漠のベドウィンの共同体は、何世紀にもわたってこの地形を住みかとし、近代の道路を千年さかのぼる交易と巡礼の道に沿って、紅海の丘陵とナイル渓谷のあいだを移動してきました。このツアーでの村の訪問は、完全な民族誌的な出会いというよりは、丁寧に整えられた入口です——そう正直に言っておきます——が、本物の入口であり、腰をおろし、紅茶を飲み、実際にこのように暮らす人々と語らう時間があります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "ガイドがハルガダのホテルにお迎えに上がり、砂漠の縁にあるクアッドバイクのステーションまでお連れします——ご滞在先によりますが、たいてい20〜30分の短い移動です。ステーションでヘルメットと安全装備を受け取り、操作とこれから行くルートについての説明を受けます。クアッドバイクに乗ったことがなければ、そう伝えてください。ガイドは、まったくの初心者から手ほどきすることに慣れています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "砂漠の本体へと走り出します。ルートは30キロの開けた地形——岩の散らばる平地、低い砂丘、ときおりの涸れたワジ——を行き、ほどよいペースでおよそ40分かかります。ここの東方砂漠は、サハラのそびえ立つ砂の海ではありません。より硬く、より厳しい景観で、淡い黄土色と灰色、晴れた日には東に紅海丘陵が見えます。午後遅くに走れば光は刻々と変わり、影は伸び、太陽が落ちる前に岩肌は赤く染まります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "村の近くで、クアッドバイクから4×4の車両に乗り換え、最後の接近に臨みます——集落のすぐ周りの地形はそのほうが適しており、これがまた、走りから訪問へとペースが移る合図にもなります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "ベドウィンの村では、テンポがぐっと緩みます。まずラクダ乗り——短い周回が、野営地と周りの砂漠をラクダの目線で見せてくれます。そのあとは、甘い紅茶のグラスを傾けながら共同体の人々と腰をおろし、希望すれば水たばこも。ガイドが取り持つ会話は、日々の暮らし、砂漠の季節の律動、そしていまも人々の暮らし方を形づくる伝統——牧畜、機織り、星による方位の見定め——に及びます。いくらかの好奇心と、いくつかの心からの問いを携えてお越しになる価値があります。そのほうが、やりとりは豊かになります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "空が暗んでくると、バーベキューの夕食が並びます——焼き肉、パン、ソフトドリンク、ミネラルウォーター。続いて、地域の音楽と演技の伝統に根ざした短いディナーショー。それから、本当の目玉が姿を現します——ハルガダの灯りから遠く離れた東方砂漠は、ひときわ澄んだ夜空を生み出します。見上げる時間が与えられたあと、4×4がクアッドのステーションと、ホテルへの帰りのために待つ送迎へとお連れします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "文脈のなかの砂漠"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "紅海沿岸から西へ広がる東方砂漠は、エジプトで最も歴史の層が厚い地域のひとつでありながら、最も訪れられることの少ない地域のひとつです。古代エジプト人はここで斑岩や花崗岩を切り出し、ローマのキャラバンは港町ベレニケに至るためにここを越え、コプトの修道院がいまもそのワジに立っています。そのどれもこの特定のツアーの一部ではありませんが、この地にそれだけの奥行きがあると知ると、景観はより空虚でなく感じられます。ベドウィンの存在は、一見住むに堪えないように見える場所での、人の営みの、とても長い物語の生きた続きなのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "紅海沿岸には、午後を過ごす手立てが事欠きません。この一日は、あなたをそこからすっかり連れ出し、たいていのハルガダの旅人が決してたどり着かない景観と文化のなかへと運びます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "東方砂漠で過ごす4時間。それが、この提案です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58859",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "An honest note on timing: this runs from afternoon pickup into the late evening, so keep dinner plans clear and the next morning easy. The riding itself is shared with the operator's group, though your hotel transfer is private. Ask our concierge which evening of your week suits it best."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Una nota honesta sobre horarios: la salida es por la tarde y el regreso ya entrada la noche, así que deja la cena libre y la mañana siguiente tranquila. La ruta en quad se hace con el grupo del operador, aunque el traslado desde tu hotel es privado. Pregunta a nuestro concierge qué tarde de tu semana encaja mejor."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "時間について正直に申し上げると、午後の出発から帰着は夜遅くになります。夕食の予定は空けて、翌朝はゆとりを持たせておくのが賢明です。クワッドバイクの走行は催行会社のグループと一緒になりますが、ホテル送迎はプライベートです。一週間のどの夕方に入れるのがよいか、コンシェルジュにご相談ください。"
+  }
+ ],
+ "durationHours": 4,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Half day · ~4 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Medio día · ~4 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "半日・約4時間"
+  }
+ ],
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 54,
+  "ja": 61
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A group of travellers in headscarves stands among dune buggies on desert sand at sunset"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Un grupo de viajeros con pañuelos en la cabeza junto a buggies sobre la arena del desierto al atardecer"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "夕日の砂漠で、頭にスカーフを巻いた旅行者の一団がバギーのそばに立つ。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-574ad09363df98d4e2acdba52363411762a727a4-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Travellers gather by their dune buggies in the desert at dusk."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Viajeros se reúnen junto a sus buggies en el desierto al anochecer."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "夕暮れの砂漠でバギーのそばに集う旅行者たち。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "6vm23d4fdz",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The hotel transfer is private to your party; the quad-bike ride, village visit, and BBQ dinner are shared with other guests at the desert camp.",
+   "text": "Private hotel transfer"
+  },
+  {
+   "_key": "f3rf8peni0",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Your guide collects you from your Hurghada hotel and drives you to the quad bike station at the edge of the desert — a short transfer, typically 20 to 30 minutes depending on where you are staying.",
+   "text": "Guide pickup from your Hurghada hotel"
+  },
+  {
+   "_key": "06sytfi1we",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The outing takes bookings from a single person upward, with no minimum group, and one bottle of mineral water per person is provided.",
+   "text": "One bottle of mineral water per person"
+  },
+  {
+   "_key": "catvqtp148",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "At the station, you receive a helmet and safety equipment, and a briefing covers the controls and the route ahead.",
+   "text": "Helmet and safety equipment"
+  },
+  {
+   "_key": "l5ui2uslv3",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "As the sky darkens, a BBQ dinner is set out — grilled meats, bread, soft drinks, and mineral water.",
+   "text": "BBQ dinner (grilled meats, bread, soft drinks, mineral water)"
+  },
+  {
+   "_key": "fr3wyb1jsm",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La salida acepta reservas desde una sola persona, sin mínimo de grupo, y se incluye una botella de agua mineral por persona.",
+   "text": "una botella de agua mineral por persona"
+  },
+  {
+   "_key": "f9utnd1bbh",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ミネラルウォーター1人1本が含まれます。",
+   "text": "ミネラルウォーター1人1本"
+  },
+  {
+   "_key": "qkdtaqytf4",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ホテルの送迎はお客様のご一行だけの貸し切りです。",
+   "text": "ホテルの送迎（貸し切り）"
+  },
+  {
+   "_key": "m10ctpc2a2",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "クアッドバイクの走り、村の訪問、バーベキューの夕食は、砂漠のキャンプでほかのゲストと相乗りになります。",
+   "text": "クアッドバイクの走り（相乗り）"
+  },
+  {
+   "_key": "yfbsxd340j",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "クアッドバイクの走り、村の訪問、バーベキューの夕食は、砂漠のキャンプでほかのゲストと相乗りになります。",
+   "text": "村の訪問（相乗り）"
+  },
+  {
+   "_key": "wauq34f7ig",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "クアッドバイクの走り、村の訪問、バーベキューの夕食は、砂漠のキャンプでほかのゲストと相乗りになります。",
+   "text": "バーベキューの夕食（相乗り）"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/desert-quad-bike-safari-to-bedouin-village-from-hurghada/"
+ },
+ "priceFrom": 43,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_121071",
+   "_ref": "wp-page-121071",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_cairo_by_bus_group_day_tour_from_hurghada",
+   "_ref": "tour.cairo-by-bus-group-day-tour-from-hurghada",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_116301",
+   "_ref": "wp-page-116301",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_dendera_and_abydos_temple_day_tour_from_hurghada",
+   "_ref": "tour.dendera-and-abydos-temple-day-tour-from-hurghada",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Private hotel transfer · shared quad ride, camel circuit, village visit, BBQ dinner and stargazing · one bike per person · helmet and safety gear provided · minimum age 18 to drive"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Traslado privado al hotel, recorrido en quad, paseo en camello, visita a la aldea, cena a la parrilla y observación de estrellas compartidos, una máquina por persona, casco y equipo de seguridad incluidos, edad mínima 18 años para conducir"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "フル・プライベート催行・専用車両・半日・専用送迎・クワッドバイクの操縦体験・参加年齢14歳以上目安"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Roughly four hours from afternoon pickup to late-evening return"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Unas cuatro horas desde la recogida por la tarde hasta el regreso ya entrada la noche"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "半日（およそ4〜5時間）"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Hurghada → quad station on the desert edge → 30 km across the Eastern Desert → a working Bedouin village"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Hurgada, estación de quads al borde del desierto, 30 km del Desierto Oriental y aldea beduina en activo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "ハルガダ → 東方砂漠（クワッドバイク・ベドウィン村）→ ハルガダ"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "desert-quad-bike-safari-to-bedouin-village-from-hurghada"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "safari-en-quad-a-una-aldea-beduina-desde-hurgada"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "furugada-hatsu-bedowin-no-mura-e-no-kuaddobaikusafari"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Four hours in the Eastern Desert: quad bikes across 30 kilometres of open terrain, then a Bedouin village, camel ride, BBQ dinner, and stargazing."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Cuatro horas en el Desierto Oriental: quads sobre 30 kilómetros de terreno abierto, una aldea beduina, paseo en camello, cena a la parrilla y observación de estrellas."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "東方砂漠で過ごす4時間：30キロの開けた地形を駆けるクアッドバイク、続いてベドウィンの村、ラクダ乗り、バーベキューの夕食、そして星空観察。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Quad Bike Safari to a Bedouin Village from Hurghada"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Safari en quad a una aldea beduina desde Hurgada"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ハルガダ発、ベドウィンの村へのクアッドバイク・サファリ"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}

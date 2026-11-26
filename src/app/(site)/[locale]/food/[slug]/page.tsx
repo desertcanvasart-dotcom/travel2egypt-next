@@ -2,6 +2,7 @@ import { cache } from 'react';
 import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { redirectForeignSlug } from '@/lib/foreign-slug';
 import Image from 'next/image';
 
 import { Link } from '@/i18n/navigation';
@@ -124,7 +125,11 @@ export default async function FoodArticlePage({ params }: Props) {
   const t = await getTranslations('food');
   const tNav = await getTranslations('nav');
   const { doc, fellBack } = await resolveFood(locale, slug);
-  if (!doc) notFound();
+  if (!doc) {
+    // Wrong-language slug (old GSC discoveries) → 308 to the right page.
+    await redirectForeignSlug('foodArticle', locale, [slug]);
+    notFound();
+  }
 
   const recent = (await client.fetch(recentFoodQuery, {
     locale: fellBack ? 'en' : locale,

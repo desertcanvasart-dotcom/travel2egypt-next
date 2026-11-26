@@ -3,6 +3,7 @@ import { RelatedToursBlock } from '@/components/related-tours/RelatedToursBlock'
 import { fallbackTours, splitAfterSection, type ArticleTour } from '@/lib/articleTours';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { redirectForeignSlug } from '@/lib/foreign-slug';
 import Image from 'next/image';
 
 import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
@@ -116,6 +117,8 @@ export default async function CityGuidePage({ params }: Props) {
   });
 
   if (!city) {
+    // Wrong-language slug (old GSC discoveries) → 308 to the right page.
+    await redirectForeignSlug('city', locale, [citySlug]);
     notFound();
   }
 

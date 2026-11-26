@@ -27,6 +27,13 @@ export const productFactSchema = defineType({
       type: 'string',
       options: { list: [{ title: 'Make it yours', value: 'make-it-yours' }] },
     }),
+    defineField({
+      name: 'linkRef',
+      title: 'Links to (Make it yours only: the item links to this tour in the page\'s language)',
+      type: 'reference',
+      to: [{ type: 'tour' }],
+      weak: true,
+    }),
     defineField({ name: 'needsReview', title: 'Needs review (hidden on the site while on)', type: 'boolean', initialValue: true }),
   ],
   preview: {
@@ -86,9 +93,9 @@ export const itineraryDaySchema = defineType({
             defineField({ name: 'name', title: 'Name', type: 'string', validation: (R) => R.required() }),
             defineField({
               name: 'guideRef',
-              title: 'Guide / wiki page (empty = shown without a link)',
+              title: 'Guide / wiki / blog page (empty = shown without a link; a blog article: the one in this row\'s language)',
               type: 'reference',
-              to: [{ type: 'guideArticle' }, { type: 'wikiMonument' }, { type: 'travelTip' }],
+              to: [{ type: 'guideArticle' }, { type: 'wikiMonument' }, { type: 'travelTip' }, { type: 'article' }],
               weak: true,
             }),
           ],
@@ -319,7 +326,7 @@ export const dayTourPeriodSchema = defineType({
                   name: 'dayTourSite',
                   fields: [
                     defineField({ name: 'name', title: 'Name', type: 'string', validation: (R) => R.required() }),
-                    defineField({ name: 'guideRef', title: 'Guide / wiki page', type: 'reference', to: [{ type: 'guideArticle' }, { type: 'wikiMonument' }, { type: 'travelTip' }], weak: true }),
+                    defineField({ name: 'guideRef', title: 'Guide / wiki page', type: 'reference', to: [{ type: 'guideArticle' }, { type: 'wikiMonument' }, { type: 'travelTip' }, { type: 'article' }], weak: true }),
                   ],
                 },
               ],

@@ -1,0 +1,2018 @@
+{
+ "_createdAt": "2026-05-04T20:41:04Z",
+ "_id": "wp-page-59483",
+ "_rev": "6je0itagKXDsMyXfn8IS3v",
+ "_system": {
+  "base": {
+   "id": "wp-page-59483",
+   "rev": "foUqbMWmQeVyxrmYihZfoB"
+  }
+ },
+ "_type": "guideArticle",
+ "_updatedAt": "2026-10-31T12:04:25Z",
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "yaz5tsm9n982",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "History Of "
+      },
+      {
+       "_key": "lr9paz3imt5v",
+       "_type": "span",
+       "marks": [
+        "strong",
+        "9zspfco9eyha"
+       ],
+       "text": "Dakhla Oasis"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "9zspfco9eyha",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58783",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "The history of Dakhla Oasis, known as Zeszes in ancient times and later as El-Wah, is a tapestry of human settlement and civilization dating back to prehistoric times. This oasis, situated in Egypt’s Western Desert, has a rich and varied history that reveals much about the ancient and more recent past of the region."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Prehistoric Settlements:"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000008",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Early Inhabitants"
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [],
+       "text": ": Evidence suggests that Dakhla was inhabited as early as 150,000 years ago. The discovery of fossils, tools, skeletons, and early hut foundations indicates a Neolithic presence, one of the earliest in Africa."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [],
+       "text": "Neolithic Lifestyle"
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": ": The early inhabitants were pastoral, living near a large lake that once filled the areas of "
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [
+        "00000000000b"
+       ],
+       "text": "Kharga"
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [],
+       "text": " and Dakhla. Rock inscriptions depict a diverse wildlife including zebras, giraffes, elephants, among others."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "00000000000b",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "http://travel2egypt.org/kharga-oasis/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/kharga-oasis",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000010",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": "Ancient Egyptian Period:"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000016",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [],
+       "text": "Old and Middle Kingdom Significance"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ": Dakhla was an important settlement during these "
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "000000000013"
+       ],
+       "text": "periods"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": ". Notable sites include a large settlement at Qila el-Daba, featuring administrative buildings, a palace, and a cemetery."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "000000000013",
+       "_type": "externalLink",
+       "href": "https://en.wikipedia.org/wiki/First_Intermediate_Period_of_Egypt",
+       "newTab": true
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [],
+       "text": "Population Shifts"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": ": As the region became more arid, populations moved towards the more fertile Nile valley."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Archaeological Expeditions:"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Ongoing Research"
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": ": Teams of archaeologists, like the one led by Prof. Tony Mills, continue to uncover Dakhla’s history, aiming to establish a clearer picture of life in the desert during prehistoric times."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000020",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": "Later Historical Developments:"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000026",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [],
+       "text": "New Kingdom Changes"
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": ": The capital of Dakhla moved to Mut, which remains the main city today. While much of its ancient glory has faded, intricate labyrinths and wooden doors from this "
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "000000000023"
+       ],
+       "text": "era"
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [],
+       "text": " still exist."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "000000000023",
+       "_type": "externalLink",
+       "href": "https://en.wikipedia.org/wiki/Greek_and_Roman_Egypt",
+       "newTab": true
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [],
+       "text": "Qasr Dakhla"
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": ": An Islamic village established in medieval times, it is one of the oldest continuously inhabited villages in the oasis."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Economic and Agricultural Importance:"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "Taxation and Productivity"
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [],
+       "text": ": In ancient times, Dakhla was known for its fertility, producing grains, wine, minerals, and fruit, leading to taxation by the "
+      },
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [
+        "00000000002e"
+       ],
+       "text": "Pharaohs"
+      },
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "00000000002e",
+       "_type": "externalLink",
+       "href": "https://en.wikipedia.org/wiki/List_of_pharaohs",
+       "newTab": true
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Greek and Roman Periods:"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000036",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "Roman Occupation"
+      },
+      {
+       "_key": "63u4ppihxz8z",
+       "_type": "span",
+       "marks": [],
+       "text": ": While Greek presence is less evident, Roman occupation left significant marks, such as the Temple of Amun at "
+      },
+      {
+       "_key": "or0a9dyc1egb",
+       "_type": "span",
+       "marks": [
+        "t3eyve47ljap"
+       ],
+       "text": "Deir el-Hagar"
+      },
+      {
+       "_key": "sgevbq2jb8ct",
+       "_type": "span",
+       "marks": [],
+       "text": ". Several Roman sites are being unearthed, shedding light on the transition to Christian occupation."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "t3eyve47ljap",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.dakhla-oasis.deir-el-hagar",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000038",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [],
+       "text": "Christian and Arab Influence:"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000039",
+       "_type": "span",
+       "marks": [],
+       "text": "Byzantine and Christian Sites"
+      },
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": ": Towns like Ismant el-Kharab and Kellis were significant Christian centers, as evidenced by early churches."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000041",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "Arab Invasion"
+      },
+      {
+       "_key": "00000000003d",
+       "_type": "span",
+       "marks": [],
+       "text": ": Prior to reaching the oases, Arabs invaded the area. Qasr Dakhla houses structures from the 12th century, signifying "
+      },
+      {
+       "_key": "00000000003f",
+       "_type": "span",
+       "marks": [
+        "00000000003e"
+       ],
+       "text": "the Ayyubid period"
+      },
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "00000000003e",
+       "_type": "externalLink",
+       "href": "https://www.britannica.com/topic/Ayyubid-dynasty",
+       "newTab": true
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000043",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [],
+       "text": "Modern Exploration and Preservation:"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000046",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000044",
+       "_type": "span",
+       "marks": [],
+       "text": "Current Efforts"
+      },
+      {
+       "_key": "000000000045",
+       "_type": "span",
+       "marks": [],
+       "text": ": Restoration and excavation efforts continue to reveal Dakhla’s rich history, providing insights into various historical periods, from Roman times through the Byzantine and Islamic eras."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000048",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000047",
+       "_type": "span",
+       "marks": [],
+       "text": "Dakhla Oasis, with its deep historical roots and ongoing archaeological discoveries, remains a significant site for understanding the human past in Egypt’s Western Desert."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000049",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/dakhla-oasis-trips-in-egypt.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "dakhla oasis travel guide"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "The historic minaret of the Nasr El Din Mosque rises over the Dakhla Oasis, embodying the enduring spirit of Egypt's heartland deserts"
+      }
+     ]
+    },
+    {
+     "_key": "00000000004a",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Dakhla-e1554945660393-1200x900-1.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "dakhla oasis travel guide"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "Weathered elegance: a balcony stands defiantly amidst the crumbling relics of a bygone era"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "o5acdx7b0lic",
+       "_type": "span",
+       "marks": [],
+       "text": "Historia del Oasis de "
+      },
+      {
+       "_key": "3wry4hgjvrn2",
+       "_type": "span",
+       "marks": [
+        "ecoaw09jj6ms"
+       ],
+       "text": "Dakhla"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "ecoaw09jj6ms",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58783",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "La historia del Oasis de Dakhla, conocido como Zeszes en la antigüedad y más tarde como El-Wah, es un tapiz de asentamientos humanos y civilización que se remonta a la prehistoria. Este oasis, situado en el desierto occidental de Egipto, tiene una historia rica y variada que revela mucho sobre el pasado antiguo y más reciente de la región."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Asentamientos prehistóricos:"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Primeros habitantes: Las pruebas sugieren que"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Dakhla"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "estuvo habitada hace 150.000 años. El"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "descubrimiento"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "de fósiles, herramientas, esqueletos y cimientos de cabañas primitivas indica una presencia neolítica, una de las más tempranas de África."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Estilo de vida neolítico"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ": Los primeros habitantes eran pastores y vivían cerca de un gran lago que antaño llenaba las zonas de"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "qm9xdc6agicx",
+       "_type": "span",
+       "marks": [
+        "vfmh9dsjmyrh"
+       ],
+       "text": "Kharga"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "vfmh9dsjmyrh",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58873",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "y Dakhla."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Las inscripciones rupestres representan una fauna diversa"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "que incluye cebras, jirafas y elefantes, entre otros."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Periodo del Antiguo Egipto:"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000026",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Importancia del Reino Antiguo y Medio"
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": ": Dakhla fue un asentamiento importante durante estos "
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [
+        "000000000020"
+       ],
+       "text": "periodos"
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": ". Entre los yacimientos más "
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "000000000023"
+       ],
+       "text": "destacados"
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [],
+       "text": " se encuentra un gran asentamiento en Qila el-Daba, con edificios administrativos, un palacio y un cementerio."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "000000000020",
+       "_type": "externalLink",
+       "href": "https://en.wikipedia.org/wiki/First_Intermediate_Period_of_Egypt",
+       "newTab": true
+      },
+      {
+       "_key": "000000000023",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-suez/destacados/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/suez",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [],
+       "text": "Desplazamientos de la población: A medida que la región se volvió más árida, las poblaciones se desplazaron hacia el valle "
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [
+        "000000000028"
+       ],
+       "text": "del Nilo"
+      },
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": ", más fértil."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "000000000028",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/ritmos-del-nilo-el-cairo-cena-crucero-con-danza-del-vientre/"
+       },
+       "_type": "externalLink",
+       "href": "/es/cena-crucero-por-el-nilo-en-el-cairo-con-danza-oriental",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "Expediciones arqueológicas:"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Investigación en curso: Equipos de arqueólogos, como el dirigido por el profesor Tony Mills, siguen"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "descubriendo"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "la historia de Dajla, con el objetivo de establecer una imagen más clara de la vida en el desierto durante la prehistoria."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "Evolución histórica posterior:"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "Cambios en el Reino Nuevo: La capital de Dakhla se trasladó a Mut, "
+      },
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [
+        "000000000037"
+       ],
+       "text": "que sigue siendo la ciudad"
+      },
+      {
+       "_key": "000000000039",
+       "_type": "span",
+       "marks": [],
+       "text": " principal en la actualidad. Aunque gran parte de su antigua gloria se ha desvanecido, todavía existen intrincados laberintos y puertas de madera de esta "
+      },
+      {
+       "_key": "00000000003b",
+       "_type": "span",
+       "marks": [
+        "00000000003a"
+       ],
+       "text": "época"
+      },
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "000000000037",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-edfu/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/edfu",
+       "newTab": false
+      },
+      {
+       "_key": "00000000003a",
+       "_type": "externalLink",
+       "href": "https://en.wikipedia.org/wiki/Greek_and_Roman_Egypt",
+       "newTab": true
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000042",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": "Qasr Dajla: Pueblo "
+      },
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [
+        "00000000003f"
+       ],
+       "text": "islámico"
+      },
+      {
+       "_key": "000000000041",
+       "_type": "span",
+       "marks": [],
+       "text": " fundado en la época medieval, es uno de los pueblos habitados de forma continua más antiguos del oasis."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "00000000003f",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/el-corazon-espiritual-de-el-cairo-excursion-islamica-de-un-dia-por-el-cairo/"
+       },
+       "_type": "externalLink",
+       "href": "/es/tour-privado-por-el-cairo-islamico-ciudadela-mezquitas-y-jan-el-jalili",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000044",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000043",
+       "_type": "span",
+       "marks": [],
+       "text": "Importancia económica y agrícola:"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000004a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000045",
+       "_type": "span",
+       "marks": [],
+       "text": "Impuestos y productividad"
+      },
+      {
+       "_key": "000000000046",
+       "_type": "span",
+       "marks": [],
+       "text": ": En la antigüedad, Dajla era conocida por su fertilidad, ya que producía cereales, vino, minerales y fruta, lo que dio lugar a que los "
+      },
+      {
+       "_key": "000000000048",
+       "_type": "span",
+       "marks": [
+        "000000000047"
+       ],
+       "text": "faraones"
+      },
+      {
+       "_key": "000000000049",
+       "_type": "span",
+       "marks": [],
+       "text": " la gravaran con impuestos."
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [
+      {
+       "_key": "000000000047",
+       "_type": "externalLink",
+       "href": "https://en.wikipedia.org/wiki/List_of_pharaohs",
+       "newTab": true
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004b",
+       "_type": "span",
+       "marks": [],
+       "text": "Época griega y romana:"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000004e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004d",
+       "_type": "span",
+       "marks": [],
+       "text": "Ocupación romana: Aunque la presencia griega es menos evidente, la ocupación romana dejó huellas significativas, como el templo de Amón en"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000050",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004f",
+       "_type": "span",
+       "marks": [],
+       "text": "Deir el-Hagar"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000052",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000051",
+       "_type": "span",
+       "marks": [],
+       "text": ". Se están desenterrando varios yacimientos romanos"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000054",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000053",
+       "_type": "span",
+       "marks": [],
+       "text": "que arrojan luz sobre"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000056",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000055",
+       "_type": "span",
+       "marks": [],
+       "text": "la transición a la ocupación cristiana."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000058",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000057",
+       "_type": "span",
+       "marks": [],
+       "text": "Influencia cristiana y árabe:"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000005a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000059",
+       "_type": "span",
+       "marks": [],
+       "text": "Lugares bizantinos y cristianos"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000005c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005b",
+       "_type": "span",
+       "marks": [],
+       "text": ": Ciudades como Ismant el-Kharab y Kellis fueron importantes centros cristianos, como demuestran las primeras iglesias."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000005e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005d",
+       "_type": "span",
+       "marks": [],
+       "text": "Invasión árabe: Antes de"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000060",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005f",
+       "_type": "span",
+       "marks": [],
+       "text": "llegar a los oasis"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000062",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000061",
+       "_type": "span",
+       "marks": [],
+       "text": ", los árabes invadieron la zona. Qasr Dakhla alberga estructuras del siglo XII, que corresponden"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000064",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000063",
+       "_type": "span",
+       "marks": [],
+       "text": "al periodo ayyubí"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000066",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000065",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000068",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000067",
+       "_type": "span",
+       "marks": [],
+       "text": "Exploración moderna y conservación:"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000006a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000069",
+       "_type": "span",
+       "marks": [],
+       "text": "Esfuerzos actuales: Las labores de restauración y excavación siguen revelando la rica historia de Dajla, proporcionando información sobre diversos periodos históricos,"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006b",
+       "_type": "span",
+       "marks": [],
+       "text": "desde la época romana hasta las"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006d",
+       "_type": "span",
+       "marks": [],
+       "text": "épocas bizantina e islámica."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000073",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006f",
+       "_type": "span",
+       "marks": [],
+       "text": "El Oasis de Dajla, con sus profundas raíces históricas y sus continuos descubrimientos arqueológicos, sigue siendo un lugar importante para comprender el pasado humano en el "
+      },
+      {
+       "_key": "000000000071",
+       "_type": "span",
+       "marks": [
+        "000000000070"
+       ],
+       "text": "Desierto Occidental de Egipto"
+      },
+      {
+       "_key": "000000000072",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000070",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/el-desierto-occidental-en-egipto/"
+       },
+       "_type": "externalLink",
+       "href": "/es/blog/el-desierto-occidental-en-egipto",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000075",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000074",
+       "_type": "span",
+       "marks": [],
+       "text": "Creado el 18 de marzo de 2020"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000077",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000076",
+       "_type": "span",
+       "marks": [],
+       "text": "Actualizado en Julio 27 ,2025"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "sq5mv7pcvmxz",
+       "_type": "span",
+       "marks": [
+        "strong",
+        "kxglh0emqukr"
+       ],
+       "text": "ダフラ・オアシス"
+      },
+      {
+       "_key": "h35m0icag2z5",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "の歴史"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "kxglh0emqukr",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58783",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "古代にはゼセス、後にエル・ワハとして知られるダフラ・オアシスの歴史は、先史時代にさかのぼる人間の定住と文明のタペストリーです。このオアシスは、エジプトの西部砂漠に位置しており、地域の古代および近代の歴史について多くを明らかにする豊かで多様な歴史を持っています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "先史時代の定住地："
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "初期の住民: ダフラには約15万年前に人々が住んでいたとする証拠があります。化石や道具、骨格、初期の小屋の基礎の発見は、新石器時代の存在を示しており、アフリカで最も早い時期のものの一つです。"
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": " 新石器時代の生活様式: 初期の住民は遊牧生活をしており、かつてカフラとダフラの地域を満たしていた大きな湖の近くに住んでいました。岩の刻印には、シマウマ、キリン、ゾウなど、多様な野生動物が描かれています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "古代エジプト時代："
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "古王国と中王国の重要性: ダフラはこれらの時代において重要な定住地でした。注目すべき遺跡には、行政建物、宮殿、墓地があるキラ・エル・ダバの大きな集落があります。"
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": " 人口移動: 地域が乾燥化するにつれて、人口はより肥沃なナイル渓谷に移動しました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "考古学調査隊："
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "進行中の研究: トニー・ミルズ教授が率いる考古学者のチームなどが、ダフラの歴史を発掘し続けています。彼らの目的は、先史時代の砂漠での生活について、より明確な画像を描き出すことです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "その後の歴史的展開："
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "新王国時代の変化: ダフラの首都はムートに移され、現在もその地が主要な都市となっています。古代の栄光の多くは失われましたが、この時代の精巧な迷路や木製の扉は今でも存在しています。"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": " カスル・ダフラ: 中世に設立されたイスラムの村で、オアシスの中で最も古くから住民が続いている村の一つです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "経済的および農業的な重要性："
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "課税と生産性：古代、ダフラはその肥沃さで知られ、穀物、ワイン、鉱物、果物などを生産していたことから、ファラオによる課税の対象となっていました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "ギリシャ・ローマ時代："
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "rktivult29cc",
+       "_type": "span",
+       "marks": [],
+       "text": "ローマの支配：ギリシャの影響はあまり明確ではないものの、ローマの支配ははっきりとした痕跡を残しています。たとえば、"
+      },
+      {
+       "_key": "7db0f2m1eou5",
+       "_type": "span",
+       "marks": [
+        "0k6zztcer4xe"
+       ],
+       "text": "デイル・エル・ハガル"
+      },
+      {
+       "_key": "hmcl2fopmhpq",
+       "_type": "span",
+       "marks": [],
+       "text": "にあるアムン神殿がその一例です。現在もいくつかのローマ遺跡が発掘されており、キリスト教時代への移行過程に光を当てています。"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0k6zztcer4xe",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.dakhla-oasis.deir-el-hagar",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "キリスト教およびアラブの影響："
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "ビザンチンおよびキリスト教遺跡：イスマント・エル＝ハラブやケリスのような町は、初期の教会の存在からもわかるように、キリスト教の重要な中心地でした。"
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": " アラブの侵入：アラブ人はオアシスに到達する以前にこの地域へ侵入しました。カスル・ダフラには12世紀の建造物が残されており、アイユーブ朝時代の名残を示しています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "近代における探検と保存："
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "現在の取り組み：ダフラでは現在も修復と発掘作業が継続されており、ローマ時代からビザンチン、イスラム時代に至るさまざまな歴史的時代についての理解が深まっています。"
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": " ダフラ・オアシスは、その深い歴史的背景と継続的な考古学的発見により、エジプト西部砂漠における人類の過去を知るうえで極めて重要な場所であり続けています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "作成日：2020年3月18日"
+      },
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": " 更新日：2024年8月"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The crumbling mud-brick and stone ruins of an old fortified village under a clear sky at Dakhla Oasis"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Las ruinas de adobe y piedra de una antigua aldea fortificada bajo un cielo despejado en el oasis de Dajla"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ダフラ・オアシスの、崩れかけた日干しレンガと石造りの古い要塞化された集落の廃墟"
+   }
+  ],
+  "asset": {
+   "_ref": "image-e2c9e57fba34e416dde08b978d6593afd3ddf05d-1200x801-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Sun-baked mud-brick ruins of a fortified village rise against a clear sky at Dakhla Oasis."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Las ruinas de adobe de una aldea fortificada se alzan bajo un cielo despejado en el oasis de Dajla."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "日に焼けた日干しレンガの要塞化された集落の廃墟が、ダフラ・オアシスの澄んだ空を背にそびえる。"
+   }
+  ]
+ },
+ "kind": "heritage",
+ "migration": {
+  "migratedAt": "2026-05-05T13:00:30.445Z",
+  "source": "wp-import",
+  "wpId": 59483,
+  "wpModifiedAt": "2025-07-23T16:48:13",
+  "wpTemplate": "",
+  "wpUrl": "https://travel2egypt.org/history-of-dakhla-oasis/"
+ },
+ "parentCity": {
+  "_ref": "wp-page-58783",
+  "_type": "reference"
+ },
+ "section": "introducing",
+ "slug": [
+  {
+   "_key": "en",
+   "value": {
+    "_type": "slug",
+    "current": "history-of-dakhla-oasis"
+   }
+  },
+  {
+   "_key": "es",
+   "value": {
+    "_type": "slug",
+    "current": "historia-del-oasis-de-dakhla"
+   }
+  },
+  {
+   "_key": "ja",
+   "value": {
+    "_type": "slug",
+    "current": "rekishi-ni-irodora-re-ta-dafura-oashisu-no-machi-nami"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "History Of Dakhla Oasis The history of Dakhla Oasis, known as Zeszes in ancient times and later as El-Wah, is a tapestry of human settlement and civilization dating back to prehistoric times. This oasis, situated in Egypt s Western Desert, "
+  },
+  {
+   "_key": "es",
+   "value": "Historia del Oasis de Dakhla La historia del Oasis de Dakhla, conocido como Zeszes en la antigüedad y más tarde como El-Wah, es un tapiz de asentamientos humanos y civilización que se remonta a la prehistoria. Este oasis, situado en el desi"
+  },
+  {
+   "_key": "ja",
+   "value": "ダフラ・オアシスの歴史 古代にはゼセス、後にエル・ワハとして知られるダフラ・オアシスの歴史は、先史時代にさかのぼる人間の定住と文明のタペストリーです。このオアシスは、エジプトの西部砂漠に位置しており、地域の古代および近代の歴史について多くを明らかにする豊かで多様な歴史を持っています。 先史時代の定住地： 初期の住民: ダフラには約15万年前に人々が住んでいたとする証拠があります。化石や道具、骨格、初期の小屋の基礎の発見は、新石器時代の存在を示しており、アフリカで最も早い時期の"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "value": "History Of Dakhla Oasis"
+  },
+  {
+   "_key": "es",
+   "value": "Historia del Oasis de Dakhla"
+  },
+  {
+   "_key": "ja",
+   "value": "歴史に彩られたダフラ・オアシスの街並み"
+  }
+ ]
+}

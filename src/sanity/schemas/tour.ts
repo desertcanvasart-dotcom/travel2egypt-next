@@ -524,6 +524,15 @@ export const tourSchema = defineType({
       group: 'pricing',
     }),
     defineField({
+      name: 'privateGuiding',
+      title: 'Fixed dates, private guiding',
+      description:
+        'For a tour with fixed departure dates where the guiding, car and sightseeing are private to the booking party (e.g. the long Nile cruises: only the ship\'s dates are fixed). Shown as "Private tour" on the page and in the departures list.',
+      type: 'boolean',
+      group: 'pricing',
+      initialValue: false,
+    }),
+    defineField({
       name: 'maxGroup',
       title: 'Max group size',
       description: 'The cap on a scheduled small-group departure (e.g. 12). Shown in the meta row + rail.',

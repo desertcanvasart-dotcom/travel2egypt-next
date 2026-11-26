@@ -1,0 +1,770 @@
+{
+ "_createdAt": "2026-05-28T11:45:32Z",
+ "_id": "tour.private-tour-transfer-from-luxor-to-aswan-by-bus",
+ "_rev": "cCLS3yfp2eRqrBCCj7Eg93",
+ "_type": "tour",
+ "_updatedAt": "2026-11-22T13:08:04Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers moving south to Aswan or joining a Nile cruise who want to arrive without flying or taking the night train"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros que se desplazan al sur hacia Asuán o que se incorporan a un crucero del Nilo y quieren llegar sin volar ni tomar el tren nocturno"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "飛行機や夜行列車を使わずに、陸路でアスワンへ入りたい旅人、またはナイルクルーズに乗船される方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "b00arui",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s6hi4nt",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor to Aswan by Road"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "b01wtdz",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "sz3hv4y",
+       "_type": "span",
+       "marks": [],
+       "text": "A private road transfer between two of Egypt's great river cities: your own vehicle, your driver at the hotel door, and the Nile Valley passing the window. No flight, no terminal queue, no hours lost between stations."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b021i87",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "sxolaau",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a transfer and nothing more. It moves you between Luxor and Aswan in a private vehicle, exclusive to your party, in roughly four hours depending on traffic. Your driver collects you from your Luxor hotel, the mandatory road permit is handled for you, and there is one bottle of mineral water per person. It takes bookings from a single traveller upward, with no minimum group; larger parties are accommodated in a suitable vehicle. The price shown is per person for two travellers sharing, and it is confirmed when you book."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b036il4",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "sqlcha0",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "b04c8s1",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "sgnq9ri",
+       "_type": "span",
+       "marks": [],
+       "text": "Your driver collects you from your Luxor hotel and heads south out of the city. The road keeps to the Nile Valley for most of the way, through sugarcane and farmland, with the desert edge never far off and the river keeping company for much of the journey. About 215 kilometres later, your driver delivers you to your Aswan hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b05v8j9",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "slwv4jn",
+       "_type": "span",
+       "marks": [],
+       "text": "Who It Suits"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "b065kur",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "sgbvf2e",
+       "_type": "span",
+       "marks": [],
+       "text": "This transfer suits travellers who already have accommodation booked in Aswan, who want to arrive without finding their own way in an unfamiliar city, and who would rather spend the road time looking out of the window than managing a hire car."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b07lbz5",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "sh67fdb",
+       "_type": "span",
+       "marks": [],
+       "text": "One practical note: this is a daytime journey, with departure from Luxor in the morning and arrival in Aswan around midday. The road is straightforward."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b0857z7",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "sns22ps",
+       "_type": "span",
+       "marks": [],
+       "text": "Send the concierge your hotels and your preferred departure time, and the rest is arranged."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "b00rydt",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "sk16njw",
+       "_type": "span",
+       "marks": [],
+       "text": "De Luxor a Asuán por carretera"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "b01m09u",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "sy8spzp",
+       "_type": "span",
+       "marks": [],
+       "text": "Un traslado privado entre dos de las grandes ciudades del Nilo: vehículo propio, su conductor en la puerta del hotel y el valle del Nilo pasando por la ventanilla. Sin vuelo, sin colas de terminal, sin horas perdidas entre estaciones."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b02a92r",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "sftndfj",
+       "_type": "span",
+       "marks": [],
+       "text": "Esto es un traslado y nada más. Le lleva entre Luxor y Asuán en un vehículo privado, en exclusiva para su grupo, en aproximadamente cuatro horas según el tráfico. Su conductor le recoge en el hotel de Luxor, el permiso obligatorio de carretera corre de nuestra cuenta y hay una botella de agua mineral por persona. Admite reservas desde un solo viajero, sin grupo mínimo; los grupos más numerosos se acomodan en un vehículo adecuado. El precio mostrado es por persona para dos viajeros que comparten, y se confirma al reservar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b031469",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "swfbgez",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "b048vrp",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "st9wzch",
+       "_type": "span",
+       "marks": [],
+       "text": "Su conductor le recoge en el hotel de Luxor y sale de la ciudad hacia el sur. La carretera sigue el valle del Nilo casi todo el camino, entre cañaverales y campos, con el borde del desierto siempre cerca y el río haciendo compañía durante buena parte del trayecto. Unos 215 kilómetros después, su conductor le deja en su hotel de Asuán."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b05jt00",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s5z7923",
+       "_type": "span",
+       "marks": [],
+       "text": "A quién le conviene"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "b06i6ze",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "so9brde",
+       "_type": "span",
+       "marks": [],
+       "text": "Este traslado se ajusta al viajero que ya tiene alojamiento reservado en Asuán, que desea llegar sin tener que orientarse por su cuenta en una ciudad desconocida y que prefiere dedicar el tiempo de carretera a mirar por la ventanilla en lugar de gestionar un coche de alquiler."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b07zakl",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "stvic7c",
+       "_type": "span",
+       "marks": [],
+       "text": "Una nota práctica: es un trayecto diurno, con salida de Luxor por la mañana y llegada a Asuán hacia el mediodía. La carretera es directa."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b08zacd",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s2asyvx",
+       "_type": "span",
+       "marks": [],
+       "text": "Envíe al concierge sus hoteles y la hora de salida que prefiera, y el resto queda organizado."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "b002hz2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s8e19je",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールからアスワンへ陸路で"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "b01keo3",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "shh13u8",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプトを代表する二つのナイルの街を結ぶ、プライベートの送迎です。専用の車、ホテルの入口でお待ちするドライバー、そして窓の外を流れるナイル渓谷。飛行機も、ターミナルの行列も、駅と駅のあいだで失われる時間もありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b02k4lg",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "sz3mfok",
+       "_type": "span",
+       "marks": [],
+       "text": "これは送迎であり、それ以上のものではありません。お客様のご一行だけの専用車で、ルクソールとアスワンのあいだを、交通状況によりますがおよそ4時間でお運びします。ドライバーがルクソールのホテルでお迎えし、必須の道路通行許可は当方で手配し、ミネラルウォーターを1人1本ご用意します。お一人からお受けし、最少催行人数はありません。人数の多いご一行には、適した車両をご用意します。表示の料金は2名様でご利用の場合の1人あたりで、ご予約の際に確定します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b03pwjw",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s09a57u",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "b04udvg",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "sfjgwja",
+       "_type": "span",
+       "marks": [],
+       "text": "ドライバーがルクソールのホテルでお迎えし、街を出て南へ向かいます。道のりの大半はナイル渓谷に沿って進み、サトウキビ畑や農地を抜け、砂漠の縁がすぐそばにあり、川が長く寄り添います。およそ215キロメートル先のアスワンで、ドライバーがホテルまでお送りします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b05bz7l",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s992jyd",
+       "_type": "span",
+       "marks": [],
+       "text": "こんな方に"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "b06rspj",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s3avao3",
+       "_type": "span",
+       "marks": [],
+       "text": "すでにアスワンの宿を予約していて、不慣れな街で自力で道を探すことなく到着したい方、そして道中の時間をレンタカーの運転ではなく窓の外を眺めて過ごしたい方に向いています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b07t1rx",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s5kp65z",
+       "_type": "span",
+       "marks": [],
+       "text": "実務的な一言：これは日中の道のりで、ルクソールを午前に出発し、正午ごろにアスワンに到着します。道は分かりやすいものです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b08lpca",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s52q90q",
+       "_type": "span",
+       "marks": [],
+       "text": "ホテルとご希望の出発時刻をコンシェルジュにお知らせいただければ、あとは当方で手配します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58877",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Tell us your Luxor hotel, your Aswan hotel and the hour you would like to leave, and we will arrange the car and the road permit around it."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Díganos su hotel en Luxor, su hotel en Asuán y la hora a la que desea salir, y organizaremos el coche y el permiso de carretera en torno a ella."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "ルクソールのホテル、アスワンのホテル、ご希望の出発時刻をお知らせください。車と道路通行許可を、その時刻に合わせて手配いたします。"
+  }
+ ],
+ "durationHours": 4,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Half day · ~4 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Medio día · ~4 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "半日・約4時間"
+  }
+ ],
+ "exclusions": [],
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Carved walls and pylon of the Temple of Horus at Edfu glowing in low evening light"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Muros tallados y pilono del Templo de Horus en Edfu, iluminados por la luz baja del atardecer"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "夕方の低い光に輝く、エドフのホルス神殿の彫刻された壁と塔門。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-01b0049484f6099f2083a83c0c600eb27b82d6c6-3000x1992-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Evening light catches the Temple of Horus at Edfu."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "La luz del atardecer ilumina el Templo de Horus en Edfu."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "夕暮れの光を受けるエドフのホルス神殿。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "qagcgncylk",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This is a transfer and nothing more. It moves you between Luxor and Aswan in a private vehicle, exclusive to your party, in roughly four hours depending on traffic. Your driver collects you from your Luxor hotel, the mandatory road permit is handled for you, and there is one bottle of mineral water per person. It takes bookings from a single traveller upward, with no minimum group; larger parties are accommodated in a suitable vehicle. The price shown is per person for two travellers sharing, and it is confirmed when you book.",
+   "text": "Private vehicle, exclusive to your party"
+  },
+  {
+   "_key": "shrcnbzpog",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This is a transfer and nothing more. It moves you between Luxor and Aswan in a private vehicle, exclusive to your party, in roughly four hours depending on traffic. Your driver collects you from your Luxor hotel, the mandatory road permit is handled for you, and there is one bottle of mineral water per person. It takes bookings from a single traveller upward, with no minimum group; larger parties are accommodated in a suitable vehicle. The price shown is per person for two travellers sharing, and it is confirmed when you book.",
+   "text": "Fixed pickup from your Luxor hotel"
+  },
+  {
+   "_key": "qdv5lrf2dm",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This is a transfer and nothing more. It moves you between Luxor and Aswan in a private vehicle, exclusive to your party, in roughly four hours depending on traffic. Your driver collects you from your Luxor hotel, the mandatory road permit is handled for you, and there is one bottle of mineral water per person. It takes bookings from a single traveller upward, with no minimum group; larger parties are accommodated in a suitable vehicle. The price shown is per person for two travellers sharing, and it is confirmed when you book.",
+   "text": "One bottle of mineral water per person"
+  },
+  {
+   "_key": "morb8puxol",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This is a transfer and nothing more. It moves you between Luxor and Aswan in a private vehicle, exclusive to your party, in roughly four hours depending on traffic. Your driver collects you from your Luxor hotel, the mandatory road permit is handled for you, and there is one bottle of mineral water per person. It takes bookings from a single traveller upward, with no minimum group; larger parties are accommodated in a suitable vehicle. The price shown is per person for two travellers sharing, and it is confirmed when you book.",
+   "text": "Drop-off at your Aswan hotel"
+  },
+  {
+   "_key": "s7n55pav67",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This is a transfer and nothing more. It moves you between Luxor and Aswan in a private vehicle, exclusive to your party, in roughly four hours depending on traffic. Your driver collects you from your Luxor hotel, the mandatory road permit is handled for you, and there is one bottle of mineral water per person. It takes bookings from a single traveller upward, with no minimum group; larger parties are accommodated in a suitable vehicle. The price shown is per person for two travellers sharing, and it is confirmed when you book.",
+   "text": "The drive and the mandatory road permit"
+  },
+  {
+   "_key": "ui1bkij3h1",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Esto es un traslado y nada más. Le lleva entre Luxor y Asuán en un vehículo privado, en exclusiva para su grupo, en aproximadamente cuatro horas según el tráfico. Su conductor le recoge en el hotel de Luxor, el permiso obligatorio de carretera corre de nuestra cuenta y hay una botella de agua mineral por persona. Admite reservas desde un solo viajero, sin grupo mínimo; los grupos más numerosos se acomodan en un vehículo adecuado. El precio mostrado es por persona para dos viajeros que comparten, y se confirma al reservar.",
+   "text": "Vehículo privado, en exclusiva para su grupo"
+  },
+  {
+   "_key": "ymmuf5p8n3",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Esto es un traslado y nada más. Le lleva entre Luxor y Asuán en un vehículo privado, en exclusiva para su grupo, en aproximadamente cuatro horas según el tráfico. Su conductor le recoge en el hotel de Luxor, el permiso obligatorio de carretera corre de nuestra cuenta y hay una botella de agua mineral por persona. Admite reservas desde un solo viajero, sin grupo mínimo; los grupos más numerosos se acomodan en un vehículo adecuado. El precio mostrado es por persona para dos viajeros que comparten, y se confirma al reservar.",
+   "text": "Recogida en su hotel de Luxor"
+  },
+  {
+   "_key": "bm5abb75ja",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Esto es un traslado y nada más. Le lleva entre Luxor y Asuán en un vehículo privado, en exclusiva para su grupo, en aproximadamente cuatro horas según el tráfico. Su conductor le recoge en el hotel de Luxor, el permiso obligatorio de carretera corre de nuestra cuenta y hay una botella de agua mineral por persona. Admite reservas desde un solo viajero, sin grupo mínimo; los grupos más numerosos se acomodan en un vehículo adecuado. El precio mostrado es por persona para dos viajeros que comparten, y se confirma al reservar.",
+   "text": "Una botella de agua mineral por persona"
+  },
+  {
+   "_key": "l6644hcsd4",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Esto es un traslado y nada más. Le lleva entre Luxor y Asuán en un vehículo privado, en exclusiva para su grupo, en aproximadamente cuatro horas según el tráfico. Su conductor le recoge en el hotel de Luxor, el permiso obligatorio de carretera corre de nuestra cuenta y hay una botella de agua mineral por persona. Admite reservas desde un solo viajero, sin grupo mínimo; los grupos más numerosos se acomodan en un vehículo adecuado. El precio mostrado es por persona para dos viajeros que comparten, y se confirma al reservar.",
+   "text": "Traslado al hotel de Asuán"
+  },
+  {
+   "_key": "munzztzqoy",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Esto es un traslado y nada más. Le lleva entre Luxor y Asuán en un vehículo privado, en exclusiva para su grupo, en aproximadamente cuatro horas según el tráfico. Su conductor le recoge en el hotel de Luxor, el permiso obligatorio de carretera corre de nuestra cuenta y hay una botella de agua mineral por persona. Admite reservas desde un solo viajero, sin grupo mínimo; los grupos más numerosos se acomodan en un vehículo adecuado. El precio mostrado es por persona para dos viajeros que comparten, y se confirma al reservar.",
+   "text": "La conducción y el permiso obligatorio de carretera"
+  },
+  {
+   "_key": "zba3caq75w",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "これは送迎であり、それ以上のものではありません。お客様のご一行だけの専用車で、ルクソールとアスワンのあいだを、交通状況によりますがおよそ4時間でお運びします。ドライバーがルクソールのホテルでお迎えし、必須の道路通行許可は当方で手配し、ミネラルウォーターを1人1本ご用意します。お一人からお受けし、最少催行人数はありません。人数の多いご一行には、適した車両をご用意します。表示の料金は2名様でご利用の場合の1人あたりで、ご予約の際に確定します。",
+   "text": "お客様のご一行だけのプライベートな専用車"
+  },
+  {
+   "_key": "143tdisd2x",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "これは送迎であり、それ以上のものではありません。お客様のご一行だけの専用車で、ルクソールとアスワンのあいだを、交通状況によりますがおよそ4時間でお運びします。ドライバーがルクソールのホテルでお迎えし、必須の道路通行許可は当方で手配し、ミネラルウォーターを1人1本ご用意します。お一人からお受けし、最少催行人数はありません。人数の多いご一行には、適した車両をご用意します。表示の料金は2名様でご利用の場合の1人あたりで、ご予約の際に確定します。",
+   "text": "ルクソールのホテルからの定められたお迎え"
+  },
+  {
+   "_key": "glklea1036",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "これは送迎であり、それ以上のものではありません。お客様のご一行だけの専用車で、ルクソールとアスワンのあいだを、交通状況によりますがおよそ4時間でお運びします。ドライバーがルクソールのホテルでお迎えし、必須の道路通行許可は当方で手配し、ミネラルウォーターを1人1本ご用意します。お一人からお受けし、最少催行人数はありません。人数の多いご一行には、適した車両をご用意します。表示の料金は2名様でご利用の場合の1人あたりで、ご予約の際に確定します。",
+   "text": "ミネラルウォーター1人1本"
+  },
+  {
+   "_key": "tw9145y1pe",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "これは送迎であり、それ以上のものではありません。お客様のご一行だけの専用車で、ルクソールとアスワンのあいだを、交通状況によりますがおよそ4時間でお運びします。ドライバーがルクソールのホテルでお迎えし、必須の道路通行許可は当方で手配し、ミネラルウォーターを1人1本ご用意します。お一人からお受けし、最少催行人数はありません。人数の多いご一行には、適した車両をご用意します。表示の料金は2名様でご利用の場合の1人あたりで、ご予約の際に確定します。",
+   "text": "アスワンのホテルへの送り"
+  },
+  {
+   "_key": "xdkj8cj3vn",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "これは送迎であり、それ以上のものではありません。お客様のご一行だけの専用車で、ルクソールとアスワンのあいだを、交通状況によりますがおよそ4時間でお運びします。ドライバーがルクソールのホテルでお迎えし、必須の道路通行許可は当方で手配し、ミネラルウォーターを1人1本ご用意します。お一人からお受けし、最少催行人数はありません。人数の多いご一行には、適した車両をご用意します。表示の料金は2名様でご利用の場合の1人あたりで、ご予約の際に確定します。",
+   "text": "ドライブと必須の道路通行許可"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/private-tour-transfer-from-luxor-to-aswan-by-bus/"
+ },
+ "priceFrom": 76,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_88178",
+   "_ref": "wp-page-88178",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88167",
+   "_ref": "wp-page-88167",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_esna_edfu_kom_ombo_temples_group_day_tour_from_luxor",
+   "_ref": "tour.esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88170",
+   "_ref": "wp-page-88170",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Private to your party · air-conditioned vehicle · mandatory road permit handled · transfer only · minimum age 18"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Privado a su grupo · vehículo con aire acondicionado · permiso obligatorio de carretera incluido · solo traslado · edad mínima 18 años"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "完全プライベート・専用車両・道路通行許可は手配済・送迎のみ"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Around 4 hours door to door"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Aproximadamente 4 horas puerta a puerta"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "ドアからドアまでおよそ4時間"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Luxor hotel → Aswan hotel"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Hotel de Luxor → hotel de Asuán"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "ルクソールのホテル → アスワンのホテル"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "private-tour-transfer-from-luxor-to-aswan-by-bus"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "traslado-privado-de-luxor-a-asuan-con-paradas"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "rukusoru-kara-asuwan-e-rikuro-de-nini-no-shinden-tachiyori"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A private road transfer between Luxor and Aswan: your own vehicle, picked up at your Luxor hotel and delivered to your Aswan hotel. Around four hours, door to door."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Un traslado privado por carretera entre Luxor y Asuán: vehículo propio, con recogida en su hotel de Luxor y llegada a su hotel de Asuán. Unas cuatro horas, puerta a puerta."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ルクソールとアスワンを結ぶプライベートの陸路送迎です。ルクソールのホテルでお迎えし、アスワンのホテルまでお届けします。ドアからドアまで、およそ4時間です。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Luxor to Aswan by Road: Private Transfer"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Traslado privado de Luxor a Asuán por carretera"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ルクソールからアスワンへ陸路で：プライベート送迎"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}

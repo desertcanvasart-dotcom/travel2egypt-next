@@ -1,0 +1,1294 @@
+{
+ "_createdAt": "2026-05-04T20:43:01Z",
+ "_id": "wp-page-59283",
+ "_rev": "44OBfc3nyoMiSJNtmPaz42",
+ "_system": {
+  "base": {
+   "id": "wp-page-59283",
+   "rev": "4jxboK94xJN5bUSrjkS7DH"
+  }
+ },
+ "_type": "guideArticle",
+ "_updatedAt": "2026-10-31T12:04:00Z",
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "1gexbz2x6wdg",
+       "_type": "span",
+       "marks": [],
+       "text": "Tours In "
+      },
+      {
+       "_key": "h31wjq7kyw8k",
+       "_type": "span",
+       "marks": [
+        "geyt3wjkepp4"
+       ],
+       "text": "Bahariya Oasis"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "geyt3wjkepp4",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58769",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "Embark on an unforgettable journey to the Bahariya Oasis, a destination that stands as a testament to Egypt’s enigmatic beauty. This oasis, nestled between the Farafra and Bahariya Oases, draws travelers with its otherworldly landscapes, ranging from the surreal, wind-carved rock formations of the White Desert to the mystifying, dark-hued peaks of the Black Desert, interspersed with vast, undulating sand dunes."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "3cyrfupybi5r",
+       "_type": "span",
+       "marks": [
+        "xmd7jrilsgwl"
+       ],
+       "text": "Cairo"
+      },
+      {
+       "_key": "ovh4jzybmqw2",
+       "_type": "span",
+       "marks": [],
+       "text": " & The Desert Safari Tour"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "xmd7jrilsgwl",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-83284",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "4l814bhh0ts7",
+       "_type": "span",
+       "marks": [],
+       "text": "This tour offers a perfect blend of ancient civilization and desert adventure. Start with the awe-inspiring "
+      },
+      {
+       "_key": "hgdmb04i4v73",
+       "_type": "span",
+       "marks": [
+        "ds8o952831da"
+       ],
+       "text": "Giza"
+      },
+      {
+       "_key": "qkqsvn8knl0z",
+       "_type": "span",
+       "marks": [],
+       "text": " pyramids and the Sphinx in Cairo, then venture into the heart of the Bahariya Oasis for a thrilling desert safari. Traverse the Black Desert, renowned for its dark, volcanic landscapes."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "ds8o952831da",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58854",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Next, explore "
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [
+        "000000000009"
+       ],
+       "text": "the Crystal Mountain"
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [],
+       "text": ", an extraordinary natural wonder adorned with quartz crystals. The journey continues to the Flower Desert, famous for its unique, flower-shaped rock formations. Spend a night under the stars at a desert campsite, embracing the tranquility of the Egyptian desert."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000009",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/bahariya-oasis-travel-guide/the-crystal-mountain/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/bahariya-oasis/crystal-mountain",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "zdxkqq1n1t0a",
+       "_type": "span",
+       "marks": [],
+       "text": "The tour also includes a visit to the "
+      },
+      {
+       "_key": "1hbzm00hp6sy",
+       "_type": "span",
+       "marks": [
+        "tiu0102iiwrg"
+       ],
+       "text": "Valley of the Golden Mummies"
+      },
+      {
+       "_key": "auwckrgochj4",
+       "_type": "span",
+       "marks": [],
+       "text": ", where ancient tombs reveal secrets of the past. Discover the Temple of Alexander the Great and wander through ancient villages, immersing yourself in the rich history of this fascinating region. The journey concludes with a return to Cairo to explore more of its historical marvels."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "tiu0102iiwrg",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.bahariya-oasis.valley-of-the-golden-mummies",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000010",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": "2-Day Trip to Bahariya Oasis"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000012",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [],
+       "text": "The deserts of Egypt possess a magic all their own, incomparable to anything else. The Western Desert, blessed with stunning oases, once served as crucial waypoints for trade caravans and now welcomes a myriad of tourists."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000014",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [],
+       "text": "Seize the opportunity to spend two days exploring the marvels of and around the Bahariya Oasis. This unique experience is a must-have while in Egypt, offering a deep dive into the enchanting landscapes and the rich history that this area encapsulates."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000016",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": "Each tour in Bahariya Oasis is a journey through time and terrain, offering a rare blend of Egypt’s ancient grandeur and the untamed beauty of its deserts. Whether you’re a history buff, an adventure seeker, or simply in search of awe-inspiring vistas, Bahariya Oasis has something to captivate every traveler."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/1644411191.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Adobe-style buildings surrounded by palm trees in a desert oasis"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "In the middle of the arid landscape, the earthy tones of adobe architecture harmoniously merge with the greenery of an oasis in the desert"
+      }
+     ]
+    },
+    {
+     "_key": "000000000018",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Bahariya-Oasis.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "A tranquil oasis amidst expansive sand dunes under a clear sky"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "An island of life in the heart of the desert, the Bahariya Oasis is a testimony to the paradoxical beauty of nature"
+      }
+     ]
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Discover Your Perfect Egypt Travel Packages"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000020",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Dive into our "
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "00000000001d"
+       ],
+       "text": "Egypt Travel Packages"
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": " for the ultimate adventure. Whether you’re dreaming of a Nile cruise, exploring ancient pyramids, or relaxing by the Red Sea, we’ve curated the best experiences for you. Connect your journey seamlessly with our comprehensive travel guide, ensuring every moment is unforgettable."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000001d",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/egypt-holidays-from-japan/"
+       },
+       "_type": "externalLink",
+       "href": "/blog/egypt-holidays-from-japan",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000022",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [],
+       "text": "Learn more"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "bf7n181r9e3o",
+       "_type": "span",
+       "marks": [],
+       "text": "Mejores Tours en Oasis de "
+      },
+      {
+       "_key": "9uj7g4pc4xaf",
+       "_type": "span",
+       "marks": [
+        "i650bqvg8jhl"
+       ],
+       "text": "Bahariya"
+      },
+      {
+       "_key": "v8cl7we0gwfr",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "i650bqvg8jhl",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58769",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "w2c07kd1dh5i",
+       "_type": "span",
+       "marks": [],
+       "text": "Embárcate en un viaje inolvidable al Oasis de Bahariya, un destino que es testimonio de la enigmática belleza de Egipto. Este oasis, enclavado entre los oasis de "
+      },
+      {
+       "_key": "i840pz5vppnp",
+       "_type": "span",
+       "marks": [
+        "8ks5ocosdd4g"
+       ],
+       "text": "Farafra"
+      },
+      {
+       "_key": "ibetff2hj0ge",
+       "_type": "span",
+       "marks": [],
+       "text": " y Bahariya, atrae a los viajeros con sus paisajes de otro mundo, que van desde las surrealistas formaciones rocosas esculpidas por el viento del Desierto Blanco hasta las desconcertantes cumbres de tonos oscuros del Desierto Negro, entremezcladas con vastas y ondulantes dunas de arena."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "8ks5ocosdd4g",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58849",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "rqcck03agut4",
+       "_type": "span",
+       "marks": [
+        "1wmwwyxogcwa"
+       ],
+       "text": "El Cairo"
+      },
+      {
+       "_key": "4ez3iemat2dh",
+       "_type": "span",
+       "marks": [],
+       "text": " y Safari por el Desierto"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "1wmwwyxogcwa",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-83284",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Este recorrido ofrece una mezcla perfecta de civilización antigua y "
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "aventura en el desierto"
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [],
+       "text": ". Empieza por las sobrecogedoras "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "00000000000a"
+       ],
+       "text": "pirámides de Guiza y la Esfinge"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": " de El Cairo, y luego aventúrate en el corazón del Oasis de Bahariya para un emocionante safari por el desierto. Atraviesa el Desierto Negro, famoso por sus paisajes oscuros y volcánicos."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000000a",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/piramides-de-guiza-esfinge-menfis-y-saqqara/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guiza-menfis-y-saqqara-las-millas-mas-antiguas-de-egipto-en-un-dia",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000018",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "A continuación, explora "
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [
+        "00000000000f"
+       ],
+       "text": "la Montaña de Cristal"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [],
+       "text": ", una extraordinaria maravilla natural adornada con cristales de cuarzo. El "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "000000000012"
+       ],
+       "text": "viaje"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": " continúa hacia el Desierto de las Flores, famoso por sus singulares formaciones rocosas en forma de flor. Pasa una noche bajo "
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "000000000015"
+       ],
+       "text": "las estrellas en un campamento del desierto"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [],
+       "text": ", disfrutando de la tranquilidad del desierto egipcio."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000000f",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-bahariya/la-montana-de-cristal/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/bahariya/montana-de-cristal",
+       "newTab": false
+      },
+      {
+       "_key": "000000000012",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-dajla/viajes/"
+       },
+       "_type": "externalLink",
+       "href": "/es/blog/viajes-al-egipto-historico",
+       "newTab": false
+      },
+      {
+       "_key": "000000000015",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-al-wadi-al-gadid/el-sabor-del-desierto-las-delicias-culinarias-de-al-wadi-al-gadid/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/al-wadi-al-gadid/mejores-comidas-en-al-wadi-al-gadid",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [],
+       "text": "El recorrido también incluye una visita al "
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "00000000001a"
+       ],
+       "text": "Valle de las Momias Doradas"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": ", donde antiguas tumbas revelan secretos del pasado. Descubre el "
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "00000000001d"
+       ],
+       "text": "Templo de Alejandro Magno"
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": " y pasea por pueblos antiguos, sumergiéndote en la rica historia de esta fascinante región. El viaje concluye con el regreso a "
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [
+        "000000000020"
+       ],
+       "text": "El Cairo"
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": " para explorar más de sus maravillas históricas."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000001a",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-bahariya/valle-de-las-momias-doradas/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/bahariya/valle-de-las-momias-doradas",
+       "newTab": false
+      },
+      {
+       "_key": "00000000001d",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-siwa/templo-del-oraculo/"
+       },
+       "_type": "externalLink",
+       "href": "/es/wiki/monuments/templo-del-oraculo",
+       "newTab": false
+      },
+      {
+       "_key": "000000000020",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/el-corazon-espiritual-de-el-cairo-excursion-islamica-de-un-dia-por-el-cairo/"
+       },
+       "_type": "externalLink",
+       "href": "/es/tour-privado-por-el-cairo-islamico-ciudadela-mezquitas-y-jan-el-jalili",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Excursión de 2 días al Oasis de Bahariya"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Los "
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "000000000027"
+       ],
+       "text": "desiertos de Egipto"
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [],
+       "text": " poseen una magia propia, incomparable con cualquier otra cosa. El Desierto Occidental, bendecido con impresionantes oasis, sirvió antaño "
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [
+        "00000000002a"
+       ],
+       "text": "como punto de paso crucial para"
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": " las caravanas comerciales y ahora acoge a una miríada de turistas."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000027",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/el-desierto-occidental-en-egipto/"
+       },
+       "_type": "externalLink",
+       "href": "/es/blog/el-desierto-occidental-en-egipto",
+       "newTab": false
+      },
+      {
+       "_key": "00000000002a",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-kom-ombo/sabores-para-comer/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/kom-ombo/gastronomia-de-kom-ombo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Aprovecha la oportunidad de pasar dos días explorando "
+      },
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "00000000002f"
+       ],
+       "text": "las maravillas del Oasis de Bahariya"
+      },
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [],
+       "text": " y sus alrededores. Esta "
+      },
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [
+        "000000000032"
+       ],
+       "text": "experiencia única"
+      },
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": " es imprescindible durante tu estancia en Egipto, ya que ofrece una inmersión profunda en los encantadores paisajes y la rica historia que encierra esta zona."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000002f",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/el-oasis-de-bahariya-y-el-desierto-negro-las-joyas-ocultas-de-egipto/"
+       },
+       "_type": "externalLink",
+       "href": "/es/blog/el-oasis-de-bahariya-y-el-desierto-negro-las-joyas-ocultas-de-egipto",
+       "newTab": false
+      },
+      {
+       "_key": "000000000032",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-marsa-alam/experiencias-unicas/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/marsa-alam",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "Cada "
+      },
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [
+        "000000000037"
+       ],
+       "text": "excursión por"
+      },
+      {
+       "_key": "000000000039",
+       "_type": "span",
+       "marks": [],
+       "text": " el Oasis de Bahariya es un viaje a través del tiempo y del terreno, que ofrece una rara mezcla de la antigua grandeza de Egipto y la belleza indómita de sus desiertos. Tanto si eres un aficionado a la historia, un buscador de aventuras o simplemente buscas unas vistas sobrecogedoras, el "
+      },
+      {
+       "_key": "00000000003b",
+       "_type": "span",
+       "marks": [
+        "00000000003a"
+       ],
+       "text": "Oasis de Bahariya"
+      },
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": " tiene algo que cautivará a cada viajero."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000037",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/itinerario-de-2-semanas-por-egipto-explora-lo-mejor-de-egipto/"
+       },
+       "_type": "externalLink",
+       "href": "/es/blog/itinerario-de-2-semanas-por-egipto-explora-lo-mejor-de-egipto",
+       "newTab": false
+      },
+      {
+       "_key": "00000000003a",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-bahariya/retiros-oasis-estancia-en-el-oasis-de-bahariya/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/bahariya/donde-alojarse-en-el-oasis-de-bahariya",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": "Creado el 18 de marzo de 2020"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000041",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": "Actualizado en Ago , 2024"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "kjozym38hg97",
+       "_type": "span",
+       "marks": [
+        "ey0v1vzr22av"
+       ],
+       "text": "バハリヤ・オアシス"
+      },
+      {
+       "_key": "4xufur7ecjtq",
+       "_type": "span",
+       "marks": [],
+       "text": "のツアー"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "ey0v1vzr22av",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58769",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "バハリヤ・オアシスへの忘れられない旅へ出かけましょう。エジプトの神秘的な美しさを象徴するこのオアシスは、ファラフラとバハリヤの間に位置し、訪れる人々を魅了します。風によって彫刻された幻想的な岩が広がるホワイト・デザート、漆黒の峰々が連なるブラック・デザート、そして果てしなく続く砂丘の波が織りなす異世界のような風景が、あなたを待っています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "q7nry4xo75mx",
+       "_type": "span",
+       "marks": [
+        "07siidebbenm"
+       ],
+       "text": "カイロ"
+      },
+      {
+       "_key": "25208q937d3g",
+       "_type": "span",
+       "marks": [],
+       "text": "＆デザート・サファリ・ツアー"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "07siidebbenm",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-83284",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "4xx94wiixdbj",
+       "_type": "span",
+       "marks": [],
+       "text": "このツアーは、古代文明と砂漠の冒険を完璧に融合させた特別な旅をお届けします。カイロでは、圧倒的な存在感を放つ"
+      },
+      {
+       "_key": "8gcxvplwhx04",
+       "_type": "span",
+       "marks": [
+        "ybwmf8yxoc5p"
+       ],
+       "text": "ギザ"
+      },
+      {
+       "_key": "ar5ho68idul9",
+       "_type": "span",
+       "marks": [],
+       "text": "のピラミッドとスフィンクスを訪れ、悠久の歴史に触れた後、バハリヤ・オアシスの中心へと向かい、スリル満点のデザート・サファリへ出発します。まずは、黒い火山岩が織りなす幻想的な景観が広がるブラック・デザートを駆け抜けます。"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "ybwmf8yxoc5p",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58854",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "次に、きらめく水晶が輝く神秘の地、クリスタル・マウンテンへ。さらに旅は続き、花の形をしたユニークな岩が点在するフラワー・デザートへと足を延ばします。夜は静寂に包まれた砂漠のキャンプサイトで星空を眺めながら、エジプトの壮大な自然に抱かれるひとときをお楽しみください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "avqqcqigvv2h",
+       "_type": "span",
+       "marks": [],
+       "text": "また、ツアーでは「"
+      },
+      {
+       "_key": "6upbldh8eh4f",
+       "_type": "span",
+       "marks": [
+        "pn9nr3u6u4p6"
+       ],
+       "text": "黄金のミイラの谷"
+      },
+      {
+       "_key": "ea1v4bxx1cij",
+       "_type": "span",
+       "marks": [],
+       "text": "」を訪れ、古代の墓が語る歴史の秘密を探ります。さらに、アレキサンダー大王神殿を巡り、古代の村々を散策しながら、この地域の奥深い歴史と文化に浸ることができます。旅の締めくくりにはカイロへ戻り、さらなる歴史的遺産を巡りながら、エジプトの魅力を存分に堪能します。"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "pn9nr3u6u4p6",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.bahariya-oasis.valley-of-the-golden-mummies",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "2日間バハリヤ・オアシス旅行"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプトの砂漠は、他に類を見ない独自の神秘的な魅力を持っています。美しいオアシスに恵まれた西部砂漠は、かつて交易キャラバンの重要な中継地として栄え、現在では多くの旅行者を魅了する観光地となっています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "この機会に、バハリヤ・オアシスとその周辺の驚異を巡る2日間の旅を体験しませんか？エジプトを訪れるなら見逃せない特別な冒険が、息をのむような風景と、この地に刻まれた豊かな歴史へとあなたを誘います。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "バハリヤ・オアシスのツアーは、時空を超えた旅のようなもの。エジプトの古代の壮大さと、荒々しくも美しい砂漠の魅力が融合した特別な体験をお楽しみください。歴史愛好家、冒険心あふれる旅行者、またはただ圧倒的な自然の美を求める方まで、バハリヤ・オアシスはすべての旅人の心をとらえて離さないでしょう。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "作成日: 2020年3月18日"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "更新日: 2025年3月12日"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Mushroom-shaped white chalk rock formation in the White Desert near Bahariya Oasis"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Formación rocosa de tiza blanca en forma de champiñón en el Desierto Blanco cerca del oasis de Bahariya"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "バハリヤ・オアシス近くの白砂漠にあるキノコ形の白亜の岩"
+   }
+  ],
+  "asset": {
+   "_ref": "image-56c84123faf76ca93e559a2f48891844be37568e-1400x860-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The famous mushroom-and-chicken chalk formation rises from the pale floor of the White Desert."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "La célebre formación de tiza en forma de champiñón se alza del suelo pálido del Desierto Blanco."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "白砂漠の淡い大地から立ち上がる、名高いキノコ形の白亜の岩。"
+   }
+  ]
+ },
+ "kind": "tours",
+ "migration": {
+  "migratedAt": "2026-05-05T13:01:22.158Z",
+  "source": "wp-import",
+  "wpId": 59283,
+  "wpModifiedAt": "2025-07-24T05:15:43",
+  "wpTemplate": "elementor_header_footer",
+  "wpUrl": "https://travel2egypt.org/tours-in-bahariya-oasis/"
+ },
+ "parentCity": {
+  "_ref": "wp-page-58769",
+  "_type": "reference"
+ },
+ "section": "others",
+ "slug": [
+  {
+   "_key": "en",
+   "value": {
+    "_type": "slug",
+    "current": "tours-in-bahariya-oasis"
+   }
+  },
+  {
+   "_key": "es",
+   "value": {
+    "_type": "slug",
+    "current": "mejores-tours-en-el-oasis-de-bahariya"
+   }
+  },
+  {
+   "_key": "ja",
+   "value": {
+    "_type": "slug",
+    "current": "bahariya-oashisu-no-osusume-tsua"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "Tours In Bahariya Oasis Embark on an unforgettable journey to the Bahariya Oasis, a destination that stands as a testament to Egypt s enigmatic beauty. This oasis, nestled between the Farafra and Bahariya Oases, draws travelers with its oth"
+  },
+  {
+   "_key": "es",
+   "value": "Mejores Tours en Oasis de Bahariya Embárcate en un viaje inolvidable al Oasis de Bahariya, un destino que es testimonio de la enigmática belleza de Egipto. Este oasis, enclavado entre los oasis de Farafra y Bahariya, atrae a los viajeros co"
+  },
+  {
+   "_key": "ja",
+   "value": "バハリヤ・オアシスのツアー バハリヤ・オアシスへの忘れられない旅へ出かけましょう。エジプトの神秘的な美しさを象徴するこのオアシスは、ファラフラとバハリヤの間に位置し、訪れる人々を魅了します。風によって彫刻された幻想的な岩が広がるホワイト・デザート、漆黒の峰々が連なるブラック・デザート、そして果てしなく続く砂丘の波が織りなす異世界のような風景が、あなたを待っています。 カイロ＆デザート・サファリ・ツアー このツアーは、古代文明と砂漠の冒険を完璧に融合させた特別な旅をお届けします"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "value": "Tours In Bahariya Oasis"
+  },
+  {
+   "_key": "es",
+   "value": "Mejores tours en el Oasis de Bahariya"
+  },
+  {
+   "_key": "ja",
+   "value": "バハリヤ・オアシスのおすすめツアー"
+  }
+ ]
+}

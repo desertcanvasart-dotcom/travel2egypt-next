@@ -1,0 +1,846 @@
+{
+ "_createdAt": "2026-11-14T19:13:36Z",
+ "_id": "tourLanding.christmas-and-new-year-in-egypt",
+ "_rev": "huLrMaTrd57EgleghZ6FSz",
+ "_type": "tourLanding",
+ "_updatedAt": "2026-11-14T20:17:14Z",
+ "category": {
+  "_ref": "tourCategory.private-package",
+  "_type": "reference"
+ },
+ "faq": [
+  {
+   "_key": "faq-xmas-1",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "b8",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s9",
+         "_type": "span",
+         "marks": [],
+         "text": "At least 60 days ahead for Christmas and New Year. Hotels, boats and guides fill first over this fortnight. Closer than that, ask us anyway: availability is limited, but not always gone."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "esb8",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "ess9",
+         "_type": "span",
+         "marks": [],
+         "text": "Con al menos 60 días de antelación para Navidad y Año Nuevo. En esta quincena, hoteles, cruceros y guías son lo primero que se llena. Si faltan menos días, pregúntanos igualmente: la disponibilidad es limitada, pero no siempre se ha agotado."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "value": [
+      {
+       "_key": "jabs",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "jast",
+         "_type": "span",
+         "marks": [],
+         "text": "クリスマスと年末年始は、少なくとも60日前までのご予約をおすすめします。この2週間は、ホテル、船、ガイドから先に埋まります。それより直前でも、まずはご相談ください。空きは限られますが、なくなっているとは限りません。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "When should we book a Christmas trip to Egypt?"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Con cuánta antelación hay que reservar un viaje de Navidad a Egipto?"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "エジプトのクリスマス旅行は、いつまでに予約すべきですか？"
+    }
+   ]
+  },
+  {
+   "_key": "faq-xmas-2",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "ba",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "sb",
+         "_type": "span",
+         "marks": [],
+         "text": "Yes. Christmas, New Year and Easter are peak dates in Egypt. Scheduled departures on those dates usually cost 30% more. Private journeys cost more over the same dates too."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "esba",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "essb",
+         "_type": "span",
+         "marks": [],
+         "text": "Sí. Navidad, Año Nuevo y Semana Santa son fechas de temporada alta en Egipto. Las salidas programadas en esas fechas suelen costar un 30 % más. Los viajes privados también se encarecen en esas mismas fechas."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "value": [
+      {
+       "_key": "jabu",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "jasv",
+         "_type": "span",
+         "marks": [],
+         "text": "はい。クリスマス、年末年始、イースターはエジプトのピークシーズンです。この時期の定期出発ツアーは通常30％高くなります。プライベート旅行も同じ時期は料金が上がります。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Are prices higher over Christmas and New Year?"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Los precios son más altos en Navidad y Año Nuevo?"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "クリスマスと年末年始は料金が高くなりますか？"
+    }
+   ]
+  },
+  {
+   "_key": "faq-xmas-3",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "bc",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "sd",
+         "_type": "span",
+         "marks": [],
+         "text": "Most Egyptian hotels hold a gala dinner on Christmas Eve (24 December) and on New Year’s Eve, and it is compulsory, charged on top of the room rate with no exception. On a Nile cruise the gala dinner is included in the cruise price. That difference is worth knowing when you compare a hotel stay with a cruise over the holidays."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "esbc",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "essd",
+         "_type": "span",
+         "marks": [],
+         "text": "La mayoría de los hoteles egipcios celebran una cena de gala en Nochebuena (24 de diciembre) y en Nochevieja, y es obligatoria: se cobra aparte de la habitación, sin excepciones. En un crucero por el Nilo, la cena de gala está incluida en el precio. Conviene tener en cuenta esa diferencia al comparar una estancia en hotel con un crucero en estas fechas."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "value": [
+      {
+       "_key": "jabw",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "jasx",
+         "_type": "span",
+         "marks": [],
+         "text": "エジプトのホテルの多くは、クリスマスイブ（12月24日）と大晦日にガラディナーを開催し、参加は必須です。客室料金とは別に、例外なく請求されます。ナイルクルーズの場合、ガラディナーはクルーズ料金に含まれています。この時期にホテル滞在とクルーズを比べるときは、この違いを知っておくと役立ちます。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Is there a gala dinner on Christmas Eve or New Year’s Eve?"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Hay cena de gala en Nochebuena o Nochevieja?"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "クリスマスイブや大晦日にガラディナーはありますか？"
+    }
+   ]
+  },
+  {
+   "_key": "faq-xmas-4",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "be",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "sf",
+         "_type": "span",
+         "marks": [],
+         "text": "Yes. Winter is the main Nile cruise season. Ships and quays are busier, so confirm the boat, cabin and sightseeing times in advance. For a quieter river, dahabiyas sail in winter too, but the popular boats fill early."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "esbe",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "essf",
+         "_type": "span",
+         "marks": [],
+         "text": "Sí. El invierno es la temporada natural para un crucero por el Nilo. Barcos y muelles están más concurridos, así que conviene confirmar con antelación el barco, la cabina y los horarios de visita. Para un Nilo más pausado, las dahabiyas también navegan en invierno, pero las mejores opciones suelen reservarse pronto."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "value": [
+      {
+       "_key": "jaby",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "jasz",
+         "_type": "span",
+         "marks": [],
+         "text": "はい。冬はナイルクルーズの本格シーズンです。船や船着き場は混み合うため、船、客室、見学時間を事前に確認しましょう。より静かなナイルを望むなら、ダハビーヤも冬に運航していますが、人気の船は早く埋まります。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Is December a good time for a Nile cruise?"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Es diciembre buena época para un crucero por el Nilo?"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "12月はナイルクルーズに向いていますか？"
+    }
+   ]
+  },
+  {
+   "_key": "faq-xmas-5",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "bg",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "sh",
+         "_type": "span",
+         "marks": [],
+         "text": "7 January is Christmas for Egypt’s Coptic Orthodox Church, with services at churches across the country, including St. Mark’s Cathedral in Abbasiya. It’s a religious occasion, not a tourist event; dress and behave as you would at any place of worship."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "esbg",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "essh",
+         "_type": "span",
+         "marks": [],
+         "text": "El 7 de enero se celebra la Navidad de la Iglesia ortodoxa copta de Egipto, con oficios en iglesias de todo el país, entre ellas la catedral de San Marcos en Abasiya. Es una celebración religiosa, no un espectáculo turístico: conviene vestir y comportarse como en cualquier lugar de culto."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "value": [
+      {
+       "_key": "jab10",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "jas11",
+         "_type": "span",
+         "marks": [],
+         "text": "1月7日は、エジプトのコプト正教会のクリスマスです。アッバシーヤの聖マルコ大聖堂をはじめ、各地の教会で礼拝が行われます。観光イベントではなく宗教行事ですので、礼拝の場にふさわしい服装と振る舞いを心がけてください。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "What is Coptic Christmas?"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Qué es la Navidad copta?"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "コプト・クリスマスとは何ですか？"
+    }
+   ]
+  },
+  {
+   "_key": "faq-xmas-6",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "bi",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "sj",
+         "_type": "span",
+         "marks": [],
+         "text": "Yes. A private journey can start on any date. Tell us the days you have and we’ll shape it around them."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "esbi",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "essj",
+         "_type": "span",
+         "marks": [],
+         "text": "Sí. Un viaje privado puede empezar cualquier día. Dinos de cuántos días dispones y lo organizamos a tu medida."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "value": [
+      {
+       "_key": "jab12",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "jas13",
+         "_type": "span",
+         "marks": [],
+         "text": "はい。プライベート旅行はどの日からでも始められます。お休みの日数をお知らせいただければ、それに合わせて組み立てます。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Can we do a shorter trip over the holidays?"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Podemos hacer un viaje más corto en estas fechas?"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "年末年始に短めの旅行はできますか？"
+    }
+   ]
+  }
+ ],
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A camel in a red Santa hat and colourful tassels stands on a Red Sea beach at dusk"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Un camello con gorro rojo de Papá Noel y borlas de colores en una playa del Mar Rojo al atardecer"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "赤いサンタ帽と色とりどりの房飾りをつけたラクダが、夕暮れの紅海の浜辺に立つ"
+   }
+  ],
+  "asset": {
+   "_ref": "image-b215818ade530481a5cdccbbab4ac8e3646f4737-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "hotspot": {
+   "_type": "sanity.imageHotspot",
+   "height": 0.7,
+   "width": 0.6,
+   "x": 0.55,
+   "y": 0.35
+  }
+ },
+ "intro": [
+  {
+   "_key": "en",
+   "value": [
+    {
+     "_key": "b0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s1",
+       "_type": "span",
+       "marks": [],
+       "text": "Why Egypt at Christmas"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "b2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s3",
+       "_type": "span",
+       "marks": [],
+       "text": "Winter is the season that makes Egypt easiest to see: the heat drops, and the Giza plateau, Karnak and the Valley of the Kings can be read rather than endured."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b4",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s5",
+       "_type": "span",
+       "marks": [],
+       "text": "The trade-off is crowds. December into January is peak season. Hotels, boats and guides fill, and the popular dahabiyas go first."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b6",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s7",
+       "_type": "span",
+       "marks": [],
+       "text": "Egypt’s own Christmas comes later. 7 January is Christmas for the Coptic Orthodox Church. If you’re in Cairo then, Coptic Cairo gains depth, but it’s a time of worship, not a tourist event."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "value": [
+    {
+     "_key": "esb0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "ess1",
+       "_type": "span",
+       "marks": [],
+       "text": "Por qué Egipto en Navidad"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "esb2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "ess3",
+       "_type": "span",
+       "marks": [],
+       "text": "El invierno es la estación que vuelve Egipto más fácil de mirar: baja el calor, y la meseta de Guiza, Karnak y el Valle de los Reyes se pueden entender en lugar de soportar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "esb4",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "ess5",
+       "_type": "span",
+       "marks": [],
+       "text": "La contrapartida es la gente. Diciembre y enero son meses de mucha demanda: hoteles, cruceros y guías se llenan, y las dahabiyas más buscadas son las primeras en agotarse."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "esb6",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "ess7",
+       "_type": "span",
+       "marks": [],
+       "text": "La Navidad propia de Egipto llega después. El 7 de enero se celebra la Navidad copta. Si estás en El Cairo esos días, el Cairo copto gana profundidad, pero es un momento de culto, no un espectáculo turístico."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "value": [
+    {
+     "_key": "jabk",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasl",
+       "_type": "span",
+       "marks": [],
+       "text": "クリスマスにエジプトを選ぶ理由"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "jabm",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasn",
+       "_type": "span",
+       "marks": [],
+       "text": "冬は、エジプトを最も見やすくする季節です。暑さが下がり、ギザの台地、カルナック、王家の谷を、暑さに耐えるのではなく、じっくり読み解けます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jabo",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasp",
+       "_type": "span",
+       "marks": [],
+       "text": "その代わり、混雑があります。12月から1月はピークシーズンで、ホテルも船もガイドも埋まり、人気のダハビーヤから先に満席になります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jabq",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jasr",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプト自身のクリスマスは少し遅れてやってきます。1月7日は、エジプトのコプト正教会のクリスマスです。この時期にカイロにいるなら、コプト・カイロを訪れる意味は少し深くなります。ただし観光イベントではなく、礼拝の時です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "relatedTours": [
+  {
+   "_key": "tk",
+   "_ref": "tour.10-day-egypt-group-tour-cairo-nile-red-sea",
+   "_type": "reference"
+  },
+  {
+   "_key": "tl",
+   "_ref": "tour.9-day-egypt-group-tour-cairo-abu-simbel-nile",
+   "_type": "reference"
+  },
+  {
+   "_key": "tm",
+   "_ref": "tour.11-day-egypt-group-tour-cairo-red-sea-nile",
+   "_type": "reference"
+  },
+  {
+   "_key": "tn",
+   "_ref": "wp-page-89558",
+   "_type": "reference"
+  },
+  {
+   "_key": "to",
+   "_ref": "wp-page-89895",
+   "_type": "reference"
+  },
+  {
+   "_key": "tp",
+   "_ref": "tour.7-days-luxury-dahabiya-nile-cruise",
+   "_type": "reference"
+  },
+  {
+   "_key": "tq",
+   "_ref": "wp-page-113005",
+   "_type": "reference"
+  }
+ ],
+ "seo": {
+  "metaDescription": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayTextValue",
+    "value": "Spend Christmas and New Year in Egypt: scheduled small-group departures from 23 December, or a private journey on your own dates. Book early. It’s the busiest fortnight of the year."
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayTextValue",
+    "value": "Pasa la Navidad y el Año Nuevo en Egipto: salidas en grupo reducido desde el 23 de diciembre, o un viaje privado en tus propias fechas. Reserva pronto: es la quincena con más demanda del año."
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayTextValue",
+    "value": "クリスマスと年末年始をエジプトで。12月23日からの少人数グループ出発、またはご希望の日程でのプライベート旅行。1年でいちばん混み合う時期なので、早めのご予約を。"
+   }
+  ],
+  "metaTitle": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Christmas and New Year in Egypt: Holiday Tours and Departures"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Navidad y Año Nuevo en Egipto: viajes y salidas en fechas festivas"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "クリスマスと年末年始のエジプト：ホリデーシーズンのツアーと出発日"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "christmas-and-new-year-in-egypt"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "navidad-y-ano-nuevo-en-egipto"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "kurisumasu-to-nenmatsu-nenshi-no-ejiputo"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "The fortnight from Christmas to New Year is the busiest of Egypt’s year. That isn’t a reason to avoid it; it’s a reason to book early. The weather is at its easiest, Nile cruises are in their main season, and a ten-day break is enough for Cairo, the river and Aswan."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "La quincena entre Navidad y Año Nuevo es la de más demanda del año en Egipto. No es un motivo para evitarla, sino para reservar pronto. El clima es el más agradable, los cruceros por el Nilo están en plena temporada y diez días bastan para El Cairo, el río y Asuán."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "クリスマスから年明けまでの2週間は、エジプトで1年でいちばん混み合う時期です。避ける理由ではなく、早めに予約する理由です。気候はいちばん過ごしやすく、ナイルクルーズは本格シーズン。10日間あれば、カイロ、ナイル川、アスワンを巡れます。"
+  }
+ ],
+ "themeRef": {
+  "_ref": "theme-christmas-new-year",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Christmas and New Year in Egypt"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Navidad y Año Nuevo en Egipto"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "クリスマスと年末年始のエジプト"
+  }
+ ]
+}

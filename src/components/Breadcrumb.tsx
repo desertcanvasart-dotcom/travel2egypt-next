@@ -3,7 +3,7 @@
  * (eventually) other detail pages so the style + a11y stay consistent.
  *
  * Renders as a <nav> with an ordered list; the last item is non-clickable
- * and gets a subtly different colour to mark "current page".
+ * and carries aria-current="page".
  *
  * Pages should also emit the matching JSON-LD via `buildBreadcrumbList()`
  * from `lib/structured-data`. This component intentionally renders the
@@ -31,35 +31,21 @@ export function Breadcrumb({
   className?: string;
 }) {
   if (items.length === 0) return null;
+  // One breadcrumb style site-wide (design review #7, 19 Nov 2026): the tour
+  // pages' `.t2e-crumb` — small sans capitals, "/" separators (tour-chrome.css).
+  // `--inline` drops its top padding: these pages place it inside their own
+  // padded container. Phones show only the nearest parent link (same file).
   return (
-    <nav
-      aria-label="Breadcrumb"
-      className={`font-sans text-xs uppercase tracking-[0.12em] text-ink-muted ${className}`}
-    >
-      <ol className="flex flex-wrap items-center gap-2">
+    <nav aria-label="Breadcrumb" className={`t2e-crumb t2e-crumb--inline ${className}`}>
+      <ol>
         {items.map((item, i) => {
           const isLast = i === items.length - 1;
           return (
-            <li key={i} className="flex items-center gap-2">
-              {i > 0 && (
-                <span aria-hidden="true" className="text-ink-muted/60">
-                  ›
-                </span>
-              )}
+            <li key={i}>
               {item.href && !isLast ? (
-                <Link
-                  href={item.href}
-                  className="transition-colors hover:text-orange-deep"
-                >
-                  {item.label}
-                </Link>
+                <Link href={item.href}>{item.label}</Link>
               ) : (
-                <span
-                  className={isLast ? 'text-ink-soft' : ''}
-                  aria-current={isLast ? 'page' : undefined}
-                >
-                  {item.label}
-                </span>
+                <span aria-current={isLast ? 'page' : undefined}>{item.label}</span>
               )}
             </li>
           );

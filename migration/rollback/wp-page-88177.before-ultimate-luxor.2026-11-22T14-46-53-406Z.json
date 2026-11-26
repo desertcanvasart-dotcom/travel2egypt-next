@@ -1,0 +1,2418 @@
+{
+ "_createdAt": "2026-05-13T22:23:58Z",
+ "_id": "wp-page-88177",
+ "_rev": "pzh5FM4q1DBt3H4LGqNNJZ",
+ "_system": {
+  "base": {
+   "id": "wp-page-88177",
+   "rev": "LMUgafKEvELchM4PJDh9x4"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:46Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers with one full Luxor day who want both banks read as a single New Kingdom system, not a string of disconnected stops"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros con una sola jornada completa en Luxor que quieren leer ambas orillas como un único sistema del Imperio Nuevo, no como una sucesión de paradas inconexas"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "滞在が一日しかなく、ルクソールの新王国の全景を一気に押さえたい、歩きの体力のある旅人"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor in a Day: Ancient Thebes from Temple to Tomb"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor is the most densely concentrated ancient site on earth. The city of roughly 500,000 people sits on top of Thebes, the capital of the New Kingdom pharaohs, and within a ten-kilometre radius you will find more significant monuments than in most entire countries. A day here is not a casual affair. This tour covers six major sites across both banks of the Nile — the East Bank's great temples and the West Bank's royal necropolis — and it asks something of you: an early start, sustained walking, and genuine attention. What it gives back is a coherent arc through 1,500 years of Egyptian civilisation."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a tour suited to travellers who want context, not just photographs. Each stop connects to the others: the pharaohs worshipped at Karnak and Luxor Temple, were buried in the Valley of the Kings, and their queens and children were interred nearby in the Valley of the Queens. The mortuary temples on the West Bank — including Hatshepsut's — served the cult of the dead king. Seeing them in a single day makes the logic of the whole system legible in a way that a piecemeal visit rarely achieves."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "A word of honest preparation: this is a long day. The West Bank sites alone require a vehicle transfer and considerable walking on uneven ground, often in direct sun. In summer (May through September), temperatures in Luxor regularly exceed 40°C by midday. Early morning departures are not optional theatre — they are the difference between a manageable day and an exhausting one. Bring water, sun protection, and shoes you have already broken in."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a "
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "private tour, operated for your party alone"
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": " — never shared with other guests. Because it is private, it "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "runs for as few as one traveller, with no minimum group size and no waiting on other bookings"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "; larger parties are accommodated in a suitable vehicle. A "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "private, air-conditioned vehicle"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": ", a "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "licensed, English-speaking Egyptologist guide"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ", and "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "one bottle of mineral water per person"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": " are included in every tier. There is "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "no minimum age"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": ", but it is a long, hot day on foot with steep tomb descents — families with young children should weigh that honestly."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "The tour comes in three tiers, so you only pay for what you want: a "
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": " package (private vehicle, guide, water, and all driving and logistics); "
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base + Entrance Fees"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": " (the same, plus standard entry to all six sites); and "
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base + Entrance Fees & Lunch"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": " (those entrance fees plus a midday meal). Egyptian entrance fees are revised often, so keeping them separate keeps the base fare honest. Tier prices are shown at booking."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "The day begins on the East Bank, where the ancient city's ceremonial core once stood."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000024",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Luxor Temple"
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [],
+       "text": " is the logical starting point — central, accessible, and relatively compact, it gives you an immediate sense of scale and style before the larger sites. Built primarily under Amenhotep III (c. 1390–1352 BC) and expanded by Ramses II, the temple was dedicated to the Opet festival, during which the statue of Amun was carried in procession from Karnak to Luxor each year. What makes it unusual is the evidence of every subsequent civilisation that used it: a Roman legionary chapel occupies one of its courts, and a mosque — still active — sits above its interior, built atop accumulated centuries of debris that eventually buried the columns to their capitals. The first courtyard's scale, with Ramses II's colossi flanking the entrance pylon, sets the tone for what is to come."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000028",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [],
+       "text": "From Luxor Temple, the route moves north to "
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Karnak"
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [],
+       "text": " — a fifteen-minute drive, or roughly two kilometres along the Nile corniche. Karnak is not one temple but a city of temples, built and expanded by successive pharaohs across approximately 1,500 years, from the Middle Kingdom through the Ptolemaic period. The precinct of Amun-Ra alone covers around 200 hectares; the Hypostyle Hall, with its 134 columns reaching up to 21 metres, remains one of the most visually arresting spaces in all of Egyptian architecture. Wandering it seriously takes the better part of an hour. The Sacred Lake, the avenue of ram-headed sphinxes, the obelisks of Hatshepsut and Thutmose I — each deserves its moment. Budget your time accordingly."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [],
+       "text": "After Karnak, you cross the Nile to the West Bank. This is where the desert begins."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [],
+       "text": "The "
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Valley of the Kings"
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [],
+       "text": " was the chosen burial ground of Egypt's New Kingdom rulers from roughly 1550 to 1070 BC — the era of Thutmose III, Seti I, Ramses II, and Tutankhamun. More than sixty tombs have been discovered here, cut deep into the limestone cliffs of the Theban hills. The standard entry covers three tombs; the tomb of Tutankhamun requires a separate ticket but is worth it — not for the treasures (those are in Cairo, now at the Grand Egyptian Museum, which opened fully on 1 November 2025) but for the painted burial chamber, small and vivid, which retains its original colour with unusual intensity. The hieroglyphic programmes in the larger royal tombs — Ramses VI, Seti I, Merenptah — are among the most complete surviving examples of New Kingdom funerary literature."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000032",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [],
+       "text": "A short drive west brings you to the "
+      },
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Valley of the Queens"
+      },
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [],
+       "text": ", where the wives and children of the New Kingdom pharaohs were buried. The necropolis contains over 90 tombs, though the one that justifies the stop is the Tomb of Nefertari, chief wife of Ramses II (c. 1295–1255 BC). Its wall paintings are among the finest in Egypt — rich in colour, precise in draughtsmanship, and preserved well enough that the original pigments remain vivid. Entry to Nefertari's tomb requires a separate, premium ticket and is subject to a visitor cap; confirm availability in advance."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000036",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [],
+       "text": "Heading back towards the Nile, you stop at the "
+      },
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Colossi of Memnon"
+      },
+      {
+       "_key": "000000000035",
+       "_type": "span",
+       "marks": [],
+       "text": " — two seated figures of Amenhotep III, each roughly 18 metres tall, carved from quartzite sandstone and set in what was once the forecourt of his mortuary temple (the largest ever built in Egypt, now largely destroyed). They have stood in this field since approximately 1350 BC. They are roadside monuments in the most literal sense — you can photograph them from the verge — but their scale and solitude are striking, and the brief stop anchors you in the landscape of the West Bank."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [],
+       "text": "The day concludes at the "
+      },
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "mortuary temple of Queen Hatshepsut"
+      },
+      {
+       "_key": "000000000039",
+       "_type": "span",
+       "marks": [],
+       "text": " at Deir el-Bahari. Hatshepsut ruled Egypt as pharaoh from roughly 1473 to 1458 BC, one of the few women to have held the title outright. Her temple, designed by her chief architect Senenmut and cut into the cliffs of the Theban mountain, is architecturally unlike anything else in Egypt — three colonnaded terraces rising against the rock face, conceived in horizontal planes rather than the axial progression of most Egyptian temples. Reliefs inside recount her trading expedition to the land of Punt and assert her divine birth. It is a fitting close to a day that has moved from ceremony to burial to this — a monument to a ruler who insisted, in every medium available to her, on being remembered."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003b",
+       "_type": "span",
+       "marks": [],
+       "text": "The Historical Frame"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000003e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003d",
+       "_type": "span",
+       "marks": [],
+       "text": "The six sites on this tour all belong to a single civilisational moment: the New Kingdom (c. 1550–1070 BC), when Egypt was arguably the most powerful state in the ancient world, and Thebes was its capital. Karnak and Luxor Temple were its ceremonial heart; the West Bank was its city of the dead. Understanding that these are not isolated curiosities but components of one coherent urban and religious system changes how you see each of them. The drive between sites — across farmland, through the Nile flood plain, into the desert cliffs — maps the ancient city's geography in a way that no museum can replicate."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000040",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003f",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Six sites, two banks, three thousand years — this is Luxor taken seriously."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000042",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000041",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Go early, go slowly, and let the scale speak for itself."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000050",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004f",
+       "_type": "span",
+       "marks": [],
+       "text": "Three tiers (Base / + Entrance Fees / + Entrance Fees & Lunch); Tutankhamun's tomb and Nefertari's tomb stay separate locally because of cap and quota. The concierge can advise on whether to add either on the day."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000053",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000051",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor en un día: la antigua Tebas, del templo a la tumba"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "La jornada privada que lee las dos orillas de Luxor como las dos mitades de un único sistema religioso, no como una lista de paradas sueltas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor es el yacimiento antiguo más densamente concentrado del planeta. La ciudad, de unos 500.000 habitantes, se asienta sobre Tebas, capital de los faraones del Imperio Nuevo, y en un radio de diez kilómetros se encuentran más monumentos significativos que en muchos países enteros. Un día aquí no es asunto menor. Este tour cubre seis grandes yacimientos en ambas orillas del Nilo —los grandes templos de la orilla oriental y la necrópolis real de la occidental— y pide algo del viajero: salida temprana, caminata sostenida y atención genuina. Lo que entrega a cambio es un arco coherente a través de 1.500 años de civilización egipcia."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Es un tour adecuado para el viajero que quiere contexto, no solo fotografías. Cada parada conecta con las demás: los faraones rendían culto en Karnak y en el templo de Luxor, eran sepultados en el Valle de los Reyes y sus esposas e hijos se enterraban cerca, en el Valle de las Reinas. Los templos funerarios de la orilla occidental —el de Hatshepsut entre ellos— sostenían el culto al rey muerto. Verlos en un único día hace legible la lógica del sistema entero de una manera que la visita por entregas raramente consigue."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Una palabra de preparación honesta: es un día largo. Solo los yacimientos de la orilla occidental requieren traslado en vehículo y considerable caminata sobre terreno irregular, a menudo bajo sol directo. En verano (de mayo a septiembre), las temperaturas en Luxor superan habitualmente los 40 °C a mediodía. Las salidas a primera hora no son teatro de catálogo: son la diferencia entre una jornada manejable y una agotadora. Lleve agua, protección solar y calzado ya domado."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Se trata de un "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "tour estrictamente privado, operado en exclusiva para su grupo"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": " y nunca compartido con otros viajeros. Por su carácter privado, "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "opera desde un único viajero, sin tamaño mínimo de grupo y sin esperas a otras reservas"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "; los grupos más amplios se acomodan en un vehículo adecuado. Cada nivel incluye "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "vehículo privado con aire acondicionado"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ", "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "guía egiptólogo licenciado de habla hispana"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": " y "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "una botella de agua mineral por persona"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": ". "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "No hay edad mínima"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": ", pero es una jornada larga y calurosa a pie, con descensos empinados a las tumbas; las familias con niños pequeños deberían sopesarlo con honestidad."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel "
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": " (vehículo privado, guía, agua y toda la logística de conducción); "
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base + entradas"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": " (lo anterior más el acceso estándar a los seis yacimientos); y "
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base + entradas y almuerzo"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": " (esas entradas más una comida al mediodía). Las tarifas egipcias se revisan con frecuencia, así que mantenerlas separadas evita inflar el precio base. Los precios por nivel se confirman en el momento de reservar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "La jornada arranca en la orilla oriental, donde antiguamente se alzaba el núcleo ceremonial de la ciudad."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "El "
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "templo de Luxor"
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": " es el punto de partida lógico: céntrico, accesible y relativamente compacto, ofrece una primera percepción de escala y estilo antes de los yacimientos mayores. Construido principalmente bajo Amenhotep III (hacia 1390-1352 a. C.) y ampliado por Ramsés II, el templo estaba consagrado a la Fiesta de Opet, durante la cual la estatua de Amón se llevaba en procesión cada año desde Karnak hasta Luxor. Lo que lo hace singular es la huella de cada civilización posterior que lo utilizó: una capilla legionaria romana ocupa uno de sus patios, y una mezquita —aún activa— se asienta sobre el interior, levantada sobre los siglos de aluvión acumulados que llegaron a enterrar las columnas hasta los capiteles. La escala del primer patio, con los colosos de Ramsés II flanqueando el pilono de entrada, marca el tono de lo que viene."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde el templo de Luxor, la ruta avanza al norte hasta "
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Karnak"
+      },
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": " —un trayecto de quince minutos, aproximadamente dos kilómetros por la corniche del Nilo—. Karnak no es un templo, sino una ciudad de templos, construida y ampliada por faraones sucesivos a lo largo de unos 1.500 años, desde el Imperio Medio hasta el periodo ptolemaico. Solo el recinto de Amón-Ra cubre alrededor de 200 hectáreas; la Sala Hipóstila, con sus 134 columnas que alcanzan hasta 21 metros, sigue siendo uno de los espacios más impactantes visualmente de toda la arquitectura egipcia. Recorrerla en serio se lleva buena parte de una hora. El Lago Sagrado, la avenida de esfinges con cabeza de carnero, los obeliscos de Hatshepsut y de Tutmosis I: cada elemento merece su momento. Administre el tiempo en consecuencia."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "Después de Karnak, se cruza el Nilo a la orilla occidental. Aquí empieza el desierto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "El "
+      },
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Valle de los Reyes"
+      },
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": " fue el cementerio escogido por los gobernantes egipcios del Imperio Nuevo entre, aproximadamente, el 1550 y el 1070 a. C., la era de Tutmosis III, Seti I, Ramsés II y Tutankamón. Se han descubierto aquí más de sesenta tumbas, excavadas a profundidad en los acantilados calizos de los cerros tebanos. La entrada estándar cubre tres tumbas; la de Tutankamón requiere boleto aparte, pero vale la pena, no por los tesoros (esos están ahora en el Gran Museo Egipcio de Guiza, que abrió completamente el 1 de noviembre de 2025) sino por la cámara funeraria pintada, pequeña y nítida, que conserva su color original con una intensidad inusual. Los programas jeroglíficos de las grandes tumbas reales —Ramsés VI, Seti I, Merenptah— están entre los ejemplos más completos que se conservan de la literatura funeraria del Imperio Nuevo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Un corto trayecto al oeste lleva al "
+      },
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Valle de las Reinas"
+      },
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": ", donde se enterraba a las esposas e hijos de los faraones del Imperio Nuevo. La necrópolis contiene más de 90 tumbas, aunque la que justifica la parada es la tumba de Nefertari, esposa principal de Ramsés II (hacia 1295-1255 a. C.). Sus pinturas murales se hallan entre las mejores de Egipto —rica paleta de color, precisión de trazo y un estado de conservación lo bastante íntegro como para que los pigmentos originales sigan vivos—. La entrada a la tumba de Nefertari requiere un boleto adicional con sobreprecio y está sujeta a cupo de visitantes; confirme disponibilidad por adelantado."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "De camino al Nilo, se hace alto en los "
+      },
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Colosos de Memnón"
+      },
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": ": dos figuras sedentes de Amenhotep III, de unos 18 metros de altura cada una, talladas en arenisca cuarcítica e instaladas en lo que fue el atrio del templo funerario del rey (el mayor jamás levantado en Egipto, hoy desaparecido en su práctica totalidad). Llevan en este campo desde, aproximadamente, el 1350 a. C. Son monumentos a pie de carretera en el sentido más literal —pueden fotografiarse desde el arcén—, pero su escala y su soledad impactan, y la breve parada ancla al viajero en el paisaje de la orilla occidental."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": "La jornada se cierra en el "
+      },
+      {
+       "_key": "00000000003b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "templo funerario de la reina Hatshepsut"
+      },
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": " en Deir el-Bahari. Hatshepsut gobernó Egipto como faraón entre, aproximadamente, el 1473 y el 1458 a. C., una de las pocas mujeres que ostentaron el título de pleno derecho. Su templo, diseñado por su arquitecto jefe Senenmut y excavado en los acantilados de la montaña tebana, es arquitectónicamente distinto de cualquier otra cosa en Egipto: tres terrazas columnadas que se elevan contra el frente rocoso, concebidas en planos horizontales en lugar de la progresión axial habitual de los templos egipcios. Los relieves del interior recogen su expedición comercial al país de Punt y proclaman su nacimiento divino. Es un cierre adecuado para una jornada que ha avanzado de la ceremonia al enterramiento y, finalmente, hasta este monumento a una gobernante que insistió, por todos los medios a su alcance, en ser recordada."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": "El marco histórico"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000041",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": "Los seis yacimientos de este tour pertenecen a un único momento de civilización: el Imperio Nuevo (hacia 1550-1070 a. C.), cuando Egipto fue, podría defenderse, el Estado más poderoso del mundo antiguo y Tebas era su capital. Karnak y el templo de Luxor fueron su corazón ceremonial; la orilla occidental fue su ciudad de los muertos. Entender que no son curiosidades aisladas, sino componentes de un único sistema urbano y religioso coherente, cambia la manera de ver cada una. La conducción entre yacimientos —por terreno de cultivo, por la llanura aluvial del Nilo, hasta los acantilados desérticos— cartografía la geografía de la ciudad antigua de un modo que ningún museo replica."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000043",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Seis yacimientos, dos orillas, tres mil años: este es Luxor tomado en serio."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000045",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000044",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Salga pronto, vaya despacio y deje que la escala hable por sí sola."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000055",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000054",
+       "_type": "span",
+       "marks": [],
+       "text": "Los tres niveles (Base / + entradas / + entradas y almuerzo); la tumba de Tutankamón y la de Nefertari quedan separadas localmente por cupo y cuota. El concierge puede aconsejar si añadir cualquiera de las dos durante la jornada."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000058",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000056",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "一日で巡るルクソール：神殿から墓まで、古代テーベを"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールは地上で最も密度の高い古代遺跡です。およそ50万人の街が、新王国のファラオたちの首都テーベの上に座しており、半径10キロメートルのうちに、たいていの国全体よりも多くの重要な記念建造物を見いだすことになります。ここでの一日は、気楽なものではありません。このツアーはナイル両岸にまたがる六つの主要な遺跡を巡ります——東岸の偉大な神殿群と、西岸の王家のネクロポリス——そしてあなたに何かを求めます——早い出発、絶え間ない歩き、そして本物の注意を。その代わりに与えてくれるのは、エジプト文明の1,500年を貫く、筋の通った弧です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "これは、写真だけではなく背景を求める旅行者に合うツアーです。どの立ち寄り先も、ほかと結びついています——ファラオたちはカルナックとルクソール神殿で礼拝し、王家の谷に葬られ、その妃や子らは近くの王妃の谷に納められました。西岸の葬祭殿——ハトシェプストのものを含みます——は、亡き王の祭祀に仕えました。それらを一日で見ることは、断片的な訪問ではめったに達せないやり方で、体系全体の論理を読み取れるものにします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "正直な備えを一言——これは長い一日です。西岸の遺跡だけでも車両での移動と、しばしば直射日光のもとでの、凹凸のある地面でのかなりの歩きを要します。夏（5月から9月）には、ルクソールの気温は正午までにしばしば40℃を超えます。早朝の出発は任意の演出ではありません——それは、こなせる一日と疲れ果てる一日とを分けるものです。水と、日除けと、すでに履き慣らした靴をお持ちください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "一日は東岸から始まります。かつて古代都市の儀礼の中核が立っていた場所です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000014",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ルクソール神殿"
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [],
+       "text": "が論理的な出発点です——中心にあり、近づきやすく、比較的こぢんまりとしていて、より大きな遺跡へ向かう前に、規模と様式を即座に感じさせてくれます。おもにアメンホテプ3世（紀元前1390〜1352年ごろ）のもとで築かれ、ラムセス2世によって拡張されたこの神殿は、アムンの像が毎年カルナックからルクソールへ行列で運ばれたオペト祭に奉献されました。これを異例にしているのは、これを用いた後続のあらゆる文明の痕跡です——ローマ軍団の礼拝堂がその中庭のひとつを占め、モスク——いまも現役——が、ついには柱を柱頭まで埋めてしまった積み重なる何世紀もの瓦礫の上に築かれて、その内部の上に座しています。入口の塔門に寄り添うラムセス2世の巨像とともに、第一の中庭の規模が、これから来るものの調子を定めます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000018",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソール神殿から、ルートは北へ"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "カルナック"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [],
+       "text": "へと進みます——15分のドライブ、あるいはナイルのコルニッシュ沿いにおよそ2キロメートルです。カルナックはひとつの神殿ではなく、神殿の都市です——中王国時代からプトレマイオス朝にかけて、およそ1,500年にわたって歴代のファラオによって築かれ拡張されました。アムン・ラーの神域だけでおよそ200ヘクタールを覆い、最も高いもので21メートルに達する134本の柱をもつ大列柱室は、いまなおエジプト建築のすべてのなかで最も視覚的に心をとらえる空間のひとつです。本気で歩き回れば、1時間の大半を要します。聖なる湖、牡羊頭のスフィンクス参道、ハトシェプスト（29.5メートル）とトトメス1世のオベリスク——それぞれがその一瞬に値します。時間配分はそれに応じて。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [],
+       "text": "カルナックのあと、ナイルを渡って西岸へ。ここで砂漠が始まります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "王家の谷"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "は、エジプトの新王国の統治者たち——トトメス3世、セティ1世、ラムセス2世、ツタンカーメンの時代——が、およそ紀元前1550年から1070年にかけて選んだ埋葬地でした。ここでは60を超える墓が発見されており、テーベの丘の石灰岩の崖に深く穿たれています。標準の入場は三つの墓を賄います。ツタンカーメンの墓は別のチケットを要しますが、その価値があります——宝物のためではなく（それらは2025年11月1日に全面開館したカイロのGEMにあります）、彩色された墓室のためです。小さく、鮮やかで、もとの色をきわだった強さで保っています。より大きな王墓——ラムセス6世、セティ1世、メルエンプタハ——のヒエログリフの体系は、新王国の葬祭文学について現存する最も完全な例のひとつです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "西へ短いドライブで、"
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "王妃の谷"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "に着きます。新王国のファラオたちの妃や子らが葬られた場所です。このネクロポリスには90を超える墓がありますが、立ち寄りを正当化するのはネフェルタリの墓——ラムセス2世の正妃（紀元前1295〜1255年ごろ）です。その壁画はエジプトで最も見事なものに数えられます——色彩に富み、描線が精緻で、もとの顔料が鮮やかなまま残るほどよく保存されています。ネフェルタリの墓への入場は別の割増チケットを要し、来訪者数の上限の対象です。空き状況を事前にご確認ください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "ナイルへ戻る途中、"
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "メムノンの巨像"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "に立ち寄ります——アメンホテプ3世の二体の坐像で、各々およそ18メートルの高さ、珪岩の砂岩から彫られ、かつて彼の葬祭殿（エジプトでこれまでに築かれた最大のもので、いまは大半が破壊されています）の前庭であった場所に据えられています。それらはおよそ紀元前1350年以来、この野に立ってきました。最も文字どおりの意味で道端の記念建造物です——路肩から撮影できます——けれど、その規模と孤独は印象的で、この短い立ち寄りが、あなたを西岸の風景のなかに錨を下ろさせます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "一日は、デイル・アル・バハリにある"
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ハトシェプスト女王の葬祭殿"
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "で締めくくられます。ハトシェプストはおよそ紀元前1473年から1458年にかけてファラオとしてエジプトを統治しました——その称号を文字どおり保持した数少ない女性のひとりです。彼女の主任建築家センエンムトによって設計され、テーベの山の崖に穿たれた神殿は、エジプトのほかの何ものとも異なる建築です——大半のエジプト神殿の軸に沿った進行ではなく、岩壁に向かって立ち上がる三段の列柱のあるテラスとして、水平の面のうちに構想されています。内部の浮彫は、彼女のプントの地への交易遠征を物語り、その神聖な出自を主張します。儀礼から埋葬へ、そしてこれへと——あらゆる手立てを尽くして記憶されることを求めた統治者への記念建造物へと——移ってきた一日を締めくくるにふさわしいものです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "歴史的な枠組み"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "このツアーの六つの遺跡はすべて、ひとつの文明史上の瞬間に属します——新王国（紀元前1550〜1070年ごろ）、エジプトがおそらく古代世界で最も強大な国家であり、テーベがその首都であった時代です。カルナックとルクソール神殿はその儀礼の心臓部であり、西岸はその死者の都市でした。これらが孤立した珍奇な品々ではなく、ひとつの筋の通った都市的・宗教的体系の構成要素なのだと理解することが、それぞれの見え方を変えます。遺跡のあいだのドライブ——農地を抜け、ナイルの氾濫原を通り、砂漠の崖へと——は、いかなる博物館も再現できないやり方で、古代都市の地理を地図に描き出します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "六つの遺跡、二つの岸、三千年——これがルクソールを本気で受けとめるということです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "早く行き、ゆっくり巡り、規模そのものに語らせてください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": "ネフェルタリの墓の入場枠を確保するか、ハトシェプストを朝に組むか締めに残すか、両岸を一日で本当にこなせるか——コンシェルジュが、お客様の体力と関心の重みで順序を整えます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000042",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58877",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Eight to ten hours across both banks is Luxor taken seriously, and the early start is what makes it possible. If that weight gives you pause, the same six monuments sit just as happily across two gentler days — say so, and our concierge will split the itinerary where the river already divides it."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "De ocho a diez horas entre las dos orillas es Luxor tomado en serio, y el madrugón es lo que lo hace posible. Si ese peso te hace dudar, los mismos seis monumentos caben igual de bien en dos días más suaves: dilo, y nuestro concierge partirá el itinerario justo donde el río ya lo divide."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "両岸あわせて8〜10時間——ルクソールに正面から向き合う一日で、早朝の出発がそれを支えています。その重さに少しためらいがあれば、同じ6つの遺跡は、より穏やかな二日間にもきれいに収まります。そうお伝えいただければ、川がすでに分けている場所で、コンシェルジュが行程を二つに分けます。"
+  }
+ ],
+ "days": [
+  {
+   "_key": "day-1",
+   "_type": "tourDay",
+   "dayNumber": 1,
+   "morning": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000002",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Luxor Temple:"
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [],
+         "text": " Start your exploration at Luxor Temple, an architectural masterpiece from the 18th and 19th dynasties. This temple exemplifies ancient Egyptian temple design and has been a witness to history's ebb and flow, from the Pharaohs to the Roman era."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000005",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Karnak Temple:"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": " Next, visit the expansive Karnak Temple, the largest religious building ever constructed. This complex is a testament to the devotion of many generations of builders, featuring a vast array of chapels, pylons, and obelisks that narrate the history of Theban gods and goddesses."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Valley of the Kings:"
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": " Proceed to the Valley of the Kings, the burial site of "
+        },
+        {
+         "_key": "000000000009",
+         "_type": "span",
+         "marks": [
+          "000000000008"
+         ],
+         "text": "Egypt’s"
+        },
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": " rulers from the 16th to the 11th century BC. This site includes the famous tomb of Tutankhamun, known for its intricate hieroglyphics and stunning tomb paintings."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000008",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "http://travel2egypt.org/egypt-on-the-go/"
+         },
+         "_type": "externalLink",
+         "href": "/egypt-on-the-go",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Valley of the Queens:"
+        },
+        {
+         "_key": "00000000000d",
+         "_type": "span",
+         "marks": [],
+         "text": " Explore "
+        },
+        {
+         "_key": "00000000000f",
+         "_type": "span",
+         "marks": [
+          "00000000000e"
+         ],
+         "text": "the Valley of the Queens"
+        },
+        {
+         "_key": "000000000010",
+         "_type": "span",
+         "marks": [],
+         "text": ", home to the tombs of royal consorts and offspring. The necropolis is highlighted by the exquisite Tomb of Nefertari, offering deep insights into the lives and legacies of Egypt’s royal women."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "00000000000e",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/luxor-travel-guide/the-valley-of-the-queens/"
+         },
+         "_type": "externalLink",
+         "href": "/guide/luxor/valley-of-the-queens",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000012",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Colossi of Memnon:"
+        },
+        {
+         "_key": "000000000013",
+         "_type": "span",
+         "marks": [],
+         "text": " Visit the Colossi of Memnon, two massive stone statues of Pharaoh Amenhotep III. These monumental statues have been standing for millennia, serving as a grand welcome to visitors."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000015",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Temple of Queen Hatshepsut:"
+        },
+        {
+         "_key": "000000000016",
+         "_type": "span",
+         "marks": [],
+         "text": " Conclude your tour at the mortuary temple of "
+        },
+        {
+         "_key": "000000000018",
+         "_type": "span",
+         "marks": [
+          "000000000017"
+         ],
+         "text": "Hatshepsut"
+        },
+        {
+         "_key": "000000000019",
+         "_type": "span",
+         "marks": [],
+         "text": ", Egypt’s first female pharaoh. Set against dramatic cliffs, the temple features terraces, chapels, and statues that honor her reign and divine lineage."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000017",
+         "_type": "externalLink",
+         "href": "https://en.wikipedia.org/wiki/Hatshepsut",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000006",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [
+          "strong",
+          "000000000000"
+         ],
+         "text": "Templo de Luxor"
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": ":"
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [],
+         "text": " Comienza tu exploración en el Templo de Luxor, una obra maestra arquitectónica de las dinastías XVIII y XIX."
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [],
+         "text": "Este templo ejemplifica el diseño de los antiguos templos egipcios y ha sido testigo del flujo y reflujo de la historia, desde los faraones hasta la época romana."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000000",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-luxor/el-templo-de-luxor/"
+         },
+         "_type": "externalLink",
+         "href": "/es/guide/luxor/el-templo-de-luxor",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Templo de Karnak:"
+        },
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": " A continuación, "
+        },
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [
+          "000000000009"
+         ],
+         "text": "visita el extenso Templo de Karnak"
+        },
+        {
+         "_key": "00000000000b",
+         "_type": "span",
+         "marks": [],
+         "text": ", el mayor edificio religioso jamás construido."
+        },
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000000d",
+         "_type": "span",
+         "marks": [],
+         "text": "Este complejo es un testimonio de la devoción de muchas generaciones de constructores, y presenta un vasto conjunto de capillas, pilones y obeliscos que narran la historia de los dioses y diosas tebanos."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000009",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/129-razones-para-visitar-el-templo-de-karnak/"
+         },
+         "_type": "externalLink",
+         "href": "/es/blog/129-razones-para-visitar-el-templo-de-karnak",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000f",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Valle de los Reyes:"
+        },
+        {
+         "_key": "000000000010",
+         "_type": "span",
+         "marks": [],
+         "text": " Dirígete al Valle de los Reyes, el lugar de enterramiento de los gobernantes "
+        },
+        {
+         "_key": "000000000012",
+         "_type": "span",
+         "marks": [],
+         "text": "de Egipto"
+        },
+        {
+         "_key": "000000000013",
+         "_type": "span",
+         "marks": [],
+         "text": " desde el siglo XVI al XI a.C."
+        },
+        {
+         "_key": "000000000014",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000015",
+         "_type": "span",
+         "marks": [],
+         "text": "Este lugar incluye la famosa tumba de Tutankamón, conocida por sus intrincados jeroglíficos e impresionantes pinturas funerarias."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000017",
+         "_type": "span",
+         "marks": [],
+         "text": "Valle de las Reinas: Explora el Valle de las Reinas, hogar de las tumbas de consortes y vástagos reales."
+        },
+        {
+         "_key": "000000000018",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000019",
+         "_type": "span",
+         "marks": [],
+         "text": "La necrópolis destaca por la exquisita Tumba de Nefertari, que ofrece una visión profunda de la vida y el legado de las mujeres de la realeza egipcia."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000001b",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Colosos de Memnon:"
+        },
+        {
+         "_key": "00000000001c",
+         "_type": "span",
+         "marks": [],
+         "text": " Visita los Colosos de Memnon, dos enormes estatuas de piedra del faraón Amenhotep III."
+        },
+        {
+         "_key": "00000000001d",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000001e",
+         "_type": "span",
+         "marks": [],
+         "text": "Estas estatuas monumentales llevan milenios en pie, sirviendo de grandiosa bienvenida a los visitantes."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000020",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Templo de la reina Hatshepsut:"
+        },
+        {
+         "_key": "000000000021",
+         "_type": "span",
+         "marks": [],
+         "text": " Concluye tu visita en el templo mortuorio de Hatshepsut, la primera mujer faraón de Egipto."
+        },
+        {
+         "_key": "000000000022",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000023",
+         "_type": "span",
+         "marks": [],
+         "text": "Situado entre espectaculares acantilados, el templo cuenta con terrazas, capillas y estatuas que honran su reinado y su linaje divino."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000002",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ルクソール神殿:"
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [],
+         "text": " まずは、18王朝および19王朝時代の建築の傑作であるルクソール神殿から旅を始めましょう。この神殿は古代エジプトの寺院建築の模範であり、ファラオ時代からローマ時代に至るまでの歴史の流れを見守ってきました。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000005",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "カルナック神殿:"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": " 次に訪れるのは、史上最大の宗教施設であるカルナック神殿。この壮大な複合施設は、多くの世代の建築家たちの信仰心を物語り、無数の礼拝堂、塔門、オベリスクがテーベの神々の歴史を物語っています。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "王家の谷:"
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": " 続いて、紀元前16世紀から紀元前11世紀にかけてエジプトの支配者たちが埋葬された王家の谷へ向かいます。特に、精巧なヒエログリフや見事な壁画で有名なツタンカーメンの墓が見どころです。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000009",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "王妃の谷:"
+        },
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": " 次に、王妃や王族の子供たちの墓がある王妃の谷を訪れます。このネクロポリスの中でも、ネフェルタリの墓は特に美しく、エジプトの王族女性たちの生涯や遺産について深い洞察を与えてくれます。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "メムノンの巨像:"
+        },
+        {
+         "_key": "00000000000d",
+         "_type": "span",
+         "marks": [],
+         "text": " ファラオ・アメンホテプ3世の巨大な石像、メムノンの巨像を訪れましょう。何千年もの間そびえ立ち、訪れる者を壮大に出迎えてきたこれらの像は圧巻です。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000f",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ハトシェプスト女王の神殿:"
+        },
+        {
+         "_key": "000000000010",
+         "_type": "span",
+         "marks": [],
+         "text": " 最後に、エジプト初の女性ファラオであるハトシェプストの葬祭殿を訪れます。断崖絶壁を背景にしたこの神殿は、テラス、礼拝堂、像などが彼女の治世と神聖な血統を讃えています。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "value": "The Ultimate Luxor Day Tour"
+    },
+    {
+     "_key": "es",
+     "value": "Día 1 Excursión de un día por Luxor"
+    },
+    {
+     "_key": "ja",
+     "value": "1日目 究極のルクソール日帰りツアー"
+    }
+   ]
+  }
+ ],
+ "durationDays": 1,
+ "durationHours": 8,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Full day · ~8–10 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Día completo · ~8–10 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "終日・約8〜10時間"
+  }
+ ],
+ "exclusions": [
+  {
+   "_key": "huhpkuwr3c",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Three tiers (Base / + Entrance Fees / + Entrance Fees & Lunch); Tutankhamun's tomb and Nefertari's tomb stay separate locally because of cap and quota.",
+   "text": "Tutankhamun's tomb (separate ticket)"
+  },
+  {
+   "_key": "jaut8ogm4z",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Three tiers (Base / + Entrance Fees / + Entrance Fees & Lunch); Tutankhamun's tomb and Nefertari's tomb stay separate locally because of cap and quota.",
+   "text": "Nefertari's tomb (separate, premium ticket)"
+  },
+  {
+   "_key": "josrd91c9a",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Egyptian entrance fees are revised often, so keeping them separate keeps the base fare honest.",
+   "text": "Entrance fees kept separate from the base fare"
+  },
+  {
+   "_key": "vydoy94umz",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La entrada estándar cubre tres tumbas; la de Tutankamón requiere boleto aparte, pero vale la pena, no por los tesoros (esos están ahora en el Gran Museo Egipcio de Guiza, que abrió completamente el 1 de noviembre de 2025) sino por la cámara funeraria pintada, pequeña y nítida, que conserva su color original con una intensidad inusual.",
+   "text": "Tumba de Tutankamón: requiere boleto aparte"
+  },
+  {
+   "_key": "o63k4y1hn9",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La entrada a la tumba de Nefertari requiere un boleto adicional con sobreprecio y está sujeta a cupo de visitantes; confirme disponibilidad por adelantado.",
+   "text": "Tumba de Nefertari: requiere boleto adicional con sobreprecio"
+  }
+ ],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 176,
+  "ja": 183
+ },
+ "heroImage": {
+  "_type": "image",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The colonnaded terraces of Hatshepsut's mortuary temple set against Deir el-Bahari's cliffs."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Las terrazas con columnas del templo funerario de Hatshepsut bajo los acantilados de Deir el-Bahari."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "デイル・エル・バハリの断崖を背にしたハトシェプスト葬祭殿の列柱テラス。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-f9cc4be42bd05ae52fb47bb8e7a8a3d622e00d38-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Hatshepsut's temple rises beneath the towering cliffs of Deir el-Bahari."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El templo de Hatshepsut se alza bajo los imponentes acantilados de Deir el-Bahari."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "そびえ立つ断崖の下に広がるハトシェプスト女王葬祭殿。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "1nmhvwrqhp",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A private, air-conditioned vehicle, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person are included in every tier.",
+   "text": "Private, air-conditioned vehicle (every tier)"
+  },
+  {
+   "_key": "nyh9l5s8ag",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A private, air-conditioned vehicle, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person are included in every tier.",
+   "text": "Licensed, English-speaking Egyptologist guide (every tier)"
+  },
+  {
+   "_key": "40cmqzdqrf",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A private, air-conditioned vehicle, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person are included in every tier.",
+   "text": "One bottle of mineral water per person (every tier)"
+  },
+  {
+   "_key": "id68p2yr0o",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all driving and logistics); Base + Entrance Fees (the same, plus standard entry to all six sites); and Base + Entrance Fees & Lunch (those entrance fees plus a midday meal).",
+   "text": "All driving and logistics (Base package)"
+  },
+  {
+   "_key": "fk5js4kjdz",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all driving and logistics); Base + Entrance Fees (the same, plus standard entry to all six sites); and Base + Entrance Fees & Lunch (those entrance fees plus a midday meal).",
+   "text": "Standard entry to all six sites (Base + Entrance Fees and Base + Entrance Fees & Lunch tiers only)"
+  },
+  {
+   "_key": "7qovxx5xig",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all driving and logistics); Base + Entrance Fees (the same, plus standard entry to all six sites); and Base + Entrance Fees & Lunch (those entrance fees plus a midday meal).",
+   "text": "Midday meal (Base + Entrance Fees & Lunch tier only)"
+  },
+  {
+   "_key": "vx3fneykdb",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cada nivel incluye vehículo privado con aire acondicionado, guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona.",
+   "text": "Vehículo privado con aire acondicionado"
+  },
+  {
+   "_key": "ljdlibabzy",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cada nivel incluye vehículo privado con aire acondicionado, guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona.",
+   "text": "Guía egiptólogo licenciado de habla hispana"
+  },
+  {
+   "_key": "0lqovo4zrv",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cada nivel incluye vehículo privado con aire acondicionado, guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona.",
+   "text": "Una botella de agua mineral por persona"
+  },
+  {
+   "_key": "7eyykla55s",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística de conducción); Base + entradas (lo anterior más el acceso estándar a los seis yacimientos); y Base + entradas y almuerzo (esas entradas más una comida al mediodía).",
+   "text": "Toda la logística de conducción (nivel Base)"
+  },
+  {
+   "_key": "tsaks2nqsu",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística de conducción); Base + entradas (lo anterior más el acceso estándar a los seis yacimientos); y Base + entradas y almuerzo (esas entradas más una comida al mediodía).",
+   "text": "Acceso estándar a los seis yacimientos (solo niveles Base + entradas y Base + entradas y almuerzo)"
+  },
+  {
+   "_key": "8aol5zsfyw",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística de conducción); Base + entradas (lo anterior más el acceso estándar a los seis yacimientos); y Base + entradas y almuerzo (esas entradas más una comida al mediodía).",
+   "text": "Comida al mediodía (solo nivel Base + entradas y almuerzo)"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/the-ultimate-luxor-day-tour/"
+ },
+ "priceFrom": 165,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_88178",
+   "_ref": "wp-page-88178",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88167",
+   "_ref": "wp-page-88167",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_esna_edfu_kom_ombo_temples_group_day_tour_from_luxor",
+   "_ref": "tour.esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88170",
+   "_ref": "wp-page-88170",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Fully private · own licensed Egyptologist · air-conditioned vehicle · early start by design · tiered pricing with optional entrance-fee bundle"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Estrictamente privado · egiptólogo licenciado propio · vehículo con aire acondicionado · salida temprana por diseño · tarifas por niveles con paquete de entradas opcional · Muy activo, con calor y terreno irregular"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "完全プライベート・専属のエジプト学ガイド・冷房付き車両・三段階の料金構成・両岸を一日で結ぶ密度"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Long full day, ≈8–10 hours across both banks"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Día completo largo, unas 8–10 horas entre las dos orillas"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "終日、およそ8〜10時間"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Luxor — Luxor Temple, Karnak, Valley of the Kings, Valley of the Queens, Colossi of Memnon, Hatshepsut at Deir el-Bahari"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Luxor: templo de Luxor, Karnak, Valle de los Reyes, Valle de las Reinas, Colosos de Memnón, Hatshepsut en Deir el-Bahari"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "ルクソール東岸（ルクソール神殿 → カルナック） → 西岸（王家の谷 → 王妃の谷／ネフェルタリ → メムノンの巨像 → ハトシェプスト葬祭殿）"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "the-ultimate-luxor-day-tour"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "el-gran-tour-de-luxor-en-un-dia"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "kyukyoku-no-rukusorudeitsua-muttsu-no-kinen-kenzo-butsu"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "From Karnak's forest of columns to the painted chambers of the Valley of the Kings — a serious full-day tour of ancient Thebes."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Del bosque de columnas de Karnak a las cámaras pintadas del Valle de los Reyes: un tour serio de día completo por la antigua Tebas, seis monumentos y una sola ciudad."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "カルナックの柱の森から王家の谷の彩色された墓室まで——古代テーベを巡る本格的な終日ツアー。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "The Ultimate Luxor Day Tour: Six Monuments, One Ancient City"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "El gran tour de Luxor en un día"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "究極のルクソール・デイツアー：六つの記念建造物、ひとつの古代都市"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}

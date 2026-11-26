@@ -1,0 +1,1169 @@
+{
+ "_createdAt": "2026-05-28T11:45:23Z",
+ "_id": "tour.gateway-to-the-past-luxor-airport-transfer",
+ "_rev": "pzh5FM4q1DBt3H4LGqNNJZ",
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:46Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "First-time arrivals, late landings, families with luggage, or anyone unwilling to negotiate a taxi rank after a long flight"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Primeras llegadas, aterrizajes tardíos, familias con equipaje o cualquier viajero que prefiera no negociar un taxi tras un vuelo largo"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "深夜便、長旅のあとのご家族や年配の方、ターミナルでの交渉に時間を割きたくないあらゆる旅人"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor Airport Transfer: The Practical Start to an Ancient City"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "There is nothing romantic about a bad arrival. You have cleared a long flight, possibly a connection, and you are standing in an unfamiliar terminal with luggage at your feet and no clear sense of what comes next. This transfer exists to solve that problem — nothing more, nothing less. It is a private airport-to-hotel run in Luxor, handled by a representative who meets you at the exit gate and puts you in an air-conditioned vehicle before the city's heat has a chance to disorient you."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor is not a city that eases you in gently. Step outside the terminal and you are already within a few kilometres of the East Bank's temple complexes — Karnak and Luxor Temple are essentially in the city centre — and a short drive from the Nile crossing that leads to the Valley of the Kings. The transfer does not stop at any of them. That is not its purpose. Its purpose is to get you to your hotel in one piece, with your luggage, and with your entry formalities explained in advance."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "This is the right choice for any traveller arriving alone, arriving late, or arriving for the first time and unwilling to negotiate an unfamiliar taxi rank after a long journey. It suits families with young children, older travellers, and anyone on a tight programme who cannot afford to lose an hour to confusion at the kerb."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "What the Transfer Holds"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "At the terminal — Visa and immigration."
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [],
+       "text": " Egypt issues tourist visas on arrival at Luxor Airport. Head directly to one of the bank counters inside the terminal — there are several — and purchase a visa stamp for USD 25, payable at the counter. Affix the stamp to a blank page in your passport, then proceed to the immigration desk to receive your arrival seal. This is standard procedure and moves reasonably quickly outside peak-season crush, though budget an extra fifteen to twenty minutes during busy periods."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Baggage claim."
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": " Follow the display screens to the correct belt for your flight. If a bag is delayed or missing, report it to the airline's baggage desk before leaving the secure area — your transfer representative will wait."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000012",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Meet and greet."
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [],
+       "text": " Once you have cleared the exit gate, look for a representative holding a sign with the Travel2Egypt name and your own. The meeting point is the arrivals hall, immediately beyond the exit. If you cannot locate the sign, do not leave the terminal — call the contact number provided in your booking confirmation."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The drive to your hotel."
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": " Your representative escorts you to a private, air-conditioned vehicle outside the terminal. The drive to central Luxor hotels on the East Bank takes roughly fifteen to twenty minutes under normal traffic; West Bank hotels and resorts on the outskirts may take a little longer. The vehicle is private — you are not sharing with other passengers — and the driver will handle your luggage."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "A Note on Luxor Airport"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor International Airport (LXE) is a single-terminal facility, compact by regional standards. The visa counters, immigration desks, and baggage claim are all on the ground floor and are straightforward to navigate. The arrivals hall is immediately past customs. There is no second floor to confuse the route; the flow is linear. If this is your first time in Egypt, the process is less complicated than it may appear on paper."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "The airport sits on the East Bank, roughly six kilometres north of Karnak Temple. This means that even the drive to your hotel offers an early, unannounced glimpse of the scale of the place — the Theban hills visible to the west, the Nile not far from the road, the density of a city that has been continuously inhabited for more than three thousand years and shows it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Not every part of a trip to Luxor needs to carry the weight of history."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Some of it just needs to work."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "A purely practical transfer — no monuments, no commentary, just a clean handover from terminal to hotel. The concierge can pair this with onward sightseeing or arrange a return departure transfer at the close of your trip."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000030",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "El traslado al aeropuerto de Luxor: el inicio práctico a una ciudad antigua"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "El servicio privado que resuelve la entrada y la salida sin convertir la logística en parte del recuerdo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "No hay nada de romántico en una llegada mal resuelta. Acaba uno de superar un vuelo largo, quizás una conexión, y se planta en una terminal desconocida con el equipaje a los pies y sin un mapa claro de lo que viene a continuación. Este traslado existe para resolver ese problema: ni más, ni menos. Es un servicio privado de aeropuerto a alojamiento en Luxor, gestionado por un representante que le recibe en la puerta de salida y le instala en un vehículo con aire acondicionado antes de que el calor de la ciudad tenga ocasión de desorientarle."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor no es una ciudad que reciba al visitante con suavidad. Basta salir de la terminal para estar ya a pocos kilómetros de los complejos templarios de la orilla oriental —Karnak y el templo de Luxor están prácticamente en el centro— y a un corto trayecto del cruce del Nilo que conduce al Valle de los Reyes. El traslado no se detiene en ninguno de ellos. No es su función. Su función es llevarle al hotel de una pieza, con su equipaje y con las formalidades de entrada explicadas por adelantado."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Es la opción adecuada para el viajero que llega solo, que aterriza tarde o que pisa Egipto por primera vez y no quiere negociar una parada de taxis ajena tras una jornada larga. Conviene a familias con niños pequeños, a viajeros mayores y a cualquiera que sostenga un programa apretado y no pueda permitirse perder una hora en confusión en la acera."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Qué contiene el traslado"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "En la terminal: visado e inmigración."
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [],
+       "text": " Egipto expide el visado de turista a la llegada al aeropuerto de Luxor. Diríjase directamente a uno de los mostradores bancarios dentro de la terminal —hay varios— y adquiera el sello de visado por 25 dólares estadounidenses, pagaderos en el mostrador. Fije el sello en una página en blanco de su pasaporte y pase después al puesto de inmigración para recibir el sello de entrada. Es el procedimiento estándar y avanza con razonable agilidad fuera de la temporada alta, aunque conviene contar con quince o veinte minutos adicionales en horas punta."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Recogida de equipaje."
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": " Siga las pantallas para identificar la cinta correspondiente a su vuelo. Si una maleta se retrasa o se ha extraviado, comuníquelo al mostrador de la aerolínea antes de abandonar el área segura: su representante esperará."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000014",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Recepción y acompañamiento."
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [],
+       "text": " Una vez cruzada la puerta de salida, busque a un representante con un cartel con el nombre de Travel2Egypt y el suyo propio. El punto de encuentro es la sala de llegadas, inmediatamente después de la salida. Si no logra ubicar el cartel, no abandone la terminal: llame al número de contacto facilitado en la confirmación de su reserva."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "El trayecto al alojamiento."
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": " Su representante le acompañará hasta un vehículo privado con aire acondicionado en el exterior de la terminal. El trayecto a los hoteles del centro de Luxor, en la orilla oriental, dura entre quince y veinte minutos en condiciones normales de tráfico; los hoteles de la orilla occidental y los complejos en las afueras pueden requerir algo más. El vehículo es privado —no se comparte con otros pasajeros— y el conductor se encargará de su equipaje."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Una nota sobre el aeropuerto de Luxor"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "El Aeropuerto Internacional de Luxor (LXE) es una instalación de una sola terminal, compacta para los estándares regionales. Los mostradores de visado, los puestos de inmigración y la recogida de equipaje se encuentran en la planta baja y son sencillos de transitar. La sala de llegadas queda inmediatamente después de aduanas. No hay una segunda planta que pueda confundir la ruta; el flujo es lineal. Si es su primera vez en Egipto, el proceso resulta menos complicado de lo que puede parecer sobre el papel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "El aeropuerto se ubica en la orilla oriental, a unos seis kilómetros al norte del templo de Karnak. Esto implica que incluso el trayecto al hotel ofrece una primera impresión, sin previo aviso, de la escala del lugar: los cerros tebanos visibles al oeste, el Nilo no lejos de la carretera y la densidad de una ciudad habitada de forma continua desde hace más de tres mil años, lo que se nota."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "No todo en un viaje a Luxor tiene por qué cargar con el peso de la historia."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Parte simplemente tiene que funcionar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Un traslado estrictamente práctico: ningún monumento, ningún comentario, solo un relevo limpio entre la terminal y el alojamiento. El concierge puede combinarlo con visitas posteriores u organizar el traslado de salida al cierre del viaje."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000034",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソール空港送迎：古代都市への、実務的な始まり"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "悪い到着には、ロマンチックなところは何もありません。長いフライトを、おそらくは乗り継ぎをも終え、見慣れないターミナルで足もとに荷物を置き、次に何が来るのかの見当もつかないまま立っている。この送迎は、その問題を解くためにあります——それ以上でも、それ以下でもありません。これはルクソールでの空港からホテルまでのプライベートの送迎で、出口ゲートでお客様をお迎えし、街の暑さがお客様を戸惑わせる隙を与える前に、冷房付きの車両にお乗せする係員が請け負います。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールは、やさしく手ほどきをしてくれる街ではありません。ターミナルの外へ一歩出れば、あなたはすでに東岸の神殿複合体から数キロメートルのうちにいて——カルナックとルクソール神殿は実質的に街の中心にあります——王家の谷へと続くナイルの渡しからは短いドライブの距離です。送迎はそのどこにも立ち寄りません。それはこの送迎の目的ではありません。その目的は、お客様を、荷物とともに、五体満足でホテルへお届けし、入国の手続きを前もってご説明しておくことです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "これは、ひとりで到着される方、遅くに到着される方、そして初めて到着し、長旅のあとに見慣れないタクシー乗り場で交渉する気になれない方にとって、正しい選択です。幼いお子様連れのご家族、年配の旅人、そして縁石での混乱に1時間を奪われる余裕のない、日程の詰まった方によく合います。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "送迎に含まれるもの"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000012",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ターミナルにて——ビザと入国審査。"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [],
+       "text": " エジプトはルクソール空港で到着時に観光ビザを発給します。ターミナル内の銀行窓口のひとつへ直接お進みください——いくつもあります——そして25ドルのビザのスタンプを購入し、窓口でお支払いください。スタンプをパスポートの空白ページに貼り、それから入国審査デスクへ進んで入国印を受け取ります。これは標準の手続きで、繁忙期の混雑を除けばほどよく速く進みますが、混み合う時間帯には15分から20分の余裕を見込んでください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "手荷物の受け取り。"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": " 表示画面に従って、お客様の便の正しいベルトへ。荷物が遅れたり見当たらなかったりした場合は、保安区域を出る前に航空会社の手荷物デスクへ届け出てください——送迎の係員がお待ちします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000018",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ミート・アンド・グリート。"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [],
+       "text": " 出口ゲートを抜けたら、Travel2Egypt の名とお客様ご自身のお名前を記した札を持つ係員をお探しください。集合場所は出口のすぐ向こう、到着ロビーです。札が見つからない場合は、ターミナルを離れず——ご予約確認書に記載の連絡先番号にお電話ください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ホテルへのドライブ。"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": " 係員がターミナルの外のプライベートの冷房付き車両へご案内します。東岸の中心部のルクソールのホテルへのドライブは、通常の交通状況でおよそ15分から20分です。西岸のホテルや郊外のリゾートは、もう少しかかることがあります。車両はプライベートで——ほかの乗客と相乗りすることはありません——ドライバーが荷物をお運びします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソール空港についての注記"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソール国際空港（LXE）は単一ターミナルの施設で、地域の基準ではこぢんまりとしています。ビザ窓口、入国審査デスク、そして手荷物の受け取りは、すべて1階にあり、進みやすい造りです。到着ロビーは税関のすぐ先です。経路を惑わせる二階はなく、流れは一直線です。エジプトが初めてでも、手続きは紙の上で見えるほど込み入ってはいません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "空港は東岸、カルナック神殿の北およそ6キロメートルに位置します。これは、ホテルへのドライブだけでも、この土地の規模の早い、不意の一瞥を差し出すことを意味します——西に見えるテーベの丘陵、道からほど近いナイル、そして三千年以上にわたって絶え間なく人が住み、それを物語る街の密度です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "ルクソールへの旅のすべての部分が、歴史の重みを担う必要はありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "なかには、ただちゃんと機能すればよい部分もあるのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "到着便の遅延への対応、ビザの現金準備、深夜の到着、複数のホテル間のはしご——コンシェルジュが、ターミナルからベッドまでの流れを途切れさせない段取りを整えます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000036",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58877",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "A transfer earns its keep in the small things — a named representative already at arrivals, a hand with the luggage, a straight answer on the visa queue. Tell us your flight number and whether your hotel sits on the East or West Bank, and the car will be matched to both."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Un traslado se gana el sueldo en las cosas pequeñas: un representante con tu nombre ya en llegadas, una mano con el equipaje, una respuesta clara sobre la cola del visado. Dinos tu número de vuelo y si tu hotel está en la orilla oriental o la occidental, y el coche estará ajustado a ambas cosas."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "送迎の価値は小さなことに宿ります——到着ロビーでお名前を掲げて待つ担当者、荷物への手助け、ビザの列についての明快な案内。フライト番号と、ホテルが東岸か西岸かをお知らせください。車の手配をその両方に合わせて整えます。"
+  }
+ ],
+ "durationHours": 2,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "~2 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "~2 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "約2時間"
+  }
+ ],
+ "exclusions": [
+  {
+   "_key": "4swk0f589d",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The transfer does not stop at any of them.",
+   "text": "The transfer does not stop at any of the temple sites"
+  },
+  {
+   "_key": "8chs2jbalx",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A purely practical transfer — no monuments, no commentary, just a clean handover from terminal to hotel.",
+   "text": "No monuments, no commentary"
+  },
+  {
+   "_key": "qr9dwd68cx",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El traslado no se detiene en ninguno de ellos.",
+   "text": "El traslado no se detiene en templos ni monumentos"
+  },
+  {
+   "_key": "7jvutwoub4",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Un traslado estrictamente práctico: ningún monumento, ningún comentario, solo un relevo limpio entre la terminal y el alojamiento.",
+   "text": "Ningún monumento, ningún comentario"
+  },
+  {
+   "_key": "5qmoum8su5",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "送迎はそのどこにも立ち寄りません。",
+   "text": "観光地への立ち寄りなし"
+  }
+ ],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 45,
+  "ja": 52
+ },
+ "inclusions": [
+  {
+   "_key": "gzecwji4op",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A private, air-conditioned transfer between Luxor Airport and your hotel — with a rep on the ground from the moment you land.",
+   "text": "Private, air-conditioned transfer between Luxor Airport and your hotel"
+  },
+  {
+   "_key": "wyo59jet4t",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "It is a private airport-to-hotel run in Luxor, handled by a representative who meets you at the exit gate and puts you in an air-conditioned vehicle before the city's heat has a chance to disorient you.",
+   "text": "Representative meets you at the exit gate"
+  },
+  {
+   "_key": "99lnssz5sv",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Once you have cleared the exit gate, look for a representative holding a sign with the Travel2Egypt name and your own.",
+   "text": "Meet and greet with a name sign"
+  },
+  {
+   "_key": "8v9leai5i9",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The vehicle is private — you are not sharing with other passengers — and the driver will handle your luggage.",
+   "text": "Private vehicle; the driver will handle your luggage"
+  },
+  {
+   "_key": "28rqok7slm",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Un traslado privado con aire acondicionado entre el aeropuerto de Luxor y el alojamiento, con un representante esperando desde el momento del aterrizaje.",
+   "text": "Traslado privado con aire acondicionado entre el aeropuerto de Luxor y el alojamiento"
+  },
+  {
+   "_key": "f5baz3yy7o",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Una vez cruzada la puerta de salida, busque a un representante con un cartel con el nombre de Travel2Egypt y el suyo propio.",
+   "text": "Representante con cartel en la sala de llegadas"
+  },
+  {
+   "_key": "dlvno9of6z",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Su representante le acompañará hasta un vehículo privado con aire acondicionado en el exterior de la terminal.",
+   "text": "Acompañamiento del representante hasta el vehículo"
+  },
+  {
+   "_key": "i2zdvawace",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El vehículo es privado —no se comparte con otros pasajeros— y el conductor se encargará de su equipaje.",
+   "text": "Vehículo privado, no compartido; el conductor se encarga del equipaje"
+  },
+  {
+   "_key": "7a01bgfb3u",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ルクソール空港とホテルのあいだのプライベートの冷房付き送迎——着いたその瞬間から、現地の係員がついています。",
+   "text": "ルクソール空港とホテルのあいだのプライベートの冷房付き送迎"
+  },
+  {
+   "_key": "8z6qnngcjc",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "これはルクソールでの空港からホテルまでのプライベートの送迎で、出口ゲートでお客様をお迎えし、街の暑さがお客様を戸惑わせる隙を与える前に、冷房付きの車両にお乗せする係員が請け負います。",
+   "text": "出口ゲートでの係員によるお出迎え"
+  },
+  {
+   "_key": "3db4jjb5g6",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "出口ゲートを抜けたら、Travel2Egypt の名とお客様ご自身のお名前を記した札を持つ係員をお探しください。",
+   "text": "ミート・アンド・グリート（お名前を記した札を持つ係員）"
+  },
+  {
+   "_key": "6qruob5yg4",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "車両はプライベートで——ほかの乗客と相乗りすることはありません——ドライバーが荷物をお運びします。",
+   "text": "プライベート車両（相乗りなし）、ドライバーが荷物をお運びします"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/gateway-to-the-past-luxor-airport-transfer/"
+ },
+ "priceFrom": 34,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_88178",
+   "_ref": "wp-page-88178",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88167",
+   "_ref": "wp-page-88167",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_esna_edfu_kom_ombo_temples_group_day_tour_from_luxor",
+   "_ref": "tour.esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88170",
+   "_ref": "wp-page-88170",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Fully private · named representative at the arrivals hall · luggage assistance · air-conditioned vehicle · visa-on-arrival guidance"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Estrictamente privado · representante asignado en sala de llegadas · asistencia con equipaje · vehículo con aire acondicionado · orientación sobre el visado a la llegada · Directo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "完全プライベート・到着ロビーで名札を持つ係員によるミート・アンド・グリート・冷房付き車両・手荷物のお手伝い込み"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "15–30 minutes on the road, plus meet-and-greet at arrivals"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "15–30 minutos en carretera, más la recepción en la sala de llegadas"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "片道、交通とホテルの位置によりおよそ15〜30分"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Luxor International Airport (LXE) → your Luxor hotel (East or West Bank)"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Aeropuerto Internacional de Luxor (LXE) → su alojamiento en Luxor (orilla oriental u occidental)"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "ルクソール国際空港（LXE） ↔ ルクソールのご滞在先（東岸・西岸・郊外リゾート）"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "gateway-to-the-past-luxor-airport-transfer"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "traslado-privado-desde-el-aeropuerto-de-luxor"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "rukusoru-kuko-sogei-tochaku-mo-shuppatsu-mo-kichinto"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A private, air-conditioned transfer between Luxor Airport and your hotel — with a rep on the ground from the moment you land."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Un traslado privado con aire acondicionado entre el aeropuerto de Luxor y el alojamiento, con un representante esperando desde el momento del aterrizaje."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ルクソール空港とホテルのあいだのプライベートの冷房付き送迎——着いたその瞬間から、現地の係員がついています。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Luxor Airport Transfer: Arrivals & Departures, Done Right"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Traslado privado desde el aeropuerto de Luxor"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ルクソール空港送迎：到着も出発も、きちんと"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}

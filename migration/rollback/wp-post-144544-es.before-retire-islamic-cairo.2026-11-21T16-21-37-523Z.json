@@ -1,0 +1,1785 @@
+{
+ "_createdAt": "2026-05-04T22:44:56Z",
+ "_id": "wp-post-144544-es",
+ "_rev": "FUEkhWHvgd2WF4Ii2rPeQU",
+ "_type": "article",
+ "_updatedAt": "2026-11-09T18:01:20Z",
+ "author": {
+  "_ref": "author-legacy-archive",
+  "_type": "reference"
+ },
+ "body": [
+  {
+   "_key": "000000000001",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "77ka1zmy5tts",
+     "_type": "span",
+     "marks": [],
+     "text": "Visita de un día al Museo Egipcio, "
+    },
+    {
+     "_key": "htj92f7aq05z",
+     "_type": "span",
+     "marks": [
+      "epbttmfu75gd"
+     ],
+     "text": "la Ciudadela de Saladino"
+    },
+    {
+     "_key": "drw6ba7946cq",
+     "_type": "span",
+     "marks": [],
+     "text": " y el Bazar"
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "epbttmfu75gd",
+     "_type": "internalLink",
+     "reference": {
+      "_ref": "guideArticle.cairo.the-citadel-of-saladin",
+      "_type": "reference"
+     }
+    }
+   ],
+   "style": "h2"
+  },
+  {
+   "_key": "000000000003",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000002",
+     "_type": "span",
+     "marks": [],
+     "text": "Galería"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000005",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000004",
+     "_type": "span",
+     "marks": [],
+     "text": "Vídeo"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000007",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000006",
+     "_type": "span",
+     "marks": [],
+     "text": "Precio"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "00000000000a",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000008",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "€17~€15"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "4"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000000e",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000000b",
+     "_type": "span",
+     "marks": [],
+     "text": " "
+    },
+    {
+     "_key": "00000000000c",
+     "_type": "span",
+     "marks": [],
+     "text": " Duración "
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "span",
+     "marks": [],
+     "text": " "
+    }
+   ],
+   "markDefs": [],
+   "style": "h3"
+  },
+  {
+   "_key": "000000000010",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000000f",
+     "_type": "span",
+     "marks": [],
+     "text": " 8 horas "
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000014",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000011",
+     "_type": "span",
+     "marks": [],
+     "text": " "
+    },
+    {
+     "_key": "000000000012",
+     "_type": "span",
+     "marks": [],
+     "text": " Max Personas "
+    },
+    {
+     "_key": "000000000013",
+     "_type": "span",
+     "marks": [],
+     "text": " "
+    }
+   ],
+   "markDefs": [],
+   "style": "h3"
+  },
+  {
+   "_key": "000000000016",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000015",
+     "_type": "span",
+     "marks": [],
+     "text": " 8 "
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000001a",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000017",
+     "_type": "span",
+     "marks": [],
+     "text": " "
+    },
+    {
+     "_key": "000000000018",
+     "_type": "span",
+     "marks": [],
+     "text": " Edad mínima "
+    },
+    {
+     "_key": "000000000019",
+     "_type": "span",
+     "marks": [],
+     "text": " "
+    }
+   ],
+   "markDefs": [],
+   "style": "h3"
+  },
+  {
+   "_key": "00000000001c",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000001b",
+     "_type": "span",
+     "marks": [],
+     "text": " 18+ "
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000020",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000001d",
+     "_type": "span",
+     "marks": [],
+     "text": " "
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "span",
+     "marks": [],
+     "text": " Tipo de visita "
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "span",
+     "marks": [],
+     "text": " "
+    }
+   ],
+   "markDefs": [],
+   "style": "h3"
+  },
+  {
+   "_key": "000000000022",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000021",
+     "_type": "span",
+     "marks": [],
+     "text": " Recorrido por el mercado histórico "
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000026",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000023",
+     "_type": "span",
+     "marks": [],
+     "text": " "
+    },
+    {
+     "_key": "000000000024",
+     "_type": "span",
+     "marks": [],
+     "text": " Comentarios "
+    },
+    {
+     "_key": "000000000025",
+     "_type": "span",
+     "marks": [],
+     "text": " "
+    }
+   ],
+   "markDefs": [],
+   "style": "h3"
+  },
+  {
+   "_key": "000000000029",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000027",
+     "_type": "span",
+     "marks": [],
+     "text": " "
+    },
+    {
+     "_key": "000000000028",
+     "_type": "span",
+     "marks": [],
+     "text": " 19 críticas "
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000002b",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000002a",
+     "_type": "span",
+     "marks": [],
+     "text": "Visión general"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "000000000044",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000002c",
+     "_type": "span",
+     "marks": [],
+     "text": "Excursión de un día al Museo Egipcio, "
+    },
+    {
+     "_key": "00000000002e",
+     "_type": "span",
+     "marks": [
+      "00000000002d"
+     ],
+     "text": "la"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "span",
+     "marks": [],
+     "text": " Ciudadela de Saladino y el Bazar"
+    },
+    {
+     "_key": "000000000030",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": ":"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "span",
+     "marks": [],
+     "text": "Adéntrate en un día de descubrimientos e intriga con nuestra» Excursión de un día al Museo Egipcio, la Ciudadela de Saladino y el Bazar. Tu viaje comienza en el mundialmente conocido Museo Egipcio, que alberga una incomparable colección de artefactos, incluidos los tesoros de "
+    },
+    {
+     "_key": "000000000033",
+     "_type": "span",
+     "marks": [
+      "000000000032"
+     ],
+     "text": "Tutankamón"
+    },
+    {
+     "_key": "000000000034",
+     "_type": "span",
+     "marks": [],
+     "text": " y objetos raros de toda la historia de "
+    },
+    {
+     "_key": "000000000036",
+     "_type": "span",
+     "marks": [
+      "000000000035"
+     ],
+     "text": "Egipto"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "span",
+     "marks": [],
+     "text": "."
+    },
+    {
+     "_key": "000000000038",
+     "_type": "span",
+     "marks": [],
+     "text": "\n"
+    },
+    {
+     "_key": "301h07ht7tv0",
+     "_type": "span",
+     "marks": [],
+     "text": "Continúa hacia la Ciudadela de Saladino, una fortaleza medieval que ofrece vistas panorámicas de "
+    },
+    {
+     "_key": "1h06gxmxibbu",
+     "_type": "span",
+     "marks": [
+      "3tjbrtuokmfw"
+     ],
+     "text": "El Cairo"
+    },
+    {
+     "_key": "97k6bc5u6wdy",
+     "_type": "span",
+     "marks": [],
+     "text": " y una mirada al pasado a través de sus majestuosas mezquitas y museos."
+    },
+    {
+     "_key": "00000000003a",
+     "_type": "span",
+     "marks": [],
+     "text": "\n"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "span",
+     "marks": [],
+     "text": "El día concluye con un vibrante paseo por uno de los bulliciosos bazares de "
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "span",
+     "marks": [
+      "00000000003c"
+     ],
+     "text": "El Cairo"
+    },
+    {
+     "_key": "00000000003e",
+     "_type": "span",
+     "marks": [],
+     "text": ", donde los aromas de las especias y el caleidoscopio de la artesanía ofrecen un final perfecto a tu recorrido exploratorio."
+    },
+    {
+     "_key": "00000000003f",
+     "_type": "span",
+     "marks": [],
+     "text": "\n"
+    },
+    {
+     "_key": "000000000040",
+     "_type": "span",
+     "marks": [],
+     "text": "Esta excursión resume la esencia de la rica historia y la vibrante cultura "
+    },
+    {
+     "_key": "000000000042",
+     "_type": "span",
+     "marks": [
+      "000000000041"
+     ],
+     "text": "de El Cairo"
+    },
+    {
+     "_key": "000000000043",
+     "_type": "span",
+     "marks": [],
+     "text": " en un solo día."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "00000000002d",
+     "_pendingInternalRef": {
+      "sourceLocale": "en",
+      "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-el-cairo/la-ciudadela-de-saladino/"
+     },
+     "_type": "externalLink",
+     "href": "/es/guide/el-cairo/la-ciudadela-de-saladino",
+     "newTab": false
+    },
+    {
+     "_key": "000000000032",
+     "_type": "externalLink",
+     "href": "https://es.wikipedia.org/wiki/Tutankam%C3%B3n",
+     "newTab": true
+    },
+    {
+     "_key": "000000000035",
+     "_pendingInternalRef": {
+      "sourceLocale": "en",
+      "wpUrl": "http://travel2egypt.org/es/egipto-y-el-mar-rojo/"
+     },
+     "_type": "externalLink",
+     "href": "/es/egypt-and-the-red-sea",
+     "newTab": false
+    },
+    {
+     "_key": "00000000003c",
+     "_pendingInternalRef": {
+      "sourceLocale": "en",
+      "wpUrl": "http://travel2egypt.org/es/crucero-integral-de-13-dias-por-el-nilo-de-el-cairo-a-luxor/"
+     },
+     "_type": "externalLink",
+     "href": "/es/pasaje-real-del-nilo-crucero-de-13-dias-de-el-cairo-a-luxor",
+     "newTab": false
+    },
+    {
+     "_key": "000000000041",
+     "_pendingInternalRef": {
+      "sourceLocale": "en",
+      "wpUrl": "https://travel2egypt.org/es/el-corazon-espiritual-de-el-cairo-excursion-islamica-de-un-dia-por-el-cairo/"
+     },
+     "_type": "externalLink",
+     "href": "/es/tour-privado-por-el-cairo-islamico-ciudadela-mezquitas-y-jan-el-jalili",
+     "newTab": false
+    },
+    {
+     "_key": "3tjbrtuokmfw",
+     "_type": "internalLink",
+     "reference": {
+      "_ref": "wp-page-83284",
+      "_type": "reference"
+     }
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000046",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000045",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Nota:"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "000000000049",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000047",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Calzado cómodo:"
+    },
+    {
+     "_key": "000000000048",
+     "_type": "span",
+     "marks": [],
+     "text": " Prepárate para caminar mucho durante las visitas, especialmente en los yacimientos arqueológicos."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000004f",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000004a",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Protección solar:"
+    },
+    {
+     "_key": "00000000004b",
+     "_type": "span",
+     "marks": [],
+     "text": " Equípate con gafas de sol, crema solar y un sombrero para disfrutar de tus "
+    },
+    {
+     "_key": "00000000004d",
+     "_type": "span",
+     "marks": [
+      "00000000004c"
+     ],
+     "text": "excursiones"
+    },
+    {
+     "_key": "00000000004e",
+     "_type": "span",
+     "marks": [],
+     "text": " bajo el sol egipcio."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "00000000004c",
+     "_pendingInternalRef": {
+      "sourceLocale": "en",
+      "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-qena/excursiones/"
+     },
+     "_type": "externalLink",
+     "href": "/es/guide/qena/excursiones-desde-qena",
+     "newTab": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000055",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000050",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Respeto cultural:"
+    },
+    {
+     "_key": "000000000051",
+     "_type": "span",
+     "marks": [],
+     "text": " Vístete con modestia cuando visites "
+    },
+    {
+     "_key": "000000000053",
+     "_type": "span",
+     "marks": [
+      "000000000052"
+     ],
+     "text": "lugares"
+    },
+    {
+     "_key": "000000000054",
+     "_type": "span",
+     "marks": [],
+     "text": " religiosos y prepárate para quitarte el calzado cuando sea necesario."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "000000000052",
+     "_pendingInternalRef": {
+      "sourceLocale": "en",
+      "wpUrl": "https://travel2egypt.org/es/guia-de-safaga/lugares/"
+     },
+     "_type": "externalLink",
+     "href": "/es/guide/safaga/lugares-de-safaga",
+     "newTab": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000005b",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000056",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Conectividad"
+    },
+    {
+     "_key": "000000000057",
+     "_type": "span",
+     "marks": [],
+     "text": ": La conexión Wi-Fi puede estar limitada en algunos lugares, "
+    },
+    {
+     "_key": "000000000059",
+     "_type": "span",
+     "marks": [
+      "000000000058"
+     ],
+     "text": "por lo que debes"
+    },
+    {
+     "_key": "00000000005a",
+     "_type": "span",
+     "marks": [],
+     "text": " asegurarte de tener descargadas de antemano todas las aplicaciones y la información necesarias."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "000000000058",
+     "_pendingInternalRef": {
+      "sourceLocale": "en",
+      "wpUrl": "https://travel2egypt.org/es/por-que-deberias-visitar-egipto-en-abril/"
+     },
+     "_type": "externalLink",
+     "href": "/es/blog/por-que-deberias-visitar-egipto-en-abril",
+     "newTab": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000061",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000005c",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Recogida en el hotel:"
+    },
+    {
+     "_key": "00000000005d",
+     "_type": "span",
+     "marks": [],
+     "text": " Prepárate en el vestíbulo de tu "
+    },
+    {
+     "_key": "00000000005f",
+     "_type": "span",
+     "marks": [
+      "00000000005e"
+     ],
+     "text": "hotel 15 minutos antes de"
+    },
+    {
+     "_key": "000000000060",
+     "_type": "span",
+     "marks": [],
+     "text": " la salida programada para las aventuras de cada día."
+    }
+   ],
+   "markDefs": [
+    {
+     "_key": "00000000005e",
+     "_pendingInternalRef": {
+      "sourceLocale": "en",
+      "wpUrl": "https://travel2egypt.org/es/hoteles-economicos-cerca-de-las-piramides/"
+     },
+     "_type": "externalLink",
+     "href": "/es/guide/guiza",
+     "newTab": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000063",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000062",
+     "_type": "span",
+     "marks": [],
+     "text": "Lo Que Siempre Está Incluido"
+    }
+   ],
+   "markDefs": [],
+   "style": "h3"
+  },
+  {
+   "_key": "000000000067",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000064",
+     "_type": "span",
+     "marks": [],
+     "text": "Cada tour con "
+    },
+    {
+     "_key": "000000000065",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Travel2Egypt"
+    },
+    {
+     "_key": "000000000066",
+     "_type": "span",
+     "marks": [],
+     "text": " incluye:"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000069",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000068",
+     "_type": "span",
+     "marks": [],
+     "text": "✅ Guía egiptólogo de habla española y vehículo privado"
+    }
+   ],
+   "level": 1,
+   "listItem": "bullet",
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000006b",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000006a",
+     "_type": "span",
+     "marks": [],
+     "text": "✅ Impuestos y cargos por servicio"
+    }
+   ],
+   "level": 1,
+   "listItem": "bullet",
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000006d",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000006c",
+     "_type": "span",
+     "marks": [],
+     "text": "✅ 1 botella de agua mineral por persona"
+    }
+   ],
+   "level": 1,
+   "listItem": "bullet",
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000079",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000006e",
+     "_type": "span",
+     "marks": [],
+     "text": "Servicios adicionales como "
+    },
+    {
+     "_key": "00000000006f",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "entradas"
+    },
+    {
+     "_key": "000000000070",
+     "_type": "span",
+     "marks": [],
+     "text": " y "
+    },
+    {
+     "_key": "000000000071",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "almuerzo"
+    },
+    {
+     "_key": "000000000072",
+     "_type": "span",
+     "marks": [],
+     "text": " dependen del paquete que elijas."
+    },
+    {
+     "_key": "000000000073",
+     "_type": "span",
+     "marks": [],
+     "text": "\n"
+    },
+    {
+     "_key": "000000000074",
+     "_type": "span",
+     "marks": [],
+     "text": "Por favor revisa las "
+    },
+    {
+     "_key": "000000000075",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "tres opciones de precios"
+    },
+    {
+     "_key": "000000000076",
+     "_type": "span",
+     "marks": [],
+     "text": " mostradas en el "
+    },
+    {
+     "_key": "000000000077",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "lado derecho"
+    },
+    {
+     "_key": "000000000078",
+     "_type": "span",
+     "marks": [],
+     "text": " de esta página:"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000007b",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000007a",
+     "_type": "span",
+     "marks": [],
+     "text": "🟠 Paquete Ra"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000007d",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000007c",
+     "_type": "span",
+     "marks": [],
+     "text": "– Guía egiptólogo de habla española"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000007f",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000007e",
+     "_type": "span",
+     "marks": [],
+     "text": "– Vehículo privado"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000081",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000080",
+     "_type": "span",
+     "marks": [],
+     "text": "🔵 Paquete Horus"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000083",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000082",
+     "_type": "span",
+     "marks": [],
+     "text": "– Guía egiptólogo de habla española"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000085",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000084",
+     "_type": "span",
+     "marks": [],
+     "text": "– Vehículo privado"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000087",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000086",
+     "_type": "span",
+     "marks": [],
+     "text": "– Entradas"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000089",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000088",
+     "_type": "span",
+     "marks": [],
+     "text": "🟡 Banquete del Faraón"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000008b",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000008a",
+     "_type": "span",
+     "marks": [],
+     "text": "– Guía egiptólogo de habla española"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000008d",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000008c",
+     "_type": "span",
+     "marks": [],
+     "text": "– Vehículo privado"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "00000000008f",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000008e",
+     "_type": "span",
+     "marks": [],
+     "text": "– Entradas"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000091",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000090",
+     "_type": "span",
+     "marks": [],
+     "text": "– Almuerzo"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000093",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000092",
+     "_type": "span",
+     "marks": [],
+     "text": "Cada paquete está diseñado para adaptarse a diferentes preferencias y presupuestos — elige el que mejor se ajuste a ti."
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000095",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000094",
+     "_type": "span",
+     "marks": [],
+     "text": "Plan de excursión de un día al Museo Egipcio, la Ciudadela de Saladino y el Bazar"
+    }
+   ],
+   "markDefs": [],
+   "style": "h3"
+  },
+  {
+   "_key": "000000000097",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000096",
+     "_type": "span",
+     "marks": [],
+     "text": "Día 1"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "000000000099",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "000000000098",
+     "_type": "span",
+     "marks": [],
+     "text": "Tesoros de El Cairo"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000a3",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "00000000009a",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "1. "
+    },
+    {
+     "_key": "00000000009c",
+     "_type": "span",
+     "marks": [
+      "00000000009b"
+     ],
+     "text": "Museo Egipcio de Antigüedades: Empieza el"
+    },
+    {
+     "_key": "00000000009d",
+     "_type": "span",
+     "marks": [],
+     "text": " día en el Museo Egipcio, un tesoro que alberga la mayor colección de artefactos del antiguo Egipto del mundo."
+    },
+    {
+     "_key": "00000000009e",
+     "_type": "span",
+     "marks": [],
+     "text": "\n"
+    },
+    {
+     "_key": "00000000009f",
+     "_type": "span",
+     "marks": [],
+     "text": "Déjate cautivar por los "
+    },
+    {
+     "_key": "0000000000a1",
+     "_type": "span",
+     "marks": [],
+     "text": "icónicos"
+    },
+    {
+     "_key": "0000000000a2",
+     "_type": "span",
+     "marks": [],
+     "text": " tesoros de Tutankamón y las momias reales de los faraones, cada artefacto narra relatos de la ilustre historia de Egipto."
+    }
+   ],
+   "level": 1,
+   "listItem": "bullet",
+   "markDefs": [
+    {
+     "_key": "00000000009b",
+     "_pendingInternalRef": {
+      "sourceLocale": "en",
+      "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-el-cairo/el-museo-egipcio/"
+     },
+     "_type": "externalLink",
+     "href": "/es/guide/el-cairo",
+     "newTab": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000aa",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000a4",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "2. "
+    },
+    {
+     "_key": "0000000000a6",
+     "_type": "span",
+     "marks": [
+      "0000000000a5"
+     ],
+     "text": "Bazar de Khan El Khalili: Avanza por las bulliciosas callejuelas de Khan El Khalili"
+    },
+    {
+     "_key": "0000000000a7",
+     "_type": "span",
+     "marks": [],
+     "text": ", uno de los mercados más famosos del mundo."
+    },
+    {
+     "_key": "0000000000a8",
+     "_type": "span",
+     "marks": [],
+     "text": "\n"
+    },
+    {
+     "_key": "0000000000a9",
+     "_type": "span",
+     "marks": [],
+     "text": "Experimenta el animado ambiente, las aromáticas especias y las vibrantes muestras de artesanía, joyería y recuerdos tradicionales egipcios."
+    }
+   ],
+   "level": 1,
+   "listItem": "bullet",
+   "markDefs": [
+    {
+     "_key": "0000000000a5",
+     "_pendingInternalRef": {
+      "sourceLocale": "en",
+      "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-el-cairo/bazar-khan-al-khalili/"
+     },
+     "_type": "externalLink",
+     "href": "/es/guide/el-cairo/khan-el-khalili",
+     "newTab": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000ab",
+   "_type": "image",
+   "alt": "Una momia egipcia antigua con vendajes de lino envejecido, expuesta en una vitrina de museo",
+   "asset": {
+    "_ref": "image-6b007c3a2e19b0c05da659a7bc0147c717457d2a-536x1000-webp",
+    "_type": "reference"
+   },
+   "caption": "Una vista de cerca de una momia cuidadosamente envuelta en lino y exhibida en una exposición de un museo."
+  },
+  {
+   "_key": "0000000000ad",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000ac",
+     "_type": "span",
+     "marks": [],
+     "text": "Elige Tu Experiencia"
+    }
+   ],
+   "markDefs": [],
+   "style": "h4"
+  },
+  {
+   "_key": "0000000000af",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000ae",
+     "_type": "span",
+     "marks": [],
+     "text": "Selecciona Paquete:"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000b1",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000b0",
+     "_type": "span",
+     "marks": [],
+     "text": "🟠 Paquete A – Guía + Vehículo Privado"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000b3",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000b2",
+     "_type": "span",
+     "marks": [],
+     "text": "🔵 Paquete B – Guía + Vehículo + Entradas"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000b5",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000b4",
+     "_type": "span",
+     "marks": [],
+     "text": "🟡 Paquete C – Experiencia Completa"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000b7",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000b6",
+     "_type": "span",
+     "marks": [],
+     "text": "🟠 Paquete A"
+    }
+   ],
+   "markDefs": [],
+   "style": "h4"
+  },
+  {
+   "_key": "0000000000ba",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000b8",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Duración:"
+    },
+    {
+     "_key": "0000000000b9",
+     "_type": "span",
+     "marks": [],
+     "text": " 8 Horas"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000bc",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000bb",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Incluye:"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000be",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000bd",
+     "_type": "span",
+     "marks": [],
+     "text": "✅ Guía egiptólogo de habla española"
+    }
+   ],
+   "level": 1,
+   "listItem": "bullet",
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000c0",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000bf",
+     "_type": "span",
+     "marks": [],
+     "text": "✅ Vehículo privado"
+    }
+   ],
+   "level": 1,
+   "listItem": "bullet",
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000c2",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000c1",
+     "_type": "span",
+     "marks": [
+      "strong"
+     ],
+     "text": "Precios:"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000c4",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000c3",
+     "_type": "span",
+     "marks": [],
+     "text": "Tamaño del grupo"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000c6",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000c5",
+     "_type": "span",
+     "marks": [],
+     "text": "1"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000c8",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000c7",
+     "_type": "span",
+     "marks": [],
+     "text": "2"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000ca",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000c9",
+     "_type": "span",
+     "marks": [],
+     "text": "3"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000cc",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000cb",
+     "_type": "span",
+     "marks": [],
+     "text": "4"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000ce",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000cd",
+     "_type": "span",
+     "marks": [],
+     "text": "5"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000d0",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000cf",
+     "_type": "span",
+     "marks": [],
+     "text": "6"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000d2",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000d1",
+     "_type": "span",
+     "marks": [],
+     "text": "7"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000d4",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000d3",
+     "_type": "span",
+     "marks": [],
+     "text": "8"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000d6",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000d5",
+     "_type": "span",
+     "marks": [],
+     "text": "Precio (€)"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000d8",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000d7",
+     "_type": "span",
+     "marks": [],
+     "text": "116"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000da",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000d9",
+     "_type": "span",
+     "marks": [],
+     "text": "58"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000dc",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000db",
+     "_type": "span",
+     "marks": [],
+     "text": "41"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000de",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000dd",
+     "_type": "span",
+     "marks": [],
+     "text": "33"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000e0",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000df",
+     "_type": "span",
+     "marks": [],
+     "text": "26"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000e2",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000e1",
+     "_type": "span",
+     "marks": [],
+     "text": "22"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000e4",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000e3",
+     "_type": "span",
+     "marks": [],
+     "text": "19"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000e6",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000e5",
+     "_type": "span",
+     "marks": [],
+     "text": "17"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  },
+  {
+   "_key": "0000000000e8",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000e7",
+     "_type": "span",
+     "marks": [],
+     "text": "Consulta sobre el Tour"
+    }
+   ],
+   "markDefs": [],
+   "style": "h2"
+  },
+  {
+   "_key": "0000000000ea",
+   "_type": "block",
+   "children": [
+    {
+     "_key": "0000000000e9",
+     "_type": "span",
+     "marks": [],
+     "text": "Editar formulario"
+    }
+   ],
+   "markDefs": [],
+   "style": "normal"
+  }
+ ],
+ "category": {
+  "_ref": "category-destination-depth",
+  "_type": "reference"
+ },
+ "deck": "Visita de un día al Museo Egipcio, la Ciudadela de Saladino y el Bazar Galería Vídeo Precio €17~€154 Duración 8 horas Max Personas 8 Edad mínima 18+ Tipo de visita Recorrido por el mercado histórico Comentarios 19 críticas Visión general Excursión de un día al Museo Egipcio, la C...",
+ "heroImage": {
+  "alt": "Cúpulas y minaretes de las mezquitas Sultán Hassan y Al-Rifai sobre el vasto horizonte de El Cairo",
+  "asset": {
+   "_ref": "image-c37b457ac4493a61078fdb708f51847d256f3e40-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": "Las mezquitas gemelas de Sultán Hassan y Al-Rifai anclan un panorama brumoso del viejo Cairo visto desde la Ciudadela."
+ },
+ "language": "es",
+ "migration": {
+  "deckNeedsReview": true,
+  "migratedAt": "2026-05-04T23:04:58.663Z",
+  "reviewFlag": "category-orphan",
+  "source": "wp-import",
+  "wpAuthorId": 2,
+  "wpId": 87870,
+  "wpModifiedAt": "2026-04-16T16:49:06",
+  "wpTemplate": "elementor_header_footer",
+  "wpUrl": "https://travel2egypt.org/egyptian-museum-citadel-and-khan-el-khalili-bazaar/"
+ },
+ "publishedAt": "2024-02-15T12:21:18",
+ "relatedCities": [
+  {
+   "_key": "wv9ydwvcu1s",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "seo": {
+  "metaDescription": "Explora \"Los Tesoros de El Cairo: Excursión de un día por el Museo Egipcio, la Ciudadela y el Bazar\", para descubrir la rica historia y la vibrante cultura de la capital de Egipto.",
+  "metaTitle": ""
+ },
+ "slug": {
+  "_type": "slug",
+  "current": "tesoros-de-el-cairo-visita-de-un-dia-al-museo-egipcio-la-ciudadela-y-el-bazar"
+ },
+ "title": "Tesoros de El Cairo: Visita de un día al Museo Egipcio, la Ciudadela y el Bazar"
+}

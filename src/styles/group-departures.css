@@ -1,0 +1,37 @@
+/* Group departures calendar (/group-departures, 2026-11-24). Rides on the hub's .tour-doc variables. */
+.lvl-gd .gd-head { padding: 28px 0 8px; max-width: 760px; }
+.lvl-gd .gd-count { font-family: var(--ui); font-size: 13px; letter-spacing: .04em; color: var(--navy-mute); margin-top: 14px; }
+.lvl-gd .gd-months { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; padding: 18px 0 8px; border-bottom: 1px solid var(--rule); }
+.lvl-gd .gd-months-label { font-family: var(--ui); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--navy-mute); }
+.lvl-gd .gd-months ul { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; margin: 0; padding: 0; }
+.lvl-gd .gd-months a { display: inline-block; font-family: var(--ui); font-size: 13px; color: var(--navy); text-decoration: none; border: 1px solid var(--rule); padding: 7px 14px; transition: .2s; }
+.lvl-gd .gd-months a:hover { background: var(--navy); color: var(--paper); border-color: var(--navy); }
+.lvl-gd .gd-month { padding-top: 34px; }
+.lvl-gd .gd-month h2 { font-family: var(--display); font-size: 28px; color: var(--navy); margin: 0 0 6px; font-weight: 400; }
+.lvl-gd .gd-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--rule); }
+.lvl-gd .gd-row { display: grid; grid-template-columns: 1.1fr 2fr .9fr .9fr auto; gap: 20px; align-items: center; padding: 16px 0; border-bottom: 1px solid var(--rule-soft); }
+.lvl-gd .gd-date { font-family: var(--display); font-size: 20px; color: var(--navy); line-height: 1.15; }
+.lvl-gd .gd-tour { display: flex; flex-direction: column; gap: 3px; }
+.lvl-gd .gd-title { font-family: var(--display); font-size: 19px; color: var(--navy); text-decoration: none; line-height: 1.2; }
+.lvl-gd .gd-title:hover { text-decoration: underline; }
+.lvl-gd .gd-days { font-family: var(--ui); font-size: 12px; color: var(--navy-mute); letter-spacing: .04em; }
+.lvl-gd .gd-status { font-family: var(--ui); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; display: flex; flex-direction: column; gap: 3px; }
+.lvl-gd .gd-status.s-ok { color: #4a6b4f; }
+.lvl-gd .gd-status.s-few { color: #9a6b2f; }
+.lvl-gd .gd-status.s-open, .lvl-gd .gd-status.s-out, .lvl-gd .gd-status.s-req { color: var(--navy-mute); }
+.lvl-gd .gd-peak { color: #9a6b2f; }
+.lvl-gd .gd-price { font-family: var(--display); font-size: 20px; color: var(--navy); }
+.lvl-gd .gd-price small { font-family: var(--ui); font-size: 11px; color: var(--navy-mute); display: block; letter-spacing: .04em; }
+.lvl-gd .gd-go { font-family: var(--ui); font-size: 12px; letter-spacing: .04em; text-decoration: none; color: var(--navy); border: 1px solid var(--rule); padding: 9px 16px; white-space: nowrap; transition: .2s; }
+.lvl-gd .gd-go:hover { background: var(--navy); color: var(--paper); border-color: var(--navy); }
+.lvl-gd .gd-row.is-out { opacity: .55; }
+.lvl-gd .gd-row.is-out .gd-date { text-decoration: line-through; }
+.lvl-gd .gd-note { font-family: var(--ui); font-size: 13px; color: var(--navy-mute); max-width: 760px; margin: 36px 0 8px; line-height: 1.6; }
+.lvl-gd .gd-more { margin: 0 0 56px; font-family: var(--ui); font-size: 14px; }
+.lvl-gd .gd-empty { font-family: var(--ui); font-size: 15px; padding: 40px 0; color: var(--navy); }
+@media (max-width: 820px) {
+  .lvl-gd .gd-row { grid-template-columns: 1fr auto; gap: 6px 16px; }
+  .lvl-gd .gd-date, .lvl-gd .gd-tour, .lvl-gd .gd-status, .lvl-gd .gd-price { grid-column: 1; }
+  .lvl-gd .gd-go { grid-row: 1 / span 4; grid-column: 2; align-self: center; }
+}
+html[lang='ja'] .lvl-gd .gd-price { font-size: 16px; white-space: nowrap; }
