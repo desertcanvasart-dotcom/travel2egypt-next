@@ -2339,7 +2339,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/the-romantic-egypt-tour",
-    "destination": "/ja/nairu-ni-yorisou-10-nichikan-romantikkuejiputotsua",
+    "destination": "/ja/nairudorima-10-nichikan-kairo-asuwan-nairu-gawa-kuruzu",
     "permanent": true
   },
   {
@@ -2409,7 +2409,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/egypt-and-the-nile-tour",
-    "destination": "/ja/fa-rao-no-isan-ejiputo-to-nairu-10-nichikan",
+    "destination": "/ja/nairudorima-10-nichikan-kairo-asuwan-nairu-gawa-kuruzu",
     "permanent": true
   },
   {
@@ -7249,7 +7249,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/the-romantic-egypt-tour",
-    "destination": "/es/amor-sobre-el-nilo-viaje-romantico-por-egipto-en-10-dias",
+    "destination": "/es/nile-dreamer-10-dias-con-el-nilo-como-eje-del-viaje",
     "permanent": true
   },
   {
@@ -7319,7 +7319,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/egypt-and-the-nile-tour",
-    "destination": "/es/legado-de-los-faraones-egipto-y-el-nilo-en-10-dias",
+    "destination": "/es/nile-dreamer-10-dias-con-el-nilo-como-eje-del-viaje",
     "permanent": true
   },
   {
@@ -10399,37 +10399,37 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/10-day-romantic-egypt-travel-deals",
-    "destination": "/the-romantic-egypt-tour",
+    "destination": "/10-days-nile-dreamer-tour-experience",
     "permanent": true
   },
   {
     "source": "/10-day-romantic-egypt-travel-deals-from-india",
-    "destination": "/the-romantic-egypt-tour",
+    "destination": "/10-days-nile-dreamer-tour-experience",
     "permanent": true
   },
   {
     "source": "/es/amor-en-el-nilo-ofertas-de-viaje-romantico-por-egipto-de-10-dias-desde-india",
-    "destination": "/es/amor-sobre-el-nilo-viaje-romantico-por-egipto-en-10-dias",
+    "destination": "/es/nile-dreamer-10-dias-con-el-nilo-como-eje-del-viaje",
     "permanent": true
   },
   {
     "source": "/ja/nairu-gawa-no-koi-indo-hatsu-10-nichikan-no",
-    "destination": "/ja/nairu-ni-yorisou-10-nichikan-romantikkuejiputotsua",
+    "destination": "/ja/nairudorima-10-nichikan-kairo-asuwan-nairu-gawa-kuruzu",
     "permanent": true
   },
   {
     "source": "/10-day-romantic-egypt-deals-from-spain",
-    "destination": "/the-romantic-egypt-tour",
+    "destination": "/10-days-nile-dreamer-tour-experience",
     "permanent": true
   },
   {
     "source": "/es/amor-en-el-nilo-ofertas-de-viaje-romantico-por-egipto-de-10-dias-desde-espana",
-    "destination": "/es/amor-sobre-el-nilo-viaje-romantico-por-egipto-en-10-dias",
+    "destination": "/es/nile-dreamer-10-dias-con-el-nilo-como-eje-del-viaje",
     "permanent": true
   },
   {
     "source": "/ja/nairu-gawa-no-koi-supein-hatsu-10-nichikan-no",
-    "destination": "/ja/nairu-ni-yorisou-10-nichikan-romantikkuejiputotsua",
+    "destination": "/ja/nairudorima-10-nichikan-kairo-asuwan-nairu-gawa-kuruzu",
     "permanent": true
   },
   {
@@ -19319,7 +19319,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/amor-sobre-el-nilo-viaje-romantico-por-egipto-en-10-dias",
-    "destination": "/the-romantic-egypt-tour",
+    "destination": "/10-days-nile-dreamer-tour-experience",
     "permanent": true
   },
   {
@@ -19539,7 +19539,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/10-days-eternal-egypt-tour",
-    "destination": "/es/maravillas-eternas-excursion-de-10-dias-al-egipto-eterno",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
     "permanent": true
   },
   {
@@ -23609,7 +23609,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/時を超えた驚異：10日間の永遠のエジプトツアー",
-    "destination": "/ja/toki-o-koe-ta-kyoi-10-nichikan-no-eien-no-ejiputo-tsua",
+    "destination": "/ja/honshitsu-no-ejiputo-giza-kara-nubia-no-minami-made-10",
     "permanent": true
   },
   {
@@ -27189,7 +27189,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/ナイルの愛：ロマンチックなエジプト10日間ツアー",
-    "destination": "/ja/nairu-ni-yorisou-10-nichikan-romantikkuejiputotsua",
+    "destination": "/ja/nairudorima-10-nichikan-kairo-asuwan-nairu-gawa-kuruzu",
     "permanent": true
   },
   {
@@ -29219,7 +29219,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/10-day-romantic-egypt-travel-deals-from-germany",
-    "destination": "/the-romantic-egypt-tour",
+    "destination": "/10-days-nile-dreamer-tour-experience",
     "permanent": true
   },
   {
@@ -29834,7 +29834,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/ファラオの遺産：10日間のエジプト＆ナイルツアー",
-    "destination": "/ja/fa-rao-no-isan-ejiputo-to-nairu-10-nichikan",
+    "destination": "/ja/nairudorima-10-nichikan-kairo-asuwan-nairu-gawa-kuruzu",
     "permanent": true
   },
   {
@@ -30229,7 +30229,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/amor-en-el-nilo-viaje-de-10-dias-al-egipto-romantico",
-    "destination": "/es/amor-sobre-el-nilo-viaje-romantico-por-egipto-en-10-dias",
+    "destination": "/es/nile-dreamer-10-dias-con-el-nilo-como-eje-del-viaje",
     "permanent": true
   },
   {
@@ -30845,6 +30845,51 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/15-nichikan-no-rukusoru-nairu-kuruzu-no-kyuka-rukusoru-nairu",
     "destination": "/ja/kairo-to-nairu-kuruzu-no-ofuku-11-nichikan-piramiddo-kawa",
+    "permanent": true
+  },
+  {
+    "source": "/10-days-eternal-egypt-tour",
+    "destination": "/10-day-egypt-cairo-alexandria-luxor-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/maravillas-eternas-excursion-de-10-dias-al-egipto-eterno",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/toki-o-koe-ta-kyoi-10-nichikan-no-eien-no-ejiputo-tsua",
+    "destination": "/ja/honshitsu-no-ejiputo-giza-kara-nubia-no-minami-made-10",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-and-the-nile-tour",
+    "destination": "/10-days-nile-dreamer-tour-experience",
+    "permanent": true
+  },
+  {
+    "source": "/es/legado-de-los-faraones-egipto-y-el-nilo-en-10-dias",
+    "destination": "/es/nile-dreamer-10-dias-con-el-nilo-como-eje-del-viaje",
+    "permanent": true
+  },
+  {
+    "source": "/ja/fa-rao-no-isan-ejiputo-to-nairu-10-nichikan",
+    "destination": "/ja/nairudorima-10-nichikan-kairo-asuwan-nairu-gawa-kuruzu",
+    "permanent": true
+  },
+  {
+    "source": "/the-romantic-egypt-tour",
+    "destination": "/10-days-nile-dreamer-tour-experience",
+    "permanent": true
+  },
+  {
+    "source": "/es/amor-sobre-el-nilo-viaje-romantico-por-egipto-en-10-dias",
+    "destination": "/es/nile-dreamer-10-dias-con-el-nilo-como-eje-del-viaje",
+    "permanent": true
+  },
+  {
+    "source": "/ja/nairu-ni-yorisou-10-nichikan-romantikkuejiputotsua",
+    "destination": "/ja/nairudorima-10-nichikan-kairo-asuwan-nairu-gawa-kuruzu",
     "permanent": true
   }
 ];

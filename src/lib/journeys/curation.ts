@@ -47,7 +47,6 @@ export const CURATION: Record<JourneyKey, JourneyCuration> = {
       // something the essay leaves out of a first trip).
       { slug: "epic-egyptian-escape-a-7-day-adventure-from-pyramids-to-pharaohs", why: { en: "Egypt's essential spine in one week — Cairo, the night train south, a three-night Nile cruise and Luxor." }, needsReview: false },
       { slug: "10-days-nile-dreamer-tour-experience", why: { en: "Cairo, the sleeper train south, three nights cruising from Aswan to Luxor, and the Theban temples." }, needsReview: false },
-      { slug: "egypt-and-the-nile-tour", why: { en: "Ten days for a first trip that wants depth alongside breadth, with Coptic and Islamic Cairo." }, needsReview: false },
     ],
     hero: { asset: "image-138b5c47b76cd8adafa1cb16b9cee3d2baf4da04-3000x2000-jpg", alt: {"en": "A motorboat on the Nile passes the Old Cataract hotel on the Aswan riverbank.", "es": "Una lancha en el Nilo pasa frente al hotel Old Cataract en la orilla de Asuán.", "ja": "ナイル川を進むボートと、アスワンの川辺に立つオールド・カタラクト・ホテル。"}, needsReview: false },
     subheadings: [
