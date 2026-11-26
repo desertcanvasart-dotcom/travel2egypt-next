@@ -1,0 +1,474 @@
+{
+ "_createdAt": "2026-11-14T21:49:51Z",
+ "_id": "tourLanding.country-spain",
+ "_rev": "Diy5hR5xdyNL9ltiZPOX06",
+ "_type": "tourLanding",
+ "_updatedAt": "2026-11-24T18:33:45Z",
+ "category": {
+  "_ref": "tourCategory.private-package",
+  "_type": "reference"
+ },
+ "faq": [
+  {
+   "_key": "faq-spain-1",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "b3x",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s3y",
+         "_type": "span",
+         "marks": [],
+         "text": "Sí. Los viajeros con pasaporte español obtienen el visado a la llegada. Las condiciones y las tarifas pueden cambiar, así que conviene comprobarlas en la web oficial de visados de Egipto antes de viajar."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Necesitan visado los españoles para viajar a Egipto?"
+    }
+   ]
+  },
+  {
+   "_key": "faq-spain-2",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "b3z",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s40",
+         "_type": "span",
+         "marks": [],
+         "text": "Sí. Ofrecemos guías de habla hispana. Su tarifa es más alta que la de un guía de habla inglesa."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Los viajes tienen guía en español?"
+    }
+   ]
+  },
+  {
+   "_key": "faq-spain-3",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "b41",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s42",
+         "_type": "span",
+         "marks": [],
+         "text": "Sí, con un buen horario. En agosto hace mucho calor en el Alto Egipto, por eso organizamos las visitas a primera hora de la mañana y por la tarde, según el destino, para evitar las horas de más calor."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Es buena idea viajar en agosto?"
+    }
+   ]
+  },
+  {
+   "_key": "faq-spain-4",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "b43",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s44",
+         "_type": "span",
+         "marks": [],
+         "text": "Tenemos salidas en grupo reducido para viajeros de habla hispana, pero la mayoría de nuestros viajeros españoles prefiere un viaje privado, que empieza el día que elijas."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Privado o en grupo reducido?"
+    }
+   ]
+  },
+  {
+   "_key": "faq-spain-5",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "b45",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s46",
+         "_type": "span",
+         "marks": [],
+         "text": "Sí. Navidad, Año Nuevo y Semana Santa son fechas de temporada alta en Egipto. Las salidas programadas en esas fechas suelen costar un 30 % más. Los viajes privados también se encarecen en esas mismas fechas."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Cambian los precios según la temporada?"
+    }
+   ]
+  }
+ ],
+ "intro": [
+  {
+   "_key": "es",
+   "value": [
+    {
+     "_key": "b3p",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s3q",
+       "_type": "span",
+       "marks": [],
+       "text": "Organizar el viaje desde España"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "b3r",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s3s",
+       "_type": "span",
+       "marks": [],
+       "text": "Hay vuelos directos a El Cairo desde Madrid y Barcelona con EgyptAir e Iberia, y los viajeros con pasaporte español obtienen el visado a la llegada."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b3t",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s3u",
+       "_type": "span",
+       "marks": [],
+       "text": "Con cinco días funciona un viaje centrado en El Cairo, Guiza y Alejandría, o con base en Asuán. Con siete, El Cairo se une a Luxor y Asuán. Con diez, entra Abu Simbel y queda tiempo para profundizar en cada lugar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b3v",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s3w",
+       "_type": "span",
+       "marks": [],
+       "text": "Julio, agosto y el puente de diciembre son las fechas con más viajeros desde España. En agosto hace mucho calor en el sur, así que organizamos las visitas a primera hora de la mañana y por la tarde, según el destino, para evitar las horas centrales."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "journalRefs": [
+  {
+   "_key": "j5g",
+   "_ref": "wp-post-144449-es",
+   "_type": "reference"
+  }
+ ],
+ "relatedTours": [
+  {
+   "_key": "t47",
+   "_ref": "tour.10-day-egypt-group-tour-cairo-nile-red-sea",
+   "_type": "reference"
+  },
+  {
+   "_key": "t49",
+   "_ref": "wp-page-136566",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4a",
+   "_ref": "tour.western-desert-djara-and-obeiyed-caves",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4b",
+   "_ref": "tour.cairo-alexandria-city-break-5-days",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4c",
+   "_ref": "wp-page-90411",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4d",
+   "_ref": "wp-page-90425",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4f",
+   "_ref": "wp-page-89510",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4g",
+   "_ref": "tour.agatha-dahabiya-journey-along-the-nile",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4h",
+   "_ref": "tour.7-days-dahabiya-nile-cruise-from-aswan-to-luxor",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4i",
+   "_ref": "tour.7-days-luxor-to-aswan-dahabiya-cruise",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4j",
+   "_ref": "tour.7-days-luxury-dahabiya-cruise-on-the-nile",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4k",
+   "_ref": "tour.7-days-luxury-dahabiya-nile-cruise",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4l",
+   "_ref": "tour.7-days-of-splendor-exploring-the-nile-on-a-roman-dahabiya",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4m",
+   "_ref": "tour.adelaide-dahabiya-nile-cruise",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4o",
+   "_ref": "wp-page-136519",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4p",
+   "_ref": "wp-page-155539",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4q",
+   "_ref": "tour.the-pearl-of-red-sea-hurghada",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4r",
+   "_ref": "tour.8-days-best-of-egypt-tour-package",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4s",
+   "_ref": "wp-page-86844",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4u",
+   "_ref": "wp-page-86867",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4v",
+   "_ref": "wp-page-88972",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4w",
+   "_ref": "wp-page-89436",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4x",
+   "_ref": "wp-page-89649",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4y",
+   "_ref": "wp-page-90450",
+   "_type": "reference"
+  },
+  {
+   "_key": "t4z",
+   "_ref": "wp-page-237732",
+   "_type": "reference"
+  },
+  {
+   "_key": "t50",
+   "_ref": "wp-page-89895",
+   "_type": "reference"
+  },
+  {
+   "_key": "t51",
+   "_ref": "wp-page-86855",
+   "_type": "reference"
+  },
+  {
+   "_key": "t52",
+   "_ref": "wp-page-89435",
+   "_type": "reference"
+  },
+  {
+   "_key": "t55",
+   "_ref": "wp-page-87255",
+   "_type": "reference"
+  },
+  {
+   "_key": "t56",
+   "_ref": "wp-page-86857",
+   "_type": "reference"
+  },
+  {
+   "_key": "t58",
+   "_ref": "wp-page-89005",
+   "_type": "reference"
+  },
+  {
+   "_key": "t59",
+   "_ref": "wp-page-89343",
+   "_type": "reference"
+  },
+  {
+   "_key": "t5a",
+   "_ref": "wp-page-89376",
+   "_type": "reference"
+  },
+  {
+   "_key": "t5b",
+   "_ref": "wp-page-89602",
+   "_type": "reference"
+  },
+  {
+   "_key": "t5c",
+   "_ref": "wp-page-89015",
+   "_type": "reference"
+  },
+  {
+   "_key": "t5d",
+   "_ref": "wp-page-89619",
+   "_type": "reference"
+  },
+  {
+   "_key": "t5e",
+   "_ref": "wp-page-89438",
+   "_type": "reference"
+  }
+ ],
+ "seo": {
+  "metaDescription": [
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayTextValue",
+    "value": "Viajes a Egipto desde España de cinco a diez días, con vuelo directo desde Madrid o Barcelona y guía de habla hispana. Privados en tus fechas o en grupo reducido."
+   }
+  ],
+  "metaTitle": [
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Viajes a Egipto desde España: circuitos privados y en grupo con guía en español"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "tours-a-egipto-desde-espana"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Desde España, Egipto queda a un vuelo directo: EgyptAir e Iberia vuelan a El Cairo desde Madrid y Barcelona. Por eso bastan entre cinco y diez días. Los viajes de esta página duran de cinco a diez días, con guía de habla hispana, privados en las fechas que elijas o en grupo reducido."
+  }
+ ],
+ "themeRef": {
+  "_ref": "theme-country-spain",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Viajes a Egipto desde España"
+  }
+ ]
+}
