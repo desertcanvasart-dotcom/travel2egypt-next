@@ -1569,7 +1569,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/8-days-best-of-egypt-tour-package",
-    "destination": "/ja/ejiputo-hairaito-8-nichikan-kairo-abu-shin-beru-nairu",
+    "destination": "/ja/8-nichikan-kairo-nairu-kuruzu-tsua-piramiddo-kawa-rukusoru",
     "permanent": true
   },
   {
@@ -2019,7 +2019,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/7-days-in-egypt-pyramids-temples-and-timeless-wonders",
-    "destination": "/ja/ejiputo-nana-nichikan-kairo-arekusandoria-asuwan-rukusoru",
+    "destination": "/ja/7-nichikan-no-ejiputo-kairo-nairu-kuruzu-rukusoru-to-asuwan",
     "permanent": true
   },
   {
@@ -6469,7 +6469,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/8-days-best-of-egypt-tour-package",
-    "destination": "/es/lo-mejor-de-egipto-en-8-dias-el-cairo-abu-simbel-el-nilo-y-luxor",
+    "destination": "/es/el-cairo-y-el-nilo-en-8-dias-piramides-rio-luxor-y-asuan",
     "permanent": true
   },
   {
@@ -6929,7 +6929,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/7-days-in-egypt-pyramids-temples-and-timeless-wonders",
-    "destination": "/es/siete-dias-en-egipto-el-cairo-alejandria-asuan-luxor",
+    "destination": "/es/egipto-en-7-dias-el-cairo-crucero-por-el-nilo-luxor-y-asuan",
     "permanent": true
   },
   {
@@ -12694,7 +12694,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/best-of-egypt-2",
-    "destination": "/8-days-best-of-egypt-tour-package",
+    "destination": "/cairo-and-nile-cruise-tour",
     "permanent": true
   },
   {
@@ -29329,7 +29329,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/lo-mejor-de-egipto-un-recorrido-de-8-dias",
-    "destination": "/es/lo-mejor-de-egipto-en-8-dias-el-cairo-abu-simbel-el-nilo-y-luxor",
+    "destination": "/es/el-cairo-y-el-nilo-en-8-dias-piramides-rio-luxor-y-asuan",
     "permanent": true
   },
   {
@@ -30890,6 +30890,36 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/nairu-ni-yorisou-10-nichikan-romantikkuejiputotsua",
     "destination": "/ja/nairudorima-10-nichikan-kairo-asuwan-nairu-gawa-kuruzu",
+    "permanent": true
+  },
+  {
+    "source": "/7-days-in-egypt-pyramids-temples-and-timeless-wonders",
+    "destination": "/epic-egyptian-escape-a-7-day-adventure-from-pyramids-to-pharaohs",
+    "permanent": true
+  },
+  {
+    "source": "/es/siete-dias-en-egipto-el-cairo-alejandria-asuan-luxor",
+    "destination": "/es/egipto-en-7-dias-el-cairo-crucero-por-el-nilo-luxor-y-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-nana-nichikan-kairo-arekusandoria-asuwan-rukusoru",
+    "destination": "/ja/7-nichikan-no-ejiputo-kairo-nairu-kuruzu-rukusoru-to-asuwan",
+    "permanent": true
+  },
+  {
+    "source": "/8-days-best-of-egypt-tour-package",
+    "destination": "/cairo-and-nile-cruise-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/lo-mejor-de-egipto-en-8-dias-el-cairo-abu-simbel-el-nilo-y-luxor",
+    "destination": "/es/el-cairo-y-el-nilo-en-8-dias-piramides-rio-luxor-y-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-hairaito-8-nichikan-kairo-abu-shin-beru-nairu",
+    "destination": "/ja/8-nichikan-kairo-nairu-kuruzu-tsua-piramiddo-kawa-rukusoru",
     "permanent": true
   }
 ];
