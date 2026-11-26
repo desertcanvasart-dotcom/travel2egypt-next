@@ -1,0 +1,1046 @@
+{
+ "_createdAt": "2026-05-29T22:45:52Z",
+ "_id": "tour.dolphins-dance-group-shared-seas-full-day-snorkeling-tour",
+ "_rev": "pzh5FM4q1DBt3H4LGqNNJZ",
+ "_system": {
+  "base": {
+   "id": "tour.dolphins-dance-group-shared-seas-full-day-snorkeling-tour",
+   "rev": "QIbTiukOLK0KckCunqSS0B"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:46Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "First-time Red Sea snorkellers and solo or paired travellers who want a real day at sea without chartering a boat"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Quienes hacen snorkel por primera vez en el mar Rojo y para viajeros solos o en pareja que quieren un verdadero día en el mar sin fletar barco"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "紅海で初めてシュノーケルをされる方、おひとり様または二名様で、船を借り切らずに海の一日をきちんと過ごしたい方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Dolphins Dance: A Shared Full-Day Snorkel from Hurghada"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "The Red Sea's most reliable dolphin habitat is also one of the easier sea days to organise from Hurghada. This is the shared, mid-price way to do it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "A full day on the water out of Hurghada generally falls into one of two categories: chartered private boats with a fixed cost regardless of party size, and shared departures that pool guests onto a properly crewed vessel and split the cost. This tour is the second kind — and the reason it works is the destination. The boat sails north-east to the Dolphin House reef, an area where pods of bottlenose and spinner dolphins are resident year-round, then takes in three further snorkelling stops over the course of the day before returning to the marina at dusk."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "It is a full eight-hour day. Hotel pickup is included. The vessel is crewed, snorkelling gear is provided, and a light lunch and refreshments are served on board."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "You are picked up from your Hurghada hotel in an air-conditioned vehicle and transferred to the marina, where you board the shared boat for departure. The crew runs the safety briefing and fits gear during the outbound leg."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "The first major stop is the Dolphin House reef itself. This is one of the few sites in the Red Sea where the resident population of dolphins reliably approaches snorkellers — they are not fed, not coerced, and the encounter depends on their interest on the day. The rules onboard are straightforward: swim alongside, not toward; let the animals set the distance. When they do approach, it is at speed and on their own terms."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "The boat moves to two further snorkelling locations over the course of the morning and afternoon, chosen by the crew based on sea conditions. The Hurghada coast and the offshore reef chain hold some of the best-preserved coral on the northern Red Sea — fire coral, table coral, soft coral, and the usual cast of butterflyfish, parrotfish, surgeonfish and the occasional moray. A light buffet lunch is served on deck between stops."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "The return leg has the boat heading back to the marina in the late afternoon, with transfer back to the hotel completing the day."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "A Note on the Format"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Shared boats trade flexibility for price. You do not pick the snorkel sites; the captain does, based on wind and current. You do share the deck with other guests. In exchange, the day costs a fraction of a charter — which is what makes this format the right call for first-time Red Sea snorkellers, solo travellers, and couples who want a proper sea day without paying for a private vessel they do not need."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "The dolphins do not perform. When they come, they come fast and stay briefly. That is the point."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "For couples or small groups who would rather pick their own snorkel sites and dictate the pace, the concierge can switch the brief to a private charter — same waters, different format. Either way, we book the calmest direction the day allows."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000028",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "El baile de los delfines: jornada compartida de snorkel desde Hurgada"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "El hábitat de delfines más fiable del mar Rojo es también una de las jornadas marinas más sencillas de organizar desde Hurgada. Esta es la versión compartida y de precio intermedio."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Un día completo en el agua saliendo de Hurgada suele responder a uno de dos formatos: barco privado fletado con coste fijo independientemente del tamaño del grupo, o salida compartida que reúne a varios huéspedes en una embarcación con tripulación profesional y reparte el coste. Esta excursión es del segundo tipo, y lo que la justifica es el destino. El barco navega rumbo noreste hasta el arrecife conocido como Dolphin House —Sha'ab El Erg—, una zona donde manadas de delfines mulares y de hocico largo permanecen residentes durante todo el año, y a continuación encadena tres paradas de snorkel a lo largo del día antes de regresar al puerto al atardecer."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Es una jornada completa de unas ocho horas. La recogida en el hotel está incluida. La embarcación lleva tripulación, el equipo de snorkel se proporciona a bordo y se sirven un almuerzo ligero y bebidas durante la travesía."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Le recogen en su hotel de Hurgada con vehículo climatizado y le trasladan al puerto deportivo, donde embarca en el barco compartido para la salida. La tripulación realiza la sesión informativa de seguridad y ajusta el equipo durante el tramo de ida."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "La primera parada importante es el propio arrecife de Dolphin House. Es uno de los pocos puntos del mar Rojo donde la población residente de delfines se acerca con regularidad a los aficionados al snorkel: no se les alimenta, no se les fuerza, y el encuentro depende del interés que muestren los animales ese día. La regla a bordo es directa: se nada en paralelo a ellos, no hacia ellos; son los delfines los que marcan la distancia. Cuando se aproximan, lo hacen rápido y bajo sus propias condiciones."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "A lo largo de la mañana y la tarde, el barco se desplaza a otras dos paradas de snorkel que la tripulación elige según el estado del mar. La costa de Hurgada y la cadena de arrecifes exteriores conservan algunos de los corales mejor preservados del norte del mar Rojo —coral de fuego, coral mesa, corales blandos— y el repertorio habitual de peces mariposa, peces loro, peces cirujano y alguna que otra morena. Entre paradas se sirve un bufé ligero sobre cubierta."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "El tramo de regreso lleva al barco de vuelta al puerto a media tarde, y el traslado al hotel cierra la jornada."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Una nota sobre el formato"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Los barcos compartidos cambian flexibilidad por precio. Usted no elige los puntos de snorkel; lo hace el capitán en función del viento y de la corriente. Comparte cubierta con otros huéspedes. A cambio, el día cuesta una fracción de lo que vale un charter, y eso es lo que convierte este formato en la decisión correcta para quien hace snorkel por primera vez en el mar Rojo, para viajeros solos y para parejas que quieren un auténtico día de mar sin pagar un barco entero que no necesitan."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Los delfines no actúan. Cuando llegan, llegan rápido y se quedan poco. Ese es justamente el sentido."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Para parejas o grupos pequeños que prefieran elegir sus propios puntos de snorkel y marcar el ritmo del día, nuestro concierge puede reorientar la propuesta hacia un charter privado: las mismas aguas, otro formato. En cualquier caso, reservamos siempre la orientación más resguardada que el día permita."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000028",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "ドルフィンズ・ダンス：ハルガダ発、共同便で過ごす紅海一日シュノーケリング"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "紅海でいちばん安定してイルカに会える海域は、ハルガダから組みやすい海でもあります。これは、その海を「中ぐらいの予算で、きちんと」過ごすための一日です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "ハルガダ発の一日船は、おおむね二種類にわかれます。人数にかかわらず固定料金で船一艘を借り切るプライベート・チャーターと、しっかりクルーの乗ったクルーザーに参加者を集めて費用を分け合う共同便です。本ツアーは後者。成立する理由は、行き先にあります。船は北東のシャアブ・エル・エルグ——通称ドルフィンハウス——を目指します。バンドウイルカとハシナガイルカの群れが年間を通じて居つくリーフです。そこから一日のなかで、さらに三つのシュノーケリング地点を回り、日暮れにマリーナへ戻ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "丸八時間の海です。ホテル送迎込み、クルー乗船、シュノーケリング機材、軽い昼食と飲み物を船上でご用意します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "ハルガダのご宿泊先まで冷房付き車両でお迎えにあがり、マリーナへ。共同便の船に乗り込み、出港。沖へ進みながら、クルーが安全説明と機材合わせを行います。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "最初の主要地点が、ドルフィンハウスのリーフです。紅海のなかでも、居着いたイルカが自発的にシュノーケラーに近づいてくる数少ない場所のひとつ。餌付けはしておらず、誘導もしていません。出会いはその日のイルカ次第です。船上のルールは単純です——並んで泳ぐ、こちらから追わない、距離は相手に決めさせる。彼らが近づいてくるときは、速く、そして彼らの条件で来ます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "午前から午後にかけて、船はさらに二か所のシュノーケリング地点を巡ります。場所はその日の風と潮を読んでクルーが選びます。ハルガダ沖のリーフ群は、紅海北部のなかでも保存状態がよく残っているサンゴを抱える海域のひとつ。火サンゴ、テーブル状サンゴ、ソフトコーラル。チョウチョウウオ、ブダイ、ニザダイの群れ、ときおりウツボ。地点と地点のあいだに、デッキで軽いビュッフェの昼食。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "午後遅く、船はマリーナへ向けて引き返します。下船後、車でホテルへお戻りいただいて、ひと日が締めくくられます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "この形式について、ひとこと"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "共同便は、価格と引き換えに自由度を譲ります。地点はゲストではなく、船長が選びます。風と潮で。デッキは他のゲストと共有します。代わりに費用はチャーターのほんの一部です。紅海で初めてシュノーケルをする方、ひとり旅、二人旅で、海の一日を「自分の船」で過ごす必要がない方にとって、形としていちばん理にかなった選び方です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "イルカは演じません。来るときは速く、いる時間は短い。それが本来の姿です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "この一日の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · ハルガダのホテル → マリーナ → ドルフィンハウス・リーフ → さらに二つのシュノーケリング地点 → マリーナ → ホテル"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "所要時間 · 終日、送迎込みでおよそ八時間"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 共同便 · クルー乗船のクルーザー · 機材貸出込み · 船上で軽い昼食 · シュノーケリング三地点 · 十八歳以上"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "ご家族や少人数で、地点もペースもご自身で決めたいということでしたら、コンシェルジュが同じ海域でプライベート・チャーターに切り替える組み立てもご提案します。いずれの形でも、その日いちばん穏やかな方向に船を出します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000028",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58859",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Two dolphin days sail from Hurghada; this is the fuller one on the water, with three reef stops around the sighting grounds. Not sure which suits your party — or tempted to make it private? Our concierge will match the boat to the day."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "De Hurgada zarpan dos días de delfines; éste es el más completo sobre el agua, con tres paradas de arrecife en la zona de avistamiento. ¿No sabes cuál encaja con tu grupo, o te tienta hacerlo privado? Nuestro concierge ajusta el barco al día."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "ハルガダ発のイルカの一日は二種類。こちらは海上時間が長いほうで、生息域周辺のリーフを三か所回ります。どちらがお仲間に合うか迷ったときも、貸切にしたいときも、コンシェルジュが船と一日を合わせます。"
+  }
+ ],
+ "durationDays": 1,
+ "durationHours": 8,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Full day · ~8 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Día completo · ~8 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "終日・約8時間"
+  }
+ ],
+ "exclusions": [],
+ "groupSize": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "1–30 guests"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "1–30 personas"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "1〜30名"
+  }
+ ],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 51,
+  "ja": 58
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Three dolphins leap together over the water of a blue show pool, spray flying around them"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Tres delfines saltan juntos sobre el agua de una piscina azul, con salpicaduras a su alrededor"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "青いショープールの水面を三頭のイルカがそろって跳び、しぶきが舞う。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-dcc03bb9acc0618d49882471219f3548e51b8c86-3000x1997-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Three dolphins jump in unison during a dolphin show."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Tres delfines saltan al unísono durante un espectáculo."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "イルカショーでそろって跳ぶ三頭のイルカ。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "qmcsyfba2u",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Hotel pickup is included.",
+   "text": "Hotel pickup"
+  },
+  {
+   "_key": "9ovrm2g8yu",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The vessel is crewed, snorkelling gear is provided, and a light lunch and refreshments are served on board.",
+   "text": "Crewed vessel"
+  },
+  {
+   "_key": "1gquag3yw6",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The vessel is crewed, snorkelling gear is provided, and a light lunch and refreshments are served on board.",
+   "text": "Snorkelling gear"
+  },
+  {
+   "_key": "a37jpyjobg",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The vessel is crewed, snorkelling gear is provided, and a light lunch and refreshments are served on board.",
+   "text": "Light lunch and refreshments on board"
+  },
+  {
+   "_key": "dah67v8vb7",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La recogida en el hotel está incluida.",
+   "text": "Recogida en el hotel"
+  },
+  {
+   "_key": "9o4ej7pacp",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La embarcación lleva tripulación, el equipo de snorkel se proporciona a bordo y se sirven un almuerzo ligero y bebidas durante la travesía.",
+   "text": "Embarcación con tripulación"
+  },
+  {
+   "_key": "ufczo6jxw3",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La embarcación lleva tripulación, el equipo de snorkel se proporciona a bordo y se sirven un almuerzo ligero y bebidas durante la travesía.",
+   "text": "Equipo de snorkel a bordo"
+  },
+  {
+   "_key": "bn5eufbqi4",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La embarcación lleva tripulación, el equipo de snorkel se proporciona a bordo y se sirven un almuerzo ligero y bebidas durante la travesía.",
+   "text": "Almuerzo ligero y bebidas"
+  },
+  {
+   "_key": "bbmg7e65gw",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ホテル送迎込み、クルー乗船、シュノーケリング機材、軽い昼食と飲み物を船上でご用意します。",
+   "text": "ホテル送迎"
+  },
+  {
+   "_key": "a2z71241x3",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ホテル送迎込み、クルー乗船、シュノーケリング機材、軽い昼食と飲み物を船上でご用意します。",
+   "text": "クルー乗船"
+  },
+  {
+   "_key": "1940d5ovi6",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ホテル送迎込み、クルー乗船、シュノーケリング機材、軽い昼食と飲み物を船上でご用意します。",
+   "text": "シュノーケリング機材"
+  },
+  {
+   "_key": "4uovu4pa7f",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ホテル送迎込み、クルー乗船、シュノーケリング機材、軽い昼食と飲み物を船上でご用意します。",
+   "text": "軽い昼食と飲み物（船上）"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/dolphins-dance-group-shared-seas-full-day-snorkeling-tour/"
+ },
+ "priceFrom": 40,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_121071",
+   "_ref": "wp-page-121071",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_cairo_by_bus_group_day_tour_from_hurghada",
+   "_ref": "tour.cairo-by-bus-group-day-tour-from-hurghada",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_116301",
+   "_ref": "wp-page-116301",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_dendera_and_abydos_temple_day_tour_from_hurghada",
+   "_ref": "tour.dendera-and-abydos-temple-day-tour-from-hurghada",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Shared-departure boat · crewed vessel · gear provided · light onboard lunch · three snorkel stops · minimum age 18"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Salida compartida en barco · embarcación con tripulación · equipo de snorkel proporcionado · almuerzo ligero a bordo · tres paradas de snorkel · edad mínima 18 años"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Full day, approximately eight hours including transfers"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Jornada completa de unas ocho horas, traslados incluidos"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Hurghada hotel → marina → Dolphin House reef → two further snorkel sites → marina → hotel"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Hotel en Hurgada → puerto deportivo → arrecife Dolphin House → otras dos paradas de snorkel → puerto → hotel"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "dolphins-dance-group-shared-seas-full-day-snorkeling-tour"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "el-baile-de-los-delfines-jornada-compartida-de-snorkel-desde-hurgada"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "dorufinzudansu-furugada-hatsu-kyodo-bin-de-sugosu-kokai-ichi"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A shared-departure boat day from Hurghada to a resident Red Sea dolphin reef and three working snorkel sites — for travellers who want a proper day on the water without chartering it."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Una salida compartida en barco desde Hurgada hasta un arrecife de delfines residentes del mar Rojo y tres paradas de snorkel — para viajeros que quieren un día entero en el agua sin tener que fletar el barco."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ハルガダ発、紅海でもっとも安定してイルカに出会えるリーフへ。共同便のクルー艇で三つのシュノーケリング地点を巡る、丸一日の海。船をチャーターするほどではないけれど、海をきちんと一日過ごしたい方へ。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Dolphins Dance: A Shared Full-Day Snorkel from Hurghada"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "El baile de los delfines: jornada compartida de snorkel desde Hurgada"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ドルフィンズ・ダンス：ハルガダ発、共同便で過ごす紅海一日シュノーケリング"
+  }
+ ],
+ "tourMode": "group",
+ "type": "dayTour"
+}
