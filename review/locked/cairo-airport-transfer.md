@@ -11,7 +11,7 @@
 **Vehicle:** sized to your group: a car for 1–2 travellers, a van for 3–8; for 9 or more, ask us
 **Arrival:** your representative meets you in the public arrivals hall, after customs
 **Departure:** pickup from your hotel lobby, at a time we set with you the evening before
-**Add meet and assist:** ask us for the price, per booking: we meet you at the gate inside the terminal (on departure, at check-in)
+**Add meet and assist:** {€} per booking: we meet you at the gate inside the terminal (on departure, at check-in)
 
 ---
 

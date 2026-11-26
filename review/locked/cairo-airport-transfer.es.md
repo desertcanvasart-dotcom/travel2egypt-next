@@ -11,7 +11,7 @@
 **Vehículo:** según tu grupo: un coche para 1–2 viajeros, una furgoneta para 3–8; para 9 o más, consúltanos
 **Llegada:** tu representante te recibe en la sala de llegadas pública, después de la aduana
 **Salida:** recogida en el vestíbulo de tu hotel, a la hora que acordemos contigo la tarde anterior
-**Añade la asistencia en el aeropuerto:** consúltanos el precio, por reserva: te recibimos en la puerta de llegada dentro de la terminal (a la salida, en el mostrador de facturación)
+**Añade la asistencia en el aeropuerto:** {€} por reserva: te recibimos en la puerta de llegada dentro de la terminal (a la salida, en el mostrador de facturación)
 
 ---
 
