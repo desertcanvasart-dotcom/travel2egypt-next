@@ -30,10 +30,21 @@ const MAP = {
   'abu-simbel-temples-day-tour-from-aswan': 'tour/aswan-to-abu-simbel-temples-ramses-ii-nefertari',
   'dolphin-house-shared-snorkeling-day-from-hurghada': 'tour/dolphin-house-adventure-snorkeling-wild-dolphins-from-hurghada',
   // Owner, 27 Nov: Esna, Edfu & Kom Ombo above is the same trip as Sawa's Luxor → Aswan road.
-  // Marsa Alam snorkelling: to be created on Sawa first (owner, 27 Nov); add its line here then.
-  // HELD: Sawa's Dendera & Abydos leaves from Luxor, ours from Hurghada. Owner to confirm it is the
-  // same trip before this line is switched on.
-  // 'dendera-and-abydos-temple-day-tour-from-hurghada': 'tour/dendera-abydos-far-temples-north-luxor',
+  //
+  // Owner, 27 Nov: every T2E group tour not yet on Sawa will be created there. Add each line here
+  // once its Sawa page exists (the script checks the page and reads its price):
+  //   'dendera-and-abydos-temple-day-tour-from-hurghada'  (NOT Sawa's Dendera & Abydos from Luxor, a different trip)
+  //   'luxor-highlights-group-day-tour-from-hurghada'
+  //   'cairo-by-bus-group-day-tour-from-hurghada'
+  //   'dolphins-dance-group-shared-seas-full-day-snorkeling-tour'
+  //   'giftun-island-shared-snorkeling-day-from-hurghada'
+  //   'safaga-to-luxor-full-day-group-ancient-city-adventure'
+  //   'group-snorkeling-adventure-in-marsa-alam'  (our page is a private product today: needs group copy + tourMode group)
+  //   'nubian-temples-day-tour-from-aswan'
+  //   'dahab-blue-hole-desert-snorkel-group-day-tour-from-sharm'
+  //   'jerusalem-dead-sea-bethlehem-group-day-tour-from-sharm'
+  //   'mount-sinai-sunrise-trek-group-day-tour'
+  //   'mount-sinai-and-st-catherine-full-day-tour-from-sharm'
 };
 
 const args = process.argv.slice(2);
