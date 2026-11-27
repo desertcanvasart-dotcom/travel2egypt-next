@@ -211,7 +211,7 @@ const doc = await client.getDocument(DOC_ID);
 if (!doc) throw new Error(`${DOC_ID} not found`);
 if (doc.type !== 'dayTour') throw new Error('not a day tour');
 const priceNow = [doc.priceFrom, doc.guideLanguagePrices?.es, doc.guideLanguagePrices?.ja].join();
-if (![[OLD.from, OLD.es, OLD.ja].join(), [PRICES.en, PRICES.es, PRICES.ja].join()].includes(priceNow)) throw new Error(`unexpected prices ${priceNow}`);
+if (![[OLD.from, OLD.es, OLD.ja].join(), [PRICES.en, PRICES.es, PRICES.ja].join(), ',,'].includes(priceNow)) throw new Error(`unexpected prices ${priceNow}`);
 const textOf = (b) => (b.children ?? []).map((c) => c.text).join('');
 
 // The closing line's first half (the locked closing line is shown on its own).
@@ -347,7 +347,9 @@ for (const l of LANGS) {
   verbatimPreflight([...visibleStrings(rows, l), set.title.find((t) => t._key === l).value], [LOCKED[l]]);
 }
 await contentGate({ locked: LANGS.map((l) => [LOCKED[l], l]), apply });
-if (!ready) console.log('prices: NOT READY — fill esna-el-kab-silsila-luxor-prices.json from Autoura (EN, ES and JA guide). Nothing can be applied yet.');
+// Owner rule (27 Nov): a missing Autoura price never holds the itinerary back. Unpriced, the page
+// publishes with the old Esna + El Kab price REMOVED (it priced a different, shorter trip).
+if (!ready) console.log(`prices: NOT READY — publishing WITHOUT a price (removes ${priceNow}); fill esna-el-kab-silsila-luxor-prices.json from Autoura and re-run to add it.`);
 
 for (const f of Object.keys(set)) {
   if (f === 'body') continue;
@@ -389,8 +391,7 @@ if (previewOut) {
 }
 
 if (apply) {
-  if (!ready) throw new Error('prices not ready — fill esna-el-kab-silsila-luxor-prices.json from Autoura first.');
   await writeRollback(client, [DOC_ID], 'before-esna-el-kab-silsila-luxor-day-tour');
-  await client.patch(DOC_ID).set(set).commit();
+  await client.patch(DOC_ID).set(set).unset(ready ? [] : ['priceFrom', 'guideLanguagePrices']).commit();
   console.log(`APPLIED to production ${DOC_ID}`);
 } else if (!previewOut) console.log('dry run (prices filled + --apply --flags-approved writes production)');
