@@ -58,6 +58,8 @@ export interface PackageDoc {
   /** Fixed dates, private guiding (long Nile cruises): shown as a private tour. */
   privateGuiding?: boolean | null;
   departures?: RawDeparture[] | null;
+  /** Group packages booked on Sawa (27 Nov 2026); the query returns it only when tourMode == "group". */
+  sawaUrl?: string | null;
   originRegion?: string;
   heroImage?: { asset?: unknown; alt?: string } | null;
   cities?: CityRef[];
@@ -137,11 +139,14 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   // at render/build time so the soonest FUTURE date is selected. ──
   const isGroup = tour.tourMode === 'group';
   const fixedPrivate = isGroup && Boolean(tour.privateGuiding);
+  // Owner, 27 Nov 2026: a group package that runs on Sawa (our group-tours site) is booked there:
+  // its buttons link to the same trip on sawa.tours, and the dates live on Sawa, not here.
+  const sawaUrl = isGroup && !fixedPrivate && tour.sawaUrl ? tour.sawaUrl : null;
   // Per-departure base price: the stored base price, else the tour's "from"
   // price (owner, 2026-11-11), so dates are priced instead of "On inquiry".
   const groupBase =
     typeof tour.basePrice === 'number' ? tour.basePrice : typeof tour.priceFrom === 'number' ? tour.priceFrom : null;
-  const dep = isGroup
+  const dep = isGroup && !sawaUrl
     ? buildDepartures(tour.departures, {
         durationDays,
         basePrice: groupBase,
@@ -305,7 +310,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
     ...(isGroup
       ? [
           { label: ts('pkgGrpGroupLabel'), value: typeof tour.maxGroup === 'number' ? ts('pkgGrpMaxGroup', { n: tour.maxGroup }) : '' },
-          { label: ts('pkgGrpGuideLabel'), value: ts('pkgGrpGuideValue') },
+          { label: ts('pkgGrpGuideLabel'), value: sawaUrl ? tp('sawaGuide') : ts('pkgGrpGuideValue') },
           { label: ts('pkgGrpDeparturesLabel'), value: dep && dep.count > 0 ? ts('pkgGrpPerYear', { count: dep.count }) : '' },
         ]
       : [
@@ -315,7 +320,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
     { label: tp('cruise'), value: cruiseNights > 0 && !(!isGroup && nightsSplit) ? tp('cruiseNights', { nights: cruiseNights }) : '' },
     { label: ts('pkgSingleSupp'), value: suppValue ?? '' },
   ];
-  const nextDeparture = isGroup && dep ? (
+  const nextDeparture = isGroup && dep && !sawaUrl ? (
     dep.next ? (
       <div className="card rdep">
         <span className="ck">{ts('pkgGrpNextKicker')}</span>
@@ -445,7 +450,8 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
               mobileLine={mobileLine}
               variant="multi"
               durationDays={durationDays || null}
-              fromNote={tp('fromGroupNote')}
+              fromNote={sawaUrl ? tp('fromSawaNote') : tp('fromGroupNote')}
+              sawaUrl={sawaUrl}
             />
           </header>
 
@@ -470,7 +476,8 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
               notes={tour.priceNote ? <p className="price-note">{tour.priceNote}</p> : null}
             />
             <YourRoute locale={locale} legs={approvedRoute} />
-            <MakeItYourOwn
+            {/* Sawa trips are fixed products: no "Make it your own" here. */}
+            {!sawaUrl && <MakeItYourOwn
               locale={locale}
               options={tour.approvedOptions ?? []}
               kind="multi"
@@ -478,7 +485,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
               title={tour.title}
               durationDays={durationDays || null}
               fromEur={null}
-            />
+            />}
             <CompactStickyCard
               locale={locale}
               kind="multi"
@@ -489,6 +496,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
               durationDays={durationDays || null}
               ticks={trustSignals}
               accred={trustLine}
+              sawaUrl={sawaUrl}
             />
           </div>
 
@@ -518,6 +526,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
                 waHref={waHref}
                 durationDays={durationDays || null}
                 fromEur={null}
+                sawaUrl={sawaUrl}
               />
                   }
                 />
@@ -578,6 +587,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
                 waHref={waHref}
                 durationDays={durationDays || null}
                 fromEur={null}
+                sawaUrl={sawaUrl}
               />
                 </>
               )}
@@ -594,6 +604,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
         waHref={waHref}
         durationDays={durationDays || null}
         fromEur={null}
+        sawaUrl={sawaUrl}
       />
 
       {(moreJourneys.length > 0 || guideItems.length > 0 || journal.length > 0) && (
@@ -663,6 +674,8 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
           type: tour.type ?? 'package',
           durationDays: tour.durationDays ?? null,
           priceFromEur: typeof tour.priceFrom === 'number' ? tour.priceFrom : null,
+          sawaUrl,
+          sawaLabel: sawaUrl ? tp('ctaSawa') : null,
         }}
       />
       <LazyFloatingConcierge tourSlug={tour.slug} />
