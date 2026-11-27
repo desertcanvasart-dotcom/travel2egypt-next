@@ -1,0 +1,617 @@
+{
+ "_createdAt": "2026-11-14T20:29:20Z",
+ "_id": "tourLanding.14-days-egypt-tours",
+ "_rev": "FyJsYw6Q0Kz93kEtkwK0kP",
+ "_type": "tourLanding",
+ "_updatedAt": "2026-11-14T21:12:32Z",
+ "category": {
+  "_ref": "tourCategory.private-package",
+  "_type": "reference"
+ },
+ "faq": [
+  {
+   "_key": "faq-dur14-1",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "b3e",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s3f",
+         "_type": "span",
+         "marks": [],
+         "text": "Private journeys start on any date and run at your pace. Small-group tours run on fixed departure dates with a capped group. Where a small-group departure exists at this length, it’s listed here."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "esb2k",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "ess2l",
+         "_type": "span",
+         "marks": [],
+         "text": "Los viajes privados empiezan cualquier día y van a tu ritmo. Los viajes en grupo reducido salen en fechas fijas y con un número limitado de viajeros. Si existe una salida en grupo reducido de esta duración, aparece en esta página."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "value": [
+      {
+       "_key": "jab2y",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "jas2z",
+         "_type": "span",
+         "marks": [],
+         "text": "プライベート旅行はどの日からでも始められ、ご自身のペースで進みます。少人数グループのツアーは決まった出発日に、人数を限って催行します。この日数の少人数グループの出発がある場合は、このページに掲載しています。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Private or small group?"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Privado o en grupo reducido?"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "プライベートと少人数グループ、どちらがいいですか？"
+    }
+   ]
+  },
+  {
+   "_key": "faq-dur14-2",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "b3g",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s3h",
+         "_type": "span",
+         "marks": [],
+         "text": "Yes. Christmas, New Year and Easter are peak dates in Egypt. Scheduled departures on those dates usually cost 30% more, and private journeys cost more over the same dates too."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "esb2m",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "ess2n",
+         "_type": "span",
+         "marks": [],
+         "text": "Sí. Navidad, Año Nuevo y Semana Santa son fechas de temporada alta en Egipto. Las salidas programadas en esas fechas suelen costar un 30 % más. Los viajes privados también se encarecen en esas mismas fechas."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "value": [
+      {
+       "_key": "jab30",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "jas31",
+         "_type": "span",
+         "marks": [],
+         "text": "はい。クリスマス、年末年始、イースターはエジプトのピークシーズンです。この時期の定期出発ツアーは通常30％高くなります。プライベート旅行も同じ時期は料金が上がります。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Do prices change by season?"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Cambian los precios según la temporada?"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "季節によって料金は変わりますか？"
+    }
+   ]
+  },
+  {
+   "_key": "faq-dur14-3",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "b3i",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s3j",
+         "_type": "span",
+         "marks": [],
+         "text": "A cruise between Luxor and Aswan combines travel and accommodation, so you don’t move your luggage every day, and it stops at Edfu, Kom Ombo and Esna on the way. The trade-off is flexibility: the boat sets the timetable. Flying, or driving with a private car, lets you set your own."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "esb2o",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "ess2p",
+         "_type": "span",
+         "marks": [],
+         "text": "Un crucero entre Luxor y Asuán combina transporte y alojamiento, así que no mueves el equipaje cada día, y hace escala en Edfu, Kom Ombo y Esna. La contrapartida es la flexibilidad: el barco marca el horario. Volar, o viajar en coche privado, te deja fijar el tuyo."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "value": [
+      {
+       "_key": "jab32",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "jas33",
+         "_type": "span",
+         "marks": [],
+         "text": "ルクソールとアスワンを結ぶクルーズは移動と宿泊を兼ねるため、毎日荷物を動かす必要がなく、途中でエドフ、コム・オンボ、エスナに立ち寄ります。その代わり、時間は船の予定に合わせることになります。飛行機や専用車なら、ご自身で日程を決められます。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Nile cruise, or flights and hotels?"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Crucero por el Nilo, o vuelos y hoteles?"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "ナイルクルーズと、飛行機とホテル、どちらがいいですか？"
+    }
+   ]
+  }
+ ],
+ "intro": [
+  {
+   "_key": "en",
+   "value": [
+    {
+     "_key": "b36",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s37",
+       "_type": "span",
+       "marks": [],
+       "text": "What two weeks allows"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "b38",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s39",
+       "_type": "span",
+       "marks": [],
+       "text": "One way to build it: three days in Cairo and Giza, three in Luxor, three in Aswan and Abu Simbel, three on the Red Sea, and the rest for travel. That gives time to the sites, the river, the sea and the city."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b3a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s3b",
+       "_type": "span",
+       "marks": [],
+       "text": "The Western Desert (Bahariya, the White Desert and the Black Desert) needs a private car, permits and local arrangements, so it’s planned separately from ordinary travel between cities."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b3c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s3d",
+       "_type": "span",
+       "marks": [],
+       "text": "There’s no need to include every region. Egypt rewards a return visit, and deciding what to see in depth this time makes for a better trip."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "value": [
+    {
+     "_key": "esb2c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "ess2d",
+       "_type": "span",
+       "marks": [],
+       "text": "Qué permiten dos semanas"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "esb2e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "ess2f",
+       "_type": "span",
+       "marks": [],
+       "text": "Una forma de organizarlo: tres días en El Cairo y Guiza, tres en Luxor, tres en Asuán y Abu Simbel, tres en el mar Rojo y el resto para traslados. Así hay tiempo para los yacimientos, el río, el mar y la ciudad."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "esb2g",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "ess2h",
+       "_type": "span",
+       "marks": [],
+       "text": "El desierto occidental (Bahariya, el Desierto Blanco y el Desierto Negro) requiere coche privado, permisos y organización local, así que se planifica aparte de los traslados habituales entre ciudades."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "esb2i",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "ess2j",
+       "_type": "span",
+       "marks": [],
+       "text": "No hace falta incluir todas las regiones. Egipto invita a volver, y decidir qué ver a fondo esta vez hace mejor el viaje."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "value": [
+    {
+     "_key": "jab2q",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jas2r",
+       "_type": "span",
+       "marks": [],
+       "text": "2週間でできること"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "jab2s",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jas2t",
+       "_type": "span",
+       "marks": [],
+       "text": "一つの組み方は、カイロとギザに3日、ルクソールに3日、アスワンとアブ・シンベルに3日、紅海に3日、残りを移動と調整に使う形です。遺跡、ナイル、海、街のそれぞれに時間を配分できます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jab2u",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jas2v",
+       "_type": "span",
+       "marks": [],
+       "text": "西方砂漠（バハレイヤ、白砂漠、黒砂漠）には、専用車、許可、現地での手配が必要なため、都市間の通常の移動とは別に計画します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jab2w",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jas2x",
+       "_type": "span",
+       "marks": [],
+       "text": "すべての地域を入れる必要はありません。エジプトは再訪に向く国です。今回の旅で何を深く見たいかを決める方が、満足度は高くなります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "journalRefs": [
+  {
+   "_key": "j3x",
+   "_ref": "wp-post-136729-en",
+   "_type": "reference"
+  },
+  {
+   "_key": "j3y",
+   "_ref": "wp-post-136112-en",
+   "_type": "reference"
+  }
+ ],
+ "relatedTours": [
+  {
+   "_key": "t3k",
+   "_ref": "tour.12-day-egypt-group-tour-cairo-dahabiya-red-sea",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3l",
+   "_ref": "wp-page-89524",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3m",
+   "_ref": "wp-page-113004",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3n",
+   "_ref": "tour.egypt-and-the-red-sea-paradise",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3o",
+   "_ref": "wp-page-112993",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3p",
+   "_ref": "wp-page-88994",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3q",
+   "_ref": "wp-page-90326",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3r",
+   "_ref": "wp-page-90335",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3s",
+   "_ref": "wp-page-86875",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3t",
+   "_ref": "wp-page-90347",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3u",
+   "_ref": "wp-page-249752",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3v",
+   "_ref": "wp-page-90376",
+   "_type": "reference"
+  },
+  {
+   "_key": "t3w",
+   "_ref": "wp-page-89452",
+   "_type": "reference"
+  }
+ ],
+ "seo": {
+  "metaDescription": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayTextValue",
+    "value": "Two-week Egypt tours of twelve to fifteen days: the Nile valley plus the Red Sea, Sinai, Alexandria or the Western Desert. Private journeys and small-group departures."
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayTextValue",
+    "value": "Viajes de dos semanas por Egipto, de doce a quince días: el valle del Nilo más el mar Rojo, el Sinaí, Alejandría o el desierto occidental. Viajes privados y salidas en grupo reducido."
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayTextValue",
+    "value": "12〜15日間・2週間のエジプトツアー。ナイル流域に、紅海、シナイ、アレクサンドリア、西方砂漠を加えて。プライベート旅行と少人数グループの出発日。"
+   }
+  ],
+  "metaTitle": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "14-Day Egypt Tours: Two Weeks Across the Nile and Beyond"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Circuitos por Egipto de 14 días: dos semanas por el Nilo y más allá"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "エジプト14日間のツアー：ナイルとその先を2週間で"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "14-days-egypt-tours"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "circuitos-por-egipto-de-2-semanas"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "ejiputo-2-shukan-no-tsua"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Two weeks lets you see Egypt as a country of regions rather than a chain of sights: the Nile valley plus the Red Sea, Sinai, Alexandria or the Western Desert. The tours here run twelve to fifteen days."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Dos semanas permiten ver Egipto como un país, no solo como un circuito: el valle del Nilo más el mar Rojo, el Sinaí, Alejandría o el desierto occidental. Los viajes de esta página duran de doce a quince días."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "2週間あれば、エジプトを名所の連続ではなく、地域の違いを持つ国として旅しやすくなります。ナイル流域に、紅海、シナイ、アレクサンドリア、西方砂漠のどれかを加えられます。このページのツアーは12〜15日間です。"
+  }
+ ],
+ "themeRef": {
+  "_ref": "theme-duration-14",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "2-Week Egypt Tours"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Circuitos por Egipto de 2 semanas"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "エジプト2週間のツアー"
+  }
+ ]
+}

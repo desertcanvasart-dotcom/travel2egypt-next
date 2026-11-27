@@ -1,0 +1,1728 @@
+{
+ "_createdAt": "2026-05-14T11:38:52Z",
+ "_id": "wp-page-87255",
+ "_rev": "K2pi3eY73hTRu2vMGMyThO",
+ "_system": {
+  "base": {
+   "id": "wp-page-87255",
+   "rev": "PUXUI6sshIht1BONyhy1SJ"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:52Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "First-time visitors who want the country's headline shape covered properly; travellers who'd prefer two unhurried days in Luxor over three flights in five days; anyone who wants both Cairo museums in the same trip."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Primeros visitantes que quieren la forma esencial del país bien cubierta; viajeros que prefieren dos días sin prisa en Luxor antes que tres vuelos en cinco días; cualquiera que quiera los dos museos de El Cairo en el mismo viaje"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "国の代表的な背骨をきちんと網羅したい初訪の方。五日に三便より、急がないルクソール二日を選びたい方。同じ旅で二つのカイロの博物館をご覧になりたい方。"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "The Essential Egypt: Ten Days from Giza to the Nubian South"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A private journey along the classic spine — Giza, Alexandria, Luxor, Aswan, Abu Simbel — built for a first visit, with enough time at each stop for the place to register before the next one arrives."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Some itineraries try to outsmart the obvious. This one does not."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "The obvious in Egypt is obvious for a reason: Giza, Luxor, Aswan, Abu Simbel, the Mediterranean port of Alexandria, the medieval bazaar at Khan el-Khalili. These are the sites the rest of the country's heritage gets measured against, and there is no point pretending otherwise. The question is the pace. Ten days is enough to see them properly. It is not enough if you stack them — three sites a day, the next flight always pressing — into a kind of forced march that turns a great country into a checklist."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "So the route here is deliberately uncrowded. The Mediterranean detour to Alexandria comes on day two, while you are still fresh and before the deeper south claims your attention. Cairo's monuments south of the city — Memphis, Saqqara, Dahshur — get their own full day. Luxor gets two days, one East Bank, one West. Aswan and Abu Simbel get a long but unhurried climb to the Nubian shore. Cairo closes the trip with the Coptic quarter, the bazaar, the Egyptian Museum on Tahrir, and the Grand Egyptian Museum at Giza — the city's museum holdings as the final piece, after the sites that produced them. The journey is one private departure, operated for your party alone, with your own Egyptologist guide and private transfers throughout."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo: the headline first"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "The tour opens where Egypt's story is most immediately concentrated. After the airport transfer, the first full afternoon goes to the Giza plateau — the Great Pyramid of Khufu, the Pyramid of Khafre, the Pyramid of Menkaure, and the Great Sphinx crouched below them. These were built around 2500 BC, and they remain the structures against which the rest of the ancient world gets measured. What photographs do not convey is scale: the mass of the structures, the distance between them, the strange silence of the plateau once you have moved away from its edges. It is a deliberately strong opening. Cairo gives you the headline first."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Alexandria: the Mediterranean detour"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Day two takes the desert highway north to Alexandria — the city Alexander the Great founded in 331 BC and that became, under the Ptolemies, the intellectual capital of the ancient world. The programme covers the landmarks at a comfortable pace. The Bibliotheca Alexandrina, the modern library built on the site of the ancient one, is worth time for its architecture alone — a tilted disc of Aswan granite inscribed with scripts from around the world. Qaitbay Fort, the fifteenth-century citadel built on the foundations of the ancient Pharos lighthouse, stands at the tip of the Eastern Harbour. The Catacombs of Kom el-Shoqafa, a Roman-era burial complex of the first century AD, show Egypt at the moment when its ancient religious traditions were absorbing Greek and Roman forms. Pompey's Pillar — actually a column raised in honour of Diocletian in AD 297 — and the Alexandria National Museum complete the day. Lunch is a seafood meal on the waterfront. You return to Cairo in the evening."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "The pyramid sequence south of Cairo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "The third day reaches back to the beginning of pyramid-building — which is to say, to the beginning of large stone construction anywhere on earth. Memphis was the first capital of a unified Egypt, and its open-air museum preserves the colossal fallen statue of Ramses II and the great alabaster sphinx. Nearby Saqqara holds the Step Pyramid of Djoser, built around 2650 BC under the architect Imhotep — the oldest large stone structure in the world, and the building in which the pyramid form was invented. Dahshur completes the sequence: the Bent Pyramid shows the moment the architects attempted a steep smooth-sided face and had to correct mid-construction; the Red Pyramid, built by Sneferu shortly after, is the first successful true pyramid. By the time you reach Giza's perfected forms — which you have already seen on day one — the three buildings of Dahshur and Saqqara have shown you the learning curve that made them possible. Lunch is a traditional mixed grill; you return to Cairo in the afternoon."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor: two days on either side of the river"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "A morning flight south carries you to Luxor — ancient Thebes, the religious capital of the New Kingdom pharaohs — and the city deserves two full days. This tour gives it two."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "The first is spent on the East Bank, and principally at Karnak. It is not a single temple but a temple complex, built and extended by successive pharaohs across roughly 1,500 years. Its Great Hypostyle Hall — 134 massive columns covering more than 5,000 square metres, the tallest of them 21 metres high — is one of the most overwhelming interior spaces surviving from the ancient world. Seeing it without the pressure of a tight schedule is the whole argument for this day's construction. The East Bank also holds Luxor Temple and the Luxor Museum, whose collection of New Kingdom sculpture is among the finest in Egypt. The evening is free."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "The second Luxor day crosses to the land of the dead. The West Bank of Thebes is where the pharaohs of the New Kingdom were buried, and its centrepiece is the Valley of the Kings — a desert valley cut into the limestone cliffs, holding more than sixty royal tombs whose painted corridors remain vivid after three thousand years. The tomb of Tutankhamun is here, modest in scale beside the great royal tombs of Ramses VI or Seti I, but permanently freighted with its twentieth-century discovery. The day also takes in the Mortuary Temple of Hatshepsut at Deir el-Bahari — three colonnaded terraces rising against the cliff face, the monument of Egypt's most successful female pharaoh, who ruled for roughly twenty years in the fifteenth century BC — and the Colossi of Memnon, the two seated figures of Amenhotep III that are all that remains visible of what was once the largest mortuary temple in Thebes. Free time in the afternoon allows you to absorb the day at your own pace."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "The road to Aswan and the Nubian south"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Day six is a travelling day in the best sense. The route from Luxor to Aswan follows the Nile south, and it stops twice. Edfu holds the Temple of Horus, built during the Ptolemaic period between 237 and 57 BC and the most completely preserved temple in Egypt — walls, roof, and inner sanctuary intact, the clearest surviving picture of how an Egyptian temple was actually organised and used. Kom Ombo is the rarer case: a temple dedicated to two deities simultaneously, its plan laid out in perfect bilateral symmetry to honour both Sobek the crocodile god and Horus the Elder. The galleries contain a remarkable collection of mummified crocodiles. You reach Aswan in the afternoon, and the day closes on the Nile with a felucca sail past Kitchener's Island and the Nubian village on the west bank, the light low on the water, the city unhurried on both banks."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "The seventh day is the longest of the tour and, for most travellers, the most extraordinary. It begins early with Abu Simbel, reached by a short flight south to the Nubian shore of Lake Nasser near the Sudanese border. Ramses II had two temples carved directly into a sandstone cliff here in the thirteenth century BC — the Great Temple, fronted by four colossal seated figures of the king each twenty metres high, and the smaller Temple of Nefertari. The modern story is inseparable from the ancient one: between 1964 and 1968, with the rising waters of Lake Nasser threatening to submerge the complex, an international campaign cut the temples into 807 numbered blocks and relocated the entire structure 65 metres higher and 200 metres back from the water. It is one of the largest and most technically ambitious archaeological rescue operations ever carried out. The afternoon is given to Aswan itself — the High Dam, completed in 1970, which reshaped the hydrology of Egypt and created the largest artificial lake in the world, and the Unfinished Obelisk, still lying in its granite quarry with a crack running through it. Dinner and overnight in Aswan."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo: the older layers, then the objects"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "A flight north returns you to Cairo, and the day is given to the city's older layers. The Coptic quarter holds the Ben Ezra Synagogue, one of the oldest in Egypt; the Hanging Church, the fifth-century Coptic Orthodox church suspended above the gatehouse of a Roman fortress; and the Coptic Museum, which holds the world's largest collection of Coptic Christian art and traces Egypt's Christian period from the second century AD through the Arab conquest. From there the day moves to Khan el-Khalili, the medieval bazaar quarter that has traded continuously since the Mamluk sultan Barquq established it in 1382. The evening is a dinner cruise on the Nile, the lit city moving past on both banks."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "The ninth day is the museum chapter, and it is a full one. It begins at the Egyptian Museum on Tahrir Square, the original repository of pharaonic antiquity, opened in 1902 and still holding an accumulation of objects that takes years to read properly — from the Narmer Palette to the gold of the Tanis royal tombs. From there the day moves to the Grand Egyptian Museum, the purpose-built facility at the foot of the Giza plateau that opened fully on 1 November 2025 and now holds the complete Tutankhamun collection — all five thousand objects, the gold mask among them — along with reorganised galleries covering the full arc of ancient Egyptian civilisation. (The royal mummies are displayed separately, at the National Museum of Egyptian Civilisation in Old Cairo.) The day is frankly heavy, and that is appropriate: Cairo's museum holdings are the final piece of what the sites on the Nile have been illustrating all week. Seeing the objects after the tombs and temples gives them a different weight. The airport transfer follows the next morning, with later departures readily accommodated."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Ten days cannot give you all of Egypt — the Eastern Desert, the Sinai, the oases of the Western Desert, the Delta's buried cities are all absent. What this itinerary does instead is rarer: it gives you the essential Egypt at a pace where each place registers before the next one arrives."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The shape of the journey"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Where · Cairo → Alexandria → Memphis/Saqqara/Dahshur → Luxor → Edfu/Kom Ombo → Aswan → Abu Simbel → Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Duration · 10 days / 9 nights — adjustable"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Character · Fully private · your own Egyptologist · domestic flights Cairo–Luxor and Aswan–Cairo, plus Abu Simbel round trip from Aswan · felucca at Aswan · Mediterranean day at Alexandria · Nile dinner cruise in Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "El Egipto esencial: diez días desde Guiza hasta el sur nubio"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un viaje privado por la columna clásica —Guiza, Alejandría, Luxor, Asuán, Abu Simbel—, pensado para una primera visita, con tiempo suficiente en cada parada para que el lugar se asiente antes de que llegue el siguiente."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Algunos itinerarios intentan ser más listos que lo evidente. Este no."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Lo evidente en Egipto lo es por algo: Guiza, Luxor, Asuán, Abu Simbel, el puerto mediterráneo de Alejandría, el bazar medieval de Jan el-Jalili. Son los lugares contra los que se mide el resto del patrimonio del país, y no tiene sentido fingir lo contrario. La cuestión es el ritmo. Diez días bastan para verlos como corresponde. No bastan si se apilan —tres sitios al día, el siguiente vuelo siempre apretando— hasta convertir un gran país en una lista de comprobación."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Por eso la ruta aquí es deliberadamente despejada. El desvío mediterráneo a Alejandría llega el día dos, cuando aún se está fresco y antes de que el sur profundo reclame la atención. Los monumentos al sur de la ciudad —Menfis, Saqqara, Dahshur— reciben un día propio. Luxor tiene dos días, uno en cada orilla. Asuán y Abu Simbel reciben una subida larga pero sin prisas hacia la frontera nubia. El Cairo cierra el viaje con el barrio copto, el bazar, el Museo Egipcio de Tahrir y el Gran Museo Egipcio en Guiza: las colecciones de la ciudad como pieza final, después de los sitios que las produjeron. El viaje es una salida privada, operada solo para su grupo, con su propio egiptólogo y traslados privados durante toda la ruta."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo: el titular primero"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "El viaje abre donde la historia de Egipto se concentra de manera más inmediata. Tras el traslado desde el aeropuerto, la primera tarde completa se reserva a la meseta de Guiza: la Gran Pirámide de Keops, la pirámide de Kefrén, la pirámide de Micerinos y la Gran Esfinge agachada al pie. Se construyeron hacia 2500 a. C. y siguen siendo las estructuras con las que se mide al resto del mundo antiguo. Lo que las fotografías no transmiten es la escala: la masa de las construcciones, la distancia entre ellas, el silencio extraño de la meseta cuando uno se aleja de los bordes. Es una apertura deliberadamente fuerte. El Cairo da el titular primero."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Alejandría: el desvío mediterráneo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "El día dos toma la autopista del desierto al norte hasta Alejandría, la ciudad que Alejandro Magno fundó en 332 a. C. y que, bajo los Ptolomeos, se convirtió en la capital intelectual del mundo antiguo. El programa cubre los hitos a un ritmo cómodo. La Bibliotheca Alexandrina, la biblioteca moderna construida sobre el emplazamiento de la antigua, merece tiempo solo por su arquitectura: un disco inclinado de granito de Asuán inscrito con caracteres de todo el mundo. La fortaleza de Qaitbay, ciudadela del siglo XV levantada sobre los cimientos del antiguo faro, vigila la entrada al puerto oriental. Las catacumbas de Kom el-Shoqafa, complejo funerario de época romana del siglo I d. C., muestran el momento en que las tradiciones religiosas egipcias absorbieron las formas griegas y romanas. La columna de Pompeyo —en realidad una columna erigida en honor a Diocleciano en 297 d. C.— y el Museo Nacional de Alejandría completan la jornada. La comida es marisco frente al mar. Regreso a El Cairo por la tarde-noche."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "La secuencia piramidal al sur de El Cairo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "El tercer día se remonta al comienzo de la construcción de pirámides, es decir, al comienzo de la gran construcción en piedra en cualquier parte del planeta. Menfis fue la primera capital del Egipto unificado, y su museo al aire libre conserva el coloso caído de Ramsés II y la gran esfinge de alabastro. Cerca, Saqqara guarda la pirámide escalonada de Zoser, construida hacia 2650 a. C. bajo el arquitecto Imhotep: la estructura grande de piedra más antigua del mundo, el edificio en el que se inventó la forma piramidal. Dahshur completa la secuencia: la pirámide Acodada muestra el momento en que los arquitectos intentaron una cara lisa muy inclinada y tuvieron que corregir a media construcción; la pirámide Roja, levantada por Snefru poco después, es la primera pirámide auténtica lograda con éxito. Al llegar a las formas perfeccionadas de Guiza —que ya se han visto el día uno—, las tres construcciones de Dahshur y Saqqara han mostrado la curva de aprendizaje que las hizo posibles. Comida tradicional de parrilla mixta; regreso a El Cairo por la tarde."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor: dos días a uno y otro lado del río"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Un vuelo matinal lleva al sur hasta Luxor —la antigua Tebas, capital religiosa de los faraones del Imperio Nuevo— y la ciudad merece dos días completos. Este viaje se los da."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "El primero se pasa en la orilla oriental, sobre todo en Karnak. No es un solo templo, sino un complejo construido y ampliado por faraones sucesivos durante unos 1500 años. Su gran sala hipóstila —134 columnas macizas que cubren más de 5000 metros cuadrados, las más altas de 21 metros— es uno de los espacios interiores más abrumadores conservados del mundo antiguo. Verla sin la presión de un horario apretado es el argumento entero de la construcción de este día. La orilla oriental incluye también el templo de Luxor y el Museo de Luxor, cuya colección de escultura del Imperio Nuevo está entre las más finas de Egipto. La tarde queda libre."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "El segundo día en Luxor cruza al país de los muertos. La orilla occidental de Tebas es donde se enterró a los faraones del Imperio Nuevo, y su pieza central es el Valle de los Reyes: un valle desértico abierto en los acantilados de caliza, con más de sesenta tumbas reales cuyos corredores pintados siguen vivos tras tres mil años. La tumba de Tutankamón está aquí, modesta frente a las grandes tumbas reales de Ramsés VI o Seti I, pero permanentemente cargada por su descubrimiento del siglo XX. El día incluye también el templo funerario de Hatshepsut en Deir el-Bahari —tres terrazas porticadas que ascienden contra el acantilado, monumento de la faraona más exitosa de Egipto, que reinó unos veinte años en el siglo XV a. C., con su obelisco superviviente en Karnak alcanzando 29,5 metros— y los Colosos de Memnón, las dos figuras sedentes de Amenhotep III de 18 metros que son lo único visible de lo que fue el mayor templo funerario de Tebas. El tiempo libre de la tarde permite absorber la jornada al propio ritmo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "La carretera a Asuán y el sur nubio"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "El sexto día es una jornada de traslado en el mejor sentido. La ruta de Luxor a Asuán sigue el Nilo al sur y se detiene dos veces. Edfu conserva el templo de Horus, construido en el periodo ptolemaico entre 237 y 57 a. C. y el templo más completamente preservado de Egipto: muros, techo y santuario interior intactos, la imagen más clara que sobrevive de cómo se organizaba y se usaba un templo egipcio. Kom Ombo es el caso más raro: un templo dedicado a dos deidades a la vez, con planta de perfecta simetría bilateral para honrar tanto a Sobek, el cocodrilo, como a Horus el Viejo. Las galerías contienen una colección notable de cocodrilos momificados. Se llega a Asuán por la tarde, y el día cierra en el Nilo con una faluca que pasa junto a la isla de Kitchener y el poblado nubio de la orilla occidental, con la luz baja sobre el agua y la ciudad sin prisa a ambos lados."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "El séptimo día es el más largo del viaje y, para la mayoría de los viajeros, el más extraordinario. Empieza temprano en Abu Simbel, a donde se llega con un vuelo corto al sur, a la orilla nubia del lago Nasser, cerca de la frontera con Sudán. Ramsés II mandó tallar dos templos directamente en un acantilado de arenisca en el siglo XIII a. C.: el Gran Templo, con sus cuatro colosos sedentes de 20 metros, y el menor templo de Nefertari. La historia moderna es inseparable de la antigua: entre 1964 y 1968, con el agua creciente del lago Nasser amenazando con sumergir el complejo, una campaña internacional cortó los templos en 807 bloques numerados y los reubicó 65 metros más arriba y 200 metros más atrás. Es una de las operaciones de rescate arqueológico más grandes y técnicamente ambiciosas jamás llevadas a cabo. El santuario interior está alineado para que la luz solar alcance las estatuas del fondo dos veces al año, hacia el 22 de febrero y el 22 de octubre. La tarde se dedica a Asuán: la presa Alta, completada en 1970, que reconfiguró la hidrología de Egipto y creó el mayor lago artificial del mundo, y el obelisco inacabado, todavía tumbado en su cantera de granito con una grieta atravesando la piedra. Cena y noche en Asuán."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo: las capas más antiguas, después los objetos"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Un vuelo al norte devuelve el viaje a El Cairo, y la jornada se entrega a las capas más antiguas de la ciudad. El barrio copto reúne la sinagoga Ben Ezra, una de las más antiguas de Egipto; la Iglesia Colgante, basílica copta del siglo V suspendida sobre la portería de una fortaleza romana; y el Museo Copto, que conserva la mayor colección de arte cristiano copto del mundo y traza el periodo cristiano de Egipto desde el siglo II d. C. hasta la conquista árabe. Desde ahí, el día se mueve a Jan el-Jalili, el barrio del bazar medieval que comercia sin interrupción desde que el sultán mameluco Barquq lo estableció en 1382. La noche es una cena en crucero por el Nilo, con la ciudad iluminada deslizándose a ambos lados."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "El noveno día es el capítulo de los museos, y es completo. Empieza en el Museo Egipcio de la plaza Tahrir, el depósito original de antigüedades faraónicas, inaugurado en 1902 y todavía con una acumulación de objetos que pide años para leerse como corresponde: de la Paleta de Narmer al oro de las tumbas reales de Tanis. Desde ahí el día pasa al Gran Museo Egipcio, la instalación construida ex profeso al pie de la meseta de Guiza, plenamente abierta el 1 de noviembre de 2025, que ahora alberga la colección completa de Tutankamón —los cinco mil objetos, con la máscara de oro entre ellos— junto con galerías reorganizadas que cubren todo el arco de la civilización del antiguo Egipto. (Las momias reales se exponen aparte, en el Museo Nacional de la Civilización Egipcia, en El Cairo Antiguo.) El día es francamente denso, y es apropiado: las colecciones de El Cairo son la pieza final de lo que los sitios del Nilo han estado ilustrando toda la semana. Ver los objetos después de las tumbas y los templos les da otro peso. El traslado al aeropuerto sigue a la mañana siguiente, con salidas tardías fácilmente acomodadas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Diez días no pueden mostrar todo Egipto: el Desierto Oriental, el Sinaí, los oasis del Desierto Occidental, las ciudades enterradas del Delta quedan fuera. Lo que ofrece este itinerario es algo más infrecuente: el Egipto esencial a un ritmo en el que cada lugar se asienta antes de que llegue el siguiente."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La forma del viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Dónde · El Cairo → Alejandría → Menfis, Saqqara y Dahshur → Luxor → Edfu y Kom Ombo → Asuán → Abu Simbel → El Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Duración · 10 días / 9 noches, ajustable como viaje privado"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Carácter · Salida privada · su propio egiptólogo · vuelos internos El Cairo–Luxor y Asuán–El Cairo, más Abu Simbel ida y vuelta desde Asuán · faluca en Asuán · día mediterráneo en Alejandría · cena en crucero por el Nilo en El Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "本質のエジプト——ギザからヌビアの南までの10日間"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "古典的な背骨——ギザ、アレクサンドリア、ルクソール、アスワン、アブ・シンベル——を、初訪の方が次の場所を迎える前にそれぞれを心に刻めるだけのペースで巡る、プライベートな旅。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "明らかなものを出し抜こうとする行程があります。この旅はそうしません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプトで明らかなものが明らかなのには、理由があります。ギザ、ルクソール、アスワン、アブ・シンベル、地中海の港アレクサンドリア、ハン・ハリーリの中世のバザール。これらは、国の遺産の残りが測られる尺度であり、それを取りつくろう意味はありません。問題はペースです。10日間は、それらをきちんと見るには十分です。けれども、それらを積み重ねて——一日に三か所、次の便がいつも迫って——大国を点検表に変えてしまう強行軍にしたなら、十分ではなくなります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "ここでのルートは意図的にゆったりしています。アレクサンドリアへの地中海の寄り道は二日目に、まだ気力があり、より深い南があなたを引き込む前に来ます。カイロの南の記念建造物——メンフィス、サッカラ、ダハシュール——は独立した一日を得ます。ルクソールは二日——一日は東岸、一日は西岸。アスワンとアブ・シンベルは、ヌビアの岸への、長いが急がない登りを得ます。カイロが旅を締めくくります——コプト地区、バザール、タハリール広場のエジプト博物館、そしてギザの大エジプト博物館——街の博物館の所蔵品を、それらを生み出した遺跡のあとに、最後の一片として置くのです。ご一行だけのための一回の出発で、専属のエジプト学ガイドと、全行程を通じたプライベートの送迎をご用意しています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロ：まず見出しを"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "旅は、エジプトの物語が最も直接に凝縮された場所に始まります。空港からの送迎のあと、最初の丸ごとの午後はギザ高原へ——クフ王の大ピラミッド、カフラー王、メンカウラー王、そのふもとにうずくまる大スフィンクスです。これらは紀元前2500年ごろに築かれ、いまも、ほかの古代世界が測られる基準であり続けています。写真が伝えないのは規模です——建造物の量塊、それらのあいだの距離、へりから離れたあとの高原の奇妙な静けさ。意図的に力強い幕開けです。カイロは、まず見出しを差し出すのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "アレクサンドリア：地中海の寄り道"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "二日目は砂漠の幹線道路で北のアレクサンドリアへ——アレクサンドロス大王が紀元前331年に建設し、プトレマイオス朝のもとで古代世界の知の首都となった街です。プログラムは見どころを心地よいペースで巡ります。古代の図書館の跡地に建てられた現代のアレクサンドリア図書館は、その建築だけのためにも時間をかける価値があります——世界中の文字が刻まれた、アスワンの花崗岩の傾いた円盤です。カイトベイ要塞は、古代のファロスの灯台の基礎の上に築かれた15世紀の城塞で、東港の先端に立っています。コム・エル・シュカファのカタコンベは、紀元1世紀のローマ期の埋葬複合体で、エジプトの古代の宗教の伝統がギリシアとローマの形を吸収しつつあった瞬間を見せてくれます。ポンペイの柱——実は、紀元297年に皇帝ディオクレティアヌスを称えて建てられた円柱です——とアレクサンドリア国立博物館が一日を締めくくります。街での昼食は、海辺でのシーフードです。夕方にカイロへ戻ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロ南方のピラミッドの連なり"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "三日目は、ピラミッド建設の始まり——つまり、地上のどこであれ大規模な石造建設の始まり——へとさかのぼります。メンフィスは統一エジプト最初の首都で、その野外博物館には、ラムセス2世の倒れた巨像と、大きなアラバスターのスフィンクスが保存されています。近くのサッカラには、建築家イムホテプのもと紀元前2650年ごろに築かれたジェセル王の階段ピラミッド——世界最古の大規模な石造建造物であり、ピラミッドの形が発明された建物——があります。ダハシュールがその連なりを完結させます。屈折ピラミッドは、建築家たちが急ななめらかな側面に挑み、建設の途中で修正しなければならなかった地点を見せてくれます。その直後にスネフェル王によって築かれた赤ピラミッドは、最初の成功した真正ピラミッドです。ギザの完成された形にたどり着くころには——あなたはすでに初日にそれを見ているのですが——ダハシュールとサッカラの三つの建造物が、それらを可能にした学びの過程を見せてくれています。昼食はミックスグリル、午後にカイロへ戻ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソール：川の両側で二日"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "朝の便があなたを南のルクソールへ運びます——古代のテーベ、新王国のファラオたちの宗教的首都——そして街は二日に値します。この旅はそれに二日を与えます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "最初の一日は東岸で、おもにカルナックで過ごします。それは単一の神殿ではなく、神殿複合体で、およそ1,500年にわたって歴代のファラオによって築かれ拡張されました。その大列柱室——5,000平方メートルを超える面積を覆う134本の巨大な柱、最も高いものは21メートル——は、古代世界から現存する最も圧倒的な内部空間の一つです。詰まったスケジュールの圧迫なしにそれを見ることこそ、この一日の組み立ての主張のすべてです。東岸にはまた、ルクソール神殿とルクソール博物館もあり、その新王国の彫刻のコレクションはエジプトでも最良のものの一つです。夕べは自由です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "二日目のルクソールは、川を渡って死者の地へ。テーベの西岸は、新王国のファラオたちが葬られた場所で、その中心は王家の谷です——石灰岩の崖に彫り込まれた砂漠の谷で、60を超える王室の墓を擁し、その彩色された回廊は三千年を経てなお鮮やかです。ツタンカーメンの墓もここにあります——ラムセス6世やセティ1世の偉大な王室の墓の傍らでは規模は控えめながら、その20世紀の発見を永遠に背負っています。一日はまた、デイル・エル・バハリのハトシェプスト葬祭殿——崖の壁を背に立ち上がる三段の列柱のテラスで、紀元前15世紀におよそ20年間統治した、エジプトで最も成功した女性ファラオの記念建造物です——とメムノンの巨像、アメンホテプ3世の二体の座像で、かつてテーベで最大だった葬祭殿のうち、いまも目に見えて残るすべてに立ち寄ります。午後の自由時間は、ご自身のペースでその一日を味わうことを許してくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワンへの道、そしてヌビアの南"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "六日目は、最良の意味での移動の一日です。ルクソールからアスワンへのルートはナイルを南へたどり、二度立ち寄ります。エドフには、ホルス神殿があります。紀元前237年から57年のあいだ、プトレマイオス朝期に築かれ、エジプトで最もよく保存された神殿です——壁、屋根、内陣が無傷で、エジプトの神殿が実際にどう組み立てられ、使われていたかの、現存する最も明快な姿を成しています。コム・オンボは、より珍しい例です——二柱の神に同時に捧げられた神殿で、ワニの神セベクと、年長のホルスの両方を等しく称えるため、左右対称に配されています。その回廊には、ミイラ化されたワニの目を見張るコレクションがあります。午後にアスワンに着き、一日はナイルの上で——キッチナー島とヌビアの村を過ぎるフェルッカ帆走で、光は水の上に低く、街は両岸でゆったりとしています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "七日目は旅で最も長く、たいていの旅人にとって最も並外れた一日です。早朝、アブ・シンベルへ。南へ短い飛行で、ナセル湖のヌビアの岸辺、スーダン国境近くへたどり着きます。ラムセス2世は、紀元前13世紀にここで二つの神殿を砂岩の崖に直接彫らせました——大神殿は、それぞれ高さ20メートルの四体の巨大な王の座像を前面に擁し、そして小さなネフェルタリ神殿です。この遺跡の近代の物語は、その古代の物語と切り離せません——1964年から1968年にかけて、ナセル湖の上昇する水が複合体を水没させかねないなか、国際的な活動が神殿を807の番号付きのブロックに切り分け、構造物全体を65メートル高く、水際から200メートル後方へ移設しました。これまでに行われたなかで最も大規模で技術的に野心的な考古学的救出作業の一つです。午後はアスワンそのものにあてられます。1970年に完成したハイダムは、エジプトの水文を造り変え、世界最大の人造湖をつくりました。未完のオベリスクは、いまも花崗岩の石切場に、亀裂が走った状態で横たわっています。アスワンでの夕食と一泊です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロ：より古い層、それから品々"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "北への便があなたをカイロへ戻し、一日は街のより古い層にあてられます。コプト地区には、エジプトで最も古いシナゴーグの一つ、ベン・エズラ・シナゴーグ、ローマの要塞の門楼の上に吊られた5世紀のコプト正教会、ハンギング・チャーチ、そして世界最大のコプト・キリスト教美術のコレクションを収め、エジプトのキリスト教の時代を紀元2世紀からアラブ征服までたどるコプト博物館があります。そこから一日はハン・ハリーリへ移ります。1382年にマムルーク朝のスルタン・バルクークが設けて以来、とぎれることなく商いを続けてきた中世のバザール地区です。夕べは、ナイルのディナークルーズです。灯りに照らされた街が、両岸に過ぎてゆきます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "九日目は博物館の章であり、詰まった一日です。それはタハリール広場のエジプト博物館に始まります。ファラオの古代の本来の収蔵庫で、1902年に開館し、いまも、きちんと読むには何年もかかる品々の集積を収めています——ナルメルのパレットから、タニスの王室墓の黄金まで。そこから一日は大エジプト博物館へ移ります。ギザ高原のふもとに建てられた専用の施設で、2025年11月1日に全面開館し、いまやツタンカーメンのコレクション全体——その黄金のマスクを含む五千点すべて——を収め、あわせて古代エジプト文明の弧の全体を網羅する、再構成された展示室を擁します。（王室のミイラは別に、オールド・カイロの国立エジプト文明博物館に展示されています。）一日は率直に重く、それがふさわしいのです——カイロの博物館の収蔵品は、ナイル沿いの遺跡がこの一週間ずっと例証してきたものの、最後の一片です。墓所と神殿のあとに品々を見ることは、それらに別の重みを与えます。空港への送迎が翌朝続きます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "10日間で、エジプトのすべてを差し上げることはできません——東方砂漠、シナイ、西方砂漠のオアシス、デルタの埋もれた都市は、いずれもここには欠けています。この行程が代わりにするのは、もっと稀なことです——次の場所が来る前にそれぞれが心に刻まれるペースで、本質のエジプトを差し上げるのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "旅の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · カイロ → アレクサンドリア → メンフィス／サッカラ／ダハシュール → ルクソール → エドフ／コム・オンボ → アスワン → アブ・シンベル → カイロ"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "日数 · 10日間／9泊 — 調整可能"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド · 国内線（カイロ／ルクソール、アスワン／カイロ、加えてアスワン発着アブ・シンベル往復）· アスワンのフェルッカ · アレクサンドリアでの地中海一日 · カイロのナイル・ディナークルーズ"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "wp-page-83284",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private journey is built around your party, not the other way around. Tell our team how you'd want to shape it — a Nile cruise added between Luxor and Aswan, more time at Alexandria, the pyramid day paced differently — and we'll build the ten days to fit."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Un viaje privado se construye alrededor de su grupo, no al revés. Cuéntenos cómo quieren modelarlo —un crucero por el Nilo añadido entre Luxor y Asuán, más tiempo en Alejandría, el día piramidal con otro ritmo— y armaremos los diez días a su medida."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "プライベートな旅は、お客様のご一行を中心に組み立てます。ルクソール／アスワン間にナイルクルーズを加える、アレクサンドリアにもう一日とる、ピラミッドの日のペースを変える——どのように形にしたいか、私どもまでお聞かせください。10日間をその形に合わせて組み立てます。"
+  }
+ ],
+ "durationDays": 10,
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 2350,
+  "ja": 2403
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Visitors crossing the colonnaded forecourt of the Temple of Philae toward its great pylon"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Visitantes cruzando el patio con columnata del Templo de File hacia su gran pilono"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "フィラエ神殿の列柱の前庭を、大きな塔門へと歩く見学者たち。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-5eb7b6bfef891fae731163bfa30495428bfa8934-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Visitors cross the forecourt of the Temple of Philae."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Visitantes cruzan el patio del Templo de File."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "フィラエ神殿の前庭を歩く見学者たち。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "b1ylm8f4iq",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The journey is one private departure, operated for your party alone, with your own Egyptologist guide and private transfers throughout.",
+   "text": "Private departure, operated for your party alone"
+  },
+  {
+   "_key": "rtxnbs628a",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The journey is one private departure, operated for your party alone, with your own Egyptologist guide and private transfers throughout.",
+   "text": "Your own Egyptologist guide"
+  },
+  {
+   "_key": "bgripxw34q",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The journey is one private departure, operated for your party alone, with your own Egyptologist guide and private transfers throughout.",
+   "text": "Private transfers throughout"
+  },
+  {
+   "_key": "ueciaqnut2",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · your own Egyptologist · domestic flights Cairo–Luxor and Aswan–Cairo, plus Abu Simbel round trip from Aswan · felucca at Aswan · Mediterranean day at Alexandria · Nile dinner cruise in Cairo",
+   "text": "Domestic flights Cairo–Luxor and Aswan–Cairo, plus Abu Simbel round trip from Aswan"
+  },
+  {
+   "_key": "lm7gc8jly4",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · your own Egyptologist · domestic flights Cairo–Luxor and Aswan–Cairo, plus Abu Simbel round trip from Aswan · felucca at Aswan · Mediterranean day at Alexandria · Nile dinner cruise in Cairo",
+   "text": "Felucca at Aswan"
+  },
+  {
+   "_key": "xzrlyagcs6",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · your own Egyptologist · domestic flights Cairo–Luxor and Aswan–Cairo, plus Abu Simbel round trip from Aswan · felucca at Aswan · Mediterranean day at Alexandria · Nile dinner cruise in Cairo",
+   "text": "Nile dinner cruise in Cairo"
+  },
+  {
+   "_key": "8nffagojzh",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Lunch is a seafood meal on the waterfront.",
+   "text": "Seafood lunch on the waterfront in Alexandria"
+  },
+  {
+   "_key": "o5e2hsd7zl",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Lunch is a traditional mixed grill; you return to Cairo in the afternoon.",
+   "text": "Traditional mixed grill lunch"
+  },
+  {
+   "_key": "8690ncttoy",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Dinner and overnight in Aswan.",
+   "text": "Dinner in Aswan"
+  },
+  {
+   "_key": "xo5zxde98f",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El viaje es una salida privada, operada solo para su grupo, con su propio egiptólogo y traslados privados durante toda la ruta.",
+   "text": "Salida privada, operada solo para su grupo"
+  },
+  {
+   "_key": "uag3yhbl91",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El viaje es una salida privada, operada solo para su grupo, con su propio egiptólogo y traslados privados durante toda la ruta.",
+   "text": "Su propio egiptólogo"
+  },
+  {
+   "_key": "76w81jtlen",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El viaje es una salida privada, operada solo para su grupo, con su propio egiptólogo y traslados privados durante toda la ruta.",
+   "text": "Traslados privados durante toda la ruta"
+  },
+  {
+   "_key": "sx3ffitl10",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Carácter · Salida privada · su propio egiptólogo · vuelos internos El Cairo–Luxor y Asuán–El Cairo, más Abu Simbel ida y vuelta desde Asuán · faluca en Asuán · día mediterráneo en Alejandría · cena en crucero por el Nilo en El Cairo",
+   "text": "Vuelos internos El Cairo–Luxor y Asuán–El Cairo"
+  },
+  {
+   "_key": "ku80az298i",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Carácter · Salida privada · su propio egiptólogo · vuelos internos El Cairo–Luxor y Asuán–El Cairo, más Abu Simbel ida y vuelta desde Asuán · faluca en Asuán · día mediterráneo en Alejandría · cena en crucero por el Nilo en El Cairo",
+   "text": "Abu Simbel ida y vuelta desde Asuán"
+  },
+  {
+   "_key": "gyzgipw5io",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Carácter · Salida privada · su propio egiptólogo · vuelos internos El Cairo–Luxor y Asuán–El Cairo, más Abu Simbel ida y vuelta desde Asuán · faluca en Asuán · día mediterráneo en Alejandría · cena en crucero por el Nilo en El Cairo",
+   "text": "Faluca en Asuán"
+  },
+  {
+   "_key": "zsstw2m2kr",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Carácter · Salida privada · su propio egiptólogo · vuelos internos El Cairo–Luxor y Asuán–El Cairo, más Abu Simbel ida y vuelta desde Asuán · faluca en Asuán · día mediterráneo en Alejandría · cena en crucero por el Nilo en El Cairo",
+   "text": "Cena en crucero por el Nilo en El Cairo"
+  },
+  {
+   "_key": "ktp6c5x8uk",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ご一行だけのための一回の出発で、専属のエジプト学ガイドと、全行程を通じたプライベートの送迎をご用意しています。",
+   "text": "専属のエジプト学ガイド"
+  },
+  {
+   "_key": "0edxchh361",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ご一行だけのための一回の出発で、専属のエジプト学ガイドと、全行程を通じたプライベートの送迎をご用意しています。",
+   "text": "全行程を通じたプライベートの送迎"
+  },
+  {
+   "_key": "14xr5w9kr5",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "- 性格 · 完全プライベート出発 · 専属のエジプト学ガイド · 国内線（カイロ／ルクソール、アスワン／カイロ、加えてアスワン発着アブ・シンベル往復）· アスワンのフェルッカ · アレクサンドリアでの地中海一日 · カイロのナイル・ディナークルーズ",
+   "text": "国内線（カイロ／ルクソール、アスワン／カイロ、加えてアスワン発着アブ・シンベル往復）"
+  },
+  {
+   "_key": "s2tzq28trr",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "- 性格 · 完全プライベート出発 · 専属のエジプト学ガイド · 国内線（カイロ／ルクソール、アスワン／カイロ、加えてアスワン発着アブ・シンベル往復）· アスワンのフェルッカ · アレクサンドリアでの地中海一日 · カイロのナイル・ディナークルーズ",
+   "text": "アスワンのフェルッカ"
+  },
+  {
+   "_key": "kxfzegu5kp",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "- 性格 · 完全プライベート出発 · 専属のエジプト学ガイド · 国内線（カイロ／ルクソール、アスワン／カイロ、加えてアスワン発着アブ・シンベル往復）· アスワンのフェルッカ · アレクサンドリアでの地中海一日 · カイロのナイル・ディナークルーズ",
+   "text": "カイロのナイル・ディナークルーズ"
+  }
+ ],
+ "itineraryDays": [
+  {
+   "_key": "uyr6q9zths",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "After the airport transfer, the first full afternoon goes to the Giza plateau — the Great Pyramid of Khufu, the Pyramid of Khafre, the Pyramid of Menkaure, and the Great Sphinx crouched below them.",
+   "title": "Cairo arrival and Giza plateau"
+  },
+  {
+   "_key": "fj2ibbl137",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "Day two takes the desert highway north to Alexandria — the city Alexander the Great founded in 331 BC and that became, under the Ptolemies, the intellectual capital of the ancient world.",
+   "title": "Alexandria: the Mediterranean detour"
+  },
+  {
+   "_key": "jq3lf6g78i",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "The third day reaches back to the beginning of pyramid-building — which is to say, to the beginning of large stone construction anywhere on earth.",
+   "title": "Memphis, Saqqara and Dahshur pyramid sequence"
+  },
+  {
+   "_key": "5radcv4o24",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Luxor",
+   "overnightNeedsReview": true,
+   "source": "A morning flight south carries you to Luxor — ancient Thebes, the religious capital of the New Kingdom pharaohs — and the city deserves two full days.",
+   "title": "Flight to Luxor, East Bank"
+  },
+  {
+   "_key": "2aewlwdprs",
+   "_type": "itineraryDay",
+   "day": 5,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Luxor",
+   "overnightNeedsReview": true,
+   "source": "The second Luxor day crosses to the land of the dead.",
+   "title": "Luxor West Bank, Valley of the Kings"
+  },
+  {
+   "_key": "mj97r6kxt5",
+   "_type": "itineraryDay",
+   "day": 6,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Aswan",
+   "overnightNeedsReview": true,
+   "source": "Day six is a travelling day in the best sense.",
+   "title": "Road to Aswan via Edfu, Kom Ombo"
+  },
+  {
+   "_key": "mcaeosj37e",
+   "_type": "itineraryDay",
+   "day": 7,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Aswan",
+   "overnightNeedsReview": true,
+   "source": "The seventh day is the longest of the tour and, for most travellers, the most extraordinary.",
+   "title": "Abu Simbel and Aswan"
+  },
+  {
+   "_key": "xvqmw0o4ou",
+   "_type": "itineraryDay",
+   "day": 8,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "A flight north returns you to Cairo, and the day is given to the city's older layers.",
+   "title": "Flight to Cairo, Coptic quarter, bazaar"
+  },
+  {
+   "_key": "lnh6z7nngu",
+   "_type": "itineraryDay",
+   "day": 9,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "The ninth day is the museum chapter, and it is a full one.",
+   "title": "The museum chapter"
+  },
+  {
+   "_key": "4orw5qkfer",
+   "_type": "itineraryDay",
+   "day": 10,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "The airport transfer follows the next morning, with later departures readily accommodated.",
+   "title": "Airport transfer"
+  },
+  {
+   "_key": "0dwp17kn7c",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "El Cairo",
+   "overnightNeedsReview": true,
+   "source": "Tras el traslado desde el aeropuerto, la primera tarde completa se reserva a la meseta de Guiza: la Gran Pirámide de Keops, la pirámide de Kefrén, la pirámide de Micerinos y la Gran Esfinge agachada al pie.",
+   "title": "El Cairo: meseta de Guiza"
+  },
+  {
+   "_key": "qm0gt01je9",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "El Cairo",
+   "overnightNeedsReview": true,
+   "source": "Regreso a El Cairo por la tarde-noche.",
+   "title": "Alejandría: el desvío mediterráneo"
+  },
+  {
+   "_key": "jcc5wd876g",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "El Cairo",
+   "overnightNeedsReview": true,
+   "source": "Comida tradicional de parrilla mixta; regreso a El Cairo por la tarde.",
+   "title": "Menfis, Saqqara y Dahshur"
+  },
+  {
+   "_key": "n6118hw3ry",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Luxor",
+   "overnightNeedsReview": true,
+   "source": "El primero se pasa en la orilla oriental, sobre todo en Karnak.",
+   "title": "Vuelo a Luxor, orilla oriental"
+  },
+  {
+   "_key": "t8f2izhd1j",
+   "_type": "itineraryDay",
+   "day": 5,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Luxor",
+   "overnightNeedsReview": true,
+   "source": "El segundo día en Luxor cruza al país de los muertos.",
+   "title": "Luxor: orilla occidental de Tebas"
+  },
+  {
+   "_key": "mbwsholgmg",
+   "_type": "itineraryDay",
+   "day": 6,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Asuán",
+   "overnightNeedsReview": true,
+   "source": "Se llega a Asuán por la tarde, y el día cierra en el Nilo con una faluca que pasa junto a la isla de Kitchener y el poblado nubio de la orilla occidental, con la luz baja sobre el agua y la ciudad sin prisa a ambos lados.",
+   "title": "La carretera a Asuán"
+  },
+  {
+   "_key": "umr4mso9xr",
+   "_type": "itineraryDay",
+   "day": 7,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Asuán",
+   "overnightNeedsReview": true,
+   "source": "Cena y noche en Asuán.",
+   "title": "Abu Simbel y Asuán"
+  },
+  {
+   "_key": "xymupao0cd",
+   "_type": "itineraryDay",
+   "day": 8,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "El Cairo",
+   "overnightNeedsReview": true,
+   "source": "Un vuelo al norte devuelve el viaje a El Cairo, y la jornada se entrega a las capas más antiguas de la ciudad.",
+   "title": "El Cairo: barrio copto y Jan el-Jalili"
+  },
+  {
+   "_key": "xvpr2864w3",
+   "_type": "itineraryDay",
+   "day": 9,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "El Cairo",
+   "overnightNeedsReview": true,
+   "source": "El noveno día es el capítulo de los museos, y es completo.",
+   "title": "El capítulo de los museos"
+  },
+  {
+   "_key": "0g9ue0ejcm",
+   "_type": "itineraryDay",
+   "day": 10,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "El traslado al aeropuerto sigue a la mañana siguiente, con salidas tardías fácilmente acomodadas.",
+   "title": "Traslado al aeropuerto"
+  }
+ ],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/10-days-unforgettable-egypt-tour/"
+ },
+ "priceFrom": 2260,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_156539",
+   "_ref": "wp-page-156539",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_89005",
+   "_ref": "wp-page-89005",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_89343",
+   "_ref": "wp-page-89343",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88994",
+   "_ref": "wp-page-88994",
+   "_type": "reference"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "10-days-unforgettable-egypt-tour"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "honshitsu-no-ejiputo-giza-kara-nubia-no-minami-made-10"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "Ten days that take in the country's headline shape — Giza and the Coptic quarter, Alexandria on the Mediterranean, the temples of Luxor, the Nubian south, and Abu Simbel — at a pace where each place registers."
+  },
+  {
+   "_key": "es",
+   "value": "Diez días que toman la forma esencial del país —Guiza y el barrio copto, Alejandría sobre el Mediterráneo, los templos de Luxor, el sur nubio y Abu Simbel— a un ritmo en el que cada lugar deja huella antes de que llegue el siguiente."
+  },
+  {
+   "_key": "ja",
+   "value": "ギザとコプト地区、地中海のアレクサンドリア、ルクソールの神殿、ヌビアの南、そしてアブ・シンベル。古典的な背骨を、それぞれの場所が記憶に残るペースで巡る初訪のための10日間。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-egypt-in-depth",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "value": "10-Day Egypt Tour: Cairo, Alexandria, Luxor, Aswan and the Nile"
+  },
+  {
+   "_key": "es",
+   "value": "Egipto en 10 días: El Cairo, Alejandría, Luxor, Asuán y el Nilo"
+  },
+  {
+   "_key": "ja",
+   "value": "本質のエジプト——ギザからヌビアの南まで、10日間"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}

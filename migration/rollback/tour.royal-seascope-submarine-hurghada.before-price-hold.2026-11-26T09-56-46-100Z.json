@@ -1,0 +1,1387 @@
+{
+ "_createdAt": "2026-05-28T11:45:36Z",
+ "_id": "tour.royal-seascope-submarine-hurghada",
+ "_rev": "pzh5FM4q1DBt3H4LGqNNJZ",
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:46Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Families with young children, older travellers, non-swimmers, and anyone wary of enclosed spaces who still wants the reef from below the line — not the same product as the Sindbad submarine, which fully dives to around 22 m"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Familias con niños pequeños, viajeros mayores, no nadadores y quienes recelan de los espacios cerrados pero aún quieren ver el arrecife desde abajo de la línea, no es el mismo producto que el submarino Sindbad, que sí se sumerge hasta unos 22 m"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "泳がず濡れずに、窓越しでサンゴ礁と魚群を見たいご家族・お子様連れ・ご高齢の旅人"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Seeing the Red Sea from the Inside Out"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "Hurghada sits on one of the planet's most celebrated stretches of coral coastline, yet most visitors experience it only from the surface — a snorkelling mask here, a glass-bottomed boat there. The Royal Seascope semi-submarine changes that calculation. Passengers sit in an air-conditioned observation cabin set below the waterline, with the reef on the other side of a large window rather than a wetsuit. No swimming ability required, no certification, no gear. You simply board, take a seat, and watch."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a half-day excursion — relaxed in pace and genuinely accessible. It suits families with young children, travellers who are curious about the Red Sea but not ready to dive or snorkel, older visitors who want comfort without compromise, and anyone whose itinerary has one free morning or afternoon. It is not an adrenaline experience; it is an observational one, and the distinction matters."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "A practical note on what the Royal Seascope is: a "
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "semi-submarine"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": ", not a true submarine. The upper deck stays above the waterline; passengers descend a short stair into a glassed observation cabin that sits roughly three metres below the surface, viewing the reef in the shallow, sunlit water around the hull. (If you want a vessel that actually dives — down to around 22 metres — that is the separate Sindbad submarine, a different product.) The Seascope's shallow, near-surface design is exactly why it is comfortable for children, for anyone wary of enclosed spaces, and for those who simply want the view without the dive."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The hotel transfer is "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "private to your party"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "; the semi-submarine itself is a "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "shared vessel"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": " carrying up to 44 passengers, run by its crew. The trip "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "takes bookings from a single seat upward"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ", with no minimum group, and "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "one bottle of mineral water per person"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": " is provided. There is "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "no minimum age"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": " — families are welcome, and the low, wide windows are positioned for children to see clearly from a seated position."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Hotel pickup comes first — a private, air-conditioned transfer from your Hurghada accommodation to the Sinbad pier, roughly 20 to 30 minutes depending on where you're staying in the resort strip. The pier itself is a working harbour rather than a polished marina, which gives it an honest character."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Once aboard the Royal Seascope, the vessel moves out over the reef and you descend the short stair into the observation cabin. From there the viewing windows are wide and positioned at seated eye level, giving a clear, unobstructed line of sight into the coral in the shallow water alongside. Coral formations here tend to vary between staghorn and brain corals, with sea fans and table corals where the reef shelves away. Fish movement around the vessel is often considerable — the hull attracts smaller species, which in turn attract larger ones, and the viewing window fills quickly if you pay attention to the layering of activity rather than waiting passively for something spectacular to swim past."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "After the underwater-viewing phase, the vessel returns to the pier and a transfer takes you back to your hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "A Note on the Trip"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a half-day outing — roughly two to three hours door to door, including the private transfers each way. The Seascope works close to shore over Hurghada's near-coast reefs, so there is no long open-water crossing; the underwater-viewing window itself runs around fifty minutes. Departures are typically in the morning, when the light through the water is strongest."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "The Red Sea Context"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "The Red Sea is one of the world's northernmost tropical seas — a narrow, almost enclosed body of water that has been geologically isolated long enough to develop a high degree of endemic species, around a tenth of its fish found nowhere else on earth. The water temperature around Hurghada sits between 22°C and 28°C across the year, and visibility regularly exceeds 20 metres, which is what makes semi-submarine viewing viable: murky water would make the exercise pointless."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "The reef systems directly off Hurghada have faced pressure from coastal development and tourism over the past three decades, and some degradation is visible if you know what healthy coral looks like. That context is worth holding alongside the genuine beauty. What remains is still substantive, and the Seascope's route is chosen to showcase the stronger sections."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Most of Hurghada's coastline is experienced at surface level — sun, salt, and a reef glimpsed through a mask."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "This is what lies just beneath it, seen clearly, from a seat."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "If you would rather actually descend rather than skim — fully enclosed cabin, around 22 metres of water above your head — ask about the Sindbad submarine instead. The Seascope is the right choice when comfort and ease are the brief."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Ver el mar Rojo desde dentro"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una hora cómoda con el arrecife al otro lado del cristal, sin equipo ni certificación."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Hurgada se asoma a uno de los tramos de costa coralina más celebrados del planeta, y sin embargo la mayoría de los visitantes lo experimentan solo desde la superficie: una máscara de snorkel por aquí, un barco con fondo de cristal por allá. El semisubmarino Royal Seascope cambia esa ecuación. Los pasajeros se sientan en una cabina de observación con aire acondicionado situada bajo la línea de flotación, con el arrecife al otro lado de una amplia ventana en vez de un neopreno. No hace falta saber nadar, ni tener certificación, ni equipo. Basta con embarcar, sentarse y mirar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Es una excursión de media jornada, de ritmo relajado y genuinamente accesible. Se ajusta a familias con niños pequeños, a viajeros con curiosidad por el mar Rojo que aún no están listos para bucear o hacer snorkel, a visitantes mayores que quieren confort sin sacrificios y a cualquiera que tenga una mañana o una tarde libre en su itinerario. No es una experiencia de adrenalina; es de observación, y la diferencia importa."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Una nota práctica sobre qué es el Royal Seascope: un "
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "semisubmarino"
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": ", no un submarino propiamente dicho. La cubierta superior permanece sobre la línea de flotación; los pasajeros bajan una escalera corta hasta una cabina acristalada situada a unos tres metros bajo la superficie, desde la que se ve el arrecife en el agua somera e iluminada por el sol alrededor del casco. (Si lo que busca es una embarcación que se sumerja de verdad —hasta unos 22 metros—, ese es el submarino Sindbad, un producto distinto.) El diseño somero y casi superficial del Seascope es exactamente lo que lo hace cómodo para los niños, para quien recele de los espacios cerrados y para quienes simplemente quieren la vista sin la inmersión."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "El traslado al hotel es "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "privado para su grupo"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "; el semisubmarino en sí es una "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "embarcación compartida"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": " con capacidad de hasta 44 pasajeros, operada por su tripulación. La salida "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "acepta reservas desde una sola plaza"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ", sin mínimo de grupo, y se incluye "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "una botella de agua mineral por persona"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": ". "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "No hay edad mínima"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": ": las familias son bienvenidas, y las ventanas bajas y anchas están colocadas para que los niños vean con claridad desde una posición sentada."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "La recogida en el hotel es lo primero: un traslado privado con aire acondicionado desde su alojamiento en Hurgada hasta el muelle de Sinbad, de unos veinte a treinta minutos, según la zona en la franja hotelera. El muelle es un puerto operativo más que una marina pulida, y eso le da un carácter honesto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Una vez a bordo del Royal Seascope, la embarcación se desplaza sobre el arrecife y los pasajeros descienden la escalera corta hasta la cabina de observación. Desde allí, las "
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ventanas de visión"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": " son anchas y están colocadas a la altura de los ojos en posición sentada, lo que ofrece una línea clara y sin obstáculos hacia el coral en el agua somera contigua. Las formaciones coralinas aquí suelen alternar entre coral cuerno de ciervo y coral cerebro, con abanicos de mar y corales mesa allí donde el arrecife se descuelga. El movimiento de peces alrededor de la embarcación suele ser considerable: el casco atrae especies pequeñas, que a su vez atraen a especies más grandes, y la ventana se llena enseguida si se presta atención al estratificado de la actividad antes que esperar pasivamente a que pase algo espectacular."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Tras la fase de visión bajo el agua, la embarcación regresa al muelle y un traslado devuelve al grupo al hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Una nota sobre la salida"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Es una salida de media jornada, de unas dos a tres horas de puerta a puerta, incluidos los traslados privados de ida y vuelta. El Seascope trabaja cerca de la costa, sobre los arrecifes próximos a Hurgada, así que no hay un cruce largo en mar abierto; la ventana de visión bajo el agua dura unos cincuenta minutos. Las salidas suelen ser por la mañana, cuando la luz a través del agua es más intensa."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "El contexto del mar Rojo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "El mar Rojo es uno de los mares tropicales más septentrionales del mundo: una masa de agua estrecha y casi cerrada, geológicamente aislada durante el tiempo suficiente como para haber desarrollado un alto grado de especies endémicas; aproximadamente una décima parte de sus peces no se encuentra en ningún otro lugar de la tierra. La temperatura del agua en torno a Hurgada se mantiene entre los 22 y los 28 °C a lo largo del año, y la visibilidad supera con regularidad los 20 metros, que es lo que hace viable la visión desde semisubmarino: en aguas turbias, el ejercicio carecería de sentido."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Los sistemas de arrecife situados directamente frente a Hurgada han soportado la presión del desarrollo costero y del turismo en las tres últimas décadas, y se aprecia cierta degradación si se sabe qué aspecto tiene un coral sano. Ese contexto conviene tenerlo presente junto con la belleza real. Lo que queda es aún sustancial, y la ruta del Seascope está elegida para mostrar los tramos más fuertes."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "La mayor parte de la costa de Hurgada se vive a nivel de superficie: sol, sal y un arrecife entrevisto a través de una máscara."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Esto es lo que hay justo debajo, visto con claridad, desde un asiento."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000040",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": "Si prefiere descender de verdad antes que rozar la superficie —cabina totalmente cerrada, unos 22 metros de agua sobre la cabeza—, pregunte por el submarino Sindbad. El Seascope es la elección adecuada cuando el confort y la sencillez son el encargo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "紅海を、内側から外へと見る"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "ハルガダは、地球上で最も名高い珊瑚の海岸線のひとつに面していますが、ほとんどの来訪者はそれを水面からしか体験しません——こちらでシュノーケルのマスク、あちらでガラス底のボート。ロイヤル・シースコープの半潜水艇は、その勘定を変えます。乗客は水面下に設けられた冷房付きの観覧キャビンに座り、ウェットスーツの代わりに大きな窓の向こうに礁を見ます。泳力は不要、資格も不要、装備も不要。ただ乗り込み、席に着き、眺めるだけです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "これは半日の遠出です——ペースはくつろいでおり、まぎれもなく利用しやすいものです。小さなお子様連れのご家族、紅海に興味はあってもダイビングやシュノーケルにはまだ踏み切れない旅行者、妥協なしの快適さを求めるご高齢の来訪者、そして行程に自由な午前か午後がひとつある、あらゆる方に向いています。これはアドレナリンの体験ではありません。観察の体験で、その区別は大切です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "ロイヤル・シースコープが何であるかについての実務的な注記。これは"
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "半潜水艇"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "であって、本物の潜水艇ではありません。上のデッキは水面の上にとどまり、乗客は短い階段を下りて、水面のおよそ3メートル下にあるガラス張りの観覧キャビンに入り、船体のまわりの浅く日の差し込む水のなかの礁を眺めます。（実際に潜る——およそ22メートルまで下る——船をお求めなら、それは別商品のシンドバッド潜水艇です。）シースコープの浅い、ほぼ水面の設計こそが、お子様にも、囲まれた空間が苦手な方にも、そして単に潜らずに眺めを求める方にも快適である理由です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "ホテル送迎は"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "お客様のご一行だけのプライベート"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "です。半潜水艇そのものは、最大44名を乗せる"
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "乗合の船"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "で、その乗組員が運航します。この遠出は"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "一席から承り"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "、最少催行人数はなく、"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ミネラルウォーター1人1本"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "が用意されます。"
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "年齢制限はありません"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "——ご家族を歓迎します——低く幅広の窓は、お子様が座ったままはっきり見えるよう配されています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "まずホテルでのお迎えです——ハルガダのご宿泊先からシンバッド桟橋まで、リゾート一帯のどこにご滞在かによっておよそ20〜30分の、プライベートの冷房付き送迎です。桟橋そのものは、磨き上げられたマリーナというより稼働している港で、それが正直な趣を与えています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "ロイヤル・シースコープに乗り込むと、船は礁の上へと出ていき、短い階段を下りて観覧キャビンに入ります。そこから、観覧の窓は幅広く、座ったときの目の高さに配されていて、すぐ脇の浅い水のなかの珊瑚へと、さえぎられない明快な視界を与えてくれます。ここの珊瑚の形成は、ミドリイシ系とハマサンゴ系のあいだで変わる傾向にあり、礁が落ち込むところにはウミウチワやテーブル状の珊瑚が見られます。船のまわりの魚の動きはしばしば相当なものです——船体は小型の種を引き寄せ、それがさらに大型の種を引き寄せます。何か壮観なものが泳ぎ過ぎるのを受け身で待つよりも、活動の重なりに目を向ければ、観覧の窓はすぐに満たされます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "水中観覧の段階のあとは、船は桟橋へ戻り、送迎がホテルへとお連れします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "この遠出についての注記"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "これは半日の外出です——往復のプライベート送迎を含め、戸口から戸口までおよそ2〜3時間。シースコープはハルガダの近海の礁の上、岸の近くで動くので、長い外洋の横断はありません。水中観覧の窓そのものは、およそ50分です。出発は通常、水を通る光が最も強い午前です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "紅海の文脈"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "紅海は、世界で最も北に位置する熱帯の海のひとつ——細長く、ほとんど閉ざされた水域で、固有種を高い度合いで育むのに足るほど長く地質的に孤立してきました。その魚のおよそ十分の一は地球上のほかのどこにも見られません。ハルガダ周辺の水温は一年を通して22℃から28℃のあいだにあり、透明度はしばしば20メートルを超えます。これこそが半潜水艇の観覧を成り立たせるものです——濁った水ではこの試みは無意味になってしまうからです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "ハルガダの真沖の礁の系は、過去三十年にわたって沿岸開発と観光の圧にさらされてきており、健康な珊瑚がどう見えるかを知っていれば、いくらかの劣化が見て取れます。その文脈は、まぎれもない美しさと並べて心に留めておく価値があります。残っているものはなお実質的で、シースコープのルートは、より状態のよい区画を見せるよう選ばれています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "ハルガダの海岸線の多くは、水面の高さで体験されます——陽と、塩と、マスク越しに垣間見る礁。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "これは、そのすぐ下にあるものを、ひとつの席から、はっきりと見たものです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000040",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58859",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "A gentle truth: of the two to three hours, the underwater viewing itself runs about fifty minutes — the rest is pier, boarding, and the ride out. For most children and unhurried adults, that is exactly enough. If you'd like it folded into a fuller morning or set before a beach afternoon, tell our concierge."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Una verdad amable: de las dos o tres horas, la observación submarina en sí dura unos cincuenta minutos; el resto es muelle, embarque y travesía. Para la mayoría de los niños y de los adultos sin prisa, es justo lo suficiente. Si quieres encajarla en una mañana más completa o antes de una tarde de playa, díselo a nuestro concierge."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "正直に申し上げると、二〜三時間のうち水中観察そのものは五十分ほどで、残りは桟橋と乗船、沖までの航行です。小さなお子様や急がない大人の方には、それがちょうどよい長さでもあります。充実した午前に組み込みたい、午後はビーチで——そんなご希望はコンシェルジュにお知らせください。"
+  }
+ ],
+ "durationHours": 2,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "~2–3 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "~2–3 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "約2〜3時間"
+  }
+ ],
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 40,
+  "ja": 47
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The yellow Royal Seascope semi-submarine cruising on the deep-blue Red Sea with passengers aboard"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El semisumergible amarillo Royal Seascope navegando por el mar Rojo azul intenso con pasajeros a bordo"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "乗客を乗せ、濃い青の紅海を進む黄色いロイヤル・シースコープの半潜水艇。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-234f24aacd8b1ae7585f25fcd8388edef5167d73-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The Royal Seascope cruises the Red Sea over the reef."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El Royal Seascope navega por el mar Rojo sobre el arrecife."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "礁の上、紅海を進むロイヤル・シースコープ。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "mz2vjwt762",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The hotel transfer is private to your party; the semi-submarine itself is a shared vessel carrying up to 44 passengers, run by its crew.",
+   "text": "Private hotel transfer"
+  },
+  {
+   "_key": "a0ngrdyofs",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The trip takes bookings from a single seat upward, with no minimum group, and one bottle of mineral water per person is provided.",
+   "text": "One bottle of mineral water per person"
+  },
+  {
+   "_key": "tn3rgjrblf",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Hotel pickup comes first — a private, air-conditioned transfer from your Hurghada accommodation to the Sinbad pier, roughly 20 to 30 minutes depending on where you're staying in the resort strip.",
+   "text": "Private, air-conditioned hotel pickup to the Sinbad pier"
+  },
+  {
+   "_key": "29fvjrt2jo",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "After the underwater-viewing phase, the vessel returns to the pier and a transfer takes you back to your hotel.",
+   "text": "Transfer back to your hotel"
+  },
+  {
+   "_key": "nzryhkrlrf",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El traslado al hotel es privado para su grupo; el semisubmarino en sí es una embarcación compartida con capacidad de hasta 44 pasajeros, operada por su tripulación.",
+   "text": "Traslado privado al hotel"
+  },
+  {
+   "_key": "y4hrzawzxu",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La salida acepta reservas desde una sola plaza, sin mínimo de grupo, y se incluye una botella de agua mineral por persona.",
+   "text": "Una botella de agua mineral por persona"
+  },
+  {
+   "_key": "dn38a8p1il",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Es una salida de media jornada, de unas dos a tres horas de puerta a puerta, incluidos los traslados privados de ida y vuelta.",
+   "text": "Traslados privados de ida y vuelta"
+  },
+  {
+   "_key": "vocwl11t2q",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "これは半日の外出です——往復のプライベート送迎を含め、戸口から戸口までおよそ2〜3時間。",
+   "text": "往復のプライベート送迎"
+  },
+  {
+   "_key": "bh86l8pm7a",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ホテル送迎はお客様のご一行だけのプライベートです。",
+   "text": "ホテル送迎（ご一行だけのプライベート）"
+  },
+  {
+   "_key": "lr15m2uxi7",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "この遠出は一席から承り、最少催行人数はなく、ミネラルウォーター1人1本が用意されます。",
+   "text": "ミネラルウォーター1人1本"
+  },
+  {
+   "_key": "kx6c7oz4df",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "半潜水艇そのものは、最大44名を乗せる乗合の船で、その乗組員が運航します。",
+   "text": "乗合の半潜水艇（最大44名）"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/royal-seascope-submarine-hurghada/"
+ },
+ "priceFrom": 28.75,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_121071",
+   "_ref": "wp-page-121071",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_cairo_by_bus_group_day_tour_from_hurghada",
+   "_ref": "tour.cairo-by-bus-group-day-tour-from-hurghada",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_116301",
+   "_ref": "wp-page-116301",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_dendera_and_abydos_temple_day_tour_from_hurghada",
+   "_ref": "tour.dendera-and-abydos-temple-day-tour-from-hurghada",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Private hotel transfer · shared semi-submarine (up to 44 passengers) · observation cabin sits about three metres below the surface · no swimming, no certification, no minimum age"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Traslado privado al hotel, semisubmarino compartido (hasta 44 pasajeros), cabina de observación a unos tres metros bajo la superficie, sin nado, sin certificación, sin edad mínima"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "フル・プライベート催行・専用車両・半日・半潜水艇の客室内（濡れない見学）・お子様・ご高齢の方に対応"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Half day, roughly two to three hours door-to-door — the underwater-viewing segment runs around fifty minutes"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Media jornada, unas dos a tres horas de puerta a puerta, con el segmento de visión bajo el agua de unos 50 minutos"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "半日（およそ4〜5時間）"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Hurghada hotel → Sinbad pier → Royal Seascope semi-submarine over Hurghada's near-shore reefs"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Hotel en Hurgada al muelle de Sinbad y semisubmarino Royal Seascope sobre los arrecifes cercanos a Hurgada"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "ハルガダ → ロイヤル・シースコープ半潜水艇でサンゴ礁を周遊 → ハルガダ"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "royal-seascope-submarine-hurghada"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "semisubmarino-royal-seascope-en-hurgada-bajo-el-mar-rojo"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "furugada-no-roiyaru-shisu-kopu-han-sensui-tei-kokai-no"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A semi-submarine cruise off Hurghada's coast — coral and reef fish viewed through wide windows from an observation cabin below the waterline, no diving licence required."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Una salida en semisubmarino frente a la costa de Hurgada: coral y peces de arrecife vistos por amplias ventanas desde una cabina de observación bajo la línea de flotación, sin licencia de buceo."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ハルガダ沖の半潜水艇クルーズ——水面下の観覧キャビンから、広い窓越しに珊瑚と礁の魚を眺めます。ダイビングのライセンスは不要です。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Hurghada Royal Seascope Semi-Submarine: Beneath the Red Sea"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Semisubmarino Royal Seascope en Hurgada: bajo el mar Rojo"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ハルガダのロイヤル・シースコープ半潜水艇：紅海の内側から"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}

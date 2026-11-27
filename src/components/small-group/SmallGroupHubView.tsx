@@ -157,6 +157,7 @@ export async function SmallGroupHubView({
                 {t('primary')} <span aria-hidden>→</span>
               </LeadButton>
               <a className="hub-text-link" href="#departures">{t('secondary')}</a>
+              <Link className="hub-text-link" href="/group-departures">{t('allDates')}</Link>
             </div>
           </div>
           <MastheadStats stats={stats} />

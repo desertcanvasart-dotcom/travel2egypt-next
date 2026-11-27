@@ -1,0 +1,1335 @@
+{
+ "_createdAt": "2026-05-27T21:39:47Z",
+ "_id": "drafts.guideArticle.cairo.khan-el-khalili",
+ "_rev": "O4vhc1GHz0tlDhlRL5wy7x",
+ "_system": {
+  "base": {
+   "id": "guideArticle.cairo.khan-el-khalili",
+   "rev": "Kra5TYIFOKLIQlRCdLWcrH"
+  }
+ },
+ "_type": "guideArticle",
+ "_updatedAt": "2026-11-10T13:35:11Z",
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "a3mt5x6tm86y",
+       "_type": "span",
+       "marks": [],
+       "text": "It occupies the eastern flank of the medieval city between "
+      },
+      {
+       "_key": "xc7g99a56u56",
+       "_type": "span",
+       "marks": [
+        "sc481hnh23le"
+       ],
+       "text": "Al-Azhar Mosque"
+      },
+      {
+       "_key": "jkgwfnt15gqg",
+       "_type": "span",
+       "marks": [],
+       "text": " and the "
+      },
+      {
+       "_key": "63n633b49g8o",
+       "_type": "span",
+       "marks": [
+        "tcgcpvsj1tlp"
+       ],
+       "text": "Mosque of Sayyidna al-Hussein"
+      },
+      {
+       "_key": "eih38ayoo4uo",
+       "_type": "span",
+       "marks": [],
+       "text": ", its lanes a dense grid of covered passages, open courtyards, and workshops that have been in commercial use for six centuries. The name, the atmosphere, and the physical fabric of the place are all genuinely medieval — the tourist trade is a recent overlay on a structure that existed long before tourism."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "sc481hnh23le",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.al-azhar-mosque",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "tcgcpvsj1tlp",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.mosque-of-sayyidna-al-hussein",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "History"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "The site's history begins before Khan el-Khalili itself. In the Fatimid period (AD 969 to 1171), this area lay within the closed palace-city of al-Qahira — the eastern fringe of the great Eastern Palace, which also served as the Fatimid caliphs' burial ground in a mausoleum called Turbat az-Za'faraan (the Saffron Tomb). The Fatimid city was not open to the general public; merchants and outsiders were confined to the older city of Fustat to the south."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "xcjb3dqh6vb0",
+       "_type": "span",
+       "marks": [],
+       "text": "The transformation began under Saladin, who ended the Fatimid Caliphate in 1171, demolished the royal palaces, and opened the previously exclusive palace-city to commercial development. "
+      },
+      {
+       "_key": "ofv31invompo",
+       "_type": "span",
+       "marks": [
+        "1w2cz2lyvldo"
+       ],
+       "text": "Cairo"
+      },
+      {
+       "_key": "cf3l441ge1ph",
+       "_type": "span",
+       "marks": [],
+       "text": "'s main north-south artery — the Qasaba, today's Al-Muizz Street — became the preferred location for Mamluk religious complexes, royal mausolea, and commercial ventures. The waqf system (Islamic charitable trust) drove much of this development: sultans and amirs built mosques and madrasas funded by the revenues of adjacent shops and markets, creating an inseparable bond between religious and commercial architecture that still defines the district."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "1w2cz2lyvldo",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-83284",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The bazaar as it exists today traces directly to the reign of Sultan Barquq (1382 to 1399), first of the Burji Mamluk sultans. His Master of the Stables, Jaharkas al-Khalili, demolished the Fatimid royal mausoleum — controversially disposing of the Fatimid caliphs' remains in the process — and constructed a large khan (caravanserai) on the site. The khan took his name. It became the nucleus of what would develop into the bazaar district, its name eventually extending to the entire commercial area surrounding it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Sultan al-Ghouri, the last effective Mamluk sultan (1501 to 1516), undertook a major redevelopment of the district. He demolished al-Khalili's original khan and replaced it with a new structure, built his own wikala nearby, and reshaped the adjacent lanes into a more systematic market grid — the Suq al-Nabulsi — distinguished with monumental stone gates. Two of those gates survive: the western gate (now known as Bab al-Badistan) and the eastern gate (Bab al-Ghuri), both on the street called Sikkat al-Badistan. Walking through them is walking through al-Ghouri's sixteenth-century urban plan."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "What's Here"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Khan el-Khalili is not a single building or a single market — it is a district, and its lanes specialise loosely by trade in the medieval tradition."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "The gold and silver quarter runs along the main covered street; the shops here sell jewellery in 18, 21, and 24 carat gold at prices set by the daily gold rate plus workmanship. The spice market lanes carry cumin, coriander, hibiscus (karkadeh), dried chamomile, and blends assembled to order. Copper and brassware — trays, lamps, pots, candlesticks — come from workshops where you can watch the metalwork being done. Perfume oil vendors offer Egyptian and Arabian blends in small glass bottles; the oils are of variable quality and the markup on tourist-facing stalls is significant. Papyrus is sold everywhere; genuine papyrus is flexible and does not crack when rolled — banana-leaf imitations, far more common, crack readily."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "The lanes immediately around the main tourist entrance are the most heavily commercialised and the most aggressively priced. Moving two or three streets deeper into the grid, toward the craftsmen's workshops and the lanes serving local rather than tourist customers, produces better quality, more interesting goods, and lower starting prices. Negotiation is standard throughout; the first price quoted to a tourist is rarely the last."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Al-Fishawy's"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "At the centre of the bazaar, open virtually without interruption since the eighteenth century, is Al-Fishawy's — a narrow, mirror-lined tea and coffee house that spills its chairs and tables into the lane outside."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "It was a favourite of the Nobel Prize-winning novelist Naguib Mahfouz, who set much of his Cairo Trilogy in these streets and is commemorated in the alley named after him nearby. Al-Fishawy's serves tea, coffee, and fresh juices; the atmosphere — antique mirrors, brass fittings, shisha smoke, the noise of the bazaar outside — is the thing. It is the natural resting point in the middle of a Khan el-Khalili visit and the most atmospheric café in Islamic Cairo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "The Hussein Mosque and Square"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "The Mosque of Sayyidna al-Hussein, at the northern edge of Khan el-Khalili, is one of the most sacred sites in Egyptian Islam — the reputed burial place of the head of Hussein ibn Ali, grandson of the Prophet Muhammad — and draws large numbers of pilgrims and worshippers throughout the year."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Non-Muslims are generally not permitted inside. The square between the mosque and Al-Azhar is a major gathering point, especially in the evenings and during Ramadan, when it fills with families, street food vendors, and worshippers after iftar. The square was historically the centre of Mamluk Cairo's public life."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Practical Notes"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Khan el-Khalili is at its most atmospheric in the evening — from around 6pm onward, when the heat of the day drops, the lighting changes, and the tourist coach groups have largely left. Many shops stay open until 10pm or later."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "During Ramadan, the bazaar operates on an entirely different schedule: quiet during the day, busy after iftar, and in some sections open through the night. If you are in Cairo during Ramadan, an evening visit to Khan el-Khalili is one of the more memorable experiences the city offers."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Khan el-Khalili is not served directly by the Cairo Metro. The nearest stations are Al-Ataba on Lines 1 and 2, about fifteen minutes' walk west. Taxis and ride-shares drop off on Al-Azhar Street at the bazaar's southern edge."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Final Word"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "Khan el-Khalili is a Mamluk plan that became a tourist site without becoming only a tourist site."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Walk the lanes. Drink the tea at Al-Fishawy's. Find the deeper alleys where the workshops are still working. The market that fed the medieval city still feeds the present one."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "tkijd9nsmrsu",
+       "_type": "span",
+       "marks": [],
+       "text": "Khan el-Khalili es el principal bazar histórico de "
+      },
+      {
+       "_key": "sn16inrxise6",
+       "_type": "span",
+       "marks": [
+        "6smsklrgkhqd"
+       ],
+       "text": "El Cairo"
+      },
+      {
+       "_key": "8m93cjwe3bxa",
+       "_type": "span",
+       "marks": [],
+       "text": " y uno de los mercados con funcionamiento continuo más antiguos del mundo. Ocupa el flanco oriental de la ciudad medieval entre "
+      },
+      {
+       "_key": "o1lnnbx4ghdm",
+       "_type": "span",
+       "marks": [
+        "vj166j0o5rl2"
+       ],
+       "text": "la Mezquita de Al-Azhar"
+      },
+      {
+       "_key": "mds0pda3c286",
+       "_type": "span",
+       "marks": [],
+       "text": " y "
+      },
+      {
+       "_key": "b5enkcdi9vkl",
+       "_type": "span",
+       "marks": [
+        "ac2j0dv15nqu"
+       ],
+       "text": "la Mezquita de Sayyidna al-Hussein"
+      },
+      {
+       "_key": "cxvw0mbhkx4p",
+       "_type": "span",
+       "marks": [],
+       "text": ", con sus callejones formando una densa trama de pasajes cubiertos, patios abiertos y talleres que llevan seis siglos en uso comercial. El nombre, el ambiente y el tejido físico del lugar son genuinamente medievales — el comercio turístico es una capa reciente sobre una estructura que existía mucho antes del turismo."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "6smsklrgkhqd",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-83284",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "vj166j0o5rl2",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.al-azhar-mosque",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "ac2j0dv15nqu",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.mosque-of-sayyidna-al-hussein",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Historia"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "La historia del emplazamiento comienza antes del propio Khan el-Khalili. En el período fatimí (969–1171 d. C.), esta zona se encontraba dentro de la ciudad-palacio cerrada de al-Qahira — el extremo oriental del gran Palacio Oriental, que también servía como cementerio de los califas fatimíes en un mausoleo llamado Turbat az-Za'faraan (la Tumba del Azafrán). La ciudad fatimí no estaba abierta al público en general; los mercaderes y forasteros estaban confinados a la más antigua ciudad de Fustat, al sur."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "La transformación comenzó bajo Saladino, quien puso fin al califato fatimí en 1171 d. C., demolió los palacios reales y abrió la ciudad-palacio anteriormente exclusiva al desarrollo comercial. La arteria principal norte-sur de El Cairo — la Qasaba, hoy la calle al-Muizz — se convirtió en la ubicación preferida para los conjuntos religiosos mamelucos, los mausoleos reales y las empresas comerciales. El sistema de waqf (fundación benéfica islámica) impulsó gran parte de este desarrollo: sultanes y emires construyeron mezquitas y madrasas financiadas con los ingresos de las tiendas y mercados adyacentes, creando un vínculo inseparable entre la arquitectura religiosa y comercial que sigue definiendo el barrio."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "El bazar tal como existe hoy se remonta directamente al reinado del sultán Barquq (r. 1382–1399 d. C.), primero de los sultanes mamelucos Buryi. Su Maestro de los Establos, Jaharkas al-Khalili, demolió el mausoleo real fatimí — deshaciéndose polémicamente de los restos de los califas fatimíes en el proceso — y construyó en el yacimiento un gran khan (caravasar). El khan tomó su nombre. Se convirtió en el núcleo de lo que se desarrollaría como el barrio del bazar, cuyo nombre acabó extendiéndose a toda la zona comercial circundante."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "El sultán al-Ghuri, el último sultán mameluco efectivo (r. 1501–1516 d. C.), emprendió una gran remodelación del barrio. Demolió el khan original de al-Khalili y lo sustituyó por una nueva estructura, construyó su propia wikala (almacén y posada de mercaderes) cerca, y remodeló los callejones adyacentes en una trama de mercado más sistemática — el Suq al-Nabulsi — distinguida con puertas monumentales de piedra. Dos de esas puertas sobreviven: la puerta occidental (conocida hoy como Bab al-Badistan) y la puerta oriental (Bab al-Ghuri), ambas en la calle llamada Sikkat al-Badistan. Atravesarlas es atravesar el plan urbano del siglo XVI de al-Ghuri."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Qué hay aquí"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Khan el-Khalili no es un edificio único ni un solo mercado — es un barrio, y sus callejones se especializan vagamente por oficio en la tradición medieval. El barrio del oro y la plata discurre a lo largo de la calle cubierta principal; las tiendas aquí venden joyería en oro de 18, 21 y 24 quilates a precios fijados por la tasa diaria del oro más la mano de obra. Los callejones del mercado de especias llevan comino, cilantro, hibisco (karkadeh), manzanilla seca y mezclas ensambladas a medida. El cobre y la latería — bandejas, lámparas, ollas, candelabros — vienen de talleres donde se puede ver cómo se trabaja el metal. Los vendedores de aceites de perfume ofrecen mezclas egipcias y árabes en pequeños frascos de vidrio; la calidad de los aceites es variable y el margen de beneficio en los puestos orientados al turista es considerable. El papiro se vende en todas partes; el papiro genuino es flexible y no se agrieta al enrollarse — las imitaciones en hoja de plátano, mucho más habituales, se agrietan fácilmente."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Los callejones inmediatamente alrededor de la entrada principal para turistas son los más comercializados y los que tienen los precios más agresivos de partida. Avanzar dos o tres calles más adentro en la trama, hacia los talleres de artesanos y los callejones que sirven a clientes locales más que turísticos, produce mejor calidad, artículos más interesantes y precios de salida más bajos. La negociación es la norma en todo el mercado; el primer precio citado a un turista raramente es el último."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "El Café Al-Fishawy"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "En el centro del bazar, abierto prácticamente sin interrupción desde el siglo XVIII, se encuentra el Café Al-Fishawy — un estrecho establecimiento de té y café revestido de espejos que desborda sus sillas y mesas al callejón exterior. Fue un lugar favorito del novelista galardonado con el Nobel Naguib Mahfouz, quien ambientó gran parte de su Trilogía de El Cairo en estas calles y está conmemorado en el callejón con su nombre cercano. Al-Fishawy sirve té, café y zumos frescos; el ambiente — espejos antiguos, herrajes de latón, humo de narguile, el ruido del bazar fuera — es lo que importa. Es el punto de descanso natural a mitad de una visita a Khan el-Khalili y el café más evocador de El Cairo islámico."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La Mezquita de Hussein y la plaza"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "La Mezquita de Sayyidna al-Hussein, en el extremo norte de Khan el-Khalili, es uno de los yacimientos más sagrados del islam egipcio — es el reputado lugar de enterramiento de la cabeza de Hussein ibn Ali, nieto del Profeta Mahoma, y atrae a numerosos peregrinos y fieles a lo largo de todo el año. Los no musulmanes generalmente no tienen permitido entrar. La plaza entre la mezquita y Al-Azhar es un gran punto de reunión, especialmente por las tardes y durante el Ramadán, cuando se llena de familias, vendedores de comida callejera y fieles después del iftar. La plaza fue históricamente el centro de la vida pública de El Cairo mameluco."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Notas prácticas"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Khan el-Khalili es más evocador por la tarde — a partir de las 18:00 h aproximadamente, cuando el calor del día baja, la iluminación cambia y los grupos de autobuses turísticos se han ido en su mayor parte. Muchas tiendas permanecen abiertas hasta las 22:00 h o más tarde. Durante el Ramadán, el bazar funciona con un horario completamente diferente: tranquilo durante el día, animadísimo después del iftar, y en algunas secciones abierto durante toda la noche. Si estás en El Cairo durante el Ramadán, una visita nocturna a Khan el-Khalili es una de las experiencias más memorables que ofrece la ciudad."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Khan el-Khalili no tiene acceso directo al Metro de El Cairo. Las estaciones más cercanas son Al-Ataba (Líneas 1 y 2), a unos 15 minutos caminando hacia el oeste. Los taxis y el transporte compartido dejan en la calle Al-Azhar en el borde sur del bazar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Una última reflexión"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Khan el-Khalili es un trazado mameluco que se convirtió en lugar turístico sin convertirse solo en lugar turístico. Conviene recorrer los callejones, beber el té en El-Fishawy, encontrar los callejones más profundos donde los talleres siguen trabajando. El mercado que alimentaba la ciudad medieval sigue alimentando la actual."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Última actualización: mayo de 2026"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "— 観光地になりきらずに観光地になったマムルークの都市計画 —"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "はじめに"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "cp0mosqu4hhk",
+       "_type": "span",
+       "marks": [],
+       "text": "ハーン・エル・ハリーリは"
+      },
+      {
+       "_key": "wt1ckvuler2c",
+       "_type": "span",
+       "marks": [
+        "i4mad7ch4ufk"
+       ],
+       "text": "カイロ"
+      },
+      {
+       "_key": "bhketn1ep8np",
+       "_type": "span",
+       "marks": [],
+       "text": "の主要な歴史的市場であり、世界でもっとも古くから連続して営業している市場のひとつです。"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "i4mad7ch4ufk",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-83284",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0268k84i2nf4",
+       "_type": "span",
+       "marks": [
+        "8ht6aph0zx8u"
+       ],
+       "text": "アズハル・モスク"
+      },
+      {
+       "_key": "zekxgz2zl3bi",
+       "_type": "span",
+       "marks": [],
+       "text": "と"
+      },
+      {
+       "_key": "rs0fl37x5w1s",
+       "_type": "span",
+       "marks": [
+        "0er7phqarvy1"
+       ],
+       "text": "サイイドナ・アル・フセイン・モスク"
+      },
+      {
+       "_key": "732vn7w6q7ft",
+       "_type": "span",
+       "marks": [],
+       "text": "のあいだ、中世都市の東の側面を占め、その路地は六世紀にわたって商業に使われてきた、屋根付きの通路、開けた中庭、工房の密な格子です。その名、その雰囲気、その物理的な織物のすべてが、本物の中世のものです。観光業は、観光が生まれるはるか前から存在していた構造の上に、近年かぶさった上塗りにすぎません。"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "8ht6aph0zx8u",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.al-azhar-mosque",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "0er7phqarvy1",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.mosque-of-sayyidna-al-hussein",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "歴史"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "この地の歴史は、ハーン・エル・ハリーリそのものより前に始まります。ファーティマ朝の時代（紀元969〜1171年）、この一帯はアル・カーヒラの閉ざされた宮殿都市の内にあり、大東宮の東の縁にありました。そこはまた、トゥルバト・アッ＝ザアファラーン（サフランの墓）と呼ばれる霊廟にファーティマ朝のカリフたちが葬られた地でもありました。ファーティマ朝の都市は一般には開かれておらず、商人やよそ者は南のより古い都市フスタートに留め置かれていました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "変容はサラディンのもとで始まりました。彼は1171年にファーティマ朝のカリフ位を終わらせ、王宮を取り壊し、それまで排他的だった宮殿都市を商業の開発に開きました。カイロの南北の主要な動脈であるカサバ、今日のアル・ムイッズ通りは、マムルーク朝の宗教複合体、王室の霊廟、商業の事業の好立地となりました。ワクフ（イスラムの慈善信託）の制度がこの開発の多くを駆動しました。スルタンやアミールは、隣接する店や市場の収益で賄われるモスクやマドラサを建て、宗教建築と商業建築のあいだに、今なおこの地区を定義する不可分のきずなを生み出しました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "今日あるかたちの市場は、ブルジー・マムルーク朝最初のスルタン、バルクーク（1382〜1399年）の治世に直接さかのぼります。彼の厩舎長ジャハルカス・アル・ハリーリは、ファーティマ朝の王室の霊廟を取り壊し、その過程でファーティマ朝のカリフたちの遺骸を物議をかもす形で処分し、跡地に大きなハーン（隊商宿）を建てました。そのハーンが彼の名を取りました。それは市場地区へと発展していくものの核となり、その名はやがて周囲の商業地域全体に及びました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "最後の実質的なマムルーク朝スルタン、アル・グーリ（1501〜1516年）は、地区の大規模な再開発を行いました。アル・ハリーリの当初のハーンを取り壊して新しい構造物に建て替え、近くに自らのウィカーラを建て、隣接する路地をより体系的な市場の格子、スーク・アル・ナブルスィへと作り変え、堂々とした石の門で際立たせました。その門のうち二つが残っています。西の門（現在はバーブ・アル・バディスタンとして知られる）と東の門（バーブ・アル・グーリ）で、ともにスィッカト・アル・バディスタンという通りにあります。それらをくぐることは、アル・グーリの16世紀の都市計画の中を歩くことです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "何があるか"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "ハーン・エル・ハリーリは単一の建物でも単一の市場でもありません。それは地区であり、その路地は中世の伝統に従ってゆるやかに業種別に分かれています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "金銀の区画は主要な屋根付きの通り沿いに走り、ここの店は18、21、24カラットの金の宝飾品を、その日の金相場に手間賃を加えた価格で売ります。香辛料市場の路地はクミン、コリアンダー、ハイビスカス（カルカデ）、乾燥カモミール、注文に応じて調合される配合を扱います。銅と真鍮の細工、盆、ランプ、鍋、燭台は、金属細工が行われるのを見られる工房から来ます。香油の売り手はエジプトとアラビアの配合を小さなガラス瓶で提供します。油の品質はまちまちで、観光客向けの屋台では上乗せが大きいものです。パピルスはどこでも売られています。本物のパピルスはしなやかで、巻いても割れません。はるかに多く出回るバナナの葉の模造品は、すぐに割れます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "主要な観光客向けの入口のすぐ周りの路地は、もっとも商業化が進み、もっとも強気に値づけされています。格子の二、三本奥の通りへ、職人の工房や、観光客ではなく地元客に向けた路地のほうへ進むと、より質がよく、より興味深い品が、より低い言い値で手に入ります。値段交渉は全体を通じて当たり前です。観光客に最初に提示される価格が最後であることはまずありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "アル・フィシャウィ"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "市場の中心、18世紀からほぼ途切れることなく営業しているのがアル・フィシャウィです。鏡で縁取られた細長い茶とコーヒーの店で、その椅子とテーブルを外の路地にあふれさせています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "ノーベル賞作家ナギーブ・マフフーズの行きつけの店でした。彼は『カイロ三部作』の多くをこの界隈に置き、近くの彼の名を冠した路地に記念されています。アル・フィシャウィは茶、コーヒー、生ジュースを供しますが、肝心なのはその雰囲気です。年代物の鏡、真鍮の調度、シーシャの煙、外の市場の喧騒。それはハーン・エル・ハリーリ訪問の途中の自然な休息地点であり、イスラム・カイロでもっとも趣のあるカフェです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "フセイン・モスクと広場"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "ハーン・エル・ハリーリの北の縁に立つサイイドナ・アル・フセイン・モスクは、エジプトのイスラムでもっとも神聖な地のひとつです。預言者ムハンマドの孫、フサイン・イブン・アリーの首が葬られたとされる地で、一年を通じて多数の巡礼者と礼拝者を集めます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "非ムスリムは原則として内部に入れません。モスクとアズハルのあいだの広場は、特に夜やラマダン中、イフタールのあとに家族、屋台、礼拝者で埋まる主要な集いの場です。広場は歴史的に、マムルーク朝のカイロの公の生活の中心でした。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "実用メモ"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "ハーン・エル・ハリーリは夕方、おおむね午後6時以降にもっとも趣を増します。日中の暑さが引き、照明が変わり、観光バスの団体が大方去ったころです。多くの店は午後10時かそれ以降まで開いています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "ラマダン中、市場はまったく異なる時間割で動きます。日中は静かで、イフタールのあとは賑わい、一部の区画は夜通し開いています。ラマダン中にカイロにいるなら、ハーン・エル・ハリーリの夕方の訪問は、街が差し出すなかでも記憶に残る体験のひとつです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "ハーン・エル・ハリーリはカイロ・メトロが直接通じていません。最寄りは1号線・2号線のアル・アタバ駅で、西へ徒歩約15分です。タクシーや配車は、市場の南の縁のアズハル通りで降ろします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "最後に"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000003f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": "ハーン・エル・ハリーリは、観光地でありながら観光地だけにはならなかった、マムルークの都市計画です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000041",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": "路地を歩いてください。アル・フィシャウィで茶を飲んでください。今も工房が働いている奥の路地を見つけてください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000043",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [],
+       "text": "中世の都市を養った市場が、今もなお現在の都市を養っています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000045",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000044",
+       "_type": "span",
+       "marks": [],
+       "text": "最終更新：2026年5月"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Lantern and brass shop beneath a stone archway in the Khan el-Khalili bazaar, Cairo."
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Tienda de faroles y latón bajo un arco de piedra en el bazar de Khan el-Khalili, El Cairo."
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "カイロのハーン・ハリーリ市場。石のアーチの下にランタンと真鍮製品の店が並ぶ。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-80c12382c1ea7a52b503eff98b6c4f328e35b81d-2752x1536-jpg",
+   "_type": "reference"
+  }
+ },
+ "kind": "attraction",
+ "parentCity": {
+  "_ref": "wp-page-83284",
+  "_type": "reference"
+ },
+ "placesToGoGroup": "Islamic Cairo",
+ "section": "places-to-go",
+ "seo": {
+  "description": [
+   {
+    "_key": "en",
+    "value": "A guide to the most concentrated medieval bazaar in the Arab world — the Mamluk origins under Jaharkas al-Khalili, the gold, spice, and copper lanes, and the cafe that has been open since the eighteenth century."
+   }
+  ],
+  "metaDescription": [
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayTextValue",
+    "value": "Khan el-Khalili es el principal bazar histórico de El Cairo y uno de los mercados con funcionamiento continuo más antiguos del mundo."
+   }
+  ],
+  "title": [
+   {
+    "_key": "en",
+    "value": "Khan el-Khalili: Cairo's Medieval Bazaar, the Trades, Al-Fishawy's, and How to Walk It"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "value": {
+    "_type": "slug",
+    "current": "khan-el-khalili"
+   }
+  },
+  {
+   "_key": "es",
+   "value": {
+    "_type": "slug",
+    "current": "khan-el-khalili"
+   }
+  },
+  {
+   "_key": "ja",
+   "value": {
+    "_type": "slug",
+    "current": "han-eru-hariri"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "Khan el-Khalili is Cairo's principal historic bazaar and one of the oldest continuously operating markets in the world."
+  },
+  {
+   "_key": "ja",
+   "value": "ハーン・エル・ハリーリはカイロを代表する歴史的なバザールであり、世界で最も古くから営業を続ける市場のひとつです。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "value": "Khan el-Khalili"
+  },
+  {
+   "_key": "es",
+   "value": "Khan el-Khalili"
+  },
+  {
+   "_key": "ja",
+   "value": "ハーン・エル・ハリーリ"
+  }
+ ]
+}

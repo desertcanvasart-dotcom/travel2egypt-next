@@ -1,0 +1,1512 @@
+{
+ "_createdAt": "2026-05-28T11:45:36Z",
+ "_id": "tour.swimming-with-dolphins",
+ "_rev": "pzh5FM4q1DBt3H4LGqNNJZ",
+ "_system": {
+  "base": {
+   "id": "tour.swimming-with-dolphins",
+   "rev": "B7L5bIbjR2v02KBAZGMe3A"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:46Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers who want close, structured contact with dolphins in a controlled pool setting rather than a wild encounter"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Familias y viajeros que buscan una actividad corta"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "管理された環境で動物と間近に触れ合いたいご家族（野生のイルカを求める方には、サタヤ・リーフのボートツアーが正しい選択）"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "An Afternoon in the Pool at Dolphinella, Sharm El Sheikh"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "There are two kinds of wildlife experiences on offer in Sharm El Sheikh. One puts you at a respectful distance — a snorkel trip over the reef, a glass-bottom boat. The other puts you directly in the water with the animals. This is the second kind, and it is worth being clear-eyed about what that means before you book it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Dolphinella is a dolphin facility in the Hadaba district, a residential neighbourhood perched on the plateau above Sharm's main tourist strip. The programme runs in two parts: a ticketed show in which the resident dolphins perform trained behaviours, followed by a structured swim session in which small groups enter the pool and interact with the animals under trainer supervision. It is an organised, commercial operation — not a wild encounter — and the experience it delivers is shaped accordingly."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Who does this suit? Families with children old enough to follow instructions in the water (trainers will advise on the day), travellers who want close animal contact in a controlled setting, and anyone who has done the reef and wants something categorically different in the afternoon. It does not suit travellers looking for wild dolphin encounters; for that, a boat trip into the Straits of Tiran is the better call."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "The half-day runs on a fixed schedule, with hotel pickup included. The pace is relaxed — this is not a demanding day. The main variable is personal: how you feel about captive animal facilities. That is a decision worth making before you arrive, not after."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The hotel transfer is "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "private to your party"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "; Dolphinella itself is a "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "shared, ticketed facility"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": ". The outing "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "takes bookings from a single person upward"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ", with no minimum group, and "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "one bottle of mineral water per person"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": " is provided for the transfer. There is "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "no fixed minimum age"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": ", but the swim session puts you in direct contact with the animals: children must be old enough to follow trainer instructions clearly, and trainers assess readiness on arrival — very young children may watch from poolside rather than enter the water."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "The day begins at your hotel, where a guide and vehicle collect you and transfer you to Dolphinella in Hadaba. The drive from most of Sharm's main hotel zones — Naama Bay, Sharks Bay, the South Sinai resorts — takes between fifteen and thirty minutes depending on traffic and your starting point."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "At Dolphinella, the first portion of the visit is the show. The facility's dolphins demonstrate a repertoire of trained behaviours: retrieving objects, moving through hoops, and a series of jumps that give a genuine sense of the animals' size and power at close quarters. The performance lasts roughly thirty to forty minutes. It is produced for a general audience and works well with children, though adults travelling without them tend to find the swim session the more interesting half."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "After the show, participants are briefed by the dolphin trainers on the rules of the water session. Life vests are provided. Jewellery must be removed — rings, bracelets, and necklaces can injure the animals and are not permitted in the pool. The trainers are specific about this, and they enforce it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "The swim itself runs for fifteen minutes. Participants enter the pool in small groups and interact with the dolphins under direct trainer guidance — holding fins, moving through the water alongside the animals, and following whatever programme the trainers set for that session. Fifteen minutes is a short window; it passes quickly. The session is structured rather than free-form, which keeps it orderly and keeps the animals manageable, but means you are following a script rather than improvising."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "After the pool session, there is the option to purchase photographs and video footage recorded during your time in the water. This is handled separately from the tour price and is entirely optional, though the images are the obvious way to document something that is otherwise difficult to photograph yourself."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Transfer back to your hotel follows, completing the half-day."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Dolphinella: A Brief Note"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Dolphinella has operated in Hadaba for a number of years and is the primary fixed dolphin facility in Sharm El Sheikh. It should be distinguished from the wild dolphin experiences occasionally advertised in the area — boat trips to Sataya Reef (sometimes called Dolphin House) in the southern Red Sea, where spinner and bottlenose dolphins gather in open water. Those are separate products entirely, involving a full day at sea. Dolphinella is a pool-based facility, purpose-built for the show-and-swim format described here."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "The facility meets standard Egyptian tourism safety requirements. Life vests are provided for all swimmers regardless of swimming ability, and trainer supervision is continuous throughout the pool session."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Fifteen minutes in a pool is a short window, but the animals are extraordinary at any distance."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Go in knowing what it is, and it delivers exactly that."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": "A scheduled facility visit with a brief but immediate animal interaction. The concierge can advise on slot timing, the in-water readiness assessment for younger children, and whether a wild-dolphin boat alternative (Sataya Reef) would suit your party better."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Una tarde en la piscina de Dolphinella, Sharm el-Sheij"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una actividad breve en recinto, pensada para familias, que conviene entender de manera distinta a un encuentro con fauna salvaje."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Hay dos clases de experiencia con fauna en Sharm el-Sheij. Una te coloca a una distancia respetuosa: una salida de snorkel sobre el arrecife, un barco con fondo de cristal. La otra te pone directamente en el agua con los animales. Esta es la segunda clase, y conviene tener claro qué significa antes de reservarla."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Dolphinella es una instalación con delfines en el distrito de Hadaba, un barrio residencial encaramado en la meseta sobre el cordón turístico principal de Sharm. El programa se desarrolla en dos partes: una función con entrada en la que los delfines residentes ejecutan conductas adiestradas, seguida de una sesión estructurada de baño en la que grupos pequeños entran en la piscina e interactúan con los animales bajo supervisión del entrenador. Es una operación organizada y comercial, no un encuentro salvaje, y la experiencia que entrega está modelada en consecuencia."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "¿A quién conviene? A familias con niños suficientemente mayores para seguir instrucciones en el agua (los entrenadores asesorarán el día), a viajeros que buscan contacto cercano con animales en un entorno controlado y a quien, hecho el arrecife, quiera algo categóricamente distinto en la tarde. No conviene a quien busque encuentros con delfines en libertad; para eso, una salida en barco al estrecho de Tirán es la mejor opción."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "El medio día opera con horario fijo, con recogida en hotel incluida. El ritmo es relajado: no es un día exigente. La variable principal es personal: cómo te sientes ante las instalaciones con animales cautivos. Es una decisión que merece tomarse antes de llegar, no después."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "El traslado al hotel es "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "privado para tu grupo"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "; Dolphinella en sí es una "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "instalación compartida con entrada"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ". La salida "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "acepta reservas a partir de una persona"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ", sin grupo mínimo, y se proporciona "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "una botella de agua mineral por persona"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": " para el trayecto. "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "No hay edad mínima fija"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": ", pero la sesión de baño te pone en contacto directo con los animales: los niños deben tener edad suficiente para seguir con claridad las instrucciones del entrenador, y los entrenadores valoran la disposición a la llegada —los niños muy pequeños pueden ver desde el borde en lugar de entrar al agua—."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "El día empieza en tu hotel, donde un guía y un vehículo te recogen y te trasladan a Dolphinella en Hadaba. El trayecto desde las principales zonas hoteleras de Sharm —Naama Bay, Sharks Bay, los resorts del Sinaí del Sur— dura entre quince y treinta minutos según el tráfico y el punto de origen."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "En Dolphinella, la primera parte de la visita es la función. Los delfines de la instalación muestran un repertorio de conductas adiestradas: recogen objetos, atraviesan aros y ejecutan una serie de saltos que dan una sensación genuina del tamaño y la potencia de los animales a corta distancia. La función dura aproximadamente entre treinta y cuarenta minutos. Está producida para un público general y funciona bien con niños, aunque los adultos que viajen sin ellos suelen encontrar más interesante la sesión de baño."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Tras la función, los participantes reciben de los entrenadores una explicación sobre las reglas del baño. Se proporcionan chalecos salvavidas. Las joyas deben retirarse: anillos, pulseras y collares pueden herir a los animales y no se permiten en la piscina. Los entrenadores son específicos al respecto y lo hacen cumplir."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "El baño en sí dura quince minutos. Los participantes entran en la piscina en grupos pequeños e interactúan con los delfines bajo guía directa del entrenador: tocando aletas, moviéndose por el agua junto a los animales y siguiendo el programa que los entrenadores fijen para esa sesión. Quince minutos es una ventana corta; pasan rápido. La sesión es estructurada antes que libre, lo que mantiene el orden y a los animales manejables, pero implica que estás siguiendo un guion en lugar de improvisar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Tras la sesión de piscina cabe la opción de adquirir fotografías y vídeo registrados durante tu tiempo en el agua. Esto se gestiona aparte del precio del tour y es enteramente opcional, aunque las imágenes son la manera evidente de documentar algo que, de otro modo, resulta difícil de fotografiar uno mismo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "El traslado de regreso al hotel cierra el medio día."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Dolphinella: una nota breve"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Dolphinella opera en Hadaba desde hace años y es la principal instalación fija con delfines en Sharm el-Sheij. Conviene distinguirla de las experiencias con delfines en libertad ocasionalmente anunciadas en la zona: salidas en barco al arrecife de Sataya (a veces llamado "
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Dolphin House"
+      },
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": ") en el sur del mar Rojo, donde delfines tornillo y mulares se reúnen en aguas abiertas. Esos son productos enteramente distintos, que implican un día entero en el mar. Dolphinella es una instalación basada en piscina, construida al efecto para el formato de espectáculo y baño descrito aquí."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "La instalación cumple los requisitos de seguridad turística egipcios. Se proporcionan chalecos a todos los bañistas con independencia de su nivel de natación, y la supervisión del entrenador es continua a lo largo de la sesión de piscina."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Quince minutos en una piscina es una ventana corta, pero los animales son notables a cualquier distancia."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Entra sabiendo qué es, y entrega exactamente eso."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000041",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": "Es una opcion concreta, no una experiencia de vida salvaje. Elegirla bien empieza por saber esa diferencia."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000044",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta es una ruta abierta. Si quieres ajustar el ritmo, cambiar el orden de las visitas o añadir un complemento, podemos adaptarla contigo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "シャルム・エル・シェイク、ドルフィネラのプールで過ごす午後"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "シャルム・エル・シェイクで差し出される野生動物との体験には、二種類があります。ひとつは、敬意ある距離を置くもの——珊瑚礁の上のシュノーケリングのツアー、ガラス底のボート。もうひとつは、お客様を動物とともに直接水の中へ入れるものです。これは後者で、予約の前に、それが何を意味するのかを見すえておく価値があります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "ドルフィネラはハダバ地区のイルカ施設で、ハダバはシャルムの主な観光の帯の上、高原に張り出した住宅地です。プログラムは二部構成です——飼育されたイルカが訓練された行動を披���するチケット制のショー、それに続く、少人数のグループがプールに入り、調教師の監督のもと動物たちと触れ合う、段取りされた遊泳のセッション。これは組織された商業的な催しで——野生での出会いではなく——差し出される体験は、それに応じてかたちづくられています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "これは誰に向くでしょうか。水中で指示に従えるだけの年齢のお子様連れのご家族（調教師が当日に助言します）、管理された環境で動物と間近に触れ合いたい旅行者、そして珊瑚礁はもう体験して、午後にまったく毛色の違う何かを求めるあらゆる方。野生のイルカとの出会いを求める旅行者には向きません——それには、ティラン海峡へのボートツアーのほうが正しい選択です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "半日は決まったスケジュールで進み、ホテルのお迎えが含まれます。ペースはゆったりとしています——きつい一日ではありま���ん。主たる変数は個人的なものです：飼育された動物の施設について、あなたがどう感じるか。それは到着してからではなく、到着する前に決めておく価値のある判断です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "ホテルの送迎は"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "お客様のご一行だけのプライベート"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "です。ドルフィネラそのものは"
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "乗合の、チケット制の施設"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "です。この外出は"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "一名から承り"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "、最少催行人数はなく、送迎には"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ミネラルウォーター1人1本"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "が含まれます。"
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "定まった年齢制限はありません"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "が���遊泳のセッションは動物との直接の接触を伴います：お子様は調教師の指示にはっきりと従えるだけの年齢である必要があり、調教師が到着時に準備の整い具合を見極めます——ごく幼いお子様は、水に入るのではなくプールサイドから見守ることになる場合があります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "一日はお客様のホテルから始まり、ガイドと車両がお迎えにあがり、ハダバのドルフィネラへお送りします。シャルムの主なホテルゾーンのほとんど——ナーマ・ベイ、シャークス・ベイ、南シナイのリゾート——からのドライブは、交通状況と出発地点により15〜30分です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "ドルフィネラでは、訪問の最初の部分がショーです。施設のイルカが、訓練された行動の数々を披露します：物の回収、輪をくぐり抜け���こと、そして動物たちの大きさと力を間近で確かに感じさせる一連のジャンプ。パフォーマンスはおよそ30〜40分続きます。一般の観客向けに作られていて、お子様にはよく合いますが、お子様を伴わない大人の方は、遊泳のセッションのほうをより興味深く感じる傾向があります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "ショーのあと、参加者は水のセッションの決まりについてイルカの調教師から説明を受けます。ライフベストが提供されます。装身具は外さなければなりません——指輪、ブレスレット、ネックレスは動物を傷つけうるため、プールでは許されません。調教師はこの点を明確に伝え、それを徹底します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "遊泳そのものは15分間です。参加者は少人数のグループでプールに入り、調教師の直接の指導のもとイルカと触れ合います——ヒレを握る、動物たちと並んで水中を進む、そしてそのセッションで調教師が定���るプログラムに従う。15分は短い時間で、あっという間に過ぎます。セッションは自由形式というより段取りされたもので、それが秩序を保ち、動物たちを御しやすく保ちますが、即興ではなく、台本に従うことを意味します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "プールのセッションのあと、水中で過ごしたあいだに撮影された写真と映像を購入する選択肢があります。これはツアー料金とは別に扱われ、まったく任意ですが、その映像は、自分では撮りにくい何かを記録するうえでの明らかな手立てです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "このあとホテルへの送迎が続き、半日を締めくくります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "ドルフィネラ：短い注記"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "ドルフィネラはハダバで数年にわたり営業しており、シャルム・エル・シェイクの主たる固定式のイルカ施設です。この地域でときおり宣伝される野生のイルカの体験とは区別すべきものです——スピナーイルカやバンドウイルカが外洋に集まる、南部紅海のサタヤ・リーフ（ドルフィン・ハウスと呼ばれることもあります）へのボートツアー。それらはまったく別の商品で、海上での一日がかりを伴います。ドルフィネラはプールを基盤とした施設で、ここに記したショーと遊泳の形式のために造られています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "施設はエジプトの標準的な観光安全要件を満たしています。ライフベストは泳力にかかわらずすべての遊泳者に提供され、プールのセッションのあいだ、調教師の監督は終始続きます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "プールでの15分は短い時間ですが、動物たちはどんな距離からも並外れた存在です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "それが何であるかをわかったうえで臨めば、まさにそのとおりのものを差し出してくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000041",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": "お子様の年齢、フォト・動画パッケージの要否、ご一行のうちで動物福祉に懸念をお持ちの方の有無——いずれもご予約前にお知らせいただければ、コンシェルジュが代替の海・砂漠アクティビティをご提案します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000044",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58927",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Fifteen minutes in the water is the heart of it, with the show around it — a half day, not a whole one, so your morning or afternoon stays free. Some parties split naturally into swimmers and spectators, and both are catered for. Tell us how yours divides and we'll shape the rest of the day around it."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Quince minutos en el agua son el corazón de la visita, con el espectáculo alrededor: media jornada, no una entera, así que la mañana o la tarde te quedan libres. Hay grupos que se dividen solos entre nadadores y espectadores, y ambos tienen su sitio. Dinos cómo se reparte el tuyo y daremos forma al resto del día."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "中心にあるのは水の中での15分、それを囲むようにショーがあります——丸一日ではなく半日ですから、午前か午後がまるごと残ります。泳ぐ側と見守る側に自然と分かれるご一行も多く、どちらにも席があります。皆さまがどう分かれそうか教えていただければ、残りの時間の使い方をご一緒に整えます。"
+  }
+ ],
+ "durationHours": 5,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Half day · ~5 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Medio día · ~5 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "半日・約5時間"
+  }
+ ],
+ "exclusions": [
+  {
+   "_key": "1i4sgkscjw",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This is handled separately from the tour price and is entirely optional, though the images are the obvious way to document something that is otherwise difficult to photograph yourself.",
+   "text": "Photographs and video footage (optional purchase)"
+  },
+  {
+   "_key": "wekabczznl",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Esto se gestiona aparte del precio del tour y es enteramente opcional, aunque las imágenes son la manera evidente de documentar algo que, de otro modo, resulta difícil de fotografiar uno mismo.",
+   "text": "Fotografías y vídeo (opcionales, aparte del precio del tour)"
+  },
+  {
+   "_key": "i6vz39r4rh",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "これはツアー料金とは別に扱われ、まったく任意ですが、その映像は、自分では撮りにくい何かを記録するうえでの明らかな手立てです。",
+   "text": "写真と映像の購入（ツアー料金とは別、任意）"
+  }
+ ],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 103,
+  "ja": 110
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A woman in a pool holds a bottlenose dolphin close as it swims beside her in clear blue water"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Una mujer en una piscina abraza a un delfín mular que nada a su lado en el agua azul y clara"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "プールで女性が、澄んだ青い水の中で寄り添って泳ぐバンドウイルカを抱き寄せる。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-582a8eb374261cdf438e7f25bb2847f839ccb1dd-3000x1627-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A swimmer meets a dolphin in a Sharm el-Sheikh pool."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Una nadadora se encuentra con un delfín en una piscina de Sharm el-Sheij."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "シャルム・エル・シェイクのプールでイルカと触れ合う人。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "v3loayz7iz",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The half-day runs on a fixed schedule, with hotel pickup included.",
+   "text": "Hotel pickup"
+  },
+  {
+   "_key": "70wnsq5o57",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The hotel transfer is private to your party; Dolphinella itself is a shared, ticketed facility.",
+   "text": "Private hotel transfer"
+  },
+  {
+   "_key": "pgjzfaljyr",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The outing takes bookings from a single person upward, with no minimum group, and one bottle of mineral water per person is provided for the transfer.",
+   "text": "One bottle of mineral water per person"
+  },
+  {
+   "_key": "viok2qe5i9",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The day begins at your hotel, where a guide and vehicle collect you and transfer you to Dolphinella in Hadaba.",
+   "text": "Guide and vehicle"
+  },
+  {
+   "_key": "spg4qn1s6n",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Life vests are provided.",
+   "text": "Life vests"
+  },
+  {
+   "_key": "fnlnonv0ki",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Transfer back to your hotel follows, completing the half-day.",
+   "text": "Transfer back to your hotel"
+  },
+  {
+   "_key": "051k91e2qs",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El medio día opera con horario fijo, con recogida en hotel incluida.",
+   "text": "Recogida en hotel"
+  },
+  {
+   "_key": "cxky7ut5ph",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La salida acepta reservas a partir de una persona, sin grupo mínimo, y se proporciona una botella de agua mineral por persona para el trayecto.",
+   "text": "Botella de agua mineral por persona para el trayecto"
+  },
+  {
+   "_key": "5pyqyegha2",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se proporcionan chalecos salvavidas.",
+   "text": "Chalecos salvavidas"
+  },
+  {
+   "_key": "bvnt8uih9y",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "半日は決まったスケジュールで進み、ホテルのお迎えが含まれます。",
+   "text": "ホテルのお迎え"
+  },
+  {
+   "_key": "n9jqvx7q0g",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ホテルの送迎はお客様のご一行だけのプライベートです。",
+   "text": "ホテルの送迎（ご一行だけのプライベート）"
+  },
+  {
+   "_key": "losbzd2nke",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "この外出は一名から承り、最少催行人数はなく、送迎にはミネラルウォーター1人1本が含まれます。",
+   "text": "ミネラルウォーター1人1本"
+  },
+  {
+   "_key": "xs7sc8mwpn",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "一日はお客様のホテルから始まり、ガイドと車両がお迎えにあがり、ハダバのドルフィネラへお送りします。",
+   "text": "ガイドと車両"
+  },
+  {
+   "_key": "fc144hsduo",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ライフベストが提供されます。",
+   "text": "ライフベスト"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/swimming-with-dolphins/"
+ },
+ "priceFrom": 92,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_aqua_park_cleo_park",
+   "_ref": "tour.aqua-park-cleo-park",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_dahab_blue_hole_desert_snorkel_group_day_tour_from_sharm",
+   "_ref": "tour.dahab-blue-hole-desert-snorkel-group-day-tour-from-sharm",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_dolphin_show_sharm_el_sheikh",
+   "_ref": "tour.dolphin-show-sharm-el-sheikh",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_87634",
+   "_ref": "wp-page-87634",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Private hotel transfer · shared ticketed facility · show plus 15-minute supervised swim · life vests provided · trainer-assessed readiness for children"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Actividad privada con delfines en recinto · Ligero"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "プライベートのホテル送迎 · 乗合のチケット制施設 · ショー＋15分の遊泳セッション · 監督つき · 年齢制限はないがお子様は調教師判断"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Half day, morning or afternoon slot"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Media jornada"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "半日、ホテル送迎込みでおよそ3〜4時間"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Sharm El Sheikh hotel → Dolphinella, Hadaba → Sharm El Sheikh hotel"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Hotel y Dolphinella"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "シャルム・エル・シェイクのホテル → ハダバのドルフィネラ → シャルム・エル・シェイク"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "swimming-with-dolphins"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "nadar-con-delfines-en-sharm-el-sheij"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "sharumuerusheiku-de-iruka-to-oyogu-taiken"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A half-day at Dolphinella in Hadaba: watch a live dolphin show, then spend fifteen minutes in the water with the animals themselves."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Medio día en Dolphinella, en Hadaba: ves un espectáculo en vivo de delfines y después pasas quince minutos en el agua con los propios animales."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ハダバ地区のドルフィネラで過ごす半日：ライブのイルカショーを観たのち、動物たちそのものと15分間、水の中で。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Swimming With Dolphins in Sharm El Sheikh"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Nadar con delfines en Sharm el-Sheij"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "シャルム・エル・シェイクでイルカと泳ぐ体験"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}

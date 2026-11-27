@@ -9,6 +9,7 @@ import { HOME_COPY, homeLocale } from '../home-sales/copy';
 
 import { ProductLeadButton, ProductWhatsApp } from './ProductActions';
 import { StickyCardShell } from './StickyCardShell';
+import { OptionItem } from './ProductSections';
 
 /**
  * Product page right column (owner spec, 2026-11-11), desktop only (≥1024px),
@@ -85,6 +86,7 @@ export async function YourDayAtAGlance({ locale, items }: { locale: Locale; item
 export async function MakeItYourOwn({
   locale,
   options,
+  optionLinks,
   kind,
   slug,
   title,
@@ -93,13 +95,15 @@ export async function MakeItYourOwn({
 }: {
   locale: Locale;
   options: string[];
+  /** Same order as `options`: the linked tour's slug, or null. */
+  optionLinks?: Array<string | null> | null;
   kind: 'multi' | 'day';
   slug: string;
   title: string;
   durationDays: number | null;
   fromEur: number | null;
 }) {
-  const opts = options.filter(Boolean).slice(0, 4);
+  const opts = options.map((text, i) => ({ text, slug: optionLinks?.[i] ?? null })).filter((o) => o.text).slice(0, 4);
   if (!opts.length) return null;
   const t = await getTranslations({ locale, namespace: 'productPanel' });
   const prefill =
@@ -111,7 +115,9 @@ export async function MakeItYourOwn({
       <h2 id="pdp-own-h" className="pdp-rc__h">{t('optionsTitle')}</h2>
       <ul className="pdp-own__list">
         {opts.map((o, i) => (
-          <li key={i}>{o}</li>
+          <li key={i}>
+            <OptionItem text={o.text} slug={o.slug} />
+          </li>
         ))}
       </ul>
       <ProductLeadButton location="product_options" prefill={prefill} className="pdp-own__ask">

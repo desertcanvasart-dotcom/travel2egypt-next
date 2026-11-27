@@ -1,0 +1,3525 @@
+{
+ "_createdAt": "2026-05-14T11:38:16Z",
+ "_id": "wp-page-89602",
+ "_rev": "K2pi3eY73hTRu2vMGMyThO",
+ "_system": {
+  "base": {
+   "id": "wp-page-89602",
+   "rev": "QIbTiukOLK0KckCunqRoMt"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:52Z",
+ "audienceNote": [
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Primeros visitantes que quieren la forma esencial del país bien cubierta; viajeros que prefieren dos días sin prisa en Luxor antes que tres vuelos en cinco días; cualquiera que quiera los dos museos de El Cairo en el mismo viaje"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "国の代表的な背骨をきちんと網羅したい初訪の方。五日に三便より、急がないルクソール二日を選びたい方。同じ旅で二つのカイロの博物館をご覧になりたい方。"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Cairo's Captivating Beginnings"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000006",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "Welcome and Historic Gems: Kick off your Egyptian adventure in Cairo, where our team will welcome you upon arrival. Settle into your accommodations before exploring the historic Saladin Citadel, the vibrant Khan El Khalili Bazaar, and the treasures of the Egyptian Museum. Enjoy delightful meals and unwind with views of the city's dynamic streets. Giza's Timeless Wonders: Return to Cairo for another day to witness the timeless majesty of the Great Pyramids of Giza. Revel in a unique camel ride and delve into the ancient cities of "
+      },
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [
+        "000000000003"
+       ],
+       "text": "Memphis and Saqqara"
+      },
+      {
+       "_key": "000000000005",
+       "_type": "span",
+       "marks": [],
+       "text": ", plus the Pyramids of Dahshur. Cap the day with an exquisite dinner overlooking the pyramids."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000003",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/memphis-saqqara-citadel-khan-tour/"
+       },
+       "_type": "externalLink",
+       "href": "/memphis-saqqara-citadel-khan-tour",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Spiritual Legacy "
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Conclude your journey in Cairo by exploring its rich religious heritage. Visit the serene Ben Ezra Synagogue, the historic Hanging Church, and the atmospheric Abo Serga Church. The day ends with a dinner cruise on "
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [
+        "000000000009"
+       ],
+       "text": "the Nile"
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [],
+       "text": ", leaving you with unforgettable memories of Cairo’s spiritual and cultural splendor."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000009",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "http://travel2egypt.org/dahabiya-nile-cruise-2/"
+       },
+       "_type": "externalLink",
+       "href": "/authentic-dahabiya-nile-cruise",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Alexandria's Coastal Charms"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000016",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": "Day Trip Marvels: Journey to Alexandria, the shining pearl of the Mediterranean. Visit the formidable Citadel of Qaitbay, wander through the ancient Catacombs, and admire historical artifacts at "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "000000000010"
+       ],
+       "text": "the National Museum"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ". Reflect on history at "
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "000000000013"
+       ],
+       "text": "Pompey’s Pillar"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": " before enjoying a delightful seaside dinner. Stay overnight to soak in the coastal ambiance."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000010",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/alexandria-travel-guide/the-national-museum/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/alexandria/alexandria-national-museum",
+       "newTab": false
+      },
+      {
+       "_key": "000000000013",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/group-day-tour-to-alexandria-from-cairo/"
+       },
+       "_type": "externalLink",
+       "href": "/alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000018",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Abu Simbel's Monumental Grandeur"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [],
+       "text": "Rock-Hewn Temples: Fly to the awe-inspiring site of Abu Simbel. Tour the magnificent temples carved directly into the rock, marvel at the grandeur of the pharaohs, and enjoy a lakeside lunch. The evening’s Sound and Light Show at the temples offers a dramatic glimpse into ancient Egyptian civilization."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Aswan's Nubian Beauty"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": "High Dam and Cultural Insights: From Abu Simbel, take a short flight to Aswan. Explore the engineering marvel of the High Dam and the mysteries of the Unfinished Obelisk. Relish a traditional Nubian lunch and a serene felucca sail around Kitchener Island, appreciating the slower pace of life and the beauty of the Nile."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000020",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Luxor's Pharaonic Legacy"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000028",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [],
+       "text": "Temples and Tombs: Drive from Aswan to Luxor, visiting the architecturally unique dual Temple of Kom Ombo and the falcon-god Horus at the Temple of Edfu. Luxor by night is a spectacle not to miss, with the Luxor Temple illuminated against the night sky. Discover additional treasures at "
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "000000000022"
+       ],
+       "text": "the Luxor Museum"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": ". West Bank's Ancient Secrets: Dedicate a day to the West Bank of Luxor to uncover the Valley of the Kings, the majestic Temple of Hatshepsut, and the towering Colossi of Memnon. Explore additional historic sites like "
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [
+        "000000000025"
+       ],
+       "text": "Madinat Habu"
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [],
+       "text": " and the awe-inspiring Karnak Temple. Stay overnight in Luxor to complete this profound historical journey. This carefully crafted itinerary promises a blend of exploration, relaxation, and deep cultural immersion, perfect for those looking to experience the full majesty and mystery of Egyp"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000022",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/luxor-travel-guide/the-karnak-temple/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/luxor/the-karnak-temple",
+       "newTab": false
+      },
+      {
+       "_key": "000000000025",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/luxor-travel-guide/madinat-habu-temple/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/luxor/madinat-habu-temple",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "El Egipto esencial: diez días desde Guiza hasta el sur nubio"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un viaje privado por la columna clásica —Guiza, Alejandría, Luxor, Asuán, Abu Simbel—, pensado para una primera visita, con tiempo suficiente en cada parada para que el lugar se asiente antes de que llegue el siguiente."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Algunos itinerarios intentan ser más listos que lo evidente. Este no."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Lo evidente en Egipto lo es por algo: Guiza, Luxor, Asuán, Abu Simbel, el puerto mediterráneo de Alejandría, el bazar medieval de Jan el-Jalili. Son los lugares contra los que se mide el resto del patrimonio del país, y no tiene sentido fingir lo contrario. La cuestión es el ritmo. Diez días bastan para verlos como corresponde. No bastan si se apilan —tres sitios al día, el siguiente vuelo siempre apretando— hasta convertir un gran país en una lista de comprobación."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Por eso la ruta aquí es deliberadamente despejada. El desvío mediterráneo a Alejandría llega el día dos, cuando aún se está fresco y antes de que el sur profundo reclame la atención. Los monumentos al sur de la ciudad —Menfis, Saqqara, Dahshur— reciben un día propio. Luxor tiene dos días, uno en cada orilla. Asuán y Abu Simbel reciben una subida larga pero sin prisas hacia la frontera nubia. El Cairo cierra el viaje con el barrio copto, el bazar, el Museo Egipcio de Tahrir y el Gran Museo Egipcio en Guiza: las colecciones de la ciudad como pieza final, después de los sitios que las produjeron. El viaje es una salida privada, operada solo para su grupo, con su propio egiptólogo y traslados privados durante toda la ruta."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo: el titular primero"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "El viaje abre donde la historia de Egipto se concentra de manera más inmediata. Tras el traslado desde el aeropuerto, la primera tarde completa se reserva a la meseta de Guiza: la Gran Pirámide de Keops, la pirámide de Kefrén, la pirámide de Micerinos y la Gran Esfinge agachada al pie. Se construyeron hacia 2500 a. C. y siguen siendo las estructuras con las que se mide al resto del mundo antiguo. Lo que las fotografías no transmiten es la escala: la masa de las construcciones, la distancia entre ellas, el silencio extraño de la meseta cuando uno se aleja de los bordes. Es una apertura deliberadamente fuerte. El Cairo da el titular primero."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Alejandría: el desvío mediterráneo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "El día dos toma la autopista del desierto al norte hasta Alejandría, la ciudad que Alejandro Magno fundó en 332 a. C. y que, bajo los Ptolomeos, se convirtió en la capital intelectual del mundo antiguo. El programa cubre los hitos a un ritmo cómodo. La Bibliotheca Alexandrina, la biblioteca moderna construida sobre el emplazamiento de la antigua, merece tiempo solo por su arquitectura: un disco inclinado de granito de Asuán inscrito con caracteres de todo el mundo. La fortaleza de Qaitbay, ciudadela del siglo XV levantada sobre los cimientos del antiguo faro, vigila la entrada al puerto oriental. Las catacumbas de Kom el-Shoqafa, complejo funerario de época romana del siglo I d. C., muestran el momento en que las tradiciones religiosas egipcias absorbieron las formas griegas y romanas. La columna de Pompeyo —en realidad una columna erigida en honor a Diocleciano en 297 d. C.— y el Museo Nacional de Alejandría completan la jornada. La comida es marisco frente al mar. Regreso a El Cairo por la tarde-noche."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "La secuencia piramidal al sur de El Cairo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "El tercer día se remonta al comienzo de la construcción de pirámides, es decir, al comienzo de la gran construcción en piedra en cualquier parte del planeta. Menfis fue la primera capital del Egipto unificado, y su museo al aire libre conserva el coloso caído de Ramsés II y la gran esfinge de alabastro. Cerca, Saqqara guarda la pirámide escalonada de Zoser, construida hacia 2650 a. C. bajo el arquitecto Imhotep: la estructura grande de piedra más antigua del mundo, el edificio en el que se inventó la forma piramidal. Dahshur completa la secuencia: la pirámide Acodada muestra el momento en que los arquitectos intentaron una cara lisa muy inclinada y tuvieron que corregir a media construcción; la pirámide Roja, levantada por Snefru poco después, es la primera pirámide auténtica lograda con éxito. Al llegar a las formas perfeccionadas de Guiza —que ya se han visto el día uno—, las tres construcciones de Dahshur y Saqqara han mostrado la curva de aprendizaje que las hizo posibles. Comida tradicional de parrilla mixta; regreso a El Cairo por la tarde."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor: dos días a uno y otro lado del río"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Un vuelo matinal lleva al sur hasta Luxor —la antigua Tebas, capital religiosa de los faraones del Imperio Nuevo— y la ciudad merece dos días completos. Este viaje se los da."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "El primero se pasa en la orilla oriental, sobre todo en Karnak. No es un solo templo, sino un complejo construido y ampliado por faraones sucesivos durante unos 1500 años. Su gran sala hipóstila —134 columnas macizas que cubren más de 5000 metros cuadrados, las más altas de 21 metros— es uno de los espacios interiores más abrumadores conservados del mundo antiguo. Verla sin la presión de un horario apretado es el argumento entero de la construcción de este día. La orilla oriental incluye también el templo de Luxor y el Museo de Luxor, cuya colección de escultura del Imperio Nuevo está entre las más finas de Egipto. La tarde queda libre."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "El segundo día en Luxor cruza al país de los muertos. La orilla occidental de Tebas es donde se enterró a los faraones del Imperio Nuevo, y su pieza central es el Valle de los Reyes: un valle desértico abierto en los acantilados de caliza, con más de sesenta tumbas reales cuyos corredores pintados siguen vivos tras tres mil años. La tumba de Tutankamón está aquí, modesta frente a las grandes tumbas reales de Ramsés VI o Seti I, pero permanentemente cargada por su descubrimiento del siglo XX. El día incluye también el templo funerario de Hatshepsut en Deir el-Bahari —tres terrazas porticadas que ascienden contra el acantilado, monumento de la faraona más exitosa de Egipto, que reinó unos veinte años en el siglo XV a. C., con su obelisco superviviente en Karnak alcanzando 29,5 metros— y los Colosos de Memnón, las dos figuras sedentes de Amenhotep III de 18 metros que son lo único visible de lo que fue el mayor templo funerario de Tebas. El tiempo libre de la tarde permite absorber la jornada al propio ritmo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "La carretera a Asuán y el sur nubio"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "El sexto día es una jornada de traslado en el mejor sentido. La ruta de Luxor a Asuán sigue el Nilo al sur y se detiene dos veces. Edfu conserva el templo de Horus, construido en el periodo ptolemaico entre 237 y 57 a. C. y el templo más completamente preservado de Egipto: muros, techo y santuario interior intactos, la imagen más clara que sobrevive de cómo se organizaba y se usaba un templo egipcio. Kom Ombo es el caso más raro: un templo dedicado a dos deidades a la vez, con planta de perfecta simetría bilateral para honrar tanto a Sobek, el cocodrilo, como a Horus el Viejo. Las galerías contienen una colección notable de cocodrilos momificados. Se llega a Asuán por la tarde, y el día cierra en el Nilo con una faluca que pasa junto a la isla de Kitchener y el poblado nubio de la orilla occidental, con la luz baja sobre el agua y la ciudad sin prisa a ambos lados."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "El séptimo día es el más largo del viaje y, para la mayoría de los viajeros, el más extraordinario. Empieza temprano en Abu Simbel, a donde se llega con un vuelo corto al sur, a la orilla nubia del lago Nasser, cerca de la frontera con Sudán. Ramsés II mandó tallar dos templos directamente en un acantilado de arenisca en el siglo XIII a. C.: el Gran Templo, con sus cuatro colosos sedentes de 20 metros, y el menor templo de Nefertari. La historia moderna es inseparable de la antigua: entre 1964 y 1968, con el agua creciente del lago Nasser amenazando con sumergir el complejo, una campaña internacional cortó los templos en 807 bloques numerados y los reubicó 65 metros más arriba y 200 metros más atrás. Es una de las operaciones de rescate arqueológico más grandes y técnicamente ambiciosas jamás llevadas a cabo. El santuario interior está alineado para que la luz solar alcance las estatuas del fondo dos veces al año, hacia el 22 de febrero y el 22 de octubre. La tarde se dedica a Asuán: la presa Alta, completada en 1970, que reconfiguró la hidrología de Egipto y creó el mayor lago artificial del mundo, y el obelisco inacabado, todavía tumbado en su cantera de granito con una grieta atravesando la piedra. Cena y noche en Asuán."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo: las capas más antiguas, después los objetos"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Un vuelo al norte devuelve el viaje a El Cairo, y la jornada se entrega a las capas más antiguas de la ciudad. El barrio copto reúne la sinagoga Ben Ezra, una de las más antiguas de Egipto; la Iglesia Colgante, basílica copta del siglo V suspendida sobre la portería de una fortaleza romana; y el Museo Copto, que conserva la mayor colección de arte cristiano copto del mundo y traza el periodo cristiano de Egipto desde el siglo II d. C. hasta la conquista árabe. Desde ahí, el día se mueve a Jan el-Jalili, el barrio del bazar medieval que comercia sin interrupción desde que el sultán mameluco Barquq lo estableció en 1382. La noche es una cena en crucero por el Nilo, con la ciudad iluminada deslizándose a ambos lados."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "El noveno día es el capítulo de los museos, y es completo. Empieza en el Museo Egipcio de la plaza Tahrir, el depósito original de antigüedades faraónicas, inaugurado en 1902 y todavía con una acumulación de objetos que pide años para leerse como corresponde: de la Paleta de Narmer al oro de las tumbas reales de Tanis. Desde ahí el día pasa al Gran Museo Egipcio, la instalación construida ex profeso al pie de la meseta de Guiza, plenamente abierta el 1 de noviembre de 2025, que ahora alberga la colección completa de Tutankamón —los cinco mil objetos, con la máscara de oro entre ellos— junto con galerías reorganizadas que cubren todo el arco de la civilización del antiguo Egipto. (Las momias reales se exponen aparte, en el Museo Nacional de la Civilización Egipcia, en El Cairo Antiguo.) El día es francamente denso, y es apropiado: las colecciones de El Cairo son la pieza final de lo que los sitios del Nilo han estado ilustrando toda la semana. Ver los objetos después de las tumbas y los templos les da otro peso. El traslado al aeropuerto sigue a la mañana siguiente, con salidas tardías fácilmente acomodadas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Diez días no pueden mostrar todo Egipto: el Desierto Oriental, el Sinaí, los oasis del Desierto Occidental, las ciudades enterradas del Delta quedan fuera. Lo que ofrece este itinerario es algo más infrecuente: el Egipto esencial a un ritmo en el que cada lugar se asienta antes de que llegue el siguiente."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La forma del viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Dónde · El Cairo → Alejandría → Menfis, Saqqara y Dahshur → Luxor → Edfu y Kom Ombo → Asuán → Abu Simbel → El Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Duración · 10 días / 9 noches, ajustable como viaje privado"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Carácter · Salida privada · su propio egiptólogo · vuelos internos El Cairo–Luxor y Asuán–El Cairo, más Abu Simbel ida y vuelta desde Asuán · faluca en Asuán · día mediterráneo en Alejandría · cena en crucero por el Nilo en El Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "Un viaje privado se construye alrededor de su grupo, no al revés. Cuéntenos cómo quieren modelarlo —un crucero por el Nilo añadido entre Luxor y Asuán, más tiempo en Alejandría, el día piramidal con otro ritmo— y armaremos los diez días a su medida."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "本質のエジプト——ギザからヌビアの南までの10日間"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "古典的な背骨——ギザ、アレクサンドリア、ルクソール、アスワン、アブ・シンベル——を、初訪の方が次の場所を迎える前にそれぞれを心に刻めるだけのペースで巡る、プライベートな旅。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "明らかなものを出し抜こうとする行程があります。この旅はそうしません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプトで明らかなものが明らかなのには、理由があります。ギザ、ルクソール、アスワン、アブ・シンベル、地中海の港アレクサンドリア、ハン・ハリーリの中世のバザール。これらは、国の遺産の残りが測られる尺度であり、それを取りつくろう意味はありません。問題はペースです。10日間は、それらをきちんと見るには十分です。けれども、それらを積み重ねて——一日に三か所、次の便がいつも迫って——大国を点検表に変えてしまう強行軍にしたなら、十分ではなくなります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "ここでのルートは意図的にゆったりしています。アレクサンドリアへの地中海の寄り道は二日目に、まだ気力があり、より深い南があなたを引き込む前に来ます。カイロの南の記念建造物——メンフィス、サッカラ、ダハシュール——は独立した一日を得ます。ルクソールは二日——一日は東岸、一日は西岸。アスワンとアブ・シンベルは、ヌビアの岸への、長いが急がない登りを得ます。カイロが旅を締めくくります——コプト地区、バザール、タハリール広場のエジプト博物館、そしてギザの大エジプト博物館——街の博物館の所蔵品を、それらを生み出した遺跡のあとに、最後の一片として置くのです。ご一行だけのための一回の出発で、専属のエジプト学ガイドと、全行程を通じたプライベートの送迎をご用意しています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロ：まず見出しを"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "旅は、エジプトの物語が最も直接に凝縮された場所に始まります。空港からの送迎のあと、最初の丸ごとの午後はギザ高原へ——クフ王の大ピラミッド、カフラー王、メンカウラー王、そのふもとにうずくまる大スフィンクスです。これらは紀元前2500年ごろに築かれ、いまも、ほかの古代世界が測られる基準であり続けています。写真が伝えないのは規模です——建造物の量塊、それらのあいだの距離、へりから離れたあとの高原の奇妙な静けさ。意図的に力強い幕開けです。カイロは、まず見出しを差し出すのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "アレクサンドリア：地中海の寄り道"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "二日目は砂漠の幹線道路で北のアレクサンドリアへ——アレクサンドロス大王が紀元前331年に建設し、プトレマイオス朝のもとで古代世界の知の首都となった街です。プログラムは見どころを心地よいペースで巡ります。古代の図書館の跡地に建てられた現代のアレクサンドリア図書館は、その建築だけのためにも時間をかける価値があります——世界中の文字が刻まれた、アスワンの花崗岩の傾いた円盤です。カイトベイ要塞は、古代のファロスの灯台の基礎の上に築かれた15世紀の城塞で、東港の先端に立っています。コム・エル・シュカファのカタコンベは、紀元1世紀のローマ期の埋葬複合体で、エジプトの古代の宗教の伝統がギリシアとローマの形を吸収しつつあった瞬間を見せてくれます。ポンペイの柱——実は、紀元297年に皇帝ディオクレティアヌスを称えて建てられた円柱です——とアレクサンドリア国立博物館が一日を締めくくります。街での昼食は、海辺でのシーフードです。夕方にカイロへ戻ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロ南方のピラミッドの連なり"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "三日目は、ピラミッド建設の始まり——つまり、地上のどこであれ大規模な石造建設の始まり——へとさかのぼります。メンフィスは統一エジプト最初の首都で、その野外博物館には、ラムセス2世の倒れた巨像と、大きなアラバスターのスフィンクスが保存されています。近くのサッカラには、建築家イムホテプのもと紀元前2650年ごろに築かれたジェセル王の階段ピラミッド——世界最古の大規模な石造建造物であり、ピラミッドの形が発明された建物——があります。ダハシュールがその連なりを完結させます。屈折ピラミッドは、建築家たちが急ななめらかな側面に挑み、建設の途中で修正しなければならなかった地点を見せてくれます。その直後にスネフェル王によって築かれた赤ピラミッドは、最初の成功した真正ピラミッドです。ギザの完成された形にたどり着くころには——あなたはすでに初日にそれを見ているのですが——ダハシュールとサッカラの三つの建造物が、それらを可能にした学びの過程を見せてくれています。昼食はミックスグリル、午後にカイロへ戻ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソール：川の両側で二日"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "朝の便があなたを南のルクソールへ運びます——古代のテーベ、新王国のファラオたちの宗教的首都——そして街は二日に値します。この旅はそれに二日を与えます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "最初の一日は東岸で、おもにカルナックで過ごします。それは単一の神殿ではなく、神殿複合体で、およそ1,500年にわたって歴代のファラオによって築かれ拡張されました。その大列柱室——5,000平方メートルを超える面積を覆う134本の巨大な柱、最も高いものは21メートル——は、古代世界から現存する最も圧倒的な内部空間の一つです。詰まったスケジュールの圧迫なしにそれを見ることこそ、この一日の組み立ての主張のすべてです。東岸にはまた、ルクソール神殿とルクソール博物館もあり、その新王国の彫刻のコレクションはエジプトでも最良のものの一つです。夕べは自由です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "二日目のルクソールは、川を渡って死者の地へ。テーベの西岸は、新王国のファラオたちが葬られた場所で、その中心は王家の谷です——石灰岩の崖に彫り込まれた砂漠の谷で、60を超える王室の墓を擁し、その彩色された回廊は三千年を経てなお鮮やかです。ツタンカーメンの墓もここにあります——ラムセス6世やセティ1世の偉大な王室の墓の傍らでは規模は控えめながら、その20世紀の発見を永遠に背負っています。一日はまた、デイル・エル・バハリのハトシェプスト葬祭殿——崖の壁を背に立ち上がる三段の列柱のテラスで、紀元前15世紀におよそ20年間統治した、エジプトで最も成功した女性ファラオの記念建造物です——とメムノンの巨像、アメンホテプ3世の二体の座像で、かつてテーベで最大だった葬祭殿のうち、いまも目に見えて残るすべてに立ち寄ります。午後の自由時間は、ご自身のペースでその一日を味わうことを許してくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワンへの道、そしてヌビアの南"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "六日目は、最良の意味での移動の一日です。ルクソールからアスワンへのルートはナイルを南へたどり、二度立ち寄ります。エドフには、ホルス神殿があります。紀元前237年から57年のあいだ、プトレマイオス朝期に築かれ、エジプトで最もよく保存された神殿です——壁、屋根、内陣が無傷で、エジプトの神殿が実際にどう組み立てられ、使われていたかの、現存する最も明快な姿を成しています。コム・オンボは、より珍しい例です——二柱の神に同時に捧げられた神殿で、ワニの神セベクと、年長のホルスの両方を等しく称えるため、左右対称に配されています。その回廊には、ミイラ化されたワニの目を見張るコレクションがあります。午後にアスワンに着き、一日はナイルの上で——キッチナー島とヌビアの村を過ぎるフェルッカ帆走で、光は水の上に低く、街は両岸でゆったりとしています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "七日目は旅で最も長く、たいていの旅人にとって最も並外れた一日です。早朝、アブ・シンベルへ。南へ短い飛行で、ナセル湖のヌビアの岸辺、スーダン国境近くへたどり着きます。ラムセス2世は、紀元前13世紀にここで二つの神殿を砂岩の崖に直接彫らせました——大神殿は、それぞれ高さ20メートルの四体の巨大な王の座像を前面に擁し、そして小さなネフェルタリ神殿です。この遺跡の近代の物語は、その古代の物語と切り離せません——1964年から1968年にかけて、ナセル湖の上昇する水が複合体を水没させかねないなか、国際的な活動が神殿を807の番号付きのブロックに切り分け、構造物全体を65メートル高く、水際から200メートル後方へ移設しました。これまでに行われたなかで最も大規模で技術的に野心的な考古学的救出作業の一つです。午後はアスワンそのものにあてられます。1970年に完成したハイダムは、エジプトの水文を造り変え、世界最大の人造湖をつくりました。未完のオベリスクは、いまも花崗岩の石切場に、亀裂が走った状態で横たわっています。アスワンでの夕食と一泊です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロ：より古い層、それから品々"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "北への便があなたをカイロへ戻し、一日は街のより古い層にあてられます。コプト地区には、エジプトで最も古いシナゴーグの一つ、ベン・エズラ・シナゴーグ、ローマの要塞の門楼の上に吊られた5世紀のコプト正教会、ハンギング・チャーチ、そして世界最大のコプト・キリスト教美術のコレクションを収め、エジプトのキリスト教の時代を紀元2世紀からアラブ征服までたどるコプト博物館があります。そこから一日はハン・ハリーリへ移ります。1382年にマムルーク朝のスルタン・バルクークが設けて以来、とぎれることなく商いを続けてきた中世のバザール地区です。夕べは、ナイルのディナークルーズです。灯りに照らされた街が、両岸に過ぎてゆきます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "九日目は博物館の章であり、詰まった一日です。それはタハリール広場のエジプト博物館に始まります。ファラオの古代の本来の収蔵庫で、1902年に開館し、いまも、きちんと読むには何年もかかる品々の集積を収めています——ナルメルのパレットから、タニスの王室墓の黄金まで。そこから一日は大エジプト博物館へ移ります。ギザ高原のふもとに建てられた専用の施設で、2025年11月1日に全面開館し、いまやツタンカーメンのコレクション全体——その黄金のマスクを含む五千点すべて——を収め、あわせて古代エジプト文明の弧の全体を網羅する、再構成された展示室を擁します。（王室のミイラは別に、オールド・カイロの国立エジプト文明博物館に展示されています。）一日は率直に重く、それがふさわしいのです——カイロの博物館の収蔵品は、ナイル沿いの遺跡がこの一週間ずっと例証してきたものの、最後の一片です。墓所と神殿のあとに品々を見ることは、それらに別の重みを与えます。空港への送迎が翌朝続きます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "10日間で、エジプトのすべてを差し上げることはできません——東方砂漠、シナイ、西方砂漠のオアシス、デルタの埋もれた都市は、いずれもここには欠けています。この行程が代わりにするのは、もっと稀なことです——次の場所が来る前にそれぞれが心に刻まれるペースで、本質のエジプトを差し上げるのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "旅の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · カイロ → アレクサンドリア → メンフィス／サッカラ／ダハシュール → ルクソール → エドフ／コム・オンボ → アスワン → アブ・シンベル → カイロ"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "日数 · 10日間／9泊 — 調整可能"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド · 国内線（カイロ／ルクソール、アスワン／カイロ、加えてアスワン発着アブ・シンベル往復）· アスワンのフェルッカ · アレクサンドリアでの地中海一日 · カイロのナイル・ディナークルーズ"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000040",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": "プライベートな旅は、お客様のご一行を中心に組み立てます。ルクソール／アスワン間にナイルクルーズを加える、アレクサンドリアにもう一日とる、ピラミッドの日のペースを変える——どのように形にしたいか、私どもまでお聞かせください。10日間をその形に合わせて組み立てます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "wp-page-83284",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "days": [
+  {
+   "_key": "day-1",
+   "_type": "tourDay",
+   "dayNumber": 1,
+   "morning": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000001",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "As soon as you touch down, our warm and friendly team will be there to greet you and escort you to your hotel. Kick back, relax with a delightful dinner, and rest up—you've got an exciting journey ahead!"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000003",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "En cuanto aterrices, nuestro cálido y amable equipo estará allí para recibirte y acompañarte a tu hotel."
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [],
+         "text": " Relájate con una deliciosa cena y descansa: ¡te espera un viaje emocionante! "
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000001",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "エジプトに到着した瞬間から、私たちの温かくフレンドリーなスタッフがお迎えし、ホテルまでご案内いたします。到着後は、美味しいディナーを楽しみながらくつろぎ、旅の始まりに備えてゆっくりとお休みください。これから始まる壮大な冒険にご期待ください！"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "value": "Welcome to Cairo"
+    },
+    {
+     "_key": "es",
+     "value": "Día 1 Bienvenido a El Cairo"
+    },
+    {
+     "_key": "ja",
+     "value": "1日目 カイロへようこそ"
+    }
+   ]
+  },
+  {
+   "_key": "day-2",
+   "_type": "tourDay",
+   "dayNumber": 2,
+   "morning": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000001",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "Dive into the heart of Cairo’s history today! Start with the majestic Saladin Citadel, browse through the bustling Khan El Khalili bazaar, and marvel at the treasures of the Egyptian Museum. Savor an authentic Oriental lunch to fuel your explorations, and later, unwind with a delicious dinner at your hotel."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000006",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "¡."
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [],
+         "text": " Saborea un auténtico almuerzo oriental para alimentar tus exploraciones y, más tarde, relájate "
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [
+          "000000000003"
+         ],
+         "text": "con una deliciosa cena en tu hotel"
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [],
+         "text": ". "
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000003",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/hoteles-economicos-cerca-de-las-piramides/"
+         },
+         "_type": "externalLink",
+         "href": "/es/guide/guiza",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000007",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "今日はカイロの歴史の中心へと足を踏み入れます！まずは壮大な "
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "サラディン城塞"
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [],
+         "text": " を訪れ、カイロの街を一望。その後、活気あふれる "
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ハーン・ハリーリ・バザール"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": " を散策し、エキゾチックな雰囲気を満喫しましょう。続いて、"
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "エジプト考古学博物館"
+        },
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [],
+         "text": " で、歴史に刻まれた数々の秘宝を間近に堪能。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000009",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": "ランチには本場のオリエンタル料理を味わい、午後の探検に向けてエネルギーチャージ。夜はホテルで���美味しいディナーとともにゆったりとおくつろぎください。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "value": "Discover Cairo’s Historic Gems"
+    },
+    {
+     "_key": "es",
+     "value": "Día 2 Descubre las joyas históricas de El Cairo"
+    },
+    {
+     "_key": "ja",
+     "value": "2日目 カイロの歴史的な宝石を巡る"
+    }
+   ]
+  },
+  {
+   "_key": "day-3",
+   "_type": "tourDay",
+   "dayNumber": 3,
+   "morning": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000001",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "Head to the coastal city of Alexandria where you’ll visit the formidable Citadel of Qaitbay, explore the eerie Catacombs, and admire historical artifacts at the National Museum. Don’t miss Pompey’s Pillar before enjoying a sumptuous dinner and overnight stay in Alexandria."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000006",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "Dirígete a la ciudad costera de Alejandría, donde visitarás la formidable Ciudadela de Qaitbay, explorarás las inquietantes Catacumbas y admirarás objetos históricos en el Museo Nacional."
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [],
+         "text": " "
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": "No te pierdas"
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [],
+         "text": " la Columna de Pompeyo antes de disfrutar de una suntuosa cena y pasar la noche en Alejandría. "
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000009",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "エジプトの地中海沿岸に広がる美しい都市 "
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "アレクサンドリア"
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [],
+         "text": " へ向かいます。まずは、壮大な "
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "カイトベイ要塞"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": " を訪れ、歴史に彩られた海辺の景色を堪能。その後、神秘的な地下墓地 "
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "カタコンベ"
+        },
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [],
+         "text": " を探検し、"
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "アレクサンドリア国立博物館"
+        },
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": " で貴重な歴史的遺産を鑑賞します。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ポンペイの柱"
+        },
+        {
+         "_key": "00000000000b",
+         "_type": "span",
+         "marks": [],
+         "text": " も見逃せません。古代ローマ時代の遺跡を巡った後は、海辺のレストランで贅沢なディナーを堪能し、アレクサンドリアの夜をゆっくりとお楽しみください。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "value": "Alexandria’s Coastal Charms"
+    },
+    {
+     "_key": "es",
+     "value": "Día 3 Los encantos costeros de Alejandría"
+    },
+    {
+     "_key": "ja",
+     "value": "### ** 3日目 アレクサンドリアの海辺の魅力**"
+    }
+   ]
+  },
+  {
+   "_key": "day-4",
+   "_type": "tourDay",
+   "dayNumber": 4,
+   "morning": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000001",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "Journey back to Cairo for a day at the iconic Great Pyramids of Giza. Enjoy a camel ride and explore the ancient cities of Memphis and Saqqara, plus the pyramids of Dahshur. End your day with fine dining overlooking the pyramids."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "00000000000e",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "Regresa a "
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [
+          "000000000001"
+         ],
+         "text": "El Cairo para pasar un día"
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [],
+         "text": " en las emblemáticas Grandes Pirámides de Guiza."
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [],
+         "text": " Disfruta de un paseo en camello"
+        },
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": " y explora las antiguas ciudades de Menfis y Saqqara, además de las pirámides de Dahshur."
+        },
+        {
+         "_key": "000000000009",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": " Termina el día "
+        },
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [
+          "00000000000b"
+         ],
+         "text": "con una buena cena con vistas a las"
+        },
+        {
+         "_key": "00000000000d",
+         "_type": "span",
+         "marks": [],
+         "text": " pirámides. "
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000001",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/excursion-de-un-dia-en-avion-de-luxor-a-el-cairo/"
+         },
+         "_type": "externalLink",
+         "href": "/es/excursiones-privadas-de-un-dia",
+         "newTab": false
+        },
+        {
+         "_key": "00000000000b",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/oasis-de-fayoum-con-las-piramides-de-meydum-y-hawara/"
+         },
+         "_type": "externalLink",
+         "href": "/es/oasis-de-fayoum-piramides-de-meidum-y-hawara-jornada-completa",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000007",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "カイロへ戻り、"
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ギザの大ピラミッド"
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [],
+         "text": " で壮大な歴史の息吹を感じる1日をお過ごしください。ピラミッドの麓で "
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ラクダに乗る特別な体験"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": " を楽しみます。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": "さらに、古代エジプト最初の首都 "
+        },
+        {
+         "_key": "000000000009",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "メンフィス"
+        },
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": " と、最古のピラミッドである "
+        },
+        {
+         "_key": "00000000000b",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "サッカラの階段ピラミッド"
+        },
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [],
+         "text": " を探訪。続いて、"
+        },
+        {
+         "_key": "00000000000d",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ダハシュールの屈折ピラミッドと赤のピラミッド"
+        },
+        {
+         "_key": "00000000000e",
+         "_type": "span",
+         "marks": [],
+         "text": " へ向かい、古代建築の進化をたどります。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000010",
+         "_type": "span",
+         "marks": [],
+         "text": "1日の締めくくりは、ピラミッドを望む絶景レストランでの贅沢なディナー。歴史に包まれたロマンチックな夜をお楽しみください。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "value": "Giza’s Timeless Wonders"
+    },
+    {
+     "_key": "es",
+     "value": "Día 4 Las maravillas eternas de Giza"
+    },
+    {
+     "_key": "ja",
+     "value": "4日目 ギザの時を超えた驚異"
+    }
+   ]
+  },
+  {
+   "_key": "day-5",
+   "_type": "tourDay",
+   "dayNumber": 5,
+   "morning": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000001",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "Fly to Abu Simbel and tour the awe-inspiring temples carved into rock. Relish a lakeside lunch and be captivated by the evening’s Sound and Light Show at the temple complex"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000008",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [
+          "000000000000"
+         ],
+         "text": "Vuela a Abu Simbel"
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [],
+         "text": " y visita los sobrecogedores templos excavados en la roca."
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": " Disfruta de un "
+        },
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [
+          "000000000005"
+         ],
+         "text": "almuerzo junto al"
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": " lago y déjate cautivar por el espectáculo nocturno de luz y sonido en el complejo de templos. "
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000000",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/abu-simble-en-avion-desde-asuan/"
+         },
+         "_type": "externalLink",
+         "href": "/es/abu-simbel-en-avion-desde-asuan",
+         "newTab": false
+        },
+        {
+         "_key": "000000000005",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/aventura-en-felucca-por-asuan-con-almuerzo-junto-al-nilo/"
+         },
+         "_type": "externalLink",
+         "href": "/es/faluca-por-el-nilo-en-asuan",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000003",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "飛行機でアブ・シンベルへ向かい、壮大な "
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "岩窟神殿"
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [],
+         "text": " を巡ります。ラムセス2世の偉大さを讃える巨大な神殿と、美しい装飾が施されたネフェルタリ王妃の神殿を訪れ、その圧倒的なスケールに感動。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000007",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": "観光の後は、ナセル湖を眺めながらの贅沢なランチを楽しみ、ゆったりとしたひとときをお過ごしください。夜には、幻想的な "
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "音と光のショー"
+        },
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [],
+         "text": " を鑑賞。古代エジプトの歴史がドラマチックに蘇る、忘れられない体験となるでしょう。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "value": "Abu Simbel’s Magnificence"
+    },
+    {
+     "_key": "es",
+     "value": "Día 5 La magnificencia de Abu Simbel"
+    },
+    {
+     "_key": "ja",
+     "value": "5日目 アブ・シンベルの壮大な遺産"
+    }
+   ]
+  },
+  {
+   "_key": "day-6",
+   "_type": "tourDay",
+   "dayNumber": 6,
+   "morning": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000001",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "After witnessing a sunrise in Abu Simbel, fly to Aswan. Visit the High Dam and the Unfinished Obelisk, enjoy a Nubian lunch, and relax on a felucca sail around Kitchener Island. Overnight in Aswan."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000008",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "Tras presenciar un amanecer en Abu Simbel, vuela a Asuán."
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [],
+         "text": " Visita "
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [
+          "000000000003"
+         ],
+         "text": "la Presa Alta"
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [],
+         "text": " y el Obelisco Inacabado, disfruta de un almuerzo nubio y relájate navegando en feluca por la isla Kitchener."
+        },
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": " Pasa la noche en Asuán. "
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000003",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-asuan/la-presa-alta/"
+         },
+         "_type": "externalLink",
+         "href": "/es/guide/asuan/la-presa-alta-de-asuan",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000007",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "アブ・シンベルで壮麗な "
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "朝日"
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [],
+         "text": " を堪能した後、飛行機でアスワンへ移動します。まずは、エジプト近代化の象徴である "
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ハイダム"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": " を訪れ、その壮大なスケールを体感。次に、古代の未完の遺産 "
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "未完成のオベリスク"
+        },
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [],
+         "text": " を見学し、石工技術の歴史を学びます。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": "ランチには、���キゾチックな"
+        },
+        {
+         "_key": "000000000009",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ヌビア料理"
+        },
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": " を堪能。午後は、ナイル川をゆったりと進む "
+        },
+        {
+         "_key": "00000000000b",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "フェルッカ（帆船）"
+        },
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [],
+         "text": " に乗り、美しい植物が茂る "
+        },
+        {
+         "_key": "00000000000d",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "キッチナー島"
+        },
+        {
+         "_key": "00000000000e",
+         "_type": "span",
+         "marks": [],
+         "text": " 周辺をクルーズ。静寂に包まれたナイルの風景を楽しみながら、穏やかなひとときをお過ごしください。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000010",
+         "_type": "span",
+         "marks": [],
+         "text": "夜はアスワンのホテルに宿泊し、旅の疲れを癒します。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "value": "Aswan’s Nubian Beauty"
+    },
+    {
+     "_key": "es",
+     "value": "Día 6 La belleza nubia de Asuán"
+    },
+    {
+     "_key": "ja",
+     "value": "6日目 アスワンのヌビアの美"
+    }
+   ]
+  },
+  {
+   "_key": "day-7",
+   "_type": "tourDay",
+   "dayNumber": 7,
+   "morning": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000004",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "Drive to Luxor, visiting the dual Temple of Kom Ombo and the Temple of Edfu en route. After checking into your hotel, experience the Luxor Temple illuminated by night and explore the treasures of "
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [
+          "000000000001"
+         ],
+         "text": "the Luxor Museum"
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [],
+         "text": "."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000001",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/luxor-travel-guide/the-luxor-museum/"
+         },
+         "_type": "externalLink",
+         "href": "/guide/luxor/the-luxor-museum",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000009",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "Conduce hasta Luxor, visitando en ruta el doble Templo de "
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [
+          "000000000001"
+         ],
+         "text": "Kom Ombo y el Templo de Edfu"
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [],
+         "text": "."
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [],
+         "text": " Tras registrarte en tu hotel, contempla el Templo de "
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [
+          "000000000006"
+         ],
+         "text": "Luxor"
+        },
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": " iluminado por la noche y explora los tesoros del Museo de Luxor. "
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000001",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/alineaciones-de-templos-excursion-de-un-dia-a-los-templos-de-kom-ombo-y-edfu/"
+         },
+         "_type": "externalLink",
+         "href": "/es/templos-de-esna-edfu-y-kom-ombo-desde-luxor",
+         "newTab": false
+        },
+        {
+         "_key": "000000000006",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-farafra/parque-nacional-del-desierto-blanco/"
+         },
+         "_type": "externalLink",
+         "href": "/es/guide/farafra/parque-nacional-del-desierto-blanco",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000009",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "車でルクソールへ向かう途中、まずは "
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "コム・オンボ神殿"
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [],
+         "text": " を訪れます。この独特な双神殿は、ワニ神 "
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ソベク"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": " とハヤブサ神 "
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "��ルス"
+        },
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [],
+         "text": " の両方を祀り、対称的な構造が特徴的です。続いて、エジプトで最も保存状態の良い神殿の一つである "
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "エドフ神殿"
+        },
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": " へ。巨大なファラオ像と精巧なレリーフに圧倒されながら、古代エジプトの信仰と建築の美を堪能します。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": "ルクソール到着後、ホテルにチェックインし、夜には "
+        },
+        {
+         "_key": "00000000000b",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ライトアップされたルクソール神殿"
+        },
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [],
+         "text": " を訪問。幻想的な光の中に浮かび上がる列柱や彫刻が、まるで時空を超えたかのような感動をもたらします。さらに、"
+        },
+        {
+         "_key": "00000000000d",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ルクソール博物館"
+        },
+        {
+         "_key": "00000000000e",
+         "_type": "span",
+         "marks": [],
+         "text": " でファラオ時代の貴重な遺物を鑑賞し、歴史の深みを味わいましょう。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "value": "Luxor’s Ancient Splendor"
+    },
+    {
+     "_key": "es",
+     "value": "Día 7 El antiguo esplendor de Luxor"
+    },
+    {
+     "_key": "ja",
+     "value": "7日目 ルクソールの古代の輝き"
+    }
+   ]
+  },
+  {
+   "_key": "day-8",
+   "_type": "tourDay",
+   "dayNumber": 8,
+   "morning": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000004",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "Explore the West Bank of Luxor, including the Valley of the Kings, Hatshepsut Temple, and "
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [
+          "000000000001"
+         ],
+         "text": "the Colossi of Memnon"
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [],
+         "text": ". Visit Madinat Habu and the majestic Karnak Temple, with an overnight stay in Luxor."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000001",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/luxor-travel-guide/the-colossi-of-memnon/"
+         },
+         "_type": "externalLink",
+         "href": "/guide/luxor/the-colossi-of-memnon",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000009",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "Explora la orilla oeste de Luxor, incluyendo el Valle de "
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [
+          "000000000001"
+         ],
+         "text": "los Reyes, el Templo de Hatshepsut y los Colosos de Memnon"
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [],
+         "text": "."
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [],
+         "text": " Visita Madinat Habu y "
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [
+          "000000000006"
+         ],
+         "text": "el majestuoso Templo de Karnak"
+        },
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": ", y pasa la noche en Luxor. "
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000001",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-luxor/los-colosos-de-memnon/"
+         },
+         "_type": "externalLink",
+         "href": "/es/guide/luxor/los-colosos-de-memnon",
+         "newTab": false
+        },
+        {
+         "_key": "000000000006",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/129-razones-para-visitar-el-templo-de-karnak/"
+         },
+         "_type": "externalLink",
+         "href": "/es/blog/129-razones-para-visitar-el-templo-de-karnak",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000003",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "ルクソール西岸の壮大な遺跡を巡る1日が始まります。まずは、歴代ファラオが眠る "
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "王家の谷"
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [],
+         "text": " へ。ここでは、ラムセスやツタンカーメンなどの王たちの墓を訪れ、壁画に刻まれた古代エジプトの神話や葬儀の儀式を目の当たりにします。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000009",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": "続いて、壮麗な列柱が並ぶ "
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ハトシェプスト女王葬祭殿"
+        },
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [],
+         "text": " を訪れ、古代エジプトで最も偉大な女性ファラオの遺産に触れます。その後、悠然と立ち続ける "
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "メムノンの巨像"
+        },
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": " へ向かい、古代の職人技の素晴らしさを感じましょう。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": "午後は、精巧な壁画が残る "
+        },
+        {
+         "_key": "00000000000b",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "メディネト・ハブ神殿"
+        },
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [],
+         "text": " を訪れ、ラムセス3世の偉業を学びます。そして、旅のハイライトのひとつ "
+        },
+        {
+         "_key": "00000000000d",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "カルナック神殿"
+        },
+        {
+         "_key": "00000000000e",
+         "_type": "span",
+         "marks": [],
+         "text": " へ。圧倒的なスケールの大列柱室や神殿群を探索し、古代エジプトの建築の頂点を堪能します。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000010",
+         "_type": "span",
+         "marks": [],
+         "text": "夜はルクソールのホテルに宿泊し、歴史と神秘に満ちた1日の余韻に浸りながら、ゆっくりとおくつろぎください。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "value": "West Bank Discoveries in Luxor"
+    },
+    {
+     "_key": "es",
+     "value": "Día 8 Descubrimientos de Cisjordania en Luxor"
+    },
+    {
+     "_key": "ja",
+     "value": "8日目 ルクソール西岸の秘宝探訪"
+    }
+   ]
+  },
+  {
+   "_key": "day-9",
+   "_type": "tourDay",
+   "dayNumber": 9,
+   "morning": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000001",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "Return to Cairo to delve into its rich religious heritage at the Ben Ezra Synagogue, the Hanging Church, and Abo Serga Church. The day concludes with a luxurious dinner cruise on the Nile."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000009",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "Regresa a El Cairo para adentrarte en su rico patrimonio religioso en la "
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [
+          "000000000001"
+         ],
+         "text": "Sinagoga de Ben Ezra"
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [],
+         "text": ", la Iglesia Colgante y la Iglesia de Abo Serga."
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [],
+         "text": " El día concluye con una lujosa cena "
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": "en crucero por el Nilo"
+        },
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": ". "
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000001",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-el-cairo/sinagoga-ben-ezra/"
+         },
+         "_type": "externalLink",
+         "href": "/es/guide/el-cairo/la-sinagoga-de-ben-ezra",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000005",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "カイロへ戻り、街の豊かな宗教遺産を巡ります。まずは、ユダヤ教の歴史が息づく "
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ベン・エズラ・シナゴーグ"
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [],
+         "text": " を訪れ、古代の伝承に触れます。次に、壮麗な建築が特徴的な "
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ハンギング・チャーチ"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": "（聖マリア教会）を見学し、コプト教の深い歴史と文化を感じましょう。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000009",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [],
+         "text": "続いて、聖家族が一時滞在したとされる "
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "アブ・セルガ教会"
+        },
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": "（聖セルギウス＆バッカス教会）へ。静寂に包まれた神聖な空間で、古代から続く信仰の足跡をたどります。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": "1日の締めくくりは、豪華な "
+        },
+        {
+         "_key": "00000000000b",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ナイル���ディナークルーズ"
+        },
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [],
+         "text": "。美しい夜景を眺めながら、贅沢なディナーとエンターテイメントを楽しみ、エジプトでの旅の最後の夜を優雅に過ごしましょう。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "value": "Cairo’s Spiritual Legacy"
+    },
+    {
+     "_key": "es",
+     "value": "Día 9 El legado espiritual de El Cairo"
+    },
+    {
+     "_key": "ja",
+     "value": "9日目 カイロの精神的遺産"
+    }
+   ]
+  },
+  {
+   "_key": "day-10",
+   "_type": "tourDay",
+   "dayNumber": 10,
+   "morning": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000001",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "Enjoy one last breakfast at your hotel. If you have a late flight, special arrangements can be made to accommodate your schedule. Safe travels and we hope to see you again soon!"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000008",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "Disfruta de un último desayuno en tu hotel."
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [],
+         "text": " Si tienes un vuelo que sale tarde, podemos "
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [
+          "000000000003"
+         ],
+         "text": "hacer arreglos especiales para"
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [],
+         "text": " adaptarnos a tu horario."
+        },
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": " Buen viaje y esperamos volver a verte pronto. "
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000003",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/excursion-de-un-dia-a-la-isla-giftun-para-hacer-snorkel-desde-hurghada/"
+         },
+         "_type": "externalLink",
+         "href": "/es/snorkel-en-la-isla-giftun-dia-completo-desde-hurgada",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000001",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "ホテルで最後の朝食をゆっくりとお楽しみください。ご出発が遅い場合は、ご希望に応じた特別なアレンジも可能です。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000004",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [],
+         "text": "安全なご旅行をお祈りするとともに、またお会いできる日を心よりお待ちしております。"
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "良い旅を！マアッ サラーマ！"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "value": "Farewell Cairo"
+    },
+    {
+     "_key": "es",
+     "value": "Día 10 Despedida de El Cairo"
+    },
+    {
+     "_key": "ja",
+     "value": "10日目 さらばカイロ"
+    }
+   ]
+  }
+ ],
+ "durationDays": 10,
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 2240,
+  "ja": 2293
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A painted burial chamber and broken granite sarcophagus in Luxor's Valley of the Kings."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Cámara funeraria pintada y sarcófago de granito roto en el Valle de los Reyes, Luxor."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ルクソールの王家の谷にある彩色された玄室と割れた花崗岩の石棺。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-84e52aa9673b00480e1c321d879dccc2d12011c3-2600x1733-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Vivid wall paintings surround a shattered sarcophagus in a Valley of the Kings tomb."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Pinturas murales rodean un sarcófago roto en una tumba del Valle de los Reyes."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "王家の谷の墓に残る鮮やかな壁画と砕けた石棺。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "o5hwr2tftk",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El viaje es una salida privada, operada solo para su grupo, con su propio egiptólogo y traslados privados durante toda la ruta.",
+   "text": "Salida privada, operada solo para su grupo"
+  },
+  {
+   "_key": "fdgomft5ds",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El viaje es una salida privada, operada solo para su grupo, con su propio egiptólogo y traslados privados durante toda la ruta.",
+   "text": "Su propio egiptólogo"
+  },
+  {
+   "_key": "5o7ral7fl1",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El viaje es una salida privada, operada solo para su grupo, con su propio egiptólogo y traslados privados durante toda la ruta.",
+   "text": "Traslados privados durante toda la ruta"
+  },
+  {
+   "_key": "elyb0zsja8",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ご一行だけのための一回の出発で、専属のエジプト学ガイドと、全行程を通じたプライベートの送迎をご用意しています。",
+   "text": "専属のエジプト学ガイド"
+  },
+  {
+   "_key": "7y55ygix06",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ご一行だけのための一回の出発で、専属のエジプト学ガイドと、全行程を通じたプライベートの送迎をご用意しています。",
+   "text": "全行程を通じたプライベートの送迎"
+  },
+  {
+   "_key": "emurrfdlwz",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド · 国内線（カイロ／ルクソール、アスワン／カイロ、加えてアスワン発着アブ・シンベル往復）· アスワンのフェルッカ · アレクサンドリアでの地中海一日 · カイロのナイル・ディナークルーズ",
+   "text": "完全プライベート出発"
+  },
+  {
+   "_key": "t2bvz2l86i",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド · 国内線（カイロ／ルクソール、アスワン／カイロ、加えてアスワン発着アブ・シンベル往復）· アスワンのフェルッカ · アレクサンドリアでの地中海一日 · カイロのナイル・ディナークルーズ",
+   "text": "国内線（カイロ／ルクソール、アスワン／カイロ、加えてアスワン発着アブ・シンベル往復）"
+  },
+  {
+   "_key": "pv421pf9o4",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド · 国内線（カイロ／ルクソール、アスワン／カイロ、加えてアスワン発着アブ・シンベル往復）· アスワンのフェルッカ · アレクサンドリアでの地中海一日 · カイロのナイル・ディナークルーズ",
+   "text": "アスワンのフェルッカ"
+  },
+  {
+   "_key": "mrdm2sgq7u",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド · 国内線（カイロ／ルクソール、アスワン／カイロ、加えてアスワン発着アブ・シンベル往復）· アスワンのフェルッカ · アレクサンドリアでの地中海一日 · カイロのナイル・ディナークルーズ",
+   "text": "カイロのナイル・ディナークルーズ"
+  },
+  {
+   "_key": "zctopja5z0",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "空港への送迎が翌朝続きます。",
+   "text": "空港への送迎"
+  }
+ ],
+ "itineraryDays": [
+  {
+   "_key": "9ndvcnx4k2",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "As soon as you touch down, our warm and friendly team will be there to greet you and escort you to your hotel.",
+   "title": "Welcome to Cairo"
+  },
+  {
+   "_key": "ycekcolbfp",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "Savor an authentic Oriental lunch to fuel your explorations, and later, unwind with a delicious dinner at your hotel.",
+   "title": "Discover Cairo’s Historic Gems"
+  },
+  {
+   "_key": "ip79ogbukk",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Alexandria",
+   "overnightNeedsReview": true,
+   "source": "Don’t miss Pompey’s Pillar before enjoying a sumptuous dinner and overnight stay in Alexandria.",
+   "title": "Alexandria’s Coastal Charms"
+  },
+  {
+   "_key": "3favwzl6vi",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "Journey back to Cairo for a day at the iconic Great Pyramids of Giza.",
+   "title": "Giza’s Timeless Wonders"
+  },
+  {
+   "_key": "vs5mcedrwe",
+   "_type": "itineraryDay",
+   "day": 5,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Abu Simbel",
+   "overnightNeedsReview": true,
+   "source": "Fly to Abu Simbel and tour the awe-inspiring temples carved into rock.",
+   "title": "Abu Simbel’s Magnificence"
+  },
+  {
+   "_key": "d1xcmutme1",
+   "_type": "itineraryDay",
+   "day": 6,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Aswan",
+   "overnightNeedsReview": true,
+   "source": "Overnight in Aswan.",
+   "title": "Aswan’s Nubian Beauty"
+  },
+  {
+   "_key": "8mzkhdwio2",
+   "_type": "itineraryDay",
+   "day": 7,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Luxor",
+   "overnightNeedsReview": true,
+   "source": "After checking into your hotel, experience the Luxor Temple illuminated by night and explore the treasures of the Luxor Museum.",
+   "title": "Luxor’s Ancient Splendor"
+  },
+  {
+   "_key": "kptc1hlxkh",
+   "_type": "itineraryDay",
+   "day": 8,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Luxor",
+   "overnightNeedsReview": true,
+   "source": "Visit Madinat Habu and the majestic Karnak Temple, with an overnight stay in Luxor.",
+   "title": "West Bank Discoveries in Luxor"
+  },
+  {
+   "_key": "jmerhv1ixb",
+   "_type": "itineraryDay",
+   "day": 9,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "Return to Cairo to delve into its rich religious heritage at the Ben Ezra Synagogue, the Hanging Church, and Abo Serga Church.",
+   "title": "Cairo’s Spiritual Legacy"
+  },
+  {
+   "_key": "sgy8kbsfhs",
+   "_type": "itineraryDay",
+   "day": 10,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "Enjoy one last breakfast at your hotel.",
+   "title": "Farewell Cairo"
+  }
+ ],
+ "migration": {
+  "cityResolution": "default-cairo",
+  "durationDaysSource": "slug-leading",
+  "migratedAt": "2026-05-14T11:38:15.974Z",
+  "source": "wp-import",
+  "themeMatchedPattern": "fallback",
+  "wpId": 89602,
+  "wpModifiedAt": "2026-04-18T23:00:58",
+  "wpTemplate": "elementor_header_footer",
+  "wpUrl": "https://travel2egypt.org/10-days-eternal-egypt-tour/"
+ },
+ "priceFrom": 2150,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_87255",
+   "_ref": "wp-page-87255",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_156539",
+   "_ref": "wp-page-156539",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_89005",
+   "_ref": "wp-page-89005",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_89343",
+   "_ref": "wp-page-89343",
+   "_type": "reference"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "value": {
+    "_type": "slug",
+    "current": "10-days-eternal-egypt-tour"
+   }
+  },
+  {
+   "_key": "es",
+   "value": {
+    "_type": "slug",
+    "current": "maravillas-eternas-excursion-de-10-dias-al-egipto-eterno"
+   }
+  },
+  {
+   "_key": "ja",
+   "value": {
+    "_type": "slug",
+    "current": "toki-o-koe-ta-kyoi-10-nichikan-no-eien-no-ejiputo-tsua"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "Welcome and Historic Gems: Kick off your Egyptian adventure in Cairo, where our team will welcome you upon arrival. Settle into your accommodations before exploring the historic Saladin Citadel, the vibrant Khan El Khalili Bazaar, and the"
+  },
+  {
+   "_key": "es",
+   "value": "Diez días que toman la forma esencial del país —Guiza y el barrio copto, Alejandría sobre el Mediterráneo, los templos de Luxor, el sur nubio y Abu Simbel— a un ritmo en el que cada lugar deja huella antes de que llegue el siguiente."
+  },
+  {
+   "_key": "ja",
+   "value": "ギザとコプト地区、地中海のアレクサンドリア、ルクソールの神殿、ヌビアの南、そしてアブ・シンベル。古典的な背骨を、それぞれの場所が記憶に残るペースで巡る初訪のための10日間。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-hassle-free",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "value": "Timeless Wonders: 10-Days Eternal Egypt Tour"
+  },
+  {
+   "_key": "es",
+   "value": "Maravillas Eternas: Excursión De 10 Días Al Egipto Eterno"
+  },
+  {
+   "_key": "ja",
+   "value": "時を超えた驚異：10日間の永遠のエジプトツアー"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}

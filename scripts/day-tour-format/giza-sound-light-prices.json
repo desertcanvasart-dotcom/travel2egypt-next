@@ -1,0 +1,4 @@
+{
+  "_note": "ONE per-person selling price in EUR for 2 travellers sharing, the same in every language (no guide on this evening: a driver, the show ticket and an assistant); the import removes guideLanguagePrices (as on the felucca page). Owner, 21 Nov: 'Use the 2-traveller price, one price for all languages'. Source: Autoura T2E-DT-CAI-14 (car 'HOTEL-SOUND&LIGHT' sedan 2,500 EGP = €42.34 + 2 show tickets at $20 = €36.42; 30 % margin → €51.20, rounded up). Already applied to the live page on 21 Nov (PR #334, price only); this import sets the same value. Live before: EN €73, ES €84, JA €91.",
+  "price": 52
+}

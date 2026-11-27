@@ -1,0 +1,1325 @@
+{
+ "_createdAt": "2026-05-28T11:45:32Z",
+ "_id": "tour.royal-sea-scope",
+ "_rev": "pzh5FM4q1DBt3H4LGqNNJZ",
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:46Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Non-swimmers, families with young children or older guests, anyone curious about the reef without entering the water"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Familias, no nadadores y viajeros con poco tiempo"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "水に入らずに紅海の珊瑚礁を本格的に見たいご家族、ご年配のお連れ、身体的な制約のある方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "The Royal Sea Scope: A Window Into the Red Sea"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "There is a particular frustration for travellers who are drawn to the Red Sea's reputation — one of the most biodiverse marine environments on earth — but who cannot dive, prefer not to snorkel, or are travelling with children or older companions for whom the water is simply not an option. The Royal Sea Scope exists precisely for that gap. It is a two-hour semi-submarine excursion out of Sharm el-Sheikh, designed to put you face-to-face with the coral gardens of Ras Mohammed and the Straits of Tiran without asking you to so much as dampen a sleeve."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "This is not an aquarium, and it is not a glass-bottomed boat. The Royal Sea Scope is a purpose-built semi-submarine vessel with a partially submerged hull: you descend below the waterline into a viewing cabin fitted with large panoramic windows, sit in movable armchairs, and watch the reef pass by at close range. The effect is genuinely arresting. The coral formations along this stretch of the Sinai coast are among the most intact in the northern Red Sea, and the marine life — parrotfish, lionfish, moray eels, shoals of anthias — moves with complete indifference to the vessel gliding through."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "The excursion runs at a deliberately small scale: the viewing cabin is intimate, so it never feels crowded and sightlines to the windows are never blocked. The tour departs at 10:00 AM and returns within two hours — short enough to anchor a half-day without monopolising the afternoon, and early enough to avoid the midday heat on the upper deck."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "It suits a specific kind of traveller well: those on a Red Sea resort stay who want something structured and marine-focused without committing to a full dive course or a long boat charter; families with children or elderly members; anyone with a physical limitation that makes water entry difficult; and, frankly, anyone curious about what lies beneath a surface they have been looking at from the beach all week."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The hotel transfer is "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "private to your party"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "; the Royal Sea Scope itself is a "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "shared vessel"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": ", run by its crew. The trip "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "takes bookings from a single person upward"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ", with no minimum group, and "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "one bottle of mineral water per person"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": " is provided alongside the complimentary drinks on deck. There is "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "no minimum age"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": " — the cabin is enclosed, there is no swimming and no physical demand, and it is one of the better reef options for families with young children, who can see clearly from a seated position at the windows."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Departure is at 10:00 AM from the marina. Once clear of the harbour, the vessel heads towards the marine protected area around Ras Mohammed National Park — the southernmost tip of the Sinai Peninsula, where the Gulf of Suez and the Gulf of Aqaba converge. This meeting of currents produces exceptionally rich upwelling, which is why the reefs here sustain such density and variety of life. The Straits of Tiran, to the east, are equally well-regarded: a narrow passage between the Sinai and the Saudi coast where strong tidal flows keep the coral nourished."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "During the underwater viewing session — one hour in duration — the semi-submarine travels slowly along the reef at a depth sufficient to bring the coral gardens level with the cabin windows. The crew narrates what you are seeing, identifying species and pointing out formations. The pacing is relaxed; there is no sense of being rushed through a checklist."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Between or after the viewing session, passengers can ascend to the upper deck. Complimentary drinks are served here, and the deck offers open-air views across the Gulf of Aqaba towards the mountains of Saudi Arabia — a perspective that is, in its own way, as striking as anything below the surface. The vessel returns to the marina to conclude the excursion at approximately 12:00 PM."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "The Red Sea in Context"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "The Red Sea is consistently ranked among the world's premier diving destinations, and the waters around Sharm el-Sheikh are a large part of the reason why. The reefs here have been protected under the Ras Mohammed National Park designation since 1983 — one of Egypt's earliest marine conservation areas — and that protection has kept the coral in notably better condition than reefs in more trafficked parts of the world. Water clarity in this region regularly exceeds 20 metres of horizontal visibility, which is why the semi-submarine's windows offer such unobstructed views: there is simply very little particulate matter in the water to obscure the light."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "The Straits of Tiran are also historically significant. The strait was the flashpoint of the 1967 Six-Day War — Egypt's closure of it to Israeli shipping triggered the conflict — and today it sits within protected waters jointly managed with Saudi Arabia. For most visitors it is simply the location of some extraordinary coral pinnacles. Both contexts are worth knowing."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "The Red Sea's reputation rests on what lies beneath its surface — and this excursion makes that case without asking anything physically demanding of you."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Two hours, a clear window, and one of the world's great reefs: that is an honest proposition."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "A genuine alternative for travellers who want the Red Sea reef without diving or snorkelling. The concierge can confirm the morning slot, advise on motion-sickness precautions if conditions look choppy, and pair the trip with a quieter afternoon at your hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000038",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "El Royal Sea Scope: una ventana al mar Rojo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una experiencia sencilla para observar el arrecife desde una cabina bajo la superficie — pensada para quien no nada, familias con niños pequeños o mayores y cualquiera con curiosidad por lo que hay debajo del agua."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Hay una frustración particular para los viajeros atraídos por la reputación del mar Rojo —uno de los entornos marinos más biodiversos del planeta— pero que no pueden bucear, prefieren no hacer snorkel o viajan con niños o acompañantes mayores para quienes el agua sencillamente no es opción. El Royal Sea Scope existe precisamente para ese vacío. Es una excursión de dos horas en semisubmarino desde Sharm el-Sheij diseñada para colocarte cara a cara con los jardines coralinos de Ras Mohamed y el estrecho de Tirán sin pedirte siquiera que te humedezcas una manga."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "No es un acuario y no es un barco con fondo de cristal. El Royal Sea Scope es un semisubmarino construido al efecto, con casco parcialmente sumergido: desciendes por debajo de la línea de flotación a una cabina de observación equipada con grandes ventanales panorámicos, te sientas en sillones móviles y ves pasar el arrecife a corta distancia. El efecto es genuinamente absorbente. Las formaciones coralinas a lo largo de este tramo de la costa del Sinaí están entre las más intactas del mar Rojo septentrional, y la fauna marina —peces loro, pez león, morenas, bancos de anthias— se mueve con completa indiferencia ante el navío que se desliza por delante."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "La excursión opera a una escala deliberadamente pequeña: la cabina es íntima, así que nunca da sensación de aglomeración y las líneas de visión a las ventanas no se bloquean. La salida parte a las 10:00 y regresa en menos de dos horas, lo bastante corta como para anclar medio día sin monopolizar la tarde, y lo bastante temprana como para evitar el calor del mediodía en la cubierta superior."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Conviene a un perfil concreto: huéspedes de resort del mar Rojo que quieren algo estructurado y centrado en lo marino sin comprometerse a un curso completo de buceo o a un chárter largo; familias con niños pequeños o mayores; cualquiera con una limitación física que dificulte la entrada al agua; y, francamente, cualquiera con curiosidad por lo que hay bajo una superficie que ha estado mirando desde la playa toda la semana."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "El traslado al hotel es "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "privado para tu grupo"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "; el Royal Sea Scope en sí es una "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "embarcación compartida"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ", operada por su tripulación. La salida "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "acepta reservas a partir de una persona"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ", sin grupo mínimo, y se proporciona "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "una botella de agua mineral por persona"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": " además de las bebidas de cortesía en cubierta. "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "No hay edad mínima"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": " —la cabina es cerrada, no se nada y no hay exigencia física—, y es una de las mejores opciones de arrecife para familias con niños pequeños, que ven con claridad desde una posición sentada en las ventanas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "La salida es a las 10:00 desde el puerto deportivo. Una vez fuera del puerto, el navío se dirige al área marina protegida en torno al Parque Nacional de Ras Mohamed —el extremo sur de la península del Sinaí, donde convergen el golfo de Suez y el golfo de Aqaba—. Este encuentro de corrientes produce un afloramiento excepcionalmente rico, razón por la cual los arrecifes aquí sostienen tal densidad y variedad de vida. El estrecho de Tirán, al este, está igualmente bien considerado: un paso estrecho entre el Sinaí y la costa saudí donde fuertes flujos de marea mantienen el coral nutrido."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Durante la sesión de observación submarina —una hora de duración— el semisubmarino avanza despacio a lo largo del arrecife a una profundidad suficiente para colocar los jardines coralinos a la altura de las ventanas de la cabina. La tripulación narra lo que estás viendo, identificando especies y señalando formaciones. El ritmo es relajado: no hay sensación de ir a marcha forzada por una lista de comprobación."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Entre la sesión o a su término, los pasajeros pueden subir a la cubierta superior. Se sirven bebidas de cortesía y la cubierta ofrece vistas al aire libre sobre el golfo de Aqaba hacia las montañas de Arabia Saudí, una perspectiva que es, a su modo, tan llamativa como cualquier cosa por debajo de la superficie. El navío regresa al puerto deportivo para concluir la excursión hacia las 12:00."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "El mar Rojo en contexto"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "El mar Rojo aparece de manera constante entre los destinos premier de buceo del mundo, y las aguas en torno a Sharm el-Sheij son una buena parte de la razón. Los arrecifes aquí están protegidos bajo la designación del Parque Nacional de Ras Mohamed desde 1983 —una de las primeras áreas marinas de conservación de Egipto— y esa protección ha mantenido el coral en una condición notablemente mejor que la de los arrecifes en partes más transitadas del mundo. La claridad del agua en esta región supera regularmente los 20 metros de visibilidad horizontal, razón por la cual las ventanas del semisubmarino ofrecen vistas tan despejadas: hay sencillamente muy poco material particulado en el agua para oscurecer la luz."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "El estrecho de Tirán es además históricamente significativo. El estrecho fue el detonante de la Guerra de los Seis Días de 1967 —su cierre al tráfico israelí por parte de Egipto provocó el conflicto— y hoy se encuentra dentro de aguas protegidas cogestionadas con Arabia Saudí. Para la mayoría de visitantes es sencillamente el emplazamiento de unos pináculos coralinos extraordinarios. Ambos contextos conviene conocerlos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "La reputación del mar Rojo descansa en lo que hay bajo su superficie — y esta excursión presenta esa baza sin pedirte nada físicamente exigente."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Dos horas, una ventana limpia y uno de los grandes arrecifes del mundo: esa es una propuesta honesta."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "El mar Rojo tambien puede empezar con una ventana."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta es una ruta abierta. Si quieres ajustar el ritmo, cambiar el orden de las visitas o añadir un complemento, podemos adaptarla contigo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "ロイヤル・シースコープ：紅海をのぞく窓"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "紅海の評判——地球上で最も生物多様性に富む海洋環境のひとつ——に惹かれながらも、ダイビングができない、シュノーケリングは気が進まない、あるいは水に入ることがそもそも選択肢にならないお子様やご年配のお連れと旅している、そういう旅行者には、ある格別なもどかしさがあります。ロイヤル・シースコープは、まさにその隙間のために存在します。シャルム・エル・シェイクから出る2時間の半潜水艇の遠出で、袖一枚すら濡らすことを求めずに、ラス・ムハンマドとティラン海峡の珊瑚の庭とお客様を面と向かわせるよう設計されています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "これは水族館ではなく、ガラス底のボートでもありません。ロイヤル・シースコープは、船体を一部水中に沈めた、その目的のために造られた半潜水艇です——水面下の観覧キャビンへと下り、大きなパノラマの窓を備えた可動式の肘掛け椅子に腰かけ、珊瑚礁が間近を過ぎていくのを眺めます。その効果はまぎれもなく心をつかみます。シナイ沿岸のこの一帯に連なる珊瑚の造形は、北部紅海で最も無傷なもののひとつで、海の生きものたち——ブダイ、ミノカサゴ、ウツボ、ハナダイの群れ——は、滑り抜けていく船にまったく無頓着に動いています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "この遠出は意図して小さな規模で運航されます——観覧キャビンはこぢんまりとしているので、混み合うことは決してなく、窓への見通しがさえぎられることもありません。ツアーは午前10時に出発し、2時間以内に戻ります——午後を占有することなく半日を組み立てられるほど短く、上部デッキで真昼の暑さを避けられるほど早い時間です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "ある特定の種類の旅行者によく向いています：紅海のリゾート滞在中で、本格的なダイビングのコースや長いボートのチャーターに踏み切ることなく、何か段取りされた、海に焦点を当てたものを求める方。お子様やご年配のメンバーを伴うご家族。水に入るのが難しい身体的な制約のある方。そして率直に言えば、一週間ずっとビーチから眺めてきた水面の下に何があるのか、気になっているあらゆる方。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "ホテルの送迎は"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "お客様のご一行だけのプライベート"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "です。ロイヤル・シースコープそのものは"
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "乗合の船"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "で、その乗組員が運航します。このツアーは"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "一名から承り"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "、最少催行人数はなく、デッキでの無料のドリンクとあわせて"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ミネラルウォーター1人1本"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "が含まれます。"
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "年齢制限はありません"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "——キャビンは囲われ、泳ぎも身体的な負担もなく、お子様が窓辺の座ったままの姿勢からはっきりと見えるため、小さなお子様連れのご家族にとって、より上等な珊瑚礁の選択肢のひとつです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "出発は午前10時、マリーナから。港を出ると、船はラス・ムハンマド国立公園周辺の海洋保護区へと向かいます——シナイ半島の最南端、スエズ湾とアカバ湾が合流する地点です。この潮流の出会いが並外れて豊かな湧昇を生み、それゆえここの珊瑚礁はこれほどの密度と種類の生きものを支えています。東のティラン海峡も同じく高く評価されています——シナイとサウジアラビアの沿岸のあいだの狭い水路で、強い潮の流れが珊瑚に栄養を与え続けています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "水中観覧のセッション——所要1時間——のあいだ、半潜水艇は、珊瑚の庭をキャビンの窓と同じ高さに据えるのに十分な深さで、珊瑚礁に沿ってゆっくりと進みます。乗組員が目にしているものを解説し、種を見分け、造形を指し示します。ペースはゆったりとしていて、チェックリストを急かされて消化していくような感覚はありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "観覧セッションの合間か後に、乗客は上部デッキへ上がれます。ここでは無料のドリンクが供され、デッキはアカバ湾を越えてサウジアラビアの山々へと向かう開放的な眺めを差し出します——それはそれなりに、水面下のどんなものにも劣らず鮮烈な視点です。船はマリーナへ戻り、午前12時ごろに遠出を締めくくります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "紅海を、その背景とともに"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "紅海は世界屈指のダイビングの行き先として一貫して数えられ、シャルム・エル・シェイク周辺の水域は、その理由の大きな部分を占めています。ここの珊瑚礁は1983年以来、ラス・ムハンマド国立公園の指定のもとで保護されてきました——エジプト最初期の海洋保全区域のひとつ——その保護が、世界のより人の行き交う場所の珊瑚礁よりも、珊瑚を際立って良好な状態に保ってきました。この地域の水の透明度は、水平方向の視程でしばしば20メートルを超えます。半潜水艇の窓がこれほどさえぎられない眺めを差し出すのは、そのためです——光をさえぎる浮遊物が、水中にごくわずかしかないのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "ティラン海峡は歴史的にも重要です。この海峡は1967年の六日間戦争の発火点でした——エジプトがイスラエルの船舶に対してそれを封鎖したことが、紛争の引き金となりました——そして今日では、サウジアラビアと共同で管理される保護水域の中にあります。ほとんどの来訪者にとっては、単に並外れた珊瑚の尖塔のある場所です。どちらの背景も知っておく価値があります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "紅海の評判は、その水面下に横たわるものにかかっています——そしてこの遠出は、お客様に身体的にきついことを何ひとつ求めることなく、その評判を裏づけます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "2時間、ひとつの澄んだ窓、そして世界の偉大な珊瑚礁のひとつ：それは正直な提案です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": "出航時刻、ご家族のお子様の年齢、別日の本格シュノーケリングや砂漠ツアーとの組み合わせ方は、コンシェルジュがご相談のうえで整えます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58927",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "No minimum age and no need to swim make this the rare Red Sea outing a whole family can take together, grandparents included. The vessel is shared and its slots are fixed, but the day around it is yours — ask about adding a proper snorkel on another morning for the swimmers in your party."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Sin edad mínima y sin necesidad de nadar, esta es esa rara salida al Mar Rojo que toda la familia puede hacer junta, abuelos incluidos. El barco es compartido y sus horarios son fijos, pero el día alrededor es tuyo: pregunta por añadir un buen esnórquel otra mañana para los nadadores del grupo."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "年齢制限がなく、泳ぐ必要もありません——三世代がそろって出かけられる、紅海では貴重な一日です。船は乗合で出航時刻は固定ですが、その前後の時間は自由に組めます。泳ぎたい方のために、別の朝にシュノーケリングを加えることもご相談ください。"
+  }
+ ],
+ "durationHours": 2,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "~2 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "~2 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "約2時間"
+  }
+ ],
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 44,
+  "ja": 51
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The bright yellow Royal Seascope semi-submarine boat passing a row of colourful harbour buildings"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El llamativo barco semisumergible amarillo Royal Seascope pasando ante una hilera de coloridos edificios del puerto"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "色とりどりの港の建物の前を進む、鮮やかな黄色のロイヤル・シースコープの半潜水艇。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-0b97bbfa782f1ed8479855719c808d7d2b459f8c-3000x1995-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The Royal Seascope semi-submarine sets out from the harbour."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El semisumergible Royal Seascope parte del puerto."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "港を出るロイヤル・シースコープの半潜水艇。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "ei0v7zj09t",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The hotel transfer is private to your party; the Royal Sea Scope itself is a shared vessel, run by its crew.",
+   "text": "Private hotel transfer"
+  },
+  {
+   "_key": "kwk8mcrm01",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The trip takes bookings from a single person upward, with no minimum group, and one bottle of mineral water per person is provided alongside the complimentary drinks on deck.",
+   "text": "One bottle of mineral water per person"
+  },
+  {
+   "_key": "jqa651kcas",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Complimentary drinks are served here, and the deck offers open-air views across the Gulf of Aqaba towards the mountains of Saudi Arabia — a perspective that is, in its own way, as striking as anything below the surface.",
+   "text": "Complimentary drinks on deck"
+  },
+  {
+   "_key": "l0ax0qm69c",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The crew narrates what you are seeing, identifying species and pointing out formations.",
+   "text": "Crew narration during underwater viewing"
+  },
+  {
+   "_key": "4sm2k5d38e",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El traslado al hotel es privado para tu grupo; el Royal Sea Scope en sí es una embarcación compartida, operada por su tripulación.",
+   "text": "Traslado al hotel privado para tu grupo"
+  },
+  {
+   "_key": "wyq9qz2u6t",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Es una excursión de dos horas en semisubmarino desde Sharm el-Sheij diseñada para colocarte cara a cara con los jardines coralinos de Ras Mohamed y el estrecho de Tirán sin pedirte siquiera que te humedezcas una manga.",
+   "text": "Excursión de dos horas en semisubmarino (embarcación compartida)"
+  },
+  {
+   "_key": "31ueqibvo6",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La salida acepta reservas a partir de una persona, sin grupo mínimo, y se proporciona una botella de agua mineral por persona además de las bebidas de cortesía en cubierta.",
+   "text": "Una botella de agua mineral por persona"
+  },
+  {
+   "_key": "seqjema4j1",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se sirven bebidas de cortesía y la cubierta ofrece vistas al aire libre sobre el golfo de Aqaba hacia las montañas de Arabia Saudí, una perspectiva que es, a su modo, tan llamativa como cualquier cosa por debajo de la superficie.",
+   "text": "Bebidas de cortesía en cubierta"
+  },
+  {
+   "_key": "v0ntgi5hzg",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La tripulación narra lo que estás viendo, identificando especies y señalando formaciones.",
+   "text": "Narración de la tripulación"
+  },
+  {
+   "_key": "78jzhnnhpw",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ホテルの送迎はお客様のご一行だけのプライベートです。",
+   "text": "ホテルの送迎（ご一行だけのプライベート）"
+  },
+  {
+   "_key": "9t0uk2rotk",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "このツアーは一名から承り、最少催行人数はなく、デッキでの無料のドリンクとあわせてミネラルウォーター1人1本が含まれます。",
+   "text": "デッキでの無料のドリンク"
+  },
+  {
+   "_key": "1ctw2qqfkx",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "このツアーは一名から承り、最少催行人数はなく、デッキでの無料のドリンクとあわせてミネラルウォーター1人1本が含まれます。",
+   "text": "ミネラルウォーター1人1本"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/royal-sea-scope/"
+ },
+ "priceFrom": 33,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_aqua_park_cleo_park",
+   "_ref": "tour.aqua-park-cleo-park",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_dahab_blue_hole_desert_snorkel_group_day_tour_from_sharm",
+   "_ref": "tour.dahab-blue-hole-desert-snorkel-group-day-tour-from-sharm",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_dolphin_show_sharm_el_sheikh",
+   "_ref": "tour.dolphin-show-sharm-el-sheikh",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_87634",
+   "_ref": "wp-page-87634",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Private hotel transfer · shared semi-submarine vessel · panoramic viewing cabin · crew narration · no minimum age"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Semisubmarino · Suave"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "プライベートのホテル送迎 · 乗合の半潜水艇 · パノラマ窓の水中キャビン · 解説あり · 年齢制限なし"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Around 2 hours on the water, half-day with transfers"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Salida corta"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "半日、出航から戻りまで2時間（ホテル送迎込みでおよそ3〜4時間）"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Sharm el-Sheikh marina → Ras Mohammed / Straits of Tiran → marina"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Costa de Sharm y arrecife cercano"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "シャルム・エル・シェイクのマリーナ → ラス・ムハンマド／ティラン海峡周辺の海洋保護区 → シャルム・エル・シェイク"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "royal-sea-scope"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "royal-sea-scope-tour-en-semisubmarino-por-el-mar-rojo-desde-sharm-el-sheij"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "roiyaru-shisu-kopu-sharumuerusheiku-hatsu-kokai-no-han"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Two hours beneath the Red Sea without getting wet. The Royal Sea Scope semi-submarine puts Ras Mohammed's coral gardens directly outside your window."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Dos horas bajo el mar Rojo sin mojarse. El semisubmarino Royal Sea Scope coloca los jardines coralinos de Ras Mohamed directamente al otro lado de la ventana."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "濡れることなく、紅海の海底へ2時間。ロイヤル・シースコープの半潜水艇は、ラス・ムハンマドの珊瑚の庭を、あなたの窓のすぐ外に据えます。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Royal Sea Scope: Red Sea Semi-Submarine Tour from Sharm el-Sheikh"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Royal Sea Scope: tour en semisubmarino por el mar Rojo desde Sharm el-Sheij"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ロイヤル・シースコープ：シャルム・エル・シェイク発 紅海の半潜水艇ツアー"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}

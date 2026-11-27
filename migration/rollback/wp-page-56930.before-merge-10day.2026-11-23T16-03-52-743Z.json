@@ -1,0 +1,1819 @@
+{
+ "_createdAt": "2026-05-04T22:18:05Z",
+ "_id": "wp-page-56930",
+ "_rev": "k293e1VTEfqDUoWTloP7Q2",
+ "_system": {
+  "base": {
+   "id": "wp-page-56930",
+   "rev": "4jxboK94xJN5bUSrjkRWTa"
+  }
+ },
+ "_type": "guideArticle",
+ "_updatedAt": "2026-11-10T11:46:28Z",
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "03yxah6j48xw",
+       "_type": "span",
+       "marks": [
+        "c83qfv3fg5rc"
+       ],
+       "text": "Abu Simbel"
+      },
+      {
+       "_key": "dvp6twh1mv14",
+       "_type": "span",
+       "marks": [],
+       "text": " historical overview"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "c83qfv3fg5rc",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-56813",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "Abu Simbel History Uncovered: a portal to the past, this monumental site echoes the grandeur of ancient Egypt. Situated on the western bank of Lake Nasser, the twin temples of Abu Simbel stand as enduring testaments to the legacy of Pharaoh Ramesses II and the divine Queen Nefertari. "
+      },
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [
+        "000000000003"
+       ],
+       "text": "Unveil the mysteries"
+      },
+      {
+       "_key": "000000000005",
+       "_type": "span",
+       "marks": [],
+       "text": " of their construction, the awe-inspiring relocation efforts, and the intricate carvings that narrate tales of gods and pharaohs. Journey with us as we delve into the "
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [
+        "000000000006"
+       ],
+       "text": "heart"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": " of this archaeological marvel, revealing stories etched in stone over three millennia age."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000003",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/siwa-oasis-travel-guide/unveiled-mysteries/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/siwa-oasis",
+       "newTab": false
+      },
+      {
+       "_key": "000000000006",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/al-wadi-al-gadid-travel-guide/journey-heart/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/al-wadi-al-gadid",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The Dawn of the Temples"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Initiated in 1244 BC, the construction of the "
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [
+        "00000000000d"
+       ],
+       "text": "Abu Simbel"
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": " temple complex was an ambitious project that spanned two decades. These temples, carved into the heart of the mountain, emerged as a symbol of Pharaonic power and architectural prowess. Built during the reign of Ramses II, they served a dual purpose: demonstrating the might of a powerful king to the Nubians and honoring Ramses II’s divine stature as the beloved of Amun, the king of gods. This construction was part of a series of six grand rock-cut temples in Nubia, each a testament to Ramses II’s rule and "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "000000000010"
+       ],
+       "text": "Egypt’s"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": " architectural zenith during the New Kingdom."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000000d",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/abu-simble-travel-guide/qasr-ibrim/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/abu-simbel/qasr-ibrim",
+       "newTab": false
+      },
+      {
+       "_key": "000000000010",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/contact-us/"
+       },
+       "_type": "externalLink",
+       "href": "/contact",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000014",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/01/Abu-Simble-front-scene.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Partial view of the Abu Simbel temple with its colossal statues partly in ruins."
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "Time-worn statues of Abu Simbel stand tall against the elements."
+      }
+     ]
+    },
+    {
+     "_key": "000000000016",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": "Rediscovery Under the Sands"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [],
+       "text": "Over centuries, the shifting sands of Nubia buried these architectural wonders, obscuring them from the world. It wasn’t until 1813 that a Swiss orientalist pinpointed the temple’s location, leading to their excavation. In 1817, Italian "
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "000000000018"
+       ],
+       "text": "explorer"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": " Giovanni Battista Belzoni played a pivotal role in unearthing and accessing the temples. Entwined with these historical facts are local legends, often recounted by Egyptian "
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [
+        "00000000001b"
+       ],
+       "text": "tour"
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": " guides, suggesting that the complex was named after a young boy, Abu Simbel, who guided archaeologists to the site. Alternatively, some records indicate that the temples took their name from the nearby "
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [
+        "00000000001e"
+       ],
+       "text": "village of Abu Simbel"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000018",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/nuweiba-travel-guide/exploring/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/nuweiba",
+       "newTab": false
+      },
+      {
+       "_key": "00000000001b",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/akhmim-travel-guide/tours/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/akhmim/tours-in-akhmim",
+       "newTab": false
+      },
+      {
+       "_key": "00000000001e",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/nubian-lodges-in-aswan-abu-simbel/"
+       },
+       "_type": "externalLink",
+       "href": "/blog/nubian-lodges-in-aswan-abu-simbel",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000022",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/01/ramses-statues-abu-simble-min.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Upward view of the towering Ramses II statues at Abu Simbel."
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "The towering legacy of Ramses II at Abu Simbel, seen from below."
+      }
+     ]
+    },
+    {
+     "_key": "000000000024",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [],
+       "text": "The Monumental Relocation"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [],
+       "text": "The construction of the High Dam in "
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [
+        "000000000026"
+       ],
+       "text": "Aswan"
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": " in the mid-20th century posed an existential threat to the Abu Simbel temples. Submerged under the waters of "
+      },
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "000000000029"
+       ],
+       "text": "Lake Nasser"
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [],
+       "text": ", these ancient marvels faced oblivion. This dire circumstance prompted "
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [
+        "00000000002c"
+       ],
+       "text": "UNESCO,"
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": " in 1960, to issue a global appeal to save the Nubian monuments, including Abu Simbel. An international collaboration ensued, involving over 50 nations, including the United States, the Netherlands, Great Britain, Spain, and many others, alongside the Egyptian government and UNESCO."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000026",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "http://travel2egypt.org/about-egypt/"
+       },
+       "_type": "externalLink",
+       "href": "/travel-tips/about-egypt",
+       "newTab": false
+      },
+      {
+       "_key": "000000000029",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/lake-nasser-cruises/"
+       },
+       "_type": "externalLink",
+       "href": "/blog/lake-nasser-cruise",
+       "newTab": false
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "externalLink",
+       "href": "https://en.wikipedia.org/wiki/UNESCO",
+       "newTab": true
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "This rescue mission entailed slicing the larger temple of Ramses II into approximately 830 blocks and the smaller temple of Queen Nefertari into 235 blocks, each weighing around 20 tons. This intricate process was part of one of the 20th century’s most astounding architectural feats. In 1965, these pieces were meticulously moved to a new location, elevated over 150 meters above sea level to safeguard them against future Nile floods."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Behind these relocated temples, engineers constructed an artificial mountain, forming a dome between 60 to 65 meters in diameter and 38 meters high, to replicate the original rock-cut ambiance. This reconstruction, completed in 1968, spanned four years and cost around 36 million US dollars, underscoring the global commitment to preserving this irreplaceable piece of ancient Egyptian heritage."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000038",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "Today, the "
+      },
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "Abu Simbel temples"
+      },
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [],
+       "text": " stand not just as monuments of ancient grandeur but also as symbols of international cooperation and the enduring power of human ingenuity."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/abusimbel6.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Aerial view of a serene riverside landscape with buildings and boats, surrounded by barren hills."
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "\"Overlooking the gentle union between the river and the land, this place offers a tranquil retreat amidst the imposing beauty of nature.\""
+      }
+     ]
+    },
+    {
+     "_key": "00000000003a",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/08/19_2017-636440933275833543-583.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Scenic view of a lush oasis in Egypt, featuring palm trees, a tranquil pond, and surrounding desert cliffs under a bright blue sky"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "The awe-inspiring facade of Abu Simbel, with Ramesses II's colossal statues standing sentinel in the Egyptian sun"
+      }
+     ]
+    },
+    {
+     "_key": "00000000003c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003b",
+       "_type": "span",
+       "marks": [],
+       "text": "Abu Simbel: A Journey into Pharaoh Ramses II’s Legacy"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000003e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003d",
+       "_type": "span",
+       "marks": [],
+       "text": "Step into the shadows of giants at the breathtaking Great Temple of Abu Simbel. Marvel at the colossal statues and intricate carvings that tell tales of ancient victories and divine alliances. Ready to witness this engineering marvel firsthand? Click to explore the secrets of Abu Simbel!"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000040",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003f",
+       "_type": "span",
+       "marks": [],
+       "text": "Learn more"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jo9voju0l62z",
+       "_type": "span",
+       "marks": [],
+       "text": "Historia de "
+      },
+      {
+       "_key": "rjbj6802g0iw",
+       "_type": "span",
+       "marks": [
+        "u34bx0q03v3h"
+       ],
+       "text": "Abu Simbel"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "u34bx0q03v3h",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-56813",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000000e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "La Historia de Abu Simbel al Descubierto: un portal al pasado, este lugar monumental se hace eco de la grandeza del antiguo "
+      },
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Egipto"
+      },
+      {
+       "_key": "000000000005",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      },
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [],
+       "text": "Situados en la orilla occidental del lago Nasser, los templos gemelos de Abu Simbel son testimonios perdurables del legado del faraón Ramsés II y de la divina reina Nefertari."
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [],
+       "text": "Desvela los misterios de su construcción, los sobrecogedores esfuerzos de traslado y las intrincadas tallas que narran historias de dioses y faraones."
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [
+        "00000000000b"
+       ],
+       "text": "Viaja con nosotros mientras nos adentramos en"
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [],
+       "text": " el corazón de esta maravilla arqueológica, revelando historias grabadas en piedra de más de tres milenios de antigüedad."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000000b",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/viaje-en-globo-aerostatico-en-luxor/"
+       },
+       "_type": "externalLink",
+       "href": "/es/blog/viaje-en-globo-aerostatico-en-luxor",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000010",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": "El Amanecer de los Templos"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [],
+       "text": "Iniciada en 1244 a.C., la construcción del complejo de "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [],
+       "text": "templos de Abu Simbel"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": " fue un ambicioso proyecto que abarcó dos décadas."
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": " Estos templos, excavados en el corazón de la montaña, se convirtieron en un símbolo "
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [
+        "000000000017"
+       ],
+       "text": "del poder faraónico"
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [],
+       "text": " y de la destreza arquitectónica."
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": " Construidos durante el reinado de Ramsés II, cumplían una doble función: demostrar a los "
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "00000000001c"
+       ],
+       "text": "nubios"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": " el poderío de un rey poderoso y honrar la estatura divina de Ramsés II como amado de Amón, el rey de los dioses."
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": " Esta construcción formaba parte de una serie de seis grandes templos excavados en la roca en Nubia, cada uno de ellos testimonio del reinado de Ramsés II y del cenit arquitectónico de Egipto durante el Reino Nuevo. "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000017",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/faraones-del-reino-medio-logros-y-legado/"
+       },
+       "_type": "externalLink",
+       "href": "/es/blog/faraones-del-reino-medio-logros-y-legado",
+       "newTab": false
+      },
+      {
+       "_key": "00000000001c",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-asuan/el-museo-nubio/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/asuan/el-museo-nubio",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000022",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/01/Abu-Simble-front-scene.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Partial view of the Abu Simbel temple with its colossal statues partly in ruins."
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "Las estatuas desgastadas por el tiempo de Abu Simbel se erigen imponentes frente a los elementos."
+      }
+     ]
+    },
+    {
+     "_key": "000000000024",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [],
+       "text": "Redescubrimiento bajo las arenas"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000003a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [],
+       "text": "Durante siglos, "
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [
+        "000000000026"
+       ],
+       "text": "las arenas movedizas de"
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": " Nubia sepultaron estas maravillas arquitectónicas, ocultándolas al mundo."
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": " Hasta 1813, un orientalista suizo no señaló la ubicación del templo, lo que condujo a su excavación."
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": " En 1817, el "
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [
+        "00000000002d"
+       ],
+       "text": "explorador"
+      },
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [],
+       "text": " italiano Giovanni Battista Belzoni desempeñó un papel fundamental en el desenterramiento y acceso a los templos."
+      },
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [],
+       "text": " Entrelazadas con estos hechos históricos hay leyendas locales, a menudo relatadas por guías turísticos egipcios, que sugieren que el complejo recibió su nombre de un niño, "
+      },
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [],
+       "text": "Abu Simbel"
+      },
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": ", que guió a los arqueólogos hasta el lugar."
+      },
+      {
+       "_key": "000000000035",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": " Alternativamente, algunos registros indican que los templos tomaron su nombre de la cercana aldea "
+      },
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [
+        "000000000037"
+       ],
+       "text": "de Abu Simbel"
+      },
+      {
+       "_key": "000000000039",
+       "_type": "span",
+       "marks": [],
+       "text": ". "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000026",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/itinerario-de-1-dia-por-las-piramides-de-guiza-disfruta-de-las-maravillas-del-antiguo-egipto/"
+       },
+       "_type": "externalLink",
+       "href": "/es/blog/itinerario-de-1-dia-por-las-piramides-de-guiza-disfruta-de-las-maravillas-del-antiguo-egipto",
+       "newTab": false
+      },
+      {
+       "_key": "00000000002d",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-al-minya/explorando/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/al-minya",
+       "newTab": false
+      },
+      {
+       "_key": "000000000037",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-abu-simble/el-templo-de-amada/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/abu-simbel/el-templo-de-amada",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003b",
+       "_type": "span",
+       "marks": [],
+       "text": "El traslado monumental"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000003d",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/01/ramses-statues-abu-simble-min.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Upward view of the towering Ramses II statues at Abu Simbel."
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "La imponente herencia de Ramsés II en Abu Simbel, vista desde abajo."
+      }
+     ]
+    },
+    {
+     "_key": "000000000051",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": "La "
+      },
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [
+        "00000000003f"
+       ],
+       "text": "construcción de la Gran Presa de Asuán"
+      },
+      {
+       "_key": "000000000041",
+       "_type": "span",
+       "marks": [],
+       "text": " a mediados del siglo XX supuso una amenaza existencial para los templos de Abu Simbel."
+      },
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000043",
+       "_type": "span",
+       "marks": [],
+       "text": "Sumergidas bajo las aguas del "
+      },
+      {
+       "_key": "000000000045",
+       "_type": "span",
+       "marks": [
+        "000000000044"
+       ],
+       "text": "lago Nasser"
+      },
+      {
+       "_key": "000000000046",
+       "_type": "span",
+       "marks": [],
+       "text": ", estas antiguas maravillas se enfrentaban al olvido."
+      },
+      {
+       "_key": "000000000047",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000048",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta terrible circunstancia llevó a "
+      },
+      {
+       "_key": "00000000004a",
+       "_type": "span",
+       "marks": [
+        "000000000049"
+       ],
+       "text": "la UNESCO,"
+      },
+      {
+       "_key": "00000000004b",
+       "_type": "span",
+       "marks": [],
+       "text": " en 1960, a hacer un llamamiento mundial para salvar los monumentos nubios, incluido Abu Simbel."
+      },
+      {
+       "_key": "00000000004c",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000004d",
+       "_type": "span",
+       "marks": [],
+       "text": "Se produjo "
+      },
+      {
+       "_key": "00000000004f",
+       "_type": "span",
+       "marks": [
+        "00000000004e"
+       ],
+       "text": "una colaboración internacional en la que"
+      },
+      {
+       "_key": "000000000050",
+       "_type": "span",
+       "marks": [],
+       "text": " participaron más de 50 naciones, entre ellas Estados Unidos, Holanda, Gran Bretaña, España y muchas otras, junto con el gobierno egipcio y la UNESCO."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000003f",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-asuan/la-presa-alta/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/asuan/la-presa-alta-de-asuan",
+       "newTab": false
+      },
+      {
+       "_key": "000000000044",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/experiencia-definitiva-de-4-dias-en-el-lago-nasser/"
+       },
+       "_type": "externalLink",
+       "href": "/es/cuatro-dias-en-el-lago-nasser-pesca-desierto-y-los-templos-rescatados",
+       "newTab": false
+      },
+      {
+       "_key": "000000000049",
+       "_type": "externalLink",
+       "href": "https://es.wikipedia.org/wiki/Unesco",
+       "newTab": true
+      },
+      {
+       "_key": "00000000004e",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-guiza/la-mastaba-de-ptahshepses-en-abusir/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/guiza/la-mastaba-de-ptahshepses-en-abusir",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000005d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000052",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta misión de rescate supuso cortar el templo mayor de Ramsés II en unos 830 bloques y el templo menor de la reina Nefertari en 235 bloques, cada uno de los cuales pesaba unas 20 toneladas."
+      },
+      {
+       "_key": "000000000053",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000054",
+       "_type": "span",
+       "marks": [],
+       "text": "Este intrincado proceso formó parte de una de "
+      },
+      {
+       "_key": "000000000056",
+       "_type": "span",
+       "marks": [
+        "000000000055"
+       ],
+       "text": "las hazañas arquitectónicas más asombrosas del"
+      },
+      {
+       "_key": "000000000057",
+       "_type": "span",
+       "marks": [],
+       "text": " siglo XX."
+      },
+      {
+       "_key": "000000000058",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000059",
+       "_type": "span",
+       "marks": [],
+       "text": "En 1965, estas piezas se trasladaron meticulosamente a un nuevo emplazamiento, elevado más de 150 metros sobre el nivel del mar para salvaguardarlas de futuras inundaciones "
+      },
+      {
+       "_key": "00000000005b",
+       "_type": "span",
+       "marks": [
+        "00000000005a"
+       ],
+       "text": "del Nilo"
+      },
+      {
+       "_key": "00000000005c",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000055",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/precios-de-las-entradas-para-las-atracciones-del-desierto-occidental/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/siwa/ticket-prices-for-attractions-in-siwa",
+       "newTab": false
+      },
+      {
+       "_key": "00000000005a",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/ritmos-del-nilo-el-cairo-cena-crucero-con-danza-del-vientre/"
+       },
+       "_type": "externalLink",
+       "href": "/es/cena-crucero-por-el-nilo-en-el-cairo-con-danza-oriental",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000064",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005e",
+       "_type": "span",
+       "marks": [],
+       "text": "Detrás de estos templos reubicados, los ingenieros construyeron una montaña artificial, formando una cúpula de entre 60 y 65 metros de diámetro y 38 metros de altura, para reproducir el ambiente original excavado en la roca."
+      },
+      {
+       "_key": "00000000005f",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000060",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta reconstrucción, terminada en 1968, duró cuatro años y costó unos 36 millones de dólares estadounidenses, lo que subraya el compromiso mundial de preservar esta pieza irremplazable "
+      },
+      {
+       "_key": "000000000062",
+       "_type": "span",
+       "marks": [
+        "000000000061"
+       ],
+       "text": "del antiguo patrimonio egipcio"
+      },
+      {
+       "_key": "000000000063",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000061",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/reyes-del-antiguo-egipto/"
+       },
+       "_type": "externalLink",
+       "href": "/es/blog/reyes-del-antiguo-egipto",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000069",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000065",
+       "_type": "span",
+       "marks": [],
+       "text": "En la actualidad, los "
+      },
+      {
+       "_key": "000000000067",
+       "_type": "span",
+       "marks": [
+        "000000000066"
+       ],
+       "text": "templos de Abu"
+      },
+      {
+       "_key": "000000000068",
+       "_type": "span",
+       "marks": [],
+       "text": " Simbel se erigen no sólo como monumentos de antigua grandeza, sino también como símbolos de cooperación internacional y del poder perdurable del ingenio humano."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000066",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/abu-simble-y-el-antiguo-egipto/"
+       },
+       "_type": "externalLink",
+       "href": "/es/abu-simbel-y-el-antiguo-egipto-en-10-dias",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006a",
+       "_type": "span",
+       "marks": [],
+       "text": "Creado el 18 de marzo de 2020"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006c",
+       "_type": "span",
+       "marks": [],
+       "text": "Actualizado en Julio 25, 2025"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "qc3zqy6auzj8",
+       "_type": "span",
+       "marks": [],
+       "text": "歴史の解明："
+      },
+      {
+       "_key": "xg30iqfngn45",
+       "_type": "span",
+       "marks": [
+        "qd4o9k8o3b2i"
+       ],
+       "text": "アブ・シンベル"
+      },
+      {
+       "_key": "qof0thjesyed",
+       "_type": "span",
+       "marks": [],
+       "text": "の永遠の驚異を祝う旅"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "qd4o9k8o3b2i",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-56813",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "アブ・シンベルの歴史が明かされる：過去への扉として、ここは古代エジプトの壮大さを今に伝える記念碑的な場所です。"
+      },
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "ナセル湖"
+      },
+      {
+       "_key": "000000000005",
+       "_type": "span",
+       "marks": [],
+       "text": "の西岸に位置するアブ・シンベルの双子の神殿は、ファラオ・ラムセス2世と神聖なる"
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [
+        "000000000006"
+       ],
+       "text": "女王ネフェルタリ"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "の遺産を象徴する永遠の証としてそびえ立っています。彼らの建設の謎、圧巻の移動作業、そして神々とファラオたちの物語を語る精緻な彫刻を解き明かします。この考古学的な驚異の中心に迫り、3千年もの時を超えて石に刻まれた物語を紐解く旅にご案内します。"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000006",
+       "_type": "externalLink",
+       "href": "https://chotto-trip.com/egypt-luxor-west-bank-trip2/",
+       "newTab": true
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "神殿の夜明け"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000010",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "紀元前1244年に始まったアブ・シンベル神殿群の建設は、20年にわたる壮大なプロジェクトでした。山の中心部に彫り込まれたこれらの神殿は、ファラオの力と建築技術の象徴として誕生しました。ラムセス2世の治世下で建てられたこれらの神殿は、二重の目的を果たしました。"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "ヌビア"
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": "の人々に強力な王の力を示すとともに、アムン神の愛されし者としてのラムセス2世の神聖な地位を讃えるためのものです。この建設は、ヌビアにおける6つの壮大な岩を彫った神殿の一部であり、ラムセス2世の統治と新王国時代のエジプト建築の頂点を証明するものです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/01/Abu-Simble-front-scene.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Partial view of the Abu Simbel temple with its colossal statues partly in ruins."
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "風雨にさらされながらも堂々と立ち続けるアブ・シンベルの風化した巨像。"
+      }
+     ]
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "砂の下の再発見"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "何世紀にもわたって、ヌビアの移ろう砂によってこれらの建築の驚異は埋もれ、世界から隠されていました。1813年、スイスの東洋学者が神殿の場所を特定し、発掘が始まりました。1817年には、"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "000000000015"
+       ],
+       "text": "イタリアの探検家ジョヴァンニ・バティスタ・ベルゾーニ"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [],
+       "text": "が、神殿の発掘とアクセスにおいて重要な役割を果たしました。これらの歴史的事実には、エジプトの"
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "000000000018"
+       ],
+       "text": "ツアー"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "ガイドたちがよく語る地元の伝説も絡んでおり、神殿は考古学者を案内した少年「アブ・シンベル」にちなんで名付けられたとされています。また、別の記録によれば、神殿は近隣の村「アブ・シンベル」に由来する名前であるとも言われています。"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000015",
+       "_type": "externalLink",
+       "href": "https://www.meisterdrucke.jp/fine-art-prints/Unknown-artist/923848/%E3%82%A8%E3%82%B8%E3%83%97%E3%83%88%E3%81%A7%E9%87%8D%E8%A6%81%E3%81%AA%E8%80%83%E5%8F%A4%E5%AD%A6%E7%9A%84%E7%99%BA%E8%A6%8B%E3%82%92%E3%81%97%E3%81%9F%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E3%81%AE%E6%8E%A2%E6%A4%9C%E5%AE%B6%E3%83%BB%E8%80%83%E5%8F%A4%E5%AD%A6%E8%80%85%E3%82%B8%E3%83%A7%E3%83%B4%E3%82%A1%E3%83%B3%E3%83%8B%E3%83%BB%E3%83%90%E3%83%83%E3%83%86%E3%82%A3%E3%82%B9%E3%82%BF%EF%BC%88%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%90%E3%83%86%E3%82%A3%E3%82%B9%E3%82%BF%EF%BC%89%E3%83%BB%E3%83%99%E3%83%AB%E3%82%BE%E3%83%BC%E3%83%8B%EF%BC%881778-1823%EF%BC%89%E3%81%AE%E8%82%96%E5%83%8F---Portrait-of-Giovanni-Battista-Belzoni-(1778-1823),-Italian-explorer-and-archaeologist,-engraving.html",
+       "newTab": true
+      },
+      {
+       "_key": "000000000018",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/beni-suef-travel-guide/tours/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/beni-suef/beni-suef-guided-tours",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001c",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/01/ramses-statues-abu-simble-min.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Upward view of the towering Ramses II statues at Abu Simbel."
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "下から見上げるアブ・シンベル、ラムセス2世の威厳がそびえ立つ遺産。"
+      }
+     ]
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": "記念碑的な移転"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": "20世紀半ば、"
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワン"
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "でのアスワン・ハイ・ダムの建設は、アブ・シンベル神殿にとって存亡の危機をもたらしました。ナセル湖の水面下に沈みかけたこれらの古代の驚異は、滅びの運命に直面していました。この深刻な状況を受けて、ユネスコは1960年にヌビアの遺跡を保存するための世界的な呼びかけを行い、アブ・シンベルを含む遺跡の救済が始まりました。アメリカ、オランダ、イギリス、スペインをはじめとする50以上の国々と、エジプト政府、ユネスコが協力し、国際的な共同作業が行われました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "この救出ミッションでは、ラムセス2世の大神殿を約830個のブロックに、ネフェルタリ女王の小神殿を235個のブロックに分割し、それぞれ約20トンの重さがありました。この精緻な作業は、20世紀の最も驚異的な建築的偉業の一つとされています。1965年、これらのブロックは新しい場所へ慎重に移動され、海面から150メートル以上の高さに移設され、将来のナイル川の洪水から守られました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "移設された神殿の背後には、人工の山が建設され、直径60〜65メートル、高さ38メートルのドームが形成され、元の岩を彫り込んだ雰囲気が再現されました。この再建作業は1968年に完成し、4年をかけて約3600万ドルの費用をかけました。これは、古代エジプトのこのかけがえのない遺産を守るための世界的な取り組みを象徴しています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "今日、"
+      },
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "アブ・シンベル神殿"
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [],
+       "text": "は、古代の壮大さを誇る記念碑としてだけでなく、国際的な協力と人間の創意工夫の力を象徴する存在となっています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [],
+       "text": "作成日：2020年3月18日"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000030",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [],
+       "text": "更新日：2025年5月3日"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The four colossal seated statues of Ramesses II at Abu Simbel with visitors below"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Las cuatro estatuas colosales de Ramsés II en Abu Simbel con visitantes al pie"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "訪問者が足元に集うアブ・シンベル神殿のラムセス2世の四体の巨像"
+   }
+  ],
+  "asset": {
+   "_ref": "image-4c2771fe5bf392653a8cec9615a3797a2ec957ae-1400x878-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Visitors gather beneath the four colossi of Ramesses II at the great temple of Abu Simbel."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Los visitantes se reúnen bajo los cuatro colosos de Ramsés II en el gran templo de Abu Simbel."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "アブ・シンベル大神殿のラムセス2世の四体の巨像の足元に、訪れた人々が集う。"
+   }
+  ]
+ },
+ "kind": "heritage",
+ "migration": {
+  "migratedAt": "2026-05-05T13:03:26.078Z",
+  "source": "wp-import",
+  "wpId": 56930,
+  "wpModifiedAt": "2025-08-08T13:48:34",
+  "wpTemplate": "",
+  "wpUrl": "https://travel2egypt.org/abu-simbel-historical-overview/"
+ },
+ "parentCity": {
+  "_ref": "wp-page-56813",
+  "_type": "reference"
+ },
+ "section": "introducing",
+ "slug": [
+  {
+   "_key": "en",
+   "value": {
+    "_type": "slug",
+    "current": "abu-simbel-historical-overview"
+   }
+  },
+  {
+   "_key": "es",
+   "value": {
+    "_type": "slug",
+    "current": "historia-de-abu-simbel"
+   }
+  },
+  {
+   "_key": "ja",
+   "value": {
+    "_type": "slug",
+    "current": "abu-shin-beru-no-rekishi-nitsuite"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "Abu Simbel historical overview Abu Simbel History Uncovered: a portal to the past, this monumental site echoes the grandeur of ancient Egypt. Situated on the western bank of Lake Nasser, the twin temples of Abu Simbel stand as enduring test"
+  },
+  {
+   "_key": "es",
+   "value": "Historia de Abu Simbel La Historia de Abu Simbel al Descubierto: un portal al pasado, este lugar monumental se hace eco de la grandeza del antiguo Egipto.Situados en la orilla occidental del lago Nasser, los templos gemelos de Abu Simbel so"
+  },
+  {
+   "_key": "ja",
+   "value": "歴史の解明：アブ・シンベルの永遠の驚異を祝う旅 アブ・シンベルの歴史が明かされる：過去への扉として、ここは古代エジプトの壮大さを今に伝える記念碑的な場所です。ナセル湖の西岸に位置するアブ・シンベルの双子の神殿は、ファラオ・ラムセス2世と神聖なる女王ネフェルタリの遺産を象徴する永遠の証としてそびえ立っています。彼らの建設の謎、圧巻の移動作業、そして神々とファラオたちの物語を語る精緻な彫刻を解き明かします。この考古学的な驚異の中心に迫り、3千年もの時を超えて石に刻まれた物語を紐解"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "value": "Abu Simbel historical overview"
+  },
+  {
+   "_key": "es",
+   "value": "Historia de Abu Simbel"
+  },
+  {
+   "_key": "ja",
+   "value": "アブ・シンベルの歴史について"
+  }
+ ]
+}

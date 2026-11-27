@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { redirectForeignSlug } from '@/lib/foreign-slug';
 import Image from 'next/image';
 
 import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
@@ -134,7 +135,11 @@ export default async function CruisePage({ params }: Props) {
     ),
   ]);
 
-  if (!cruise) notFound();
+  if (!cruise) {
+    // Wrong-language slug (old GSC discoveries) → 308 to the right page.
+    await redirectForeignSlug('nileCruise', locale, [slug]);
+    notFound();
+  }
 
   const heroUrl = cruise.heroImage?.asset
     ? urlFor(cruise.heroImage).width(2400).height(1200).quality(85).url()

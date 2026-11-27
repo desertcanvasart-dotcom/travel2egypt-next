@@ -21,6 +21,7 @@ import { minPrice, type RawHubTour } from '@/components/day-hubs/dayHubData';
 import { Link, permanentRedirect } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
 import { isRedirectSource, localizedPath } from '@/lib/redirect-sources';
+import { redirectForeignSlug } from '@/lib/foreign-slug';
 import { groq } from 'next-sanity';
 import { client } from '@/sanity/lib/client';
 import { urlFor } from '@/sanity/lib/image';
@@ -194,7 +195,12 @@ export default async function CatchAllPage({ params }: Props) {
   setRequestLocale(locale);
 
   const hit = await resolveSlug(locale as Locale, rest);
-  if (!hit) notFound();
+  if (!hit) {
+    // A real slug from another language (old GSC discoveries) → 308 to the
+    // right page; anything else 404s as before.
+    await redirectForeignSlug('root', locale, rest);
+    notFound();
+  }
 
   // Tours render natively here (canonical URL is the root path) using the
   // shared TourPageView component, which is also used by the legacy

@@ -42,3 +42,7 @@ scripts/concierge-eval/results/
 scripts/.goodfor-shape-plan.json
 scripts/raw-links-remaining.json
 scripts/raw-link-recheck-*.json
+
+# Page health (Playwright): gallery, screenshots and reports are build output
+reports/page-health/
+test-results/

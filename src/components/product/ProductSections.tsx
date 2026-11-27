@@ -158,7 +158,13 @@ function MonasteryHours({ locale, text }: { locale: Locale; text: string }) {
 }
 
 /** Make it yours: an optional intro line, the approved options, then the CTA pair. */
-export async function MakeItYours({ locale, intro, options, cta }: { locale: Locale; intro?: string | null; options: string[]; cta: ReactNode }) {
+/** A "Make it your own" item, linked to the tour its row points at (linkRef), when it has one. */
+export function OptionItem({ text, slug }: { text: string; slug?: string | null }) {
+  const href = slug ? pathFromDoc({ type: 'tour', slug }) : null;
+  return href ? <Link href={href}>{text}</Link> : <>{text}</>;
+}
+
+export async function MakeItYours({ locale, intro, options, optionLinks, cta }: { locale: Locale; intro?: string | null; options: string[]; optionLinks?: Array<string | null> | null; cta: ReactNode }) {
   const t = await getTranslations({ locale, namespace: 'productPanel' });
   return (
     <section className="pdp-yours" id="make-it-yours" aria-labelledby="pdp-yours-h">
@@ -168,7 +174,9 @@ export async function MakeItYours({ locale, intro, options, cta }: { locale: Loc
       {options.length > 0 && (
         <ul>
           {options.map((o, i) => (
-            <li key={i}>{o}</li>
+            <li key={i}>
+              <OptionItem text={o} slug={optionLinks?.[i]} />
+            </li>
           ))}
         </ul>
       )}
