@@ -29,6 +29,12 @@ const MAP = {
   'esna-edfu-kom-ombo-temples-group-day-tour-from-luxor': 'tour/luxor-to-aswan-esna-edfu-kom-ombo-temple-road',
   'abu-simbel-temples-day-tour-from-aswan': 'tour/aswan-to-abu-simbel-temples-ramses-ii-nefertari',
   'dolphin-house-shared-snorkeling-day-from-hurghada': 'tour/dolphin-house-adventure-snorkeling-wild-dolphins-from-hurghada',
+  // Group packages (owner, 27 Nov: they follow Sawa's trips; rebuilt 28 Nov, PR #414).
+  '9-day-egypt-group-tour-cairo-abu-simbel-nile': 'package/egypt-in-depth-9-day-nile-cruise-cairo',
+  // 12-day: switch on once Sawa's "Egypt End to End" has the owner's changes (dahabiya, Abu Simbel by air, Karnak on Day 7).
+  //   '12-day-egypt-group-tour-cairo-dahabiya-red-sea': 'package/egypt-end-to-end-cairo-nile-cruise-hurghada-12-days',
+  // 10-day: once it is created on Sawa.
+  //   '10-day-egypt-group-tour-cairo-nile-red-sea'
   // Owner, 27 Nov: Esna, Edfu & Kom Ombo above is the same trip as Sawa's Luxor → Aswan road.
   //
   // Owner, 27 Nov: every T2E group tour not yet on Sawa will be created there. Add each line here
@@ -47,6 +53,12 @@ const MAP = {
   //   'mount-sinai-and-st-catherine-full-day-tour-from-sharm'
 };
 
+// The owner-approved "Book this trip" paragraph (27 Nov), the same in every group package.
+const BOOK_THIS_TRIP = {
+  en: 'This tour runs as a shared departure on Sawa, our group-tours site. Pick a date, hold a seat at no cost, and pay once the date has four travellers. If no date suits you, you can propose your own.',
+  es: 'Este tour sale como salida compartida en Sawa, nuestra web de tours en grupo. Elige una fecha, reserva tu plaza sin coste y paga cuando la fecha tenga cuatro viajeros. Si ninguna fecha te viene bien, puedes proponer la tuya.',
+  ja: 'このツアーは、当社のグループツアー専用サイトSawaで、他の参加者と同じ出発日に参加する形で催行します。日程を選んで無料で席を確保し、その日程の参加者が4名に達した時点でお支払いください。ご都合の合う日程がない場合は、ご希望の日程をご提案いただけます。',
+};
 const args = process.argv.slice(2);
 const apply = args.includes('--apply');
 const undo = args.includes('--undo');
@@ -74,7 +86,7 @@ if (only && entries.length === 0) throw new Error(`--only ${only}: not in MAP`);
 const plan = [];
 for (const [slug, path] of entries) {
   const doc = await client.fetch(
-    '*[_type == "tour" && !(_id in path("drafts.**")) && slug[_key == "en"][0].value.current == $slug][0]{_id, tourMode, type, priceFrom, guideLanguagePrices, sawaUrl, "title": title[_key == "en"][0].value}',
+    '*[_type == "tour" && !(_id in path("drafts.**")) && slug[_key == "en"][0].value.current == $slug][0]{_id, tourMode, type, priceFrom, guideLanguagePrices, sawaUrl, itineraryIntro, "deps": count(departures), "title": title[_key == "en"][0].value}',
     { slug },
   );
   if (!doc) throw new Error(`${slug}: no published tour`);
@@ -87,6 +99,7 @@ for (const [slug, path] of entries) {
   }
   const s = await sawaPrice(path);
   plan.push({ doc, set: { sawaUrl: s.url, priceFrom: s.four } });
+  if (doc.type === 'package') console.log(`  package: ${doc.deps ?? 0} departure date(s) removed; "Book this trip" text written`);
   console.log(`${slug}\n  ${doc.title}\n  → ${s.url} (${s.name})\n  From: €${doc.priceFrom ?? '—'} (ES/JA ${JSON.stringify(doc.guideLanguagePrices ?? null)}) → €${s.four} (Sawa, group of 4; €${s.eight} with 8)`);
 }
 
@@ -97,7 +110,12 @@ if (!apply) {
 await writeRollback(client, plan.map((p) => p.doc._id), undo ? 'before-sawa-unlink' : 'before-sawa-link');
 for (const { doc, set } of plan) {
   const tx = client.patch(doc._id);
-  if (set) await tx.set(set).unset(['guideLanguagePrices']).commit();
+  if (set && doc.type === 'package') {
+    // Dates live on Sawa; the approved "Book this trip" paragraph (review/locked/*-group-*.md, last section) goes in
+    // the itinerary's closing block.
+    const intro = (doc.itineraryIntro ?? []).map((it) => ({ ...it, makeItYoursIntro: BOOK_THIS_TRIP[it.lang] ?? it.makeItYoursIntro }));
+    await tx.set({ ...set, itineraryIntro: intro, departures: [] }).unset(['guideLanguagePrices']).commit();
+  } else if (set) await tx.set(set).unset(['guideLanguagePrices']).commit();
   else await tx.unset(['sawaUrl']).commit();
   console.log(`APPLIED ${doc._id}`);
 }
