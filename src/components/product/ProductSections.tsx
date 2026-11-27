@@ -164,12 +164,12 @@ export function OptionItem({ text, slug }: { text: string; slug?: string | null 
   return href ? <Link href={href}>{text}</Link> : <>{text}</>;
 }
 
-export async function MakeItYours({ locale, intro, options, optionLinks, cta }: { locale: Locale; intro?: string | null; options: string[]; optionLinks?: Array<string | null> | null; cta: ReactNode }) {
+export async function MakeItYours({ locale, intro, options, optionLinks, cta, title }: { locale: Locale; intro?: string | null; options: string[]; optionLinks?: Array<string | null> | null; cta: ReactNode; title?: string }) {
   const t = await getTranslations({ locale, namespace: 'productPanel' });
   return (
     <section className="pdp-yours" id="make-it-yours" aria-labelledby="pdp-yours-h">
       {/* Approved heading set (canon III.5): the same heading as the right-column block. */}
-      <h2 id="pdp-yours-h">{t('optionsTitle')}</h2>
+      <h2 id="pdp-yours-h">{title ?? t('optionsTitle')}</h2>
       {intro && <p>{intro}</p>}
       {options.length > 0 && (
         <ul>

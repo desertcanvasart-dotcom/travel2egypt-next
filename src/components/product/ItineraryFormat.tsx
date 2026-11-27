@@ -89,6 +89,7 @@ export async function ItineraryFormat({
   options,
   beforeMakeItYours,
   cta,
+  yoursTitle,
 }: {
   locale: Locale;
   slug: string;
@@ -103,6 +104,8 @@ export async function ItineraryFormat({
   beforeMakeItYours?: ReactNode;
   /** Customise + WhatsApp buttons (MidCta), rendered under Make it yours. */
   cta: ReactNode;
+  /** Replaces the "Make it your own" heading (group trips booked on Sawa). */
+  yoursTitle?: string;
 }) {
   const t = await getTranslations({ locale, namespace: 'productPanel' });
   const sep = locale === 'ja' ? '・' : ' · ';
@@ -266,7 +269,7 @@ export async function ItineraryFormat({
 
       {beforeMakeItYours}
 
-      <MakeItYours locale={locale} intro={intro.makeItYoursIntro} options={options} cta={cta} />
+      <MakeItYours locale={locale} intro={intro.makeItYoursIntro} options={options} cta={cta} title={yoursTitle} />
     </div>
   );
 }

@@ -517,6 +517,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
                   excluded={notIncludedRows}
                   options={tour.approvedOptions ?? []}
                   beforeMakeItYours={afterDays}
+                  yoursTitle={sawaUrl ? tp('endSawaH2') : undefined}
                   cta={
               <MidCta
                 locale={locale}
