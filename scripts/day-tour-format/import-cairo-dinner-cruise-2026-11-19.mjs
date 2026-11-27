@@ -190,7 +190,9 @@ for (const l of LANGS) {
   verbatimPreflight([...visibleStrings(rows, l), P[l].title], [LOCKED[l]], allow);
 }
 await contentGate({ locked: LANGS.map((l) => [LOCKED[l], l]), apply });
-if (!ready) console.log('prices: NOT READY — fill cairo-dinner-cruise-prices.json from Autoura (both boats). Nothing can be applied yet.');
+// Owner rule (27 Nov): a missing Autoura price never holds the itinerary back. Unpriced, the page
+// publishes with both options listed, no figures, and the old single price REMOVED.
+if (!ready) console.log('prices: NOT READY — publishing WITHOUT a price (old From removed); fill cairo-dinner-cruise-prices.json from Autoura and re-run to add both boats.');
 const B = Object.fromEntries(LANGS.map((l) => [l, ready ? build(l, true) : unpriced[l]]));
 
 /* ── Document and essay ───────────────────────────────────────────────── */
@@ -200,7 +202,7 @@ if (!doc) throw new Error(`${DOC_ID} not found`);
 if (doc.type !== 'dayTour') throw new Error('not a day tour');
 const priceNow = [doc.priceFrom, doc.guideLanguagePrices?.es ?? '', doc.guideLanguagePrices?.ja ?? ''].join();
 const fromNew = ready ? Math.min(...figures) : null;
-if (![[OLD.from, OLD.es, OLD.ja].join(), [fromNew, '', ''].join()].includes(priceNow)) throw new Error(`unexpected prices ${priceNow}`);
+if (![[OLD.from, OLD.es, OLD.ja].join(), [fromNew, '', ''].join(), ',,'].includes(priceNow)) throw new Error(`unexpected prices ${priceNow}`);
 const textOf = (b) => (b.children ?? []).map((c) => c.text).join('');
 
 const CLOSING_REF = { en: '000000000019', es: '00000000001b', ja: '000000000021' };
@@ -303,7 +305,7 @@ if (previewOut) {
   const cities = cityIds.length ? await client.fetch('*[_id in $ids]', { ids: cityIds }) : [];
   // As the write leaves it: guideLanguagePrices unset (one price in every language).
   const { guideLanguagePrices: _gone, ...kept } = doc;
-  const dataset = [{ ...kept, ...set, ...(ready ? {} : { priceFrom: doc.priceFrom }) }, ...cities];
+  const dataset = [{ ...kept, ...set, ...(ready ? {} : { priceFrom: undefined }) }, ...cities];
   const { tourBySlugQuery } = await import('../../src/sanity/lib/queries.ts');
   const out = {};
   for (const l of LANGS) {
@@ -316,8 +318,7 @@ if (previewOut) {
 }
 
 if (apply) {
-  if (!ready) throw new Error('prices not ready — fill cairo-dinner-cruise-prices.json from Autoura first (both boats).');
   await writeRollback(client, [DOC_ID], 'before-cairo-dinner-cruise');
-  await client.patch(DOC_ID).set(set).unset(['guideLanguagePrices']).commit();
+  await client.patch(DOC_ID).set(set).unset(ready ? ['guideLanguagePrices'] : ['guideLanguagePrices', 'priceFrom']).commit();
   console.log(`APPLIED to production ${DOC_ID}`);
 } else if (!previewOut) console.log('dry run (prices filled + --apply --flags-approved writes production)');
