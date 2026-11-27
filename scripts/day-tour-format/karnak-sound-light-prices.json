@@ -1,0 +1,4 @@
+{
+  "_note": "ONE per-person selling price in EUR, the same in every language (no guide on this evening: a driver, the show ticket, water, the driver tip and an evening assistant); the import leaves guideLanguagePrices unset (as on the Giza and felucca pages). Source: Autoura template T2E-DT-LXR-08. Already applied to the live page on 21-22 Nov (PRs #334 and #337, price only); this import sets the same value.",
+  "price": 44
+}

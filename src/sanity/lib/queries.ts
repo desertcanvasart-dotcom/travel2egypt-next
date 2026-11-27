@@ -270,6 +270,7 @@ const tourCardProjection = (locale: Locale) => `
   "enSlug": slug[_key=="en"][0].value.current,
   peakUpliftPct,
   maxGroup,
+  privateGuiding,
   "title": ${localizedField('title', locale)},
   "slug": ${localizedSlug('slug', locale)},
   "allSlugs": slug[]{ _key, "current": value.current },
@@ -328,6 +329,9 @@ export const tourBySlugQuery = (locale: Locale) => groq`
      slug[_key == "en"][0].value.current == $slug)
   )][0]{
     ${tourCardProjection(locale)},
+    // 23 Nov 2026: only the noIndex flag, so a tour page held back for review carries the robots meta
+    // (meta title/description stay the tour's own title and summary, as for every tour).
+    "seo": { "noIndex": seo.noIndex },
     "body": ${portableTextBodyProjection('body', locale)},
     // Locale-strict: no English fallback, so a language without its own
     // practical information shows none rather than English text.
@@ -422,6 +426,8 @@ export const tourBySlugQuery = (locale: Locale) => groq`
       []
     ),
     "approvedOptions": customisationOptions[lang == "${locale}" && needsReview == false].text,
+    // Same rows, same order: the tour an option links to, if any (linkRef).
+    "approvedOptionLinks": customisationOptions[lang == "${locale}" && needsReview == false]{ "slug": linkRef->{ "s": ${localizedSlug('slug', locale)} }.s },
     "priceUpdatedAt": _updatedAt,
     "days": days[]{
       dayNumber,
@@ -562,6 +568,7 @@ export const tourBySlugQuery = (locale: Locale) => groq`
     basePrice,
     peakUpliftPct,
     maxGroup,
+    privateGuiding,
     "departures": departures[]{
       "startDate": startDate,
       "isPeak": isPeak,

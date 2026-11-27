@@ -13,6 +13,121 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/kom-ombo-and-edfu-temples-day-tour-from-aswan",
+    "destination": "/private-tour-transfer-from-aswan-to-luxor-by-bus",
+    "permanent": true
+  },
+  {
+    "source": "/es/kom-ombo-y-edfu-desde-asuan-hasta-luxor",
+    "destination": "/es/traslado-privado-de-asuan-a-luxor-con-paradas",
+    "permanent": true
+  },
+  {
+    "source": "/ja/asuwan-kara-rukusoru-e-komuombo-edofu-shinden-higaeri-tsua",
+    "destination": "/ja/puraibeto-sogei-asuwan-kara-rukusoru-e-rikuro-de-tochu-gesha",
+    "permanent": true
+  },
+  {
+    "source": "/siwa-oasis-travel-guide/historical-tapestry/844-1755-44411",
+    "destination": "/guide/siwa-oasis/siwa-oasis-historical-overview",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-luxor/el-templo-mortuorio-de-la-reina-hatshepsut/844-1755-44411",
+    "destination": "/es/guide/luxor/el-templo-mortuorio-de-la-reina-hatshepsut",
+    "permanent": true
+  },
+  {
+    "source": "/safaga-travel-guide/travel-essentials/844-1755-44411",
+    "destination": "/guide/safaga/only-in-safaga",
+    "permanent": true
+  },
+  {
+    "source": "/hurghada-travel-guide/hurghada-aquarium/844-1755-44411",
+    "destination": "/guide/hurghada/hurghada-aquarium",
+    "permanent": true
+  },
+  {
+    "source": "/cairo-travel-guide/madrassa-mausoleum-of-qalawun/844-1755-44411",
+    "destination": "/guide/cairo/complex-of-sultan-al-mansur-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-beni-suef/visitas/844-1755-44411",
+    "destination": "/es/guide/beni-suef",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-del-oasis-de-farafra/como-desplazarse",
+    "destination": "/es/guide/farafra/como-moverse-por-el-oasis-de-farafra",
+    "permanent": true
+  },
+  {
+    "source": "/al-arish-travel-guide/beyond-ordinary",
+    "destination": "/guide/al-arish/only-in-al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/al-minya-travel-guide/tuna-el-gebel",
+    "destination": "/guide/al-minya/tuna-el-gebel",
+    "permanent": true
+  },
+  {
+    "source": "/aswan-travel-guide/st-simeon-monastery",
+    "destination": "/guide/aswan/saint-simeon-monastery",
+    "permanent": true
+  },
+  {
+    "source": "/transport-to-giza",
+    "destination": "/guide/giza",
+    "permanent": true
+  },
+  {
+    "source": "/baris-travel-guide/experiences-beyond",
+    "destination": "/guide/baris/things-to-do-in-baris",
+    "permanent": true
+  },
+  {
+    "source": "/when-to-explore-dakhla-oasis",
+    "destination": "/guide/dakhla-oasis/when-to-explore-dakhla-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/soledad-en-el-cielo-experiencia-privada-en-globo-aerostatico-al-amanecer-en-luxor",
+    "destination": "/es/globo-al-amanecer-en-luxor-media-hora-sobre-la-orilla-occidental",
+    "permanent": true
+  },
+  {
+    "source": "/fayoum-oasis-including-pyramids-of-meydum-hawara",
+    "destination": "/meidum-and-hawara-pyramids-from-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/oasis-de-fayoum-piramides-de-meidum-y-hawara-jornada-completa",
+    "destination": "/es/piramides-de-meidum-y-hawara-desde-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/faiyumuoashisu-meidumu-hawara-no-piramiddo-shujitsu-tsua",
+    "destination": "/ja/kairo-hatsu-meidumu-to-hawara-no-piramiddo",
+    "permanent": true
+  },
+  {
+    "source": "/islamic-cairo-day-tour",
+    "destination": "/the-grand-islamic-day-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/tour-privado-por-el-cairo-islamico-ciudadela-mezquitas-y-jan-el-jalili",
+    "destination": "/es/el-gran-tour-por-el-cairo-islamico-siete-siglos-en-un-dia",
+    "permanent": true
+  },
+  {
+    "source": "/ja/isuramu-chiku-kairodeitsua-josai-mosuku-han-hariri",
+    "destination": "/ja/gurandoisuramikkukairo-deitsua-ichi-nichi-de-roku-seiki",
+    "permanent": true
+  },
+  {
     "source": "/giza-pyramids-the-citadel-cairo-bazaar-day-tour",
     "destination": "/giza-pyramids-sultan-hassan-and-khan-el-khalili",
     "permanent": true
@@ -284,22 +399,22 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/guide/cairo/saladin-citadel-khan-el-khalili-bazaar-cairo",
-    "destination": "/islamic-cairo-day-tour",
+    "destination": "/the-grand-islamic-day-tour",
     "permanent": true
   },
   {
     "source": "/saladin-citadel-khan-el-khalili-bazaar-cairo",
-    "destination": "/islamic-cairo-day-tour",
+    "destination": "/the-grand-islamic-day-tour",
     "permanent": true
   },
   {
     "source": "/es/guide/cairo/ciudadela-de-saladino-y-bazar-de-khan-el-khalili-el-cairo",
-    "destination": "/es/tour-privado-por-el-cairo-islamico-ciudadela-mezquitas-y-jan-el-jalili",
+    "destination": "/es/el-gran-tour-por-el-cairo-islamico-siete-siglos-en-un-dia",
     "permanent": true
   },
   {
     "source": "/ja/guide/cairo/saradin-josai-kan-eru-kariri-bazaru-kairo",
-    "destination": "/ja/isuramu-chiku-kairodeitsua-josai-mosuku-han-hariri",
+    "destination": "/ja/gurandoisuramikkukairo-deitsua-ichi-nichi-de-roku-seiki",
     "permanent": true
   },
   {
@@ -364,17 +479,17 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/guide/cairo/islamic-cairo-day-tour",
-    "destination": "/islamic-cairo-day-tour",
+    "destination": "/the-grand-islamic-day-tour",
     "permanent": true
   },
   {
     "source": "/es/guide/cairo/el-corazon-espiritual-de-el-cairo-excursion-islamica-de-un-dia-por-el-cairo",
-    "destination": "/es/tour-privado-por-el-cairo-islamico-ciudadela-mezquitas-y-jan-el-jalili",
+    "destination": "/es/el-gran-tour-por-el-cairo-islamico-siete-siglos-en-un-dia",
     "permanent": true
   },
   {
     "source": "/ja/guide/cairo/kairo-no-seishin-teki-na-kokoro-isuramu-kairo-higaeri-tsua",
-    "destination": "/ja/isuramu-chiku-kairodeitsua-josai-mosuku-han-hariri",
+    "destination": "/ja/gurandoisuramikkukairo-deitsua-ichi-nichi-de-roku-seiki",
     "permanent": true
   },
   {
@@ -1289,7 +1404,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/12-day-red-sea-desert-friends-escape",
-    "destination": "/egypt-and-the-red-sea-paradise",
+    "destination": "/11-day-the-splendor-of-egypt-tour",
     "permanent": true
   },
   {
@@ -1329,7 +1444,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/9-days-cairo-st-catherine-sharm-el-sheikh",
-    "destination": "/11-day-explore-egypt-and-red-sea-tour",
+    "destination": "/13-day-egypt-nile-sinai-and-red-sea",
     "permanent": true
   },
   {
@@ -1374,7 +1489,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/timeless-wonders-10-days-eternal-egypt-tour",
-    "destination": "/10-days-unforgettable-egypt-tour",
+    "destination": "/10-day-egypt-cairo-alexandria-luxor-aswan",
     "permanent": true
   },
   {
@@ -1454,7 +1569,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/8-days-best-of-egypt-tour-package",
-    "destination": "/ja/ejiputo-hairaito-8-nichikan-kairo-abu-shin-beru-nairu",
+    "destination": "/ja/8-nichikan-kairo-nairu-kuruzu-tsua-piramiddo-kawa-rukusoru",
     "permanent": true
   },
   {
@@ -1584,7 +1699,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/egypt-and-the-red-sea-paradise",
-    "destination": "/ja/12-nichikan-ejiputo-to-kokai-kairo-nairu-rukusoru-asuwan",
+    "destination": "/ja/ejiputo-no-hana-piramiddo-kara-kokai-e-no-11-nichikan",
     "permanent": true
   },
   {
@@ -1639,7 +1754,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/islamic-cairo-day-tour",
-    "destination": "/ja/isuramu-chiku-kairodeitsua-josai-mosuku-han-hariri",
+    "destination": "/ja/gurandoisuramikkukairo-deitsua-ichi-nichi-de-roku-seiki",
     "permanent": true
   },
   {
@@ -1749,7 +1864,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/ramasside-tours-desert-adventure-snorkeling-experience",
-    "destination": "/ja/sharumu-kara-dahabu-e-shinai-sabaku-no-nairiku-to-buruhoru-o",
+    "destination": "/ja/ramesses-jidai-tsua",
     "permanent": true
   },
   {
@@ -1804,7 +1919,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/transfer-from-hotel-to-airport",
-    "destination": "/ja/hoteru-kara-kairo-kokusai-kuko-e-puraibeto-shuppatsu-sogei",
+    "destination": "/ja/kairo-kuko-kara-hoteru-e-puraibeto-tochaku-sogei",
     "permanent": true
   },
   {
@@ -1814,7 +1929,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/12-day-amazing-family-vacation-in-egypt",
-    "destination": "/ja/12-nichikan-famiri-bakeshon",
+    "destination": "/ja/14-nichikan-no-ejiputoragujuari-kazoku-kiko-piramiddo-kawa",
     "permanent": true
   },
   {
@@ -1824,7 +1939,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/9-day-classic-egypt-family-adventure",
-    "destination": "/ja/kurashikku-ejiputo-kazoku-no-tabi-kairo-kara-nairu-soshite",
+    "destination": "/ja/go-kazoku-no-tame-no-hachi-nichikan-kairo-to-nairu-gawa",
     "permanent": true
   },
   {
@@ -1904,7 +2019,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/7-days-in-egypt-pyramids-temples-and-timeless-wonders",
-    "destination": "/ja/ejiputo-nana-nichikan-kairo-arekusandoria-asuwan-rukusoru",
+    "destination": "/ja/7-nichikan-no-ejiputo-kairo-nairu-kuruzu-rukusoru-to-asuwan",
     "permanent": true
   },
   {
@@ -1944,7 +2059,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/15-day-nile-cruise-and-hurghada-tour",
-    "destination": "/ja/15-nichikan-nairu-kuruzu-harugada-rukusoru-asuwan-soshite",
+    "destination": "/ja/14-nichikan-no-nairu-kuruzu-furugada-rukusoru-asuwan-soshite",
     "permanent": true
   },
   {
@@ -2029,7 +2144,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/private-tour-memphis-and-saqqara",
-    "destination": "/ja/puraibetodeitsua-menfisu-sakkara-soshite-isuramu-chiku-kairo",
+    "destination": "/ja/menfisu-sakkara-shitaderu-han-eru-hariri",
     "permanent": true
   },
   {
@@ -2064,7 +2179,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/fayoum-oasis-including-pyramids-of-meydum-hawara",
-    "destination": "/ja/faiyumuoashisu-meidumu-hawara-no-piramiddo-shujitsu-tsua",
+    "destination": "/ja/kairo-hatsu-meidumu-to-hawara-no-piramiddo",
     "permanent": true
   },
   {
@@ -2199,7 +2314,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/kom-ombo-and-edfu-temples-day-tour-from-aswan",
-    "destination": "/ja/asuwan-kara-rukusoru-e-komuombo-edofu-shinden-higaeri-tsua",
+    "destination": "/ja/puraibeto-sogei-asuwan-kara-rukusoru-e-rikuro-de-tochu-gesha",
     "permanent": true
   },
   {
@@ -2209,7 +2324,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/10-day-marvelous-abu-simbel-ancient-egypt-tour",
-    "destination": "/ja/abu-shin-beru-e-soshite-modoru-kodai-ejiputo-10-nichikan-no",
+    "destination": "/ja/honshitsu-no-ejiputo-giza-kara-nubia-no-minami-made-10",
     "permanent": true
   },
   {
@@ -2224,17 +2339,17 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/the-romantic-egypt-tour",
-    "destination": "/ja/nairu-ni-yorisou-10-nichikan-romantikkuejiputotsua",
+    "destination": "/ja/nairudorima-10-nichikan-kairo-asuwan-nairu-gawa-kuruzu",
     "permanent": true
   },
   {
     "source": "/ja/11-day-nile-cruise-from-luxor-to-cairo",
-    "destination": "/ja/gurando-nairu-koro-rukusoru-kara-kairo-e-no-nairu-kuruzu-11",
+    "destination": "/ja/14-nichikan-no-chokyori-nairu-kuruzu-asuwan-kara-kairo-e",
     "permanent": true
   },
   {
     "source": "/ja/11-day-explore-egypt-and-red-sea-tour",
-    "destination": "/ja/11-nichikan-ejiputo-kokai-tambo-rukusoru-nairu-kairo",
+    "destination": "/ja/ejiputo-13-nichikan-kairo-nairu-rukusoru-shinai-kokai",
     "permanent": true
   },
   {
@@ -2289,12 +2404,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/essential-egypt",
-    "destination": "/ja/essensharuejiputo-8-nichikan-kairo-arekusandoria-asuwan",
+    "destination": "/ja/honshitsu-no-ejiputo-giza-kara-nubia-no-minami-made-10",
     "permanent": true
   },
   {
     "source": "/ja/egypt-and-the-nile-tour",
-    "destination": "/ja/fa-rao-no-isan-ejiputo-to-nairu-10-nichikan",
+    "destination": "/ja/nairudorima-10-nichikan-kairo-asuwan-nairu-gawa-kuruzu",
     "permanent": true
   },
   {
@@ -2309,7 +2424,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/13-day-nile-cruise-from-cairo-to-luxor",
-    "destination": "/ja/roiyaru-nairu-koro-kairo-kara-rukusoru-e-no-nairu-kuruzu-13",
+    "destination": "/ja/15-nichikan-no-nairu-no-sorei-kairo-kara-asuwan-e-kawa-o",
     "permanent": true
   },
   {
@@ -2324,7 +2439,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/15-day-luxor-nile-cruise-vacation",
-    "destination": "/ja/15-nichikan-no-rukusoru-nairu-kuruzu-no-kyuka-rukusoru-nairu",
+    "destination": "/ja/kairo-to-nairu-kuruzu-no-ofuku-11-nichikan-piramiddo-kawa",
     "permanent": true
   },
   {
@@ -2339,7 +2454,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/8-day-luxor-to-luxor-cruise",
-    "destination": "/ja/8-nichikan-rukusoru-hatchaku-nairu-kuruzu-shinden-haka",
+    "destination": "/ja/kairo-to-nairu-kuruzu-no-ofuku-11-nichikan-piramiddo-kawa",
     "permanent": true
   },
   {
@@ -6354,7 +6469,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/8-days-best-of-egypt-tour-package",
-    "destination": "/es/lo-mejor-de-egipto-en-8-dias-el-cairo-abu-simbel-el-nilo-y-luxor",
+    "destination": "/es/el-cairo-y-el-nilo-en-8-dias-piramides-rio-luxor-y-asuan",
     "permanent": true
   },
   {
@@ -6489,7 +6604,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/egypt-and-the-red-sea-paradise",
-    "destination": "/es/egipto-y-el-mar-rojo-en-12-dias-el-cairo-el-nilo-luxor-asuan-y-alejandria",
+    "destination": "/es/el-esplendor-de-egipto-en-11-dias",
     "permanent": true
   },
   {
@@ -6544,7 +6659,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/islamic-cairo-day-tour",
-    "destination": "/es/tour-privado-por-el-cairo-islamico-ciudadela-mezquitas-y-jan-el-jalili",
+    "destination": "/es/el-gran-tour-por-el-cairo-islamico-siete-siglos-en-un-dia",
     "permanent": true
   },
   {
@@ -6654,7 +6769,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/ramasside-tours-desert-adventure-snorkeling-experience",
-    "destination": "/es/de-sharm-a-dahab-un-dia-entre-el-desierto-del-sinai-y-el-blue-hole",
+    "destination": "/es/tours-ramasside-aventura-en-el-desierto-y-experiencia-de-snorkel",
     "permanent": true
   },
   {
@@ -6709,7 +6824,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/transfer-from-hotel-to-airport",
-    "destination": "/es/traslado-privado-del-hotel-al-aeropuerto-de-el-cairo",
+    "destination": "/es/traslado-privado-del-aeropuerto-de-el-cairo-al-hotel",
     "permanent": true
   },
   {
@@ -6719,7 +6834,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/12-day-amazing-family-vacation-in-egypt",
-    "destination": "/es/viaje-familiar-por-egipto-en-12-dias",
+    "destination": "/es/vacaciones-familiares-de-lujo-en-egipto-en-14-dias",
     "permanent": true
   },
   {
@@ -6729,7 +6844,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/9-day-classic-egypt-family-adventure",
-    "destination": "/es/viaje-familiar-clasico-por-egipto-en-9-dias",
+    "destination": "/es/ocho-dias-para-familias-el-cairo-y-crucero-por-el-nilo-bien-acompasado",
     "permanent": true
   },
   {
@@ -6814,7 +6929,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/7-days-in-egypt-pyramids-temples-and-timeless-wonders",
-    "destination": "/es/siete-dias-en-egipto-el-cairo-alejandria-asuan-luxor",
+    "destination": "/es/egipto-en-7-dias-el-cairo-crucero-por-el-nilo-luxor-y-asuan",
     "permanent": true
   },
   {
@@ -6854,7 +6969,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/15-day-nile-cruise-and-hurghada-tour",
-    "destination": "/es/crucero-por-el-nilo-y-hurghada-en-15-dias-luxor-asuan-y-el-mar-rojo",
+    "destination": "/es/crucero-por-el-nilo-de-14-dias-y-estancia-en-hurghada-luxor-asuan-y-el-mar-rojo",
     "permanent": true
   },
   {
@@ -6939,7 +7054,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/private-tour-memphis-and-saqqara",
-    "destination": "/es/menfis-saqqara-y-el-cairo-islamico",
+    "destination": "/es/menfis-saqqara-ciudadela-y-khan-el-khalili",
     "permanent": true
   },
   {
@@ -6974,7 +7089,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/fayoum-oasis-including-pyramids-of-meydum-hawara",
-    "destination": "/es/oasis-de-fayoum-piramides-de-meidum-y-hawara-jornada-completa",
+    "destination": "/es/piramides-de-meidum-y-hawara-desde-el-cairo",
     "permanent": true
   },
   {
@@ -7109,7 +7224,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/kom-ombo-and-edfu-temples-day-tour-from-aswan",
-    "destination": "/es/kom-ombo-y-edfu-desde-asuan-hasta-luxor",
+    "destination": "/es/traslado-privado-de-asuan-a-luxor-con-paradas",
     "permanent": true
   },
   {
@@ -7119,7 +7234,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/10-day-marvelous-abu-simbel-ancient-egypt-tour",
-    "destination": "/es/abu-simbel-y-el-antiguo-egipto-en-10-dias",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
     "permanent": true
   },
   {
@@ -7134,17 +7249,17 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/the-romantic-egypt-tour",
-    "destination": "/es/amor-sobre-el-nilo-viaje-romantico-por-egipto-en-10-dias",
+    "destination": "/es/nile-dreamer-10-dias-con-el-nilo-como-eje-del-viaje",
     "permanent": true
   },
   {
     "source": "/es/11-day-nile-cruise-from-luxor-to-cairo",
-    "destination": "/es/gran-travesia-del-nilo-crucero-de-11-dias-de-luxor-a-el-cairo",
+    "destination": "/es/crucero-de-14-dias-por-el-nilo-de-asuan-a-el-cairo-por-el-rio",
     "permanent": true
   },
   {
     "source": "/es/11-day-explore-egypt-and-red-sea-tour",
-    "destination": "/es/egipto-y-el-mar-rojo-en-11-dias-luxor-el-nilo-el-cairo-y-sharm-el-sheij",
+    "destination": "/es/egipto-impresionante-en-13-dias-el-cairo-el-nilo-luxor-sinai-y-el-mar-rojo",
     "permanent": true
   },
   {
@@ -7199,12 +7314,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/essential-egypt",
-    "destination": "/es/egipto-esencial-en-8-dias-el-cairo-alejandria-asuan-y-luxor",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
     "permanent": true
   },
   {
     "source": "/es/egypt-and-the-nile-tour",
-    "destination": "/es/legado-de-los-faraones-egipto-y-el-nilo-en-10-dias",
+    "destination": "/es/nile-dreamer-10-dias-con-el-nilo-como-eje-del-viaje",
     "permanent": true
   },
   {
@@ -7219,7 +7334,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/13-day-nile-cruise-from-cairo-to-luxor",
-    "destination": "/es/pasaje-real-del-nilo-crucero-de-13-dias-de-el-cairo-a-luxor",
+    "destination": "/es/grandeza-del-nilo-en-15-dias-de-el-cairo-a-asuan-por-el-rio",
     "permanent": true
   },
   {
@@ -7234,7 +7349,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/15-day-luxor-nile-cruise-vacation",
-    "destination": "/es/vacaciones-de-15-dias-en-luxor-y-crucero-por-el-nilo-luxor-el-nilo-y-el-cairo",
+    "destination": "/es/el-cairo-y-el-nilo-en-11-dias-ida-y-vuelta-piramides-rio-luxor",
     "permanent": true
   },
   {
@@ -7249,7 +7364,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/8-day-luxor-to-luxor-cruise",
-    "destination": "/es/crucero-de-8-dias-por-el-nilo-de-luxor-a-luxor-templos-tumbas-y-rio",
+    "destination": "/es/el-cairo-y-el-nilo-en-11-dias-ida-y-vuelta-piramides-rio-luxor",
     "permanent": true
   },
   {
@@ -10284,72 +10399,72 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/10-day-romantic-egypt-travel-deals",
-    "destination": "/the-romantic-egypt-tour",
+    "destination": "/10-days-nile-dreamer-tour-experience",
     "permanent": true
   },
   {
     "source": "/10-day-romantic-egypt-travel-deals-from-india",
-    "destination": "/the-romantic-egypt-tour",
+    "destination": "/10-days-nile-dreamer-tour-experience",
     "permanent": true
   },
   {
     "source": "/es/amor-en-el-nilo-ofertas-de-viaje-romantico-por-egipto-de-10-dias-desde-india",
-    "destination": "/es/amor-sobre-el-nilo-viaje-romantico-por-egipto-en-10-dias",
+    "destination": "/es/nile-dreamer-10-dias-con-el-nilo-como-eje-del-viaje",
     "permanent": true
   },
   {
     "source": "/ja/nairu-gawa-no-koi-indo-hatsu-10-nichikan-no",
-    "destination": "/ja/nairu-ni-yorisou-10-nichikan-romantikkuejiputotsua",
+    "destination": "/ja/nairudorima-10-nichikan-kairo-asuwan-nairu-gawa-kuruzu",
     "permanent": true
   },
   {
     "source": "/10-day-romantic-egypt-deals-from-spain",
-    "destination": "/the-romantic-egypt-tour",
+    "destination": "/10-days-nile-dreamer-tour-experience",
     "permanent": true
   },
   {
     "source": "/es/amor-en-el-nilo-ofertas-de-viaje-romantico-por-egipto-de-10-dias-desde-espana",
-    "destination": "/es/amor-sobre-el-nilo-viaje-romantico-por-egipto-en-10-dias",
+    "destination": "/es/nile-dreamer-10-dias-con-el-nilo-como-eje-del-viaje",
     "permanent": true
   },
   {
     "source": "/ja/nairu-gawa-no-koi-supein-hatsu-10-nichikan-no",
-    "destination": "/ja/nairu-ni-yorisou-10-nichikan-romantikkuejiputotsua",
+    "destination": "/ja/nairudorima-10-nichikan-kairo-asuwan-nairu-gawa-kuruzu",
     "permanent": true
   },
   {
     "source": "/egypt-nile-cruise-vacation-from-india",
-    "destination": "/11-day-nile-cruise-from-luxor-to-cairo",
+    "destination": "/14-day-long-nile-cruise-aswan-cairo",
     "permanent": true
   },
   {
     "source": "/es/vacaciones-en-egipto-crucero-por-el-nilo-de-11-dias-de-luxor-a-el-cairo-desde-india",
-    "destination": "/es/gran-travesia-del-nilo-crucero-de-11-dias-de-luxor-a-el-cairo",
+    "destination": "/es/crucero-de-14-dias-por-el-nilo-de-asuan-a-el-cairo-por-el-rio",
     "permanent": true
   },
   {
     "source": "/ja/indo-hatsu-11-nichikan-rukusoru-kairo-ejiputo-nairu-kuruzu",
-    "destination": "/ja/gurando-nairu-koro-rukusoru-kara-kairo-e-no-nairu-kuruzu-11",
+    "destination": "/ja/14-nichikan-no-chokyori-nairu-kuruzu-asuwan-kara-kairo-e",
     "permanent": true
   },
   {
     "source": "/11-day-luxor-to-cairo-egypt-nile-cruise-vacation",
-    "destination": "/11-day-nile-cruise-from-luxor-to-cairo",
+    "destination": "/14-day-long-nile-cruise-aswan-cairo",
     "permanent": true
   },
   {
     "source": "/11-day-luxor-to-cairo-egypt-nile-cruise-vacation-from-canada",
-    "destination": "/11-day-nile-cruise-from-luxor-to-cairo",
+    "destination": "/14-day-long-nile-cruise-aswan-cairo",
     "permanent": true
   },
   {
     "source": "/es/crucero-por-el-nilo-de-11-dias-de-luxor-a-el-cairo-vacaciones-en-egipto-desde-canada",
-    "destination": "/es/gran-travesia-del-nilo-crucero-de-11-dias-de-luxor-a-el-cairo",
+    "destination": "/es/crucero-de-14-dias-por-el-nilo-de-asuan-a-el-cairo-por-el-rio",
     "permanent": true
   },
   {
     "source": "/ja/kanada-hatsu-11-nichikan-rukusoru-kairo-ejiputo-nairu-kuruzu",
-    "destination": "/ja/gurando-nairu-koro-rukusoru-kara-kairo-e-no-nairu-kuruzu-11",
+    "destination": "/ja/14-nichikan-no-chokyori-nairu-kuruzu-asuwan-kara-kairo-e",
     "permanent": true
   },
   {
@@ -10464,22 +10579,22 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/luxor-to-cairo-egypt-nile-cruise-vacation",
-    "destination": "/11-day-nile-cruise-from-luxor-to-cairo",
+    "destination": "/14-day-long-nile-cruise-aswan-cairo",
     "permanent": true
   },
   {
     "source": "/luxor-to-cairo-egypt-nile-cruise-vacation-from-australia",
-    "destination": "/11-day-nile-cruise-from-luxor-to-cairo",
+    "destination": "/14-day-long-nile-cruise-aswan-cairo",
     "permanent": true
   },
   {
     "source": "/es/vacaciones-de-11-dias-en-egipto-crucero-por-el-nilo-de-luxor-a-el-cairo-desde-australia",
-    "destination": "/es/gran-travesia-del-nilo-crucero-de-11-dias-de-luxor-a-el-cairo",
+    "destination": "/es/crucero-de-14-dias-por-el-nilo-de-asuan-a-el-cairo-por-el-rio",
     "permanent": true
   },
   {
     "source": "/ja/osutoraria-hatsu-11-nichikan-rukusoru-hatsu-kairo-gi-nairu",
-    "destination": "/ja/gurando-nairu-koro-rukusoru-kara-kairo-e-no-nairu-kuruzu-11",
+    "destination": "/ja/14-nichikan-no-chokyori-nairu-kuruzu-asuwan-kara-kairo-e",
     "permanent": true
   },
   {
@@ -11749,7 +11864,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/siwa-oasis-travel-guide/historical-tapestry",
-    "destination": "/guide/siwa-oasis",
+    "destination": "/guide/siwa-oasis/siwa-oasis-historical-overview",
     "permanent": true
   },
   {
@@ -12049,7 +12164,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/el-corazon-espiritual-de-el-cairo-excursion-islamica-de-un-dia-por-el-cairo",
-    "destination": "/es/tour-privado-por-el-cairo-islamico-ciudadela-mezquitas-y-jan-el-jalili",
+    "destination": "/es/el-gran-tour-por-el-cairo-islamico-siete-siglos-en-un-dia",
     "permanent": true
   },
   {
@@ -12064,7 +12179,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/crucero-integral-de-13-dias-por-el-nilo-de-el-cairo-a-luxor",
-    "destination": "/es/pasaje-real-del-nilo-crucero-de-13-dias-de-el-cairo-a-luxor",
+    "destination": "/es/grandeza-del-nilo-en-15-dias-de-el-cairo-a-asuan-por-el-rio",
     "permanent": true
   },
   {
@@ -12074,7 +12189,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/salida-elegante-traslado-al-aeropuerto-internacional-de-el-cairo",
-    "destination": "/es/traslado-privado-del-hotel-al-aeropuerto-de-el-cairo",
+    "destination": "/es/traslado-privado-del-aeropuerto-de-el-cairo-al-hotel",
     "permanent": true
   },
   {
@@ -12219,7 +12334,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/luxor-and-nile-cruise-vacation-15-day",
-    "destination": "/15-day-luxor-nile-cruise-vacation",
+    "destination": "/11-day-cairo-and-nile-cruise-round-trip",
     "permanent": true
   },
   {
@@ -12384,7 +12499,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/abu-simble-y-el-antiguo-egipto",
-    "destination": "/es/abu-simbel-y-el-antiguo-egipto-en-10-dias",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
     "permanent": true
   },
   {
@@ -12484,7 +12599,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/oasis-de-fayoum-con-las-piramides-de-meydum-y-hawara",
-    "destination": "/es/oasis-de-fayoum-piramides-de-meidum-y-hawara-jornada-completa",
+    "destination": "/es/piramides-de-meidum-y-hawara-desde-el-cairo",
     "permanent": true
   },
   {
@@ -12579,7 +12694,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/best-of-egypt-2",
-    "destination": "/8-days-best-of-egypt-tour-package",
+    "destination": "/cairo-and-nile-cruise-tour",
     "permanent": true
   },
   {
@@ -17209,7 +17324,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/nile-cruise-hurghada-stay-15-day-tour",
-    "destination": "/15-day-nile-cruise-and-hurghada-tour",
+    "destination": "/14-night-nile-cruise-and-hurghada-stay",
     "permanent": true
   },
   {
@@ -19169,7 +19284,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/9-nichikan-no-ejiputo-bunka-to-rekishi-tsua",
-    "destination": "/a-9-day-egypt-tour-of-culture-and-history",
+    "destination": "/cairo-and-nile-cruise-tour",
     "permanent": true
   },
   {
@@ -19204,7 +19319,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/amor-sobre-el-nilo-viaje-romantico-por-egipto-en-10-dias",
-    "destination": "/the-romantic-egypt-tour",
+    "destination": "/10-days-nile-dreamer-tour-experience",
     "permanent": true
   },
   {
@@ -19229,7 +19344,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/asuwan-kara-rukusoru-e-komuombo-edofu-shinden-higaeri-tsua",
-    "destination": "/kom-ombo-and-edfu-temples-day-tour-from-aswan",
+    "destination": "/private-tour-transfer-from-aswan-to-luxor-by-bus",
     "permanent": true
   },
   {
@@ -19424,12 +19539,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/10-days-eternal-egypt-tour",
-    "destination": "/es/maravillas-eternas-excursion-de-10-dias-al-egipto-eterno",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
     "permanent": true
   },
   {
     "source": "/es/9-nichikan-no-ejiputo-bunka-to-rekishi-tsua",
-    "destination": "/es/maravillas-de-egipto-tour-clasico-de-9-dias",
+    "destination": "/es/el-cairo-y-el-nilo-en-8-dias-piramides-rio-luxor-y-asuan",
     "permanent": true
   },
   {
@@ -19639,7 +19754,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/kurashikku-ejiputo-kazoku-no-tabi-kairo-kara-nairu-soshite",
-    "destination": "/es/viaje-familiar-clasico-por-egipto-en-9-dias",
+    "destination": "/es/ocho-dias-para-familias-el-cairo-y-crucero-por-el-nilo-bien-acompasado",
     "permanent": true
   },
   {
@@ -19834,7 +19949,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/faiyumuoashisu-meidumu-hawara-no-piramiddo-shujitsu-tsua",
-    "destination": "/fayoum-oasis-including-pyramids-of-meydum-hawara",
+    "destination": "/meidum-and-hawara-pyramids-from-cairo",
     "permanent": true
   },
   {
@@ -23494,7 +23609,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/時を超えた驚異：10日間の永遠のエジプトツアー",
-    "destination": "/ja/toki-o-koe-ta-kyoi-10-nichikan-no-eien-no-ejiputo-tsua",
+    "destination": "/ja/honshitsu-no-ejiputo-giza-kara-nubia-no-minami-made-10",
     "permanent": true
   },
   {
@@ -23709,7 +23824,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/odisea-egipcia-aventura-de-11-dias-por-el-nilo-la-historia-y-el-mar-rojo",
-    "destination": "/11-day-egypt-tour-of-history-adventure-relaxation",
+    "destination": "/11-day-the-splendor-of-egypt-tour",
     "permanent": true
   },
   {
@@ -23994,7 +24109,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/explore-egypt-and-red-sea",
-    "destination": "/11-day-explore-egypt-and-red-sea-tour",
+    "destination": "/13-day-egypt-nile-sinai-and-red-sea",
     "permanent": true
   },
   {
@@ -24009,7 +24124,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/marvelous-abu-simble-ancient-egypt",
-    "destination": "/10-day-marvelous-abu-simbel-ancient-egypt-tour",
+    "destination": "/10-day-egypt-cairo-alexandria-luxor-aswan",
     "permanent": true
   },
   {
@@ -27074,7 +27189,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/ナイルの愛：ロマンチックなエジプト10日間ツアー",
-    "destination": "/ja/nairu-ni-yorisou-10-nichikan-romantikkuejiputotsua",
+    "destination": "/ja/nairudorima-10-nichikan-kairo-asuwan-nairu-gawa-kuruzu",
     "permanent": true
   },
   {
@@ -27179,7 +27294,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/luxor-to-cairo-egypt-nile-cruise-vacation-from-usa",
-    "destination": "/11-day-nile-cruise-from-luxor-to-cairo",
+    "destination": "/14-day-long-nile-cruise-aswan-cairo",
     "permanent": true
   },
   {
@@ -27299,7 +27414,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/カイロからルクソールへ：13日間の総合ナイルクル",
-    "destination": "/ja/roiyaru-nairu-koro-kairo-kara-rukusoru-e-no-nairu-kuruzu-13",
+    "destination": "/ja/15-nichikan-no-nairu-no-sorei-kairo-kara-asuwan-e-kawa-o",
     "permanent": true
   },
   {
@@ -27739,7 +27854,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/12日間-エジプト・アメージング・ファミリーバケ",
-    "destination": "/ja/12-nichikan-famiri-bakeshon",
+    "destination": "/ja/14-nichikan-no-ejiputoragujuari-kazoku-kiko-piramiddo-kawa",
     "permanent": true
   },
   {
@@ -27829,7 +27944,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/アスワンから古代へ：コム・オンボ＆エドフ神殿",
-    "destination": "/ja/asuwan-kara-rukusoru-e-komuombo-edofu-shinden-higaeri-tsua",
+    "destination": "/ja/puraibeto-sogei-asuwan-kara-rukusoru-e-rikuro-de-tochu-gesha",
     "permanent": true
   },
   {
@@ -27909,7 +28024,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/9-days-cairo-·-st-catherine-·-sharm-el-sheikh",
-    "destination": "/11-day-explore-egypt-and-red-sea-tour",
+    "destination": "/13-day-egypt-nile-sinai-and-red-sea",
     "permanent": true
   },
   {
@@ -29004,17 +29119,17 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/tours-de-8-dias-por-egipto",
-    "destination": "/es/egipto-esencial-en-8-dias-el-cairo-alejandria-asuan-y-luxor",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
     "permanent": true
   },
   {
     "source": "/es/tours-por-egipto-de-10-dias",
-    "destination": "/es/patrimonio-egipcio-descubrimiento-cultural-de-10-dias",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
     "permanent": true
   },
   {
     "source": "/es/tours-por-egipto-de-12-dias",
-    "destination": "/es/viaje-familiar-por-egipto-en-12-dias",
+    "destination": "/es/vacaciones-familiares-de-lujo-en-egipto-en-14-dias",
     "permanent": true
   },
   {
@@ -29104,7 +29219,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/10-day-romantic-egypt-travel-deals-from-germany",
-    "destination": "/the-romantic-egypt-tour",
+    "destination": "/10-days-nile-dreamer-tour-experience",
     "permanent": true
   },
   {
@@ -29164,7 +29279,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/crucero-de-11-dias-por-el-nilo-de-luxor-a-el-cairo",
-    "destination": "/es/gran-travesia-del-nilo-crucero-de-11-dias-de-luxor-a-el-cairo",
+    "destination": "/es/crucero-de-14-dias-por-el-nilo-de-asuan-a-el-cairo-por-el-rio",
     "permanent": true
   },
   {
@@ -29174,7 +29289,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/templos-intemporales-tour-de-10-dias-por-el-maravilloso-abu-simbel-y-el-antiguo-egipto",
-    "destination": "/es/abu-simbel-y-el-antiguo-egipto-en-10-dias",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
     "permanent": true
   },
   {
@@ -29209,12 +29324,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/vacaciones-familiares-de-12-dias-en-egipto",
-    "destination": "/es/viaje-familiar-por-egipto-en-12-dias",
+    "destination": "/es/vacaciones-familiares-de-lujo-en-egipto-en-14-dias",
     "permanent": true
   },
   {
     "source": "/es/lo-mejor-de-egipto-un-recorrido-de-8-dias",
-    "destination": "/es/lo-mejor-de-egipto-en-8-dias-el-cairo-abu-simbel-el-nilo-y-luxor",
+    "destination": "/es/el-cairo-y-el-nilo-en-8-dias-piramides-rio-luxor-y-asuan",
     "permanent": true
   },
   {
@@ -29224,7 +29339,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/programa-paraiso-12-dias-en-egipto-y-el-mar-rojo",
-    "destination": "/es/egipto-y-el-mar-rojo-en-12-dias-el-cairo-el-nilo-luxor-asuan-y-alejandria",
+    "destination": "/es/el-esplendor-de-egipto-en-11-dias",
     "permanent": true
   },
   {
@@ -29234,7 +29349,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/15-dias-por-el-nilo-y-tour-por-hurghada",
-    "destination": "/es/crucero-por-el-nilo-y-hurghada-en-15-dias-luxor-asuan-y-el-mar-rojo",
+    "destination": "/es/crucero-por-el-nilo-de-14-dias-y-estancia-en-hurghada-luxor-asuan-y-el-mar-rojo",
     "permanent": true
   },
   {
@@ -29294,7 +29409,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/templos-de-kom-ombo-y-edfu",
-    "destination": "/es/kom-ombo-y-edfu-desde-asuan-hasta-luxor",
+    "destination": "/es/traslado-privado-de-asuan-a-luxor-con-paradas",
     "permanent": true
   },
   {
@@ -29719,7 +29834,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/ファラオの遺産：10日間のエジプト＆ナイルツアー",
-    "destination": "/ja/fa-rao-no-isan-ejiputo-to-nairu-10-nichikan",
+    "destination": "/ja/nairudorima-10-nichikan-kairo-asuwan-nairu-gawa-kuruzu",
     "permanent": true
   },
   {
@@ -29769,7 +29884,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/ナイルの旅：ルクソール＆ナイルクルーズ15日間の",
-    "destination": "/ja/15-nichikan-no-rukusoru-nairu-kuruzu-no-kyuka-rukusoru-nairu",
+    "destination": "/ja/kairo-to-nairu-kuruzu-no-ofuku-11-nichikan-piramiddo-kawa",
     "permanent": true
   },
   {
@@ -30114,7 +30229,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/amor-en-el-nilo-viaje-de-10-dias-al-egipto-romantico",
-    "destination": "/es/amor-sobre-el-nilo-viaje-romantico-por-egipto-en-10-dias",
+    "destination": "/es/nile-dreamer-10-dias-con-el-nilo-como-eje-del-viaje",
     "permanent": true
   },
   {
@@ -30480,6 +30595,361 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/menfisu-sakkara-josai-hanhariri-kairo-deitsua",
     "destination": "/ja/menfisu-sakkara-shitaderu-han-eru-hariri",
+    "permanent": true
+  },
+  {
+    "source": "/sunrise-hot-air-balloon-ride-over-luxors-ancient-landmarks",
+    "destination": "/skyward-solitude-private-luxor-sunrise-hot-air-balloon-experience",
+    "permanent": true
+  },
+  {
+    "source": "/es/paseo-en-globo-al-amanecer-sobre-los-antiguos-monumentos-de-luxor",
+    "destination": "/es/globo-al-amanecer-en-luxor-media-hora-sobre-la-orilla-occidental",
+    "permanent": true
+  },
+  {
+    "source": "/ja/rukusoru-no-kodai-iseki-o-sora-kara-nagameru-asayake-no",
+    "destination": "/ja/rukusoru-yoake-no-netsu-kikyu-seigan-o-sora-kara-san-ju-fun",
+    "permanent": true
+  },
+  {
+    "source": "/private-tour-memphis-and-saqqara",
+    "destination": "/memphis-saqqara-citadel-khan-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/menfis-saqqara-y-el-cairo-islamico",
+    "destination": "/es/menfis-saqqara-ciudadela-y-khan-el-khalili",
+    "permanent": true
+  },
+  {
+    "source": "/ja/puraibetodeitsua-menfisu-sakkara-soshite-isuramu-chiku-kairo",
+    "destination": "/ja/menfisu-sakkara-shitaderu-han-eru-hariri",
+    "permanent": true
+  },
+  {
+    "source": "/10-day-marvelous-abu-simbel-ancient-egypt-tour",
+    "destination": "/10-day-egypt-cairo-alexandria-luxor-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/abu-simbel-y-el-antiguo-egipto-en-10-dias",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/abu-shin-beru-e-soshite-modoru-kodai-ejiputo-10-nichikan-no",
+    "destination": "/ja/honshitsu-no-ejiputo-giza-kara-nubia-no-minami-made-10",
+    "permanent": true
+  },
+  {
+    "source": "/10-day-egypt-travel-journey-through-history",
+    "destination": "/10-day-egypt-cairo-alexandria-luxor-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/patrimonio-egipcio-descubrimiento-cultural-de-10-dias",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/10-nichikan-no-rekishi-o-meguru-ejiputo-ryoko-jani",
+    "destination": "/ja/honshitsu-no-ejiputo-giza-kara-nubia-no-minami-made-10",
+    "permanent": true
+  },
+  {
+    "source": "/10-days-unforgettable-egypt-tour",
+    "destination": "/10-day-egypt-cairo-alexandria-luxor-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/9-day-classic-egypt-family-adventure",
+    "destination": "/cairo-and-nile-cruise-8-day-family-package",
+    "permanent": true
+  },
+  {
+    "source": "/es/viaje-familiar-clasico-por-egipto-en-9-dias",
+    "destination": "/es/ocho-dias-para-familias-el-cairo-y-crucero-por-el-nilo-bien-acompasado",
+    "permanent": true
+  },
+  {
+    "source": "/ja/kurashikku-ejiputo-kazoku-no-tabi-kairo-kara-nairu-soshite",
+    "destination": "/ja/go-kazoku-no-tame-no-hachi-nichikan-kairo-to-nairu-gawa",
+    "permanent": true
+  },
+  {
+    "source": "/a-9-day-egypt-tour-of-culture-and-history",
+    "destination": "/cairo-and-nile-cruise-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/maravillas-de-egipto-tour-clasico-de-9-dias",
+    "destination": "/es/el-cairo-y-el-nilo-en-8-dias-piramides-rio-luxor-y-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/9-nichikan-no-ejiputo-bunka-to-rekishi-tsua",
+    "destination": "/ja/8-nichikan-kairo-nairu-kuruzu-tsua-piramiddo-kawa-rukusoru",
+    "permanent": true
+  },
+  {
+    "source": "/essential-egypt",
+    "destination": "/10-day-egypt-cairo-alexandria-luxor-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/egipto-esencial-en-8-dias-el-cairo-alejandria-asuan-y-luxor",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/essensharuejiputo-8-nichikan-kairo-arekusandoria-asuwan",
+    "destination": "/ja/honshitsu-no-ejiputo-giza-kara-nubia-no-minami-made-10",
+    "permanent": true
+  },
+  {
+    "source": "/11-day-explore-egypt-and-red-sea-tour",
+    "destination": "/13-day-egypt-nile-sinai-and-red-sea",
+    "permanent": true
+  },
+  {
+    "source": "/es/egipto-y-el-mar-rojo-en-11-dias-luxor-el-nilo-el-cairo-y-sharm-el-sheij",
+    "destination": "/es/egipto-impresionante-en-13-dias-el-cairo-el-nilo-luxor-sinai-y-el-mar-rojo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/11-nichikan-ejiputo-kokai-tambo-rukusoru-nairu-kairo",
+    "destination": "/ja/ejiputo-13-nichikan-kairo-nairu-rukusoru-shinai-kokai",
+    "permanent": true
+  },
+  {
+    "source": "/13-day-impressive-egypt-tour",
+    "destination": "/13-day-egypt-nile-sinai-and-red-sea",
+    "permanent": true
+  },
+  {
+    "source": "/13-day-nile-cruise-from-cairo-to-luxor",
+    "destination": "/15-day-ultimate-nile-cruise-from-cairo-to-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/pasaje-real-del-nilo-crucero-de-13-dias-de-el-cairo-a-luxor",
+    "destination": "/es/grandeza-del-nilo-en-15-dias-de-el-cairo-a-asuan-por-el-rio",
+    "permanent": true
+  },
+  {
+    "source": "/ja/roiyaru-nairu-koro-kairo-kara-rukusoru-e-no-nairu-kuruzu-13",
+    "destination": "/ja/15-nichikan-no-nairu-no-sorei-kairo-kara-asuwan-e-kawa-o",
+    "permanent": true
+  },
+  {
+    "source": "/11-day-nile-cruise-from-luxor-to-cairo",
+    "destination": "/14-day-long-nile-cruise-aswan-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/gran-travesia-del-nilo-crucero-de-11-dias-de-luxor-a-el-cairo",
+    "destination": "/es/crucero-de-14-dias-por-el-nilo-de-asuan-a-el-cairo-por-el-rio",
+    "permanent": true
+  },
+  {
+    "source": "/ja/gurando-nairu-koro-rukusoru-kara-kairo-e-no-nairu-kuruzu-11",
+    "destination": "/ja/14-nichikan-no-chokyori-nairu-kuruzu-asuwan-kara-kairo-e",
+    "permanent": true
+  },
+  {
+    "source": "/15-day-nile-cruise-and-hurghada-tour",
+    "destination": "/14-night-nile-cruise-and-hurghada-stay",
+    "permanent": true
+  },
+  {
+    "source": "/es/crucero-por-el-nilo-y-hurghada-en-15-dias-luxor-asuan-y-el-mar-rojo",
+    "destination": "/es/crucero-por-el-nilo-de-14-dias-y-estancia-en-hurghada-luxor-asuan-y-el-mar-rojo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/15-nichikan-nairu-kuruzu-harugada-rukusoru-asuwan-soshite",
+    "destination": "/ja/14-nichikan-no-nairu-kuruzu-furugada-rukusoru-asuwan-soshite",
+    "permanent": true
+  },
+  {
+    "source": "/11-day-egypt-tour-of-history-adventure-relaxation",
+    "destination": "/11-day-the-splendor-of-egypt-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/odisea-egipcia-aventura-de-11-dias-por-el-nilo-la-historia-y-el-mar-rojo",
+    "destination": "/es/el-esplendor-de-egipto-en-11-dias",
+    "permanent": true
+  },
+  {
+    "source": "/ja/11-nichikan-no-rekishi-boken-rirakuzeshon-no-ejiputo-tsua",
+    "destination": "/ja/ejiputo-no-hana-piramiddo-kara-kokai-e-no-11-nichikan",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-and-the-red-sea-paradise",
+    "destination": "/11-day-the-splendor-of-egypt-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/egipto-y-el-mar-rojo-en-12-dias-el-cairo-el-nilo-luxor-asuan-y-alejandria",
+    "destination": "/es/el-esplendor-de-egipto-en-11-dias",
+    "permanent": true
+  },
+  {
+    "source": "/ja/12-nichikan-ejiputo-to-kokai-kairo-nairu-rukusoru-asuwan",
+    "destination": "/ja/ejiputo-no-hana-piramiddo-kara-kokai-e-no-11-nichikan",
+    "permanent": true
+  },
+  {
+    "source": "/12-day-amazing-family-vacation-in-egypt",
+    "destination": "/14-day-egypt-luxury-family-holiday",
+    "permanent": true
+  },
+  {
+    "source": "/es/viaje-familiar-por-egipto-en-12-dias",
+    "destination": "/es/vacaciones-familiares-de-lujo-en-egipto-en-14-dias",
+    "permanent": true
+  },
+  {
+    "source": "/ja/12-nichikan-famiri-bakeshon",
+    "destination": "/ja/14-nichikan-no-ejiputoragujuari-kazoku-kiko-piramiddo-kawa",
+    "permanent": true
+  },
+  {
+    "source": "/8-day-luxor-to-luxor-cruise",
+    "destination": "/11-day-cairo-and-nile-cruise-round-trip",
+    "permanent": true
+  },
+  {
+    "source": "/es/crucero-de-8-dias-por-el-nilo-de-luxor-a-luxor-templos-tumbas-y-rio",
+    "destination": "/es/el-cairo-y-el-nilo-en-11-dias-ida-y-vuelta-piramides-rio-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/ja/8-nichikan-rukusoru-hatchaku-nairu-kuruzu-shinden-haka",
+    "destination": "/ja/kairo-to-nairu-kuruzu-no-ofuku-11-nichikan-piramiddo-kawa",
+    "permanent": true
+  },
+  {
+    "source": "/15-day-luxor-nile-cruise-vacation",
+    "destination": "/11-day-cairo-and-nile-cruise-round-trip",
+    "permanent": true
+  },
+  {
+    "source": "/es/vacaciones-de-15-dias-en-luxor-y-crucero-por-el-nilo-luxor-el-nilo-y-el-cairo",
+    "destination": "/es/el-cairo-y-el-nilo-en-11-dias-ida-y-vuelta-piramides-rio-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/ja/15-nichikan-no-rukusoru-nairu-kuruzu-no-kyuka-rukusoru-nairu",
+    "destination": "/ja/kairo-to-nairu-kuruzu-no-ofuku-11-nichikan-piramiddo-kawa",
+    "permanent": true
+  },
+  {
+    "source": "/10-days-eternal-egypt-tour",
+    "destination": "/10-day-egypt-cairo-alexandria-luxor-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/maravillas-eternas-excursion-de-10-dias-al-egipto-eterno",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/toki-o-koe-ta-kyoi-10-nichikan-no-eien-no-ejiputo-tsua",
+    "destination": "/ja/honshitsu-no-ejiputo-giza-kara-nubia-no-minami-made-10",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-and-the-nile-tour",
+    "destination": "/10-days-nile-dreamer-tour-experience",
+    "permanent": true
+  },
+  {
+    "source": "/es/legado-de-los-faraones-egipto-y-el-nilo-en-10-dias",
+    "destination": "/es/nile-dreamer-10-dias-con-el-nilo-como-eje-del-viaje",
+    "permanent": true
+  },
+  {
+    "source": "/ja/fa-rao-no-isan-ejiputo-to-nairu-10-nichikan",
+    "destination": "/ja/nairudorima-10-nichikan-kairo-asuwan-nairu-gawa-kuruzu",
+    "permanent": true
+  },
+  {
+    "source": "/the-romantic-egypt-tour",
+    "destination": "/10-days-nile-dreamer-tour-experience",
+    "permanent": true
+  },
+  {
+    "source": "/es/amor-sobre-el-nilo-viaje-romantico-por-egipto-en-10-dias",
+    "destination": "/es/nile-dreamer-10-dias-con-el-nilo-como-eje-del-viaje",
+    "permanent": true
+  },
+  {
+    "source": "/ja/nairu-ni-yorisou-10-nichikan-romantikkuejiputotsua",
+    "destination": "/ja/nairudorima-10-nichikan-kairo-asuwan-nairu-gawa-kuruzu",
+    "permanent": true
+  },
+  {
+    "source": "/7-days-in-egypt-pyramids-temples-and-timeless-wonders",
+    "destination": "/epic-egyptian-escape-a-7-day-adventure-from-pyramids-to-pharaohs",
+    "permanent": true
+  },
+  {
+    "source": "/es/siete-dias-en-egipto-el-cairo-alejandria-asuan-luxor",
+    "destination": "/es/egipto-en-7-dias-el-cairo-crucero-por-el-nilo-luxor-y-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-nana-nichikan-kairo-arekusandoria-asuwan-rukusoru",
+    "destination": "/ja/7-nichikan-no-ejiputo-kairo-nairu-kuruzu-rukusoru-to-asuwan",
+    "permanent": true
+  },
+  {
+    "source": "/8-days-best-of-egypt-tour-package",
+    "destination": "/cairo-and-nile-cruise-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/lo-mejor-de-egipto-en-8-dias-el-cairo-abu-simbel-el-nilo-y-luxor",
+    "destination": "/es/el-cairo-y-el-nilo-en-8-dias-piramides-rio-luxor-y-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-hairaito-8-nichikan-kairo-abu-shin-beru-nairu",
+    "destination": "/ja/8-nichikan-kairo-nairu-kuruzu-tsua-piramiddo-kawa-rukusoru",
+    "permanent": true
+  },
+  {
+    "source": "/transfer-from-hotel-to-airport",
+    "destination": "/transfer-from-cairo-airport-to-hotel",
+    "permanent": true
+  },
+  {
+    "source": "/es/traslado-privado-del-hotel-al-aeropuerto-de-el-cairo",
+    "destination": "/es/traslado-privado-del-aeropuerto-de-el-cairo-al-hotel",
+    "permanent": true
+  },
+  {
+    "source": "/ja/hoteru-kara-kairo-kokusai-kuko-e-puraibeto-shuppatsu-sogei",
+    "destination": "/ja/kairo-kuko-kara-hoteru-e-puraibeto-tochaku-sogei",
+    "permanent": true
+  },
+  {
+    "source": "/ramasside-tours-desert-adventure-snorkeling-experience",
+    "destination": "/ramasside-tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/de-sharm-a-dahab-un-dia-entre-el-desierto-del-sinai-y-el-blue-hole",
+    "destination": "/es/tours-ramasside-aventura-en-el-desierto-y-experiencia-de-snorkel",
+    "permanent": true
+  },
+  {
+    "source": "/ja/sharumu-kara-dahabu-e-shinai-sabaku-no-nairiku-to-buruhoru-o",
+    "destination": "/ja/ramesses-jidai-tsua",
     "permanent": true
   }
 ];

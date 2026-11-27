@@ -1,0 +1,1737 @@
+{
+ "_createdAt": "2026-05-13T22:20:57Z",
+ "_id": "wp-page-136566",
+ "_rev": "I13soljhRYf3SIEeZeYD9t",
+ "_type": "tour",
+ "_updatedAt": "2026-11-18T12:50:32Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "First-time visitors with a week; travellers who want the four headline cities done well rather than a dozen done shallow"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Visitantes primerizos con una semana; viajeros que prefieren las cuatro ciudades clave bien hechas a una docena hechas a medias"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "一週間しかない初訪エジプトの方／十二の都市を浅く見るより、四つの主要都市をきちんと押さえたい方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Seven Days in Egypt: Cairo, Alexandria, Aswan, Luxor"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A private week-long arc through the four cities most travellers come for — paced so that the Pyramids, the High Dam, and the Theban west bank each get a real day."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Seven days is the duration most first-time visitors to Egypt actually have, and the four cities they almost always want to see are Cairo, Alexandria, Aswan and Luxor. This itinerary takes them in that order: an opening Cairo block that now reckons with the Grand Egyptian Museum (fully opened 1 November 2025), a coastal day at Alexandria, a sleeper-train leg south to Aswan, and a hard finish in Luxor before the flight home."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "It is private throughout — your own Egyptologist guide, private transfers, the train and the Aswan–Luxor leg arranged as a single piece. There is a way to do this trip badly (rushing six sites a day) and a way to do it well (one defining site per morning, one in the afternoon, and the evenings left alone), and the route below is built for the latter."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo: the frame"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The trip opens in Cairo, where the rest of the week sits in context. Day one is settling — the airport welcome, the transfer to the hotel, a slow afternoon if the flight has been long."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "The next morning is Giza. The pyramids of Khufu, Khafre and Menkaure stand on the desert plateau roughly five kilometres from the modern city's edge, built around 2500 BC; Khufu's, the largest, was the tallest building on earth for nearly four thousand years. The Sphinx, carved from a single limestone outcrop, sits below — the cause of more scholarly disagreement about date than any other Egyptian monument. Your guide will resolve what can be resolved and flag what cannot."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "The Grand Egyptian Museum, on the same plateau, is the new home of the Tutankhamun collection — all 5,000-plus pieces in one place for the first time, since the museum's full opening on 1 November 2025. The Royal Mummies remain at the National Museum of Egyptian Civilisation (NMEC) in Old Cairo, where they were moved in the 2021 Pharaohs' Golden Parade; if your interest is the mummies themselves, NMEC is the visit."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "A Cairo evening belongs to Khan el-Khalili, the medieval bazaar trading continuously since the fourteenth century, and the surrounding lanes of Islamic Cairo — al-Muizz Street, the Sultan Hassan and al-Rifa'i mosques opposite the Citadel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Alexandria: the Mediterranean day"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "A day-trip north to Alexandria, three hours each way by road, gives the trip its Mediterranean axis. The city was founded by Alexander the Great in 331 BC after his Siwa visit, and for the next three centuries it was the intellectual capital of the Hellenistic world."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "What survives above ground from that era is little — the ancient Library is gone; the Pharos lighthouse fell in fourteenth-century earthquakes; most of the Ptolemaic city lies under the modern one or under the harbour. What you visit is what was preserved: the Catacombs of Kom el-Shoqafa, a Roman-era multi-storey necropolis carved into the rock; the Roman Theatre at Kom el-Dikka; and the Bibliotheca Alexandrina, the 2002 modern library that gestures at the ancient one without pretending to replace it. The Citadel of Qaitbay sits on the foundations of the old lighthouse, with a view of the harbour and an Ottoman naval museum inside."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Lunch is seafood by the marina; the drive returns to Cairo by evening."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "The sleeper-train south"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "The transition from the Delta to Upper Egypt is by sleeper train — a working overnight service that leaves Cairo's Ramses station in the evening and arrives in Aswan around lunchtime. The cabins are basic but functional; dinner is on board. This is the only piece of the trip with a romance most travellers do not expect, and the only way of moving south that lets you sleep through the otherwise long transit."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan: Philae and the High Dam"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan is a slower city than Cairo or Luxor — the Nile narrows here, the desert reaches the river, and the geography itself argues for a pause."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Philae Temple, dedicated to Isis, is reached by motor launch — the whole complex was lifted between 1972 and 1980 from its original island to Agilkia after the High Dam's reservoir flooded the lower cataract. The reliefs of Isis nursing Horus are exceptionally well preserved; the temple was one of the last ancient Egyptian religious sites still functioning, closed only in the sixth century AD when the Justinian decrees took effect."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "The High Dam, completed in 1970, is the modern bookend — the project that created Lake Nasser, displaced roughly 100,000 Nubians whose ancestral villages now lie under the water, and necessitated the rescue of Philae, Abu Simbel and a dozen other temples. Your guide will explain what was lost as well as what was gained."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Abu Simbel — the great rock-cut temples of Ramses II and Nefertari, lifted 65 metres up the cliff between 1964 and 1968 to escape the rising lake, with the solar alignment on the inner sanctuary preserved to within a day of its original 22 February and 22 October dates — is an option here, added either as a flight from Aswan or as the first stop of the Luxor leg. It is the single most ambitious archaeological rescue in history, and most travellers wish they had not skipped it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "A felucca sail at sunset around Elephantine Island, where the Nilometer used to measure the river's annual rise, is the way the city is normally closed."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor: the deep middle"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor is the close — ancient Thebes, the New Kingdom capital, with more monumental architecture per square kilometre than anywhere on earth. Two days do not exhaust it; two days do most of what matters."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "The east bank is the world of the living. Karnak is not one temple but a complex built and rebuilt across roughly 1,500 years, dedicated to Amun-Ra; its Great Hypostyle Hall holds 134 columns, the largest of them rising 21 metres, and is the part travellers stop talking in. Hatshepsut's surviving obelisk at Karnak, 29.5 metres tall, is among the largest still standing anywhere. Luxor Temple, downriver in the modern town, is connected to Karnak by the Avenue of Sphinxes — the three-kilometre processional way reopened with ceremony in November 2021 after decades of excavation."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "The west bank is the world of the dead. The Valley of the Kings, the royal necropolis of the New Kingdom — Tutankhamun, Ramses VI, Seti I, and dozens more — gives you three painted tombs to walk through on a standard ticket; your guide will sequence them by current opening and crowding. Hatshepsut's mortuary temple at Deir el-Bahari rises in terraces against the cliff at the head of the valley. The Colossi of Memnon — two seated quartzite statues of Amenhotep III, eighteen metres tall, all that remains above ground of his mortuary temple — stand alone in the fields."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Karnak in the morning, west bank in the afternoon, with the order reversed if the heat suggests it. A flight to Cairo closes the trip."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "How this journey works"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a private departure, your party alone. The shape above — Cairo, Alexandria, Aswan by train, Luxor, flight home — is the most efficient way to see the four headline cities in seven days, and your Egyptologist will tune the pace, the museum choices, and the Abu Simbel question to fit. It is a fast week, honestly; it is not a slow one. Whether to add the Abu Simbel day, whether to swap the sleeper train for a domestic flight, and whether to extend either end is the conversation that turns the spine into your trip."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Seven days will not finish Egypt — the country is too large and too old for that — but it will give you the four cities that frame everything else."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The shape of the journey"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "Where · Cairo → Alexandria (day-trip) → Cairo → Aswan (sleeper train) → Luxor → Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": "Duration · 7 days / 6 nights — adjustable; Abu Simbel addable as a day or extra night"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000041",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": "Character · Fully private · your own Egyptologist · sleeper train south · domestic flight north · brisk pace"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Siete días en Egipto: El Cairo, Alejandría, Asuán, Luxor"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un arco privado de una semana por las cuatro ciudades que casi todo el mundo busca, dispuesto para que las pirámides, la Presa Alta y la orilla occidental tebana reciban cada una su jornada real."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Siete días es la duración que la mayoría de visitantes primerizos a Egipto tiene en realidad, y las cuatro ciudades que casi siempre quieren ver son El Cairo, Alejandría, Asuán y Luxor. Este itinerario las toma en ese orden: un bloque inicial en El Cairo que ahora se reconcilia con el Gran Museo Egipcio (abrió completamente el 1 de noviembre de 2025), una jornada costera en Alejandría, un tramo en tren-cama al sur hasta Asuán y un cierre intenso en Luxor antes del vuelo de regreso."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Es privado de principio a fin: su propio egiptólogo, traslados privados, el tren y el tramo Asuán–Luxor dispuestos como una sola pieza. Hay una manera mala de hacer este viaje (precipitando seis sitios al día) y una buena (un yacimiento que defina cada mañana, otro por la tarde, y las veladas en paz), y la ruta de abajo se construye para la segunda."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo: el marco"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "El viaje abre en El Cairo, donde el resto de la semana se ubica en su contexto. El primer día es de aterrizaje: bienvenida en el aeropuerto, traslado al hotel y una tarde lenta si el vuelo ha sido largo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "A la mañana siguiente, Giza. Las pirámides de Keops, Kefrén y Micerinos se alzan en la meseta desértica a unos cinco kilómetros del borde de la ciudad moderna, levantadas hacia el 2500 a. C.; la de Keops, la mayor, fue durante casi cuatro mil años el edificio más alto de la Tierra. La Esfinge, tallada en un único afloramiento de caliza, descansa abajo: la causa de más desacuerdo erudito sobre su fecha que cualquier otro monumento egipcio. Su guía resolverá lo que pueda resolverse y señalará lo que no."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "El Gran Museo Egipcio, en la misma meseta, es la nueva casa de la colección de Tutankamón: las más de 5000 piezas en un solo lugar por primera vez, desde la apertura completa del museo el 1 de noviembre de 2025. Las momias reales permanecen en el Museo Nacional de la Civilización Egipcia (NMEC), en El Cairo Antiguo, adonde fueron trasladadas en el Desfile Dorado de los Faraones de 2021; si su interés son las propias momias, NMEC es la visita."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Una tarde en El Cairo pertenece al Jan el-Jalili, el bazar medieval que comercia ininterrumpidamente desde el siglo XIV, y a las callejas circundantes del Cairo islámico —la calle al-Muizz, las mezquitas del sultán Hasán y al-Rifa'i frente a la Ciudadela."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Alejandría: la jornada mediterránea"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Una excursión al norte a Alejandría, tres horas en cada sentido por carretera, da al viaje su eje mediterráneo. La ciudad fue fundada por Alejandro Magno en el 331 a. C. tras su visita a Siwa, y durante los tres siglos siguientes fue la capital intelectual del mundo helenístico."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Lo que sobrevive sobre tierra de aquella época es poco: la antigua Biblioteca desapareció, el faro de Pharos cayó en los terremotos del siglo XIV, la mayor parte de la ciudad ptolemaica yace bajo la moderna o bajo el puerto. Lo que se visita es lo que se preservó: las catacumbas de Kom el-Shoqafa, una necrópolis romana de varios niveles tallada en la roca; el teatro romano de Kom el-Dikka; y la Bibliotheca Alexandrina, la biblioteca moderna de 2002 que gesticula hacia la antigua sin pretender sustituirla. La Ciudadela de Qaitbay se asienta sobre los cimientos del antiguo faro, con una vista del puerto y un museo naval otomano en su interior."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "El almuerzo es marisco junto al puerto deportivo; el regreso por carretera a El Cairo es al final de la tarde."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "El tren-cama al sur"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "La transición del Delta al Alto Egipto se hace en tren-cama, un servicio nocturno operativo que sale de la estación de Ramsés de El Cairo por la noche y llega a Asuán hacia el mediodía. Los compartimentos son básicos pero funcionales; la cena es a bordo. Es la única pieza del viaje con un romanticismo que la mayoría no espera, y la única forma de avanzar al sur que permite dormir durante el trayecto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Asuán: File y la Presa Alta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Asuán es una ciudad más lenta que El Cairo o Luxor: el Nilo se estrecha aquí, el desierto alcanza el río y la propia geografía aboga por la pausa."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "El Templo de File, dedicado a Isis, se alcanza en lancha. El complejo entero fue trasladado entre 1972 y 1980 desde su isla original a la de Agilkia tras anegar la Presa Alta la catarata baja. Los relieves de Isis amamantando a Horus están excepcionalmente bien conservados; el templo fue uno de los últimos lugares religiosos del antiguo Egipto en funcionamiento, cerrado sólo en el siglo VI d. C., cuando los decretos de Justiniano entraron en vigor."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "La Presa Alta, completada en 1970, es el contrapunto moderno: el proyecto que creó el lago Nasser, desplazó a alrededor de 100 000 nubios cuyas aldeas ancestrales yacen hoy bajo el agua e hizo necesario el rescate de File, Abu Simbel y otra docena de templos. Su guía explicará lo que se perdió tanto como lo que se ganó."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Abu Simbel —los grandes templos rupestres de Ramsés II y Nefertari, elevados 65 metros por el acantilado entre 1964 y 1968 para escapar del lago en ascenso, con la alineación solar del santuario interior preservada con apenas un día de desfase respecto a sus fechas originales del 22 de febrero y el 22 de octubre— es una opción aquí, añadida ya como vuelo desde Asuán, ya como primera parada del tramo de Luxor. Es el rescate arqueológico más ambicioso de la historia, y la mayoría de viajeros lamentan haberlo saltado."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Una salida en faluca al atardecer alrededor de la isla Elefantina, donde el nilómetro medía la crecida anual del río, es la manera habitual de cerrar la ciudad."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor: el centro hondo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor es el cierre: la antigua Tebas, capital del Reino Nuevo, con más arquitectura monumental por kilómetro cuadrado que cualquier otro lugar del planeta. Dos días no la agotan; dos días cubren lo que importa."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "La orilla oriental es el mundo de los vivos. Karnak no es un templo sino un complejo construido y reconstruido a lo largo de unos 1500 años, dedicado a Amón-Ra; su gran sala hipóstila alberga 134 columnas, la mayor de ellas se eleva 21 metros, y es la parte en la que los viajeros dejan de hablar. El obelisco superviviente de Hatshepsut en Karnak, de 29,5 metros, está entre los mayores aún en pie en cualquier parte. El Templo de Luxor, río abajo en la ciudad moderna, está conectado con Karnak por la Avenida de las Esfinges, la vía procesional de tres kilómetros reabierta ceremonialmente en noviembre de 2021 tras décadas de excavación."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "La orilla occidental es el mundo de los muertos. El Valle de los Reyes, la necrópolis real del Reino Nuevo —Tutankamón, Ramsés VI, Seti I y decenas más—, da derecho a tres tumbas pintadas con la entrada estándar; su guía las ordenará según las aperturas actuales y la afluencia. El templo funerario de Hatshepsut en Deir el-Bahari se eleva en terrazas contra el acantilado, en la cabecera del valle. Los Colosos de Memnón —dos estatuas sedentes de cuarcita de Amenhotep III, de dieciocho metros, todo lo que queda sobre tierra de su templo funerario— se alzan solos en los campos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Karnak por la mañana, orilla occidental por la tarde, con el orden invertido si el calor lo aconseja. Un vuelo a El Cairo cierra el viaje."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "Cómo funciona este trayecto"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "Es una salida privada, sólo su grupo. La forma anterior —El Cairo, Alejandría, Asuán en tren, Luxor, vuelo de regreso— es la manera más eficiente de ver las cuatro ciudades clave en siete días, y su egiptólogo afinará el ritmo, las decisiones de museo y la cuestión de Abu Simbel para que encajen. Es una semana rápida, honestamente; no es una semana lenta. Si añadir la jornada de Abu Simbel, si cambiar el tren-cama por un vuelo doméstico y si extender alguno de los dos extremos son las conversaciones que convierten la columna vertebral en su viaje."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Siete días no acabarán con Egipto —el país es demasiado grande y demasiado antiguo para eso—, pero le entregarán las cuatro ciudades que enmarcan el resto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La forma del viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "Dónde · El Cairo → Alejandría (excursión) → El Cairo → Asuán (tren-cama) → Luxor → El Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": "Duración · 7 días / 6 noches — ajustable; Abu Simbel añadible como jornada o noche extra"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000041",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": "Carácter · Salida privada · su propio egiptólogo · tren-cama al sur · vuelo doméstico al norte · ritmo enérgico"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプト七日間――カイロ、アレクサンドリア、アスワン、ルクソール"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "多くの旅人が訪れる四つの都市を、一週間で。ピラミッド、ハイダム、テーベ西岸――それぞれに本物の一日を与える私的旅程。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "七日間は、初めてエジプトを訪れる旅人が実際に確保できる日数で、誰もがほぼ必ず見たい都市はカイロ、アレクサンドリア、アスワン、ルクソールの四つです。この旅程はその順に組み立てています――2025年11月1日に全面開館した大エジプト博物館（GEM）を組み込んだカイロでの導入、地中海沿岸の一日としてアレクサンドリア、寝台列車でアスワンへ南下、最後にルクソールでの締めくくりを経て帰路へ。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "すべてが完全プライベート――専属のエジプト学ガイド、私的な送迎、列車手配とアスワン〜ルクソール区間も一体の手配です。この旅は悪く回す方法（一日に六遺跡を駆け抜ける）と、きちんと回す方法（午前に主役を一つ、午後に一つ、夕方は空ける）があり、以下の道筋は後者のために組まれています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロ――旅の額縁"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "旅はカイロから始まります。残り一週間がここで文脈に置かれます。一日目は到着の日――空港出迎え、ホテルへの送迎、長距離フライトのあとはゆっくりとした午後。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "翌朝はギザ。クフ王、カフラー王、メンカウラー王のピラミッドは、紀元前2500年頃に現代カイロ縁から約五キロの砂漠台地に築かれました。最大のクフ王のピラミッドは、四千年近くにわたり地上で最も高い建造物でした。一枚岩の石灰岩から彫り出されたスフィンクスは台地の下に座し、その年代をめぐる学術論争はエジプトの記念建造物の中でも最も長く続いています。ガイドは解決できる議論を整理し、解決できないものを率直に示します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "同じ台地上の大エジプト博物館は、2025年11月1日の全面開館以降、ツタンカーメンのコレクション全体が史上初めて単一の館に集約された場所です（5,000点超）。王のミイラ群は依然として旧カイロの国立エジプト文明博物館（NMEC）にあり、2021年の「ファラオの黄金パレード」で移送されました。ミイラそのものが目的であればNMECです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロの夜は、十四世紀から連続して商取引が続くハーン・ハリーリ市場と、その周辺のイスラム・カイロの路地――ムイッズ通り、城塞の向かいに対峙して立つスルタン・ハサン廟院とアル・リファイ廟院――に捧げられます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "アレクサンドリア――地中海の一日"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "アレクサンドリアへの北行き日帰り（片道三時間の陸路）は、この旅に地中海の軸を与えます。紀元前331年、シワ訪問の後にアレクサンドロス大王が建設した都市で、その後三世紀にわたりヘレニズム世界の知的中心地でした。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "その時代から地上に残るものはわずかです――古代図書館は失われ、ファロス灯台は十四世紀の地震で崩落し、プトレマイオス朝の都市の大半は近代都市の下、あるいは港の下に沈みました。訪れるのは保存されたもの――岩を彫って造られた多階層のローマ期ネクロポリス、コム・エル・ショカファ地下墓地。コム・エル・ディッカのローマ劇場。古代図書館を置き換えるふりをせず、その記憶へと身振りする2002年の現代建築、新アレクサンドリア図書館。カイトベイ要塞は旧灯台の基礎の上に建ち、港の眺望とオスマン期の海軍博物館を内に持ちます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "昼食はマリーナで海鮮、夕刻にはカイロへ戻ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "寝台列車で南へ"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "デルタから上エジプトへの移行は寝台列車で。夕方にラムセス駅を出て、翌日の昼前後にアスワンへ着く実働の夜行便です。キャビンは簡素ですが機能的、夕食は車内で。多くの旅人が予期しないロマンスを唯一持つ区間であり、長い陸路移動をそのまま眠って越せる唯一の方法でもあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワン――フィラエとハイダム"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワンはカイロやルクソールよりゆったりした街です。ナイル川がここで狭まり、砂漠が川辺まで迫り、地勢そのものが小休止を求めます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "イシス神殿として知られるフィラエ神殿へは小型ボートで渡ります。アスワン・ハイダムが第一急湍を水没させたあと、神殿群全体は1972〜1980年にかけてアギルキア島へ移設されました。ホルスに授乳するイシスのレリーフの保存状態は格別で、神殿は古代エジプトの宗教施設のうち最後まで機能していたものの一つで、閉鎖は六世紀のユスティニアヌス勅令の発効後でした。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "1970年完成のハイダムは近代側のもう一方の柱です。ナセル湖を生み、約10万人のヌビア人を先祖代々の村から移住させ、フィラエやアブ・シンベルなど十数の神殿の救出を必要としたプロジェクト。ガイドは得たものと失ったものの両方を語ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "アブ・シンベル――ラムセス二世とネフェルタリの岩窟神殿、1964〜1968年に湖面の上昇から逃れるべく崖を65メートル上方へ移築。内陣の太陽整列は元の2月22日と10月22日の日付の一日以内の精度で保存――は、ここで選択肢として現れます。アスワンからの飛行機での日帰り、あるいはルクソール行程の最初の寄港地として加えることができます。考古史上最も野心的な救出事業であり、訪れずに帰った旅人の多くが後悔するところです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "エレファンティン島の周りを夕暮れにファルーカで――かつてナイロメーターが川の年来の増水を測った島――。これがアスワンの締め方です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソール――深い中盤"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールが旅の終結です――古代テーベ、新王国の首都、平方キロあたりの記念建造物密度は地上で最も濃い場所。二日間でも尽くせませんが、二日間で核心は押さえられます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "東岸は生者の世界です。カルナックは単一の神殿ではなく、約1,500年にわたって築かれ続けたアムン・ラー神に捧げる複合体。大列柱室の柱は134本、最大級のものは21メートルに達し、旅人が言葉を失う一画です。カルナックに現存するハトシェプストのオベリスクは高さ29.5メートル、地上に立つものの中でも最大級です。下流のルクソール神殿は、2021年11月に式典開通したスフィンクス参道――三キロにわたる行列道――でカルナックと結ばれています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "西岸は死者の世界です。新王国の王家のネクロポリスである王家の谷――ツタンカーメン、ラムセス六世、セティ一世、その他多数――では、標準チケットで三つの彩色墓を歩きます。ガイドは現時点の開放状況と混雑を踏まえて順番を組みます。デイル・エル・バハリのハトシェプスト葬祭殿は崖を背に段状にせり上がります。メムノンの巨像は、アメンホテプ三世の葬祭殿のうち今も地上に残る唯一の遺構で、18メートルの石英岩座像二体が田畑に佇んでいます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "午前にカルナック、午後に西岸――暑さ次第で順序は反転します。カイロへの便で旅を閉じます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "この旅の組み立て方"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "完全プライベート出発、ご一行のみで。上記の形――カイロ、アレクサンドリア、寝台列車でアスワン、ルクソール、帰路――は、一週間で四都市を見るための最も効率的な構成です。エジプト学ガイドが歩調、博物館の選択、アブ・シンベルを入れるかどうかを微調整します。一週間は正直に言って速いペースで、ゆったりした一週間ではありません。アブ・シンベルを加えるか、寝台列車を国内線に置き換えるか、両端を延ばすか――こうした選択肢を会話で詰めることで、骨格はあなたの旅になります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "七日間でエジプトを終えることはできません。国土はあまりに広く、あまりに古い。けれども、それ以外のすべてに枠を与える四都市を、七日間は与えてくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "旅の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · カイロ → アレクサンドリア（日帰り） → カイロ → アスワン（寝台列車） → ルクソール → カイロ"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": "日数 · 7日間／6泊 — 調整可能。アブ・シンベルは日帰りまたは一泊で追加可"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000041",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 完全プライベート · 専属のエジプト学ガイド · 南行きは寝台列車 · 北行きは国内線 · テンポは速め"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "wp-page-83284",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private journey is built around your party. Tell our team whether you'd want to fold in Abu Simbel, whether the sleeper train suits or the domestic flight is better, and whether the GEM and Old Cairo both belong in the same Cairo block — and we'll shape the seven days to fit."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Un trayecto privado se construye en torno a su grupo. Díganos a nuestro equipo si quiere plegar dentro Abu Simbel, si el tren-cama le encaja o el vuelo doméstico le conviene más, y si el GEM y El Cairo Antiguo pertenecen al mismo bloque cairota, y daremos forma a los siete días para que se ajusten."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "私的な旅はご一行に合わせて作ります。アブ・シンベルを織り込むか、寝台列車が合うか国内線が良いか、GEMと旧カイロの両方を同じカイロ滞在に入れるか――お聞かせください。七日間の形を整えます。"
+  }
+ ],
+ "durationDays": 7,
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 1756,
+  "ja": 1790
+ },
+ "heroImage": {
+  "_type": "image",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "View along the Nile in central Cairo with a river boat, bridge and high-rise buildings on the bank"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Vista del Nilo en el centro de El Cairo con un barco fluvial, un puente y edificios altos en la orilla"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "川船、橋、岸辺の高層ビルが並ぶカイロ中心部のナイル川の眺め"
+   }
+  ],
+  "asset": {
+   "_ref": "image-a5ef233f7320eedc91a55f7d7364a9bdc3fa6bf1-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A small boat crosses the Nile in central Cairo, the city's towers and a bridge spanning the skyline."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Una barca cruza el Nilo en el centro de El Cairo, con las torres de la ciudad y un puente al fondo."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "小舟がカイロ中心部のナイル川を渡り、街のビル群と橋が空を区切る。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "qe4ade966a",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "It is private throughout — your own Egyptologist guide, private transfers, the train and the Aswan–Luxor leg arranged as a single piece.",
+   "text": "Your own Egyptologist guide"
+  },
+  {
+   "_key": "tseyipq9hd",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "It is private throughout — your own Egyptologist guide, private transfers, the train and the Aswan–Luxor leg arranged as a single piece.",
+   "text": "Private transfers"
+  },
+  {
+   "_key": "eg58q181ht",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "It is private throughout — your own Egyptologist guide, private transfers, the train and the Aswan–Luxor leg arranged as a single piece.",
+   "text": "The train and the Aswan–Luxor leg"
+  },
+  {
+   "_key": "i788t2j0xm",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The cabins are basic but functional; dinner is on board.",
+   "text": "Dinner on board the sleeper train"
+  },
+  {
+   "_key": "xv0zi6hght",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Es privado de principio a fin: su propio egiptólogo, traslados privados, el tren y el tramo Asuán–Luxor dispuestos como una sola pieza.",
+   "text": "su propio egiptólogo"
+  },
+  {
+   "_key": "kc6atekzo0",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Es privado de principio a fin: su propio egiptólogo, traslados privados, el tren y el tramo Asuán–Luxor dispuestos como una sola pieza.",
+   "text": "traslados privados"
+  },
+  {
+   "_key": "jyajqgdisi",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Es privado de principio a fin: su propio egiptólogo, traslados privados, el tren y el tramo Asuán–Luxor dispuestos como una sola pieza.",
+   "text": "el tren"
+  },
+  {
+   "_key": "iwu9q4gus8",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Es privado de principio a fin: su propio egiptólogo, traslados privados, el tren y el tramo Asuán–Luxor dispuestos como una sola pieza.",
+   "text": "el tramo Asuán–Luxor"
+  },
+  {
+   "_key": "4lpjgevqb8",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "すべてが完全プライベート――専属のエジプト学ガイド、私的な送迎、列車手配とアスワン〜ルクソール区間も一体の手配です。",
+   "text": "専属のエジプト学ガイド"
+  },
+  {
+   "_key": "xilul6g959",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "すべてが完全プライベート――専属のエジプト学ガイド、私的な送迎、列車手配とアスワン〜ルクソール区間も一体の手配です。",
+   "text": "私的な送迎"
+  },
+  {
+   "_key": "ziv872ceio",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "すべてが完全プライベート――専属のエジプト学ガイド、私的な送迎、列車手配とアスワン〜ルクソール区間も一体の手配です。",
+   "text": "列車手配"
+  },
+  {
+   "_key": "ruq5ohlmoy",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "すべてが完全プライベート――専属のエジプト学ガイド、私的な送迎、列車手配とアスワン〜ルクソール区間も一体の手配です。",
+   "text": "アスワン〜ルクソール区間の手配"
+  },
+  {
+   "_key": "pey0b80365",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "一日目は到着の日――空港出迎え、ホテルへの送迎、長距離フライトのあとはゆっくりとした午後。",
+   "text": "空港出迎え、ホテルへの送迎"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/7-days-in-egypt-pyramids-temples-and-timeless-wonders/"
+ },
+ "priceFrom": 1700,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_156421",
+   "_ref": "wp-page-156421",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_136519",
+   "_ref": "wp-page-136519",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_87974",
+   "_ref": "wp-page-89510",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_89895",
+   "_ref": "wp-page-89895",
+   "_type": "reference"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "7-days-in-egypt-pyramids-temples-and-timeless-wonders"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "siete-dias-en-egipto-el-cairo-alejandria-asuan-luxor"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "ejiputo-nana-nichikan-kairo-arekusandoria-asuwan-rukusoru"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A private week-long arc through the four cities most travellers come for — paced so that the Pyramids, the High Dam, and the Theban west bank each get a real day."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Un arco privado de una semana por las cuatro ciudades que casi todo el mundo busca, dispuesto para que las pirámides, la Presa Alta y la orilla occidental tebana reciban cada una su jornada real."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "多くの旅人が訪れる四つの都市を、一週間で。ピラミッド、ハイダム、テーベ西岸――それぞれに本物の一日を与える私的旅程。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-egypt-in-depth",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Seven Days in Egypt: Cairo, Alexandria, Aswan, Luxor"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Siete días en Egipto: El Cairo, Alejandría, Asuán, Luxor"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "エジプト七日間――カイロ、アレクサンドリア、アスワン、ルクソール"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}

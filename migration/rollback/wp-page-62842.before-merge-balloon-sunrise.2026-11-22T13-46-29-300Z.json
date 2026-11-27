@@ -1,0 +1,2465 @@
+{
+ "_createdAt": "2026-05-06T23:03:45Z",
+ "_id": "wp-page-62842",
+ "_rev": "44OBfc3nyoMiSJNtmPbjhs",
+ "_type": "wikiMonument",
+ "_updatedAt": "2026-10-31T12:07:58Z",
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "The Roman Fortress at Dush"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000008",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "Located at the southernmost edge of "
+      },
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [
+        "000000000003"
+       ],
+       "text": "Kharga Oasis"
+      },
+      {
+       "_key": "000000000005",
+       "_type": "span",
+       "marks": [],
+       "text": ", the Roman Fortress at Dush, known simply as el-Qasr (‘the Fortress’), stands as a testament to the historical richness of this region. This mudbrick structure, measuring approximately 30m by 20m, once served as a vital military outpost during Roman times. It’s debated whether its primary function was as a military guard-post or as a checkpoint controlling the trade route along the southern end of "
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [
+        "000000000006"
+       ],
+       "text": "the Darb El-Arba’in."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000003",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58873",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "000000000006",
+       "_type": "externalLink",
+       "href": "https://www.researchgate.net/figure/Geological-and-structural-map-of-the-Darb-el-Arbain-area-based-on-CONOCO-1987_fig3_225458340",
+       "newTab": true
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [],
+       "text": "The Setting of Dush"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [],
+       "text": "Dush is strategically positioned about 15km northeast of El-Qasr, at a convergence of five ancient desert tracks. Notably, one of these tracks, the Darb el-Dush, linked this outpost directly to the Nile valley towns of "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "00000000000c"
+       ],
+       "text": "Esna"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": " and Edfu, marking it as a critical route in Roman times. The surrounding hill of Dush is also the site of Kysis, one of the oldest Roman ruins in "
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [
+        "00000000000f"
+       ],
+       "text": "Kharga"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [],
+       "text": " Oasis. Once a frontier town, it housed a large garrison of Roman troops and included a mudbrick fortress (Qasr Dush) and two temples. To the north and northeast of the fortress lay an extensive "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "000000000012"
+       ],
+       "text": "necropolis"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": ", where funeral workers thrived, evidenced by a rich archive of documents from AD 237 to AD 314."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000000c",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58844",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.kharga-oasis.kharga-cultural-museum",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "000000000012",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.alexandria.necropolis-of-anfushi",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Archaeological Discoveries and Excavations"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "French archaeologists from the IFAO have been investigating the area around Dush since 1976. Their findings suggest temporary occupation dating as far back as the "
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "000000000019"
+       ],
+       "text": "Old Kingdom"
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": ", possibly Dynasty IV. Persian and Ptolemaic Period settlements were identified on the hill slopes, and the earliest fortress, encompassing a rectangular area at the hill’s summit, was either Ptolemaic or Persian in origin."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000019",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-post-115478-en",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": "The Roman fortress, expanded from the original Ptolemaic structure, still stands with massive mudbrick walls reaching 6m to 12m in some places. Inside, dense barrack structures and deep underground chambers span four or five levels."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000020",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": "Qasr Ad Dush and Its Treasures"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000028",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [],
+       "text": "Adjacent to the Roman "
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "000000000022"
+       ],
+       "text": "fortress lies a sandstone temple"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": ", likely initiated by Domitian, enlarged by Trajan, and partly decorated by Emperor Hadrian between the 1st and 2nd centuries AD. Dedicated initially to Osiris, later to Serapis and Isis, the "
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [
+        "000000000025"
+       ],
+       "text": "temple"
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [],
+       "text": " is fronted by a monumental stone gateway bearing a dedicatory inscription by Trajan dated AD 116."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000022",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.kharga-oasis.fortress-and-temple-at-nadura",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "000000000025",
+       "_type": "externalLink",
+       "href": "/guide/qena",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000030",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [],
+       "text": "In 1989, French archaeologists discovered the ‘Dush Treasure’ in the temple’s western side, including a gilded statuette of Isis, bronze figures, and a pottery jar concealing gold religious jewelry and ex-votos objects, now housed in the "
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [
+        "00000000002a"
+       ],
+       "text": "Cairo Egyptian Museum"
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": ". These artifacts, dating from the 4th to 5th centuries AD, offer invaluable insights into Roman worship in "
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [
+        "00000000002d"
+       ],
+       "text": "Egypt"
+      },
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000002a",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-post-144544-es",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "externalLink",
+       "href": "/travel-tips/about-egypt",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000032",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [],
+       "text": "Life and Religion in Dush"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000003a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [],
+       "text": "The temple area has yielded numerous artifacts, including pottery, coins, and ostraca. These findings "
+      },
+      {
+       "_key": "000000000035",
+       "_type": "span",
+       "marks": [
+        "000000000034"
+       ],
+       "text": "reveal a blend of Egyptian"
+      },
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": ", Greek, Roman, and biblical Hebrew names, indicating that Christianity was practiced in Dush. Private letters in the "
+      },
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "form"
+      },
+      {
+       "_key": "000000000039",
+       "_type": "span",
+       "marks": [],
+       "text": " of ostraca provide insights into the daily lives of those in this Roman outpost."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000034",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-post-133840-en",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003b",
+       "_type": "span",
+       "marks": [],
+       "text": "Another smaller mudbrick temple lies about 200 meters west of the main temple, its function and "
+      },
+      {
+       "_key": "00000000003d",
+       "_type": "span",
+       "marks": [
+        "00000000003c"
+       ],
+       "text": "history"
+      },
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": " still enigmatic."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000003c",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-post-144318-es",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000041",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": "The Decline of Kysis"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000049",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [],
+       "text": "The town of Kysis, once vibrant around "
+      },
+      {
+       "_key": "000000000044",
+       "_type": "span",
+       "marks": [],
+       "text": "the fortress"
+      },
+      {
+       "_key": "000000000045",
+       "_type": "span",
+       "marks": [],
+       "text": ", is now marked by ruins and cemeteries. The "
+      },
+      {
+       "_key": "000000000047",
+       "_type": "span",
+       "marks": [
+        "000000000046"
+       ],
+       "text": "discovery"
+      },
+      {
+       "_key": "000000000048",
+       "_type": "span",
+       "marks": [],
+       "text": " of clay pipes and a Christian church suggests the town was abandoned after its wells dried up post-fourth century AD."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000046",
+       "_type": "externalLink",
+       "href": "/guide/siwa-oasis",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004a",
+       "_type": "span",
+       "marks": [],
+       "text": "The Future of Dush's Archaeological Sites"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000050",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004c",
+       "_type": "span",
+       "marks": [],
+       "text": "Recent excavations at ‘Ayn Manawir, about 5km northwest of Qasr Dush, uncovered an entire "
+      },
+      {
+       "_key": "00000000004e",
+       "_type": "span",
+       "marks": [
+        "00000000004d"
+       ],
+       "text": "village with houses"
+      },
+      {
+       "_key": "00000000004f",
+       "_type": "span",
+       "marks": [],
+       "text": ", fields, orchards, and a novel irrigation system. This site, a Persian and Roman settlement, has provided a wealth of archaeological and textual evidence, enhancing our understanding of the region’s history."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000004d",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-post-202843-en",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000055",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000051",
+       "_type": "span",
+       "marks": [],
+       "text": "However, the advancing sand dunes threaten to engulf ‘Ayn Manawir, potentially halting future excavations and burying this significant archaeological site once again beneath the "
+      },
+      {
+       "_key": "000000000053",
+       "_type": "span",
+       "marks": [
+        "000000000052"
+       ],
+       "text": "desert"
+      },
+      {
+       "_key": "000000000054",
+       "_type": "span",
+       "marks": [],
+       "text": " sands."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000052",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-post-144332-es",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000056",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Temple_of_Hibis.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Hibis Temple"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "The enduring grandeur of the Temple of Hibis stands testament to the architectural prowess of ancient civilizations"
+      }
+     ]
+    },
+    {
+     "_key": "000000000057",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/o5limwycd3bzyvhxdamf.jpeg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Ancient, sunlit mud-brick buildings at the base of a towering rock formation"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "baris travel guide"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "La fortaleza romana de Dush"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000000a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "Situada en el extremo sur "
+      },
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [
+        "000000000003"
+       ],
+       "text": "del Oasis de Kharga"
+      },
+      {
+       "_key": "000000000005",
+       "_type": "span",
+       "marks": [],
+       "text": ", la Fortaleza Romana de Dush, conocida simplemente como el-Qasr («la Fortaleza»), es un testimonio de la riqueza histórica de esta región."
+      },
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta estructura de adobe, que mide aproximadamente 30 m por 20 m, sirvió en su día como puesto militar vital durante la época romana."
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [],
+       "text": "Se discute si su función principal era la de puesto de guardia militar o la de puesto de control de la ruta comercial a lo largo del extremo sur del Darb El-Arba’in."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000003",
+       "_type": "externalLink",
+       "href": "/es/blog/el-desierto-occidental-en-egipto",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [],
+       "text": "El escenario de Dush"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [],
+       "text": "Dush está estratégicamente situado a unos 15 km al noreste de El-Qasr, en la convergencia de cinco "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "00000000000e"
+       ],
+       "text": "antiguas pistas del"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": " desierto."
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": " En particular, una de estas vías, el Darb el-Dush, unía directamente este puesto avanzado con las ciudades de Esna y Edfu, en el valle "
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "000000000013"
+       ],
+       "text": "del Nilo"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": ", lo que la convirtió en una ruta fundamental en época romana."
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [],
+       "text": " La colina circundante de Dush es también el emplazamiento de Kysis, una de las ruinas romanas más antiguas del "
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [],
+       "text": "oasis de Kharga"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": " En su "
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "00000000001d"
+       ],
+       "text": "día fue una"
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": " ciudad fronteriza que albergó una gran guarnición de tropas romanas e incluía una fortaleza de adobe (Qasr Dush) y dos templos."
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [],
+       "text": " Al norte y al noreste de "
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "000000000022"
+       ],
+       "text": "la fortaleza"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": " había una extensa necrópolis, donde prosperaban los trabajadores funerarios, como demuestra un rico archivo de documentos del 237 al 314 d.C. "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000000e",
+       "_type": "externalLink",
+       "href": "/es/blog/reyes-del-antiguo-egipto",
+       "newTab": false
+      },
+      {
+       "_key": "000000000013",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "tour.cairo-dinner-cruise-with-belly-dancing-show",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "externalLink",
+       "href": "/es/travel-tips/el-clima-de-egipto-zonas-climaticas-estaciones-y-cuando-visitar",
+       "newTab": false
+      },
+      {
+       "_key": "000000000022",
+       "_type": "externalLink",
+       "href": "/es/wiki/monuments/la-fortaleza",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Descubrimientos arqueológicos y excavaciones"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Arqueólogos franceses del IFAO llevan investigando "
+      },
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "000000000029"
+       ],
+       "text": "la zona de"
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [],
+       "text": " Dush desde 1976."
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [],
+       "text": " Sus hallazgos sugieren una ocupación temporal "
+      },
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [
+        "00000000002e"
+       ],
+       "text": "que se remonta al Reino Antiguo"
+      },
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": ", posiblemente a la Dinastía IV."
+      },
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": " Se identificaron asentamientos de época persa y ptolemaica en las laderas de la colina, y la fortaleza más antigua, que abarcaba una zona rectangular en la cima de la colina, era de origen ptolemaico o persa. "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000029",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-116301",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "externalLink",
+       "href": "/es/guide/guiza",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "La fortaleza romana, ampliada a partir de la estructura ptolemaica original, sigue en pie con enormes muros de adobe que alcanzan de 6 a 12 m en algunos "
+      },
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [
+        "000000000035"
+       ],
+       "text": "lugares"
+      },
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      },
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000039",
+       "_type": "span",
+       "marks": [],
+       "text": " En su interior, densas estructuras de barracones y profundas cámaras subterráneas abarcan cuatro o cinco niveles. "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000035",
+       "_type": "externalLink",
+       "href": "/es/guide/safaga/lugares-de-safaga",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003b",
+       "_type": "span",
+       "marks": [],
+       "text": "Qasr Ad Dush y sus tesoros"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000046",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003d",
+       "_type": "span",
+       "marks": [],
+       "text": "Junto a la fortaleza romana hay un templo de piedra arenisca, probablemente "
+      },
+      {
+       "_key": "00000000003f",
+       "_type": "span",
+       "marks": [],
+       "text": "iniciado por"
+      },
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": " Domiciano, ampliado por Trajano y decorado en parte por el emperador Adriano entre los siglos I y II d.C.."
+      },
+      {
+       "_key": "000000000041",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [],
+       "text": "Dedicado inicialmente a Osiris, y más tarde a Serapis e Isis, el templo está precedido por "
+      },
+      {
+       "_key": "000000000044",
+       "_type": "span",
+       "marks": [
+        "000000000043"
+       ],
+       "text": "una puerta monumental de piedra con"
+      },
+      {
+       "_key": "000000000045",
+       "_type": "span",
+       "marks": [],
+       "text": " una inscripción dedicatoria de Trajano fechada en 116 d.C."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000043",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-89438",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000050",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000047",
+       "_type": "span",
+       "marks": [],
+       "text": "En 1989, arqueólogos franceses descubrieron el «Tesoro de Dush» en el lado occidental del templo, que incluía una estatuilla dorada de Isis, figuras de bronce y una vasija de cerámica que ocultaba joyas religiosas de oro y objetos exvotos, y que ahora se encuentra en el "
+      },
+      {
+       "_key": "000000000049",
+       "_type": "span",
+       "marks": [
+        "000000000048"
+       ],
+       "text": "Museo Egipcio de El Cairo"
+      },
+      {
+       "_key": "00000000004a",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      },
+      {
+       "_key": "00000000004b",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000004c",
+       "_type": "span",
+       "marks": [],
+       "text": "Estos artefactos, que datan de los siglos IV-V d.C., ofrecen una valiosa información sobre el culto romano en "
+      },
+      {
+       "_key": "00000000004e",
+       "_type": "span",
+       "marks": [],
+       "text": "Egipto"
+      },
+      {
+       "_key": "00000000004f",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000048",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000052",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000051",
+       "_type": "span",
+       "marks": [],
+       "text": "Vida y religión en Dush"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000005e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000053",
+       "_type": "span",
+       "marks": [],
+       "text": "En la zona del templo se han encontrado numerosos artefactos, como cerámica, monedas y ostraca."
+      },
+      {
+       "_key": "000000000054",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000055",
+       "_type": "span",
+       "marks": [],
+       "text": " Estos hallazgos revelan "
+      },
+      {
+       "_key": "000000000057",
+       "_type": "span",
+       "marks": [],
+       "text": "una mezcla de nombres egipcios"
+      },
+      {
+       "_key": "000000000058",
+       "_type": "span",
+       "marks": [],
+       "text": ", griegos, romanos y hebreos bíblicos, lo que indica que en Dush se practicaba el cristianismo."
+      },
+      {
+       "_key": "000000000059",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000005a",
+       "_type": "span",
+       "marks": [],
+       "text": " Las cartas privadas en forma de ostraca proporcionan información "
+      },
+      {
+       "_key": "00000000005c",
+       "_type": "span",
+       "marks": [
+        "00000000005b"
+       ],
+       "text": "sobre la vida cotidiana de los"
+      },
+      {
+       "_key": "00000000005d",
+       "_type": "span",
+       "marks": [],
+       "text": " habitantes de este puesto avanzado romano. "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000005b",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-133412",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000063",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005f",
+       "_type": "span",
+       "marks": [],
+       "text": "A unos 200 metros al oeste del templo principal hay otro templo de adobe más pequeño, cuya función e "
+      },
+      {
+       "_key": "000000000061",
+       "_type": "span",
+       "marks": [
+        "000000000060"
+       ],
+       "text": "historia"
+      },
+      {
+       "_key": "000000000062",
+       "_type": "span",
+       "marks": [],
+       "text": " siguen siendo enigmáticas."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000060",
+       "_type": "externalLink",
+       "href": "/es/blog/explorando-la-gran-esfinge-de-guiza",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000065",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000064",
+       "_type": "span",
+       "marks": [],
+       "text": "El declive de Kysis"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000006c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000066",
+       "_type": "span",
+       "marks": [],
+       "text": "La ciudad de Kysis, antaño vibrante en torno a la fortaleza, está ahora jalonada de ruinas y cementerios."
+      },
+      {
+       "_key": "000000000067",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000068",
+       "_type": "span",
+       "marks": [],
+       "text": " El "
+      },
+      {
+       "_key": "00000000006a",
+       "_type": "span",
+       "marks": [
+        "000000000069"
+       ],
+       "text": "descubrimiento"
+      },
+      {
+       "_key": "00000000006b",
+       "_type": "span",
+       "marks": [],
+       "text": " de pipas de arcilla y una iglesia cristiana sugiere que la ciudad fue abandonada después de que sus pozos se secaran tras el siglo IV d.C. "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000069",
+       "_type": "externalLink",
+       "href": "/es/guide/rosetta-rasheed",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006d",
+       "_type": "span",
+       "marks": [],
+       "text": "El futuro de los yacimientos arqueológicos de Dush"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000075",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006f",
+       "_type": "span",
+       "marks": [],
+       "text": "Excavaciones recientes en ‘Ayn Manawir, a unos 5 km al noroeste de Qasr Dush, han descubierto un poblado entero con casas, campos, huertos y un novedoso sistema de riego."
+      },
+      {
+       "_key": "000000000070",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000071",
+       "_type": "span",
+       "marks": [],
+       "text": " Este yacimiento, un asentamiento persa y romano, ha proporcionado una gran cantidad de pruebas arqueológicas y textuales, "
+      },
+      {
+       "_key": "000000000073",
+       "_type": "span",
+       "marks": [],
+       "text": "que mejoran nuestra comprensión de la historia"
+      },
+      {
+       "_key": "000000000074",
+       "_type": "span",
+       "marks": [],
+       "text": " de la región. "
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000007a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000076",
+       "_type": "span",
+       "marks": [],
+       "text": "Sin embargo, el avance de las dunas de arena amenaza con engullir «Ayn Manawir», lo que podría detener futuras excavaciones y sepultar de nuevo este importante yacimiento arqueológico bajo "
+      },
+      {
+       "_key": "000000000078",
+       "_type": "span",
+       "marks": [
+        "000000000077"
+       ],
+       "text": "las arenas del desierto"
+      },
+      {
+       "_key": "000000000079",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000077",
+       "_type": "externalLink",
+       "href": "/es/guide/al-wadi-al-gadid",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000007c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000007b",
+       "_type": "span",
+       "marks": [],
+       "text": "Creado el 18 de marzo de 2020"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000007e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000007d",
+       "_type": "span",
+       "marks": [],
+       "text": "Actualizado en Ago , 2024"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000080",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000007f",
+       "_type": "span",
+       "marks": [],
+       "text": "PRESENTACIÓN Baris"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000083",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000082",
+       "_type": "span",
+       "marks": [],
+       "text": "Historia"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000086",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000085",
+       "_type": "span",
+       "marks": [],
+       "text": "El tiempo"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000088",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000087",
+       "_type": "span",
+       "marks": [],
+       "text": "PLANIFICA TU VIAJE"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000008b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000008a",
+       "_type": "span",
+       "marks": [],
+       "text": "Cómo ir"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000008e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000008d",
+       "_type": "span",
+       "marks": [
+        "00000000008c"
+       ],
+       "text": "Dónde alojarse"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000008c",
+       "_type": "externalLink",
+       "href": "/es/guide/baris/donde-alojarse-cerca-de-baris",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000090",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000008f",
+       "_type": "span",
+       "marks": [],
+       "text": "MIENTRAS ESTÉS ALLÍ"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000093",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000092",
+       "_type": "span",
+       "marks": [],
+       "text": "Cómo desplazarse"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000096",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000095",
+       "_type": "span",
+       "marks": [
+        "000000000094"
+       ],
+       "text": "Cosas que hacer"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000094",
+       "_type": "externalLink",
+       "href": "/es/guide/baris",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000098",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000097",
+       "_type": "span",
+       "marks": [],
+       "text": "LUGARES DONDE IR"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000009b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000009a",
+       "_type": "span",
+       "marks": [
+        "000000000099"
+       ],
+       "text": "La fortaleza romana de Dush"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000099",
+       "_type": "externalLink",
+       "href": "/es/guide/baris/la-fortaleza-romana-de-dush",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000009d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000009c",
+       "_type": "span",
+       "marks": [],
+       "text": "OTROS"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000a0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000009f",
+       "_type": "span",
+       "marks": [
+        "00000000009e"
+       ],
+       "text": "Visitas"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000009e",
+       "_type": "externalLink",
+       "href": "/es/guide/baris/tours-destacados-en-baris",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000a3",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000a2",
+       "_type": "span",
+       "marks": [
+        "0000000000a1"
+       ],
+       "text": "Alimentación"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000a1",
+       "_type": "externalLink",
+       "href": "/es/guide/baris",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000a4",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Temple_of_Hibis.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Hibis Temple"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "La grandeza perdurable del Templo de Hibis es un testimonio del ingenio arquitectónico de las civilizaciones antiguas"
+      }
+     ]
+    },
+    {
+     "_key": "0000000000a5",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/o5limwycd3bzyvhxdamf.jpeg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Ancient, sunlit mud-brick buildings at the base of a towering rock formation"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "El legado perdurable de una civilización pasada, resistiendo con gracia la prueba del tiempo"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "ドゥシュのローマ要塞"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "ハルガ・オアシスの最南端に位置するドゥシュのローマ要塞（通称エル・カスル＝「要塞」）は、この地域の豊かな歴史を物語る重要な遺跡です。泥レンガ造りのこの要塞は約30m×20mの規模で、ローマ時代には軍事拠点として重要な役割を担っていました。一方で、この要塞が軍事的な監視所として機能していたのか、あるいはダルブ・エル・アルバインの南端に位置する交易路の検問所として使用されていたのかについては、現在も議論が続いています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "ドゥシュの地理的環境と魅力"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "ドゥシュは、エル・カスルから北東へ約15kmの地点に位置し、古代に5本の砂漠交易路が交わる戦略的に重要な拠点でした。なかでも「ダルブ・エル・ドゥシュ」と呼ばれるルートは、この前哨地をナイル川流域のエスナやエドフの町々と直接つなぐ、ローマ時代には欠かせない重要な交易路でした。また、この地域を囲む丘陵地帯には、ハルガ・オアシスで最も古いローマ遺跡のひとつ「キシス（Kysis）」があります。当時、辺境の町だったキシスには多数のローマ軍兵士が駐屯しており、泥レンガで作られた要塞（カスル・ドゥシュ）と2つの神殿が築かれていました。要塞の北側および北東側には広大なネクロポリス（古代の墓地）が広がり、紀元237年から314年にかけての豊富な文書資料が発見されていることから、この地域が葬祭関連の産業で栄えていたことが明らかとなっています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "考古学的発見と発掘調査の歴史"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "フランス東方考古学研究所（IFAO）のフランス人考古学チームによるドゥシュ遺跡周辺の調査は、多くの貴重な発見をもたらしています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "最初の要塞構造はプトレマイオス朝あるいはペルシャ支配時代に建てられたものと考えられており、これを基礎として後にローマ帝国時代に規模が拡張されました。今日でも残るローマ要塞は、分厚い泥レンガの壁が特徴で、その高さは6mから場所によっては12mにも及びます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "内部には、密集した兵舎跡や4～5層に及ぶ深い地下室が広がっており、当時の様子を生き生きと伝えています。フランスの考古学調査団（フランス東方考古学研究所＝IFAO）は、この遺跡の発掘調査を通じて、要塞内部に広がる兵舎跡や多層に渡る地下空間の調査に加え、葬祭に関連する重要な工芸品や装飾品など、多数の考古学的遺物を発見しました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "高さ6mから12mもの堂々とした泥レンガの城壁、複雑に入り組んだ内部構造、そして深さのある地下室が4〜5層にも及ぶ様子は、訪れる人々に歴史の神秘と奥深さを強く印象づけます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "カスル・アド・ドゥシュとその秘宝"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "ローマ要塞に隣接する砂岩の神殿は、1世紀末から2世紀初頭にかけて建設されたもので、ドミティアヌス帝の治世に着工され、トラヤヌス帝の時代に拡張されました。その後、ハドリアヌス帝によって一部装飾が施されました。神殿は当初オシリス神に捧げられていましたが、後にセラピス神とイシス神も祀られるようになりました。神殿の正面には、トラヤヌス帝による奉納碑文が刻まれた壮大な石造りの門が立っており、その碑文は西暦116年のものとされています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "1989年、フランスの考古学者たちは神殿の西側で「ドゥシュの財宝（Dush Treasure）」と呼ばれる貴重な遺物を発見しました。この発見には、金箔を施されたイシス神の小像、青銅製の像、さらには金の宗教的装飾品や奉納品を隠した陶器の壺などが含まれています。これらの遺物は4世紀から5世紀のものであり、エジプトにおけるローマ時代の信仰についての貴重な手がかりを提供しています。現在、これらの財宝はカイロのエジプト考古学博物館に収蔵されています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "ドゥシュの暮らしと信仰"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "神殿周辺からは、多数の遺物が発見されており、その中には陶器、貨幣、オストラコン（陶片に書かれた文字資料）などが含まれています。これらの出土品には、エジプト語、ギリシャ語、ラテン語、さらには聖書ヘブライ語の名前が記されており、ドゥシュではキリスト教が信仰されていたことを示唆しています。また、オストラコンに残された私信の数々は、このローマの前哨地で暮らしていた人々の日常生活について貴重な情報を提供しています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "さらに、メインの神殿から西へ約200メートルの場所には、もう一つの小さな泥レンガ造りの神殿が存在します。しかし、その用途や歴史については未だ明らかになっておらず、現在も研究が続けられています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "キシスの衰退"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "かつて要塞の周囲に栄えていたキシスの町は、現在では遺跡と墓地が点在するのみとなっています。発掘調査により、粘土製の水道管やキリスト教の教会跡が発見されており、町は4世紀以降に井戸が枯渇したことで放棄されたと考えられています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "ドゥシュ遺跡の未来"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "カスル・ドゥシュの北西約5kmに位置する‘アイン・マナウィル’の最近の発掘調査では、住居や畑、果樹園、そして革新的な灌漑システムを備えた村全体が発見されました。この遺跡は、ペルシャ時代およびローマ時代の集落であり、豊富な考古学的資料や文書が出土したことで、この地域の歴史理解が大きく深まりました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "しかし、砂漠の砂丘の拡大が‘アイン・マナウィル’を飲み込む危機にさらしており、このままでは発掘調査の継続が困難になり、貴重な遺跡が再び砂の下に埋もれてしまう可能性があります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "作成日：2020年3月18日"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "更新日：2025年3月12日"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "バリスの紹介"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000030",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [
+        "00000000002e"
+       ],
+       "text": "歴史"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000002e",
+       "_type": "externalLink",
+       "href": "/ja/guide/barisu/barisu-no-rekishi",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "天気"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "旅行の計画"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000038",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [
+        "000000000036"
+       ],
+       "text": "行き方"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000036",
+       "_type": "externalLink",
+       "href": "/ja/guide/barisu/barisu-made-no-iki-kata",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": "宿泊先"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "滞在中に"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000040",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003f",
+       "_type": "span",
+       "marks": [
+        "00000000003e"
+       ],
+       "text": "現地での移動方法"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000003e",
+       "_type": "externalLink",
+       "href": "/ja/guide/barisu",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000043",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [
+        "000000000041"
+       ],
+       "text": "おすすめのアクティビティ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000041",
+       "_type": "externalLink",
+       "href": "/ja/guide/barisu",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000045",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000044",
+       "_type": "span",
+       "marks": [],
+       "text": "見どころ"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000048",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000047",
+       "_type": "span",
+       "marks": [
+        "000000000046"
+       ],
+       "text": "ドゥシュのローマの要塞"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000046",
+       "_type": "externalLink",
+       "href": "/ja/guide/barisu/dushu-no-roma-yosai",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000049",
+       "_type": "span",
+       "marks": [],
+       "text": "その他"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004c",
+       "_type": "span",
+       "marks": [
+        "00000000004b"
+       ],
+       "text": "ツアー"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000004b",
+       "_type": "externalLink",
+       "href": "/ja/guide/barisu",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000050",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004f",
+       "_type": "span",
+       "marks": [
+        "00000000004e"
+       ],
+       "text": "食べ物"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000004e",
+       "_type": "externalLink",
+       "href": "/ja/guide/barisu",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000051",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Temple_of_Hibis.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Hibis Temple"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "ヒビス神殿の悠久の壮麗さは、古代文明の卓越した建築技術の証として今なおそびえ立っています。"
+      }
+     ]
+    },
+    {
+     "_key": "000000000052",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/o5limwycd3bzyvhxdamf.jpeg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Ancient, sunlit mud-brick buildings at the base of a towering rock formation"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "時の試練に優雅に耐え続ける、かつての文明の不朽の遺産"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "city": {
+  "_ref": "wp-page-58774",
+  "_type": "reference"
+ },
+ "heroImage": {
+  "_type": "image",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Interior of a massive round Roman fortress tower built in banded courses of pale stone and red brick, partly ruined"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Interior de una gran torre circular de fortaleza romana, con hiladas de piedra clara y ladrillo rojo, en parte en ruinas"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "淡い石と赤レンガの段を交互に積んだ、巨大な円形のローマ要塞の塔の内部。一部は崩れている。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-868be590cf3a481796a699e3fee76476abd30e80-1200x800-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The banded masonry of a round Roman fortress bastion."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "La mampostería en franjas de un bastión de fortaleza romana."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "円形のローマ要塞の稜堡の縞模様の石積み。"
+   }
+  ]
+ },
+ "migration": {
+  "migratedAt": "2026-05-07T11:14:33.255Z",
+  "reviewFlag": "superseded-by-guideArticle",
+  "source": "wp-import",
+  "supersededAt": "2026-05-20T15:23:40.818Z",
+  "supersededBy": "guideArticle.baris.the-roman-fortress-at-dush",
+  "wpId": 62842,
+  "wpModifiedAt": "2025-07-24T03:04:32",
+  "wpTemplate": "elementor_header_footer",
+  "wpUrl": "https://travel2egypt.org/the-roman-fortress-at-dush/"
+ },
+ "monumentType": "fortress",
+ "name": [
+  {
+   "_key": "en",
+   "value": "The Roman Fortress at Dush"
+  },
+  {
+   "_key": "es",
+   "value": "La fortaleza romana de Dush"
+  },
+  {
+   "_key": "ja",
+   "value": "ドゥシュのローマ要塞"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "value": {
+    "_type": "slug",
+    "current": "the-roman-fortress-at-dush"
+   }
+  },
+  {
+   "_key": "es",
+   "value": {
+    "_type": "slug",
+    "current": "la-fortaleza-romana-de-dush"
+   }
+  },
+  {
+   "_key": "ja",
+   "value": {
+    "_type": "slug",
+    "current": "ドゥシュのローマ要塞"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "The Roman Fortress at Dush Located at the southernmost edge of Kharga Oasis, the Roman Fortress at Dush, known simply as el-Qasr ( the Fortress ), stands as a testament to the historical richness of this region. This mudbrick structure, mea"
+  },
+  {
+   "_key": "es",
+   "value": "La fortaleza romana de Dush Situada en el extremo sur del Oasis de Kharga, la Fortaleza Romana de Dush, conocida simplemente como el-Qasr («la Fortaleza»), es un testimonio de la riqueza histórica de esta región. Esta estructura de adobe, q"
+  },
+  {
+   "_key": "ja",
+   "value": "ドゥシュのローマ要塞 ハルガ・オアシスの最南端に位置するドゥシュのローマ要塞（通称エル・カスル＝「要塞」）は、この地域の豊かな歴史を物語る重要な遺跡です。泥レンガ造りのこの要塞は約30m×20mの規模で、ローマ時代には軍事拠点として重要な役割を担っていました。一方で、この要塞が軍事的な監視所として機能していたのか、あるいはダルブ・エル・アルバインの南端に位置する交易路の検問所として使用されていたのかについては、現在も議論が続いています。 ドゥシュの地理的環境と魅力 ドゥシュは"
+  }
+ ]
+}

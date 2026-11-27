@@ -1,0 +1,657 @@
+{
+ "_createdAt": "2026-11-14T20:29:20Z",
+ "_id": "tourLanding.7-days-egypt-tours",
+ "_rev": "I13soljhRYf3SIEeZeeYE0",
+ "_type": "tourLanding",
+ "_updatedAt": "2026-11-18T13:10:28Z",
+ "category": {
+  "_ref": "tourCategory.private-package",
+  "_type": "reference"
+ },
+ "faq": [
+  {
+   "_key": "faq-dur7-1",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "b18",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s19",
+         "_type": "span",
+         "marks": [],
+         "text": "Private journeys start on any date and run at your pace. Small-group tours run on fixed departure dates with a capped group. Where a small-group departure exists at this length, it’s listed here."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "esb10",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "ess11",
+         "_type": "span",
+         "marks": [],
+         "text": "Los viajes privados empiezan cualquier día y van a tu ritmo. Los viajes en grupo reducido salen en fechas fijas y con un número limitado de viajeros. Si existe una salida en grupo reducido de esta duración, aparece en esta página."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "value": [
+      {
+       "_key": "jab1e",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "jas1f",
+         "_type": "span",
+         "marks": [],
+         "text": "プライベート旅行はどの日からでも始められ、ご自身のペースで進みます。少人数グループのツアーは決まった出発日に、人数を限って催行します。この日数の少人数グループの出発がある場合は、このページに掲載しています。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Private or small group?"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Privado o en grupo reducido?"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "プライベートと少人数グループ、どちらがいいですか？"
+    }
+   ]
+  },
+  {
+   "_key": "faq-dur7-2",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "b1a",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s1b",
+         "_type": "span",
+         "marks": [],
+         "text": "Yes. Christmas, New Year and Easter are peak dates in Egypt. Scheduled departures on those dates usually cost 30% more, and private journeys cost more over the same dates too."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "esb12",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "ess13",
+         "_type": "span",
+         "marks": [],
+         "text": "Sí. Navidad, Año Nuevo y Semana Santa son fechas de temporada alta en Egipto. Las salidas programadas en esas fechas suelen costar un 30 % más. Los viajes privados también se encarecen en esas mismas fechas."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "value": [
+      {
+       "_key": "jab1g",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "jas1h",
+         "_type": "span",
+         "marks": [],
+         "text": "はい。クリスマス、年末年始、イースターはエジプトのピークシーズンです。この時期の定期出発ツアーは通常30％高くなります。プライベート旅行も同じ時期は料金が上がります。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Do prices change by season?"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Cambian los precios según la temporada?"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "季節によって料金は変わりますか？"
+    }
+   ]
+  },
+  {
+   "_key": "faq-dur7-3",
+   "_type": "landingFaqItem",
+   "answer": [
+    {
+     "_key": "en",
+     "value": [
+      {
+       "_key": "b1c",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "s1d",
+         "_type": "span",
+         "marks": [],
+         "text": "A cruise between Luxor and Aswan combines travel and accommodation, so you don’t move your luggage every day, and it stops at Edfu, Kom Ombo and Esna on the way. The trade-off is flexibility: the boat sets the timetable. Flying, or driving with a private car, lets you set your own."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "value": [
+      {
+       "_key": "esb14",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "ess15",
+         "_type": "span",
+         "marks": [],
+         "text": "Un crucero entre Luxor y Asuán combina transporte y alojamiento, así que no mueves el equipaje cada día, y hace escala en Edfu, Kom Ombo y Esna. La contrapartida es la flexibilidad: el barco marca el horario. Volar, o viajar en coche privado, te deja fijar el tuyo."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "value": [
+      {
+       "_key": "jab1i",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "jas1j",
+         "_type": "span",
+         "marks": [],
+         "text": "ルクソールとアスワンを結ぶクルーズは移動と宿泊を兼ねるため、毎日荷物を動かす必要がなく、途中でエドフ、コム・オンボ、エスナに立ち寄ります。その代わり、時間は船の予定に合わせることになります。飛行機や専用車なら、ご自身で日程を決められます。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "question": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Nile cruise, or flights and hotels?"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "¿Crucero por el Nilo, o vuelos y hoteles?"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "ナイルクルーズと、飛行機とホテル、どちらがいいですか？"
+    }
+   ]
+  }
+ ],
+ "intro": [
+  {
+   "_key": "en",
+   "value": [
+    {
+     "_key": "b10",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s11",
+       "_type": "span",
+       "marks": [],
+       "text": "What fits in a week"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "b12",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s13",
+       "_type": "span",
+       "marks": [],
+       "text": "A week usually splits into two or three days in Cairo and Giza and four or five in Luxor and Aswan. In Cairo, choose between the pyramids, the museum and Saqqara rather than trying to see everything."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b14",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s15",
+       "_type": "span",
+       "marks": [],
+       "text": "In Luxor, the east bank (Karnak and Luxor Temple) and the west bank (the Valley of the Kings, Hatshepsut’s temple and the Colossi of Memnon) are the core. Seeing the whole west bank in one day is tiring, so decide what to see in depth."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "b16",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s17",
+       "_type": "span",
+       "marks": [],
+       "text": "With eight days, Abu Simbel fits more easily: two days each in Cairo, Luxor and Aswan, one for Abu Simbel and one for travel. Several of the seven-day journeys here are dahabiya cruises between Luxor and Aswan."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "value": [
+    {
+     "_key": "esbs",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "esst",
+       "_type": "span",
+       "marks": [],
+       "text": "Qué cabe en una semana"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "esbu",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "essv",
+       "_type": "span",
+       "marks": [],
+       "text": "Una semana suele repartirse en dos o tres días en El Cairo y Guiza y cuatro o cinco en Luxor y Asuán. En El Cairo, decide si priorizas Guiza, el museo o Saqqara: no todo tendrá el mismo peso."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "esbw",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "essx",
+       "_type": "span",
+       "marks": [],
+       "text": "En Luxor, lo esencial es dividir bien la orilla oriental y la occidental: Karnak y el templo de Luxor por un lado; el Valle de los Reyes, Hatshepsut y los Colosos de Memnón por otro. Verlo todo deprisa reduce mucho el impacto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "esby",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "essz",
+       "_type": "span",
+       "marks": [],
+       "text": "Con ocho días, Abu Simbel encaja con más calma: dos días en El Cairo, dos en Luxor, dos en Asuán, uno para Abu Simbel y uno para traslados. Varios de los viajes de siete días son cruceros en dahabiya entre Luxor y Asuán."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "value": [
+    {
+     "_key": "jab16",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jas17",
+       "_type": "span",
+       "marks": [],
+       "text": "1週間でできること"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "jab18",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jas19",
+       "_type": "span",
+       "marks": [],
+       "text": "基本は、カイロとギザに2〜3日、ルクソールとアスワンに4〜5日を使う構成です。カイロでは、ピラミッド、博物館、サッカラのどれを優先するかを決め、すべてを見ようとしないことが大切です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jab1a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jas1b",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールでは、東岸のカルナック神殿とルクソール神殿、西岸の王家の谷、ハトシェプスト女王葬祭殿、メムノンの巨像が軸になります。西岸を一日ですべて見ると疲れるため、深く見る場所を決めましょう。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "jab1c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jas1d",
+       "_type": "span",
+       "marks": [],
+       "text": "8日間なら、カイロ2日、ルクソール2日、アスワン2日、アブ・シンベル1日、移動と調整1日という配分が一つの目安になります。7日間のツアーのうち数本は、ルクソールとアスワンを結ぶダハビーヤのクルーズです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "journalRefs": [
+  {
+   "_key": "j21",
+   "_ref": "wp-post-136621-en",
+   "_type": "reference"
+  },
+  {
+   "_key": "j22",
+   "_ref": "wp-post-136112-en",
+   "_type": "reference"
+  }
+ ],
+ "relatedTours": [
+  {
+   "_key": "t1e",
+   "_ref": "wp-page-136566",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1f",
+   "_ref": "wp-page-89558",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1g",
+   "_ref": "wp-page-89895",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1h",
+   "_ref": "tour.agatha-dahabiya-journey-along-the-nile",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1i",
+   "_ref": "tour.7-days-dahabiya-nile-cruise-from-aswan-to-luxor",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1j",
+   "_ref": "tour.7-days-luxor-to-aswan-dahabiya-cruise",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1k",
+   "_ref": "tour.7-days-luxury-dahabiya-cruise-on-the-nile",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1l",
+   "_ref": "tour.7-days-luxury-dahabiya-nile-cruise",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1m",
+   "_ref": "tour.7-days-of-splendor-exploring-the-nile-on-a-roman-dahabiya",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1n",
+   "_ref": "tour.adelaide-dahabiya-nile-cruise",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1p",
+   "_ref": "wp-page-136519",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1q",
+   "_ref": "wp-page-155539",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1r",
+   "_ref": "tour.the-pearl-of-red-sea-hurghada",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1s",
+   "_ref": "tour.8-days-best-of-egypt-tour-package",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1t",
+   "_ref": "wp-page-86844",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1v",
+   "_ref": "wp-page-86867",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1w",
+   "_ref": "wp-page-88972",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1x",
+   "_ref": "wp-page-89436",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1y",
+   "_ref": "wp-page-89649",
+   "_type": "reference"
+  },
+  {
+   "_key": "t1z",
+   "_ref": "wp-page-90416",
+   "_type": "reference"
+  },
+  {
+   "_key": "t20",
+   "_ref": "wp-page-237732",
+   "_type": "reference"
+  }
+ ],
+ "seo": {
+  "metaDescription": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayTextValue",
+    "value": "One-week Egypt tours of seven or eight days: Cairo and the pyramids with Luxor, Aswan and the Nile, by road, by air or on a cruise. Private, and starting on any date."
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayTextValue",
+    "value": "Viajes de una semana por Egipto, de siete u ocho días: El Cairo y las pirámides con Luxor, Asuán y el Nilo, por carretera, en avión o en crucero. Privados y en las fechas que elijas."
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayTextValue",
+    "value": "7〜8日間・1週間のエジプトツアー。カイロとピラミッドに、ルクソール、アスワン、ナイルを、陸路、空路、クルーズで。プライベートで、ご希望の日から出発できます。"
+   }
+  ],
+  "metaTitle": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "7-Day Egypt Tours: One Week in Cairo, Luxor and Aswan"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Circuitos por Egipto de 7 días: una semana en El Cairo, Luxor y Asuán"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "エジプト7日間のツアー：カイロ、ルクソール、アスワンを1週間で"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "7-days-egypt-tours"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "circuitos-por-egipto-de-7-dias"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "ejiputo-7-nichikan-no-tsua"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Seven days is the shortest trip that properly connects Cairo with the temples of Upper Egypt. Eight makes room for Abu Simbel. The tours here run seven or eight days, by road, by air or on the Nile."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Siete días es el viaje más corto que une de verdad El Cairo con los templos del Alto Egipto. Con ocho, Abu Simbel encaja con más calma. Los viajes de esta página duran siete u ocho días, por carretera, en avión o por el Nilo."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "7日間は、カイロと上エジプトの神殿を意味のある形で組み合わせられる最短の長さです。8日間あれば、アブ・シンベルも入れやすくなります。このページのツアーは7〜8日間で、陸路、空路、またはナイルを船で巡ります。"
+  }
+ ],
+ "themeRef": {
+  "_ref": "theme-duration-7",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "7-Day Egypt Tours"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Circuitos por Egipto de 7 días"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "エジプト7日間のツアー"
+  }
+ ]
+}

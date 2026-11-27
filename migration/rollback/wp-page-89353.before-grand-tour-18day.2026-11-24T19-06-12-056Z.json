@@ -1,0 +1,2009 @@
+{
+ "_createdAt": "2026-05-11T16:41:42Z",
+ "_id": "wp-page-89353",
+ "_rev": "K2pi3eY73hTRu2vMGMyThO",
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:52Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers who want the whole country in one trip, with real decompression days built into it; first-timers with the time for it; anyone drawn to the combination of monuments, river, sea, and Sinai mountains in a single arc."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros que quieren todo el país en un solo viaje, con días reales de descompresión integrados; primerizos con tiempo para ello; cualquiera atraído por la combinación de monumentos, río, mar y montañas del Sinaí en un solo arco"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "真の減圧日を組み込みつつ、ひとつの旅で国全体をご覧になりたい方。それだけの日数を持つ初訪の方。記念建造物、川、海、シナイの山々を、一つの弧のなかで結びたい方。"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "The Whole Country in Eighteen Days: From the Pharaohs to the Sinai"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A private journey whose argument is comprehensiveness — Cairo's older layers, the Nile cruise, the Red Sea reefs, and the granite mountains of southern Sinai, with enough days at each that none feels merely visited."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Eighteen days is unusual for an Egypt trip, and the unusualness is the point. Most itineraries pick a register and stay in it. This one refuses the choice and moves through four Egypts that rarely share a programme — the pharaonic Egypt of Cairo, Saqqara, Luxor, and Abu Simbel; the Egypt of the river between Aswan and Luxor; the Egypt of the Red Sea, where Hurghada and Sharm El Sheikh hold two versions of the coast; and the Egypt of the granite mountains around Saint Catherine."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "The route begins in Cairo, reaches south to Abu Simbel and Aswan, turns the Nile cruise north through Kom Ombo and Edfu to Luxor, crosses to Hurghada, takes the ferry to Sharm El Sheikh, climbs inland to Saint Catherine, and returns to Cairo for a final chapter at Giza and the Grand Egyptian Museum. By the time you stand at Giza on day seventeen, you have seen what came before the pyramids and what came after. This is one private departure with your own Egyptologist throughout — fourteen nights in five-star hotels and resorts, three nights aboard a five-star Nile cruise ship."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo: the older layers first"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The tour begins quietly: you are met at Cairo International and taken to your hotel, no programme for the first evening."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "The second day works a less-visited stratum than the pharaonic. The morning goes into Old Cairo — the ancient quarter of Fustat — beginning with the Ben Ezra Synagogue, where tradition holds the infant Moses was drawn from the Nile, and the Hanging Church, a fifth-century Coptic basilica suspended above a Roman fortress gatehouse. The adjacent Coptic Museum holds the largest collection of Coptic Christian art in the world. Abu Serga Church, one of the oldest in Egypt, is built over a crypt said to have sheltered the Holy Family on their flight from Herod. The afternoon climbs to the Saladin Citadel, from which Egypt was governed for seven centuries, and the alabaster-clad Mosque of Muhammad Ali within it. The day ends in Khan el-Khalili, trading continuously since the fourteenth century."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Day three traces the oldest pyramid-building sequence that exists. Memphis, first capital of a unified Egypt (founded around 3100 BC), holds the colossal fallen limestone statue of Ramses II and the great alabaster sphinx. Saqqara holds the Step Pyramid of Djoser — built around 2650 BC, the oldest large stone structure in the world; Imhotep stacked six mastabas of decreasing size and invented the pyramid form. The day continues to Dahshur, where architects a century later refined it: the Bent Pyramid, with its abrupt change of angle halfway up, and the Red Pyramid, smooth from the start — the template Giza would perfect."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "The deep south: Abu Simbel and Aswan"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Day four is the longest in the itinerary. An early flight south carries you to Abu Simbel near the Sudanese border, where Ramses II cut two temples directly into a sandstone cliff in the thirteenth century BC. The four colossal seated figures at the Great Temple entrance — each over twenty metres high — are among the most recognisable monuments in the ancient world. Between 1964 and 1968 the complex was sawn into blocks and raised 65 metres to save it from Lake Nasser behind the newly completed Aswan High Dam — one of the most technically demanding archaeological rescues ever attempted."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "The day continues to Aswan, Egypt's southernmost major city, set where the Nile narrows toward the first cataract. The afternoon is on the water: a traditional felucca past Kitchener's Island, now a botanical garden, and a Nubian village on the west bank, with the Aga Khan Mausoleum on the hill above."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Day five moves between modern engineering and ancient stone. The Aswan High Dam, completed in 1970, controlled the Nile flood and created Lake Nasser, the largest artificial reservoir in the world. The Unfinished Obelisk, abandoned in its granite quarry with a crack running through it, is the largest ever attempted. The afternoon moves to Philae, where the Temple of Isis — another monument rescued from Lake Nasser's rising waters and reassembled on higher ground — sits on an island in the Nile, dedicated to the most widely worshipped deity in the ancient Egyptian pantheon. The day closes with boarding the Nile cruise."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "The river days: cruise north to Luxor"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "The cruise carries you north on day six, pausing at two river temples. Kom Ombo is divided in perfect symmetry between Sobek the crocodile deity and Horus the Elder, with mummified crocodiles and surgical instruments carved into the walls. Edfu's Temple of Horus, Ptolemaic, is Egypt's most completely preserved temple — its colossal granite falcon the defining image."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "The cruise reaches Luxor, ancient Thebes, and the first Luxor day crosses to the land the Egyptians set aside for their dead. The Valley of the Kings holds more than sixty royal tombs cut into the limestone, used from around 1550 to 1070 BC, walls still bright with painted afterlife scenes. The scale is clearest not in Tutankhamun's modest tomb — famous for what was found inside it in 1922 — but in the grander corridors of Ramses VI or Seti I. The Mortuary Temple of Hatshepsut at Deir el-Bahari follows: three colonnaded terraces against the cliff face, built for a woman who held power for over two decades in the fifteenth century BC and sent trading expeditions as far as Punt. The Colossi of Memnon — two seated figures of Amenhotep III — close the West Bank day."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "The second Luxor day stays on the living side. Karnak is a temple city expanded under nearly every pharaoh for over 1,500 years. Its Great Hypostyle Hall — 134 columns, the tallest 21 metres — is one of the most overwhelming interior spaces surviving from the ancient world. The adjacent Luxor Temple, connected to Karnak by the re-excavated Avenue of Sphinxes (reopened ceremoniously in November 2021), is smaller and more coherent. A carriage ride through the markets closes the afternoon."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "The coast: Hurghada and Sharm El Sheikh"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Day nine changes register: you leave the Nile Valley and drive east across the Eastern Desert to Hurghada. You check into your resort and five days of early starts are earned."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "The Red Sea holds one of the finest coral reef systems on earth, and day ten is the one to encounter it. Snorkelling, diving, windsurfing, a glass-bottom boat — none of it compulsory. The third Hurghada day turns inland: a Bedouin village afternoon takes you into the Eastern Desert on its own terms."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "A ferry on day twelve carries you south to Sharm El Sheikh, at the tip of the Sinai Peninsula — more developed and international than Hurghada, its diving reputation reaching beyond Egypt. The reef at Ras Mohammed, just south of the town, is among the most celebrated dive sites in the world. Sharm then gets two full days without a fixed programme: reef, beaches, dive schools, markets, or excursions into the Sinai interior. The openness is the point."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Saint Catherine: the granite mountains"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Day fifteen moves into the Sinai interior, the quietest day of the tour. The drive takes you through the granite mountains of the southern Sinai, a landscape severe enough to explain why Christians and Jews came here seeking God in the desert. Saint Catherine's Monastery, founded in the sixth century AD by the Emperor Justinian around the site traditionally identified as the Burning Bush, is the oldest continuously inhabited Christian monastery in the world. Its library holds the second-largest collection of early manuscripts after the Vatican. Access to the interior has been subject to change in recent years; your Egyptologist will confirm what is open at the time of travel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "You overnight in Saint Catherine. The pre-dawn climb of Mount Sinai, to be at the summit for sunrise as pilgrims have done for fifteen centuries, is available for those who want it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo again: the Giza close"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Day sixteen returns you to Cairo, the drive timed for the Sound and Light Show at Giza — the plateau flood-lit, the Sphinx narrating its own history. After two weeks in Egypt, watching the complex at night carries a different weight than on day one."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Day seventeen is the one many travellers have been building toward since Saqqara. The Pyramids of Giza — Khufu, Khafre, and Menkaure, built across roughly half a century around 2500 BC — are not the oldest monuments you will have seen, but they are the ones that organise everything else. Standing on the plateau with the sequence behind you gives the complex a context that a first-day visit cannot have. The Great Sphinx completes the picture. The afternoon is spent at the Grand Egyptian Museum, which opened fully on 1 November 2025 beside the plateau — the largest archaeological museum in the world. The Tutankhamun galleries, holding all five thousand objects from the tomb, are the centrepiece; the scale of what surrounds them — statues, jewellery, papyri, tools, furniture from every period — is the more lasting impression. The royal mummies are at the National Museum of Egyptian Civilisation in Old Cairo. The airport transfer follows the next morning."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Eighteen days cannot show you all of Egypt — no itinerary can claim that. What this route does instead is show you enough of its parts, and give each enough time, that by the end they begin to form a whole."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The shape of the journey"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "Where · Cairo → Memphis/Saqqara/Dahshur → Abu Simbel → Aswan → Nile cruise (Kom Ombo, Edfu) → Luxor → Hurghada → Sharm El Sheikh → Saint Catherine → Cairo / Giza"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": "Duration · 18 days / 17 nights — adjustable"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "Character · Fully private · your own Egyptologist · 14 hotel nights + 3 nights aboard a five-star Nile cruise · domestic flights Cairo–Abu Simbel and Abu Simbel–Aswan · ferry Hurghada–Sharm El Sheikh · felucca at Aswan · Sound and Light Show at Giza · desert safari from Hurghada · Bedouin village afternoon"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Todo el país en dieciocho días: de los faraones al Sinaí"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un viaje privado cuyo argumento es la amplitud: las capas más antiguas de El Cairo, el crucero por el Nilo, los arrecifes del mar Rojo y las montañas de granito del Sinaí meridional, con tiempo suficiente en cada parte para que ninguna se sienta apenas visitada."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Dieciocho días son inusuales para un viaje a Egipto, y la rareza es el punto. La mayoría de los itinerarios eligen un registro y se quedan en él. Este rechaza esa elección y atraviesa cuatro Egiptos que rara vez comparten programa: el Egipto faraónico de El Cairo, Saqqara, Luxor y Abu Simbel; el Egipto del río entre Asuán y Luxor; el Egipto del mar Rojo, donde Hurghada y Sharm el-Sheij conservan dos versiones de la costa; y el Egipto de las montañas de granito alrededor de Santa Catalina."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta empieza en El Cairo, alcanza el sur hasta Abu Simbel y Asuán, gira el crucero al norte por Kom Ombo y Edfu hacia Luxor, cruza a Hurghada, toma el ferry hasta Sharm el-Sheij, sube al interior hasta Santa Catalina y regresa a El Cairo para un capítulo final en Guiza y el Gran Museo Egipcio. Al llegar a Guiza el día diecisiete, ya se ha visto lo que precedió a las pirámides y lo que vino después. Esta es una salida privada con su propio egiptólogo durante todo el viaje: catorce noches en hoteles de cinco estrellas y resorts, y tres noches a bordo de un crucero por el Nilo de cinco estrellas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo: las capas antiguas primero"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "El viaje empieza en silencio: recogida en el aeropuerto internacional de El Cairo y traslado al hotel, sin programa para la primera tarde."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "El segundo día trabaja un estrato menos visitado que el faraónico. La mañana se sumerge en El Cairo Antiguo —el barrio histórico de Fustat— empezando por la sinagoga Ben Ezra, donde la tradición dice que se rescató al niño Moisés del Nilo, y la Iglesia Colgante, basílica copta del siglo V suspendida sobre la portería de una fortaleza romana. El Museo Copto contiguo guarda la mayor colección de arte cristiano copto del mundo. La iglesia de Abu Serga, una de las más antiguas de Egipto, se levanta sobre una cripta en la que, según la tradición, se refugió la Sagrada Familia huyendo de Herodes. La tarde sube a la Ciudadela de Saladino, desde la que se gobernó Egipto durante siete siglos, y a la mezquita de Mohamed Alí, revestida de alabastro, en su interior. El día termina en Jan el-Jalili, comerciando sin interrupción desde el siglo XIV."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "El tercer día recorre la secuencia de construcción piramidal más antigua que existe. Menfis, primera capital del Egipto unificado, fundada hacia 3100 a. C., conserva el coloso de caliza caído de Ramsés II y la gran esfinge de alabastro. Saqqara alberga la pirámide escalonada de Zoser, construida hacia 2650 a. C.: la estructura grande de piedra más antigua del mundo; Imhotep apiló seis mastabas de tamaño decreciente e inventó la forma piramidal. El día sigue hasta Dahshur, donde los arquitectos, un siglo después, la refinaron: la pirámide Acodada, con su cambio abrupto de ángulo a media altura, y la pirámide Roja, lisa desde el principio, plantilla que Guiza perfeccionaría."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "El sur profundo: Abu Simbel y Asuán"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "El cuarto día es el más largo del itinerario. Un vuelo temprano al sur lleva hasta Abu Simbel, cerca de la frontera con Sudán, donde Ramsés II tallo dos templos directamente en un acantilado de arenisca en el siglo XIII a. C. Los cuatro colosos sedentes a la entrada del Gran Templo —cada uno de más de veinte metros— están entre los monumentos más reconocibles del mundo antiguo. Entre 1964 y 1968 el complejo se serró en bloques y se elevó 65 metros para salvarlo del lago Nasser, detrás de la recién terminada presa Alta de Asuán: uno de los rescates arqueológicos técnicamente más exigentes jamás intentados. El santuario interior está alineado para que la luz solar alcance las estatuas del fondo dos días al año, hacia el 22 de febrero y el 22 de octubre."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "El día continúa hasta Asuán, la ciudad significativa más meridional de Egipto, situada donde el Nilo se estrecha hacia la primera catarata. La tarde transcurre sobre el agua: una faluca tradicional junto a la isla de Kitchener, hoy jardín botánico, y un poblado nubio en la orilla occidental, con el mausoleo del Aga Khan en la colina de arriba."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "El quinto día se mueve entre ingeniería moderna y piedra antigua. La presa Alta de Asuán, completada en 1970, controló la crecida del Nilo y creó el lago Nasser, el mayor embalse artificial del mundo; su construcción desplazó a alrededor de cien mil nubios. El obelisco inacabado, abandonado en su cantera de granito con una grieta atravesándolo, es el mayor jamás intentado. La tarde se traslada a File, donde el templo de Isis —otro monumento rescatado de las aguas crecientes del lago Nasser y reensamblado en cota más alta, en la isla de Agilkia, entre 1972 y 1980— se levanta sobre una isla del Nilo, dedicado a la deidad más ampliamente adorada del panteón egipcio. El día se cierra con el embarque en el crucero por el Nilo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Los días del río: crucero al norte hacia Luxor"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "El crucero sube al norte el día seis, deteniéndose en dos templos fluviales. Kom Ombo está dividido en perfecta simetría entre Sobek, el cocodrilo, y Horus el Viejo, con cocodrilos momificados e instrumentos quirúrgicos tallados en los muros. El templo ptolemaico de Horus en Edfu es el más completamente preservado de Egipto: su colosal halcón de granito es la imagen que lo define."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "El crucero llega a Luxor, la antigua Tebas, y el primer día tebano cruza al terreno que los egipcios reservaron a sus muertos. El Valle de los Reyes contiene más de sesenta tumbas reales excavadas en la caliza, utilizadas aproximadamente entre 1550 y 1070 a. C., con muros todavía vivos en escenas pintadas del Más Allá. La escala se entiende mejor no en la modesta tumba de Tutankamón —famosa por lo que se encontró dentro en 1922— sino en los corredores más amplios de Ramsés VI o Seti I. El templo funerario de Hatshepsut en Deir el-Bahari sigue: tres terrazas porticadas contra el acantilado, construidas para una mujer que mantuvo el poder más de dos décadas en el siglo XV a. C. y envió expediciones comerciales hasta Punt; su obelisco superviviente en Karnak alcanza 29,5 metros. Los Colosos de Memnón —dos figuras sedentes de Amenhotep III— cierran la orilla occidental."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "El segundo día en Luxor se queda en el lado de los vivos. Karnak es una ciudad de templos ampliada bajo casi todos los faraones durante más de 1500 años. Su gran sala hipóstila —134 columnas, las más altas de 21 metros— es uno de los espacios interiores más abrumadores conservados del mundo antiguo. El cercano templo de Luxor, conectado a Karnak por la avenida de las esfinges reexcavada (reabierta ceremonialmente en noviembre de 2021), es más pequeño y más coherente. Un paseo en carruaje por los mercados cierra la tarde."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "La costa: Hurghada y Sharm el-Sheij"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "El día nueve cambia de registro: se deja el valle del Nilo y se conduce al este por el Desierto Oriental hasta Hurghada. Se llega al resort y se ganan cinco días de salidas tempranas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "El mar Rojo conserva uno de los sistemas de arrecifes coralinos más finos del planeta, y el día diez es el adecuado para encontrarse con él. Snorkel, buceo, windsurf, una embarcación con fondo de cristal: nada es obligatorio. El tercer día en Hurghada gira al interior: una tarde en un poblado beduino lleva al Desierto Oriental en sus propios términos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Un ferry el día doce lleva al sur hasta Sharm el-Sheij, en el extremo de la península del Sinaí, más desarrollada e internacional que Hurghada, con una reputación de buceo que trasciende a Egipto. El arrecife de Ras Mohammed, justo al sur de la localidad, está entre los puntos de buceo más célebres del mundo. Sharm recibe entonces dos días completos sin programa fijo: arrecife, playas, escuelas de buceo, mercados o excursiones al interior del Sinaí. La apertura es la idea."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Santa Catalina: las montañas de granito"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "El día quince entra en el interior del Sinaí, la jornada más silenciosa del viaje. La carretera atraviesa las montañas de granito del sur del Sinaí, un paisaje lo bastante severo para explicar por qué cristianos y judíos vinieron aquí buscando a Dios en el desierto. El monasterio de Santa Catalina, fundado en el siglo VI d. C. por el emperador Justiniano alrededor del lugar tradicionalmente identificado con la zarza ardiente, es el monasterio cristiano habitado de forma continua más antiguo del mundo. Su biblioteca conserva la segunda colección más grande de manuscritos tempranos después del Vaticano. El acceso al interior ha estado sujeto a cambios en años recientes; su egiptólogo confirmará lo que esté abierto en el momento del viaje."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "Se pasa la noche en Santa Catalina. El ascenso al monte Sinaí antes del alba, para estar en la cumbre al amanecer como los peregrinos llevan haciendo quince siglos, queda disponible para quien lo quiera."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo de nuevo: el cierre en Guiza"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "El día dieciséis devuelve el viaje a El Cairo, con la conducción cronometrada para el espectáculo de luz y sonido en Guiza: la meseta iluminada, la Esfinge narrando su propia historia. Tras dos semanas en Egipto, mirar el complejo de noche tiene un peso distinto del que tenía el día uno."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "El diecisiete es el día hacia el que muchos viajeros vienen construyendo desde Saqqara. Las pirámides de Guiza —Keops, Kefrén y Micerinos, levantadas en aproximadamente medio siglo en torno a 2500 a. C.— no son los monumentos más antiguos que se habrán visto, pero son los que ordenan todo lo demás. Estar sobre la meseta con la secuencia detrás le da al conjunto un contexto que una visita del primer día no puede tener. La Gran Esfinge completa la imagen. La tarde se pasa en el Gran Museo Egipcio, plenamente abierto desde el 1 de noviembre de 2025 junto a la meseta: el mayor museo arqueológico del mundo. Las galerías de Tutankamón, con los cinco mil objetos de la tumba, son la pieza central; la escala de lo que las rodea —estatuas, joyería, papiros, herramientas, mobiliario de cada período— es la impresión más duradera. Las momias reales se exponen en el Museo Nacional de la Civilización Egipcia, en El Cairo Antiguo. El traslado al aeropuerto sigue a la mañana siguiente."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Dieciocho días no pueden mostrar todo Egipto: ningún itinerario puede pretender eso. Lo que esta ruta hace en su lugar es mostrar lo bastante de sus partes, y darle a cada una el tiempo suficiente, para que al final empiecen a formar un todo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La forma del viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "Dónde · El Cairo → Menfis, Saqqara y Dahshur → Abu Simbel → Asuán → crucero por el Nilo (Kom Ombo, Edfu) → Luxor → Hurghada → Sharm el-Sheij → Santa Catalina → El Cairo y Guiza"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": "Duración · 18 días / 17 noches, ajustable como viaje privado"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "Carácter · Salida privada · su propio egiptólogo · 14 noches de hotel + 3 noches a bordo de un crucero por el Nilo de cinco estrellas · vuelos internos El Cairo–Abu Simbel y Abu Simbel–Asuán · ferry Hurghada–Sharm el-Sheij · faluca en Asuán · espectáculo de luz y sonido en Guiza · safari por el desierto desde Hurghada · tarde en poblado beduino"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "18日間で国全体を——ファラオからシナイへ"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "包括性を主張するプライベートな旅。カイロのより古い層、ナイルクルーズ、紅海のリーフ、シナイ南部の花崗岩の山々——いずれの章にも、「ただ訪れた」と感じさせないだけの日数を与えて。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプトの旅で18日というのは異例で、その異例さがまさに眼目です。たいていの行程は一つの調子を選び、そこに留まります。この旅はその選択を拒み、めったに同じプログラムを共有しない四つのエジプトを横断します。カイロ、サッカラ、ルクソール、アブ・シンベルの記念建造物に凝縮されたファラオのエジプト。アスワンとルクソールのあいだの川のエジプト、クルーズ船のデッキから眺めるもの。フルガダとシャルム・エル・シェイクの二つのまったく異なる海岸を抱える紅海のエジプト。そして聖カタリナ周りの花崗岩の山々で、最も厳しい姿を見せる、砂漠と信仰のエジプトです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "ルートはカイロに始まり、南のアブ・シンベルとアスワンへ達し、ナイルクルーズをコム・オンボとエドフを抜けて北のルクソールへと向け、ルクソールから東方砂漠を横切ってフルガダへ、フェリーで南のシナイ半島の先端のシャルム・エル・シェイクへ、内陸へ登って聖カタリナへ、そしてギザと大エジプト博物館での最後の章のためにカイロへ戻ります。17日目にギザに立つころには、ピラミッドの前に来たものと、そのあとに来たものを、あなたはすでに見終えているのです。これは、専属のエジプト学ガイドを全行程に同行させる一回のプライベートな出発で、五つ星ホテル・リゾートでの14泊と、五つ星ナイルクルーズ船での3泊が組まれています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロ：まずより古い層から"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "旅はおだやかに始まります。カイロ国際空港でお出迎えし、ホテルへ。最初の夜にプログラムはありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "二日目はファラオよりも訪れる人の少ない地層に挑みます。午前はオールド・カイロへ——フスタートの古い地区から、まずベン・エズラ・シナゴーグ。伝承では、モーセがナイルから引き上げられた場所とされています。そしてハンギング・チャーチ——ローマの要塞の門楼の上に吊られた5世紀のコプトのバシリカです。隣のコプト博物館は、世界最大のコプト・キリスト教美術のコレクションを収めます。エジプトで最も古い教会の一つアブ・セルガ教会は、ヘロデからの逃避の途上で聖家族をかくまったとされる地下聖堂の上に築かれています。午後はサラディンのシタデルへ。エジプトが七世紀にわたって統治された中世の要塞で、そのなかにあるアラバスターをまとったオスマン期のムハンマド・アリ・モスクへ。一日は、14世紀以来とぎれることなく営まれてきたハン・エル・ハリーリで終わります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "三日目は、現存する最も古いピラミッド建設の連なりをたどります。メンフィスは紀元前3100年ごろに建設された統一エジプト最初の首都で、その野外博物館にはラムセス2世の倒れた巨大な石灰岩の像と、大きなアラバスターのスフィンクスがあります。サッカラには、紀元前2650年ごろのジェセル王の階段ピラミッド——世界最古の大規模な石造建造物——があります。イムホテプは六つの大きさの減じるマスタバを積み重ね、ピラミッドの形を生み出しました。一日はダハシュールへと続きます。そこではイムホテプの一世紀のちの建築家たちが、彼が始めたものを洗練させました。屈折ピラミッドは、半ばで角度が急に変わっており、建設の途中で遭遇し修正された構造上の問題の物理的な記録です。近くの赤ピラミッドは、初めからなめらかに築かれ、ギザの建設者たちが完成させることになる雛形です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "深い南：アブ・シンベルとアスワン"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "四日目は行程のなかで最も長い移動です。早朝の便があなたを南のアブ・シンベルへ運びます。スーダンとの国境近くで、ラムセス2世が紀元前13世紀に二つの神殿を砂岩の崖に直接彫り込んだ地です。大神殿入口の四体の巨大な王の座像——それぞれ高さ20メートル超——は、古代世界で最も見覚えのある記念建造物の一つです。1964年から1968年にかけて、新たに完成したアスワン・ハイダムの背後に上昇するナセル湖の水から救うため、複合体全体がブロックに切り分けられ、より高い土地へ65メートル引き上げられました。これまでに試みられたなかで最も技術的に困難な考古学的救出の一つです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "一日はアスワンへと続きます——エジプト最南の主要都市で、ナイルが第一急湍へ向かって狭まる場所にあります。午後は水の上で過ごします。伝統的なフェルッカが、いまは植物園となっているキッチナー島と、西岸のヌビアの村を、その上の丘のアガ・ハーン廟とともに過ぎて、あなたを連れていきます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "五日目は近代の工学と古代の石のあいだを動きます。1970年に完成したアスワン・ハイダムは、ナイルの氾濫を御し、世界最大の人造貯水池ナセル湖をつくりました。未完のオベリスクは、亀裂が走った状態で花崗岩の石切場に放棄されており、これまでに試みられたなかで最大のものになるはずでした。午後はフィラエへ。そこではイシス神殿がナイルの島を占めています——ナセル湖の上昇する水から救い出され、より高い土地に組み直された、もう一つの記念建造物です。古代エジプトの神々のなかで最も広く崇拝された神格に捧げられたこの神殿は、その浮彫と色彩を多く残しています。一日は、ナイルクルーズ船への乗船で締めくくられます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "川の日々：ルクソールへ北上するクルーズ"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "六日目、ナイルクルーズがあなたを北へ運び、二つの川沿いの神殿で立ち寄ります。コム・オンボは、ワニの神セベクと年長のホルスのあいだで左右対称に分けられ、壁にはミイラ化されたワニと、最古とされる医療器具が彫り込まれています。プトレマイオス朝期のエドフのホルス神殿は、エジプトで最もよく保存された神殿です——入口の巨大な花崗岩の隼が、その象徴的な姿です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "クルーズが古代テーベ、ルクソールに達します。最初のルクソールの日は、川を渡って死者の地へ。王家の谷は、テーベの丘陵のなかの砂漠の谷で、新王国のファラオたちがおおよそ紀元前1550年から1070年まで葬られた場所で、その壁と、60を超える王室の墓の壁は、いまも来世の旅の彩色され彫られた場面で明るく輝いています。野心の規模が最も明らかなのは、ツタンカーメンの控えめな墓——1922年にその内部から見つかったもので名高い墓——ではなく、ラムセス6世やセティ1世のより壮大な回廊においてです。デイル・エル・バハリのハトシェプスト葬祭殿が続きます——崖の壁を背に三段のテラスを重ねて立ち上がる列柱の建造物で、紀元前15世紀に二十年以上にわたって権力を握り、プントの地ほど遠くまで交易の遠征を送り出した女性のために築かれました。メムノンの巨像が、西岸の一日を締めくくります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "二日目のルクソールは、川の生きている側に留まります。カルナックは、ほぼすべてのファラオの庇護のもと1,500年以上にわたって拡張された神殿の都市です。大列柱室は134本の柱の森で、最も高いものは21メートルに達し、古代世界から現存する最も圧倒的な内部空間の一つです。隣接するルクソール神殿は、2021年11月に式典開通したスフィンクスの参道でカルナックに結ばれています。午後は市場を抜ける馬車の乗車に道を譲ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "紅海：フルガダとシャルム・エル・シェイク"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "九日目は、旅の調子をまるごと変えます。ナイル渓谷をあとにし、東方砂漠を東へ横切って紅海沿岸のフルガダへ走ります。リゾートにチェックインすると、五日間の早起きと密度の濃いプログラムを勝ち取った、と納得できます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "紅海は地上で最も見事なサンゴ礁の系の一つを擁し、十日目はそれと出会うための日です。シュノーケリング、ダイビング、ウィンドサーフィン、グラスボトムボート——どれも必須ではありません。三日目のフルガダは内陸へ向きを変えます。午後のベドウィンの村の体験が、東方砂漠をそれ自身の条件で見る機会を差し出します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "十二日目、フェリーが、あなたをフルガダから南へ、アカバ湾とスエズ湾が出会うシナイ半島の先端のシャルム・エル・シェイクへ運びます。フルガダより開発が進み、国際的で、そのダイビングの名声はエジプトの外にまで及んでいます。町のすぐ南のラス・モハメッドの礁は、世界で最も名高いダイビングスポットの一つです。シャルム・エル・シェイクには、定まったプログラムなしに丸二日が与えられます——礁、ビーチ、ダイビングスクール、市場、シナイ内陸への任意の遠足。開かれていることこそが眼目です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "聖カタリナ：山の修道院"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "十五日目はシナイ内陸へ移り、旅で最も静かな一日です。聖カタリナへのドライブは、シナイ南部の花崗岩の山々を抜けてあなたを連れていきます。キリスト教徒もユダヤ教徒も、なぜこの地へ神を求めて砂漠へやってきたかを説明するに足るほど、厳しい風景です。聖カタリナ修道院は、6世紀に皇帝ユスティニアヌスによって、伝統的に燃える柴の地とされる場所のまわりに創建されたもので、世界で最も古い、絶えることなく人が住み続けるキリスト教の修道院です。その図書館は、ヴァチカンに次いで二番目に大きい初期写本のコレクションを収めています。修道院の内部への立ち入りは近年変更が続いているため、ご旅行の時点で何が開いているかは、ガイドが確認します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "聖カタリナで一泊します。夜明け前にシナイ山に登る選択肢——15世紀にわたって巡礼者がそうしてきたように、日の出のために頂上にいるための——は、望む方々のためにあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "もう一度カイロ：ギザでの終幕"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "十六日目はあなたをカイロへ戻し、一つの儀式とともにその輪を閉じます。聖カタリナからの帰りのドライブは、ギザのピラミッドでの音と光のショーに間に合う時刻にカイロへ着きます。エジプトでの二週間ののち、夜のギザ複合体を眺めることは、初日のそれとは異なる重みを帯びています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "十七日目は、多くの旅人にとって、3日目のサッカラ以来ずっと向かって築き上げてきた日です。ギザのピラミッド——クフ王、カフラー王、メンカウラー王、紀元前2500年ごろのおよそ半世紀にわたって築かれたもの——は、この旅で見てきたなかで最も古い記念建造物ではありませんが、ほかのすべてを組み立てるものです。旅の連なりを背に高原に立ち、階段ピラミッドが何だったかを知り、ラムセス2世が建設者たちの長い行列のどこに立っていたかを知ることは、ギザ複合体に、初日の訪問では持ちえない文脈を与えます。高原の下の大スフィンクスが、その絵を完成させます。午後は大エジプト博物館で過ごします。2025年11月1日にギザ高原の傍らで全面開館したもので、世界最大の考古学博物館です。墓所からの五千点すべての品々を収めるツタンカーメンの展示室がその中心ですが、それを取り囲むものの規模——エジプトの歴史のあらゆる時代の彫像、宝飾品、パピルス、道具、家具——のほうが、より長く残る印象です。王室のミイラは、オールド・カイロの国立エジプト文明博物館にあります。空港への送迎が翌朝続きます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "18日間で、エジプトのすべてをお見せすることはできません——どの行程にもそれは謳えません。この行程が代わりにするのは、その部分を十分にお見せし、それぞれに十分な時間を与えるので、終わるころにはそれらが一つの全体を成しはじめる、ということです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "旅の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · カイロ → メンフィス／サッカラ／ダハシュール → アブ・シンベル → アスワン → ナイルクルーズ（コム・オンボ、エドフ）→ ルクソール → フルガダ → シャルム・エル・シェイク → 聖カタリナ → カイロ／ギザ"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": "日数 · 18日間／17泊 — 調整可能"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド · ホテル14泊＋五つ星ナイルクルーズ船3泊 · 国内線（カイロ／アブ・シンベル、アブ・シンベル／アスワン）· フェリー（フルガダ／シャルム・エル・シェイク）· アスワンのフェルッカ · ギザの音と光のショー · フルガダの砂漠サファリ · ベドウィンの村の午後"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "wp-page-83284",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private journey is built around your party, not the other way around. Tell our team how you'd want to shape it — more nights on the cruise, a longer stay at Saint Catherine, the Red Sea swapped for additional time in the Western Desert, a dawn climb of Mount Sinai added — and we'll build the eighteen days to fit."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Un viaje privado se construye alrededor de su grupo, no al revés. Cuéntenos cómo quieren modelarlo —más noches en el crucero, una estancia más larga en Santa Catalina, el mar Rojo cambiado por tiempo extra en el Desierto Occidental, un ascenso al monte Sinaí al amanecer— y armaremos los dieciocho días a su medida."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "プライベートな旅は、お客様のご一行を中心に組み立てます。クルーズの泊数を増やす、聖カタリナの滞在を延ばす、紅海の代わりに西方砂漠の日々を入れる、夜明けのシナイ山登頂を加える——どのように形にしたいか、私どもまでお聞かせください。18日間をその形に合わせて組み立てます。"
+  }
+ ],
+ "durationDays": 18,
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 4354,
+  "ja": 4462
+ },
+ "heroImage": {
+  "_type": "image",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Saint Catherine's Monastery and its fortified walls below the rugged Sinai mountains."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El Monasterio de Santa Catalina y sus muros fortificados bajo las escarpadas montañas del Sinaí."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "険しいシナイ山地の麓に立つ、城壁に囲まれた聖カタリナ修道院。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-fc1fe153502fbd8e98fa8bfa8890e1372687b5cb-3000x1787-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Saint Catherine's Monastery shelters beneath the granite peaks of Sinai."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El Monasterio de Santa Catalina se cobija bajo los picos graníticos del Sinaí."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "シナイの花崗岩の峰の下に佇む聖カタリナ修道院。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "lzhlfxiono",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This is one private departure with your own Egyptologist throughout — fourteen nights in five-star hotels and resorts, three nights aboard a five-star Nile cruise ship.",
+   "text": "Fully private, your own Egyptologist throughout"
+  },
+  {
+   "_key": "vfvpi5wuz0",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This is one private departure with your own Egyptologist throughout — fourteen nights in five-star hotels and resorts, three nights aboard a five-star Nile cruise ship.",
+   "text": "Fourteen nights in five-star hotels and resorts"
+  },
+  {
+   "_key": "pphr0e75j2",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This is one private departure with your own Egyptologist throughout — fourteen nights in five-star hotels and resorts, three nights aboard a five-star Nile cruise ship.",
+   "text": "Three nights aboard a five-star Nile cruise ship"
+  },
+  {
+   "_key": "68of2m6bsk",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · your own Egyptologist · 14 hotel nights + 3 nights aboard a five-star Nile cruise · domestic flights Cairo–Abu Simbel and Abu Simbel–Aswan · ferry Hurghada–Sharm El Sheikh · felucca at Aswan · Sound and Light Show at Giza · desert safari from Hurghada · Bedouin village afternoon",
+   "text": "Domestic flights Cairo–Abu Simbel and Abu Simbel–Aswan"
+  },
+  {
+   "_key": "p4m4by4kjm",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · your own Egyptologist · 14 hotel nights + 3 nights aboard a five-star Nile cruise · domestic flights Cairo–Abu Simbel and Abu Simbel–Aswan · ferry Hurghada–Sharm El Sheikh · felucca at Aswan · Sound and Light Show at Giza · desert safari from Hurghada · Bedouin village afternoon",
+   "text": "Ferry Hurghada–Sharm El Sheikh"
+  },
+  {
+   "_key": "38uwq16utr",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · your own Egyptologist · 14 hotel nights + 3 nights aboard a five-star Nile cruise · domestic flights Cairo–Abu Simbel and Abu Simbel–Aswan · ferry Hurghada–Sharm El Sheikh · felucca at Aswan · Sound and Light Show at Giza · desert safari from Hurghada · Bedouin village afternoon",
+   "text": "Felucca at Aswan"
+  },
+  {
+   "_key": "7phtc55u2a",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · your own Egyptologist · 14 hotel nights + 3 nights aboard a five-star Nile cruise · domestic flights Cairo–Abu Simbel and Abu Simbel–Aswan · ferry Hurghada–Sharm El Sheikh · felucca at Aswan · Sound and Light Show at Giza · desert safari from Hurghada · Bedouin village afternoon",
+   "text": "Sound and Light Show at Giza"
+  },
+  {
+   "_key": "al9i6r9bs4",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · your own Egyptologist · 14 hotel nights + 3 nights aboard a five-star Nile cruise · domestic flights Cairo–Abu Simbel and Abu Simbel–Aswan · ferry Hurghada–Sharm El Sheikh · felucca at Aswan · Sound and Light Show at Giza · desert safari from Hurghada · Bedouin village afternoon",
+   "text": "Desert safari from Hurghada"
+  },
+  {
+   "_key": "vqgm397a26",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Character · Fully private · your own Egyptologist · 14 hotel nights + 3 nights aboard a five-star Nile cruise · domestic flights Cairo–Abu Simbel and Abu Simbel–Aswan · ferry Hurghada–Sharm El Sheikh · felucca at Aswan · Sound and Light Show at Giza · desert safari from Hurghada · Bedouin village afternoon",
+   "text": "Bedouin village afternoon"
+  },
+  {
+   "_key": "0l35reh8ps",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The tour begins quietly: you are met at Cairo International and taken to your hotel, no programme for the first evening.",
+   "text": "Meet at Cairo International and transfer to hotel"
+  },
+  {
+   "_key": "3afipc7cf8",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The airport transfer follows the next morning.",
+   "text": "Airport transfer"
+  },
+  {
+   "_key": "hf7qe84rol",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Esta es una salida privada con su propio egiptólogo durante todo el viaje: catorce noches en hoteles de cinco estrellas y resorts, y tres noches a bordo de un crucero por el Nilo de cinco estrellas.",
+   "text": "Salida privada"
+  },
+  {
+   "_key": "4rsf1tkvys",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Esta es una salida privada con su propio egiptólogo durante todo el viaje: catorce noches en hoteles de cinco estrellas y resorts, y tres noches a bordo de un crucero por el Nilo de cinco estrellas.",
+   "text": "Su propio egiptólogo durante todo el viaje"
+  },
+  {
+   "_key": "1k034g70hh",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Esta es una salida privada con su propio egiptólogo durante todo el viaje: catorce noches en hoteles de cinco estrellas y resorts, y tres noches a bordo de un crucero por el Nilo de cinco estrellas.",
+   "text": "Catorce noches en hoteles de cinco estrellas y resorts"
+  },
+  {
+   "_key": "r80wbb8hew",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Esta es una salida privada con su propio egiptólogo durante todo el viaje: catorce noches en hoteles de cinco estrellas y resorts, y tres noches a bordo de un crucero por el Nilo de cinco estrellas.",
+   "text": "Tres noches a bordo de un crucero por el Nilo de cinco estrellas"
+  },
+  {
+   "_key": "2ajt8jbmka",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El viaje empieza en silencio: recogida en el aeropuerto internacional de El Cairo y traslado al hotel, sin programa para la primera tarde.",
+   "text": "Recogida en el aeropuerto internacional de El Cairo y traslado al hotel"
+  },
+  {
+   "_key": "xtgmfaerqh",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El traslado al aeropuerto sigue a la mañana siguiente.",
+   "text": "Traslado al aeropuerto"
+  },
+  {
+   "_key": "21f0whxobm",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Carácter · Salida privada · su propio egiptólogo · 14 noches de hotel + 3 noches a bordo de un crucero por el Nilo de cinco estrellas · vuelos internos El Cairo–Abu Simbel y Abu Simbel–Asuán · ferry Hurghada–Sharm el-Sheij · faluca en Asuán · espectáculo de luz y sonido en Guiza · safari por el desierto desde Hurghada · tarde en poblado beduino",
+   "text": "Vuelos internos El Cairo–Abu Simbel y Abu Simbel–Asuán"
+  },
+  {
+   "_key": "erh7zskeg9",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Carácter · Salida privada · su propio egiptólogo · 14 noches de hotel + 3 noches a bordo de un crucero por el Nilo de cinco estrellas · vuelos internos El Cairo–Abu Simbel y Abu Simbel–Asuán · ferry Hurghada–Sharm el-Sheij · faluca en Asuán · espectáculo de luz y sonido en Guiza · safari por el desierto desde Hurghada · tarde en poblado beduino",
+   "text": "Ferry Hurghada–Sharm el-Sheij"
+  },
+  {
+   "_key": "9u38esjomq",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Carácter · Salida privada · su propio egiptólogo · 14 noches de hotel + 3 noches a bordo de un crucero por el Nilo de cinco estrellas · vuelos internos El Cairo–Abu Simbel y Abu Simbel–Asuán · ferry Hurghada–Sharm el-Sheij · faluca en Asuán · espectáculo de luz y sonido en Guiza · safari por el desierto desde Hurghada · tarde en poblado beduino",
+   "text": "Faluca en Asuán"
+  },
+  {
+   "_key": "c8d4zo3gn7",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Carácter · Salida privada · su propio egiptólogo · 14 noches de hotel + 3 noches a bordo de un crucero por el Nilo de cinco estrellas · vuelos internos El Cairo–Abu Simbel y Abu Simbel–Asuán · ferry Hurghada–Sharm el-Sheij · faluca en Asuán · espectáculo de luz y sonido en Guiza · safari por el desierto desde Hurghada · tarde en poblado beduino",
+   "text": "Espectáculo de luz y sonido en Guiza"
+  },
+  {
+   "_key": "yhq4g1g2rd",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Carácter · Salida privada · su propio egiptólogo · 14 noches de hotel + 3 noches a bordo de un crucero por el Nilo de cinco estrellas · vuelos internos El Cairo–Abu Simbel y Abu Simbel–Asuán · ferry Hurghada–Sharm el-Sheij · faluca en Asuán · espectáculo de luz y sonido en Guiza · safari por el desierto desde Hurghada · tarde en poblado beduino",
+   "text": "Safari por el desierto desde Hurghada"
+  },
+  {
+   "_key": "2q94yia6hs",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Carácter · Salida privada · su propio egiptólogo · 14 noches de hotel + 3 noches a bordo de un crucero por el Nilo de cinco estrellas · vuelos internos El Cairo–Abu Simbel y Abu Simbel–Asuán · ferry Hurghada–Sharm el-Sheij · faluca en Asuán · espectáculo de luz y sonido en Guiza · safari por el desierto desde Hurghada · tarde en poblado beduino",
+   "text": "Tarde en poblado beduino"
+  },
+  {
+   "_key": "k4620p55o9",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "これは、専属のエジプト学ガイドを全行程に同行させる一回のプライベートな出発で、五つ星ホテル・リゾートでの14泊と、五つ星ナイルクルーズ船での3泊が組まれています。",
+   "text": "専属のエジプト学ガイド（全行程同行）"
+  },
+  {
+   "_key": "po9i98ke1b",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "これは、専属のエジプト学ガイドを全行程に同行させる一回のプライベートな出発で、五つ星ホテル・リゾートでの14泊と、五つ星ナイルクルーズ船での3泊が組まれています。",
+   "text": "五つ星ホテル・リゾートでの14泊"
+  },
+  {
+   "_key": "3g5ob6l20k",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "これは、専属のエジプト学ガイドを全行程に同行させる一回のプライベートな出発で、五つ星ホテル・リゾートでの14泊と、五つ星ナイルクルーズ船での3泊が組まれています。",
+   "text": "五つ星ナイルクルーズ船での3泊"
+  },
+  {
+   "_key": "y4brr3ohtm",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "- 性格 · 完全プライベート出発 · 専属のエジプト学ガイド · ホテル14泊＋五つ星ナイルクルーズ船3泊 · 国内線（カイロ／アブ・シンベル、アブ・シンベル／アスワン）· フェリー（フルガダ／シャルム・エル・シェイク）· アスワンのフェルッカ · ギザの音と光のショー · フルガダの砂漠サファリ · ベドウィンの村の午後",
+   "text": "国内線（カイロ／アブ・シンベル、アブ・シンベル／アスワン）"
+  },
+  {
+   "_key": "wq1xzw4lww",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "- 性格 · 完全プライベート出発 · 専属のエジプト学ガイド · ホテル14泊＋五つ星ナイルクルーズ船3泊 · 国内線（カイロ／アブ・シンベル、アブ・シンベル／アスワン）· フェリー（フルガダ／シャルム・エル・シェイク）· アスワンのフェルッカ · ギザの音と光のショー · フルガダの砂漠サファリ · ベドウィンの村の午後",
+   "text": "フェリー（フルガダ／シャルム・エル・シェイク）"
+  },
+  {
+   "_key": "jppdigx1gi",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "- 性格 · 完全プライベート出発 · 専属のエジプト学ガイド · ホテル14泊＋五つ星ナイルクルーズ船3泊 · 国内線（カイロ／アブ・シンベル、アブ・シンベル／アスワン）· フェリー（フルガダ／シャルム・エル・シェイク）· アスワンのフェルッカ · ギザの音と光のショー · フルガダの砂漠サファリ · ベドウィンの村の午後",
+   "text": "アスワンのフェルッカ"
+  },
+  {
+   "_key": "lr59cfqrs4",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "- 性格 · 完全プライベート出発 · 専属のエジプト学ガイド · ホテル14泊＋五つ星ナイルクルーズ船3泊 · 国内線（カイロ／アブ・シンベル、アブ・シンベル／アスワン）· フェリー（フルガダ／シャルム・エル・シェイク）· アスワンのフェルッカ · ギザの音と光のショー · フルガダの砂漠サファリ · ベドウィンの村の午後",
+   "text": "ギザの音と光のショー"
+  },
+  {
+   "_key": "xe9ve88fji",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "- 性格 · 完全プライベート出発 · 専属のエジプト学ガイド · ホテル14泊＋五つ星ナイルクルーズ船3泊 · 国内線（カイロ／アブ・シンベル、アブ・シンベル／アスワン）· フェリー（フルガダ／シャルム・エル・シェイク）· アスワンのフェルッカ · ギザの音と光のショー · フルガダの砂漠サファリ · ベドウィンの村の午後",
+   "text": "フルガダの砂漠サファリ"
+  },
+  {
+   "_key": "n426etn9u9",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "- 性格 · 完全プライベート出発 · 専属のエジプト学ガイド · ホテル14泊＋五つ星ナイルクルーズ船3泊 · 国内線（カイロ／アブ・シンベル、アブ・シンベル／アスワン）· フェリー（フルガダ／シャルム・エル・シェイク）· アスワンのフェルッカ · ギザの音と光のショー · フルガダの砂漠サファリ · ベドウィンの村の午後",
+   "text": "ベドウィンの村の午後"
+  },
+  {
+   "_key": "qaovleardo",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "カイロ国際空港でお出迎えし、ホテルへ。",
+   "text": "カイロ国際空港でのお出迎えとホテルへの送迎"
+  },
+  {
+   "_key": "k90tcf8n8s",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "空港への送迎が翌朝続きます。",
+   "text": "空港への送迎"
+  }
+ ],
+ "itineraryDays": [
+  {
+   "_key": "eah1b9lld5",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "The tour begins quietly: you are met at Cairo International and taken to your hotel, no programme for the first evening.",
+   "title": "Met at Cairo International, hotel"
+  },
+  {
+   "_key": "rf3xtn4vvu",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "The second day works a less-visited stratum than the pharaonic.",
+   "title": "Old Cairo, Citadel, Khan el-Khalili"
+  },
+  {
+   "_key": "k9t4fbp68k",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "Day three traces the oldest pyramid-building sequence that exists.",
+   "title": "Memphis, Saqqara and Dahshur"
+  },
+  {
+   "_key": "d6lsk0th3u",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Aswan",
+   "overnightNeedsReview": true,
+   "source": "Day four is the longest in the itinerary.",
+   "title": "Flight to Abu Simbel, then Aswan"
+  },
+  {
+   "_key": "u2496jr6q5",
+   "_type": "itineraryDay",
+   "day": 5,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Nile cruise",
+   "overnightNeedsReview": true,
+   "source": "Day five moves between modern engineering and ancient stone.",
+   "title": "High Dam, Philae, boarding Nile cruise"
+  },
+  {
+   "_key": "9xlkvhtudr",
+   "_type": "itineraryDay",
+   "day": 6,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Nile cruise",
+   "overnightNeedsReview": true,
+   "source": "The cruise carries you north on day six, pausing at two river temples.",
+   "title": "Cruise north: Kom Ombo and Edfu"
+  },
+  {
+   "_key": "h61v07xcqz",
+   "_type": "itineraryDay",
+   "day": 7,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Nile cruise",
+   "overnightNeedsReview": true,
+   "source": "The cruise reaches Luxor, ancient Thebes, and the first Luxor day crosses to the land the Egyptians set aside for their dead.",
+   "title": "Luxor West Bank, Valley of the Kings"
+  },
+  {
+   "_key": "eaowlxmgpp",
+   "_type": "itineraryDay",
+   "day": 8,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Luxor",
+   "overnightNeedsReview": true,
+   "source": "The second Luxor day stays on the living side.",
+   "title": "Karnak and Luxor Temple"
+  },
+  {
+   "_key": "2tvzqqi2qb",
+   "_type": "itineraryDay",
+   "day": 9,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Hurghada",
+   "overnightNeedsReview": true,
+   "source": "Day nine changes register: you leave the Nile Valley and drive east across the Eastern Desert to Hurghada.",
+   "title": "Drive across Eastern Desert to Hurghada"
+  },
+  {
+   "_key": "6hicehe2al",
+   "_type": "itineraryDay",
+   "day": 10,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Hurghada",
+   "overnightNeedsReview": true,
+   "source": "The Red Sea holds one of the finest coral reef systems on earth, and day ten is the one to encounter it.",
+   "title": "Red Sea coral reef day"
+  },
+  {
+   "_key": "swqp9wli8c",
+   "_type": "itineraryDay",
+   "day": 11,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Hurghada",
+   "overnightNeedsReview": true,
+   "source": "The third Hurghada day turns inland: a Bedouin village afternoon takes you into the Eastern Desert on its own terms.",
+   "title": "Bedouin village afternoon, Eastern Desert"
+  },
+  {
+   "_key": "6hxmib406b",
+   "_type": "itineraryDay",
+   "day": 12,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Sharm El Sheikh",
+   "overnightNeedsReview": true,
+   "source": "A ferry on day twelve carries you south to Sharm El Sheikh, at the tip of the Sinai Peninsula — more developed and international than Hurghada, its diving reputation reaching beyond Egypt.",
+   "title": "Ferry south to Sharm El Sheikh"
+  },
+  {
+   "_key": "orn0llc6jq",
+   "_type": "itineraryDay",
+   "day": 13,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Sharm El Sheikh",
+   "overnightNeedsReview": true,
+   "source": "Sharm then gets two full days without a fixed programme: reef, beaches, dive schools, markets, or excursions into the Sinai interior.",
+   "title": "Sharm full day, no fixed programme"
+  },
+  {
+   "_key": "kuslgraaqa",
+   "_type": "itineraryDay",
+   "day": 14,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Sharm El Sheikh",
+   "overnightNeedsReview": true,
+   "source": "Sharm then gets two full days without a fixed programme: reef, beaches, dive schools, markets, or excursions into the Sinai interior.",
+   "title": "Sharm full day, no fixed programme"
+  },
+  {
+   "_key": "a3zciqgvi5",
+   "_type": "itineraryDay",
+   "day": 15,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Saint Catherine",
+   "overnightNeedsReview": true,
+   "source": "You overnight in Saint Catherine.",
+   "title": "Sinai interior, Saint Catherine's Monastery"
+  },
+  {
+   "_key": "bbxssqpru8",
+   "_type": "itineraryDay",
+   "day": 16,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "Day sixteen returns you to Cairo, the drive timed for the Sound and Light Show at Giza — the plateau flood-lit, the Sphinx narrating its own history.",
+   "title": "Return to Cairo, Sound and Light"
+  },
+  {
+   "_key": "gntig6gv35",
+   "_type": "itineraryDay",
+   "day": 17,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "Day seventeen is the one many travellers have been building toward since Saqqara.",
+   "title": "Pyramids of Giza, Grand Egyptian Museum"
+  },
+  {
+   "_key": "xkiyw7gam5",
+   "_type": "itineraryDay",
+   "day": 18,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "The airport transfer follows the next morning.",
+   "title": "Airport transfer"
+  }
+ ],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/tour-of-egypt/"
+ },
+ "priceFrom": 4175,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_90347",
+   "_ref": "wp-page-90347",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_89452",
+   "_ref": "wp-page-89452",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_87255",
+   "_ref": "wp-page-87255",
+   "_type": "reference"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "tour-of-egypt"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "gran-tour-privado-de-egipto-en-18-dias"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "18-nichikan-de-kuni-zentai-o-fa-rao-kara-shinai-e"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "Eighteen days that take the whole country — the Coptic quarter and the citadel, Abu Simbel and the Nile cruise, three days at Hurghada and the Red Sea, the ferry south to Sharm El Sheikh, and Saint Catherine's Monastery in the Sinai mountains."
+  },
+  {
+   "_key": "es",
+   "value": "Dieciocho días con todo el país: el barrio copto y la ciudadela, Abu Simbel y el crucero por el Nilo, tres días en Hurghada y el mar Rojo, el ferry al sur a Sharm el-Sheij y el monasterio de Santa Catalina en las montañas del Sinaí."
+  },
+  {
+   "_key": "ja",
+   "value": "カイロのより古い層、ナイルクルーズ、紅海のフルガダとシャルム・エル・シェイク、シナイの花崗岩の山々と聖カタリナ修道院、そして最後のギザと大エジプト博物館。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-egypt-in-depth",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "value": "18-Day Grand Tour of Egypt: Cairo, the Nile, the Red Sea and Sinai"
+  },
+  {
+   "_key": "es",
+   "value": "Gran tour privado de Egipto en 18 días"
+  },
+  {
+   "_key": "ja",
+   "value": "18日間で国全体を——ファラオからシナイへ"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}

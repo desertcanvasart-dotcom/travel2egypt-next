@@ -1,0 +1,948 @@
+{
+ "_createdAt": "2026-05-28T11:45:20Z",
+ "_id": "tour.aswan-airport-transfer",
+ "_rev": "pzh5FM4q1DBt3H4LGqNNJZ",
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:46Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Tight cruise connections, late domestic arrivals from Cairo, anyone who prefers logistics handled rather than haggled"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Conexiones ajustadas con cruceros, llegadas tardías desde El Cairo y cualquier viajero que prefiera la logística resuelta en lugar de negociada"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "クルーズ乗り継ぎが厳しい方、夜遅い国内便で着く方、上エジプトの第一印象を交渉なしに受け止めたいすべての旅人"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan Airport Transfer"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "There is no monument waiting at the end of this particular journey, no temple to photograph or ruin to pace out. The Aswan airport transfer is exactly what it claims to be: a competent, private car service that collects you from the terminal and delivers you to your hotel in the city. Its value is proportional to how tired you are when you land, and how little you want to negotiate a taxi in a language you may not speak."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan's airport sits on the east bank of the Nile, roughly 25 kilometres from the city centre. The drive in — past sand-coloured low-rises, the first palms, the first glimpse of desert meeting river — is not nothing. It is, in fact, most travellers' first sustained look at Upper Egypt, and arriving in a calm, air-conditioned car rather than a haggled cab makes that first impression easier to absorb."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "This service suits anyone arriving on a tight connection to a Nile cruise, anyone landing late after a domestic flight from Cairo, and anyone who simply prefers to have the logistics handled. It is a transfer, not a tour, and the page makes no attempt to dress it up as one."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "What the Arrival Holds"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan Airport is small and manageable. On landing, the first task is the entry visa, purchased at one of the bank windows inside the terminal before the immigration desks. The fee is $25 per person, paid directly to the bank in cash; the bank issues a stamp that you affix to a blank page in your passport before joining the immigration queue. The officer at the desk applies the official arrival seal, and you are in."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Baggage reclaim follows immigration. Once you have collected your luggage, a Travel2Egypt representative will be waiting in the arrivals hall holding a sign with your name. From that point, the transfer is straightforward: the representative escorts you to a private, air-conditioned vehicle, your bags go in, and the drive to your hotel begins."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "The road into Aswan offers a quiet orientation. The Nile appears on the western side as you approach the city, broad and unhurried, with the dunes of the Western Desert rising beyond the far bank. Feluccas may be visible even from the car window. It takes roughly 30 to 45 minutes depending on traffic and your hotel's location."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "A Note on the Visa"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Egypt issues visas on arrival at all major entry points, including Aswan. The $25 fee applies to most Western passport holders; travellers from certain countries pay a different rate or may require a visa obtained in advance. Check your country's requirements before you fly. The bank windows at Aswan Airport accept US dollars, euros, and Egyptian pounds. Credit cards are not always accepted at these windows, so carry cash."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Not every part of a journey needs to be an experience. Sometimes it just needs to work."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "This one does."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "A pure handover from terminal to hotel. The concierge can pair this with an Aswan touring day or onward Nile cruise embarkation if useful."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000028",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Traslado privado desde el aeropuerto de Asuán"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "El servicio práctico que resuelve la llegada a la puerta sur de Egipto sin convertir la logística en parte del recuerdo del día."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "No hay monumento esperando al final de este trayecto en concreto, ningún templo que fotografiar ni ruina que recorrer. El traslado desde el aeropuerto de Asuán es exactamente lo que dice: un servicio de coche privado competente que recoge al viajero en la terminal y lo lleva a su alojamiento en la ciudad. Su valor crece a medida que crece el cansancio del que aterriza y disminuye su disposición a negociar un taxi en un idioma que tal vez no domina."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "El aeropuerto de Asuán se halla en la orilla oriental del Nilo, a unos 25 kilómetros del centro. La conducción hasta la ciudad —entre edificios bajos del color de la arena, las primeras palmeras, el primer esbozo del desierto encontrándose con el río— no es trivial. Es, de hecho, la primera mirada sostenida que la mayoría de los viajeros recibe del Alto Egipto, y hacerlo desde un coche con aire acondicionado y no desde un taxi negociado al borde de la acera vuelve esa primera impresión más fácil de absorber."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "El servicio conviene a quien llega ajustado a la conexión con un crucero del Nilo, a quien aterriza tarde tras un vuelo doméstico desde El Cairo y a quien sencillamente prefiere tener resuelta la logística. Es un traslado, no un tour, y este texto no pretende disfrazarlo de otra cosa."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Qué contiene la llegada"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "El aeropuerto de Asuán es pequeño y manejable. Al aterrizar, la primera tarea es el visado de entrada, que se adquiere en uno de los mostradores bancarios dentro de la terminal antes de pasar por los puestos de inmigración. La tasa es de 25 dólares estadounidenses por persona, pagaderos en efectivo directamente al banco; el banco entrega un sello que se fija a una página en blanco del pasaporte antes de hacer cola en inmigración. El agente del mostrador aplica el sello oficial de entrada, y ya está dentro."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "La recogida de equipaje es posterior a inmigración. Una vez recogidas las maletas, un representante de Travel2Egypt esperará en la sala de llegadas con un cartel con su nombre. A partir de ahí, el traslado es directo: el representante le acompaña hasta un vehículo privado con aire acondicionado, las maletas se cargan y arranca la conducción al alojamiento."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "La carretera hacia Asuán ofrece una orientación tranquila. El Nilo aparece en el lado occidental a medida que se aproxima la ciudad, ancho y sin prisa, con las dunas del Desierto Occidental levantándose en la orilla opuesta. Es posible distinguir feluccas incluso desde la ventanilla. El trayecto dura entre 30 y 45 minutos, según el tráfico y la ubicación del hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Una nota sobre el visado"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Egipto emite visado a la llegada en todos los principales puntos de entrada, Asuán incluido. La tasa de 25 dólares se aplica a la mayoría de los titulares de pasaportes occidentales; los viajeros de ciertos países pagan tarifas distintas o pueden necesitar un visado tramitado por adelantado. Compruebe los requisitos de su país antes de volar. Los mostradores bancarios del aeropuerto de Asuán aceptan dólares estadounidenses, euros y libras egipcias. Las tarjetas de crédito no siempre se admiten en estos mostradores, así que conviene llevar efectivo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "No todo en un viaje tiene que ser una experiencia. A veces, simplemente tiene que funcionar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Esta parte lo hace."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Un relevo puro entre la terminal y el alojamiento. El concierge puede combinarlo con un día de visitas en Asuán o con el embarque en un crucero del Nilo si resulta útil."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワン空港送迎"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "この特別な旅の終わりに、記念建造物が待っているわけではありません。撮るべき神殿も、歩き測るべき遺跡もない。アスワンの空港送迎は、まさに名のとおりのものです——ターミナルでお迎えし、街なかのホテルへお送りする、頼れるプライベートカー・サービス。その価値は、着いたときにどれだけ疲れているか、そして話せないかもしれない言語でタクシーと交渉するのをどれだけ避けたいかに比例します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワンの空港はナイル東岸、街の中心からおよそ25キロにあります。街への道のり——砂色の低層の建物、最初のヤシ、砂漠と川が出会う最初の眺めを過ぎていく——は、何でもないものではありません。実のところ、多くの旅人にとって、これが上エジプトを腰を据えて眺める最初の機会であり、交渉したタクシーではなく、静かな冷房付きの車で着くことが、その第一印象を受けとめやすくしてくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "このサービスは、ナイル・クルーズへの乗り継ぎが厳しい方、カイロからの国内便で夜遅くに着く方、そして単に段取りを任せたい方に向いています。これはツアーではなく送迎であり、このページもそれをツアーに見せかけようとはしません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "到着で待ち受けるもの"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワン空港は小さく、扱いやすい造りです。着陸したらまず、入国ビザを——入国審査デスクの手前、ターミナル内の銀行窓口で購入します。料金は1人25ドル、銀行へ直接現金でお支払いください。銀行がスタンプを発行するので、入国審査の列に並ぶ前に、パスポートの空白ページに貼ります。デスクの係官が正式な入国印を押せば、入国完了です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "入国審査のあとに手荷物の受け取り。荷物を受け取ったら、到着ロビーで Travel2Egypt の係員が、お名前を記した札を持ってお待ちしています。そこからの送迎は簡単です——係員がプライベートの冷房付き車両へご案内し、荷物を積み込み、ホテルへのドライブが始まります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワンへの道は、静かな街の手ほどきをしてくれます。街に近づくと西側にナイルが現れ、広く、ゆったりと流れ、対岸の向こうには西方砂漠の砂丘が立ち上がります。車窓からでもフェルッカが見えることがあります。交通状況とホテルの場所により、およそ30〜45分です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "ビザについての注記"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプトは、アスワンを含むすべての主要な入国地点で到着ビザを発給します。25ドルの料金は大半の欧米のパスポート保持者に適用されます。特定の国からの旅行者は、異なる料金を支払うか、事前取得のビザが必要な場合があります。渡航前にご自身の国の要件をご確認ください。アスワン空港の銀行窓口は、米ドル、ユーロ、エジプト・ポンドを受け付けます。これらの窓口ではクレジットカードが必ずしも使えないので、現金をお持ちください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "旅のすべての部分が体験である必要はありません。ときには、ただちゃんと機能すればよいのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "これは、ちゃんと機能します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "便の遅延、深夜の到着、クルーズへの直接乗り継ぎ、ビザ用現金の準備——コンシェルジュが、到着の流れが崩れない段取りを整えます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58758",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "The whole point of this service is the arrivals hall: a named sign waiting, hands for the luggage, a quiet word on the visa before you reach the counter. Nothing here needs reshaping — it needs your flight details and your hotel. Send both to our concierge and consider the arrival settled."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Todo el sentido de este servicio está en la sala de llegadas: un cartel con tu nombre esperando, manos para el equipaje, una indicación tranquila sobre el visado antes del mostrador. Aquí no hay nada que rediseñar — solo hacen falta los datos de tu vuelo y tu hotel. Envía ambos a nuestro concierge y da la llegada por resuelta."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "このサービスの要は到着ホールにあります。お名前を掲げて待つ出迎え、荷物を運ぶ手、カウンターへ進む前のビザのひと言——それを確実に行うためのものです。組み替える要素はほとんどなく、必要なのはフライトの詳細と滞在先のホテル名だけです。その二つをコンシェルジュへお知らせいただければ、到着は整ったも同然です。"
+  }
+ ],
+ "durationHours": 2,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "~2 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "~2 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "約2時間"
+  }
+ ],
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 44,
+  "ja": 51
+ },
+ "heroImage": {
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Two towering pylons of an ancient Egyptian temple covered in carved figures and hieroglyphs under a clear sky"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Dos imponentes pilonos de un templo del antiguo Egipto cubiertos de figuras talladas y jeroglíficos bajo un cielo despejado"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "澄んだ空の下、彫られた人物像とヒエログリフに覆われた古代エジプト神殿の二つの巨大な塔門。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-47103c82333abe2ec5bda1ae9bfb7f9592666a3f-3000x1992-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Carved pylons rise at a temple near Aswan."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Pilonos tallados se alzan en un templo cerca de Asuán."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "アスワン近くの神殿にそびえる彫刻の塔門。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "k5bjedaj25",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The Aswan airport transfer is exactly what it claims to be: a competent, private car service that collects you from the terminal and delivers you to your hotel in the city.",
+   "text": "Private car service from the terminal to your hotel in the city"
+  },
+  {
+   "_key": "zr3kx3f9ym",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Once you have collected your luggage, a Travel2Egypt representative will be waiting in the arrivals hall holding a sign with your name.",
+   "text": "Travel2Egypt representative waiting in the arrivals hall with a name sign"
+  },
+  {
+   "_key": "r1miwxikkn",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "From that point, the transfer is straightforward: the representative escorts you to a private, air-conditioned vehicle, your bags go in, and the drive to your hotel begins.",
+   "text": "Escort to a private, air-conditioned vehicle"
+  },
+  {
+   "_key": "v0ztte11xc",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Un coche privado con aire acondicionado le recibe en el aeropuerto de Asuán y le entrega en su alojamiento, con sencillez y sin negociación al aterrizar.",
+   "text": "Coche privado con aire acondicionado desde el aeropuerto de Asuán hasta su alojamiento"
+  },
+  {
+   "_key": "5j4s7daev8",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Una vez recogidas las maletas, un representante de Travel2Egypt esperará en la sala de llegadas con un cartel con su nombre.",
+   "text": "Representante de Travel2Egypt en la sala de llegadas con un cartel con su nombre"
+  },
+  {
+   "_key": "rp2dw0jkd8",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "プライベートの冷房付き車が、アスワン空港でお出迎えし、ホテルへお送りします——シンプルに、確実に、わずらわしさなく。",
+   "text": "プライベートの冷房付き車でアスワン空港からホテルへの送迎"
+  },
+  {
+   "_key": "lo1pb8ucg6",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "荷物を受け取ったら、到着ロビーで Travel2Egypt の係員が、お名前を記した札を持ってお待ちしています。",
+   "text": "到着ロビーで Travel2Egypt の係員がお名前を記した札でお出迎え"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/aswan-airport-transfer/"
+ },
+ "priceFrom": 33,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_private_tour_abu_simble_by_bus_from_aswan",
+   "_ref": "tour.private-tour-abu-simble-by-bus-from-aswan",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_abu_simble_by_plane_from_aswan",
+   "_ref": "tour.abu-simble-by-plane-from-aswan",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_abu_simbel_temples_day_tour_from_aswan",
+   "_ref": "tour.abu-simbel-temples-day-tour-from-aswan",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88572",
+   "_ref": "wp-page-88572",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Fully private · named representative holding your sign at arrivals · luggage assistance · air-conditioned vehicle · visa guidance"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Estrictamente privado · representante asignado con cartel en llegadas · asistencia con equipaje · vehículo con aire acondicionado · orientación sobre el visado · Directo y práctico"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "完全プライベート・到着ロビーで名札を持つ係員によるミート・アンド・グリート・冷房付き車両・手荷物のお手伝い込み"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "30–45 minutes on the road, plus arrivals-hall meet"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "30–45 minutos en carretera, más la recepción en sala de llegadas"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "片道、交通とホテルの位置によりおよそ30〜45分"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Aswan International Airport → your Aswan hotel"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Aeropuerto Internacional de Asuán → su alojamiento en Asuán"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "アスワン国際空港 ↔ アスワンのご滞在先（街なか・東岸）"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "aswan-airport-transfer"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "traslado-privado-desde-el-aeropuerto-de-asuan"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "asuwan-kuko-sogei-puraibeto-ka-sabisu"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A private, air-conditioned car meets you at Aswan Airport and delivers you to your hotel — simply, reliably, without fuss."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Un coche privado con aire acondicionado le recibe en el aeropuerto de Asuán y le entrega en su alojamiento, con sencillez y sin negociación al aterrizar."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "プライベートの冷房付き車が、アスワン空港でお出迎えし、ホテルへお送りします——シンプルに、確実に、わずらわしさなく。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Aswan Airport Transfer: Private Car Service"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Traslado privado desde el aeropuerto de Asuán"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "アスワン空港送迎：プライベートカー・サービス"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}

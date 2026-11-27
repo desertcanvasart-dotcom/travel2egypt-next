@@ -1,0 +1,933 @@
+{
+ "_createdAt": "2026-05-28T11:45:36Z",
+ "_id": "tour.transfer-from-cairo-airport-to-hotel",
+ "_rev": "pzh5FM4q1DBt3H4LGqNNJZ",
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:46Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "First-time arrivals, late-night landings, families with luggage, and anyone whose first day starts early"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Llegadas internacionales, familias y conexiones"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "初めてのカイロ到着、夜遅く・乗り継ぎ後の到着、ご家族や大きな荷物の方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Landing in Cairo: What to Expect from the Airport Transfer"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "There is no glamorous way to arrive exhausted from a long-haul flight into a city of twenty million people. Cairo International Airport is large, loud, and administratively layered — and that is before you have navigated Egyptian immigration for the first time. This transfer exists to remove the friction from that first hour. It is not a tour; it is a practical service, and it is worth understanding exactly what it covers."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "The arrangement is straightforward: a representative meets you in the arrivals hall, escorts you to a private air-conditioned vehicle, and drives you to your hotel in Cairo or Giza. That is the whole of it. But for a first-time visitor arriving into an unfamiliar city — often late at night, sometimes after a connection — knowing that step is handled changes the tone of the entire trip."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Who does this suit? Anyone arriving alone, anyone unfamiliar with Cairo's taxi landscape, anyone travelling with significant luggage, or anyone whose first day includes an early morning excursion and who cannot afford to waste an hour haggling at the kerb. It suits families and solo travellers equally. If you know Cairo well and are comfortable negotiating with independent drivers, you may not need it. If you do not, you do."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "One honest note on timing: the journey from Cairo Airport to central Cairo or Giza runs anywhere from 35 minutes to well over an hour, depending on traffic. Cairo traffic is not predictable. Late-night arrivals tend to move faster; afternoon arrivals can be slow. Budget mentally for the longer end."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "What the Arrival Holds"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "The process begins before you reach the vehicle. Cairo Airport requires international visitors to obtain an entry visa, and the correct place to do that is at one of the bank counters inside the arrivals terminal — before you reach the immigration desks. The standard tourist visa costs USD 25 per person and is issued as a stamp. You fix it into a blank page of your passport, then proceed to the immigration queue to receive the entry stamp from the officer. After that, it is the luggage belt, then the exit gate."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "As you come through into the arrivals hall, look for a representative holding a sign bearing the name \"Winner International Tours\" alongside your own. The meet-and-greet point is in the public arrivals area beyond the gate. From there, the representative handles the walk to the vehicle."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "The car is private and air-conditioned — not shared, not a minibus unless your group warrants one. The drive to your hotel in Cairo or Giza takes whatever time Cairo's roads require that day. The route from the airport passes through the eastern and northern edges of the city, and depending on your hotel's location, you may catch a first impression of the Nile or the western skyline as you approach Giza. It is not a guided orientation; the driver is there to deliver you safely, not to narrate. But Cairo is present through the window — dense, kinetic, and immediately unlike anywhere else — and that first half-hour in the car is its own kind of introduction."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Cairo begins the moment the doors open — not at the Pyramids, not at the museum, but here, in the arrivals hall, with the city already audible through the glass."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Getting to your hotel cleanly is the only preparation that matters on arrival day."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Visa, immigration, and luggage are still yours to handle — your representative meets you on the public side of arrivals. The concierge can confirm flight monitoring, the meeting-point name, and onward timing for any early-next-morning tours."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000026",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Aterrizar en El Cairo: qué cabe esperar del traslado desde el aeropuerto"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un traslado privado sencillo para convertir la llegada en una entrada ordenada a una ciudad intensa."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "No hay manera elegante de llegar agotado tras un vuelo largo a una ciudad de veinte millones de habitantes. El aeropuerto internacional de El Cairo es grande, ruidoso y administrativamente estratificado, y eso antes incluso de haber pasado por primera vez la inmigración egipcia. Este traslado existe para eliminar la fricción de esa primera hora. No es un tour: es un servicio práctico y conviene entender con exactitud qué cubre."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "El esquema es directo: un representante te recibe en la sala de llegadas, te acompaña a un vehículo privado con aire acondicionado y te conduce al hotel en El Cairo o Guiza. Ese es el conjunto. Pero para un viajero que llega por primera vez a una ciudad desconocida —a menudo de noche, a veces tras una conexión— saber que ese paso está resuelto cambia el tono del viaje entero."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "¿A quién conviene? A cualquiera que llegue solo, a quien no conozca el panorama de taxis de El Cairo, a quien viaje con equipaje considerable o a quien tenga el primer día con una excursión de madrugada y no pueda permitirse perder una hora regateando en la acera. Sirve por igual a familias y a viajeros independientes. Si conoces bien El Cairo y te encuentras cómodo negociando con conductores independientes, puede que no lo necesites. Si no, sí."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Una nota honesta sobre tiempos: el trayecto del aeropuerto al centro de El Cairo o a Guiza va de 35 minutos a bastante más de una hora, según el tráfico. El tráfico cairota no es previsible. Las llegadas nocturnas tienden a moverse más rápido; las llegadas de tarde pueden ser lentas. Prepárate mentalmente para el extremo más largo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Cómo es la llegada"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "El proceso empieza antes de llegar al vehículo. El aeropuerto de El Cairo exige al visitante internacional la obtención de un visado de entrada, y el lugar correcto para hacerlo es uno de los mostradores bancarios dentro de la terminal de llegadas, antes de la cola de inmigración. El visado turístico estándar cuesta 25 USD por persona y se emite en forma de sello. Lo pegas a una página en blanco del pasaporte y luego haces la cola de inmigración para recibir el sello de entrada del oficial. Después, la cinta de equipajes y la salida."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Al cruzar al área de llegadas, busca a un representante con un cartel que lleve el nombre «Winner International Tours» junto al tuyo. El punto de encuentro está en la zona pública de llegadas, más allá de la puerta. A partir de ahí, el representante se encarga del recorrido hasta el vehículo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "El coche es privado y climatizado: no compartido, no minibús salvo que el tamaño del grupo lo justifique. El trayecto al hotel en El Cairo o Guiza toma el tiempo que la red viaria cairota imponga ese día. La ruta desde el aeropuerto cruza los bordes oriental y septentrional de la ciudad y, según la ubicación del hotel, puede que captes una primera impresión del Nilo o del horizonte occidental al aproximarte a Guiza. No es una orientación guiada; el conductor está para entregarte con seguridad, no para narrar. Pero El Cairo está ahí, al otro lado del cristal —denso, cinético, distinto a cualquier otra ciudad de inmediato— y esa primera media hora dentro del coche es su propia clase de introducción."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "El Cairo empieza en el momento en que se abren las puertas: no en las pirámides, no en el museo, sino aquí, en la sala de llegadas, con la ciudad ya audible a través del cristal."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Llegar limpiamente al hotel es la única preparación que importa el día de la llegada."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "En El Cairo, empezar sin friccion ya cuenta como una buena decision."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta es una ruta abierta. Si quieres ajustar el ritmo, cambiar el orden de las visitas o añadir un complemento, podemos adaptarla contigo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロに降り立つ：空港送迎に何を見込むか"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "長距離便で疲れ果てて二千万人の都市に降り立つのに、優雅な方法などありません。カイロ国際空港は大きく、騒がしく、行政的に層をなしています——しかもそれは、初めてエジプトの入国審査をくぐり抜ける前の話です。この送迎は、その最初の一時間から摩擦を取り除くために存在します。これはツアーではなく実用的なサービスであり、それが何を含むのかを正確に理解しておく価値があります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "段取りは明快です——係員が到着ロビーでお迎えし、プライベートの冷房付き車両へご案内し、カイロまたはギザのホテルへお送りします。それがすべてです。けれど、見知らぬ都市に——しばしば夜遅く、ときに乗り継ぎの後に——初めて到着する旅人にとって、その一歩が手配済みだと知ることは、旅全体の調子を変えます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "タイミングについて正直な一言を：カイロ空港からカイロ中心部やギザへの道のりは、交通により35分から優に一時間を超えるまでさまざまです。カイロの交通は予測がつきません。夜遅くの到着はおおむね速く進み、午後の到着は遅いことがあります。長いほうの端を心づもりしておいてください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "到着で待ち受けるもの"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "その過程は、車両にたどり着く前から始まります。カイロ空港は海外からの訪問者に入国ビザの取得を求めており、その正しい場所は、入国審査デスクの手前、到着ターミナル内の銀行窓口のひとつです。標準の観光ビザは1人25ドルで、スタンプとして発行されます。それをパスポートの空白ページに貼り、それから入国審査の列へ進んで係官から入国印を受け取ります。そのあとは手荷物のベルト、そして出口のゲートです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "到着ロビーへ抜けてきたら、お客様ご自身のお名前とともに「Winner International Tours」の名を記した札を持つ係員を探してください。ミート・アンド・グリートの地点はゲートの先の公共の到着区域にあります。そこからは、係員が車両までの歩きを引き受けます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "車はプライベートで冷房付きです——相乗りでも、ご一行が必要としない限りミニバスでもありません。カイロまたはギザのホテルへのドライブは、その日のカイロの道路が要するだけの時間がかかります。ガイド付きの手ほどきではありません——ドライバーはお客様を安全にお送りするためにいるのであって、語るためではありません。けれどカイロは窓の向こうにあります——密で、躍動し、ほかのどことも即座に異なって——そしてその車中の最初の30分は、それ自体がひとつの手ほどきです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "カイロは扉が開いた瞬間に始まります——ピラミッドでも博物館でもなく、ここ、到着ロビーで、ガラスの向こうにすでに街が聞こえているなかで。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "ホテルへすっきりと着くことが、到着日に大切な唯一の備えです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "便番号と到着時刻、ターミナル、ホテルの完全な住所をあらかじめお知らせください。ビザの段取りや初日の組み立てについても、コンシェルジュがご相談に応じます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Cairo traffic is the one honest variable — the same drive runs thirty-five minutes or ninety depending on the hour. The car is private, so it waits on your flight rather than the other way round. Send our concierge your flight number and your hotel, in Cairo or out by Giza, and consider the first leg handled."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "El tráfico de El Cairo es la única variable honesta: el mismo trayecto lleva treinta y cinco minutos o noventa según la hora. El coche es privado, así que espera a tu vuelo y no al revés. Envía a nuestro concierge tu número de vuelo y tu hotel — en El Cairo o junto a Guiza — y da el primer tramo por resuelto."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "カイロの交通事情だけは正直に申し上げます——同じ道のりが、時間帯によって35分にも90分にもなります。車は貸切ですから、待つのはお客様ではなく、フライトを待つ車のほうです。フライト番号と、カイロ市内かギザ方面かを含めたホテル名をコンシェルジュへどうぞ。到着後の最初のひと区間は、それで片づいたとお考えください。"
+  }
+ ],
+ "durationHours": 2,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "~2 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "~2 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "約2時間"
+  }
+ ],
+ "exclusions": [
+  {
+   "_key": "hawlldstm1",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Visa, immigration, and luggage are still yours to handle — your representative meets you on the public side of arrivals.",
+   "text": "Visa, immigration, and luggage are still yours to handle"
+  },
+  {
+   "_key": "g1k7mfzkqi",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "It is not a guided orientation; the driver is there to deliver you safely, not to narrate.",
+   "text": "Not a guided orientation; the driver does not narrate"
+  },
+  {
+   "_key": "4b3vz2b9vc",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "No es una orientación guiada; el conductor está para entregarte con seguridad, no para narrar.",
+   "text": "No es una orientación guiada"
+  },
+  {
+   "_key": "4i8mln3whv",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ガイド付きの手ほどきではありません——ドライバーはお客様を安全にお送りするためにいるのであって、語るためではありません。",
+   "text": "ガイド付きの手ほどきではありません"
+  }
+ ],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 46,
+  "ja": 53
+ },
+ "heroImage": {
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A masked driver in a suit opens the door of a black car for an arriving traveller outside an airport terminal"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Un chófer con mascarilla y traje abre la puerta de un coche negro a un viajero que llega ante una terminal de aeropuerto"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "空港ターミナルの前で、スーツ姿のマスクをした運転手が到着した旅行者に黒い車の扉を開ける。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-9da9455dce323e87d7d0dfb7704f1028319ac685-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A private driver greets an arrival outside the terminal."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Un chófer privado recibe a un viajero ante la terminal."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ターミナルの前で到着客を迎える専属ドライバー。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "zvs7x94b2f",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A private, air-conditioned car meets you at Cairo Airport and delivers you to your hotel in Cairo or Giza — no queues, no guesswork.",
+   "text": "Private, air-conditioned car from Cairo Airport to your hotel in Cairo or Giza"
+  },
+  {
+   "_key": "w4jj37zveo",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The arrangement is straightforward: a representative meets you in the arrivals hall, escorts you to a private air-conditioned vehicle, and drives you to your hotel in Cairo or Giza.",
+   "text": "Representative meets you in the arrivals hall and escorts you to the vehicle"
+  },
+  {
+   "_key": "9wum2w3yx2",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El esquema es directo: un representante te recibe en la sala de llegadas, te acompaña a un vehículo privado con aire acondicionado y te conduce al hotel en El Cairo o Guiza.",
+   "text": "Un representante te recibe en la sala de llegadas"
+  },
+  {
+   "_key": "5vxt0qmyf2",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El esquema es directo: un representante te recibe en la sala de llegadas, te acompaña a un vehículo privado con aire acondicionado y te conduce al hotel en El Cairo o Guiza.",
+   "text": "Vehículo privado con aire acondicionado"
+  },
+  {
+   "_key": "1ihapqhr07",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El esquema es directo: un representante te recibe en la sala de llegadas, te acompaña a un vehículo privado con aire acondicionado y te conduce al hotel en El Cairo o Guiza.",
+   "text": "Traslado al hotel en El Cairo o Guiza"
+  },
+  {
+   "_key": "2qg2b23d6t",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "段取りは明快です——係員が到着ロビーでお迎えし、プライベートの冷房付き車両へご案内し、カイロまたはギザのホテルへお送りします。",
+   "text": "到着ロビーでの係員のお出迎え"
+  },
+  {
+   "_key": "4u2b9sf1b6",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "車はプライベートで冷房付きです——相乗りでも、ご一行が必要としない限りミニバスでもありません。",
+   "text": "プライベートの冷房付き車両"
+  },
+  {
+   "_key": "9hm319z0gj",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "段取りは明快です——係員が到着ロビーでお迎えし、プライベートの冷房付き車両へご案内し、カイロまたはギザのホテルへお送りします。",
+   "text": "カイロまたはギザのホテルへの送迎"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/transfer-from-cairo-airport-to-hotel/"
+ },
+ "priceFrom": 35,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_alexandria_catacombs_pompeys_pillar_group_day_tour_from_cairo",
+   "_ref": "tour.alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_cairo_dinner_cruise_with_belly_dancing_show",
+   "_ref": "tour.cairo-dinner-cruise-with-belly-dancing-show",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_nmec_royal_mummies_old_cairo",
+   "_ref": "tour.nmec-royal-mummies-old-cairo",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_egyptian_museum_citadel_and_khan_el_khalili_bazaar",
+   "_ref": "tour.egyptian-museum-citadel-and-khan-el-khalili-bazaar",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Private air-conditioned vehicle · meet-and-greet in arrivals with a named sign · no minimum age · single-traveller bookings accepted"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Traslado privado de llegada · Practico y directo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "プライベート・冷房付き車両 ／ 名札を持つ英語対応のミート・アンド・グリート係員 ／ 相乗りなし"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "≈35–90 minutes one way, depending on traffic"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Segun trafico y ubicacion del hotel"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "片道約30〜60分（交通状況によります）"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Cairo International Airport → hotel in Cairo or Giza"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Aeropuerto internacional de El Cairo a hotel"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "カイロ国際空港の到着ロビー → カイロまたはギザのホテル"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "transfer-from-cairo-airport-to-hotel"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "traslado-privado-del-aeropuerto-de-el-cairo-al-hotel"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "kairo-kuko-kara-hoteru-e-puraibeto-tochaku-sogei"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A private, air-conditioned car meets you at Cairo Airport and delivers you to your hotel in Cairo or Giza — no queues, no guesswork."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Un vehículo privado y climatizado te recibe en el aeropuerto de El Cairo y te lleva a tu hotel en El Cairo o Guiza — sin colas, sin negociaciones."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "プライベートの冷房付き車が、カイロ空港でお出迎えし、カイロまたはギザのホテルへお送りします——列もなく、当て推量もなく。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Cairo Airport to Hotel: Private Arrival Transfer"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Traslado privado del aeropuerto de El Cairo al hotel"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "カイロ空港からホテルへ：プライベート到着送迎"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}

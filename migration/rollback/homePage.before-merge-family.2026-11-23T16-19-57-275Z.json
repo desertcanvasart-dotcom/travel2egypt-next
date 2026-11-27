@@ -1,0 +1,707 @@
+{
+ "_createdAt": "2026-06-04T16:51:23Z",
+ "_id": "homePage",
+ "_rev": "LQf1UXP9pDpdUIZh83Libp",
+ "_system": {
+  "base": {
+   "id": "homePage",
+   "rev": "7HhITwUwcTTXdu68ebUFG0"
+  }
+ },
+ "_type": "homePage",
+ "_updatedAt": "2026-11-08T19:36:36Z",
+ "guideCards": [
+  {
+   "_key": "gca",
+   "_type": "guideCard",
+   "dek": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayTextValue",
+     "value": "Cairo, the Nile Valley, the Red Sea, Sinai, the Delta and the Western Desert — and how they connect."
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayTextValue",
+     "value": "El Cairo, el valle del Nilo, el mar Rojo, el Sinaí, el Delta y el Desierto Occidental, y cómo se conectan."
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayTextValue",
+     "value": "カイロ、ナイル渓谷、紅海、シナイ、デルタ、西方砂漠——そしてそれぞれのつながり。"
+    }
+   ],
+   "href": "/guide#regions",
+   "title": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "How Egypt is laid out"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Cómo se organiza Egipto"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "エジプトの地理"
+    }
+   ]
+  },
+  {
+   "_key": "gcb",
+   "_type": "guideCard",
+   "dek": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayTextValue",
+     "value": "What belongs in a first Egypt trip, what can wait for a second, and what to give the most time."
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayTextValue",
+     "value": "Qué pertenece a un primer viaje a Egipto, qué puede esperar a un segundo y a qué dar más tiempo."
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayTextValue",
+     "value": "初めてのエジプトに入れるべきもの、二度目に回せるもの、最も時間をかけるべきもの。"
+    }
+   ],
+   "href": "/guide#first-trip",
+   "title": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "First-trip route logic"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "La lógica de un primer viaje"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "初めての旅のルート設計"
+    }
+   ]
+  },
+  {
+   "_key": "gcc",
+   "_type": "guideCard",
+   "dek": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayTextValue",
+     "value": "Cairo, Giza, Luxor, Aswan, Alexandria, Abu Simbel and beyond — ranked honestly, not alphabetically."
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayTextValue",
+     "value": "El Cairo, Guiza, Luxor, Asuán, Alejandría, Abu Simbel y más allá: clasificadas con honestidad, no por orden alfabético."
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayTextValue",
+     "value": "カイロ、ギザ、ルクソール、アスワン、アレクサンドリア、アブ・シンベル、そしてその先——五十音順ではなく、正直に並べて。"
+    }
+   ],
+   "href": "/guide#cairo-giza",
+   "title": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "The cities that matter"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Las ciudades que importan"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "重要な都市"
+    }
+   ]
+  },
+  {
+   "_key": "gcd",
+   "_type": "guideCard",
+   "dek": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayTextValue",
+     "value": "The monasteries, Middle Egypt, the desert oases, Nubian culture, Islamic Cairo — for the deeper trip."
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayTextValue",
+     "value": "Los monasterios, el Egipto Medio, los oasis del desierto, la cultura nubia, el Cairo islámico: para el viaje más profundo."
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayTextValue",
+     "value": "修道院、中エジプト、砂漠のオアシス、ヌビア文化、イスラムのカイロ——より深い旅のために。"
+    }
+   ],
+   "href": "/guide#middle-egypt",
+   "title": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Specialist Egypt"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "El Egipto para especialistas"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "専門家のエジプト"
+    }
+   ]
+  }
+ ],
+ "heroCaption": [
+  {
+   "_key": "en",
+   "value": "A dahabiya on the Nile"
+  },
+  {
+   "_key": "es",
+   "value": "Una dahabiya en el Nilo"
+  },
+  {
+   "_key": "ja",
+   "value": "ナイル川のダハビーヤ"
+  }
+ ],
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A traditional twin-masted dahabiya houseboat on the calm Nile at dusk, a full moon rising over desert hills and palm-lined banks mirrored in the water"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Una dahabiya tradicional de dos mástiles en el Nilo en calma al anochecer, con la luna llena sobre las colinas del desierto y las palmeras reflejadas en el agua"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "夕暮れの穏やかなナイル川に浮かぶ二本マストの伝統的なダハビーヤ。砂漠の丘に満月が昇り、ヤシの並ぶ岸辺が水面に映る"
+   }
+  ],
+  "asset": {
+   "_ref": "image-6b9e7c81616e67e3d8c4ae1d21f9561a7b852b9a-3487x4388-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The seated colossus of Ramesses II guards the gate of Luxor Temple."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El coloso sentado de Ramsés II custodia la puerta del Templo de Luxor."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ルクソール神殿の門を守るラムセス2世の坐像。"
+   }
+  ],
+  "hotspot": {
+   "_type": "sanity.imageHotspot",
+   "height": 0.5,
+   "width": 0.5,
+   "x": 0.48,
+   "y": 0.62
+  }
+ },
+ "startingPoints": [
+  {
+   "_key": "sp0",
+   "_type": "startingPoint",
+   "dek": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayTextValue",
+     "value": "Cairo, a Nile cruise, Luxor and Aswan — the essential story without rushing."
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayTextValue",
+     "value": "El Cairo, un crucero por el Nilo, Luxor y Asuán: la historia esencial sin prisas."
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayTextValue",
+     "value": "カイロ、ナイル川クルーズ、ルクソール、アスワン——欠かせない物語を、急がずに。"
+    }
+   ],
+   "meta": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "9–11 days"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "9–11 días"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "9〜11日"
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "The First Egypt Journey"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "El primer viaje a Egipto"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "はじめてのエジプトの旅"
+    }
+   ],
+   "tour": {
+    "_ref": "wp-page-89376",
+    "_type": "reference"
+   }
+  },
+  {
+   "_key": "sp1",
+   "_type": "startingPoint",
+   "dek": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayTextValue",
+     "value": "A dahabiya, Luxor and Aswan, the quieter river stops. Atmosphere over checklist."
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayTextValue",
+     "value": "Una dahabiya, Luxor y Asuán, las paradas más tranquilas del río. Atmósfera antes que lista."
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayTextValue",
+     "value": "ダハビーヤで、ルクソールとアスワン、そして静かな川辺の寄港地へ。チェックリストより、空気感を。"
+    }
+   ],
+   "meta": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "8 days"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "8 días"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "8日"
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "The Slow Nile Journey"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "El viaje lento por el Nilo"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "ゆっくりのナイルの旅"
+    }
+   ],
+   "tour": {
+    "_ref": "tour.7-days-dahabiya-nile-cruise-from-aswan-to-luxor",
+    "_type": "reference"
+   }
+  },
+  {
+   "_key": "sp2",
+   "_type": "startingPoint",
+   "dek": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayTextValue",
+     "value": "Cairo, Bahariya, the White Desert, then the river. Silence as much as temples."
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayTextValue",
+     "value": "El Cairo, Bahariya, el Desierto Blanco y luego el río. Tanto silencio como templos."
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayTextValue",
+     "value": "カイロ、バハレイヤ、白砂漠、そして川へ。神殿と同じくらい、静けさを。"
+    }
+   ],
+   "meta": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "7–9 days"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "7–9 días"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "7〜9日"
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "The Desert & Nile Journey"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "El viaje del desierto y el Nilo"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "砂漠とナイルの旅"
+    }
+   ],
+   "tour": {
+    "_ref": "wp-page-89005",
+    "_type": "reference"
+   }
+  },
+  {
+   "_key": "sp3",
+   "_type": "startingPoint",
+   "dek": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayTextValue",
+     "value": "Cairo, a Nile cruise and Red Sea rest — culture, comfort and breathing space."
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayTextValue",
+     "value": "El Cairo, un crucero por el Nilo y descanso en el mar Rojo: cultura, comodidad y espacio para respirar."
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayTextValue",
+     "value": "カイロ、ナイル川クルーズ、紅海での休息——文化、快適さ、そしてゆとりを。"
+    }
+   ],
+   "meta": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "10 days"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "10 días"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "10日"
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "The Family Egypt Journey"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "El viaje en familia por Egipto"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "家族でめぐるエジプトの旅"
+    }
+   ],
+   "tour": {
+    "_ref": "wp-page-113005",
+    "_type": "reference"
+   }
+  }
+ ],
+ "travellerCards": [
+  {
+   "_key": "tc4",
+   "_type": "travellerCard",
+   "dek": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayTextValue",
+     "value": "Cairo, the Pyramids, a Nile cruise, Luxor and Aswan — the essential story, and what not to rush."
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayTextValue",
+     "value": "El Cairo, las pirámides, un crucero por el Nilo, Luxor y Asuán: la historia esencial, y lo que no conviene apresurar."
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayTextValue",
+     "value": "カイロ、ピラミッド、ナイル川クルーズ、ルクソール、アスワン——欠かせない物語と、急ぐべきでないこと。"
+    }
+   ],
+   "href": "/journeys/first-time-in-egypt",
+   "title": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "First time in Egypt"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Primera vez en Egipto"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "はじめてのエジプト"
+    }
+   ]
+  },
+  {
+   "_key": "tc5",
+   "_type": "travellerCard",
+   "dek": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayTextValue",
+     "value": "Islamic and Coptic Cairo, Luxor, Abydos, Nubian Aswan, the desert monasteries."
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayTextValue",
+     "value": "El Cairo islámico y copto, Luxor, Abidos, la Asuán nubia, los monasterios del desierto."
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayTextValue",
+     "value": "イスラム・コプトのカイロ、ルクソール、アビドス、ヌビアのアスワン、砂漠の修道院。"
+    }
+   ],
+   "href": "/journeys/the-cultural-traveller",
+   "title": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "The cultural traveller"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "El viajero cultural"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "文化を旅する人へ"
+    }
+   ]
+  },
+  {
+   "_key": "tc6",
+   "_type": "travellerCard",
+   "dek": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayTextValue",
+     "value": "Cairo, a Nile cruise and Red Sea rest — culture, comfort and breathing space, paced for children."
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayTextValue",
+     "value": "El Cairo, un crucero por el Nilo y descanso en el mar Rojo: cultura, comodidad y espacio para respirar, al ritmo de los niños."
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayTextValue",
+     "value": "カイロ、ナイル川クルーズ、紅海での休息——文化と快適さ、そしてゆとりを、子どものペースに合わせて。"
+    }
+   ],
+   "href": "/journeys/travelling-as-a-family",
+   "title": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Travelling as a family"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Viajar en familia"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "家族で旅する"
+    }
+   ]
+  },
+  {
+   "_key": "tc7",
+   "_type": "travellerCard",
+   "dek": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayTextValue",
+     "value": "Bahariya, the White Desert and Fayoum — Egypt's silence as much as its temples."
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayTextValue",
+     "value": "Bahariya, el Desierto Blanco y Fayum: tanto el silencio de Egipto como sus templos."
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayTextValue",
+     "value": "バハレイヤ、白砂漠、ファイユーム——神殿と同じくらい、エジプトの静寂を。"
+    }
+   ],
+   "href": "/journeys/desert-and-quiet",
+   "title": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Desert & quiet"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Desierto y calma"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "砂漠と静けさ"
+    }
+   ]
+  },
+  {
+   "_key": "tc8",
+   "_type": "travellerCard",
+   "dek": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayTextValue",
+     "value": "Private guiding, the finest boats on the Nile, landmark hotels, and every transfer handled."
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayTextValue",
+     "value": "Guía privado, los mejores barcos del Nilo, hoteles emblemáticos y cada traslado resuelto."
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayTextValue",
+     "value": "プライベートガイド、ナイル随一の船、名だたるホテル、そしてすべての送迎まで。"
+    }
+   ],
+   "href": "/journeys/travelling-in-style",
+   "title": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Travelling in style"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Viajar con estilo"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "上質に旅する"
+    }
+   ]
+  },
+  {
+   "_key": "tc9",
+   "_type": "travellerCard",
+   "dek": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayTextValue",
+     "value": "Middle Egypt, Alexandria, the desert oases, the specialist sites a first trip leaves out."
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayTextValue",
+     "value": "El Egipto Medio, Alejandría, los oasis del desierto, los sitios para especialistas que un primer viaje deja fuera."
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayTextValue",
+     "value": "中エジプト、アレクサンドリア、砂漠のオアシス、初めての旅では省かれる専門的な場所。"
+    }
+   ],
+   "href": "/journeys/coming-back",
+   "title": [
+    {
+     "_key": "en",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Coming back"
+    },
+    {
+     "_key": "es",
+     "_type": "internationalizedArrayStringValue",
+     "value": "Volver a Egipto"
+    },
+    {
+     "_key": "ja",
+     "_type": "internationalizedArrayStringValue",
+     "value": "ふたたびのエジプト"
+    }
+   ]
+  }
+ ]
+}

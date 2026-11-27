@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { redirectForeignSlug } from '@/lib/foreign-slug';
 
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
@@ -108,7 +109,11 @@ export default async function CategoryPage({ params }: Props) {
     categoryBySlugQuery(locale as Locale),
     { slug }
   );
-  if (!category) notFound();
+  if (!category) {
+    // Wrong-language slug (old GSC discoveries) → 308 to the right page.
+    await redirectForeignSlug('editorialCategory', locale, [slug]);
+    notFound();
+  }
 
   const isRoot = !category.parent;
 

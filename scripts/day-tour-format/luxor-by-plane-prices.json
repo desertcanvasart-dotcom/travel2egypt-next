@@ -1,0 +1,6 @@
+{
+  "_note": "Per-person selling prices in EUR for 2 travellers sharing, by guide language (22 Nov 2026). Rule (lib/publish/public-rate in Autoura): engine figure for 2 travellers, house margin 30 %, ECB/Autoura EGP→EUR ~59.05, higher of EU / other, rounded UP to the whole euro; ES and JA = the same with a Spanish / Japanese guide. Source: Autoura T2E-DT-LXR-09 (created 22 Nov): Luxor extended-day car 'EXTENDED-DAY-TOUR' (3,200 EGP), guide, entrance to Karnak, Luxor Temple, Hatshepsut, Valley of the Kings and Colossi, lunch, water = engine budget tier EN €121.56, ES €132.57, JA €149.08. NOT in the engine, added by hand at the same margin: Luxor airport meet and departure assist (about 1,400 EGP, derived from the engine's own airport-flag variant) and two Cairo hotel↔airport sedan transfers (AIRPORT - HOTEL, 1,300 EGP each = 2,600): 4,000 EGP x 1.3 / 59.05 / 2 = €44.03 per person. Flights excluded. EN 121.56+44.03=165.59, ES 132.57+44.03=176.60, JA 149.08+44.03=193.11, rounded up.",
+  "en": 166,
+  "es": 177,
+  "ja": 194
+}

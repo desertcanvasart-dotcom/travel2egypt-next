@@ -1,0 +1,1740 @@
+{
+ "_createdAt": "2026-05-28T11:45:36Z",
+ "_id": "tour.sound-light-show-at-karnak-temple-in-luxor",
+ "_rev": "cCLS3yfp2eRqrBCCj6itfr",
+ "_system": {
+  "base": {
+   "id": "tour.sound-light-show-at-karnak-temple-in-luxor",
+   "rev": "RXaEis6GwtqqeghmdLzTrO"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-22T10:23:43Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Visitors who have already seen Karnak by day and want it lit differently, or those with a single free Luxor evening between cruise legs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Visitantes que ya han recorrido Karnak de día y quieren verlo con otra luz, o quienes disponen de una sola velada libre en Luxor entre tramos de crucero"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "昼にカルナックを見終え、別の調子で再訪したい方、自由な夜のあるクルーズ乗客"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Karnak Illuminated: An Evening at the Sound & Light Show"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "There is a reasonable argument that Karnak is the most important religious site ancient Egypt ever built. Not the most famous — that distinction belongs to the pyramids — but the most important in terms of accumulated ambition. Pharaoh after pharaoh added to it across roughly fifteen centuries, from the Middle Kingdom through the Ptolemaic period, each ruler competing with his predecessors in stone. The result is not a temple so much as a city of temples: the vast Karnak complex of pylons, hypostyle halls, obelisks, sacred lakes, and shrines to Amun, Mut, and Khonsu, layered so densely that Egyptologists are still mapping the relationships between structures."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "During the day, Karnak rewards patient, slow exploration. In the evenings, it rewards something different: the willingness to move at the show's pace and let the scale of the place land. The sound and light show is the mechanism for that. It is a theatrical production — narrated, scored, and staged using the complex itself as the set — and it has been running at Karnak for decades in various forms. The current production walks visitors through the site's history using projected light on the monuments and a narrated script that moves from Ramses II's military campaigns to the theological dominance of the Amun priesthood."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "This is an evening excursion, not a day tour, and it is short by Egyptian tourism standards — the show itself runs around an hour. What you are buying, in essence, is the Sound & Light Show at a site most visitors have already seen by daylight, plus return transport to your Luxor hotel. It suits anyone staying in Luxor who wants to see Karnak in a different register: quieter, cooler, and lit in a way no midday visit can replicate. It also works well as a standalone evening activity for those with a free night between Nile cruise legs."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "One honest caveat: the narration and production values are of their era. The show has the slightly stiff quality of a long-running live spectacle that was designed before contemporary immersive technology set new expectations. Go for the atmosphere and the architecture, not for cutting-edge production design."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The hotel transfer is "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "private to your party"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "; the show itself is a "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "shared, ticketed performance"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": " at the temple. The outing "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "takes bookings from a single person upward"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ", with no minimum group, and "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "one bottle of mineral water per person"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": " is provided for the transfer; your driver's tip is included, and an assistant from our team meets you at the temple, hands out the headsets and collects them afterwards. "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Suited to those steady on their feet"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": ". You walk and stand through the temple in low light, on uneven ground, before sitting for the finale. We don't recommend it for small children: the narration is long and the evening is late."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "The evening begins with a pick-up from your Luxor hotel. Transfer times will vary depending on your accommodation's location relative to the East Bank, but Karnak is on the northern edge of central Luxor and most hotels are within twenty minutes."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "At the temple complex, visitors are led through the great forecourt and into the site along a route that takes in the processional avenue, the massive first pylon — begun under Nectanebo I in the 4th century BC and never fully completed — and into the celebrated Hypostyle Hall, a forest of 134 columns, the tallest reaching 21 metres, built primarily under Seti I and Ramses II in the 13th century BC. At night, with light playing across the carved reliefs, the hall's density becomes genuinely oppressive in the best sense: you understand, viscerally, why Egyptians built this way."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "The show moves the audience through a sequence of illuminated spaces, with narration covering the major dynasties that shaped Karnak, the rise and temporary fall of the Amun cult under Akhenaten, and the restoration under Tutankhamun and his successors. The sacred lake — dug on the orders of Thutmose III around 1450 BC to serve ritual purification purposes — is part of the route and is particularly effective after dark, its still surface reflecting the lit obelisks beyond."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "The show closes, and transfers return guests to their Luxor hotels. The whole evening, door to door, runs approximately two to two and a half hours depending on your hotel's location."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Karnak in Context"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "A note on why this site specifically merits an evening visit, separate from whatever daytime tour you may have already done: the sound and light format was designed for Karnak partly because the complex is too large to absorb in a single pass. The evening show forces a curated route and a paced encounter with specific structures, which is a different — and often more focused — experience than a free-roaming daytime visit."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "The Hypostyle Hall alone justifies the return trip. Built between approximately 1290 and 1224 BC. The columns bear relief carvings of Seti I's military campaigns on the north side and Ramses II's battles — including the contested \"victory\" at Kadesh — on the south. In daylight these are striking. Under theatrical lighting, they become something else entirely."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "The show is conducted in multiple languages across different sessions; confirm the language of your assigned session when booking if this matters to your group."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Fifteen centuries of devotion, rivalry, and theological argument are pressed into one temple on the east bank of the Nile — and for one hour after dark, someone turns the lights on."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "That is worth an evening."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "The narration and production design are of their era — go for the atmosphere of the lit columns rather than cutting-edge spectacle. The concierge can confirm the session language and check the schedule, which shifts seasonally."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Karnak iluminado: una velada en el espectáculo de luz y sonido"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una salida vespertina privada que devuelve a Karnak con otra escala y otra luz, después de haberlo pisado o como primer encuentro fuera de las horas de calor."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Hay un argumento razonable para sostener que Karnak es el yacimiento religioso más importante que la antigüedad egipcia llegó a construir. No el más famoso —ese título pertenece a las pirámides—, pero sí el más importante en términos de ambición acumulada. Un faraón tras otro lo amplió a lo largo de unos quince siglos, desde el Imperio Medio hasta el periodo ptolemaico; cada gobernante compitiendo con sus antecesores en piedra. El resultado no es tanto un templo como una ciudad de templos: el vasto complejo de Karnak, con pilonos, salas hipóstilas, obeliscos, lagos sagrados y santuarios a Amón, Mut y Khonsu, estratificados con tal densidad que los egiptólogos siguen cartografiando las relaciones entre estructuras."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Durante el día, Karnak recompensa la exploración paciente y pausada. Por la tarde-noche recompensa otra cosa: la disposición a avanzar al ritmo del espectáculo y a dejar que la escala del lugar se asiente. El espectáculo de luz y sonido es el mecanismo para que eso ocurra. Es una producción teatral —narrada, musicada y puesta en escena utilizando el propio complejo como escenografía— que viene representándose en Karnak desde hace décadas en distintas versiones. La producción actual conduce al visitante por la historia del yacimiento con luz proyectada sobre los monumentos y un guion que recorre desde las campañas militares de Ramsés II hasta el predominio teológico del clero de Amón."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Es una salida vespertina, no un tour de día completo, y resulta breve para los estándares del turismo egipcio: el espectáculo en sí dura cerca de una hora. Lo que se contrata, en esencia, es el espectáculo de luz y sonido en un yacimiento que la mayoría de los visitantes ya ha pisado de día, más el traslado de ida y vuelta a su hotel de Luxor. Conviene a cualquiera que se aloje en Luxor y quiera ver Karnak en otra clave: más silencioso, más fresco e iluminado de una manera que ninguna visita de mediodía puede replicar. Funciona también como actividad nocturna independiente para quien tenga una noche libre entre tramos de un crucero del Nilo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Una advertencia honesta: la narración y los valores de producción pertenecen a su época. El espectáculo tiene la rigidez ligeramente formal de un montaje en vivo de larga trayectoria, diseñado antes de que la tecnología inmersiva contemporánea fijara nuevas expectativas. Vaya por la atmósfera y por la arquitectura, no por un diseño de producción de última generación."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "El traslado al hotel es "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "privado a su grupo"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "; el espectáculo en sí es una "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "función con boleto compartida"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": " en el templo. La salida "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "se reserva desde una sola persona"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ", sin tamaño mínimo de grupo, y se entrega "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "una botella de agua mineral por persona"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": " para el traslado; la propina del conductor está incluida, y un asistente de nuestro equipo te recibe en el templo, reparte los auriculares y los recoge al terminar. "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Conviene a quien se mantiene firme sobre sus pies"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": ". Se camina y se permanece de pie por el templo con poca luz, sobre terreno irregular, antes de sentarse para el final. No lo recomendamos para niños pequeños: la narración es larga y la velada es tarde."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "La velada arranca con una recogida en su hotel de Luxor. Los tiempos de traslado variarán según la ubicación del alojamiento respecto a la orilla oriental, pero Karnak se encuentra en el extremo norte del centro de Luxor y la mayoría de los hoteles queda a menos de veinte minutos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "En el complejo templario, los visitantes acceden por el gran atrio y entran en el yacimiento siguiendo un recorrido que cubre la avenida procesional, el imponente primer pilono —iniciado por Nectanebo I en el siglo IV a. C. y nunca completado del todo— y la célebre Sala Hipóstila, un bosque de 134 columnas, con las más altas alcanzando los 21 metros, levantada principalmente bajo Seti I y Ramsés II en el siglo XIII a. C. De noche, con la luz desplazándose por los relieves tallados, la densidad de la sala se vuelve genuinamente opresiva en el mejor sentido: se entiende, en términos casi físicos, por qué los egipcios construían así."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "El espectáculo lleva al público por una secuencia de espacios iluminados, con narración que cubre las grandes dinastías que dieron forma a Karnak, el ascenso y la caída temporal del culto a Amón bajo Akenatón y su restauración bajo Tutankamón y sus sucesores. El Lago Sagrado —excavado por orden de Tutmosis III hacia el 1450 a. C. para la purificación ritual— forma parte del trayecto y resulta especialmente eficaz tras el anochecer, con su superficie en calma reflejando los obeliscos iluminados al fondo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "El espectáculo termina y los traslados devuelven a los huéspedes a sus hoteles de Luxor. La velada completa, puerta a puerta, dura aproximadamente entre dos horas y dos horas y media, según la ubicación del hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Karnak en su contexto"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Una nota sobre por qué este yacimiento, específicamente, merece una visita vespertina, al margen de la jornada diurna que pueda haber realizado: el formato de luz y sonido se diseñó para Karnak en parte porque el complejo es demasiado vasto para absorberlo en una sola pasada. El espectáculo vespertino impone una ruta curada y un encuentro acompasado con estructuras concretas, lo cual es una experiencia distinta y, a menudo, más enfocada que la deambulación libre durante el día."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "La sola Sala Hipóstila justifica el regreso. Construida entre, aproximadamente, el 1290 y el 1224 a. C. Las columnas portan, en el lado norte, relieves de las campañas militares de Seti I y, en el sur, batallas de Ramsés II —incluida la disputada «victoria» de Qadesh—. De día resultan impresionantes. Bajo la iluminación escénica, se transforman."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "El espectáculo se ofrece en varios idiomas en sesiones distintas; conviene confirmar el idioma de la sesión asignada al reservar si esto importa al grupo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Quince siglos de devoción, rivalidad y argumento teológico comprimidos en un solo templo a la orilla oriental del Nilo, y durante una hora después del anochecer alguien enciende las luces."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Eso merece una velada."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "La narración y el diseño escénico pertenecen a su época: vaya por la atmósfera de las columnas iluminadas, no por la espectacularidad de última generación. El concierge puede confirmar el idioma de la sesión y revisar el horario, que cambia con la temporada."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000040",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "照らし出されるカルナック：光と音のショーの一夜"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "カルナックは古代エジプトがこれまでに築いた最も重要な宗教遺跡だ、という妥当な論があります。最も有名なものではなく——その栄誉はピラミッドのものです——けれど、積み重ねられた野心という点では最も重要なのです。ファラオまたファラオが、中王国時代からプトレマイオス朝にかけて、およそ十五世紀にわたってこれに付け加え、各々の統治者が石によって先代と競い合いました。その結果は神殿というよりも、神殿の都市です——塔門、列柱室、オベリスク、聖なる湖、そしてアムン、ムト、コンスへの祠が、エジプト学者がいまなお構造物どうしの関係を地図に起こしているほど密に層をなした、広大なカルナック複合体。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "昼のあいだ、カルナックは辛抱強い、ゆっくりとした探索に報います。夕方には、別の何かに報います——ショーの歩みに合わせて進み、この場所の規模が腑に落ちるのにまかせる気構えに。光と音のショーが、そのための仕組みです。それは演劇的な上演で——語られ、楽が付けられ、複合体そのものを舞台として演出されます——そして、さまざまな形で何十年もカルナックで続いてきました。現在の上演は、記念建造物に投影される光と、ラムセス2世の軍事遠征からアムン神官団の神学的な支配へと進む語りの台本を用いて、来訪者にこの遺跡の歴史をたどらせます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "これは夕方の遠出であって、デイツアーではなく、エジプトの観光の基準からすれば短いものです——ショーそのものは1時間ほど続きます。あなたが本質的に買っているのは、大半の来訪者がすでに昼に見た遺跡での光と音のショーと、それに加えてルクソールのホテルへの往復の送迎です。それは、カルナックを別の調子で見たいルクソール滞在中の方すべてに向いています——より静かに、より涼しく、正午の訪問では決して再現できないやり方で照らされた姿を。また、ナイルクルーズの行程のあいだに自由な夜のある方の、単独の夕方のアクティビティとしてもよく働きます。お一人様1本のミネラルウォーターとドライバーへのチップは料金に含まれ、神殿ではスタッフが出迎え、ヘッドセットの貸し出しと回収を行います。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "正直な但し書きをひとつ——語りと演出の質は、その時代のものです。ショーには、今日の没入型技術が新たな期待を打ち立てる前に設計された、長く続く生の見せ物の、いくらか硬い趣があります。最先端の演出のためではなく、雰囲気と建築のために行ってください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "夕べはルクソールのホテルでのお迎えから始まります。送迎の時間は、東岸に対するご滞在先の位置によって変わりますが、カルナックはルクソール中心部の北の縁にあり、大半のホテルは20分以内です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "神殿複合体では、来訪者は大前庭を通り、参道、紀元前4世紀にネクタネボ1世のもとで始められ決して完全には完成しなかった巨大な第一塔門、そして名高い大列柱室——紀元前13世紀におもにセティ1世とラムセス2世のもとで築かれた、134本の柱の森、最も高いもので21メートルに達します——を取り込むルートに沿って遺跡へと導かれます。夜、彫られた浮彫の上を光が戯れるなかで、列柱室の密度は、最良の意味で本当に圧迫的になります——なぜエジプト人がこのように築いたのかを、肌で理解するのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "ショーは、観客を一連の照らし出された空間を通って進めていきます。語りは、カルナックを形づくった主要な王朝、アクエンアテンのもとでのアムン信仰の興隆と一時的な失墜、そしてツタンカーメンとその後継者たちのもとでの復興を扱います。聖なる湖——儀礼的な清めの目的を果たすため、紀元前1450年ごろにトトメス3世の命で掘られました——はルートの一部で、暗くなってからとりわけ効果的です。その静かな水面が、向こうの照らし出されたオベリスクを映しています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "ショーが閉じると、送迎がゲストをルクソールのホテルへとお送りします。ドアからドアまで、夕べ全体は、ホテルの位置次第で、およそ2時間から2時間半かかります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "カルナックを文脈のなかで"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "すでにこなされたかもしれない昼のツアーとは別に、なぜこの遺跡がとりわけ夜の訪問に値するのかについての注記——光と音の形式がカルナックのために設計されたのは、ひとつには、複合体が一度の通り抜けでは吸収しきれないほど大きいからです。夕方のショーは、仕立てられたルートと、特定の構造物との配分された出会いを強います。それは、自由に歩き回る昼の訪問とは異なる——そしてしばしばより焦点の定まった——体験です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "大列柱室だけでも、再訪の旅を正当化します。およそ紀元前1290年から1224年のあいだに築かれました。柱は北側にセティ1世の軍事遠征の、南側にラムセス2世の戦い——論争のある「勝利」、カデシュの戦いを含みます——の浮彫を帯びています。昼の光のなかでも、これらは印象的です。演劇的な照明のもとでは、まったく別の何かになります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "ショーは複数の言語で、回ごとに異なって行われます。これが団体にとって重要なら、割り当てられた回の言語を予約時にご確認ください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "十五世紀の信仰と、競い合いと、神学的な論争が、ナイル東岸の一つの神殿に押し込められています——そして暗くなってからの1時間、誰かが明かりを灯すのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "それは、一夜の値打ちがあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "その夜の上演言語、上演時刻、ホテル送迎の組み立て——コンシェルジュが、ルクソール神殿の夕暮れ再訪などの組み合わせも含めて夜の流れを決めます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000036",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58877",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "This is an evening on your feet and then in a seat: you walk and stand through the lit temple, then sit by the Sacred Lake for the finale, about an hour in all. If anyone in your party can't manage the walk, say so when you book and we can take them straight to the seating. It sits well after the full temple day, when the Hypostyle Hall you walked at noon reappears in another key; it also makes a soft first night before one. Say which order suits you and our concierge will time the transfer."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Es una velada primero de pie y luego sentado: se camina y se permanece de pie por el templo iluminado y, para el final, uno se sienta junto al Lago Sagrado, en torno a una hora en total. Si alguien de tu grupo no puede hacer el recorrido a pie, dilo al reservar y podemos llevarlo directamente a los asientos. Funciona muy bien después del día completo de templos, cuando la sala hipóstila que recorriste al mediodía reaparece en otra clave — y también como primera noche suave antes de ese día. Di qué orden te conviene y nuestro concierge ajustará el traslado."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "照らされた神殿を歩き、立ち止まりながらめぐり、最後は聖なる湖のほとりに座って見る夜です——全体でおよそ1時間。歩くのが難しい方がいらっしゃる場合は、ご予約時にお知らせください。そのまま客席へご案内します。昼に歩いた大列柱室が別の表情で現れる、神殿めぐりの一日の締めくくりにも、その前夜の静かな序章にも向いています。どちらの順序がよいかお聞かせいただければ、コンシェルジュが送迎の時刻を整えます。"
+  }
+ ],
+ "customisationOptions": [
+  {
+   "_key": "slopt1-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "text": "Place it after your full temple day, or as a gentle first evening before it"
+  },
+  {
+   "_key": "slopt2-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "text": "Tell us your language, and we’ll book the matching session"
+  },
+  {
+   "_key": "slopt1-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.es.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "text": "Colócalo después de tu día completo de templos, o como una primera noche tranquila antes de él"
+  },
+  {
+   "_key": "slopt2-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.es.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "text": "Dinos tu idioma, y reservaremos la sesión correspondiente"
+  },
+  {
+   "_key": "slopt1-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.ja.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "text": "神殿を巡る1日のあとに、あるいはその前の穏やかな最初の夜に"
+  },
+  {
+   "_key": "slopt2-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.ja.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "text": "ご希望の言語をお知らせいただければ、その言語の回を予約します"
+  }
+ ],
+ "dayTimeline": [
+  {
+   "_key": "dt-en-1",
+   "_type": "dayTourPeriod",
+   "lang": "en",
+   "needsReview": false,
+   "period": "evening",
+   "periodLabel": "Karnak",
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "stops": [
+    {
+     "_key": "s1-1",
+     "_type": "dayTourStop",
+     "text": "Your driver collects you in a private air-conditioned car.",
+     "title": "Pickup from your hotel"
+    },
+    {
+     "_key": "s1-2",
+     "_type": "dayTourStop",
+     "sites": [
+      {
+       "_key": "x120",
+       "_type": "dayTourSite",
+       "guideRef": {
+        "_ref": "guideArticle.luxor.the-karnak-temple",
+        "_type": "reference",
+        "_weak": true
+       },
+       "name": "Karnak"
+      },
+      {
+       "_key": "x121",
+       "_type": "dayTourSite",
+       "name": "Great Hypostyle Hall"
+      }
+     ],
+     "text": "The show leads you in along the processional avenue, through the unfinished first pylon, begun in the 4th century BC, and into the Great Hypostyle Hall of Seti I and Ramses II: 134 columns, the tallest 21 metres high. With light moving over the reliefs, the hall’s density becomes almost overwhelming, in the best way.",
+     "title": "The walk through the temple"
+    },
+    {
+     "_key": "s1-3",
+     "_type": "dayTourStop",
+     "sites": [
+      {
+       "_key": "x130",
+       "_type": "dayTourSite",
+       "name": "Sacred Lake"
+      }
+     ],
+     "text": "The narration follows the dynasties that built Karnak, Akhenaten’s break with Amun and the restoration that followed. The show ends at the sacred lake, dug under Thutmose III, its still water reflecting the lit obelisks.",
+     "title": "The sacred lake"
+    },
+    {
+     "_key": "s1-4",
+     "_type": "dayTourStop",
+     "title": "Back to your hotel"
+    }
+   ]
+  },
+  {
+   "_key": "dt-es-1",
+   "_type": "dayTourPeriod",
+   "lang": "es",
+   "needsReview": false,
+   "period": "evening",
+   "periodLabel": "Karnak",
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.es.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "stops": [
+    {
+     "_key": "s1-1",
+     "_type": "dayTourStop",
+     "text": "Tu conductor te recoge en un coche privado con aire acondicionado.",
+     "title": "Recogida en tu hotel"
+    },
+    {
+     "_key": "s1-2",
+     "_type": "dayTourStop",
+     "sites": [
+      {
+       "_key": "x120",
+       "_type": "dayTourSite",
+       "guideRef": {
+        "_ref": "guideArticle.luxor.the-karnak-temple",
+        "_type": "reference",
+        "_weak": true
+       },
+       "name": "Karnak"
+      },
+      {
+       "_key": "x121",
+       "_type": "dayTourSite",
+       "name": "Gran Sala Hipóstila"
+      }
+     ],
+     "text": "El espectáculo te hace entrar por la avenida procesional, atravesar el primer pilono, inacabado, iniciado en el siglo IV a. C., y llegar a la Gran Sala Hipóstila de Seti I y Ramsés II: 134 columnas, las más altas de 21 metros. Con la luz moviéndose sobre los relieves, la densidad de la sala se vuelve casi abrumadora, en el mejor sentido.",
+     "title": "El recorrido por el templo"
+    },
+    {
+     "_key": "s1-3",
+     "_type": "dayTourStop",
+     "sites": [
+      {
+       "_key": "x130",
+       "_type": "dayTourSite",
+       "name": "Lago Sagrado"
+      }
+     ],
+     "text": "La narración sigue a las dinastías que construyeron Karnak, la ruptura de Akenatón con Amón y la restauración que vino después. El espectáculo termina en el lago sagrado, excavado bajo Tutmosis III, cuyas aguas quietas reflejan los obeliscos iluminados.",
+     "title": "El lago sagrado"
+    },
+    {
+     "_key": "s1-4",
+     "_type": "dayTourStop",
+     "title": "Regreso a tu hotel"
+    }
+   ]
+  },
+  {
+   "_key": "dt-ja-1",
+   "_type": "dayTourPeriod",
+   "lang": "ja",
+   "needsReview": false,
+   "period": "evening",
+   "periodLabel": "カルナック神殿",
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.ja.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "stops": [
+    {
+     "_key": "s1-1",
+     "_type": "dayTourStop",
+     "text": "ドライバーが冷房付きの専用車でお迎えにあがります。",
+     "title": "ホテルでのお迎え"
+    },
+    {
+     "_key": "s1-2",
+     "_type": "dayTourStop",
+     "sites": [
+      {
+       "_key": "x120",
+       "_type": "dayTourSite",
+       "guideRef": {
+        "_ref": "guideArticle.luxor.the-karnak-temple",
+        "_type": "reference",
+        "_weak": true
+       },
+       "name": "カルナック神殿"
+      },
+      {
+       "_key": "x121",
+       "_type": "dayTourSite",
+       "name": "大列柱室"
+      }
+     ],
+     "text": "ショーは参道から始まり、紀元前4世紀に着工されたまま未完成の第一塔門をくぐって、セティ1世とラムセス2世の大列柱室へと進みます。134本の柱が立ち並び、最も高いものは21メートル。レリーフの上を光が動くと、柱の密集した広間は圧倒されるほどの迫力を帯びます。もちろん、いい意味で。",
+     "title": "神殿の中を歩く"
+    },
+    {
+     "_key": "s1-3",
+     "_type": "dayTourStop",
+     "sites": [
+      {
+       "_key": "x130",
+       "_type": "dayTourSite",
+       "name": "聖なる池"
+      }
+     ],
+     "text": "ナレーションは、カルナックを築いた王朝、アクエンアテンのアメン信仰との決別、そしてその後の復興をたどります。ショーの最後は、トトメス3世の時代に掘られた聖なる池。静かな水面に、照らし出されたオベリスクが映ります。",
+     "title": "聖なる池"
+    },
+    {
+     "_key": "s1-4",
+     "_type": "dayTourStop",
+     "title": "ホテルへお戻り"
+    }
+   ]
+  }
+ ],
+ "dayTourIntro": [
+  {
+   "_key": "dti-en",
+   "_type": "dayTourIntro",
+   "closingLine": "Fifteen centuries of devotion, rivalry and argument, pressed into one temple on the east bank of the Nile, and for an hour after dark, someone turns the lights on.",
+   "closingRef": "000000000029",
+   "fitFor": [
+    "have seen Karnak by day and want it lit differently",
+    "have one free evening in Luxor, perhaps between cruise legs"
+   ],
+   "lang": "en",
+   "needsReview": false,
+   "opening": "By day, Karnak rewards slow exploration. After dark, it rewards something else: sitting still and letting the scale land. The Sound and Light Show uses the temple itself as its stage, with light on the pylons and columns and a narration that runs from Ramses II’s campaigns to the power of Amun’s priests. It’s the gentlest evening Luxor offers: seated, unhurried, an hour among the lit columns.",
+   "panelRows": [
+    {
+     "_key": "pr1",
+     "_type": "dayPanelRow",
+     "label": "Children and students",
+     "text": "about 50% off"
+    },
+    {
+     "_key": "pr2",
+     "_type": "dayPanelRow",
+     "label": "Pickup",
+     "text": "in the evening, from your hotel in Luxor"
+    },
+    {
+     "_key": "pr3",
+     "_type": "dayPanelRow",
+     "label": "Back",
+     "text": "to your hotel after the show"
+    },
+    {
+     "_key": "pr4",
+     "_type": "dayPanelRow",
+     "label": "Show language",
+     "text": "sessions run in several languages; we confirm yours"
+    }
+   ],
+   "pickupLine": "in the evening, from your hotel in Luxor",
+   "returnNote": "to your hotel after the show",
+   "skipRefs": [
+    "00000000002b",
+    "000000000039",
+    "00000000003c"
+   ],
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "whyThisOrder": "The show keeps its own schedule, which changes with the seasons, so the evening is set around it. Most Luxor hotels are within twenty minutes of Karnak, on the northern edge of town. It works best after your daytime temple visit, when the hall you walked at noon comes back in another key, or as a soft first night before it.",
+   "worthKnowing": [
+    "The show is shared with other visitors; your transfers are private.",
+    "The narration and production are of their era: go for the atmosphere and the architecture, not cutting-edge effects.",
+    "Young children may find an hour of narration slow."
+   ]
+  },
+  {
+   "_key": "dti-es",
+   "_type": "dayTourIntro",
+   "closingLine": "Quince siglos de devoción, rivalidad y disputa, condensados en un solo templo de la orilla este del Nilo, y durante una hora, al caer la noche, alguien enciende las luces.",
+   "closingRef": "00000000002b",
+   "fitFor": [
+    "ya has visto Karnak de día y quieres verlo con otra luz",
+    "tienes una noche libre en Luxor, quizá entre dos tramos de crucero"
+   ],
+   "lang": "es",
+   "needsReview": false,
+   "opening": "De día, Karnak premia la exploración pausada. De noche, premia otra cosa: quedarse quieto y dejar que la escala te alcance. El espectáculo de Luz y Sonido usa el propio templo como escenario, con luz sobre los pilonos y las columnas y una narración que va de las campañas de Ramsés II al poder de los sacerdotes de Amón. Es la noche más tranquila que ofrece Luxor: sentado, sin prisas, una hora entre las columnas iluminadas.",
+   "panelRows": [
+    {
+     "_key": "pr1",
+     "_type": "dayPanelRow",
+     "label": "Niños y estudiantes",
+     "text": "alrededor de un 50 % de descuento"
+    },
+    {
+     "_key": "pr2",
+     "_type": "dayPanelRow",
+     "label": "Recogida",
+     "text": "por la tarde-noche, en tu hotel de Luxor"
+    },
+    {
+     "_key": "pr3",
+     "_type": "dayPanelRow",
+     "label": "Regreso",
+     "text": "a tu hotel después del espectáculo"
+    },
+    {
+     "_key": "pr4",
+     "_type": "dayPanelRow",
+     "label": "Idioma del espectáculo",
+     "text": "hay sesiones en varios idiomas; te confirmamos la tuya"
+    }
+   ],
+   "pickupLine": "por la tarde-noche, en tu hotel de Luxor",
+   "returnNote": "a tu hotel después del espectáculo",
+   "skipRefs": [
+    "000000000003",
+    "00000000002d",
+    "00000000003d",
+    "000000000040"
+   ],
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.es.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "whyThisOrder": "El espectáculo tiene su propio horario, que cambia con las estaciones, así que la noche se organiza en torno a él. La mayoría de los hoteles de Luxor están a menos de veinte minutos de Karnak, en el extremo norte de la ciudad. Funciona mejor después de tu visita diurna a los templos, cuando la sala que recorriste a mediodía vuelve en otra clave, o como una primera noche tranquila antes de ella.",
+   "worthKnowing": [
+    "El espectáculo se comparte con otros visitantes; tus traslados son privados.",
+    "La narración y la producción son de su época: ve por el ambiente y la arquitectura, no por efectos de última generación.",
+    "A los niños pequeños una hora de narración puede hacérseles lenta."
+   ]
+  },
+  {
+   "_key": "dti-ja",
+   "_type": "dayTourIntro",
+   "closingLine": "十五世紀にわたる信仰と対立と論争が、ナイル東岸の一つの神殿に凝縮されています。そして日が暮れると1時間、誰かがその明かりを灯すのです。",
+   "closingRef": "000000000023",
+   "fitFor": [
+    "昼のカルナック神殿はすでに見て、違う光の中で見てみたい方",
+    "ルクソールで夜が一晩空いている方（クルーズの合間など）"
+   ],
+   "lang": "ja",
+   "needsReview": false,
+   "opening": "昼のカルナック神殿は、ゆっくり歩いて見て回る人に応えてくれます。夜は、また別のものに応えてくれます。じっと座り、そのスケールが心に染み込んでくるのを待つことです。音と光のショーは神殿そのものを舞台に、塔門や柱を光で照らし、ラムセス2世の遠征からアメン神官団の権力までを語ります。ルクソールでいちばん穏やかな夜の過ごし方です。座ったまま、急ぐことなく、照らし出された柱のあいだで1時間を過ごします。",
+   "panelRows": [
+    {
+     "_key": "pr1",
+     "_type": "dayPanelRow",
+     "label": "お子様・学生",
+     "text": "約50%割引"
+    },
+    {
+     "_key": "pr2",
+     "_type": "dayPanelRow",
+     "label": "お迎え",
+     "text": "夕方以降、ルクソールのホテルにて"
+    },
+    {
+     "_key": "pr3",
+     "_type": "dayPanelRow",
+     "label": "お戻り",
+     "text": "ショーのあと、ホテルまで"
+    },
+    {
+     "_key": "pr4",
+     "_type": "dayPanelRow",
+     "label": "ショーの言語",
+     "text": "複数の言語で上演されています。ご希望の言語の回を確認します"
+    }
+   ],
+   "pickupLine": "夕方以降、ルクソールのホテルにて",
+   "returnNote": "ショーのあと、ホテルまで",
+   "skipRefs": [
+    "000000000025",
+    "000000000033",
+    "000000000036"
+   ],
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.ja.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "whyThisOrder": "ショーは季節によって変わる独自のスケジュールで行われるため、夜の行程はそれに合わせて組みます。ルクソールのほとんどのホテルからは、街の北端にあるカルナックまで二十分もかかりません。おすすめは、昼に神殿を見学したあと。正午に歩いた大列柱室が、まったく違う表情で戻ってきます。あるいは、昼の見学の前の、穏やかな最初の夜にするのもよいでしょう。",
+   "worthKnowing": [
+    "ショーはほかのお客様と一緒にご覧いただきますが、送迎はお客様専用です。",
+    "ナレーションも演出も、作られた時代を感じさせるものです。最新の特殊効果ではなく、雰囲気と建築を楽しみにお出かけください。",
+    "小さなお子様には、1時間のナレーションは退屈に感じられるかもしれません。"
+   ]
+  }
+ ],
+ "durationDays": 1,
+ "durationHours": 2,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Evening · show ~1 hr"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Noche · espectáculo ~1 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "夜・ショー約1時間"
+  }
+ ],
+ "exclusions": [
+  {
+   "_key": "slout1-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "text": "Dinner and drinks"
+  },
+  {
+   "_key": "slout1-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.es.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "text": "Cena y bebidas"
+  },
+  {
+   "_key": "slout1-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.ja.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "text": "夕食と飲み物"
+  }
+ ],
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The pylon of Karnak Temple and its avenue of ram-headed sphinxes lit in red and gold during a night show"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El pilono del Templo de Karnak y su avenida de esfinges con cabeza de carnero iluminados en rojo y oro de noche"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "夜のショーで赤と金に照らされた、カルナック神殿の塔門と牡羊頭のスフィンクスの参道。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-fc7acbf03530f07c5ca159c284492c8f0ee67d03-2448x1628-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Karnak's pylon and ram sphinxes glow in the night show."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El pilono y las esfinges de Karnak brillan en el espectáculo nocturno."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "夜のショーに輝くカルナックの塔門と牡羊スフィンクス。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "slin1-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "text": "Private transfers for your party, from one traveller upward"
+  },
+  {
+   "_key": "slin2-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "text": "Entrance tickets for the Sound and Light Show"
+  },
+  {
+   "_key": "slin3-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "text": "A bottle of water per person"
+  },
+  {
+   "_key": "slin4-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "text": "Tipping for your driver"
+  },
+  {
+   "_key": "slin1-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.es.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "text": "Traslados privados para tu grupo, desde un viajero"
+  },
+  {
+   "_key": "slin2-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.es.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "text": "Entradas al espectáculo de Luz y Sonido"
+  },
+  {
+   "_key": "slin3-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.es.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "text": "Una botella de agua por persona"
+  },
+  {
+   "_key": "slin4-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.es.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "text": "Propina del conductor"
+  },
+  {
+   "_key": "slin1-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.ja.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "text": "お客様専用の送迎（1名様から）"
+  },
+  {
+   "_key": "slin2-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.ja.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "text": "音と光のショーの入場券"
+  },
+  {
+   "_key": "slin3-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.ja.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "text": "お一人様につき水一本"
+  },
+  {
+   "_key": "slin4-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/karnak-sound-and-light-show.ja.md (21 Nov 2026; price from Autoura template T2E-DT-LXR-08).",
+   "text": "ドライバーへのチップ"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/sound-light-show-at-karnak-temple-in-luxor/"
+ },
+ "priceFrom": 44,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_88178",
+   "_ref": "wp-page-88178",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88167",
+   "_ref": "wp-page-88167",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_esna_edfu_kom_ombo_temples_group_day_tour_from_luxor",
+   "_ref": "tour.esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88170",
+   "_ref": "wp-page-88170",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Private return transfer to your party · shared theatrical performance at the temple · evening operation · you walk and stand through the temple, then sit by the Sacred Lake · bottled water, your driver's tip and an assistant included"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Traslado de ida y vuelta privado a su grupo · función teatral compartida en el templo · operación vespertina · se recorre el templo a pie y de pie, y el final es sentado junto al Lago Sagrado · agua, propina del conductor y asistente incluidos"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "プライベートな往復送迎・上演は神殿でのチケット制の相乗り公演・1人1本のミネラルウォーター・ドライバーへのチップとスタッフの出迎えを含む"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Roughly 2–2.5 hours door to door; show itself runs about an hour"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Aproximadamente 2–2,5 horas puerta a puerta; el espectáculo en sí dura cerca de una hora"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "およそ2〜2時間半（上演そのものはおよそ1時間）"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Karnak Temple complex, Luxor East Bank — first pylon, Hypostyle Hall (134 columns, central nave 21 m), Sacred Lake"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Complejo del templo de Karnak, orilla oriental de Luxor: primer pilono, Sala Hipóstila (134 columnas, nave central de 21 m), Lago Sagrado"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "ルクソールのご滞在先 → カルナック神殿（夜の上演） → ご滞在先"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "sound-light-show-at-karnak-temple-in-luxor"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "luz-y-sonido-en-karnak"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "yoru-no-karunakku-rukusoru-no-hikari-to-oto-no-sho"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "An evening at Karnak: private transfers to the Sound and Light Show, with light on the pylons and columns and a narration that runs from Ramses II's campaigns to the power of Amun's priests."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Una noche en Karnak: traslados privados al espectáculo de Luz y Sonido, con luz sobre los pilonos y las columnas y una narración que va de las campañas de Ramsés II al poder de los sacerdotes de Amón."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "カルナック神殿の夜。専用車の送迎で音と光のショーへ。塔門や柱に光があたり、ラムセス2世の遠征からアメン神官団の権力までを語ります。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Karnak After Dark: The Sound & Light Show in Luxor"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Karnak de noche: el espectáculo de Luz y Sonido en Luxor"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "夜のカルナック神殿：ルクソールの音と光のショー"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}

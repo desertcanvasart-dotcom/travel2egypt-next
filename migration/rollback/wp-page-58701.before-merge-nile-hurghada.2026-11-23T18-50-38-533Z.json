@@ -1,0 +1,1860 @@
+{
+ "_createdAt": "2026-05-04T20:45:43Z",
+ "_id": "wp-page-58701",
+ "_rev": "44OBfc3nyoMiSJNtmPanSs",
+ "_system": {
+  "base": {
+   "id": "wp-page-58701",
+   "rev": "4jxboK94xJN5bUSrjkS6P4"
+  }
+ },
+ "_type": "guideArticle",
+ "_updatedAt": "2026-10-31T12:03:08Z",
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "iwkcfw5uh2ht",
+       "_type": "span",
+       "marks": [],
+       "text": "Tours In "
+      },
+      {
+       "_key": "wk97jyt73wrq",
+       "_type": "span",
+       "marks": [
+        "hfcsafuv9p81"
+       ],
+       "text": "Al Quseir"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "hfcsafuv9p81",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58688",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "ia3w0mv7208l",
+       "_type": "span",
+       "marks": [],
+       "text": "In the heart of Egypt, where history whispers from the sands and the Red Sea mirrors the sun’s golden hues, Al Quseir stands as a gateway to exploration—a place where ancient marvels and natural wonders blend seamlessly. Our meticulously curated 11-day journey invites you to immerse yourself in Egypt’s profound history, from the majestic "
+      },
+      {
+       "_key": "8vphyd87cimn",
+       "_type": "span",
+       "marks": [
+        "qng668jt318y"
+       ],
+       "text": "Giza"
+      },
+      {
+       "_key": "6kcfbia0jpng",
+       "_type": "span",
+       "marks": [],
+       "text": " Pyramids to the tranquil waters of the Nile."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "qng668jt318y",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58854",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "The Tapestry of the Pharaohs and the Azure Red Sea"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000010",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "eb965uavv2w8",
+       "_type": "span",
+       "marks": [],
+       "text": "Your adventure begins in "
+      },
+      {
+       "_key": "i6epaq5qk7uu",
+       "_type": "span",
+       "marks": [
+        "l7i8zi849cbf"
+       ],
+       "text": "Cairo"
+      },
+      {
+       "_key": "j60h3nd0eswz",
+       "_type": "span",
+       "marks": [],
+       "text": ", the cradle of civilization, where the "
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [
+        "000000000007"
+       ],
+       "text": "pyramids of Giza"
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [],
+       "text": " beckon with their timeless allure. Under the canopy of stars, the Pyramids come alive with a mesmerizing "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "00000000000a"
+       ],
+       "text": "light and sound"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": " spectacle, narrating tales as old as time. The journey through Cairo’s heart continues with a visit to the Mohamed Ali Mosque, an architectural masterpiece, followed by a treasure hunt through the winding alleys of "
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [
+        "00000000000d"
+       ],
+       "text": "Khan El Khalili bazaar"
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": ", where history and commerce dance in harmony."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000007",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/pyramids-of-giza-sphinx-memphis-and-saqqara-tour/"
+       },
+       "_type": "externalLink",
+       "href": "/private-tour-pyramids-of-giza-sphinx-memphis-and-saqqara",
+       "newTab": false
+      },
+      {
+       "_key": "00000000000a",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/giza-travel-guide/the-giza-sound-and-light-show/"
+       },
+       "_type": "externalLink",
+       "href": "/the-giza-sound-and-light-show-experience",
+       "newTab": false
+      },
+      {
+       "_key": "00000000000d",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/a-visit-to-cairos-khan-el-khalili-bazaar/"
+       },
+       "_type": "externalLink",
+       "href": "/blog/a-visit-to-cairos-khan-el-khalili-bazaar",
+       "newTab": false
+      },
+      {
+       "_key": "l7i8zi849cbf",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-83284",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000018",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [],
+       "text": "As the Nile whispers tales of yesteryear, we set sail towards "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "000000000012"
+       ],
+       "text": "Aswan"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": ", a city that boasts breathtaking vistas and the serene beauty of Nile waters. Here, history is etched along the riverbanks, inviting you to "
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "000000000015"
+       ],
+       "text": "explore"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [],
+       "text": " and embrace its tranquil charm."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000012",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/aswan-travel-guide/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/aswan",
+       "newTab": false
+      },
+      {
+       "_key": "000000000015",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/nuweiba-travel-guide/exploring/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/nuweiba",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000020",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jf46w7oqp9tb",
+       "_type": "span",
+       "marks": [
+        "62qiv3v3uhbl"
+       ],
+       "text": "Luxor"
+      },
+      {
+       "_key": "5rwvxcobkcst",
+       "_type": "span",
+       "marks": [],
+       "text": ", often heralded as the world’s greatest open-air museum, awaits with its extraordinary temple complexes, including the majestic Karnak and the enigmatic "
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "00000000001a"
+       ],
+       "text": "Luxor Temple"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": ". A visit to the "
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "00000000001d"
+       ],
+       "text": "Luxor Museum"
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": " unveils artifacts that bridge the gap between past and present, while the West Bank tour offers a glimpse into the eternal resting places of pharaohs, including the Valley of the Kings and Queens, where history sleeps beneath the desert’s watchful eyes."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000001a",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/luxor-travel-guide/the-luxor-temple/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/luxor/the-luxor-temple",
+       "newTab": false
+      },
+      {
+       "_key": "00000000001d",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/luxor-travel-guide/the-luxor-museum/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/luxor/the-luxor-museum",
+       "newTab": false
+      },
+      {
+       "_key": "62qiv3v3uhbl",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58877",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "9x2lt388uxrj",
+       "_type": "span",
+       "marks": [],
+       "text": "Your journey then guides you to "
+      },
+      {
+       "_key": "dvlvh1z8qf8b",
+       "_type": "span",
+       "marks": [
+        "ifkir9qed4uc"
+       ],
+       "text": "Hurghada"
+      },
+      {
+       "_key": "a5tkjcfo8ijl",
+       "_type": "span",
+       "marks": [],
+       "text": ", a "
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "000000000022"
+       ],
+       "text": "jewel along the Red Sea’s"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": " coast, renowned for its pristine beaches and the mesmerizing underwater life that thrives beneath its waves. Here, relaxation and adventure coalesce, offering a sanctuary for those who seek both tranquility and thrill."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000022",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/the-pearl-of-red-sea-hurghada/"
+       },
+       "_type": "externalLink",
+       "href": "/the-pearl-of-red-sea-hurghada",
+       "newTab": false
+      },
+      {
+       "_key": "ifkir9qed4uc",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58859",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Further along, we explore the enigmatic Dahshur, home to the Bent and "
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "000000000027"
+       ],
+       "text": "Red Pyramids"
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [],
+       "text": ", where the ingenuity of ancient engineers is displayed in monumental grandeur. Each step through Dahshur is a step back in time, offering a rare glimpse into the architectural evolution that shaped "
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [
+        "00000000002a"
+       ],
+       "text": "Egypt’s"
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": " iconic skyline."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000027",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/giza-travel-guide/the-red-pyramid/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/giza/the-red-pyramid-of-sneferu",
+       "newTab": false
+      },
+      {
+       "_key": "00000000002a",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/contact-us/"
+       },
+       "_type": "externalLink",
+       "href": "/contact",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Join Us on a Voyage Through Time"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "As you traverse "
+      },
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "000000000031"
+       ],
+       "text": "Egypt’s"
+      },
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [],
+       "text": " most captivating cities and ancient sites with us, each day unfolds like a page from history, revealing stories of power, devotion, and ingenuity that shaped the land of the Pharaohs. From the majestic to the serene, this journey through "
+      },
+      {
+       "_key": "000000000035",
+       "_type": "span",
+       "marks": [
+        "000000000034"
+       ],
+       "text": "Al Quseir"
+      },
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": " and beyond promises not just a tour, but a voyage through time, where the past is always present, and every moment is a discovery."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000031",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/abu-simble-travel-guide/qasr-ibrim/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/abu-simbel/qasr-ibrim",
+       "newTab": false
+      },
+      {
+       "_key": "000000000034",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/al-quseir-travel-guide/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/al-quseir",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "Welcome to "
+      },
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [
+        "000000000039"
+       ],
+       "text": "Egypt"
+      },
+      {
+       "_key": "00000000003b",
+       "_type": "span",
+       "marks": [],
+       "text": ", where the wonders of the ancient world await your arrival. Join us on this unparalleled adventure, where every step tells a story, and every sight captivates the soul."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000039",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/al-arish-travel-guide/movement-guide/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/al-arish/getting-around-al-arish",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003d",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/image1.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Aerial view of a coastal village with buildings near a shoreline with breaking waves"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "Where the Desert Kisses the Sea: A tranquil village by the shore"
+      }
+     ]
+    },
+    {
+     "_key": "00000000003e",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/69501294.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Aerial view of a coastal resort town with clear blue waters adjacent to an arid desert"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "Where the desert meets the sea: a peaceful refuge in an austere landscape"
+      }
+     ]
+    },
+    {
+     "_key": "000000000041",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": "Discover Your Perfect Egypt Travel Packages"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000004c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [],
+       "text": "Dive into our "
+      },
+      {
+       "_key": "000000000044",
+       "_type": "span",
+       "marks": [
+        "000000000043"
+       ],
+       "text": "Egypt Travel Packages for the ultimate adventure"
+      },
+      {
+       "_key": "000000000045",
+       "_type": "span",
+       "marks": [],
+       "text": ". Whether you’re dreaming of a "
+      },
+      {
+       "_key": "000000000047",
+       "_type": "span",
+       "marks": [
+        "000000000046"
+       ],
+       "text": "Nile cruise"
+      },
+      {
+       "_key": "000000000048",
+       "_type": "span",
+       "marks": [],
+       "text": ", exploring ancient pyramids, or relaxing by the Red Sea, we’ve curated the best experiences for you. Connect your "
+      },
+      {
+       "_key": "00000000004a",
+       "_type": "span",
+       "marks": [
+        "000000000049"
+       ],
+       "text": "journey seamlessly with our comprehensive travel guide"
+      },
+      {
+       "_key": "00000000004b",
+       "_type": "span",
+       "marks": [],
+       "text": ", ensuring every moment is unforgettable."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000043",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/egypt-holidays-from-japan/"
+       },
+       "_type": "externalLink",
+       "href": "/blog/egypt-holidays-from-japan",
+       "newTab": false
+      },
+      {
+       "_key": "000000000046",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/nile-cruise-hurghada-tour/"
+       },
+       "_type": "externalLink",
+       "href": "/15-day-nile-cruise-and-hurghada-tour",
+       "newTab": false
+      },
+      {
+       "_key": "000000000049",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/ras-sudr-travel-guide/journey-travel-guide/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/ras-sudr/travel-to-ras-sudr",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004d",
+       "_type": "span",
+       "marks": [],
+       "text": "Learn more"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "wmameut5mcxc",
+       "_type": "span",
+       "marks": [],
+       "text": "Embárcate en un viaje a través del tiempo: Descubre los principales recorridos de "
+      },
+      {
+       "_key": "oyrka8j6he0z",
+       "_type": "span",
+       "marks": [
+        "3xbrwnb7og8n"
+       ],
+       "text": "Al Quseir"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "3xbrwnb7og8n",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58688",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "En el corazón de Egipto, donde la historia susurra desde las arenas y el Mar Rojo refleja los tonos dorados del sol, Al Quseir se erige como una puerta a la exploración: un lugar donde las maravillas antiguas y las naturales se mezclan a la perfección."
+      },
+      {
+       "_key": "000000000003",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "0slzb7snu1u0",
+       "_type": "span",
+       "marks": [],
+       "text": " Nuestro viaje de 11 días, meticulosamente diseñado, te invita a sumergirte en la profunda historia de Egipto, desde las majestuosas Pirámides de "
+      },
+      {
+       "_key": "55x4y6wks7vu",
+       "_type": "span",
+       "marks": [
+        "3pikyflxrr8v"
+       ],
+       "text": "Guiza"
+      },
+      {
+       "_key": "nimmi1adf7i1",
+       "_type": "span",
+       "marks": [],
+       "text": " hasta las tranquilas aguas del Nilo. "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "3pikyflxrr8v",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58854",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "El Tapiz de los Faraones y el Mar Rojo Azabache"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000016",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "kio60yhovoiv",
+       "_type": "span",
+       "marks": [],
+       "text": "Tu aventura comienza en "
+      },
+      {
+       "_key": "rzjtm4bvn2wo",
+       "_type": "span",
+       "marks": [
+        "ke61o472dazw"
+       ],
+       "text": "El Cairo"
+      },
+      {
+       "_key": "czoievtlkoxh",
+       "_type": "span",
+       "marks": [],
+       "text": ", la cuna de la civilización, donde las "
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [
+        "000000000009"
+       ],
+       "text": "pirámides de Guiza"
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [],
+       "text": " atraen con su encanto intemporal."
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [],
+       "text": "Bajo la bóveda celeste, las pirámides cobran vida con un fascinante espectáculo de luz y sonido, narrando historias tan antiguas como "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "00000000000e"
+       ],
+       "text": "el tiempo"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "El viaje por el corazón de El Cairo continúa con una visita a la Mezquita de Mohamed Ali, una obra maestra de la arquitectura, seguida de una búsqueda "
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "000000000013"
+       ],
+       "text": "del tesoro por las sinuosas callejuelas del bazar de Khan El Khalili"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": ", donde la historia y el comercio bailan en armonía."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000009",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/piramides-de-guiza-esfinge-menfis-y-saqqara/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guiza-menfis-y-saqqara-las-millas-mas-antiguas-de-egipto-en-un-dia",
+       "newTab": false
+      },
+      {
+       "_key": "00000000000e",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-esna/el-tiempo/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/esna/es-clima-en-esna",
+       "newTab": false
+      },
+      {
+       "_key": "000000000013",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-el-cairo/bazar-khan-al-khalili/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/khan-el-khalili",
+       "newTab": false
+      },
+      {
+       "_key": "ke61o472dazw",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-83284",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000020",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [],
+       "text": "Mientras "
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "000000000018"
+       ],
+       "text": "el Nilo"
+      },
+      {
+       "_key": "wdej5tdunvi6",
+       "_type": "span",
+       "marks": [],
+       "text": " susurra historias de antaño, zarpamos hacia "
+      },
+      {
+       "_key": "xosx7uuyo13h",
+       "_type": "span",
+       "marks": [
+        "cvhdsn21z6x3"
+       ],
+       "text": "Asuán"
+      },
+      {
+       "_key": "34qtc6fyty99",
+       "_type": "span",
+       "marks": [],
+       "text": ", una ciudad que presume de vistas impresionantes y de la serena belleza de las aguas del Nilo."
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Aquí, la historia está grabada en las orillas del río, invitándote a "
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "00000000001d"
+       ],
+       "text": "explorar"
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": " y abrazar su tranquilo encanto."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000018",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/el-nil-elegance-crucero-de-7-dias-dahabiya-por-el-nilo/"
+       },
+       "_type": "externalLink",
+       "href": "/es/el-nil-elegance-siete-dias-de-luxor-a-asuan",
+       "newTab": false
+      },
+      {
+       "_key": "00000000001d",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-nuweiba/explorando/"
+       },
+       "_type": "externalLink",
+       "href": "/es/blog/explorando-la-gran-esfinge-de-guiza",
+       "newTab": false
+      },
+      {
+       "_key": "cvhdsn21z6x3",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58758",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "dn80ew305d37",
+       "_type": "span",
+       "marks": [
+        "11rcm2ez91le"
+       ],
+       "text": "Luxor"
+      },
+      {
+       "_key": "diezwgwy6k9f",
+       "_type": "span",
+       "marks": [],
+       "text": ", a menudo anunciado como el mayor museo al aire libre del mundo, te espera con sus extraordinarios complejos de templos, incluidos el majestuoso Karnak y el enigmático "
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "000000000022"
+       ],
+       "text": "Templo de Luxor"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Una visita al Museo de Luxor desvela artefactos que tienden puentes entre el pasado y el presente, mientras que el recorrido por la Ribera Occidental ofrece una visión de los lugares de descanso eterno de los faraones, incluido el "
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "000000000027"
+       ],
+       "text": "Valle de los Reyes y las Reinas"
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [],
+       "text": ", donde la historia duerme bajo la atenta mirada del desierto."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000022",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-luxor/el-templo-de-luxor/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/luxor/el-templo-de-luxor",
+       "newTab": false
+      },
+      {
+       "_key": "000000000027",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-luxor/el-valle-de-las-reinas/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/luxor/el-valle-de-las-reinas",
+       "newTab": false
+      },
+      {
+       "_key": "11rcm2ez91le",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58877",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000034",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [],
+       "text": "A continuación, tu "
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [
+        "00000000002c"
+       ],
+       "text": "viaje te llevará a Hurghada"
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": ", una joya de la costa del Mar Rojo, famosa por sus playas vírgenes y la fascinante vida submarina que prospera bajo sus olas."
+      },
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Aquí, la relajación y la aventura se unen, ofreciendo un santuario "
+      },
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "000000000031"
+       ],
+       "text": "para quienes buscan tanto tranquilidad como"
+      },
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [],
+       "text": " emoción."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000002c",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-dajla/viajes/"
+       },
+       "_type": "externalLink",
+       "href": "/es/blog/viajes-al-egipto-historico",
+       "newTab": false
+      },
+      {
+       "_key": "000000000031",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-kom-ombo/sabores-para-comer/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/kom-ombo/gastronomia-de-kom-ombo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000035",
+       "_type": "span",
+       "marks": [],
+       "text": "Más adelante, exploraremos la enigmática Dahshur, hogar de las "
+      },
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [
+        "000000000036"
+       ],
+       "text": "Pirámides Dobladas"
+      },
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": " y Rojas, donde el ingenio de los antiguos ingenieros se muestra con una grandeza monumental."
+      },
+      {
+       "_key": "000000000039",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": "Cada paso por Dahshur es un retroceso en el tiempo, que ofrece una visión poco frecuente de la evolución arquitectónica que dio forma al icónico horizonte de Egipto."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000036",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-guiza/la-piramide-doblada/"
+       },
+       "_type": "externalLink",
+       "href": "/es/wiki/monuments/la-piramide-doblada",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "Acompáñanos en un viaje en el tiempo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000047",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": "Mientras recorres con nosotros las ciudades y lugares antiguos más cautivadores de Egipto, cada día se desarrolla como una página de la historia, revelando historias de poder, devoción e ingenio que dieron forma a "
+      },
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [
+        "00000000003f"
+       ],
+       "text": "la tierra de los"
+      },
+      {
+       "_key": "000000000041",
+       "_type": "span",
+       "marks": [],
+       "text": " faraones."
+      },
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000043",
+       "_type": "span",
+       "marks": [],
+       "text": " De lo majestuoso a lo sereno, este viaje por Al Quseir y más allá promete no sólo una excursión, sino "
+      },
+      {
+       "_key": "000000000045",
+       "_type": "span",
+       "marks": [
+        "000000000044"
+       ],
+       "text": "un viaje en el tiempo"
+      },
+      {
+       "_key": "000000000046",
+       "_type": "span",
+       "marks": [],
+       "text": ", donde el pasado está siempre presente, y cada momento es un descubrimiento. "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000003f",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/descubre-la-tierra-de-los-faraones/"
+       },
+       "_type": "externalLink",
+       "href": "/es/blog/descubre-la-tierra-de-los-faraones",
+       "newTab": false
+      },
+      {
+       "_key": "000000000044",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/itinerario-definitivo-de-8-dias-por-egipto-un-viaje-en-el-tiempo/"
+       },
+       "_type": "externalLink",
+       "href": "/es/blog/itinerario-definitivo-de-8-dias-por-egipto-un-viaje-en-el-tiempo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000051",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000048",
+       "_type": "span",
+       "marks": [],
+       "text": "Bienvenido "
+      },
+      {
+       "_key": "00000000004a",
+       "_type": "span",
+       "marks": [],
+       "text": "a Egipto"
+      },
+      {
+       "_key": "00000000004b",
+       "_type": "span",
+       "marks": [],
+       "text": ", donde las maravillas del mundo antiguo aguardan tu llegada."
+      },
+      {
+       "_key": "00000000004c",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000004d",
+       "_type": "span",
+       "marks": [],
+       "text": " Acompáñanos en esta aventura sin igual, donde cada paso "
+      },
+      {
+       "_key": "00000000004f",
+       "_type": "span",
+       "marks": [],
+       "text": "cuenta"
+      },
+      {
+       "_key": "000000000050",
+       "_type": "span",
+       "marks": [],
+       "text": " una historia y cada vista cautiva el alma. "
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000053",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000052",
+       "_type": "span",
+       "marks": [],
+       "text": "Creado el 18 de marzo de 2020"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000055",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000054",
+       "_type": "span",
+       "marks": [],
+       "text": "Actualizado en Ago , 2024"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "zbhe59non1rz",
+       "_type": "span",
+       "marks": [],
+       "text": "時を超えた旅に出かけよう："
+      },
+      {
+       "_key": "zcv3f7f8anyy",
+       "_type": "span",
+       "marks": [
+        "3abu4jpmrupz"
+       ],
+       "text": "アル・クセイル"
+      },
+      {
+       "_key": "lcssvl32zehr",
+       "_type": "span",
+       "marks": [],
+       "text": "の最高のツアーを発見"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "3abu4jpmrupz",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58688",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "c320ggyo1lke",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプトの中心に位置し、歴史が砂から囁き、紅海が太陽の黄金色を映し出す場所、アル・クセイルは探求への入り口として立っています。ここは、古代の驚異と自然の美が見事に融合する場所です。私たちが厳選した11日間の旅では、"
+      },
+      {
+       "_key": "1ot8sqvl2z1d",
+       "_type": "span",
+       "marks": [
+        "r39ksgtbuexo"
+       ],
+       "text": "ギザ"
+      },
+      {
+       "_key": "lhkrtzochgky",
+       "_type": "span",
+       "marks": [],
+       "text": "の壮大なピラミッドからナイルの穏やかな水面まで、エジプトの深い歴史に浸ることができます。"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "r39ksgtbuexo",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58854",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "ファラオのタペストリーと蒼穹の紅海"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "2df6m041r8ee",
+       "_type": "span",
+       "marks": [],
+       "text": "あなたの冒険は、文明の揺りかごである"
+      },
+      {
+       "_key": "p3xdokim51n3",
+       "_type": "span",
+       "marks": [
+        "aves9wd7raoc"
+       ],
+       "text": "カイロ"
+      },
+      {
+       "_key": "vbvihdiij01i",
+       "_type": "span",
+       "marks": [],
+       "text": "から始まります。ギザのピラミッドがその時を超えた魅力であなたを引き寄せます。星空の下、ピラミッドは壮大な光と音のショーで命を吹き込み、時の流れとともに語り継がれる物語を紡ぎ出します。カイロの中心を巡る旅は、モハメド・アリ・モスクの建築の傑作を訪れ、次にカーン・エル・カリリ市場の迷路のような路地を探検します。ここでは歴史と商業が調和を奏でながら交差しています。"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "aves9wd7raoc",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-83284",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "v74uyj7kdxlb",
+       "_type": "span",
+       "marks": [],
+       "text": "ナイルが過去の物語を囁く中、私たちは"
+      },
+      {
+       "_key": "3eyojym7gobi",
+       "_type": "span",
+       "marks": [
+        "rf3pkpp77lzs"
+       ],
+       "text": "アスワン"
+      },
+      {
+       "_key": "m05buc9cu8oc",
+       "_type": "span",
+       "marks": [],
+       "text": "へ向かいます。アスワンは息を呑むような景色とナイルの静かな美しさが広がる街です。ここでは、川沿いに歴史が刻まれており、その穏やかな魅力を探求し、抱きしめることができます。"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "rf3pkpp77lzs",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58758",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "vc4ikqbmxg6f",
+       "_type": "span",
+       "marks": [
+        "4qcjn55txafk"
+       ],
+       "text": "ルクソール"
+      },
+      {
+       "_key": "blqojrs07e1g",
+       "_type": "span",
+       "marks": [],
+       "text": "は、世界最大の野外博物館としてしばしば称賛され、その壮大な神殿群、カルナック神殿や謎に包まれたルクソール神殿があなたを待っています。ルクソール博物館を訪れると、過去と現在を繋ぐ遺物が展示されており、西岸ツアーではファラオの永遠の眠り場所を垣間見ることができます。王家の谷や女王の谷など、砂漠の見守る眼差しの下で歴史が眠る場所です。"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "4qcjn55txafk",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58877",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "次に向かうのは、紅海沿岸の宝石、ハルガダです。ここはその美しいビーチと波の下で生き生きとした水中の生物が魅力的な場所で知られています。ここでは、リラクゼーションと冒険が融合し、静けさと興奮の両方を求める人々にとっての聖域を提供しています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "さらに進むと、謎めいたダフシュールを探索します。ベント・ピラミッドとレッド・ピラミッドのあるこの地では、古代の技術者たちの巧妙さが壮大な形で展示されています。ダフシュールを歩む一歩一歩が、エジプトの象徴的なスカイラインを形作った建築の進化を垣間見せてくれる貴重な瞬間となります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "時を超えた旅へ、私たちと一緒に出かけましょう"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "私たちと一緒にエジプトの最も魅力的な都市や古代の遺跡を巡りながら、毎日が歴史のページのように展開し、ファラオの土地を形作った力、献身、そして創意の物語が明らかになります。壮大から穏やかまで、このアル・クセイルを超える旅は単なる観光ではなく、時を超えた航海であり、過去が常に現在であり、すべての瞬間が発見であることを約束します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプトへようこそ。古代の世界の驚異があなたの到着を待っています。この比類なき冒険に参加し、ひと足ごとに物語が語られ、すべての景色が魂を魅了する旅に出ましょう。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "作成日：2020年3月18日"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "更新日：2025年3月1日"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Freediver gliding over a Red Sea coral reef with orange anthias and sunbeams through the water"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Apneísta deslizándose sobre un arrecife de coral del mar Rojo con anthias naranjas y rayos de sol en el agua"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "オレンジ色のハナダイと差し込む陽光の中、紅海のサンゴ礁を滑るフリーダイバー"
+   }
+  ],
+  "asset": {
+   "_ref": "image-e1773fd62d2fac5232a2987e9f754b59a205e24c-1200x800-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A freediver drifts above a Red Sea reef alive with anthias as sunbeams pierce the blue."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Un apneísta se desliza sobre un arrecife del mar Rojo lleno de anthias, atravesado por rayos de sol."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ハナダイが舞う紅海のサンゴ礁の上を、陽光の差す青の中でフリーダイバーが滑る。"
+   }
+  ]
+ },
+ "kind": "tours",
+ "migration": {
+  "migratedAt": "2026-05-05T13:02:25.261Z",
+  "source": "wp-import",
+  "wpId": 58701,
+  "wpModifiedAt": "2026-04-19T14:14:09",
+  "wpTemplate": "",
+  "wpUrl": "https://travel2egypt.org/tours-in-al-quseir/"
+ },
+ "parentCity": {
+  "_ref": "wp-page-58688",
+  "_type": "reference"
+ },
+ "section": "others",
+ "slug": [
+  {
+   "_key": "en",
+   "value": {
+    "_type": "slug",
+    "current": "tours-in-al-quseir"
+   }
+  },
+  {
+   "_key": "es",
+   "value": {
+    "_type": "slug",
+    "current": "tours-destacados-en-al-quseir"
+   }
+  },
+  {
+   "_key": "ja",
+   "value": {
+    "_type": "slug",
+    "current": "arukuseiru-no-osusume-tsua"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "Tours In Al Quseir In the heart of Egypt, where history whispers from the sands and the Red Sea mirrors the sun s golden hues, Al Quseir stands as a gateway to exploration—a place where ancient marvels and natural wonders blend seamlessly. "
+  },
+  {
+   "_key": "es",
+   "value": "Embárcate en un viaje a través del tiempo: Descubre los principales recorridos de Al Quseir En el corazón de Egipto, donde la historia susurra desde las arenas y el Mar Rojo refleja los tonos dorados del sol, Al Quseir se erige como una pue"
+  },
+  {
+   "_key": "ja",
+   "value": "時を超えた旅に出かけよう：アルクサイールの最高のツアーを発見 エジプトの中心に位置し、歴史が砂から囁き、紅海が太陽の黄金色を映し出す場所、アルクサイールは探求への入り口として立っています。ここは、古代の驚異と自然の美が見事に融合する場所です。私たちが厳選した11日間の旅では、ギザの壮大なピラミッドからナイルの穏やかな水面まで、エジプトの深い歴史に浸ることができます。 ファラオのタペストリーと蒼穹の紅海 あなたの冒険は、文明の揺りかごであるカイロから始まります。ギザのピラミッド"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "value": "Tours In Al Quseir"
+  },
+  {
+   "_key": "es",
+   "value": "Tours Destacados en Al Quseir"
+  },
+  {
+   "_key": "ja",
+   "value": "アル・クセイルのおすすめツアー"
+  }
+ ]
+}

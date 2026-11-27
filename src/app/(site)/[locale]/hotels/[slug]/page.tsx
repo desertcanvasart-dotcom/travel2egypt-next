@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { redirectForeignSlug } from '@/lib/foreign-slug';
 import Image from 'next/image';
 
 import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
@@ -93,7 +94,11 @@ export default async function HotelPage({ params }: Props) {
   const t = await getTranslations('hotel');
   const hotel = await client.fetch<HotelDetail | null>(hotelBySlugQuery(locale as Locale), { slug });
 
-  if (!hotel) notFound();
+  if (!hotel) {
+    // Wrong-language slug (old GSC discoveries) → 308 to the right page.
+    await redirectForeignSlug('hotel', locale, [slug]);
+    notFound();
+  }
 
   const heroUrl = hotel.heroImage?.asset
     ? urlFor(hotel.heroImage).width(2400).height(1200).quality(85).url()

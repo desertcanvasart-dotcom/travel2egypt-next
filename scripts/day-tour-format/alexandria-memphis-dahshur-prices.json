@@ -1,0 +1,6 @@
+{
+  "_note": "Per-person selling prices in EUR for 2 travellers sharing, by guide language (22 Nov 2026). Rule (lib/publish/public-rate in Autoura): engine figure for 2 travellers, house margin 30 %, ~59.05 EGP/EUR, higher of EU / other, rounded UP. Source: Autoura T2E-DT-ALX-03 (created 22 Nov): Alexandria day-trip car (intercity_day_trip sedan), guide, entrance to Memphis, Saqqara and Dahshur, lunch, water = engine budget tier EN €101.31, ES €112.31, JA €128.82. The engine picked the plain 'HOTEL-TO-CAIRO' sedan (4,000 EGP); Autoura also has the 'HOTEL-TO-CAIRO →(Memphis, Saqqara)' sedan at 4,200 EGP, so 200 EGP x 1.3 / 59.05 / 2 = €2.20 per person is added: EN 103.51, ES 114.51, JA 131.02, rounded up. Inside the Step Pyramid and the Red Pyramid and further tombs are extra tickets bought at the site (not in the price). Live today: €122 / €133 / €140 (tiered).",
+  "en": 104,
+  "es": 115,
+  "ja": 132
+}

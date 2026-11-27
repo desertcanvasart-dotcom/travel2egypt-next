@@ -1,0 +1,1180 @@
+{
+ "_createdAt": "2026-05-29T22:45:52Z",
+ "_id": "tour.ramasside-tours-desert-adventure-snorkeling-experience",
+ "_rev": "pzh5FM4q1DBt3H4LGqNNJZ",
+ "_system": {
+  "base": {
+   "id": "tour.ramasside-tours-desert-adventure-snorkeling-experience",
+   "rev": "0o8iG1XkEtNHsGcBGNlpkL"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:46Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Sharm resort guests who want a day that reads the Sinai interior as well as the coast, in a single full-day loop"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Huéspedes de Sharm que quieran un día capaz de leer el interior del Sinaí con la misma seriedad que la costa, en un único bucle de jornada completa"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "シャルムにご滞在で、海岸だけでなく、シナイの内陸の地理も同じ日に読みたい方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Sharm to Dahab: A Sinai Desert and Blue Hole Day Trip"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "The drive between Sharm El Sheikh and Dahab takes you across a piece of south Sinai that most resort guests never see. This is the day that uses the road properly."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "The southern Sinai is best known for its coast — the resorts at Sharm, the diving on the Strait of Tiran, the snorkelling around Ras Mohammed. The interior gets less attention, which is precisely why this day works. The route runs north from Sharm El Sheikh through the desert plateau to Dahab, with two interior stops along the way and one of the most-recognised dive sites in the Red Sea at the far end. The total day is eight hours, return included."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "We run this as a private trip with hotel transfers, an English-speaking guide, and air-conditioned vehicles — including the 4×4 jeep used on the off-road sections inland."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Pickup is from your Sharm El Sheikh hotel in the morning. The first leg follows the coastal road north before the route turns inland and the vehicle switches over to the jeep for the desert section."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "The first stop is a "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Bedouin settlement"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": " in the south Sinai interior. The Bedouin presence in this region predates the modern state by centuries — the Mzeina, Tarabin, and Aleiqat tribes have continuously inhabited the southern Sinai, and parts of their economy still depend on the desert routes between the coast and the St. Catherine massif. The stop is short and properly framed: sweet tea, a chance to see the way the settlement is laid out around water access, and a brief introduction to how the desert here is read by people who actually live in it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "The route continues north toward Dahab, with a stop at "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Wadi Qunai"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": " — an oasis with palm groves and a sandstone canyon cut by seasonal water. There is a guided camel leg through the wadi, which is the slow way to read terrain that the jeep covers too quickly."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "The day's anchor is the "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Blue Hole"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": ", immediately north of Dahab. It is a circular sinkhole roughly fifty-six metres deep, separated from the open sea by a coral saddle at six metres. For technical divers it is one of the more notorious sites in the world; for snorkellers, the rim of the hole and the surrounding reef offer some of the most accessible deep-blue-water snorkelling in Egypt — you are floating directly above a vertical drop, with the reef wall populated by the standard Red Sea cast in unusually clear water. The site is supervised; the day includes the snorkelling session itself with gear provided."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Lunch is taken at a local restaurant on Dahab's waterfront before the return drive to Sharm El Sheikh."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Why this combination"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "A pure snorkel day skips the desert. A pure desert day skips the water. The route between Sharm and Dahab makes both available in the same day because the geography compresses them into roughly two hours of driving — and the Bedouin stop along the way gives the desert leg a human context that pure jeep tourism never does. The Blue Hole at the end is what most travellers come to Sinai expecting and rarely actually reach."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "The desert and the reef are the same landscape. The sea just happens to cover the second half of it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "The concierge can extend this with a Mount Sinai pre-dawn climb if the schedule allows the extra day, or compress the desert leg if your party wants more time at the Blue Hole. The trip is weather-dependent on the snorkel side — we book the direction the wind allows."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000030",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "De Sharm a Dahab: un día entre el desierto del Sinaí y el Blue Hole"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "El trayecto entre Sharm el-Sheij y Dahab atraviesa un fragmento del sur del Sinaí que la mayoría de los huéspedes de los complejos turísticos nunca llegan a ver. Esta es la jornada que aprovecha la carretera como se debe."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "El sur del Sinaí es conocido sobre todo por su costa: los complejos turísticos de Sharm, el buceo en el estrecho de Tirán, el snorkel en torno a Ras Mohamed. El interior recibe menos atención, y precisamente por eso este día funciona. La ruta sale al norte de Sharm el-Sheij por la meseta desértica hacia Dahab, con dos paradas interiores en el camino y uno de los puntos de buceo más reconocidos de todo el mar Rojo en el extremo final. La jornada completa, regreso incluido, dura ocho horas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Operamos el circuito en formato privado, con traslados desde el hotel, guía angloparlante y vehículos climatizados —incluido el jeep 4×4 que se utiliza en los tramos fuera de pista."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "La recogida es por la mañana en su hotel de Sharm el-Sheij. El primer tramo sigue la carretera costera hacia el norte antes de que la ruta vire tierra adentro y el vehículo dé paso al jeep para el segmento desértico."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "La primera parada es un "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "asentamiento beduino"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": " en el interior del sur del Sinaí. La presencia beduina en esta zona precede al Estado moderno en siglos: las tribus mzeina, tarabin y aleiqat han habitado de forma continua el sur del Sinaí, y parte de su economía aún depende de las rutas desérticas entre la costa y el macizo de Santa Catalina. La parada es breve y bien contextualizada: té dulce, ocasión de ver cómo se organiza el asentamiento alrededor del acceso al agua y una introducción al modo en que este desierto se lee por quien efectivamente vive en él."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta sigue al norte hacia Dahab, con una parada en "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Wadi Qunai"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ", un oasis con palmerales y un cañón de arenisca tallado por el agua estacional. Hay un tramo guiado en camello a través del uadi, que es la manera lenta de leer un terreno que el jeep recorre demasiado rápido."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "El ancla del día es el "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Blue Hole"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": ", justo al norte de Dahab. Es un sumidero circular de unos cincuenta y seis metros de profundidad, separado del mar abierto por un puente coralino a seis metros. Para los buceadores técnicos es uno de los puntos más conocidos del mundo; para quien hace snorkel, el borde del agujero y el arrecife circundante ofrecen uno de los snorkel sobre aguas profundas más accesibles de Egipto: flota usted directamente sobre una caída vertical, con la pared del arrecife poblada del repertorio habitual del mar Rojo en aguas excepcionalmente claras. El sitio está supervisado; el día incluye la sesión de snorkel y el equipo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "El almuerzo se toma en un restaurante local del paseo marítimo de Dahab antes del trayecto de regreso a Sharm el-Sheij."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Por qué esta combinación"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Un día puramente de snorkel se salta el desierto. Un día puramente de desierto se salta el agua. La ruta entre Sharm y Dahab pone ambos a su alcance en la misma jornada porque la geografía los comprime en cerca de dos horas de conducción, y la parada beduina añade al tramo desértico un contexto humano que el turismo de jeep puro nunca aporta. El Blue Hole, al final, es lo que la mayoría de los viajeros espera del Sinaí y casi nunca llega a alcanzar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "El desierto y el arrecife son el mismo paisaje. El mar simplemente cubre la segunda mitad."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "Nuestro concierge puede ampliar el plan con una subida nocturna al monte Sinaí si el calendario lo permite, o comprimir el tramo desértico para dejar más tiempo en el Blue Hole. La parte de snorkel depende del tiempo: reservamos siempre la orientación que el viento permite."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000030",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "シャルムからダハブへ：シナイ砂漠の内陸とブルーホールを、ひと日で"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "シャルム・エル・シェイクからダハブへ向かう道は、リゾート客のほとんどが知らない南シナイの一片を横切ります。この一日は、その道を、本来の使い方で使うための行程です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "南シナイは、海岸線でその名を知られています。シャルムのリゾート、ティラン海峡のダイビング、ラス・モハメドのシュノーケリング。内陸は、注目されません。それゆえに、この一日が成立します。シャルム・エル・シェイクから北へ、砂漠の台地を抜けてダハブへ。途中に内陸の二か所、終点には紅海でもっとも知られたダイビング・ポイントのひとつ。往復で約八時間の一日です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "私たちは、ホテル送迎、英語ガイド、冷房付き車両——内陸の未舗装区間では四駆ジープに乗り換え——で、完全プライベートで運用しています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "朝、シャルム・エル・シェイクのホテルへお迎えにあがります。まずは海岸沿いの道を北上し、やがて内陸へ折れて、車を四駆ジープに乗り換えます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "最初に立ち寄るのは、南シナイの内陸にある"
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ベドウィンの集落"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "。この地域のベドウィンの存在は、近代国家よりはるかに古い時代から続いています。ムゼイナ族、タラビン族、アレイカット族の各部族が、南シナイに住み続けてきました。経済の一部は、いまも海岸とセント・カトリーナ山塊を結ぶ砂漠の交易路に支えられています。立ち寄りは短く、節度のある形に設計されています——甘いお茶、集落が水場を中心にどう配置されているかを見る時間、そして「ここに実際に暮らす人々が、砂漠をどう読んでいるか」を知る短い導入。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "ダハブへ向けて道を進み、次は"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ワディ・クナイ"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "へ。ヤシの茂みと、季節河が刻んだ砂岩の渓谷を抱えるオアシスです。ガイドの案内で、ラクダで渓谷を一区間歩きます。ジープでは速く通り過ぎてしまう地形を、ゆっくり読むための時間です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "この一日の主軸が、ダハブのすぐ北にある"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ブルーホール"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "。直径のある円形のシンクホールで、深さおよそ五十六メートル。外洋とは、水深六メートルのサンゴの鞍部で隔てられています。テクニカルダイバーには世界でも有数の難所として知られる場所。一方シュノーケラーにとっては、孔の縁と周囲のリーフが、エジプトのなかでもっとも気軽に「青い深みの上を泳ぐ」体験を提供してくれる場所のひとつです。直下の垂直の落ち込みの上に浮かびながら、紅海の代表的な顔ぶれが、驚くほど透明な水の中に並ぶ姿を見ます。監視体制のある現場で、シュノーケリング機材は当日支給されます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "昼食はダハブの海辺のレストランで。その後、シャルム・エル・シェイクへの帰路につきます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "この組み合わせの理由"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "純粋なシュノーケリングの一日は、砂漠を飛ばします。純粋な砂漠の一日は、海を飛ばします。シャルムとダハブを結ぶ道は、両方を同じ日に成立させてくれます。地理がそれを許す——運転時間はおよそ二時間に収まり、途中のベドウィン立ち寄りが、純粋なジープ観光では得られない「人の文脈」を砂漠に与えてくれます。そして終点のブルーホールは、多くの旅人が「シナイならば見るだろう」と期待していて、実際には足を運ばないままに終わる場所です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "砂漠とリーフは、同じ景観です。海はその後半を覆っているだけ。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "ご日程に余裕があれば、シナイ山の未明登山を加えることもできます。逆に砂漠区間を圧縮して、ブルーホールにより長く滞在することも可能です。シュノーケリング側は天候依存。風が許す方向に船を出します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000030",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58927",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "This one is written for adults — eighteen is the minimum — and geography sets its order: the desert hours come first, and the Blue Hole is the reward that follows. If anyone in your party is unsure about the camel leg or a full eight hours out, say so, and we'll find the Sinai day that fits."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Este día está pensado para adultos —dieciocho años es el mínimo— y la geografía dicta su orden: primero las horas de desierto, después el Blue Hole como recompensa. Si alguien de tu grupo duda ante el tramo en camello o ante ocho horas completas fuera, dilo y encontraremos el día de Sinaí que encaje."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "この一日は大人のために書かれています——ご参加は十八歳からです——そして順序は地形が決めます。まず砂漠の時間、その先にご褒美としてのブルーホール。ラクダの行程や丸八時間の外出にご不安な方がいらっしゃれば、コンシェルジュにご相談ください。ご一行に合うシナイの一日を探します。"
+  }
+ ],
+ "durationDays": 1,
+ "durationHours": 8,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Full day · ~8 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Día completo · ~8 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "終日・約8時間"
+  }
+ ],
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 106,
+  "ja": 113
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Coral-encrusted wreckage on a deep-blue reef wall in the Red Sea, fish drifting in the dim water"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Restos cubiertos de coral en una pared de arrecife azul profundo del mar Rojo, con peces a la deriva en el agua tenue"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "紅海の深い青の礁壁にこびりついたサンゴに覆われた残骸。薄暗い水中を魚が漂う。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-bdf4a79c677a3b0db7df33578e8f2d03333dd3d9-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Coral-covered wreckage on a Red Sea reef near Dahab."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Restos cubiertos de coral en un arrecife del mar Rojo cerca de Dahab."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ダハブ近く、紅海の礁に残るサンゴに覆われた残骸。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "1qjasqjag4",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "We run this as a private trip with hotel transfers, an English-speaking guide, and air-conditioned vehicles — including the 4×4 jeep used on the off-road sections inland.",
+   "text": "Hotel transfers"
+  },
+  {
+   "_key": "p9wta8xl23",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "We run this as a private trip with hotel transfers, an English-speaking guide, and air-conditioned vehicles — including the 4×4 jeep used on the off-road sections inland.",
+   "text": "English-speaking guide"
+  },
+  {
+   "_key": "9w7uot9o8c",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "We run this as a private trip with hotel transfers, an English-speaking guide, and air-conditioned vehicles — including the 4×4 jeep used on the off-road sections inland.",
+   "text": "Air-conditioned vehicles, including the 4×4 jeep"
+  },
+  {
+   "_key": "q7adoyxww5",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The site is supervised; the day includes the snorkelling session itself with gear provided.",
+   "text": "Snorkelling session at the Blue Hole with gear provided"
+  },
+  {
+   "_key": "fgp7nprpdl",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Operamos el circuito en formato privado, con traslados desde el hotel, guía angloparlante y vehículos climatizados —incluido el jeep 4×4 que se utiliza en los tramos fuera de pista.",
+   "text": "Traslados desde el hotel"
+  },
+  {
+   "_key": "c6x0a0f02o",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Operamos el circuito en formato privado, con traslados desde el hotel, guía angloparlante y vehículos climatizados —incluido el jeep 4×4 que se utiliza en los tramos fuera de pista.",
+   "text": "Guía angloparlante"
+  },
+  {
+   "_key": "0lo54j11q4",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Operamos el circuito en formato privado, con traslados desde el hotel, guía angloparlante y vehículos climatizados —incluido el jeep 4×4 que se utiliza en los tramos fuera de pista.",
+   "text": "Vehículos climatizados"
+  },
+  {
+   "_key": "k9qftq5ydg",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Operamos el circuito en formato privado, con traslados desde el hotel, guía angloparlante y vehículos climatizados —incluido el jeep 4×4 que se utiliza en los tramos fuera de pista.",
+   "text": "Jeep 4×4 para los tramos fuera de pista"
+  },
+  {
+   "_key": "ossbu905tw",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La jornada completa, regreso incluido, dura ocho horas.",
+   "text": "Regreso incluido"
+  },
+  {
+   "_key": "ubeij17ko6",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El sitio está supervisado; el día incluye la sesión de snorkel y el equipo.",
+   "text": "Sesión de snorkel en el Blue Hole"
+  },
+  {
+   "_key": "pbehou2evt",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El sitio está supervisado; el día incluye la sesión de snorkel y el equipo.",
+   "text": "Equipo de snorkel"
+  },
+  {
+   "_key": "sa9axkn7d6",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "私たちは、ホテル送迎、英語ガイド、冷房付き車両——内陸の未舗装区間では四駆ジープに乗り換え——で、完全プライベートで運用しています。",
+   "text": "ホテル送迎"
+  },
+  {
+   "_key": "8u2n6ubz0m",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "私たちは、ホテル送迎、英語ガイド、冷房付き車両——内陸の未舗装区間では四駆ジープに乗り換え——で、完全プライベートで運用しています。",
+   "text": "英語ガイド"
+  },
+  {
+   "_key": "zzc5mz67jo",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "私たちは、ホテル送迎、英語ガイド、冷房付き車両——内陸の未舗装区間では四駆ジープに乗り換え——で、完全プライベートで運用しています。",
+   "text": "冷房付き車両（内陸の未舗装区間では四駆ジープ）"
+  },
+  {
+   "_key": "mzhcmpkebw",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "私たちは、ホテル送迎、英語ガイド、冷房付き車両——内陸の未舗装区間では四駆ジープに乗り換え——で、完全プライベートで運用しています。",
+   "text": "完全プライベート"
+  },
+  {
+   "_key": "33xqha35s8",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "監視体制のある現場で、シュノーケリング機材は当日支給されます。",
+   "text": "シュノーケリング機材（当日支給）"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/ramasside-tours-desert-adventure-snorkeling-experience/"
+ },
+ "priceFrom": 95,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_aqua_park_cleo_park",
+   "_ref": "tour.aqua-park-cleo-park",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_dahab_blue_hole_desert_snorkel_group_day_tour_from_sharm",
+   "_ref": "tour.dahab-blue-hole-desert-snorkel-group-day-tour-from-sharm",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_dolphin_show_sharm_el_sheikh",
+   "_ref": "tour.dolphin-show-sharm-el-sheikh",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_87634",
+   "_ref": "wp-page-87634",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Fully private · own English-speaking guide · air-conditioned vehicle and 4×4 jeep · camel leg through the wadi · snorkelling at the Blue Hole · lunch in Dahab · minimum age 18"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Salida privada · su propio guía angloparlante · vehículo con aire acondicionado y jeep 4×4 · tramo en camello por el uadi · sesión de snorkel en el Blue Hole · almuerzo en Dahab · edad mínima 18 años"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "完全プライベート · 英語ガイド · 冷房付き車両と四駆ジープ · 渓谷をラクダで歩く区間 · ブルーホールでのシュノーケリング · ダハブで昼食 · 十八歳以上"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Full day, approximately eight hours"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Día completo de aproximadamente ocho horas"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "終日（およそ八時間）"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Sharm El Sheikh hotel → south Sinai interior → Bedouin settlement → Wadi Qunai oasis (camel leg) → Dahab → Blue Hole snorkel → Dahab lunch → Sharm El Sheikh"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Hotel en Sharm el-Sheij → interior del sur del Sinaí → asentamiento beduino → oasis de Wadi Qunai (tramo en camello) → Dahab → snorkel en el Blue Hole → almuerzo en Dahab → Sharm el-Sheij"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "シャルム・エル・シェイクのホテル → 南シナイ内陸 → ベドウィン集落 → ワディ・クナイのオアシス（ラクダ区間） → ダハブ → ブルーホールでシュノーケリング → ダハブで昼食 → シャルム・エル・シェイク"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "ramasside-tours-desert-adventure-snorkeling-experience"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "de-sharm-a-dahab-un-dia-entre-el-desierto-del-sinai-y-el-blue-hole"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "sharumu-kara-dahabu-e-shinai-sabaku-no-nairiku-to-buruhoru-o"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A full day from Sharm El Sheikh across the south Sinai interior — a Bedouin village stop, the Wadi Qunai oasis, a camel leg, and snorkelling at Dahab's Blue Hole."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Día completo desde Sharm el-Sheij cruzando el interior del sur del Sinaí — una parada en un asentamiento beduino, el oasis de Wadi Qunai, un tramo en camello y snorkel en el Blue Hole de Dahab."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "シャルム・エル・シェイク発、南シナイの内陸を横切る一日。ベドウィンの集落、ワディ・クナイのオアシス、ラクダで歩く一区間、そしてダハブのブルーホールでのシュノーケリング。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Sharm to Dahab: A Sinai Desert and Blue Hole Day Trip"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "De Sharm a Dahab: un día entre el desierto del Sinaí y el Blue Hole"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "シャルムからダハブへ：シナイ砂漠の内陸とブルーホールを、ひと日で"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}
