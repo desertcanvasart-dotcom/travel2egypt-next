@@ -280,7 +280,14 @@ export async function DayHeroFacts({
           </ProductConciergeLink>
         )}
       </div>
-      {sawaUrl ? <p className="pdp-rt pdp-sawa-note">{t('sawaNote')}</p> : rt && <p className="pdp-rt">{rt}</p>}
+      {sawaUrl ? (
+        <>
+          <p className="pdp-rt pdp-sawa-note">{t('sawaNote')}</p>
+          <p className="pdp-rt pdp-sawa-note">{t('sawaGuide')}</p>
+        </>
+      ) : (
+        rt && <p className="pdp-rt">{rt}</p>
+      )}
     </div>
   );
 }

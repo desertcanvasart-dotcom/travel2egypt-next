@@ -6,9 +6,9 @@
  * SHIP DATE 14 Dec 2026, not before: the buying-path freeze runs to 13 Dec (measurement read on
  * 14 Dec). Run AFTER the code PR is merged and deployed.
  *
- * Price: Sawa's price is read LIVE from each Sawa page at run time (its JSON-LD TouristTrip
- * offers.lowPrice = the price with a full group of 8, the same From rule as our own tours) and
- * written as priceFrom. Sawa shows one price in every language, so guideLanguagePrices is removed.
+ * Price (owner, 27 Nov): Sawa's rate for 4 travellers, the GoAhead minimum. It is read LIVE from
+ * each Sawa page at run time (JSON-LD TouristTrip offers.highPrice = the 4-seat tier; Sawa's tiers
+ * fall from 4 to 8 seats, e.g. Giza €43 for 4 → €29 for 8) and written as priceFrom. Sawa shows one price in every language, so guideLanguagePrices is removed.
  * The page keeps its own title, copy, URL and indexing.
  *
  *   node --env-file=<.env> scripts/sawa/link-group-tours-to-sawa-2026-11-27.mjs            # dry run
@@ -29,6 +29,8 @@ const MAP = {
   'esna-edfu-kom-ombo-temples-group-day-tour-from-luxor': 'tour/luxor-to-aswan-esna-edfu-kom-ombo-temple-road',
   'abu-simbel-temples-day-tour-from-aswan': 'tour/aswan-to-abu-simbel-temples-ramses-ii-nefertari',
   'dolphin-house-shared-snorkeling-day-from-hurghada': 'tour/dolphin-house-adventure-snorkeling-wild-dolphins-from-hurghada',
+  // Owner, 27 Nov: Esna, Edfu & Kom Ombo above is the same trip as Sawa's Luxor → Aswan road.
+  // Marsa Alam snorkelling: to be created on Sawa first (owner, 27 Nov); add its line here then.
   // HELD: Sawa's Dendera & Abydos leaves from Luxor, ours from Hurghada. Owner to confirm it is the
   // same trip before this line is switched on.
   // 'dendera-and-abydos-temple-day-tour-from-hurghada': 'tour/dendera-abydos-far-temples-north-luxor',
@@ -50,9 +52,10 @@ async function sawaPrice(path) {
     const graph = JSON.parse(m[1])['@graph'] ?? [];
     const trip = graph.find((n) => n['@type'] === 'TouristTrip' && n.url === url);
     const low = trip?.offers?.lowPrice;
-    if (typeof low === 'number' && low > 0) return { url, low, high: trip.offers.highPrice, name: trip.name };
+    const four = trip?.offers?.highPrice;
+    if (typeof four === 'number' && four > 0) return { url, four, eight: low, name: trip.name };
   }
-  throw new Error(`${url}: no TouristTrip offers.lowPrice in the page`);
+  throw new Error(`${url}: no TouristTrip offers.highPrice in the page`);
 }
 
 const entries = Object.entries(MAP).filter(([s]) => !only || s === only);
@@ -72,8 +75,8 @@ for (const [slug, path] of entries) {
     continue;
   }
   const s = await sawaPrice(path);
-  plan.push({ doc, set: { sawaUrl: s.url, priceFrom: s.low } });
-  console.log(`${slug}\n  ${doc.title}\n  → ${s.url} (${s.name})\n  From: €${doc.priceFrom ?? '—'} (ES/JA ${JSON.stringify(doc.guideLanguagePrices ?? null)}) → €${s.low} (Sawa, group of 8; up to €${s.high})`);
+  plan.push({ doc, set: { sawaUrl: s.url, priceFrom: s.four } });
+  console.log(`${slug}\n  ${doc.title}\n  → ${s.url} (${s.name})\n  From: €${doc.priceFrom ?? '—'} (ES/JA ${JSON.stringify(doc.guideLanguagePrices ?? null)}) → €${s.four} (Sawa, group of 4; €${s.eight} with 8)`);
 }
 
 if (!apply) {

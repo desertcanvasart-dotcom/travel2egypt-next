@@ -253,7 +253,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
         { label: tp('pickup'), value: pickupText },
         { label: tp('back'), value: backText },
         { label: tp('lunch'), value: intro?.lunch?.text ?? '' },
-        { label: tp('guideSpeaks'), value: tp('guideLanguage') },
+        { label: tp('guideSpeaks'), value: sawaUrl ? tp('sawaGuide') : tp('guideLanguage') },
       ]
     : intro
       ? [
@@ -263,7 +263,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
           { label: tp('pickup'), value: intro.pickupLine ?? '' },
           { label: tp('back'), value: backText },
           { label: tp('lunch'), value: intro.lunch?.text ?? '' },
-          { label: tp('guideSpeaks'), value: tp('guideLanguage') },
+          { label: tp('guideSpeaks'), value: sawaUrl ? tp('sawaGuide') : tp('guideLanguage') },
         ]
       : [
           // No approved intro: Back and Lunch have nothing to show yet (kept for the layout).
