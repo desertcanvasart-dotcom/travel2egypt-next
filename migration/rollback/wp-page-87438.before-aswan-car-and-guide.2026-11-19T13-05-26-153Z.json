@@ -1,0 +1,1381 @@
+{
+ "_createdAt": "2026-05-11T16:41:52Z",
+ "_id": "wp-page-87438",
+ "_rev": "K2pi3eY73hTRu2vMGMyRaJ",
+ "_system": {
+  "base": {
+   "id": "wp-page-87438",
+   "rev": "RXaEis6GwtqqeghmdLzBIp"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:41Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Independent travellers or cruise passengers ashore for a day who want expert company and the flexibility to swap an extra hour at the Nubian Museum for the gardens"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros independientes o pasajeros de crucero con una jornada en tierra que quieren compañía experta y libertad para cambiar una hora extra del Museo Nubio por el jardín"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "自力でアスワンへ着いた個人旅行者、上陸時間のあるクルーズ乗客、ルクソールに並ぶ本格的な扱いを街に求めるリピーター"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan, Privately: A Day With a Guide and the City to Yourself"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan is unlike anywhere else in Egypt. The light is different here — softer, more golden, refracted off the granite outcrops and the broad Nile that slides between them. The pace is different too: less frantic than Cairo, less monument-dense than Luxor, more legible as a city where people actually live. A day here, done properly, covers ancient quarries, a drowned temple rescued and rebuilt stone by stone, a Soviet-era dam that rewrote the hydrology of an entire continent, and a museum that gives Nubian civilisation — too often treated as a footnote — its proper chapter."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a private, flexible day tour of Aswan: one guide, one air-conditioned car, and an itinerary that belongs to you. The sites listed below represent the full menu; you and your guide decide the order and the emphasis before you set out. If you want to spend an extra hour at the Nubian Museum and skip the Botanical Gardens, that is a legitimate choice, and nobody will hurry you."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "The tour operates from a pick-up point anywhere within Aswan city — hotel lobby, Nile-side corniche, wherever you are staying — and is not available as an airport transfer service. That distinction matters: this is a touring day, not a logistics day."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "It suits independent travellers who have already reached Aswan under their own steam and want expert company for what they do with it. It also works well for cruise passengers with a day ashore, or for anyone who has done the standard Luxor run and wants Aswan given the same serious treatment."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "private hire, operated for your party alone"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": " — a private, air-conditioned car, a "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "licensed, English-speaking Egyptologist guide"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": ", and "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "one bottle of mineral water per person"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ", with the day built around the sites you choose. Because it is private, it "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "takes bookings from a single traveller upward"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ", with no minimum group; larger parties are accommodated in a suitable vehicle. There is "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "no minimum age"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": " — families are welcome — though Aswan's dry heat is real, so plan around younger children. Site entrance fees are paid separately, since the day's sites are yours to choose (see the practical note below)."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "The Unfinished Obelisk is the logical starting point, and not just for geographical reasons. It lies in the northern granite quarries on the eastern bank, and it answers — definitively — a question that no finished monument can: how did they do it? The obelisk was being cut directly from the bedrock when a fissure appeared in the stone, probably during the reign of Hatshepsut in the 15th century BC. The workers stopped, and the project was abandoned where it lay. It has been there ever since: 42 metres long, still attached along one side to the parent rock, with the tool marks of the ancient quarrymen still visible across its surface. It is the largest known obelisk ever attempted, and its failure is what makes it so instructive. Your guide can explain the logistics of obelisk production — the weeks of pounding with dolerite balls, the wooden sledges, the eventual river barge — in a way that a placard cannot."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "From the quarry, the route crosses to the western bank for Philae. This requires a short motor boat crossing, which is included in the tour. The Temple of Isis at Philae is one of the best-preserved Ptolemaic temple complexes in Egypt, built and expanded between roughly 380 and 362 BC under Nectanebo I, then substantially elaborated under the Ptolemies and into the Roman period. It was also the last active temple in the ancient world: Isis worship continued here until the 6th century AD, centuries after Christianity had become the official religion of the empire. What makes Philae unusual is its rescue: when the Aswan High Dam was completed in 1970, the island on which the temple stood was permanently flooded. Between 1972 and 1980, UNESCO and the Egyptian government dismantled every structure block by block and reassembled them on the higher ground of Agilkia Island nearby. The temple you walk through today is, architecturally, exactly what it always was — just 20 metres higher than its original position."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "The High Dam itself is next, and it demands honest framing. It is not a beautiful site, and there is relatively little to see in the conventional sense: a wide concrete structure, a viewing platform, some interpretive panels. But it is one of the most consequential pieces of engineering of the 20th century, and understanding it changes how you read everything downstream — literally. Completed in 1970 after a decade of construction, the dam created Lake Nasser, one of the largest artificial lakes in the world, stretching over 500 kilometres south into Sudan. It ended the annual Nile flood that had structured Egyptian agriculture for six thousand years. It also displaced approximately 100,000 Nubian people from villages that now lie beneath the reservoir. Your guide's account of the dam's consequences — agricultural, political, and human — is the main reason to stop here."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "The Nubian Museum, opened in 1997 and consistently undervisited by tourists focused on pharaonic Egypt, is where that human cost is addressed properly. Its collection covers Nubian history from prehistoric times to the present: flint tools, Christian frescoes, Meroitic inscriptions, gold jewellery, traditional house reconstructions, and — with particular weight — documents and artefacts related to the 20th-century displacement. Nubia produced literate, sophisticated, trading civilisations. Several of its rulers governed all of Egypt as the 25th Dynasty, around 750–650 BC. The museum makes that case clearly and at length. Allow at least an hour and a half."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Kitchener's Island — properly Gezira al-Nabatat, the Botanical Gardens — offers a different register entirely. The island in the middle of the Nile was gifted to the British Field Marshal Herbert Kitchener in the 1890s, and he used it to cultivate plants gathered during his campaigns across Africa and Asia. The result is a shaded, slightly overgrown garden of palm species, tropical trees, and flowering plants that has nothing pharaonic about it and is all the more pleasant for it. In the heat of a southern Egyptian afternoon, it functions as a breathing space between heavier stops. A short felucca or motor boat ride reaches the island; the garden asks nothing more of you than a slow walk."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Understanding Aswan's Position"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan sits at Egypt's First Cataract, the point where granite outcrops break the Nile into rapids and historically marked the southern boundary of pharaonic Egypt proper. The stone in those outcrops — pink Aswan granite — was among the most prized building materials in the ancient world. Virtually every obelisk and sarcophagus in Egypt was quarried here and floated north. The city's modern significance as a dam site is, in that sense, a continuation of a very old pattern: this has always been a place that supplied the rest of the country with something essential."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "The Nubian people who have lived in this region for millennia are ethnically and linguistically distinct from the Arab Egyptian majority further north. Nubian languages — Nobiin, Kenzi, and others — are still spoken, though the displacement of the 1960s and 1970s scattered communities across Egypt and complicated transmission. The Nubian Museum exists, in part, to address that rupture."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Aswan does not need to compete with Luxor or Cairo on monument density — it makes a different argument altogether, one about stone, water, and what happens when a civilisation decides to control a river."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "That argument is worth a full day of your time."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "Entrance fees stay separate so you choose the sites — and the concierge can sketch a draft order (Nubian Museum first, before the afternoon heat builds; gardens late as a breathing space) before you meet your guide."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Asuán, en privado: una jornada con guía y la ciudad para usted"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "El servicio flexible que pone a su disposición un egiptólogo y un coche para construir Asuán a su medida."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Asuán no se parece a ningún otro lugar de Egipto. La luz aquí es distinta —más suave, más dorada, refractada en los afloramientos de granito y en el ancho Nilo que se desliza entre ellos—. El ritmo también es otro: menos frenético que el de El Cairo, menos denso en monumentos que el de Luxor, más legible como ciudad donde realmente vive la gente. Una jornada aquí, bien planteada, cubre canteras antiguas, un templo anegado y rescatado piedra a piedra, una presa de la era soviética que reescribió la hidrología de un continente entero y un museo que reconoce a la civilización nubia —tratada con demasiada frecuencia como nota al pie— su capítulo en propiedad."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta es una jornada privada y flexible por Asuán: un guía, un coche con aire acondicionado y un itinerario que le pertenece. Los yacimientos enumerados más abajo conforman el menú completo; usted y su guía deciden orden y énfasis antes de salir. Si quiere dedicar una hora extra al Museo Nubio y prescindir del Jardín Botánico, es una elección legítima y nadie le meterá prisa."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "El tour opera desde un punto de recogida en cualquier lugar dentro de la ciudad de Asuán —vestíbulo de hotel, corniche ribereña, lo que corresponda al alojamiento— y no está disponible como servicio de traslado aeroportuario. Esa distinción importa: es una jornada de visitas, no una jornada logística."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Conviene al viajero independiente que ya ha llegado a Asuán por sus propios medios y desea compañía experta para lo que haga con el día. Funciona igual para el pasajero de crucero con una jornada en tierra o para quien ya ha hecho el recorrido estándar de Luxor y quiere que Asuán reciba el mismo tratamiento serio."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Se trata de un "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "servicio estrictamente privado, operado en exclusiva para su grupo"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": ": un coche privado con aire acondicionado, un "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "guía egiptólogo licenciado de habla hispana"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": " y "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "una botella de agua mineral por persona"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ", con el día construido en torno a los yacimientos que usted elija. Por su carácter privado, "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "se reserva desde un único viajero"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": ", sin tamaño mínimo de grupo; los grupos más amplios se acomodan en un vehículo adecuado. "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "No hay edad mínima"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": " —las familias son bienvenidas—, aunque el calor seco de Asuán es real y conviene administrarlo con niños pequeños. Las entradas a los yacimientos se abonan por separado, dado que usted decide los sitios del día (véase la nota práctica más abajo)."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "El Obelisco Inacabado es el punto de partida lógico, y no solo por razones geográficas. Se halla en las canteras de granito del norte, en la orilla oriental, y responde —de manera definitiva— a una pregunta que ningún monumento terminado puede contestar: ¿cómo se hacían? El obelisco se estaba tallando directamente sobre la roca madre cuando apareció una fisura en la piedra, probablemente durante el reinado de Hatshepsut, en el siglo XV a. C. Los obreros pararon y el proyecto quedó abandonado donde estaba. Ahí lleva desde entonces: 42 metros de largo, todavía unido por un lateral a la roca madre, con las marcas de las herramientas de los antiguos canteros visibles a lo largo de toda su superficie. Es el mayor obelisco conocido jamás intentado, y su fracaso es lo que lo hace tan didáctico. Su guía puede explicarle la logística de la producción de obeliscos —las semanas de picar con bolas de dolerita, los trineos de madera, la gabarra fluvial final— de un modo que ningún cartel resume."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde la cantera, la ruta cruza a la orilla occidental hacia Philae. Esto requiere un breve traslado en lancha motora, incluido en el tour. El Templo de Isis en Philae es uno de los complejos templarios ptolemaicos mejor conservados de Egipto, levantado y ampliado entre, aproximadamente, el 380 y el 362 a. C. bajo Nectanebo I, y elaborado de manera sustancial después por los Ptolomeos y bajo el periodo romano. Fue también el último templo activo del mundo antiguo: el culto a Isis siguió aquí hasta el siglo VI d. C., siglos después de que el cristianismo se hubiera convertido en la religión oficial del imperio. Lo que distingue a Philae es su rescate: cuando se completó la Alta Presa de Asuán en 1970, la isla sobre la que se alzaba el templo quedó permanentemente anegada. Entre 1972 y 1980, la UNESCO y el Gobierno egipcio desmontaron cada estructura bloque a bloque y la reensamblaron sobre el terreno más elevado de la cercana isla de Agilkia. El templo que se recorre hoy es, arquitectónicamente, exactamente lo que siempre fue, solo que veinte metros más alto que su posición original."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "A continuación, la propia Alta Presa, que pide un encuadre honesto. No es un yacimiento bonito y, en sentido convencional, hay relativamente poco que ver: una ancha estructura de hormigón, una plataforma de mirador, algunos paneles interpretativos. Pero es una de las piezas de ingeniería con más consecuencias del siglo XX, y entenderla cambia la manera de leer todo lo que queda aguas abajo —literalmente—. Completada en 1970 tras una década de obra, la presa creó el lago Nasser, uno de los mayores lagos artificiales del mundo, que se extiende más de 500 kilómetros al sur, hasta Sudán. Acabó con la inundación anual del Nilo que había estructurado la agricultura egipcia durante seis mil años. Desplazó también a unas 100.000 personas nubias de pueblos que hoy yacen bajo el embalse. El relato del guía sobre las consecuencias de la presa —agrícolas, políticas y humanas— es la razón principal de la parada."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "El Museo Nubio, inaugurado en 1997 y reiteradamente infravisitado por turistas centrados en el Egipto faraónico, es donde ese coste humano se aborda en propiedad. Su colección recorre la historia nubia desde la prehistoria hasta el presente: herramientas de sílex, frescos cristianos, inscripciones meroíticas, joyería de oro, reconstrucciones de casa tradicional y, con peso particular, documentos y objetos relacionados con el desplazamiento del siglo XX. Nubia produjo civilizaciones letradas, sofisticadas y comerciales. Varios de sus gobernantes administraron Egipto entero como Dinastía XXV, hacia el 750-650 a. C. El museo lo expone con claridad y a fondo. Reserve al menos una hora y media."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "La isla Kitchener —propiamente Gezirat al-Nabatat, el Jardín Botánico— juega en otro registro por completo. La isla en medio del Nilo fue cedida al mariscal de campo británico Herbert Kitchener en la década de 1890, y este la utilizó para cultivar plantas reunidas durante sus campañas por África y Asia. El resultado es un jardín sombreado y ligeramente desbordado de palmeras, árboles tropicales y plantas en flor, sin nada faraónico y, precisamente por eso, más agradable. En el calor de una tarde meridional, funciona como espacio de respiración entre paradas más densas. Un corto trayecto en faluca o lancha alcanza la isla; el jardín no pide más que un paseo lento."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Entender la posición de Asuán"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Asuán se asienta en la primera catarata del Nilo, el punto donde los afloramientos de granito rompen el río en rápidos y marcó históricamente el límite meridional del Egipto faraónico propio. La piedra de esos afloramientos —el granito rosa de Asuán— estuvo entre los materiales de construcción más codiciados del mundo antiguo. Casi cada obelisco y cada sarcófago de Egipto se extrajo aquí y se transportó por el río al norte. La importancia moderna de la ciudad como emplazamiento de presa es, en ese sentido, una continuación de un patrón muy antiguo: ha sido siempre el lugar que suministraba algo esencial al resto del país."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "El pueblo nubio que habita esta región desde hace milenios es étnica y lingüísticamente distinto de la mayoría árabe egipcia del norte. Las lenguas nubias —nobiin, kenzi y otras— se siguen hablando, aunque el desplazamiento de los años sesenta y setenta dispersó a las comunidades por Egipto y dificultó la transmisión. El Museo Nubio existe, en parte, para abordar esa fractura."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Asuán no necesita competir con Luxor o El Cairo en densidad de monumentos: ofrece un argumento diferente, sobre piedra, agua y lo que sucede cuando una civilización decide controlar un río."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Ese argumento merece una jornada completa de su tiempo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "Las entradas se mantienen separadas porque es usted quien elige los yacimientos; el concierge puede esbozar un orden provisional (Museo Nubio temprano, antes del calor; jardín tardío como espacio de respiración) antes de que se reúna con su guía."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000040",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "プライベートで巡るアスワン：ガイドとともに、街を独り占めにする一日"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワンはエジプトのどことも違います。ここの光は異なります——よりやわらかく、より金色で、花崗岩の岩山と、そのあいだを滑るように流れる広いナイルに反射しています。ペースも異なります——カイロほど慌ただしくなく、ルクソールほど記念建造物が密集しておらず、人々が実際に暮らす街として、より読み取りやすい。ここでの一日は、きちんと巡れば、古代の石切場、ブロックごとに救い出され再建された水没した神殿、ひとつの大陸の水文をまるごと書き換えたソビエト時代のダム、そして——あまりにしばしば脚注扱いされる——ヌビア文明に、しかるべき一章を与える博物館を取り込みます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "これはアスワンを巡るプライベートで融通の利く日帰りツアーです——ひとりのガイド、一台の冷房付きの車、そしてお客様のものである行程。以下に挙げる遺跡は全メニューを示すもので、出発前に、その順序と重点をお客様とガイドで決めます。ヌビア博物館でもう1時間過ごして植物園を飛ばしたいなら、それは正当な選択で、誰も急かしません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "このツアーはアスワン市内のどこからでも——ホテルのロビー、ナイル河畔のコルニッシュ、ご滞在先のどこでも——お迎えして運行し、空港送迎サービスとしては提供されません。その区別は大切です——これは観光の一日であって、移動の一日ではありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "すでに自力でアスワンへたどり着き、そこで何をするかに専門家の同行を求める個人旅行者に向いています。一日の上陸時間のあるクルーズの乗客や、定番のルクソール巡りを終え、アスワンにも同じ本格的な扱いを求める方にもよく合います。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "未完のオベリスクが論理的な出発点で、それは地理的な理由だけではありません。東岸の北の花崗岩石切場に横たわり、どんな完成した記念建造物も答えられない問い——彼らはどうやってやったのか？——に、決定的に答えてくれます。オベリスクは、おそらく紀元前15世紀のハトシェプストの治世に、岩盤から直接切り出されている最中、石に裂け目が現れたのです。職人たちは手を止め、計画はそのまま放棄されました。それ以来、ずっとそこにあります——長さ42メートル、いまも一辺で母岩につながり、古代の石工たちの道具の痕がその表面じゅうに見て取れます。これまでに試みられた最大の既知のオベリスクであり、その失敗こそが、それをこれほど示唆に富むものにしています。オベリスク製造の段取り——ドレライトの石球で何週間も叩き続けること、木のそり、最後の川の艀——を、掲示板にはできないやり方で、ガイドが説き明かしてくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "石切場から、ルートは西岸へ渡ってフィラエへ。これには短いモーターボートの横断が要り、ツアーに含まれます。フィラエのイシス神殿は、エジプトで最もよく保存されたプトレマイオス朝の神殿複合体のひとつで、ネクタネボ1世のもとでおよそ紀元前380〜362年に築かれ拡張され、その後プトレマイオス朝、そしてローマ期にかけて大きく彫り上げられました。それはまた、古代世界で最後の現役の神殿でもありました——イシス信仰はここで紀元6世紀まで、キリスト教が帝国の公式宗教となったのちも何世紀も続いたのです。フィラエを特別にしているのは、その救出です——1970年にアスワン・ハイダムが完成すると、神殿の立つ島は永久に水没しました。1972年から1980年にかけて、ユネスコとエジプト政府はあらゆる構造をブロックごとに解体し、近くのアギルキア島の高台に組み直しました。今日歩く神殿は、建築としては、ずっとそうであったとおりのもの——ただ、もとの位置より20メートル高いだけです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "ハイダムそのものが次で、正直な説明が要ります。きらびやかな場所ではなく、従来の意味で見るものは比較的わずかです——広いコンクリートの構造物、展望台、いくつかの解説パネル。けれどそれは20世紀で最も重大な土木のひとつで、それを理解することが、下流のすべての読み方を——文字どおり——変えます。十年の建設を経て1970年に完成したこのダムは、南へスーダンまで500キロ以上のびる世界最大級の人工湖、ナセル湖を生みました。六千年にわたってエジプトの農業を律してきた、年に一度のナイルの氾濫を終わらせました。そしてまた、今は貯水池の下に沈む村々から、およそ10万人のヌビアの人々を立ち退かせました。このダムがもたらしたもの——農業の、政治の、そして人々の——についてのガイドの語りこそ、ここで立ち止まる主な理由です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "1997年に開館し、ファラオ時代のエジプトに目を向ける観光客にずっと訪問の少ないヌビア博物館は、その人的な代償がきちんと扱われる場所です。その収蔵は先史時代から現在までのヌビア史を覆います——燧石の道具、キリスト教のフレスコ、メロエ文字の碑文、金の装身具、伝統家屋の復元、そして——とりわけ重みをもって——20世紀の立ち退きにまつわる文書と遺物。ヌビアは、文字をもち、洗練された、交易する文明を生みました。その統治者の幾人かは、紀元前750〜650年ごろ、第二十五王朝としてエジプト全土を治めました。博物館はそれを、明快に、十分な紙幅で論じます。少なくとも1時間半を見込んでください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "キッチナー島——正しくはゲジーラ・アル・ナバタート、植物園——は、まったく異なる調子を差し出します。ナイルの中ほどのこの島は、1890年代に英国の元帥ハーバート・キッチナーに贈られ、彼はそれを、アフリカとアジアの遠征で集めた植物の栽培に使いました。その結果が、ヤシの種、熱帯の樹木、花の咲く植物の、木陰の多い、少し生い茂った庭で、ファラオ的なところは何ひとつなく、それゆえいっそう快いものです。南エジプトの午後の暑さのなかで、それは重めの立ち寄りの合間の、息継ぎの場として働きます。短いフェルッカかモーターボートで島へ着き、庭はゆっくりとした散歩以上のものを求めません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワンの位置を理解する"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワンはエジプトの第一急湍——花崗岩の岩山がナイルを急流に砕き、歴史的にファラオ時代のエジプト本土の南の境界を画した地点——に位置します。それらの岩山の石——ピンクのアスワン花崗岩——は、古代世界で最も珍重された建材のひとつでした。エジプトのほぼすべてのオベリスクと石棺がここで切り出され、北へ流送されました。ダムの地としての近代の重要性は、その意味で、とても古い型の続きです——ここはつねに、国の残りに、何か欠かせないものを供給してきた場所なのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "この地域に千年紀にわたって暮らしてきたヌビアの人々は、さらに北のアラブ系エジプト人の多数派とは、民族的にも言語的にも異なります。ヌビアの諸言語——ノビーン語、ケンジ語など——は今も話されていますが、1960年代から1970年代の立ち退きが共同体をエジプト中に散らし、その継承を難しくしました。ヌビア博物館は、その断絶に向き合うために、ひとつにはあるのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "アスワンは、記念建造物の密度でルクソールやカイロと競う必要はありません——それはまったく別の論証をします。石と、水と、ひとつの文明が川を御そうと決めたときに何が起こるかについての論証です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "その論証は、お客様の一日をまるごと費やす価値があります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "ヌビア博物館に厚く時間を取るか、ハイダムを軽く流すか、フィラエを夕方の光に合わせるか——コンシェルジュが、五か所のメニューを朝の段取りで取捨選択します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000036",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58758",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Five candidate sites and one unhurried day — the arithmetic means choosing, and choosing is what this format is for. Nothing needs deciding before you arrive; the day can settle itself over a first coffee with your guide. If one thing already calls you — the gardens, the museum — say so and we'll anchor the day there."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Cinco sitios candidatos y un solo día sin prisa: la aritmética obliga a elegir, y elegir es justamente la razón de ser de este formato. No hace falta decidir nada antes de llegar — el día puede acordarse con tu guía ante el primer café. Si algo te llama ya, los jardines o el museo, dilo y anclaremos el día ahí."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "候補は五つ、ゆとりある一日は一つ——この算術は「選ぶ」ことを意味し、選ぶことこそがこの形式の持ち味です。到着前に決めておく必要はなく、当日の最初のコーヒーを挟んでガイドと固めれば十分です。すでに心に決めた場所——植物園でも博物館でも——があるなら、お聞かせください。そこを軸に一日を組みます。"
+  }
+ ],
+ "durationDays": 1,
+ "durationHours": 8,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Full day · ~8 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Día completo · ~8 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "終日・約8時間"
+  }
+ ],
+ "exclusions": [
+  {
+   "_key": "xivzd96qsr",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Site entrance fees are paid separately, since the day's sites are yours to choose (see the practical note below).",
+   "text": "Site entrance fees are paid separately"
+  },
+  {
+   "_key": "f33ixd3w19",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The tour operates from a pick-up point anywhere within Aswan city — hotel lobby, Nile-side corniche, wherever you are staying — and is not available as an airport transfer service.",
+   "text": "Not available as an airport transfer service"
+  },
+  {
+   "_key": "447nc5kl4k",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Las entradas a los yacimientos se abonan por separado, dado que usted decide los sitios del día (véase la nota práctica más abajo).",
+   "text": "Entradas a los yacimientos (se abonan por separado)"
+  },
+  {
+   "_key": "x7c1fr6bvs",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El tour opera desde un punto de recogida en cualquier lugar dentro de la ciudad de Asuán —vestíbulo de hotel, corniche ribereña, lo que corresponda al alojamiento— y no está disponible como servicio de traslado aeroportuario.",
+   "text": "No disponible como servicio de traslado aeroportuario"
+  },
+  {
+   "_key": "10z1lfazh0",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "このツアーはアスワン市内のどこからでも——ホテルのロビー、ナイル河畔のコルニッシュ、ご滞在先のどこでも——お迎えして運行し、空港送迎サービスとしては提供されません。",
+   "text": "空港送迎サービスとしては提供されません"
+  }
+ ],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 98,
+  "ja": 105
+ },
+ "heroImage": {
+  "_type": "image",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Palm and reed hut on the Nile shore below golden sand dunes near Aswan at dusk"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Palmera y choza de cañas a orillas del Nilo bajo dunas doradas cerca de Asuán al atardecer"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "夕暮れのアスワン近郊、黄金の砂丘の下、ナイル河畔のヤシと葦の小屋"
+   }
+  ],
+  "asset": {
+   "_ref": "image-c310e58cf839c6cf44e1f00615bc84707f471a79-3000x2002-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The Nile slips past sand dunes and a lone palm near Aswan."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El Nilo se desliza junto a dunas y una palmera solitaria cerca de Asuán."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ナイルが砂丘と一本のヤシのそばを静かに流れる、アスワン近郊。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "0j7ilg5rsd",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This is a private hire, operated for your party alone — a private, air-conditioned car, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person, with the day built around the sites you choose.",
+   "text": "Private, air-conditioned car"
+  },
+  {
+   "_key": "t635iu388z",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This is a private hire, operated for your party alone — a private, air-conditioned car, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person, with the day built around the sites you choose.",
+   "text": "Licensed, English-speaking Egyptologist guide"
+  },
+  {
+   "_key": "l8wnrao9cf",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This is a private hire, operated for your party alone — a private, air-conditioned car, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person, with the day built around the sites you choose.",
+   "text": "One bottle of mineral water per person"
+  },
+  {
+   "_key": "3e5d75ysn6",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This requires a short motor boat crossing, which is included in the tour.",
+   "text": "Short motor boat crossing to Philae"
+  },
+  {
+   "_key": "u5quqh2mj2",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The tour operates from a pick-up point anywhere within Aswan city — hotel lobby, Nile-side corniche, wherever you are staying — and is not available as an airport transfer service.",
+   "text": "Pick-up anywhere within Aswan city"
+  },
+  {
+   "_key": "p883tjwwh6",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se trata de un servicio estrictamente privado, operado en exclusiva para su grupo: un coche privado con aire acondicionado, un guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona, con el día construido en torno a los yacimientos que usted elija.",
+   "text": "Coche privado con aire acondicionado"
+  },
+  {
+   "_key": "wyegmwxpl7",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se trata de un servicio estrictamente privado, operado en exclusiva para su grupo: un coche privado con aire acondicionado, un guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona, con el día construido en torno a los yacimientos que usted elija.",
+   "text": "Guía egiptólogo licenciado de habla hispana"
+  },
+  {
+   "_key": "g35hsptat0",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se trata de un servicio estrictamente privado, operado en exclusiva para su grupo: un coche privado con aire acondicionado, un guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona, con el día construido en torno a los yacimientos que usted elija.",
+   "text": "Una botella de agua mineral por persona"
+  },
+  {
+   "_key": "3xl79mpyyg",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Esto requiere un breve traslado en lancha motora, incluido en el tour.",
+   "text": "Breve traslado en lancha motora a Philae"
+  },
+  {
+   "_key": "qp5xmdqoza",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "これには短いモーターボートの横断が要り、ツアーに含まれます。",
+   "text": "短いモーターボートの横断（フィラエへ）"
+  },
+  {
+   "_key": "oe698yq4vu",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "これはアスワンを巡るプライベートで融通の利く日帰りツアーです——ひとりのガイド、一台の冷房付きの車、そしてお客様のものである行程。",
+   "text": "ひとりのガイド"
+  },
+  {
+   "_key": "kxfceoso69",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "これはアスワンを巡るプライベートで融通の利く日帰りツアーです——ひとりのガイド、一台の冷房付きの車、そしてお客様のものである行程。",
+   "text": "一台の冷房付きの車"
+  },
+  {
+   "_key": "68nhebdpug",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "このツアーはアスワン市内のどこからでも——ホテルのロビー、ナイル河畔のコルニッシュ、ご滞在先のどこでも——お迎えして運行し、空港送迎サービスとしては提供されません。",
+   "text": "アスワン市内のどこからでもお迎え"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/aswan-private-car-and-guide/"
+ },
+ "priceFrom": 87,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_private_tour_abu_simble_by_bus_from_aswan",
+   "_ref": "tour.private-tour-abu-simble-by-bus-from-aswan",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_abu_simble_by_plane_from_aswan",
+   "_ref": "tour.abu-simble-by-plane-from-aswan",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_abu_simbel_temples_day_tour_from_aswan",
+   "_ref": "tour.abu-simbel-temples-day-tour-from-aswan",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_aswan_airport_transfer",
+   "_ref": "tour.aswan-airport-transfer",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Fully private hire · own licensed Egyptologist · air-conditioned vehicle · motorboat crossings to Philae and Kitchener's Island included · entrance fees paid separately on the day"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Servicio estrictamente privado · egiptólogo licenciado propio · vehículo con aire acondicionado · cruces en lancha a Philae y a la isla Kitchener incluidos · entradas abonadas por separado el día · Adaptable"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "完全プライベートの貸し切り・専属のエジプト学ガイド・冷房付き車両・行程はお客様が決定（入場料は別途）"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Full day, sequencing built around your interests"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Día completo, con la secuencia construida sobre sus intereses"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "終日、お客様の組み立て次第で柔軟に"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Aswan — sites chosen on the day (Unfinished Obelisk, Philae, High Dam, Nubian Museum, Kitchener's Island Botanical Gardens)"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Asuán: yacimientos elegidos en la jornada (Obelisco Inacabado, Philae, Alta Presa, Museo Nubio, Jardín Botánico de Kitchener)"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "アスワン市内（ご自由に選定：未完のオベリスク／フィラエ／ハイダム／ヌビア博物館／キッチナー島など）"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "aswan-private-car-and-guide"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "asuan-con-coche-privado-y-guia"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "asuwan-tambo-puraibeto-ka"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "One Egyptologist, one private car, five of Aswan's most significant sites. A flexible, unhurried day in Egypt's southernmost city."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Un egiptólogo, un coche privado y cinco de los yacimientos más significativos de Asuán. Un día flexible y sin prisas en la ciudad más meridional de Egipto."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ひとりのエジプト学者、一台のプライベートカー、アスワンで最も重要な五つの遺跡。エジプト最南の街で過ごす、融通の利く、急がない一日。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Aswan by Private Car & Guide: A Full-Day Tour of the City"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Asuán con coche privado y guía"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "プライベートカー＆ガイドで巡るアスワン：終日の市内ツアー"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}

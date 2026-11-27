@@ -1,0 +1,4233 @@
+{
+ "_createdAt": "2026-05-06T23:01:15Z",
+ "_id": "wp-page-96598",
+ "_rev": "6je0itagKXDsMyXfn8UxsH",
+ "_type": "wikiMonument",
+ "_updatedAt": "2026-10-31T13:31:53Z",
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "The Echoes of Babylon: Roman Towers and the Church of St. George"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "In the heart of "
+      },
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [
+        "000000000003"
+       ],
+       "text": "Cairo"
+      },
+      {
+       "_key": "000000000005",
+       "_type": "span",
+       "marks": [],
+       "text": ", where time has woven a tapestry of civilizations, we encounter the remnants of a mighty fortress known as Babylon. A testament to ancient engineering and the indomitable spirit of "
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [
+        "000000000006"
+       ],
+       "text": "the Roman Emperor Trajan"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": ", this fortress was established in AD 98. The very name “Babylon” is believed to be a poetic nod to its Pharaonic predecessor, “Per-hapi-en-on,” signifying the “Estate of the Nile God at On.”"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000003",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-59386",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "000000000006",
+       "_type": "externalLink",
+       "href": "https://www.ancient.eu/trajan/",
+       "newTab": true
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Today, Babylon stands as a symbol of resilience, reduced to two imposing round towers that once guarded its western gate. These towers, weathered by the ages, were integral to the defenses of the Riverfront. Imagine, in their prime, the mighty Nile’s waters lapping against their sturdy foundations. As you explore, take a moment to gaze upon the southern tower. Here, excavations have unveiled a glimpse of the ancient quay, hidden deep below street level. Atop the northern tower, a spiritual sanctuary awaits—the Greek Orthodox Monastery and the Church of St. George."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "The Church of St. George takes its name from one of Christianity’s most beloved saints. St. George’s story is one of unwavering faith and courage. A Palestinian conscript in the Roman army, he met his fate in AD 303, bravely resisting Emperor Diocletian’s decree that sought to quell the practice of Christianity. This dedication to St. George in 1909 is a continuation of a tradition that began in 10th-century Coptic Cairo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000012",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Step inside, and you’ll discover a history etched in the very walls. While the interior bears scars from a fire long ago, its stained-glass windows and a ceiling adorned with resplendent green tiles still exude a timeless beauty. Nearby, the monastery remains closed to visitors, shrouded in contemplation. Each year, on April 23, the Coptic Moulid of "
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [
+        "00000000000f"
+       ],
+       "text": "Mar Girgis"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [],
+       "text": " celebrates the saint’s enduring legacy."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000000f",
+       "_type": "externalLink",
+       "href": "http://english.ahram.org.eg/NewsContent/32/99/58365/Folk/Special-Files/Egyptian-saint-Mar-Girgis,-Prince-of-Martyrs.aspx",
+       "newTab": true
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000014",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [],
+       "text": "As you stand amidst these ancient towers and within the sanctuary of St. George, you’re not merely a traveler in space but a witness to the echoes of history. Here, in the heart of Cairo, the past and present intertwine, inviting you to delve deeper into the rich tapestry of Egypt’s enduring spirit."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/GI_815359526_CitadelView_Cairo.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Cairo Food Guide"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "The Citadel of Cairo: A blend of medieval magnificence and urban expansion"
+      }
+     ]
+    },
+    {
+     "_key": "000000000016",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Cairo-Egypt.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Cairo Food Guide"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "Cairo's golden hour, where the Nile meets the city's ancient charm"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Los Ecos de Babilonia: Las torres romanas y la iglesia de San Jorge"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "En el corazón de El Cairo, donde el tiempo ha tejido un tapiz de civilizaciones, nos encontramos con los restos de una poderosa fortaleza conocida como Babilonia."
+      },
+      {
+       "_key": "000000000003",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Testamento de la ingeniería antigua y del espíritu indomable "
+      },
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [
+        "000000000005"
+       ],
+       "text": "del emperador romano Trajano"
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [],
+       "text": ", esta fortaleza se fundó en el año 98 d.C."
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [],
+       "text": "Se cree que el propio nombre de «Babilonia» es un guiño poético a su predecesora faraónica, «Per-hapi-en-on», que significaba el «Dominio del "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "00000000000a"
+       ],
+       "text": "Dios del Nilo"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": " en On."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000005",
+       "_type": "externalLink",
+       "href": "https://es.wikipedia.org/wiki/Trajano",
+       "newTab": true
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-64129",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000028",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Hoy, Babilonia se erige como símbolo de resistencia, reducida a dos imponentes torres redondas que antaño custodiaban su puerta occidental."
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Estas torres, erosionadas "
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [
+        "000000000011"
+       ],
+       "text": "por el paso del tiempo"
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [],
+       "text": ", formaban parte integral de las defensas del frente del río."
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": "Imagina, en sus mejores tiempos, "
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "000000000016"
+       ],
+       "text": "las poderosas aguas del"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": " Nilo chapoteando contra sus robustos cimientos."
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Mientras "
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "exploras"
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": ", dedica un momento a contemplar la torre sur."
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": "Aquí, "
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [
+        "000000000020"
+       ],
+       "text": "las excavaciones han desvelado un atisbo del"
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": " antiguo muelle, oculto bajo el nivel de la calle."
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "En lo alto de "
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [
+        "000000000025"
+       ],
+       "text": "la torre norte te aguarda un santuario espiritual: el Monasterio Ortodoxo Griego y la Iglesia de"
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [],
+       "text": " San Jorge."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000011",
+       "_type": "externalLink",
+       "href": "/es/blog/barcos-dahabiya",
+       "newTab": false
+      },
+      {
+       "_key": "000000000016",
+       "_type": "externalLink",
+       "href": "/es/guide/al-wadi-al-gadid",
+       "newTab": false
+      },
+      {
+       "_key": "000000000020",
+       "_type": "externalLink",
+       "href": "/es/guide/bahariya",
+       "newTab": false
+      },
+      {
+       "_key": "000000000025",
+       "_type": "externalLink",
+       "href": "/es/blog/explorando-la-iglesia-de-la-cueva-de-el-cairo-una-joya-escondida-en-la-montana-mokattam",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000036",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [],
+       "text": "La "
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [
+        "00000000002a"
+       ],
+       "text": "Iglesia de"
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": " San Jorge toma su nombre de uno de los santos más queridos del cristianismo."
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "La historia de San Jorge es una historia de fe y valor inquebrantables."
+      },
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Recluta palestino en el ejército romano, encontró su destino en el año 303 d.C., resistiendo valientemente el decreto del emperador Diocleciano que pretendía sofocar la práctica del cristianismo."
+      },
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta dedicación a San Jorge en 1909 es la continuación de una tradición "
+      },
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [
+        "000000000033"
+       ],
+       "text": "que comenzó en El Cairo copto"
+      },
+      {
+       "_key": "000000000035",
+       "_type": "span",
+       "marks": [],
+       "text": " en el siglo X."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000002a",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/la-iglesia-de-santa-barbara",
+       "newTab": false
+      },
+      {
+       "_key": "000000000033",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/el-cairo-copto",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [],
+       "text": "Entra y "
+      },
+      {
+       "_key": "000000000039",
+       "_type": "span",
+       "marks": [
+        "000000000038"
+       ],
+       "text": "descubrirás"
+      },
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": " una historia grabada en las propias paredes."
+      },
+      {
+       "_key": "00000000003b",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "Aunque el interior presenta "
+      },
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [
+        "00000000003d"
+       ],
+       "text": "las cicatrices de un"
+      },
+      {
+       "_key": "00000000003f",
+       "_type": "span",
+       "marks": [],
+       "text": " incendio ocurrido hace mucho tiempo, sus vidrieras y un techo adornado con resplandecientes azulejos verdes siguen exudando una belleza intemporal."
+      },
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000041",
+       "_type": "span",
+       "marks": [],
+       "text": "Cerca de allí, el monasterio permanece cerrado a los "
+      },
+      {
+       "_key": "000000000043",
+       "_type": "span",
+       "marks": [],
+       "text": "visitantes"
+      },
+      {
+       "_key": "000000000044",
+       "_type": "span",
+       "marks": [],
+       "text": ", envuelto en la contemplación."
+      },
+      {
+       "_key": "000000000045",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000046",
+       "_type": "span",
+       "marks": [],
+       "text": "Cada año, el 23 de abril, el Moulid "
+      },
+      {
+       "_key": "000000000048",
+       "_type": "span",
+       "marks": [
+        "000000000047"
+       ],
+       "text": "copto"
+      },
+      {
+       "_key": "000000000049",
+       "_type": "span",
+       "marks": [],
+       "text": " de Mar Girgis celebra el legado perdurable del santo."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000038",
+       "_type": "externalLink",
+       "href": "/es/guide/rosetta-rasheed",
+       "newTab": false
+      },
+      {
+       "_key": "00000000003d",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-88167",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "000000000047",
+       "_type": "externalLink",
+       "href": "/es/blog/los-coptos-de-egipto-guardianes-de-una-antigua-fe",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000054",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004b",
+       "_type": "span",
+       "marks": [],
+       "text": "Cuando te encuentres entre estas antiguas torres y dentro del santuario de San Jorge, no serás un mero viajero en el espacio, sino un testigo de los ecos "
+      },
+      {
+       "_key": "00000000004d",
+       "_type": "span",
+       "marks": [
+        "00000000004c"
+       ],
+       "text": "de la historia"
+      },
+      {
+       "_key": "00000000004e",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      },
+      {
+       "_key": "00000000004f",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000050",
+       "_type": "span",
+       "marks": [],
+       "text": "Aquí, en el "
+      },
+      {
+       "_key": "000000000052",
+       "_type": "span",
+       "marks": [
+        "000000000051"
+       ],
+       "text": "corazón de El Cairo"
+      },
+      {
+       "_key": "000000000053",
+       "_type": "span",
+       "marks": [],
+       "text": ", el pasado y el presente se entrelazan, invitándote a profundizar en el rico tapiz del perdurable espíritu de Egipto."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000004c",
+       "_type": "externalLink",
+       "href": "/es/blog/explorando-la-gran-esfinge-de-guiza",
+       "newTab": false
+      },
+      {
+       "_key": "000000000051",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "tour.islamic-cairo-day-tour",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000056",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000055",
+       "_type": "span",
+       "marks": [],
+       "text": "Creado el 4 de mayo de 2020"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000058",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000057",
+       "_type": "span",
+       "marks": [],
+       "text": "Actualizado el 26 de enero de 2024"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000005a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000059",
+       "_type": "span",
+       "marks": [],
+       "text": "PRESENTACIÓN DEL CAIRO"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000005d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005c",
+       "_type": "span",
+       "marks": [
+        "00000000005b"
+       ],
+       "text": "Historia"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000005b",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/historia-de-el-cairo-de-la-antiguedad-hasta-hoy",
+       "newTab": true
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000060",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005f",
+       "_type": "span",
+       "marks": [
+        "00000000005e"
+       ],
+       "text": "El tiempo"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000005e",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/clima-en-el-cairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000062",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000061",
+       "_type": "span",
+       "marks": [],
+       "text": "PLANIFICA TU VIAJE"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000065",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000064",
+       "_type": "span",
+       "marks": [
+        "000000000063"
+       ],
+       "text": "Cómo ir"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000063",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/como-ir-a-el-cairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000068",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000067",
+       "_type": "span",
+       "marks": [
+        "000000000066"
+       ],
+       "text": "Dónde alojarse"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000066",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/mejores-hoteles-en-el-cairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000069",
+       "_type": "span",
+       "marks": [],
+       "text": "MIENTRAS ESTÉS ALLÍ"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006c",
+       "_type": "span",
+       "marks": [
+        "00000000006b"
+       ],
+       "text": "Cómo desplazarse"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000006b",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/como-moverse-por-el-cairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000070",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006f",
+       "_type": "span",
+       "marks": [
+        "00000000006e"
+       ],
+       "text": "Cosas que hacer"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000006e",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/el-corazon-de-egipto-actividades-imprescindibles-en-el-cairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000072",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000071",
+       "_type": "span",
+       "marks": [],
+       "text": "LUGARES DONDE IR"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000075",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000074",
+       "_type": "span",
+       "marks": [
+        "000000000073"
+       ],
+       "text": "Mezquita de Al Azhar"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000073",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-76255",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000078",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000077",
+       "_type": "span",
+       "marks": [
+        "000000000076"
+       ],
+       "text": "Al-Azhar a la ciudadela"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000076",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.from-al-azhar-to-the-citadel-walking-islamic-cairo",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000007b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000007a",
+       "_type": "span",
+       "marks": [
+        "000000000079"
+       ],
+       "text": "Palacio Amir Taz"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000079",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-95563",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000007e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000007d",
+       "_type": "span",
+       "marks": [
+        "00000000007c"
+       ],
+       "text": "Mezquita de Aqsunur"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000007c",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.aqsunqur-mosque-the-blue-mosque",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000081",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000080",
+       "_type": "span",
+       "marks": [
+        "00000000007f"
+       ],
+       "text": "Bab Zuweila"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000007f",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.bab-zuweila",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000084",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000083",
+       "_type": "span",
+       "marks": [
+        "000000000082"
+       ],
+       "text": "Beit Al-Harrawi"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000082",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.beit-al-harrawi",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000087",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000086",
+       "_type": "span",
+       "marks": [],
+       "text": "Beit Al-Suhaymi (Casa Al-Suhaymi)"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000008a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000089",
+       "_type": "span",
+       "marks": [],
+       "text": "Beit Zeinab al-Khatoun"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000008d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000008c",
+       "_type": "span",
+       "marks": [
+        "00000000008b"
+       ],
+       "text": "CALLE Bein al-Qasreen (Entre los dos palacios {calle})"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000008b",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/bayn-al-qasrein",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000090",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000008f",
+       "_type": "span",
+       "marks": [
+        "00000000008e"
+       ],
+       "text": "Sinagoga Ben Ezra"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000008e",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-96611",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000093",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000092",
+       "_type": "span",
+       "marks": [
+        "000000000091"
+       ],
+       "text": "Iglesia de Santa Bárbara"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000091",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.church-of-saint-barbara",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000096",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000095",
+       "_type": "span",
+       "marks": [
+        "000000000094"
+       ],
+       "text": "El Cairo copto"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000094",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/el-cairo-copto",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000099",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000098",
+       "_type": "span",
+       "marks": [
+        "000000000097"
+       ],
+       "text": "Museo Textil Egipcio"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000097",
+       "_type": "externalLink",
+       "href": "/es/blog/museo-textil-egipcio",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000009c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000009b",
+       "_type": "span",
+       "marks": [],
+       "text": "Terraza Gawhara"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000009f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000009e",
+       "_type": "span",
+       "marks": [
+        "00000000009d"
+       ],
+       "text": "Museo Gayer Anderson"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000009d",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63476",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000a2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000a1",
+       "_type": "span",
+       "marks": [
+        "0000000000a0"
+       ],
+       "text": "Ciudadela de Ibn Tulún"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000a0",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.mosque-of-ibn-tulun",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000a8",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000a4",
+       "_type": "span",
+       "marks": [
+        "0000000000a3"
+       ],
+       "text": "Bazar Khan Al-Khalili (el bazar más "
+      },
+      {
+       "_key": "0000000000a5",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "0000000000a7",
+       "_type": "span",
+       "marks": [
+        "0000000000a6"
+       ],
+       "text": "famoso de El Cairo)"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000a3",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.khan-el-khalili",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "0000000000a6",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.khan-el-khalili",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000ae",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000aa",
+       "_type": "span",
+       "marks": [
+        "0000000000a9"
+       ],
+       "text": "Khanqah y mausoleo del sultán "
+      },
+      {
+       "_key": "0000000000ab",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "0000000000ad",
+       "_type": "span",
+       "marks": [
+        "0000000000ac"
+       ],
+       "text": "Baybars al-Gashankir"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000a9",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.khanqah-and-mausoleum-of-sultan-baybars-al-jashnagir",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "0000000000ac",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.khanqah-and-mausoleum-of-sultan-baybars-al-jashnagir",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000b1",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000b0",
+       "_type": "span",
+       "marks": [
+        "0000000000af"
+       ],
+       "text": "Khanqah-Mausoleo de Farag Ibn Barquq"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000af",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-95553",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000b4",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000b3",
+       "_type": "span",
+       "marks": [
+        "0000000000b2"
+       ],
+       "text": "Madraza y mausoleo de as-Salih Ayyub"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000b2",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.madrasa-and-mausoleum-of-as-salih-najm-al-din-ayyub",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000b7",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000b6",
+       "_type": "span",
+       "marks": [
+        "0000000000b5"
+       ],
+       "text": "Complejo del Sultán Al-Mansur Qalawun"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000b5",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.madrassa-mausoleum-of-qalawun",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000ba",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000b9",
+       "_type": "span",
+       "marks": [
+        "0000000000b8"
+       ],
+       "text": "Mezquita An-Nasir Mohammed Bin Qalawoon"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000b8",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.madrasa-of-al-nasir-muhammad-ibn-qalawun-en-2026-05",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000bd",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000bc",
+       "_type": "span",
+       "marks": [
+        "0000000000bb"
+       ],
+       "text": "Madraza y mausoleo de Barquq"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000bb",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.madrasa-and-khanqah-of-sultan-barquq",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000c0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000bf",
+       "_type": "span",
+       "marks": [
+        "0000000000be"
+       ],
+       "text": "Mausoleo de Al-Ghouri"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000be",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63538",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000c3",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000c2",
+       "_type": "span",
+       "marks": [],
+       "text": "Midan Al-Hussein (Plaza Sayedna Al-Hussein)"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000c6",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000c5",
+       "_type": "span",
+       "marks": [
+        "0000000000c4"
+       ],
+       "text": "Mezquita de Al-Hakim"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000c4",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63557",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000c9",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000c8",
+       "_type": "span",
+       "marks": [
+        "0000000000c7"
+       ],
+       "text": "Mezquita de Al-Mu’ayyad Shaykh"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000c7",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63521",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000cc",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000cb",
+       "_type": "span",
+       "marks": [
+        "0000000000ca"
+       ],
+       "text": "Mezquita de al-Aqmar"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000ca",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63555",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000cf",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000ce",
+       "_type": "span",
+       "marks": [
+        "0000000000cd"
+       ],
+       "text": "Mezquita de Amr ibn al-As"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000cd",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63607",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000d2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000d1",
+       "_type": "span",
+       "marks": [
+        "0000000000d0"
+       ],
+       "text": "Mezquita de An-Nasir Mohammed"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000d0",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.madrasa-of-al-nasir-muhammad-ibn-qalawun-en-2026-05",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000d5",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000d4",
+       "_type": "span",
+       "marks": [
+        "0000000000d3"
+       ],
+       "text": "Mezquita de Aslam al-Silahdar"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000d3",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63519",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000d8",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000d7",
+       "_type": "span",
+       "marks": [
+        "0000000000d6"
+       ],
+       "text": "Mezquita de Ibn Tulún"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000d6",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63477",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000db",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000da",
+       "_type": "span",
+       "marks": [
+        "0000000000d9"
+       ],
+       "text": "Mezquita de Mohammed Ali"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000d9",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63513",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000de",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000dd",
+       "_type": "span",
+       "marks": [
+        "0000000000dc"
+       ],
+       "text": "Mezquita de Sayyidna al-Hussein"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000dc",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63583",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000e1",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000e0",
+       "_type": "span",
+       "marks": [
+        "0000000000df"
+       ],
+       "text": "Mezquita-Madraza de Al-Ghouri"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000df",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.mosque-madrasa-of-al-ghouri",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000e4",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000e3",
+       "_type": "span",
+       "marks": [
+        "0000000000e2"
+       ],
+       "text": "Mezquita-Madraza del Sultán Hassan"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000e2",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63492",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000e7",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000e6",
+       "_type": "span",
+       "marks": [
+        "0000000000e5"
+       ],
+       "text": "Mezquita-Madraza de Umm Sultan Sha’aban"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000e5",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.mosque-madrassa-of-umm-sultan-sha-aban",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000ea",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000e9",
+       "_type": "span",
+       "marks": [
+        "0000000000e8"
+       ],
+       "text": "Museo Mevleví"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000e8",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/el-museo-mevlevi-museo-mawlawiyya",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000ed",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000ec",
+       "_type": "span",
+       "marks": [
+        "0000000000eb"
+       ],
+       "text": "Museo de Arte Islámico"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000eb",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-95543",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000f0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000ef",
+       "_type": "span",
+       "marks": [
+        "0000000000ee"
+       ],
+       "text": "Cementerio del Norte"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000ee",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-95548",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000f3",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000f2",
+       "_type": "span",
+       "marks": [],
+       "text": "Recinto Norte"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000f6",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000f5",
+       "_type": "span",
+       "marks": [],
+       "text": "Murallas del Norte y Puertas"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000f9",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000f8",
+       "_type": "span",
+       "marks": [
+        "0000000000f7"
+       ],
+       "text": "Sabil y Kuttab de Abdel Rahman Katkhuda"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000f7",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.sabil-kuttab-of-abd-al-rahman-katkhuda",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000fc",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000fb",
+       "_type": "span",
+       "marks": [
+        "0000000000fa"
+       ],
+       "text": "Sabil de Muhammed Ali Pasha"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000fa",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-95579",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000ff",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000fe",
+       "_type": "span",
+       "marks": [
+        "0000000000fd"
+       ],
+       "text": "Sharia al-Muizz li-Din Allah"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000fd",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.sharia-al-muizz-li-din-allah",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000102",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000101",
+       "_type": "span",
+       "marks": [
+        "000000000100"
+       ],
+       "text": "Iglesia de San Sergio y Baco"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000100",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.church-of-saint-sergius-and-bacchus-abu-serga",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000105",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000104",
+       "_type": "span",
+       "marks": [
+        "000000000103"
+       ],
+       "text": "Ciudadela de Saladino"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000103",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.the-citadel-of-saladin",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000108",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000107",
+       "_type": "span",
+       "marks": [
+        "000000000106"
+       ],
+       "text": "Complejo del Sultán Ashraf Barsbey"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000106",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/el-complejo-del-sultan-al-ashraf-barsbay",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000010b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000010a",
+       "_type": "span",
+       "marks": [
+        "000000000109"
+       ],
+       "text": "Museo Copto (el único museo copto de Egipto)"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000109",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.the-coptic-museum",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000010e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000010d",
+       "_type": "span",
+       "marks": [
+        "00000000010c"
+       ],
+       "text": "Museo Egipcio"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000010c",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-94643",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000111",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000110",
+       "_type": "span",
+       "marks": [
+        "00000000010f"
+       ],
+       "text": "Iglesia Colgante"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000010f",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.hanging-church-al-mu-allaqa",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000114",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000113",
+       "_type": "span",
+       "marks": [],
+       "text": "Complejo de Khayrbek"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000117",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000116",
+       "_type": "span",
+       "marks": [
+        "000000000115"
+       ],
+       "text": "Mezquita del Sultán Qaitbey"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000115",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.mausoleum-complex-of-sultan-qaytbay",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000011a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000119",
+       "_type": "span",
+       "marks": [
+        "000000000118"
+       ],
+       "text": "Torres Romanas"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000118",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.the-roman-towers",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000011d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000011c",
+       "_type": "span",
+       "marks": [
+        "00000000011b"
+       ],
+       "text": "Wikala al-Bazara"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000011b",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/la-wikala-al-bazar-a",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000120",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000011f",
+       "_type": "span",
+       "marks": [],
+       "text": "Wikala de Al-Ghouri"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000122",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000121",
+       "_type": "span",
+       "marks": [],
+       "text": "OTROS"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000125",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000124",
+       "_type": "span",
+       "marks": [],
+       "text": "Visitas"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000128",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000127",
+       "_type": "span",
+       "marks": [
+        "000000000126"
+       ],
+       "text": "Alimentación"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000126",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/guia-gastronomica-de-el-cairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000012b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000012a",
+       "_type": "span",
+       "marks": [],
+       "text": "Sólo aquí"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000012e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000012d",
+       "_type": "span",
+       "marks": [
+        "00000000012c"
+       ],
+       "text": "Eventos"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000012c",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/eventos-en-el-cairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000012f",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/GI_815359526_CitadelView_Cairo.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Cairo Food Guide"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "La Ciudadela de El Cairo: una mezcla de magnificencia medieval y expansión urbana"
+      }
+     ]
+    },
+    {
+     "_key": "000000000130",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Cairo-Egypt.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Cairo Food Guide"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "La hora dorada de El Cairo, donde el Nilo se une al encanto antiguo de la ciudad"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "バビロンの余韻：ローマの塔と聖ジョージ教会"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロの中心で、時が織り成す文明のタペストリーの中に、古代の要塞「バビロン」の遺構が姿を現します。これは、ローマ皇帝トラヤヌスの不屈の精神と古代工学の力を物語る証であり、西暦98年に築かれました。その名「バビロン」は、ファラオ時代の先駆者「ペル・ハピ・エン・オン」（オンのナイルの神の邸宅）にちなんだ詩的な呼び名と考えられています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "今日、このバビロンは2つの円形の塔としてその姿を残しています。かつて西門を守っていたこれらの塔は、時の流れに耐えながらたたずんでいます。特に川沿いの防御に不可欠だったこれらの塔の土台に、かつてナイルの力強い流れが打ち寄せていた光景を想像してみてください。探索を進めると、南の塔で発掘された古代の波止場の一部を見ることができ、街路の深い下に隠れた歴史の一端を垣間見ることができます。一方、北の塔の上には、ギリシャ正教の修道院と聖ジョージ教会という霊的な聖域が広がっています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "聖ジョージ教会の名前は、キリスト教で最も親しまれている聖人の一人に由来します。聖ジョージの物語は、揺るぎない信仰と勇気の象徴です。ローマ軍に徴兵されたパレスチナの兵士であった彼は、西暦303年に命を落としました。その原因は、キリスト教の実践を鎮圧しようとする皇帝ディオクレティアヌスの命令に勇敢に抵抗したためです。この聖ジョージへの献身は1909年に始まったものですが、その伝統は10世紀のコプト・カイロにまでさかのぼります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "教会内部に一歩足を踏み入れると、その壁に刻まれた歴史を目の当たりにすることができます。かつての火災の傷跡が残る内部は、色鮮やかなステンドグラスの窓や華麗な緑のタイルが敷き詰められた天井により、時を超えた美しさを放っています。その近くには修道院がありますが、訪問者には公開されておらず、静寂と瞑想に包まれています。毎年4月23日には、「コプト・ムーリッド・マル・ギルギス」が開催され、この聖人の永遠の遺産を祝います。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "これらの古代の塔と聖ジョージ教会の聖域に立つとき、単なる場所の旅人ではなく、歴史の響きに立ち会っているのです。カイロの中心で、過去と現在が交錯し、エジプトの不滅の精神が紡ぐ豊かなタペストリーに浸るように、さらに深く探求してみてください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "作成日：2020年3月18日"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "更新日：2025年3月22日"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロの紹介"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000014",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [],
+       "text": "歴史"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "000000000015"
+       ],
+       "text": "天気"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000015",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/kairo-no-tenki-to-kion",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "旅行の計画"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": "行き方"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "00000000001d"
+       ],
+       "text": "宿泊先"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000001d",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/kairo-de-no-shukuhaku-ni-saiteki-na-basho",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "滞在中に"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000024",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "000000000022",
+        "strong"
+       ],
+       "text": "現地での移動方法"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000022",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/kairo-shinai-no-ido-gaido",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [
+        "000000000025",
+        "strong"
+       ],
+       "text": "おすすめのアクティビティ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000025",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/ejiputo-no-kokoro-kairo-de-no-hikken-akutibiti",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "見どころ"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [
+        "00000000002a"
+       ],
+       "text": "エジプト考古学博物館"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000002a",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/ejiputo-kokogaku-hakubutsukan",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [
+        "00000000002d"
+       ],
+       "text": "北墓地"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000002d",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/北墓地",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000032",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [
+        "000000000030"
+       ],
+       "text": "スルタン・アシュラフ・バーズベイの複合施設"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000030",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [
+        "000000000033"
+       ],
+       "text": "ファラーグ・イブン・バルクークのカーンカ・モスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000033",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/ファラグ・イブン・バルクークのハンカーと霊廟",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000038",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [
+        "000000000036"
+       ],
+       "text": "スルタン・カイトベイのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000036",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/surutan-kaito-bei-no-reibyo-fukugo-tai",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [
+        "000000000039"
+       ],
+       "text": "ゲイヤー・アンダーソン博物館"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000039",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/ガイヤー・アンダーソン博物館",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003d",
+       "_type": "span",
+       "marks": [
+        "00000000003c"
+       ],
+       "text": "イブン・トゥルーンのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000003c",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/ibunturunmosuku",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000041",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [
+        "00000000003f"
+       ],
+       "text": "メヴレヴィ博物館"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000003f",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/mevurevi-hakubutsukan-maurawiya-hakubutsukan",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000044",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000043",
+       "_type": "span",
+       "marks": [
+        "000000000042"
+       ],
+       "text": "アミール・タズ宮殿"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000042",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/アミール・タズ宮殿",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000047",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000046",
+       "_type": "span",
+       "marks": [
+        "000000000045"
+       ],
+       "text": "アル・アズハルから城塞まで"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000045",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/アル＝アズハルから城塞（シタデル）へ",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000049",
+       "_type": "span",
+       "marks": [
+        "000000000048"
+       ],
+       "text": "サラディン城塞"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000048",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/サラディンの城塞",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004c",
+       "_type": "span",
+       "marks": [
+        "00000000004b"
+       ],
+       "text": "スルタン・ハッサンのモスク・マドラサ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000004b",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/スルタン・ハサン・モスクとマドラサ",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000050",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004f",
+       "_type": "span",
+       "marks": [
+        "00000000004e"
+       ],
+       "text": "北囲い"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000004e",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000053",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000052",
+       "_type": "span",
+       "marks": [
+        "000000000051"
+       ],
+       "text": "ジャワハラ・テラス"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000051",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/gauharaterasu-to-kyuden",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000056",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000055",
+       "_type": "span",
+       "marks": [
+        "000000000054"
+       ],
+       "text": "アンサール・ムハンマドのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000054",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000059",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000058",
+       "_type": "span",
+       "marks": [
+        "000000000057"
+       ],
+       "text": "ムハンマド・アリのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000057",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/muhammadoarimosuku",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000005c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005b",
+       "_type": "span",
+       "marks": [
+        "00000000005a"
+       ],
+       "text": "イブン・トゥルーン城塞"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000005a",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/ibunturunmosuku",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000005f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005e",
+       "_type": "span",
+       "marks": [
+        "00000000005d"
+       ],
+       "text": "カイリベク複合施設"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000005d",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000062",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000061",
+       "_type": "span",
+       "marks": [
+        "000000000060"
+       ],
+       "text": "アクスヌールのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000060",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/akusunkurumosuku-buru-mosuku",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000065",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000064",
+       "_type": "span",
+       "marks": [
+        "000000000063"
+       ],
+       "text": "ウム・スルタン・シャアバンのモスク・マドラサ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000063",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/ウム・スルタン・シャアバーンのモスクとマドラ",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000068",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000067",
+       "_type": "span",
+       "marks": [
+        "000000000066"
+       ],
+       "text": "アスラム・アル・シラフダーのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000066",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/アスラム・アル・シラフダル・モスク",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006a",
+       "_type": "span",
+       "marks": [
+        "000000000069"
+       ],
+       "text": "イスラム美術博物館"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000069",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/isuramu-bijutsukan",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006d",
+       "_type": "span",
+       "marks": [
+        "00000000006c"
+       ],
+       "text": "アル・ムアイッド・シャイフのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000006c",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000071",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000070",
+       "_type": "span",
+       "marks": [
+        "00000000006f"
+       ],
+       "text": "バブ・ズウイラ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000006f",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/babuzuweira",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000074",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000073",
+       "_type": "span",
+       "marks": [
+        "000000000072"
+       ],
+       "text": "ムハンマド・アリ・パシャのサビール"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000072",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/muhammadoaripasha-no-sabiru",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000077",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000076",
+       "_type": "span",
+       "marks": [
+        "000000000075"
+       ],
+       "text": "アル・グーフリ・ウィカラ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000075",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000007a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000079",
+       "_type": "span",
+       "marks": [
+        "000000000078"
+       ],
+       "text": "アル・グーフリのモスク・マドラサ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000078",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/aruguri-no-mosukumadorasa",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000007d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000007c",
+       "_type": "span",
+       "marks": [
+        "00000000007b"
+       ],
+       "text": "アル・グーフリの霊廟"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000007b",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/アル・グーリ廟",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000080",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000007f",
+       "_type": "span",
+       "marks": [
+        "00000000007e"
+       ],
+       "text": "ベイト・アル・ハラウィ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000007e",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000083",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000082",
+       "_type": "span",
+       "marks": [
+        "000000000081"
+       ],
+       "text": "ベイト・ゼイナブ・アル・カトゥーン"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000081",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000086",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000085",
+       "_type": "span",
+       "marks": [
+        "000000000084"
+       ],
+       "text": "アル・アズハル・モスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000084",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/アズハル・モスク",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000089",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000088",
+       "_type": "span",
+       "marks": [
+        "000000000087"
+       ],
+       "text": "シャリア・アル・ムイッズ・リディン・アッラー"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000087",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000008c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000008b",
+       "_type": "span",
+       "marks": [
+        "00000000008a"
+       ],
+       "text": "アル・アクマールのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000008a",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000008f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000008e",
+       "_type": "span",
+       "marks": [
+        "00000000008d"
+       ],
+       "text": "ベイト・アル・スハイミ（アル・スハイミ家）"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000008d",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000092",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000091",
+       "_type": "span",
+       "marks": [
+        "000000000090"
+       ],
+       "text": "アル・ハキムのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000090",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/aru-ha-kimu-mosuku",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000095",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000094",
+       "_type": "span",
+       "marks": [
+        "000000000093"
+       ],
+       "text": "北の壁と門"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000093",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000098",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000097",
+       "_type": "span",
+       "marks": [
+        "000000000096"
+       ],
+       "text": "ウィカラ・アル・バザラ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000096",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000009b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000009a",
+       "_type": "span",
+       "marks": [
+        "000000000099"
+       ],
+       "text": "スルタン・バイバルズ・アル・ガシャンクィールのカーンカと霊廟"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000099",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000009e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000009d",
+       "_type": "span",
+       "marks": [
+        "00000000009c"
+       ],
+       "text": "エジプト繊維博物館"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000009c",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/ejiputo-orimono-hakubutsukan",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000a1",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000a0",
+       "_type": "span",
+       "marks": [
+        "00000000009f"
+       ],
+       "text": "アブデル・ラフマン・カトフダのサビールとクッターブ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000009f",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/アブドル・ラーマン・カトフダーのサビールとク",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000a4",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000a3",
+       "_type": "span",
+       "marks": [
+        "0000000000a2"
+       ],
+       "text": "アンサール・ムハンマド・スルタンのマドラサと霊廟"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000a2",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000a7",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000a6",
+       "_type": "span",
+       "marks": [
+        "0000000000a5"
+       ],
+       "text": "バークークのマドラサと霊廟"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000a5",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/surutanbarukuku-no-madorasa-to-han-ka",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000aa",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000a9",
+       "_type": "span",
+       "marks": [
+        "0000000000a8"
+       ],
+       "text": "アス・サリフ・アユーブのマドラサと霊廟"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000a8",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/サーリフ・ナジュム・エッディーン・アイユーブ",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000ad",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000ac",
+       "_type": "span",
+       "marks": [
+        "0000000000ab"
+       ],
+       "text": "ベイン・アル・カスリーン通り（2つの宮殿の間の通り）"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000ab",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000b0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000af",
+       "_type": "span",
+       "marks": [
+        "0000000000ae"
+       ],
+       "text": "カラウーンのマドラサと霊廟"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000ae",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000b3",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000b2",
+       "_type": "span",
+       "marks": [
+        "0000000000b1"
+       ],
+       "text": "サイイドナ・アル・フセインのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000b1",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000b6",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000b5",
+       "_type": "span",
+       "marks": [
+        "0000000000b4"
+       ],
+       "text": "ミダン・アル・フセイン（サイイドナ・アル・フセイン広場）"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000b4",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000b9",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000b8",
+       "_type": "span",
+       "marks": [
+        "0000000000b7"
+       ],
+       "text": "カーン・アル・ハリリバザール（カイロで最も有名なバザール）"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000b7",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/han-eru-hariri",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000bc",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000bb",
+       "_type": "span",
+       "marks": [
+        "0000000000ba"
+       ],
+       "text": "コプト地区"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000ba",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/koputokairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000bf",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000be",
+       "_type": "span",
+       "marks": [
+        "0000000000bd"
+       ],
+       "text": "アムル・イブン・アル・アスのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000bd",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000c2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000c1",
+       "_type": "span",
+       "marks": [
+        "0000000000c0"
+       ],
+       "text": "ベン・エズラ・シナゴーグ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000c0",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/ben-ezurashinagogu",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000c5",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000c4",
+       "_type": "span",
+       "marks": [
+        "0000000000c3"
+       ],
+       "text": "ローマの塔"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000c3",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/roma-no-to",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000c8",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000c7",
+       "_type": "span",
+       "marks": [
+        "0000000000c6"
+       ],
+       "text": "セント・セルギウスとバッカスの教会"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000c6",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/sei-serugiusu-to-bakkasu-kyokai-abuseruga",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000cb",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000ca",
+       "_type": "span",
+       "marks": [
+        "0000000000c9"
+       ],
+       "text": "コプト博物館（エジプト唯一のコプト博物館）"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000c9",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/koputo-hakubutsukan",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000ce",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000cd",
+       "_type": "span",
+       "marks": [
+        "0000000000cc"
+       ],
+       "text": "セント・バーバラの教会"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000cc",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/sei-baru-bara-kyokai",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000d1",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000d0",
+       "_type": "span",
+       "marks": [
+        "0000000000cf"
+       ],
+       "text": "ハンギング・チャーチ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000cf",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/ハンギング・チャーチ",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000d3",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000d2",
+       "_type": "span",
+       "marks": [],
+       "text": "その他"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000d6",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000d5",
+       "_type": "span",
+       "marks": [
+        "0000000000d4",
+        "strong"
+       ],
+       "text": "ツアー"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000d4",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000d9",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000d8",
+       "_type": "span",
+       "marks": [
+        "0000000000d7",
+        "strong"
+       ],
+       "text": "食事"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000d7",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/kairo-no-bishoku-tambo-ejiputo-shuto-no-ajiwai",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000dc",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000db",
+       "_type": "span",
+       "marks": [
+        "0000000000da",
+        "strong"
+       ],
+       "text": "ここだけ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000da",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000df",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000de",
+       "_type": "span",
+       "marks": [
+        "0000000000dd",
+        "strong"
+       ],
+       "text": "イベント"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000dd",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000e0",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/GI_815359526_CitadelView_Cairo.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Cairo Food Guide"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "カイロ城塞――中世の壮麗さと都市の拡張が融合する場所。"
+      }
+     ]
+    },
+    {
+     "_key": "0000000000e1",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Cairo-Egypt.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Cairo Food Guide"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "カイロのゴールデンアワー――ナイルが街の古き魅力と出会う瞬間。"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "city": {
+  "_ref": "wp-page-83284",
+  "_type": "reference"
+ },
+ "migration": {
+  "migratedAt": "2026-05-07T11:12:35.912Z",
+  "reviewFlag": "superseded-by-guideArticle",
+  "source": "wp-import",
+  "supersededAt": "2026-05-20T15:23:40.818Z",
+  "supersededBy": "guideArticle.cairo.the-roman-towers",
+  "wpId": 96598,
+  "wpModifiedAt": "2025-07-23T16:18:43",
+  "wpTemplate": "",
+  "wpUrl": "https://travel2egypt.org/the-roman-towers/"
+ },
+ "monumentType": "other",
+ "name": [
+  {
+   "_key": "en",
+   "value": "The Roman Towers"
+  },
+  {
+   "_key": "es",
+   "value": "Las Torres Romanas"
+  },
+  {
+   "_key": "ja",
+   "value": "ローマの塔"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "value": {
+    "_type": "slug",
+    "current": "the-roman-towers"
+   }
+  },
+  {
+   "_key": "es",
+   "value": {
+    "_type": "slug",
+    "current": "las-torres-romanas"
+   }
+  },
+  {
+   "_key": "ja",
+   "value": {
+    "_type": "slug",
+    "current": "ローマの塔"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "The Echoes of Babylon: Roman Towers and the Church of St. George In the heart of Cairo, where time has woven a tapestry of civilizations, we encounter the remnants of a mighty fortress known as Babylon. A testament to ancient engineering an"
+  },
+  {
+   "_key": "es",
+   "value": "Los Ecos de Babilonia: Las torres romanas y la iglesia de San Jorge En el corazón de El Cairo, donde el tiempo ha tejido un tapiz de civilizaciones, nos encontramos con los restos de una poderosa fortaleza conocida como Babilonia. Testament"
+  },
+  {
+   "_key": "ja",
+   "value": "バビロンの余韻：ローマの塔と聖ジョージ教会 カイロの中心で、時が織り成す文明のタペストリーの中に、古代の要塞「バビロン」の遺構が姿を現します。これは、ローマ皇帝トラヤヌスの不屈の精神と古代工学の力を物語る証であり、西暦98年に築かれました。その名「バビロン」は、ファラオ時代の先駆者「ペル・ハピ・エン・オン」（オンのナイルの神の邸宅）にちなんだ詩的な呼び名と考えられています。 今日、このバビロンは2つの円形の塔としてその姿を残しています。かつて西門を守っていたこれらの塔は、時の"
+  }
+ ]
+}

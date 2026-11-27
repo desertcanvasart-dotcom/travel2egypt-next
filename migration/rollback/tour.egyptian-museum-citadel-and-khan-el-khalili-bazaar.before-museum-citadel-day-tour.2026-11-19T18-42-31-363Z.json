@@ -1,0 +1,1336 @@
+{
+ "_createdAt": "2026-05-28T11:45:23Z",
+ "_id": "tour.egyptian-museum-citadel-and-khan-el-khalili-bazaar",
+ "_rev": "pzh5FM4q1DBt3H4LGqNNJZ",
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:46Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "First-time visitors who want a single full day that covers pharaonic, medieval Islamic, and bazaar Cairo without slipping into a sightseeing checklist"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros que quieren una vision amplia sin salir a Guiza"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "カイロのファラオ時代・中世イスラム・現在の三層を一日で見当づけ、旅の残りの理解の鍵にしたい方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "One Day, Three Cairos: Antiquities, Islamic Fortresses & the Bazaar Quarter"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "There is a version of Cairo that most visitors never quite manage to assemble on their own — the one that moves coherently from pharaonic antiquity through medieval Islamic power to the living, trading, arguing city of the present. This tour is that version. In a single long day, you cover the Egyptian Museum of Antiquities on Tahrir Square, the Citadel of Saladin on the Mokattam escarpment, the monumental corridor of Al-Muizz Street, and the labyrinthine commerce of Khan el-Khalili. It is a full day, genuinely full, and the pace reflects that."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "This is not a tour for anyone who wants to linger three hours in a single gallery. It is for the traveller who wants orientation — who wants to understand how Cairo accumulated its layers, and why a city founded in 969 AD already felt ancient by the time Napoleon arrived. Done well, a day like this functions as a key: the monuments you see later, in whatever remains of your trip, make more sense because of it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "The logistics are straightforward. A private air-conditioned vehicle and a licensed Egyptologist guide handle the transfers between sites, which is worth noting because Cairo traffic is not a minor variable — it is a daily renegotiation, and having someone who knows the city is the difference between arriving composed and arriving frayed. The distances between these four stops are not large on a map; in practice, they occupy most of a morning and afternoon."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The morning opens at the "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Egyptian Museum of Antiquities"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": " on Tahrir Square, the red-domed building that has housed the state collection since 1902. This is not the Grand Egyptian Museum — that newer institution, fully open out at Giza since 1 November 2025, now holds the complete Tutankhamun assemblage. Nor is it where the royal mummies are: they were moved to the National Museum of Egyptian Civilisation in Old Cairo in 2021. What the Tahrir museum remains is an extraordinary volume of material — well over 100,000 objects across two floors, ranging from Old Kingdom statuary to Graeco-Roman portrait panels. Your guide will focus the visit rather than attempt to cover everything: the colossal royal statuary, the Old Kingdom masterworks such as the seated statues of Rahotep and Nofret, the treasure of Yuya and Thuya, and the slate Narmer Palette from around 3100 BC, one of the foundational objects of the unified Egyptian state."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Allow two hours here, possibly slightly more. The building is dense and the labelling uneven; a good guide makes the difference between a coherent narrative and an overwhelming accumulation of things."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "From Tahrir, the vehicle climbs southeast to the "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Citadel of Saladin"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ", the fortified complex that Salah ad-Din (Saladin) began constructing in 1176 AD on a spur of the Mokattam Hills. He chose the site for a practical reason: air quality. Medieval Cairo's plague-susceptible lowlands were demonstrably unhealthier than the elevated ridge, and a hilltop stronghold was also defensible. What began as a military installation became, over the following seven centuries, the seat of Egyptian government — Ayyubid, Mamluk, Ottoman, and finally Khedival rulers all governed from here until the late nineteenth century."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "The dominant structure today is the "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Mosque of Mohamed Ali"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": ", completed in 1848 and modelled closely on the great Ottoman mosques of Istanbul — two slender minarets, a central dome flanked by semi-domes, and an interior clad throughout in alabaster quarried from Beni Suef, which gives it the nickname the Alabaster Mosque. The views from the outer courtyard are among the best in Cairo: on a clear morning you can see the Giza pyramids to the southwest, a skyline the city has been building toward and around for 4,500 years. Within the Citadel grounds, the "
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Military Museum"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": " (housed in the former Harem Palace of Mohamed Ali) traces Egypt's military history from the pharaonic period forward, with a particular emphasis on the modern era. It is not always the most visited section of the Citadel complex, but it is genuinely interesting if you have any curiosity about Egypt's nineteenth- and twentieth-century history."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "After lunch, the afternoon moves into Islamic Cairo proper — specifically "
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Al-Muizz Street"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": ", the main artery of the Fatimid city laid out after the conquest of 969 AD. At its peak this was Cairo's commercial and ceremonial spine; today it functions as an open-air museum of medieval Islamic architecture, officially recognised as such and subject to ongoing restoration. Walking it north to south (or south to north, depending on your starting point), you pass an almost unbroken sequence of monuments: the "
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Qalawun Complex"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": ", built between 1284 and 1285 and comprising a mausoleum, madrassa, and hospital — one of the most ambitious building programmes of the Mamluk period; and the "
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Sultan al-Ghuri Complex"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": ", constructed at the very end of the Mamluk era (al-Ghuri died at the Battle of Marj Dabiq in 1516, effectively ending Mamluk rule), which includes a caravanserai, mausoleum, and mosque across two facing structures. The street also holds "
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "sabils"
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": " — public water dispensaries, often paired with Qur'anic schools on the upper floor — and stretches of original Fatimid wall. It requires slow attention to read properly, and your guide will help parse the layers."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "The day closes at "
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Khan el-Khalili"
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": ", the bazaar quarter that grew up around a Mamluk caravanserai in the late fourteenth century and has been in more or less continuous commercial operation ever since. The core of the bazaar is divided informally by trade: a street for gold and silver, a lane for spices, sections for cotton goods, leather, papyrus (of widely varying quality), and the general commerce of souvenirs. Negotiating is expected in most of the smaller stalls; fixed-price shops exist if you prefer to skip that. The café al-Fishawi, operating continuously since 1773 according to its own account, is worth at least a tea. The energy of Khan el-Khalili in the late afternoon — the light shifting, the call to prayer layered over the vendor noise — is as close to a living medieval bazaar as Cairo offers. It is a fitting place to end a day that began in the deep pharaonic past."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Cairo does not reveal itself gradually — it arrives all at once, layered and loud and several thousand years deep."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A day like this doesn't resolve that complexity; it gives you the map."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "If your priority is the complete Tutankhamun collection (now at the Grand Egyptian Museum, Giza) or the royal mummies (now at the NMEC in Old Cairo), those are separate visits and we will sequence them properly across two days rather than try to force them into this one. Tell us what matters most."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Un día, tres Cairos: antigüedades, fortalezas islámicas y el barrio del bazar"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una jornada privada para pasar de las antigüedades faraónicas al perfil medieval de la ciudad."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Hay una versión de El Cairo que la mayoría de los visitantes nunca consigue ensamblar por su cuenta: la que avanza con coherencia desde la antigüedad faraónica, atraviesa el poder islámico medieval y desemboca en la ciudad viva, mercantil y discutidora del presente. Este tour es esa versión. En una sola jornada larga se cubren el Museo Egipcio de Antigüedades en la plaza Tahrir, la Ciudadela de Saladino sobre la escarpa de Muqattam, el corredor monumental de la calle Al-Muizz y el comercio laberíntico de Jan el-Jalili. Es un día completo, completo de verdad, y el ritmo lo refleja."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "No es un tour para quien quiera demorarse tres horas en una sola sala. Es para el viajero que busca orientación: para quien quiere entender cómo El Cairo acumuló sus capas y por qué una ciudad fundada en el 969 d. C. ya parecía antigua cuando llegó Napoleón. Hecho con criterio, un día así funciona como una llave: los monumentos que se visiten después, en lo que quede del viaje, cobran más sentido por haberse hecho este día primero."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "La logística es directa. Un vehículo privado con aire acondicionado y un guía egiptólogo licenciado se ocupan de los traslados entre sitios, lo cual conviene subrayar porque el tráfico de El Cairo no es una variable menor: es una renegociación diaria, y contar con alguien que conozca la ciudad es la diferencia entre llegar compuesto y llegar deshecho. Las distancias entre estas cuatro paradas no son grandes sobre el mapa; en la práctica, ocupan buena parte de la mañana y la tarde."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "La mañana abre en el "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Museo Egipcio de Antigüedades"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": ", en la plaza Tahrir, el edificio de cúpula roja que alberga la colección estatal desde 1902. No es el Gran Museo Egipcio —esa institución más nueva, abierta del todo en Guiza desde el 1 de noviembre de 2025, guarda hoy el ajuar completo de Tutankamón—. Tampoco es el sitio donde están las momias reales: fueron trasladadas en 2021 al Museo Nacional de la Civilización Egipcia en El Cairo Antiguo. Lo que el museo de Tahrir sigue siendo es un volumen extraordinario de material —muy por encima de 100.000 objetos repartidos en dos plantas, desde estatuaria del Imperio Antiguo hasta retratos grecorromanos sobre tabla—. El guía enfocará la visita en lugar de intentar cubrirlo todo: la estatuaria colosal regia, las obras maestras del Imperio Antiguo como las estatuas sedentes de Rahotep y Nofret, el tesoro de Yuya y Tuya y la Paleta de Narmer en pizarra, de hacia el 3100 a. C., uno de los objetos fundacionales del Estado egipcio unificado."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Hay que dedicar aquí dos horas, quizá algo más. El edificio es denso y la cartelería desigual; un buen guía marca la diferencia entre una narración coherente y una acumulación abrumadora de cosas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde Tahrir, el vehículo sube hacia el sureste hasta la "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Ciudadela de Saladino"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": ", el complejo fortificado que Salah ad-Din (Saladino) comenzó a construir en 1176 d. C. sobre un espolón de los montes Muqattam. Eligió el emplazamiento por una razón práctica: la calidad del aire. Las tierras bajas del Cairo medieval, sensibles a la peste, eran demostrablemente más insalubres que la cresta elevada, y una fortaleza en alto era además defensible. Lo que comenzó como instalación militar se convirtió, a lo largo de los siete siglos siguientes, en sede del gobierno egipcio: ayubíes, mamelucos, otomanos y finalmente los gobernantes jediviales rigieron desde aquí hasta finales del siglo XIX."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "La estructura dominante hoy es la "
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "mezquita de Mohamed Ali"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": ", terminada en 1848 y modelada de cerca sobre las grandes mezquitas otomanas de Estambul: dos minaretes esbeltos, una cúpula central flanqueada por semicúpulas y un interior revestido íntegramente en alabastro extraído en Beni Suef, lo que le ha valido el sobrenombre de Mezquita de Alabastro. Las vistas desde el patio exterior figuran entre las mejores del Cairo: en una mañana clara se pueden distinguir las pirámides de Guiza al suroeste, un horizonte hacia el que la ciudad lleva construyendo, alrededor de él, 4.500 años. Dentro del recinto de la Ciudadela, el "
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Museo Militar"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": " (alojado en el antiguo Palacio del Harén de Mohamed Ali) repasa la historia militar de Egipto desde el periodo faraónico, con especial énfasis en la época moderna. No siempre es la sección más visitada del complejo, pero resulta genuinamente interesante si se tiene curiosidad por la historia egipcia de los siglos XIX y XX."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Tras el almuerzo, la tarde entra de lleno en el Cairo islámico, concretamente en "
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "la calle Al-Muizz"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": ", la arteria principal de la ciudad fatimí trazada tras la conquista del 969 d. C. En su apogeo fue la espina dorsal comercial y ceremonial del Cairo; hoy funciona como un museo al aire libre de arquitectura islámica medieval, oficialmente reconocido como tal y objeto de restauración continua. Caminándola de norte a sur (o al revés, según el punto de partida) se atraviesa una secuencia casi ininterrumpida de monumentos: el "
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "complejo de Qalawun"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": ", construido entre 1284 y 1285 y compuesto por mausoleo, madrasa y hospital, uno de los programas constructivos más ambiciosos del periodo mameluco; y el "
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "complejo del sultán al-Ghuri"
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": ", levantado al final de la era mameluca (al-Ghuri murió en la batalla de Marj Dabiq en 1516, sellando el fin del dominio mameluco), que incluye caravasar, mausoleo y mezquita en dos estructuras enfrentadas. La calle conserva además "
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "sabiles"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": " —fuentes públicas, a menudo emparejadas con escuelas coránicas en el piso superior— y tramos de muralla fatimí original. Pide atención pausada para leerse bien, y el guía ayuda a descifrar las capas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "El día se cierra en "
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Jan el-Jalili"
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": ", el barrio del bazar que creció en torno a un caravasar mameluco a finales del siglo XIV y ha estado en operación comercial más o menos continua desde entonces. El núcleo del bazar se divide informalmente por oficios: una calle para el oro y la plata, un callejón para las especias, secciones para algodón, cuero, papiro (de calidad muy variable) y el comercio general de souvenirs. Se espera negociar en la mayoría de los puestos pequeños; existen tiendas de precio fijo para quien prefiera saltarse el regateo. El café al-Fishawi, en funcionamiento continuo desde 1773 según su propio relato, merece al menos un té. La energía de Jan el-Jalili a última hora de la tarde —la luz cambiando, la llamada a la oración superpuesta al ruido de los vendedores— es lo más cerca que puede estar El Cairo de un bazar medieval vivo. Es un buen sitio para cerrar un día que empezó en el pasado faraónico profundo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "El Cairo no se revela poco a poco: llega de golpe, estratificado, ruidoso y con varios milenios de profundidad."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un día como este no resuelve esa complejidad; ofrece el mapa."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "Si la prioridad es la colección completa de Tutankamón (ahora en el Gran Museo Egipcio, Guiza) o las momias reales (ahora en el NMEC en El Cairo Antiguo), son visitas aparte y las secuenciaremos correctamente en dos días en lugar de forzarlas en este. Cuéntanos qué te importa más."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "一日、三つのカイロ：考古、イスラムの要塞＆バザールの一角"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "大半の訪問者が自力ではうまく組み立てられない版のカイロがあります——ファラオ時代の古代から、中世イスラムの権力を経て、生きて、商い、議論する現在の街へと、筋を通って動いていく版です。このツアーは、その版です。ひとつの長い一日のうちに、タハリール広場のエジプト考古学博物館、ムカッタムの崖の上のサラディン城塞、ムイッズ通りの記念碑的な回廊、そしてハーン・ハリーリの迷宮のような商いを巡ります。充実した、本当に充実した一日であり、ペースもそれを映しています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "これは、ひとつの展示室に3時間とどまりたい人のためのツアーではありません。見当をつけたい旅行者のためのものです——カイロがどう層を積み重ねてきたか、そして西暦969年に築かれた街が、ナポレオンが到着するころにはなぜすでに古色を帯びて感じられたのかを理解したい人のためのものです。うまく行えば、こうした一日は鍵として働きます——その後、旅の残りで目にする記念建造物が、これがあったおかげで、より腑に落ちるのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "段取りはわかりやすいものです。プライベートの冷房付き車両とライセンスを持つエジプト学ガイドが遺跡間の移動を引き受けます——これは特記に値します。なぜならカイロの交通は些細な変数ではなく、日々の再交渉だからです。街を知る人がいるかどうかが、落ち着いて着くか、すり減って着くかの分かれ目です。この四つの立ち寄り先のあいだの距離は、地図の上では大きくありません——実際には、午前と午後の大半を占めます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "この一日に待つもの"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "午前は、タハリール広場の"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "エジプト考古学博物館"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "で幕を開けます——1902年から国家のコレクションを収めてきた、赤いドームの建物です。これは大エジプト博物館ではありません——その新しい施設は、2025年11月1日からギザで全面開館しており、いまやツタンカーメンの完全な一式を収めています。また王家のミイラがある場所でもありません——それらは2021年にオールド・カイロの国立エジプト文明博物館へ移されました。タハリールの博物館がなお抱えるのは、並外れた物量の資料です——二つのフロアにわたって優に10万点を超える品々があり、古王国時代の彫像からグレコ・ローマ期の肖像板にまで及びます。ガイドは、すべてを網羅しようとするのではなく、見学に焦点を当てます——巨大な王の彫像、ラホテプとノフレトの座像のような古王国時代の傑作、ユヤとチュウユの宝、そして紀元前3100年ごろのスレートのナルメルのパレット、統一エジプト国家の礎をなす品のひとつです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "ここには2時間を、ことによるともう少し見込んでください。建物は密で、ラベルの整い方にはむらがあります——よいガイドが、筋の通った物語と、圧倒される物の堆積との分かれ目になります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "タハリールから、車両は南東へ登って"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "サラディン城塞"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "へ向かいます——サラーフ・アッディーン（サラディン）が西暦1176年にムカッタムの丘の尾根の上に築きはじめた要塞複合体です。彼がこの場所を選んだのは実務的な理由からでした——空気の質です。中世カイロの疫病にかかりやすい低地は、高い尾根よりも明らかに不健康で、丘の上の砦はまた防衛しやすくもありました。軍事施設としてはじまったものは、続く7世紀のあいだにエジプトの政庁の座となりました——アイユーブ朝、マムルーク朝、オスマン朝、そして最後にヘディーヴ朝の支配者たちが、19世紀後半までここから統治しました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "今日の支配的な建造物は"
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ムハンマド・アリー・モスク"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "で、1848年に完成し、イスタンブールの偉大なオスマン様式のモスクに近く倣っています——二本のほっそりとしたミナレット、半ドームに囲まれた中央のドーム、そしてベニ・スエフで切り出されたアラバスターで隅々まで張られた内部があり、それが「アラバスター・モスク」の異名を与えています。外庭からの眺めはカイロでも屈指です——晴れた朝には南西にギザのピラミッドが見えます。街が4,500年にわたって築き、それを巡って築いてきたスカイラインです。城塞の敷地内では、"
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "軍事博物館"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "（ムハンマド・アリーのかつてのハレム宮殿に収まっています）が、ファラオ時代から先のエジプトの軍事史を、とりわけ近代に重きを置いてたどります。城塞複合体のなかで最も多く訪れられる区画とは限りませんが、エジプトの19世紀・20世紀の歴史に少しでも好奇心があれば、本当に興味深いところです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "昼食のあと、午後はイスラム・カイロそのものへ移ります——とりわけ"
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ムイッズ通り"
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "です。969年の征服のあとに敷かれたファーティマ朝の都の大動脈です。最盛期にはカイロの商業と祭祀の背骨でした。今日では、中世イスラム建築の野外博物館として機能しており、公式にもそう認められ、継続的な修復の対象となっています。北から南へ（あるいは出発点によっては南から北へ）歩けば、ほとんど途切れることのない記念建造物の連なりを通り過ぎます——"
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "カラーウーン複合体"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "は1284年から1285年にかけて建てられ、霊廟、マドラサ、病院からなり、マムルーク朝でも最も野心的な造営計画のひとつです。そして"
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "スルタン・アル・グーリ複合体"
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "は、マムルーク朝のまさに終わりに造られ（アル・グーリは1516年のマルジュ・ダービクの戦いで没し、事実上マムルーク朝の支配を終わらせました）、向かい合う二つの構造物にわたってキャラバンサライ、霊廟、モスクを含みます。通りにはまた"
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "サビール"
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "——公共の給水施設で、しばしば上階のクルアーン学校と組み合わされます——と、もとのファーティマ朝の城壁の区間も残っています。きちんと読み解くにはゆっくりとした注意が要り、ガイドがその層を解きほぐす手助けをしてくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "一日は"
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ハーン・ハリーリ"
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "で終わります——14世紀後半にマムルーク朝のキャラバンサライの周りに育ち、それ以来おおむね絶えず商業の場であり続けてきたバザールの一角です。バザールの核は、商いごとにゆるやかに分かれています——金銀のための通り、香辛料のための路地、綿製品、革、パピルス（質はさまざま）、そして土産物全般の区画。より小さな屋台の大半では値段交渉が当たり前です。それを省きたいなら、定価の店もあります。コーヒーハウスのアル・フィシャーウィーは、その言い分によれば1773年から休まず営業を続けており、少なくともお茶の値打ちはあります。午後遅くのハーン・ハリーリの活気は——移ろう光、売り子の喧騒に重なる礼拝の呼び声——カイロが差し出せる、生きた中世のバザールに最も近いものです。深いファラオ時代の過去にはじまった一日を締めくくるのに、ふさわしい場所です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "カイロは、徐々には正体を明かしません——一度にやって来ます。層をなし、騒がしく、数千年もの深さをたたえて。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "こうした一日は、その複雑さを解きはしません——地図を与えてくれるのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000040",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": "タハリールではなくGEMを優先したい、城塞か北部墓地のどちらに重みを置くかなど、半日の組み立ては前夜に整えるのが最良です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "One practical note: the Citadel mosque asks for modest dress, so plan the day's clothing with that stop in mind. Beyond that, the emphasis is yours to set — more time among the pharaohs, or more in the Islamic streets. Ask our concierge to tilt the day toward whichever Cairo you came for."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Una nota práctica: la mezquita de la Ciudadela pide vestimenta discreta, así que conviene vestirse pensando en esa parada. A partir de ahí, el énfasis lo pones tú — más tiempo entre faraones o más en las calles islámicas. Pide a nuestro concierge que incline el día hacia el Cairo que viniste a buscar."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "実務的なご案内をひとつ——シタデルのモスクでは肌を覆う控えめな服装が求められますので、その訪問を念頭に装いをお選びください。あとは重心のかけ方次第です。ファラオの時代に長く浸るか、イスラームの街路を歩き込むか。どちらのカイロをお求めか、コンシェルジュにお伝えください。"
+  }
+ ],
+ "durationHours": 8,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Full day · ~8–9 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Día completo · ~8–9 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "終日・約8〜9時間"
+  }
+ ],
+ "exclusions": [
+  {
+   "_key": "hz2equ5fz7",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "If your priority is the complete Tutankhamun collection (now at the Grand Egyptian Museum, Giza) or the royal mummies (now at the NMEC in Old Cairo), those are separate visits and we will sequence them properly across two days rather than try to force them into this one.",
+   "text": "Complete Tutankhamun collection (Grand Egyptian Museum) and royal mummies (NMEC) are separate visits"
+  }
+ ],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 106,
+  "ja": 113
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Large pink granite sphinx of a pharaoh displayed in a vaulted museum gallery"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Gran esfinge de granito rosa de un faraón expuesta en una galería abovedada de museo"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "丸天井の博物館の展示室に置かれた、ファラオの大きなピンク花崗岩のスフィンクス。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-9e7f562195747a871cfa79b070c429f1654b3d32-3000x2250-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A granite sphinx on display in the museum."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Una esfinge de granito expuesta en el museo."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "博物館に展示された花崗岩のスフィンクス。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "bj6hyxex3d",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A private air-conditioned vehicle and a licensed Egyptologist guide handle the transfers between sites, which is worth noting because Cairo traffic is not a minor variable — it is a daily renegotiation, and having someone who knows the city is the difference between arriving composed and arriving frayed.",
+   "text": "Private air-conditioned vehicle"
+  },
+  {
+   "_key": "mr8d3ng9zy",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A private air-conditioned vehicle and a licensed Egyptologist guide handle the transfers between sites, which is worth noting because Cairo traffic is not a minor variable — it is a daily renegotiation, and having someone who knows the city is the difference between arriving composed and arriving frayed.",
+   "text": "Licensed Egyptologist guide"
+  },
+  {
+   "_key": "e4s48u1sez",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Un vehículo privado con aire acondicionado y un guía egiptólogo licenciado se ocupan de los traslados entre sitios, lo cual conviene subrayar porque el tráfico de El Cairo no es una variable menor: es una renegociación diaria, y contar con alguien que conozca la ciudad es la diferencia entre llegar compuesto y llegar deshecho.",
+   "text": "Vehículo privado con aire acondicionado"
+  },
+  {
+   "_key": "ytzy6u0f0b",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Un vehículo privado con aire acondicionado y un guía egiptólogo licenciado se ocupan de los traslados entre sitios, lo cual conviene subrayar porque el tráfico de El Cairo no es una variable menor: es una renegociación diaria, y contar con alguien que conozca la ciudad es la diferencia entre llegar compuesto y llegar deshecho.",
+   "text": "Guía egiptólogo licenciado"
+  },
+  {
+   "_key": "0wpqqjuomd",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Un vehículo privado con aire acondicionado y un guía egiptólogo licenciado se ocupan de los traslados entre sitios, lo cual conviene subrayar porque el tráfico de El Cairo no es una variable menor: es una renegociación diaria, y contar con alguien que conozca la ciudad es la diferencia entre llegar compuesto y llegar deshecho.",
+   "text": "Traslados entre sitios"
+  },
+  {
+   "_key": "r7zqx62iig",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "プライベートの冷房付き車両とライセンスを持つエジプト学ガイドが遺跡間の移動を引き受けます——これは特記に値します。",
+   "text": "プライベートの冷房付き車両"
+  },
+  {
+   "_key": "rp2fn77wgf",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "プライベートの冷房付き車両とライセンスを持つエジプト学ガイドが遺跡間の移動を引き受けます——これは特記に値します。",
+   "text": "ライセンスを持つエジプト学ガイド"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/egyptian-museum-citadel-and-khan-el-khalili-bazaar/"
+ },
+ "priceFrom": 95,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_alexandria_catacombs_pompeys_pillar_group_day_tour_from_cairo",
+   "_ref": "tour.alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_transfer_from_cairo_airport_to_hotel",
+   "_ref": "tour.transfer-from-cairo-airport-to-hotel",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_cairo_dinner_cruise_with_belly_dancing_show",
+   "_ref": "tour.cairo-dinner-cruise-with-belly-dancing-show",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_nmec_royal_mummies_old_cairo",
+   "_ref": "tour.nmec-royal-mummies-old-cairo",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Fully private · own licensed Egyptologist · air-conditioned vehicle · modest dress required at the Citadel mosque · no minimum age, families welcome · tiered pricing with optional entrance-fee and lunch bundles"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Tour privado urbano y cultural · Activo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "お客様のご一行だけのプライベートツアー · 公認エジプト学ガイド · エアコン付き専用車両 · 年齢制限なし（モスクは慎ましい装い） · 三段階のプライシング（ベース／＋入場料／＋入場料・昼食）"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Full day, approximately eight to nine hours from hotel pick-up"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Dia completo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "終日（午前8〜9時の出発、夕方の早い時間まで）"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Egyptian Museum (Tahrir) → Citadel of Saladin and Mosque of Mohamed Ali → Al-Muizz Street → Khan el-Khalili"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Museo Egipcio, Ciudadela y Jan el-Jalili"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "タハリール／エジプト考古学博物館 → サラディン城塞・ムハンマド・アリー・モスク・軍事博物館 → 昼食 → ムイッズ通り（カラーウーン／アル・グーリ複合体） → ハーン・ハリーリ"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "egyptian-museum-citadel-and-khan-el-khalili-bazaar"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "el-cairo-en-un-dia-museo-egipcio-ciudadela-y-jan-el-jalili"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "ichi-nichi-de-meguru-kairo-ejiputo-hakubutsukan-josai"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "From Tutankhamun's gold to the alleyways of Khan el-Khalili, this full-day Cairo tour covers three millennia of the city's layered, restless history."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Del oro de Tutankamón a los callejones de Jan el-Jalili: un día completo en El Cairo que recorre tres milenios de historia urbana estratificada."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "タハリールの考古博物館からムカッタムの城塞、そしてハーン・ハリーリの路地まで——カイロの層をなす三千年をたどる終日ツアー。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Cairo in a Day: Egyptian Museum, Citadel & Khan el-Khalili"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "El Cairo en un día: Museo Egipcio, Ciudadela y Jan el-Jalili"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "一日で巡るカイロ：エジプト博物館、城塞＆ハーン・ハリーリ"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}

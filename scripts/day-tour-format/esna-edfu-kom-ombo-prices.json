@@ -1,0 +1,6 @@
+{
+  "_note": "Per-person selling prices in EUR for 2 travellers sharing, by guide language — the LAST step before publishing. Rule (lib/publish/public-rate in Autoura): engine figure for 2 travellers, house margin 30 %, lowest season, higher of EU / other, cheapest complete tier, rounded UP to the whole euro; ES and JA = the same with a Spanish / Japanese guide. Source: Autoura T2E-DT-LXR-06, built 20 Nov for this day: Esna Temple, the Temple of Horus at Edfu, Kom Ombo Temple (the Crocodile Museum is on its ticket), lunch, water, guide, and the car card 'Hotel → Aswan(with visits)' (intercity day trip Luxor → Aswan, sedan 5,800 EGP). Budget tier complete in every language: EN €125.08, ES €136.09, JA €152.60, rounded up. Live today (tiered): EN €162, ES €173, JA €180. The import refuses --apply while any is null.",
+  "en": 126,
+  "es": 137,
+  "ja": 153
+}

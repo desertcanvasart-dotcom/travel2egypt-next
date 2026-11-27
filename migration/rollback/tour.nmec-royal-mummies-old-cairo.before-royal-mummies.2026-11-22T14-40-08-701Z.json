@@ -1,0 +1,1443 @@
+{
+ "_createdAt": "2026-05-28T11:45:27Z",
+ "_id": "tour.nmec-royal-mummies-old-cairo",
+ "_rev": "njTfVwbi0KONc4Ep6A7L8b",
+ "_type": "tour",
+ "_updatedAt": "2026-11-19T18:43:29Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Visitors who want the royal mummies done properly, paired with Coptic and Islamic Cairo — and who would rather have one museum read deeply than three skimmed"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Interesados en momias reales, religion e historia urbana"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "王家のミイラを正しく現在の所在地NMECで見たい方、ファラオ／コプト／イスラムの三層を一本の弧で読みたい方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "One Day, Three Thousand Years: Cairo's Heritage Circuit"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo is not one city. It is several cities stacked on top of one another — pharaonic, Roman, Coptic, Islamic, Ottoman — and most visitors only scratch the surface of one or two layers before their time runs out. This day tour is designed for the traveller who wants to move through all of them deliberately, with an Egyptologist guide who can explain not just what you are looking at, but why it matters and how each era connects to the next."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "The route runs from the National Museum of Egyptian Civilisation, where twenty royal mummies lie in carefully controlled galleries, south to Old Cairo's Coptic quarter — built over a Roman fortress and still home to churches that predate the Arab conquest by centuries — and then east into the dense medieval lanes of Islamic Cairo, ending at Khan El Khalili, the bazaar that has operated continuously since the fourteenth century. It is a full day, starting at nine in the morning and running into the early evening. The pace is steady but not punishing, and the driving between sites is short."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "This suits first-time visitors to Cairo who want historical depth rather than monument-hopping, and equally suits returning travellers who skipped the NMEC or Old Cairo on previous trips. It does not suit anyone hoping for a leisurely half-day."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "One honest note: Cairo's traffic is real, and the city is large. Timings between sites can stretch. The guide will help, but build patience into your expectations."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "The day begins at your hotel at 9:00 AM. The drive to the "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "NMEC"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": " — the National Museum of Egyptian Civilisation, on the southern shore of Lake Ain El Sira in Fustat — takes roughly twenty to thirty minutes depending on traffic. Your Egyptologist guide uses this time to frame what you are about to see: not just ancient Egypt in isolation, but a continuous human story that runs from prehistory to the present day."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "The NMEC is a serious museum, opened fully in its current form and expanded in recent years to house the Royal Mummies Hall, which alone justifies the visit. You will spend approximately two hours here across three areas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "The "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Royal Mummies Hall"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": " is the centrepiece. Twenty rulers — kings and queens spanning the New Kingdom and the Third Intermediate Period — rest in a hushed, climate-controlled gallery designed to evoke the atmosphere of a tomb. The mummies were transferred here from the Egyptian Museum in Tahrir Square in 2021 in a state procession that shut down central Cairo, and the NMEC is now their permanent home. Seeing them in person is a different experience from photographs: the physical presence of Seqenenre-Taa II, whose skull bears the unmistakable injuries of a battlefield death during the Hyksos wars around 1555 BC, or of Ramses II — who lived to approximately ninety years old, ruled for sixty-seven of them, and left monuments from Aswan to Syria — is quietly arresting. Hatshepsut is here too: the woman who ruled Egypt as pharaoh for over two decades in the fifteenth century BC, whose image was later systematically erased from official monuments by her successor. The forensic science behind the identifications, explained by your guide, is as compelling as the history."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "The main galleries trace Egyptian civilisation from the prehistoric Nazlet Khater skeleton — among the earliest human remains found in Egypt — through pharaonic, Coptic, and Islamic eras. The Textile Gallery holds around six hundred artefacts and provides useful context for understanding mummification, funerary practice, and the continuity of Egyptian craft traditions across millennia."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "From the NMEC, the drive south to "
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Old Cairo"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": " takes roughly ten minutes. This area, known as Coptic Cairo, sits on top of the ancient Roman fortress of Babylon — a name that predates Islam in Egypt by several centuries — and contains a concentration of early Christian monuments found nowhere else on the continent. Christianity arrived in Egypt in the first century AD, according to tradition brought by Saint Mark to Alexandria, and the community that grew from it developed its own distinct liturgy, art, and architecture. The buildings here are not reconstructions or restorations in the tourist-attraction sense; many are still functioning places of worship used by Egypt's Coptic Christian community, which numbers around ten million people today."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "The "
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Hanging Church"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": " — Al-Mu'allaqa, meaning \"the suspended one\", so named because its nave is built over the southern gatehouse towers of the Roman fortress — is the most famous of them. Its wooden ceiling is crafted to resemble the hull of an inverted ship, and its interior holds 110 icons, some dating back more than a thousand years."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "The "
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Ben Ezra Synagogue"
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": ", a short walk away, marks the site where, according to Jewish tradition, the infant Moses was found in the reeds. The building itself dates largely to the twelfth century, but it achieved global significance in the nineteenth century when the scholar Solomon Schechter discovered the Cairo Geniza here — a cache of some three hundred thousand manuscript fragments, including medieval letters, legal documents, and biblical texts, that rewrote scholars' understanding of medieval Jewish life and of the Arabic-speaking world more broadly."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "The "
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Church of Saints Sergius and Bacchus"
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": " (Abu Serga) is one of the oldest churches in Cairo, built in the fifth century over a crypt that Coptic tradition holds sheltered the Holy Family during their time in Egypt."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "After Old Cairo, the route moves north into Islamic Cairo — specifically to the area around "
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Al-Azhar Mosque"
+      },
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": " and the medieval commercial district that grew up around it. Al-Azhar, founded in 970 AD by the Fatimid dynasty, is both a mosque and the seat of one of the world's oldest continuously operating universities. A visit inside — shoes off, modest dress required — gives a sense of the scale and seriousness of medieval Islamic scholarship and architecture."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "The day ends at "
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Khan El Khalili"
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": ", the bazaar established in 1382 by the Mamluk emir Djaharks el-Khalili and continuously active ever since. It is not a sanitised market for tourists; it is a working commercial district that sells spices, goldwork, papyrus, alabaster, textiles, perfume oils, and souvenirs of every quality from excellent to worthless. Your guide can help you navigate it honestly. The coffee houses along the edges — El Fishawy has been operating continuously since 1773, according to its own account — are worth sitting in for a few minutes if your energy holds."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Why the NMEC Rather Than the Egyptian Museum"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "This is worth addressing directly. Cairo's pharaonic collections are now split across three museums. The Grand Egyptian Museum at Giza (fully open since 1 November 2025) holds the complete Tutankhamun treasure. The older Egyptian Museum in Tahrir Square remains a vast general collection. And the NMEC was built to tell a broader civilisational story across all periods — with the Royal Mummies Hall, moved here from Tahrir in 2021, now exclusively at the NMEC. Each is a separate visit; this tour takes in the NMEC."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Three thousand years of continuous human civilisation cannot be absorbed in a single day — but this route gives you an honest cross-section of it, from a warrior pharaoh's shattered skull to a medieval bazaar still selling coffee."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "That is not a small thing."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000046",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000044",
+       "_type": "span",
+       "marks": [],
+       "text": "The Royal Mummies Hall is kept at a low temperature to preserve the remains — bring a light layer regardless of season. If your interest leans more toward Tutankhamun's complete treasure than the mummies themselves, that collection is at the Grand Egyptian Museum at Giza, which we can sequence as a separate day. Tell us which museum matters most."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Un día, tres mil años: el circuito patrimonial del Cairo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una ruta privada para ver la civilización egipcia como continuidad, no solo como faraones aislados."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo no es una sola ciudad. Son varias apiladas unas sobre otras —faraónica, romana, copta, islámica, otomana— y la mayoría de los visitantes apenas roza la superficie de una o dos capas antes de que se agote el tiempo. Este tour de día está pensado para el viajero que quiere moverse por todas con deliberación, con un guía egiptólogo que pueda explicar no solo lo que se está mirando, sino por qué importa y cómo cada época se conecta con la siguiente."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta corre desde el Museo Nacional de la Civilización Egipcia, donde veinte momias reales reposan en salas cuidadosamente climatizadas, hacia el sur hasta el barrio copto del Cairo antiguo —construido sobre una fortaleza romana y aún hogar de iglesias anteriores a la conquista árabe en siglos—, y luego al este, hacia los densos callejones medievales del Cairo islámico, cerrando en Jan el-Jalili, el bazar que ha funcionado de forma continua desde el siglo XIV. Es un día completo, que arranca a las nueve de la mañana y se extiende hasta primera hora de la tarde-noche. El ritmo es firme pero no extenuante, y los desplazamientos entre sitios son cortos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Conviene a primeros visitantes del Cairo que buscan profundidad histórica antes que saltar de monumento en monumento, y conviene igualmente a viajeros que regresan y dejaron pasar el NMEC o el Cairo antiguo en visitas anteriores. No conviene a quien aspire a una media jornada relajada."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Una nota honesta: el tráfico del Cairo es real y la ciudad es grande. Los tiempos entre sitios pueden estirarse. El guía ayudará, pero conviene incorporar paciencia a las expectativas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "El día empieza en el hotel a las 9:00. El trayecto al "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "NMEC"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": " —el Museo Nacional de la Civilización Egipcia, en la orilla sur del lago Ain el-Sira, en Fustat— dura entre veinte y treinta minutos según el tráfico. El guía egiptólogo aprovecha ese tiempo para encuadrar lo que se va a ver: no solo el antiguo Egipto aislado, sino una historia humana continua que corre desde la prehistoria hasta el presente."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "El NMEC es un museo serio, abierto plenamente en su forma actual y ampliado en los últimos años para alojar la Sala de las Momias Reales, que por sí sola justifica la visita. Aquí se pasarán aproximadamente dos horas repartidas en tres áreas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "La "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Sala de las Momias Reales"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": " es la pieza central. Veinte gobernantes —reyes y reinas que abarcan el Imperio Nuevo y el Tercer Periodo Intermedio— descansan en una galería silenciosa y climatizada diseñada para evocar la atmósfera de una tumba. Las momias fueron trasladadas aquí desde el Museo Egipcio de la plaza Tahrir en 2021 en una procesión de Estado que cortó el centro del Cairo, y el NMEC es ahora su hogar permanente. Verlas en persona es una experiencia distinta a la de las fotografías: la presencia física de Seqenenra Taa II, cuyo cráneo lleva las inconfundibles heridas de una muerte en batalla durante las guerras contra los hicsos en torno al 1555 a. C., o de Ramsés II —que vivió aproximadamente noventa años, gobernó sesenta y siete de ellos y dejó monumentos desde Asuán hasta Siria— resulta calladamente arrestadora. Hatshepsut también está aquí: la mujer que gobernó Egipto como faraón durante más de dos décadas en el siglo XV a. C., cuya imagen fue después borrada sistemáticamente de los monumentos oficiales por su sucesor. La ciencia forense detrás de las identificaciones, explicada por el guía, resulta tan absorbente como la historia."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Las galerías principales trazan la civilización egipcia desde el esqueleto prehistórico de Nazlet Khater —entre los restos humanos más antiguos hallados en Egipto— a través de las eras faraónica, copta e islámica. La Galería Textil reúne alrededor de seiscientos objetos y aporta contexto útil para entender la momificación, la práctica funeraria y la continuidad de la artesanía egipcia a lo largo de los milenios."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde el NMEC, el trayecto al sur hasta "
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "El Cairo antiguo"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": " toma unos diez minutos. Esta zona, conocida como Cairo copto, se asienta sobre la antigua fortaleza romana de Babilonia —un nombre que precede al islam en Egipto en varios siglos— y concentra una densidad de monumentos cristianos tempranos no hallable en ninguna otra parte del continente. El cristianismo llegó a Egipto en el siglo I d. C., según la tradición traído por san Marcos a Alejandría, y la comunidad que creció desde entonces desarrolló su propia liturgia, arte y arquitectura distintos. Los edificios de aquí no son reconstrucciones o restauraciones en el sentido de atracción turística: muchos siguen siendo lugares de culto activo usados por la comunidad cristiana copta de Egipto, que ronda los diez millones de fieles hoy."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "La "
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Iglesia Colgante"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": " —al-Muallaqa, «la suspendida», así llamada porque su nave se construyó sobre las torres de la puerta meridional de la fortaleza romana— es la más famosa. Su techo de madera está labrado para parecer el casco invertido de un barco, y su interior alberga 110 iconos, algunos con más de mil años de antigüedad."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "La "
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "sinagoga de Ben Ezra"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": ", a un paseo corto, marca el sitio donde, según la tradición judía, fue hallado el niño Moisés entre los juncos. El edificio data en gran parte del siglo XII, pero alcanzó relevancia global en el siglo XIX cuando el erudito Solomon Schechter descubrió allí la Genizá de El Cairo —un depósito de unos trescientos mil fragmentos manuscritos, incluidas cartas medievales, documentos legales y textos bíblicos, que reescribió la comprensión académica de la vida judía medieval y del mundo de habla árabe en general—."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "La "
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "iglesia de los santos Sergio y Baco"
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": " (Abu Serga) es una de las iglesias más antiguas del Cairo, construida en el siglo V sobre una cripta que la tradición copta identifica como el refugio de la Sagrada Familia durante su estancia en Egipto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Tras el Cairo antiguo, la ruta sube hacia el norte hacia el Cairo islámico, concretamente al área en torno a la "
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "mezquita de Al-Azhar"
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": " y el distrito comercial medieval que creció a su alrededor. Al-Azhar, fundada en el 970 d. C. por la dinastía fatimí, es a la vez mezquita y sede de una de las universidades en funcionamiento continuo más antiguas del mundo. Una visita al interior —descalzo, con vestimenta modesta— da idea de la escala y la seriedad de la erudición y la arquitectura islámica medieval."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "El día se cierra en "
+      },
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Jan el-Jalili"
+      },
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": ", el bazar fundado en 1382 por el emir mameluco Djaharks el-Khalili y en actividad continua desde entonces. No es un mercado higienizado para turistas; es un distrito comercial activo que vende especias, orfebrería en oro, papiro, alabastro, textiles, aceites perfumados y souvenirs de toda calidad, de excelentes a inservibles. El guía ayuda a navegarlo con honestidad. Los cafés de los bordes —El Fishawi está en funcionamiento sin interrupción desde 1773, según su propio relato— merecen unos minutos sentados si las fuerzas aguantan."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Por qué el NMEC y no el Museo Egipcio"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "Conviene abordarlo directamente. Las colecciones faraónicas del Cairo se reparten ahora entre tres museos. El Gran Museo Egipcio en Guiza (abierto del todo desde el 1 de noviembre de 2025) custodia el tesoro completo de Tutankamón. El antiguo Museo Egipcio en la plaza Tahrir sigue siendo una vasta colección general. Y el NMEC se construyó para contar una historia civilizacional más amplia que abarca todos los periodos, con la Sala de las Momias Reales —trasladada aquí desde Tahrir en 2021— ahora exclusivamente en el NMEC. Cada uno es una visita aparte; este tour incluye el NMEC."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Tres mil años de civilización humana continua no se absorben en un solo día, pero esta ruta ofrece un corte transversal honesto: del cráneo destrozado de un faraón guerrero a un bazar medieval que aún vende café."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "No es poco."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000048",
+       "_type": "span",
+       "marks": [],
+       "text": "La Sala de las Momias Reales se mantiene a baja temperatura para preservar los restos: conviene llevar una capa fina sea cual sea la estación. Si tu interés se inclina más hacia el tesoro completo de Tutankamón que hacia las momias mismas, esa colección está en el Gran Museo Egipcio en Guiza, que podemos secuenciar como día aparte. Cuéntanos qué museo te importa más."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "一日、三千年：カイロ遺産の周遊路"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロはひとつの都市ではありません。いくつもの都市が互いの上に積み重なったもの——ファラオの、ローマの、コプトの、イスラムの、オスマンの——であり、多くの来訪者は、時間が尽きる前に、ひとつかふたつの層の表面をかすめるにすぎません。このデイツアーは、それらすべてのなかを意図をもって進みたい旅人のために——あなたが何を見ているのかだけでなく、なぜそれが重要なのか、そして各時代がいかに次へとつながっているのかを説き明かせるエジプト学ガイドとともに——設計されています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "ルートは、二十体の王家のミイラが入念に制御された展示室に横たわる国立エジプト文明博物館から、ローマの要塞の上に築かれ、アラブの征服に幾世紀も先立つ教会を今なお擁するオールド・カイロのコプト地区へと南下し、それから東へ、イスラム地区カイロの密集した中世の路地へと入り、十四世紀以来絶え間なく営業を続けるバザール、ハーン・ハリーリで終わります。これは終日の一日で、午前9時に始まり、夕方の早い時間まで続きます。歩みは着実ですが過酷ではなく、遺跡間の移動は短いものです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "これは、記念建造物を渡り歩くより歴史的な深みを求めるカイロ初訪問の方に向いており、また同じく、以前の旅でNMECやオールド・カイロを飛ばしてしまった再訪の旅人にも向いています。穏やかな半日を望む方には向きません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "率直にひとこと。カイロの渋滞は本物で、この都市は大きい。遺跡間の所要時間は延びることがあります。ガイドが助けますが、期待のなかに忍耐を織り込んでください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "一日は午前9時、ホテルから始まります。NMEC——国立エジプト文明博物館、フスタートのアイン・エル・シーラ湖の南岸にあります——へのドライブは、交通状況によりおよそ20〜30分です。エジプト学ガイドはこの時間を使って、あなたがこれから目にするものの枠組みを示します——孤立した古代エジプトだけではなく、先史時代から現代まで続く、ひとつの連続した人類の物語です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "NMECは本格的な博物館で、現在の形で全面開館し、近年、王家のミイラの間を収めるべく拡張されました——その間だけでも訪れる理由になります。ここでは三つの区域にわたり、およそ二時間を過ごします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "王家のミイラの間が、その中核です。二十名の統治者——新王国時代と第三中間期にまたがる王たちと王妃たち——が、墓の雰囲気を呼び起こすよう設計された、静まりかえった気候制御の展示室に憩います。ミイラは2021年に、中央カイロを封鎖した国家的な行列のなかで、タハリール広場のエジプト博物館からここへ移されました。実物を目にすることは、写真とはまた別の体験です——紀元前1555年ごろのヒクソスとの戦いで戦場の死を遂げた、その頭蓋骨にまぎれもない傷を負ったセケンエンラー・タア2世の、あるいはおよそ九十歳まで生き、そのうち六十七年を統治し、アスワンからシリアまで記念建造物を遺したラムセス2世の、その物理的な存在は、静かに人の心をとらえます。ハトシェプストもここにいます——紀元前十五世紀に二十年以上にわたってファラオとしてエジプトを統べ、その姿を後の後継者によって公的な記念建造物から組織的に消し去られた女性です。その同定の背後にある法医学は、ガイドによって説き明かされ、歴史そのものと同じくらい人を惹きつけます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "主要な展示室は、エジプトで見つかった最古の人骨のひとつである先史時代のナズレト・ハーテルの人骨から、ファラオ、コプト、イスラムの各時代を経て、エジプト文明の歩みをたどります。織物の展示室はおよそ六百点の遺物を擁し、ミイラづくり、葬送の慣わし、そして幾千年にわたるエジプトの工芸の伝統の連続性を理解するための、有用な文脈を与えてくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "NMECから、オールド・カイロへの南下のドライブはおよそ10分です。コプト・カイロとして知られるこの一帯は、古代ローマのバビロン要塞——エジプトにおいてイスラムに幾世紀も先立つ名です——の上に位置し、この大陸のほかのどこにも見られない初期キリスト教の記念建造物の集積を擁しています。キリスト教は紀元1世紀にエジプトへ到来し、伝承によれば聖マルコによってアレクサンドリアへもたらされ、そこから育った共同体は、独自の典礼、美術、建築を発展させました。ここの建物は、観光名所という意味での復元や修復ではありません——その多くは今も機能している礼拝の場であり、今日およそ一千万人を数えるエジプトのコプト・キリスト教徒の共同体によって用いられています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "懸垂教会——アル・ムアッラカ、「吊るされたもの」を意味し、その身廊がローマ要塞の南の門楼の上に築かれていることからそう名づけられました——は、それらのなかで最も有名です。その木の天井は、逆さにした船の船体に似せて造られ、内部には110点のイコンが収められ、そのなかには千年以上さかのぼるものもあります。この教会は、聖家族のエジプト巡りの数多くの言い伝えと結びつき、その伝承は全土にわたってコプトの信仰と巡礼の道を形づくりました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "すぐ近くのベン・エズラ・シナゴーグは、ユダヤの伝承によれば、幼子モーセが葦のなかで見つけられた場所を示しています。建物そのものはおおむね十二世紀にさかのぼりますが、十九世紀に学者ソロモン・シェヒターがここでカイロ・ゲニザ——中世の手紙、法文書、聖書の本文を含むおよそ三十万点の写本の断片の集積で、中世ユダヤ人の暮らしと、より広くアラビア語圏についての学者たちの理解を書き換えた——を発見したとき、世界的な意義を獲得しました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "聖セルギウスおよびバッコス教会（アブー・セルガ）は、カイロ最古の教会のひとつで、コプトの伝承が聖家族のエジプト滞在中に彼らをかくまったとする地下聖堂の上に、五世紀に築かれました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "オールド・カイロのあと、ルートは北へ、イスラム地区カイロ——具体的にはアズハル・モスクと、その周りに育った中世の商業地区の界隈——へと移ります。970年にファーティマ朝によって創建されたアズハルは、モスクであると同時に、世界で最も古くから絶え間なく運営されている大学のひとつの座でもあります。内部の見学——靴を脱ぎ、慎みのある服装が必要です——は、中世イスラムの学問と建築の規模と真剣さの感覚を与えてくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "一日はハーン・ハリーリで終わります。マムルーク朝のアミール、ジャハルクス・エル・ハリーリによって1382年に始められ、それ以来絶え間なく営みを続けるバザールです。観光客向けに無菌化された市場ではありません——香辛料、金細工、パピルス、アラバスター、織物、香水、そして優れたものから無価値なものまであらゆる質の土産物を売る、現役の商業地区です。ガイドが正直に案内を助けてくれます。縁に並ぶコーヒーハウス——エル・フィシャーウィーは、店自身によれば1773年から営業を続けています——は、体力が続くなら、数分腰かける価値があります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "なぜエジプト博物館ではなくNMECなのか"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "これは率直に述べておく価値があります。カイロのファラオ時代の収蔵品は、いまや三つの博物館に分かれています。ギザの大エジプト博物館（2025年11月1日に全面開館）は、ツタンカーメンの完全な財宝を擁します。タハリール広場のより古いエジプト博物館は、広大な総合的収蔵を保ちます。そしてNMECは、あらゆる時代にわたる、より広い文明の物語を語るために築かれました——2021年にタハリールからここへ移された王家のミイラの間とともに、今やそのミイラはNMECにのみあります。それぞれが別々の見学であり、このツアーが訪ねるのはNMECです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "三千年にわたる絶え間ない人類文明を、ただ一日で吸収することはできません——けれどこのルートは、その正直な断面を、戦士のファラオの砕けた頭蓋骨から、いまもコーヒーを売る中世のバザールまで、あなたに与えてくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "それは、小さなことではありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": "ミイラの間の薄手の一枚、午前のNMECの滞在時間、アズハルの礼拝時間の調整など、細部は事前にすり合わせるのが安心です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "This is a walking-heavy route — lanes and sanctuaries rather than open desert — and one of the few days we run with no minimum age. Travelling with children, or with anyone who paces slowly, tell our concierge: the Coptic quarter can be taken gently and the bazaar shortened without the day losing its shape."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Es una ruta de mucho caminar — callejones y santuarios más que desierto abierto — y uno de los pocos días que operamos sin edad mínima. Si viajas con niños, o con alguien que va despacio, díselo a nuestro concierge: el barrio copto se puede tomar con calma y el bazar acortarse sin que el día pierda su forma."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "この行程は歩く場面の多い一日です——開けた砂漠ではなく、路地と聖域を縫っていきます。最少年齢を設けていない数少ないコースでもあります。お子様連れの方や、ゆっくり歩きたい方がいらっしゃれば、コンシェルジュにお伝えください。コプト地区は穏やかに、バザールは短めに——一日の骨格を崩さずに整えられます。"
+  }
+ ],
+ "durationHours": 8,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Full day · ~8 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Día completo · ~8 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "終日・約8時間"
+  }
+ ],
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 88,
+  "ja": 95
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The angular modern building of the National Museum of Egyptian Civilisation in Cairo, mirrored in a still pool"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El edificio moderno y anguloso del Museo Nacional de la Civilización Egipcia en El Cairo, reflejado en un estanque"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "カイロの国立エジプト文明博物館の角ばった近代建築が、静かな水面に映る。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-5cb460cd6e356b612c04ee82cd6068e5d5f91d2a-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The National Museum of Egyptian Civilisation, home of the Royal Mummies."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El Museo Nacional de la Civilización Egipcia, sede de las Momias Reales."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "王家のミイラを収める国立エジプト文明博物館。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "qjt1wq0k7j",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This day tour is designed for the traveller who wants to move through all of them deliberately, with an Egyptologist guide who can explain not just what you are looking at, but why it matters and how each era connects to the next.",
+   "text": "Egyptologist guide"
+  },
+  {
+   "_key": "02y72nb4bs",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cada uno es una visita aparte; este tour incluye el NMEC.",
+   "text": "Visita al NMEC"
+  },
+  {
+   "_key": "jgr0qz67xe",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Este tour de día está pensado para el viajero que quiere moverse por todas con deliberación, con un guía egiptólogo que pueda explicar no solo lo que se está mirando, sino por qué importa y cómo cada época se conecta con la siguiente.",
+   "text": "Guía egiptólogo"
+  },
+  {
+   "_key": "8yemm1cjxc",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "このデイツアーは、それらすべてのなかを意図をもって進みたい旅人のために——あなたが何を見ているのかだけでなく、なぜそれが重要なのか、そして各時代がいかに次へとつながっているのかを説き明かせるエジプト学ガイドとともに——設計されています。",
+   "text": "エジプト学ガイド"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/nmec-royal-mummies-old-cairo/"
+ },
+ "priceFrom": 77,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_alexandria_catacombs_pompeys_pillar_group_day_tour_from_cairo",
+   "_ref": "tour.alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_transfer_from_cairo_airport_to_hotel",
+   "_ref": "tour.transfer-from-cairo-airport-to-hotel",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_cairo_dinner_cruise_with_belly_dancing_show",
+   "_ref": "tour.cairo-dinner-cruise-with-belly-dancing-show",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_egyptian_museum_citadel_and_khan_el_khalili_bazaar",
+   "_ref": "tour.egyptian-museum-citadel-and-khan-el-khalili-bazaar",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Fully private · own licensed Egyptologist · air-conditioned vehicle · modest dress required at mosque and churches · no minimum age, families welcome · tiered pricing with optional entrance-fee and lunch bundles"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Tour privado patrimonial · Activo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "お客様のご一行だけのプライベートツアー · 公認エジプト学ガイド · エアコン付き専用車両 · 年齢制限なし（教会・モスクは慎ましい装い） · 三段階のプライシング（ベース／＋入場料／＋入場料・昼食）"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Full day, approximately 9 AM to 6 PM"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Dia completo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "終日（午前9時開始、夕方の早い時間まで）"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "NMEC (Fustat) → Coptic Cairo (Hanging Church, Ben Ezra Synagogue, Abu Serga) → Al-Azhar Mosque → Khan El Khalili"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "NMEC, Cairo copto/islamico y Jan el-Jalili"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "ホテル → NMEC（王家のミイラの間） → コプト・カイロ（懸垂教会、ベン・エズラ・シナゴーグ、アブー・セルガ） → アズハル・モスク → ハーン・ハリーリ"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "nmec-royal-mummies-old-cairo"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "dia-patrimonial-en-el-cairo-nmec-momias-reales-y-cairo-antiguo"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "kairo-isan-no-ichi-nichi-oke-no-miira-orudo-kairo-han-hariri"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "From pharaonic mummies at the NMEC to Coptic churches, a medieval synagogue, and the medieval bazaar — one long day covers three millennia of Cairo."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "De las momias faraónicas del NMEC a las iglesias coptas, una sinagoga medieval y el bazar: un día largo recorre tres milenios del Cairo."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "NMECのファラオたちのミイラから、コプトの教会、中世のシナゴーグ、そして中世のバザールまで——長い一日が、カイロの三千年を網羅します。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Cairo Heritage Day: Royal Mummies, Old Cairo & Khan El Khalili"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Día patrimonial en El Cairo: NMEC, momias reales y Cairo antiguo"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "カイロ遺産の一日：王家のミイラ、オールド・カイロ、ハーン・ハリーリ"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}

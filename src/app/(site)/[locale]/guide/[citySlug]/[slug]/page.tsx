@@ -3,6 +3,7 @@ import { RelatedToursBlock } from '@/components/related-tours/RelatedToursBlock'
 import { fallbackTours, splitAfterSection, type ArticleTour } from '@/lib/articleTours';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { redirectForeignSlug } from '@/lib/foreign-slug';
 import Image from 'next/image';
 
 import '@/styles/climate-signature.css';
@@ -109,6 +110,9 @@ export default async function GuideArticlePage({ params }: Props) {
   });
 
   if (!article || !article.parentCity) {
+    // Wrong-language slug or city segment (old GSC discoveries) → 308 to the
+    // right page.
+    if (!article) await redirectForeignSlug('guideArticle', locale, [citySlug, slug]);
     notFound();
   }
 

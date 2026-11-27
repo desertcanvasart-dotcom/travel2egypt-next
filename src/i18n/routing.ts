@@ -62,6 +62,7 @@ export const routing = defineRouting({
       es: '/paquetes-en-grupo-reducido',
       ja: '/shoninzu-guruupu-pakkeeji',
     },
+    '/group-departures': '/group-departures',
     '/packages': '/packages',
     '/tours': '/tours',
     '/nile-cruises': '/nile-cruises',

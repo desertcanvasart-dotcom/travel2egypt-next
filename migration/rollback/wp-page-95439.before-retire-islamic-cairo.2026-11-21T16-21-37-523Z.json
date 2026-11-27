@@ -1,0 +1,5323 @@
+{
+ "_createdAt": "2026-05-06T23:01:32Z",
+ "_id": "wp-page-95439",
+ "_rev": "6je0itagKXDsMyXfn8Uvex",
+ "_type": "wikiMonument",
+ "_updatedAt": "2026-10-31T13:31:36Z",
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Khan Al-Khalili Bazaar"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000004",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Khan el-Khalili Bazaar,"
+      },
+      {
+       "_key": "000000000003",
+       "_type": "span",
+       "marks": [],
+       "text": " nestled in the heart of Cairo, Egypt, stands as a renowned marketplace and traditional souq. Originally founded as a trading hub during the Mamluk period, and named after one of the historic inns in the vicinity, this bustling bazaar has evolved into a prime destination for both visitors and locals. It’s a vibrant center where Egyptian craftsmen and workshops bring traditional handicrafts and souvenirs to life. While ‘Khan el-Khalili’ once denoted a singular structure, it now encompasses the whole shopping area, drawing people into its rich history and cultural tapestry."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000006",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000005",
+       "_type": "span",
+       "marks": [],
+       "text": "Fatimid Foundations: The Origins of Cairo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [],
+       "text": "In the era of the Fatimids, between the 10th and 12th centuries, the area now known as Khan el-Khalili played a significant role in the foundation of "
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [
+        "000000000008"
+       ],
+       "text": "Cairo"
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": ". Established in 969 CE as the capital of the expansive Fatimid Caliphate, which spanned across North Africa and into parts of the Levant and the Hijaz, Cairo was born from the vision of "
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [
+        "00000000000b"
+       ],
+       "text": "Jawhar Al-Siqilli."
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [],
+       "text": " This general, under Fatimid command, was tasked with building an impressive palace complex to accommodate the caliphs, their household, and the governmental bodies of the state. The completion of two grand palaces, an eastern and a western, marked the construction, with a plaza called Bayn al-Qasrayn (“Between the Two Palaces”) nestled between them. The location where Khan el-Khalili stands today was once part of the eastern palace’s southern end, also serving as the Fatimid caliphs’ burial ground within the Turbat az-Za’faraan (“the Saffron Tomb”), and included a smaller palace, al-Qasr al-Nafi’i, which is now the site of the 19th-century Wikala of Sulayman Agha al-Silahdar."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000008",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-83284",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "externalLink",
+       "href": "https://www.wikidata.org/wiki/Q559554",
+       "newTab": true
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000010",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": "During the Fatimid era, Cairo was a closed palace-city, accessible only to the Caliph’s family, state officials, army regiments, and essential personnel. It wasn’t until the later years of Fatimid rule that efforts were made to open the city to merchants and outsiders, initiated by influential viziers. Between 1087 and 1092, Badr al-Gamali, a vizier for Caliph al-Mustansir, expanded the city, building its stone walls and gates, some of which survive today, and initially opened the city to the public before the policy was reversed. Later, between 1121 and 1125, al-Ma’mun al-Bata’ihi, vizier for Caliph al-Amir, implemented reforms and launched construction projects that introduced foreign trade to Cairo’s core. This included the establishment of a mint, the Dar al-Darb, and a customs house, the Dar al-Wikala, near the site of the later 15th-century Madrasa of al-Ashraf Barsbay, marking the beginning of foreign trade’s integration into the city’s heart."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000012",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo's Economic Rise: From Fatimid to Mamluk Era"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [],
+       "text": "From the 12th to the 14th century, Cairo transitioned into a vibrant economic hub under the leadership of Salah ad-Din (Saladin), who, after ending the Fatimid Caliphate in 1171, initiated significant changes by building a new fortified Citadel to the south of the city walls. This move signaled the opening of the previously exclusive Fatimid palaces for redevelopment, transforming "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "000000000014"
+       ],
+       "text": "Cairo"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": " from a secluded palace-city into a bustling economic center accessible to the general Egyptian populace and foreign visitors alike. Meanwhile, the nearby port city of Fustat, once Egypt’s economic heart, saw a gradual decline, further cementing Cairo’s rising prominence."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000014",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-83284",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "The transformation was notably evident along the city’s main north-to-south thoroughfare, the Qasaba (present-day al-Muizz Street), stretching between the gates of Bab al-Futuh and Bab Zuweila and weaving through Bayn al-Qasrayn. This period under the Ayyubids and later the Mamluks saw this avenue become a favored spot for erecting religious complexes, royal mausoleums, and various commercial ventures, often sponsored by the sultan or the elite. It was along this stretch that Cairo’s major souqs sprung up, establishing the area as a key zone for international trade and business activities."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "A crucial component in developing Cairo’s economic landscape was the proliferation of waqf institutions during the Mamluk era. Waqfs, or charitable trusts as defined by Islamic law, supported the construction and operation of numerous religious and civic buildings by the ruling class, with funding often derived from the revenues of specific shops or commercial ventures. One notable early example was the complex of Sultan Qalawun, constructed in 1284-85, which encompassed a madrasa, hospital, and mausoleum. Its maintenance was partially funded by the income from a qaysariyya (a market complex) built in proximity to the Ayyubid-era madrasa of al-Salih. Situated along the Qasaba, this qaysariyya exemplified the kind of dedicated commercial structures that emerged in Cairo, fostering the city’s evolution into a thriving economic center under Mamluk governance."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": " The Mamluk Era: Architectural Evolution of Khan al-Khalili"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "In the Mamluk period, spanning the 14th to 15th centuries, the landscape of Cairo underwent significant changes, particularly along the bustling Qasaba avenue. As the street became increasingly crowded with the construction of new buildings and the disappearance of open spaces, the focus of commercial development shifted eastward, nearer to al-Azhar Mosque and the shrine of al-Hussein, where room for expansion still existed. The traditional souq areas, once filled with temporary market stalls, began to be replaced by permanent stone structures. These buildings, designed with integrated shops, were a response to the authorities’ desire for more control over commercial activities, allowing for easier taxation and regulation compared to the ephemeral nature of market stalls."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "To accommodate the city’s growing density and scarcity of space, architects and builders turned to constructing multi-story buildings known as khans or wikala, serving as caravanserais with accommodations for merchants. These structures featured an inner courtyard for storage and upper levels for living quarters, with shop spaces often lining the street-facing sides. This architectural innovation allowed for the expansion of commercial zones through the interconnected areas around multiple khans."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "During the reign of Sultan Barquq, the first Burji Mamluk sultan, despite the devastating impact of the Black Death, Egypt remained a vibrant economic hub, with the construction of commercial and religious buildings continuing. It was in this period that Jaharkas al-Khalili, Barquq’s Master of the Stables, demolished the Fatimid mausoleum, Turbat az-Za’faraan, to construct a large khan that would bear his name, Khan al-Khalili, thereby establishing a new commercial center in the heart of Cairo. This name eventually came to represent the entire district, with al-Khalili controversially disposing of the Fatimid royal family’s remains."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "The trend of building commercial structures continued under later Mamluk rulers. For instance, during the era of Sultan Qaytbay, one of his amirs, Yashbak min Mahdi, erected the Rab’ al-Badistan, a residential complex for tenants across from Khan al-Khalili, while Qaytbay himself built the Wikala of Sultan Qaytbay further east, near al-Azhar Mosque. By the late 15th century, the area surrounding Khan el-Khalili had developed into a major center for foreign trade, including transactions involving slaves and precious stones, reflecting its importance in Cairo’s economic landscape."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Sultan al-Ghuri's Legacy: Redefining Cairo's Commercial Landscape "
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "In the dawn of the 16th century, Sultan al-Ghuri, marking his reign as the last effective Mamluk sultan of Egypt from 1501 to 1516, embarked on an ambitious project to transform the district’s landscape with a sweeping redevelopment campaign. His efforts included the construction of his own religious and funerary complex, along with a grand Wikala named in his honor. A significant part of this transformation involved demolishing the original khan established by al-Khalili and erecting a new structure in 1511, which for many years was known as the Khan al-Fisqiya (“Khan of the Fountain”). This name persisted until it was later referred to as the Wikala al-Qutn (“Wikala of Cotton”)."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Al-Ghuri’s redevelopment extended beyond individual buildings; he reshaped the adjacent areas into a souq, the Suq al-Nabulsi, which he distinguished with monumental stone gates. His vision included implementing a more systematic grid plan for the district, lending a sense of order and coherence to the urban fabric. This redesign featured elements reminiscent of a bedesten—found in Ottoman cities—a centralized bazaar dealing in valuable goods, often characterized by covered streets and gates that were secured at night. It’s speculated that al-Ghuri’s efforts might have been inspired by similar commercial hubs in major Ottoman cities, especially considering the period’s intense rivalry between the Ottoman Empire and the Egyptian Mamluk state, alongside the growing presence of Turkish merchants in Cairo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "Today, remnants of Sultan al-Ghuri’s ambitious undertakings are still visible, including the Suq al-Nabulsi with its two elaborately crafted stone gates, and the façade and entrance of the Wikala al-Qutn. These historic landmarks line the street known as Sikkat al-Badistan. The western gate, originally called Bab al-Silsila but now known as Bab al-Badistan, and the eastern gate, formerly Bab al-Nuhhas and currently Bab al-Ghuri, stand as enduring testaments to a time of transformative urban development in Cairo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002e",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/GI_815359526_CitadelView_Cairo.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Cairo Food Guide"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "The Citadel of Cairo: A blend of medieval magnificence and urban expansion"
+      }
+     ]
+    },
+    {
+     "_key": "00000000002f",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Cairo-Egypt.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Cairo Food Guide"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "Cairo's golden hour, where the Nile meets the city's ancient charm"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Bazar Khan Al-Khalili "
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000010",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Bazar Khan el-Khalili,"
+      },
+      {
+       "_key": "000000000003",
+       "_type": "span",
+       "marks": [],
+       "text": " situado en el corazón de El Cairo, Egipto, es un renombrado mercado y zoco tradicional."
+      },
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000005",
+       "_type": "span",
+       "marks": [],
+       "text": "Fundado originalmente como centro comercial durante el periodo mameluco, y bautizado con el nombre de una de las posadas históricas de las inmediaciones, este bullicioso bazar ha evolucionado hasta convertirse en un destino de primer orden para visitantes y lugareños."
+      },
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [],
+       "text": "Es un centro "
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [
+        "000000000008"
+       ],
+       "text": "vibrante donde los"
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": " artesanos y talleres egipcios dan vida a la artesanía y los recuerdos tradicionales."
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Aunque «Khan el-Khalili» denotó en su día una estructura singular, ahora abarca toda la zona comercial, atrayendo a la gente hacia su rica "
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [
+        "00000000000d"
+       ],
+       "text": "historia"
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": " y su tapiz cultural. "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000008",
+       "_type": "externalLink",
+       "href": "/es/guide/asyut",
+       "newTab": false
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "externalLink",
+       "href": "/es/blog/explorando-la-gran-esfinge-de-guiza",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000012",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [],
+       "text": "Fundaciones fatimíes: Los orígenes de El Cairo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [],
+       "text": "En la época de los fatimíes, entre los siglos X y XII, la zona ahora conocida como Khan el-Khalili desempeñó un papel importante en la fundación de "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "000000000014"
+       ],
+       "text": "El Cairo"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Establecida en 969 d.C. como capital del extenso califato fatimí, que se extendía por el norte de África y partes del Levante y el Hiyaz, El Cairo nació de la visión de Jawhar al-Siqilli. Este general, bajo mando fatimí, recibió el encargo de construir un impresionante complejo palaciego para alojar a los califas, su "
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "casa y los órganos gubernamentales del"
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": " estado."
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": "La construcción estuvo marcada por la finalización de dos grandes palacios, uno oriental y otro occidental, entre "
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [
+        "00000000001e"
+       ],
+       "text": "los que se encontraba una"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": " plaza llamada Bayn al-Qasrayn («Entre los dos palacios»)."
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "El lugar donde hoy se alza el jan el-Jalili formaba parte del extremo sur del palacio oriental, que también servía de cementerio a los califas fatimíes en el Turbat az-Za’faraan («la Tumba del Azafrán»), e incluía un palacio más pequeño, al-Qasr al-Nafi’i, que ahora es el emplazamiento de la wikala del siglo XIX de Sulayman Agha al-Silahdar."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000014",
+       "_type": "externalLink",
+       "href": "/es/blog/guia-de-el-cairo-para-aficionados-a-la-historia",
+       "newTab": false
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "externalLink",
+       "href": "/es/blog/los-coptos-de-egipto-guardianes-de-una-antigua-fe",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Durante la época fatimí, El Cairo era una ciudad-palacio cerrada, accesible "
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [
+        "000000000025"
+       ],
+       "text": "sólo a la familia del"
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [],
+       "text": " califa, los funcionarios del estado, los regimientos del ejército y el personal esencial."
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [],
+       "text": "Hasta los últimos años del gobierno fatimí no se hicieron esfuerzos por abrir la ciudad a los mercaderes y forasteros, "
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [],
+       "text": "iniciados por"
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": " visires influyentes."
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Entre 1087 y 1092, Badr al-Gamali, visir del califa al-Mustansir, amplió la ciudad, construyendo sus murallas y puertas de piedra, algunas de las cuales sobreviven hoy en día, e inicialmente abrió la ciudad al público antes de que se revirtiera esta política."
+      },
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Más tarde, entre 1121 y 1125, al-Ma’mun al-Bata’ihi, visir del califa al-Amir, llevó a cabo reformas y puso en marcha proyectos de construcción que introdujeron el comercio exterior "
+      },
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "000000000031"
+       ],
+       "text": "en el núcleo de El Cairo"
+      },
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      },
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000035",
+       "_type": "span",
+       "marks": [],
+       "text": "Esto incluyó el establecimiento de una ceca, el Dar al-Darb, y una aduana, el Dar al-Wikala, cerca "
+      },
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [
+        "000000000036"
+       ],
+       "text": "del emplazamiento de la posterior madrasa de al-Ashraf Barsbay, del siglo XV, lo que marcó el inicio de la integración del comercio exterior en el corazón"
+      },
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": " de la ciudad."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000025",
+       "_type": "externalLink",
+       "href": "/es/guide/abu-simbel/fiestas-del-sol",
+       "newTab": false
+      },
+      {
+       "_key": "000000000031",
+       "_type": "externalLink",
+       "href": "/es/blog/islamicos-de-visita-obligada-en-el-cairo",
+       "newTab": false
+      },
+      {
+       "_key": "000000000036",
+       "_type": "externalLink",
+       "href": "/es/guide/al-wadi-al-gadid",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": "El auge económico de El Cairo: de la época fatimí a la mameluca"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000004a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "Entre los siglos XII y XIV, El Cairo se convirtió en un vibrante centro económico bajo el liderazgo de Salah ad-Din (Saladino), quien, tras poner fin al califato fatimí en 1171, inició cambios significativos construyendo una nueva "
+      },
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [
+        "00000000003d"
+       ],
+       "text": "ciudadela fortificada al sur de"
+      },
+      {
+       "_key": "00000000003f",
+       "_type": "span",
+       "marks": [],
+       "text": " las murallas de la ciudad."
+      },
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000041",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta medida supuso la apertura de los hasta entonces exclusivos palacios fatimíes a la reurbanización, transformando El Cairo de una aislada ciudad-palacio en un bullicioso centro económico accesible tanto a la población egipcia en general como a los "
+      },
+      {
+       "_key": "000000000043",
+       "_type": "span",
+       "marks": [],
+       "text": "visitantes"
+      },
+      {
+       "_key": "000000000044",
+       "_type": "span",
+       "marks": [],
+       "text": " extranjeros."
+      },
+      {
+       "_key": "000000000045",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000046",
+       "_type": "span",
+       "marks": [],
+       "text": "Mientras tanto, la cercana ciudad portuaria de Fustat, antaño corazón económico de "
+      },
+      {
+       "_key": "000000000048",
+       "_type": "span",
+       "marks": [
+        "000000000047"
+       ],
+       "text": "Egipto"
+      },
+      {
+       "_key": "000000000049",
+       "_type": "span",
+       "marks": [],
+       "text": ", experimentó un declive gradual, cimentando aún más el creciente protagonismo de El Cairo."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000003d",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/la-mezquita-de-ibn-tulun",
+       "newTab": false
+      },
+      {
+       "_key": "000000000047",
+       "_type": "externalLink",
+       "href": "/es/guide/abu-simbel/el-templo-de-amada",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000059",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004b",
+       "_type": "span",
+       "marks": [],
+       "text": "La transformación fue especialmente evidente a lo largo de la principal vía de norte a sur de la ciudad, la Qasaba (actual calle al-Muizz), que se extiende entre las puertas de Bab al-Futuh y "
+      },
+      {
+       "_key": "00000000004d",
+       "_type": "span",
+       "marks": [
+        "00000000004c"
+       ],
+       "text": "Bab Zuweila"
+      },
+      {
+       "_key": "00000000004e",
+       "_type": "span",
+       "marks": [],
+       "text": " y atraviesa Bayn al-Qasrayn."
+      },
+      {
+       "_key": "00000000004f",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000050",
+       "_type": "span",
+       "marks": [],
+       "text": "Durante el periodo de los ayyubíes y, más tarde, de los mamelucos, esta avenida se convirtió en un "
+      },
+      {
+       "_key": "000000000052",
+       "_type": "span",
+       "marks": [],
+       "text": "lugar privilegiado para erigir complejos religiosos"
+      },
+      {
+       "_key": "000000000053",
+       "_type": "span",
+       "marks": [],
+       "text": ", mausoleos reales y diversas empresas comerciales, a menudo patrocinadas por el sultán o la élite."
+      },
+      {
+       "_key": "000000000054",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000055",
+       "_type": "span",
+       "marks": [],
+       "text": "Fue a lo largo de este tramo donde surgieron los principales zocos de El Cairo, estableciendo el área como una zona clave "
+      },
+      {
+       "_key": "000000000057",
+       "_type": "span",
+       "marks": [
+        "000000000056"
+       ],
+       "text": "para el comercio internacional y las actividades"
+      },
+      {
+       "_key": "000000000058",
+       "_type": "span",
+       "marks": [],
+       "text": " empresariales."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000004c",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.bab-zuweila",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "000000000056",
+       "_type": "externalLink",
+       "href": "/es/guide/safaga",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005a",
+       "_type": "span",
+       "marks": [],
+       "text": "Un componente crucial en el desarrollo del paisaje económico de El Cairo fue la proliferación de instituciones waqf durante la época mameluca."
+      },
+      {
+       "_key": "00000000005b",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000005c",
+       "_type": "span",
+       "marks": [],
+       "text": "Los waqf, o fideicomisos de beneficencia según la definición de la ley islámica, apoyaron la construcción y el funcionamiento de numerosos edificios religiosos y cívicos por parte de la clase gobernante, con financiación a menudo procedente "
+      },
+      {
+       "_key": "00000000005e",
+       "_type": "span",
+       "marks": [
+        "00000000005d"
+       ],
+       "text": "de los"
+      },
+      {
+       "_key": "00000000005f",
+       "_type": "span",
+       "marks": [],
+       "text": " ingresos de tiendas o empresas comerciales específicas."
+      },
+      {
+       "_key": "000000000060",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000061",
+       "_type": "span",
+       "marks": [],
+       "text": "Uno de los primeros ejemplos notables fue el complejo del sultán "
+      },
+      {
+       "_key": "000000000063",
+       "_type": "span",
+       "marks": [
+        "000000000062"
+       ],
+       "text": "Qalawun"
+      },
+      {
+       "_key": "000000000064",
+       "_type": "span",
+       "marks": [],
+       "text": ", construido en 1284-85, que comprendía una madrasa, un hospital y un mausoleo."
+      },
+      {
+       "_key": "000000000065",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000066",
+       "_type": "span",
+       "marks": [],
+       "text": "Su mantenimiento se financió en parte "
+      },
+      {
+       "_key": "000000000068",
+       "_type": "span",
+       "marks": [
+        "000000000067"
+       ],
+       "text": "con los ingresos de una"
+      },
+      {
+       "_key": "000000000069",
+       "_type": "span",
+       "marks": [],
+       "text": " qaysariyya (un complejo de mercado) construido cerca de la madrasa de al-Salih, de la época ayyubí."
+      },
+      {
+       "_key": "00000000006a",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000006b",
+       "_type": "span",
+       "marks": [],
+       "text": "Situada junto a la Qasaba, esta qaysariyya ejemplificaba el tipo de estructuras comerciales dedicadas que surgieron en El Cairo, fomentando la evolución de la ciudad hacia un próspero centro económico bajo el gobierno mameluco."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000005d",
+       "_type": "externalLink",
+       "href": "/es/blog/que-incluyen-los-paquetes-de-crucero-por-el-nilo",
+       "newTab": false
+      },
+      {
+       "_key": "000000000062",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo",
+       "newTab": false
+      },
+      {
+       "_key": "000000000067",
+       "_type": "externalLink",
+       "href": "/es/travel-tips/el-clima-de-egipto-zonas-climaticas-estaciones-y-cuando-visitar",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006d",
+       "_type": "span",
+       "marks": [],
+       "text": " La época mameluca: Evolución arquitectónica de Jan al-Jalili"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000007c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006f",
+       "_type": "span",
+       "marks": [],
+       "text": "En el periodo mameluco, que abarca los siglos XIV y XV, el paisaje de El Cairo experimentó cambios significativos, sobre todo a lo largo de la bulliciosa avenida Qasaba."
+      },
+      {
+       "_key": "000000000070",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000071",
+       "_type": "span",
+       "marks": [],
+       "text": " A medida que la calle se iba abarrotando con la construcción de nuevos edificios y la desaparición de los espacios abiertos, el foco del desarrollo comercial se desplazó hacia el este, más cerca de la "
+      },
+      {
+       "_key": "000000000073",
+       "_type": "span",
+       "marks": [
+        "000000000072"
+       ],
+       "text": "mezquita de al-Azhar"
+      },
+      {
+       "_key": "000000000074",
+       "_type": "span",
+       "marks": [],
+       "text": " y del santuario de al-Hussein, donde aún había espacio para la expansión."
+      },
+      {
+       "_key": "000000000075",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000076",
+       "_type": "span",
+       "marks": [],
+       "text": " Las zonas tradicionales de zoco, antes llenas de puestos de mercado temporales, empezaron a ser sustituidas por estructuras permanentes de piedra."
+      },
+      {
+       "_key": "000000000077",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000078",
+       "_type": "span",
+       "marks": [],
+       "text": " Estos edificios, diseñados con tiendas integradas, respondían al deseo de las autoridades de ejercer un mayor control sobre las actividades comerciales, lo que permitía una fiscalidad y una regulación más fáciles "
+      },
+      {
+       "_key": "00000000007a",
+       "_type": "span",
+       "marks": [
+        "000000000079"
+       ],
+       "text": "en comparación con la naturaleza efímera de"
+      },
+      {
+       "_key": "00000000007b",
+       "_type": "span",
+       "marks": [],
+       "text": " los puestos de mercado. "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000072",
+       "_type": "externalLink",
+       "href": "/es/wiki/monuments/mezquita-de-al-azhar",
+       "newTab": false
+      },
+      {
+       "_key": "000000000079",
+       "_type": "externalLink",
+       "href": "/es/blog/alimentacion-en-egipto",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000085",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000007d",
+       "_type": "span",
+       "marks": [],
+       "text": "Para acomodar la creciente densidad de la ciudad y la escasez de espacio, los arquitectos y constructores recurrieron a la construcción de edificios de varios pisos conocidos como khans o wikala, que servían de caravasares con alojamiento para los mercaderes."
+      },
+      {
+       "_key": "00000000007e",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000007f",
+       "_type": "span",
+       "marks": [],
+       "text": " Estas estructuras contaban con un patio interior para almacenamiento y niveles superiores para viviendas, con tiendas a menudo en "
+      },
+      {
+       "_key": "000000000081",
+       "_type": "span",
+       "marks": [
+        "000000000080"
+       ],
+       "text": "los"
+      },
+      {
+       "_key": "000000000082",
+       "_type": "span",
+       "marks": [],
+       "text": " lados que daban a la calle."
+      },
+      {
+       "_key": "000000000083",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000084",
+       "_type": "span",
+       "marks": [],
+       "text": " Esta innovación arquitectónica permitió la expansión de las zonas comerciales a través de las áreas interconectadas alrededor de múltiples khans. "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000080",
+       "_type": "externalLink",
+       "href": "/es/blog/los-mejores-itinerarios-de-viaje-por-egipto",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000094",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000086",
+       "_type": "span",
+       "marks": [],
+       "text": "Durante el reinado del sultán "
+      },
+      {
+       "_key": "000000000088",
+       "_type": "span",
+       "marks": [
+        "000000000087"
+       ],
+       "text": "Barquq"
+      },
+      {
+       "_key": "000000000089",
+       "_type": "span",
+       "marks": [],
+       "text": ", el primer sultán mameluco burji, a pesar del devastador impacto de la peste negra, Egipto siguió siendo un vibrante centro económico, y continuó la construcción de edificios comerciales y religiosos."
+      },
+      {
+       "_key": "00000000008a",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000008b",
+       "_type": "span",
+       "marks": [],
+       "text": " Fue en este periodo cuando Jaharkas al-Jalili, Maestro de Cuadras de Barquq, demolió el mausoleo fatimí, Turbat az-Za’faraan, para construir un gran jan que llevaría su nombre, Khan al-Jalili, estableciendo así un nuevo centro comercial en el "
+      },
+      {
+       "_key": "00000000008d",
+       "_type": "span",
+       "marks": [
+        "00000000008c"
+       ],
+       "text": "corazón de El Cairo"
+      },
+      {
+       "_key": "00000000008e",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      },
+      {
+       "_key": "00000000008f",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000090",
+       "_type": "span",
+       "marks": [],
+       "text": " Con "
+      },
+      {
+       "_key": "000000000092",
+       "_type": "span",
+       "marks": [
+        "000000000091"
+       ],
+       "text": "el tiempo"
+      },
+      {
+       "_key": "000000000093",
+       "_type": "span",
+       "marks": [],
+       "text": ", este nombre pasó a representar a todo el distrito, ya que al-Khalili se deshizo de forma controvertida de los restos de la familia real fatimí. "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000087",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/la-madrasa-y-khanqah-del-sultan-barquq",
+       "newTab": false
+      },
+      {
+       "_key": "00000000008c",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "tour.islamic-cairo-day-tour",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "000000000091",
+       "_type": "externalLink",
+       "href": "/es/guide/esna/es-clima-en-esna",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000009d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000095",
+       "_type": "span",
+       "marks": [],
+       "text": "La tendencia a construir estructuras comerciales continuó con los gobernantes mamelucos posteriores."
+      },
+      {
+       "_key": "000000000096",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000097",
+       "_type": "span",
+       "marks": [],
+       "text": " Por ejemplo, durante la época del sultán Qaytbay, uno de sus emires, Yashbak min Mahdi, erigió el Rab’ al-Badistan, un complejo residencial para inquilinos frente al Jan al-Jalili, mientras que el propio Qaytbay construyó la Wikala del Sultán Qaytbay más al este, cerca de la mezquita de al-Azhar."
+      },
+      {
+       "_key": "000000000098",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000099",
+       "_type": "span",
+       "marks": [],
+       "text": " A finales del siglo XV, la zona "
+      },
+      {
+       "_key": "00000000009b",
+       "_type": "span",
+       "marks": [
+        "00000000009a"
+       ],
+       "text": "que rodeaba Khan el-Khalili"
+      },
+      {
+       "_key": "00000000009c",
+       "_type": "span",
+       "marks": [],
+       "text": " se había convertido en un importante centro de comercio exterior, incluidas transacciones de esclavos y piedras preciosas, lo que reflejaba su importancia en el panorama económico de El Cairo. "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000009a",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "tour.private-tour-pyramids-of-giza-sphinx-egyptian-museum-and-khan-el-khalili-bazaar",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000009f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000009e",
+       "_type": "span",
+       "marks": [],
+       "text": "El legado del Sultán al-Ghuri: La redefinición del paisaje comercial de El Cairo "
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "0000000000aa",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000a0",
+       "_type": "span",
+       "marks": [],
+       "text": "En los albores del siglo XVI, el sultán al-Ghuri, en su reinado como último sultán mameluco efectivo de "
+      },
+      {
+       "_key": "0000000000a2",
+       "_type": "span",
+       "marks": [
+        "0000000000a1"
+       ],
+       "text": "Egipto"
+      },
+      {
+       "_key": "0000000000a3",
+       "_type": "span",
+       "marks": [],
+       "text": " de 1501 a 1516, emprendió un ambicioso proyecto para transformar el paisaje del distrito con una amplia campaña de reurbanización."
+      },
+      {
+       "_key": "0000000000a4",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "0000000000a5",
+       "_type": "span",
+       "marks": [],
+       "text": " Sus esfuerzos incluyeron la construcción de su propio complejo religioso y funerario, junto con una gran Wikala bautizada en su honor."
+      },
+      {
+       "_key": "0000000000a6",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "0000000000a7",
+       "_type": "span",
+       "marks": [],
+       "text": " Una parte importante de esta transformación consistió en demoler el jan original establecido por al-Jalili y erigir una nueva estructura en 1511, que durante muchos años se conoció como Jan al-Fisqiya («Jan de la Fuente»)."
+      },
+      {
+       "_key": "0000000000a8",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "0000000000a9",
+       "_type": "span",
+       "marks": [],
+       "text": " Este nombre persistió hasta que más tarde pasó a llamarse Wikala al-Qutn («Wikala del Algodón»). "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000a1",
+       "_type": "externalLink",
+       "href": "/es/blog/vacaciones-en-egipto-desde-el-reino-unido",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000be",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000ab",
+       "_type": "span",
+       "marks": [],
+       "text": "La reurbanización de Al-Ghuri fue "
+      },
+      {
+       "_key": "0000000000ad",
+       "_type": "span",
+       "marks": [
+        "0000000000ac"
+       ],
+       "text": "más allá de los"
+      },
+      {
+       "_key": "0000000000ae",
+       "_type": "span",
+       "marks": [],
+       "text": " edificios individuales; remodeló las zonas adyacentes en un zoco, el zoco al-Nabulsi, que distinguió con puertas monumentales de piedra."
+      },
+      {
+       "_key": "0000000000af",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "0000000000b0",
+       "_type": "span",
+       "marks": [],
+       "text": " Su visión incluía la aplicación de un "
+      },
+      {
+       "_key": "0000000000b2",
+       "_type": "span",
+       "marks": [],
+       "text": "plan cuadriculado más sistemático para"
+      },
+      {
+       "_key": "0000000000b3",
+       "_type": "span",
+       "marks": [],
+       "text": " el distrito, que diera una sensación de orden y coherencia al tejido urbano."
+      },
+      {
+       "_key": "0000000000b4",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "0000000000b5",
+       "_type": "span",
+       "marks": [],
+       "text": " Este rediseño presentaba elementos que recordaban a un bedesten -que se encontraba en las ciudades otomanas-, un bazar centralizado en el que se comerciaba con mercancías valiosas, a menudo caracterizado "
+      },
+      {
+       "_key": "0000000000b7",
+       "_type": "span",
+       "marks": [],
+       "text": "por calles cubiertas y puertas que"
+      },
+      {
+       "_key": "0000000000b8",
+       "_type": "span",
+       "marks": [],
+       "text": " se aseguraban por la noche."
+      },
+      {
+       "_key": "0000000000b9",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "0000000000ba",
+       "_type": "span",
+       "marks": [],
+       "text": " Se especula que los esfuerzos "
+      },
+      {
+       "_key": "0000000000bc",
+       "_type": "span",
+       "marks": [],
+       "text": "de al-Ghuri podrían haberse inspirado en centros comerciales similares de las principales ciudades otomanas, sobre todo teniendo en cuenta la intensa rivalidad de la época entre el Imperio Otomano y el estado mameluco egipcio, junto con la creciente presencia de mercaderes turcos en El Cairo"
+      },
+      {
+       "_key": "0000000000bd",
+       "_type": "span",
+       "marks": [],
+       "text": ". "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000ac",
+       "_type": "externalLink",
+       "href": "/es/guide/kom-ombo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000c7",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000bf",
+       "_type": "span",
+       "marks": [],
+       "text": "En la actualidad, aún pueden verse restos de las ambiciosas empresas del sultán al-Ghuri, como el zoco al-Nabulsi, con sus dos puertas de piedra elaboradamente labradas, y la fachada y la entrada de la Wikala al-Qutn."
+      },
+      {
+       "_key": "0000000000c0",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "0000000000c1",
+       "_type": "span",
+       "marks": [],
+       "text": " Estos hitos históricos bordean la calle conocida como Sikkat al-Badistan."
+      },
+      {
+       "_key": "0000000000c2",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "0000000000c3",
+       "_type": "span",
+       "marks": [],
+       "text": " La puerta occidental, originalmente llamada Bab al-Silsila pero ahora conocida como Bab al-Badistan, y la puerta oriental, anteriormente Bab al-Nuhhas y actualmente Bab al-Ghuri, son testimonios perdurables de una época de "
+      },
+      {
+       "_key": "0000000000c5",
+       "_type": "span",
+       "marks": [
+        "0000000000c4"
+       ],
+       "text": "desarrollo urbano transformador en El"
+      },
+      {
+       "_key": "0000000000c6",
+       "_type": "span",
+       "marks": [],
+       "text": " Cairo. "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000c4",
+       "_type": "externalLink",
+       "href": "/es/blog/explorando-la-iglesia-de-la-cueva-de-el-cairo-una-joya-escondida-en-la-montana-mokattam",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000c9",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000c8",
+       "_type": "span",
+       "marks": [],
+       "text": "Creado el 4 de mayo de 2020"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000cb",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000ca",
+       "_type": "span",
+       "marks": [],
+       "text": "Actualizado el 26 de enero de 2024"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000cd",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000cc",
+       "_type": "span",
+       "marks": [],
+       "text": "PRESENTACIÓN DEL CAIRO"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000d0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000cf",
+       "_type": "span",
+       "marks": [
+        "0000000000ce"
+       ],
+       "text": "Historia"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000ce",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/historia-de-el-cairo-de-la-antiguedad-hasta-hoy",
+       "newTab": true
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000d3",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000d2",
+       "_type": "span",
+       "marks": [
+        "0000000000d1"
+       ],
+       "text": "El tiempo"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000d1",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/clima-en-el-cairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000d5",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000d4",
+       "_type": "span",
+       "marks": [],
+       "text": "PLANIFICA TU VIAJE"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000d8",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000d7",
+       "_type": "span",
+       "marks": [
+        "0000000000d6"
+       ],
+       "text": "Cómo ir"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000d6",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/como-ir-a-el-cairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000db",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000da",
+       "_type": "span",
+       "marks": [
+        "0000000000d9"
+       ],
+       "text": "Dónde alojarse"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000d9",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/mejores-hoteles-en-el-cairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000dd",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000dc",
+       "_type": "span",
+       "marks": [],
+       "text": "MIENTRAS ESTÉS ALLÍ"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000e0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000df",
+       "_type": "span",
+       "marks": [
+        "0000000000de"
+       ],
+       "text": "Cómo desplazarse"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000de",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/como-moverse-por-el-cairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000e3",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000e2",
+       "_type": "span",
+       "marks": [
+        "0000000000e1"
+       ],
+       "text": "Cosas que hacer"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000e1",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/el-corazon-de-egipto-actividades-imprescindibles-en-el-cairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000e5",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000e4",
+       "_type": "span",
+       "marks": [],
+       "text": "LUGARES DONDE IR"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000e8",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000e7",
+       "_type": "span",
+       "marks": [
+        "0000000000e6"
+       ],
+       "text": "Mezquita de Al Azhar"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000e6",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-76255",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000eb",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000ea",
+       "_type": "span",
+       "marks": [
+        "0000000000e9"
+       ],
+       "text": "Al-Azhar a la ciudadela"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000e9",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.from-al-azhar-to-the-citadel-walking-islamic-cairo",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000ee",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000ed",
+       "_type": "span",
+       "marks": [
+        "0000000000ec"
+       ],
+       "text": "Palacio Amir Taz"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000ec",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-95563",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000f1",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000f0",
+       "_type": "span",
+       "marks": [
+        "0000000000ef"
+       ],
+       "text": "Mezquita de Aqsunur"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000ef",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.aqsunqur-mosque-the-blue-mosque",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000f4",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000f3",
+       "_type": "span",
+       "marks": [
+        "0000000000f2"
+       ],
+       "text": "Bab Zuweila"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000f2",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.bab-zuweila",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000f7",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000f6",
+       "_type": "span",
+       "marks": [
+        "0000000000f5"
+       ],
+       "text": "Beit Al-Harrawi"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000f5",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.beit-al-harrawi",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000fa",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000f9",
+       "_type": "span",
+       "marks": [],
+       "text": "Beit Al-Suhaymi (Casa Al-Suhaymi)"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000fd",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000fc",
+       "_type": "span",
+       "marks": [],
+       "text": "Beit Zeinab al-Khatoun"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000100",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000ff",
+       "_type": "span",
+       "marks": [
+        "0000000000fe"
+       ],
+       "text": "CALLE Bein al-Qasreen (Entre los dos palacios {calle})"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000fe",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/bayn-al-qasrein",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000103",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000102",
+       "_type": "span",
+       "marks": [
+        "000000000101"
+       ],
+       "text": "Sinagoga Ben Ezra"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000101",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-96611",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000106",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000105",
+       "_type": "span",
+       "marks": [
+        "000000000104"
+       ],
+       "text": "Iglesia de Santa Bárbara"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000104",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.church-of-saint-barbara",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000109",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000108",
+       "_type": "span",
+       "marks": [
+        "000000000107"
+       ],
+       "text": "El Cairo copto"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000107",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/el-cairo-copto",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000010c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000010b",
+       "_type": "span",
+       "marks": [
+        "00000000010a"
+       ],
+       "text": "Museo Textil Egipcio"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000010a",
+       "_type": "externalLink",
+       "href": "/es/blog/museo-textil-egipcio",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000010f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000010e",
+       "_type": "span",
+       "marks": [],
+       "text": "Terraza Gawhara"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000112",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000111",
+       "_type": "span",
+       "marks": [
+        "000000000110"
+       ],
+       "text": "Museo Gayer Anderson"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000110",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63476",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000115",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000114",
+       "_type": "span",
+       "marks": [
+        "000000000113"
+       ],
+       "text": "Ciudadela de Ibn Tulún"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000113",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.mosque-of-ibn-tulun",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000011b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000117",
+       "_type": "span",
+       "marks": [
+        "000000000116"
+       ],
+       "text": "Bazar Khan Al-Khalili (el bazar más "
+      },
+      {
+       "_key": "000000000118",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000011a",
+       "_type": "span",
+       "marks": [
+        "000000000119"
+       ],
+       "text": "famoso de El Cairo)"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000116",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.khan-el-khalili",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "000000000119",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.khan-el-khalili",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000121",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000011d",
+       "_type": "span",
+       "marks": [
+        "00000000011c"
+       ],
+       "text": "Khanqah y mausoleo del sultán "
+      },
+      {
+       "_key": "00000000011e",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000120",
+       "_type": "span",
+       "marks": [
+        "00000000011f"
+       ],
+       "text": "Baybars al-Gashankir"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000011c",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.khanqah-and-mausoleum-of-sultan-baybars-al-jashnagir",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "00000000011f",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.khanqah-and-mausoleum-of-sultan-baybars-al-jashnagir",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000124",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000123",
+       "_type": "span",
+       "marks": [
+        "000000000122"
+       ],
+       "text": "Khanqah-Mausoleo de Farag Ibn Barquq"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000122",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-95553",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000127",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000126",
+       "_type": "span",
+       "marks": [
+        "000000000125"
+       ],
+       "text": "Madraza y mausoleo de as-Salih Ayyub"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000125",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.madrasa-and-mausoleum-of-as-salih-najm-al-din-ayyub",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000012a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000129",
+       "_type": "span",
+       "marks": [
+        "000000000128"
+       ],
+       "text": "Complejo del Sultán Al-Mansur Qalawun"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000128",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.madrassa-mausoleum-of-qalawun",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000012d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000012c",
+       "_type": "span",
+       "marks": [
+        "00000000012b"
+       ],
+       "text": "Mezquita An-Nasir Mohammed Bin Qalawoon"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000012b",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.madrasa-of-al-nasir-muhammad-ibn-qalawun-en-2026-05",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000130",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000012f",
+       "_type": "span",
+       "marks": [
+        "00000000012e"
+       ],
+       "text": "Madraza y mausoleo de Barquq"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000012e",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.madrasa-and-khanqah-of-sultan-barquq",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000133",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000132",
+       "_type": "span",
+       "marks": [
+        "000000000131"
+       ],
+       "text": "Mausoleo de Al-Ghouri"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000131",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63538",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000136",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000135",
+       "_type": "span",
+       "marks": [],
+       "text": "Midan Al-Hussein (Plaza Sayedna Al-Hussein)"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000139",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000138",
+       "_type": "span",
+       "marks": [
+        "000000000137"
+       ],
+       "text": "Mezquita de Al-Hakim"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000137",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63557",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000013c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000013b",
+       "_type": "span",
+       "marks": [
+        "00000000013a"
+       ],
+       "text": "Mezquita de Al-Mu’ayyad Shaykh"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000013a",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63521",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000013f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000013e",
+       "_type": "span",
+       "marks": [
+        "00000000013d"
+       ],
+       "text": "Mezquita de al-Aqmar"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000013d",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63555",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000142",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000141",
+       "_type": "span",
+       "marks": [
+        "000000000140"
+       ],
+       "text": "Mezquita de Amr ibn al-As"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000140",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63607",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000145",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000144",
+       "_type": "span",
+       "marks": [
+        "000000000143"
+       ],
+       "text": "Mezquita de An-Nasir Mohammed"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000143",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.madrasa-of-al-nasir-muhammad-ibn-qalawun-en-2026-05",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000148",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000147",
+       "_type": "span",
+       "marks": [
+        "000000000146"
+       ],
+       "text": "Mezquita de Aslam al-Silahdar"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000146",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63519",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000014b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000014a",
+       "_type": "span",
+       "marks": [
+        "000000000149"
+       ],
+       "text": "Mezquita de Ibn Tulún"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000149",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63477",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000014e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000014d",
+       "_type": "span",
+       "marks": [
+        "00000000014c"
+       ],
+       "text": "Mezquita de Mohammed Ali"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000014c",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63513",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000151",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000150",
+       "_type": "span",
+       "marks": [
+        "00000000014f"
+       ],
+       "text": "Mezquita de Sayyidna al-Hussein"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000014f",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63583",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000154",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000153",
+       "_type": "span",
+       "marks": [
+        "000000000152"
+       ],
+       "text": "Mezquita-Madraza de Al-Ghouri"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000152",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.mosque-madrasa-of-al-ghouri",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000157",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000156",
+       "_type": "span",
+       "marks": [
+        "000000000155"
+       ],
+       "text": "Mezquita-Madraza del Sultán Hassan"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000155",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-63492",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000015a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000159",
+       "_type": "span",
+       "marks": [
+        "000000000158"
+       ],
+       "text": "Mezquita-Madraza de Umm Sultan Sha’aban"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000158",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.mosque-madrassa-of-umm-sultan-sha-aban",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000015d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000015c",
+       "_type": "span",
+       "marks": [
+        "00000000015b"
+       ],
+       "text": "Museo Mevleví"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000015b",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/el-museo-mevlevi-museo-mawlawiyya",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000160",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000015f",
+       "_type": "span",
+       "marks": [
+        "00000000015e"
+       ],
+       "text": "Museo de Arte Islámico"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000015e",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-95543",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000163",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000162",
+       "_type": "span",
+       "marks": [
+        "000000000161"
+       ],
+       "text": "Cementerio del Norte"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000161",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-95548",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000166",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000165",
+       "_type": "span",
+       "marks": [],
+       "text": "Recinto Norte"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000169",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000168",
+       "_type": "span",
+       "marks": [],
+       "text": "Murallas del Norte y Puertas"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000016c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000016b",
+       "_type": "span",
+       "marks": [
+        "00000000016a"
+       ],
+       "text": "Sabil y Kuttab de Abdel Rahman Katkhuda"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000016a",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.sabil-kuttab-of-abd-al-rahman-katkhuda",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000016f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000016e",
+       "_type": "span",
+       "marks": [
+        "00000000016d"
+       ],
+       "text": "Sabil de Muhammed Ali Pasha"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000016d",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-95579",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000172",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000171",
+       "_type": "span",
+       "marks": [
+        "000000000170"
+       ],
+       "text": "Sharia al-Muizz li-Din Allah"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000170",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.sharia-al-muizz-li-din-allah",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000175",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000174",
+       "_type": "span",
+       "marks": [
+        "000000000173"
+       ],
+       "text": "Iglesia de San Sergio y Baco"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000173",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.church-of-saint-sergius-and-bacchus-abu-serga",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000178",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000177",
+       "_type": "span",
+       "marks": [
+        "000000000176"
+       ],
+       "text": "Ciudadela de Saladino"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000176",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.the-citadel-of-saladin",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000017b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000017a",
+       "_type": "span",
+       "marks": [
+        "000000000179"
+       ],
+       "text": "Complejo del Sultán Ashraf Barsbey"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000179",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/el-complejo-del-sultan-al-ashraf-barsbay",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000017e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000017d",
+       "_type": "span",
+       "marks": [
+        "00000000017c"
+       ],
+       "text": "Museo Copto (el único museo copto de Egipto)"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000017c",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.the-coptic-museum",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000181",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000180",
+       "_type": "span",
+       "marks": [
+        "00000000017f"
+       ],
+       "text": "Museo Egipcio"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000017f",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-94643",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000184",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000183",
+       "_type": "span",
+       "marks": [
+        "000000000182"
+       ],
+       "text": "Iglesia Colgante"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000182",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.hanging-church-al-mu-allaqa",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000187",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000186",
+       "_type": "span",
+       "marks": [],
+       "text": "Complejo de Khayrbek"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000018a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000189",
+       "_type": "span",
+       "marks": [
+        "000000000188"
+       ],
+       "text": "Mezquita del Sultán Qaitbey"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000188",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.mausoleum-complex-of-sultan-qaytbay",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000018d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000018c",
+       "_type": "span",
+       "marks": [
+        "00000000018b"
+       ],
+       "text": "Torres Romanas"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000018b",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.cairo.the-roman-towers",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000190",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000018f",
+       "_type": "span",
+       "marks": [
+        "00000000018e"
+       ],
+       "text": "Wikala al-Bazara"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000018e",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/la-wikala-al-bazar-a",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000193",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000192",
+       "_type": "span",
+       "marks": [],
+       "text": "Wikala de Al-Ghouri"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000195",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000194",
+       "_type": "span",
+       "marks": [],
+       "text": "OTROS"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000198",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000197",
+       "_type": "span",
+       "marks": [],
+       "text": "Visitas"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000019b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000019a",
+       "_type": "span",
+       "marks": [
+        "000000000199"
+       ],
+       "text": "Alimentación"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000199",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/guia-gastronomica-de-el-cairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000019e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000019d",
+       "_type": "span",
+       "marks": [],
+       "text": "Sólo aquí"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000001a1",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000001a0",
+       "_type": "span",
+       "marks": [
+        "00000000019f"
+       ],
+       "text": "Eventos"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000019f",
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/eventos-en-el-cairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000001a2",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/GI_815359526_CitadelView_Cairo.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Cairo Food Guide"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "La Ciudadela de El Cairo: una mezcla de magnificencia medieval y expansión urbana"
+      }
+     ]
+    },
+    {
+     "_key": "0000000001a3",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Cairo-Egypt.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Cairo Food Guide"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "La hora dorada de El Cairo, donde el Nilo se une al encanto antiguo de la ciudad"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "ハーン・アル・ハリリ バザール：カイロの時を超えた市場"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプト・カイロの中心に位置する「ハーン・アル・ハリリ バザール」は、伝統的なスークとして名高い市場です。マムルーク時代に交易の中心地として設立され、その名は周辺の歴史的な隊商宿に由来しています。この活気あるバザールは、訪れる人々や地元住民の双方にとって欠かせない存在へと進化しました。エジプトの職人たちや工房が、伝統的な工芸品やお土産を次々と生み出す、まさにエジプト文化の息吹が感じられる場所です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "「ハーン・アル・ハリリ」という名はかつて一つの建物を指していましたが、現在ではこの一帯のショッピングエリア全体を指し、豊かな歴史と文化の織り成すタペストリーへと訪れる人々をいざないます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "ファーティマ朝の礎：カイロの起源"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "10世紀から12世紀にかけてのファーティマ朝の時代、現在のハーン・アル・ハリリが位置する地域は、カイロ建設の重要な役割を果たしました。969年にファーティマ朝カリフ国家の首都として設立されたカイロは、北アフリカからレバント、ヒジャーズに至る広大な版図を持つ国家の中心として生まれました。この街は、ファーティマ朝の命を受けた将軍ジャウハル・アル・スィキッリの構想に基づいて建設されました。彼はカリフ家、宮廷、そして政府機関を収容する壮大な宮殿群を築くという使命を担っていました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "東宮と西宮の二大宮殿が完成し、それらの間に「ベイン・アル・カスレイン（両宮殿の間）」と呼ばれる広場が設けられました。現在ハーン・アル・ハリリが存在する場所は、当時の東宮の南端に位置しており、ファーティマ朝カリフの墓所であるトゥルバト・アッ・ザフラーン（「サフランの墓」）や、より小さな宮殿であるアル・カスル・アン・ナーフィイを含んでいました。この小宮殿の跡地には現在、19世紀に建てられたスライマン・アガ・アル・シラフダルのウィカラ（商隊宿）が立っています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "ファーティマ朝の時代、カイロは宮殿都市として閉じられており、カリフの家族、国家公務員、軍部隊、必要な人員のみがアクセス可能でした。しかし、ファーティマ朝後期に、特に有力な宰相たちの手により、商人や外部者が市内に入れるようになる取り組みが始まりました。1087年から1092年にかけて、カリフ・ムスタンスィルに仕えた宰相バドル・アル・ジャマリは、市壁や門を建設し、市を拡張する一方で一時的に市を一般に開放しましたが、この政策は後に撤回されました。その後、1121年から1125年の間、カリフ・アミールの宰相アル・マームーン・アル・バタイヒは改革を進め、建設プロジェクトを実施して、カイロの中心部に外国貿易を導入しました。彼の施策には、貨幣鋳造所（ダール・アル・ダルブ）や税関施設（ダール・アル・ウィカラ）の設立が含まれ、これらは後の15世紀に建設されたアル・アシュラフ・バルスバイのマドラサの近くに位置しました。このようにして、外国貿易がカイロの心臓部に組み込まれる契機が生まれました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "ファーティマ朝からマムルーク朝へ：カイロ経済の発展"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "12世紀から14世紀にかけて、カイロは経済的な活力を持つ都市へと変貌を遂げました。この変革は、1171年にファーティマ朝カリフ国家を終焉に導いたサラーフッディーン（サラディン）の指導下で始まりました。彼は市壁の南に新たな城塞を築くなどの重要な変化をもたらしました。この決定により、それまで閉鎖的だったファーティマ朝の宮殿が再開発のために開放され、カイロは排他的な宮廷都市から、エジプトの一般市民や外国人訪問者がアクセスできる活気ある経済拠点へと進化しました。一方で、かつてエジプト経済の中心地であった港湾都市フスタートは徐々に衰退し、カイロの台頭をさらに固める結果となりました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "この変化は、街の主要な南北通り、カサバ（現在のアル・ムイズ通り）沿いで特に顕著でした。この通りは、バーブ・アル・フトゥーフとバーブ・ズウェイラの門を結び、ベイン・アル・カスレイン地区を通り抜ける形で市の中心部を縦断していました。アイユーブ朝と後のマムルーク朝の統治下では、この大通りは宗教施設や王家の廟所、商業施設などが建設される人気の場所となり、多くはスルタンやエリートたちの出資により実現しました。この一帯に主要なスークが出現し、国際的な貿易とビジネス活動の拠点として定着しました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロの経済的発展を支えた重要な要素のひとつが、マムルーク朝時代に急増したワクフ制度（イスラム法に基づく慈善信託）でした。ワクフは、支配者層によって設立される宗教的・市民的建物の建設と運営を支えるための資金を提供し、これらの資金はしばしば特定の店舗や商業施設からの収益に由来しました。1284年から85年にかけて建設されたスルタン・カラーウーンの複合施設はその初期の例として注目に値します。この施設にはマドラサ、病院、霊廟が含まれ、その維持管理費はアイユーブ朝時代のアル・サーリフ・マドラサの近くに建てられたカイサリーヤ（市場複合施設）からの収益により賄われていました。このカイサリーヤは、カサバ沿いに出現した商業施設のひとつであり、マムルーク朝の統治下でカイロが繁栄する経済的中心地へと進化する過程を象徴する存在でした。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "マムルーク時代：ハーン・アル・ハリリの建築的進化"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "マムルーク朝の14世紀から15世紀にかけて、カイロの景観は大きな変化を遂げました。特に、賑わうカサバ通り周辺では、新たな建物の建設が進み、かつての空き地が消えていきました。その結果、商業開発の焦点は、まだ拡張の余地が残っていた東のアズハルモスクやアル・フセイン廟の近辺に移りました。従来のスーク地区に並んでいた一時的な市場の露店は、次第に恒久的な石造りの建物に置き換えられていきました。これらの新しい建物は、行政当局が商業活動をより容易に監督し、税金を徴収できるよう設計されており、露店のように移動可能な市場よりも統制しやすいものでした。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "都市の密度が増し、土地が希少になる中で、建築家や建設者たちは、カーンやウィカラと呼ばれる多層構造の建物を建設し始めました。これらの施設は、商人たちが宿泊するキャラバンサライ（隊商宿）としての役割を果たし、内部には商品を保管する中庭と上層階の住居スペースを備えていました。また、通りに面した側には商店が並び、商業ゾーンをさらに広げることが可能になりました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "初代ブルジ・マムルーク朝のスルタン、バルクークの治世下では、黒死病の壊滅的な影響がありながらも、エジプトは依然として活気ある経済拠点であり、商業および宗教的建築が引き続き建設されました。この時期に、バルクークの馬小屋長であったジャハルカス・アル・ハリリが、ファーティマ朝の霊廟トゥルバト・アッ・ザフラーンを取り壊して、彼の名を冠した大規模なカーンを建設しました。このカーン・アル・ハリリはカイロの中心に新たな商業地区を形成し、その名前は後に地区全体を指すようになりました。なお、アル・ハリリは物議を醸しながらもファーティマ王家の遺体を処分しました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "このような商業施設の建設は、その後のマムルーク朝の支配者の下でも続きました。例えば、スルタン・カイトベイの治世中、彼のアミールであるヤシュバク・ミン・マフディがカーン・アル・ハリリの向かいに居住用複合施設であるラブ・アル・バディスタンを建設し、カイトベイ自身もアズハルモスクの近くにウィカラ・オブ・スルタン・カイトベイを建てました。15世紀末には、カーン・アル・ハリリ周辺の地域が外国貿易の主要な中心地として発展し、奴隷や宝石を含む取引も行われ、カイロの経済の中核をなす地域としてその重要性を増していきました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "スルタン・アル・グーリーの遺産：カイロの商業景観を再定義する"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "16世紀の初頭、スルタン・アル・グーリーは、1501年から1516年までのエジプトで最後の実権を持つマムルーク朝スルタンとして、街区の景観を一新する壮大な再開発計画を開始しました。彼の取り組みには、自身の宗教施設および霊廟を含む複合施設の建設や、彼の名を冠した壮大なウィカラ（商隊宿）の建設が含まれます。この再開発の重要な一環として、アル・ハリリが設立した元のカーンを取り壊し、1511年に新しい建物を建設しました。この建物は、長い間「カーン・アル・フィスキーヤ（噴水のカーン）」として知られていましたが、後に「ウィカラ・アル・クタン（綿のウィカラ）」と呼ばれるようになりました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "アル・グーリーの再開発は、単なる個々の建物に留まらず、隣接する地域もスーク（市場）へと再編されました。このスーク、スーク・アル・ナブルスィーは、彼が設計した壮大な石の門で特徴づけられています。彼の構想には、この地区により体系的なグリッドプランを導入し、都市の構造に秩序と一貫性をもたらすことが含まれていました。この再設計には、オスマン都市に見られるベデステン（中央市場）の要素が反映されており、高価な商品の取引が行われる中心的なバザールとして、夜間には門が閉じられることが多い覆われた通りが特徴でした。アル・グーリーの取り組みは、大きなオスマン都市における同様の商業ハブから影響を受けていた可能性が高く、当時のオスマン帝国とエジプトのマムルーク国家の激しい競争や、カイロでのトルコ商人の存在感の増大を考慮すると、この推測には十分な根拠があります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "今日では、スルタン・アル・グーリーの野心的な取り組みの名残が依然として見られます。スーク・アル・ナブルスィーの2つの精巧な石造りの門や、ウィカラ・アル・クタンのファサードと入口は、これらの歴史的な建造物が並ぶスィッカト・アル・バディスタン通りに現存しています。西側の門は元々「バーブ・アル・シルシラ」と呼ばれていましたが、現在は「バーブ・アル・バディスタン」として知られ、東側の門は以前「バーブ・アル・ヌッハース」と呼ばれたもので、今では「バーブ・アル・グーリー」として知られています。これらの門は、カイロにおける変革的な都市開発の時代を証明する、現在も残る証言となっています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "作成日：2020年3月18日"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "更新日：2025年3月22日"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロの紹介"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000030",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [],
+       "text": "歴史"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "000000000031"
+       ],
+       "text": "天気"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000031",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/kairo-no-tenki-to-kion",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "旅行の計画"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000038",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [],
+       "text": "行き方"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [
+        "000000000039"
+       ],
+       "text": "宿泊先"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000039",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/kairo-de-no-shukuhaku-ni-saiteki-na-basho",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "滞在中に"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000040",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003f",
+       "_type": "span",
+       "marks": [
+        "00000000003e",
+        "strong"
+       ],
+       "text": "現地での移動方法"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000003e",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/kairo-shinai-no-ido-gaido",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000043",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [
+        "000000000041",
+        "strong"
+       ],
+       "text": "おすすめのアクティビティ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000041",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/ejiputo-no-kokoro-kairo-de-no-hikken-akutibiti",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000045",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000044",
+       "_type": "span",
+       "marks": [],
+       "text": "見どころ"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000048",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000047",
+       "_type": "span",
+       "marks": [
+        "000000000046"
+       ],
+       "text": "エジプト考古学博物館"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000046",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/ejiputo-kokogaku-hakubutsukan",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004a",
+       "_type": "span",
+       "marks": [
+        "000000000049"
+       ],
+       "text": "北墓地"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000049",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/北墓地",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004d",
+       "_type": "span",
+       "marks": [
+        "00000000004c"
+       ],
+       "text": "スルタン・アシュラフ・バーズベイの複合施設"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000004c",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000051",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000050",
+       "_type": "span",
+       "marks": [
+        "00000000004f"
+       ],
+       "text": "ファラーグ・イブン・バルクークのカーンカ・モスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000004f",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/ファラグ・イブン・バルクークのハンカーと霊廟",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000054",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000053",
+       "_type": "span",
+       "marks": [
+        "000000000052"
+       ],
+       "text": "スルタン・カイトベイのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000052",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/surutan-kaito-bei-no-reibyo-fukugo-tai",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000057",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000056",
+       "_type": "span",
+       "marks": [
+        "000000000055"
+       ],
+       "text": "ゲイヤー・アンダーソン博物館"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000055",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/ガイヤー・アンダーソン博物館",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000005a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000059",
+       "_type": "span",
+       "marks": [
+        "000000000058"
+       ],
+       "text": "イブン・トゥルーンのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000058",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/ibunturunmosuku",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000005d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005c",
+       "_type": "span",
+       "marks": [
+        "00000000005b"
+       ],
+       "text": "メヴレヴィ博物館"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000005b",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/mevurevi-hakubutsukan-maurawiya-hakubutsukan",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000060",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000005f",
+       "_type": "span",
+       "marks": [
+        "00000000005e"
+       ],
+       "text": "アミール・タズ宮殿"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000005e",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/アミール・タズ宮殿",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000063",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000062",
+       "_type": "span",
+       "marks": [
+        "000000000061"
+       ],
+       "text": "アル・アズハルから城塞まで"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000061",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/アル＝アズハルから城塞（シタデル）へ",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000066",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000065",
+       "_type": "span",
+       "marks": [
+        "000000000064"
+       ],
+       "text": "サラディン城塞"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000064",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/サラディンの城塞",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000069",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000068",
+       "_type": "span",
+       "marks": [
+        "000000000067"
+       ],
+       "text": "スルタン・ハッサンのモスク・マドラサ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000067",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/スルタン・ハサン・モスクとマドラサ",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006b",
+       "_type": "span",
+       "marks": [
+        "00000000006a"
+       ],
+       "text": "北囲い"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000006a",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006e",
+       "_type": "span",
+       "marks": [
+        "00000000006d"
+       ],
+       "text": "ジャワハラ・テラス"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000006d",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/gauharaterasu-to-kyuden",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000072",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000071",
+       "_type": "span",
+       "marks": [
+        "000000000070"
+       ],
+       "text": "アンサール・ムハンマドのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000070",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000075",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000074",
+       "_type": "span",
+       "marks": [
+        "000000000073"
+       ],
+       "text": "ムハンマド・アリのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000073",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/muhammadoarimosuku",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000078",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000077",
+       "_type": "span",
+       "marks": [
+        "000000000076"
+       ],
+       "text": "イブン・トゥルーン城塞"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000076",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/ibunturunmosuku",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000007b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000007a",
+       "_type": "span",
+       "marks": [
+        "000000000079"
+       ],
+       "text": "カイリベク複合施設"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000079",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000007e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000007d",
+       "_type": "span",
+       "marks": [
+        "00000000007c"
+       ],
+       "text": "アクスヌールのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000007c",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/akusunkurumosuku-buru-mosuku",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000081",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000080",
+       "_type": "span",
+       "marks": [
+        "00000000007f"
+       ],
+       "text": "ウム・スルタン・シャアバンのモスク・マドラサ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000007f",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/ウム・スルタン・シャアバーンのモスクとマドラ",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000084",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000083",
+       "_type": "span",
+       "marks": [
+        "000000000082"
+       ],
+       "text": "アスラム・アル・シラフダーのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000082",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/アスラム・アル・シラフダル・モスク",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000087",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000086",
+       "_type": "span",
+       "marks": [
+        "000000000085"
+       ],
+       "text": "イスラム美術博物館"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000085",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/isuramu-bijutsukan",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000008a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000089",
+       "_type": "span",
+       "marks": [
+        "000000000088"
+       ],
+       "text": "アル・ムアイッド・シャイフのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000088",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000008d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000008c",
+       "_type": "span",
+       "marks": [
+        "00000000008b"
+       ],
+       "text": "バブ・ズウイラ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000008b",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/babuzuweira",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000090",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000008f",
+       "_type": "span",
+       "marks": [
+        "00000000008e"
+       ],
+       "text": "ムハンマド・アリ・パシャのサビール"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000008e",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/muhammadoaripasha-no-sabiru",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000093",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000092",
+       "_type": "span",
+       "marks": [
+        "000000000091"
+       ],
+       "text": "アル・グーフリ・ウィカラ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000091",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000096",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000095",
+       "_type": "span",
+       "marks": [
+        "000000000094"
+       ],
+       "text": "アル・グーフリのモスク・マドラサ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000094",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/aruguri-no-mosukumadorasa",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000099",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000098",
+       "_type": "span",
+       "marks": [
+        "000000000097"
+       ],
+       "text": "アル・グーフリの霊廟"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000097",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/アル・グーリ廟",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000009c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000009b",
+       "_type": "span",
+       "marks": [
+        "00000000009a"
+       ],
+       "text": "ベイト・アル・ハラウィ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000009a",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000009f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000009e",
+       "_type": "span",
+       "marks": [
+        "00000000009d"
+       ],
+       "text": "ベイト・ゼイナブ・アル・カトゥーン"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000009d",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000a2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000a1",
+       "_type": "span",
+       "marks": [
+        "0000000000a0"
+       ],
+       "text": "アル・アズハル・モスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000a0",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/アズハル・モスク",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000a5",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000a4",
+       "_type": "span",
+       "marks": [
+        "0000000000a3"
+       ],
+       "text": "シャリア・アル・ムイッズ・リディン・アッラー"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000a3",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000a8",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000a7",
+       "_type": "span",
+       "marks": [
+        "0000000000a6"
+       ],
+       "text": "アル・アクマールのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000a6",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000ab",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000aa",
+       "_type": "span",
+       "marks": [
+        "0000000000a9"
+       ],
+       "text": "ベイト・アル・スハイミ（アル・スハイミ家）"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000a9",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000ae",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000ad",
+       "_type": "span",
+       "marks": [
+        "0000000000ac"
+       ],
+       "text": "アル・ハキムのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000ac",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/aru-ha-kimu-mosuku",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000b1",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000b0",
+       "_type": "span",
+       "marks": [
+        "0000000000af"
+       ],
+       "text": "北の壁と門"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000af",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000b4",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000b3",
+       "_type": "span",
+       "marks": [
+        "0000000000b2"
+       ],
+       "text": "ウィカラ・アル・バザラ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000b2",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000b7",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000b6",
+       "_type": "span",
+       "marks": [
+        "0000000000b5"
+       ],
+       "text": "スルタン・バイバルズ・アル・ガシャンクィールのカーンカと霊廟"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000b5",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000ba",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000b9",
+       "_type": "span",
+       "marks": [
+        "0000000000b8"
+       ],
+       "text": "エジプト繊維博物館"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000b8",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/ejiputo-orimono-hakubutsukan",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000bd",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000bc",
+       "_type": "span",
+       "marks": [
+        "0000000000bb"
+       ],
+       "text": "アブデル・ラフマン・カトフダのサビールとクッターブ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000bb",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/アブドル・ラーマン・カトフダーのサビールとク",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000c0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000bf",
+       "_type": "span",
+       "marks": [
+        "0000000000be"
+       ],
+       "text": "アンサール・ムハンマド・スルタンのマドラサと霊廟"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000be",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000c3",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000c2",
+       "_type": "span",
+       "marks": [
+        "0000000000c1"
+       ],
+       "text": "バークークのマドラサと霊廟"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000c1",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/surutanbarukuku-no-madorasa-to-han-ka",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000c6",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000c5",
+       "_type": "span",
+       "marks": [
+        "0000000000c4"
+       ],
+       "text": "アス・サリフ・アユーブのマドラサと霊廟"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000c4",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/サーリフ・ナジュム・エッディーン・アイユーブ",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000c9",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000c8",
+       "_type": "span",
+       "marks": [
+        "0000000000c7"
+       ],
+       "text": "ベイン・アル・カスリーン通り（2つの宮殿の間の通り）"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000c7",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000cc",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000cb",
+       "_type": "span",
+       "marks": [
+        "0000000000ca"
+       ],
+       "text": "カラウーンのマドラサと霊廟"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000ca",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000cf",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000ce",
+       "_type": "span",
+       "marks": [
+        "0000000000cd"
+       ],
+       "text": "サイイドナ・アル・フセインのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000cd",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000d2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000d1",
+       "_type": "span",
+       "marks": [
+        "0000000000d0"
+       ],
+       "text": "ミダン・アル・フセイン（サイイドナ・アル・フセイン広場）"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000d0",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000d5",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000d4",
+       "_type": "span",
+       "marks": [
+        "0000000000d3"
+       ],
+       "text": "カーン・アル・ハリリバザール（カイロで最も有名なバザール）"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000d3",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/han-eru-hariri",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000d8",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000d7",
+       "_type": "span",
+       "marks": [
+        "0000000000d6"
+       ],
+       "text": "コプト地区"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000d6",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/koputokairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000db",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000da",
+       "_type": "span",
+       "marks": [
+        "0000000000d9"
+       ],
+       "text": "アムル・イブン・アル・アスのモスク"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000d9",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000de",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000dd",
+       "_type": "span",
+       "marks": [
+        "0000000000dc"
+       ],
+       "text": "ベン・エズラ・シナゴーグ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000dc",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/ben-ezurashinagogu",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000e1",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000e0",
+       "_type": "span",
+       "marks": [
+        "0000000000df"
+       ],
+       "text": "ローマの塔"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000df",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/roma-no-to",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000e4",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000e3",
+       "_type": "span",
+       "marks": [
+        "0000000000e2"
+       ],
+       "text": "セント・セルギウスとバッカスの教会"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000e2",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/sei-serugiusu-to-bakkasu-kyokai-abuseruga",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000e7",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000e6",
+       "_type": "span",
+       "marks": [
+        "0000000000e5"
+       ],
+       "text": "コプト博物館（エジプト唯一のコプト博物館）"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000e5",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/koputo-hakubutsukan",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000ea",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000e9",
+       "_type": "span",
+       "marks": [
+        "0000000000e8"
+       ],
+       "text": "セント・バーバラの教会"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000e8",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/sei-baru-bara-kyokai",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000ed",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000ec",
+       "_type": "span",
+       "marks": [
+        "0000000000eb"
+       ],
+       "text": "ハンギング・チャーチ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000eb",
+       "_type": "externalLink",
+       "href": "/ja/wiki/monuments/ハンギング・チャーチ",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000ef",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000ee",
+       "_type": "span",
+       "marks": [],
+       "text": "その他"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000f2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000f1",
+       "_type": "span",
+       "marks": [
+        "0000000000f0",
+        "strong"
+       ],
+       "text": "ツアー"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000f0",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000f5",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000f4",
+       "_type": "span",
+       "marks": [
+        "0000000000f3",
+        "strong"
+       ],
+       "text": "食事"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000f3",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo/kairo-no-bishoku-tambo-ejiputo-shuto-no-ajiwai",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000f8",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000f7",
+       "_type": "span",
+       "marks": [
+        "0000000000f6",
+        "strong"
+       ],
+       "text": "ここだけ"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000f6",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000fb",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "0000000000fa",
+       "_type": "span",
+       "marks": [
+        "0000000000f9",
+        "strong"
+       ],
+       "text": "イベント"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "0000000000f9",
+       "_type": "externalLink",
+       "href": "/ja/guide/kairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "0000000000fc",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/GI_815359526_CitadelView_Cairo.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Cairo Food Guide"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "カイロの城塞――中世の壮麗さと都市の拡張が融合する姿。"
+      }
+     ]
+    },
+    {
+     "_key": "0000000000fd",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Cairo-Egypt.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "Cairo Food Guide"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "カイロのゴールデンアワー――ナイルが街の古の魅力と溶け合うひととき。"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "city": {
+  "_ref": "wp-page-83284",
+  "_type": "reference"
+ },
+ "migration": {
+  "migratedAt": "2026-05-07T11:12:51.205Z",
+  "reviewFlag": "superseded-by-guideArticle",
+  "source": "wp-import",
+  "supersededAt": "2026-05-20T15:23:40.818Z",
+  "supersededBy": "guideArticle.cairo.khan-al-khalili-bazaar",
+  "wpId": 95439,
+  "wpModifiedAt": "2026-04-16T17:56:35",
+  "wpTemplate": "elementor_header_footer",
+  "wpUrl": "https://travel2egypt.org/khan-al-khalili-bazaar/"
+ },
+ "monumentType": "other",
+ "name": [
+  {
+   "_key": "en",
+   "value": "Khan Al-Khalili Bazaar"
+  },
+  {
+   "_key": "es",
+   "value": "Bazar Khan Al-Khalili"
+  },
+  {
+   "_key": "ja",
+   "value": "ハーン・アル・ハリリ バザール"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "value": {
+    "_type": "slug",
+    "current": "khan-al-khalili-bazaar"
+   }
+  },
+  {
+   "_key": "es",
+   "value": {
+    "_type": "slug",
+    "current": "bazar-khan-al-khalili"
+   }
+  },
+  {
+   "_key": "ja",
+   "value": {
+    "_type": "slug",
+    "current": "ハーン・アル・ハリリ-バザール"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "Khan Al-Khalili Bazaar Khan el-Khalili Bazaar, nestled in the heart of Cairo, Egypt, stands as a renowned marketplace and traditional souq. Originally founded as a trading hub during the Mamluk period, and named after one of the historic in"
+  },
+  {
+   "_key": "es",
+   "value": "Bazar Khan Al-Khalili Bazar Khan el-Khalili, situado en el corazón de El Cairo, Egipto, es un renombrado mercado y zoco tradicional.Fundado originalmente como centro comercial durante el periodo mameluco, y bautizado con el nombre de una de"
+  },
+  {
+   "_key": "ja",
+   "value": "ハーン・アル・ハリリ バザール：カイロの時を超えた市場 エジプト・カイロの中心に位置する「ハーン・アル・ハリリ バザール」は、伝統的なスークとして名高い市場です。マムルーク時代に交易の中心地として設立され、その名は周辺の歴史的な隊商宿に由来しています。この活気あるバザールは、訪れる人々や地元住民の双方にとって欠かせない存在へと進化しました。エジプトの職人たちや工房が、伝統的な工芸品やお土産を次々と生み出す、まさにエジプト文化の息吹が感じられる場所です。 「ハーン・アル・ハリリ"
+  }
+ ]
+}

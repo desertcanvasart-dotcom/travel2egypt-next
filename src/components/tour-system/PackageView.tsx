@@ -55,6 +55,8 @@ export interface PackageDoc {
   basePrice?: number | null;
   peakUpliftPct?: number | null;
   maxGroup?: number | null;
+  /** Fixed dates, private guiding (long Nile cruises): shown as a private tour. */
+  privateGuiding?: boolean | null;
   departures?: RawDeparture[] | null;
   originRegion?: string;
   heroImage?: { asset?: unknown; alt?: string } | null;
@@ -134,6 +136,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   // ── Group package: the scheduled-departures apparatus. Built deterministically
   // at render/build time so the soonest FUTURE date is selected. ──
   const isGroup = tour.tourMode === 'group';
+  const fixedPrivate = isGroup && Boolean(tour.privateGuiding);
   // Per-departure base price: the stored base price, else the tour's "from"
   // price (owner, 2026-11-11), so dates are priced instead of "On inquiry".
   const groupBase =
@@ -198,7 +201,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   // (packages, 2026-11-15, same as day tours); the second tick follows tourMode.
   const trustSignals = [
     ts('trustSignal1'),
-    isGroup ? ts('trustSignal2Group') : ts('trustSignal2Private'),
+    isGroup && !fixedPrivate ? ts('trustSignal2Group') : ts('trustSignal2Private'),
     ts('trustSignal3'),
     ts('trustSignal4'),
   ];
@@ -222,7 +225,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
     g._type === 'guideArticle' && g.parentCity?.slug ? `/guide/${g.parentCity.slug}/${g.slug}` : `/guide/${g.slug}`;
 
   const kicker = isGroup
-    ? ts('pkgGrpKicker')
+    ? fixedPrivate ? ts('pkgFixedKicker') : ts('pkgGrpKicker')
     : `${ts('pkgKicker')}${durationDays > 0 ? ` · ${ts('shapeDaysCount', { count: durationDays })}` : ''}`;
 
   // Rail "then …" preview line for the next-departure card.
@@ -280,7 +283,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   // Hero facts (packages, 2026-11-15, same pattern as day tours): Type +
   // Duration (+ From-price and CTAs in DayHeroFacts). An authored
   // shapeOfDay.duration (e.g. "3 days / 2 nights — extendable") wins.
-  const typeLabel = isGroup ? tp('typeSmallGroup') : tp('typePrivate');
+  const typeLabel = isGroup ? (fixedPrivate ? tp('typePrivateFixed') : tp('typeSmallGroup')) : tp('typePrivate');
   const daysNights = durationDays > 0 ? tp('daysNights', { days: durationDays, nights }) : '';
   const heroFacts: PanelFact[] = [
     { label: tp('type'), value: typeLabel },
@@ -387,7 +390,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
               );
             })}
           </div>
-          <p className="dep-note">{ts('pkgGrpDepNote')}</p>
+          <p className="dep-note">{fixedPrivate ? ts('pkgFixedDepNote') : ts('pkgGrpDepNote')}</p>
         </section>
       )}
 

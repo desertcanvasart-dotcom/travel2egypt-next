@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { redirectForeignSlug } from '@/lib/foreign-slug';
 import Image from 'next/image';
 
 import { Link } from '@/i18n/navigation';
@@ -92,7 +93,11 @@ export default async function TravelTipDetailPage({ params }: Props) {
   const tip = (await client.fetch(travelTipBySlugQuery(locale as Locale), {
     slug,
   })) as TravelTipDoc | null;
-  if (!tip) notFound();
+  if (!tip) {
+    // Wrong-language slug (old GSC discoveries) → 308 to the right page.
+    await redirectForeignSlug('travelTip', locale, [slug]);
+    notFound();
+  }
 
   const [siblings, recentArticles] = await Promise.all([
     tip.category?._id

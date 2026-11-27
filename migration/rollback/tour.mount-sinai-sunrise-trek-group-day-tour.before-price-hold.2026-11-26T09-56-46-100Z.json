@@ -1,0 +1,1008 @@
+{
+ "_createdAt": "2026-05-28T11:45:27Z",
+ "_id": "tour.mount-sinai-sunrise-trek-group-day-tour",
+ "_rev": "K2pi3eY73hTRu2vMGMySnV",
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:49Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Walkers comfortable with a three-hour night climb on uneven granite who want both the sunrise and the monastery's accessible chambers in a single trip"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros activos y amantes de amaneceres de montana"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "千五百年続く巡礼の連続性を、自分の一夜として加わりたい方／頂上の日の出と修道院図書館の両方に意味を感じる方／中程度の登山ができる方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Mount Sinai Sunrise Trek & St. Catherine's Monastery"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "— The midnight climb up the mountain Moses is said to have climbed, sunrise at the summit, and the oldest continuously inhabited Christian monastery in the world at the bottom —"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Mount Sinai rises 2,285 metres above sea level in the southern Sinai peninsula, on the ground tradition associates with the place where Moses received the Ten Commandments. The midnight climb is a working pilgrimage that pre-dates tourism by centuries: monks and travellers have been making the ascent for over fifteen hundred years. The summit reach is the sunrise, which lights the surrounding granite ranges in colours no daylight repeats."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "At the base of the mountain is St. Catherine's Monastery — founded in the 6th century under the Byzantine emperor Justinian I, one of the oldest continuously inhabited Christian monasteries on earth, and the site where Coptic and Orthodox tradition places the Burning Bush. The monastery's library holds one of the most significant collections of early Christian codices and manuscripts in the world."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "This is the standard shared-departure trek. Evening pickup, midnight ascent, summit before dawn, descent for the monastery in the early morning, return to your hotel by midday or early afternoon."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "A note on 2026 access: St. Catherine's has been operating under shifting restrictions linked to surrounding development works and to the monastery's own conservation programme. The library, parts of the icon collection, and sections of the basilica have been intermittently closed; the mountain trail and the outer courtyards have remained accessible. The operator confirms current access the day of your visit."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The day, hour by hour"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Late afternoon or early evening pickup from your hotel. Air-conditioned vehicle through the Sinai interior — roughly two and a half hours from Sharm El Sheikh, less from Dahab."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Brief rest at the base of the mountain. The licensed guide gives the safety and trail briefing and explains the historical and religious context. The standard route is the Camel Trail, gentle for most of its length; the final ascent is the 750 Steps of Repentance, on foot."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Midnight start. The ascent is roughly three hours at a steady pace. Small Bedouin huts along the trail sell hot tea and rest stops. Camel hire is available for the lower section (an additional cost, paid on the day)."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Summit before dawn. The sunrise from the eastern ridge takes roughly twenty minutes — pinks turning to oranges turning to gold over the surrounding granite. Cold at the top regardless of the season; the descent starts as soon as the light is full."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Descent of around two hours. Arrival at St. Catherine's Monastery in the early morning."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "St. Catherine's Monastery."
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": " Guided visit to the sections open the day of your visit — typically the chapel exterior, the courtyards, the Burning Bush, and the icon collection or library exterior as access permits. Roughly 60–90 minutes on site."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": "Light breakfast nearby — included."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000020",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": "Return drive to your hotel. Arrival by midday to early afternoon."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000024",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "The Mount Sinai sunrise is one of the very few tourist experiences that survives the encounter with its own reputation."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000026",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "The climb is real, the summit is colder than you expect, and the moment when the light turns the granite is worth the night you lost to get there."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [],
+       "text": "This is genuinely a fitness-demanding pilgrimage trek, not a sightseeing transfer; we can talk through the camel option for the lower section, the current monastery access, and the gear list before we finalise."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Ascenso al amanecer al monte Sinaí y monasterio de Santa Catalina"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "— La subida nocturna a la montaña que la tradición atribuye a Moisés, amanecer en la cumbre y el monasterio cristiano habitado de modo continuo más antiguo del mundo a sus pies —"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "El monte Sinaí se eleva 2.285 metros sobre el nivel del mar, en el sur de la península del Sinaí, sobre un terreno que la tradición asocia con el lugar donde Moisés recibió los Diez Mandamientos. La subida de medianoche es una peregrinación de trabajo que precede al turismo en siglos: monjes y viajeros llevan más de mil quinientos años haciendo el ascenso. La recompensa de la cumbre es el amanecer, que enciende las cordilleras de granito circundantes en colores que ninguna otra luz del día repite."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "A los pies de la montaña está el monasterio de Santa Catalina — fundado en el siglo VI bajo el emperador bizantino Justiniano I, uno de los monasterios cristianos habitados de modo continuo más antiguos del planeta y el sitio donde la tradición copta y ortodoxa sitúa la Zarza Ardiente. La biblioteca del monasterio conserva una de las colecciones más significativas de códices y manuscritos cristianos tempranos del mundo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Éste es el trek compartido habitual. Recogida al atardecer, ascenso de medianoche, cumbre antes del alba, descenso al monasterio a primera hora y regreso al hotel hacia el mediodía o a primera hora de la tarde."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Nota sobre el acceso en 2026: Santa Catalina opera bajo restricciones cambiantes vinculadas a las obras del entorno y al propio programa de conservación del monasterio. La biblioteca, partes de la colección de iconos y tramos de la basílica han permanecido cerrados de forma intermitente; el sendero de la montaña y los patios exteriores se han mantenido accesibles. El operador confirma el acceso actual el día de la visita."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "El día, hora a hora"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Recogida a última hora de la tarde o a primera hora de la noche en el hotel. Vehículo climatizado por el interior del Sinaí — aproximadamente dos horas y media desde Sharm el-Sheij, menos desde Dahab."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Breve descanso en la base de la montaña. El guía colegiado ofrece la charla de seguridad y de ruta y explica el contexto histórico y religioso. La ruta estándar es el Camino del Camello, suave en la mayor parte del trayecto; el tramo final son los 750 Escalones del Arrepentimiento, exclusivamente a pie."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Inicio a medianoche. El ascenso lleva alrededor de tres horas a paso constante. Pequeñas cabañas beduinas a lo largo del sendero venden té caliente y sirven de paradas de descanso. El alquiler de camello está disponible para el tramo inferior (coste adicional, pago en el día)."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Cumbre antes del alba. El amanecer desde la cresta oriental dura aproximadamente veinte minutos — rosas que pasan a naranjas y de ahí al oro sobre las cordilleras de granito circundantes. Frío en la cumbre en cualquier estación; el descenso comienza apenas la luz se establece."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Bajada de unas dos horas. Llegada al monasterio de Santa Catalina a primera hora de la mañana."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Monasterio de Santa Catalina."
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": " Visita guiada a los sectores abiertos el día de la visita — habitualmente el exterior de la capilla, los patios, la Zarza Ardiente y la colección de iconos o el exterior de la biblioteca según permita el acceso. Aproximadamente 60–90 minutos en el sitio."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": "Desayuno ligero en las inmediaciones — incluido."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000020",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": "Regreso por carretera al hotel. Llegada hacia el mediodía o a primera hora de la tarde."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000024",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "El amanecer del monte Sinaí es una de las muy pocas experiencias turísticas que sobreviven al encuentro con su propia reputación."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000026",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "El ascenso es real, la cumbre más fría de lo que uno espera, y el momento en que la luz transforma el granito vale la noche perdida para llegar allí."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000036",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000035",
+       "_type": "span",
+       "marks": [],
+       "text": "No es solo mirar un amanecer. Es llegar a el caminando."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta es una ruta abierta. Si quieres ajustar el ritmo, cambiar el orden de las visitas o añadir un complemento, podemos adaptarla contigo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "シナイ山サンライズ・トレッキング：千五百年続く巡礼の、現在の一夜"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "モーセが登ったと伝えられる山への真夜中の登攀、頂で迎える日の出、そして地上で最も長く人の住み続けるキリスト教修道院のひとつ——聖カタリナ修道院のガイド付き見学を含む一日。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "この登攀は、観光より千五百年以上古い実践です。修道士、巡礼者、ベドウィンの案内人、そして旅人が、この道を絶やすことなく登り続けてきました。標高2,285メートル、モーセが十戒を授かった場所と伝承が結びつけるシナイ山の頂で迎えるのは日の出——周囲の花崗岩の山並みを、どんな昼の光も再現しない色で染め上げる20分です。あなたの一夜は、その長い歴史の、最新の一夜です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "山のふもとにあるのが聖カタリナ修道院。6世紀、ビザンツ皇帝ユスティニアヌス1世のもとで創建され、地上で最も長く人の住み続けてきたキリスト教修道院のひとつ——コプトと正教の伝承が「燃える柴」を置く場所でもあります。けれど、この修道院をエジプトのほかの宗教遺跡から決定的に分けているのは、その図書館です。所蔵する初期写本・コーデックスの規模は、世界でヴァチカンに次いで第二位。砂漠の山のふもとに、ヨーロッパ中世初期の書物が、ヨーロッパよりも安全に保管されてきました——この一日のもう一方の見どころは、形のうえの修道院ではなく、その書庫の存在そのものです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "出発はホテルから午後の遅い時間から夕方の早い時間にかけて。シャルムからおよそ2時間半、ダハブからはより短い道のりです。ふもとで短い休憩のあと、ガイドの安全とコースのブリーフィング。真夜中に出発、登攀は一定のペースでおよそ3時間。標準のキャメル・トレイルは大半がゆるやかで、道沿いのベドウィンの小屋で温かいお茶を補えます。下の区間ではラクダを雇うこともできます（任意、当日払い）。最後の登りは徒歩のみの「悔悛の750段」。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "頂上での日の出はピンク、オレンジ、金と、20分のあいだに移ろっていきます。光が満ちきると下山が始まります。およそ2時間で修道院へ。ガイド付きで90分の見学——礼拝堂、図書館（一般公開区域から）、燃える柴、そしてイコンのコレクション（キリスト教世界でも屈指のもの）。近くで軽い朝食を取り、正午から午後の早い時間にホテルへ戻ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "シナイ山の日の出は、その評判との出会いに耐えうる、数少ない観光体験のひとつです。登りは本物で、頂上は思ったより寒く、光が花崗岩を染める瞬間は、そこへ至るために失った一夜に見合うものです。そして下山して立つ修道院の図書館は、ヨーロッパが自らの書物を失っていた時期に、その書物を守りつづけた場所です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "これは出発点であり、固定パッケージではありません。プライベートの車両に切り替えたい、ふもとのベドウィン・キャンプで前泊したい、修道院の写本に関心があり許可制の閲覧について相談したい、翌日にカトリーナ山やガラル・サフサーファのハイキングを組み込みたい——そうした一日の組み立て方は、コンシェルジュとご相談ください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58927",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "If you're choosing between our two Sinai nights, tell the concierge where you're staying — the pickup differs more than the mountain does. Either way pack warm layers and real shoes, and remember the monastery keeps its own calendar; we check it before we book you."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Si dudas entre nuestras dos noches del Sinaí, dinos dónde te alojas — la recogida cambia más que la montaña. En todo caso: ropa de abrigo, calzado de verdad, y recuerda que el monasterio tiene su propio calendario; lo comprobamos antes de reservarte."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "二つのシナイ山ツアーで迷ったら、ご宿泊先をお知らせください——山よりも送迎時間のほうが違います。いずれにせよ防寒着としっかりした靴を。修道院には独自の暦があります——ご予約の前にこちらで確認いたします。"
+  }
+ ],
+ "durationHours": 14,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Extended · ~14 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Jornada larga · ~14 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "延長・約14時間"
+  }
+ ],
+ "exclusions": [
+  {
+   "_key": "jjubspsko0",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Camel hire is available for the lower section (an additional cost, paid on the day).",
+   "text": "Camel hire for the lower section (additional cost, paid on the day)"
+  },
+  {
+   "_key": "bgxg96nl2c",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El alquiler de camello está disponible para el tramo inferior (coste adicional, pago en el día).",
+   "text": "Alquiler de camello para el tramo inferior (coste adicional, pago en el día)"
+  },
+  {
+   "_key": "g3wi9ntzc7",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "下の区間ではラクダを雇うこともできます（任意、当日払い）。",
+   "text": "ラクダ（任意、当日払い）"
+  }
+ ],
+ "groupSize": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "1–30 guests"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "1–30 personas"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "1〜30名"
+  }
+ ],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 111,
+  "ja": 118
+ },
+ "inclusions": [
+  {
+   "_key": "9j7uw0c0z7",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Light breakfast nearby — included.",
+   "text": "Light breakfast nearby"
+  },
+  {
+   "_key": "l0lohd5ki9",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Late afternoon or early evening pickup from your hotel.",
+   "text": "Pickup from your hotel"
+  },
+  {
+   "_key": "vs4q1t58n6",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Air-conditioned vehicle through the Sinai interior — roughly two and a half hours from Sharm El Sheikh, less from Dahab.",
+   "text": "Air-conditioned vehicle"
+  },
+  {
+   "_key": "idsfjreyry",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The licensed guide gives the safety and trail briefing and explains the historical and religious context.",
+   "text": "Licensed guide with safety and trail briefing"
+  },
+  {
+   "_key": "6k23barjx0",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Guided visit to the sections open the day of your visit — typically the chapel exterior, the courtyards, the Burning Bush, and the icon collection or library exterior as access permits.",
+   "text": "Guided visit to St. Catherine's Monastery (sections open the day of your visit)"
+  },
+  {
+   "_key": "hsh4yso8tf",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Return drive to your hotel.",
+   "text": "Return drive to your hotel"
+  },
+  {
+   "_key": "j6xz9qv33t",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Desayuno ligero en las inmediaciones — incluido.",
+   "text": "Desayuno ligero en las inmediaciones"
+  },
+  {
+   "_key": "61k9t3ajh0",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "モーセが登ったと伝えられる山への真夜中の登攀、頂で迎える日の出、そして地上で最も長く人の住み続けるキリスト教修道院のひとつ——聖カタリナ修道院のガイド付き見学を含む一日。",
+   "text": "聖カタリナ修道院のガイド付き見学"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/mount-sinai-sunrise-trek-group-day-tour/"
+ },
+ "priceFrom": 100,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_aqua_park_cleo_park",
+   "_ref": "tour.aqua-park-cleo-park",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_dahab_blue_hole_desert_snorkel_group_day_tour_from_sharm",
+   "_ref": "tour.dahab-blue-hole-desert-snorkel-group-day-tour-from-sharm",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_dolphin_show_sharm_el_sheikh",
+   "_ref": "tour.dolphin-show-sharm-el-sheikh",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_87634",
+   "_ref": "wp-page-87634",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Shared group departure · Bedouin-led night ascent · sunrise summit · St. Catherine's currently under partial access restrictions confirmed at booking"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Trek compartido, espiritual y paisajistico · Santa Catalina con acceso parcial restringido en 2026, confirmado en la reserva · Exigente"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "乗合の小グループ出発・冷房付き車両・暗い道を知り尽くした経験豊富な地元ガイド・登攀は中程度の体力前提・修道院でのガイド付き 90 分"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Overnight trek into next-day midday, ≈14–16 hours"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Noche y manana siguiente"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "夜通し〜翌正午過ぎ（ホテル発から戻るまでおよそ15〜17時間／睡眠は車内のみ）"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Sharm El Sheikh or Dahab → Mount Sinai (Camel Trail, 750 Steps of Repentance, summit at 2,285 m) → St. Catherine's Monastery (sections open on the day) → return"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Monte Sinai y monasterio de Santa Catalina"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "シャルム／ダハブのホテル → シナイ内陸を北へ → シナイ山ふもと → 真夜中登攀（約3h） → 頂上で日の出 → 下山（約2h） → 聖カタリナ修道院 → 朝食 → ホテル着（正午〜午後の早い時間）"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "mount-sinai-sunrise-trek-group-day-tour"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "ascenso-al-amanecer-al-monte-sinai-y-monasterio-de-santa-catalina"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "shinai-san-sanraizutorekkingu-sen-go-hyaku-nen-tsuzuku"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "An overnight ascent of Mount Sinai for sunrise from the summit at 2,285 metres, followed by a guided visit to the 6th-century St. Catherine's Monastery — the Burning Bush, the icons, the manuscripts."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Ascenso nocturno al monte Sinaí para ver el amanecer desde la cumbre a 2.285 metros, seguido de una visita guiada al monasterio de Santa Catalina del siglo VI — la Zarza Ardiente, los iconos y los manuscritos."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "モーセが登ったと伝えられる山への真夜中の登攀、頂で迎える日の出、そして地上で最も長く人の住み続けるキリスト教修道院のひとつ——聖カタリナ修道院のガイド付き見学を含む一日。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Mount Sinai Sunrise Trek & St. Catherine's Monastery: Group Tour"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Ascenso al amanecer al monte Sinaí y monasterio de Santa Catalina"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "シナイ山サンライズ・トレッキング：千五百年続く巡礼の、現在の一夜"
+  }
+ ],
+ "tourMode": "group",
+ "type": "dayTour"
+}

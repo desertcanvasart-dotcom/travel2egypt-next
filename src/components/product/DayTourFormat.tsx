@@ -86,6 +86,7 @@ export async function DayTourFormat({
   included,
   excluded,
   options,
+  optionLinks,
   beforeMakeItYours,
   cta,
 }: {
@@ -96,6 +97,8 @@ export async function DayTourFormat({
   included: string[];
   excluded: ExclusionRow[];
   options: string[];
+  /** Same order as `options`: the linked tour's slug, or null. */
+  optionLinks?: Array<string | null> | null;
   beforeMakeItYours?: ReactNode;
   cta: ReactNode;
 }) {
@@ -179,7 +182,7 @@ export async function DayTourFormat({
 
       {beforeMakeItYours}
 
-      <MakeItYours locale={locale} options={options} cta={cta} />
+      <MakeItYours locale={locale} options={options} optionLinks={optionLinks} cta={cta} />
 
       {intro.closingLine && (
         <p className="pdp-itin__closing">

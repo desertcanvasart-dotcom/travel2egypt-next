@@ -1,0 +1,1456 @@
+{
+ "_createdAt": "2026-05-28T11:45:27Z",
+ "_id": "tour.hurghada-airport-transfer",
+ "_rev": "pzh5FM4q1DBt3H4LGqNNJZ",
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:46Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "First-time arrivals, families with luggage, late-evening flights, or anyone who would rather have a named representative waiting than negotiate the taxi rank"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Llegadas primerizas, familias con equipaje, vuelos de última hora o cualquiera que prefiera un representante con nombre antes que negociar la parada de taxis"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "長旅のあと、無許可タクシーで交渉せずホテルまで段取りよく着きたい到着者全般"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Landing in Hurghada: How the First Hour Actually Works"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "An airport transfer is not a tour. It is a logistical handshake between the aircraft door and your hotel lobby, and it deserves to be described as exactly that. This service covers the Hurghada Airport arrival sequence — visa stamp, immigration, baggage, meet-and-greet, and a private air-conditioned drive to your hotel in Hurghada — done cleanly and without the usual scramble."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "It suits anyone arriving into Hurghada International Airport who would rather have a named representative waiting than negotiate an unlicensed taxi rank after a long flight. It is particularly useful for first-time arrivals who are unfamiliar with Egyptian immigration procedure, and for families or groups with enough luggage to make a shared shuttle impractical."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a "
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "private transfer, operated for your party alone"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": " — never shared with other travellers. It "
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "runs for any party size, from a single traveller upward"
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": ", with no waiting on other bookings; larger parties are accommodated in a suitable vehicle. The vehicle is "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "private and air-conditioned"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": ", and "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "one bottle of mineral water per person"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": " is provided for the drive. There is "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "no minimum age"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": " — the service suits arrivals of any age, including families with young children and elderly travellers. It does not include a guide; this is a point-to-point transfer, not a sightseeing tour."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "There is nothing sightseeing about this. The value is in the friction it removes: you know what the visa costs, you know someone is holding a sign with your name, and you know the car is waiting. That is the entire proposition."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Egypt issues visas on arrival for most nationalities, and Hurghada Airport handles this at bank counters inside the terminal before the immigration desks — not after. The fee is a government charge of USD 25 per person, paid in US dollars (crisp, undamaged notes are preferred; Egyptian pounds are not accepted at this stage). Once you have your stamp, you affix it to a blank passport page yourself and join the queue at the immigration desk for the arrival seal. The process is generally straightforward, though queues can lengthen significantly when several charter flights land simultaneously — budget twenty to forty minutes for the full sequence during peak periods."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Baggage claim follows immigration. Check the carousel screen for your flight number, collect everything, and move through customs into the arrivals hall."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Your representative will be standing in the meet-and-greet area beyond the exit gate, holding a sign bearing the Travel2Egypt name and your own. If you cannot locate them immediately, do not leave the arrivals hall — wait by the exit and allow a few minutes before attempting contact."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "From the airport, the drive into central Hurghada or along the Red Sea coastal strip to the major resort areas — Sahl Hasheesh, El Gouna, Makadi Bay — ranges from roughly fifteen minutes to just over an hour depending on your hotel's location. The road runs parallel to the coast for much of the route."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "A Note on the Drive"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "The transfer itself is short by Egyptian standards — anywhere from about fifteen minutes for a central Hurghada hotel to a little over an hour for the farther resort developments such as El Gouna to the north or Makadi Bay and Soma Bay to the south. The road is sealed and runs close to the coast. The longer part of the arrival is usually the airport sequence, not the drive."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Visa Costs: A Practical Note"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "The USD 25 visa-on-arrival fee is a government charge, not part of the transfer, and cannot be pre-paid through this service. Have the cash ready before you reach the bank counter; ATMs are available at the airport if needed, though the queues at arrival can be slow. Citizens of certain countries — including Jordan and some Gulf states — are exempt from the fee or subject to different arrangements; check your country's current status before travel, as the Egyptian government's visa policy does occasionally change."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Some nationalities are not eligible for visa-on-arrival and must obtain an e-visa in advance through the Egyptian government's official portal. This is worth confirming well before your flight date."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "The first hour in a new country sets the register for everything that follows."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Getting it right costs the price of a visa stamp and a name on a sign."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "The USD 25 visa-on-arrival fee is a government charge and is paid at the airport bank counter — not through us. We will confirm your flight, your representative, and the pickup point, and we can run the same service in reverse for your departure if that is useful."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Aterrizar en Hurgada: cómo funciona de verdad la primera hora"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un apretón de manos logístico entre la puerta del avión y el vestíbulo del hotel, descrito como lo que es."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Un traslado al aeropuerto no es una excursión. Es un trámite logístico entre la puerta del avión y el vestíbulo del hotel, y merece describirse exactamente así. Este servicio cubre la secuencia de llegada en el Aeropuerto Internacional de Hurgada —sello del visado, inmigración, equipaje, recepción con cartel y un trayecto privado con aire acondicionado hasta el hotel en Hurgada— resuelto con limpieza y sin la carrera habitual."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Va dirigido a cualquiera que llegue al Aeropuerto Internacional de Hurgada y prefiera tener a un representante con nombre esperando antes que negociar con una parada de taxis sin licencia tras un vuelo largo. Resulta particularmente útil para llegadas primerizas que no conocen el procedimiento de inmigración egipcio, y para familias o grupos con suficiente equipaje como para que un transfer compartido sea poco práctico."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Es un "
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "traslado privado, operado solo para su grupo"
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": ", nunca compartido con otros viajeros. "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Opera para cualquier tamaño de grupo, desde un solo viajero"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": ", sin espera por otras reservas; los grupos más numerosos se acomodan en un vehículo adecuado. El vehículo es "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "privado y con aire acondicionado"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": ", y se incluye "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "una botella de agua mineral por persona"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": " para el trayecto. "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "No hay edad mínima"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ": el servicio se ajusta a llegadas de cualquier edad, incluidas familias con niños pequeños y viajeros mayores. No incluye guía: es un transfer punto a punto, no una excursión."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "No hay turismo aquí. El valor está en la fricción que retira: se sabe cuánto cuesta el visado, se sabe que alguien sostiene un cartel con su nombre y se sabe que el coche espera. Esa es toda la propuesta."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Egipto emite visados a la llegada para la mayoría de nacionalidades, y el Aeropuerto de Hurgada los tramita en los mostradores bancarios de la terminal "
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "antes"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": " de los puestos de inmigración, no después. La tasa es un cargo gubernamental de "
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "25 USD por persona"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": ", pagaderos en dólares estadounidenses (se prefieren billetes nuevos, sin desperfectos; en este paso no se aceptan libras egipcias). Una vez con el sello, se adhiere a una página en blanco del pasaporte y se hace cola en el puesto de inmigración para el cuño de entrada. El proceso suele ser sencillo, aunque las colas pueden alargarse cuando aterrizan varios vuelos chárter a la vez: convendrá calcular entre veinte y cuarenta minutos para toda la secuencia en horas punta."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "La recogida de equipaje sigue a inmigración. Conviene mirar la pantalla de la cinta con el número de vuelo, recoger todo y cruzar la aduana hacia la sala de llegadas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "El representante estará en la zona de recepción tras la salida, con un cartel que lleva el nombre de Travel2Egypt y el suyo. Si no lo localiza enseguida, no salga de la sala de llegadas: espere junto a la salida y deje unos minutos antes de intentar contactarlo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde el aeropuerto, el trayecto hasta el centro de Hurgada o a lo largo de la franja costera hacia las grandes zonas hoteleras —Sahl Hasheesh, El Gouna, Makadi Bay— varía entre unos quince minutos y poco más de una hora, según la ubicación del hotel. La carretera discurre paralela a la costa durante buena parte del recorrido."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Una nota sobre el trayecto"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "El traslado en sí es corto para los estándares egipcios: desde unos quince minutos en el caso de un hotel céntrico de Hurgada hasta algo más de una hora para los desarrollos más alejados, como El Gouna al norte o Makadi Bay y Soma Bay al sur. La carretera está asfaltada y rueda cerca de la costa. La parte más larga de la llegada suele ser la secuencia del aeropuerto, no el trayecto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Coste del visado: una nota práctica"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "La tasa de 25 USD por el visado a la llegada es un cargo gubernamental, no forma parte del traslado y no puede prepagarse a través de este servicio. Conviene tener el efectivo listo antes de llegar al mostrador bancario; hay cajeros automáticos en el aeropuerto si fuera necesario, aunque las colas a la llegada pueden ser lentas. Los ciudadanos de determinados países —incluidos Jordania y algunos Estados del Golfo— están exentos de la tasa o sujetos a otros arreglos; conviene comprobar la situación actual de su país antes de viajar, ya que la política de visados del gobierno egipcio cambia de vez en cuando."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "Algunas nacionalidades no pueden obtener el visado a la llegada y deben tramitar un "
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "e-visa"
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": " previamente a través del portal oficial del gobierno egipcio. Vale la pena confirmarlo bien antes de la fecha del vuelo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "La primera hora en un país nuevo fija el registro de todo lo que sigue."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Hacerlo bien cuesta el precio de un sello de visado y un nombre en un cartel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000044",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [],
+       "text": "La tasa de visado de 25 USD a la llegada es un cargo gubernamental y se paga en el mostrador bancario del aeropuerto, no a través de nosotros. Confirmaremos su vuelo, su representante y el punto de recogida, y podemos operar el mismo servicio a la inversa para la salida si le resulta útil."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "ハルガダに着陸する：最初の1時間が実際にどう運ぶか"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "空港送迎はツアーではありません。それは、機内のドアからホテルのロビーまでをつなぐ、段取りの握手であり、まさにそのとおりに描かれるべきものです。このサービスは、ハルガダ空港の到着のひと続き——ビザのスタンプ、入国審査、手荷物、ミート・アンド・グリート、そしてハルガダ街なかのホテルへのプライベートの冷房付きドライブ——を、いつものあたふたなしに、すっきりと片づけます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "このサービスは、ハルガダ国際空港に到着する方で、長旅のあとに無許可のタクシー乗り場で交渉するよりも、名前を記した係員に待っていてほしい、というあらゆる方に向いています。エジプトの入国手続きに不慣れな初めての到着の方、そして相乗りのシャトルが現実的でないほどの荷物をお持ちのご家族やグループに、とりわけ役立ちます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "これは"
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "お客様のご一行だけのために催行されるプライベート送迎"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "で——ほかの旅行者と相乗りすることは決してありません。"
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "一名から、どんな人数のご一行でも承り"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "、ほかの予約を待つこともありません。大人数のご一行には、それにふさわしい車両でご対応します。車両は"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "プライベートの冷房付き"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "で、ドライブのために"
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ミネラルウォーター1人1本"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "が提供されます。"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "年齢制限はありません"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "——このサービスは、小さなお子様連れのご家族やご高齢の旅行者を含め、あらゆる年齢の到着に適しています。ガイドは含みません。これは地点から地点への送迎であって、観光ツアーではありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "ここに観光らしいものは何もありません。その価値は、取り除く摩擦にあります——ビザがいくらかかるかわかっていて、誰かがあなたの名前を記した札を持っていることがわかっていて、車が待っていることがわかっている。それが、提案のすべてです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプトは大半の国籍に対して到着ビザを発給しており、ハルガダ空港はこれを、入国審査デスクの——後ではなく——手前、ターミナル内の銀行窓口で扱います。料金は政府による1人25ドルの徴収で、米ドルで支払います（折り目のない、傷んでいない紙幣が好まれます。この段階ではエジプト・ポンドは受け付けられません）。スタンプを手にしたら、ご自身でパスポートの空白ページに貼り、到着の捺印のために入国審査デスクの列に並びます。手続きはおおむね簡単ですが、複数のチャーター便が同時に着くと列が大きく延びることがあります——混雑時の全工程には20〜40分を見込んでください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "入国審査のあとに手荷物の受け取り。受け取りのターンテーブルの画面で便名を確認し、すべてを受け取り、税関を抜けて到着ロビーへ進みます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "係員は、出口ゲートの先のミート・アンド・グリートのエリアで、Travel2Egypt の名とお客様ご自身のお名前を記した札を持って立っています。すぐに見つけられない場合は、到着ロビーを離れないでください——出口のそばで待ち、連絡を試みる前に数分の余裕をもってください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "空港からは、ハルガダ中心部、あるいは紅海沿岸の帯に沿った主要なリゾート地区——サハル・ハシーシュ、エル・グーナ、マカディ湾——へのドライブが、ホテルの場所により、およそ15分から1時間あまりまでさまざまです。道は、その大半で海岸と並行して走ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "ドライブについての注記"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "送迎そのものはエジプトの基準では短いものです——ハルガダ中心部のホテルなら約15分から、北のエル・グーナや南のマカディ湾、ソマ湾といった、より遠いリゾート開発地なら1時間あまりまで。道は舗装され、海岸の近くを走ります。到着でより長くかかるのは、たいていドライブではなく、空港でのひと続きのほうです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "ビザの費用：実用的な注記"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "25ドルの到着ビザ料は政府による徴収であり、この送迎の一部ではなく、このサービスを通じて前払いすることはできません。銀行窓口にたどり着く前に現金をご用意ください。必要ならば空港にATMがありますが、到着時の列は遅いことがあります。特定の国の市民——ヨルダンや一部の湾岸諸国を含む——は、この料金を免除されるか、異なる取り扱いの対象となります。エジプト政府のビザ政策はときに変わるので、渡航前にご自身の国の現在の状況をご確認ください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "一部の国籍は到着ビザの対象外で、エジプト政府の公式ポータルを通じて、事前にe-ビザを取得する必要があります。これは、ご出発の日のずっと前に確認しておく価値があります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "新しい国での最初の1時間は、そのあとに続くすべての調子を定めます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "それを正しくするのにかかるのは、ビザのスタンプと、札に記した名前の代金だけです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000040",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58859",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "The honest variable here is geography: central Hurghada is minutes from the airport, while El Gouna, Makadi or Soma Bay can be over an hour by road. Give us your hotel and your flight number and we'll time the vehicle to the real distance — nothing more is asked of you on landing."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "La variable honesta aquí es la geografía: el centro de Hurghada está a minutos del aeropuerto, mientras que El Gouna, Makadi o Soma Bay pueden superar la hora por carretera. Dinos tu hotel y tu número de vuelo y ajustaremos el vehículo a la distancia real — al aterrizar no se te pedirá nada más."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "この送迎の正直な変数は地理です。フルガダ中心部なら空港から数分ですが、エル・グーナやマカディ、ソマ・ベイでは車で一時間を超えることもあります。ホテル名とフライト番号をお知らせください。実際の距離に合わせて車を整えます——ご到着後にお客様がなさることは、それ以上何もありません。"
+  }
+ ],
+ "durationHours": 2,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "~2 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "~2 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "約2時間"
+  }
+ ],
+ "exclusions": [
+  {
+   "_key": "ddqn9gwbf9",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "It does not include a guide; this is a point-to-point transfer, not a sightseeing tour.",
+   "text": "Guide"
+  },
+  {
+   "_key": "us64m97k2j",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The USD 25 visa-on-arrival fee is a government charge, not part of the transfer, and cannot be pre-paid through this service.",
+   "text": "USD 25 visa-on-arrival fee"
+  },
+  {
+   "_key": "h9yaggxskz",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "No incluye guía: es un transfer punto a punto, no una excursión.",
+   "text": "No incluye guía"
+  },
+  {
+   "_key": "dg24j6tmdm",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La tasa de 25 USD por el visado a la llegada es un cargo gubernamental, no forma parte del traslado y no puede prepagarse a través de este servicio.",
+   "text": "Tasa de visado de 25 USD a la llegada"
+  },
+  {
+   "_key": "w8m7jznnyb",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ガイドは含みません。",
+   "text": "ガイド"
+  },
+  {
+   "_key": "n2ldx2qvey",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "25ドルの到着ビザ料は政府による徴収であり、この送迎の一部ではなく、このサービスを通じて前払いすることはできません。",
+   "text": "25ドルの到着ビザ料"
+  }
+ ],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 23,
+  "ja": 30
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A traveller in a headscarf wheels a printed suitcase through a modern airport terminal"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Una viajera con pañuelo en la cabeza arrastra una maleta estampada por una terminal de aeropuerto moderna"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "現代的な空港ターミナルを、柄物のスーツケースを引いて進むスカーフを巻いた旅行者。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-284059fd6eea8ce36cc9a2bd146348453e198612-3000x2002-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A traveller crosses the terminal toward the gates."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Una viajera cruza la terminal hacia las puertas de embarque."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "搭乗口へとターミナルを横切る旅行者。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "vfjlzjd8z8",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This is a private transfer, operated for your party alone — never shared with other travellers.",
+   "text": "Private transfer, operated for your party alone"
+  },
+  {
+   "_key": "33o68v6zb7",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The vehicle is private and air-conditioned, and one bottle of mineral water per person is provided for the drive.",
+   "text": "Private air-conditioned vehicle"
+  },
+  {
+   "_key": "gr873qt8j6",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The vehicle is private and air-conditioned, and one bottle of mineral water per person is provided for the drive.",
+   "text": "One bottle of mineral water per person"
+  },
+  {
+   "_key": "csc4qfpoox",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Your representative will be standing in the meet-and-greet area beyond the exit gate, holding a sign bearing the Travel2Egypt name and your own.",
+   "text": "Meet-and-greet with representative holding a name sign"
+  },
+  {
+   "_key": "6jer1eh6t2",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El vehículo es privado y con aire acondicionado, y se incluye una botella de agua mineral por persona para el trayecto.",
+   "text": "Traslado privado con aire acondicionado"
+  },
+  {
+   "_key": "zinq24oeit",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El vehículo es privado y con aire acondicionado, y se incluye una botella de agua mineral por persona para el trayecto.",
+   "text": "Una botella de agua mineral por persona para el trayecto"
+  },
+  {
+   "_key": "65qgq7cujm",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "これはお客様のご一行だけのために催行されるプライベート送迎で——ほかの旅行者と相乗りすることは決してありません。",
+   "text": "プライベート送迎（相乗りなし）"
+  },
+  {
+   "_key": "27qvnx6da1",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "車両はプライベートの冷房付きで、ドライブのためにミネラルウォーター1人1本が提供されます。",
+   "text": "プライベートの冷房付き車両"
+  },
+  {
+   "_key": "v9sbe1842l",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "車両はプライベートの冷房付きで、ドライブのためにミネラルウォーター1人1本が提供されます。",
+   "text": "ミネラルウォーター1人1本"
+  },
+  {
+   "_key": "0per3wfr4a",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "係員は、出口ゲートの先のミート・アンド・グリートのエリアで、Travel2Egypt の名とお客様ご自身のお名前を記した札を持って立っています。",
+   "text": "名前を記した札を持つ係員によるミート・アンド・グリート"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/hurghada-airport-transfer/"
+ },
+ "priceFrom": 12,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_121071",
+   "_ref": "wp-page-121071",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_cairo_by_bus_group_day_tour_from_hurghada",
+   "_ref": "tour.cairo-by-bus-group-day-tour-from-hurghada",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_116301",
+   "_ref": "wp-page-116301",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_dendera_and_abydos_temple_day_tour_from_hurghada",
+   "_ref": "tour.dendera-and-abydos-temple-day-tour-from-hurghada",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Private air-conditioned vehicle for your party alone · named meet-and-greet sign in arrivals · assistance through baggage and customs · no guide (this is a transfer, not a tour)"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Vehículo privado con aire acondicionado solo para el grupo, cartel con nombre en llegadas, asistencia con equipaje y aduana, sin guía (es un traslado, no una excursión)"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "フル・プライベート催行・専用車両・プライベート送迎・名前を記したミート＆グリート・冷房付き車両・観光ではなく地点間移動"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Roughly fifteen minutes to just over an hour by road, plus the airport arrivals sequence (visa, immigration, baggage)"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "De unos quince minutos a algo más de una hora por carretera, más la secuencia de llegada en el aeropuerto (visado, inmigración, equipaje)"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "空港〜ホテル送迎（およそ15分〜1時間あまり）"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Hurghada International Airport → your hotel (central Hurghada, El Gouna, Sahl Hasheesh, Makadi Bay, Soma Bay)"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Aeropuerto Internacional de Hurgada al hotel (centro de Hurgada, El Gouna, Sahl Hasheesh, Makadi Bay, Soma Bay)"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "ハルガダ国際空港 → ホテル（市街中心・サハル・ハシーシュ・エル・グーナ・マカディ湾など）"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "hurghada-airport-transfer"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "traslado-privado-desde-el-aeropuerto-de-hurgada-al-hotel"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "furugada-kuko-sogei-tochaku-to-hoteru-e-no-ido"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A no-fuss private transfer from Hurghada Airport to your hotel — with a rep on the ground from the moment you land."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Un traslado privado sin sobresaltos desde el aeropuerto de Hurgada hasta el hotel, con representante en tierra desde el momento del aterrizaje."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ハルガダ空港からホテルへの、わずらわしさのないプライベート送迎——着陸の瞬間から、係員が現地でお迎えします。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Hurghada Airport Transfer: Arrival & Hotel Run"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Traslado privado desde el aeropuerto de Hurgada al hotel"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ハルガダ空港送迎：到着とホテルへの移動"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}

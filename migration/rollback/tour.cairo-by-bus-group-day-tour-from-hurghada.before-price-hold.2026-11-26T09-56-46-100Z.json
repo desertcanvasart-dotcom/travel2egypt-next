@@ -1,0 +1,987 @@
+{
+ "_createdAt": "2026-05-28T11:45:20Z",
+ "_id": "tour.cairo-by-bus-group-day-tour-from-hurghada",
+ "_rev": "njTfVwbi0KONc4Ep6A7KrL",
+ "_type": "tour",
+ "_updatedAt": "2026-11-19T18:43:27Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Red Sea resort guests who cannot give a night to Cairo and accept the road time for the canonical four-site circuit"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros de playa con poco tiempo"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "紅海沿岸滞在を中心に置きつつ、カイロを一度は見ておきたい方／一泊で組み替えるよりも日帰りでまとめたい方／「広く浅く」を許容できる方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Cairo by Bus: Full-Day Group Tour from Hurghada"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "— Four hundred and sixty kilometres each way through the Eastern Desert, the four canonical Cairo sites between them, back on the Red Sea before midnight —"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "This is the long day. Hurghada to Cairo by coach is roughly 460 kilometres each way — five to six hours of driving on the desert road in each direction, with the standard four Cairo stops between them. It is the demanding option, honestly framed; it suits travellers who cannot give a night to Cairo and want the canonical circuit on a day-return."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Group is shared on an air-conditioned coach. The Cairo itinerary is the standard four-site sequence: the Giza Plateau, the Grand Egyptian Museum (or the Tahrir building of the Egyptian Museum, depending on departure), the Citadel of Saladin, and Khan el-Khalili. Lunch is included en route or in central Cairo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The day, hour by hour"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Pre-dawn departure from the Hurghada hotel. Air-conditioned coach west across the Eastern Desert. Five to six hours of driving with one comfort stop en route. Arrival at the Giza Plateau in late morning."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000010",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Giza Plateau."
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": " The three pyramids of Khufu (c. 2560 BC), Khafre, and Menkaure, and the Great Sphinx. Roughly ninety minutes on site — the standard plateau circuit with the guide, panorama viewpoint included."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Group lunch."
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": " At a local restaurant in central Cairo or Giza — Egyptian standards, included in the package."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000016",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Egyptian Museum."
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": " Either the Grand Egyptian Museum at Giza (the new flagship, which fully opened on 1 November 2025 and holds the complete Tutankhamun assemblage) or the Tahrir building (the 1902 institution, which still holds a vast general collection of pharaonic material). The variant depends on the departure date; confirm at booking. Tutankhamun's treasures are now at the GEM, and the royal mummies are at the National Museum of Egyptian Civilisation (NMEC) in Old Cairo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Citadel of Saladin."
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": " Begun by Salah ad-Din in 1176 on the Mokattam ridge, with the Mosque of Mohamed Ali (completed 1848) dominant on the skyline. View across to the Giza pyramids on clear days. The military museum is on site for travellers who want it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Khan el-Khalili."
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": " A short stop in the medieval bazaar quarter — gold, silver, spices, papyrus, and the broader tourist trade. The Al-Fishawy café, operating continuously since 1773, according to its own account, is there if you want a tea before the return drive."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": "Departure from Cairo in the late afternoon. Return coach drive across the Eastern Desert. Hotel drop-off late in the evening."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000022",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Hurghada to Cairo and back is fifteen-plus hours, four canonical sites, and a single demanding day."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000024",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "It is the option for travellers who cannot leave the coast — and it works if you walk in with the right expectations."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [],
+       "text": "The coach is the cheapest way to do it; the flight-based Cairo-from-Hurghada variant or an overnight in Cairo are both gentler options — we can model the trade-offs."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "El Cairo en autobús: día completo en grupo desde Hurghada"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "— Cuatrocientos sesenta kilómetros de ida por el desierto oriental, los cuatro sitios canónicos de El Cairo entre medias y regreso al mar Rojo antes de medianoche —"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Éste es el día largo. De Hurghada a El Cairo en autocar son aproximadamente 460 kilómetros en cada sentido — cinco a seis horas por la carretera del desierto en cada dirección, con las cuatro paradas habituales en la capital intercaladas. Es la opción exigente, planteada con honestidad; encaja con viajeros que no pueden dedicar una noche a El Cairo y desean cubrir el circuito canónico en jornada de ida y vuelta."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "El grupo viaja en autocar climatizado compartido. El itinerario en El Cairo es la secuencia clásica de cuatro sitios: la meseta de Guiza, el Gran Museo Egipcio (o el edificio histórico del Museo Egipcio en Tahrir, según fecha de salida), la Ciudadela de Saladino y Jan el-Jalili. El almuerzo está incluido, en ruta o en el centro de El Cairo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "El día, hora a hora"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Salida antes del amanecer desde el hotel en Hurghada. Autocar climatizado hacia el oeste, cruzando el desierto oriental. Cinco a seis horas de carretera con una parada técnica intermedia. Llegada a la meseta de Guiza a última hora de la mañana."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000010",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Meseta de Guiza."
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": " Las tres pirámides de Keops (c. 2560 a. C.), Kefrén y Micerinos y la Gran Esfinge. Aproximadamente noventa minutos en el sitio — el circuito habitual de la meseta con el guía, mirador panorámico incluido."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Almuerzo en grupo."
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": " En un restaurante local del centro de El Cairo o de Guiza — cocina egipcia estándar, incluido en el paquete."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000016",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Museo Egipcio."
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": " El Gran Museo Egipcio en Guiza (el nuevo museo insignia, que abrió completamente el 1 de noviembre de 2025 y alberga el ajuar completo de Tutankamón) o el edificio de Tahrir (la institución fundada en 1902, que conserva una vasta colección general de material faraónico). La variante depende de la fecha de salida; se confirma en el momento de la reserva. Los tesoros de Tutankamón se encuentran ahora en el GEM, y las momias reales se exhiben en el Museo Nacional de la Civilización Egipcia (NMEC), en El Cairo Antiguo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Ciudadela de Saladino."
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": " Iniciada por Salah ad-Din en 1176 sobre la cresta del Mokattam, con la mezquita de Mohammed Ali (terminada en 1848) dominando el perfil. En días despejados se divisan las pirámides de Guiza al otro lado de la ciudad. El museo militar está en el recinto para quien quiera visitarlo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Jan el-Jalili."
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": " Parada breve en el barrio de bazares medieval — oro, plata, especias, papiro y el resto del comercio turístico. El café Al-Fishawy, en funcionamiento sin interrupción desde 1773, según su propio relato, está ahí por si apetece tomar un té antes del regreso."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": "Salida de El Cairo a media tarde. Regreso en autocar cruzando el desierto oriental. Llegada al hotel ya entrada la noche."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000022",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "De Hurghada a El Cairo y vuelta son más de quince horas, cuatro sitios canónicos y una sola jornada exigente."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000024",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Es la opción para viajeros que no pueden abandonar la costa — y funciona si se entra con las expectativas correctas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000034",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [],
+       "text": "No es un dia suave. Es una decision: cambiar una jornada de playa por una mirada intensa a la capital."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000035",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta es una ruta abierta. Si quieres ajustar el ritmo, cambiar el orden de las visitas o añadir un complemento, podemos adaptarla contigo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "バスで行くカイロ：紅海に根を張ったままの「一日カイロ」"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "夜明け前のハルガダ発、深夜過ぎの帰着。砂漠を片道5〜6時間、その先にギザ、博物館、城塞、ハーン——海岸の滞在を崩さずに、カイロの四つの軸を一日で押さえる、正直な選択肢。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "率直に申し上げます。カイロを見るには、これは最良の方法ではありません。ハルガダから西へ片道およそ460キロ、コーチで5〜6時間。夜明け前にホテルを出て、深夜過ぎに帰る一日です。それでも、この一日が「存在する」理由ははっきりしています——紅海沿岸での旅を組み直さず、けれど海岸だけでは終わらせたくない方のための、現実的な解です。私たちは、これを最良として売るのではなく、「ある」ものとして正直に提示します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "四つの定番——ギザ高原、エジプト考古学博物館または大エジプト博物館、サラディン城塞、ハーン・ハリーリ——を、この順序で巡ります。順序には理由があります。ギザは早めに着いて団体バスを避ける必要があり、博物館は午前後半から午後早めの空いた時間が読みやすい。城塞は午後の日差しのなかでムハンマド・アリー・モスクのドームが最も映え、ハーンは夕暮れの光のもとで歩くのが最も街らしい。たった一日でカイロを読むのに、これは恣意的な順番ではありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "ギザ高原ではクフ王の大ピラミッドの基部、パノラマ・ポイント、カフラー王の河岸神殿、大スフィンクスを90分で巡ります。博物館は出発日によって、タハリール広場の旧館（1902年開館、いまもファラオ時代の膨大な一般コレクションを所蔵）か、ギザの大エジプト博物館（2025年11月開館の新たな旗艦館で、ツタンカーメンの完全な副葬品一式を所蔵）か、いずれか——ご予約時にご確認ください。サラディン城塞は1176年にサラーフ・アッディーンが着工し、1848年完成のムハンマド・アリー・モスクが空を背に際立ちます。締めくくりはハーン・ハリーリ——中世以来のバザールで、店自身によれば1773年から営業を続けているアル・フィシャーウィー・カフェで紅茶を一杯。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "これは「掘り下げる」一日ではありません。広く、浅く、しかし正確に。深く読みたい一点があるなら、一泊するか、別の日にもう一度戻る方を私たちは強くおすすめします。それでも、紅海沿いの一週間がすでにあなたの旅程の中心で、それを崩すつもりはない——そういう方にとって、この一日は確かに「ちゃんと報われる」一日です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "ハルガダからカイロへの往復は15時間超、その先で待つのは半日の周遊と、四つの軸。海岸を離れずにカイロを一度は見ておく、その実用的な道筋として、この日には居場所があります。決して楽な選択ではないと、ガイドはまず正直に申し上げます。それでも、最も価値があるのは「楽な選択」ばかりではありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "これは出発点であり、固定パッケージではありません。プライベートの車両に切り替えたい、コーチではなく国内線で時間を節約したい、せめてカイロで一泊して深く見たい——そうした一日の組み立て方は、コンシェルジュとご相談ください。長距離コーチは最も手頃な選択肢ですが、唯一の選択肢ではありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58859",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "An honest word first: this is a long day, and the coach hours are most of it. If they daunt you, ask our concierge about the flight version, a private car, or an overnight that turns one demanding day into two easy ones."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Primero, honestidad: es un día largo, y las horas de autocar son la mayor parte. Si te frenan, pregunta a nuestro concierge por la versión en avión, un coche privado o una noche en El Cairo que convierte un día exigente en dos tranquilos."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "まず正直に：長い一日で、その大半はバスの時間です。それが気がかりでしたら、飛行機版、プライベートカー、あるいはカイロ一泊で「きつい一日」を「楽な二日」に変える案を、コンシェルジュにお尋ねください。"
+  }
+ ],
+ "durationHours": 16,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Extended · ~16 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Jornada larga · ~16 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "延長・約16時間"
+  }
+ ],
+ "exclusions": [],
+ "groupSize": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "1–30 guests"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "1–30 personas"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "1〜30名"
+  }
+ ],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 156,
+  "ja": 163
+ },
+ "heroImage": {
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The domes and twin minarets of the Mosque of Muhammad Ali at Cairo's Citadel under a blue, cloud-flecked sky"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Las cúpulas y los dos minaretes de la Mezquita de Muhammad Ali en la Ciudadela de El Cairo, bajo un cielo azul con nubes"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "雲の浮かぶ青空の下、カイロのシタデルに立つムハンマド・アリ・モスクのドームと二本のミナレット。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-d5f0df623604a49198ff4d0653b7f86c6810670c-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The Mosque of Muhammad Ali crowns the Citadel of Cairo."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "La Mezquita de Muhammad Ali corona la Ciudadela de El Cairo."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "カイロのシタデルを戴くムハンマド・アリ・モスク。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "6dc6kolxca",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Lunch is included en route or in central Cairo.",
+   "text": "Lunch en route or in central Cairo"
+  },
+  {
+   "_key": "knr8q92h79",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "At a local restaurant in central Cairo or Giza — Egyptian standards, included in the package.",
+   "text": "Group lunch at a local restaurant"
+  },
+  {
+   "_key": "nuuktkze89",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Group is shared on an air-conditioned coach.",
+   "text": "Shared air-conditioned coach"
+  },
+  {
+   "_key": "lsbt78dper",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Roughly ninety minutes on site — the standard plateau circuit with the guide, panorama viewpoint included.",
+   "text": "Giza Plateau circuit with guide, panorama viewpoint included"
+  },
+  {
+   "_key": "u0vmxja79s",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El almuerzo está incluido, en ruta o en el centro de El Cairo.",
+   "text": "Almuerzo"
+  },
+  {
+   "_key": "1haryp38gi",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Aproximadamente noventa minutos en el sitio — el circuito habitual de la meseta con el guía, mirador panorámico incluido.",
+   "text": "Mirador panorámico en la meseta de Guiza"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/cairo-by-bus-group-day-tour-from-hurghada/"
+ },
+ "priceFrom": 145,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_121071",
+   "_ref": "wp-page-121071",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_116301",
+   "_ref": "wp-page-116301",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_dendera_and_abydos_temple_day_tour_from_hurghada",
+   "_ref": "tour.dendera-and-abydos-temple-day-tour-from-hurghada",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_dolphin_house_shared_snorkeling_day_from_hurghada",
+   "_ref": "tour.dolphin-house-shared-snorkeling-day-from-hurghada",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Shared air-conditioned coach · licensed Egyptologist guide in Cairo · pre-dawn departure, late-evening return · group lunch included"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Salida compartida por carretera · Exigente, con muchas horas de autobus"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "乗合の小グループ出発・冷房付きコーチ・カイロ区間のライセンス付きエジプト学ガイド・カイロでの実滞在およそ6時間／昼食含む"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Very long day, ≈15–17 hours"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Dia completo muy largo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "ロングデイ（ドアtoドアでおよそ15〜18時間／片道5〜6時間）"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Hurghada → Cairo (Giza Plateau, Grand Egyptian Museum or Tahrir Museum, Citadel of Saladin, Khan el-Khalili) → Hurghada, ≈460 km each way"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Hurghada a El Cairo y regreso"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "ハルガダ → 東部砂漠を西へ約460km → カイロ（ギザ高原／博物館／城塞／ハーン・ハリーリ） → ハルガダへ戻る"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "cairo-by-bus-group-day-tour-from-hurghada"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "el-cairo-en-autobus-desde-hurghada"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "basu-de-iku-kairo-kokai-ni-ne-o-hatta-mama-no-ichi-nichi"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A shared-coach day from Hurghada to Cairo and back — the Giza Plateau, the Grand Egyptian Museum or the Egyptian Museum, the Citadel of Saladin, and Khan el-Khalili in a single, demanding day."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Día compartido en autobús desde Hurghada hasta El Cairo y regreso — la meseta de Guiza, el Gran Museo Egipcio o el Museo Egipcio de Tahrir, la Ciudadela de Saladino y Jan el-Jalili en una sola jornada exigente."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "夜明け前のハルガダ発、深夜過ぎの帰着。砂漠を片道5〜6時間、その先にギザ、博物館、城塞、ハーン——海岸の滞在を崩さずに、カイロの四つの軸を一日で押さえる、正直な選択肢。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Cairo by Bus: Full-Day Group Tour from Hurghada"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "El Cairo en autobús desde Hurghada"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "バスで行くカイロ：紅海に根を張ったままの『一日カイロ』"
+  }
+ ],
+ "tourMode": "group",
+ "type": "dayTour"
+}

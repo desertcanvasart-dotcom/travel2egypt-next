@@ -1,0 +1,1982 @@
+{
+ "_createdAt": "2026-05-04T20:34:54Z",
+ "_id": "wp-page-78400",
+ "_rev": "44OBfc3nyoMiSJNtmPc1qC",
+ "_system": {
+  "base": {
+   "id": "wp-page-78400",
+   "rev": "foUqbMWmQeVyxrmYiha7bz"
+  }
+ },
+ "_type": "guideArticle",
+ "_updatedAt": "2026-10-31T12:09:44Z",
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "jogx7h4zy1zd",
+       "_type": "span",
+       "marks": [],
+       "text": "Things To Do in "
+      },
+      {
+       "_key": "tpuaf02mklgw",
+       "_type": "span",
+       "marks": [
+        "4ngobr1xmr46"
+       ],
+       "text": "Marsa Alam"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "4ngobr1xmr46",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58885",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "vh5an2z2dzhe",
+       "_type": "span",
+       "marks": [],
+       "text": "Day One – Dolphin Encounters at "
+      },
+      {
+       "_key": "eksw1f3yq5sp",
+       "_type": "span",
+       "marks": [
+        "utohr5rvidji"
+       ],
+       "text": "Sataya Reef"
+      },
+      {
+       "_key": "rs8ul3xe9rt7",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "utohr5rvidji",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.marsa-alam.sataya-reef",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Begin your Marsa Alam adventure by swimming with dolphins at the lesser-known but breathtaking Sataya Reef. Here, spinner dolphins play in waters less crowded than the famed "
+      },
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [
+        "000000000005"
+       ],
+       "text": "Dolphin"
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [],
+       "text": " House, offering a more intimate experience. The reef itself is an underwater spectacle of pristine coral and crystal-clear waters, a short boat ride from "
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [
+        "000000000008"
+       ],
+       "text": "Hamata"
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": ". For those who prefer shallow waters, Abu Dabab offers encounters with turtles, dolphins, and the elusive dugong, all accessible from the sandy beach – perfect for families and novice snorkelers."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000005",
+       "_type": "externalLink",
+       "href": "https://en.wikipedia.org/wiki/Dolphin",
+       "newTab": true
+      },
+      {
+       "_key": "000000000008",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/marsa-alam-travel-guide/hamata-islands-qulaan-archipelago/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/marsa-alam/hamata-islands",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "t6fqtzhsuyi3",
+       "_type": "span",
+       "marks": [],
+       "text": "Day Two – Historical Journey to "
+      },
+      {
+       "_key": "5npoix532a87",
+       "_type": "span",
+       "marks": [
+        "wtgxub0ek747"
+       ],
+       "text": "Luxor"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "wtgxub0ek747",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58877",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000018",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Take a day (or two) to "
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [
+        "00000000000f"
+       ],
+       "text": "explore"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [],
+       "text": " Luxor, the ancient city of Thebes. Just a few hours’ drive from "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "000000000012"
+       ],
+       "text": "Marsa Alam"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": ", Luxor is an open-air museum of Pharaonic Egypt, teeming with temples and historic monuments. Experience local life, wander through bustling souks, and enjoy a "
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "000000000015"
+       ],
+       "text": "serene felucca ride"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [],
+       "text": " on the Nile as the sun sets."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000000f",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/nuweiba-travel-guide/exploring/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/nuweiba",
+       "newTab": false
+      },
+      {
+       "_key": "000000000012",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/attractions-in-marsa-alam/"
+       },
+       "_type": "externalLink",
+       "href": "/blog/attractions-in-marsa-alam",
+       "newTab": false
+      },
+      {
+       "_key": "000000000015",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/felucca-rides-in-egypt/"
+       },
+       "_type": "externalLink",
+       "href": "/blog/felucca-rides-in-egypt",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [],
+       "text": "Day Three – Exploring El Quseir"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": "Dedicate a day to shopping and sightseeing in the historic city of El Quseir. Visit the sixteenth-century Ottoman fort and stroll through the charming port. Shop in the local souks for authentic Egyptian goods at prices lower than hotel shops, but choose wisely as quality varies."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": "Day Four – Adventure on the High Seas or Sky"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": "Opt for deep-sea fishing in Marsa Alam’s rich waters, or if you’re seeking a thrill, try "
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [
+        "000000000020"
+       ],
+       "text": "kitesurfing at Mirage Resort"
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": ". For a unique experience, head to Wadi Lahami’s legendary shallow lagoon for ideal kite surfing conditions, with soft, coral-free sand and a depth perfect for beginners."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000020",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/ras-sudr-travel-guide/exploration-ideas/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/ras-sudr",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Day Five – Desert Safari Adventures"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Embark on a "
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "000000000027"
+       ],
+       "text": "quad bike safari"
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [],
+       "text": " across the desert, or for a more leisurely pace, opt for a horse or camel safari. Witness stunning sunsets and starlit nights. Alternatively, delve deep into the Sahara on a jeep "
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [
+        "00000000002a"
+       ],
+       "text": "safari"
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": ", perhaps visiting a Bedouin village or the ancient rock inscriptions of Wadi Hammamat."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000027",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/desert-quad-bike-safari-to-bedouin-village/"
+       },
+       "_type": "externalLink",
+       "href": "/desert-quad-bike-safari-to-bedouin-village-from-hurghada",
+       "newTab": false
+      },
+      {
+       "_key": "00000000002a",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/kharga-oasis-travel-guide/safaris/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/kharga-oasis",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Day Six – Port Ghalib by Night "
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000003a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Enjoy a night out at the burgeoning "
+      },
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "000000000031"
+       ],
+       "text": "Port Ghalib marina"
+      },
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [],
+       "text": ". "
+      },
+      {
+       "_key": "000000000035",
+       "_type": "span",
+       "marks": [
+        "000000000034"
+       ],
+       "text": "Savor Egyptian cuisine at seafront restaurants"
+      },
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": " but be cautious with shopping – it’s a high-end area with prices to match. For better shopping deals, "
+      },
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [
+        "000000000037"
+       ],
+       "text": "visit El Quseir or Luxor"
+      },
+      {
+       "_key": "000000000039",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000031",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/marsa-alam-travel-guide/port-ghalib-marina/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/marsa-alam/port-ghalib-marina",
+       "newTab": false
+      },
+      {
+       "_key": "000000000034",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/asyut-travel-guide/culinary-savoring/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/asyut/what-to-eat-in-asyut",
+       "newTab": false
+      },
+      {
+       "_key": "000000000037",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/luxor-travel-guide/eternal-sunshine/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/luxor/luxor-climate",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003b",
+       "_type": "span",
+       "marks": [],
+       "text": "Day Seven – Beachside Relaxation "
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000044",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003d",
+       "_type": "span",
+       "marks": [],
+       "text": "Conclude your week with a relaxing "
+      },
+      {
+       "_key": "00000000003f",
+       "_type": "span",
+       "marks": [
+        "00000000003e"
+       ],
+       "text": "day at the beach"
+      },
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": ". Engage in hotel-organized "
+      },
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [
+        "000000000041"
+       ],
+       "text": "activities"
+      },
+      {
+       "_key": "000000000043",
+       "_type": "span",
+       "marks": [],
+       "text": ", explore local sea life, or unwind in a hammam, indulging in a traditional Middle Eastern soak and scrub."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000003e",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/private-day-tours/"
+       },
+       "_type": "externalLink",
+       "href": "https://travel2egypt.org/private-day-tours/",
+       "newTab": false
+      },
+      {
+       "_key": "000000000041",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/alexandria-travel-guide/activities-must-visit/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/alexandria/things-to-do-in-alexandria",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000045",
+       "_type": "span",
+       "marks": [],
+       "text": "Marsa Alam offers a diverse array of experiences, from underwater adventures and historical explorations to desert "
+      },
+      {
+       "_key": "000000000047",
+       "_type": "span",
+       "marks": [
+        "000000000046"
+       ],
+       "text": "excursions"
+      },
+      {
+       "_key": "000000000048",
+       "_type": "span",
+       "marks": [],
+       "text": " and relaxing beach days. Each day presents an opportunity to immerse in the unique beauty and "
+      },
+      {
+       "_key": "00000000004a",
+       "_type": "span",
+       "marks": [
+        "000000000049"
+       ],
+       "text": "culture"
+      },
+      {
+       "_key": "00000000004b",
+       "_type": "span",
+       "marks": [],
+       "text": " of this enchanting Red Sea destination."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000046",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/kom-ombo-travel-guide/excursion/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/kom-ombo",
+       "newTab": false
+      },
+      {
+       "_key": "000000000049",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/animals-in-ancient-egypt/"
+       },
+       "_type": "externalLink",
+       "href": "/blog/animals-in-ancient-egypt",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004d",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/geoff-trodd-tEnERdl4_Nk-unsplash-1.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "A blurry image of a blue fish swimming underwater"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "Underwater grace, a moment with a blue fish in its natural habitat"
+      }
+     ]
+    },
+    {
+     "_key": "00000000004e",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/youhana-nassif-9BZVf-jEDwU-unsplash-1.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "A group of people standing on sedimentary rock layers by the turquoise sea"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "Nature's audience - where the sea meets the layers of time"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "g3ovk8o6fers",
+       "_type": "span",
+       "marks": [],
+       "text": "Cosas que hacer en "
+      },
+      {
+       "_key": "6edjqfayuspz",
+       "_type": "span",
+       "marks": [
+        "kql4e060cwz8"
+       ],
+       "text": "Marsa Alam"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "kql4e060cwz8",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58885",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "rjts1tonrzzi",
+       "_type": "span",
+       "marks": [],
+       "text": "Primer día - Encuentros con delfines en el "
+      },
+      {
+       "_key": "b9eol2ksligm",
+       "_type": "span",
+       "marks": [
+        "grc66sinxo41"
+       ],
+       "text": "Arrecife Sataya"
+      },
+      {
+       "_key": "3e0plray5w7x",
+       "_type": "span",
+       "marks": [],
+       "text": " "
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "grc66sinxo41",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.marsa-alam.sataya-reef",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Comienza tu aventura en Marsa Alam nadando con delfines en el menos conocido pero impresionante Arrecife Sataya."
+      },
+      {
+       "_key": "000000000005",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Aquí, los delfines tornillo juegan en aguas menos concurridas que en la famosa Casa de los Delfines, lo que ofrece una experiencia más íntima."
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "El arrecife en sí es un espectáculo submarino de coral prístino y aguas cristalinas, a un corto trayecto en barco desde Hamata."
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [],
+       "text": "Para quienes prefieran aguas"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": " poco profundas, Abu Dabab ofrece encuentros con tortugas, delfines y el escurridizo dugongo, todo ello accesible desde la playa de arena: perfecto para familias y buceadores principiantes."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "v9uhjt5h6xvu",
+       "_type": "span",
+       "marks": [],
+       "text": "Segundo día - Viaje histórico a "
+      },
+      {
+       "_key": "a62izt0brsd7",
+       "_type": "span",
+       "marks": [
+        "9ik9fn9v8zrx"
+       ],
+       "text": "Luxor"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "9ik9fn9v8zrx",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58877",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Tómate un día (o dos) para "
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [
+        "000000000011"
+       ],
+       "text": "explorar"
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [],
+       "text": " Luxor, la antigua ciudad de Tebas."
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": "A sólo unas horas en coche de "
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "000000000016"
+       ],
+       "text": "Marsa Alam"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": ", Luxor es un museo al aire libre del Egipto faraónico, repleto de templos y monumentos históricos."
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Experimenta la vida local, pasea por los bulliciosos zocos y disfruta de un sereno paseo en feluca "
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [
+        "00000000001b"
+       ],
+       "text": "por el Nilo"
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": " mientras se pone el sol."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000011",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-nuweiba/explorando/"
+       },
+       "_type": "externalLink",
+       "href": "/es/blog/explorando-la-gran-esfinge-de-guiza",
+       "newTab": false
+      },
+      {
+       "_key": "000000000016",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/maravillas-marinas-aventura-de-snorkel-en-grupo-en-marsa-alam/"
+       },
+       "_type": "externalLink",
+       "href": "/es/dia-de-snorkel-privado-en-marsa-alam-arrecifes-del-mar-rojo-en-yate",
+       "newTab": false
+      },
+      {
+       "_key": "00000000001b",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/el-nil-elegance-crucero-de-7-dias-dahabiya-por-el-nilo/"
+       },
+       "_type": "externalLink",
+       "href": "/es/el-nil-elegance-siete-dias-de-luxor-a-asuan",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000020",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": "Día 3 - Explorando El Quseir"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [],
+       "text": "Dedica un día a ir de compras y hacer turismo por la histórica ciudad de "
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "000000000022"
+       ],
+       "text": "El Quseir"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Visita el fuerte otomano del siglo XVI y pasea por el encantador puerto."
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Compra en los zocos locales auténticos artículos egipcios a precios más bajos que en "
+      },
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "000000000029"
+       ],
+       "text": "las tiendas de los hoteles"
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [],
+       "text": ", pero elige con cuidado porque la calidad varía."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000022",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-al-quseir/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/al-quseir",
+       "newTab": false
+      },
+      {
+       "_key": "000000000029",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/hoteles-economicos-cerca-de-las-piramides/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/guiza",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [],
+       "text": "Día 4 - Aventura en alta mar o en el cielo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [],
+       "text": "Opta por la pesca de altura en las ricas aguas de Marsa Alam, o si buscas emociones fuertes, prueba el kitesurf en Mirage Resort."
+      },
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [],
+       "text": "Para vivir una "
+      },
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [
+        "000000000032"
+       ],
+       "text": "experiencia única"
+      },
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": ", dirígete a la legendaria laguna poco profunda de Wadi Lahami para disfrutar de unas condiciones ideales para el kitesurf, con una arena suave y sin corales y una profundidad perfecta para principiantes."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000032",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-marsa-alam/experiencias-unicas/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/marsa-alam",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "Día Cinco - Aventuras en el Safari por el Desierto"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000043",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "Embárcate en un "
+      },
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [
+        "000000000039"
+       ],
+       "text": "safari en quad por el desierto"
+      },
+      {
+       "_key": "00000000003b",
+       "_type": "span",
+       "marks": [],
+       "text": ", o para un ritmo más pausado, opta por un safari a caballo o en camello."
+      },
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000003d",
+       "_type": "span",
+       "marks": [],
+       "text": "Sé testigo de impresionantes puestas de sol y noches estrelladas."
+      },
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000003f",
+       "_type": "span",
+       "marks": [],
+       "text": "También puedes adentrarte en "
+      },
+      {
+       "_key": "000000000041",
+       "_type": "span",
+       "marks": [
+        "000000000040"
+       ],
+       "text": "las profundidades del"
+      },
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [],
+       "text": " Sahara en un safari en jeep, tal vez visitando un poblado beduino o las antiguas inscripciones rupestres de Wadi Hammamat."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000039",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/emocionante-emocion-en-el-desierto-safari-en-quad-a-un-pueblo-beduino/"
+       },
+       "_type": "externalLink",
+       "href": "/es/safari-en-quad-a-una-aldea-beduina-desde-hurgada",
+       "newTab": false
+      },
+      {
+       "_key": "000000000040",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/precios-de-las-entradas-a-las-atracciones-de-el-cairo/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/el-cairo/precios-de-las-entradas-a-las-atracciones-de-el-cairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000045",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000044",
+       "_type": "span",
+       "marks": [],
+       "text": "Sexto día - Puerto Ghalib de noche "
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000054",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000046",
+       "_type": "span",
+       "marks": [],
+       "text": "Disfruta de una salida nocturna en el floreciente "
+      },
+      {
+       "_key": "000000000048",
+       "_type": "span",
+       "marks": [
+        "000000000047"
+       ],
+       "text": "puerto deportivo de Port Ghalib"
+      },
+      {
+       "_key": "000000000049",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      },
+      {
+       "_key": "00000000004a",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000004b",
+       "_type": "span",
+       "marks": [],
+       "text": "Saborea la cocina "
+      },
+      {
+       "_key": "00000000004d",
+       "_type": "span",
+       "marks": [
+        "00000000004c"
+       ],
+       "text": "egipcia en los"
+      },
+      {
+       "_key": "00000000004e",
+       "_type": "span",
+       "marks": [],
+       "text": " restaurantes frente al mar, pero ten cuidado con las compras: es una zona de alto nivel con precios acordes."
+      },
+      {
+       "_key": "00000000004f",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000050",
+       "_type": "span",
+       "marks": [],
+       "text": "Para mejores ofertas de compras, visita El Quseir o "
+      },
+      {
+       "_key": "000000000052",
+       "_type": "span",
+       "marks": [
+        "000000000051"
+       ],
+       "text": "Luxor"
+      },
+      {
+       "_key": "000000000053",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000047",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-marsa-alam/puerto-deportivo-de-port-ghalib/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/marsa-alam",
+       "newTab": false
+      },
+      {
+       "_key": "00000000004c",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/dioses-egipcios/"
+       },
+       "_type": "externalLink",
+       "href": "/es/blog/dioses-egipcios",
+       "newTab": false
+      },
+      {
+       "_key": "000000000051",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/vacaciones-en-egipto-crucero-por-el-nilo-de-11-dias-de-luxor-a-el-cairo-desde-espana/"
+       },
+       "_type": "externalLink",
+       "href": "/es/vacaciones-de-15-dias-en-luxor-y-crucero-por-el-nilo-luxor-el-nilo-y-el-cairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000056",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000055",
+       "_type": "span",
+       "marks": [],
+       "text": "Día 7 - Relajación junto a la playa "
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000060",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000057",
+       "_type": "span",
+       "marks": [],
+       "text": "Concluye tu semana "
+      },
+      {
+       "_key": "000000000059",
+       "_type": "span",
+       "marks": [
+        "000000000058"
+       ],
+       "text": "con un relajante día en la playa"
+      },
+      {
+       "_key": "00000000005a",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      },
+      {
+       "_key": "00000000005b",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000005c",
+       "_type": "span",
+       "marks": [],
+       "text": "Participa en "
+      },
+      {
+       "_key": "00000000005e",
+       "_type": "span",
+       "marks": [],
+       "text": "las actividades organizadas por el hotel"
+      },
+      {
+       "_key": "00000000005f",
+       "_type": "span",
+       "marks": [],
+       "text": ", explora la vida marina local o relájate en un hammam, disfrutando de un baño y exfoliación tradicionales de Oriente Medio."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000058",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/resorts-de-playa-de-lujo-de-egipto/"
+       },
+       "_type": "externalLink",
+       "href": "/es/blog/resorts-de-playa-de-lujo-de-egipto",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000061",
+       "_type": "span",
+       "marks": [],
+       "text": "Marsa Alam ofrece un variado abanico de experiencias, desde aventuras submarinas y exploraciones históricas hasta "
+      },
+      {
+       "_key": "000000000063",
+       "_type": "span",
+       "marks": [
+        "000000000062"
+       ],
+       "text": "excursiones por"
+      },
+      {
+       "_key": "000000000064",
+       "_type": "span",
+       "marks": [],
+       "text": " el desierto y relajantes días de playa."
+      },
+      {
+       "_key": "000000000065",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000066",
+       "_type": "span",
+       "marks": [],
+       "text": "Cada día presenta una oportunidad para sumergirse en la belleza y "
+      },
+      {
+       "_key": "000000000068",
+       "_type": "span",
+       "marks": [
+        "000000000067"
+       ],
+       "text": "cultura únicas de este encantador destino del"
+      },
+      {
+       "_key": "000000000069",
+       "_type": "span",
+       "marks": [],
+       "text": " Mar Rojo."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000062",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/itinerario-de-2-semanas-por-egipto-explora-lo-mejor-de-egipto/"
+       },
+       "_type": "externalLink",
+       "href": "/es/blog/itinerario-de-2-semanas-por-egipto-explora-lo-mejor-de-egipto",
+       "newTab": false
+      },
+      {
+       "_key": "000000000067",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/souq-bab-el-louk-el-mercado-fresco-de-el-cairo/"
+       },
+       "_type": "externalLink",
+       "href": "/es/blog/souq-bab-el-louk-el-mercado-fresco-de-el-cairo",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006b",
+       "_type": "span",
+       "marks": [],
+       "text": "Creado el 18 de marzo de 2020"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000006e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000006d",
+       "_type": "span",
+       "marks": [],
+       "text": "Actualizado en 23 de Séptiembre, 2024"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "xs7hvncij7bh",
+       "_type": "span",
+       "marks": [
+        "looaravzscow"
+       ],
+       "text": "マルサ・アラム"
+      },
+      {
+       "_key": "468tdpiz5kxl",
+       "_type": "span",
+       "marks": [],
+       "text": "でやるべきこと"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "looaravzscow",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58885",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "1日目 – サタヤリーフでのイルカとの遭遇"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "l8hy29km9an6",
+       "_type": "span",
+       "marks": [],
+       "text": "マルサ・アラムの冒険は、知る人ぞ知る絶景スポット「"
+      },
+      {
+       "_key": "pijrcjh710iu",
+       "_type": "span",
+       "marks": [
+        "2ddr8s4eonst"
+       ],
+       "text": "サタヤ・リーフ"
+      },
+      {
+       "_key": "pcuv6xoswd7l",
+       "_type": "span",
+       "marks": [],
+       "text": "」でのイルカとのシュノーケリングから始めましょう。ここでは、スピナードルフィンたちが、より静かで混雑の少ない海域で戯れており、有名なドルフィン・ハウスとは異なる、より親密な体験が楽しめます。リーフそのものも、手つかずのサンゴと透き通った海が広がる海中の絶景で、ハマタからボートですぐの距離です。"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "2ddr8s4eonst",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "guideArticle.marsa-alam.sataya-reef",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "浅瀬を好む方には「アブ・ダッバブ」がおすすめ。砂浜からアクセスでき、ウミガメやイルカ、そして姿を見せるのが珍しいジュゴンに出会えることもあります。家族連れやシュノーケリング初心者にもぴったりのスポットです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "j6zlqjzg5lbv",
+       "_type": "span",
+       "marks": [],
+       "text": "2日目 － "
+      },
+      {
+       "_key": "iz5ihi5u5hs5",
+       "_type": "span",
+       "marks": [
+        "39dqw9qtjkee"
+       ],
+       "text": "ルクソール"
+      },
+      {
+       "_key": "lkcg8cuxkzd5",
+       "_type": "span",
+       "marks": [],
+       "text": "への歴史探訪の旅"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "39dqw9qtjkee",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58877",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "古代都市テーベとして知られるルクソールを、ぜひ1日（または2日）かけて訪れてみてください。マルサ・アラムから車で数時間の距離にあるルクソールは、ファラオ時代の遺産が今も息づく、まさに“屋外博物館”です。壮大な神殿や歴史的モニュメントが立ち並ぶこの地で、地元の暮らしに触れたり、活気あふれるスークを歩いたり、夕暮れ時にはナイル川で静かなファルーカの船旅を楽しんだりと、心に残るひとときをお過ごしください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "3日目 － エル・クセイル探訪"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "歴史ある都市エル・クセイルでのショッピングと観光に、ぜひ1日を充ててみてください。16世紀に建てられたオスマン帝国時代の要塞を訪れ、風情ある港町をゆっくりと散策しましょう。地元のスークでは、本物のエジプト雑貨をホテルのショップよりもお得な価格で手に入れることができます。ただし、品質には差があるため、慎重に選ぶことが大切です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "4日目 － 紅海の冒険、海か空か"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "マルサ・アラムの豊かな海でディープシーフィッシングに挑戦するのも良し、スリルを求めるなら「ミラージュ・リゾート」でカイトサーフィンにチャレンジするのもおすすめです。よりユニークな体験を求めるなら、伝説的な浅瀬のラグーン「ワディ・ラハミ」へ。サンゴのない柔らかな砂と、初心者にも最適な水深が広がるこの場所は、カイトサーフィンに理想的なコンディションを誇ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "5日目 － 砂漠サファリ・アドベンチャー"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "砂漠を駆け抜けるクアッドバイク・サファリに挑戦するもよし、ゆったりとしたペースを好むなら、馬やラクダに乗ってのサファリもおすすめです。息をのむような夕焼けと満天の星空が、忘れられないひとときを演出してくれます。あるいは、ジープサファリでサハラ砂漠の奥深くへと分け入り、ベドウィンの村や、古代の岩刻画が残るワディ・ハンママートを訪れるのも魅力的な選択肢です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "6日目 － 夜のポートガリブ散策"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "活気あふれるポートガリブ・マリーナで、ナイトライフを楽しみましょう。海辺のレストランでエジプト料理を味わいながら、優雅なひとときを過ごせます。ただし、ショッピングには注意が必要です。このエリアは高級志向のため、価格もそれに見合った設定になっています。お得に買い物を楽しみたい場合は、エル・クセイルやルクソールを訪れるのが賢明です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "7日目 － ビーチサイドでのリラクゼーション"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "1週間の締めくくりには、ビーチでのんびりと過ごすリラックスした1日を。ホテル主催のアクティビティに参加したり、紅海の海洋生物を観察したり、ハンマームで伝統的な中東式の温浴とスクラブを体験して、心身ともに癒されてみてはいかがでしょうか。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "マルサ・アラムでは、海中アドベンチャーや歴史探訪、砂漠での冒険、そしてビーチでの静かなひとときまで、多彩な体験が楽しめます。毎日が、この魅惑的な紅海の地で、自然の美しさと文化にどっぷりと浸かる貴重な機会となるでしょう。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "作成日：2020年3月18日"
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "更新日：2025年3月27日"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Family in heart-shaped sunglasses and sun hats lying on a beach by the sea"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Familia con gafas de sol en forma de corazón y sombreros tumbada en la playa junto al mar"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ハート型のサングラスと帽子をかぶり海辺のビーチに寝そべる家族"
+   }
+  ],
+  "asset": {
+   "_ref": "image-316053b4869858a75e8156f4a8298d2935f7f100-1200x600-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A family in playful heart-shaped sunglasses relaxes on a sunny beach."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Una familia con gafas de sol en forma de corazón disfruta de un día soleado en la playa."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ハート型のサングラスをかけた家族が、晴れたビーチでくつろぐ。"
+   }
+  ]
+ },
+ "kind": "tours",
+ "migration": {
+  "migratedAt": "2026-05-05T12:55:24.055Z",
+  "source": "wp-import",
+  "wpId": 78400,
+  "wpModifiedAt": "2026-03-06T18:39:59",
+  "wpTemplate": "elementor_header_footer",
+  "wpUrl": "https://travel2egypt.org/things-to-do-in-marsa-alam/"
+ },
+ "parentCity": {
+  "_ref": "wp-page-58885",
+  "_type": "reference"
+ },
+ "section": "while-you-are-there",
+ "slug": [
+  {
+   "_key": "en",
+   "value": {
+    "_type": "slug",
+    "current": "things-to-do-in-marsa-alam"
+   }
+  },
+  {
+   "_key": "es",
+   "value": {
+    "_type": "slug",
+    "current": "actividades-en-marsa-alam"
+   }
+  },
+  {
+   "_key": "ja",
+   "value": {
+    "_type": "slug",
+    "current": "marusaaramu-no-akutibiti"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "Things To Do in Marsa Alam Day One – Dolphin Encounters at Sataya Reef Begin your Marsa Alam adventure by swimming with dolphins at the lesser-known but breathtaking Sataya Reef. Here, spinner dolphins play in waters less crowded than the f"
+  },
+  {
+   "_key": "es",
+   "value": "Cosas que hacer en Marsa Alam Primer día Encuentros con delfines en el Arrecife Sataya Comienza tu aventura en Marsa Alam nadando con delfines en el menos conocido pero impresionante Arrecife Sataya.Aquí, los delfines tornillo juegan en agu"
+  },
+  {
+   "_key": "ja",
+   "value": "マルサ・アラムでやるべきこと 1日目 – サタヤリーフでのイルカとの遭遇 マルサ・アラムの冒険は、知る人ぞ知る絶景スポット「サタヤ・リーフ」でのイルカとのシュノーケリングから始めましょう。ここでは、スピナードルフィンたちが、より静かで混雑の少ない海域で戯れており、有名なドルフィン・ハウスとは異なる、より親密な体験が楽しめます。リーフそのものも、手つかずのサンゴと透き通った海が広がる海中の絶景で、ハマタからボートですぐの距離です。 浅瀬を好む方には「アブ・ダッバブ」がおすすめ。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "value": "Things To Do In Marsa Alam"
+  },
+  {
+   "_key": "es",
+   "value": "Actividades en Marsa Alam"
+  },
+  {
+   "_key": "ja",
+   "value": "マルサ・アラムのアクティビティ"
+  }
+ ]
+}

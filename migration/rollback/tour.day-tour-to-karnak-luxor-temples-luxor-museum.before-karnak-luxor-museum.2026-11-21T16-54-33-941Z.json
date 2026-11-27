@@ -1,0 +1,1386 @@
+{
+ "_createdAt": "2026-05-28T11:45:20Z",
+ "_id": "tour.day-tour-to-karnak-luxor-temples-luxor-museum",
+ "_rev": "pzh5FM4q1DBt3H4LGqNNJZ",
+ "_system": {
+  "base": {
+   "id": "tour.day-tour-to-karnak-luxor-temples-luxor-museum",
+   "rev": "B7L5bIbjR2v02KBAZGMcdQ"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:46Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Adults who want the East Bank done properly — Karnak's accumulated 1,500 years, Luxor Temple's continuous sacred use, and a museum that edits the story rather than overwhelming it"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Adultos que quieren la orilla oriental tratada en profundidad: los 1.500 años acumulados de Karnak, el uso sagrado continuo del templo de Luxor y un museo que edita el relato en lugar de saturarlo"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "カルナック、ルクソール神殿、そして博物館を、急がず一日でじっくり読み解きたい大人の旅人"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "One Day on the East Bank: Karnak, Luxor Temple & the Luxor Museum"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor is not a city that requires imagination to appreciate. The monuments are simply there — enormous, intact, and still operating on a scale that makes most of the ancient world look modest. This eight-hour tour covers the three strongest reasons to spend a day on the east bank: the Karnak complex, Luxor Temple, and the Luxor Museum. Together they form the most coherent single-day argument for why the ancient Egyptians built the way they did, and why the city they called Waset held the centre of Egyptian religious life for more than a thousand years."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "The tour is pitched at adults with a genuine interest in ancient history — not spectacle-seekers after a quick photograph, but people who want a guide who can explain why a hypostyle hall was built to that proportion, what a pylon actually communicated to a visitor arriving by boat, and how the statuary in the museum connects to the temples you have just walked through. The pace is full but not punishing. You will be on your feet for most of the morning and into early afternoon, across two outdoor complexes and one museum, before finishing in time to spend the evening on your own terms."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "A note on timing: Luxor in summer is brutally hot by mid-morning. The tour begins early for good reason. Treat the early start as part of the deal, not an inconvenience."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a "
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "private tour, operated for your party alone"
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": " — never shared with other guests. Because it is private, it "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "runs for as few as one traveller, with no minimum group size and no waiting on other bookings"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "; larger parties are accommodated in a suitable vehicle. A "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "private, air-conditioned vehicle"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": ", a "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "licensed, English-speaking Egyptologist guide"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ", and "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "one bottle of mineral water per person"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": " are included in every tier. The "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "minimum age is 18"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "The tour comes in three tiers, so you only pay for what you want: a "
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": " package (private vehicle, guide, water, and all logistics); "
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base + Entrance Fees"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": " (the same, plus entry to all three sites); and "
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base + Entrance Fees & Lunch"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": " (those entrance fees plus a midday meal). Egyptian entrance fees are revised often, so keeping them separate keeps the base fare honest. Tier prices are shown at booking."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "The day opens at Karnak — and rightly so, because no other site in Egypt prepares you for quite what this complex turns out to be. Most visitors arrive expecting a temple. What they find is closer to a religious city, accumulated across roughly 1,500 years from the Middle Kingdom through the Ptolemaic period. The dominant structure is the Precinct of Amun-Ra, entered through a sequence of pylons that increase in age as you move inward — the outermost, First Pylon, was begun under the Thirtieth Dynasty and never fully completed, which means the raw mudbrick ramps used to raise it are still partially visible. Behind it lies the Great Hypostyle Hall, built principally under Seti I and his son Ramses II in the thirteenth century BC: 134 sandstone columns arranged in 16 rows, the central columns rising to nearly 21 metres. The scale is not rhetorical. It genuinely requires adjustment."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Beyond the Hypostyle Hall, the complex deepens — obelisks raised by Thutmose I and Hatshepsut, a sacred lake, the Festival Temple of Thutmose III tucked at the rear, its unusual tent-pole columns reflecting the king's military campaigns in Canaan. Your Egyptologist guide will calibrate how deeply you move into the complex based on the group's pace and interest, but Karnak repays time. An hour feels preliminary; two hours begins to feel proportionate."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "From Karnak, the tour moves south along what was once the Avenue of Sphinxes — the 2.7-kilometre processional road connecting the two great temples of ancient Thebes, lined with ram-headed sphinxes at the Karnak end and human-headed sphinxes near Luxor Temple. Excavation and restoration of the avenue was completed in 2021; walking even a section of it changes how you understand the relationship between the two sites."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor Temple itself is a study in what happens when successive pharaohs each want to leave their mark on a working sacred space. The core of the structure was raised by Amenhotep III in the fourteenth century BC, but Ramses II added substantially to the entrance — including a pylon decorated with scenes from the Battle of Kadesh and, originally, two obelisks and six colossal statues of himself. One obelisk still stands; the other has been in the Place de la Concorde in Paris since 1836. The mosque of Abu Haggag sits embedded in the northeast corner of the complex, built when the temple precinct had silted up to roof level — a visual reminder that Luxor Temple was not rediscovered so much as it never fully disappeared from use. The coexistence of pharaonic stonework, Roman alterations, and a working mosque is not a curiosity but a fact of the site's continuous occupation."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "The afternoon concludes at the Luxor Museum, a small, exceptionally well-curated institution on the Corniche, opened in 1975 and expanded in the 1990s. Where the Cairo Museum overwhelms, the Luxor Museum edits. The permanent collection concentrates on New Kingdom material from Thebes, displayed at a pace that allows each object to register properly. Among the highlights: the reconstructed Akhenaten wall from a dismantled Aten temple at Karnak, showing the heretic king in his characteristic elongated style; the cache of statuary discovered beneath the Luxor Temple courtyard in 1989, including a polished quartzite figure of Amenhotep III in near-perfect condition; and military equipment and chariots from the reigns of Ahmose I and Thutmose III. If the temples have left you with questions about how these kings actually lived and fought, the museum tends to answer them."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Karnak, Luxor Temple, and the museum between them contain a larger proportion of surviving ancient Egyptian history than any other single day's itinerary can offer."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "That is not a selling point. It is simply true."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [],
+       "text": "Three tiers (Base / + Entrance Fees / + Entrance Fees & Lunch) let you pay only for what you want; entrance fees are kept separate because Egypt revises them often. The concierge can sequence the day to dodge the midday heat at Karnak's open courts."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Un día en la orilla oriental: Karnak, templo de Luxor y Museo de Luxor"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "La jornada privada que articula los tres argumentos más sólidos para entender por qué Tebas fue, durante más de mil años, el centro religioso de Egipto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor no es una ciudad que pida imaginación al visitante. Los monumentos están sencillamente ahí —enormes, intactos y todavía operando a una escala que hace que buena parte del mundo antiguo parezca modesto—. Este tour de ocho horas cubre las tres razones más sólidas para dedicar un día a la orilla oriental: el complejo de Karnak, el templo de Luxor y el Museo de Luxor. Juntos componen el argumento más coherente que puede ofrecerse en una sola jornada sobre la manera en que los antiguos egipcios construían y sobre por qué la ciudad que llamaron Waset sostuvo el corazón de la vida religiosa egipcia durante más de un milenio."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "El recorrido está pensado para adultos con un interés genuino en la historia antigua: no buscadores de espectáculo apurados por una foto, sino viajeros que esperan de su guía la capacidad de explicar por qué una sala hipóstila se construyó con esa proporción concreta, qué transmitía en realidad un pilono al visitante que llegaba en barca y cómo la estatuaria del museo enlaza con los templos por los que se acaba de caminar. El ritmo es pleno, sin llegar a castigar. Estará usted de pie buena parte de la mañana y entrada la tarde, entre dos complejos al aire libre y un museo, antes de cerrar con tiempo para administrar la velada por su cuenta."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Una observación sobre el horario: en Luxor, el verano resulta brutalmente caluroso desde media mañana. El tour arranca temprano por una razón concreta. La salida madrugadora forma parte del trato, no es un inconveniente."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Se trata de un "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "tour estrictamente privado, operado en exclusiva para su grupo"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": " y nunca compartido con otros viajeros. Por su carácter privado, "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "opera desde un único viajero, sin tamaño mínimo de grupo y sin esperar otras reservas"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "; los grupos más amplios se acomodan en un vehículo adecuado. Cada nivel incluye "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "vehículo privado con aire acondicionado"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ", "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "guía egiptólogo licenciado de habla hispana"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": " y "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "una botella de agua mineral por persona"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": ". La "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "edad mínima es de 18 años"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel "
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": " (vehículo privado, guía, agua y toda la logística); "
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base + entradas"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": " (lo anterior más el acceso a los tres yacimientos); y "
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base + entradas y almuerzo"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": " (las entradas más una comida al mediodía). Las tarifas egipcias se revisan con frecuencia, y mantenerlas separadas evita inflar el precio base. Los precios por nivel se confirman en el momento de reservar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "El día arranca en Karnak, y con razón, porque ningún otro yacimiento de Egipto prepara al visitante para lo que este complejo termina por revelar. La mayoría de los viajeros llega esperando un templo. Lo que encuentran se parece más a una ciudad religiosa, acumulada a lo largo de unos 1.500 años, desde el Imperio Medio hasta el periodo ptolemaico. La estructura dominante es el Recinto de Amón-Ra, al que se accede por una secuencia de pilonos cuya antigüedad aumenta a medida que se avanza hacia el interior: el más exterior, el Primer Pilono, se inició bajo la dinastía XXX y nunca llegó a completarse, de modo que las rampas de adobe utilizadas para levantarlo todavía resultan parcialmente visibles. Detrás se abre la Gran Sala Hipóstila, levantada principalmente bajo Seti I y su hijo Ramsés II en el siglo XIII a. C.: 134 columnas de arenisca dispuestas en 16 filas, con las columnas centrales que alcanzan los 21 metros. La escala no es retórica. Exige, literalmente, un ajuste de mirada."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Más allá de la Sala Hipóstila, el complejo se profundiza: los obeliscos levantados por Tutmosis I y Hatshepsut, el lago sagrado, el Templo de la Fiesta de Tutmosis III escondido al fondo, cuyas columnas inusuales en forma de mástil de tienda evocan las campañas militares del rey en Canaán. Su guía egiptólogo calibrará hasta dónde se entra en el complejo según el ritmo y los intereses del grupo, pero Karnak recompensa el tiempo. Una hora resulta preliminar; dos horas empiezan a parecer proporcionadas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde Karnak, el tour avanza hacia el sur por lo que en su día fue la Avenida de las Esfinges, los 2,7 kilómetros de vía procesional que conectaban los dos grandes templos de la antigua Tebas, flanqueados por esfinges con cabeza de carnero en el extremo de Karnak y por esfinges con cabeza humana cerca del templo de Luxor. La excavación y restauración de la avenida concluyó con la reapertura ceremonial de noviembre de 2021; recorrer aunque solo sea un tramo cambia la manera de entender la relación entre los dos templos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "El propio templo de Luxor es un estudio de lo que ocurre cuando faraones sucesivos quieren dejar su huella en un espacio sagrado activo. El núcleo de la estructura lo levantó Amenhotep III en el siglo XIV a. C., pero Ramsés II amplió de modo sustancial la entrada, incluido un pilono decorado con escenas de la batalla de Qadesh y, en origen, dos obeliscos y seis colosos suyos. Uno de los obeliscos sigue en pie; el otro se encuentra desde 1836 en la plaza de la Concordia, en París. La mezquita de Abu Haggag se inscribe en el ángulo nororiental del recinto, construida cuando el templo se había rellenado de aluvión hasta el nivel del techo: un recordatorio visual de que el templo de Luxor no fue tanto redescubierto como nunca abandonado del todo. La convivencia entre la cantería faraónica, las modificaciones romanas y una mezquita aún en funcionamiento no es una curiosidad, sino un dato concreto de la ocupación continua del lugar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "La tarde se cierra en el Museo de Luxor, una institución pequeña y excepcionalmente bien curada situada sobre la Corniche, inaugurada en 1975 y ampliada en los años noventa. Donde el Museo de El Cairo abruma, el de Luxor edita. La colección permanente se concentra en el material del Imperio Nuevo procedente de Tebas, expuesto a un ritmo que permite que cada pieza se registre como corresponde. Entre los puntos destacados: el muro de Akenatón reconstruido a partir de un templo de Atón desmantelado en Karnak, que muestra al rey hereje en su característico estilo alargado; el escondrijo de estatuaria descubierto bajo el patio del templo de Luxor en 1989, con una figura pulida en cuarcita de Amenhotep III en estado casi perfecto; y el equipamiento militar y los carros de los reinados de Ahmose I y Tutmosis III. Si los templos han dejado abiertas preguntas sobre cómo vivían y guerreaban estos reyes, el museo tiende a responderlas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Karnak, el templo de Luxor y el museo contienen, entre los tres, una proporción mayor de historia egipcia conservada que cualquier otro itinerario de un solo día."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Eso no es un argumento de venta. Es, sencillamente, un hecho."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": "Los tres niveles (Base / + entradas / + entradas y almuerzo) permiten pagar solo por lo que interesa; las entradas se mantienen separadas porque Egipto las revisa con frecuencia. El concierge puede ordenar el día para esquivar el calor de mediodía en los patios abiertos de Karnak."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000042",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "東岸で過ごす一日：カルナック、ルクソール神殿、そしてルクソール博物館"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールは、その良さを味わうのに想像力を要する街ではありません。記念建造物はただそこにあります——巨大で、無傷で、古代世界の大半をつましく見せてしまう規模で、いまなお機能しています。この8時間のデイツアーは、東岸で一日を過ごすべき三つの最も有力な理由を取り込みます——カルナック複合体、ルクソール神殿、そしてルクソール博物館です。この三つは合わせて、古代エジプト人がなぜあのような造り方をしたのか、そして彼らがワセトと呼んだ街がなぜ千年以上にわたってエジプトの宗教生活の中心を���めたのかについて、一日でなしうる最も筋の通った論証を形づくります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "このツアーは、古代史に真の関心をもつ大人に向けられています——手早い一枚の写真を求める見物客ではなく、列柱室がなぜその比率で築かれたのか、塔門が船で到着する訪問者に実際に何を伝えていたのか、そして博物館の彫像が、たったいま歩いてきた神殿群とどう結びつくのかを説明できるガイドを求める方々です。ペースは充実していますが、過酷ではありません。午前の大半から午後のはやい時刻にかけて、二つの屋外複合体と一つの博物館を、歩きづめで過ごし、そのあとは夕方をご自身のやり方で過ごせるよう、ちょうどよく終えます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "時間についての注記です。ルクソールの夏は、午前なかばにはすでに容赦なく暑くなります。ツアーが早くに始まるのには十分な理由があります。早い出発は、不���合ではなく、取り決めの一部としてお受け止めください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "一日はカルナックに始まります——それは正しいことです。エジプトのほかのどの遺跡も、この複合体が結局いったい何であるのかを、あなたに前もって備えさせてはくれないからです。大半の訪問者は神殿を予期して到着します。彼らが見いだすのは、宗教都市にこそ近いもので、中王国からプトレマイオス朝の時代まで、およそ1,500年にわたって積み重ねられたものです。中心をなす構造物はアメン・ラー神域で、内へ進むほどに古くなる一連の塔門を抜けて入ります——最も外側の第一塔門は第三十王朝のもとで着工されながら完全には仕上げられず、つまりそれを立ち上げるために用いられた剥き出しの日干し煉瓦の傾斜路が、いまも部分的に見えています。その奥に大列柱室が横たわり、主としてセティ1世とその子ラム��ス2世のもとで紀元前13世紀に築かれました——134本の砂岩の柱が16列に並び、中央の柱は21メートル近くまでそびえます。この規模は誇張ではありません。文字どおり、目の慣らしを要するのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "大列柱室の先で、複合体はさらに深まります——トトメス1世とハトシェプストが立てたオベリスク、聖なる湖、そして後方にひっそりと収まったトトメス3世の祝祭殿です。その風変わりなテントの支柱を模した柱は、王のカナンでの軍事遠征を映しています。エジプト学ガイドは、ご一行のペースと関心に応じて、どこまで深く複合体に分け入るかを加減しますが、カルナックは時間に報います。1時間では序の口に感じられ、2時間でようやくほどよく感じられはじめます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "カルナックから、ツアーはかつてのスフィンクス参道に沿って南へ進みます——古代テーベの二つの大神殿を結ぶ2.7キロメートルの行進路で、カルナック側では雄羊の頭をもつスフィンクスが、ルクソール神殿の近くでは人の頭をもつスフィンクスが、両側に並びます。参道の発掘と修復は2021年11月の式典で公開されました。その一部だけでも歩けば、二つの遺跡の関係についての理解が変わります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソール神殿そのものは、歴代のファラオがそれぞれ、機能している聖なる空間に自らの印を残そうとするときに何が起こるかの一研究です。構造の核は紀元前14世紀にアメンホテプ3世が立てましたが、ラムセス2世が入口に大きく加えました——カデシュの戦いの場面で飾られた塔門、そして当初は二基のオベリスクと自身の六体の巨像を含みます。一基のオベリスクはいまも立っており、もう一基は1836年以来パリのコンコルド広場にあります。アブ・ハッガーグのモスクは複合体の北東の隅に埋め込まれて建っており、神殿の境内が屋根の高さまで埋もれたときに建てられました——ルクソール神殿が再発見され���というより、むしろ使われることをすっかりやめはしなかったことを、視覚的に思い起こさせます。ファラオ時代の石造り、ローマの改変、そして機能しているモスクの共存は、好奇の的ではなく、この遺跡が継続して占有されてきたことのひとつの事実です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "午後はルクソール博物館で締めくくられます。コルニッシュ沿いにある、小ぶりながら格別によく管理された施設で、1975年に開館し、1990年代に拡張されました。カイロ博物館が圧倒するところを、ルクソール博物館は刈り込みます。常設展示はテーベの新王国時代の資料に集中し、一点一点がきちんと心にとどまるペースで並べ��れています。見どころのなかには——カルナックの解体されたアテン神殿から復元されたアクエンアテンの壁があり、異端の王をその特徴的な引き伸ばされた様式で示しています。1989年にルクソール神殿の中庭の地下で発見された彫像の隠し場所もあり、磨かれた珪岩のアメンホテプ3世像を含みます。そしてアハメス1世とトトメス3世の治世の軍装と戦車もあります。これらの王が実際にどう生き、どう戦ったのかについて神殿があなたに問いを残したなら、博物館はおおむねそれに答えてくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "カルナック、ルクソール神殿、そしてそのあいだの博物館は、ほかのどの一日の行程が差し出せるよりも大きな割合の、現存する古代エジプト史を、合わせて収めています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "それは売り文句ではありません。ただ、そうなのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "東岸の三つの遺跡をどんなペースで結ぶか、博物館にどれだけ時間を割くか、夜のルクソール神殿への再訪を加えるか——コンシェルジュが、お客様の関心の強さに合わせて一日を組みます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58877",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Three great monuments in eight hours is a full plate, and Karnak alone could swallow a morning. Because the day is yours, the order and the dwell times bend to your party — more temple, less museum, or the reverse. Tell our concierge where the West Bank sits in your plans and we'll place this day accordingly."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Tres grandes monumentos en ocho horas es un plato fuerte, y Karnak por sí solo puede llenar una mañana. Como el día es tuyo, el orden y los tiempos se ajustan a tu grupo — más templo, menos museo, o al revés. Dile a nuestro concierge dónde encaja la orilla oeste en tus planes y colocaremos este día en su sitio."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "8時間で三つの大遺跡を巡る一日は、決して軽くありません——カルナックだけでも午前が埋まるほどです。完全プライベートですから、順序も滞在時間もご一行の関心に合わせて組み替えられます。西岸をいつ訪れるご予定か、コンシェルジュにお聞かせください。この一日を旅程の最適な位置に据えます。"
+  }
+ ],
+ "customisationOptions": [
+  {
+   "_key": "bl8udjom9p",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all logistics); Base + Entrance Fees (the same, plus entry to all three sites); and Base + Entrance Fees & Lunch (those entrance fees plus a midday meal).",
+   "text": "Add entrance fees to all three sites"
+  },
+  {
+   "_key": "59zp2trpwu",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all logistics); Base + Entrance Fees (the same, plus entry to all three sites); and Base + Entrance Fees & Lunch (those entrance fees plus a midday meal).",
+   "text": "Add a midday lunch with the entrance fees"
+  },
+  {
+   "_key": "b5ozm17b3w",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The concierge can sequence the day to dodge the midday heat at Karnak's open courts.",
+   "text": "Sequence the day to dodge Karnak's midday heat"
+  },
+  {
+   "_key": "dkxlamvwka",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Because the day is yours, the order and the dwell times bend to your party — more temple, less museum, or the reverse.",
+   "text": "Change the order: more temple or more museum"
+  },
+  {
+   "_key": "ltgyab93hl",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística); Base + entradas (lo anterior más el acceso a los tres yacimientos); y Base + entradas y almuerzo (las entradas más una comida al mediodía).",
+   "text": "Añadir las entradas a los tres yacimientos"
+  },
+  {
+   "_key": "3ybeeqhj2d",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística); Base + entradas (lo anterior más el acceso a los tres yacimientos); y Base + entradas y almuerzo (las entradas más una comida al mediodía).",
+   "text": "Añadir un almuerzo al mediodía junto con las entradas"
+  },
+  {
+   "_key": "8ft4fkhl25",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El concierge puede ordenar el día para esquivar el calor de mediodía en los patios abiertos de Karnak.",
+   "text": "Ordenar el día para esquivar el calor de mediodía en Karnak"
+  },
+  {
+   "_key": "es93v705ef",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Como el día es tuyo, el orden y los tiempos se ajustan a tu grupo — más templo, menos museo, o al revés.",
+   "text": "Cambiar el orden: más templo o más museo"
+  },
+  {
+   "_key": "osrsdam0vj",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "完全プライベートですから、順序も滞在時間もご一行の関心に合わせて組み替えられます。",
+   "text": "順序を変えて、神殿か博物館のどちらかに時間を多く割く"
+  }
+ ],
+ "durationHours": 8,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Full day · ~8 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Día completo · ~8 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "終日・約8時間"
+  }
+ ],
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 110,
+  "ja": 117
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A man in a grey galabeya stands among the ram-headed sphinxes lining the avenue at Karnak Temple, Luxor"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Un hombre con galabiya gris entre las esfinges con cabeza de carnero de la avenida del templo de Karnak, en Luxor"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ルクソールのカルナック神殿、羊頭スフィンクスが並ぶ参道に立つグレーのガラベーヤ姿の男性"
+   }
+  ],
+  "asset": {
+   "_ref": "image-de97a0581c2e800eaee09fd7a49db43be4e9739a-3000x2255-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Ram-headed sphinxes line the approach to Karnak Temple."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Esfinges con cabeza de carnero flanquean la entrada al Templo de Karnak."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "カルナック神殿の参道に並ぶ牡羊頭のスフィンクス。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "ev8iy67nw",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A private, air-conditioned vehicle, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person are included in every tier.",
+   "text": "Private, air-conditioned vehicle (every tier)"
+  },
+  {
+   "_key": "1hv8gvfs6m",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A private, air-conditioned vehicle, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person are included in every tier.",
+   "text": "Licensed, English-speaking Egyptologist guide (every tier)"
+  },
+  {
+   "_key": "b5hcai870n",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A private, air-conditioned vehicle, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person are included in every tier.",
+   "text": "One bottle of mineral water per person (every tier)"
+  },
+  {
+   "_key": "sulto0ij1p",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all logistics); Base + Entrance Fees (the same, plus entry to all three sites); and Base + Entrance Fees & Lunch (those entrance fees plus a midday meal).",
+   "text": "All logistics (Base package)"
+  },
+  {
+   "_key": "e4gn7ostru",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all logistics); Base + Entrance Fees (the same, plus entry to all three sites); and Base + Entrance Fees & Lunch (those entrance fees plus a midday meal).",
+   "text": "Entry to all three sites (Base + Entrance Fees and Base + Entrance Fees & Lunch tiers only)"
+  },
+  {
+   "_key": "8if5f5ojqk",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all logistics); Base + Entrance Fees (the same, plus entry to all three sites); and Base + Entrance Fees & Lunch (those entrance fees plus a midday meal).",
+   "text": "Midday meal (Base + Entrance Fees & Lunch tier only)"
+  },
+  {
+   "_key": "3k56d231xz",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cada nivel incluye vehículo privado con aire acondicionado, guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona.",
+   "text": "Vehículo privado con aire acondicionado"
+  },
+  {
+   "_key": "3xsjia1uyw",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cada nivel incluye vehículo privado con aire acondicionado, guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona.",
+   "text": "Guía egiptólogo licenciado de habla hispana"
+  },
+  {
+   "_key": "8vehq43pp7",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cada nivel incluye vehículo privado con aire acondicionado, guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona.",
+   "text": "Una botella de agua mineral por persona"
+  },
+  {
+   "_key": "f8n4ttndih",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística); Base + entradas (lo anterior más el acceso a los tres yacimientos); y Base + entradas y almuerzo (las entradas más una comida al mediodía).",
+   "text": "Nivel Base: toda la logística"
+  },
+  {
+   "_key": "jnygt6nsfy",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística); Base + entradas (lo anterior más el acceso a los tres yacimientos); y Base + entradas y almuerzo (las entradas más una comida al mediodía).",
+   "text": "Nivel Base + entradas: acceso a los tres yacimientos"
+  },
+  {
+   "_key": "xdv6lz84k7",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística); Base + entradas (lo anterior más el acceso a los tres yacimientos); y Base + entradas y almuerzo (las entradas más una comida al mediodía).",
+   "text": "Nivel Base + entradas y almuerzo: una comida al mediodía"
+  },
+  {
+   "_key": "b62hqydbp6",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "エジプト学ガイドは、ご一行のペースと関心に応じて、どこまで深く複合体に分け入るかを加減しますが、カルナックは時間に報います。",
+   "text": "エジプト学ガイド"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/day-tour-to-karnak-luxor-temples-luxor-museum/"
+ },
+ "priceFrom": 99,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_88178",
+   "_ref": "wp-page-88178",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88167",
+   "_ref": "wp-page-88167",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_esna_edfu_kom_ombo_temples_group_day_tour_from_luxor",
+   "_ref": "tour.esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88170",
+   "_ref": "wp-page-88170",
+   "_type": "reference"
+  }
+ ],
+ "routeLegs": [],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Fully private · own licensed Egyptologist · air-conditioned vehicle · early start by design · tiered pricing with optional entrance-fee bundle · minimum age 18"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Tour estrictamente privado · egiptólogo licenciado propio · vehículo con aire acondicionado · salida temprana por diseño · tarifas por niveles con paquete de entradas opcional · edad mínima 18 años · Pleno pero no castigador, con calor a evitar en los patios abiertos"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "完全プライベート・専属のエジプト学ガイド・冷房付き車両・三段階の料金構成・18歳以上"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Roughly 8 hours, single bank"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Cerca de 8 horas, en una sola orilla"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "終日、およそ8時間"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Luxor East Bank — Karnak, Luxor Temple, Luxor Museum"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Orilla oriental de Luxor: Karnak, templo de Luxor y Museo de Luxor"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "ルクソール東岸（カルナック → スフィンクス参道 → ルクソール神殿 → ルクソール博物館）"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "day-tour-to-karnak-luxor-temples-luxor-museum"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "karnak-templo-de-luxor-y-museo-de-luxor"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "karunakku-rukusoru-shinden-soshite-rukusoru-hakubutsukan"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Three of ancient Thebes' greatest monuments in a single, well-paced day — Karnak's forest of columns, Luxor Temple's symmetry, and a museum that earns its reputation."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Tres de los mayores monumentos de la antigua Tebas en una jornada bien acompasada: el bosque de columnas de Karnak, la simetría del templo de Luxor y un museo que justifica su reputación."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "古代テーベ随一の三つの記念建造物を、ほどよいペースの一日でめぐります——カルナックの柱の森、ルクソール神殿の均整、そして評判に違わぬ博物館。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Karnak, Luxor Temple & the Luxor Museum: One Day on the East Bank"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Karnak, templo de Luxor y Museo de Luxor"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "カルナック、ルクソール神殿、そしてルクソール博物館：東岸で過ごす一日"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}

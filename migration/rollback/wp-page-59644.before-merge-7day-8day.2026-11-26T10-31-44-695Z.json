@@ -1,0 +1,2007 @@
+{
+ "_createdAt": "2026-05-04T20:40:19Z",
+ "_id": "wp-page-59644",
+ "_rev": "WQxyNmGMjSphcJjPeBl1ru",
+ "_system": {
+  "base": {
+   "id": "wp-page-59644",
+   "rev": "foUqbMWmQeVyxrmYihZwTT"
+  }
+ },
+ "_type": "guideArticle",
+ "_updatedAt": "2026-11-23T18:50:41Z",
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "003543v6d9gf",
+       "_type": "span",
+       "marks": [
+        "xk1ips485tww"
+       ],
+       "text": "Farafra Oasis"
+      },
+      {
+       "_key": "hi8kn93gd232",
+       "_type": "span",
+       "marks": [],
+       "text": " Tours"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "xk1ips485tww",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58849",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000004",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "b7sjww83g8wn",
+       "_type": "span",
+       "marks": [
+        "n79vi32h20pf"
+       ],
+       "text": "Kom Ombo"
+      },
+      {
+       "_key": "x9g2u9v6ojrt",
+       "_type": "span",
+       "marks": [],
+       "text": "’s historical gems beckon travelers from far and wide, and several tour options are available to help you uncover the wonders of this captivating town. Here are some of the best tours that allow you to delve into the rich history of Kom Ombo:"
+      },
+      {
+       "_key": "000000000003",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "n79vi32h20pf",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58875",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000006",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "mmnna4g5puui",
+       "_type": "span",
+       "marks": [],
+       "text": "1) Private Tour: Kom-Ombo & "
+      },
+      {
+       "_key": "4lxyyvy1k22y",
+       "_type": "span",
+       "marks": [
+        "ovvdvqvra7i3"
+       ],
+       "text": "Edfu"
+      },
+      {
+       "_key": "6oh2swjy0xi5",
+       "_type": "span",
+       "marks": [],
+       "text": " Temples"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "ovvdvqvra7i3",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58841",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "q5dn6pjfjysy",
+       "_type": "span",
+       "marks": [],
+       "text": "Guides often recommend combining visits to "
+      },
+      {
+       "_key": "3ng2sgn6awex",
+       "_type": "span",
+       "marks": [
+        "kw4qev9a2lbc"
+       ],
+       "text": "Luxor"
+      },
+      {
+       "_key": "jzwrr4a0bkgq",
+       "_type": "span",
+       "marks": [],
+       "text": " and "
+      },
+      {
+       "_key": "000000000009",
+       "_type": "span",
+       "marks": [
+        "000000000008"
+       ],
+       "text": "Aswan"
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": " in one tour, given their close proximity. The road between these two historic cities leads to two remarkable Pharaonic temples: the "
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [
+        "00000000000b"
+       ],
+       "text": "Temple of Horus in Edfu"
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [],
+       "text": " and the Temple of Sobek in "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "00000000000e"
+       ],
+       "text": "Kom Ombo"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000008",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/aswan-travel-guide/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/aswan",
+       "newTab": false
+      },
+      {
+       "_key": "00000000000b",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/edfu-travel-guide/edfu-temple/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/edfu/edfu-temple",
+       "newTab": false
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "externalLink",
+       "href": "https://en.wikipedia.org/wiki/Kom_Ombo",
+       "newTab": true
+      },
+      {
+       "_key": "kw4qev9a2lbc",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58877",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "While in "
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "000000000013"
+       ],
+       "text": "Aswan"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": ", seize the opportunity to explore Luxor’s marvels (with various full-day and half-day tours available). Witness the grandeur of the Pharaohs as you visit the Temple of Edfu and the Temple of Sobek in "
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "000000000016"
+       ],
+       "text": "Kom Ombo"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000013",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/aswan-travel-guide/history-echoes/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/aswan/discover-aswan-history",
+       "newTab": false
+      },
+      {
+       "_key": "000000000016",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/kom-ombo-travel-guide/visiting-climate/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/kom-ombo/kom-ombo-travel-weather",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "lk4wndo91rda",
+       "_type": "span",
+       "marks": [],
+       "text": "2) Private Tour: "
+      },
+      {
+       "_key": "yi4gjo7qd1hv",
+       "_type": "span",
+       "marks": [
+        "hvcy9pecoy2k"
+       ],
+       "text": "Esna"
+      },
+      {
+       "_key": "hvmj4kxawztx",
+       "_type": "span",
+       "marks": [],
+       "text": ", Edfu & Kom-Ombo from Luxor"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "hvcy9pecoy2k",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58844",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000026",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "During your stay in Luxor, take the chance to uncover the wonders of "
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "00000000001d"
+       ],
+       "text": "Aswan"
+      },
+      {
+       "_key": "ccx29bfgja1g",
+       "_type": "span",
+       "marks": [],
+       "text": " (with an array of full-day and half-day tours on offer). Along the way from Luxor to "
+      },
+      {
+       "_key": "gvz9m274v98j",
+       "_type": "span",
+       "marks": [
+        "7a9lj95bhjuu"
+       ],
+       "text": "Aswan"
+      },
+      {
+       "_key": "7b1twjyx1jhr",
+       "_type": "span",
+       "marks": [],
+       "text": ", immerse yourself in the splendor of the pharaohs by visiting the Temples of "
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [
+        "000000000020"
+       ],
+       "text": "Edfu and Kom Ombo"
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": ". Additionally, explore the less-visited but equally charming "
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "000000000023"
+       ],
+       "text": "Temple of Khnum in Esna"
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000001d",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/aswan-travel-guide/aswan-local-market/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/aswan/aswan-local-market",
+       "newTab": false
+      },
+      {
+       "_key": "000000000020",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/visit-to-esna-edfu-kom-ombo/"
+       },
+       "_type": "externalLink",
+       "href": "/esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+       "newTab": false
+      },
+      {
+       "_key": "000000000023",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/esna-travel-guide/temple-of-khnum/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/esna/the-temple-of-khnum-at-esna",
+       "newTab": false
+      },
+      {
+       "_key": "7a9lj95bhjuu",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58758",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000028",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [],
+       "text": "3) Private Tour: Edfu & Kom-Ombo From Luxor"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000030",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [],
+       "text": "For a comprehensive "
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [
+        "00000000002a"
+       ],
+       "text": "exploration of Luxor"
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": " and Aswan, it’s recommended to combine these two cities into a single tour. Aswan lies just 213 kilometers south of Luxor, and the road connecting them boasts two of "
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [
+        "00000000002d"
+       ],
+       "text": "Egypt’s"
+      },
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [],
+       "text": " most impressive pharaonic temples: the Temple of Horus in Edfu and the Temple of Sobek in Kom Ombo."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000002a",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/luxor-private-car-and-guide/"
+       },
+       "_type": "externalLink",
+       "href": "/luxor-private-car-and-guide",
+       "newTab": false
+      },
+      {
+       "_key": "00000000002d",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/contact-us/"
+       },
+       "_type": "externalLink",
+       "href": "/contact",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000038",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [],
+       "text": "While in Luxor, take advantage of the opportunity to discover Aswan’s wonders (with various "
+      },
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [
+        "000000000032"
+       ],
+       "text": "full-day and half-day tours"
+      },
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": " available). Marvel at the magnificence of the pharaohs as you explore the "
+      },
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [
+        "000000000035"
+       ],
+       "text": "Temples of Edfu and Kom Ombo"
+      },
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000032",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/sharm-el-sheikh-to-jerusalem-and-dead-sea/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/sharm-el-sheikh/sharm-el-sheikh-to-jerusalem-and-dead-sea",
+       "newTab": false
+      },
+      {
+       "_key": "000000000035",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/group-day-tour-to-kom-ombo-and-edfu-temples-from-aswan/"
+       },
+       "_type": "externalLink",
+       "href": "/esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000043",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000039",
+       "_type": "span",
+       "marks": [],
+       "text": "These tours offer an immersive journey through the ages, allowing you to witness the enduring legacy of "
+      },
+      {
+       "_key": "00000000003b",
+       "_type": "span",
+       "marks": [
+        "00000000003a"
+       ],
+       "text": "Egypt’s"
+      },
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": " ancient civilization. Whether you choose to explore one temple or embark on a comprehensive tour of Luxor and Aswan, Kom Ombo’s historical treasures await your "
+      },
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [
+        "00000000003d"
+       ],
+       "text": "discovery"
+      },
+      {
+       "_key": "00000000003f",
+       "_type": "span",
+       "marks": [],
+       "text": ". Book your "
+      },
+      {
+       "_key": "000000000041",
+       "_type": "span",
+       "marks": [
+        "000000000040"
+       ],
+       "text": "tour and let the history of Egypt"
+      },
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [],
+       "text": " come alive before your eyes."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000003a",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/abu-simble-travel-guide/qasr-ibrim/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/abu-simbel/qasr-ibrim",
+       "newTab": false
+      },
+      {
+       "_key": "00000000003d",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/siwa-oasis-travel-guide/discoveries/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/siwa-oasis/things-to-do-in-siwa-oasis",
+       "newTab": false
+      },
+      {
+       "_key": "000000000040",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/the-worlds-first-labour-strike/"
+       },
+       "_type": "externalLink",
+       "href": "/blog/the-worlds-first-labour-strike",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000044",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Farafra-Oasis-1.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "A lone hiker traversing the sculpted dunes and rock formations of a desert landscape with patches of snow."
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "Contrasts of Nature: A lone explorer's journey through Farafra's sandy vastness, where the desert's heat clings to the cold touch of winter's snow"
+      }
+     ]
+    },
+    {
+     "_key": "000000000045",
+     "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Location-Climate-of-Farafra-Oasis-Farafra-Oasis-Tavel-Guide-Egypt-Tours-Portal.jpg",
+     "_type": "image",
+     "alt": [
+      {
+       "_key": "en",
+       "value": "A woman sitting on a rock, gazing at the vast white desert landscape under a clear blue sky"
+      }
+     ],
+     "caption": [
+      {
+       "_key": "en",
+       "value": "A moment of solitude in the stark beauty of Farafra's white desert"
+      }
+     ]
+    },
+    {
+     "_key": "000000000048",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000047",
+       "_type": "span",
+       "marks": [],
+       "text": "Discover Your Perfect Egypt Travel Packages"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000053",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000049",
+       "_type": "span",
+       "marks": [],
+       "text": "Dive into our "
+      },
+      {
+       "_key": "00000000004b",
+       "_type": "span",
+       "marks": [
+        "00000000004a"
+       ],
+       "text": "Egypt Travel Packages for the ultimate adventure"
+      },
+      {
+       "_key": "00000000004c",
+       "_type": "span",
+       "marks": [],
+       "text": ". Whether you’re dreaming of a "
+      },
+      {
+       "_key": "00000000004e",
+       "_type": "span",
+       "marks": [
+        "00000000004d"
+       ],
+       "text": "Nile cruise"
+      },
+      {
+       "_key": "00000000004f",
+       "_type": "span",
+       "marks": [],
+       "text": ", exploring ancient pyramids, or relaxing by the Red Sea, we’ve curated the best experiences for you. Connect your "
+      },
+      {
+       "_key": "000000000051",
+       "_type": "span",
+       "marks": [
+        "000000000050"
+       ],
+       "text": "journey seamlessly with our comprehensive travel guide"
+      },
+      {
+       "_key": "000000000052",
+       "_type": "span",
+       "marks": [],
+       "text": ", ensuring every moment is unforgettable."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000004a",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/egypt-holidays-from-japan/"
+       },
+       "_type": "externalLink",
+       "href": "/blog/egypt-holidays-from-japan",
+       "newTab": false
+      },
+      {
+       "_key": "00000000004d",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/nile-cruise-hurghada-tour/"
+       },
+       "_type": "externalLink",
+       "href": "/14-night-nile-cruise-and-hurghada-stay",
+       "newTab": false
+      },
+      {
+       "_key": "000000000050",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/ras-sudr-travel-guide/journey-travel-guide/"
+       },
+       "_type": "externalLink",
+       "href": "/guide/ras-sudr/travel-to-ras-sudr",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000055",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000054",
+       "_type": "span",
+       "marks": [],
+       "text": "Learn more"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0utr2cod5t8",
+       "_type": "span",
+       "marks": [],
+       "text": "Explorando los Tesoros de "
+      },
+      {
+       "_key": "msslilhb6nom",
+       "_type": "span",
+       "marks": [
+        "zxjdp1ekwgrg"
+       ],
+       "text": "Kom Ombo"
+      },
+      {
+       "_key": "cfpgmnbpjkzo",
+       "_type": "span",
+       "marks": [],
+       "text": ": Opciones de visita"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "zxjdp1ekwgrg",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58875",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "Las joyas históricas de Kom Ombo atraen a viajeros de todas partes, y existen varias opciones de recorridos que te ayudarán a descubrir las maravillas de esta cautivadora ciudad."
+      },
+      {
+       "_key": "000000000003",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": " He aquí algunas de las mejores excursiones que te permitirán adentrarte en la rica historia de Kom Ombo: "
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "6x68k4c5q5o3",
+       "_type": "span",
+       "marks": [],
+       "text": "1) Excursión Privada: Templos de Kom-Ombo y "
+      },
+      {
+       "_key": "tj9bhovkf5xn",
+       "_type": "span",
+       "marks": [
+        "aokgqgnsseap"
+       ],
+       "text": "Edfu"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "aokgqgnsseap",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58841",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Los guías suelen recomendar combinar las visitas a "
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [
+        "000000000009"
+       ],
+       "text": "Luxor y Asuán"
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [],
+       "text": " en un mismo recorrido, dada su proximidad."
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [],
+       "text": "La carretera entre estas dos ciudades históricas conduce a dos notables templos faraónicos: el Templo de Horus en "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "00000000000e"
+       ],
+       "text": "Edfu"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": " y el Templo de Sobek en Kom Ombo."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000009",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/trio-majestuoso-de-egipto-de-2-dias-asuan-y-abu-simbel-desde-luxor/"
+       },
+       "_type": "externalLink",
+       "href": "/es/trio-majestuoso-de-egipto-de-2-dias-asuan-y-abu-simbel-desde-luxor",
+       "newTab": false
+      },
+      {
+       "_key": "00000000000e",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-edfu/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/edfu",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "5jrk11sb5cq9",
+       "_type": "span",
+       "marks": [],
+       "text": "Mientras estés en "
+      },
+      {
+       "_key": "l62jf5irlvsc",
+       "_type": "span",
+       "marks": [
+        "wtg7g90ozxg8"
+       ],
+       "text": "Asuán"
+      },
+      {
+       "_key": "k868glcv7sga",
+       "_type": "span",
+       "marks": [],
+       "text": ", aprovecha para "
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "explorar las maravillas"
+      },
+      {
+       "_key": "7udprs8xejvr",
+       "_type": "span",
+       "marks": [],
+       "text": " de "
+      },
+      {
+       "_key": "6ztpcor43gh6",
+       "_type": "span",
+       "marks": [
+        "ho6mxstz4hll"
+       ],
+       "text": "Luxor"
+      },
+      {
+       "_key": "60tsiplyhz7t",
+       "_type": "span",
+       "marks": [],
+       "text": " (con varias excursiones de día completo y medio día disponibles)."
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [],
+       "text": "Sé testigo de la grandeza de los faraones visitando el "
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "000000000018"
+       ],
+       "text": "Templo de Edfu y"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": " el Templo de Sobek en Kom Ombo."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000018",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/alineaciones-de-templos-excursion-de-un-dia-a-los-templos-de-kom-ombo-y-edfu/"
+       },
+       "_type": "externalLink",
+       "href": "/es/templos-de-esna-edfu-y-kom-ombo-desde-luxor",
+       "newTab": false
+      },
+      {
+       "_key": "wtg7g90ozxg8",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58758",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "ho6mxstz4hll",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58877",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "fjcyj6t4esqw",
+       "_type": "span",
+       "marks": [],
+       "text": "2) Excursión Privada: "
+      },
+      {
+       "_key": "devry4nkbktb",
+       "_type": "span",
+       "marks": [
+        "jrfw22ucaiyg"
+       ],
+       "text": "Esna"
+      },
+      {
+       "_key": "0srhrakgvug9",
+       "_type": "span",
+       "marks": [],
+       "text": ", Edfu y Kom-Ombo desde Luxor"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "jrfw22ucaiyg",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58844",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000002c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Durante tu estancia en Luxor, aprovecha para descubrir las maravillas de "
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [
+        "00000000001f"
+       ],
+       "text": "Asuán"
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [],
+       "text": " (con una oferta de excursiones de día completo y medio día)."
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [],
+       "text": "En el trayecto "
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [
+        "000000000024"
+       ],
+       "text": "de Luxor a Asuán"
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": ", sumérgete en el esplendor de los faraones visitando los Templos de Edfu y Kom Ombo."
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Además, explora el menos visitado pero igualmente encantador "
+      },
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "000000000029"
+       ],
+       "text": "Templo de Khnum en Esna"
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000001f",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-asuan/el-mausoleo-de-agha-khan/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/asuan/el-mausoleo-de-aga-khan-en-asuan",
+       "newTab": false
+      },
+      {
+       "_key": "000000000024",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/traslado-de-luxor-a-asuan-en-autobus/"
+       },
+       "_type": "externalLink",
+       "href": "/es/traslado-privado-de-asuan-a-luxor-con-paradas",
+       "newTab": false
+      },
+      {
+       "_key": "000000000029",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-esna/templo-de-khnum/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/esna",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [],
+       "text": "3) Excursión Privada: Edfu y Kom-Ombo desde Luxor"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000038",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [],
+       "text": "Para una exploración completa de "
+      },
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [
+        "000000000030"
+       ],
+       "text": "Luxor y Asuán"
+      },
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": ", se recomienda combinar estas dos ciudades en una sola excursión."
+      },
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "Asuán se encuentra a sólo 213 kilómetros al sur de Luxor, y la carretera que las une cuenta con dos de los "
+      },
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [
+        "000000000035"
+       ],
+       "text": "templos faraónicos más impresionantes de Egipto"
+      },
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [],
+       "text": ": el Templo de Horus en Edfu y el Templo de Sobek en Kom Ombo."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000030",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/nilo-link-traslado-en-autobus-privado-de-asuan-a-luxor/"
+       },
+       "_type": "externalLink",
+       "href": "/es/traslado-privado-de-asuan-a-luxor-con-paradas",
+       "newTab": false
+      },
+      {
+       "_key": "000000000035",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-abu-simble/el-templo-de-amada/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/abu-simbel/el-templo-de-amada",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000042",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000039",
+       "_type": "span",
+       "marks": [],
+       "text": "Mientras estés en Luxor, aprovecha para descubrir las maravillas de Asuán (con varias "
+      },
+      {
+       "_key": "00000000003b",
+       "_type": "span",
+       "marks": [],
+       "text": "excursiones de día completo"
+      },
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [],
+       "text": " y medio día disponibles)."
+      },
+      {
+       "_key": "00000000003d",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000003e",
+       "_type": "span",
+       "marks": [],
+       "text": "Maravíllate ante la magnificencia de "
+      },
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [
+        "00000000003f"
+       ],
+       "text": "los faraones mientras exploras los Templos de Edfu y Kom Ombo"
+      },
+      {
+       "_key": "000000000041",
+       "_type": "span",
+       "marks": [],
+       "text": "."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "00000000003f",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/visita-a-esna-edfu-y-kom-ombo/"
+       },
+       "_type": "externalLink",
+       "href": "/es/templos-de-esna-edfu-y-kom-ombo-desde-luxor",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000051",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000043",
+       "_type": "span",
+       "marks": [],
+       "text": "Estos recorridos ofrecen un "
+      },
+      {
+       "_key": "000000000045",
+       "_type": "span",
+       "marks": [
+        "000000000044"
+       ],
+       "text": "viaje"
+      },
+      {
+       "_key": "000000000046",
+       "_type": "span",
+       "marks": [],
+       "text": " inmersivo a través de los tiempos, permitiéndote ser testigo del perdurable legado de la antigua civilización egipcia."
+      },
+      {
+       "_key": "000000000047",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "000000000048",
+       "_type": "span",
+       "marks": [],
+       "text": "Tanto si decides explorar un solo templo como si te embarcas en un recorrido completo "
+      },
+      {
+       "_key": "00000000004a",
+       "_type": "span",
+       "marks": [
+        "000000000049"
+       ],
+       "text": "por Luxor"
+      },
+      {
+       "_key": "00000000004b",
+       "_type": "span",
+       "marks": [],
+       "text": " y Asuán, los tesoros históricos de Kom Ombo esperan a que los descubras."
+      },
+      {
+       "_key": "00000000004c",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000004d",
+       "_type": "span",
+       "marks": [],
+       "text": "Reserva tu "
+      },
+      {
+       "_key": "00000000004f",
+       "_type": "span",
+       "marks": [
+        "00000000004e"
+       ],
+       "text": "excursión y deja que la historia de"
+      },
+      {
+       "_key": "000000000050",
+       "_type": "span",
+       "marks": [],
+       "text": " Egipto cobre vida ante tus ojos."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000044",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-alejandria/viaje/"
+       },
+       "_type": "externalLink",
+       "href": "/es/guide/alejandria/como-llegar-a-alejandria",
+       "newTab": false
+      },
+      {
+       "_key": "000000000049",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/la-mejor-excursion-de-un-dia-por-luxor/"
+       },
+       "_type": "externalLink",
+       "href": "/es/lo-mejor-de-egipto-en-8-dias-el-cairo-abu-simbel-el-nilo-y-luxor",
+       "newTab": false
+      },
+      {
+       "_key": "00000000004e",
+       "_pendingInternalRef": {
+        "sourceLocale": "en",
+        "wpUrl": "https://travel2egypt.org/es/itinerario-de-2-semanas-por-egipto-explora-lo-mejor-de-egipto/"
+       },
+       "_type": "externalLink",
+       "href": "/es/blog/itinerario-de-2-semanas-por-egipto-explora-lo-mejor-de-egipto",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000053",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000052",
+       "_type": "span",
+       "marks": [],
+       "text": "Creado el 18 de marzo de 2020"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000055",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000054",
+       "_type": "span",
+       "marks": [],
+       "text": "Actualizado en Ago , 2024"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000057",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "2hwxkjogcbg4",
+       "_type": "span",
+       "marks": [
+        "2kjw44mt0cd3"
+       ],
+       "text": "FARAFRA"
+      },
+      {
+       "_key": "tzwjhzbckqgu",
+       "_type": "span",
+       "marks": [],
+       "text": " OASIS Guía"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "2kjw44mt0cd3",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58849",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000059",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000058",
+       "_type": "span",
+       "marks": [],
+       "text": "de viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "zb6niim6217l",
+       "_type": "span",
+       "marks": [
+        "o1mxst86coeg"
+       ],
+       "text": "コム・オンボ"
+      },
+      {
+       "_key": "kt9pb4bvmadx",
+       "_type": "span",
+       "marks": [],
+       "text": "の宝物を探索する：ツアーオプション"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "o1mxst86coeg",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58875",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "コム・オンボの歴史的な宝物は、遠方からの旅行者を引き寄せ、その魅力的な町の驚異を発見するためのさまざまなツアーオプションが用意されています。ここでは、コム・オンボの豊かな歴史に触れることができるいくつかの最適なツアーをご紹介します："
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "プライベートツアー：コム・オンボ＆エドフ・テンプレート"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "dh5w81b4njr3",
+       "_type": "span",
+       "marks": [],
+       "text": "ガイドは、"
+      },
+      {
+       "_key": "7wujjs19r8vq",
+       "_type": "span",
+       "marks": [
+        "g9l4008u2xso"
+       ],
+       "text": "ルクソール"
+      },
+      {
+       "_key": "f6qytbdtrfzv",
+       "_type": "span",
+       "marks": [],
+       "text": "と"
+      },
+      {
+       "_key": "4ivqf1zrhkxz",
+       "_type": "span",
+       "marks": [
+        "30sjtr4kglle"
+       ],
+       "text": "アスワン"
+      },
+      {
+       "_key": "ch2hoyeqd3h6",
+       "_type": "span",
+       "marks": [],
+       "text": "が近接していることから、これらの都市への訪問を一つのツアーで組み合わせることをよく勧めています。この二つの歴史的な都市を結ぶ道には、二つの注目すべきファラオ時代の寺院があります：エドフのホルス神殿とコム・オンボのソベク神殿です。"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "g9l4008u2xso",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58877",
+        "_type": "reference"
+       }
+      },
+      {
+       "_key": "30sjtr4kglle",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58758",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "このツアーをこちらから予約"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワンにいる間に、ルクソールの驚異を探索するチャンスをお見逃しなく（フルデイとハーフデイのツアーがさまざまに用意されています）。エドフ神殿とコム・オンボのソベク神殿を訪れ、ファラオたちの壮大さを目の当たりにしてください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "2) プライベートツアー：ルクソール発、エスナ・エドフ・コム・オンボ"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "w1vstrmsv3n6",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールに滞在中は、アスワンの驚異を発見するチャンスをお見逃しなく（フルデイとハーフデイのツアーが用意されています）。ルクソールからアスワンへの道中では、エドフとコム・オンボの寺院を訪れ、ファラオの栄光に浸ることができます。また、"
+      },
+      {
+       "_key": "tbhy00j8t6ns",
+       "_type": "span",
+       "marks": [
+        "58mq67d87orf"
+       ],
+       "text": "エスナ"
+      },
+      {
+       "_key": "ccx32kqwu2b2",
+       "_type": "span",
+       "marks": [],
+       "text": "にあるあまり訪れられていないが魅力的なクヌム神殿も探索しましょう。"
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "58mq67d87orf",
+       "_type": "internalLink",
+       "reference": {
+        "_ref": "wp-page-58844",
+        "_type": "reference"
+       }
+      }
+     ],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "このツアーをこちらから予約"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "3) プライベートツアー：ルクソール発、エドフ＆コム・オンボ"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールとアスワンを包括的に探索するためには、これらの二つの都市を一つのツアーに組み合わせることをお勧めします。アスワンはルクソールからわずか213キロメートル南に位置しており、それらを結ぶ道路にはエジプトで最も印象的なファラオ時代の寺院が二つあります：エドフのホルス神殿とコム・オンボのソベク神殿です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "このツアーをこちらから予約"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールにいる間は、アスワンの驚異を発見するチャンスを活かしましょう（フルデイとハーフデイのツアーが用意されています）。エドフとコム・オンボの寺院を探索し、ファラオの栄光を感じることができます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "これらのツアーは、時代を超えた旅を提供し、エジプトの古代文明の不朽の遺産を目の当たりにすることができます。一つの寺院を探索するもよし、ルクソールとアスワンの包括的なツアーに参加するもよし、コム・オンボの歴史的な宝物があなたの発見を待っています。ツアーを予約し、エジプトの歴史が目の前で生き生きと蘇る瞬間をお楽しみください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "作成日：2020年3月18日"
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": "\n"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "更新日：2024年8月"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Date palms and green reeds framing a view of pale desert sand stretching to the horizon under a softly clouded sky"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Palmeras datileras y juncos verdes enmarcan la arena pálida del desierto que se extiende hasta el horizonte"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "薄雲の空の下、地平線まで広がる淡い色の砂漠を縁取るナツメヤシと緑の葦。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-fef8961afb6e953636bafb12551d911d0e84d9f1-3000x2002-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "At the oasis edge, palms give way abruptly to open desert."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Al borde del oasis, las palmeras dan paso de golpe al desierto abierto."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "オアシスの縁では、ヤシの木立の先に砂漠が一気に開ける。"
+   }
+  ]
+ },
+ "kind": "tours",
+ "migration": {
+  "migratedAt": "2026-05-05T12:59:54.910Z",
+  "source": "wp-import",
+  "wpId": 59644,
+  "wpModifiedAt": "2025-07-24T07:43:37",
+  "wpTemplate": "elementor_header_footer",
+  "wpUrl": "https://travel2egypt.org/farafra-oasis-tours/"
+ },
+ "parentCity": {
+  "_ref": "wp-page-58849",
+  "_type": "reference"
+ },
+ "section": "others",
+ "slug": [
+  {
+   "_key": "en",
+   "value": {
+    "_type": "slug",
+    "current": "farafra-oasis-tours"
+   }
+  },
+  {
+   "_key": "es",
+   "value": {
+    "_type": "slug",
+    "current": "mejores-tours-en-oasis-de-farafra"
+   }
+  },
+  {
+   "_key": "ja",
+   "value": {
+    "_type": "slug",
+    "current": "farafura-oashisu-no-osusume-tsua"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "Farafra Oasis Tours Kom Ombo s historical gems beckon travelers from far and wide, and several tour options are available to help you uncover the wonders of this captivating town. Here are some of the best tours that allow you to delve into"
+  },
+  {
+   "_key": "es",
+   "value": "Explorando los Tesoros de Kom Ombo: Opciones de visita Las joyas históricas de Kom Ombo atraen a viajeros de todas partes, y existen varias opciones de recorridos que te ayudarán a descubrir las maravillas de esta cautivadora ciudad. He aqu"
+  },
+  {
+   "_key": "ja",
+   "value": "コム・オンボの宝物を探索する：ツアーオプション コム・オンボの歴史的な宝物は、遠方からの旅行者を引き寄せ、その魅力的な町の驚異を発見するためのさまざまなツアーオプションが用意されています。ここでは、コム・オンボの豊かな歴史に触れることができるいくつかの最適なツアーをご紹介します： プライベートツアー：コム・オンボ＆エドフ・テンプレート ガイドは、ルクソールとアスワンが近接していることから、これらの都市への訪問を一つのツアーで組み合わせることをよく勧めています。この二つの歴史的"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "value": "Farafra Oasis Tours"
+  },
+  {
+   "_key": "es",
+   "value": "Mejores Tours en Oasis de Farafra"
+  },
+  {
+   "_key": "ja",
+   "value": "ファラフラ・オアシスのおすすめツアー"
+  }
+ ]
+}
