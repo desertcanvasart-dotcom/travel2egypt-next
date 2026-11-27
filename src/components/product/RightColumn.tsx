@@ -7,7 +7,7 @@ import { TRIPADVISOR_RATING, TRIPADVISOR_REVIEW_COUNT } from '@/lib/company';
 import { routeModeLabel, type RouteLegRow } from '@/lib/products/routeLabels';
 import { HOME_COPY, homeLocale } from '../home-sales/copy';
 
-import { ProductLeadButton, ProductWhatsApp } from './ProductActions';
+import { ProductLeadButton, ProductSawaLink, ProductWhatsApp } from './ProductActions';
 import { StickyCardShell } from './StickyCardShell';
 import { OptionItem } from './ProductSections';
 
@@ -139,6 +139,7 @@ export async function CompactStickyCard({
   ticks,
   accred,
   basis,
+  sawaUrl = null,
 }: {
   locale: Locale;
   kind: 'multi' | 'day';
@@ -157,6 +158,8 @@ export async function CompactStickyCard({
   accred?: string;
   /** Overrides the basis after the price (per-car products: "per car, each way"). */
   basis?: string;
+  /** Group tours booked on Sawa (27 Nov 2026): the button links there instead of the form. */
+  sawaUrl?: string | null;
 }) {
   const t = await getTranslations({ locale, namespace: 'productPanel' });
   const L = homeLocale(locale);
@@ -183,9 +186,15 @@ export async function CompactStickyCard({
           <span>{t('priceOnRequest')}</span>
         )}
       </p>
-      <ProductLeadButton location="product_sticky_card" prefill={prefill} className="pdp-btn pdp-btn--primary">
-        {kind === 'multi' ? t('ctaCustomise') : t('ctaCheckDate')}
-      </ProductLeadButton>
+      {sawaUrl ? (
+        <ProductSawaLink url={sawaUrl} location="product_sticky_card" tourSlug={slug} locale={locale} className="pdp-btn pdp-btn--primary">
+          {t('ctaSawa')} <span aria-hidden="true">↗</span>
+        </ProductSawaLink>
+      ) : (
+        <ProductLeadButton location="product_sticky_card" prefill={prefill} className="pdp-btn pdp-btn--primary">
+          {kind === 'multi' ? t('ctaCustomise') : t('ctaCheckDate')}
+        </ProductLeadButton>
+      )}
       {why && (
         <div className="pdp-sticky__why">
           <ul>{ticks!.map((x, i) => <li key={i}>{x}</li>)}</ul>

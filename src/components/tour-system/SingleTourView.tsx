@@ -82,6 +82,8 @@ export interface SingleTour {
   approvedOptions?: string[] | null;
   approvedOptionLinks?: Array<{ slug?: string | null } | null> | null;
   priceUpdatedAt?: string;
+  /** Group tours booked on Sawa (27 Nov 2026); the query returns it only when tourMode == "group". */
+  sawaUrl?: string | null;
   relatedGuides?: Array<{ _id: string; _type?: string; title?: string; slug?: string; parentCity?: { slug?: string } | null }> | null;
   relatedGuideArticles?: Array<{ _id: string; _type?: string; title?: string; slug?: string; parentCity?: { slug?: string } | null }> | null;
   journalRefs?: Array<{ _id: string; _type?: string; title?: string; slug?: string; parentCity?: { slug?: string } | null }> | null;
@@ -100,6 +102,9 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
 
 
   const isGroup = tour.tourMode === 'group';
+  // Owner, 27 Nov 2026: a group tour that also runs on Sawa (our group-tours site) is booked there:
+  // every booking button links to the same tour on sawa.tours instead of opening our enquiry form.
+  const sawaUrl = isGroup && tour.sawaUrl ? tour.sawaUrl : null;
   const trackLabel = isGroup ? tSub('trackGroup') : tSub('trackPrivate');
   const trackKicker = isGroup ? ts('kickerGroup') : ts('kickerPrivate');
   const city = tour.cities?.[0];
@@ -308,8 +313,9 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
               fromEur={fromEur}
               guidePriced={tour.guidePriced}
               mobileLine={mobileLine}
-              fromNote={perCar ? tp('fromCarNote') : tp('fromGroupNote')}
+              fromNote={sawaUrl ? tp('fromSawaNote') : perCar ? tp('fromCarNote') : tp('fromGroupNote')}
               basis={perCar ? tp('basisCar') : undefined}
+              sawaUrl={sawaUrl}
             />
           </header>
 
@@ -320,7 +326,8 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
           <div className="pdp-side">
             <DayTourPanel locale={locale} facts={panelFacts} tiers={tiers} />
             {dayFormat && <YourDayAtAGlance locale={locale} items={glanceItems(dayFormat)} />}
-            <MakeItYourOwn
+            {/* Sawa tours are fixed products: no "Make it your own" here. */}
+            {!sawaUrl && <MakeItYourOwn
               locale={locale}
               options={tour.approvedOptions ?? []}
               optionLinks={optionLinks}
@@ -329,7 +336,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
               title={tour.title}
               durationDays={null}
               fromEur={fromEur}
-            />
+            />}
             <CompactStickyCard
               locale={locale}
               kind="day"
@@ -341,6 +348,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
               ticks={trustSignals}
               accred={trustLine}
               basis={perCar ? tp('basisCar') : undefined}
+              sawaUrl={sawaUrl}
             />
           </div>
 
@@ -368,6 +376,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
                 waHref={waHref}
                 durationDays={null}
                 fromEur={fromEur}
+                sawaUrl={sawaUrl}
               />
                   }
                 />
@@ -413,6 +422,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
                 waHref={waHref}
                 durationDays={null}
                 fromEur={fromEur}
+                sawaUrl={sawaUrl}
               />
                 </>
               )}
@@ -430,6 +440,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
         waHref={waHref}
         durationDays={null}
         fromEur={fromEur}
+        sawaUrl={sawaUrl}
       />
 
       {(moreDays.length > 0 || guideItems.length > 0 || journal.length > 0) && (
@@ -510,6 +521,8 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
           type: tour.type ?? 'dayTour',
           durationDays: tour.durationDays ?? null,
           priceFromEur: typeof tour.priceFrom === 'number' ? tour.priceFrom : null,
+          sawaUrl,
+          sawaLabel: sawaUrl ? tp('ctaSawa') : null,
         }}
       />
       <LazyFloatingConcierge tourSlug={tour.slug} />

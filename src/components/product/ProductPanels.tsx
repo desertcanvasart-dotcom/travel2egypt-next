@@ -14,6 +14,7 @@ import { CurrencyNote } from '@/components/CurrencyNote';
 import {
   ProductConciergeLink,
   ProductLeadButton,
+  ProductSawaLink,
   ProductWhatsApp,
 } from './ProductActions';
 import '@/styles/product-page.css';
@@ -37,6 +38,8 @@ interface Common {
   waHref: string;
   /** ES/JA price includes the guide-language supplement (PR #167). */
   guidePriced?: boolean | null;
+  /** Group tours booked on Sawa (27 Nov 2026): the booking button links there instead of the form. */
+  sawaUrl?: string | null;
 }
 
 /** "Includes a Spanish-/Japanese-speaking guide" — only when the price does. */
@@ -213,6 +216,7 @@ export async function DayHeroFacts({
   fromNote,
   basis,
   afterFrom = [],
+  sawaUrl = null,
 }: Common & {
   facts: PanelFact[];
   /** Day-tour format: shown after the per-person basis (e.g. "price depends on group size"). */
@@ -258,9 +262,15 @@ export async function DayHeroFacts({
       <GuideNote on={guidePriced && !!fromEur} note={ts('guidePriceNote')} />
       {fromEur ? <div className="pdp-ccy"><CurrencyNote note={ts('priceCurrencyNote')} /></div> : null}
       <div className="pdp-actions pdp-hf__actions">
-        <ProductLeadButton location="product_hero" prefill={prefill} className="pdp-btn pdp-btn--primary">
-          {multi ? t('ctaCustomise') : t('ctaCheckDate')}
-        </ProductLeadButton>
+        {sawaUrl ? (
+          <ProductSawaLink url={sawaUrl} location="product_hero" tourSlug={slug} locale={locale} className="pdp-btn pdp-btn--primary">
+            {t('ctaSawa')} <span aria-hidden="true">↗</span>
+          </ProductSawaLink>
+        ) : (
+          <ProductLeadButton location="product_hero" prefill={prefill} className="pdp-btn pdp-btn--primary">
+            {multi ? t('ctaCustomise') : t('ctaCheckDate')}
+          </ProductLeadButton>
+        )}
         <ProductWhatsApp href={waHref} location="product_hero" tourSlug={slug} className="pdp-link">
           {t('ctaWhatsApp')} →
         </ProductWhatsApp>
@@ -270,7 +280,7 @@ export async function DayHeroFacts({
           </ProductConciergeLink>
         )}
       </div>
-      {rt && <p className="pdp-rt">{rt}</p>}
+      {sawaUrl ? <p className="pdp-rt pdp-sawa-note">{t('sawaNote')}</p> : rt && <p className="pdp-rt">{rt}</p>}
     </div>
   );
 }
@@ -361,7 +371,7 @@ export async function ProductFactsBlock({
 }
 
 /** §5 — the button pair after the narrative. */
-export async function MidCta({ locale, kind, slug, title, waHref, durationDays, fromEur }: Common & { kind: 'multi' | 'day'; durationDays: number | null; fromEur: number | null }) {
+export async function MidCta({ locale, kind, slug, title, waHref, durationDays, fromEur, sawaUrl = null }: Common & { kind: 'multi' | 'day'; durationDays: number | null; fromEur: number | null }) {
   const t = await getTranslations({ locale, namespace: 'productPanel' });
   const prefill =
     kind === 'multi'
@@ -369,9 +379,15 @@ export async function MidCta({ locale, kind, slug, title, waHref, durationDays, 
       : { kind: 'day_tour' as const, tourSlug: slug, tourTitle: title, priceFromEur: fromEur };
   return (
     <p className="pdp-mid">
-      <ProductLeadButton location="product_mid" prefill={prefill} className="pdp-btn pdp-btn--primary">
-        {kind === 'multi' ? t('ctaCustomise') : t('ctaCheckDate')}
-      </ProductLeadButton>
+      {sawaUrl ? (
+        <ProductSawaLink url={sawaUrl} location="product_mid" tourSlug={slug} locale={locale} className="pdp-btn pdp-btn--primary">
+          {t('ctaSawa')} <span aria-hidden="true">↗</span>
+        </ProductSawaLink>
+      ) : (
+        <ProductLeadButton location="product_mid" prefill={prefill} className="pdp-btn pdp-btn--primary">
+          {kind === 'multi' ? t('ctaCustomise') : t('ctaCheckDate')}
+        </ProductLeadButton>
+      )}
       <ProductWhatsApp href={waHref} location="product_mid" tourSlug={slug} className="pdp-link">
         {t('quickWhatsapp')}
       </ProductWhatsApp>
@@ -380,7 +396,7 @@ export async function MidCta({ locale, kind, slug, title, waHref, durationDays, 
 }
 
 /** §5 — the end block (replaces "Talk to us about this journey/day."). */
-export async function EndBlock({ locale, kind, slug, title, waHref, durationDays, fromEur }: Common & { kind: 'multi' | 'day'; durationDays: number | null; fromEur: number | null }) {
+export async function EndBlock({ locale, kind, slug, title, waHref, durationDays, fromEur, sawaUrl = null }: Common & { kind: 'multi' | 'day'; durationDays: number | null; fromEur: number | null }) {
   const t = await getTranslations({ locale, namespace: 'productPanel' });
   const ts = await getTranslations({ locale, namespace: 'tourSystem' });
   const s = await client.fetch<{ responseTimeFull?: string | null } | null>(siteSettingsQuery(locale));
@@ -395,15 +411,21 @@ export async function EndBlock({ locale, kind, slug, title, waHref, durationDays
       <div className="t2e-wrap">
         <div className="cta-inner">
           <span className="t2e-kicker">{ts('ctaKicker')}</span>
-          <h2>{kind === 'multi' ? t('endMultiH2') : t('endDayH2')}</h2>
+          <h2>{sawaUrl ? t('endSawaH2') : kind === 'multi' ? t('endMultiH2') : t('endDayH2')}</h2>
           <p>
-            {kind === 'multi' ? t('endMultiBody') : t('endDayBody')}
-            {s?.responseTimeFull ? `${sep}${s.responseTimeFull}` : ''}
+            {sawaUrl ? t('endSawaBody') : kind === 'multi' ? t('endMultiBody') : t('endDayBody')}
+            {!sawaUrl && s?.responseTimeFull ? `${sep}${s.responseTimeFull}` : ''}
           </p>
           <div className="cta-buttons">
-            <ProductLeadButton location="product_end" prefill={prefill} className="cta-btn cta-btn--primary">
-              {kind === 'multi' ? t('ctaCustomise') : t('ctaCheckDate')} <span className="cta-arrow" aria-hidden>→</span>
-            </ProductLeadButton>
+            {sawaUrl ? (
+              <ProductSawaLink url={sawaUrl} location="product_end" tourSlug={slug} locale={locale} className="cta-btn cta-btn--primary">
+                {t('ctaSawa')} <span className="cta-arrow" aria-hidden>↗</span>
+              </ProductSawaLink>
+            ) : (
+              <ProductLeadButton location="product_end" prefill={prefill} className="cta-btn cta-btn--primary">
+                {kind === 'multi' ? t('ctaCustomise') : t('ctaCheckDate')} <span className="cta-arrow" aria-hidden>→</span>
+              </ProductLeadButton>
+            )}
             <ProductWhatsApp href={waHref} location="product_end" tourSlug={slug} className="cta-btn cta-btn--ghost">
               {t('ctaWhatsApp')} <span className="cta-arrow" aria-hidden>→</span>
             </ProductWhatsApp>

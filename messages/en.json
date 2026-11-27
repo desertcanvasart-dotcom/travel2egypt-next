@@ -1652,7 +1652,12 @@
     "fromGroupNote": "price depends on group size",
     "fromCarNote": "price depends on the area and the vehicle",
     "backAround": "around {time}",
-    "aboutHoursHalf": "about {hours} hours"
+    "aboutHoursHalf": "about {hours} hours",
+    "ctaSawa": "See dates on Sawa",
+    "sawaNote": "Dates, price and booking for this group tour are on Sawa, our group-tours site. Reserving a seat is free.",
+    "endSawaH2": "Join a group date on Sawa.",
+    "endSawaBody": "Pick a date, hold a seat for free, and pay only once the date has enough travellers to go ahead.",
+    "fromSawaNote": "Sawa price with a full group of 8"
   },
   "packagesHub": {
     "crumbTours": "Egypt Tours",

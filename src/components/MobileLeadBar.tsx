@@ -10,6 +10,7 @@ import { useConsent } from '@/lib/consent';
 import { whatsappUrl } from '@/lib/concierge/constants';
 
 import { prefillFor, useLead } from './leads/LeadProvider';
+import { countSawaClick, sawaHref } from './product/ProductActions';
 import { LEAD_COPY, leadLocale } from './leads/copy';
 
 /**
@@ -101,16 +102,32 @@ export function MobileLeadBar() {
         </svg>
         WhatsApp
       </a>
-      <button
-        type="button"
-        className="t2e-leadbar-cta"
-        onClick={() => {
-          track('form_open', { location: 'sticky_bar', ...(product ? { tour: product.slug } : {}) });
-          open({ source: 'mobile_bar', ...(product ? prefillFor(product) : {}) });
-        }}
-      >
-        {c.barCta}
-      </button>
+      {product?.sawaUrl ? (
+        // Group tours booked on Sawa (27 Nov 2026): straight to the same tour on sawa.tours.
+        <a
+          href={sawaHref(product.sawaUrl, product.slug, 'sticky_bar')}
+          target="_blank"
+          rel="noopener"
+          className="t2e-leadbar-cta"
+          onClick={() => {
+            track('sawa_click', { location: 'sticky_bar', tour: product.slug });
+            countSawaClick(product.slug, locale);
+          }}
+        >
+          {product.sawaLabel ?? 'Sawa'}
+        </a>
+      ) : (
+        <button
+          type="button"
+          className="t2e-leadbar-cta"
+          onClick={() => {
+            track('form_open', { location: 'sticky_bar', ...(product ? { tour: product.slug } : {}) });
+            open({ source: 'mobile_bar', ...(product ? prefillFor(product) : {}) });
+          }}
+        >
+          {c.barCta}
+        </button>
+      )}
     </div>
   );
 }

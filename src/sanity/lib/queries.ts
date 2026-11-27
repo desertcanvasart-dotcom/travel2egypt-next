@@ -332,6 +332,8 @@ export const tourBySlugQuery = (locale: Locale) => groq`
     // 23 Nov 2026: only the noIndex flag, so a tour page held back for review carries the robots meta
     // (meta title/description stay the tour's own title and summary, as for every tour).
     "seo": { "noIndex": seo.noIndex },
+    // Group tours booked on Sawa (27 Nov 2026): only a group tour links out.
+    "sawaUrl": select(tourMode == "group" => sawaUrl),
     "body": ${portableTextBodyProjection('body', locale)},
     // Locale-strict: no English fallback, so a language without its own
     // practical information shows none rather than English text.

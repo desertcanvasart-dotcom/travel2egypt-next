@@ -31,6 +31,9 @@ export interface PageProduct {
   type?: string | null;
   durationDays?: number | null;
   priceFromEur?: number | null;
+  /** Group tours booked on Sawa (27 Nov 2026): the bar's button links there, labelled sawaLabel. */
+  sawaUrl?: string | null;
+  sawaLabel?: string | null;
 }
 
 export interface ResponseTime {
@@ -143,11 +146,11 @@ export function useLead(): LeadContextValue {
 /** Product pages call this so the sticky bar can name and pre-fill the tour. */
 export function StickyBarProduct({ product }: { product: PageProduct }) {
   const { setProduct } = useLead();
-  const { slug, title, type, durationDays, priceFromEur } = product;
+  const { slug, title, type, durationDays, priceFromEur, sawaUrl, sawaLabel } = product;
   useEffect(() => {
-    setProduct({ slug, title, type, durationDays, priceFromEur });
+    setProduct({ slug, title, type, durationDays, priceFromEur, sawaUrl, sawaLabel });
     return () => setProduct(null);
-  }, [setProduct, slug, title, type, durationDays, priceFromEur]);
+  }, [setProduct, slug, title, type, durationDays, priceFromEur, sawaUrl, sawaLabel]);
   return null;
 }
 

@@ -17,6 +17,73 @@ import type { LeadSource } from '@/lib/leads/schema';
  */
 export type ProductLocation = 'product_panel' | 'product_hero' | 'product_mid' | 'product_end' | 'product_sticky_card' | 'product_options';
 
+/** The Sawa page with where the visitor came from (Sawa reads utm_* on arrival). */
+export function sawaHref(url: string, slug: string, location: string): string {
+  const u = new URL(url);
+  u.searchParams.set('utm_source', 'travel2egypt');
+  u.searchParams.set('utm_medium', 'referral');
+  u.searchParams.set('utm_campaign', 'group_day_tour');
+  u.searchParams.set('utm_content', `${slug}__${location}`);
+  return u.toString();
+}
+
+/**
+ * Counts a click to Sawa without a cookie: the same aggregate counter as page
+ * views (/api/pv), under the path /out/sawa/<slug>, so /admin/report shows
+ * the clicks next to the tour's views (works with GA off).
+ */
+export function countSawaClick(slug: string, locale: string) {
+  try {
+    const body = JSON.stringify({
+      path: `/out/sawa/${slug}`,
+      locale,
+      ref: '',
+      device: window.matchMedia('(max-width: 767px)').matches ? 'mobile' : 'desktop',
+    });
+    if (!navigator.sendBeacon?.('/api/pv', new Blob([body], { type: 'text/plain' }))) {
+      void fetch('/api/pv', { method: 'POST', body, keepalive: true, credentials: 'omit' });
+    }
+  } catch {
+    // Counting must never break the link.
+  }
+}
+
+/**
+ * Group tours booked on Sawa (owner, 27 Nov 2026): the booking button goes to
+ * the same tour on sawa.tours, our group-tours site, instead of opening the
+ * enquiry form. Opens in a new tab, so the Travel2Egypt page stays open.
+ */
+export function ProductSawaLink({
+  url,
+  location,
+  tourSlug,
+  locale,
+  className,
+  children,
+}: {
+  url: string;
+  location: ProductLocation | 'sticky_bar';
+  tourSlug: string;
+  locale: string;
+  className?: string;
+  children: ReactNode;
+}) {
+  return (
+    <a
+      href={sawaHref(url, tourSlug, location)}
+      target="_blank"
+      rel="noopener"
+      className={className}
+      onClick={() => {
+        track('sawa_click', { location, tour: tourSlug });
+        countSawaClick(tourSlug, locale);
+      }}
+    >
+      {children}
+    </a>
+  );
+}
+
 /** Opens the existing Customise / Check-a-date dialog. */
 export function ProductLeadButton({
   location,
