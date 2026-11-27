@@ -139,7 +139,7 @@ if (await client.getDocument(`drafts.${ID}`)) throw new Error(`drafts.${ID} exis
 if (!['dayTour', 'package'].includes(doc.type)) throw new Error(`unexpected type ${doc.type}`);
 if (!(await client.getDocument(THEME))) throw new Error(`${THEME} missing`);
 const priceNow = [doc.priceFrom, doc.guideLanguagePrices?.es, doc.guideLanguagePrices?.ja].join();
-if (![[OLD.from, OLD.es, OLD.ja].join(), [PRICES.en, PRICES.es, PRICES.ja].join()].includes(priceNow)) throw new Error(`unexpected prices ${priceNow}`);
+if (![[OLD.from, OLD.es, OLD.ja].join(), [PRICES.en, PRICES.es, PRICES.ja].join(), ',,'].includes(priceNow)) throw new Error(`unexpected prices ${priceNow}`);
 const textOf = (b) => (b.children ?? []).map((c) => c.text).join('');
 const body = doc.body.map((row) => {
   const l = row._key;
@@ -231,7 +231,9 @@ await contentGate({ locked: LANGS.map((l) => [LOCKED[l], l]), apply });
 
 for (const l of LANGS) console.log(`BEFORE ${l}: ${doc.title.find((t) => t._key === l)?.value} | ${doc.summary.find((t) => t._key === l)?.value.slice(0, 100)}`);
 for (const [f, v] of Object.entries(set)) console.log(Array.isArray(v) ? `${f}: ${(doc[f] ?? []).length} → ${v.length}` : `${f}: ${JSON.stringify(doc[f])} → ${JSON.stringify(v)}`);
-if (!ready) console.log('prices: NOT READY — fill fayoum-2day-prices.json from Autoura (EN, ES and JA guide). Nothing can be applied yet.');
+// Owner rule (27 Nov): a missing Autoura price never holds the itinerary back. Unpriced, the
+// page publishes with the old day-tour price REMOVED (it priced a different, one-day trip).
+if (!ready) console.log(`prices: NOT READY — publishing WITHOUT a price (removes ${priceNow}); fill fayoum-2day-prices.json from Autoura and re-run to add it.`);
 for (const l of LANGS) for (const b of body.find((x) => x._key === l).value) {
   const before = doc.body.find((x) => x._key === l).value.find((x) => x._key === b._key);
   if (textOf(before) !== textOf(b)) console.log(`essay ${l} ${b._key}: …${textOf(b).slice(-140)}`);
@@ -255,8 +257,7 @@ if (previewOut) {
 }
 
 if (apply) {
-  if (!ready) throw new Error('prices not ready — fill fayoum-2day-prices.json from Autoura first.');
   await writeRollback(client, [ID], 'before-fayoum-2day');
-  await client.patch(ID).set(set).commit();
+  await client.patch(ID).set(set).unset(ready ? [] : ['priceFrom', 'guideLanguagePrices']).commit();
   console.log(`APPLIED to production ${ID}`);
 } else if (!previewOut) console.log('dry run (pass --apply --flags-approved to write production)');
