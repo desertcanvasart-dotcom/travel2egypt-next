@@ -76,12 +76,15 @@ El museo va primero, así que la primera tarde te da la visión de conjunto: los
 
 **Mediodía.** Almuerzo en un restaurante local.
 
-**Tarde.** Dahshur, donde Seneferu construyó la Pirámide Acodada y la Pirámide Roja: el paso entre los escalones de Djoser y las caras lisas de Giza, en un rincón más tranquilo del desierto. Entras en la Pirámide Roja. Después, regreso a tu hotel.
+**Tarde.** Dahshur, donde Seneferu construyó la Pirámide Acodada y la Pirámide Roja: el paso entre los escalones de Djoser y las caras lisas de Giza, en un rincón más tranquilo del desierto. Puedes entrar en la Pirámide Roja con una entrada aparte. Después, regreso a tu hotel.
 
-**El día:** Menfis · coloso de Ramsés II · Saqqara · Pirámide Escalonada de Djoser · Dahshur · Pirámide Acodada · interior de la Pirámide Roja
+**El día:** Menfis · coloso de Ramsés II · Saqqara · Pirámide Escalonada de Djoser · Dahshur · Pirámide Acodada · Pirámide Roja
 **Noche:** Barceló Cairo Pyramids o Pyramids Park Resort
 **Comidas:** desayuno · almuerzo
 **Traslados:** traslados privados con aire acondicionado
+
+**Opcional:**
+- Interior de la Pirámide Roja en Dahshur: entrada aparte
 
 > Más sobre esta etapa → *(despliega el pasaje del ensayo sobre Saqqara, con las correcciones aprobadas)*
 
@@ -123,7 +126,6 @@ Tu vuelo sale temprano, así que el día queda libre: el traslado privado de tu 
 - Almuerzo en un restaurante local los días 1, 2 y 3
 - Entrada al Gran Museo Egipcio, incluidas las galerías de Tutankamón
 - Entrada a la meseta de Giza, incluidos el mirador panorámico, la Gran Esfinge y el Templo del Valle, y el interior de una pirámide (Kefrén o Micerino)
-- Interior de la Pirámide Roja en Dahshur
 - Entradas a los demás lugares del programa diario
 
 **No incluye**
@@ -133,6 +135,7 @@ Tu vuelo sale temprano, así que el día queda libre: el traslado privado de tu 
 - Bebidas
 - Propinas
 - Interior de la Gran Pirámide de Keops: entrada aparte, ver día 2
+- Interior de la Pirámide Roja en Dahshur: entrada aparte, ver día 3
 - Paseo en camello: con coste adicional, ver día 2
 - Las opciones de noche de «Hazlo a tu medida»: con coste adicional
 

@@ -1,0 +1,1160 @@
+{
+ "_createdAt": "2026-05-28T11:45:20Z",
+ "_id": "tour.cairo-weekend-city-break-2-nights-3-days",
+ "_rev": "g02pRuNP754ozooCYPoDmf",
+ "_system": {
+  "base": {
+   "id": "tour.cairo-weekend-city-break-2-nights-3-days",
+   "rev": "PUXUI6sshIht1BONylWt7Y"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-09T11:10:03Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers on a weekend or layover; first-timers wanting a coherent foundation; repeat visitors revisiting the headline sites with proper guidance"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros en fin de semana largo o escala; primeros viajeros que quieren una base coherente; repetidores que vuelven a los hitos con guía propio"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "週末やストップオーバーでカイロだけを丁寧に押さえたい方、初訪問でしっかりした足場を作りたい方、再訪で主要遺跡をきちんと案内付きで再訪したい方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo in Three Days: A City Break, Not a Country Tour"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A short private stay that treats Cairo as a city in its own right — the pharaonic plateau, the medieval citadel, the working bazaar — and leaves the rest of Egypt for another trip."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a city break, not a country tour, and that distinction shapes everything about it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Most Egypt itineraries try to do the country in a week. Three days does not allow that, and this trip does not pretend otherwise. What it does instead is give you the three Cairos that matter most on a first visit: the pharaonic city on the plateau at Giza and the necropolis at Saqqara; the medieval Islamic city with its Ottoman-era citadel still dominating the skyline; and the working bazaar of Khan el-Khalili, where the fourteenth century and the twenty-first share the same lane. The order is deliberate — oldest to newest, plateau to street — and the pace is efficient without being frantic."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "The Giza plateau"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The trip opens where Egypt's reputation begins. The Great Pyramid of Khufu, built around 2500 BC and still the largest stone structure ever raised, stands alongside the pyramids of Khafre and Menkaure, with the Great Sphinx crouched below. These are not the oldest monuments in Egypt — Saqqara on day two reaches further back — but they are the ones against which everything else in the ancient world has been measured. Standing among them settles something photographs leave open: the scale is genuinely difficult to absorb, and the plateau is large enough that the crowds, which are real, disperse into it. Our Egyptologist takes the time the site deserves; the afternoon allows the view at your own pace before the transfer to the hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Saqqara: where the pyramid was invented"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "The second day reaches further back than the first. Saqqara is the ancient necropolis of Memphis, Egypt's first capital, and its centrepiece is the Step Pyramid of Djoser — the oldest large stone structure in the world, built around 2650 BC by the architect Imhotep, who effectively invented monumental stone construction in a single commission. Six mastabas stacked in diminishing tiers, rising 62 metres over the desert, surrounded by the remains of a funerary complex that became the model for everything that followed at Giza. The surrounding tombs and enclosures tell the architectural story in detail Giza, magnificent and complete, cannot: the false doors, the offering chambers, the evolution of the burial shaft. Giza is the perfection of the idea; Saqqara is where the idea began. It is a morning that rewards slow attention."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "The medieval city and the bazaar"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "The final day moves into a different Cairo entirely — one built not from pharaonic ambition but from a thousand years of Islamic rule and trade. The morning begins at the Saladin Citadel, the fortified hilltop complex begun in the twelfth century that served as the seat of Egyptian government for nearly seven hundred years. Within it stands the Mosque of Muhammad Ali — the alabaster mosque, completed in the nineteenth century in an Ottoman style that owes a clear debt to Istanbul, and still the most recognisable landmark on Cairo's eastern skyline. From the citadel walls, the city spreads below in every direction, and the plateau at Giza is visible on clear days as a reminder of how much history a single city can hold. The afternoon is given to Khan el-Khalili, the medieval bazaar that has traded continuously since the fourteenth century — a genuine working market as much as a tourist destination, with jewellers, spice merchants, perfumers, coppersmiths, and the coffee houses that have been here almost as long as the lanes themselves. It is the right place to end a short visit: the city at its most compressed and alive. The transfer to Cairo International Airport follows."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "How a weekend in Cairo works"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a private departure — operated for your party alone, never a shared group. A licensed English-speaking Egyptologist, private air-conditioned transfers, two nights' accommodation, and full board are included throughout; children are welcome on request. The schedule is tight by design — three days has no slack to absorb a slow start — and our team will hold each day to its window so the time you have is not lost to traffic or queues."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Three days cannot show you Cairo. They can show you why you will want to come back."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The shape of the journey"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Where · Cairo (Giza · Saqqara · Islamic Cairo)"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Duration · 3 days / 2 nights — adjustable"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Character · Fully private · your own Egyptologist · brisk city-break pace · the three essential Cairos in sequence"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo en tres días: una escapada urbana, no un tour del país"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una estancia breve y privada que entiende El Cairo como ciudad por derecho propio —la meseta faraónica, la ciudadela medieval, el bazar en activo— y deja el resto de Egipto para otro viaje."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Esto es una escapada urbana, no un tour del país, y esa distinción condiciona todo el viaje."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Muchos itinerarios de Egipto intentan hacer el país en una semana. Tres días no permiten eso, y este viaje no finge lo contrario. Lo que sí hace es entregar los tres Cairos que más importan en una primera visita: la ciudad faraónica de la meseta de Guiza y la necrópolis de Saqqara; el Cairo medieval e islámico, con su ciudadela otomana dominando el horizonte; y el bazar activo de Jan el-Jalili, donde el siglo XIV y el XXI comparten la misma calle. El orden es deliberado —de lo más antiguo a lo más reciente, de la meseta a la calle— y el ritmo es eficaz sin volverse frenético."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "La meseta de Guiza"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "El viaje abre donde empieza la reputación de Egipto. La Gran Pirámide de Keops, levantada hacia 2500 a. C. y todavía la mayor estructura de piedra jamás construida, comparte plano con las pirámides de Kefrén y Micerinos, con la Gran Esfinge agazapada debajo. No son los monumentos más antiguos de Egipto —Saqqara, en la jornada siguiente, retrocede más— pero sí son los que han servido de vara de medida a todo lo demás del mundo antiguo. Estar entre ellos resuelve algo que las fotografías dejan abierto: la escala es genuinamente difícil de asimilar, y la meseta es grande, lo suficiente para que las multitudes —que son reales— se diluyan. Nuestro egiptólogo se toma el tiempo que el sitio merece; la tarde permite mirar al ritmo propio antes del traslado al hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Saqqara: donde se inventó la pirámide"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "El segundo día retrocede más que el primero. Saqqara es la necrópolis antigua de Menfis, primera capital de Egipto, y su pieza central es la pirámide escalonada de Zoser, la mayor estructura de piedra más antigua del mundo, levantada hacia 2650 a. C. por el arquitecto Imhotep, quien efectivamente inventó la construcción monumental en piedra con un solo encargo. Seis mastabas apiladas en niveles decrecientes, que se elevan 62 metros sobre el desierto, rodeadas por los restos de un complejo funerario que se convirtió en modelo para todo lo que vendría en Guiza. Las tumbas y los recintos circundantes cuentan la historia arquitectónica con un detalle que Guiza, magnífica y completa, no puede: las falsas puertas, las capillas de ofrendas, la evolución del pozo funerario. Guiza es la perfección de la idea; Saqqara es donde la idea empezó. Es una mañana que premia la atención sosegada."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "La ciudad medieval y el bazar"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "El último día se mueve a otro Cairo distinto, levantado no por la ambición faraónica sino por mil años de gobierno e intercambio islámico. La mañana arranca en la Ciudadela de Saladino, el complejo fortificado en lo alto comenzado en el siglo XII y sede del gobierno egipcio durante casi setecientos años. Dentro se alza la mezquita de Mohamed Alí —la mezquita de alabastro, terminada en el siglo XIX en un estilo otomano con clara deuda hacia Estambul— y todavía el hito más reconocible del horizonte oriental de la ciudad. Desde sus murallas, El Cairo se despliega en todas direcciones y, los días claros, la meseta de Guiza se ve al fondo como recordatorio de cuánta historia cabe en una sola ciudad. La tarde se reserva para Jan el-Jalili, el bazar medieval que comercia de manera continua desde el siglo XIV: un mercado de trabajo real al menos tanto como un destino turístico, con joyeros, comerciantes de especias, perfumistas, caldereros y los cafés que llevan ahí casi tanto como las propias calles. Es el sitio adecuado para cerrar una visita breve: la ciudad en su forma más comprimida y viva. A continuación, traslado al Aeropuerto Internacional de El Cairo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Cómo funciona un fin de semana en El Cairo"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "La salida es privada —operada solo para tu grupo, nunca compartida—. Un egiptólogo licenciado de habla hispana, traslados privados climatizados, dos noches de alojamiento y pensión completa están incluidos en todo momento; se reciben familias con niños sin problema. El programa es ajustado por diseño —tres días no admiten un arranque lento— y nuestro equipo mantiene cada jornada dentro de su ventana para que el tiempo disponible no se pierda en tráfico o colas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Tres días no permiten conocer El Cairo. Permiten entender por qué vas a querer volver."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La forma del viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Dónde · El Cairo (Guiza · Saqqara · Cairo islámico)"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Duración · 3 días / 2 noches, ajustable como escapada privada"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Carácter · Salida privada · su propio egiptólogo · ritmo ágil de escapada urbana · los tres Cairos esenciales en orden"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロを3日で：国を巡るのではなく、街を読む"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "ファラオの高原、中世の城塞、いまも生きている市場——カイロを一つの都市として真正面から見つめ、エジプトのほかは次の旅にとっておく、短いプライベート滞在。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "これはシティブレイクであって、国を回る行程ではありません。その線引きが、3日間のかたちを決めています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプトの旅は、しばしば一週間で国全体を駆け抜けようとします。3日間にそうした余裕はなく、この行程もそのふりはしません。代わりに私たちが差し出すのは、初訪問のお客様にとって最も重要な「三つのカイロ」です——ギザ高原のピラミッド群とサッカラのネクロポリス、いまもスカイラインを支配するオスマン期の城塞を擁する中世イスラム都市、そして14世紀と21世紀が同じ路地に並んで立つ市場、ハーン・ハリーリ。順序は古いほうから新しいほうへ、高原から街路へ、と意図的に組まれています。テンポは効率的ですが、慌ただしくはありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "ギザ高原——エジプトの評判が始まる場所"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "旅の冒頭は、エジプトという名前の出発点にあたる場所から始まります。クフ王の大ピラミッドは紀元前2500年ごろに築かれ、いまも史上最大の石造建造物です。その傍らにカフラー王とメンカウラー王のピラミッドが並び、足元には大スフィンクスが伏せています。これらはエジプトで最も古い記念建造物ではありません——翌日のサッカラのほうがさらに時代をさかのぼります——が、古代世界の他のすべてが比較されてきた基準として、長く立ち続けてきました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "実際に並んで立つと、写真では捉えきれなかった一点が腑に落ちます。スケールが本当に把握しがたく、高原は、現に存在する人波がそのなかへ散っていくほどに広い。専属のエジプト学ガイドは、この場所にふさわしい時間をかけて案内します。午後は、ホテルへ向かう前に、ご自身のペースで眺めを味わう時間を確保しています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "サッカラ——ピラミッドが「発明」された場所"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "二日目は、初日よりさらに時代をさかのぼります。サッカラはエジプト最初の首都メンフィスのネクロポリスで、その中心にあるのがジェセル王の階段ピラミッドです。世界最古の大規模石造建造物で、紀元前2650年ごろ、建築家イムホテプが、一つの依頼のなかで事実上「記念碑的石造建築」というものを発明しました。先細りに積み上げられた六層のマスタバが砂漠の上に62メートルそびえ、ギザで後に続くすべての雛形となった葬祭複合体の遺構が周囲を取り囲みます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "周辺の墓と囲い壁は、ギザの完成された姿だけでは読み取れない建築の物語を、細部まで語ってくれます——偽扉、供物の部屋、埋葬竪坑の進化。ギザは完成形、サッカラは発端。ゆっくり時間をかけるほど、見えるものが増える午前です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "中世の街と市場——千年のカイロ"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "最終日は、まったく別のカイロへ移ります。ファラオの野心ではなく、千年にわたるイスラムの統治と交易が築いた街です。午前はサラディン城塞から——12世紀に着工された丘の上の要塞複合体で、ほぼ700年にわたりエジプト政府の座でした。内部にはムハンマド・アリー・モスクが立ちます。19世紀完成、イスタンブールを意識したオスマン様式のアラバスター・モスクで、いまもカイロ東部スカイラインで最も目立つ目印です。城壁から街が四方に広がり、晴れた日にはギザ高原まで見渡せます——ひとつの街がどれほどの歴史を抱え得るか、と思い知らされる光景です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "午後はハーン・ハリーリへ。14世紀以来、絶えることなく商いが続いてきた中世の市場の一画です。観光地であると同時に、宝飾商、香辛料商、香水商、銅細工師、そして路地と同じくらい古い珈琲店が並ぶ、紛れもなく機能している市場でもあります。短い滞在の締めくくりにふさわしい場所——街が最も濃密に、最も生き生きと表れる場面です。そののち、カイロ国際空港へお送りします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "この3日間の組み立て方"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "完全プライベートの催行です——お客様のご一行のみで運行し、相乗りはありません。ライセンスを持つ英語対応のエジプト学ガイド、冷房付きの専用車両、2泊分の宿泊と全食が含まれます。お子様はご要望に応じて歓迎します。日程は意図的にタイトで、3日間に遅い始まりを吸収する余裕はありません。私たちのチームは、渋滞や行列に時間を奪われないよう、一日ごとの時間枠を守って動きます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "3日間ではカイロをお見せすることはできません。けれど、なぜまた戻りたくなるのかは、お見せできます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "旅の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · カイロ（ギザ・サッカラ・イスラム・カイロ）"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "日数 · 3日間／2泊 — 調整可能"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド · 冷房付き専用車 · 効率的だが急かさないシティブレイクのテンポ · 三つのカイロを順に"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private city break is built around your party, not the other way around. Tell our team how you'd want to shape it — a longer morning at Saqqara, a Grand Egyptian Museum addition, an extra night to ease the pace — and we will build the three days to fit."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Una escapada privada se construye alrededor de tu grupo, no al revés. Dinos cómo querrías ajustarla —una mañana más larga en Saqqara, el Gran Museo Egipcio añadido, una noche extra para aflojar el ritmo— y armaremos los tres días contigo."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "3日間は、ご一行の関心に合わせて組み直せます——サッカラの午前を長めに取る、大エジプト博物館を一日加える、もう一泊して全体のペースを緩める。具体的なご希望をお聞かせいただければ、その通りに組み立てます。"
+  }
+ ],
+ "durationDays": 3,
+ "exclusions": [],
+ "heroImage": {
+  "_type": "localizedImage",
+  "asset": {
+   "_ref": "image-d513c71d4a54cf8addc404127abd551ccd2b22f2-3000x2000-jpg",
+   "_type": "reference"
+  }
+ },
+ "inclusions": [
+  {
+   "_key": "a3uwhi8xzw",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, two nights' accommodation, and full board are included throughout; children are welcome on request.",
+   "text": "A licensed English-speaking Egyptologist"
+  },
+  {
+   "_key": "1zrmffskbi",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, two nights' accommodation, and full board are included throughout; children are welcome on request.",
+   "text": "private air-conditioned transfers"
+  },
+  {
+   "_key": "mrv578zrpg",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, two nights' accommodation, and full board are included throughout; children are welcome on request.",
+   "text": "two nights' accommodation"
+  },
+  {
+   "_key": "mf13wbn2hi",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, two nights' accommodation, and full board are included throughout; children are welcome on request.",
+   "text": "full board"
+  },
+  {
+   "_key": "jlnbyd3tm8",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados, dos noches de alojamiento y pensión completa están incluidos en todo momento; se reciben familias con niños sin problema.",
+   "text": "Un egiptólogo licenciado de habla hispana"
+  },
+  {
+   "_key": "avmgyo8uq5",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados, dos noches de alojamiento y pensión completa están incluidos en todo momento; se reciben familias con niños sin problema.",
+   "text": "Traslados privados climatizados"
+  },
+  {
+   "_key": "idhj61mkel",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados, dos noches de alojamiento y pensión completa están incluidos en todo momento; se reciben familias con niños sin problema.",
+   "text": "Dos noches de alojamiento"
+  },
+  {
+   "_key": "oha79udgaq",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados, dos noches de alojamiento y pensión completa están incluidos en todo momento; se reciben familias con niños sin problema.",
+   "text": "Pensión completa"
+  },
+  {
+   "_key": "5tz2ji5ou5",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ライセンスを持つ英語対応のエジプト学ガイド、冷房付きの専用車両、2泊分の宿泊と全食が含まれます。",
+   "text": "ライセンスを持つ英語対応のエジプト学ガイド"
+  },
+  {
+   "_key": "vy37q69jv5",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ライセンスを持つ英語対応のエジプト学ガイド、冷房付きの専用車両、2泊分の宿泊と全食が含まれます。",
+   "text": "冷房付きの専用車両"
+  },
+  {
+   "_key": "lcq8y2di9v",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ライセンスを持つ英語対応のエジプト学ガイド、冷房付きの専用車両、2泊分の宿泊と全食が含まれます。",
+   "text": "2泊分の宿泊"
+  },
+  {
+   "_key": "2zob9nwx9c",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ライセンスを持つ英語対応のエジプト学ガイド、冷房付きの専用車両、2泊分の宿泊と全食が含まれます。",
+   "text": "全食"
+  },
+  {
+   "_key": "3s7hf1sr87",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "そののち、カイロ国際空港へお送りします。",
+   "text": "カイロ国際空港への送り"
+  }
+ ],
+ "itineraryDays": [
+  {
+   "_key": "4wdpfxxi5c",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "The trip opens where Egypt's reputation begins.",
+   "title": "The Giza plateau"
+  },
+  {
+   "_key": "optiw160s4",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "The second day reaches further back than the first.",
+   "title": "Saqqara: where the pyramid was invented"
+  },
+  {
+   "_key": "bz3epn2w0m",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "The final day moves into a different Cairo entirely — one built not from pharaonic ambition but from a thousand years of Islamic rule and trade.",
+   "title": "The medieval city and the bazaar"
+  },
+  {
+   "_key": "vt2g516o9w",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "El Cairo",
+   "overnightNeedsReview": true,
+   "source": "El viaje abre donde empieza la reputación de Egipto.",
+   "title": "La meseta de Guiza"
+  },
+  {
+   "_key": "zm4fnk9ifo",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "El Cairo",
+   "overnightNeedsReview": true,
+   "source": "El segundo día retrocede más que el primero.",
+   "title": "Saqqara: donde se inventó la pirámide"
+  },
+  {
+   "_key": "r58bmbxtkz",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "El último día se mueve a otro Cairo distinto, levantado no por la ambición faraónica sino por mil años de gobierno e intercambio islámico.",
+   "title": "La ciudad medieval y el bazar"
+  },
+  {
+   "_key": "ej239120ek",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "カイロ",
+   "overnightNeedsReview": true,
+   "source": "旅の冒頭は、エジプトという名前の出発点にあたる場所から始まります。",
+   "title": "ギザ高原——エジプトの評判が始まる場所"
+  },
+  {
+   "_key": "ru4kkxjo32",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "カイロ",
+   "overnightNeedsReview": true,
+   "source": "二日目は、初日よりさらに時代をさかのぼります。",
+   "title": "サッカラ——ピラミッドが「発明」された場所"
+  },
+  {
+   "_key": "wrn1rth6v6",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "最終日は、まったく別のカイロへ移ります。",
+   "title": "中世の街と市場——千年のカイロ"
+  }
+ ],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/cairo-weekend-city-break-2-nights-3-days/"
+ },
+ "relatedTours": [
+  {
+   "_key": "rel_tour_cairo_alexandria_city_break_5_days",
+   "_ref": "tour.cairo-alexandria-city-break-5-days",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_136519",
+   "_ref": "wp-page-136519",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88972",
+   "_ref": "wp-page-88972",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_89649",
+   "_ref": "wp-page-89649",
+   "_type": "reference"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "cairo-weekend-city-break-2-nights-3-days"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "escapada-de-fin-de-semana-a-el-cairo-3-dias-en-la-capital"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "kairo-shumatsu-shitibureiku-ejiputo-no-shuto-de-sugosu-3"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "A three-day city break that takes Cairo seriously — the Giza plateau, the oldest pyramid on earth at Saqqara, and the medieval citadel and bazaar — without pretending to compress the country into a weekend."
+  },
+  {
+   "_key": "es",
+   "value": "Una escapada urbana de tres días que toma El Cairo en serio —la meseta de Guiza, la pirámide más antigua del mundo en Saqqara, y la ciudadela y el bazar medievales— sin pretender comprimir el país en un fin de semana."
+  },
+  {
+   "_key": "ja",
+   "value": "ギザ高原、世界最古のピラミッドが立つサッカラ、中世の城塞と市場——3日間でカイロという街そのものを丁寧に巡る、短いプライベート滞在。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-egypt-on-the-go",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "value": "Cairo Weekend City Break: 3 Days in the Egyptian Capital"
+  },
+  {
+   "_key": "es",
+   "value": "Escapada de fin de semana a El Cairo: 3 días en la capital"
+  },
+  {
+   "_key": "ja",
+   "value": "カイロ週末シティブレイク：エジプトの首都で過ごす3日間"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}

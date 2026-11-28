@@ -1,0 +1,1512 @@
+{
+ "_createdAt": "2026-05-28T11:45:20Z",
+ "_id": "tour.cairo-alexandria-city-break-5-days",
+ "_rev": "K2pi3eY73hTRu2vMGMySnV",
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:49Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers who want both Egypts in one trip; repeat Cairo visitors adding Alexandria; first-timers curious about the Hellenistic side of the country"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros que quieren los dos Egiptos en un mismo viaje; repetidores de El Cairo que añaden Alejandría; primeros viajeros curiosos por la cara helenística del país"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "一度の旅で「二つのエジプト」を見たい方、カイロ再訪でアレクサンドリアを加えたい方、ヘレニズム期のエジプトに関心を持つ初訪問の方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo and Alexandria: Two Cities, Two Coasts, Five Days"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A short private city break that pairs Egypt's interior pharaonic capital with its Hellenistic Mediterranean port — Cairo facing the desert, Alexandria facing the sea, and the contrast doing most of the work."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Egypt is not one city. It is, at minimum, two — and they face in opposite directions."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo faces inward and backward, toward the desert and the ancient world. The pyramids stand here, the great museums are here, and thirty dynasties of pharaonic history press up against medieval Islamic architecture and a modern metropolis of twenty million people. It is dense, demanding, and entirely without equivalent. A trip to Egypt that skips Cairo is not a trip to Egypt."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Alexandria faces outward: north toward the Mediterranean, toward Greece and Rome and the libraries and lighthouse that made it, for several centuries, the intellectual capital of the known world. It is a coastal city in the way that Cairo is not — open, salt-aired, marked by the water. Its ancient glories are largely buried under the modern town, but what survives, and what has been built on top, gives a different Egypt entirely."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "This itinerary puts both cities in five days, in deliberate sequence: pharaonic first, Hellenistic second, with three days for Cairo and a full day for Alexandria. It does not pretend that five days exhausts either. What it does is give each city its proper weight and connect them in the order that makes the contrast register."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo: the plateau"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Day one opens with the monuments that organised Egypt's reputation for the rest of history. The Giza plateau holds the three pyramids of the Fourth Dynasty — Khufu, Khafre, and Menkaure, built across roughly a century around 2500 BC — and the Great Sphinx, carved from a single limestone outcrop and facing east with an authority photographs have never quite captured to scale. The option to enter the Pyramid of Khafre is worth taking if you are not prone to claustrophobia: the descent is low, steep, and airless, and the chamber at the bottom is bare limestone, stripped of everything it once held, but the experience of being inside the structure is something no surface visit replicates. The day closes with the Sound and Light Show at the pyramids — the stone lit, the plateau quieter, the history narrated against the floodlit façades."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo: museum and the medieval city"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "The second day moves from the plateau to the city, and from the pharaonic to the medieval. It begins at the Grand Egyptian Museum on the edge of the Giza plateau — the largest archaeological museum in the world, which opened fully on 1 November 2025 and is now the permanent home of the complete Tutankhamun collection and an extraordinary density of objects that spent the previous century in the older Tahrir Square building. The royal mummies are displayed separately, at the National Museum of Egyptian Civilisation in Old Cairo, where their dedicated gallery was built around them. This is not a morning to rush; the museum rewards time, and the new building finally gives its contents the space they have always deserved."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "The afternoon belongs to Islamic Cairo. The Saladin Citadel dominates the city from its limestone spur above the old quarters, and within it the Mosque of Muhammad Ali — the Ottoman-era alabaster mosque completed in the 1840s — offers one of the best views of Cairo's sprawl and the distant pyramids beyond. The day ends in Khan el-Khalili, the medieval bazaar that has traded continuously since the fourteenth century and remains, beneath the tourist commerce, a functioning market quarter of the old city."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Cairo: the invention of the pyramid"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "The third day reaches back past Giza to the point where large-scale stone architecture began. Memphis was the first capital of a unified Egypt, established around 3100 BC, and its open-air museum holds a colossal fallen statue of Ramses II and a great alabaster sphinx — reminders of how the city continued to matter long after the Old Kingdom. Saqqara, on the desert escarpment nearby, holds the Step Pyramid of Djoser, built around 2650 BC by the architect Imhotep and generally considered the oldest large stone structure in the world. It is not Giza, and that is the point: you see the experiment before you see the perfected form, and Giza makes more sense for it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Dahshur completes the sequence. The Bent Pyramid — its angle corrected mid-construction when the engineers realised the original slope was unsustainable — and the Red Pyramid that followed it are the two monuments in which the true smooth-sided pyramid was worked out, by calculation and correction, before Khufu's architects applied the lesson at Giza. Together, the three sites of this day constitute a coherent narrative about how the pyramid was invented."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Alexandria: the Mediterranean city"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Day four moves north along the desert road to the coast, and the register of the trip changes entirely. Alexandria is a two-hour drive from Cairo — a single road across flat, sun-bleached desert — and the arrival at the seafront Corniche, with the Mediterranean running the full length of the city, resolves the contrast immediately. This is not pharaonic Egypt. Alexander the Great founded the city in 331 BC, and for the following several centuries it was ruled by the Ptolemaic dynasty, Greek in culture and language, cosmopolitan in ways that set it apart from the Nile Valley cities to the south."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "The day's two principal sites define what Alexandria kept and what it built. The Citadel of Qaitbay, the fifteenth-century Ottoman fortification on the tip of the eastern harbour, stands on or near the site of the ancient Pharos lighthouse — one of the Seven Wonders of the Ancient World, destroyed by earthquakes in the medieval period and recycled into the fort's foundations. The Bibliotheca Alexandrina, the modern library built to honour the ancient one, opened in 2002 and now functions as both a major research library and a cultural complex; its architecture — a tilted disc of granite, faced with carved scripts from around the world — is a serious building by any measure. What remains of ancient Alexandria lies largely under the modern city, but the atmosphere of the place — the sea light, the Corniche, the different pace — is part of what the day gives you."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "How a two-city break works"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "The fifth day is a transfer day: a final breakfast and the drive back to Cairo International Airport for departure, with later flights giving the option of additional hours in the city. This is a private departure — operated for your party alone, never a shared group. A licensed English-speaking Egyptologist, private air-conditioned transfers including the Cairo-Alexandria run, four nights in carefully selected hotels, and full board throughout are part of the package. The Alexandria day is built as a single long return drive rather than an overnight, which keeps the hotel stay anchored in Cairo and the packing minimal. Travellers who want a night by the sea can easily extend it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Five days is not long enough to know Cairo or Alexandria. It is long enough to understand why both cities demand a longer visit. That, in its way, is the best thing a city break can do."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The shape of the journey"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Where · Cairo (Giza · GEM · Islamic Cairo · Memphis · Saqqara · Dahshur) → Alexandria → Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "Duration · 5 days / 4 nights — adjustable"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Character · Fully private · your own Egyptologist · pharaonic-first, Mediterranean-second sequence · Alexandria as a long day-return"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo y Alejandría: dos ciudades, dos costas, cinco días"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una escapada urbana privada que une la capital faraónica del interior con el puerto helenístico mediterráneo —El Cairo mirando al desierto, Alejandría al mar— y deja que el contraste haga la mayor parte del trabajo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Egipto no es una sola ciudad. Son al menos dos, y miran en direcciones opuestas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo mira hacia dentro y hacia atrás: hacia el desierto y el mundo antiguo. Las pirámides están aquí, los grandes museos están aquí, y treinta dinastías de historia faraónica presionan contra la arquitectura islámica medieval y una metrópolis moderna de veinte millones de habitantes. Es densa, exigente y sin equivalente. Un viaje a Egipto que se salte El Cairo no es un viaje a Egipto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Alejandría mira hacia fuera: al norte, al Mediterráneo, a Grecia y a Roma, a las bibliotecas y al faro que la convirtieron, durante varios siglos, en la capital intelectual del mundo conocido. Es una ciudad costera de un modo que El Cairo no lo es: abierta, marcada por el aire salino y por el agua. Sus glorias antiguas están en buena parte enterradas bajo la ciudad moderna, pero lo que sobrevive y lo que se ha construido encima entrega un Egipto enteramente distinto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Este itinerario coloca ambas ciudades en cinco días, en orden deliberado: faraónico primero, helenístico después, con tres jornadas para El Cairo y un día completo para Alejandría. No pretende que cinco días agoten ninguna. Lo que sí hace es dar a cada ciudad su peso y conectarlas en el orden en que el contraste se nota."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo: la meseta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "El primer día abre con los monumentos que organizaron la reputación de Egipto para el resto de la historia. La meseta de Guiza guarda las tres pirámides de la cuarta dinastía —Keops, Kefrén y Micerinos, levantadas a lo largo de cerca de un siglo hacia 2500 a. C.— y la Gran Esfinge, tallada en un único afloramiento de caliza y orientada al este con una autoridad que las fotografías nunca consiguen mostrar a escala. Quien no sea claustrofóbico puede plantearse entrar en la pirámide de Kefrén: el descenso es bajo, empinado y sin aire, y la cámara final es caliza desnuda, despojada de cuanto contuvo, pero estar dentro del edificio es algo que ninguna visita en superficie reproduce. La jornada cierra con el espectáculo de luz y sonido en las pirámides: la piedra iluminada, la meseta más tranquila, la historia narrada contra las fachadas iluminadas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo: museo y ciudad medieval"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "El segundo día se mueve de la meseta a la ciudad, y de lo faraónico a lo medieval. Empieza en el Gran Museo Egipcio, al borde de la meseta de Guiza: el mayor museo arqueológico del mundo, que abrió plenamente el 1 de noviembre de 2025 y es ahora la sede permanente de la colección completa de Tutankamón y de una densidad extraordinaria de objetos que durante el siglo anterior estuvieron en el antiguo edificio de la plaza Tahrir. Las momias reales se exponen aparte, en el Museo Nacional de la Civilización Egipcia (NMEC), en El Cairo Antiguo, donde se construyó una galería específica a su alrededor. Esta no es una mañana para correr; el museo recompensa el tiempo, y el nuevo edificio por fin da a sus contenidos el espacio que siempre han merecido."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "La tarde es para El Cairo islámico. La Ciudadela de Saladino domina la ciudad desde su espolón calcáreo sobre los barrios antiguos, y dentro la mezquita de Mohamed Alí —la mezquita de alabastro, terminada en la década de 1840 en un estilo otomano con clara deuda hacia Estambul— ofrece una de las mejores vistas sobre el extenso Cairo y las pirámides lejanas. El día cierra en Jan el-Jalili, el bazar medieval que comercia de manera continua desde el siglo XIV y que, bajo el comercio turístico, sigue siendo un barrio comercial activo de la ciudad antigua."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "El Cairo: la invención de la pirámide"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "El tercer día retrocede más allá de Guiza, hasta el punto donde empezó la arquitectura monumental en piedra. Menfis fue la primera capital del Egipto unificado hacia 3100 a. C., y su museo al aire libre conserva el colosal Ramsés II caído y una gran esfinge de alabastro, recuerdos de cuánto siguió importando la ciudad mucho después del Imperio Antiguo. Saqqara, en el escarpe del desierto cercano, alberga la pirámide escalonada de Zoser, levantada hacia 2650 a. C. por el arquitecto Imhotep y considerada en general la mayor estructura de piedra más antigua del mundo. No es Guiza, y ese es justamente el sentido: se ve el experimento antes que la forma perfeccionada, y Guiza tiene más sentido por eso."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Dahshur completa la secuencia. La pirámide acodada —cuyo ángulo fue corregido a mitad de obra al darse cuenta los ingenieros de que la pendiente original era insostenible— y la pirámide Roja que la siguió son los dos monumentos en los que la verdadera pirámide de caras lisas se resolvió por cálculo y corrección, antes de que los arquitectos de Keops aplicaran la lección en Guiza. Juntos, los tres sitios de la jornada componen un relato coherente sobre cómo se inventó la pirámide."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Alejandría: la ciudad mediterránea"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "El cuarto día sube por la carretera del desierto hacia la costa, y el registro del viaje cambia entero. Alejandría está a unas dos horas en coche desde El Cairo —una sola carretera a través de un desierto llano y desteñido por el sol— y la llegada a la Corniche, con el Mediterráneo recorriendo toda la ciudad, resuelve el contraste de inmediato. Esto no es el Egipto faraónico. Alejandro Magno fundó la ciudad en 332 a. C., y durante los siglos siguientes la gobernó la dinastía ptolemaica, griega en cultura y lengua, cosmopolita de un modo que la apartaba de las ciudades del valle del Nilo al sur."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Los dos sitios principales del día definen lo que Alejandría conservó y lo que construyó encima. La Ciudadela de Qaitbay, fortificación otomana del siglo XV en la punta del puerto oriental, está sobre o cerca del emplazamiento del antiguo faro de Faros —una de las Siete Maravillas del mundo antiguo, destruido por terremotos en época medieval y cuyo material acabó reciclado en los cimientos del fuerte—. La Bibliotheca Alexandrina, la biblioteca moderna construida en honor de la antigua, abrió en 2002 y funciona como gran biblioteca de investigación y complejo cultural; su arquitectura —un disco inclinado de granito, revestido con escrituras talladas de todo el mundo— es un edificio serio con cualquier criterio. Lo que queda de la Alejandría antigua está en buena parte bajo la ciudad moderna, pero la atmósfera del lugar —la luz del mar, la Corniche, el otro ritmo— es parte de lo que la jornada entrega."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Cómo funciona una escapada de dos ciudades"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "El quinto día es de traslado: último desayuno y vuelta por carretera al Aeropuerto Internacional de El Cairo, con vuelos posteriores que dejan margen para alguna hora añadida en la ciudad. La salida es privada —operada solo para tu grupo, nunca compartida—. Un egiptólogo licenciado de habla hispana, traslados privados climatizados incluido el trayecto El Cairo–Alejandría, cuatro noches en hoteles cuidadosamente seleccionados y pensión completa durante todo el viaje son parte del paquete. La jornada de Alejandría se plantea como ida y vuelta larga en lugar de pernoctación, lo que mantiene la estancia anclada en El Cairo y reduce el equipaje en movimiento. Quien quiera una noche junto al mar puede ampliar sin dificultad."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Cinco días no bastan para conocer ni El Cairo ni Alejandría. Bastan para entender por qué ambas ciudades exigen volver más despacio. Y eso, en su medida, es lo mejor que puede hacer una escapada urbana."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La forma del viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Dónde · El Cairo (Guiza · GEM · Cairo islámico · Menfis · Saqqara · Dahshur) → Alejandría → El Cairo"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "Duración · 5 días / 4 noches, ajustable como viaje privado"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Carácter · Salida privada · su propio egiptólogo · secuencia faraónica primero, mediterránea después · Alejandría como ida y vuelta larga"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロとアレクサンドリア——二つの都、二つの海岸、5日間"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "エジプト内陸のファラオの首都と、地中海に向かうヘレニズムの港市を一つに組むプライベート・シティブレイク。カイロは砂漠の方を向き、アレクサンドリアは海の方を向く——その対比が、この旅の仕事の大半をしてくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "エジプトは一つの街ではありません。少なくとも二つあり、その二つは反対方向を向いています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロは内陸へ、そして過去へ顔を向けます——砂漠と古代世界の方角です。ピラミッドはここにあり、主要な博物館もここにあり、30の王朝のファラオの歴史が中世イスラム建築と人口2000万人の現代都市にぶつかり合っています。密度が高く、要求も多く、ほかに比較対象のない街です。カイロを抜かしたエジプト旅行は、エジプト旅行ではありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "アレクサンドリアは外を向きます——北、地中海、ギリシャやローマ、何世紀ものあいだ既知の世界の知の都であったあの図書館と灯台の方角です。海辺の街であり、その点でカイロとは違います。開かれていて、潮の匂いがし、水に印づけられている。古代の栄光の大半は現代の街の下に埋もれていますが、残っているもの、そしてその上に新しく築かれてきたものが、もう一つ別のエジプトを差し出します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "この5日間は、両都市を意図的な順序で組みます——先にファラオ、次にヘレニズム、カイロに3日、アレクサンドリアに丸一日。5日でどちらかを使い切れる、と装うつもりはありません。代わりに、各都市にふさわしい重みを与え、対比が読み取れる順序でつなぎます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロ——高原"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "初日は、エジプトの評判をこの先のすべての歴史にわたって組織することになった記念建造物群から開きます。ギザ高原には第4王朝のクフ、カフラー、メンカウラーの三大ピラミッドが立ちます——紀元前2500年ごろ、ほぼ一世紀のあいだに築かれました。そして一枚岩の石灰岩から掘り出された大スフィンクスが、写真ではついに捉えきれなかったスケールの威光をもって東に向きます。閉所が苦手でなければ、カフラー王ピラミッド内部への参入はお勧めです——低く、急で、空気の薄い下降の先、底に開く玄室は剥き出しの石灰岩で、かつて収めていたすべてを失っていますが、構造の内側にいる体験は地上の見学では再現できません。一日はピラミッドの音と光のショーで閉じます——投光に照らされた石、静まりかえった高原、ファサードを背景に語られる歴史。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロ——博物館と中世の街"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "二日目は高原から街へ、そしてファラオから中世へと進みます。朝はギザ高原のへりに立つ大エジプト博物館——世界最大の考古学博物館で、2025年11月1日に全面開館、いまやツタンカーメンのコレクション全体の常設の家であり、前世紀をタハリール広場の旧館で過ごしてきた品々が、並外れた密度で集まっています。王のミイラ群は別所——旧カイロの国立エジプト文明博物館（NMEC）の専用ギャラリーに、彼らに合わせて設えられた空間に展示されています。急ぐべき午前ではありません。この館は時間に報い、新しい建物がようやくその所蔵にふさわしい空間を与えました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "午後はイスラム・カイロへ。サラディン城塞は旧市街の上に張り出した石灰岩の尾根上から街を見下ろし、その内部のムハンマド・アリー・モスク——1840年代に完成したオスマン期のアラバスター・モスク——からは、カイロの広がりと遠くのピラミッドが望める眺望のひとつが得られます。一日はハーン・ハリーリで締めくくります。14世紀以来絶えることなく商いが続いてきた中世の市場の一画で、観光商業の下にはいまも旧市街の機能している市場区が続いています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロ——ピラミッドの発明"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "三日目はギザの背後にさかのぼり、大規模石造建築が始まった地点に降り立ちます。メンフィスは紀元前3100年ごろ、統一エジプト最初の首都として設けられました。露天博物館にはラメセス2世の倒れた巨像と大型のアラバスター・スフィンクスが残ります——古王国期のあとも長くこの街が重みを保ったことの証です。サッカラは近くの砂漠の崖の上にあり、紀元前2650年ごろ建築家イムホテプの設計によるジェセル王の階段ピラミッドが立ちます。一般に世界最古の大規模石造建造物とされる建物です。ギザではない、というのがこの場所の核心です——完成形を見る前に試行を見ることで、ギザの意味がよりはっきり通ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "ダハシュールが連なりを閉じます。屈折ピラミッド——建設途中で技師たちが当初の傾斜が維持できないと判断し角度を修正したもの——と、それに続く赤いピラミッド。なめらかな辺をもつ「本来のピラミッド」が、計算と修正によって組み立てられた二つの記念建造物です。クフ王の建築家たちはここでの学びをギザで適用しました。この日の三つの遺跡を合わせて、「ピラミッドはどう発明されたか」という一貫した物語が立ち上がります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "アレクサンドリア——地中海の街"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "四日目は砂漠路を北上して海岸へ。旅の音域がここで完全に変わります。アレクサンドリアはカイロから車で約2時間——日に焼けて平らに広がる砂漠を一本道で抜けます。海辺のコルニーシュへ到着し、街の全長を地中海が走るのを目にした瞬間、対比は一気に立ち上がります。ここはファラオのエジプトではありません。アレクサンドロス大王が紀元前331年に創建した街で、その後の数世紀はプトレマイオス朝に統治され、文化と言語はギリシャ、コスモポリタンであることが南のナイル流域の都市と一線を画していました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "この日の二つの主要な遺跡が、アレクサンドリアが「残したもの」と「築いたもの」を線引きします。カーイトベイ城塞は東港の先端に立つ15世紀のオスマン期の要塞で、古代世界の七不思議のひとつファロス灯台——中世期の地震で崩壊し、要塞の基礎に再利用された——の遺址またはその近傍に立ちます。アレクサンドリア図書館（ビブリオテカ・アレクサンドリーナ）は、古代の図書館に敬意を表して建てられた現代の図書館で、2002年に開館。主要な研究図書館であり文化施設でもあります。建築は、世界各地の文字が彫り込まれた花崗岩の傾斜円盤——どんな尺度で見ても本気の建物です。古代アレクサンドリアの大半は現代の街の下に眠りますが、この場所の空気——海の光、コルニーシュ、別のテンポ——も、この一日が差し出すものの一部です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "この二都市の組み立て方"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "5日目は移動日です。最後の朝食ののち、カイロ国際空港へお送りします——遅めのフライトをお取りいただければ、街での追加の時間を確保することもできます。完全プライベートの催行です。ライセンスを持つ英語対応のエジプト学ガイド、カイロ—アレクサンドリア往路を含む冷房付き専用車両、入念に選んだホテルでの4泊、全食が含まれます。アレクサンドリア日帰りは、宿泊を伴う構成ではなく、長い往復ドライブとして組んでいます。荷造りを最小化しつつ、宿泊拠点をカイロに据え置けるようにするためです。海辺で一泊したいというご希望には、延泊で柔軟にお応えできます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "5日間でカイロやアレクサンドリアを知り尽くすことはできません。でも、この二つの街が、もっと長い滞在に値する理由を理解するには十分な長さです——シティブレイクの最良の働きは、ある意味ではそこにあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "旅の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · カイロ（ギザ・GEM・イスラム・カイロ・メンフィス・サッカラ・ダハシュール）→ アレクサンドリア → カイロ"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "日数 · 5日間／4泊 — 調整可能"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド · 先にファラオ・あとに地中海という配列 · アレクサンドリアは長い日帰り"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private journey is built around your party, not the other way around. Tell our team how you'd want to shape it — a night in Alexandria rather than the long return, the Catacombs added, Dahshur swapped for an extra GEM morning — and we will build the five days to fit."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Un viaje privado se construye alrededor de tu grupo, no al revés. Dinos cómo querrías ajustarlo —una noche en Alejandría en lugar de la ida y vuelta, las Catacumbas añadidas, Dahshur cambiado por una mañana extra en el GEM— y armaremos los cinco días contigo."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "5日間はご一行のかたちに合わせて組み直せます——日帰りではなくアレクサンドリアに一泊する、カタコンベを加える、ダハシュールをGEMの追加午前に差し替える、など。組み立て方をお知らせください。"
+  }
+ ],
+ "durationDays": 5,
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 634,
+  "ja": 654
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Granite sphinx beside the tall column of Pompey's Pillar in Alexandria against a cloud-streaked blue sky"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Esfinge de granito junto a la alta columna del Pilar de Pompeyo en Alejandría, bajo un cielo azul con nubes"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "雲の流れる青空を背に、アレクサンドリアのポンペイの柱のそばに据えられた花崗岩のスフィンクス。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-1774e0539dc29c1a83b61b4ae6fac72b72944ddd-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A sphinx sits below Pompey's Pillar in Alexandria."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Una esfinge reposa bajo el Pilar de Pompeyo en Alejandría."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "アレクサンドリアのポンペイの柱の下に座すスフィンクス。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "l6jzm9goj3",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers including the Cairo-Alexandria run, four nights in carefully selected hotels, and full board throughout are part of the package.",
+   "text": "A licensed English-speaking Egyptologist"
+  },
+  {
+   "_key": "qhzpiwtj34",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers including the Cairo-Alexandria run, four nights in carefully selected hotels, and full board throughout are part of the package.",
+   "text": "Private air-conditioned transfers including the Cairo-Alexandria run"
+  },
+  {
+   "_key": "gfbmmkt1e2",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers including the Cairo-Alexandria run, four nights in carefully selected hotels, and full board throughout are part of the package.",
+   "text": "Four nights in carefully selected hotels"
+  },
+  {
+   "_key": "tcd34vgn82",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers including the Cairo-Alexandria run, four nights in carefully selected hotels, and full board throughout are part of the package.",
+   "text": "Full board throughout"
+  },
+  {
+   "_key": "5vzltg0bd7",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados incluido el trayecto El Cairo–Alejandría, cuatro noches en hoteles cuidadosamente seleccionados y pensión completa durante todo el viaje son parte del paquete.",
+   "text": "Egiptólogo licenciado de habla hispana"
+  },
+  {
+   "_key": "vlrdp85syr",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados incluido el trayecto El Cairo–Alejandría, cuatro noches en hoteles cuidadosamente seleccionados y pensión completa durante todo el viaje son parte del paquete.",
+   "text": "Traslados privados climatizados incluido el trayecto El Cairo–Alejandría"
+  },
+  {
+   "_key": "1j07ctqfqw",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados incluido el trayecto El Cairo–Alejandría, cuatro noches en hoteles cuidadosamente seleccionados y pensión completa durante todo el viaje son parte del paquete.",
+   "text": "Cuatro noches en hoteles cuidadosamente seleccionados"
+  },
+  {
+   "_key": "tgych1okow",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados incluido el trayecto El Cairo–Alejandría, cuatro noches en hoteles cuidadosamente seleccionados y pensión completa durante todo el viaje son parte del paquete.",
+   "text": "Pensión completa durante todo el viaje"
+  },
+  {
+   "_key": "cyj3w64c8t",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ライセンスを持つ英語対応のエジプト学ガイド、カイロ—アレクサンドリア往路を含む冷房付き専用車両、入念に選んだホテルでの4泊、全食が含まれます。",
+   "text": "ライセンスを持つ英語対応のエジプト学ガイド"
+  },
+  {
+   "_key": "7l4ibix55x",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ライセンスを持つ英語対応のエジプト学ガイド、カイロ—アレクサンドリア往路を含む冷房付き専用車両、入念に選んだホテルでの4泊、全食が含まれます。",
+   "text": "カイロ—アレクサンドリア往路を含む冷房付き専用車両"
+  },
+  {
+   "_key": "s9blz3qhuj",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ライセンスを持つ英語対応のエジプト学ガイド、カイロ—アレクサンドリア往路を含む冷房付き専用車両、入念に選んだホテルでの4泊、全食が含まれます。",
+   "text": "入念に選んだホテルでの4泊"
+  },
+  {
+   "_key": "t7g5ddxn6s",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ライセンスを持つ英語対応のエジプト学ガイド、カイロ—アレクサンドリア往路を含む冷房付き専用車両、入念に選んだホテルでの4泊、全食が含まれます。",
+   "text": "全食"
+  },
+  {
+   "_key": "zgwfofucj6",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "最後の朝食ののち、カイロ国際空港へお送りします——遅めのフライトをお取りいただければ、街での追加の時間を確保することもできます。",
+   "text": "カイロ国際空港へお送りします"
+  }
+ ],
+ "itineraryDays": [
+  {
+   "_key": "qmi7w891ps",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "Day one opens with the monuments that organised Egypt's reputation for the rest of history.",
+   "title": "Cairo: the plateau"
+  },
+  {
+   "_key": "3rju8cq5e7",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "The second day moves from the plateau to the city, and from the pharaonic to the medieval.",
+   "title": "Cairo: museum and the medieval city"
+  },
+  {
+   "_key": "i77mklmxap",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "The third day reaches back past Giza to the point where large-scale stone architecture began.",
+   "title": "Cairo: the invention of the pyramid"
+  },
+  {
+   "_key": "cgsbr8w609",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Cairo",
+   "overnightNeedsReview": true,
+   "source": "The Alexandria day is built as a single long return drive rather than an overnight, which keeps the hotel stay anchored in Cairo and the packing minimal.",
+   "title": "Alexandria: the Mediterranean city"
+  },
+  {
+   "_key": "sxkn42xwkc",
+   "_type": "itineraryDay",
+   "day": 5,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "The fifth day is a transfer day: a final breakfast and the drive back to Cairo International Airport for departure, with later flights giving the option of additional hours in the city.",
+   "title": "Transfer to Cairo International Airport for departure"
+  },
+  {
+   "_key": "c1ywuvjbwi",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "El Cairo",
+   "overnightNeedsReview": true,
+   "source": "El primer día abre con los monumentos que organizaron la reputación de Egipto para el resto de la historia.",
+   "title": "El Cairo: la meseta"
+  },
+  {
+   "_key": "qrvm69537v",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "El Cairo",
+   "overnightNeedsReview": true,
+   "source": "El segundo día se mueve de la meseta a la ciudad, y de lo faraónico a lo medieval.",
+   "title": "El Cairo: museo y ciudad medieval"
+  },
+  {
+   "_key": "aaf5zdh8jl",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "El Cairo",
+   "overnightNeedsReview": true,
+   "source": "El tercer día retrocede más allá de Guiza, hasta el punto donde empezó la arquitectura monumental en piedra.",
+   "title": "El Cairo: la invención de la pirámide"
+  },
+  {
+   "_key": "lo7ncdz0pb",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "El Cairo",
+   "overnightNeedsReview": true,
+   "source": "La jornada de Alejandría se plantea como ida y vuelta larga en lugar de pernoctación, lo que mantiene la estancia anclada en El Cairo y reduce el equipaje en movimiento.",
+   "title": "Alejandría: la ciudad mediterránea"
+  },
+  {
+   "_key": "0o3nsrb3s7",
+   "_type": "itineraryDay",
+   "day": 5,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "El quinto día es de traslado: último desayuno y vuelta por carretera al Aeropuerto Internacional de El Cairo, con vuelos posteriores que dejan margen para alguna hora añadida en la ciudad.",
+   "title": "Traslado al Aeropuerto Internacional de El Cairo"
+  },
+  {
+   "_key": "3bjtdmi7fu",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "カイロ",
+   "overnightNeedsReview": true,
+   "source": "初日は、エジプトの評判をこの先のすべての歴史にわたって組織することになった記念建造物群から開きます。",
+   "title": "カイロ——高原"
+  },
+  {
+   "_key": "vgwa87y9a7",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "カイロ",
+   "overnightNeedsReview": true,
+   "source": "二日目は高原から街へ、そしてファラオから中世へと進みます。",
+   "title": "カイロ——博物館と中世の街"
+  },
+  {
+   "_key": "2p0kzdpah9",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "カイロ",
+   "overnightNeedsReview": true,
+   "source": "三日目はギザの背後にさかのぼり、大規模石造建築が始まった地点に降り立ちます。",
+   "title": "カイロ——ピラミッドの発明"
+  },
+  {
+   "_key": "vre2ynn00e",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "カイロ",
+   "overnightNeedsReview": true,
+   "source": "四日目は砂漠路を北上して海岸へ。",
+   "title": "アレクサンドリア——地中海の街"
+  },
+  {
+   "_key": "gg7ijwse1e",
+   "_type": "itineraryDay",
+   "day": 5,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "5日目は移動日です。",
+   "title": "移動日・カイロ国際空港へ"
+  }
+ ],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/cairo-alexandria-city-break-5-days/"
+ },
+ "priceFrom": 600,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_136519",
+   "_ref": "wp-page-136519",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88972",
+   "_ref": "wp-page-88972",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_89649",
+   "_ref": "wp-page-89649",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_cairo_weekend_city_break_2_nights_3_days",
+   "_ref": "tour.cairo-weekend-city-break-2-nights-3-days",
+   "_type": "reference"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "cairo-alexandria-city-break-5-days"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "el-cairo-y-alejandria-en-5-dias-dos-ciudades-dos-costas"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "kairo-arekusandoria-5-nichikan-futatsu-no-to-futatsu-no"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "Five private days between Cairo's pharaonic interior and Alexandria's Mediterranean front — two Egypts in deliberate sequence, with the pyramids first and the Hellenistic city second."
+  },
+  {
+   "_key": "es",
+   "value": "Cinco días privados entre el interior faraónico de El Cairo y el frente mediterráneo de Alejandría: dos Egiptos en orden, con las pirámides primero y la ciudad helenística después."
+  },
+  {
+   "_key": "ja",
+   "value": "ファラオの内陸都市カイロと、ヘレニズムの地中海港市アレクサンドリア——5日間で意図的な順序を踏みながら、二つのエジプトを並べて見せるプライベート行程。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-egypt-on-the-go",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "value": "5-Day Cairo & Alexandria City Break: Two Cities, Two Coasts"
+  },
+  {
+   "_key": "es",
+   "value": "El Cairo y Alejandría en 5 días: dos ciudades, dos costas"
+  },
+  {
+   "_key": "ja",
+   "value": "カイロ＆アレクサンドリア5日間：二つの都、二つの海岸"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}

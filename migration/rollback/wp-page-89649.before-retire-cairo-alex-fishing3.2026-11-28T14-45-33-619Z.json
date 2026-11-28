@@ -1,0 +1,3322 @@
+{
+ "_createdAt": "2026-05-14T11:38:14Z",
+ "_id": "wp-page-89649",
+ "_rev": "jcVPwU9pobfj7WCTVeA29K",
+ "_system": {
+  "base": {
+   "id": "wp-page-89649",
+   "rev": "hfH9i9C1WObc0VBSEzdL91"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-25T15:18:51Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers who have done the Cairo–Luxor circuit and want to slow down; first-timers attracted to a single-base trip; readers, writers, and anyone who values the same view for a week"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros que ya han hecho el circuito El Cairo–Luxor y quieren bajar el ritmo; primeros viajeros atraídos por un viaje de base única; lectores, escritores y cualquiera que valore la misma vista durante una semana"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "カイロ—ルクソール周遊を経て次は速度を落としたい方、初訪問で単一拠点の滞在型を望む方、読書家・執筆家・「一週間同じ眺め」に価値を感じる方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan in Eight Days: The Nubian South as a Destination"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A private retreat that treats Aswan not as the start of a Nile cruise but as the destination — the cataract, the granite hills, Philae's late-Ptolemaic temple, Abu Simbel, and the Nubian river culture that gives this part of Egypt its different register."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan is not Cairo. That is the first thing to understand about this trip — and not Luxor either, which matters almost as much."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Where Cairo overwhelms — with scale, noise, density, history piled on history — Aswan quiets. The city sits where the Nile narrows toward its first cataract, the desert pressing in from both banks, the granite of the Nubian hills breaking up through the riverbed. The light is different here than anywhere else in Egypt: softer in the mornings, more amber in the evenings, catching the rock differently than the limestone country to the north. Most Egypt itineraries see Aswan for thirty-six hours before a cruise carries them away. This one settles in. Eight days based in one city, no overnight transfers, no dawn flights to catch — the stability is part of what you are buying."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "The retreat is built on a deliberately open framework. The days are anchored by arrivals, departures, and a set of guided options, but the shape of each day in between is yours to decide. If you want three consecutive days on the water and in the ruins, they are available. If you want two of those days reading by the pool while the Nile moves past, that is available too. Aswan rewards time the way it rewards everything else — by giving more back the slower you move through it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Arrival and the city"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Day one asks nothing more of you than to arrive. You are met at Aswan International Airport and transferred to your hotel, and by evening the city is available — the Nile outside the window, dinner taken at the hotel as a first exposure to the Nubian and Egyptian kitchen that runs through the week, the river doing what it has done in this bend of the valley for longer than the monuments on its banks have been standing."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Philae, the dam, the obelisk"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "The first full day, used this way, belongs to the temple of Isis at Philae. The story of Philae is doubled. The original island temple, built mainly in the Ptolemaic period between the fourth and first centuries BC, was already famous in antiquity as the last active sanctuary of the old Egyptian religion — it continued operating into the sixth century AD, long after the rest of Egypt had converted to Christianity. In the 1970s, like Abu Simbel to the south, it was threatened by the rising waters of Lake Nasser behind the High Dam. The entire complex was dismantled and rebuilt on the nearby island of Agilkia — a decade-long preservation feat. The temple you walk through today is the same building, stone by stone, in a safer location."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "The day continues to the Aswan High Dam — the mid-twentieth-century engineering project that transformed Egypt's relationship with the Nile, controlling the floods that had sustained the country for millennia and creating the reservoir that now extends south into Sudan — and the Unfinished Obelisk, still lying in its granite quarry, abandoned around 1500 BC when a crack appeared in the stone. At 42 metres, it would have been the largest obelisk ever cut. The crack that stopped it is still visible, which is most of the point: this is a quarry, not a finished monument, and what it teaches about ancient stoneworking no finished obelisk anywhere else can."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "The river, the island, the gardens"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan's geography only resolves on the water, and a day on a traditional felucca — the wooden sailing boat that has worked this stretch of the Nile for centuries — is how it does. From the river the scale becomes clear: the width of the water at the cataract, the low green of Elephantine Island in the middle channel, the desert escarpment to the west with its ancient tombs cut into the cliff face, the Aga Khan Mausoleum on the hilltop where the Aga Khan III, at his own request, was buried in 1957. The sail can take in Kitchener's Island, a botanical garden established by the British consul-general Lord Kitchener in the 1890s, planted with species from across Africa and Asia, and still one of the quieter and more unexpectedly pleasant places in Aswan. The afternoon is yours."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "The west bank: Nobles, Elephantine, and the Nubian Museum"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan's west bank carries its own archaeology, less visited than Luxor's but worth the crossing. The Tombs of the Nobles, cut into the hillside above the river, hold the burials of Aswan's governors and senior officials from the Old and Middle Kingdom periods — roughly 2300 to 1650 BC. The painted and carved decoration is less spectacular than the royal tombs at Luxor, but the views back across the river to the city and the eastern desert are among the best in Aswan, and the site is rarely crowded."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "The day can continue to the ruins of the ancient settlement on Elephantine Island, where excavations have been ongoing since the nineteenth century, uncovering remains from every major period of Egyptian history including the Predynastic era. A Nubian Museum visit in the afternoon — the museum covers the history and material culture of Nubia from prehistoric times to the present, with particular attention to the communities displaced by the construction of the High Dam — rounds out a day that moves from ancient burial ground to living cultural identity."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Abu Simbel and the southern frontier"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "For travellers who have not been to Abu Simbel, one of the days is reserved for it. The journey is by air, roughly 45 minutes south from Aswan to the temples Ramses II carved into the sandstone cliff at the Sudanese border in the thirteenth century BC. The four colossal seated figures of the king at the entrance to the Great Temple are among the most reproduced images of ancient Egypt, and the interior — its walls covered with battle reliefs from the campaigns against the Hittites — is among the most complete royal statements of the New Kingdom that survives. The smaller Temple of Nefertari, cut for his principal queen, is rare in Egyptian architecture: a temple in which a royal woman is represented at the same scale as the king."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "As at Philae, the current location is not the original one. Between 1964 and 1968, rising Lake Nasser waters required the entire complex to be relocated — both temples were cut into more than a thousand blocks and reassembled on higher ground 65 metres from where they began, precisely oriented so the sun still enters the inner sanctuary on the same two days of the year it always did. The excursion is optional and bookable separately; for those who choose not to go, the day stays in Aswan."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "The Nubian river"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "The Nubian settlements on the west bank and on Elephantine Island are among the most visually distinctive in Egypt — their houses painted in bright mineral colours, the streets narrow, the atmosphere different in register from the Arabic city on the east bank. A visit by motor boat to one of the villages offers a direct encounter with a community and culture that predate the Arab settlement of Egypt by millennia, and that survived, though not without cost, the displacement caused by the High Dam's construction. A guide who knows the community is the difference between a visit and a tour. The afternoon and evening are free; the Corniche at sunset, with a drink at one of the terrace cafés and the last feluccas crossing the pink water, is not the worst way to spend the penultimate night in Aswan."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "How an Aswan retreat works"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "There is an open day in the middle of the trip on purpose. A week that runs at full pace without a pause is a week that ends in tiredness rather than satisfaction. Use the resort's facilities, return to a site you want to see again more slowly, walk into the Aswan souk — the market behind the Corniche, where the spice and textile trade has continued for centuries — or do nothing at all. The Nile will still be there in the evening."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "Day eight is the departure: a final breakfast and a transfer to Aswan International Airport, with later flights giving room for a final excursion or a last hour on the hotel terrace. Travellers who are not ready to leave — which after a week at this pace in this city is not unusual — can extend."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a private departure — operated for your party alone, never a shared group. A licensed English-speaking Egyptologist for the guided days, private air-conditioned transfers, seven nights at a carefully selected five-star hotel in a single base, daily breakfast and dinner combining Egyptian and Nubian cuisine with international options, and full guest-relations support throughout are part of the package."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Aswan is the part of Egypt that most people mean to get back to. Eight days here is enough to understand why."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The shape of the journey"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "Where · Aswan, single base (Philae · High Dam · Unfinished Obelisk · Elephantine · Kitchener's Island · Nubian villages · West Bank tombs · Nubian Museum · Abu Simbel optional)"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "Duration · 8 days / 7 nights — adjustable"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "Character · Fully private · single base, no overnight transfers · flexible day-by-day programme · Nubian-Egyptian cuisine · felucca days, open days, optional Abu Simbel flight"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Asuán en ocho días: el sur nubio como destino"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un retiro privado que entiende Asuán no como inicio de un crucero por el Nilo, sino como el lugar donde quedarse: la catarata, las colinas de granito, el templo tardo-ptolemaico de File, Abu Simbel y la cultura fluvial nubia que da a esta parte de Egipto su registro distinto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Asuán no es El Cairo. Esa es la primera cosa que conviene entender de este viaje, y tampoco es Luxor, lo que importa casi tanto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Donde El Cairo abruma —por escala, ruido, densidad, historia apilada sobre historia—, Asuán baja la voz. La ciudad se asienta donde el Nilo se estrecha hacia su primera catarata, con el desierto presionando desde ambas orillas y el granito de las colinas nubias asomando en el lecho del río. La luz es distinta a la del resto del país: más suave por la mañana, más ambarina al final del día, posándose sobre la roca de otra manera que la caliza del norte. La mayoría de los itinerarios de Egipto ve Asuán durante treinta y seis horas antes de que un crucero se la lleve. Este retiro se queda. Ocho días con base en una sola ciudad, sin traslados nocturnos ni vuelos al alba: la estabilidad forma parte de lo que se está comprando."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "El retiro se construye sobre un marco deliberadamente abierto. Las jornadas están ancladas por la llegada, la salida y un repertorio de opciones guiadas, pero la forma de cada día intermedio la decide el viajero. Si quieres tres días seguidos sobre el agua y entre ruinas, están disponibles. Si quieres dos de esos días leyendo junto a la piscina mientras el Nilo pasa, también. Asuán recompensa el tiempo como lo recompensa casi todo lo demás: devolviendo más cuanto más lento te muevas por ella."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Llegada y la ciudad"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "El primer día no pide más que llegar. Recibimos al viajero en el Aeropuerto Internacional de Asuán y lo trasladamos al hotel. Al atardecer, la ciudad ya está disponible: el Nilo al otro lado de la ventana, la cena en el hotel como primer contacto con la cocina nubia y egipcia que aparecerá durante toda la semana, y el río haciendo lo que ha hecho en esta curva del valle más tiempo que cualquier monumento de sus orillas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "File, la presa, el obelisco"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "La primera jornada completa pertenece al templo de Isis en File. La historia de File es doble. El templo insular original, construido sobre todo en época ptolemaica entre los siglos IV y I a. C., ya era famoso en la Antigüedad como último santuario activo de la antigua religión egipcia: siguió funcionando hasta el siglo VI d. C., mucho después de que el resto del país se hubiera cristianizado. Entre 1972 y 1980, como Abu Simbel más al sur, fue amenazado por las aguas crecientes del lago Nasser tras la presa Alta. El complejo entero se desmontó y se reconstruyó en la cercana isla de Agilkia, unos 500 metros al oeste de la isla original, en una operación de conservación que duró una década. Hoy se camina por el mismo edificio, piedra a piedra, en un emplazamiento seguro."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "La jornada continúa con la presa Alta de Asuán —el proyecto de ingeniería de mediados del siglo XX que cambió la relación de Egipto con el Nilo, controlando las crecidas que habían sostenido al país durante milenios y creando el embalse que ahora se extiende al sur hasta Sudán, completado en 1970 al precio de desplazar alrededor de 100 000 nubios— y el obelisco inacabado, todavía tendido en su cantera de granito, abandonado hacia 1500 a. C. cuando apareció una grieta en la piedra. Con sus 42 metros, habría sido el obelisco más grande nunca tallado. La grieta que lo detuvo sigue visible, y eso es buena parte del sentido: aquí estamos ante una cantera, no ante un monumento terminado, y lo que enseña sobre la cantería antigua no lo enseña ningún obelisco completo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "El río, la isla, los jardines"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "La geografía de Asuán solo se resuelve sobre el agua, y una jornada en faluca tradicional —el velero de madera que trabaja este tramo del Nilo desde hace siglos— es la forma de hacerlo. Desde el río se entiende la escala: el ancho del agua junto a la catarata, el verde bajo de la isla Elefantina en el canal central, el escarpe desértico hacia el oeste con sus tumbas antiguas talladas en el acantilado, y el mausoleo del Aga Khan en lo alto, donde el Aga Khan III, por petición propia, fue enterrado en 1957. La navegación puede pasar por la isla Kitchener, jardín botánico establecido por el cónsul general británico lord Kitchener en la década de 1890, plantado con especies de toda África y Asia, y todavía uno de los lugares más tranquilos e inesperadamente agradables de Asuán. La tarde queda libre."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "La orilla occidental: Nobles, Elefantina y el Museo Nubio"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "La orilla occidental de Asuán tiene su propia arqueología, menos visitada que la de Luxor pero digna del cruce. Las tumbas de los Nobles, talladas en la ladera sobre el río, albergan los enterramientos de los gobernadores y altos funcionarios de Asuán durante el Imperio Antiguo y Medio —aproximadamente entre 2300 y 1650 a. C.—. La decoración pintada y tallada es menos espectacular que la de las tumbas reales de Luxor, pero las vistas hacia la ciudad y el desierto oriental están entre las mejores de la zona, y el sitio rara vez está saturado."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "La jornada puede seguir con las ruinas del asentamiento antiguo en la isla Elefantina, excavadas desde el siglo XIX y con material de todos los periodos importantes de la historia egipcia, incluido el predinástico. Una visita por la tarde al Museo Nubio —que cubre la historia y la cultura material de Nubia desde la prehistoria hasta el presente, con especial atención a las comunidades desplazadas por la construcción de la presa Alta— redondea un día que se mueve del cementerio antiguo a la identidad cultural viva."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Abu Simbel y la frontera sur"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Para los viajeros que no han estado en Abu Simbel, se reserva un día. El trayecto es en avión, unos cuarenta y cinco minutos al sur de Asuán, hasta los templos que Ramsés II talló en el acantilado de arenisca junto a la frontera sudanesa en el siglo XIII a. C. Las cuatro figuras sedentes colosales del rey a la entrada del Gran Templo están entre las imágenes más reproducidas del antiguo Egipto, y el interior —con muros cubiertos de relieves de campaña contra los hititas— es una de las declaraciones reales más completas del Imperio Nuevo que se conservan. El templo menor, dedicado a su esposa principal Nefertari, es raro en la arquitectura egipcia: un templo en el que una mujer real aparece representada a la misma escala que el rey."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Como en File, la ubicación actual no es la original. Entre 1964 y 1968, con las aguas del lago Nasser subiendo, el complejo entero hubo de trasladarse bajo dirección de la UNESCO: ambos templos se cortaron en más de mil bloques y se reensamblaron 65 metros más arriba, orientados con precisión para que el sol siga entrando en el santuario interior aproximadamente el 22 de febrero y el 22 de octubre, los mismos dos días de cada año en que entraba antes. La excursión es opcional y se reserva aparte; quien decida no ir, se queda en Asuán."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "El río nubio"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Los asentamientos nubios en la orilla occidental y en la isla Elefantina están entre los más visualmente reconocibles de Egipto: casas pintadas con colores minerales fuertes, calles estrechas, una atmósfera de otro registro que la ciudad árabe de la orilla oriental. Una visita en lancha a una de las aldeas ofrece un contacto directo con una comunidad y una cultura anteriores en milenios al asentamiento árabe de Egipto, que sobrevivieron —no sin costo— al desplazamiento provocado por la construcción de la presa Alta. Un guía que conoce la comunidad es la diferencia entre una visita y una intrusión. La tarde y la noche quedan libres; la Corniche al atardecer, con una bebida en uno de los cafés con terraza y las últimas falucas cruzando el agua rosada, no es la peor forma de pasar la penúltima noche en Asuán."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Cómo funciona un retiro en Asuán"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Hay un día abierto en mitad del viaje a propósito. Una semana al cien por cien sin pausa es una semana que acaba en cansancio antes que en satisfacción. Usa las instalaciones del hotel, vuelve más despacio a un sitio que quieras ver de nuevo, camina por el zoco —el mercado tras la Corniche, donde el comercio de especias y telas continúa desde hace siglos— o no hagas absolutamente nada. El Nilo seguirá ahí por la tarde."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "El octavo día es la salida: último desayuno y traslado al Aeropuerto Internacional de Asuán, con vuelos posteriores que dejan margen para una última excursión o una última hora en la terraza del hotel. Los viajeros que no estén listos para irse —después de una semana a este ritmo en esta ciudad, no es raro— pueden ampliar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "La salida es privada —operada solo para tu grupo, nunca compartida—. Un egiptólogo licenciado de habla hispana para los días guiados, traslados privados climatizados, siete noches en un hotel de cinco estrellas cuidadosamente seleccionado en una sola base, desayunos y cenas diarios combinando cocina egipcia y nubia con opciones internacionales, y atención de relaciones con el huésped en todo momento forman parte del paquete. Si Asuán nombra un hotel de lujo concreto, en este momento opera bajo la enseña de Mandarin Oriental: el antiguo Old Cataract pasó a esa marca el 1 de mayo de 2026."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Asuán es la parte de Egipto a la que la mayoría dice que volverá. Ocho días aquí bastan para entender por qué la promesa suele cumplirse."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La forma del viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "Dónde · Asuán, base única (File · presa Alta · obelisco inacabado · Elefantina · isla Kitchener · aldeas nubias · tumbas de la orilla occidental · Museo Nubio · Abu Simbel opcional)"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "Duración · 8 días / 7 noches, ajustable como retiro privado"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "Carácter · Salida privada · base única, sin traslados nocturnos · programa flexible por jornada · cocina nubio-egipcia · días de faluca, días abiertos, vuelo opcional a Abu Simbel"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワンを8日間で——ヌビアの南を目的地として"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "アスワンを「ナイル・クルーズの始点」ではなく到着点として扱うプライベート・リトリート。急湍、花崗岩の丘、プトレマイオス朝末期の聖地フィラエ、アブ・シンベル、そしてこの地の語り口を北とは違うものにしているヌビアの川の文化。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワンはカイロではありません——この旅でまず理解しておきたいのはそこです。そしてルクソールでもない、というのも、ほぼ同じくらい重要です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロが規模と騒音と密度と層で「圧する」街だとすれば、アスワンは「静まる」街です。ナイル川が第一急湍に向けて狭まり、両岸から砂漠が迫り、ヌビアの花崗岩が川床を割って顔を出す——その地点に街は座っています。光がほかのどこのエジプトとも違います。朝はやわらかく、夕方はより琥珀色に傾き、北部の石灰岩地帯とは岩への当たり方が異なります。エジプトの行程の多くは、クルーズに連れ去られるまでの36時間ほどでアスワンを通り過ぎます。この旅はここに腰を据えます。一つの街に8日間、夜間移動なし、夜明けの空港便なし——その「動かないこと」自体が、お選びいただく価値の一部です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "リトリートは意図的に「開いた」枠組みで組まれています。到着、出発、いくつかのガイド付きの選択肢が一日の輪郭を留めますが、そのあいだの時間の組み立てはお客様にゆだねます。三日続けて川と遺跡に充てたければそれでよく、そのうち二日をプールサイドの読書とナイルを流れる風景に充てたいならそれもできます。アスワンは時間に報いる場所です——ゆっくり過ごすほど、返ってくるものが大きくなります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "到着と街"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "初日は「到着する」以上のことを求めません。アスワン国際空港でお出迎えし、ホテルへお送りします。夕方には街が手の届くところに——窓の外にはナイル、夕食はホテルで、一週間にわたってお供することになるヌビアとエジプトの料理に最初に触れる時間。この谷の湾曲を、岸辺の記念建造物よりも長く流れてきた川が、いつも通りのことを続けています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "フィラエ、ハイダム、未完成のオベリスク"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "最初のフル日は、フィラエ島のイシス神殿に充てると本領を発揮します。フィラエの物語は二重です。原島の神殿は主にプトレマイオス朝期、紀元前4世紀から1世紀にかけて築かれ、古代の段階ですでに「古エジプト宗教の最後の現役聖地」として有名でした——エジプトの他の地域がキリスト教化したあとも、6世紀まで祭祀が続きました。1970年代、南のアブ・シンベル同様、ハイダム背後のナセル湖の水位上昇にさらされ、複合体全体が解体され、近隣のアギルキア島へ十年がかりで再建されました。いまお歩きいただく神殿は、文字通り石ひとつひとつ同じ建物が、より安全な場所に立っているものです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "その日はアスワン・ハイダム——20世紀半ばの土木事業で、千年単位でこの国を支えてきた氾濫を制御し、いまや南はスーダンにまで延びる貯水池を生んだ——、そして未完成のオベリスクへと続きます。後者は花崗岩の採石場に横たわったまま、紀元前1500年ごろ、石に亀裂が現れたために放棄されました。42メートル——完成していれば史上最大のオベリスクでした。亀裂はいまも見えます。それがこの場所の核心です。ここは完成した記念建造物ではなく採石場であり、古代の石工技術について、完成形のオベリスクには語れないことを教えてくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "川、島、庭園"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワンの地理は、水の上でしか解像しません。何百年もこの区間のナイルで働いてきた木造帆船、フェルッカでの一日が、その解像をしてくれます。川面に立つと、急湍での水の幅、中州エレファンティネ島の低い緑、西岸の砂漠の崖に切り込まれた古代の墓、丘の上にアガ・カーン3世が1957年に自らの希望で葬られたアガ・カーン廟——配置の全体が見えてきます。フェルッカはキッチナー島に立ち寄れます。1890年代に英国総領事キッチナー卿が設けた植物園で、アフリカとアジア各地の樹木が植わり、アスワンでも静かで思いがけずここちよい一角です。午後はご自由に。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "西岸——貴族の墓、エレファンティネ、ヌビア博物館"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワン西岸はそれ自体の考古を擁します。ルクソールの西岸より訪問者は少ないものの、渡る価値は十分です。貴族の墓は川を見下ろす丘の中腹に切られ、古王国から中王国（およそ紀元前2300年〜1650年）にかけてのアスワン総督と高官たちの埋葬を収めます。彩色と彫刻はルクソールの王墓ほど壮麗ではありませんが、川越しに街と東の砂漠を見渡す眺めはアスワンでも屈指で、人波もまばらです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "そのままエレファンティネ島の古代集落遺跡へ進むこともできます。19世紀以来の継続的な発掘で、先王朝期を含むエジプト史の主要なすべての時代の遺構が現れています。午後はヌビア博物館——先史時代から現代までのヌビアの歴史と物質文化を、とくにハイダム建設で離散を強いられたコミュニティに丁寧に光を当てて扱う館——を訪ねて、古代の埋葬地から生きている文化的アイデンティティへと一日を進めて締めくくります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "アブ・シンベルと南の境界"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "アブ・シンベルがまだの方には、一日を確保します。アスワンから空路で約45分南、紀元前13世紀にラメセス2世がスーダン国境近くの砂岩の崖に彫り込んだ二つの神殿です。大神殿入口の四体の坐像はエジプト古代の最も再生産されてきたイメージのひとつ。内部は、ヒッタイトとの戦役のレリーフが壁を覆い、新王国期に残された王の表明としては最も完全な部類に入ります。小神殿はラメセス2世の正妃ネフェルタリのために彫られ、エジプト建築のなかでも稀な例——王と同じスケールで王妃が表象される神殿です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "フィラエ同様、いまの場所は本来の位置ではありません。1964〜1968年、UNESCO主導のもと、ナセル湖の水位上昇に応じて複合体全体が千以上のブロックに切断され、もとの位置から65メートル上方へ再組立てされました——内陣に太陽が差し込む年に二度の日付（2月22日と10月22日）が同じになるよう、向きまで精密に再現されています。エクスカーションはオプションで別途お申し込み。行かないという選択肢の場合、その日はアスワンに留まります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "ヌビアの川"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "西岸とエレファンティネ島のヌビアの集落は、エジプトでも視覚的にもっとも独自の佇まいを持つ場所のひとつです——鉱物顔料で鮮やかに塗られた家々、狭い街路、東岸のアラブ系の街とは別の音域。モーターボートで集落のひとつを訪ねれば、エジプトのアラブ系定住より千年単位で前から続く共同体と文化に直に触れられます——ハイダム建設による離散を、無傷でとは言えませんが、生き延びてきた文化です。コミュニティをよく知るガイドがいるかどうかが、「訪問」と「ツアー」を分けます。午後と夕方は自由時間。日没のコルニーシュで、テラスのカフェの一杯と、ピンクに染まる水面を最後のフェルッカが渡っていく光景——アスワン最後から二日目の夜の過ごし方として、悪い選択ではありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "このアスワン滞在の組み立て方"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "途中に意図的に「空けた」一日を入れています。一週間まったく休みなく走り切る行程は、満足ではなく疲労で終わります。リゾートの施設を使う、もう一度ゆっくり見たい遺跡に戻る、コルニーシュの裏のスーク（香辛料と織物の交易を何世紀も続けてきた市場）を歩く、何もしない——夕方になれば、ナイルはまだそこにあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "8日目は出発です。最後の朝食ののち、アスワン国際空港へお送りします。遅めのフライトをお取りいただければ、最後にもう一つエクスカーションを足したり、ホテルのテラスで一時間過ごす余裕も生まれます。「まだ帰りたくない」と感じる方は珍しくありません——延泊もご相談ください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "完全プライベートの催行です。ガイド付きの日にはライセンスを持つ英語対応のエジプト学ガイド、冷房付き専用車両、入念に選んだ5つ星ホテルでの単一拠点7泊、毎日の朝食と夕食（エジプトとヌビアの料理に国際メニューを加えた組み合わせ）、そして全行程のゲスト・リレーション・サポートが含まれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "アスワンは、多くの方が「もう一度戻ろう」と心に決めて去る場所です。8日間あれば、その理由がわかります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "旅の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · アスワン単一拠点（フィラエ・ハイダム・未完成のオベリスク・エレファンティネ・キッチナー島・ヌビアの集落・西岸の墓・ヌビア博物館・任意でアブ・シンベル）"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "日数 · 8日間／7泊 — 調整可能"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 完全プライベート出発 · 単一拠点で夜間移動なし · 一日ごとに柔軟に組み替える「開いた」枠組み · エジプト・ヌビアの料理 · フェルッカ、自由日、任意のアブ・シンベル空路"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "wp-page-58758",
+   "_ref": "wp-page-58758",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private retreat is built around your party, not the other way around. Tell our team how you'd want to shape it — more time on the felucca, an Abu Simbel overnight added, a Nubian village dinner arranged — and we will build the eight days to fit."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Un retiro privado se construye alrededor de tu grupo, no al revés. Dinos cómo querrías ajustarlo —más tiempo en faluca, una noche añadida en Abu Simbel, una cena organizada en una aldea nubia— y armaremos los ocho días contigo."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "8日間はご一行のかたちに合わせて組み直せます——フェルッカでの時間を増やす、アブ・シンベルを1泊宿泊にする、ヌビアの村での夕食を手配する、など。組み立て方をお知らせください。"
+  }
+ ],
+ "customisationOptions": [
+  {
+   "_key": "dah-opt-en-0",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Abu Simbel by air, on Day 7"
+  },
+  {
+   "_key": "dah-opt-en-1",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "More guided days, or fewer"
+  },
+  {
+   "_key": "dah-opt-en-2",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "A Nile cruise from Aswan to Luxor to follow the retreat"
+  },
+  {
+   "_key": "dah-opt-en-3",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "An extra night or two at the hotel"
+  },
+  {
+   "_key": "dah-opt-es-0",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Abu Simbel en avión, el día 7"
+  },
+  {
+   "_key": "dah-opt-es-1",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Más días guiados, o menos"
+  },
+  {
+   "_key": "dah-opt-es-2",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Un crucero por el Nilo de Asuán a Luxor a continuación del retiro"
+  },
+  {
+   "_key": "dah-opt-es-3",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Una o dos noches más en el hotel"
+  },
+  {
+   "_key": "dah-opt-ja-0",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "7日目に、飛行機でのアブ・シンベル"
+  },
+  {
+   "_key": "dah-opt-ja-1",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "ガイド付きの日を増やす、または減らす"
+  },
+  {
+   "_key": "dah-opt-ja-2",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "リトリートのあとに、アスワンからルクソールまでのナイル川クルーズ"
+  },
+  {
+   "_key": "dah-opt-ja-3",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "ホテルでもう1〜2泊"
+  }
+ ],
+ "durationDays": 8,
+ "exclusions": [
+  {
+   "_key": "dah-ex-en-0",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Flights to and from Aswan"
+  },
+  {
+   "_key": "dah-ex-en-1",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Egypt visa"
+  },
+  {
+   "_key": "dah-ex-en-2",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Tipping"
+  },
+  {
+   "_key": "dah-ex-en-3",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Drinks"
+  },
+  {
+   "_key": "dah-ex-en-4",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Abu Simbel"
+  },
+  {
+   "_key": "dah-ex-es-0",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Vuelos de ida y vuelta a Asuán"
+  },
+  {
+   "_key": "dah-ex-es-1",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Visado de Egipto"
+  },
+  {
+   "_key": "dah-ex-es-2",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Propinas"
+  },
+  {
+   "_key": "dah-ex-es-3",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Bebidas"
+  },
+  {
+   "_key": "dah-ex-es-4",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Abu Simbel"
+  },
+  {
+   "_key": "dah-ex-ja-0",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "アスワンへの往復航空券"
+  },
+  {
+   "_key": "dah-ex-ja-1",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "エジプトのビザ"
+  },
+  {
+   "_key": "dah-ex-ja-2",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "チップ"
+  },
+  {
+   "_key": "dah-ex-ja-3",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "飲み物"
+  },
+  {
+   "_key": "dah-ex-ja-4",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "アブ・シンベル"
+  }
+ ],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 802,
+  "ja": 842
+ },
+ "heroImage": {
+  "_type": "image",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Traditional feluccas sailing on the Nile at Aswan with the desert shore beyond."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Feluccas tradicionales navegando por el Nilo en Asuán con la orilla desértica al fondo."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "アスワンのナイル川を帆走する伝統的なファルーカと、奥に広がる砂漠の岸。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-55347aa9a14084f4f4cf6730f05b738e228268ac-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "White-sailed feluccas drift past Aswan's golden riverbanks at golden hour."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Feluccas de vela blanca navegan junto a las orillas doradas de Asuán."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "夕暮れどき、アスワンの金色の岸辺を進む白帆のファルーカ。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "dah-in-en-0",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "A licensed Egyptologist guide in your language (English, Spanish or Japanese) on the four guided days"
+  },
+  {
+   "_key": "dah-in-en-1",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Private air-conditioned transfers throughout"
+  },
+  {
+   "_key": "dah-in-en-2",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Seven nights in a five-star hotel in Aswan, with breakfast and dinner every day"
+  },
+  {
+   "_key": "dah-in-en-3",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Lunch on the guided days"
+  },
+  {
+   "_key": "dah-in-en-4",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "A felucca, a boat to Philae and motorboat trips to Elephantine and the Nubian village"
+  },
+  {
+   "_key": "dah-in-en-5",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Entrance tickets to the sights in the daily programme"
+  },
+  {
+   "_key": "dah-in-en-6",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Bottled water"
+  },
+  {
+   "_key": "dah-in-es-0",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Un egiptólogo con licencia en tu idioma (español) en los cuatro días guiados"
+  },
+  {
+   "_key": "dah-in-es-1",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Traslados privados con aire acondicionado en todo el viaje"
+  },
+  {
+   "_key": "dah-in-es-2",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Siete noches en un hotel de cinco estrellas en Asuán, con desayuno y cena todos los días"
+  },
+  {
+   "_key": "dah-in-es-3",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Almuerzo en los días guiados"
+  },
+  {
+   "_key": "dah-in-es-4",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Una falúa, un barco a Filé y paseos en lancha motora a Elefantina y a la aldea nubia"
+  },
+  {
+   "_key": "dah-in-es-5",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Entradas a los lugares del programa diario"
+  },
+  {
+   "_key": "dah-in-es-6",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "Agua embotellada"
+  },
+  {
+   "_key": "dah-in-ja-0",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "ガイド付きの4日間は、日本語を話す公認エジプト学ガイド"
+  },
+  {
+   "_key": "dah-in-ja-1",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "全行程の冷房付き専用車での送迎"
+  },
+  {
+   "_key": "dah-in-ja-2",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "アスワンの5つ星ホテル7泊（毎日朝食と夕食付き）"
+  },
+  {
+   "_key": "dah-in-ja-3",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "ガイド付きの日の昼食"
+  },
+  {
+   "_key": "dah-in-ja-4",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "ファルーカ、フィラエ神殿へのボート、エレファンティネ島とヌビアの村へのモーターボート"
+  },
+  {
+   "_key": "dah-in-ja-5",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "日程に含まれる見学地の入場料"
+  },
+  {
+   "_key": "dah-in-ja-6",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "text": "ボトル入りの水"
+  }
+ ],
+ "itineraryDays": [
+  {
+   "_key": "dah-en-1",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "You’re met at Aswan airport and taken to your hotel. Dinner is at the hotel, a first taste of the Nubian and Egyptian kitchen that runs through the week, with the Nile outside the window."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 1,
+   "lang": "en",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "Aswan hotel",
+   "overnightNeedsReview": false,
+   "pace": "Easy",
+   "place": "Aswan",
+   "sites": [],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "Arrival",
+   "travel": "Meet and greet at the airport · private transfer"
+  },
+  {
+   "_key": "dah-en-2",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "Philae, the temple of Isis, a sanctuary of the old Egyptian religion that stayed active into the 6th century AD, long after the rest of Egypt had converted. When Lake Nasser rose it was taken apart and rebuilt on Agilkia Island, a job that took until 1980, and you reach it by motorboat. The High Dam, completed in 1970, which ended the annual flood and created Lake Nasser. The Unfinished Obelisk, 42 metres long, still lying in its granite quarry, abandoned when a crack appeared in the stone. No finished obelisk shows as much about ancient stonecutting."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 2,
+   "lang": "en",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "Aswan hotel",
+   "overnightNeedsReview": false,
+   "place": "Aswan",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.aswan.the-philae-temple",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Temple of Philae"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "name": "Aswan High Dam"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.aswan.the-unfinished-obelisk",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Unfinished Obelisk"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "Philae, the High Dam and the Unfinished Obelisk",
+   "travel": "Private transfers · motorboat to Philae"
+  },
+  {
+   "_key": "dah-en-3",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan’s geography makes sense on the water, in a felucca, the wooden sailing boat that has worked this stretch of the river for centuries. From the river you see the width of the Nile at the cataract, the low green of Elephantine Island, the desert escarpment on the west bank, and the Aga Khan Mausoleum on its hilltop, where the Aga Khan III was buried in 1957. The sail takes in Kitchener’s Island, a botanical garden planted in the 1890s with species from across Africa and Asia. The afternoon is free."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 3,
+   "lang": "en",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "Aswan hotel",
+   "overnightNeedsReview": false,
+   "place": "Aswan",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "name": "felucca"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "name": "Kitchener’s Island"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "name": "Aga Khan Mausoleum"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "A felucca on the Nile",
+   "travel": "Private transfers · felucca"
+  },
+  {
+   "_key": "dah-en-4",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "An open day in the middle of the week, on purpose. Use the hotel’s facilities, or walk into the Aswan souk, the market behind the Corniche where the spice and textile trade has carried on for centuries, or do nothing at all. The Nile will still be there in the evening."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 4,
+   "lang": "en",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "Aswan hotel",
+   "overnightNeedsReview": false,
+   "pace": "As much or as little as you like",
+   "place": "Aswan",
+   "sites": [],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "A day at the hotel"
+  },
+  {
+   "_key": "dah-en-5",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "The Tombs of the Nobles, cut into the hillside above the river, where Aswan’s governors and senior officials were buried from the Old and Middle Kingdoms, roughly 2300 to 1650 BC. The decoration is less showy than the royal tombs at Luxor, but the view back across the river is among the best in Aswan, and the site is rarely crowded. Then the ruins of the ancient settlement on Elephantine Island, excavated since the 19th century, with remains from every major period of Egyptian history. In the afternoon, the Nubian Museum, which follows Nubia from prehistory to the present, including the communities displaced by the High Dam."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 5,
+   "lang": "en",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "Aswan hotel",
+   "overnightNeedsReview": false,
+   "place": "Aswan",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "name": "Tombs of the Nobles"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "name": "Elephantine Island"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "name": "Nubian Museum"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "The west bank, Elephantine and the Nubian Museum",
+   "travel": "Private transfers · motorboat"
+  },
+  {
+   "_key": "dah-en-6",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "By motorboat to one of the Nubian villages on the west bank or on Elephantine Island, their houses painted in bright colours and their streets narrow, a community and a culture that go back long before the Arab settlement of Egypt. A guide who knows the village is the difference between a visit and a tour. The afternoon and evening are free: the Corniche at sunset, a drink on a terrace, the last feluccas crossing the pink water."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 6,
+   "lang": "en",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "Aswan hotel",
+   "overnightNeedsReview": false,
+   "place": "Aswan",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "name": "Nubian village"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "A Nubian village",
+   "travel": "Private transfers · motorboat"
+  },
+  {
+   "_key": "dah-en-7",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "If you have not been to Abu Simbel, this is the day for it, by air, about 45 minutes south of Aswan, to the two temples Ramesses II had cut into the sandstone cliff at the Sudanese border in the 13th century BC. Four seated figures of the king, about twenty metres high, guard the entrance to the Great Temple, and the smaller temple was cut for his queen Nefertari. Between 1964 and 1968 both temples were cut into blocks and raised 65 metres above their original place, to save them from Lake Nasser. If you would rather stay, the day is yours in Aswan."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 7,
+   "lang": "en",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [
+    {
+     "_key": "o0",
+     "_type": "dayOptional",
+     "text": "Abu Simbel by air, with your guide: extra"
+    }
+   ],
+   "overnight": "Aswan hotel",
+   "overnightNeedsReview": false,
+   "pace": "As much or as little as you like",
+   "place": "Aswan",
+   "sites": [],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "Abu Simbel by air, or a day in Aswan"
+  },
+  {
+   "_key": "dah-en-8",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "A last breakfast, and the transfer to Aswan airport. If your flight is later, there is time on the hotel terrace before you go."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 8,
+   "lang": "en",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnightNeedsReview": false,
+   "place": "Aswan",
+   "sites": [],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "Departure",
+   "travel": "Private transfer to the airport"
+  },
+  {
+   "_key": "dah-es-1",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "Te recibimos en el aeropuerto de Asuán y te llevamos al hotel. La cena es en el hotel, un primer sabor de la cocina nubia y egipcia que recorre la semana, con el Nilo junto a la ventana."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 1,
+   "lang": "es",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "hotel en Asuán",
+   "overnightNeedsReview": false,
+   "pace": "tranquilo",
+   "place": "Asuán",
+   "sites": [],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "Llegada",
+   "travel": "recibimiento en el aeropuerto · traslado privado"
+  },
+  {
+   "_key": "dah-es-2",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "Filé, el templo de Isis, un santuario de la antigua religión egipcia que siguió activo hasta el siglo VI d. C., mucho después de que el resto de Egipto se convirtiera. Cuando subió el lago Nasser se desmontó y se reconstruyó en la isla de Agilkia, una obra que duró hasta 1980, y se llega en lancha motora. La Gran Presa, terminada en 1970, que puso fin a la crecida anual y creó el lago Nasser. El Obelisco Inacabado, de 42 metros, aún tendido en su cantera de granito, abandonado cuando apareció una grieta en la piedra. Ningún obelisco terminado muestra tanto sobre cómo trabajaban la piedra los antiguos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 2,
+   "lang": "es",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "hotel en Asuán",
+   "overnightNeedsReview": false,
+   "place": "Asuán",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.aswan.the-philae-temple",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "templo de Filé"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "name": "Gran Presa de Asuán"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.aswan.the-unfinished-obelisk",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "Obelisco Inacabado"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "Filé, la Gran Presa y el Obelisco Inacabado",
+   "travel": "traslados privados · lancha motora a Filé"
+  },
+  {
+   "_key": "dah-es-3",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "La geografía de Asuán se entiende en el agua, en una falúa, el velero de madera que lleva siglos trabajando este tramo del río. Desde el río se ve la anchura del Nilo en la catarata, el verde bajo de la isla Elefantina, el escarpe del desierto en la orilla oeste y el mausoleo del Aga Jan en su colina, donde fue enterrado el Aga Jan III en 1957. El paseo pasa por la isla Kitchener, un jardín botánico plantado en la década de 1890 con especies de toda África y Asia. La tarde es libre."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 3,
+   "lang": "es",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "hotel en Asuán",
+   "overnightNeedsReview": false,
+   "place": "Asuán",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "name": "falúa"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "name": "isla Kitchener"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "name": "mausoleo del Aga Jan"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "Una falúa en el Nilo",
+   "travel": "traslados privados · falúa"
+  },
+  {
+   "_key": "dah-es-4",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "Un día abierto en medio de la semana, a propósito. Usa las instalaciones del hotel, o pasea por el zoco de Asuán, el mercado tras la Corniche donde el comercio de especias y telas sigue desde hace siglos, o no hagas nada. El Nilo seguirá ahí por la noche."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 4,
+   "lang": "es",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "hotel en Asuán",
+   "overnightNeedsReview": false,
+   "pace": "tanto o tan poco como quieras",
+   "place": "Asuán",
+   "sites": [],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "Un día en el hotel"
+  },
+  {
+   "_key": "dah-es-5",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "Las Tumbas de los Nobles, excavadas en la ladera sobre el río, donde fueron enterrados los gobernadores y altos funcionarios de Asuán en el Imperio Antiguo y el Medio, entre 2300 y 1650 a. C. aproximadamente. La decoración es menos vistosa que la de las tumbas reales de Luxor, pero la vista de vuelta al otro lado del río es de las mejores de Asuán, y el sitio rara vez está lleno. Después las ruinas del antiguo asentamiento de la isla Elefantina, excavado desde el siglo XIX, con restos de todos los grandes periodos de la historia egipcia. Por la tarde, el Museo Nubio, que sigue a Nubia desde la prehistoria hasta hoy, incluidas las comunidades desplazadas por la Gran Presa."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 5,
+   "lang": "es",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "hotel en Asuán",
+   "overnightNeedsReview": false,
+   "place": "Asuán",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "name": "Tumbas de los Nobles"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "name": "isla Elefantina"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "name": "Museo Nubio"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "La orilla oeste, Elefantina y el Museo Nubio",
+   "travel": "traslados privados · lancha motora"
+  },
+  {
+   "_key": "dah-es-6",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "En lancha motora a una de las aldeas nubias de la orilla oeste o de la isla Elefantina, con las casas pintadas de colores vivos y las calles estrechas, una comunidad y una cultura que vienen de mucho antes de la llegada de los árabes a Egipto. Un guía que conoce la aldea marca la diferencia entre una visita y un recorrido. La tarde y la noche son libres: la Corniche al atardecer, una copa en una terraza, las últimas falúas cruzando el agua rosada."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 6,
+   "lang": "es",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "hotel en Asuán",
+   "overnightNeedsReview": false,
+   "place": "Asuán",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "name": "aldea nubia"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "Una aldea nubia",
+   "travel": "traslados privados · lancha motora"
+  },
+  {
+   "_key": "dah-es-7",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "Si no has estado en Abu Simbel, este es el día, en avión, a unos 45 minutos al sur de Asuán, a los dos templos que Ramsés II hizo excavar en el acantilado de arenisca de la frontera con Sudán en el siglo XIII a. C. Cuatro figuras sentadas del rey, de unos veinte metros de altura, guardan la entrada del Gran Templo, y el templo menor se hizo para su reina Nefertari. Entre 1964 y 1968 los dos templos se cortaron en bloques y se elevaron 65 metros sobre su lugar original, para salvarlos del lago Nasser. Si prefieres quedarte, el día es tuyo en Asuán."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 7,
+   "lang": "es",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [
+    {
+     "_key": "o0",
+     "_type": "dayOptional",
+     "text": "Abu Simbel en avión, con tu guía: extra"
+    }
+   ],
+   "overnight": "hotel en Asuán",
+   "overnightNeedsReview": false,
+   "pace": "tanto o tan poco como quieras",
+   "place": "Asuán",
+   "sites": [],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "Abu Simbel en avión, o un día en Asuán"
+  },
+  {
+   "_key": "dah-es-8",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "Un último desayuno y traslado al aeropuerto de Asuán. Si tu vuelo es más tarde, hay tiempo en la terraza del hotel antes de salir."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 8,
+   "lang": "es",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnightNeedsReview": false,
+   "place": "Asuán",
+   "sites": [],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "Despedida",
+   "travel": "traslado privado al aeropuerto"
+  },
+  {
+   "_key": "dah-ja-1",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワン空港でお出迎えし、ホテルへご案内します。夕食はホテルで、1週間を通して味わうヌビアとエジプトの料理の最初の一皿を、窓の外のナイルとともに。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 1,
+   "lang": "ja",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "アスワンのホテル",
+   "overnightNeedsReview": false,
+   "pace": "ゆったり",
+   "place": "アスワン",
+   "sites": [],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "到着",
+   "travel": "空港でのお出迎え・専用車での送迎"
+  },
+  {
+   "_key": "dah-ja-2",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "古代エジプトの宗教の聖域として、ほかのエジプトがすっかり改宗したずっとあとの6世紀まで活動を続けたイシス神殿、フィラエ神殿。ナセル湖の水位が上がったとき、解体されてアギルキア島に移築され、その作業は1980年まで続きました。モーターボートで向かいます。1970年に完成し、毎年の増水を終わらせ、ナセル湖をつくったハイ・ダム。長さ42メートルで、花崗岩の石切場に今も横たわる切りかけのオベリスクは、石にひびが入ったために放棄されました。完成したどのオベリスクより、古代の石工の仕事ぶりをよく伝えます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 2,
+   "lang": "ja",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "アスワンのホテル",
+   "overnightNeedsReview": false,
+   "place": "アスワン",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.aswan.the-philae-temple",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "フィラエ神殿"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "name": "アスワン・ハイ・ダム"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.aswan.the-unfinished-obelisk",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "切りかけのオベリスク"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "フィラエ神殿、ハイ・ダム、切りかけのオベリスク",
+   "travel": "専用車での送迎・フィラエ神殿へはモーターボート"
+  },
+  {
+   "_key": "dah-ja-3",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワンの地理は、水の上で、ファルーカに乗ってはじめて腑に落ちます。この川を何世紀も行き来してきた木製の帆船です。川からは、急流のあたりのナイルの広さ、エレファンティネ島の低い緑、西岸の砂漠の崖、そして丘の上のアガ・カーン廟（1957年にアガ・カーン3世が葬られた）が見えます。クルーズは、1890年代にアフリカとアジア各地の植物を植えて造られた植物園、キッチナー島のそばを通ります。午後はご自由に。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 3,
+   "lang": "ja",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "アスワンのホテル",
+   "overnightNeedsReview": false,
+   "place": "アスワン",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "name": "ファルーカ"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "name": "キッチナー島"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "name": "アガ・カーン廟"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "ナイルのファルーカ",
+   "travel": "専用車での送迎・ファルーカ"
+  },
+  {
+   "_key": "dah-ja-4",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "1週間の中日に、あえて空けた日。ホテルの設備をお使いいただくか、何世紀も香辛料と織物の取引が続いてきたコルニーシュの裏の市場、アスワンのスークを歩くか、何もしないで。ナイルは夜もそこにあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 4,
+   "lang": "ja",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "アスワンのホテル",
+   "overnightNeedsReview": false,
+   "pace": "お好みで",
+   "place": "アスワン",
+   "sites": [],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "ホテルで過ごす日"
+  },
+  {
+   "_key": "dah-ja-5",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "川を見下ろす丘の斜面に掘られた貴族の墓群は、古王国と中王国のアスワンの総督や高官が、およそ紀元前2300年から1650年にかけて葬られた場所です。装飾はルクソールの王墓ほど華やかではありませんが、川の向こうに戻る眺めはアスワンでも指折りで、人も少なめです。続いて、19世紀から発掘が続き、エジプト史のあらゆる主要な時代の遺構が出るエレファンティネ島の古代集落跡。午後は、先史時代から現在までのヌビアを辿り、ハイ・ダムで移住を余儀なくされた人々も取り上げるヌビア博物館へ。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 5,
+   "lang": "ja",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "アスワンのホテル",
+   "overnightNeedsReview": false,
+   "place": "アスワン",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "name": "貴族の墓群"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "name": "エレファンティネ島"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "name": "ヌビア博物館"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "西岸、エレファンティネ島、ヌビア博物館",
+   "travel": "専用車での送迎・モーターボート"
+  },
+  {
+   "_key": "dah-ja-6",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "モーターボートで、西岸またはエレファンティネ島のヌビアの村のひとつへ。鮮やかに塗られた家々と細い道。アラブ人がエジプトに来るずっと前から続く共同体と文化です。村をよく知るガイドがいると、訪問は単なる見学ではなくなります。午後と夜はご自由に。夕暮れのコルニーシュ、テラスでの一杯、ピンクに染まる水を渡る最後のファルーカ。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 6,
+   "lang": "ja",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "アスワンのホテル",
+   "overnightNeedsReview": false,
+   "place": "アスワン",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "name": "ヌビアの村"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "ヌビアの村",
+   "travel": "専用車での送迎・モーターボート"
+  },
+  {
+   "_key": "dah-ja-7",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "アブ・シンベルにまだ行っていなければ、この日です。アスワンの南約45分、飛行機で、紀元前13世紀にラムセス2世がスーダン国境の砂岩の崖に掘らせた2つの神殿へ。高さ約20メートルの王の座像4体が大神殿の入口を守り、小さな神殿は王妃ネフェルタリのためにつくられました。1964年から1968年にかけて、ナセル湖から守るため、2つの神殿はブロックに切り分けられ、もとの場所より65メートル高く移されました。アスワンにとどまる場合は、この日はご自由です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 7,
+   "lang": "ja",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [
+    {
+     "_key": "o0",
+     "_type": "dayOptional",
+     "text": "ガイドと行く、飛行機でのアブ・シンベル：別途料金"
+    }
+   ],
+   "overnight": "アスワンのホテル",
+   "overnightNeedsReview": false,
+   "pace": "お好みで",
+   "place": "アスワン",
+   "sites": [],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "飛行機でアブ・シンベルへ、またはアスワンで過ごす日"
+  },
+  {
+   "_key": "dah-ja-8",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0",
+       "_type": "span",
+       "marks": [],
+       "text": "最後の朝食のあと、アスワン空港までの送迎。フライトが遅い場合は、出発までホテルのテラスで過ごせます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 8,
+   "lang": "ja",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnightNeedsReview": false,
+   "place": "アスワン",
+   "sites": [],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "title": "出発",
+   "travel": "空港までの専用車での送迎"
+  }
+ ],
+ "itineraryIntro": [
+  {
+   "_key": "intro-en",
+   "_type": "itineraryIntro",
+   "closingLine": "Aswan is the part of Egypt that many people mean to get back to. Eight days here is enough to understand why.",
+   "fitFor": [
+    "want to give Aswan more than the day or two a cruise allows",
+    "would rather stay in one hotel, with no overnight transfers",
+    "like a week that keeps its pace, with an open day in the middle"
+   ],
+   "lang": "en",
+   "makeItYoursIntro": "This is a private trip, built around your party. Common changes:",
+   "needsReview": false,
+   "opening": "Eight days in one hotel in Aswan, where the Nile narrows toward the first cataract: four guided days for Philae, the High Dam, the river, the west bank and a Nubian village, an open day in the middle, and Abu Simbel by air if you want it.",
+   "panelRows": [
+    {
+     "_key": "pr0",
+     "_type": "labelledRow",
+     "label": "Children",
+     "text": "50% off under 12 · free under 2"
+    },
+    {
+     "_key": "pr1",
+     "_type": "labelledRow",
+     "label": "Your guide speaks",
+     "text": "English"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "stayRows": [
+    {
+     "_key": "sr0",
+     "_type": "labelledRow",
+     "label": "In Aswan",
+     "text": "seven nights in one five-star hotel, with breakfast and dinner every day."
+    },
+    {
+     "_key": "sr1",
+     "_type": "labelledRow",
+     "label": "Every guided day",
+     "text": "your own licensed Egyptologist in your language, and private air-conditioned transfers."
+    }
+   ],
+   "whyRoute": "Many trips give Aswan a day or two before a cruise carries them north. Aswan is quieter than Cairo and Luxor, and the light is softer, and it rewards the slower pace that a base gives. Staying in one hotel with no overnight transfers and no dawn flights to catch means you can take the sites as they come, and let the river and the city fill the time between them.",
+   "whyRouteRefs": [],
+   "worthKnowing": [
+    "The four guided days are Days 2, 3, 5 and 6, and the other days are yours.",
+    "Abu Simbel is a long day by air and costs extra.",
+    "If you prefer a full programme every day, ask about a more guided version."
+   ]
+  },
+  {
+   "_key": "intro-es",
+   "_type": "itineraryIntro",
+   "closingLine": "Asuán es la parte de Egipto a la que muchos quieren volver. Ocho días aquí bastan para entender por qué.",
+   "fitFor": [
+    "quieres dar a Asuán más que el día o dos que permite un crucero",
+    "prefieres un solo hotel, sin traslados nocturnos",
+    "te gusta una semana que mantiene su ritmo, con un día abierto en el centro"
+   ],
+   "lang": "es",
+   "makeItYoursIntro": "Este es un viaje privado, hecho a la medida de tu grupo. Cambios habituales:",
+   "needsReview": false,
+   "opening": "Ocho días en un mismo hotel de Asuán, donde el Nilo se estrecha hacia la primera catarata: cuatro días guiados para Filé, la Gran Presa, el río, la orilla oeste y una aldea nubia, un día abierto en el centro y Abu Simbel en avión si lo deseas.",
+   "panelRows": [
+    {
+     "_key": "pr0",
+     "_type": "labelledRow",
+     "label": "Niños",
+     "text": "50 % de descuento a los menores de 12 años · gratis a los menores de 2"
+    },
+    {
+     "_key": "pr1",
+     "_type": "labelledRow",
+     "label": "Tu guía habla",
+     "text": "español"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "stayRows": [
+    {
+     "_key": "sr0",
+     "_type": "labelledRow",
+     "label": "En Asuán",
+     "text": "siete noches en un mismo hotel de cinco estrellas, con desayuno y cena todos los días."
+    },
+    {
+     "_key": "sr1",
+     "_type": "labelledRow",
+     "label": "Cada día guiado",
+     "text": "tu propio egiptólogo con licencia en tu idioma, y traslados privados con aire acondicionado."
+    }
+   ],
+   "whyRoute": "Muchos viajes dan a Asuán uno o dos días antes de que un crucero los lleve al norte. Asuán es más tranquila que El Cairo y Luxor, y su luz es más suave, y premia el ritmo lento que permite una base. Alojarse en un solo hotel, sin traslados nocturnos ni vuelos de madrugada, te deja tomar los sitios según vienen y dejar que el río y la ciudad llenen el tiempo entre ellos.",
+   "whyRouteRefs": [],
+   "worthKnowing": [
+    "Los cuatro días guiados son el 2, el 3, el 5 y el 6; los demás son tuyos.",
+    "Abu Simbel es un día largo en avión y tiene un coste extra.",
+    "Si prefieres un programa completo todos los días, pregunta por una versión más guiada."
+   ]
+  },
+  {
+   "_key": "intro-ja",
+   "_type": "itineraryIntro",
+   "closingLine": "アスワンは、多くの方がまた戻りたいと思うエジプトの一角です。ここでの8日間があれば、その理由がわかります。",
+   "fitFor": [
+    "クルーズの1〜2日より、アスワンにもっと時間をかけたい方",
+    "夜の移動のない、ホテル1か所の滞在がよい方",
+    "中日に空いた日のある、ペースを保つ1週間がお好きな方"
+   ],
+   "lang": "ja",
+   "makeItYoursIntro": "これはお客様に合わせて組み立てるプライベートの旅です。よくあるご変更：",
+   "needsReview": false,
+   "opening": "ナイルが第一急流に向かって狭まるアスワンの、ホテル1か所で8日間。フィラエ神殿、ハイ・ダム、川、西岸、ヌビアの村を巡るガイド付き4日間、中日にひと息つく日、そしてご希望ならアブ・シンベルへ飛行機で。",
+   "panelRows": [
+    {
+     "_key": "pr0",
+     "_type": "labelledRow",
+     "label": "お子様",
+     "text": "12歳未満は50%割引・2歳未満は無料"
+    },
+    {
+     "_key": "pr1",
+     "_type": "labelledRow",
+     "label": "ガイドの言語",
+     "text": "日本語"
+    }
+   ],
+   "source": "Owner locked copy \"8-day-aswan-retreat\" (EN/ES/JA), 24 Nov 2026.",
+   "stayRows": [
+    {
+     "_key": "sr0",
+     "_type": "labelledRow",
+     "label": "アスワンでは",
+     "text": "5つ星ホテル1か所で7泊、毎日朝食と夕食付き。"
+    },
+    {
+     "_key": "sr1",
+     "_type": "labelledRow",
+     "label": "ガイド付きの日は毎日",
+     "text": "ご希望の言語を話す公認エジプト学ガイドが同行し、移動は冷房付きの専用車です。"
+    }
+   ],
+   "whyRoute": "多くの旅は、クルーズが北へ運んでいくまでの1〜2日をアスワンに充てます。アスワンはカイロやルクソールより静かで、光もやわらかく、拠点を置くことでできるゆっくりしたペースに報いてくれます。ホテル1か所、夜の移動も早朝のフライトもなければ、見どころを順に訪ね、そのあいだを川と街に満たしてもらえます。",
+   "whyRouteRefs": [],
+   "worthKnowing": [
+    "ガイド付きの4日間は2日目、3日目、5日目、6日目で、そのほかの日はご自由です。",
+    "アブ・シンベルは飛行機で行く長い1日で、別途料金がかかります。",
+    "毎日しっかり日程のあるほうがよい場合は、ガイド付きの日数を増やしたバージョンをご相談ください。"
+   ]
+  }
+ ],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/aswan-personalized-vacation/"
+ },
+ "priceFrom": 735,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_89895",
+   "_ref": "wp-page-89895",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_90416",
+   "_ref": "wp-page-90450",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_cairo_alexandria_city_break_5_days",
+   "_ref": "tour.cairo-alexandria-city-break-5-days",
+   "_type": "reference"
+  }
+ ],
+ "routeLegs": [],
+ "shapeOfDay": {
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayTextValue",
+    "value": "Aswan"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayTextValue",
+    "value": "Asuán"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayTextValue",
+    "value": "アスワン"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "aswan-personalized-vacation"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "asuan-a-medida-retiro-privado-de-8-dias"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "asuwanteradoritorito-8-nichikan-no-pasonaraizudobakeshon"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Eight private days in one five-star Aswan hotel, where the Nile narrows toward the first cataract: four guided days for Philae, the High Dam, a felucca, the west bank and a Nubian village, an open day in the middle, and Abu Simbel by air if you want it."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Ocho días privados en un mismo hotel de cinco estrellas de Asuán, donde el Nilo se estrecha hacia la primera catarata: cuatro días guiados para Filé, la Gran Presa, una falúa, la orilla oeste y una aldea nubia, un día abierto en el centro y Abu Simbel en avión si lo deseas."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "ナイルが第一急流に向かって狭まるアスワンの、5つ星ホテル1か所で過ごすプライベートな8日間。フィラエ神殿、ハイ・ダム、ファルーカ、西岸、ヌビアの村を巡るガイド付き4日間、中日の空いた日、そしてご希望なら飛行機でアブ・シンベルへ。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-egypt-on-the-go",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Aswan in Eight Days: A Retreat in the Nubian South"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Asuán en ocho días: un retiro en el sur nubio"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "アスワン8日間：ヌビアの南でのリトリート"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}
