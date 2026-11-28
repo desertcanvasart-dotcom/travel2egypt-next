@@ -29,6 +29,12 @@ const MAP = {
   'esna-edfu-kom-ombo-temples-group-day-tour-from-luxor': 'tour/luxor-to-aswan-esna-edfu-kom-ombo-temple-road',
   'abu-simbel-temples-day-tour-from-aswan': 'tour/aswan-to-abu-simbel-temples-ramses-ii-nefertari',
   'dolphin-house-shared-snorkeling-day-from-hurghada': 'tour/dolphin-house-adventure-snorkeling-wild-dolphins-from-hurghada',
+  // Created on Sawa 28 Nov, same trip as ours:
+  'dendera-and-abydos-temple-day-tour-from-hurghada': 'tour/dendera-abydos-from-hurghada-far-temples-day-tour',
+  'nubian-temples-day-tour-from-aswan': 'tour/nubian-temples-lake-nasser-kalabsha-beit-el-wali-kertassi-from-aswan',
+  // Created on Sawa 28 Nov but DIFFERENT from our page (switch on once our page matches):
+  //   'cairo-by-bus-group-day-tour-from-hurghada': 'tour/cairo-by-car-from-hurghada-pyramids-grand-egyptian-museum-citadel'  (Sawa: by car, lunch not included; ours: coach, lunch included)
+  //   'luxor-highlights-group-day-tour-from-hurghada': 'tour/luxor-highlights-from-hurghada-karnak-luxor-temple-valley-kings'  (Sawa: no Valley of the Queens, Nefertari extra; ours: Valley of the Queens + Nefertari included)
   // Group packages (owner, 27 Nov: they follow Sawa's trips; rebuilt 28 Nov, PR #414).
   '9-day-egypt-group-tour-cairo-abu-simbel-nile': 'package/egypt-in-depth-9-day-nile-cruise-cairo',
   // 12-day: switch on once Sawa's "Egypt End to End" has the owner's changes (dahabiya, Abu Simbel by air, Karnak on Day 7).
@@ -39,14 +45,12 @@ const MAP = {
   //
   // Owner, 27 Nov: every T2E group tour not yet on Sawa will be created there. Add each line here
   // once its Sawa page exists (the script checks the page and reads its price):
-  //   'dendera-and-abydos-temple-day-tour-from-hurghada'  (NOT Sawa's Dendera & Abydos from Luxor, a different trip)
   //   'luxor-highlights-group-day-tour-from-hurghada'
   //   'cairo-by-bus-group-day-tour-from-hurghada'
   //   'dolphins-dance-group-shared-seas-full-day-snorkeling-tour'
   //   'giftun-island-shared-snorkeling-day-from-hurghada'
   //   'safaga-to-luxor-full-day-group-ancient-city-adventure'
   //   'group-snorkeling-adventure-in-marsa-alam'  (our page is a private product today: needs group copy + tourMode group)
-  //   'nubian-temples-day-tour-from-aswan'
   //   'dahab-blue-hole-desert-snorkel-group-day-tour-from-sharm'
   //   'jerusalem-dead-sea-bethlehem-group-day-tour-from-sharm'
   //   'mount-sinai-sunrise-trek-group-day-tour'
