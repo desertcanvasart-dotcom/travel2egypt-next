@@ -1,0 +1,964 @@
+{
+ "_createdAt": "2026-05-28T11:45:20Z",
+ "_id": "tour.alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+ "_rev": "z4lDGYHhnnUMuDR355ltMK",
+ "_type": "tour",
+ "_updatedAt": "2026-11-28T13:37:18Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers reading Egypt's Greco-Roman and late-antique chapter — the city that survives mostly underground"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros que quieren anadir Mediterraneo e historia grecorromana"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "カイロのファラオ期の重さを離れ、エジプトの「もうひとつの古代」を読みたい方／灯台や図書館の不在に惹かれる方／ヘレニズムとローマの融合に関心のある方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Alexandria from Cairo: Catacombs, Pompey's Pillar, Greco-Roman Museum & Roman Amphitheatre"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "— A long day north on the desert highway to the city Alexander founded in 331 BC, four sites that survive of the one that doesn't —"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Alexandria is an archaeological paradox: founded by Alexander the Great in 331 BC (the year after his consultation at Siwa in 332 BC), capital of the Ptolemaic world, home to the Library and the Lighthouse and the tomb of Alexander himself — and almost none of it visible above ground. The modern city was built directly over the ancient one, the ancient is excavated slowly under streets and buildings, and what survives is what was underground (the catacombs), too heavy to move (Pompey's Pillar), excavated below modern street level (the amphitheatre), or collected since (the Greco-Roman Museum's permanent holdings)."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "That is the day. Four sites, a single coherent narrative about a city's afterlife, a long drive there and back."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The day, hour by hour"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Early departure from Cairo. The Cairo-Alexandria Desert Highway runs roughly 220 kilometres; the drive takes around two and a half to three hours in normal traffic. The vehicle is private and air-conditioned; the schedule allows arrival in Alexandria mid-morning."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000010",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Catacombs of Kom el-Shoqafa."
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": " The largest known Greco-Roman burial complex in Egypt, discovered in 1900 when a donkey fell through a collapsed passage. Cut into bedrock on three descending levels (the lowest is periodically flooded), in continuous use from the late first century AD through the fourth. The decoration is the value: Egyptian funerary deities — Anubis, Sobek, Thoth — rendered in Hellenistic and Roman style, including the famous panel of Anubis dressed in Roman armour. A specific cultural fusion that exists almost nowhere else."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Pompey's Pillar."
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": " A 26.85-metre monolithic column of red Aswan granite, the largest ancient monolithic column in Egypt outside the Luxor area. The name is a medieval mistake — it was erected in 297 AD in honour of the Emperor Diocletian, not Pompey. It marks the centre of the destroyed Serapeum, the great temple of Serapis the Ptolemies invented to bridge Egyptian and Greek religious sensibilities. The temple was destroyed in 391 AD; the column survived."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000016",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Greco-Roman Museum."
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": " The collection of objects from roughly 300 BC through the seventh century AD — portrait sculpture, terracotta figurines, papyrus fragments, coins, sarcophagi. The museum has had phased restoration in recent years; the guide will indicate which galleries are open the day of your visit."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Roman Amphitheatre at Kom el-Dikka."
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": " The only excavated Roman-period theatre in Egypt. Built in the fourth century AD, thirteen tiers of white marble seating still in place around a small orchestra. The surrounding excavation includes Roman housing, bath complexes, and lecture halls — the actual texture of late antique Alexandria, not the postcard version."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Return drive to Cairo. Drop-off at your hotel in the evening."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Alexandria is an absence as much as it is a place — the Library, the Lighthouse, the tomb of Alexander are all gone, and what remains is the city that grew up around them."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "One long day from Cairo is enough to read what is left."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000030",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Alexandria as a day-return is genuinely long; we can also build it as an overnight with a seafront stay if the schedule allows."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Alejandría desde El Cairo: catacumbas, Pilar de Pompeyo, Museo Grecorromano y anfiteatro romano"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "— Un día largo hacia el norte por la autopista del desierto hasta la ciudad que Alejandro fundó en 331 a. C., cuatro sitios que sobreviven de una que ya no está —"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Alejandría es una paradoja arqueológica: fundada por Alejandro Magno en 331 a. C. (el año siguiente a su consulta al oráculo de Siwa, en 332 a. C.), capital del mundo ptolemaico, sede de la Biblioteca, del Faro y de la tumba del propio Alejandro — y, sin embargo, casi nada de aquello permanece visible sobre el nivel del suelo. La ciudad moderna se construyó directamente sobre la antigua, lo grecorromano se excava lentamente bajo calles y edificios, y lo que sobrevive es lo que estaba enterrado (las catacumbas), lo que pesaba demasiado para moverlo (la columna), lo que se descubrió bajo el pavimento moderno (el anfiteatro) o lo que se ha reunido desde entonces (las colecciones permanentes del Museo Grecorromano)."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Ése es el día. Cuatro sitios, una sola narrativa coherente sobre la vida después de la vida de una ciudad y una larga jornada de ida y vuelta por carretera."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "El día, hora a hora"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Salida muy temprana desde El Cairo. La autopista del desierto Cairo–Alejandría recorre aproximadamente 220 kilómetros; el trayecto dura unas dos horas y media a tres en tráfico normal. El vehículo es privado y climatizado; el horario permite llegar a Alejandría a media mañana."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000010",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Catacumbas de Kom el-Shoqafa."
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": " El mayor complejo funerario grecorromano conocido en Egipto, descubierto en 1900 cuando un burro cayó por una galería derrumbada. Talladas en la roca madre en tres niveles descendentes (el inferior se inunda de forma periódica), en uso continuo desde finales del siglo I d. C. hasta el siglo IV. La decoración es el valor del sitio: deidades funerarias egipcias — Anubis, Sobek, Thot — representadas en estilo helenístico y romano, incluido el famoso panel de Anubis vestido con armadura romana. Una fusión cultural muy específica que apenas se encuentra en otro lugar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Columna de Pompeyo."
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": " Una columna monolítica de 26,85 metros en granito rojo de Asuán, la mayor columna monolítica antigua de Egipto fuera del área de Luxor. El nombre es un malentendido medieval: se erigió en 297 d. C. en honor al emperador Diocleciano, no a Pompeyo. Señala el centro del Serapeum destruido, el gran templo de Serapis que los Ptolomeos inventaron para tender un puente entre las sensibilidades religiosas egipcia y griega. El templo fue destruido en 391 d. C.; la columna sobrevivió."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000016",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Museo Grecorromano."
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": " Colección de objetos que abarca desde aproximadamente 300 a. C. hasta el siglo VII d. C.: escultura de retrato, figuras de terracota, fragmentos de papiro, monedas, sarcófagos. El museo ha sido restaurado por fases en los últimos años; el guía indicará qué salas están abiertas el día de la visita."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Anfiteatro romano de Kom el-Dikka."
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": " El único teatro de época romana excavado en Egipto. Construido en el siglo IV d. C., conserva trece gradas de mármol blanco aún en su sitio en torno a una pequeña orchestra. La excavación circundante incluye viviendas romanas, complejos termales y aulas de enseñanza — la textura real de la Alejandría tardoantigua, no su versión de postal."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Regreso por carretera a El Cairo. Llegada a su hotel al final de la tarde."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Alejandría es una ausencia tanto como un lugar: la Biblioteca, el Faro y la tumba de Alejandro han desaparecido, y lo que queda es la ciudad que creció a su alrededor."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un solo día largo desde El Cairo basta para leer lo que sigue en pie."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "La recompensa es cambiar de Egipto por un dia: del valle y el desierto a una ciudad que siempre miro al mar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000034",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta es una ruta abierta. Si quieres ajustar el ritmo, cambiar el orden de las visitas o añadir un complemento, podemos adaptarla contigo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "アレクサンドリアの一日：失われた都が残した、四つの場所"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "カイロから北へ片道3時間。図書館も灯台もアレクサンドロスの墓も失われたあとに、なお生き残った——四つの場所が物語る、もうひとつのアレクサンドリアへ。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "アレクサンドリアは、考古学上の逆説のような街です。紀元前331年にアレクサンドロス大王が築き、プトレマイオス朝の都となり、図書館、灯台、そしてアレクサンドロス自身の墓——古代世界の象徴がここに集まっていました。それでいて、その大半は地上に残っていません。理由は単純で、現代の街が古代の街の真上にそのまま建てられたからです。残ったものには、いずれも理由があります。地下にあったから（カタコンベ）、重すぎて動かせなかったから（ポンペイの柱）、現代の街路面の下から掘り出されたから（円形劇場）、あるいはあとから集められたから（博物館）。この一日は、その四つの「生き残り方」を順に読むための一日です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "コム・エル・シュカファのカタコンベは、1900年、ロバが崩れた坑道に落ちたことで再発見されたものです。岩盤を掘り下げた三層構造の埋葬複合体で、最下層は時期によって冠水します。紀元1世紀後半から4世紀まで使われ続け、エジプトで知られるかぎり最大のグレコ・ローマ期の墓所です。値打ちは装飾にあります——アヌビス、セベク、トトといったエジプトの葬送の神々が、ヘレニズム＝ローマ様式で表されており、なかでもローマの甲冑をまとったアヌビスの浮彫は、ほかでは見られない、特異な文化の融合の証です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "ポンペイの柱は、二重の意味で「残ったもの」です。高さ26.85メートル、アスワン産赤花崗岩の一枚石——ルクソール周辺を除けば、エジプト最大の古代一枚石円柱で、まず物理的に動かせなかった。そして、その名は中世の取り違えに過ぎず、実際に建てられたのは紀元297年、ポンペイではなくディオクレティアヌス帝を称えてのことでした。柱が立つのは、紀元391年に破壊されたセラペウムの中心。セラペウムは、エジプトとギリシアの宗教感覚を橋渡しするためにプトレマイオス朝が編み出した神セラピスの大神殿——その建物が消えてなお、円柱だけがその場所を指し示しています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "残る二つは、四つめの「生き残り方」を担います。グレコ・ローマ博物館は、紀元前300年ごろから7世紀までの肖像彫刻、テラコッタ像、パピルスの断片、貨幣、石棺——散らばっていたものを一つの建物の中に集めなおしたもの。当日どの展示室が公開されているかは、修復工事の進み具合によって変わりますので、ガイドが現地で案内します。締めくくりはコム・エル・ディッカのローマ円形劇場——エジプトで唯一発掘されたローマ期の劇場で、紀元4世紀のもの。小さなオルケストラのまわりに白大理石の客席が13段、そして周囲の発掘区にはローマ時代の住居、浴場、講堂までもが姿を見せます。絵はがきの姿ではなく、古代末期のアレクサンドリアの実際の手ざわりが、ここにあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "アレクサンドリアでは、街そのものを見ることはできません。見えるのは、街が「ある」ためにかつて要した四種類のもの——地下に隠されたもの、動かしようがないもの、地面の下から掘り出されたもの、そしてあとから集められたもの——だけです。それでも、その四つを一日かけて順に読むことで、図書館や灯台が立っていた頃のこの都の手ざわりが、輪郭のなかにだけ、確かに残ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "これは出発点であり、固定パッケージではありません。プライベートの車両に切り替えたい、アンフーシのシーフードや旧市街での昼食をきちんと組み込みたい、新アレクサンドリア図書館（古代の図書館へのオマージュ）にも立ち寄りたい——そうした一日の組み立て方は、コンシェルジュとご相談ください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "One day shows you ancient Alexandria; the city keeps more — the fortress, the new Library, a fish lunch by the harbour. If the shared day whets your appetite, we can build a private return, or an overnight, around what you wished you'd had time for."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Un día enseña la Alejandría antigua; la ciudad guarda más — la fortaleza, la nueva Biblioteca, un almuerzo de pescado junto al puerto. Si el día compartido te abre el apetito, construimos un regreso privado, o una noche, alrededor de lo que te faltó."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "一日で見えるのは古代のアレクサンドリア。街にはまだ先があります——要塞、新しい図書館、港沿いの魚料理の昼食。乗合の一日で興が乗ったら、心残りを軸にプライベートの再訪や一泊の行程をお作りします。"
+  }
+ ],
+ "customisationOptions": [
+  {
+   "_key": "fqorqonp3h",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Alexandria as a day-return is genuinely long; we can also build it as an overnight with a seafront stay if the schedule allows.",
+   "text": "Make it an overnight with a seafront stay"
+  },
+  {
+   "_key": "huyhafagap",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "If the shared day whets your appetite, we can build a private return, or an overnight, around what you wished you'd had time for.",
+   "text": "Book a private return trip built around your wishes"
+  },
+  {
+   "_key": "dwuzt85pnv",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Si el día compartido te abre el apetito, construimos un regreso privado, o una noche, alrededor de lo que te faltó.",
+   "text": "Reservar un regreso privado construido alrededor de lo que te faltó"
+  },
+  {
+   "_key": "5vziwonv9o",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "乗合の一日で興が乗ったら、心残りを軸にプライベートの再訪や一泊の行程をお作りします。",
+   "text": "希望に合わせたプライベートの再訪を予約する"
+  }
+ ],
+ "durationHours": 13,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Extended · ~13 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Jornada larga · ~13 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "延長・約13時間"
+  }
+ ],
+ "exclusions": [],
+ "groupSize": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "4–12 guests"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "4–12 personas"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "4〜12名"
+  }
+ ],
+ "heroImage": {
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The illuminated Montaza Palace in Alexandria at dusk, its ornate tower and arcades glowing against a deep blue sky"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El palacio de Montaza en Alejandría iluminado al anochecer, con su torre ornamentada y sus arcadas contra un cielo azul intenso"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "深い青の夕空に、装飾的な塔とアーケードが浮かび上がるアレクサンドリアのモンタザ宮殿"
+   }
+  ],
+  "asset": {
+   "_ref": "image-a49594e44637be0789563f831a97e87cd08d59d9-3000x1687-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Montaza Palace glows over its Alexandria gardens at dusk."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El Palacio de Montaza brilla sobre sus jardines de Alejandría al anochecer."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "夕暮れ、アレクサンドリアの庭園に輝くモンタザ宮殿。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "ezadaighdl",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The vehicle is private and air-conditioned; the schedule allows arrival in Alexandria mid-morning.",
+   "text": "Private air-conditioned vehicle"
+  },
+  {
+   "_key": "jfrd0q03fq",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Drop-off at your hotel in the evening.",
+   "text": "Drop-off at your hotel in the evening"
+  },
+  {
+   "_key": "2rhft4mfdw",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The museum has had phased restoration in recent years; the guide will indicate which galleries are open the day of your visit.",
+   "text": "Guide"
+  },
+  {
+   "_key": "a2kukd3pny",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El vehículo es privado y climatizado; el horario permite llegar a Alejandría a media mañana.",
+   "text": "Vehículo privado y climatizado"
+  },
+  {
+   "_key": "4mq600umav",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "当日どの展示室が公開されているかは、修復工事の進み具合によって変わりますので、ガイドが現地で案内します。",
+   "text": "ガイドによる現地案内"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo/"
+ },
+ "relatedTours": [
+  {
+   "_key": "rel_tour_transfer_from_cairo_airport_to_hotel",
+   "_ref": "tour.transfer-from-cairo-airport-to-hotel",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_cairo_dinner_cruise_with_belly_dancing_show",
+   "_ref": "tour.cairo-dinner-cruise-with-belly-dancing-show",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_nmec_royal_mummies_old_cairo",
+   "_ref": "tour.nmec-royal-mummies-old-cairo",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_egyptian_museum_citadel_and_khan_el_khalili_bazaar",
+   "_ref": "tour.egyptian-museum-citadel-and-khan-el-khalili-bazaar",
+   "_type": "reference"
+  }
+ ],
+ "routeLegs": [],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Shared group departure · licensed Egyptologist guide · air-conditioned vehicle · 220 km each way on the Desert Highway"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Salida compartida cultural · Largo, con carretera y visitas urbanas"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "乗合の小グループ出発・冷房付きコーチ・ライセンスを持つエジプト学ガイド・現地滞在およそ5〜6時間"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Long day, ≈12 hours"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Dia completo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "一日（ドアtoドアでおよそ12時間／片道2.5〜3時間）"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Cairo → Alexandria (Catacombs of Kom el-Shoqafa, Pompey's Pillar at the Serapeum, Greco-Roman Museum, Roman Amphitheatre at Kom el-Dikka) → Cairo"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "El Cairo a Alejandria y regreso"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "カイロ → 砂漠道路を北へ約220km → アレクサンドリア（カタコンベ／ポンペイの柱／グレコ・ローマ博物館／ローマ円形劇場） → カイロへ戻る"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "alejandria-desde-el-cairo-catacumbas-columna-y-ciudad-grecorromana"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "arekusandoria-no-ichi-nichi-ushinawa-re-ta-to-ga-nokoshi-ta"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A shared-departure day from Cairo to Alexandria — the Catacombs of Kom el-Shoqafa, the column wrongly named for Pompey, the Greco-Roman Museum, and the Roman amphitheatre at Kom el-Dikka. Back in Cairo by evening."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Salida compartida desde El Cairo a Alejandría — las catacumbas de Kom el-Shoqafa, la columna mal llamada de Pompeyo, el Museo Grecorromano y el anfiteatro de Kom el-Dikka. Regreso a El Cairo por la tarde-noche."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "カイロから北へ片道3時間。図書館も灯台もアレクサンドロスの墓も失われたあとに、なお生き残った——四つの場所が物語る、もうひとつのアレクサンドリアへ。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Alexandria from Cairo: Catacombs, Pompey's Pillar, Greco-Roman Museum & Roman Amphitheatre"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Alejandría desde El Cairo: catacumbas, columna y ciudad grecorromana"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "アレクサンドリアの一日：失われた都が残した、四つの場所"
+  }
+ ],
+ "tourMode": "group",
+ "type": "dayTour"
+}

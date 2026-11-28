@@ -1,0 +1,1098 @@
+{
+ "_createdAt": "2026-05-28T11:45:23Z",
+ "_id": "tour.grand-west-bank-group-day-tour-luxor",
+ "_rev": "HhIJb1c6aSZG708L92qB6g",
+ "_type": "tour",
+ "_updatedAt": "2026-11-28T13:37:22Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers giving Luxor only one West Bank day who want all five major sites covered, with Nefertari's tomb available as an on-request add-on"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Quienes quieren una lectura completa de Tebas occidental"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "西岸に一日を割き、主要遺跡を一度にめぐりたい方（ネフェルタリの墓はご希望に応じて追加）／新王国の「葬制の地理」を一日で読みたい方／ラムセス朝の建築野心をメディネト・ハブで締めくくりたい方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The Grand West Bank: Group Day Tour from Luxor"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "— The full western circuit: the royal necropolis, the queens' tombs, the mortuary temples, and the side of the river where the dead were the architecture —"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "The West Bank at Luxor is the side of the Nile the New Kingdom pharaohs built for the afterlife. The royal tombs were cut into the limestone of the Theban hills, well back from the flood plain. The mortuary temples were placed at the cliff base, where the priests would maintain the cult of the dead king. The Colossi of Memnon are the only standing remnant of the largest mortuary temple ever built (Amenhotep III's), which dissolved otherwise into the surrounding fields."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "This is the full-day version of the West Bank: five major sites in a single day. Nefertari's tomb is not included in the price — it can be added on request, and sometimes needs a separate permit as well as the extra entry fee. The capping option for travellers who want one day on the West Bank rather than two."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The day, hour by hour"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "09:00 pickup from your hotel in Luxor. Drive across the bridge to the West Bank — fifteen minutes."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000010",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Valley of the Kings."
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": " The royal necropolis used from the 16th to the 11th century BC for the pharaohs of the New Kingdom — Thutmose I to Ramses XI. Sixty-three tombs identified; access to three is included in the standard ticket, with the daily rotation set to manage conservation pressure. Tutankhamun's tomb (KV62) and Seti I (KV17) require additional tickets, available separately on site if you want them."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Valley of the Queens."
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": " A short drive south. The burial ground of the queens and royal children of the New Kingdom. The tomb of Nefertari (QV66) — Ramses II's principal wife, and the finest painted tomb in Egypt by most assessments — is not included in the package. It is available on request only: entry carries an extra fee and sometimes requires a separate permit, so ask us when you book."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000016",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Colossi of Memnon."
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": " Two seated quartzite figures of Amenhotep III, each around 18 metres tall, that once flanked the entrance to his mortuary temple. A brief stop; the context is what matters more than the dwell time."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Temple of Hatshepsut."
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": " At Deir el-Bahari, set against an amphitheatre of vertical limestone cliffs. Hatshepsut reigned as pharaoh from roughly 1473 to 1458 BC — one of the longest-reigning female rulers in Egyptian history. The three colonnaded terraces, designed by her architect Senenmut, rise toward a sanctuary cut into the cliff. The Punt expedition reliefs on the middle terrace are the architectural and historical centrepiece. Her surviving obelisk across the river at Karnak — 29.5 metres of red Aswan granite — anchors the same reign on the opposite bank."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Medinet Habu."
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": " Ramses III's mortuary temple from around 1180 BC. The second-largest mortuary temple in Egypt after Karnak, and arguably the best-preserved. Reliefs of the Sea Peoples' invasion on the outer walls; the inner chambers retain pigment that most other Ramesside sites have lost."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": "Return drive to the East Bank. Drop-off at your hotel in the late afternoon."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000022",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "The West Bank is where the New Kingdom buried its kings, its queens, and the architectural ambition that gave the New Kingdom its name."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000024",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A grand day here covers all five major sites; the tomb of Nefertari can be added on request, at an extra fee and subject to a permit."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [],
+       "text": "If your party wants the deeper Theban argument we can pair this with a separate Karnak-and-Luxor-Temple East Bank day, or add the supplementary tickets for KV62 and KV17."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La gran orilla occidental: día completo en grupo desde Luxor"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "— El circuito occidental completo: la necrópolis real, las tumbas de las reinas, los templos funerarios y el lado del río donde los muertos eran la arquitectura —"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "La orilla occidental de Luxor es el lado del Nilo que los faraones del Reino Nuevo construyeron para la vida después de la muerte. Las tumbas reales se excavaron en la caliza de las colinas tebanas, bien alejadas de la llanura aluvial. Los templos funerarios se dispusieron al pie del acantilado, donde los sacerdotes mantendrían el culto al rey difunto. Los colosos de Memnón son el único resto en pie del mayor templo funerario jamás construido (el de Amenhotep III), que se disolvió de otro modo en los campos circundantes."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Ésta es la versión de día completo de la orilla occidental: cinco sitios mayores en una sola jornada. La tumba de Nefertari no está incluida en el precio — puede añadirse bajo petición, con un suplemento y, en ocasiones, un permiso aparte. La opción cumbre para viajeros que tienen un solo día en la orilla occidental y no dos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "El día, hora a hora"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "09:00 recogida en su hotel de Luxor. Cruce del puente a la orilla occidental — quince minutos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000010",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Valle de los Reyes."
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": " Necrópolis real utilizada entre los siglos XVI y XI a. C. por los faraones del Reino Nuevo — de Tutmosis I a Ramsés XI. Se han identificado sesenta y tres tumbas; la entrada estándar da acceso a tres, dentro de la rotación diaria establecida para gestionar la presión de conservación. La tumba de Tutankamón (KV62) y la de Seti I (KV17) requieren billetes adicionales que pueden adquirirse por separado en el sitio."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Valle de las Reinas."
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": " Breve traslado al sur. El lugar de enterramiento de las reinas y los hijos reales del Reino Nuevo. La tumba de Nefertari (QV66) — esposa principal de Ramsés II y, según la mayoría de los criterios, la tumba pintada más fina de Egipto — no está incluida en el paquete. Se visita solo bajo petición: la entrada tiene un coste adicional y a veces requiere un permiso aparte, así que consúltenos al reservar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000016",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Colosos de Memnón."
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": " Dos figuras sedentes en cuarcita de Amenhotep III, cada una de unos 18 metros, que en su día flanquearon la entrada de su templo funerario. Parada breve; importa más el contexto que el tiempo de permanencia."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Templo de Hatshepsut."
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": " En Deir el-Bahari, recortado contra un anfiteatro de acantilados calizos verticales. Hatshepsut reinó como faraón entre, aproximadamente, 1473 y 1458 a. C. — una de las gobernantes femeninas con un reinado más largo de la historia egipcia. Las tres terrazas con columnatas, diseñadas por su arquitecto Senenmut, ascienden hacia un santuario excavado en la roca. Los relieves de la expedición a Punt en la terraza intermedia son el centro arquitectónico e histórico del conjunto. Su obelisco superviviente al otro lado del río, en Karnak — 29,5 metros de granito rojo de Asuán — ancla el mismo reinado en la orilla opuesta."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Medinet Habu."
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [],
+       "text": " Templo funerario de Ramsés III, hacia 1180 a. C. El segundo mayor templo funerario de Egipto después de Karnak y, según muchos especialistas, el mejor conservado. Relieves de la invasión de los Pueblos del Mar en los muros exteriores; las cámaras interiores conservan pigmento que la mayoría de los sitios ramésidas ha perdido."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": "Regreso a la orilla oriental. Llegada a su hotel al final de la tarde."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000022",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "La orilla occidental es donde el Reino Nuevo enterró a sus reyes, a sus reinas y la ambición arquitectónica que dio nombre al propio Reino Nuevo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000024",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un día grande aquí recorre los cinco sitios mayores; la tumba de Nefertari puede añadirse bajo petición, con suplemento y sujeta a permiso."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000034",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [],
+       "text": "La orilla occidental no se entiende en una sola tumba. Se entiende como conjunto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000035",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta es una ruta abierta. Si quieres ajustar el ritmo, cambiar el orden de las visitas o añadir un complemento, podemos adaptarla contigo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "グランド西岸の一日：五つの主要遺跡をめぐる、ルクソール西岸の本気版"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "ルクソール西岸の五つの主要遺跡を一日で。王家の谷、王妃の谷、メムノンの巨像、ハトシェプスト葬祭殿、そしてメディネト・ハブ。ネフェルタリの墓は料金に含まれず、ご希望に応じて追加料金で手配します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールの西岸は、新王国のファラオたちが「来世のために」築いた、ナイルのもう一方の岸です。配置には論理があります——王の墓は氾濫原からよく離れたテーベ丘陵の石灰岩に掘り込まれ、葬祭殿は崖のふもとに置かれ、そこで神官たちが亡き王の祭祀を守りました。メムノンの巨像は、かつて築かれた最大の葬祭殿——アメンホテプ3世のもの——の、地上に立つ唯一の名残です。それ以外はすべて、周りの畑のなかへと溶け去りました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "王家の谷は、紀元前16世紀から11世紀にかけて、トトメス1世からラムセス11世まで、新王国のファラオたちのために使われた王室の墓地です。確認された墓は63基。標準チケットには三基への入場が含まれ、保存への負担を管理するため日替わりの公開となっています。KV62（ツタンカーメン）と KV17（セティ1世）は追加チケットで、希望されれば現地で別途お申し込みいただけます。少し南の王妃の谷では、ネフェルタリの墓（QV66）——ラムセス2世の正妃の、エジプトでもっとも美しい彩色墓のひとつ——は本プランの料金に含まれていません。入場には追加料金がかかり、別途の許可が必要になる場合もあるため、ご希望の方はご予約時にお申し付けください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "メムノンの巨像はアメンホテプ3世を表す、それぞれ高さ18メートルの座像二体——立ち寄りは短いものですが、滞在時間よりもその背景の物語のほうが大切です。ハトシェプスト葬祭殿はデイル・エル・バハリにて、垂直の石灰岩の崖が円形劇場のように囲むなかに建ちます。ハトシェプストは紀元前1473年ごろから1458年ごろまでファラオとして君臨——エジプト史上、最も長く治めた女性統治者のひとりです。建築家センエンムトが設計した三層の列柱テラスは、崖に掘り込まれた聖所へと立ち上がっていきます。中段テラスのプント遠征の浮彫が、建築と歴史の両方の見どころです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "締めくくりはメディネト・ハブ——ラムセス3世の、紀元前1180年ごろの葬祭殿で、カルナックに次いでエジプトで二番目に大きい葬祭殿、そしておそらく最もよく保存されています。外壁には「海の民」の侵攻を描いた浮彫が並び、内室には、ほかの大半のラムセス朝の遺跡が失ってしまった顔料がいまも残っています。一日の終わりにここに立つと、新王国が自らの「新王国」という名にふさわしい建築をいかに置こうとしていたか——その野心が、形のままに伝わってきます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "西岸は、新王国がその王を、王妃を、そして自らの建築への野心を葬った場所です。五つの主要遺跡を一日で見通すこの行程を、私たちは「グランド」と呼んでいます。ネフェルタリの墓は、追加料金と許可の手配のうえ、ご希望に応じて加えられます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "これは出発点であり、固定パッケージではありません。プライベートの車両に切り替えたい、夜明け前のバルーンと組み合わせたい、KV62（ツタンカーメン）や KV17（セティ1世）の追加チケットを組み込みたい、貴族の墓（TT55、TT69 など）を午後に加えたい——そうした一日の組み立て方は、コンシェルジュとご相談ください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58877",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Three tombs are the day's ration; the valley holds more. If you want the extra-ticket tombs — Seti I, Ramses VI — a dawn balloon before the vans roll, or the same ground at a private pace, our concierge will build it into the morning."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Tres tumbas son la ración del día; el valle guarda más. Si quieres las tumbas de entrada especial — Seti I, Ramsés VI —, un globo al amanecer antes de que salgan los vehículos, o el mismo terreno a ritmo privado, nuestro concierge lo integra en la mañana."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "この日の持ち分は墓三つ。谷にはまだ先があります。特別券の墓（セティ1世、ラムセス6世）、車が動き出す前の夜明けの気球、同じ行程をプライベートの歩調で——ご希望はコンシェルジュが朝の行程に組み込みます。"
+  }
+ ],
+ "customisationOptions": [
+  {
+   "_key": "ro4fhg0lao",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A grand day here covers all five major sites; the tomb of Nefertari can be added on request, at an extra fee and subject to a permit.",
+   "text": "Add Nefertari's tomb on request (extra fee, permit)"
+  },
+  {
+   "_key": "1lbohqfdzv",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "If your party wants the deeper Theban argument we can pair this with a separate Karnak-and-Luxor-Temple East Bank day, or add the supplementary tickets for KV62 and KV17.",
+   "text": "Add extra-ticket tombs such as KV62 and KV17"
+  },
+  {
+   "_key": "pm7h41f7nf",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "If your party wants the deeper Theban argument we can pair this with a separate Karnak-and-Luxor-Temple East Bank day, or add the supplementary tickets for KV62 and KV17.",
+   "text": "Pair with a Karnak and Luxor Temple East Bank day"
+  },
+  {
+   "_key": "qt6jmx5qce",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "If you want the extra-ticket tombs — Seti I, Ramses VI — a dawn balloon before the vans roll, or the same ground at a private pace, our concierge will build it into the morning.",
+   "text": "Add a dawn balloon or go at a private pace"
+  },
+  {
+   "_key": "so417x8ik3",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La tumba de Nefertari no está incluida en el precio — puede añadirse bajo petición, con un suplemento y, en ocasiones, un permiso aparte.",
+   "text": "Añadir la tumba de Nefertari bajo petición (con suplemento y permiso)"
+  },
+  {
+   "_key": "3zw07ilyvh",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La tumba de Tutankamón (KV62) y la de Seti I (KV17) requieren billetes adicionales que pueden adquirirse por separado en el sitio.",
+   "text": "Añadir tumbas con billete adicional, como KV62 y KV17"
+  },
+  {
+   "_key": "2io6oxjtk6",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Si quieres las tumbas de entrada especial — Seti I, Ramsés VI —, un globo al amanecer antes de que salgan los vehículos, o el mismo terreno a ritmo privado, nuestro concierge lo integra en la mañana.",
+   "text": "Añadir un globo al amanecer o ir a ritmo privado"
+  },
+  {
+   "_key": "zdtldgvefv",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ネフェルタリの墓は、追加料金と許可の手配のうえ、ご希望に応じて加えられます。",
+   "text": "希望に応じてネフェルタリの墓を追加する（追加料金・許可が必要）"
+  },
+  {
+   "_key": "awcw1vl0tl",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "KV62（ツタンカーメン）と KV17（セティ1世）は追加チケットで、希望されれば現地で別途お申し込みいただけます。",
+   "text": "KV62やKV17など追加チケットが必要な墓を加える"
+  },
+  {
+   "_key": "4ybul2kl9n",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "特別券の墓（セティ1世、ラムセス6世）、車が動き出す前の夜明けの気球、同じ行程をプライベートの歩調で——ご希望はコンシェルジュが朝の行程に組み込みます。",
+   "text": "夜明けの気球を加える、またはプライベートの歩調でめぐる"
+  }
+ ],
+ "durationHours": 8,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Full day · ~8 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Día completo · ~8 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "終日・約8時間"
+  }
+ ],
+ "exclusions": [
+  {
+   "_key": "gyyiufetyp",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Nefertari's tomb is not included in the price — it can be added on request, and sometimes needs a separate permit as well as the extra entry fee.",
+   "text": "Nefertari's tomb (extra entry fee, sometimes a separate permit)"
+  },
+  {
+   "_key": "fma1sykiwl",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Tutankhamun's tomb (KV62) and Seti I (KV17) require additional tickets, available separately on site if you want them.",
+   "text": "Tutankhamun's tomb (KV62) and Seti I (KV17) require additional tickets"
+  },
+  {
+   "_key": "l74fd5ic76",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La tumba de Nefertari no está incluida en el precio — puede añadirse bajo petición, con un suplemento y, en ocasiones, un permiso aparte.",
+   "text": "Tumba de Nefertari (bajo petición, con suplemento)"
+  },
+  {
+   "_key": "1axhluacps",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La tumba de Tutankamón (KV62) y la de Seti I (KV17) requieren billetes adicionales que pueden adquirirse por separado en el sitio.",
+   "text": "Billetes adicionales para las tumbas de Tutankamón (KV62) y Seti I (KV17)"
+  },
+  {
+   "_key": "2mp2qbeumi",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ネフェルタリの墓は料金に含まれず、ご希望に応じて追加料金で手配します。",
+   "text": "ネフェルタリの墓（QV66）"
+  },
+  {
+   "_key": "qp7myldrbk",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "KV62（ツタンカーメン）と KV17（セティ1世）は追加チケットで、希望されれば現地で別途お申し込みいただけます。",
+   "text": "KV62（ツタンカーメン）と KV17（セティ1世）は追加チケット"
+  }
+ ],
+ "groupSize": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "4–12 guests"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "4–12 personas"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "4〜12名"
+  }
+ ],
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The desert valley of the Valley of the Kings at Luxor, tomb entrances and visitors below sheer cliffs"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El Valle de los Reyes en Luxor, con entradas de tumbas y visitantes al pie de los acantilados"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ルクソールの王家の谷。切り立った崖の下に墓の入口と観光客"
+   }
+  ],
+  "asset": {
+   "_ref": "image-b23ab4569092c46b5ec4644fd64f1281923001da-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Visitors explore the Valley of the Kings at Luxor."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Los visitantes recorren el Valle de los Reyes en Luxor."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ルクソールの王家の谷を巡る見学者たち。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "g9rje283zu",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Sixty-three tombs identified; access to three is included in the standard ticket, with the daily rotation set to manage conservation pressure.",
+   "text": "Access to three tombs in the Valley of the Kings"
+  },
+  {
+   "_key": "3us8z9jfwq",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "09:00 pickup from your hotel in Luxor.",
+   "text": "09:00 pickup from your hotel in Luxor"
+  },
+  {
+   "_key": "ki7muyqqre",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Drop-off at your hotel in the late afternoon.",
+   "text": "Drop-off at your hotel"
+  },
+  {
+   "_key": "l61yf0yv4c",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "09:00 recogida en su hotel de Luxor.",
+   "text": "Recogida en su hotel de Luxor"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/grand-west-bank-group-day-tour-luxor/"
+ },
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_88178",
+   "_ref": "wp-page-88178",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88167",
+   "_ref": "wp-page-88167",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_esna_edfu_kom_ombo_temples_group_day_tour_from_luxor",
+   "_ref": "tour.esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88170",
+   "_ref": "wp-page-88170",
+   "_type": "reference"
+  }
+ ],
+ "routeLegs": [],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Shared group departure · licensed Egyptologist guide · air-conditioned vehicle · Nefertari's tomb (QV66) not included — on request, extra fee"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Salida compartida arqueologica · Activo, con tumbas, templos y calor posible"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "乗合の小グループ出発・冷房付き車両・ライセンス付きエジプト学ガイド・ネフェルタリの墓は含まれず（ご希望により追加料金で手配）・西岸のみで完結"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Full day, ≈8–9 hours"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Dia completo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "一日（ドアtoドアでおよそ8〜9時間）"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Luxor East Bank → West Bank (Valley of the Kings, Valley of the Queens, Colossi of Memnon, Hatshepsut at Deir el-Bahari, Medinet Habu) → Luxor East Bank"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Orilla occidental de Luxor"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "ルクソール東岸 → 橋を渡って西岸 → 王家の谷 → 王妃の谷 → メムノンの巨像 → ハトシェプスト葬祭殿 → メディネト・ハブ → 東岸へ戻る"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "grand-west-bank-group-day-tour-luxor"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "la-gran-orilla-occidental-de-luxor-excursion-en-grupo"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "gurando-seigan-no-ichi-nichi-itsutsu-no-shuyo-iseki-o-meguru"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A shared-departure day across Luxor's West Bank — the Valley of the Kings with three tombs, the Valley of the Queens, the Colossi of Memnon, Hatshepsut's mortuary temple, and Medinet Habu. Nefertari's tomb on request, at extra cost."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Salida compartida por la orilla occidental de Luxor — Valle de los Reyes con tres tumbas, Valle de las Reinas, colosos de Memnón, templo funerario de Hatshepsut y Medinet Habu. Tumba de Nefertari bajo petición, con suplemento."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ルクソール西岸の五つの主要遺跡を一日で。王家の谷、王妃の谷、メムノンの巨像、ハトシェプスト葬祭殿、そしてメディネト・ハブ。ネフェルタリの墓は料金に含まれず、ご希望に応じて追加料金で手配します。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "The Grand West Bank: Group Day Tour from Luxor"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "La gran orilla occidental de Luxor: excursión en grupo"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "グランド西岸の一日：五つの主要遺跡をめぐる、ルクソール西岸の本気版"
+  }
+ ],
+ "tourMode": "group",
+ "type": "dayTour"
+}

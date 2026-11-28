@@ -1,0 +1,916 @@
+{
+ "_createdAt": "2026-05-13T22:21:45Z",
+ "_id": "wp-page-115614",
+ "_rev": "pzh5FM4q1DBt3H4LGqNNJZ",
+ "_system": {
+  "base": {
+   "id": "wp-page-115614",
+   "rev": "SrWEF6KlCh2Hm5VWfDhhcC"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:46Z",
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "00000000000c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Join us for an unforgettable journey through the heart of "
+      },
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "000000000001"
+       ],
+       "text": "ancient Egypt"
+      },
+      {
+       "_key": "000000000003",
+       "_type": "span",
+       "marks": [],
+       "text": " with our group tour,"
+      },
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": " \"Safaga to Luxor: Full Day Group Ancient City Adventure,\""
+      },
+      {
+       "_key": "000000000005",
+       "_type": "span",
+       "marks": [],
+       "text": " that uncovers the treasures of "
+      },
+      {
+       "_key": "000000000007",
+       "_type": "span",
+       "marks": [
+        "000000000006"
+       ],
+       "text": "Luxor’s"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": " east and west banks. This well-crafted excursion offers a comprehensive exploration of Luxor’s most important archaeological sites, from the royal tombs in "
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [
+        "000000000009"
+       ],
+       "text": "the Valley of the Kings"
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [],
+       "text": " to the grandeur of Karnak and Luxor Temples. Experience the awe-inspiring legacy of the Pharaohs, brought to life through stories and structures that have withstood the test of time."
+      }
+     ],
+     "markDefs": [
+      {
+       "_key": "000000000001",
+       "_type": "externalLink",
+       "href": "https://en.wikipedia.org/wiki/Ancient_Egypt",
+       "newTab": false
+      },
+      {
+       "_key": "000000000006",
+       "_type": "externalLink",
+       "href": "/cairo-and-nile-cruise-tour",
+       "newTab": false
+      },
+      {
+       "_key": "000000000009",
+       "_type": "externalLink",
+       "href": "/guide/luxor/valley-of-the-kings",
+       "newTab": false
+      }
+     ],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "00000000000c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000ct",
+       "_type": "span",
+       "marks": [],
+       "text": "Acompáñenos en un viaje inolvidable por el corazón del antiguo Egipto con nuestro tour en grupo «De Safaga a Luxor: aventura de día completo por la ciudad antigua», que revela los tesoros de las orillas este y oeste de Luxor. Esta excursión, cuidadosamente diseñada, ofrece una exploración completa de los yacimientos arqueológicos más importantes de Luxor, desde las tumbas reales del Valle de los Reyes hasta la grandiosidad de los templos de Karnak y Luxor. Viva el sobrecogedor legado de los faraones, que cobra vida a través de relatos y estructuras que han resistido el paso del tiempo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "00000000000c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000ct",
+       "_type": "span",
+       "marks": [],
+       "text": "私たちのグループツアー「サファガからルクソールへ：1日かけて巡る古代都市アドベンチャー」で、古代エジプトの中心への忘れがたい旅へご一緒しましょう。ルクソールの東岸と西岸の宝を解き明かすツアーです。丹念に練り上げられたこの小旅行は、王家の谷の王たちの墓から、カルナック神殿とルクソール神殿の壮大さまで、ルクソールでも最も重要な遺跡を余すところなく巡ります。時の試練に耐えてきた物語と建造物を通して、いまに息づくファラオたちの畏敬すべき遺産を体感してください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "3eb413006732",
+   "_ref": "wp-page-58920",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "This Luxor group day starts from Safaga; we run a separate one from Hurghada — the dates and pickup areas differ more than the sights do. Send our concierge your hotel and travel dates and we'll place you on the one that fits, honestly."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Este día de Luxor en grupo sale desde Safaga; operamos otro aparte desde Hurgada — cambian las fechas y las zonas de recogida más que los monumentos. Envía a nuestro concierge tu hotel y tus fechas y te situaremos en el que encaja, con franqueza."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "このルクソールのグループ日帰りはサファガ発です。ハルガダ発は別に催行しています——見どころよりも、催行日と送迎エリアの違いが大きいのです。ご宿泊先と日程をコンシェルジュへ——ふさわしいほうへ、率直にご案内します。"
+  }
+ ],
+ "days": [
+  {
+   "_key": "day-1",
+   "_type": "tourDay",
+   "dayNumber": 1,
+   "morning": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000001",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Once we arrive in Luxor after a scenic journey, our adventure through ancient Egypt begins:"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000019",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Luxor Temple:"
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [],
+         "text": " Dating back to the 18th and 19th dynasties, "
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [
+          "000000000004"
+         ],
+         "text": "Luxor Temple"
+        },
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [],
+         "text": " is a mesmerizing testament to ancient architecture. Connected to "
+        },
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [
+          "000000000007"
+         ],
+         "text": "Karnak Temple"
+        },
+        {
+         "_key": "000000000009",
+         "_type": "span",
+         "marks": [],
+         "text": ", it offers a glimpse into Egypt’s rich history."
+        },
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000000b",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Karnak Temple:"
+        },
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [],
+         "text": " Spanning over 1,300 years of construction, Karnak Temple stands as the largest pharaonic monument in Egypt. Its sprawling grounds and monumental structures are a sight to behold."
+        },
+        {
+         "_key": "00000000000d",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000000e",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Valley of the Kings:"
+        },
+        {
+         "_key": "00000000000f",
+         "_type": "span",
+         "marks": [],
+         "text": " Explore the royal necropolis of the New Kingdom, where the vivid colors and intricate decorations of tombs have endured for centuries. Don’t miss the famed tomb of Tutankhamun."
+        },
+        {
+         "_key": "000000000010",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000011",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Colossi of "
+        },
+        {
+         "_key": "000000000013",
+         "_type": "span",
+         "marks": [
+          "strong",
+          "000000000012"
+         ],
+         "text": "Memnon"
+        },
+        {
+         "_key": "000000000014",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": ":"
+        },
+        {
+         "_key": "000000000015",
+         "_type": "span",
+         "marks": [],
+         "text": " Marvel at the towering statues of Amenhotep III, remnants of a once grand mortuary temple. Legend has it, one of the statues used to emit a mysterious hum at dawn."
+        },
+        {
+         "_key": "000000000016",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000017",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Temple of Queen Hatshepsut:"
+        },
+        {
+         "_key": "000000000018",
+         "_type": "span",
+         "marks": [],
+         "text": " Discover the elegance of Queen Hatshepsut’s mortuary temple, boasting a terraced design and adorned with statues of the queen herself. Explore its chapels dedicated to Hathor and Anubis."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000004",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "http://travel2egypt.org/luxor-travel-guide/the-luxor-temple/"
+         },
+         "_type": "externalLink",
+         "href": "/guide/luxor/the-luxor-temple",
+         "newTab": false
+        },
+        {
+         "_key": "000000000007",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/the-egypt-royal-vacation-tour/"
+         },
+         "_type": "externalLink",
+         "href": "/the-egypt-royal-vacation-tour",
+         "newTab": false
+        },
+        {
+         "_key": "000000000012",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/luxor-travel-guide/the-colossi-of-memnon/"
+         },
+         "_type": "externalLink",
+         "href": "/guide/luxor/the-colossi-of-memnon",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000001",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Una vez que lleguemos a Luxor tras un viaje panorámico, comenzará nuestra aventura por el antiguo Egipto:"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Templo de Luxor:"
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [],
+         "text": " El "
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [
+          "000000000004"
+         ],
+         "text": "Templo de Luxor"
+        },
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [],
+         "text": ", que data de las dinastías XVIII y XIX, es un fascinante testimonio de la arquitectura antigua."
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": " Conectado con el Templo de Karnak, ofrece una visión de la rica historia de Egipto. "
+        },
+        {
+         "_key": "000000000009",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Templo de Karnak:"
+        },
+        {
+         "_key": "00000000000b",
+         "_type": "span",
+         "marks": [],
+         "text": " Con más de 1.300 años de construcción, el Templo de Karnak es el mayor monumento faraónico de Egipto."
+        },
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000000d",
+         "_type": "span",
+         "marks": [],
+         "text": " Sus extensos terrenos y estructuras monumentales son un espectáculo para la vista. "
+        },
+        {
+         "_key": "00000000000e",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000000f",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Valle de los Reyes:"
+        },
+        {
+         "_key": "000000000010",
+         "_type": "span",
+         "marks": [],
+         "text": " Explora la necrópolis real del Nuevo Reino, donde los vivos colores y la intrincada decoración de las tumbas han perdurado durante siglos."
+        },
+        {
+         "_key": "000000000011",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000012",
+         "_type": "span",
+         "marks": [],
+         "text": " No te pierdas la famosa tumba de Tutankamón. "
+        },
+        {
+         "_key": "000000000013",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000014",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Colosos de Memnon:"
+        },
+        {
+         "_key": "000000000015",
+         "_type": "span",
+         "marks": [],
+         "text": " Maravíllate ante las imponentes estatuas de Amenhotep III, vestigios de un templo mortuorio antaño grandioso."
+        },
+        {
+         "_key": "000000000016",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000017",
+         "_type": "span",
+         "marks": [],
+         "text": " Cuenta la leyenda que una de las estatuas emitía un misterioso zumbido al amanecer. "
+        },
+        {
+         "_key": "000000000018",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000019",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Templo de la reina Hatshepsut:"
+        },
+        {
+         "_key": "00000000001a",
+         "_type": "span",
+         "marks": [],
+         "text": " Descubre la elegancia del templo mortuorio de la reina Hatshepsut, con un diseño en terrazas y adornado con estatuas de la propia reina."
+        },
+        {
+         "_key": "00000000001b",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000001c",
+         "_type": "span",
+         "marks": [],
+         "text": " Explora sus capillas dedicadas a Hathor y Anubis. "
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000004",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "http://travel2egypt.org/luxor-travel-guide/the-luxor-temple/"
+         },
+         "_type": "externalLink",
+         "href": "/guide/luxor/the-luxor-temple",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000001",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "素晴らしい景色を楽しみながらルクソールに到着した後、私たちの古代エジプト探訪が始まります："
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000005",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ルクソール神殿"
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": "18王朝と19王朝にさかのぼるルクソール神殿は、古代建築の魅力的な証です。カルナック神殿と繋がっており、エジプトの豊かな歴史を垣間見ることができます。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000009",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "カルナック神殿"
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": "1300年以上にわたる建設期間を誇るカルナック神殿は、エジプト最大のファラオ時代の記念碑です。広大な敷地と壮大な構造物は圧巻です。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "王家の谷"
+        },
+        {
+         "_key": "00000000000b",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [],
+         "text": "新王国時代の王族の墓所を探索します。墓の鮮やかな色彩と精緻な装飾は何世代にもわたって息づいており、ツタンカーメンの墓を見逃すことなく訪れましょう。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000e",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "メムノンの巨像"
+        },
+        {
+         "_key": "00000000000f",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000010",
+         "_type": "span",
+         "marks": [],
+         "text": "アメンホテプ3世の巨大な像に驚嘆します。かつては巨大な葬祭神殿の一部であり、伝説によれば、日の出時に謎の音を発していたと言われています。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000012",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ハトシェプスト女王の神殿"
+        },
+        {
+         "_key": "000000000013",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000014",
+         "_type": "span",
+         "marks": [],
+         "text": "女王ハトシェプストの優雅な葬祭神殿を発見します。階段状のデザインと、女王自身を描いた像が美しく飾られています。ハトホル神とアヌビス神に捧げられた礼拝堂も探索しましょう。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "value": "Luxor’s Ancient Wonders"
+    },
+    {
+     "_key": "es",
+     "value": "Día 1 Las Antiguas Maravillas de Luxor"
+    },
+    {
+     "_key": "ja",
+     "value": "1日目 ルクソールの古代の驚異"
+    }
+   ]
+  }
+ ],
+ "durationDays": 1,
+ "exclusions": [],
+ "groupSize": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "1–30 guests"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "1–30 personas"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "1〜30名"
+  }
+ ],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 131,
+  "ja": 138
+ },
+ "heroImage": {
+  "_type": "image",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Painted hieroglyphic walls and stone sarcophagus inside a royal tomb in Luxor's Valley of the Kings."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Muros con jeroglíficos pintados y sarcófago de piedra en una tumba real del Valle de los Reyes, Luxor."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ルクソールの王家の谷の王墓内部、彩色されたヒエログリフの壁と石棺。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-a359648be9195a545f29f6d421111411c35c36e6-3000x1999-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Vivid burial-chamber paintings surround a broken sarcophagus deep in a Valley of the Kings tomb."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Pinturas funerarias vívidas rodean un sarcófago roto en una tumba del Valle de los Reyes."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "王家の谷の墓の奥、壊れた石棺を鮮やかな埋葬室の壁画が囲む。"
+   }
+  ]
+ },
+ "inclusions": [],
+ "itineraryDays": [],
+ "migration": {
+  "cityResolution": "full-slug-scan",
+  "migratedAt": "2026-05-13T22:21:45.036Z",
+  "source": "wp-import",
+  "wpId": 115614,
+  "wpModifiedAt": "2025-04-09T03:11:54",
+  "wpTemplate": "elementor_header_footer",
+  "wpUrl": "https://travel2egypt.org/safaga-to-luxor-full-day-group-ancient-city-adventure/"
+ },
+ "priceFrom": 120,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_dendera_and_abydos_temples_day_tour",
+   "_ref": "tour.dendera-and-abydos-temples-day-tour",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88178",
+   "_ref": "wp-page-88178",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88167",
+   "_ref": "wp-page-88167",
+   "_type": "reference"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "value": {
+    "_type": "slug",
+    "current": "safaga-to-luxor-full-day-group-ancient-city-adventure"
+   }
+  },
+  {
+   "_key": "es",
+   "value": {
+    "_type": "slug",
+    "current": "excursion-de-un-dia-a-luxor-desde-safaga-unete-a-nuestro-recorrido-en-grupo-por-los-sitios-antiguos"
+   }
+  },
+  {
+   "_key": "ja",
+   "value": {
+    "_type": "slug",
+    "current": "safaga-hatsu-rukusoru-higaeri-tsua-kodai-iseki-o-meguru"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Join us for an unforgettable journey through the heart of ancient Egypt with our group tour, \"Safaga to Luxor: Full Day Group Ancient City Adventure,\" that uncovers the treasures of Luxor’s east and west banks. This well-crafted excursion"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Un tour de grupo de día completo de Safaga a Luxor: el Valle de los Reyes y la grandiosidad de los templos de Karnak y Luxor, en las dos orillas del Nilo."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "サファガからルクソールへ、1日かけて巡るグループツアー。王家の谷と、カルナック神殿・ルクソール神殿の壮大さを、ナイル両岸にわたって。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "value": "Luxor Day Trip from Safaga: Join Our Group Tour of Ancient Sites"
+  },
+  {
+   "_key": "es",
+   "value": "Excursión de un día a Luxor desde Safaga: únete a nuestro recorrido en grupo por los sitios antiguos"
+  },
+  {
+   "_key": "ja",
+   "value": "サファガ発ルクソール日帰りツアー：古代遺跡を巡るグループツアーに参加しよう"
+  }
+ ],
+ "tourMode": "group",
+ "type": "dayTour"
+}
