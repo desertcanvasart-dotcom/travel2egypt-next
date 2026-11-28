@@ -1,0 +1,2832 @@
+{
+ "_createdAt": "2026-05-13T22:24:11Z",
+ "_id": "wp-page-88173",
+ "_rev": "oQIoOuFCFepdOsaLW2EhHl",
+ "_system": {
+  "base": {
+   "id": "wp-page-88173",
+   "rev": "RXaEis6GwtqqeghmdLzGAR"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-26T13:12:26Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Luxor-based travellers who have used their days on the East and West Banks and want to see Giza and the GEM without changing hotels"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros con base en Luxor que ya han usado sus días en las orillas oriental y occidental y quieren ver Guiza y el GEM sin cambiar de hotel"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "ルクソールを拠点に滞在し、宿を移さず一日だけ首都の三本柱を押さえたい時間の限られた旅人"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "One Day in Cairo: Pyramids, Pharaohs, and the Bazaar"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "There is a version of Egypt that belongs entirely to Luxor — the temples, the tombs, the slow rhythm of the Nile valley. Then there is Cairo, which operates on a different scale altogether: louder, denser, and home to monuments so outsized that photographs still fail to prepare you. This day tour exists for travellers who are based in Luxor and want, just once, to cross that divide."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "The logic is straightforward. A domestic flight covers the roughly 670 kilometres between the two cities in under an hour. A full day in Cairo — properly guided, with a driver and an Egyptologist — gets you onto the Giza Plateau, through the Grand Egyptian Museum, and into the lanes of Khan el-Khalili before the return flight brings you back to your Luxor hotel by night. It is a long day. An early start is non-negotiable, the pace is brisk, and you will be on your feet for most of the middle hours. None of that is a reason not to do it; it is simply what the day costs."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "This tour suits Luxor-based travellers who have already used their days on the East and West Banks and want to extend their Egypt trip without changing hotels. It also suits anyone who finds a week in Cairo daunting but wants to see its headline sites honestly rather than through a rushed package. One day is not enough to know Cairo — but it is enough to see what the fuss is about."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "One logistical point that matters before you book: the domestic flight between Luxor and Cairo is not included in the tour price. You arrange and pay for that separately. What the tour covers is everything on the Cairo side — guide, driver, and transfers to and from the airport at both ends."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "private tour, operated for your party alone"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": " — led by a licensed Egyptologist in your language who meets you at Cairo Airport. Because it is private, it "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "runs for as few as one traveller, with no minimum group size and no waiting on other bookings"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "; larger parties are accommodated in a suitable vehicle. "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Private air-conditioned ground transport"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ", the "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Egyptologist guide"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ", and "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "one bottle of mineral water per person"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": " are included. There is "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "no minimum age"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": " — families are welcome — though the day is long and the pace ambitious, so it suits children who can manage an early start and a great deal of walking."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Entrance to the Giza Plateau, one pyramid interior, the Grand Egyptian Museum and lunch are included; domestic flights are not."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "The day begins with a hotel pickup in Luxor and a transfer to Luxor Airport. Timing depends on your chosen flight, but most practical options depart early enough to land in Cairo by mid-morning. Your guide meets you at Cairo Airport on arrival."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "The first stop is the Giza Plateau, which sits on the western edge of the city where Cairo's suburbs give way abruptly to desert. The three pyramids here — built by Khufu (c. 2560 BC), his son Khafre (c. 2530 BC), and grandson Menkaure (c. 2510 BC) — are not clustered as they appear in photographs; the complex is large, and walking it takes time. What strikes most visitors first is not the height but the sheer volume of stone: Khufu's pyramid contains an estimated 2.3 million blocks, most weighing between 2.5 and 15 tonnes. To the east of the pyramid field stands the Great Sphinx, carved from a single limestone outcrop and measuring 73 metres long. It has been heavily restored over the millennia, but its scale and its strange, watchful expression remain intact."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "From Giza the day moves to the Grand Egyptian Museum, which opened fully on 1 November 2025 and sits at the plateau's north-eastern edge, visible from the Sphinx. This is the building that now houses the complete Tutankhamun collection — all 5,000-plus objects recovered from his tomb in 1922 — including the gold mask, the nested coffins, and the ritual furniture that Howard Carter spent a decade cataloguing. The GEM also holds the Great Atrium staircase lined with colossal royal statues, and galleries that move chronologically from the Predynastic period through to the Greco-Roman era. Budget your time accordingly; this is a museum that rewards slow attention and resists being rushed."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "The afternoon ends at Khan el-Khalili, the market district in Islamic Cairo that has operated continuously since the fourteenth century. It is busy, it is loud, and vendors will approach you — all of which is part of what makes it worth the detour. The lanes around the central bazaar hold spice merchants, goldsmiths, papyrus sellers, and workshops producing inlaid woodwork and blown glass. Al-Hussein Square, just at the bazaar's edge, is a reasonable place to stop for tea before the return transfer to Cairo Airport."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "A vehicle will be waiting at Luxor Airport to take you back to your hotel when you land."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "The Giza Plateau in Context"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "It is worth saying plainly what Giza is and is not. The pyramids are not mysterious in their construction — we have substantial archaeological evidence of the ramps, sledges, worker settlements, and administrative records that built them. What remains astonishing is the decision to build at that scale at all: the Khufu pyramid was the tallest man-made structure on earth for nearly four thousand years. The Sphinx is older than the Christian era by roughly 2,500 years. The plateau repays a guide not because the monuments need explaining but because the spatial relationships between the three pyramid complexes, the causeways, the valley temples, and the Sphinx enclosure only become legible once someone walks you through the sequence."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Cairo and Luxor are the same country, but they are not the same Egypt — and the distance between them is worth crossing at least once."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "One day is a narrow window. It is also, at Giza, entirely sufficient to understand why this civilisation still commands attention after four and a half thousand years."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000041",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000040",
+       "_type": "span",
+       "marks": [],
+       "text": "Three tiers (Base / + Entrance Fees / + Entrance Fees & Lunch) let you pay only for what you want; entrance fees are kept separate because Egypt revises them often. Domestic flights between Luxor and Cairo are arranged independently — the concierge can advise on timing so the day's window works."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000044",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000042",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Un día en El Cairo: pirámides, faraones y bazar"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "La jornada privada que cruza, de ida y vuelta, la distancia entre los dos Egiptos que componen el país."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Existe una versión de Egipto que pertenece por completo a Luxor: los templos, las tumbas, el ritmo lento del valle del Nilo. Y existe luego El Cairo, que opera a una escala distinta —más alto, más denso, y hogar de monumentos tan desproporcionados que las fotografías aún no logran preparar al visitante—. Este tour de día completo existe para los viajeros con base en Luxor que quieren, al menos una vez, cruzar esa frontera."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "La lógica es directa. Un vuelo doméstico cubre los aproximadamente 670 kilómetros entre las dos ciudades en menos de una hora. Una jornada completa en El Cairo —con guía y conductor, debidamente coordinada— sirve para pisar la meseta de Guiza, atravesar el Gran Museo Egipcio y entrar por las callejuelas de Jan el-Jalili antes de que el vuelo de regreso devuelva al viajero a su hotel de Luxor para la noche. Es una jornada larga. La salida temprana no es negociable, el ritmo es vivo y se está de pie durante buena parte de las horas centrales. Nada de ello es razón para no hacerlo; es, simplemente, lo que la jornada cuesta."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "El tour se ajusta a los viajeros que ya han dedicado sus días en Luxor a las orillas oriental y occidental y desean prolongar su viaje a Egipto sin cambiar de hotel. Sirve también a quien encuentra abrumadora una semana en El Cairo, pero quiere ver sus monumentos centrales con honestidad y no a través de un paquete apresurado. Un día no basta para conocer El Cairo, pero sí para entender por qué la capital concentra tanto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Un detalle logístico antes de reservar: el vuelo doméstico entre Luxor y El Cairo no está incluido en el precio del tour. Se gestiona y se paga por separado. Lo que el tour cubre es todo lo que ocurre del lado de El Cairo: guía, conductor y traslados entre el aeropuerto y los yacimientos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Se trata de un "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "tour estrictamente privado, operado en exclusiva para su grupo"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": " y conducido por un guía egiptólogo licenciado que le recibe en el aeropuerto de El Cairo. Por su carácter privado, "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "opera desde un único viajero, sin tamaño mínimo de grupo y sin esperas a otras reservas"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "; los grupos más amplios se acomodan en un vehículo adecuado. Se incluyen "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "traslados terrestres privados con aire acondicionado"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ", el "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "guía egiptólogo en su idioma"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": " y "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "una botella de agua mineral por persona"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": ". "
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "No hay edad mínima"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": " —las familias son bienvenidas—, aunque la jornada es larga y el ritmo, ambicioso, de modo que se ajusta a niños capaces de afrontar una salida muy temprana y mucha caminata."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Están incluidos la entrada a la meseta de Guiza, el interior de una pirámide, el Gran Museo Egipcio y el almuerzo; los vuelos domésticos, no."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "La jornada arranca con la recogida en el hotel de Luxor y el traslado al aeropuerto de Luxor. El horario depende del vuelo escogido, pero la mayoría de las combinaciones prácticas salen lo bastante temprano para aterrizar en El Cairo a media mañana. Su guía le espera al llegar al aeropuerto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "La primera parada es la meseta de Guiza, en el extremo occidental de la ciudad, donde los suburbios de El Cairo dejan paso bruscamente al desierto. Las tres pirámides que la coronan —construidas por Keops (hacia el 2560 a. C.), su hijo Kefrén (hacia el 2530 a. C.) y su nieto Micerino (hacia el 2510 a. C.)— no están agrupadas como parecen estarlo en las fotografías; el complejo es amplio y recorrerlo requiere tiempo. Lo que sorprende primero al visitante no es la altura, sino el puro volumen de piedra: se estima que la pirámide de Keops contiene unos 2,3 millones de bloques, la mayoría de entre 2,5 y 15 toneladas. Al este del campo piramidal se alza la Gran Esfinge, tallada en un único afloramiento calizo y de 73 metros de largo. Ha sido restaurada en numerosas ocasiones a lo largo de los milenios, pero su escala y su mirada extraña, vigilante, siguen intactas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde Guiza, el día sigue al Gran Museo Egipcio, que abrió completamente el 1 de noviembre de 2025 y se halla en el extremo nororiental de la meseta, visible desde la Esfinge. Es el edificio que alberga hoy la colección completa de Tutankamón —las más de 5.000 piezas recuperadas en su tumba en 1922— incluida la máscara de oro, los sarcófagos encajados y el mobiliario ritual que Howard Carter dedicó una década a catalogar. El GEM contiene también la escalinata del Gran Atrio flanqueada por estatuas reales colosales y galerías que recorren cronológicamente desde el Predinástico hasta la época grecorromana. Conviene reservar tiempo: es un museo que recompensa la atención pausada y se resiste al apresuramiento. Las momias reales no se encuentran aquí, sino en el Museo Nacional de la Civilización Egipcia (NMEC), en El Cairo Antiguo, y constituyen una visita independiente si su agenda lo permite."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "La tarde se cierra en Jan el-Jalili, el distrito de mercado del Cairo islámico, en funcionamiento continuo desde el siglo XIV. Es bullicioso, ruidoso, y los comerciantes se acercarán a usted, lo cual forma parte de lo que justifica el desvío. Las callejuelas en torno al bazar central reúnen vendedores de especias, orfebres, papireros y talleres que producen marquetería con incrustaciones y vidrio soplado. La plaza de al-Hussein, justo al borde del bazar, es un buen sitio para detenerse a tomar té antes del traslado de regreso al aeropuerto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "En Luxor habrá un vehículo esperando al aterrizar para devolverle a su hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "La meseta de Guiza en su contexto"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Conviene decir con claridad lo que Guiza es y lo que no es. Las pirámides no son misteriosas en su construcción: se conserva sustancial evidencia arqueológica de las rampas, los trineos, los asentamientos obreros y los registros administrativos que las levantaron. Lo que sigue siendo extraordinario es la decisión misma de construir a esa escala: la pirámide de Keops fue la estructura más alta construida por el ser humano durante casi cuatro mil años. La Esfinge precede en unos 2.500 años a la era cristiana. La meseta recompensa al guía no porque los monumentos necesiten explicación, sino porque las relaciones espaciales entre los tres complejos piramidales, las calzadas, los templos del valle y el recinto de la Esfinge solo se vuelven legibles cuando alguien le acompaña por la secuencia."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "El Cairo y Luxor son el mismo país, pero no son el mismo Egipto, y la distancia entre ellos merece cruzarse al menos una vez."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un día es una ventana estrecha. También es, en Guiza, plenamente suficiente para entender por qué esta civilización sigue concitando atención cuatro mil quinientos años después."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000045",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000044",
+       "_type": "span",
+       "marks": [],
+       "text": "Los tres niveles (Base / + entradas / + entradas y almuerzo) permiten pagar solo por lo que interesa; las entradas se mantienen separadas porque Egipto las revisa con frecuencia. Los vuelos domésticos entre Luxor y El Cairo se gestionan de manera independiente y el concierge puede asesorar sobre los horarios para que la ventana del día funcione."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000048",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000046",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロで過ごす一日：ピラミッド、ファラオ、そしてバザール"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "すっかりルクソールに属するエジプトのありようがあります——神殿、墓、そしてナイル渓谷のゆったりとした律動。そしてもう一方にカイロがあり、それはまったく別の規模で動いています——より騒がしく、より密で、写真ではいまだに心の準備が追いつかないほど桁外れの記念建造物の本拠地です。この日帰りツアーは、ルクソールを拠点とし、一度だけ、その隔たりを越えたいと願う旅人のためにあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "その論理は単純です。国内便が、二都市間のおよそ670キロメートルを1時間足らずで結びます。カイロでの丸一日——ドライバーとエジプト学ガイドを伴い、きちんとした案内のもとで——は、あなたをギザ台地へ、大エジプト博物館を抜けて、そしてハーン・ハリーリの路地へと運び、そのうえで帰りの便が、夜にはルクソールのホテルへとお連れします。これは長い一日です。早い出発は譲れず、ペースは速く、真ん中の数時間の大半は歩きづめになります。そのどれも、これをしない理由にはなりません——それは単に、この一日に要する代価なのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "このツアーは、すでに東岸と西岸に日々を費やし、ホテルを移ることなくエジプト旅行を延ばしたいと願うルクソール拠点の旅人に向いています。また、カイロでの一週間を気後れするほどに感じながらも、慌ただしいパッケージを通してではなく、その看板の遺跡を正直に見たいと願う方にもよく合います。一日でカイロを知るには足りません——けれども、何がそんなに騒がれるのかを見るには足ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "ご予約の前に大切な段取り上の一点があります。ルクソールとカイロのあいだの国内便はツアー料金に含まれません。それはお客様ご自身で手配し、別途お支払いいただきます。ツアーが賄うのはカイロ側のすべてです——ガイド、ドライバー、そして両端での空港への送迎。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "一日は、ルクソールでのホテルのお迎えと、ルクソール空港への移動で始まります。時刻はお選びの便によりますが、現実的な選択肢の大半は、午前なかばにはカイロに着けるだけ早く出発します。ガイドが到着時にカイロ空港でお客様をお迎えします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "最初の立ち寄り先はギザ台地で、カイロの郊外が唐突に砂漠へと変わる街の西の縁にあります。ここの三つのピラミッド——クフ（紀元前2560年ごろ）、その子カフラー（紀元前2530年ごろ）、そして孫メンカウラー（紀元前2510年ごろ）によって築かれました——は、写真に見えるようにかたまって並んではいません。複合体は広く、歩いてめぐるには時間がかかります。大半の訪問者がまず打たれるのは高さではなく、まさに石の量です——クフのピラミッドは推定230万個の石塊を含み、その大半は2.5トンから15トンの重さがあります。ピラミッド群の東には大スフィンクスが立ち、ひとつの石灰岩の露頭から彫り出され、全長73メートルを測ります。数千年にわたって大々的に修復されてきましたが、その規模と、奇妙で見張るような表情は、いまも損なわれていません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "ギザから、一日は大エジプト博物館へと移ります。2025年11月1日に全面開館し、台地の北東の縁、スフィンクスから見える場所に立っています。これは、いまや完全なツタンカーメンのコレクション——1922年に彼の墓から回収された5,000点を超えるすべての品々——を収める建物であり、黄金のマスク、入れ子になった棺、そしてハワード・カーターが十年を費やして目録を作った祭祀用の調度を含みます。GEMにはまた、巨大な王の彫像が並ぶ大アトリウムの大階段と、先王朝期からギリシャ・ローマ時代まで時系列で進む展示室があります。時間はそれに見合うように配分してください。これは、ゆっくりとした注意に報い、急がされることを拒む博物館です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "午後はハーン・ハリーリで終わります。14世紀以来絶え間なく営まれてきた、イスラム地区カイロの市場街です。にぎやかで、騒がしく、物売りが声をかけてきます——そのすべてが、回り道の価値を生むものの一部です。中央のバザールを囲む路地には、香辛料商、金細工師、パピルス売り、そして象嵌の木工と吹きガラスを作る工房があります。バザールの縁にあるアル・フセイン広場は、カイロ空港への帰りの移動の前に、お茶のために立ち寄るほどよい場所です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "着陸されたら、ルクソール空港で車両がお待ちし、ホテルへお送りします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "ギザ台地を背景のなかで"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "ギザが何であって何でないのかを、はっきりと述べておく価値があります。ピラミッドはその建造において謎ではありません——私たちは、それらを築いた傾斜路、そり、労働者の集落、そして行政の記録についての確かな考古学的証拠を持っています。いまなお驚くべきなのは、そもそもあの規模で建てようと決めたことです——クフのピラミッドは4,000年近くにわたって世界で最も高い人工建造物でした。スフィンクスはキリスト教の時代よりおよそ2,500年古いものです。台地がガイドに報いるのは、記念建造物が説明を要するからではなく、三つのピラミッド複合体、参道、河岸神殿、そしてスフィンクスの囲い地のあいだの空間的な関係が、誰かにその順序を案内してもらって初めて読み取れるようになるからです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "カイロとルクソールは同じ国でありながら、同じエジプトではありません——そしてその隔たりは、少なくとも一度は越える価値があります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "一日は狭い窓です。それはまた、ギザにおいては、この文明が四千五百年を経てなお関心を集め続ける理由を理解するのに、まったく十分でもあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "国内便の往復、ギザでのペース、GEMでの時間配分、ハーン・ハリーリの夕方——コンシェルジュが、一日に押し込むぶんと、捨てるべきぶんを正直に整えます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000034",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58877",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Fourteen hours door to door sounds generous, but the flights take their share — the Cairo window is finite, and Giza, the Grand Egyptian Museum and Khan el-Khalili would each happily absorb all of it. Tell our concierge which matters most to your party, and we'll weight the hours on the ground around it."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Catorce horas de puerta a puerta suenan generosas, pero los vuelos se llevan su parte: la ventana en El Cairo es finita, y Giza, el Gran Museo Egipcio y Khan el-Khalili podrían absorberla entera cada uno por su cuenta. Dile a nuestro concierge cuál importa más a tu grupo y ajustaremos las horas en tierra en torno a ello."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "ドア・ツー・ドアで約十四時間と聞くと余裕がありそうですが、往復の飛行に時間を渡せば、カイロでの持ち時間は限られています。ギザも、大エジプト博物館も、ハン・ハリーリも——どれか一つだけで一日を使い切れる場所ばかりです。ご一行にとって何が最も大切かをコンシェルジュにお伝えください。地上の時間をそこに寄せて組み立てます。"
+  }
+ ],
+ "customisationOptions": [
+  {
+   "_key": "cpopt1-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Tell us whether Giza, the museum or the bazaar matters most, and we’ll weight the hours"
+  },
+  {
+   "_key": "cpopt2-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Add the Great Pyramid of Khufu or a camel ride"
+  },
+  {
+   "_key": "cpopt1-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.es.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Dinos si te importa más Guiza, el museo o el bazar, y repartimos las horas en consecuencia"
+  },
+  {
+   "_key": "cpopt2-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.es.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Añade la Gran Pirámide de Keops o un paseo en camello"
+  },
+  {
+   "_key": "cpopt1-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.ja.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "ギザ、博物館、バザールのうち、どれをいちばん大切にしたいかお知らせいただければ、それに合わせて時間を配分します"
+  },
+  {
+   "_key": "cpopt2-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.ja.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "クフ王の大ピラミッドの内部、またはラクダ乗りを追加する"
+  }
+ ],
+ "dayTimeline": [
+  {
+   "_key": "dt-en-1",
+   "_type": "dayTourPeriod",
+   "lang": "en",
+   "needsReview": false,
+   "period": "morning",
+   "periodLabel": "The flight and the Giza Plateau",
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "stops": [
+    {
+     "_key": "s1-1",
+     "_type": "dayTourStop",
+     "text": "Your driver takes you to Luxor airport. In Cairo, your Egyptologist meets you on arrival.",
+     "title": "Pickup and the flight north"
+    },
+    {
+     "_key": "s1-2",
+     "_type": "dayTourStop",
+     "includedNote": "Inside a pyramid (included). You go inside the pyramid of Khafre or Menkaure, subject to site rules and availability on the day.",
+     "sites": [
+      {
+       "_key": "x120",
+       "_type": "dayTourSite",
+       "guideRef": {
+        "_ref": "guideArticle.giza.the-great-pyramid-of-khufu",
+        "_type": "reference",
+        "_weak": true
+       },
+       "name": "Great Pyramid of Khufu"
+      },
+      {
+       "_key": "x121",
+       "_type": "dayTourSite",
+       "guideRef": {
+        "_ref": "guideArticle.giza.pyramid-of-khafre",
+        "_type": "reference",
+        "_weak": true
+       },
+       "name": "Pyramid of Khafre"
+      },
+      {
+       "_key": "x122",
+       "_type": "dayTourSite",
+       "guideRef": {
+        "_ref": "guideArticle.giza.pyramid-of-menkaure",
+        "_type": "reference",
+        "_weak": true
+       },
+       "name": "Pyramid of Menkaure"
+      }
+     ],
+     "text": "Khufu’s, Khafre’s and Menkaure’s, built across three generations from around 2560 BC, spread over a larger plateau than photographs suggest. What strikes you first isn’t the height but the volume: Khufu’s holds an estimated 2.3 million blocks.",
+     "title": "The pyramids of Giza"
+    },
+    {
+     "_key": "s1-3",
+     "_type": "dayTourStop",
+     "sites": [
+      {
+       "_key": "x130",
+       "_type": "dayTourSite",
+       "guideRef": {
+        "_ref": "guideArticle.giza.the-great-sphinx",
+        "_type": "reference",
+        "_weak": true
+       },
+       "name": "Great Sphinx"
+      }
+     ],
+     "text": "Cut from the bedrock, 73 metres long, restored many times, its watchful expression still intact.",
+     "title": "The Great Sphinx"
+    },
+    {
+     "_key": "s1-4",
+     "_type": "dayTourStop",
+     "optional": [
+      {
+       "_key": "o140",
+       "_type": "dayTourOptional",
+       "cost": "extraTicket",
+       "text": "Inside the Great Pyramid of Khufu: extra ticket, subject to availability and site rules on the day"
+      },
+      {
+       "_key": "o141",
+       "_type": "dayTourOptional",
+       "cost": "extraCost",
+       "note": "We work with handlers we know, whose animals are in good condition, and the ride is entirely your choice.",
+       "text": "A camel ride: extra cost."
+      }
+     ],
+     "skipGlance": true,
+     "title": "Optional extras, if you’ve chosen them"
+    }
+   ]
+  },
+  {
+   "_key": "dt-en-2",
+   "_type": "dayTourPeriod",
+   "lang": "en",
+   "needsReview": false,
+   "period": "midday",
+   "periodLabel": "Lunch",
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "stops": [
+    {
+     "_key": "s2-1",
+     "_type": "dayTourStop",
+     "text": "Drinks aren’t included.",
+     "title": "Lunch at a local restaurant (included)"
+    }
+   ]
+  },
+  {
+   "_key": "dt-en-3",
+   "_type": "dayTourPeriod",
+   "lang": "en",
+   "needsReview": false,
+   "period": "afternoon",
+   "periodLabel": "The Grand Egyptian Museum and the bazaar",
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "stops": [
+    {
+     "_key": "s3-1",
+     "_type": "dayTourStop",
+     "sites": [
+      {
+       "_key": "x310",
+       "_type": "dayTourSite",
+       "name": "Grand Egyptian Museum"
+      },
+      {
+       "_key": "x311",
+       "_type": "dayTourSite",
+       "name": "Tutankhamun galleries"
+      }
+     ],
+     "text": "Fully open since 1 November 2025, at the plateau’s edge. Here is the complete Tutankhamun collection, more than 5,000 objects from his tomb, including the gold mask and the nested coffins, plus the grand staircase of royal statues and galleries from prehistory to the Romans. A museum that rewards slow attention; your guide focuses the visit.",
+     "title": "The Grand Egyptian Museum"
+    },
+    {
+     "_key": "s3-2",
+     "_type": "dayTourStop",
+     "sites": [
+      {
+       "_key": "x320",
+       "_type": "dayTourSite",
+       "name": "Khan El Khalili"
+      }
+     ],
+     "text": "Busy, loud and trading since the 14th century: spices, gold, papyrus, inlaid wood and blown glass. Stop for tea on Al-Hussein Square before the airport.",
+     "title": "Khan El Khalili"
+    },
+    {
+     "_key": "s3-3",
+     "_type": "dayTourStop",
+     "text": "A driver meets you at Luxor airport and takes you to your hotel.",
+     "title": "The flight back to Luxor"
+    }
+   ]
+  },
+  {
+   "_key": "dt-es-1",
+   "_type": "dayTourPeriod",
+   "lang": "es",
+   "needsReview": false,
+   "period": "morning",
+   "periodLabel": "El vuelo y la meseta de Guiza",
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.es.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "stops": [
+    {
+     "_key": "s1-1",
+     "_type": "dayTourStop",
+     "text": "Tu conductor te lleva al aeropuerto de Luxor. En El Cairo, tu egiptólogo te espera a la llegada.",
+     "title": "Recogida y vuelo hacia el norte"
+    },
+    {
+     "_key": "s1-2",
+     "_type": "dayTourStop",
+     "includedNote": "Interior de una pirámide (incluido). Entras en la pirámide de Kefrén o en la de Micerino, según las normas del recinto y la disponibilidad del día.",
+     "sites": [
+      {
+       "_key": "x120",
+       "_type": "dayTourSite",
+       "guideRef": {
+        "_ref": "guideArticle.giza.the-great-pyramid-of-khufu",
+        "_type": "reference",
+        "_weak": true
+       },
+       "name": "Gran Pirámide de Keops"
+      },
+      {
+       "_key": "x121",
+       "_type": "dayTourSite",
+       "guideRef": {
+        "_ref": "guideArticle.giza.pyramid-of-khafre",
+        "_type": "reference",
+        "_weak": true
+       },
+       "name": "Pirámide de Kefrén"
+      },
+      {
+       "_key": "x122",
+       "_type": "dayTourSite",
+       "guideRef": {
+        "_ref": "guideArticle.giza.pyramid-of-menkaure",
+        "_type": "reference",
+        "_weak": true
+       },
+       "name": "Pirámide de Micerino"
+      }
+     ],
+     "text": "Las de Keops, Kefrén y Micerino, construidas a lo largo de tres generaciones a partir de hacia el 2560 a. C., se reparten por una meseta más amplia de lo que sugieren las fotografías. Lo primero que impresiona no es la altura, sino el volumen: la de Keops reúne, según se calcula, unos 2,3 millones de bloques.",
+     "title": "Las pirámides de Guiza"
+    },
+    {
+     "_key": "s1-3",
+     "_type": "dayTourStop",
+     "sites": [
+      {
+       "_key": "x130",
+       "_type": "dayTourSite",
+       "guideRef": {
+        "_ref": "guideArticle.giza.the-great-sphinx",
+        "_type": "reference",
+        "_weak": true
+       },
+       "name": "Gran Esfinge"
+      }
+     ],
+     "text": "Tallada en la roca madre, de 73 metros de largo, restaurada muchas veces y con su expresión vigilante todavía intacta.",
+     "title": "La Gran Esfinge"
+    },
+    {
+     "_key": "s1-4",
+     "_type": "dayTourStop",
+     "optional": [
+      {
+       "_key": "o140",
+       "_type": "dayTourOptional",
+       "cost": "extraTicket",
+       "text": "Interior de la Gran Pirámide de Keops: entrada aparte, según la disponibilidad y las normas del recinto ese día"
+      },
+      {
+       "_key": "o141",
+       "_type": "dayTourOptional",
+       "cost": "extraCost",
+       "note": "Trabajamos con camelleros que conocemos, cuyos animales están en buen estado, y el paseo es totalmente opcional.",
+       "text": "Paseo en camello: con coste adicional."
+      }
+     ],
+     "skipGlance": true,
+     "title": "Extras opcionales, si los has elegido"
+    }
+   ]
+  },
+  {
+   "_key": "dt-es-2",
+   "_type": "dayTourPeriod",
+   "lang": "es",
+   "needsReview": false,
+   "period": "midday",
+   "periodLabel": "Almuerzo",
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.es.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "stops": [
+    {
+     "_key": "s2-1",
+     "_type": "dayTourStop",
+     "text": "Las bebidas no están incluidas.",
+     "title": "Almuerzo en un restaurante local (incluido)"
+    }
+   ]
+  },
+  {
+   "_key": "dt-es-3",
+   "_type": "dayTourPeriod",
+   "lang": "es",
+   "needsReview": false,
+   "period": "afternoon",
+   "periodLabel": "El Gran Museo Egipcio y el bazar",
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.es.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "stops": [
+    {
+     "_key": "s3-1",
+     "_type": "dayTourStop",
+     "sites": [
+      {
+       "_key": "x310",
+       "_type": "dayTourSite",
+       "name": "Gran Museo Egipcio"
+      },
+      {
+       "_key": "x311",
+       "_type": "dayTourSite",
+       "name": "Galerías de Tutankamón"
+      }
+     ],
+     "text": "Abierto completamente desde el 1 de noviembre de 2025, en el borde de la meseta. Aquí está la colección completa de Tutankamón, más de 5000 objetos de su tumba, entre ellos la máscara de oro y los sarcófagos encajados unos dentro de otros, además de la gran escalera de estatuas reales y galerías que van de la prehistoria a la época romana. Un museo que recompensa la atención pausada; tu guía centra la visita.",
+     "title": "El Gran Museo Egipcio"
+    },
+    {
+     "_key": "s3-2",
+     "_type": "dayTourStop",
+     "sites": [
+      {
+       "_key": "x320",
+       "_type": "dayTourSite",
+       "name": "Jan el-Jalili"
+      }
+     ],
+     "text": "Bullicioso, ruidoso y con comercio desde el siglo XIV: especias, oro, papiro, madera taraceada y vidrio soplado. Para a tomar un té en la plaza de Al-Hussein antes del aeropuerto.",
+     "title": "Jan el-Jalili"
+    },
+    {
+     "_key": "s3-3",
+     "_type": "dayTourStop",
+     "text": "Un conductor te espera en el aeropuerto de Luxor y te lleva a tu hotel.",
+     "title": "El vuelo de regreso a Luxor"
+    }
+   ]
+  },
+  {
+   "_key": "dt-ja-1",
+   "_type": "dayTourPeriod",
+   "lang": "ja",
+   "needsReview": false,
+   "period": "morning",
+   "periodLabel": "フライトとギザの台地",
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.ja.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "stops": [
+    {
+     "_key": "s1-1",
+     "_type": "dayTourStop",
+     "text": "ドライバーがルクソール空港までお送りします。カイロでは、エジプト学者のガイドが到着時にお迎えします。",
+     "title": "お迎えと北へのフライト"
+    },
+    {
+     "_key": "s1-2",
+     "_type": "dayTourStop",
+     "includedNote": "ピラミッド内部の見学（料金に含まれます） 当日の遺跡の規則と空き状況に応じて、カフラー王またはメンカウラー王のピラミッドの内部に入ります。",
+     "sites": [
+      {
+       "_key": "x120",
+       "_type": "dayTourSite",
+       "guideRef": {
+        "_ref": "guideArticle.giza.the-great-pyramid-of-khufu",
+        "_type": "reference",
+        "_weak": true
+       },
+       "name": "クフ王の大ピラミッド"
+      },
+      {
+       "_key": "x121",
+       "_type": "dayTourSite",
+       "guideRef": {
+        "_ref": "guideArticle.giza.pyramid-of-khafre",
+        "_type": "reference",
+        "_weak": true
+       },
+       "name": "カフラー王のピラミッド"
+      },
+      {
+       "_key": "x122",
+       "_type": "dayTourSite",
+       "guideRef": {
+        "_ref": "guideArticle.giza.pyramid-of-menkaure",
+        "_type": "reference",
+        "_weak": true
+       },
+       "name": "メンカウラー王のピラミッド"
+      }
+     ],
+     "text": "クフ王、カフラー王、メンカウラー王のピラミッドは、紀元前2560年頃から3世代にわたって建てられ、写真から想像するよりも広い台地に点在しています。まず心を打つのは高さではなく、その量感です。クフ王のピラミッドには、推定230万個の石材が積まれています。",
+     "title": "ギザのピラミッド"
+    },
+    {
+     "_key": "s1-3",
+     "_type": "dayTourStop",
+     "sites": [
+      {
+       "_key": "x130",
+       "_type": "dayTourSite",
+       "guideRef": {
+        "_ref": "guideArticle.giza.the-great-sphinx",
+        "_type": "reference",
+        "_weak": true
+       },
+       "name": "大スフィンクス"
+      }
+     ],
+     "text": "岩盤から彫り出された、長さ73メートルの像です。何度も修復されてきましたが、見守るような表情は今も失われていません。",
+     "title": "大スフィンクス"
+    },
+    {
+     "_key": "s1-4",
+     "_type": "dayTourStop",
+     "optional": [
+      {
+       "_key": "o140",
+       "_type": "dayTourOptional",
+       "cost": "extraTicket",
+       "text": "クフ王の大ピラミッドの内部：別途入場券。当日の空き状況と遺跡の規則によります"
+      },
+      {
+       "_key": "o141",
+       "_type": "dayTourOptional",
+       "cost": "extraCost",
+       "note": "私たちが信頼するラクダ使いと提携しており、ラクダはよい状態で世話されています。乗るかどうかは、完全にお客様のご判断です。",
+       "text": "ラクダ乗り：別料金。"
+      }
+     ],
+     "skipGlance": true,
+     "title": "オプション（別料金）、お申し込みの場合"
+    }
+   ]
+  },
+  {
+   "_key": "dt-ja-2",
+   "_type": "dayTourPeriod",
+   "lang": "ja",
+   "needsReview": false,
+   "period": "midday",
+   "periodLabel": "昼食",
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.ja.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "stops": [
+    {
+     "_key": "s2-1",
+     "_type": "dayTourStop",
+     "text": "飲み物は含まれません。",
+     "title": "地元のレストランでの昼食（料金に含まれます）"
+    }
+   ]
+  },
+  {
+   "_key": "dt-ja-3",
+   "_type": "dayTourPeriod",
+   "lang": "ja",
+   "needsReview": false,
+   "period": "afternoon",
+   "periodLabel": "大エジプト博物館とバザール",
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.ja.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "stops": [
+    {
+     "_key": "s3-1",
+     "_type": "dayTourStop",
+     "sites": [
+      {
+       "_key": "x310",
+       "_type": "dayTourSite",
+       "name": "大エジプト博物館"
+      },
+      {
+       "_key": "x311",
+       "_type": "dayTourSite",
+       "name": "ツタンカーメンの展示室"
+      }
+     ],
+     "text": "2025年11月1日に全面開館した、ギザの台地の端に建つ博物館です。ここには、ツタンカーメンのコレクションのすべてがあります。黄金のマスクや入れ子になった棺を含む、墓から見つかった5,000点以上の品々です。さらに、王の彫像が並ぶ大階段や、先史時代からローマ時代までの展示室もあります。じっくり向き合うほど応えてくれる博物館で、ガイドが見どころを絞ってご案内します。",
+     "title": "大エジプト博物館"
+    },
+    {
+     "_key": "s3-2",
+     "_type": "dayTourStop",
+     "sites": [
+      {
+       "_key": "x320",
+       "_type": "dayTourSite",
+       "name": "ハーン・ハリーリ"
+      }
+     ],
+     "text": "14世紀から商いが続く、にぎやかで騒がしい市場です。スパイス、金、パピルス、象嵌細工の木工品、吹きガラスが並びます。空港へ向かう前に、フセイン広場でお茶をどうぞ。",
+     "title": "ハーン・ハリーリ"
+    },
+    {
+     "_key": "s3-3",
+     "_type": "dayTourStop",
+     "text": "ルクソール空港でドライバーがお迎えし、ホテルまでお送りします。",
+     "title": "ルクソールへの帰りのフライト"
+    }
+   ]
+  }
+ ],
+ "dayTourIntro": [
+  {
+   "_key": "dti-en",
+   "_type": "dayTourIntro",
+   "closingLine": "Cairo and Luxor are the same country, but not the same Egypt. The distance between them is worth crossing at least once.",
+   "closingRef": "000000000031",
+   "fitFor": [
+    "are based in Luxor, have seen both banks and want Giza and the GEM without changing hotels",
+    "find a week in Cairo daunting but want its headline sites done properly"
+   ],
+   "flightsLine": "not included; we advise on timing",
+   "lang": "en",
+   "lunch": {
+    "status": "included",
+    "text": "included, at a local restaurant"
+   },
+   "needsReview": false,
+   "opening": "Luxor has the temples and the tombs; Cairo has a different scale altogether: louder, denser, with monuments photographs still can’t prepare you for. This private day flies you north for the pyramids of Giza, Tutankhamun’s complete treasure at the Grand Egyptian Museum and the lanes of Khan El Khalili, and flies you back to your Luxor hotel by night. One day isn’t enough to know Cairo, but it’s enough to see what the fuss is about.",
+   "pickupLine": "early morning, from your hotel in Luxor, timed to your flight",
+   "returnNote": "to your Luxor hotel at night",
+   "skipRefs": [
+    "000000000033",
+    "000000000041",
+    "000000000044"
+   ],
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "whyThisOrder": "The flight covers about 670 kilometres in under an hour, so with an early flight you land in Cairo by mid-morning. The plateau comes first, then the museum next door, then the bazaar before the airport. Fourteen hours sounds generous, but the flights take their share and the Cairo window is finite: each of the three stops would happily fill it alone. Tell us which matters most, and we’ll weight the day around it.",
+   "worthKnowing": [
+    "A long day: an early flight, a brisk pace and most of the middle hours on your feet.",
+    "You book and pay for the flights separately; we advise on which flights make the day work.",
+    "There’s no minimum age, but it suits children who can manage an early start and a lot of walking."
+   ]
+  },
+  {
+   "_key": "dti-es",
+   "_type": "dayTourIntro",
+   "closingLine": "El Cairo y Luxor son el mismo país, pero no el mismo Egipto. Merece la pena recorrer al menos una vez la distancia que los separa.",
+   "closingRef": "000000000033",
+   "fitFor": [
+    "te alojas en Luxor, ya has visto las dos orillas y quieres ver Guiza y el Gran Museo Egipcio sin cambiar de hotel",
+    "una semana en El Cairo te abruma, pero quieres ver bien sus lugares principales"
+   ],
+   "flightsLine": "no incluidos; te asesoramos sobre los horarios",
+   "lang": "es",
+   "lunch": {
+    "status": "included",
+    "text": "incluido, en un restaurante local"
+   },
+   "needsReview": false,
+   "opening": "Luxor tiene los templos y las tumbas; El Cairo tiene otra escala por completo: más ruidoso, más denso, con monumentos para los que las fotografías siguen sin prepararte. Este día privado te lleva en avión hacia el norte para ver las pirámides de Guiza, el tesoro completo de Tutankamón en el Gran Museo Egipcio y las callejuelas de Jan el-Jalili, y te devuelve en avión a tu hotel de Luxor por la noche. Un día no basta para conocer El Cairo, pero sí para entender a qué viene tanta fama.",
+   "pickupLine": "a primera hora, en tu hotel de Luxor; la hora la marca tu vuelo",
+   "returnNote": "a tu hotel de Luxor, por la noche",
+   "skipRefs": [
+    "000000000035",
+    "000000000045",
+    "000000000048",
+    "000000000003"
+   ],
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.es.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "whyThisOrder": "El vuelo cubre unos 670 kilómetros en menos de una hora, así que con un vuelo temprano aterrizas en El Cairo a media mañana. Primero la meseta, después el museo, justo al lado, y luego el bazar antes del aeropuerto. Catorce horas parecen muchas, pero los vuelos se llevan su parte y el tiempo en El Cairo es limitado: cualquiera de las tres paradas lo llenaría por sí sola. Dinos cuál te importa más y organizamos el día en torno a ella.",
+   "worthKnowing": [
+    "Es un día largo: un vuelo temprano, un ritmo ágil y casi todas las horas centrales de pie.",
+    "Los vuelos los reservas y los pagas aparte; te asesoramos sobre qué vuelos hacen que el día funcione.",
+    "No hay edad mínima, pero conviene a niños capaces de afrontar un madrugón y mucho caminar."
+   ]
+  },
+  {
+   "_key": "dti-ja",
+   "_type": "dayTourIntro",
+   "closingLine": "カイロとルクソールは同じ国でも、同じエジプトではありません。そのあいだの距離は、一度は越えてみる価値があります。",
+   "closingRef": "000000000021",
+   "fitFor": [
+    "ルクソールに滞在中で、東岸・西岸の両方をすでに見学し、ホテルを替えずにギザと大エジプト博物館を訪れたい方",
+    "カイロで1週間過ごすのは大変そうだけれど、主要な見どころはきちんと見ておきたい方"
+   ],
+   "flightsLine": "含まれません。便の時間についてはアドバイスいたします",
+   "lang": "ja",
+   "lunch": {
+    "status": "included",
+    "text": "地元のレストランでの昼食付き"
+   },
+   "needsReview": false,
+   "opening": "ルクソールには神殿と墓があります。カイロは、まったく違うスケールの街です。より騒がしく、より密集していて、写真を見ていても心の準備ができないほどの遺跡があります。このプライベートツアーでは、空路で北へ向かい、ギザのピラミッド、大エジプト博物館にそろうツタンカーメンの財宝のすべて、ハーン・ハリーリの路地をめぐり、夜には空路でルクソールのホテルへお戻りいただきます。1日でカイロを知ることはできませんが、なぜこれほど話題になるのかを確かめるには十分です。",
+   "pickupLine": "早朝、ルクソール市内のホテル。時間はフライトに合わせます",
+   "returnNote": "夜、ルクソール市内のホテルへ",
+   "skipRefs": [
+    "000000000023",
+    "000000000031",
+    "000000000034"
+   ],
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.ja.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "whyThisOrder": "フライトは約670キロを1時間足らずで結ぶので、早い便なら午前の半ばにはカイロに到着します。最初にギザの台地、次にそのすぐ隣の博物館、そして空港へ向かう前にバザールへ。14時間というとゆとりがあるように聞こえますが、フライトにも時間をとられ、カイロで過ごせる時間には限りがあります。3か所のどれもが、それだけでその時間を埋めてしまうほどです。いちばん大切にしたい場所をお知らせいただければ、それを中心に1日を組み立てます。",
+   "worthKnowing": [
+    "長い1日です。早朝のフライトに、きびきびとしたペース。日中のほとんどの時間は立ったり歩いたりして過ごします。",
+    "航空券は別途ご自身でご予約・お支払いいただきます。1日がうまく回る便選びについては、私たちがアドバイスします。",
+    "年齢制限はありませんが、早起きとたくさん歩くことに対応できるお子様に向いています。"
+   ]
+  }
+ ],
+ "days": [
+  {
+   "_key": "day-1",
+   "_type": "tourDay",
+   "dayNumber": 1,
+   "morning": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000002",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Morning Departure from Luxor:"
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [],
+         "text": " Start your day with a convenient hotel pickup in Luxor, where you'll be escorted in an air-conditioned vehicle to the airport for your flight to Cairo. This marks the beginning of an incredible journey through thousands of years of history."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000005",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Please note:"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": " The domestic flight ticket is not included in the tour price. The listed rate covers only the tour services in Cairo."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Exploration of the Giza Plateau:"
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": " Upon arrival in Cairo, meet your Egyptologist guide who will lead you to the Giza Plateau. Stand in awe of the iconic Pyramids of Cheops, Chephren, and Mykerinos, and marvel at the Sphinx, the timeless sentinel of these ancient treasures."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000009",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Visit to the Egyptian Museum:"
+        },
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": " Continue your historical journey at the Egyptian Museum, which houses an unparalleled collection of artifacts, including the legendary treasures of King Tutankhamun. Explore exhibits that unfold the story of Egypt's fascinating past."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Shopping at Khan el-Khalili:"
+        },
+        {
+         "_key": "00000000000d",
+         "_type": "span",
+         "marks": [],
+         "text": " Wrap up your day with a visit to Khan el-Khalili bazaar, Cairo's renowned marketplace. Dive into the vibrant atmosphere, where you can shop for unique souvenirs, spices, and handmade crafts."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000011",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000f",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Return to Luxor:"
+        },
+        {
+         "_key": "000000000010",
+         "_type": "span",
+         "marks": [],
+         "text": " Your day concludes with a transfer to Cairo Airport for your return flight to Luxor. Upon arrival, a vehicle will take you back to your hotel, ending your day of exploration and discovery."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000004",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Salida matutina de Luxor:"
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [],
+         "text": " Empieza el día con una cómoda recogida en el hotel de Luxor, donde te acompañarán en un vehículo con aire acondicionado al aeropuerto para tomar tu vuelo a El Cairo."
+        },
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [],
+         "text": "Esto marca el comienzo de un increíble viaje a través de miles de años de historia."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Exploración de "
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [
+          "strong",
+          "000000000006"
+         ],
+         "text": "la Meseta de Guiza"
+        },
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": ":"
+        },
+        {
+         "_key": "000000000009",
+         "_type": "span",
+         "marks": [],
+         "text": " A tu llegada a El Cairo, reúnete con tu guía egiptólogo que te conducirá a la Meseta de Guiza."
+        },
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000000b",
+         "_type": "span",
+         "marks": [],
+         "text": "Asómbrate ante las emblemáticas Pirámides de Keops, Kefrén y Mykerinos, y maravíllate ante la "
+        },
+        {
+         "_key": "00000000000d",
+         "_type": "span",
+         "marks": [
+          "00000000000c"
+         ],
+         "text": "Esfinge"
+        },
+        {
+         "_key": "00000000000e",
+         "_type": "span",
+         "marks": [],
+         "text": ", centinela intemporal de estos antiguos tesoros."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000006",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-guiza/la-meseta-de-guiza/"
+         },
+         "_type": "externalLink",
+         "href": "/es/guide/guiza/la-meseta-de-guiza",
+         "newTab": false
+        },
+        {
+         "_key": "00000000000c",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/piramides-de-guiza-esfinge-menfis-y-saqqara/"
+         },
+         "_type": "externalLink",
+         "href": "/es/guiza-menfis-y-saqqara-las-millas-mas-antiguas-de-egipto-en-un-dia",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000010",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Pausa para comer:"
+        },
+        {
+         "_key": "000000000011",
+         "_type": "span",
+         "marks": [],
+         "text": " Después de explorar "
+        },
+        {
+         "_key": "000000000013",
+         "_type": "span",
+         "marks": [
+          "000000000012"
+         ],
+         "text": "las pirámides"
+        },
+        {
+         "_key": "000000000014",
+         "_type": "span",
+         "marks": [],
+         "text": ", disfruta de una relajante pausa para almorzar en un restaurante cuidadosamente seleccionado, donde podrás degustar la deliciosa cocina egipcia."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000012",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/visita-privada-a-las-iconicas-piramides-de-guiza-y-la-esfinge/"
+         },
+         "_type": "externalLink",
+         "href": "/es/piramides-de-guiza-la-esfinge-y-el-cairo-antiguo-tour-privado-de-dia",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000016",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Visita al "
+        },
+        {
+         "_key": "000000000018",
+         "_type": "span",
+         "marks": [
+          "000000000017"
+         ],
+         "text": "Museo Egipcio: Continúa tu viaje histórico en el"
+        },
+        {
+         "_key": "000000000019",
+         "_type": "span",
+         "marks": [],
+         "text": " Museo Egipcio, que alberga una incomparable colección de artefactos, incluidos los legendarios tesoros del rey Tutankamón."
+        },
+        {
+         "_key": "00000000001a",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000001c",
+         "_type": "span",
+         "marks": [
+          "00000000001b"
+         ],
+         "text": "Explora las exposiciones que desvelan la historia"
+        },
+        {
+         "_key": "00000000001d",
+         "_type": "span",
+         "marks": [],
+         "text": " del fascinante pasado de Egipto."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000017",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-el-cairo/el-museo-egipcio/"
+         },
+         "_type": "externalLink",
+         "href": "/es/guide/el-cairo",
+         "newTab": false
+        },
+        {
+         "_key": "00000000001b",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/"
+         },
+         "_type": "externalLink",
+         "href": "/es/blog/explorando-la-gran-esfinge-de-guiza",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000026",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000001f",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "De compras en Khan el-Khalili:"
+        },
+        {
+         "_key": "000000000020",
+         "_type": "span",
+         "marks": [],
+         "text": " Termina el "
+        },
+        {
+         "_key": "000000000022",
+         "_type": "span",
+         "marks": [
+          "000000000021"
+         ],
+         "text": "día con una"
+        },
+        {
+         "_key": "000000000023",
+         "_type": "span",
+         "marks": [],
+         "text": " visita al bazar de Khan el-Khalili, el famoso mercado de El Cairo."
+        },
+        {
+         "_key": "000000000024",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000025",
+         "_type": "span",
+         "marks": [],
+         "text": "Sumérgete en su vibrante atmósfera, donde podrás comprar recuerdos únicos, especias y artesanía hecha a mano."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000021",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/el-tiempo-en-egipto/"
+         },
+         "_type": "externalLink",
+         "href": "/es/travel-tips/el-clima-de-egipto-zonas-climaticas-estaciones-y-cuando-visitar",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000027",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Regreso a Luxor:"
+        },
+        {
+         "_key": "000000000028",
+         "_type": "span",
+         "marks": [],
+         "text": " Tu día concluye con un traslado al aeropuerto de El Cairo para tomar tu vuelo de regreso a Luxor."
+        },
+        {
+         "_key": "000000000029",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000002a",
+         "_type": "span",
+         "marks": [],
+         "text": "A tu llegada, un vehículo te llevará de vuelta a tu hotel, poniendo fin a tu día de exploración y descubrimiento."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000002",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ルクソールからの朝の出発："
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [],
+         "text": " ルクソールのホテルから便利なピックアップで一日がスタート。エアコン完備の車で空港までお送りし、カイロ行きのフライトに搭乗します。この日が数千年の歴史を辿る素晴らしい旅の始まりです。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000005",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ギザ台地の探索："
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": " カイロ到着後、エジプト学者のガイドと合流し、ギザ台地へと向かいます。古代の財宝を守り続けるスフィンクスや、ギザの三大ピラミッド（クフ、カフラー、メンカウラー）に圧倒されることでしょう。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "エジプト博物館訪問："
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": " その後、エジプト博物館で歴史の旅を続けます。ここには、伝説的なツタンカーメン王の財宝をはじめ、比類のない貴重な遺物が展示されています。エジプトの魅力的な過去が繰り広げられる展示品をじっくりと見学しましょう。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000009",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "カーン・エル・ハリリ市場でのショッピング："
+        },
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": " 一日の締めくくりには、カイロの名物市場、カーン・エル・ハリリ市場を訪れます。活気あふれる雰囲気の中で、ユニークなお土産やスパイス、手作りの工芸品を探してみましょう。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ルクソールへの帰路："
+        },
+        {
+         "_key": "00000000000d",
+         "_type": "span",
+         "marks": [],
+         "text": " ツアーを終え、カイロ空港へ送迎され、ルクソール行きの帰りのフライトに搭乗します。ルクソール到着後、ホテルまでの送迎車で、探索と発見の一日を締めくくります。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "value": "Full-Day Trip to Cairo by Plane From Luxor"
+    },
+    {
+     "_key": "es",
+     "value": "Día 1 Excursión de un día a El Cairo en avión desde Luxor"
+    },
+    {
+     "_key": "ja",
+     "value": "1日目 ルクソール発カイロ日帰り飛行機ツアー"
+    }
+   ]
+  }
+ ],
+ "durationDays": 1,
+ "durationHours": 14,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Extended day · ~14 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Día largo · ~14 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "長い1日・約14時間"
+  }
+ ],
+ "exclusions": [
+  {
+   "_key": "cpout1-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Domestic flights between Luxor and Cairo"
+  },
+  {
+   "_key": "cpout2-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Inside the Great Pyramid of Khufu: extra ticket"
+  },
+  {
+   "_key": "cpout3-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Camel ride: extra cost"
+  },
+  {
+   "_key": "cpout4-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Drinks, and anything you buy in the bazaar"
+  },
+  {
+   "_key": "cpout5-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Tipping for your guide: not obligatory, but recommended"
+  },
+  {
+   "_key": "cpout1-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.es.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Vuelos nacionales entre Luxor y El Cairo"
+  },
+  {
+   "_key": "cpout2-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.es.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Interior de la Gran Pirámide de Keops: entrada aparte"
+  },
+  {
+   "_key": "cpout3-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.es.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Paseo en camello: con coste adicional"
+  },
+  {
+   "_key": "cpout4-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.es.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Bebidas, y lo que compres en el bazar"
+  },
+  {
+   "_key": "cpout5-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.es.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Propina para tu guía: no obligatoria, pero recomendada"
+  },
+  {
+   "_key": "cpout1-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.ja.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "ルクソールとカイロ間の国内線航空券"
+  },
+  {
+   "_key": "cpout2-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.ja.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "クフ王の大ピラミッドの内部：別途入場券"
+  },
+  {
+   "_key": "cpout3-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.ja.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "ラクダ乗り：別料金"
+  },
+  {
+   "_key": "cpout4-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.ja.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "飲み物、バザールでのお買い物"
+  },
+  {
+   "_key": "cpout5-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.ja.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "ガイドへのチップ：任意ですが、お渡しいただくことをおすすめします"
+  }
+ ],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 209,
+  "ja": 226
+ },
+ "heroImage": {
+  "_type": "image",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Polished black granite statue of an Egyptian pharaoh in a museum, shown in profile with the nemes headdress"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Estatua de granito negro pulido de un faraón egipcio en un museo, de perfil y con el tocado nemes"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "博物館に置かれた、ネメス頭巾をまとうエジプト王の磨かれた黒い花崗岩の像を横から見る。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-0a1c037f91da64b35cca170ba201671644615a7a-3000x2250-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A granite pharaoh statue on display in a Cairo museum."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Estatua de granito de un faraón expuesta en un museo de El Cairo."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "カイロの博物館に展示された花崗岩の王の像。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "cpin1-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Private tour for your party, from one traveller upward"
+  },
+  {
+   "_key": "cpin2-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "A licensed Egyptologist guide in your language (English, Spanish or Japanese), meeting you at Cairo airport"
+  },
+  {
+   "_key": "cpin3-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Private air-conditioned transfers in Luxor and in Cairo, including the airports"
+  },
+  {
+   "_key": "cpin4-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Entrance to the Giza Plateau, including the Great Sphinx"
+  },
+  {
+   "_key": "cpin5-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Entry inside one pyramid: Khafre or Menkaure"
+  },
+  {
+   "_key": "cpin6-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Entrance to the Grand Egyptian Museum, including the Tutankhamun galleries"
+  },
+  {
+   "_key": "cpin7-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Lunch at a local restaurant"
+  },
+  {
+   "_key": "cpin8-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "A bottle of water per person"
+  },
+  {
+   "_key": "cpin9-en",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Tipping for your driver"
+  },
+  {
+   "_key": "cpin1-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.es.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Excursión privada para tu grupo, desde una sola persona"
+  },
+  {
+   "_key": "cpin2-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.es.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Un guía egiptólogo con licencia, en tu idioma (inglés, español o japonés), que te recibe en el aeropuerto de El Cairo"
+  },
+  {
+   "_key": "cpin3-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.es.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Traslados privados con aire acondicionado en Luxor y en El Cairo, incluidos los aeropuertos"
+  },
+  {
+   "_key": "cpin4-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.es.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Entrada a la meseta de Guiza, incluida la Gran Esfinge"
+  },
+  {
+   "_key": "cpin5-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.es.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Entrada al interior de una pirámide: Kefrén o Micerino"
+  },
+  {
+   "_key": "cpin6-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.es.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Entrada al Gran Museo Egipcio, incluidas las galerías de Tutankamón"
+  },
+  {
+   "_key": "cpin7-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.es.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Almuerzo en un restaurante local"
+  },
+  {
+   "_key": "cpin8-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.es.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Una botella de agua por persona"
+  },
+  {
+   "_key": "cpin9-es",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.es.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "Propina para tu conductor"
+  },
+  {
+   "_key": "cpin1-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.ja.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "お客様のグループだけのプライベートツアー（1名様から）"
+  },
+  {
+   "_key": "cpin2-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.ja.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "ご希望の言語（英語、スペイン語、日本語）を話す公認エジプト学者ガイド（カイロ空港でお迎え）"
+  },
+  {
+   "_key": "cpin3-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.ja.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "ルクソールとカイロでのエアコン付き専用車での送迎（空港を含む）"
+  },
+  {
+   "_key": "cpin4-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.ja.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "ギザの台地の入場料（大スフィンクスを含む）"
+  },
+  {
+   "_key": "cpin5-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.ja.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "ピラミッド1基の内部見学：カフラー王またはメンカウラー王"
+  },
+  {
+   "_key": "cpin6-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.ja.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "大エジプト博物館の入場料（ツタンカーメンの展示室を含む）"
+  },
+  {
+   "_key": "cpin7-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.ja.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "地元のレストランでの昼食"
+  },
+  {
+   "_key": "cpin8-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.ja.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "お一人様1本のミネラルウォーター"
+  },
+  {
+   "_key": "cpin9-ja",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner's locked file review/locked/cairo-day-trip-by-plane-from-luxor-day-tour.ja.md (19 Nov 2026; prices from Autoura for 2 travellers).",
+   "text": "ドライバーへのチップ"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/full-day-trip-to-cairo-by-plane-from-luxor/"
+ },
+ "priceFrom": 198,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_88178",
+   "_ref": "wp-page-88178",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88167",
+   "_ref": "wp-page-88167",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_esna_edfu_kom_ombo_temples_group_day_tour_from_luxor",
+   "_ref": "tour.esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88170",
+   "_ref": "wp-page-88170",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Fully private on the Cairo side · own licensed Egyptologist · air-conditioned vehicle · domestic flights arranged separately · tiered pricing with optional entrance-fee bundle"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Estrictamente privado del lado de El Cairo · egiptólogo licenciado propio · vehículo con aire acondicionado · vuelos domésticos gestionados por separado · tarifas por niveles con paquete de entradas opcional · Muy intenso, con desplazamientos por aire en ambos sentidos"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "完全プライベート・カイロ側で専属のエジプト学ガイド・冷房付き車両・三段階の料金構成・国内便は別途"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Very long day, ≈14 hours door to door"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Jornada muy larga, unas 14 horas puerta a puerta"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "終日、空路の往復込みでおよそ14〜16時間"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Luxor → Cairo by air → Giza Plateau, Grand Egyptian Museum, Khan el-Khalili → Luxor by air"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Luxor → El Cairo en avión → meseta de Guiza, Gran Museo Egipcio, Jan el-Jalili → Luxor en avión"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "ルクソール → カイロ（ギザ台地 → 大エジプト博物館 → ハーン・ハリーリ） → ルクソール"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "full-day-trip-to-cairo-by-plane-from-luxor"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "el-cairo-en-avion-desde-luxor"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "rukusoru-hatsu-hikoki-de-iku-kairo-shujitsu-torippu"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Fly from Luxor to Cairo for a single packed day: the Giza Plateau, the Grand Egyptian Museum, and Khan el-Khalili — then back before dark."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Vuelo desde Luxor a El Cairo para una sola jornada concentrada: la meseta de Guiza, el Gran Museo Egipcio y Jan el-Jalili, con regreso antes del anochecer."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ルクソールからカイロへ飛び、濃密な一日を——ギザ台地、大エジプト博物館、そしてハーン・ハリーリ。そして日が暮れる前に戻ります。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Cairo in a Day by Plane from Luxor: Pyramids, the Grand Egyptian Museum & Khan El Khalili"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "El Cairo en un día en avión desde Luxor: las pirámides, el Gran Museo Egipcio y Jan el-Jalili"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ルクソールから空路で日帰りカイロ：ピラミッド、大エジプト博物館、ハーン・ハリーリ"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}
