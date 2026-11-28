@@ -506,6 +506,21 @@ export const tourSchema = defineType({
     tourPriceNoteField,
     tourSingleSupplementField,
 
+    // ── Booked on Sawa (group day tours, owner 27 Nov 2026) ───────────
+    defineField({
+      name: 'sawaUrl',
+      title: 'Book on Sawa (group tours)',
+      description:
+        'The same tour on sawa.tours, our group-tours site. When set on a GROUP tour, the page\'s booking buttons go to this Sawa page instead of opening our enquiry form (dates, price and booking are handled on Sawa). Set the "From" price to Sawa\'s 8-seat price. Leave empty to keep our own enquiry form.',
+      type: 'url',
+      group: 'pricing',
+      hidden: ({ document }) => document?.tourMode !== 'group',
+      validation: (Rule) =>
+        Rule.uri({ scheme: ['https'] }).custom((v) =>
+          !v || /^https:\/\/sawa\.tours\/(tour|package)\/[a-z0-9-]+$/.test(String(v)) ? true : 'Must be a sawa.tours tour or package page, e.g. https://sawa.tours/tour/<slug>',
+        ),
+    }),
+
     // ── Scheduled departures (group packages only) ────────────────────
     defineField({
       name: 'basePrice',

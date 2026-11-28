@@ -74,7 +74,9 @@ export type AnalyticsEvent =
   // faq_open {journey, question_id}
   | 'select_days'
   | 'select_content'
-  | 'faq_open';
+  | 'faq_open'
+  // Group tours booked on Sawa (2026-11-27): sawa_click {location, tour}
+  | 'sawa_click';
 
 type Params = Record<string, string | number | boolean | undefined>;
 

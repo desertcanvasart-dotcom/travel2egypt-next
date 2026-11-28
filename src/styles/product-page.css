@@ -65,6 +65,8 @@
 }
 .pdp-btn--primary { background: var(--navy); color: var(--paper); border: 1px solid var(--navy); }
 .pdp-btn--primary:hover { background: var(--black); }
+/* The Sawa button (group tours, 27 Nov 2026) is a link: keep the button's colours over `.tour-doc a`. */
+.tour-doc a.pdp-btn--primary, .tour-doc a.pdp-btn--primary:visited, .tour-doc a.pdp-btn--primary:hover { color: var(--paper); text-decoration: none; text-align: center; }
 .pdp-btn--ghost { background: transparent; color: var(--navy); border: 1px solid var(--rule); }
 .pdp-btn--ghost:hover { border-color: var(--navy); }
 .pdp-link { font-size: 14px; color: var(--navy); text-decoration: none; border-bottom: 1px solid var(--rule); align-self: flex-start; }
