@@ -1,0 +1,1699 @@
+{
+ "_createdAt": "2026-05-13T22:22:20Z",
+ "_id": "wp-page-90411",
+ "_rev": "K2pi3eY73hTRu2vMGMySnV",
+ "_system": {
+  "base": {
+   "id": "wp-page-90411",
+   "rev": "WARbvYUZNjQADgogAephpe"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:49Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "First-time visitors who want the canonical river run; travellers who want to add the Nile to a Cairo or Red Sea base; families with older children"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Primer visitante que quiere la travesía canónica del río; viajeros que añaden el Nilo a una base en El Cairo o el mar Rojo; familias con hijos algo mayores"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "はじめてエジプトを訪れ正攻法の川旅を望む方、カイロや紅海拠点に川を足したい方、年齢の上のお子様連れのご家族"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Southbound on the Nile: Five Days from Luxor to Aswan"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A privately guided cruise on the classical Nile corridor — Luxor first, then south against the current of time toward Aswan and the first cataract."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "The Nile cruise is one of the oldest arguments for slow travel, and it makes its case quietly."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Between Luxor and Aswan, the river passes through the most concentrated stretch of ancient monuments on earth. The temples that line its banks were built across more than a thousand years by rulers who understood that the Nile was not merely a waterway but the organising fact of their civilisation — the source of the floods that made the soil fertile, the highway that moved stone from quarry to construction site, the axis around which an empire arranged itself. Travelling it by boat is, in a genuine sense, the historically correct way to make this journey."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "This cruise runs five days from Luxor south to Aswan: Luxor East Bank on the first day, the West Bank on the second, Edfu and Kom Ombo on the third, Aswan on the fourth, departure on the fifth. The logic is the river's own — you follow it south, and the monuments arrange themselves. Your party travels with its own Egyptologist; aboard you have a private cabin on a five-star Nile cruise ship."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor East Bank: Karnak and Luxor Temple"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor was ancient Thebes, the city at the height of Egyptian imperial power, and the East Bank is where that power was made visible."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "You are met at Luxor International Airport and transferred to your five-star Nile cruiser. Lunch is served on board, and the afternoon begins at Karnak — not a single temple but a succession of temples, chapels, pylons, and courts built and enlarged by pharaoh after pharaoh across roughly 1,500 years. Its Great Hypostyle Hall — 134 massive columns in sixteen rows, the tallest reaching 21 metres, surfaces carved floor to ceiling — is one of the most overwhelming interior spaces to survive from the ancient world. As the light goes, the day turns to Luxor Temple, connected to Karnak by the Avenue of Sphinxes (ceremonially reopened in November 2021). You arrive by horse-drawn carriage and visit after dark, when the floodlit columns stand clean against the sky."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "The Theban West Bank: the city of the dead"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "The West Bank is the land of the dead — literally, in ancient Egyptian belief, where the sun set each evening and the dead were therefore buried."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "The day's centrepiece is the Valley of the Kings, the desert valley where the New Kingdom pharaohs cut their tombs into the limestone hills from around 1539 BC onward. More than sixty tombs have been discovered, their painted corridors still bright with scenes of the afterlife and the texts meant to guide the dead through it. Tutankhamun's tomb is the most famous, modest in scale but carrying its own extraordinary story — the contents are now permanently displayed together at the Grand Egyptian Museum at Giza, which fully opened on 1 November 2025. The grander tombs of Ramses III, Ramses VI, and the Thutmosid kings show what royal burial meant at full ambition."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "From the Valley, the day continues to the Mortuary Temple of Hatshepsut at Deir el-Bahari. Hatshepsut governed as pharaoh for roughly two decades in the fifteenth century BC, and her temple rises in three colonnaded terraces against the cliff face, its proportions still arresting after 3,500 years. The day closes at the Colossi of Memnon, the two seated figures of Amenhotep III that are all that remains above ground of what was once the largest mortuary temple in Egypt."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Edfu and Kom Ombo: the river days"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Day three is a travelling day — two of the Nile's finest temples with the river between them."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "The first stop is Edfu, home to the Temple of Horus — the best-preserved temple in Egypt by some distance. Built between 237 and 57 BC in the Ptolemaic period, it has retained its roof, sanctuary, enclosure walls, and two great pylons, which gives it the sense of an intact building rather than a ruin. Walking from the forecourt into the hypostyle hall and then into the increasingly dark inner chambers is as close as Egypt currently offers to experiencing a functioning ancient temple from the inside."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "The afternoon brings Kom Ombo, unusual in Egyptian architecture for being dedicated equally to two gods: Sobek, the crocodile deity, and Horus the Elder. The complex is laid out in exact bilateral symmetry — two sanctuaries, two halls, two of everything — to serve both cults. The museum beside it holds mummified crocodiles recovered from the site. The day ends with a felucca sail around Kitchener's Island, the botanical garden established by Lord Kitchener in the 1890s. The cruiser continues south overnight."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan: Philae, the dam, the Unfinished Obelisk"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan is Egypt's southernmost city of consequence, set where the Nile narrows toward the first cataract. It is quieter than Luxor and noticeably more relaxed."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "The morning begins at the Philae Temple complex, dedicated to the goddess Isis and reached by motorboat to Agilkia Island. Like Abu Simbel further south, Philae was rescued from the rising waters of Lake Nasser in the 1970s, dismantled and reconstructed on higher ground (project completed in 1980). The temple's setting, surrounded by the granite boulders of the cataract, is among the most picturesque in Egypt."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "From Philae the day continues to the Aswan High Dam, completed in 1970, which remade modern Egypt by controlling the annual flood and generating the electricity that powered the country's industrial development — at the cost, among other things, of submerging the monuments that the Philae and Abu Simbel rescue operations saved (Abu Simbel was lifted 65 metres between 1964 and 1968). The final stop is the Unfinished Obelisk, abandoned in its granite quarry. Had it been completed, it would have been the largest obelisk ever cut — around 42 metres, roughly 1,200 tonnes. A crack in the granite forced its abandonment, and it has lain in place for some 3,500 years, still attached to the bedrock."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Departure from Aswan"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "After a final breakfast on the Nile, you are transferred to Aswan International Airport. For travellers with a later departure, arrangements can be made to ensure the remaining hours are spent comfortably rather than at the gate."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Five days on the Nile does not exhaust the river — the river has been here for thirty million years and is entirely indifferent to your schedule. What it does is show you enough of what the Nile made possible that the rest of Egypt begins to make sense."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The shape of the journey"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Where · Luxor (East and West Banks) → Edfu → Kom Ombo → Aswan (Philae, High Dam, Unfinished Obelisk)"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Duration · 5 days / 4 nights aboard a five-star Nile cruise vessel"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "Character · Fully private · your own Egyptologist · standard 4–5 star cruise ship · classical Nile southbound at cruise pace"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Rumbo sur por el Nilo: cinco días de Luxor a Asuán"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un crucero con guía privado por el corredor clásico del Nilo —primero Luxor, luego hacia el sur, contra la corriente del tiempo, hacia Asuán y la primera catarata."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "El crucero por el Nilo es uno de los argumentos más antiguos a favor del viaje pausado, y lo defiende sin alzar la voz."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Entre Luxor y Asuán, el río atraviesa la franja con mayor concentración de monumentos antiguos del planeta. Los templos que jalonan sus orillas fueron edificados a lo largo de más de mil años por gobernantes que comprendían que el Nilo no era solo una vía de agua sino el hecho ordenador de su civilización —la fuente de la crecida que fertilizaba el suelo, la autopista que transportaba la piedra de la cantera al taller, el eje en torno al que un imperio se organizaba. Recorrerlo en barco es, en sentido propio, la forma históricamente correcta de hacer este viaje."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta travesía dura cinco días, de Luxor hacia el sur hasta Asuán: la orilla oriental de Luxor el primero, la occidental el segundo, Edfu y Kom Ombo el tercero, Asuán el cuarto, salida el quinto. La lógica es la del propio río —se le sigue rumbo sur, y los monumentos se van ordenando. El grupo viaja con su propio egiptólogo; a bordo se dispone de camarote privado en un crucero de cinco estrellas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor, orilla oriental: Karnak y el templo de Luxor"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor fue la antigua Tebas, ciudad cumbre del poder imperial egipcio, y la orilla oriental es donde ese poder se hizo visible."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Se recibe al viajero en el aeropuerto internacional de Luxor y se le traslada al crucero de cinco estrellas. El almuerzo se sirve a bordo, y la tarde se abre en Karnak —no un templo único sino una sucesión de templos, capillas, pilonos y patios edificados y ampliados por faraón tras faraón a lo largo de unos 1.500 años. Su Gran Sala Hipóstila —134 columnas masivas en dieciséis hileras, las más altas de 21 metros, con las superficies talladas de suelo a techo— es uno de los espacios interiores más abrumadores que ha sobrevivido del mundo antiguo. En el recinto se levanta también el obelisco superviviente de Hatshepsut, de 29,5 metros, el más alto de Egipto. Al ceder la luz, la jornada se traslada al templo de Luxor, unido a Karnak por la avenida de las Esfinges (reabierta ceremonialmente en noviembre de 2021). Se llega en coche de caballos y se visita ya de noche, cuando las columnas iluminadas se recortan limpias contra el cielo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "La orilla occidental tebana: la ciudad de los muertos"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "La orilla occidental es la tierra de los muertos —literalmente, en la creencia del antiguo Egipto, allí donde el sol se ponía cada tarde y donde por eso se sepultaba a los difuntos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "El centro del día es el Valle de los Reyes, el valle desértico donde los faraones del Reino Nuevo excavaron sus tumbas en las colinas calizas desde hacia el 1539 a. C. en adelante. Se han descubierto más de sesenta, sus corredores pintados todavía vivos con escenas del más allá y con los textos destinados a guiar al muerto en él. La tumba de Tutankamón es la más famosa, modesta en escala pero portadora de una historia propia extraordinaria —su ajuar funerario está hoy expuesto en conjunto y de forma permanente en el Gran Museo Egipcio, junto a Guiza, que abrió plenamente el 1 de noviembre de 2025. Las tumbas más amplias de Ramsés III, Ramsés VI y los Tutmósidas muestran lo que significaba un enterramiento real en su plena ambición."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde el valle, la jornada continúa al templo funerario de Hatshepsut en Deir el-Bahari. Hatshepsut gobernó como faraona durante unas dos décadas en el siglo XV a. C., y su templo asciende en tres terrazas con columnatas contra el acantilado, sus proporciones aún sobrecogedoras tras 3.500 años. El día cierra en los colosos de Memnón, las dos figuras sedentes de Amenhotep III, que son todo lo que queda por encima del suelo de lo que fue el mayor templo funerario de Egipto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Edfu y Kom Ombo: los días de río"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "La tercera jornada es día de navegación —dos de los mejores templos del Nilo con el río en medio."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "La primera parada es Edfu, sede del templo de Horus —con diferencia, el templo mejor conservado de Egipto. Construido entre el 237 y el 57 a. C. en época ptolemaica, ha mantenido techo, santuario, muros de cerca y dos grandes pilonos, lo que le confiere la presencia de un edificio íntegro más que de una ruina. Recorrer su patio delantero hasta la sala hipóstila y luego adentrarse en las cámaras interiores cada vez más oscuras es lo más cerca que Egipto ofrece hoy de experimentar un templo antiguo en funcionamiento desde dentro."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "La tarde trae Kom Ombo, inusual en la arquitectura egipcia por estar dedicado en pie de igualdad a dos divinidades: Sobek, el dios cocodrilo, y Horus el Mayor. La planta se despliega con simetría bilateral exacta —dos santuarios, dos salas, dos de todo— para atender ambos cultos. El museo contiguo guarda los cocodrilos momificados recuperados en el yacimiento. La jornada cierra con un paseo en faluca alrededor de la isla Kitchener, el jardín botánico establecido por lord Kitchener en la década de 1890. El crucero continúa hacia el sur durante la noche."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Asuán: File, la presa, el obelisco inacabado"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Asuán es la ciudad meridional de relieve en Egipto, situada donde el Nilo se estrecha hacia la primera catarata. Es más tranquila que Luxor y palpablemente más distendida."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "La mañana arranca en el conjunto templario de File, dedicado a la diosa Isis y alcanzado en lancha hasta la isla de Agilkia. Como Abu Simbel más al sur, File fue rescatado de las aguas crecientes del lago Nasser y desmontado para reconstruirse en cota más alta entre 1972 y 1980, a unos 500 metros al oeste de su isla original. Su emplazamiento, rodeado por los bloques de granito de la catarata, es de los más pictóricos de Egipto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde File la jornada sigue hacia la presa Alta de Asuán, completada en 1970, que rehízo el Egipto moderno al controlar la crecida anual y al generar la electricidad que impulsó el desarrollo industrial del país —a costa, entre otras cosas, de sumergir los monumentos que las operaciones de rescate de File y Abu Simbel salvaron (Abu Simbel se elevó 65 metros entre 1964 y 1968 bajo dirección de la UNESCO). La construcción de la presa desplazó a alrededor de 100 000 nubios de las tierras inundadas. La última parada es el obelisco inacabado, abandonado en su cantera de granito. De haberse completado, habría sido el mayor obelisco jamás cortado —unos 42 metros, alrededor de 1.200 toneladas. Una fisura en el granito obligó a abandonarlo, y allí lleva tendido unos 3.500 años, aún unido al lecho rocoso."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Salida desde Asuán"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Tras un último desayuno sobre el Nilo, se traslada al viajero al aeropuerto internacional de Asuán. Para quien tiene un vuelo más tardío, podemos organizar las horas restantes de modo que no se pasen en la sala de embarque."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Cinco días sobre el Nilo no agotan el río —el Nilo lleva treinta millones de años aquí y se mantiene completamente indiferente a su agenda. Lo que esos cinco días hacen es mostrarle suficiente de lo que el Nilo hizo posible para que el resto de Egipto empiece a tener sentido."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La forma del viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Dónde · Luxor (orilla oriental y occidental) → Edfu → Kom Ombo → Asuán (File, presa Alta, obelisco inacabado)"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Duración · 5 días / 4 noches a bordo de un crucero fluvial de cinco estrellas"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "Carácter · Salida privada · su propio egiptólogo · barco estándar de 4–5 estrellas · ruta clásica del Nilo rumbo sur, a paso de crucero"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "ナイルを南へ：ルクソールからアスワンへの5日間"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "古典的なナイル回廊をプライベートクルーズで——まずはルクソール、そこから時の流れに逆らうように、アスワンと第一急湍へと南へ向かう。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "ナイルクルーズは、スロー・トラベルを擁護する最も古い議論のひとつであり、その主張は静かに展開します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールとアスワンのあいだ、川は地上でもっとも記念建造物の集中するひと続きの区間を流れます。岸に並ぶ神殿群は、ナイルを単なる水路ではなく文明そのものを成り立たせる事実——氾濫で土を肥やす源、石切場から建設現場へと石を運ぶ大動脈、帝国がみずからを配置する軸——として理解した支配者たちが、千年以上にわたり築いたものです。船でこの川をたどることは、文字どおり史的に正しいやり方だといえます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "このクルーズはルクソールから南へ5日間。初日にルクソール東岸、二日目に西岸、三日目にエドフとコム・オンボ、四日目にアスワン、五日目に出発。流れの論理に身を委ねれば、記念建造物の方が秩序立って現れます。ご一行には専属のエジプト学ガイドが同行し、船上では五つ星のナイルクルーズ船に専用の客室を確保します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソール東岸：カルナックとルクソール神殿"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールは古代テーベ。エジプト帝国の力が頂点にあった都市であり、東岸はその力が可視化された場所です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソール国際空港でお迎えし、五つ星のナイルクルーズ船にお送りします。船上で昼食をとり、午後はカルナックから始めます——単一の神殿ではなく、神殿・礼拝堂・塔門・前庭が、歴代ファラオによりおよそ1,500年かけて積み増され続けた連なりです。中心の大列柱室——16列に並ぶ134本の巨大柱、最も高いものは21メートル、表面は床から天井まで彫り尽くされています——は、古代世界から伝わる屋内空間のなかでもとりわけ圧倒的な一室です。光が傾くころ、スフィンクス参道（2021年11月に式典のうえ再開通）を辿り、ルクソール神殿へ。馬車で乗りつけ、日没後の柱列が空に冴える時刻に訪ねます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "テーベ西岸：死者の街"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "西岸は死者の地——古代エジプトの信仰において、太陽が沈み、死者が葬られる側。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "二日目の中心は王家の谷。新王国時代のファラオたちが、紀元前1539年ごろから石灰岩の丘に墓を刻み始めた砂漠の渓谷で、六十を超える墓が発見されています。彩色された通路には、いまも来世への場面と、それを導く文書が鮮やかに残ります。ツタンカーメンの墓は最も有名で、規模こそ控えめながら、固有の物語をたたえています——出土品は現在、ギザの大エジプト博物館（GEM）で常設展示されています。同館は2025年11月1日に全面開館しました。ラムセス3世、ラムセス6世、トトメス朝の諸王の、より壮大な王墓は、王の埋葬が全規模で行われたときどういうものであったかを示します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "谷からデイル・エル=バハリのハトシェプスト葬祭殿へ。ハトシェプストは紀元前15世紀におよそ20年エジプトを統治し、葬祭殿は崖を背にした三層の列柱テラスとして立ち上がります。3500年を経たいまも、その均整は人を捉えます。一日はメムノンの巨像で締めくくります——アメンホテプ3世の座像二体、地上に残るのはこれだけ。かつて存在したエジプト最大級の葬祭殿の名残です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "エドフとコム・オンボ：川の一日"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "三日目は移動の日——ナイルを挟んだ二つの優れた神殿を訪ねます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "最初はエドフ。ホルス神殿は、エジプトで群を抜いて保存状態の良い神殿で、紀元前237年から57年のプトレマイオス朝期に建てられ、屋根、至聖所、外周壁、二基の大塔門が残ります。廃墟ではなく、ひとつの完結した建築物として歩ける場所です。前庭から列柱室、そしてしだいに暗くなる内陣へと進むときの体験は、機能していた古代神殿の内部を歩く感触に、エジプトで現在もっとも近いものです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "午後はコム・オンボ。エジプトの神殿として異例なのは、二柱の神——ワニのソベクと年長のホルス——にまったく対等に捧げられている点です。中心線で正確に二分される対称構造で、両カルトに同じ平面を提供します。隣の博物館には境内から発掘されたワニのミイラが並びます。一日はキッチナー島周りのフェルッカ帆走で締めくくります——1890年代にキッチナー卿が整えた植物園の島です。船は夜のあいだ南下を続けます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワン：フィラエ、ダム、未完のオベリスク"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワンはエジプト南限の重要都市。ナイルが第一急湍に向けて狭まる地点に位置し、ルクソールよりも静かで、ずっとくつろいだ空気をまといます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "午前はフィラエ神殿複合体から——女神イシスに捧げられ、モーターボートでアギルキア島に渡ります。さらに南のアブ・シンベル同様、フィラエも1970年代、満ちつつあるナセル湖の水から救われ、分解されて高台に再構築されました（事業完了は1980年）。神殿は急湍の花崗岩塊に囲まれ、エジプトでも屈指の絵になる立地です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "フィラエから1970年完成のアスワン・ハイダムへ。氾濫を制御し、エジプトの産業発展を支える電力を生み出し、近代エジプトを造り変えた事業です——その代償として、フィラエとアブ・シンベルの救出が必要となりました（アブ・シンベルは1964〜1968年に65メートル上方へ持ち上げられました）。最後は未完のオベリスク——花崗岩の石切場に置き去られたまま、長さ約42メートル、推定1,200トン。完成していれば史上最大のオベリスクとなったはずですが、花崗岩に走った亀裂のために放棄され、3,500年のあいだ岩盤に半ば繋がれたまま、その場に横たわっています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワンからの出発"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "ナイルの上での最後の朝食を済ませ、アスワン国際空港へお送りします。出発まで時間がある方には、ゲートで待つだけにならないよう手配します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "ナイルの上で5日間。それで川を汲み尽くせるわけではありません——川は三千万年前からそこにあり、こちらの予定にはまったく無関心です。けれども5日は、ナイルが何を可能にしたかを、それ以外のエジプトが意味をもち始めるくらいには示してくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "旅の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · ルクソール（東岸・西岸） → エドフ → コム・オンボ → アスワン（フィラエ、ハイダム、未完のオベリスク）"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "日数 · 5日間／4泊、五つ星ナイルクルーズ船"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド · 標準的な四〜五つ星クルーズ船 · 古典的ナイルを南へ、川のペース"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "wp-page-58877",
+   "_ref": "wp-page-58877",
+   "_type": "reference"
+  },
+  {
+   "_key": "9abc7d4261a5",
+   "_ref": "wp-page-58758",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private journey is built around your party, not the other way around. Tell our team how you'd want to shape it — a Cairo opening with the Grand Egyptian Museum, a Lake Nasser extension after Aswan, more time at Philae — and we'll build the five days to fit."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Un viaje privado se construye en torno a su grupo, no al revés. Cuéntele a nuestro equipo cómo quiere darle forma —una apertura en El Cairo con el Gran Museo Egipcio, una extensión al lago Nasser desde Asuán o más tiempo en File— y armaremos los cinco días a su medida."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "プライベートの旅は、お客様のご一行を軸に組み立てます。GEMを含むカイロ導入、アスワン後のナセル湖延長、フィラエでのゆったりした時間——どんな形にしたいかをお聞かせください。5日間を、それに合わせて組み上げます。"
+  }
+ ],
+ "durationDays": 5,
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 2579,
+  "ja": 2599
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Nile cruise ships moored at Luxor with Luxor Temple's colonnade reflected in the water."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Cruceros del Nilo amarrados en Luxor con la columnata del Templo de Luxor reflejada en el agua."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ルクソールに係留されたナイル川クルーズ船と、水面に映るルクソール神殿の列柱。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-dfa2b0caf6abaa07f7aac3ea8fcb80c81a2f611c-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Cruisers line up at Luxor as the temple's columns shimmer on the Nile at dawn."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Los cruceros se alinean en Luxor mientras las columnas del templo brillan en el Nilo al alba."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "夜明けのルクソール、神殿の列柱がナイル川に揺らめき、クルーズ船が並ぶ。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "z3fn7eguvk",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Duration · 5 days / 4 nights aboard a five-star Nile cruise vessel",
+   "text": "4 nights aboard a five-star Nile cruise vessel"
+  },
+  {
+   "_key": "f4g0b9ihfa",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Your party travels with its own Egyptologist; aboard you have a private cabin on a five-star Nile cruise ship.",
+   "text": "Private cabin on a five-star Nile cruise ship"
+  },
+  {
+   "_key": "ifu9rnzpaf",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Your party travels with its own Egyptologist; aboard you have a private cabin on a five-star Nile cruise ship.",
+   "text": "Your own Egyptologist"
+  },
+  {
+   "_key": "emd6x0461z",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "You are met at Luxor International Airport and transferred to your five-star Nile cruiser.",
+   "text": "Met at Luxor International Airport and transferred to the cruiser"
+  },
+  {
+   "_key": "nimoe9ae7a",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Lunch is served on board, and the afternoon begins at Karnak — not a single temple but a succession of temples, chapels, pylons, and courts built and enlarged by pharaoh after pharaoh across roughly 1,500 years.",
+   "text": "Lunch served on board"
+  },
+  {
+   "_key": "k1uhlsi779",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "You arrive by horse-drawn carriage and visit after dark, when the floodlit columns stand clean against the sky.",
+   "text": "Horse-drawn carriage to Luxor Temple"
+  },
+  {
+   "_key": "6kx84f3lng",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The day ends with a felucca sail around Kitchener's Island, the botanical garden established by Lord Kitchener in the 1890s.",
+   "text": "Felucca sail around Kitchener's Island"
+  },
+  {
+   "_key": "m5chjwju1i",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The morning begins at the Philae Temple complex, dedicated to the goddess Isis and reached by motorboat to Agilkia Island.",
+   "text": "Motorboat to Agilkia Island (Philae)"
+  },
+  {
+   "_key": "cczkfhkeq1",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "After a final breakfast on the Nile, you are transferred to Aswan International Airport.",
+   "text": "Final breakfast and transfer to Aswan International Airport"
+  },
+  {
+   "_key": "zf8dszhw7p",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El grupo viaja con su propio egiptólogo; a bordo se dispone de camarote privado en un crucero de cinco estrellas.",
+   "text": "Egiptólogo propio"
+  },
+  {
+   "_key": "q0pr9spbez",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "El grupo viaja con su propio egiptólogo; a bordo se dispone de camarote privado en un crucero de cinco estrellas.",
+   "text": "Camarote privado en un crucero de cinco estrellas"
+  },
+  {
+   "_key": "4vzgimgcay",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Duración · 5 días / 4 noches a bordo de un crucero fluvial de cinco estrellas",
+   "text": "4 noches a bordo de un crucero fluvial de cinco estrellas"
+  },
+  {
+   "_key": "ce4i2eehnt",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se recibe al viajero en el aeropuerto internacional de Luxor y se le traslada al crucero de cinco estrellas.",
+   "text": "Recepción en el aeropuerto internacional de Luxor y traslado al crucero"
+  },
+  {
+   "_key": "hm5o66xnps",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Tras un último desayuno sobre el Nilo, se traslada al viajero al aeropuerto internacional de Asuán.",
+   "text": "Traslado al aeropuerto internacional de Asuán"
+  },
+  {
+   "_key": "flgsq5g55s",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ご一行には専属のエジプト学ガイドが同行し、船上では五つ星のナイルクルーズ船に専用の客室を確保します。",
+   "text": "専属のエジプト学ガイド"
+  },
+  {
+   "_key": "z8url7yzcd",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ご一行には専属のエジプト学ガイドが同行し、船上では五つ星のナイルクルーズ船に専用の客室を確保します。",
+   "text": "五つ星のナイルクルーズ船の専用客室"
+  },
+  {
+   "_key": "jgea0gzvop",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "日数 · 5日間／4泊、五つ星ナイルクルーズ船",
+   "text": "5日間／4泊、五つ星ナイルクルーズ船"
+  },
+  {
+   "_key": "2qq3tq650h",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ルクソール国際空港でお迎えし、五つ星のナイルクルーズ船にお送りします。",
+   "text": "ルクソール国際空港でのお迎えとクルーズ船への送迎"
+  },
+  {
+   "_key": "70hx3t2ic",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ナイルの上での最後の朝食を済ませ、アスワン国際空港へお送りします。",
+   "text": "アスワン国際空港への送迎"
+  }
+ ],
+ "itineraryDays": [
+  {
+   "_key": "rinmoeyvpg",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Nile cruise",
+   "overnightNeedsReview": true,
+   "source": "You are met at Luxor International Airport and transferred to your five-star Nile cruiser.",
+   "title": "Luxor East Bank: Karnak and Luxor Temple"
+  },
+  {
+   "_key": "ck5dvonvqe",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Nile cruise",
+   "overnightNeedsReview": true,
+   "source": "From the Valley, the day continues to the Mortuary Temple of Hatshepsut at Deir el-Bahari.",
+   "title": "The Theban West Bank"
+  },
+  {
+   "_key": "kjifdeph0l",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Nile cruise",
+   "overnightNeedsReview": true,
+   "source": "Day three is a travelling day — two of the Nile's finest temples with the river between them.",
+   "title": "Edfu and Kom Ombo: the river days"
+  },
+  {
+   "_key": "aam08giyyn",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Nile cruise",
+   "overnightNeedsReview": true,
+   "source": "The morning begins at the Philae Temple complex, dedicated to the goddess Isis and reached by motorboat to Agilkia Island.",
+   "title": "Aswan: Philae, the dam, the Unfinished Obelisk"
+  },
+  {
+   "_key": "hkolxxs21e",
+   "_type": "itineraryDay",
+   "day": 5,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "After a final breakfast on the Nile, you are transferred to Aswan International Airport.",
+   "title": "Departure from Aswan"
+  },
+  {
+   "_key": "sgrrxa81bz",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Crucero de cinco estrellas",
+   "overnightNeedsReview": true,
+   "source": "Se recibe al viajero en el aeropuerto internacional de Luxor y se le traslada al crucero de cinco estrellas.",
+   "title": "Luxor, orilla oriental: Karnak y templo de Luxor"
+  },
+  {
+   "_key": "ok4tl0ecqs",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Crucero de cinco estrellas",
+   "overnightNeedsReview": true,
+   "source": "Esta travesía dura cinco días, de Luxor hacia el sur hasta Asuán: la orilla oriental de Luxor el primero, la occidental el segundo, Edfu y Kom Ombo el tercero, Asuán el cuarto, salida el quinto.",
+   "title": "La orilla occidental tebana"
+  },
+  {
+   "_key": "h7awoczbug",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Crucero de cinco estrellas",
+   "overnightNeedsReview": true,
+   "source": "La tercera jornada es día de navegación —dos de los mejores templos del Nilo con el río en medio.",
+   "title": "Edfu y Kom Ombo: día de navegación"
+  },
+  {
+   "_key": "qy29ga8hbw",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Crucero de cinco estrellas",
+   "overnightNeedsReview": true,
+   "source": "Esta travesía dura cinco días, de Luxor hacia el sur hasta Asuán: la orilla oriental de Luxor el primero, la occidental el segundo, Edfu y Kom Ombo el tercero, Asuán el cuarto, salida el quinto.",
+   "title": "Asuán: File, la presa, el obelisco inacabado"
+  },
+  {
+   "_key": "ril468trub",
+   "_type": "itineraryDay",
+   "day": 5,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "Tras un último desayuno sobre el Nilo, se traslada al viajero al aeropuerto internacional de Asuán.",
+   "title": "Salida desde Asuán"
+  },
+  {
+   "_key": "q0dqnmrw97",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "ナイルクルーズ船",
+   "overnightNeedsReview": true,
+   "source": "ルクソール国際空港でお迎えし、五つ星のナイルクルーズ船にお送りします。",
+   "title": "ルクソール東岸：カルナックとルクソール神殿"
+  },
+  {
+   "_key": "ypcwx89h65",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "ナイルクルーズ船",
+   "overnightNeedsReview": true,
+   "source": "二日目の中心は王家の谷。",
+   "title": "テーベ西岸：死者の街"
+  },
+  {
+   "_key": "6lqkzg1vdh",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "ナイルクルーズ船",
+   "overnightNeedsReview": true,
+   "source": "三日目は移動の日——ナイルを挟んだ二つの優れた神殿を訪ねます。",
+   "title": "エドフとコム・オンボ：川の一日"
+  },
+  {
+   "_key": "w0gr8kihm5",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "ナイルクルーズ船",
+   "overnightNeedsReview": true,
+   "source": "初日にルクソール東岸、二日目に西岸、三日目にエドフとコム・オンボ、四日目にアスワン、五日目に出発。",
+   "title": "アスワン：フィラエ、ダム、未完のオベリスク"
+  },
+  {
+   "_key": "21wjdovgiv",
+   "_type": "itineraryDay",
+   "day": 5,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "ナイルの上での最後の朝食を済ませ、アスワン国際空港へお送りします。",
+   "title": "アスワンからの出発"
+  }
+ ],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/5-day-river-cruise-from-luxor/"
+ },
+ "priceFrom": 2545,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_90402",
+   "_ref": "wp-page-90402",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_102370",
+   "_ref": "wp-page-102370",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_90425",
+   "_ref": "wp-page-90425",
+   "_type": "reference"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "5-day-river-cruise-from-luxor"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "crucero-fluvial-de-5-dias-por-el-nilo-de-luxor-a-asuan"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "5-nichikan-nairu-gawa-kuruzu-rukusoru-kara-asuwan-e"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "Five days on the Nile, sailing south from Luxor to Aswan — Karnak, the Valley of the Kings, Edfu, Kom Ombo, Philae and the High Dam, at the pace the river sets."
+  },
+  {
+   "_key": "es",
+   "value": "Cinco días por el Nilo navegando hacia el sur, de Luxor a Asuán —Karnak, el Valle de los Reyes, Edfu, Kom Ombo, File y la presa Alta— al ritmo que marca el río."
+  },
+  {
+   "_key": "ja",
+   "value": "ルクソールから南へ、ナイルを5日——カルナック、王家の谷、エドフ、コム・オンボ、フィラエ、ハイダム。古典的航路を、川が刻むペースで遡るプライベートクルーズ。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-nile-cruise",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "value": "5-Day Nile River Cruise: Luxor to Aswan"
+  },
+  {
+   "_key": "es",
+   "value": "Crucero fluvial de 5 días por el Nilo: de Luxor a Asuán"
+  },
+  {
+   "_key": "ja",
+   "value": "5日間ナイル川クルーズ：ルクソールからアスワンへ"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}

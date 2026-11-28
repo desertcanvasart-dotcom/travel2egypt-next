@@ -1,0 +1,1394 @@
+{
+ "_createdAt": "2026-05-28T11:45:27Z",
+ "_id": "tour.marriott-mena-house-4-days-stay",
+ "_rev": "oRLc4GQfASfWuYVB4SKyxQ",
+ "_system": {
+  "base": {
+   "id": "tour.marriott-mena-house-4-days-stay",
+   "rev": "3aGdzqdORsUAhOJNQKSkXd"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-18T11:31:39Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers who want a great hotel to be part of the trip rather than a base camp; first-time visitors with limited time; anyone who would rather see two cities well than five in passing"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros que quieren que un gran hotel forme parte del viaje, no que sea solo campamento base; primer viaje con tiempo limitado; quien prefiere ver dos ciudades bien que cinco de pasada"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "ホテル自体を旅の中身にしたい方、限られた日数で初めてエジプトを訪れる方、五か所を素通りするより二つの街をきちんと見たい方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "The Royal Retreat: Four Days Anchored at the Marriott Mena House"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A short luxury stay built around a single legendary hotel — the Pyramids filling the window, Cairo on one side and the Mediterranean on the other."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Some hotels are convenient to the monuments. The Marriott Mena House is part of them."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Built as a royal hunting lodge in the 1860s and converted into a hotel shortly after, it sits at the foot of the Giza plateau, close enough that the Great Pyramid fills the upper windows and the Sound and Light Show carries across the garden at night. The building itself — Moorish in its detailing, set in twelve acres of grounds — is a destination before you have left the property. Most hotels in Cairo offer a bed near the ancient world. This one offers a position inside it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "This four-day stay is built around that position. It is not a touring marathon. The itinerary makes one substantial day trip — to Alexandria, two and a half hours northwest along the Mediterranean coast — and otherwise leaves the pace in your hands. The Pyramids are there when you want them; the hotel's gardens, pool, and restaurants are there when you do not."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The hotel as the centre of gravity"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "The arrival sets the tone. You are met at Cairo International and transferred directly to the Mena House. Check-in, the grounds, the view from your room — that is the programme on the first day, and it is sufficient. For anyone arriving with energy to spare, the plateau is immediately at hand and the hotel's position means you can walk to the base of it without a transfer. The Sound and Light Show runs most evenings and can be seen from the garden. Many guests find on the last day that the time spent simply on the grounds was the time they remember most."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Giza, the Egyptian Museum and the Citadel"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "A second day turns to the monuments on the doorstep. The Giza plateau holds the three pyramids of the Fourth Dynasty — Khufu, Khafre, and Menkaure, built across roughly eighty years around 2500 BC — and the Great Sphinx, carved from the bedrock itself. The Great Pyramid of Khufu stood as the tallest structure on earth for nearly four thousand years."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "The afternoon moves into Cairo proper. The Egyptian Museum on Tahrir Square holds one of the densest collections of pharaonic material anywhere — Old and Middle Kingdom statuary, the Tanis royal gold, and objects spanning three thousand years of continuous civilisation. (Tutankhamun's complete treasure is now displayed at the Grand Egyptian Museum beside the hotel at Giza, and the royal mummies at the National Museum of Egyptian Civilisation in Old Cairo — either can be added.) The day climbs to the Saladin Citadel and the Mosque of Muhammad Ali, the Ottoman-era alabaster mosque that has defined Cairo's skyline since the nineteenth century, and closes in Khan el-Khalili, the medieval bazaar quarter that has traded continuously since the fourteenth century, where dinner is taken before the return to Mena House."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Alexandria: the Mediterranean day"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "A third day leaves Cairo entirely and goes north. Alexandria was founded by Alexander the Great in 331 BC and served for centuries as the intellectual and commercial capital of the ancient world. The city the Ptolemies built — home to the Great Library, the Pharos lighthouse, and a population drawn from across the Mediterranean — is largely gone, buried under the modern city or submerged in the harbour. What remains is layered, Greek and Roman and Arab and Ottoman, set along a coast entirely unlike the Nile Valley."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "The day begins at the Catacombs of Kom el-Shoqafa, a funerary complex carved into the rock in the second century AD. The decoration is the point: Egyptian, Greek, and Roman motifs fused in a way that exists nowhere else. Pompey's Pillar stands nearby — a single red granite column, twenty-seven metres tall, erected in honour of the Emperor Diocletian in 297 AD and the largest ancient column surviving outside Rome. The Greco-Roman Museum, reopened after extensive renovation, holds more than forty thousand objects from Alexandria's centuries as a cosmopolitan capital. The Roman Amphitheatre at Kom el-Dikka — the only Roman-era theatre excavated in Egypt, marble seating and mosaic floors still largely intact — gives a rare sense of what the urban city looked like."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Lunch is at the Fish Market on the Corniche. The afternoon visits the Royal Jewellery Museum in a former palace in the Zizinia neighbourhood, displaying the personal collections of Egypt's royal family from Muhammad Ali's dynasty through to the 1952 revolution. The day closes with a walk through Al Muntazah, the royal garden complex on the city's eastern edge, before the drive back to Cairo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "How this stay works"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "The departure morning belongs to the hotel: late breakfast on the terrace, a final walk to the plateau base in the morning light — the Pyramids at their best, before the day's heat builds — and an unhurried transfer to Cairo International. The stay is private throughout: an Egyptologist for the Cairo and Alexandria touring days, private air-conditioned transfers, entrances included on the programme."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "The Mena House sells itself on its view, and the view is real. What this stay adds to it — Alexandria's layered coast, Cairo's medieval core, the plateau at whatever hour you choose — is the difference between a hotel stay and a journey."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The shape of the journey"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Where · Cairo — three nights at the Marriott Mena House, Giza; day trip to Alexandria; Cairo Citadel and Khan el-Khalili"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Duration · 4 days / 3 nights — adjustable"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Character · Fully private · your own Egyptologist · the Marriott Mena House as anchor · slower than a touring itinerary by design"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "El retiro real: cuatro días anclados en el Marriott Mena House"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una estancia corta de lujo construida alrededor de un único hotel legendario — las pirámides llenando la ventana, El Cairo a un lado y el Mediterráneo al otro."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Algunos hoteles están cómodamente cerca de los monumentos. El Marriott Mena House forma parte de ellos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Construido como pabellón real de caza en la década de 1860 y convertido poco después en hotel, se levanta al pie de la meseta de Guiza, lo bastante cerca como para que la Gran Pirámide llene las ventanas superiores y el espectáculo de luz y sonido cruce el jardín por la noche. El propio edificio — con su detalle morisco, asentado sobre casi cinco hectáreas de terreno — ya es destino antes de que se haya salido de la propiedad. La mayoría de los hoteles de El Cairo ofrecen una cama cerca del mundo antiguo. Este ofrece una posición dentro de él."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta estancia de cuatro días está construida sobre esa posición. No es una maratón de visitas. El itinerario hace una única excursión sustancial — a Alejandría, dos horas y media al noroeste por la costa mediterránea — y por lo demás deja el ritmo en sus manos. Las pirámides están ahí cuando se las quiere; los jardines, la piscina y los restaurantes del hotel también, cuando no."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "El hotel como centro de gravedad"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "La llegada marca el tono. Le esperan en el Aeropuerto Internacional de El Cairo y le trasladan directamente al Mena House. El check-in, los jardines, la vista desde la habitación: ese es el programa del primer día y basta. Para quien llegue con energía, la meseta está al alcance inmediato, y la posición del hotel permite caminar hasta su base sin necesidad de traslado. El espectáculo de luz y sonido se proyecta la mayoría de las tardes y se ve desde el jardín. Muchos huéspedes descubren el último día que las horas pasadas simplemente en los jardines fueron las que más recuerdan."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Guiza, el Museo Egipcio y la Ciudadela"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "El segundo día se vuelve hacia los monumentos que se tienen en la puerta. La meseta de Guiza alberga las tres pirámides de la Cuarta Dinastía — Keops, Kefrén y Micerinos, levantadas a lo largo de unos ochenta años hacia el 2500 a. C. — y la Gran Esfinge, tallada en la propia roca madre. La Gran Pirámide de Keops fue la estructura más alta de la tierra durante casi cuatro mil años."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "La tarde entra en El Cairo propiamente dicho. El Museo Egipcio de la plaza de Tahrir contiene una de las concentraciones más densas de material faraónico del mundo — estatuaria del Imperio Antiguo y Medio, el oro real de Tanis y objetos que abarcan tres mil años de civilización continua. El tesoro completo de Tutankamón se expone ahora en el Gran Museo Egipcio, junto al hotel, en Guiza, y las momias reales en el Museo Nacional de la Civilización Egipcia en El Cairo antiguo; cualquiera de los dos puede añadirse. La jornada asciende a la Ciudadela de Saladino y a la mezquita de Mohamed Alí, el templo otomano de alabastro que define el horizonte de El Cairo desde el siglo XIX, y se cierra en Jan el-Jalili, el barrio del bazar medieval con actividad comercial continua desde el siglo XIV, donde se cena antes de regresar al Mena House."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Alejandría: la jornada mediterránea"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "El tercer día abandona por completo El Cairo y sube al norte. Alejandría fue fundada por Alejandro Magno en el 331 a. C. y sirvió durante siglos como capital intelectual y comercial del mundo antiguo. La ciudad que levantaron los Ptolomeos — sede de la Gran Biblioteca, del faro de Pharos y de una población llegada de todo el Mediterráneo — está en gran parte perdida, sepultada bajo la ciudad moderna o sumergida en el puerto. Lo que sobrevive está estratificado: griego, romano, árabe y otomano, asentado sobre una costa por completo distinta del valle del Nilo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "El día empieza en las catacumbas de Kom el-Shoqafa, un complejo funerario tallado en la roca en el siglo II d. C. La decoración es lo que cuenta: motivos egipcios, griegos y romanos fundidos de una manera que no existe en ningún otro sitio. La columna de Pompeyo se levanta cerca — una única columna de granito rojo, de 27 metros, erigida en honor del emperador Diocleciano en el 297 d. C. y la mayor columna antigua que sobrevive fuera de Roma. El Museo Grecorromano, reabierto tras una extensa restauración, guarda más de cuarenta mil objetos de los siglos en los que Alejandría fue capital cosmopolita. El teatro romano de Kom el-Dikka — el único teatro de época romana excavado en Egipto, con sus gradas de mármol y suelos de mosaico en gran medida intactos — da una idea poco común de cómo era la ciudad urbana."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "El almuerzo se toma en el Fish Market de la Corniche. La tarde visita el Museo de las Joyas Reales, instalado en un antiguo palacio del barrio de Zizinia, que expone las colecciones personales de la familia real egipcia, desde la dinastía de Mohamed Alí hasta la revolución de 1952. La jornada se cierra con un paseo por Al Muntazah, el complejo de jardines reales en el extremo oriental de la ciudad, antes del regreso a El Cairo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "Cómo funciona esta estancia"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "La mañana de salida pertenece al hotel: desayuno tardío en la terraza, un último paseo a pie hasta la base de la meseta con la luz de la mañana — las pirámides en su mejor momento, antes de que el calor apriete — y un traslado sin prisa al Aeropuerto Internacional de El Cairo. La estancia es privada en todo su recorrido: un egiptólogo para las jornadas de visitas en El Cairo y Alejandría, traslados privados climatizados, entradas incluidas en el programa."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "El Mena House se vende por su vista, y la vista es real. Lo que esta estancia añade — la costa estratificada de Alejandría, el corazón medieval de El Cairo, la meseta a la hora que se elija — es la diferencia entre una estancia de hotel y un viaje."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La forma del viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Dónde · El Cairo — tres noches en el Marriott Mena House, Guiza; excursión a Alejandría; Ciudadela y Jan el-Jalili"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Duración · 4 días / 3 noches, ajustable como viaje privado"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Carácter · Salida privada · su propio egiptólogo · Marriott Mena House como anclaje · ritmo más pausado que un itinerario de circuito, por diseño"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "ロイヤル・リトリート：マリオット・メナハウスを軸にした4日間"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "伝説的な一軒のホテルを中心に組んだ短いラグジュアリー滞在。窓いっぱいに広がるピラミッド、片側にカイロ、片側に地中海。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "「記念建造物の近くに建つホテル」はたくさんあります。マリオット・メナハウスは、その記念建造物の一部です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "1860年代に王室の狩猟用ロッジとして建てられ、その直後にホテルへ転用された建物は、ギザ高原の麓に立ちます。窓上部にクフ王のピラミッドが映り、夜には音と光ショーの音が庭を渡って届くほどの近さです。建物そのもの——ムーア様式の意匠、12エーカーの庭に抱かれた佇まい——が、敷地を出る前にすでに一つの目的地になっています。多くのカイロのホテルが「古代世界の近くの寝床」を売りにします。ここはその内側に「位置」を提供します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "この4日間の滞在は、その位置から組み立てられています。観光のマラソンではありません。実質的な日帰りは一回——地中海沿いを北西へ2時間半走ったアレクサンドリアへ——あとはペースをあなたの手に委ねます。ピラミッドは行きたくなったときにそこにあり、ホテルの庭、プール、レストランは、行きたくないときにそこにあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "ホテルを重心として"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "到着の流儀がすべての調子を決めます。カイロ国際空港でお迎えし、そのままメナハウスへ。チェックイン、敷地の散策、客室からの眺め——初日のプログラムはそれで足ります。余力のある方には、高原は手の届く距離にあり、ホテルの位置は移動なしでピラミッドの基部まで歩いて行けることを意味します。音と光ショーはほぼ毎晩催行されており、庭からそれが見えます。最終日に振り返ると、敷地の中で過ごした時間こそ最も記憶に残った、と言う方が少なくありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "ギザ、エジプト考古学博物館、そしてシタデル"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "2日目はそのまま玄関先の記念建造物へ向かいます。ギザ高原には第四王朝期の三つのピラミッド——クフ、カフラー、メンカウラー、紀元前2500年頃を中心におよそ80年で建てられた——と、岩盤そのものを彫り出した大スフィンクスが並びます。クフ王のピラミッドは四千年近くにわたって地上で最も高い建造物であり続けました。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "午後はカイロ中心部へ。タハリール広場のエジプト考古学博物館には、世界でも有数の密度のファラオ時代の資料が並びます——古王国・中王国時代の彫像群、タニス王家の黄金、三千年にわたる連続文明の品々。（ツタンカーメンの完全な遺品群は、ホテルすぐ近くのギザにある大エジプト博物館へ、王のミイラ群はオールド・カイロの国立エジプト文明博物館＝NMECへ、それぞれ移されています。どちらも追加可能です。）日中後半はサラディン城塞へ登ります。19世紀以来カイロの稜線を象徴し続けているアラバスター造りのオスマン期建造、ムハンマド・アリ・モスクが城内に立ちます。日の終わりは、14世紀以来商いを途切れさせていない中世のバザール、ハーン・ハリーリへ。夕食をここで取り、メナハウスへ戻ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "アレクサンドリア：地中海の一日"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "3日目はカイロを完全に離れ、北へ向かいます。アレクサンドリアは紀元前331年にアレクサンドロス大王が築いた都で、何世紀にもわたって古代世界の知的・商業的中心であり続けました。プトレマイオス朝が建てた街——大図書館、ファロスの灯台、地中海全域から集まった人口を擁した街——のほとんどは現存しません。近代都市の下に埋もれているか、港の海中に沈んでいます。残っているのは多層的なもの——ギリシア、ローマ、アラブ、オスマン——で、ナイル谷とはまったく異なる海岸線に並んでいます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "一日はコム・エル・シュカファのカタコンベから始まります。紀元2世紀に岩盤に掘られた地下墓地で、装飾こそが要点です——エジプト、ギリシア、ローマのモチーフが、ほかのどこにも存在しない形で融合しています。すぐ近くにはポンペイの柱が立ちます。297年に皇帝ディオクレティアヌスに捧げて建てられた、高さ27メートルの一本の赤花崗岩柱で、ローマ以外で現存する最大の古代柱です。大規模な改修を経て再開した「ギリシア・ローマ博物館」には、コスモポリタンな都として栄えた数世紀分の四万点超の遺物が並びます。コム・エル・ディッカのローマ円形劇場は、エジプトで発掘された唯一のローマ時代の劇場で、大理石の客席とモザイクの床がほぼ無傷で残っています。古代の市街地がどう見えたかを知るには、ここがもっとも近道です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "昼食はコルニッシュ沿いの「フィッシュ・マーケット」で。午後はジジニア地区にあるかつての宮殿に置かれた王室宝飾品博物館へ。ムハンマド・アリ朝から1952年の革命に至るまでの、エジプト王家の私的コレクションが展示されています。日の締めくくりは、街の東端にある王室庭園「アル・ムンタザ」を歩いてから、カイロへ戻ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "この滞在の組み立て方"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "出発の朝はホテルへ捧げます——テラスでの遅い朝食、朝の光に照らされた高原の基部までの最後の散歩（一日が暑くなる前の、ピラミッドが最も美しい時間）、そして急がない空港送迎。滞在期間中はすべてプライベートです：カイロとアレクサンドリアの観光日にはエジプト学ガイドが付き、移動は専用エアコン車、プログラム上の入場料はすべて含まれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "メナハウスはその眺めを売りにしており、その眺めは本物です。この滞在がそれに加えるもの——アレクサンドリアの多層的な海岸、カイロの中世の核、好きな時間に向き合えるギザ高原——が、「ホテル滞在」を「旅」に変えてくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "旅の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · カイロ — ギザのマリオット・メナハウスに3泊、アレクサンドリア日帰り、カイロ・シタデルとハーン・ハリーリ"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "日数 · 4日間／3泊 — 調整可能"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド · 軸はマリオット・メナハウス · 観光行程よりも意図的にゆっくり"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private journey is built around your party, not the other way around. Tell our team how you would want to shape it — a longer Alexandria stay, the Grand Egyptian Museum added, an early-morning Giza visit before the crowds — and we will build the four days to fit."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Un viaje privado se construye alrededor del grupo, no al revés. Cuéntenos cómo quiere darle forma — una estancia más larga en Alejandría, el Gran Museo Egipcio añadido, una visita a Guiza al amanecer antes de las multitudes — y construimos los cuatro días a su medida."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "プライベート旅行はご一行に合わせて組み立てます。アレクサンドリアの滞在を延ばす、大エジプト博物館を加える、混雑前の早朝ギザを差し込む——どんな整え方も、ご相談の上で形にします。"
+  }
+ ],
+ "durationDays": 4,
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 1922,
+  "ja": 1936
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Lamplit palm gardens of a Giza hotel at dusk with the floodlit pyramids rising behind"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Jardines de palmeras iluminados de un hotel de Guiza al anochecer, con las pirámides iluminadas alzándose detrás"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "夕暮れ、ライトに照らされたギザのホテルのヤシの庭園。背後にライトアップされたピラミッドがそびえる。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-7c494d6b99d05164005da7df3e982ed9d897d1bb-4000x2667-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The pyramids glow behind the gardens of Mena House."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Las pirámides brillan tras los jardines de Mena House."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "メナ・ハウスの庭園の奥に輝くピラミッド。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "gzrjbqnyzd",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "- Where · Cairo — three nights at the Marriott Mena House, Giza; day trip to Alexandria; Cairo Citadel and Khan el-Khalili",
+   "text": "Three nights at the Marriott Mena House, Giza"
+  },
+  {
+   "_key": "jy8asadslf",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "You are met at Cairo International and transferred directly to the Mena House.",
+   "text": "Meet at Cairo International and transfer to the Mena House"
+  },
+  {
+   "_key": "3timzzixe8",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The stay is private throughout: an Egyptologist for the Cairo and Alexandria touring days, private air-conditioned transfers, entrances included on the programme.",
+   "text": "An Egyptologist for the Cairo and Alexandria touring days"
+  },
+  {
+   "_key": "k6fduxus8g",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The stay is private throughout: an Egyptologist for the Cairo and Alexandria touring days, private air-conditioned transfers, entrances included on the programme.",
+   "text": "Private air-conditioned transfers"
+  },
+  {
+   "_key": "ozdzahc3ge",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The stay is private throughout: an Egyptologist for the Cairo and Alexandria touring days, private air-conditioned transfers, entrances included on the programme.",
+   "text": "Entrances included on the programme"
+  },
+  {
+   "_key": "pbmxvhba84",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The departure morning belongs to the hotel: late breakfast on the terrace, a final walk to the plateau base in the morning light — the Pyramids at their best, before the day's heat builds — and an unhurried transfer to Cairo International.",
+   "text": "Transfer to Cairo International on departure"
+  },
+  {
+   "_key": "v9esqvrk0l",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Dónde · El Cairo — tres noches en el Marriott Mena House, Guiza; excursión a Alejandría; Ciudadela y Jan el-Jalili",
+   "text": "Tres noches en el Marriott Mena House, Guiza"
+  },
+  {
+   "_key": "2czovp9o2o",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Le esperan en el Aeropuerto Internacional de El Cairo y le trasladan directamente al Mena House.",
+   "text": "Traslado desde el Aeropuerto Internacional de El Cairo al Mena House"
+  },
+  {
+   "_key": "bpkaj966ad",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La mañana de salida pertenece al hotel: desayuno tardío en la terraza, un último paseo a pie hasta la base de la meseta con la luz de la mañana — las pirámides en su mejor momento, antes de que el calor apriete — y un traslado sin prisa al Aeropuerto Internacional de El Cairo.",
+   "text": "Traslado al Aeropuerto Internacional de El Cairo el día de salida"
+  },
+  {
+   "_key": "mhcqmlguqe",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La estancia es privada en todo su recorrido: un egiptólogo para las jornadas de visitas en El Cairo y Alejandría, traslados privados climatizados, entradas incluidas en el programa.",
+   "text": "Un egiptólogo para las jornadas de visitas en El Cairo y Alejandría"
+  },
+  {
+   "_key": "n40kgnzhzs",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La estancia es privada en todo su recorrido: un egiptólogo para las jornadas de visitas en El Cairo y Alejandría, traslados privados climatizados, entradas incluidas en el programa.",
+   "text": "Traslados privados climatizados"
+  },
+  {
+   "_key": "8sdm9hvm26",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La estancia es privada en todo su recorrido: un egiptólogo para las jornadas de visitas en El Cairo y Alejandría, traslados privados climatizados, entradas incluidas en el programa.",
+   "text": "Entradas incluidas en el programa"
+  },
+  {
+   "_key": "0xstju6qrl",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ルート · カイロ — ギザのマリオット・メナハウスに3泊、アレクサンドリア日帰り、カイロ・シタデルとハーン・ハリーリ",
+   "text": "ギザのマリオット・メナハウスに3泊"
+  },
+  {
+   "_key": "erx7xd2zu5",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "カイロ国際空港でお迎えし、そのままメナハウスへ。",
+   "text": "カイロ国際空港でのお迎え"
+  },
+  {
+   "_key": "hi9jhpaedu",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "出発の朝はホテルへ捧げます——テラスでの遅い朝食、朝の光に照らされた高原の基部までの最後の散歩（一日が暑くなる前の、ピラミッドが最も美しい時間）、そして急がない空港送迎。",
+   "text": "空港送迎（出発日）"
+  },
+  {
+   "_key": "qlbkvj4cb5",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "滞在期間中はすべてプライベートです：カイロとアレクサンドリアの観光日にはエジプト学ガイドが付き、移動は専用エアコン車、プログラム上の入場料はすべて含まれます。",
+   "text": "カイロとアレクサンドリアの観光日にはエジプト学ガイドが付く"
+  },
+  {
+   "_key": "1w9jqt48y0",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "滞在期間中はすべてプライベートです：カイロとアレクサンドリアの観光日にはエジプト学ガイドが付き、移動は専用エアコン車、プログラム上の入場料はすべて含まれます。",
+   "text": "移動は専用エアコン車"
+  },
+  {
+   "_key": "axn7ssxa6v",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "滞在期間中はすべてプライベートです：カイロとアレクサンドリアの観光日にはエジプト学ガイドが付き、移動は専用エアコン車、プログラム上の入場料はすべて含まれます。",
+   "text": "プログラム上の入場料はすべて含まれる"
+  }
+ ],
+ "itineraryDays": [
+  {
+   "_key": "l07uhy07d7",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Marriott Mena House",
+   "overnightNeedsReview": true,
+   "source": "Check-in, the grounds, the view from your room — that is the programme on the first day, and it is sufficient.",
+   "title": "Arrival and transfer to the Mena House"
+  },
+  {
+   "_key": "iof30u92se",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Marriott Mena House",
+   "overnightNeedsReview": true,
+   "source": "A second day turns to the monuments on the doorstep.",
+   "title": "Giza, the Egyptian Museum and the Citadel"
+  },
+  {
+   "_key": "nxfdpw4tp0",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Marriott Mena House",
+   "overnightNeedsReview": true,
+   "source": "A third day leaves Cairo entirely and goes north.",
+   "title": "Alexandria: the Mediterranean day"
+  },
+  {
+   "_key": "yjoti9pz1w",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "The departure morning belongs to the hotel: late breakfast on the terrace, a final walk to the plateau base in the morning light — the Pyramids at their best, before the day's heat builds — and an unhurried transfer to Cairo International.",
+   "title": "Departure morning and transfer to Cairo International"
+  },
+  {
+   "_key": "itphum0ujj",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Marriott Mena House",
+   "overnightNeedsReview": true,
+   "source": "Le esperan en el Aeropuerto Internacional de El Cairo y le trasladan directamente al Mena House.",
+   "title": "Llegada y traslado al Mena House"
+  },
+  {
+   "_key": "roetdrwhvt",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Marriott Mena House",
+   "overnightNeedsReview": true,
+   "source": "La jornada asciende a la Ciudadela de Saladino y a la mezquita de Mohamed Alí, el templo otomano de alabastro que define el horizonte de El Cairo desde el siglo XIX, y se cierra en Jan el-Jalili, el barrio del bazar medieval con actividad comercial continua desde el siglo XIV, donde se cena antes de regresar al Mena House.",
+   "title": "Guiza, el Museo Egipcio y la Ciudadela"
+  },
+  {
+   "_key": "tewry9x916",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Marriott Mena House",
+   "overnightNeedsReview": true,
+   "source": "La jornada se cierra con un paseo por Al Muntazah, el complejo de jardines reales en el extremo oriental de la ciudad, antes del regreso a El Cairo.",
+   "title": "Alejandría: la jornada mediterránea"
+  },
+  {
+   "_key": "fowk8dg4mr",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "La mañana de salida pertenece al hotel: desayuno tardío en la terraza, un último paseo a pie hasta la base de la meseta con la luz de la mañana — las pirámides en su mejor momento, antes de que el calor apriete — y un traslado sin prisa al Aeropuerto Internacional de El Cairo.",
+   "title": "La mañana de salida"
+  },
+  {
+   "_key": "k765os5mas",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "マリオット・メナハウス",
+   "overnightNeedsReview": true,
+   "source": "カイロ国際空港でお迎えし、そのままメナハウスへ。",
+   "title": "カイロ国際空港でお迎え、メナハウスへ"
+  },
+  {
+   "_key": "wn5ulnfnc2",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "マリオット・メナハウス",
+   "overnightNeedsReview": true,
+   "source": "2日目はそのまま玄関先の記念建造物へ向かいます。",
+   "title": "ギザ、エジプト考古学博物館、そしてシタデル"
+  },
+  {
+   "_key": "0x0e4mw7ao",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "マリオット・メナハウス",
+   "overnightNeedsReview": true,
+   "source": "3日目はカイロを完全に離れ、北へ向かいます。",
+   "title": "アレクサンドリア：地中海の一日"
+  },
+  {
+   "_key": "wfpsag990g",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "出発の朝はホテルへ捧げます——テラスでの遅い朝食、朝の光に照らされた高原の基部までの最後の散歩（一日が暑くなる前の、ピラミッドが最も美しい時間）、そして急がない空港送迎。",
+   "title": "出発の朝、空港送迎"
+  }
+ ],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/marriott-mena-house-4-days-stay/"
+ },
+ "priceFrom": 1900,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_86855",
+   "_ref": "wp-page-86855",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_86857",
+   "_ref": "wp-page-86857",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_86846",
+   "_ref": "wp-page-153242",
+   "_type": "reference"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "marriott-mena-house-4-days-stay"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "retiro-real-4-dias-en-el-marriott-mena-house"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "roiyaruritorito-mariottomenahausu-ni-tomaru-4-nichikan"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "Four days at the Marriott Mena House — the legendary pyramids-view hotel as the anchor, with Cairo and Alexandria each set into their own day around it."
+  },
+  {
+   "_key": "es",
+   "value": "Cuatro días en el Marriott Mena House — el legendario hotel con vista a las pirámides como anclaje, con El Cairo y Alejandría dispuestos en torno a él."
+  },
+  {
+   "_key": "ja",
+   "value": "マリオット・メナハウスを軸に過ごす4日間——ピラミッドを窓に望む伝説のホテルを中心に、カイロと地中海のアレクサンドリアをそれぞれ一日ずつ重ねます。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-luxury",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "value": "Royal Retreat: 4-Day Stay at the Marriott Mena House"
+  },
+  {
+   "_key": "es",
+   "value": "Retiro real: 4 días en el Marriott Mena House"
+  },
+  {
+   "_key": "ja",
+   "value": "ロイヤル・リトリート：マリオット・メナハウスに泊まる4日間"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}
