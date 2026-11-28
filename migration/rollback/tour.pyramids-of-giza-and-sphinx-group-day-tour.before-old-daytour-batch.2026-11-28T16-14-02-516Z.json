@@ -1,0 +1,913 @@
+{
+ "_createdAt": "2026-05-28T11:45:32Z",
+ "_id": "tour.pyramids-of-giza-and-sphinx-group-day-tour",
+ "_rev": "oQIoOuFCFepdOsaLW4HTyL",
+ "_type": "tour",
+ "_updatedAt": "2026-11-28T13:39:41Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "First-time visitors with a single Cairo morning who want the Old Kingdom canon read by a qualified guide"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Primer contacto con Egipto antiguo"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "はじめてのカイロ滞在で、まずは古代世界の代名詞に立ちたい方／写真ではなく、石の前に実際に立つことに価値を感じる方／一日全部ではなく午前だけを使いたい方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Pyramids of Giza & the Sphinx: Group Day Tour"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "— The only surviving wonder of the ancient world, in the morning while the air is still cool —"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "There is no convenient way to talk about the Giza Plateau. The Great Pyramid of Khufu was completed around 2560 BC, stood at 146 metres for the next four thousand years, and is built from approximately 2.3 million limestone and granite blocks aligned to true north within a fraction of a degree. Its son Khafre's pyramid, slightly smaller and on higher ground, still carries a band of original white Tura limestone casing at the apex — the only one of the three that does. Menkaure's, the smallest, finishes the line."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "The Sphinx sits at the plateau's eastern edge, carved from a single limestone outcrop, generally agreed to be from Khafre's reign around 2500 BC. It is the largest monolithic statue in the world. The face has been weathered for forty-five centuries; the missing nose has nothing to do with Napoleon's artillery, despite the persistence of the legend."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "This is the shared-departure version of the morning. Group capped at small size, licensed Egyptologist guide, air-conditioned vehicle, an early start before the plateau heats and before the coaches arrive. By mid-afternoon you are back at your hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The day, hour by hour"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "09:00 pickup from your hotel in Cairo. Drive to the Giza Plateau through the morning traffic — roughly thirty to forty-five minutes depending on the day."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "The guide moves the group through the three pyramids in sequence, then the panorama viewpoint, then the Sphinx and its valley temple. Two to three hours on the plateau; enough to absorb the scale without losing the group to the heat."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "Optional inside-pyramid entry and camel or horse rides are available on site at additional cost and are not part of the package."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Return drive to central Cairo. Drop-off at your hotel by early to mid-afternoon."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Forty-five hundred years of stone, a single morning on the plateau, the photograph you took already in everyone else's camera roll."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "The reason the day still matters is the same reason it has always mattered: standing in front of the thing."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Pirámides de Guiza y Esfinge: excursión en grupo"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "— La única maravilla superviviente del mundo antiguo, en la mañana, mientras el aire todavía es fresco —"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "No hay manera cómoda de hablar de la meseta de Guiza. La Gran Pirámide de Keops se terminó hacia 2560 a. C., se mantuvo en 146 metros durante los cuatro milenios siguientes y está construida con aproximadamente 2,3 millones de bloques de caliza y granito alineados con el norte verdadero con una precisión de fracciones de grado. La pirámide de su hijo Kefrén, ligeramente menor y sobre terreno más alto, todavía conserva en la cumbre una franja del revestimiento original de caliza blanca de Tura — la única de las tres que lo conserva. La de Micerinos, la más pequeña, cierra la fila."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "La Esfinge se sitúa en el extremo oriental de la meseta, tallada en un único afloramiento calizo, atribuida en general al reinado de Kefrén, hacia 2500 a. C. Es la mayor estatua monolítica del mundo. El rostro ha sufrido cuarenta y cinco siglos de erosión; la nariz desaparecida no tiene relación alguna con la artillería de Napoleón, por más que la leyenda persista."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Ésta es la versión compartida de la mañana. Grupo limitado en tamaño, guía egiptólogo colegiado, vehículo climatizado y una salida temprana, antes de que la meseta se caliente y lleguen los autocares. A media tarde, el viajero ha regresado a su hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "El día, hora a hora"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "09:00 recogida en su hotel de El Cairo. Trayecto a la meseta de Guiza entre el tráfico matutino — unos treinta a cuarenta y cinco minutos, según el día."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "El guía mueve al grupo por las tres pirámides en secuencia, seguidas del mirador panorámico y, después, la Esfinge y su templo del valle. De dos a tres horas sobre la meseta; tiempo suficiente para absorber la escala sin perder al grupo por el calor."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "La entrada al interior de las pirámides y los paseos en camello o caballo son opcionales, se contratan en el sitio y no forman parte del paquete."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Regreso al centro de El Cairo. Llegada a su hotel a primera o media tarde."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Cuatro mil quinientos años de piedra, una sola mañana sobre la meseta, la fotografía que acabas de tomar ya está en la cámara de todos los demás."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "El motivo por el que el día sigue importando es el mismo por el que siempre ha importado: estar frente a la cosa."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "Guiza no necesita exageración. Basta estar allí para entender por qué sigue siendo el punto de partida."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "ギザの一朝：写真ではない側のピラミッドへ"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "暑さが立ちのぼり団体バスが到着する前、まだ涼しい朝のうちに——古代世界で唯一現存する「驚異」を、決まった順序で巡る一日。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "ギザの写真はすでにご存じです。三つの完璧なシルエット、現地に着く前から世界中のカメラロールに同じ一枚が収まっている景色。これは、その既知のイメージをめぐる一日ではなく、その「外側」を歩く一日です——暑さが立ちのぼる前の朝のうちに、団体バスの群れが到着する前に、そして実際の石の前に立つこと自体の値打ちを、もう一度取り戻すために。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "クフ王の大ピラミッドは紀元前2560年ごろに完成し、その後およそ四千年にわたって高さ146メートルを保ちました。積み上げられた石灰岩と花崗岩のブロックは、推定およそ230万個。真北との誤差は、わずか一度の何分の一に収まります。数字でいえばそれだけのことです。けれど、基部に立ってひとつのブロックの「面」を見上げたときに伝わるスケールは、どんな数字よりもはるかに雄弁です。なぜこの建造物が四十五世紀にわたって人を立ち止まらせ続けてきたのか——その理由は、写真の外側にしかありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "二つめのカフラー王のピラミッドはわずかに小さいものの、高い地盤の上に立ち、頂部に古代の白いトゥーラ産石灰岩の化粧張りが、いまも帯のように残っています——三基のうち、これが残るのはこのピラミッドだけです。三つめのメンカウラー王のものは最も小さく、列の最後を締めくくります。パノラマ・ポイントで三基が一枚におさまる景色を見たのち、私たちは少し下って、第二ピラミッドの参道のふもとに建つカフラー王の河岸神殿へ向かいます。花崗岩で築かれたこの広間は、亡き王の遺体が清められ、ミイラづくりの儀式が行われたとされる場所——観光地化されていない、古代の空気が静かに残る一角です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "そして大スフィンクス。高原の東端、一枚岩の石灰岩から彫り出された、世界最大の一枚岩の彫像です。一般にカフラー王の治世、紀元前2500年ごろのものとされ、その顔は四十五世紀ぶんの風化を受けてきました（失われた鼻についてのナポレオン砲撃説は、根強くはあっても事実ではありません）。高原での滞在は合わせて2〜3時間——暑さに体力を奪われる前に、スケールを受けとめるのにちょうどよい長さです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "四千五百年ぶんの石、高原で過ごす一朝、そしてあなたが撮るその一枚は、すでに世界中の誰かのカメラロールにも収まっている。それでもこの一日が今なお意味を持つ理由は、写真術が発明される前と変わりません——その「もの」の前に、実際に立つこと。ただし、それを意味のある経験として残すには、どの順序で、何時に、どこに立つかが、ほとんどすべてです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "A natural pairing with the new Grand Egyptian Museum (fully opened 1 November 2025) for a full Old Kingdom day; we can also extend into Memphis–Saqqara–Dahshur if you have a second day in town."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Esta es una ruta abierta. Si quieres ajustar el ritmo, cambiar el orden de las visitas o añadir un complemento, podemos adaptarla contigo."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "これは出発点であり、固定パッケージではありません。プライベートで日の出にあわせて高原入りしたい、内部入場を組み込みたい、午後にエジプト博物館や旧市街の食事を続けたい——そうした一日の組み立て方は、コンシェルジュとご相談ください。"
+  }
+ ],
+ "customisationOptions": [
+  {
+   "_key": "ndm7hb8l9l",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Optional inside-pyramid entry and camel or horse rides are available on site at additional cost and are not part of the package.",
+   "text": "Add entry inside a pyramid (extra cost, on site)"
+  },
+  {
+   "_key": "wqwxo7sq6z",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Optional inside-pyramid entry and camel or horse rides are available on site at additional cost and are not part of the package.",
+   "text": "Add a camel or horse ride (extra cost, on site)"
+  },
+  {
+   "_key": "fbd7di4nmr",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A natural pairing with the new Grand Egyptian Museum (fully opened 1 November 2025) for a full Old Kingdom day; we can also extend into Memphis–Saqqara–Dahshur if you have a second day in town.",
+   "text": "Pair with the Grand Egyptian Museum"
+  },
+  {
+   "_key": "5r3dg6yeie",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A natural pairing with the new Grand Egyptian Museum (fully opened 1 November 2025) for a full Old Kingdom day; we can also extend into Memphis–Saqqara–Dahshur if you have a second day in town.",
+   "text": "Extend to Memphis–Saqqara–Dahshur on a second day"
+  },
+  {
+   "_key": "rgk6po0jm7",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La entrada al interior de las pirámides y los paseos en camello o caballo son opcionales, se contratan en el sitio y no forman parte del paquete.",
+   "text": "Añadir la entrada al interior de una pirámide (coste extra, en el sitio)"
+  },
+  {
+   "_key": "kgkx6e3hje",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La entrada al interior de las pirámides y los paseos en camello o caballo son opcionales, se contratan en el sitio y no forman parte del paquete.",
+   "text": "Añadir un paseo en camello o caballo (coste extra, en el sitio)"
+  },
+  {
+   "_key": "41qwi60k5c",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "プライベートで日の出にあわせて高原入りしたい、内部入場を組み込みたい、午後にエジプト博物館や旧市街の食事を続けたい——そうした一日の組み立て方は、コンシェルジュとご相談ください。",
+   "text": "ピラミッド内部への入場を組み込む"
+  }
+ ],
+ "durationHours": 5,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Half day · ~5–6 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Medio día · ~5–6 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "半日・約6〜7時間"
+  }
+ ],
+ "exclusions": [
+  {
+   "_key": "d10mus6ga8",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Optional inside-pyramid entry and camel or horse rides are available on site at additional cost and are not part of the package.",
+   "text": "Optional inside-pyramid entry (additional cost, not part of the package)"
+  },
+  {
+   "_key": "6u8gkw5zzi",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Optional inside-pyramid entry and camel or horse rides are available on site at additional cost and are not part of the package.",
+   "text": "Camel or horse rides (additional cost, not part of the package)"
+  },
+  {
+   "_key": "epf9uzegd2",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La entrada al interior de las pirámides y los paseos en camello o caballo son opcionales, se contratan en el sitio y no forman parte del paquete.",
+   "text": "Entrada al interior de las pirámides"
+  },
+  {
+   "_key": "jkh3n7vv4z",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La entrada al interior de las pirámides y los paseos en camello o caballo son opcionales, se contratan en el sitio y no forman parte del paquete.",
+   "text": "Paseos en camello o caballo"
+  }
+ ],
+ "groupSize": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "4–12 guests"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "4–12 personas"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "4〜12名"
+  }
+ ],
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The Great Sphinx of Giza in profile with the Pyramid of Khafre rising behind under a cloud-flecked sky"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "La Gran Esfinge de Guiza de perfil, con la pirámide de Kefrén detrás bajo un cielo con nubes"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "雲の浮かぶ空の下、カフラー王のピラミッドを背にしたギザの大スフィンクスの横顔"
+   }
+  ],
+  "asset": {
+   "_ref": "image-20a063c2377875e0400aab57492cb58ddea74f59-3000x2250-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The Great Sphinx sits before the Pyramid of Khafre."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "La Gran Esfinge se alza ante la pirámide de Kefrén."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "カフラー王のピラミッドの前に座すギザの大スフィンクス。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "3jni3wom0k",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Group capped at small size, licensed Egyptologist guide, air-conditioned vehicle, an early start before the plateau heats and before the coaches arrive.",
+   "text": "licensed Egyptologist guide"
+  },
+  {
+   "_key": "v5y6qg2f13",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Group capped at small size, licensed Egyptologist guide, air-conditioned vehicle, an early start before the plateau heats and before the coaches arrive.",
+   "text": "air-conditioned vehicle"
+  },
+  {
+   "_key": "34flwtt0qh",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "09:00 pickup from your hotel in Cairo.",
+   "text": "09:00 pickup from your hotel in Cairo"
+  },
+  {
+   "_key": "6hn3weu1mm",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Drop-off at your hotel by early to mid-afternoon.",
+   "text": "Drop-off at your hotel"
+  },
+  {
+   "_key": "c8b5gjcwkj",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Grupo limitado en tamaño, guía egiptólogo colegiado, vehículo climatizado y una salida temprana, antes de que la meseta se caliente y lleguen los autocares.",
+   "text": "Guía egiptólogo colegiado"
+  },
+  {
+   "_key": "gfa6ic4znw",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Grupo limitado en tamaño, guía egiptólogo colegiado, vehículo climatizado y una salida temprana, antes de que la meseta se caliente y lleguen los autocares.",
+   "text": "Vehículo climatizado"
+  },
+  {
+   "_key": "454r1folca",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "09:00 recogida en su hotel de El Cairo.",
+   "text": "Recogida en su hotel de El Cairo"
+  },
+  {
+   "_key": "lvuy0xjtro",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Llegada a su hotel a primera o media tarde.",
+   "text": "Regreso a su hotel"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/pyramids-of-giza-and-sphinx-group-day-tour/"
+ },
+ "priceFrom": 43,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_alexandria_catacombs_pompeys_pillar_group_day_tour_from_cairo",
+   "_ref": "tour.alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_transfer_from_cairo_airport_to_hotel",
+   "_ref": "tour.transfer-from-cairo-airport-to-hotel",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_cairo_dinner_cruise_with_belly_dancing_show",
+   "_ref": "tour.cairo-dinner-cruise-with-belly-dancing-show",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_nmec_royal_mummies_old_cairo",
+   "_ref": "tour.nmec-royal-mummies-old-cairo",
+   "_type": "reference"
+  }
+ ],
+ "routeLegs": [],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Shared small-group departure (4–12) · licensed Egyptologist guide · air-conditioned vehicle · timed to reach the plateau before the coaches and the heat"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Salida compartida en grupo reducido (4–12) · guía egiptólogo colegiado · vehículo climatizado · caminatas sobre terreno irregular · llegada antes de los autocares y del calor"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "乗合の小グループ出発（4〜12名）・冷房付き車両・ライセンスを持つエジプト学ガイド・午前の早めの到着で団体バスを避ける"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Half day · ≈5–6 hours"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Medio día · ≈5–6 horas"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "半日（ドアtoドアでおよそ6〜7時間／高原滞在2〜3時間）"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Cairo → Giza Plateau (Khufu, Khafre and Menkaure pyramids, panorama viewpoint, Great Sphinx and valley temple) → Cairo"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "El Cairo → meseta de Guiza (pirámides de Keops, Kefrén y Micerinos, mirador panorámico, Gran Esfinge y templo del valle) → El Cairo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "カイロ → ギザ高原（大ピラミッド／パノラマ・ポイント／カフラー王の河岸神殿／大スフィンクス） → カイロへ戻る"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "pyramids-of-giza-and-sphinx-group-day-tour"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "piramides-de-guiza-y-esfinge-excursion-en-grupo"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "giza-no-itcho-shashin-de-wa-nai-gawa-no-piramiddo-e"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A shared-departure day on the Giza Plateau — the three pyramids of Khufu, Khafre, and Menkaure, the Great Sphinx, a licensed Egyptologist guide, and back at your hotel by mid-afternoon."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Salida compartida a la meseta de Guiza — las tres pirámides de Keops, Kefrén y Micerinos, la Gran Esfinge, un guía egiptólogo colegiado, y regreso a su hotel a media tarde."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "暑さが立ちのぼり団体バスが到着する前、まだ涼しい朝のうちに——古代世界で唯一現存する『驚異』を、決まった順序で巡る一日。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Pyramids of Giza & the Sphinx: Group Day Tour from Cairo"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Pirámides de Guiza y Esfinge: excursión en grupo"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ギザの一朝：写真ではない側のピラミッドへ"
+  }
+ ],
+ "tourMode": "group",
+ "type": "dayTour"
+}
