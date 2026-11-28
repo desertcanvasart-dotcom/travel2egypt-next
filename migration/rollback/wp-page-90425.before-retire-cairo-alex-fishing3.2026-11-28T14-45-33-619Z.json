@@ -1,0 +1,1622 @@
+{
+ "_createdAt": "2026-05-13T22:22:19Z",
+ "_id": "wp-page-90425",
+ "_rev": "K2pi3eY73hTRu2vMGMySnV",
+ "_system": {
+  "base": {
+   "id": "wp-page-90425",
+   "rev": "WARbvYUZNjQADgogAepONk"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:49Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Repeat visitors; travellers already familiar with the classical Nile corridor who want the rescued Nubian temples; anyone drawn to the rescue story as a story"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros que repiten Egipto; quienes ya conocen el corredor clásico del Nilo y buscan los templos nubios rescatados; lectores que se acercan por la historia misma del salvamento"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "エジプト再訪の方、古典的ナイル回廊をすでに知り救出ヌビア神殿を求める方、救出史そのものを物語として味わいたい方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Southbound on Lake Nasser: Five Days from Aswan to Abu Simbel"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A privately guided cruise on the reservoir behind the High Dam — sailing south, day by day, toward the great cliff temples of Ramses II at the lake's far end."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Lake Nasser is not a natural lake, and the temples along its shores are not where they were built."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "When the Aswan High Dam closed in 1970, it drowned more than 500 kilometres of the Nile Valley — ancient Nubia, one of the most monument-dense corridors in the ancient world. What UNESCO saved, in the largest archaeological rescue operation ever mounted, were twenty-two temples, cut from their original sites and reassembled on higher ground before the waters rose. Lake Nasser is in that sense a kind of afterlife: a reservoir ringed with temples that exist only because an international effort decided they were worth the difficulty of saving. No road connects most of them. The water is the route, and the cruise ship becomes your base for five days."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "The itinerary runs the opposite way from a northbound cruise: south from Aswan to Abu Simbel, which is both the furthest point and the climax. The temples appear in roughly the order they were relocated — Kalabsha and its neighbours first, then Wadi es-Sebua, then Amada, then the great cliff temples that Ramses II carved near the Sudanese border in the thirteenth century BC. The route has a logic and it builds: by the time you reach Abu Simbel on the fourth morning, you understand what the rescue effort saved and why the last site justified all of it. This is a privately guided programme — your own Egyptologist, private transfers, a private cabin on a shared vessel — paced for a lake rather than a river."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan and embarkation"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan is where the Nile changes character — where the river narrows toward the first cataract and modern Egypt made its most consequential engineering decision. The High Dam that created Lake Nasser begins here, and the cruise begins here too."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "You board in Aswan and lunch is served on board. There are no sites the first day, deliberately. The afternoon is for settling in and watching the southern outskirts of Aswan give way to open water; dinner is served as the ship moves south into the lake."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Kalabsha, Beit Al Wali, the Kiosk of Kertassi"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "The second day introduces the character of the whole cruise: a cluster of rescued temples on the lakeshore."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "Kalabsha Temple is the largest freestanding temple in Egyptian Nubia — built during the Roman period in honour of the Nubian solar god Mandulis, relocated in 1970 by a West German team who dismantled it into 13,000 blocks and reassembled it on its current promontory. Beit Al Wali is older and smaller — a rock-cut temple of Ramses II, its inner chambers still holding coloured relief scenes of the king's military campaigns in Nubia and the Levant, the pigment vivid in the dim interior. The Kiosk of Kertassi, nearby, is more ruin than temple, but its four Hathor columns survive and the setting above the water is among the best on the lake. The ship sails south through the afternoon toward Wadi es-Sebua, mooring there for the night."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Wadi es-Sebua, Dakka, Maharraqa and Amada"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "The third day is the fullest of the cruise and the most varied."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Wadi es-Sebua — Arabic for \"Valley of the Lions\" — takes its name from the avenue of sphinx figures that once lined the processional approach. The temple itself was built by Ramses II and later converted into a Christian church; in one of the more striking images in Egyptian archaeology, a painted figure of St Peter now occupies the niche where the cult statue of Ramses once stood, and the outline of the original image is visible beneath. A camel ride connects Wadi es-Sebua to the temples of Dakka and Maharraqa. Dakka was begun under the Ptolemies and finished under Augustus; Maharraqa is a small, roofless Roman kiosk whose chief virtue is its solitude."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "The day ends at Amada, the oldest temple in Nubia, built under Thutmose III and Amenhotep II in the fifteenth century BC, and notable for two historical inscriptions — one recording a military campaign in Asia, the other describing the punishment of rebels in Libya — that are among the most important texts of the New Kingdom. The colours inside are unusually well preserved."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Qasr Ibrim and Abu Simbel: the climax"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "The fourth day is the one the cruise is built around."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "It begins on the sun deck, in the early morning, passing Qasr Ibrim — the only ancient site in Egyptian Nubia that was not moved, because it was already on high ground when the lake filled. What remains is a ruined fortress on a rock island, its walls and cathedral visible from the water but not accessible by visitors. Seen from the deck at dawn it is one of the stranger and more atmospheric sights of the journey."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Abu Simbel comes next. Ramses II ordered two temples cut directly into a sandstone cliff here around 1264 BC — the Great Temple for himself, fronted by four colossal seated figures of the king each approximately 20 metres tall, and the smaller temple for his queen Nefertari, fronted by six standing figures. The interior of the Great Temple penetrates 63 metres into the rock, lined with painted scenes of the Battle of Kadesh. The temples were aligned so that twice a year — in February and October — sunlight reaches the innermost sanctuary and illuminates the seated statues of the gods. In the 1960s, with Lake Nasser rising, this entire complex was cut into 807 pieces and lifted roughly 65 metres to its current position above the waterline. The operation took place between 1964 and 1968 and cost, at the time, around 80 million dollars. You spend the afternoon at Abu Simbel and moor for the night nearby — time to return to the temples after the day-trip groups have left."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Departure from Abu Simbel"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "A final breakfast on board as the morning light falls across the temples. Then disembarkation and transfer to Abu Simbel Airport for the domestic flight onward. For travellers with flexibility, additional time can be arranged so the last hours are not spent waiting at a small airport."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Most of what Lake Nasser holds was built to last forever and nearly didn't. Five days on the water is enough time to understand both parts of that sentence."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The shape of the journey"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Where · Aswan → Kalabsha → Wadi es-Sebua → Dakka → Maharraqa → Amada → Qasr Ibrim (from the deck) → Abu Simbel"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Duration · 5 days / 4 nights aboard a comfortable Lake Nasser cruise vessel"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Character · Fully private · your own Egyptologist · southbound on the reservoir, not the Nile · paced for a lake"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Rumbo sur por el lago Nasser: cinco días de Asuán a Abu Simbel"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un crucero con guía privado por el embalse situado tras la presa Alta —navegando hacia el sur, jornada a jornada, hacia los grandes templos rupestres de Ramsés II en el extremo del lago."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "El lago Nasser no es un lago natural, y los templos de sus orillas no están donde fueron levantados."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Cuando se cerró la presa Alta de Asuán en 1970, quedaron sumergidos más de 500 kilómetros del valle del Nilo —la antigua Nubia, uno de los corredores con mayor densidad monumental del mundo antiguo. Lo que la UNESCO salvó, en la mayor operación de rescate arqueológico jamás emprendida, fueron veintidós templos cortados de sus emplazamientos originales y reensamblados en cotas más altas antes de que las aguas subieran. El lago Nasser es, en ese sentido, una especie de vida después: un embalse cercado de templos que existen solo porque un esfuerzo internacional decidió que merecía la pena salvarlos. A casi ninguno se llega por carretera. El agua es la ruta, y el barco se convierte en su base durante cinco días. La presa, además, desplazó a alrededor de 100 000 nubios de las tierras inundadas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta corre en sentido contrario a la del crucero hacia el norte: hacia el sur desde Asuán hasta Abu Simbel, que es a la vez el punto más lejano y el clímax. Los templos aparecen aproximadamente en el orden en que fueron reubicados —Kalabsha y sus vecinos primero, luego Wadi es-Sebua, después Amada, y finalmente los grandes templos rupestres que Ramsés II hizo excavar cerca de la frontera sudanesa en el siglo XIII a. C. La ruta tiene una lógica y va acumulando: cuando el viajero llega a Abu Simbel la cuarta mañana, entiende qué salvó el rescate y por qué ese último sitio justificó todo. Se trata de un programa con guía privado —su propio egiptólogo, traslados privados, camarote privado en un barco compartido— y con un ritmo de lago, no de río."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Asuán y embarque"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Asuán es donde el Nilo cambia de carácter —donde el río se estrecha hacia la primera catarata y donde el Egipto moderno tomó su decisión de ingeniería más consecuente. Aquí arranca la presa Alta que creó el lago Nasser, y aquí arranca también el crucero."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "Se embarca en Asuán y se almuerza a bordo. No hay visitas el primer día, deliberadamente. La tarde es para instalarse y para mirar cómo las afueras meridionales de la ciudad se abren a aguas amplias; la cena se sirve mientras la nave avanza hacia el sur, ya dentro del lago."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Kalabsha, Beit el-Wali y el quiosco de Kertassi"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "El segundo día introduce el carácter del crucero entero: un racimo de templos rescatados a orillas del lago."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "El templo de Kalabsha es el mayor templo exento de la Nubia egipcia —construido en época romana en honor del dios solar nubio Mandulis y trasladado en 1970 por un equipo de Alemania Occidental que lo desmontó en 13.000 bloques y lo reensambló en su actual promontorio. Beit el-Wali es más antiguo y pequeño —un templo rupestre de Ramsés II, cuyas cámaras interiores aún muestran relieves coloreados con escenas de las campañas del rey en Nubia y el Levante, los pigmentos intensos en la penumbra. El quiosco de Kertassi, en las inmediaciones, es más ruina que templo, pero conserva cuatro columnas con capiteles hatóricos y su emplazamiento sobre el agua se cuenta entre los mejores del lago. El barco zarpa hacia el sur durante la tarde rumbo a Wadi es-Sebua, donde fondea para pasar la noche."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Wadi es-Sebua, Dakka, Maharraqa y Amada"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "El tercer día es el más completo del crucero y el más variado."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Wadi es-Sebua —«valle de los leones» en árabe— toma su nombre de la avenida de figuras esfingiformes que bordeaba la entrada procesional. El templo fue construido por Ramsés II y más tarde reconvertido en iglesia cristiana; en una de las imágenes más curiosas de la arqueología egipcia, una figura pintada de san Pedro ocupa ahora el nicho donde antes se alzaba la estatua de culto de Ramsés, y el perfil de la imagen original se entrevé por debajo. Un trayecto en camello enlaza Wadi es-Sebua con los templos de Dakka y Maharraqa. Dakka se empezó bajo los Ptolomeos y se concluyó bajo Augusto; Maharraqa es un pequeño quiosco romano sin techar cuyo principal mérito es su soledad."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "El día termina en Amada, el templo más antiguo de Nubia, construido bajo Tutmosis III y Amenhotep II en el siglo XV a. C., y notable por dos inscripciones históricas —una que registra una campaña militar en Asia, otra que describe el castigo a rebeldes en Libia— que figuran entre los textos más importantes del Reino Nuevo. La policromía interior se ha conservado en estado notable."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Qasr Ibrim y Abu Simbel: el clímax"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "El cuarto día es aquel sobre el que se articula el crucero entero."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "Empieza en la cubierta solárium, a primera hora, pasando ante Qasr Ibrim —el único yacimiento de la Nubia egipcia que no fue trasladado, porque ya estaba en cota alta cuando se llenó el lago. Lo que queda es una fortaleza arruinada sobre una isla rocosa, con muros y catedral visibles desde el agua pero no accesibles. Vista desde cubierta al amanecer, es una de las imágenes más extrañas y atmosféricas del viaje."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Sigue Abu Simbel. Ramsés II ordenó tallar aquí dos templos directamente en el acantilado de arenisca hacia el 1264 a. C. —el Gran Templo para él mismo, con cuatro colosos sedentes del rey de unos 20 metros cada uno en su fachada, y el templo menor para su reina Nefertari, con seis figuras de pie. El interior del Gran Templo penetra 63 metros en la roca, revestido de escenas pintadas de la batalla de Qadesh. Los templos fueron orientados de modo que dos veces al año —hacia el 22 de febrero y el 22 de octubre— la luz del sol alcance el santuario más interior e ilumine las estatuas sedentes de los dioses. En los años sesenta, con el lago Nasser subiendo, todo el conjunto fue cortado en 807 piezas y elevado unos 65 metros hasta su posición actual sobre la cota de inundación. La operación se desarrolló entre 1964 y 1968 bajo dirección de la UNESCO y costó entonces alrededor de 80 millones de dólares. La tarde transcurre en Abu Simbel y se fondea cerca para la noche —tiempo para volver a los templos cuando los grupos del día ya se han ido."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Salida desde Abu Simbel"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Un último desayuno a bordo mientras la luz de la mañana cae sobre los templos. Luego desembarque y traslado al aeropuerto de Abu Simbel para el vuelo doméstico de continuación. Para viajeros con holgura de horarios, se puede reservar tiempo adicional para no pasar las últimas horas en una terminal pequeña."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Casi todo lo que el lago Nasser sostiene se construyó para durar siempre y estuvo a punto de no durar. Cinco días sobre el agua bastan para entender las dos partes de esa frase."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "La forma del viaje"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "Dónde · Asuán → Kalabsha → Wadi es-Sebua → Dakka → Maharraqa → Amada → Qasr Ibrim (desde la cubierta) → Abu Simbel"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Duración · 5 días / 4 noches a bordo de un crucero confortable del lago Nasser"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Carácter · Salida privada · su propio egiptólogo · rumbo sur por el embalse, no por el Nilo · ritmo de lago"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "ナセル湖を南へ：アスワンからアブ・シンベルへの5日間"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "ハイダムの背後の貯水池をプライベートクルーズで南へ。日を追うごとに湖の奥へ進み、最後に湖の南端、ラムセス2世の岩窟大神殿へとたどり着く。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "ナセル湖は天然の湖ではありません。湖畔に並ぶ神殿群は、もとあった場所には立っていません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "1970年にアスワン・ハイダムが閉じられたとき、500キロメートルを超えるナイル渓谷が水没しました——古代ヌビア、つまり古代世界でも有数の記念建造物の集積する回廊そのものです。UNESCOがかつてないほど大規模な考古救出事業のなかで救い出したのは22の神殿。水が満ちる前に原地から切り取られ、高台へ再構築されたのです。その意味で、ナセル湖はある種の「来世」の景観——救う価値があると国際社会が判断したものだけを輪のように囲む貯水池です。多くの神殿には道路がつながりません。水路が経路であり、5日間、クルーズ船が拠点となります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "行程は北向きの航路と逆をたどります——アスワンから南へ、最遠点でありクライマックスでもあるアブ・シンベルを目指します。神殿はおおむね移設された順に現れます——まずカラブシャと近隣、続いてワディ・エル=セブア、アマダ、そして紀元前13世紀にラムセス2世がスーダン国境付近の崖に刻んだ二つの大岩窟神殿。順序には筋があり、徐々に積み上がります——4日目の朝にアブ・シンベルに着くころには、救出事業が何を救ったのか、なぜ最後の遺跡がそのすべてを正当化するのか、自ずと理解できるはずです。これはプライベートガイド付きのプログラムです。専属のエジプト学ガイドが同行し、移動はプライベート、相乗りの船に専用の客室——川ではなく湖のためのペースに沿って組まれています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワンと乗船"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワンは、ナイルが性格を変える場所です——川が第一急湍に向かって狭まり、近代エジプトがもっとも重大な土木の決断を下した地点。ナセル湖を生んだハイダムはここから始まり、このクルーズもここから始まります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワンで乗船し、昼食は船内で。初日は意図的に観光を入れていません。午後は船に馴染み、アスワン南郊が開けた水面へと変わっていく様を眺めます。夕食をとるあいだに、船は南へ、湖へと入ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "カラブシャ、ベイト・エル=ワリ、ケルタッシのキオスク"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "二日目は、このクルーズの性格そのものを紹介します——湖畔に並ぶ、救出神殿の小さな集まり。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "カラブシャ神殿は、エジプト領ヌビアでもっとも大きな独立神殿——ローマ期に、ヌビアの太陽神マンドゥリスのために建てられ、1970年に西ドイツの隊が13,000のブロックに分解し、現在の岬上に再構築しました。ベイト・エル=ワリはそれよりも古く、規模も小さい——ラムセス2世の岩窟神殿で、内陣には王のヌビアとレヴァントでの遠征を描いた彩色レリーフが、薄暗い空気のなかで色を残しています。隣のケルタッシのキオスクは、神殿というより廃墟に近いのですが、四本のハトホル柱が残り、水際の景観は湖でも屈指です。船は午後を通じて南下し、夜はワディ・エル=セブアに係留します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "ワディ・エル=セブア、ダッカ、マハッラカ、アマダ"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "三日目はクルーズで最も内容が密で、変化に富む一日です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "ワディ・エル=セブア——アラビア語で「ライオンの谷」——の名は、かつての行列道に並んでいたスフィンクス像に由来します。神殿はラムセス2世が築き、のちにキリスト教の教会へ転用されました。エジプト考古学のなかでも忘れがたい光景のひとつとして、ラムセスのカルト像が立っていた壁龕には、いま彩色された聖ペテロの姿が置かれ、その下に元の図像の輪郭がうっすらと透けています。ラクダ乗りで、ワディ・エル=セブアからダッカとマハッラカの神殿群へとつなぎます。ダッカはプトレマイオス朝期に着工しアウグストゥスの代に完成。マハッラカは小さなローマ期の屋根の落ちたキオスクで、その第一の美点は孤独そのものです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "一日は、紀元前15世紀にトトメス3世とアメンホテプ2世が建てたヌビア最古の神殿、アマダで締めくくります。アジア遠征を記録した碑文と、リビアの反乱への処置を記した碑文——新王国時代の最重要級史料に数えられる二つの銘文を擁し、内部の色彩は非常に良好に保たれています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "カスル・イブリムとアブ・シンベル：クライマックス"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "四日目は、このクルーズが核として組み立てられた一日です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "朝はサンデッキで早く始まります——カスル・イブリムを通過する朝。エジプト領ヌビアで唯一移設されなかった古代遺跡で、湖が満ちたとき、すでに十分な高さにあったため助かりました。残るのは岩塊の上の要塞跡——壁面と聖堂が水面の向こうに見えますが、訪問者は近づけません。夜明けの甲板から見るその姿は、この旅でも屈指の異様で気配の濃い眺めです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "そして、アブ・シンベル。ラムセス2世はおよそ紀元前1264年、二つの神殿を砂岩の崖面に直接刻ませました——大神殿は王自身のための神殿で、四体の座像はそれぞれおよそ20メートル。小神殿は妃ネフェルタリのために、立像六体が正面を固めます。大神殿の内部は岩盤の深部へ63メートルにわたって続き、カデシュの戦いの彩色画面が連なります。両神殿は、年に二度——2月22日と10月22日——朝日が至聖所の奥まで届き、奥に並ぶ神々の座像を照らすように向きが計算されています。1960年代、満ちつつあるナセル湖を前に、この複合は807片に切り分けられ、現在の水際上方の位置へとおよそ65メートル持ち上げられました。事業は1964〜1968年にかけて行われ、当時の費用はおよそ8千万米ドルでした。午後はアブ・シンベルで過ごし、近くで夜を明かします——日帰りの団体が引いたあとに、もう一度神殿に戻る時間が取れます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "アブ・シンベルからの出発"
+      }
+     ],
+     "markDefs": [],
+     "style": "h3"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "最後の朝食を船上で。朝の光が神殿に落ちるころ、下船してアブ・シンベル空港へ向かい、国内線で次の行程へ。日程に余裕がある方には、小さな空港で待つだけにならないよう、追加の時間を組むことができます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "ナセル湖が抱えるものの多くは、永遠に残るよう築かれ、危うく消えるところでした。湖の上で5日間——その一文の両側を理解するには、ちょうど足ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "旅の輪郭"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート · アスワン → カラブシャ → ワディ・エル=セブア → ダッカ → マハッラカ → アマダ → カスル・イブリム（船上から） → アブ・シンベル"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "日数 · 5日間／4泊、快適なナセル湖クルーズ船"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "性格 · 完全プライベート出発 · 専属のエジプト学ガイド · ナイルではなく貯水池を南下 · 湖のペース"
+      }
+     ],
+     "level": 1,
+     "listItem": "bullet",
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "wp-page-58758",
+   "_ref": "wp-page-58758",
+   "_type": "reference"
+  },
+  {
+   "_key": "ad0cf6d33da8",
+   "_ref": "wp-page-56813",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private journey is built around your party, not the other way around. Tell our team how you'd want to shape it — paired with a classical Nile cruise after Aswan, extended with a Cairo opening, or held as a standalone short cruise — and we'll build the five days to fit."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Un viaje privado se construye en torno a su grupo, no al revés. Cuéntele a nuestro equipo cómo quiere darle forma —emparejado con un crucero clásico por el Nilo a continuación de Asuán, ampliado con una apertura en El Cairo o mantenido como travesía corta independiente— y armaremos los cinco días a su medida."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "プライベートの旅は、お客様のご一行を軸に組み立てます。アスワン後の古典的ナイルクルーズと組み合わせる、カイロ導入を加えて延ばす、あるいは単独の短いクルーズとして仕立てる——どんな形にしたいかをお聞かせください。5日間を、それに合わせて組み上げます。"
+  }
+ ],
+ "durationDays": 5,
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 220,
+  "ja": 240
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A white cruise ship on Lake Nasser with desert hills and a distant ruin on the far shore."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Un crucero blanco en el lago Nasser con colinas desérticas y una ruina lejana en la otra orilla."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ナセル湖に浮かぶ白いクルーズ船。砂漠の丘と対岸の遺跡が遠くに見える。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-164da006cb790c953040f6288b4c68155ef22c19-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A cruiser crosses Lake Nasser, desert hills and a lone ruin marking the far bank."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Un crucero surca el lago Nasser, con colinas desérticas y una ruina solitaria al fondo."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ナセル湖を渡るクルーズ船。砂漠の丘と対岸の遺跡が遠くに佇む。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "rijvo2kbfx",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Duration · 5 days / 4 nights aboard a comfortable Lake Nasser cruise vessel",
+   "text": "4 nights aboard a comfortable Lake Nasser cruise vessel"
+  },
+  {
+   "_key": "8kn1u0lgpv",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This is a privately guided programme — your own Egyptologist, private transfers, a private cabin on a shared vessel — paced for a lake rather than a river.",
+   "text": "Your own Egyptologist"
+  },
+  {
+   "_key": "jaqv0tem9b",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This is a privately guided programme — your own Egyptologist, private transfers, a private cabin on a shared vessel — paced for a lake rather than a river.",
+   "text": "Private transfers"
+  },
+  {
+   "_key": "g14d5bk4qc",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This is a privately guided programme — your own Egyptologist, private transfers, a private cabin on a shared vessel — paced for a lake rather than a river.",
+   "text": "Private cabin on a shared vessel"
+  },
+  {
+   "_key": "eklwk58run",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "You board in Aswan and lunch is served on board.",
+   "text": "Lunch served on board (day 1)"
+  },
+  {
+   "_key": "zf0uiupe4y",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Then disembarkation and transfer to Abu Simbel Airport for the domestic flight onward.",
+   "text": "Transfer to Abu Simbel Airport"
+  },
+  {
+   "_key": "g11jonq066",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Duración · 5 días / 4 noches a bordo de un crucero confortable del lago Nasser",
+   "text": "5 días / 4 noches a bordo de un crucero confortable del lago Nasser"
+  },
+  {
+   "_key": "j10dbd99tb",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se trata de un programa con guía privado —su propio egiptólogo, traslados privados, camarote privado en un barco compartido— y con un ritmo de lago, no de río.",
+   "text": "Guía privado (su propio egiptólogo)"
+  },
+  {
+   "_key": "yr253z7di5",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se trata de un programa con guía privado —su propio egiptólogo, traslados privados, camarote privado en un barco compartido— y con un ritmo de lago, no de río.",
+   "text": "Traslados privados"
+  },
+  {
+   "_key": "dwq6jiam8e",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se trata de un programa con guía privado —su propio egiptólogo, traslados privados, camarote privado en un barco compartido— y con un ritmo de lago, no de río.",
+   "text": "Camarote privado en un barco compartido"
+  },
+  {
+   "_key": "co3rlmzjt8",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "日数 · 5日間／4泊、快適なナセル湖クルーズ船",
+   "text": "4泊、ナセル湖クルーズ船"
+  },
+  {
+   "_key": "mxwlwm9t7w",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "専属のエジプト学ガイドが同行し、移動はプライベート、相乗りの船に専用の客室——川ではなく湖のためのペースに沿って組まれています。",
+   "text": "専属のエジプト学ガイド"
+  },
+  {
+   "_key": "iv9csjcq3d",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "専属のエジプト学ガイドが同行し、移動はプライベート、相乗りの船に専用の客室——川ではなく湖のためのペースに沿って組まれています。",
+   "text": "プライベートの移動"
+  },
+  {
+   "_key": "oa4vuu0j4e",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "専属のエジプト学ガイドが同行し、移動はプライベート、相乗りの船に専用の客室——川ではなく湖のためのペースに沿って組まれています。",
+   "text": "相乗りの船に専用の客室"
+  }
+ ],
+ "itineraryDays": [
+  {
+   "_key": "8uwmhbq34a",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Lake Nasser cruise",
+   "overnightNeedsReview": true,
+   "source": "You board in Aswan and lunch is served on board.",
+   "title": "Aswan and embarkation"
+  },
+  {
+   "_key": "xq8ipu9dkl",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Lake Nasser cruise",
+   "overnightNeedsReview": true,
+   "source": "The ship sails south through the afternoon toward Wadi es-Sebua, mooring there for the night.",
+   "title": "Kalabsha, Beit Al Wali, the Kiosk of Kertassi"
+  },
+  {
+   "_key": "ilrsahfwvp",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Lake Nasser cruise",
+   "overnightNeedsReview": true,
+   "source": "The third day is the fullest of the cruise and the most varied.",
+   "title": "Wadi es-Sebua, Dakka, Maharraqa and Amada"
+  },
+  {
+   "_key": "ky4o4rjlnw",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": "Lake Nasser cruise",
+   "overnightNeedsReview": true,
+   "source": "You spend the afternoon at Abu Simbel and moor for the night nearby — time to return to the temples after the day-trip groups have left.",
+   "title": "Qasr Ibrim and Abu Simbel"
+  },
+  {
+   "_key": "vy6lg1nowi",
+   "_type": "itineraryDay",
+   "day": 5,
+   "lang": "en",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "Then disembarkation and transfer to Abu Simbel Airport for the domestic flight onward.",
+   "title": "Departure from Abu Simbel"
+  },
+  {
+   "_key": "d571fubqr6",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Crucero por el lago Nasser",
+   "overnightNeedsReview": true,
+   "source": "Se embarca en Asuán y se almuerza a bordo.",
+   "title": "Asuán y embarque"
+  },
+  {
+   "_key": "tex3n0dag5",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Wadi es-Sebua (a bordo)",
+   "overnightNeedsReview": true,
+   "source": "El barco zarpa hacia el sur durante la tarde rumbo a Wadi es-Sebua, donde fondea para pasar la noche.",
+   "title": "Kalabsha, Beit el-Wali y el quiosco de Kertassi"
+  },
+  {
+   "_key": "pgtne3ucx5",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Crucero por el lago Nasser",
+   "overnightNeedsReview": true,
+   "source": "El tercer día es el más completo del crucero y el más variado.",
+   "title": "Wadi es-Sebua, Dakka, Maharraqa y Amada"
+  },
+  {
+   "_key": "lsw4ar095l",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": "Cerca de Abu Simbel (a bordo)",
+   "overnightNeedsReview": true,
+   "source": "La tarde transcurre en Abu Simbel y se fondea cerca para la noche —tiempo para volver a los templos cuando los grupos del día ya se han ido.",
+   "title": "Qasr Ibrim y Abu Simbel: el clímax"
+  },
+  {
+   "_key": "qujej3ue86",
+   "_type": "itineraryDay",
+   "day": 5,
+   "lang": "es",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "Luego desembarque y traslado al aeropuerto de Abu Simbel para el vuelo doméstico de continuación.",
+   "title": "Salida desde Abu Simbel"
+  },
+  {
+   "_key": "gpopdgqrl7",
+   "_type": "itineraryDay",
+   "day": 1,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "ナセル湖クルーズ船",
+   "overnightNeedsReview": true,
+   "source": "夕食をとるあいだに、船は南へ、湖へと入ります。",
+   "title": "アスワンと乗船"
+  },
+  {
+   "_key": "lagummdsl4",
+   "_type": "itineraryDay",
+   "day": 2,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "ワディ・エル=セブア（係留）",
+   "overnightNeedsReview": true,
+   "source": "船は午後を通じて南下し、夜はワディ・エル=セブアに係留します。",
+   "title": "カラブシャ、ベイト・エル=ワリ、ケルタッシのキオスク"
+  },
+  {
+   "_key": "bto6yimz94",
+   "_type": "itineraryDay",
+   "day": 3,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "ナセル湖クルーズ船",
+   "overnightNeedsReview": true,
+   "source": "三日目はクルーズで最も内容が密で、変化に富む一日です。",
+   "title": "ワディ・エル=セブア、ダッカ、マハッラカ、アマダ"
+  },
+  {
+   "_key": "zumseiabym",
+   "_type": "itineraryDay",
+   "day": 4,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": "アブ・シンベル近く",
+   "overnightNeedsReview": true,
+   "source": "午後はアブ・シンベルで過ごし、近くで夜を明かします——日帰りの団体が引いたあとに、もう一度神殿に戻る時間が取れます。",
+   "title": "カスル・イブリムとアブ・シンベル：クライマックス"
+  },
+  {
+   "_key": "atxejskqbj",
+   "_type": "itineraryDay",
+   "day": 5,
+   "lang": "ja",
+   "needsReview": true,
+   "overnight": null,
+   "overnightNeedsReview": true,
+   "source": "朝の光が神殿に落ちるころ、下船してアブ・シンベル空港へ向かい、国内線で次の行程へ。",
+   "title": "アブ・シンベルからの出発"
+  }
+ ],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/5-day-lake-nasser-cruise-from-aswan/"
+ },
+ "priceFrom": 1390,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_90443",
+   "_ref": "wp-page-90443",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_102370",
+   "_ref": "wp-page-102370",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_129996",
+   "_ref": "wp-page-129996",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_90402",
+   "_ref": "wp-page-90402",
+   "_type": "reference"
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "5-day-lake-nasser-cruise-from-aswan"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "crucero-de-5-dias-por-el-lago-nasser-desde-asuan-templos-de-las-tierras-sumergidas"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "asuwan-hatsu-5-nichikan-naseru-ko-kuruzu-suitei-ni-shizun-da"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "value": "Five days on Lake Nasser — the reservoir behind the High Dam — sailing south from Aswan to Abu Simbel through the rescued temples of Nubia."
+  },
+  {
+   "_key": "es",
+   "value": "Cinco días por el lago Nasser —el embalse tras la presa Alta— navegando hacia el sur desde Asuán hasta Abu Simbel, entre los templos rescatados de la Nubia anegada."
+  },
+  {
+   "_key": "ja",
+   "value": "ハイダムの背後の貯水池、ナセル湖を5日間南下する——アスワンからアブ・シンベルへ、水没を免れたヌビアの神殿群をめぐる、ナイルではなく湖の旅。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-nile-cruise",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "value": "5-Day Lake Nasser Cruise from Aswan: Temples of the Drowned Lands"
+  },
+  {
+   "_key": "es",
+   "value": "Crucero de 5 días por el lago Nasser desde Asuán: templos de las tierras sumergidas"
+  },
+  {
+   "_key": "ja",
+   "value": "アスワン発5日間ナセル湖クルーズ：水底に沈んだ地の神殿群"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}

@@ -13,6 +13,36 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/cairo-alexandria-city-break-5-days",
+    "destination": "/4-day-history-culture-escape",
+    "permanent": true
+  },
+  {
+    "source": "/es/el-cairo-y-alejandria-en-5-dias-dos-ciudades-dos-costas",
+    "destination": "/es/el-cairo-en-4-dias-piramides-gran-museo-egipcio-y-el-cairo-antiguo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/kairo-arekusandoria-5-nichikan-futatsu-no-to-futatsu-no",
+    "destination": "/ja/4-nichikan-no-kairo-piramiddo-dai-ejiputo-hakubutsukan",
+    "permanent": true
+  },
+  {
+    "source": "/3-day-nubian-fishing-safari",
+    "destination": "/4-day-ultimate-lake-nasser-experience",
+    "permanent": true
+  },
+  {
+    "source": "/es/tres-dias-en-el-lago-nasser-un-safari-nubio-de-pesca",
+    "destination": "/es/cuatro-dias-en-el-lago-nasser-pesca-desierto-y-los-templos-rescatados",
+    "permanent": true
+  },
+  {
+    "source": "/ja/naseru-ko-no-san-nichikan-nubianfisshingusafari",
+    "destination": "/ja/naseru-ko-no-yon-nichikan-tsuri-to-sabaku-to-kyushutsu-sa-re",
+    "permanent": true
+  },
+  {
     "source": "/esna-temple-and-el-kab-day-tour-from-luxor",
     "destination": "/esna-el-kab-and-gebel-silsila-from-luxor",
     "permanent": true
@@ -449,17 +479,17 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/guide/cairo/cairo-alexandria-city-break-5-days",
-    "destination": "/cairo-alexandria-city-break-5-days",
+    "destination": "/4-day-history-culture-escape",
     "permanent": true
   },
   {
     "source": "/es/guide/cairo/5-dias-a-el-cairo-y-alejandria",
-    "destination": "/es/el-cairo-y-alejandria-en-5-dias-dos-ciudades-dos-costas",
+    "destination": "/es/el-cairo-en-4-dias-piramides-gran-museo-egipcio-y-el-cairo-antiguo",
     "permanent": true
   },
   {
     "source": "/ja/guide/cairo/kairo-arekusandoria-shitibureiku-5-nichikan",
-    "destination": "/ja/kairo-arekusandoria-5-nichikan-futatsu-no-to-futatsu-no",
+    "destination": "/ja/4-nichikan-no-kairo-piramiddo-dai-ejiputo-hakubutsukan",
     "permanent": true
   },
   {
@@ -1634,7 +1664,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/cairo-alexandria-city-break-5-days",
-    "destination": "/ja/kairo-arekusandoria-5-nichikan-futatsu-no-to-futatsu-no",
+    "destination": "/ja/4-nichikan-no-kairo-piramiddo-dai-ejiputo-hakubutsukan",
     "permanent": true
   },
   {
@@ -2004,7 +2034,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/3-day-nubian-fishing-safari",
-    "destination": "/ja/naseru-ko-no-san-nichikan-nubianfisshingusafari",
+    "destination": "/ja/naseru-ko-no-yon-nichikan-tsuri-to-sabaku-to-kyushutsu-sa-re",
     "permanent": true
   },
   {
@@ -6539,7 +6569,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/cairo-alexandria-city-break-5-days",
-    "destination": "/es/el-cairo-y-alejandria-en-5-dias-dos-ciudades-dos-costas",
+    "destination": "/es/el-cairo-en-4-dias-piramides-gran-museo-egipcio-y-el-cairo-antiguo",
     "permanent": true
   },
   {
@@ -6909,7 +6939,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/3-day-nubian-fishing-safari",
-    "destination": "/es/tres-dias-en-el-lago-nasser-un-safari-nubio-de-pesca",
+    "destination": "/es/cuatro-dias-en-el-lago-nasser-pesca-desierto-y-los-templos-rescatados",
     "permanent": true
   },
   {
@@ -27759,7 +27789,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/カイロとアレクサンドリアの都市間旅行：エジプ",
-    "destination": "/ja/kairo-arekusandoria-5-nichikan-futatsu-no-to-futatsu-no",
+    "destination": "/ja/4-nichikan-no-kairo-piramiddo-dai-ejiputo-hakubutsukan",
     "permanent": true
   },
   {
@@ -29389,7 +29419,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/safari-de-pesca-en-nubia-de-3-dias",
-    "destination": "/es/tres-dias-en-el-lago-nasser-un-safari-nubio-de-pesca",
+    "destination": "/es/cuatro-dias-en-el-lago-nasser-pesca-desierto-y-los-templos-rescatados",
     "permanent": true
   },
   {

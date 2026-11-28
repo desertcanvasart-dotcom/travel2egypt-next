@@ -76,12 +76,15 @@ The museum comes first, so the first afternoon gives you the overview: the objec
 
 **Midday.** Lunch at a local restaurant.
 
-**Afternoon.** Dahshur, where Sneferu built the Bent Pyramid and the Red Pyramid: the step between Djoser’s steps and the smooth sides of Giza, in a quieter corner of the desert. You go inside the Red Pyramid. Then back to your hotel.
+**Afternoon.** Dahshur, where Sneferu built the Bent Pyramid and the Red Pyramid: the step between Djoser’s steps and the smooth sides of Giza, in a quieter corner of the desert. You can go inside the Red Pyramid with an extra ticket. Then back to your hotel.
 
-**The day:** Memphis · Colossus of Ramses II · Saqqara · Step Pyramid of Djoser · Dahshur · Bent Pyramid · inside the Red Pyramid
+**The day:** Memphis · Colossus of Ramses II · Saqqara · Step Pyramid of Djoser · Dahshur · Bent Pyramid · Red Pyramid
 **Overnight:** Barceló Cairo Pyramids or Pyramids Park Resort
 **Meals:** Breakfast · lunch
 **Travel:** Private air-conditioned transfers
+
+**Optional on this day:**
+- Inside the Red Pyramid at Dahshur: extra ticket
 
 > More about this stop → *(expands the essay’s Saqqara passage, with the approved corrections)*
 
@@ -123,7 +126,6 @@ Your flight leaves early, so the day is kept clear: the private transfer from yo
 - Lunch at a local restaurant on Days 1, 2 and 3
 - Entrance to the Grand Egyptian Museum, including the Tutankhamun galleries
 - Entrance to the Giza plateau, including the panorama viewpoint, the Great Sphinx and the Valley Temple, and inside one pyramid (Khafre or Menkaure)
-- Inside the Red Pyramid at Dahshur
 - Entrance tickets to the other sites in the daily programme
 
 **Not included**
@@ -133,6 +135,7 @@ Your flight leaves early, so the day is kept clear: the private transfer from yo
 - Drinks
 - Tipping
 - Inside the Great Pyramid of Khufu: extra ticket, see Day 2
+- Inside the Red Pyramid at Dahshur: extra ticket, see Day 3
 - Camel ride: extra cost, see Day 2
 - The evening options in "Make it your own": extra cost
 

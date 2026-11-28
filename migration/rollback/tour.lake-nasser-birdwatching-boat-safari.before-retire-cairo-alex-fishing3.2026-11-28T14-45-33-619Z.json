@@ -1,0 +1,2157 @@
+{
+ "_createdAt": "2026-11-17T22:50:54Z",
+ "_id": "tour.lake-nasser-birdwatching-boat-safari",
+ "_rev": "DlRgh6He0vvlWAkJrD4Q1j",
+ "_type": "tour",
+ "_updatedAt": "2026-11-17T22:50:54Z",
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58758",
+   "_type": "reference"
+  },
+  {
+   "_key": "city-2",
+   "_ref": "wp-page-56813",
+   "_type": "reference"
+  }
+ ],
+ "customisationOptions": [
+  {
+   "_key": "lns-opt-en-0",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "A guide in your own language"
+  },
+  {
+   "_key": "lns-opt-en-1",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Two boats together, for a party of up to eight"
+  },
+  {
+   "_key": "lns-opt-en-2",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "More time for birdwatching, photography or desert walking"
+  },
+  {
+   "_key": "lns-opt-es-0",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Un guía en tu idioma"
+  },
+  {
+   "_key": "lns-opt-es-1",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Dos barcos juntos, para grupos de hasta ocho personas"
+  },
+  {
+   "_key": "lns-opt-es-2",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Más tiempo para observar aves, hacer fotos o caminar por el desierto"
+  },
+  {
+   "_key": "lns-opt-ja-0",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "ご自身の言語を話すガイド"
+  },
+  {
+   "_key": "lns-opt-ja-1",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "最大8名様のグループで、ボート2隻を一緒に手配"
+  },
+  {
+   "_key": "lns-opt-ja-2",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "バードウォッチング、写真撮影、砂漠ウォークにもっと時間をかける"
+  }
+ ],
+ "durationDays": 3,
+ "exclusions": [
+  {
+   "_key": "lns-ex-en-0",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "A guide in a language other than English: extra, priced by language"
+  },
+  {
+   "_key": "lns-ex-en-1",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Travel to and from Aswan"
+  },
+  {
+   "_key": "lns-ex-en-2",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Hotel nights in Aswan before or after the journey"
+  },
+  {
+   "_key": "lns-ex-en-3",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Travel insurance"
+  },
+  {
+   "_key": "lns-ex-en-4",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Alcoholic drinks and personal purchases"
+  },
+  {
+   "_key": "lns-ex-en-5",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Tipping"
+  },
+  {
+   "_key": "lns-ex-en-6",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Activities outside the confirmed itinerary"
+  },
+  {
+   "_key": "lns-ex-en-7",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Entry to Wadi Allaqi or other protected areas, unless confirmed in your written proposal"
+  },
+  {
+   "_key": "lns-ex-es-0",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Un guía en un idioma que no sea el inglés: coste adicional, según el idioma"
+  },
+  {
+   "_key": "lns-ex-es-1",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Viaje a Asuán y desde Asuán"
+  },
+  {
+   "_key": "lns-ex-es-2",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Noches de hotel en Asuán antes o después del viaje"
+  },
+  {
+   "_key": "lns-ex-es-3",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Seguro de viaje"
+  },
+  {
+   "_key": "lns-ex-es-4",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Bebidas alcohólicas y compras personales"
+  },
+  {
+   "_key": "lns-ex-es-5",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Propinas"
+  },
+  {
+   "_key": "lns-ex-es-6",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Actividades fuera del itinerario confirmado"
+  },
+  {
+   "_key": "lns-ex-es-7",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Entrada a Wadi Allaqi u otras zonas protegidas, salvo que se confirme en tu propuesta por escrito"
+  },
+  {
+   "_key": "lns-ex-ja-0",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "英語以外の言語を話すガイド：追加料金（言語によって異なります）"
+  },
+  {
+   "_key": "lns-ex-ja-1",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "アスワンまでの往復の交通"
+  },
+  {
+   "_key": "lns-ex-ja-2",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "ツアー前後のアスワンでのホテル宿泊"
+  },
+  {
+   "_key": "lns-ex-ja-3",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "旅行保険"
+  },
+  {
+   "_key": "lns-ex-ja-4",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "アルコール飲料、個人的な買い物"
+  },
+  {
+   "_key": "lns-ex-ja-5",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "チップ"
+  },
+  {
+   "_key": "lns-ex-ja-6",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "確定した旅程以外のアクティビティ"
+  },
+  {
+   "_key": "lns-ex-ja-7",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "ワディ・アラキほかの保護区への立ち入り（書面のご提案で確定した場合を除く）"
+  }
+ ],
+ "inclusions": [
+  {
+   "_key": "lns-in-en-0",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Private journey for your party"
+  },
+  {
+   "_key": "lns-in-en-1",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "A birdwatching naturalist guide and a local boatman guide, in English"
+  },
+  {
+   "_key": "lns-in-en-2",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Pickup from your Aswan hotel, private car to Abu Simbel and back to your hotel"
+  },
+  {
+   "_key": "lns-in-en-3",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Entrance to the temples of Abu Simbel"
+  },
+  {
+   "_key": "lns-in-en-4",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Two nights aboard a private two-cabin boat"
+  },
+  {
+   "_key": "lns-in-en-5",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Crew and fuel for the agreed itinerary"
+  },
+  {
+   "_key": "lns-in-en-6",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Guided birdwatching, desert walks and dune exploration"
+  },
+  {
+   "_key": "lns-in-en-7",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "The meals listed in each day: lunch and dinner on Day 1, three meals on Day 2, breakfast and lunch on Day 3"
+  },
+  {
+   "_key": "lns-in-en-8",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Drinking water, tea, coffee and soft drinks"
+  },
+  {
+   "_key": "lns-in-en-9",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Shore transfers, and the access permissions needed for the confirmed route"
+  },
+  {
+   "_key": "lns-in-es-0",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Viaje privado para tu grupo"
+  },
+  {
+   "_key": "lns-in-es-1",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Un guía naturalista experto en aves y un guía barquero local, en inglés"
+  },
+  {
+   "_key": "lns-in-es-2",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Recogida en tu hotel de Asuán, coche privado hasta Abu Simbel y regreso a tu hotel"
+  },
+  {
+   "_key": "lns-in-es-3",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Entrada a los templos de Abu Simbel"
+  },
+  {
+   "_key": "lns-in-es-4",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Dos noches a bordo de un barco privado de dos camarotes"
+  },
+  {
+   "_key": "lns-in-es-5",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Tripulación y combustible para el itinerario acordado"
+  },
+  {
+   "_key": "lns-in-es-6",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Observación de aves guiada, paseos por el desierto y exploración de dunas"
+  },
+  {
+   "_key": "lns-in-es-7",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Las comidas indicadas en cada día: almuerzo y cena el día 1, tres comidas el día 2, desayuno y almuerzo el día 3"
+  },
+  {
+   "_key": "lns-in-es-8",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Agua potable, té, café y refrescos"
+  },
+  {
+   "_key": "lns-in-es-9",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "Traslados a la orilla y los permisos de acceso necesarios para la ruta confirmada"
+  },
+  {
+   "_key": "lns-in-ja-0",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "お客様のグループだけのプライベートツアー"
+  },
+  {
+   "_key": "lns-in-ja-1",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "野鳥観察のナチュラリストガイドと地元の船頭ガイド（英語）"
+  },
+  {
+   "_key": "lns-in-ja-2",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "アスワン市内のホテルへのお迎え、アブ・シンベルまでの専用車、ホテルまでのお送り"
+  },
+  {
+   "_key": "lns-in-ja-3",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "アブ・シンベル神殿の入場料"
+  },
+  {
+   "_key": "lns-in-ja-4",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "2キャビンのプライベートボートでの船中2泊"
+  },
+  {
+   "_key": "lns-in-ja-5",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "取り決めた旅程のためのクルーと燃料"
+  },
+  {
+   "_key": "lns-in-ja-6",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "ガイド付きのバードウォッチング、砂漠ウォーク、砂丘探索"
+  },
+  {
+   "_key": "lns-in-ja-7",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "各日の行程に記載の食事：1日目の昼食と夕食、2日目の3食、3日目の朝食と昼食"
+  },
+  {
+   "_key": "lns-in-ja-8",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "飲料水、紅茶、コーヒー、ソフトドリンク"
+  },
+  {
+   "_key": "lns-in-ja-9",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "text": "確定したルートに必要な、上陸のための移動とアクセス許可"
+  }
+ ],
+ "itineraryDays": [
+  {
+   "_key": "lns-en-1",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Morning."
+      },
+      {
+       "_key": "s0b",
+       "_type": "span",
+       "marks": [],
+       "text": " Pickup from your hotel in Aswan at 07:30 and the drive south to Abu Simbel, about three hours. First, a visit to the two temples of Abu Simbel, Ramesses II’s Great Temple and the temple of Nefertari, moved here in the 1960s to save them from the rising lake. Then, near the temple, you board the boat, meet your guides and crew, settle into your cabin and get a briefing, then set out across the lake. On the way to the first anchorage, your naturalist helps you look for herons, egrets, cormorants, kingfishers and other waterbirds around the sheltered bays and rocky islands, depending on the route."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "p1",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s1a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Afternoon."
+      },
+      {
+       "_key": "s1b",
+       "_type": "span",
+       "marks": [],
+       "text": " Lunch aboard, then time to rest on the shaded deck. Later, you step ashore at an approved landing site for a guided desert walk where the lake meets the desert: drought-adapted plants, rock formations and animal tracks in the sand. The pace is gentle, with stops for observation and photography."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "p2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s2a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Evening."
+      },
+      {
+       "_key": "s2b",
+       "_type": "span",
+       "marks": [],
+       "text": " Back aboard around sunset. Dinner is freshly prepared by the crew, and the evening is for the stars."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 1,
+   "lang": "en",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "private two-cabin boat on Lake Nasser",
+   "overnightNeedsReview": false,
+   "pace": "A morning on the road and at the temples, then an easy afternoon on the lake",
+   "place": "Aswan → Abu Simbel → Lake Nasser",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "name": "the drive to Abu Simbel"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.abu-simbel.the-great-temple-of-abu-simbel",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "the temples of Abu Simbel"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "name": "embarkation"
+    },
+    {
+     "_key": "site3",
+     "_type": "daySite",
+     "name": "birdwatching from the boat"
+    },
+    {
+     "_key": "site4",
+     "_type": "daySite",
+     "name": "guided desert walk"
+    },
+    {
+     "_key": "site5",
+     "_type": "daySite",
+     "name": "sunset at anchor"
+    }
+   ],
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "title": "Birds, shores and sunset",
+   "travel": "Pickup from your Aswan hotel · private car, Aswan → Abu Simbel · private boat"
+  },
+  {
+   "_key": "lns-en-2",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Early morning."
+      },
+      {
+       "_key": "s0b",
+       "_type": "span",
+       "marks": [],
+       "text": " An early start, while the light is soft and the desert cooler. A short boat transfer takes you to the landing site chosen for the morning’s walk. Your naturalist leads you through shoreline and wadi habitats, stopping to read tracks and scan the landscape. Where recent local sightings support it, you search for Dorcas gazelles and desert foxes. They are wild animals in a vast landscape: you may see them, find signs that they’ve passed, or see neither."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "p1",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s1a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Morning."
+      },
+      {
+       "_key": "s1b",
+       "_type": "span",
+       "marks": [],
+       "text": " Breakfast aboard, then more of the lake. Quiet bays give further chances for birdwatching and photography, with the route adjusted to the conditions and the birds present."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "p2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s2a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Afternoon."
+      },
+      {
+       "_key": "s2b",
+       "_type": "span",
+       "marks": [],
+       "text": " Lunch, and a rest aboard. In the late afternoon you go ashore to explore the dunes on foot: sandy slopes and the desert around them, how the wind shapes the land and how small animals leave traces of their movements. You pick a viewpoint to watch the colours change, then return to the boat."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "p3",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s3a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Evening."
+      },
+      {
+       "_key": "s3b",
+       "_type": "span",
+       "marks": [],
+       "text": " Dinner aboard, and a second night on the lake."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 2,
+   "lang": "en",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "private two-cabin boat on Lake Nasser",
+   "overnightNeedsReview": false,
+   "pace": "An early start, a quiet middle of the day, a walk in the late afternoon",
+   "place": "On Lake Nasser",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "name": "dawn walk and wildlife tracking"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "name": "birdwatching in the bays"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "name": "dune walk at sunset"
+    }
+   ],
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "title": "Dawn tracking and the dunes",
+   "travel": "Private boat · short boat transfers to landing sites · on foot"
+  },
+  {
+   "_key": "lns-en-3",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Early morning."
+      },
+      {
+       "_key": "s0b",
+       "_type": "span",
+       "marks": [],
+       "text": " A last birdwatching outing through sheltered inlets and shoreline habitats while the lake is quiet. Your naturalist helps you identify what you see, and explains how each species uses the lake’s different environments."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "p1",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s1a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Morning."
+      },
+      {
+       "_key": "s1b",
+       "_type": "span",
+       "marks": [],
+       "text": " Breakfast, then the cruise back towards Abu Simbel. If the route and conditions allow, one last short walk ashore or a stop for photographs."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "p2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s2a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Midday."
+      },
+      {
+       "_key": "s2b",
+       "_type": "span",
+       "marks": [],
+       "text": " Lunch aboard, then you disembark near Abu Simbel and drive back to your hotel in Aswan, about three hours."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 3,
+   "lang": "en",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnightNeedsReview": false,
+   "pace": "An early outing, then the return by boat and road",
+   "place": "Lake Nasser → Abu Simbel → Aswan",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "name": "birdwatching in the inlets"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "name": "the return cruise"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "name": "the drive to Aswan"
+    }
+   ],
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "title": "Morning birdwatching and the return",
+   "travel": "Private boat · private car, Abu Simbel → your Aswan hotel"
+  },
+  {
+   "_key": "lns-es-1",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Mañana."
+      },
+      {
+       "_key": "s0b",
+       "_type": "span",
+       "marks": [],
+       "text": " Recogida en tu hotel de Asuán a las 07:30 y trayecto hacia el sur hasta Abu Simbel, unas tres horas. Primero, visita a los dos templos de Abu Simbel, el Gran Templo de Ramsés II y el templo de Nefertari, trasladados aquí en los años sesenta para salvarlos de la subida del lago. Después, cerca del templo, subes al barco, conoces a tus guías y a la tripulación, te instalas en tu camarote y recibes las indicaciones, y salís a navegar por el lago. De camino al primer fondeadero, tu naturalista te ayuda a buscar garzas, garcetas, cormoranes, martines pescadores y otras aves acuáticas en las bahías resguardadas y las islas rocosas, según la ruta."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "p1",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s1a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Tarde."
+      },
+      {
+       "_key": "s1b",
+       "_type": "span",
+       "marks": [],
+       "text": " Almuerzo a bordo y después tiempo para descansar en la cubierta a la sombra. Más tarde, desembarcas en un punto autorizado para un paseo guiado por el desierto, allí donde el lago se encuentra con él: plantas adaptadas a la sequía, formaciones rocosas y huellas de animales en la arena. El ritmo es pausado, con paradas para observar y hacer fotos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "p2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s2a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Noche."
+      },
+      {
+       "_key": "s2b",
+       "_type": "span",
+       "marks": [],
+       "text": " De vuelta a bordo hacia el atardecer. La tripulación prepara la cena al momento, y la noche es para las estrellas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 1,
+   "lang": "es",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "barco privado de dos camarotes en el lago Nasser",
+   "overnightNeedsReview": false,
+   "pace": "una mañana de carretera y templos, y después una tarde tranquila en el lago",
+   "place": "Asuán → Abu Simbel → lago Nasser",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "name": "el trayecto a Abu Simbel"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.abu-simbel.the-great-temple-of-abu-simbel",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "los templos de Abu Simbel"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "name": "embarque"
+    },
+    {
+     "_key": "site3",
+     "_type": "daySite",
+     "name": "observación de aves desde el barco"
+    },
+    {
+     "_key": "site4",
+     "_type": "daySite",
+     "name": "paseo guiado por el desierto"
+    },
+    {
+     "_key": "site5",
+     "_type": "daySite",
+     "name": "atardecer fondeados"
+    }
+   ],
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "title": "Aves, orillas y atardecer",
+   "travel": "recogida en tu hotel de Asuán · coche privado, Asuán → Abu Simbel · barco privado"
+  },
+  {
+   "_key": "lns-es-2",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Primera hora."
+      },
+      {
+       "_key": "s0b",
+       "_type": "span",
+       "marks": [],
+       "text": " Se madruga, cuando la luz es suave y el desierto está más fresco. Un breve traslado en barca te lleva al punto de desembarco elegido para el paseo de la mañana. Tu naturalista te guía por hábitats de orilla y de uadi, deteniéndose para leer huellas y escudriñar el paisaje. Donde los avistamientos locales recientes lo justifican, buscáis gacelas dorcas y zorros del desierto. Son animales salvajes en un paisaje inmenso: puede que los veas, que encuentres señales de su paso o que no veas ninguna de las dos cosas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "p1",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s1a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Mañana."
+      },
+      {
+       "_key": "s1b",
+       "_type": "span",
+       "marks": [],
+       "text": " Desayuno a bordo y más lago. Las bahías tranquilas ofrecen nuevas oportunidades para observar aves y hacer fotos, con la ruta adaptada a las condiciones y a las aves presentes."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "p2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s2a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Tarde."
+      },
+      {
+       "_key": "s2b",
+       "_type": "span",
+       "marks": [],
+       "text": " Almuerzo y descanso a bordo. A última hora de la tarde bajas a tierra para explorar las dunas a pie: laderas de arena y el desierto que las rodea, cómo el viento da forma al terreno y cómo los pequeños animales dejan rastro de sus movimientos. Eliges un mirador para ver cómo cambian los colores y vuelves al barco."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "p3",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s3a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Noche."
+      },
+      {
+       "_key": "s3b",
+       "_type": "span",
+       "marks": [],
+       "text": " Cena a bordo y una segunda noche en el lago."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 2,
+   "lang": "es",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "barco privado de dos camarotes en el lago Nasser",
+   "overnightNeedsReview": false,
+   "pace": "madrugón, un mediodía tranquilo y un paseo a última hora de la tarde",
+   "place": "En el lago Nasser",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "name": "paseo al amanecer y rastreo de fauna"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "name": "observación de aves en las bahías"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "name": "paseo por las dunas al atardecer"
+    }
+   ],
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "title": "Rastreo al amanecer y las dunas",
+   "travel": "barco privado · breves traslados en barca a los puntos de desembarco · a pie"
+  },
+  {
+   "_key": "lns-es-3",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Primera hora."
+      },
+      {
+       "_key": "s0b",
+       "_type": "span",
+       "marks": [],
+       "text": " Una última salida para observar aves por ensenadas resguardadas y hábitats de orilla, mientras el lago está en calma. Tu naturalista te ayuda a identificar lo que ves y te explica cómo usa cada especie los distintos ambientes del lago."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "p1",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s1a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Mañana."
+      },
+      {
+       "_key": "s1b",
+       "_type": "span",
+       "marks": [],
+       "text": " Desayuno y navegación de vuelta hacia Abu Simbel. Si la ruta y las condiciones lo permiten, un último paseo corto por la orilla o una parada para hacer fotos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "p2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s2a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Mediodía."
+      },
+      {
+       "_key": "s2b",
+       "_type": "span",
+       "marks": [],
+       "text": " Almuerzo a bordo, desembarque cerca de Abu Simbel y regreso en coche a tu hotel de Asuán, unas tres horas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 3,
+   "lang": "es",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnightNeedsReview": false,
+   "pace": "una salida temprana y después el regreso en barco y por carretera",
+   "place": "Lago Nasser → Abu Simbel → Asuán",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "name": "observación de aves en las ensenadas"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "name": "navegación de vuelta"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "name": "trayecto a Asuán"
+    }
+   ],
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "title": "Aves por la mañana y regreso",
+   "travel": "barco privado · coche privado, Abu Simbel → tu hotel de Asuán"
+  },
+  {
+   "_key": "lns-ja-1",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "午前"
+      },
+      {
+       "_key": "s0b",
+       "_type": "span",
+       "marks": [],
+       "text": " 07:30にアスワン市内のホテルにお迎えに上がり、南のアブ・シンベルまで車で約3時間。まず、アブ・シンベルの2つの神殿、ラムセス2世の大神殿とネフェルタリの神殿を見学します。どちらも1960年代、湖の水位上昇から守るためにこの場所へ移されました。そのあと神殿の近くでボートに乗り込み、ガイドとクルーにご挨拶。キャビンに落ち着いたら説明を受け、湖へ出発します。最初の停泊地へ向かう途中、ルートに応じて、静かな入り江や岩の島々の周りで、サギ、シラサギ、ウ、カワセミなどの水鳥をナチュラリストと一緒に探します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "p1",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s1a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "午後"
+      },
+      {
+       "_key": "s1b",
+       "_type": "span",
+       "marks": [],
+       "text": " 船上で昼食をとり、日陰のデッキでひと休み。その後、許可された上陸地点から岸に上がり、湖と砂漠が出会う場所をガイドと歩きます。乾燥に適応した植物、岩の造形、砂の上の動物の足跡。観察や撮影のために立ち止まりながら、ゆっくりと進みます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "p2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s2a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "夜"
+      },
+      {
+       "_key": "s2b",
+       "_type": "span",
+       "marks": [],
+       "text": " 日没の頃に船へ戻ります。クルーが心を込めて用意する夕食のあとは、星空を眺めて過ごします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 1,
+   "lang": "ja",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "ナセル湖上の2キャビンのプライベートボート",
+   "overnightNeedsReview": false,
+   "pace": "午前は移動と神殿見学、午後は湖でのんびりと",
+   "place": "アスワン → アブ・シンベル → ナセル湖",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "name": "アブ・シンベルへのドライブ"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "guideRef": {
+      "_ref": "guideArticle.abu-simbel.the-great-temple-of-abu-simbel",
+      "_type": "reference",
+      "_weak": true
+     },
+     "name": "アブ・シンベル神殿"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "name": "乗船"
+    },
+    {
+     "_key": "site3",
+     "_type": "daySite",
+     "name": "船上からのバードウォッチング"
+    },
+    {
+     "_key": "site4",
+     "_type": "daySite",
+     "name": "砂漠のガイドウォーク"
+    },
+    {
+     "_key": "site5",
+     "_type": "daySite",
+     "name": "停泊地での夕日"
+    }
+   ],
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "title": "鳥、湖岸、そして夕日",
+   "travel": "アスワン市内のホテルへのお迎え・専用車でアスワンからアブ・シンベルへ・プライベートボート"
+  },
+  {
+   "_key": "lns-ja-2",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "早朝"
+      },
+      {
+       "_key": "s0b",
+       "_type": "span",
+       "marks": [],
+       "text": " 光がやわらかく、砂漠がまだ涼しい早朝に出発。ボートで少し移動し、朝の散策のために選んだ上陸地点へ向かいます。ナチュラリストの案内で湖岸やワジ（涸れ谷）の生息環境を歩き、足跡を読み、風景に目をこらします。最近の地元の目撃情報がある場所では、ドルカスガゼルやサバクギツネを探します。広大な風景に暮らす野生動物ですから、出会えることもあれば、通った痕跡だけが見つかることも、どちらもかなわないこともあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "p1",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s1a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "午前"
+      },
+      {
+       "_key": "s1b",
+       "_type": "span",
+       "marks": [],
+       "text": " 船上で朝食をとり、湖の探索を続けます。静かな入り江では、さらにバードウォッチングや撮影を楽しめます。ルートは、その日の状況と見られる鳥に合わせて調整します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "p2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s2a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "午後"
+      },
+      {
+       "_key": "s2b",
+       "_type": "span",
+       "marks": [],
+       "text": " 昼食のあと、船上でひと休み。夕方近くに上陸し、歩いて砂丘を探索します。砂の斜面とそれを取り巻く砂漠を歩きながら、風が地形をつくるしくみや、小さな動物たちが残す動きの跡を見ていきます。お好きな場所から、移ろう色を眺めてから船へ戻ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "p3",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s3a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "夜"
+      },
+      {
+       "_key": "s3b",
+       "_type": "span",
+       "marks": [],
+       "text": " 船上で夕食をとり、湖で2泊目を過ごします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 2,
+   "lang": "ja",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    },
+    {
+     "_key": "m2",
+     "_type": "dayMeal",
+     "meal": "dinner"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnight": "ナセル湖上の2キャビンのプライベートボート",
+   "overnightNeedsReview": false,
+   "pace": "早朝に出発し、日中は静かに、夕方近くに散策",
+   "place": "ナセル湖",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "name": "夜明けの散策と野生動物の足跡たどり"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "name": "入り江でのバードウォッチング"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "name": "夕暮れの砂丘ウォーク"
+    }
+   ],
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "title": "夜明けの足跡たどりと砂丘",
+   "travel": "プライベートボート・上陸地点へのボートでの短い移動・徒歩"
+  },
+  {
+   "_key": "lns-ja-3",
+   "_type": "itineraryDay",
+   "body": [
+    {
+     "_key": "p0",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s0a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "早朝"
+      },
+      {
+       "_key": "s0b",
+       "_type": "span",
+       "marks": [],
+       "text": " 湖が静かなうちに、最後のバードウォッチングへ。風の穏やかな入り江や湖岸の生息環境をめぐります。ナチュラリストが出会った鳥の見分け方を手ほどきし、それぞれの種が湖のさまざまな環境をどう利用しているかを説明します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "p1",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s1a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "午前"
+      },
+      {
+       "_key": "s1b",
+       "_type": "span",
+       "marks": [],
+       "text": " 朝食のあと、アブ・シンベルへ向けて帰りの航行へ。ルートと状況が許せば、最後に短い上陸散策や撮影のための停泊をします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "p2",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "s2a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "昼"
+      },
+      {
+       "_key": "s2b",
+       "_type": "span",
+       "marks": [],
+       "text": " 船上で昼食をとったあと、アブ・シンベル近くで下船し、車でアスワン市内のホテルへ。約3時間の道のりです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ],
+   "day": 3,
+   "lang": "ja",
+   "meals": [
+    {
+     "_key": "m0",
+     "_type": "dayMeal",
+     "meal": "breakfast"
+    },
+    {
+     "_key": "m1",
+     "_type": "dayMeal",
+     "meal": "lunch"
+    }
+   ],
+   "narrativeRefs": [],
+   "needsReview": false,
+   "optional": [],
+   "overnightNeedsReview": false,
+   "pace": "早朝の探索のあと、船と車で帰路へ",
+   "place": "ナセル湖 → アブ・シンベル → アスワン",
+   "sites": [
+    {
+     "_key": "site0",
+     "_type": "daySite",
+     "name": "入り江でのバードウォッチング"
+    },
+    {
+     "_key": "site1",
+     "_type": "daySite",
+     "name": "帰りの航行"
+    },
+    {
+     "_key": "site2",
+     "_type": "daySite",
+     "name": "アスワンへのドライブ"
+    }
+   ],
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "title": "朝のバードウォッチングと帰路",
+   "travel": "プライベートボート・専用車でアブ・シンベルからアスワン市内のホテルへ"
+  }
+ ],
+ "itineraryIntro": [
+  {
+   "_key": "intro-en",
+   "_type": "itineraryIntro",
+   "closingLine": "On Lake Nasser, the waiting is part of the watching.",
+   "fitFor": [
+    "want birds, quiet and open landscape more than monuments",
+    "enjoy early mornings and walking at an unhurried pace",
+    "take photographs"
+   ],
+   "lang": "en",
+   "makeItYoursIntro": "This is a private journey, built around your party. Common changes:",
+   "needsReview": false,
+   "opening": "This is a journey for watching, not for ticking things off. For three days a private two-cabin boat takes you around the bays and rocky islands of Lake Nasser, setting out from near Abu Simbel, with guided walks where the water meets the desert. Dorcas gazelles and desert foxes live here, but they don’t appear on demand. The days are built around the waterbirds, the tracks in the sand and the landscape itself.",
+   "panelRows": [
+    {
+     "_key": "pr0",
+     "_type": "labelledRow",
+     "label": "Group size",
+     "text": "up to 4 guests per boat, two to a cabin; up to 2 boats together (8 guests)"
+    },
+    {
+     "_key": "pr1",
+     "_type": "labelledRow",
+     "label": "Season",
+     "text": "October to April"
+    },
+    {
+     "_key": "pr2",
+     "_type": "labelledRow",
+     "label": "Pickup",
+     "text": "07:30 from your Aswan hotel"
+    },
+    {
+     "_key": "pr3",
+     "_type": "labelledRow",
+     "label": "Your guides",
+     "text": "a birdwatching naturalist and a local boatman guide, in English"
+    }
+   ],
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "stayRows": [
+    {
+     "_key": "sr0",
+     "_type": "labelledRow",
+     "label": "The boat",
+     "text": "a private two-cabin boat for up to four guests, two to a cabin, with a toilet and shower aboard and a shaded deck. Larger parties can travel with two boats together, up to eight guests. You sleep aboard both nights. The crew prepares the meals, served aboard or from a supporting catering boat, depending on the vessel arrangement confirmed in your proposal. Photographs of the boat, the cabin layout and the bathroom arrangements are sent to you before you book."
+    },
+    {
+     "_key": "sr1",
+     "_type": "labelledRow",
+     "label": "On the road",
+     "text": "a private car from your Aswan hotel to Abu Simbel, and back at the end."
+    },
+    {
+     "_key": "sr2",
+     "_type": "labelledRow",
+     "label": "On the lake",
+     "text": "short boat transfers to the landing sites, and guided walks ashore."
+    },
+    {
+     "_key": "sr3",
+     "_type": "labelledRow",
+     "label": "Your guides",
+     "text": "a birdwatching naturalist and a local boatman guide, both speaking English. A guide in your own language, whether Spanish, Japanese or another, can be arranged at an extra cost, which depends on the language."
+    }
+   ],
+   "whyRoute": "Sleeping aboard puts you on the lake at the hours that matter: early mornings, when the light is soft and the desert cooler, and evenings at anchor under an open sky. The pace is relaxed in between, with rest on the shaded deck through the middle of the day. Two guides share the work: a birdwatching naturalist who reads the birds and the tracks, and a local boatman who knows the lake. The anchorages and landing sites follow an agreed circuit, chosen each day according to permissions, weather, water levels and what the birds are doing.",
+   "whyRouteRefs": [],
+   "worthKnowing": [
+    "**Sightings can’t be guaranteed.** Birdlife varies with the season and the habitat, and gazelles, foxes and other wildlife may not appear. Your guides put quiet observation first, and don’t disturb animals or approach dens and nesting sites.",
+    "The journey runs from October to April.",
+    "Your guides speak English. A guide in your own language can be added at an extra cost, which depends on the language; ask when you book.",
+    "About three hours’ drive between Aswan and Abu Simbel at each end of the journey.",
+    "The dunes are explored on foot. There’s no vehicle-based desert excursion.",
+    "Early starts, and walks over sand, stones and uneven ground. Distances can be adapted to your group, but getting ashore needs reasonable mobility.",
+    "Bring binoculars, comfortable walking shoes, sun protection, a refillable water bottle and a warm layer for the cool mornings and evenings.",
+    "The anchorages and landing sites depend on permissions, weather, water levels and local conditions on the day."
+   ]
+  },
+  {
+   "_key": "intro-es",
+   "_type": "itineraryIntro",
+   "closingLine": "En el lago Nasser, la espera forma parte de la observación.",
+   "fitFor": [
+    "prefieres las aves, la calma y el paisaje abierto a los monumentos",
+    "te gusta madrugar y caminar sin prisa",
+    "haces fotografía"
+   ],
+   "lang": "es",
+   "makeItYoursIntro": "Es un viaje privado, organizado en torno a tu grupo. Cambios habituales:",
+   "needsReview": false,
+   "opening": "Este es un viaje para observar, no para ir tachando cosas de una lista. Durante tres días, un barco privado de dos camarotes te lleva por las bahías y las islas rocosas del lago Nasser, saliendo de las cercanías de Abu Simbel, con paseos guiados donde el agua se encuentra con el desierto. Aquí viven gacelas dorcas y zorros del desierto, pero no aparecen cuando uno quiere. Los días giran en torno a las aves acuáticas, las huellas en la arena y el propio paisaje.",
+   "panelRows": [
+    {
+     "_key": "pr0",
+     "_type": "labelledRow",
+     "label": "Tamaño del grupo",
+     "text": "hasta 4 personas por barco, dos por camarote; hasta 2 barcos juntos (8 personas)"
+    },
+    {
+     "_key": "pr1",
+     "_type": "labelledRow",
+     "label": "Temporada",
+     "text": "de octubre a abril"
+    },
+    {
+     "_key": "pr2",
+     "_type": "labelledRow",
+     "label": "Recogida",
+     "text": "a las 07:30 en tu hotel de Asuán"
+    },
+    {
+     "_key": "pr3",
+     "_type": "labelledRow",
+     "label": "Tus guías",
+     "text": "un naturalista experto en aves y un guía barquero local, en inglés"
+    }
+   ],
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "stayRows": [
+    {
+     "_key": "sr0",
+     "_type": "labelledRow",
+     "label": "El barco",
+     "text": "un barco privado de dos camarotes para un máximo de cuatro personas, dos por camarote, con aseo y ducha a bordo y una cubierta a la sombra. Los grupos más grandes pueden viajar con dos barcos juntos, hasta ocho personas. Duermes a bordo las dos noches. La tripulación prepara las comidas, que se sirven a bordo o desde un barco de apoyo, según la configuración confirmada en tu propuesta. Antes de reservar te enviamos fotos del barco, la distribución de los camarotes y el aseo."
+    },
+    {
+     "_key": "sr1",
+     "_type": "labelledRow",
+     "label": "En la carretera",
+     "text": "coche privado desde tu hotel de Asuán hasta Abu Simbel, y de vuelta al final."
+    },
+    {
+     "_key": "sr2",
+     "_type": "labelledRow",
+     "label": "En el lago",
+     "text": "breves traslados en barca a los puntos de desembarco y paseos guiados en tierra."
+    },
+    {
+     "_key": "sr3",
+     "_type": "labelledRow",
+     "label": "Tus guías",
+     "text": "un naturalista experto en aves y un guía barquero local, los dos de habla inglesa. Se puede organizar un guía en tu idioma, ya sea español, japonés u otro, con un coste adicional que depende del idioma."
+    }
+   ],
+   "whyRoute": "Dormir a bordo te sitúa en el lago en las horas que importan: las primeras de la mañana, cuando la luz es suave y el desierto está más fresco, y las tardes fondeados bajo un cielo abierto. Entre medias, el ritmo es tranquilo, con descanso en la cubierta a la sombra durante el centro del día. Dos guías se reparten el trabajo: un naturalista experto en aves, que sabe leer los pájaros y las huellas, y un barquero local que conoce el lago. Los fondeaderos y los puntos de desembarco siguen un circuito acordado y se eligen cada día según los permisos, el tiempo, el nivel del agua y lo que estén haciendo las aves.",
+   "whyRouteRefs": [],
+   "worthKnowing": [
+    "**No se pueden garantizar los avistamientos.** Las aves varían según la temporada y el hábitat, y puede que las gacelas, los zorros y el resto de la fauna no aparezcan. Tus guías dan prioridad a la observación en silencio y no molestan a los animales ni se acercan a madrigueras ni a lugares de anidación.",
+    "El viaje se ofrece de octubre a abril.",
+    "Tus guías hablan inglés. Se puede añadir un guía en tu idioma con un coste adicional, que depende del idioma; pídelo al reservar.",
+    "Unas tres horas de coche entre Asuán y Abu Simbel al principio y al final del viaje.",
+    "Las dunas se exploran a pie. No hay excursión en vehículo por el desierto.",
+    "Madrugones y paseos por arena, piedras y terreno irregular. Las distancias se pueden adaptar a tu grupo, pero bajar a tierra exige una movilidad razonable.",
+    "Lleva prismáticos, calzado cómodo para caminar, protección solar, una botella de agua reutilizable y algo de abrigo para las mañanas y las noches frescas.",
+    "Los fondeaderos y los puntos de desembarco dependen de los permisos, el tiempo, el nivel del agua y las condiciones locales de cada día."
+   ]
+  },
+  {
+   "_key": "intro-ja",
+   "_type": "itineraryIntro",
+   "closingLine": "ナセル湖では、待つことも、観察のうちです。",
+   "fitFor": [
+    "遺跡より、鳥や静けさ、広々とした風景に惹かれる方",
+    "早起きと、ゆったりとしたペースの散策を楽しめる方",
+    "写真を撮るのがお好きな方"
+   ],
+   "lang": "ja",
+   "makeItYoursIntro": "お客様のグループに合わせてつくるプライベートな旅です。よくあるアレンジ：",
+   "needsReview": false,
+   "opening": "これは、名所を順にめぐる旅ではなく、じっくり観察するための旅です。3日間、2キャビンのプライベートボートでアブ・シンベル近くから出発し、ナセル湖の入り江や岩の島々をめぐります。湖と砂漠が出会う場所では、ガイドと一緒に歩きます。ここにはドルカスガゼルやサバクギツネが暮らしていますが、望んだときに姿を見せてくれるとは限りません。この旅の中心にあるのは、水鳥たち、砂に残る足跡、そして風景そのものです。",
+   "panelRows": [
+    {
+     "_key": "pr0",
+     "_type": "labelledRow",
+     "label": "人数",
+     "text": "1隻につき最大4名様（1キャビン2名様）、最大2隻まで同時に手配可能（8名様）"
+    },
+    {
+     "_key": "pr1",
+     "_type": "labelledRow",
+     "label": "催行期間",
+     "text": "10月〜4月"
+    },
+    {
+     "_key": "pr2",
+     "_type": "labelledRow",
+     "label": "お迎え",
+     "text": "アスワン市内のホテルに07:30"
+    },
+    {
+     "_key": "pr3",
+     "_type": "labelledRow",
+     "label": "ガイド",
+     "text": "野鳥観察のナチュラリストと地元の船頭ガイド（英語）"
+    }
+   ],
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "stayRows": [
+    {
+     "_key": "sr0",
+     "_type": "labelledRow",
+     "label": "ボート",
+     "text": "最大4名様、1キャビン2名様の2キャビンのプライベートボートです。船内にはトイレとシャワー、日陰のデッキがあります。人数の多いグループは、2隻で一緒に旅することもできます（最大8名様）。2泊とも船中泊です。食事はクルーが用意し、ご提案時に確定する船の手配に応じて、船上またはサポート用の調理船からお出しします。ご予約前に、ボートの写真、キャビンの配置、トイレ・シャワーの設備についてお知らせします。"
+    },
+    {
+     "_key": "sr1",
+     "_type": "labelledRow",
+     "label": "道中",
+     "text": "アスワン市内のホテルからアブ・シンベルまで専用車でお送りし、最終日も同様にお戻りいただきます。"
+    },
+    {
+     "_key": "sr2",
+     "_type": "labelledRow",
+     "label": "湖の上で",
+     "text": "上陸地点へのボートでの短い移動と、岸辺のガイドウォーク。"
+    },
+    {
+     "_key": "sr3",
+     "_type": "labelledRow",
+     "label": "ガイド",
+     "text": "野鳥観察のナチュラリストと地元の船頭ガイドが同行し、いずれも英語を話します。日本語、スペイン語、そのほかの言語を話すガイドは、追加料金で手配できます（料金は言語によって異なります）。"
+    }
+   ],
+   "whyRoute": "船中に泊まることで、大切な時間帯に湖の上にいられます。光がやわらかく、砂漠がまだ涼しい早朝、そして開けた空の下、停泊して過ごす夕べ。そのあいだはゆったりしたペースで、日中は日陰のデッキで休みます。ガイドは2人です。鳥や足跡を読み解く野鳥観察のナチュラリストと、湖を知り尽くした地元の船頭です。停泊地と上陸地点は、取り決めた周遊ルートに沿って、許可、天候、水位、そして鳥たちの様子に応じて毎日選びます。",
+   "whyRouteRefs": [],
+   "worthKnowing": [
+    "**野生動物との出会いは保証できません。** 鳥の種類は季節や生息環境によって変わり、ガゼルやキツネなどの野生動物が姿を見せないこともあります。ガイドは静かな観察を第一とし、動物を驚かせたり、巣穴や営巣地に近づいたりすることはありません。",
+    "催行期間は10月から4月です。",
+    "ガイドは英語を話します。ご自身の言語を話すガイドは追加料金で手配できます（料金は言語によって異なります）。ご予約時にお知らせください。",
+    "旅の初日と最終日に、アスワンとアブ・シンベルのあいだを車で約3時間移動します。",
+    "砂丘の探索は徒歩で行います。車での砂漠ツアーは含まれません。",
+    "早起きがあり、砂や石、足場の悪い場所を歩きます。歩く距離はグループに合わせて調整できますが、上陸にはある程度の身体の自由が必要です。",
+    "双眼鏡、歩きやすい靴、日焼け対策、詰め替え用の水筒、そして涼しい朝晩のための上着をお持ちください。",
+    "停泊地と上陸地点は、その日の許可、天候、水位、現地の状況によって決まります。"
+   ]
+  }
+ ],
+ "maxGroup": 8,
+ "migration": {
+  "createdFrom": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+  "replaces": "tour.2-day-nubian-desert-nature-wildlife-retreat",
+  "source": "owner-locked-copy"
+ },
+ "priceFrom": 499,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_129996",
+   "_ref": "wp-page-129996",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_130067",
+   "_ref": "wp-page-130067",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_90443",
+   "_ref": "wp-page-90443",
+   "_type": "reference"
+  }
+ ],
+ "routeLegs": [
+  {
+   "_key": "lns-leg-en-0",
+   "_type": "routeLeg",
+   "from": "Aswan",
+   "lang": "en",
+   "mode": "road",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "to": "Abu Simbel"
+  },
+  {
+   "_key": "lns-leg-en-1",
+   "_type": "routeLeg",
+   "from": "Abu Simbel",
+   "lang": "en",
+   "mode": "boat",
+   "needsReview": false,
+   "nights": 2,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "to": "Abu Simbel",
+   "via": [
+    "Lake Nasser"
+   ]
+  },
+  {
+   "_key": "lns-leg-en-2",
+   "_type": "routeLeg",
+   "from": "Abu Simbel",
+   "lang": "en",
+   "mode": "road",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "to": "Aswan"
+  },
+  {
+   "_key": "lns-leg-es-0",
+   "_type": "routeLeg",
+   "from": "Asuán",
+   "lang": "es",
+   "mode": "road",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "to": "Abu Simbel"
+  },
+  {
+   "_key": "lns-leg-es-1",
+   "_type": "routeLeg",
+   "from": "Abu Simbel",
+   "lang": "es",
+   "mode": "boat",
+   "needsReview": false,
+   "nights": 2,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "to": "Abu Simbel",
+   "via": [
+    "lago Nasser"
+   ]
+  },
+  {
+   "_key": "lns-leg-es-2",
+   "_type": "routeLeg",
+   "from": "Abu Simbel",
+   "lang": "es",
+   "mode": "road",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "to": "Asuán"
+  },
+  {
+   "_key": "lns-leg-ja-0",
+   "_type": "routeLeg",
+   "from": "アスワン",
+   "lang": "ja",
+   "mode": "road",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "to": "アブ・シンベル"
+  },
+  {
+   "_key": "lns-leg-ja-1",
+   "_type": "routeLeg",
+   "from": "アブ・シンベル",
+   "lang": "ja",
+   "mode": "boat",
+   "needsReview": false,
+   "nights": 2,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "to": "アブ・シンベル",
+   "via": [
+    "ナセル湖"
+   ]
+  },
+  {
+   "_key": "lns-leg-ja-2",
+   "_type": "routeLeg",
+   "from": "アブ・シンベル",
+   "lang": "ja",
+   "mode": "road",
+   "needsReview": false,
+   "source": "Owner locked copy \"3-day-lake-nasser-birdwatching-boat-safari\" (EN/ES/JA), 18 Nov 2026, with the owner's 18 Nov answers (temples, 07:30, guide cost).",
+   "to": "アスワン"
+  }
+ ],
+ "seo": {
+  "_type": "seo",
+  "metaDescription": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayTextValue",
+    "value": "A private three-day boat safari on Lake Nasser from Abu Simbel: waterbirds, desert walks and dunes, two nights aboard a two-cabin boat, and the temples of Abu Simbel."
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayTextValue",
+    "value": "Un safari privado de tres días en barco por el lago Nasser desde Abu Simbel: aves acuáticas, paseos por el desierto y las dunas, dos noches a bordo de un barco de dos camarotes y los templos de Abu Simbel."
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayTextValue",
+    "value": "アブ・シンベルから出発する、ナセル湖のプライベートな3日間のボートサファリ。水鳥の観察、砂漠と砂丘の散策、2キャビンのボートでの船中2泊、そしてアブ・シンベル神殿の見学。"
+   }
+  ],
+  "metaTitle": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Lake Nasser Birdwatching Boat Safari: 3 Days"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Safari en barco y aves en el lago Nasser: 3 días"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "ナセル湖バードウォッチング・ボートサファリ3日間"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "lake-nasser-birdwatching-boat-safari"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "safari-en-barco-y-observacion-de-aves-en-el-lago-nasser"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "naseru-ko-yacho-kansatsu-boto-safari"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "A private three-day boat safari on Lake Nasser from Abu Simbel: waterbirds, desert walks and dunes, two nights aboard a two-cabin boat, and the temples of Abu Simbel."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Un safari privado de tres días en barco por el lago Nasser desde Abu Simbel: aves acuáticas, paseos por el desierto y las dunas, dos noches a bordo de un barco de dos camarotes y los templos de Abu Simbel."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "アブ・シンベルから出発する、ナセル湖のプライベートな3日間のボートサファリ。水鳥の観察、砂漠と砂丘の散策、2キャビンのボートでの船中2泊、そしてアブ・シンベル神殿の見学。"
+  }
+ ],
+ "theme": {
+  "_ref": "theme-adventure",
+  "_type": "reference"
+ },
+ "title": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Lake Nasser Birdwatching and Desert Boat Safari: 3 Days"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Safari en barco por el lago Nasser, con observación de aves y desierto: 3 días"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "ナセル湖バードウォッチング＆砂漠ボートサファリ3日間"
+  }
+ ],
+ "tourMode": "private",
+ "type": "package"
+}
