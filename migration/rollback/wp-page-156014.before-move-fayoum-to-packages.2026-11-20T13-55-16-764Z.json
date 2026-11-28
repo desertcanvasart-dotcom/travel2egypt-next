@@ -1,0 +1,1721 @@
+{
+ "_createdAt": "2026-05-13T22:20:15Z",
+ "_id": "wp-page-156014",
+ "_rev": "K2pi3eY73hTRu2vMGMyRaJ",
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:41Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers with two days out of Cairo who want a UNESCO-grade geological site alongside a working oasis landscape — and one night under desert sky"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros con dos días disponibles desde El Cairo que quieran combinar un sitio geológico de categoría UNESCO con un paisaje de oasis en activo, y una noche bajo el cielo del desierto"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "カイロから二日を確保できる方で、ユネスコ級の地質遺産と、現役のオアシス景観を、砂漠で一泊しながら並べて読みたい方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Fayoum Desert: Two Days Between Wadi al-Hitan, Wadi al-Rayan, and Lake Qarun"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Roughly a hundred kilometres south-west of Cairo, the Fayoum depression preserves a forty-million-year geological record and a working oasis landscape in the same hour's drive. Two days is the honest minimum."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "The Fayoum is not a desert sidetrip from Cairo in the way the White Desert is — it is a depression with its own water table, its own farmland, its own large lake, and a UNESCO World Heritage site that records the moment whales transitioned from land animals to sea animals. Day-trippers get one of these things. Two days lets you see them in the right order."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "We run this as a private circuit with an English-speaking guide and an air-conditioned vehicle from Cairo. One night is spent at a desert-themed property near the lakes — modest, not luxurious, but properly located for the second morning. Two lunches, one dinner under the stars, and one breakfast are included."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Day one: Wadi al-Hitan and Gebel Qatrani."
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [],
+       "text": " The drive from Cairo to Wadi al-Hitan takes roughly three hours, the last forty-five minutes on desert track. Wadi al-Hitan — the Valley of the Whales — was inscribed by UNESCO in 2005 for what it is rather than what it looks like. The skeletons exposed in the rock here are roughly forty million years old, from the late Eocene, when the Tethys Sea covered this part of Egypt. They show the legs that whale ancestors still had as they began the transition from land to water. The site is an open-air museum, with skeletons left in situ and walking paths between them. The visitor centre frames the geological context. After lunch, the afternoon takes in the Gebel Qatrani open-air museum to the north — petrified wood, the same Eocene formations — and explains why the Fayoum's geology is one of the most studied vertebrate fossil zones in the world."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [],
+       "text": "Overnight is at the desert-themed property near the lake. Dinner is served outdoors; a fire is lit. The desert at this latitude cools sharply after sunset."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Day two: Wadi al-Rayan and Lake Qarun."
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": " Wadi al-Rayan is a protected area with twin lakes — Upper and Lower — connected by a short series of waterfalls that are, modest as they are, the only natural waterfalls in Egypt. The protected zone is also significant for migratory bird habitat. The morning is for walking the lakeshore and the waterfall corridor, with optional sandboarding on the dunes nearby if the group wants it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "The day closes at "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Lake Qarun"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": ", the larger of the Fayoum's lakes — an ancient body of water that has been continuously occupied since the Predynastic period and that supported the Middle Kingdom royal cult under Amenemhat III. The waterfront at the Lost Land area is for birdwatching and a slower close to the trip. The return drive to Cairo is roughly two hours."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Why two days rather than one"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "The single-day Fayoum trip from Cairo forces a choice: Wadi al-Hitan, or Wadi al-Rayan, but not both well. Wadi al-Hitan alone is six hours of driving for two hours on the ground, which is the wrong proportion for what is genuinely a World Heritage site. Splitting it across two days, with a night in the depression, restores the right ratio — and lets you read the geology in daylight without rushing."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "The whales here learned to swim before there was a Sahara. That is what you are looking at."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "The trip can be tightened to a single long day for guests with only one slot, though the concierge will usually push for the two-night version to do Wadi al-Hitan justice. Sandboarding and additional Wadi al-Rayan activities can be added."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Desierto de Fayum: dos días entre Wadi al-Hitan, Wadi al-Rayan y el lago Qarun"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A unos cien kilómetros al suroeste de El Cairo, la depresión del Fayum guarda un registro geológico de cuarenta millones de años y un paisaje de oasis en activo en la misma hora de camino. Dos días son el mínimo honesto."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "El Fayum no es una excursión al desierto desde El Cairo como puede serlo el Desierto Blanco: es una depresión con su propio nivel freático, sus propias tierras de labor, un gran lago y un sitio del Patrimonio Mundial de la UNESCO que documenta el momento en que los antepasados de las ballenas pasaron de la tierra al mar. Quien va por un día se lleva una de esas piezas. Dos días permiten verlas en el orden adecuado."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Operamos el circuito en formato privado, con guía angloparlante y vehículo climatizado desde El Cairo. La noche se pasa en un alojamiento de inspiración desértica cerca de los lagos: modesto, no lujoso, pero bien situado para la mañana siguiente. Se incluyen dos almuerzos, una cena bajo las estrellas y un desayuno."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Día uno: Wadi al-Hitan y Gebel Qatrani."
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [],
+       "text": " El trayecto desde El Cairo hasta Wadi al-Hitan dura aproximadamente tres horas, con los últimos cuarenta y cinco minutos por pista de desierto. Wadi al-Hitan —el Valle de las Ballenas— fue inscrito por la UNESCO en 2005 por lo que es, no por lo que aparenta. Los esqueletos expuestos en la roca tienen alrededor de cuarenta millones de años, del Eoceno tardío, cuando el mar de Tetis cubría esta parte de Egipto. Conservan aún las patas que los antepasados de las ballenas mantenían mientras comenzaban la transición de la tierra al agua. El recinto es un museo al aire libre, con los esqueletos dejados in situ y senderos peatonales entre ellos. El centro de visitantes proporciona el contexto geológico. Tras el almuerzo, la tarde incluye el museo al aire libre de Gebel Qatrani, al norte —madera petrificada, las mismas formaciones eocenas— y explica por qué la geología del Fayum es una de las zonas de fósiles de vertebrados más estudiadas del mundo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [],
+       "text": "La noche se pasa en el alojamiento de inspiración desértica cerca del lago. La cena se sirve al aire libre; se enciende una hoguera. A esta latitud, el desierto se enfría bruscamente tras la puesta de sol."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Día dos: Wadi al-Rayan y el lago Qarun."
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": " Wadi al-Rayan es un área protegida con dos lagos gemelos —el superior y el inferior— conectados por una breve serie de cascadas que, modestas como son, constituyen las únicas cascadas naturales de Egipto. La zona protegida es además importante como hábitat de aves migratorias. La mañana se dedica a recorrer la ribera y el corredor de las cascadas, con la posibilidad opcional de sandboarding en las dunas cercanas si el grupo lo pide."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "El día se cierra en el "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "lago Qarun"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": ", el mayor de los lagos del Fayum: una masa de agua antigua, habitada de forma continua desde el período predinástico y vinculada al culto real del Reino Medio bajo Amenemhat III. La orilla del área conocida como Lost Land se presta a la observación de aves y a un cierre tranquilo del viaje. La vuelta a El Cairo es de aproximadamente dos horas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Por qué dos días y no uno"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "La excursión de un solo día al Fayum desde El Cairo obliga a elegir: o Wadi al-Hitan, o Wadi al-Rayan, pero no ambos como es debido. Wadi al-Hitan en solitario son seis horas de carretera para dos horas a pie, una proporción equivocada para lo que es, sin matices, un sitio del Patrimonio Mundial. Repartirlo en dos días, con una noche en la depresión, restablece la proporción correcta y permite leer la geología con la luz de día, sin prisa."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Las ballenas de este sitio aprendieron a nadar antes de que existiera el Sáhara. Eso es lo que está mirando."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "El recorrido puede comprimirse en un único día muy largo para quien sólo dispone de un hueco, aunque nuestro concierge tenderá a insistir en la versión de dos días para hacer justicia a Wadi al-Hitan. Pueden añadirse sesiones de sandboarding y otras actividades en Wadi al-Rayan."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "ファイユーム砂漠：ワディ・アル・ヒタン、ワディ・アル・ラヤン、カルーン湖を二日で"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "カイロから南西へ約百キロ。ファイユーム盆地は、四千万年の地質記録と、現役のオアシス景観を、同じ一時間の運転距離のなかに重ねて持っています。二日というのは、譲れない最短の長さです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "ファイユームは、白砂漠のようにカイロからの「砂漠の寄り道」ではありません。独自の地下水脈、独自の農地、大きな湖、そしてクジラが陸の動物から海の動物へと姿を変えてゆく瞬間を記録するユネスコ世界遺産を抱えた、ひとつの盆地です。日帰りの行程では、このうちひとつしか見られません。二日あれば、正しい順序で並べて読めます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロ発、英語ガイドと冷房付き車両で、完全プライベートで運用しています。一泊は、湖の近くにある砂漠をテーマにしたロッジ。豪華ではありません、控えめです。ただ、翌朝の動線として、ここに泊まることに意味があります。昼食二回、夕食一回（星のもとで）、朝食一回が含まれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "一日目：ワディ・アル・ヒタンとゲベル・カトラニ。"
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [],
+       "text": " カイロからワディ・アル・ヒタンまではおよそ三時間。最後の四十五分は砂漠の未舗装路です。ワディ・アル・ヒタン——クジラの谷——は二〇〇五年、「見た目」ではなく「中身」のために世界遺産に登録されました。岩から露出している骨格は、およそ四千万年前、後期始新世のもの。テティス海がこの一帯を覆っていた時代のものです。陸から海へと移行しつつあったクジラの祖先が、まだ脚を残していた、その姿を見せてくれます。化石は現地に残されたまま、屋外博物館として開かれており、骨格のあいだを歩く道がつけられています。ビジターセンターが地質的な文脈を補ってくれます。昼食のあと、午後はゲベル・カトラニの屋外博物館へ。珪化木、同じ始新世の地層。ファイユームの地質が、世界でもっとも研究されている脊椎動物化石帯のひとつである理由が、見えてきます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [],
+       "text": "宿泊は、湖の近くの砂漠ロッジ。夕食は屋外で、焚火を囲んで。この緯度の砂漠は、日没後、急に冷え込みます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "二日目：ワディ・アル・ラヤンとカルーン湖。"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": " ワディ・アル・ラヤンは、上下二つの湖が短い滝の連なりでつながる保護区。控えめながら、エジプト唯一の自然の滝です。渡り鳥の重要な生息地でもあります。午前は、湖畔と滝の回廊を歩きます。ご希望があれば、近くの砂丘でサンドボーディングも。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "一日の締めくくりは"
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "カルーン湖"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "。ファイユームの大きい方の湖で、先王朝期から人々が暮らしを続けてきた古い水域です。中王国時代にはアメンエムハト三世の王朝祭祀を支えました。「失われた土地」と呼ばれるエリアの湖畔は、野鳥観察と、旅をゆっくり終わらせるための場所です。カイロへの帰路はおよそ二時間。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "なぜ一日ではなく二日か"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "カイロ発の日帰りファイユームは、選択を強います。ワディ・アル・ヒタンか、ワディ・アル・ラヤンか、両方を中途半端に。ワディ・アル・ヒタンだけでも往復六時間の運転で、現地は二時間。世界遺産を見るための時間配分としては、不釣り合いです。二日に分けて盆地のなかに一泊すれば、その比率は正しい場所に戻ります。地質も、日中の光のなかで急がずに読めます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "ここのクジラは、サハラができる前に泳ぐことを覚えたのです。あなたが見ているのは、その記録です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "ご日程の制約があれば、長い一日に圧縮することも可能ですが、コンシェルジュとしては、ワディ・アル・ヒタンに敬意を払うために二日版をお勧めします。サンドボーディングやワディ・アル・ラヤンでの活動の追加も承ります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "The circuit's roughly ten hours of driving and exploring are split kindly by the desert night — no single day overwhelms. The real question is how your party feels about an evening far from city comforts. Be candid with our concierge and we'll set the lodging, the meals, and the pace of the two days to match."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Las cerca de diez horas de conducción y exploración del circuito quedan repartidas con clemencia por la noche en el desierto — ningún día abruma por sí solo. La verdadera pregunta es cómo lleva tu grupo una noche lejos de las comodidades de la ciudad. Cuéntaselo a nuestro concierge con franqueza y ajustaremos alojamiento, comidas y el ritmo de los dos días."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "周遊のおよそ10時間の移動と観光は、砂漠での一泊を挟むことで無理なく分かれています。ひと区間だけで疲れ切ることはありません。問われるのはむしろ、街の快適さから離れた一夜をご一行がどう感じるかです。率直なところをコンシェルジュにお聞かせください。宿と食事、二日間の歩調をそれに合わせます。"
+  }
+ ],
+ "days": [
+  {
+   "_key": "day-1",
+   "_type": "tourDay",
+   "dayNumber": 1,
+   "morning": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000002",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Morning"
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [],
+         "text": ": Start your journey at Wadi Hitan, a UNESCO World Heritage site filled with ancient whale fossils and stunning desert landscapes."
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000005",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Afternoon"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": ": Visit the Jebel Qatrani Open Air Museum to see petrified wood and learn about Fayoum’s geological history."
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Evening"
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": ": Settle into your desert-inspired hotel for a night of traditional Bedouin-style hospitality. Enjoy a delicious dinner under the stars on the hotel’s outdoor terrace, relax by a cozy firepit, and soak in the serene desert atmosphere for a truly unique and memorable experience."
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000011",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Mañana:"
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [],
+         "text": " Comienza tu "
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [
+          "000000000002"
+         ],
+         "text": "viaje"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": " en Wadi Hitan, un sitio Patrimonio de la Humanidad por la UNESCO repleto de fósiles de ballenas antiguas y paisajes desérticos impresionantes."
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Tarde:"
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": " Visita el Museo al Aire Libre de Jebel Qatrani para observar madera petrificada y aprender sobre la historia geológica de Fayoum."
+        },
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000009",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Noche:"
+        },
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": " Instálate en tu "
+        },
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [
+          "00000000000b"
+         ],
+         "text": "hotel de"
+        },
+        {
+         "_key": "00000000000d",
+         "_type": "span",
+         "marks": [],
+         "text": " inspiración desértica para disfrutar de una noche con hospitalidad tradicional estilo beduino. Saborea una deliciosa cena bajo las estrellas en la terraza al aire libre del hotel, relájate junto a una acogedora fogata y disfruta del ambiente sereno "
+        },
+        {
+         "_key": "00000000000f",
+         "_type": "span",
+         "marks": [
+          "00000000000e"
+         ],
+         "text": "del desierto para"
+        },
+        {
+         "_key": "000000000010",
+         "_type": "span",
+         "marks": [],
+         "text": " una experiencia verdaderamente única e inolvidable."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000002",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-dajla/viajes/"
+         },
+         "_type": "externalLink",
+         "href": "/es/blog/viajes-al-egipto-historico",
+         "newTab": false
+        },
+        {
+         "_key": "00000000000b",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/hoteles-economicos-cerca-de-las-piramides/"
+         },
+         "_type": "externalLink",
+         "href": "/es/guide/guiza",
+         "newTab": false
+        },
+        {
+         "_key": "00000000000e",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/precios-de-las-entradas-para-las-atracciones-del-desierto-occidental/"
+         },
+         "_type": "externalLink",
+         "href": "/es/guide/siwa/ticket-prices-for-attractions-in-siwa",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000002",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "午前:"
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [],
+         "text": " ワディ・ヒタン（クジラの谷）で旅をスタート。ユネスコ世界遺産に登録されたこの地には、先史時代のクジラの化石が点在し、壮大な砂漠の景観が広がります。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000005",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "午後:"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": " ジェベル・カトラーニ野外博物館を訪問。数百万年前の珪化木を間近で観察し、ファイユームの地質学的な歴史について学びます。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "夜:"
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": " 砂漠をテーマにしたホテルにチェックインし、ベドウィンの伝統的なおもてなしを体験。星空の下で屋外テラスの美味しいディナーを堪能し、焚き火を囲みながら静寂に包まれた砂漠の夜を満喫。唯一無二の忘れられないひとときをお過ごしください。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "value": "Explore Prehistoric Wonders in Fayoum Desert"
+    },
+    {
+     "_key": "es",
+     "value": "Día 1 Explora las Maravillas Prehistóricas del Desierto de Fayoum"
+    },
+    {
+     "_key": "ja",
+     "value": "1日目: カイロ → ファイユーム砂漠"
+    }
+   ]
+  },
+  {
+   "_key": "day-2",
+   "_type": "tourDay",
+   "dayNumber": 2,
+   "morning": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000005",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Morning"
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [],
+         "text": ": Head to "
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [
+          "000000000002"
+         ],
+         "text": "Wadi Rayan"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": " National Park, known for its twin lakes and cascading waterfalls. Enjoy hiking or try optional activities like sandboarding."
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [
+        {
+         "_key": "000000000002",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/al-fayoum-travel-guide/wadi-al-rayan/"
+         },
+         "_type": "externalLink",
+         "href": "/guide/al-fayoum/wadi-al-rayan",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Afternoon"
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": ": Conclude your Fayoum Desert Tour at the Lost Land Adventure near Lake Qaroun, where you’ll enjoy birdwatching and peaceful desert views."
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000009",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Evening"
+        },
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": ": Return to your starting point, carrying memories of an incredible Fayoum desert journey."
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "00000000000e",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Mañana:"
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [],
+         "text": " Dirígete al "
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [
+          "000000000002"
+         ],
+         "text": "Parque Nacional de Wadi"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": " Rayan, conocido por sus lagos gemelos y cascadas. Disfruta de una caminata o prueba actividades opcionales como el sandboarding."
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Tarde:"
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": " Concluye tu tour por el desierto de Fayoum en Lost Land Adventure, cerca del Lago Qaroun, donde podrás disfrutar "
+        },
+        {
+         "_key": "000000000009",
+         "_type": "span",
+         "marks": [
+          "000000000008"
+         ],
+         "text": "de la"
+        },
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": " observación de aves y vistas pacíficas del desierto."
+        },
+        {
+         "_key": "00000000000b",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Noche:"
+        },
+        {
+         "_key": "00000000000d",
+         "_type": "span",
+         "marks": [],
+         "text": " Regresa a tu punto de partida, llevando contigo recuerdos de una increíble aventura en el desierto de Fayoum."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000002",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-marsa-alam/parque-nacional-de-wadi-el-gamal/"
+         },
+         "_type": "externalLink",
+         "href": "/es/guide/marsa-alam/parque-nacional-wadi-el-gemal",
+         "newTab": false
+        },
+        {
+         "_key": "000000000008",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/safaris-por-el-desierto-del-sinai-desvelando-los-misterios-de-la-frontera-salvaje-de-egipto/"
+         },
+         "_type": "externalLink",
+         "href": "/es/blog/safaris-por-el-desierto-del-sinai-desvelando-los-misterios-de-la-frontera-salvaje-de-egipto",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000002",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "午前:"
+        },
+        {
+         "_key": "000000000001",
+         "_type": "span",
+         "marks": [],
+         "text": " ワディ・ライアン国立公園へ向かい、ツインレイクスと美しい滝を訪問。ハイキングを楽しむほか、ご希望の方はサンドボードなどのオプションアクティビティにも挑戦できます。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000005",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "午後:"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": " カルーン湖近くの「ロストランド・アドベンチャー」で、バードウォッチングや静寂に包まれた砂漠の絶景を堪能し、ファイユーム砂漠ツアーの締めくくりを迎えます。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000008",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "夜:"
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": " 出発地点へ戻り、忘れがたいファイユーム砂漠の旅の思い出とともに帰路につきます。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "value": "Discover Fayoum’s Natural Beauty"
+    },
+    {
+     "_key": "es",
+     "value": "Día 2 Descubre la Belleza Natural de Fayoum"
+    },
+    {
+     "_key": "ja",
+     "value": "2日目 ファイユームの自然美を満喫"
+    }
+   ]
+  }
+ ],
+ "durationDays": 1,
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 161,
+  "ja": 168
+ },
+ "heroImage": {
+  "_type": "image",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A fossilised whale skeleton on display in the Wadi al-Hitan museum in Fayoum."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Un esqueleto fosilizado de ballena expuesto en el museo de Wadi al-Hitan, en Fayoum."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ファイユームのワディ・アル・ヒタン博物館に展示されたクジラの化石骨格。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-04baa4450af912d360e6637d76637c278559f2c0-3000x2001-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The reconstructed jaws of an ancient whale dominate the Wadi al-Hitan fossil museum."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Las mandíbulas reconstruidas de una ballena antigua dominan el museo de Wadi al-Hitan."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "古代クジラの復元された顎が、ワディ・アル・ヒタン化石博物館を圧倒する。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "sci4xc0jl2",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "We run this as a private circuit with an English-speaking guide and an air-conditioned vehicle from Cairo.",
+   "text": "Private circuit with an English-speaking guide"
+  },
+  {
+   "_key": "tgyoso49pc",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "We run this as a private circuit with an English-speaking guide and an air-conditioned vehicle from Cairo.",
+   "text": "Air-conditioned vehicle from Cairo"
+  },
+  {
+   "_key": "zat05eim49",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "One night is spent at a desert-themed property near the lakes — modest, not luxurious, but properly located for the second morning.",
+   "text": "One night at a desert-themed property near the lakes"
+  },
+  {
+   "_key": "gf3qi8xcz2",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Two lunches, one dinner under the stars, and one breakfast are included.",
+   "text": "Two lunches"
+  },
+  {
+   "_key": "mc4uftuyq6",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Two lunches, one dinner under the stars, and one breakfast are included.",
+   "text": "One dinner under the stars"
+  },
+  {
+   "_key": "q950ee588l",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Two lunches, one dinner under the stars, and one breakfast are included.",
+   "text": "One breakfast"
+  },
+  {
+   "_key": "6qstx1o979",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Operamos el circuito en formato privado, con guía angloparlante y vehículo climatizado desde El Cairo.",
+   "text": "Guía angloparlante (formato privado)"
+  },
+  {
+   "_key": "9pi78thxf4",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Operamos el circuito en formato privado, con guía angloparlante y vehículo climatizado desde El Cairo.",
+   "text": "Vehículo climatizado desde El Cairo"
+  },
+  {
+   "_key": "q42wwow59a",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La noche se pasa en un alojamiento de inspiración desértica cerca de los lagos: modesto, no lujoso, pero bien situado para la mañana siguiente.",
+   "text": "Una noche en alojamiento de inspiración desértica cerca de los lagos"
+  },
+  {
+   "_key": "kwjf383iot",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se incluyen dos almuerzos, una cena bajo las estrellas y un desayuno.",
+   "text": "Dos almuerzos"
+  },
+  {
+   "_key": "afyu1k3aqm",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se incluyen dos almuerzos, una cena bajo las estrellas y un desayuno.",
+   "text": "Una cena bajo las estrellas"
+  },
+  {
+   "_key": "5tkaio0m55",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se incluyen dos almuerzos, una cena bajo las estrellas y un desayuno.",
+   "text": "Un desayuno"
+  },
+  {
+   "_key": "y2q7gfyprx",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "カイロ発、英語ガイドと冷房付き車両で、完全プライベートで運用しています。",
+   "text": "英語ガイド"
+  },
+  {
+   "_key": "g6hk64sogb",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "カイロ発、英語ガイドと冷房付き車両で、完全プライベートで運用しています。",
+   "text": "冷房付き車両"
+  },
+  {
+   "_key": "ws1se63t4j",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "一泊は、湖の近くにある砂漠をテーマにしたロッジ。",
+   "text": "湖の近くの砂漠をテーマにしたロッジに一泊"
+  },
+  {
+   "_key": "tgapq4yy1g",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "昼食二回、夕食一回（星のもとで）、朝食一回が含まれます。",
+   "text": "昼食二回"
+  },
+  {
+   "_key": "oxpwq9jh62",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "昼食二回、夕食一回（星のもとで）、朝食一回が含まれます。",
+   "text": "夕食一回（星のもとで）"
+  },
+  {
+   "_key": "we360bl2qp",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "昼食二回、夕食一回（星のもとで）、朝食一回が含まれます。",
+   "text": "朝食一回"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/fayoum-desert-adventure/"
+ },
+ "priceFrom": 150,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_alexandria_catacombs_pompeys_pillar_group_day_tour_from_cairo",
+   "_ref": "tour.alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_transfer_from_cairo_airport_to_hotel",
+   "_ref": "tour.transfer-from-cairo-airport-to-hotel",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_cairo_dinner_cruise_with_belly_dancing_show",
+   "_ref": "tour.cairo-dinner-cruise-with-belly-dancing-show",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_nmec_royal_mummies_old_cairo",
+   "_ref": "tour.nmec-royal-mummies-old-cairo",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Fully private · own English-speaking guide · air-conditioned vehicle · one night in a desert-themed property · two lunches, one dinner, one breakfast included · minimum age 18"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Salida privada · su propio guía angloparlante · vehículo con aire acondicionado · una noche en alojamiento de inspiración desértica · dos almuerzos, una cena y un desayuno incluidos · edad mínima 18 años"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "完全プライベート · 英語ガイド · 冷房付き車両 · 砂漠ロッジ一泊 · 昼食二回・夕食一回・朝食一回 · 十八歳以上"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Two days, roughly ten hours of driving and exploration split over the circuit, one overnight"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Dos días, con unas diez horas de conducción y exploración repartidas a lo largo del circuito y una pernoctación"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "二日間（運転と巡見でおよそ十時間を二日に分散、一泊）"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Cairo → Wadi al-Hitan → Gebel Qatrani → overnight in Fayoum → Wadi al-Rayan (twin lakes, waterfalls) → Lake Qarun → Cairo"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "El Cairo → Wadi al-Hitan → Gebel Qatrani → noche en el Fayum → Wadi al-Rayan (lagos gemelos, cascadas) → lago Qarun → El Cairo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "カイロ → ワディ・アル・ヒタン → ゲベル・カトラニ → ファイユーム泊 → ワディ・アル・ラヤン（双子の湖、滝） → カルーン湖 → カイロ"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "fayoum-desert-adventure"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "desierto-de-fayum-dos-dias-entre-wadi-al-hitan-wadi-al-rayan-y-el-lago-qarun"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "faiyumu-sabaku-wadiaruhitan-wadiarurayan-karun-ko-o-ni-nichi"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A two-day private circuit from Cairo into the Fayoum depression — taking in the whale-fossil valley, the twin lakes and waterfalls of Wadi al-Rayan, the geological history at Gebel Qatrani, and one night in the desert."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Circuito privado de dos días desde El Cairo hasta la depresión del Fayum: el valle de los esqueletos de ballena, los lagos gemelos y las cascadas de Wadi al-Rayan, la geología de Gebel Qatrani y una noche en el desierto."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "カイロ発の二日間プライベート行程。クジラ化石の谷ワディ・アル・ヒタン、双子の湖と滝のワディ・アル・ラヤン、ゲベル・カトラニの地質、そしてカルーン湖。砂漠で一泊して、ファイユーム盆地を正しい順序で読みます。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Fayoum Desert: Two Days Between Wadi al-Hitan, Wadi al-Rayan, and Lake Qarun"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Desierto de Fayum: dos días entre Wadi al-Hitan, Wadi al-Rayan y el lago Qarun"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ファイユーム砂漠：ワディ・アル・ヒタン、ワディ・アル・ラヤン、カルーン湖を二日で"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}
