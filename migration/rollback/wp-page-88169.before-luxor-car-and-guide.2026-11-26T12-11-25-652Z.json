@@ -1,0 +1,1713 @@
+{
+ "_createdAt": "2026-05-11T16:41:45Z",
+ "_id": "wp-page-88169",
+ "_rev": "K2pi3eY73hTRu2vMGMyRaJ",
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:41Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Independent travellers who already know what they want, or repeat visitors going deeper into a single bank rather than ticking a list"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Viajeros independientes que ya saben lo que quieren, o repetidores que prefieren profundizar en una sola orilla en lugar de marcar una lista"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "何を見たいかが定まっている自立した旅人、あるいは選定そのものをエジプト学者に委ねたい初訪問者"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "One Day in Luxor, Designed by You"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor is not a city you can do justice to in a single day — but one well-spent day here will rearrange what you thought you knew about human history. This is ancient Thebes, capital of the New Kingdom pharaohs at the height of Egypt's power, a place that was already old when Rome was young. The temples are not ruins in any diminished sense; they are massive, largely intact, and still capable of stopping you mid-sentence."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "This product is straightforward: eight hours with a private, English-speaking Egyptologist guide and a modern air-conditioned car, entirely at your disposal. You choose the sites. The guide explains them with authority. You move at your own pace, not a group's."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "It suits independent travellers who have done the research and know what they want, as well as those who would rather hand the curation to someone knowledgeable and trust the result. It is equally sensible for first-timers building a considered introduction to Luxor and for repeat visitors who want to go deeper into a single area — the Theban necropolis in the morning, say, or an afternoon between Karnak and Luxor Temple without a tour bus in sight."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Be honest with yourself about stamina. Luxor in summer is brutal; even in the cooler months, a full eight hours across the West Bank tombs and the East Bank temples is a physically demanding day. Wear comfortable shoes, bring water, and pace yourself. Your guide will help you sequence the day to avoid the worst of the midday heat and the worst of the crowds."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "private hire, operated for your party alone"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": " — a private, air-conditioned car, a "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "licensed, English-speaking Egyptologist guide"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": ", and "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "one bottle of mineral water per person"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ", with the day built around the sites you choose. Because it is private, it "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "takes bookings from a single traveller upward"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ", with no minimum group; larger parties are accommodated in a suitable vehicle. There is "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "no minimum age"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": " — families are welcome — though the full eight hours of tombs and temples in the heat is demanding, so plan around younger children's stamina. Site entrance fees are paid separately, since the day's sites are yours to choose (see the practical note below)."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "There is no fixed itinerary here — that is the point — but the five sites most visitors build their day around are worth understanding before you choose among them."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "The "
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Valley of the Kings"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": ", on the West Bank, is the burial ground of the pharaohs of the New Kingdom, roughly 1550–1070 BC. More than sixty tombs have been cut into the limestone cliffs of this arid valley, and a standard ticket admits you to three of them. The decoration inside — hieroglyphic texts from the Book of the Dead, astronomical ceilings, portraits of the pharaoh before the gods — is extraordinarily well preserved in many chambers. Tutankhamun's tomb requires a separate ticket and is notably modest in size compared with those of Seti I or Ramses VI; it is famous for what was found inside it, not for its architecture."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "Just to the south, the "
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Temple of Hatshepsut"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": " at Deir el-Bahari rises against the cliff face in three colonnaded terraces. Hatshepsut ruled as pharaoh in her own right for roughly twenty years in the 15th century BC, and this mortuary temple — designed by her architect Senenmut — is among the most elegant structures in Egypt. The painted reliefs recording her trading expedition to the land of Punt are among the finest narrative sequences to survive from antiquity."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "The "
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Colossi of Memnon"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": " stand in open farmland at the edge of the floodplain: two seated figures of Amenhotep III, each around 18 metres tall, that once flanked the entrance to what was the largest mortuary temple ever built in Egypt. The temple itself is largely gone. The colossi remain, slightly battered, entirely impressive."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "Crossing to the East Bank, "
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Karnak Temple"
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": " is less a single building than a city of religious architecture accumulated over roughly 1,500 years. The Hypostyle Hall alone — 134 columns, the tallest reaching 21 metres — is one of the most overwhelming interior spaces in the ancient world. Egyptian rulers from the Middle Kingdom through to the Ptolemaic period added to, altered, and competed with what their predecessors had built here. A knowledgeable guide is not a luxury at Karnak; it is the difference between walking through a bewildering forest of stone and actually reading what you are seeing."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Luxor Temple"
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [],
+       "text": ", closer to the modern town centre, is more intimate in scale and better understood as a single composition. Built primarily under Amenhotep III and Ramses II in the 14th and 13th centuries BC, it was later enclosed by a mosque — which still stands inside the precinct — and a Roman military camp. The layering of civilisations here is almost absurdly concentrated. It is particularly worth seeing at dusk, when the lighting transforms the sandstone and the crowds thin."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [],
+       "text": "Your guide will help you decide which combination makes sense given your interests, the time of year, and how long you want to spend at each site. You are not committed to all five. Two or three done properly will serve you better than five done at pace."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000030",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [],
+       "text": "Practical Context"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000032",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [],
+       "text": "Entrance fees to each site are paid separately and are not included in the tour price. As of 2026, Luxor's ticketing structure charges per site, with additional fees for specific tombs (Nefertari's tomb in the Valley of the Queens, for instance, carries a premium that reflects its exceptional preservation). Your guide will advise on current prices and which tickets are worth the supplement."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000034",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [],
+       "text": "Pickup and drop-off are flexible within Luxor — your hotel, a Nile cruise berth, or another agreed point in the city. Transfers to or from Luxor International Airport are not part of this service."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000036",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000035",
+       "_type": "span",
+       "marks": [],
+       "text": "The car is private and air-conditioned. In summer, treat it as a refuge between sites rather than a convenience."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000038",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000037",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Luxor does not need embellishment. The history is real, the scale is verifiable, and the eight hours you have are enough to begin understanding it properly."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000039",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Begin."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000048",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000047",
+       "_type": "span",
+       "marks": [],
+       "text": "Entrance fees stay separate because you choose the sites — the concierge can prep a draft sequence (West Bank early for cool tombs, East Bank for late afternoon light at Luxor Temple) and adjust on the day with your guide."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000049",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Un día en Luxor, diseñado por usted"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "La jornada flexible que pone al servicio del viajero un coche privado y un egiptólogo licenciado para articular Tebas a su propio ritmo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Luxor no es una ciudad a la que se le pueda hacer justicia en un solo día, pero una jornada bien empleada aquí reordenará lo que el visitante creía saber sobre la historia humana. Esta es la antigua Tebas, capital de los faraones del Imperio Nuevo en el apogeo del poder egipcio, un lugar que ya era antiguo cuando Roma era joven. Los templos no son ruinas en ningún sentido disminuido: son enormes, en gran medida íntegros y todavía capaces de cortar a uno la frase a medio decir."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "El planteamiento de este producto es directo: ocho horas con un guía egiptólogo licenciado de habla hispana y un coche moderno con aire acondicionado, enteramente a su disposición. Usted elige los lugares. El guía los explica con autoridad. Usted avanza a su propio ritmo, no al de un grupo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "Se ajusta tanto al viajero independiente que ha hecho la lectura previa y sabe lo que quiere como a quien prefiere ceder la curaduría a alguien con conocimiento del terreno y confiar en el resultado. Tiene sentido igual para quien llega por primera vez y necesita una introducción reflexiva a Luxor que para el visitante repetidor que quiere profundizar en un único frente —la necrópolis tebana por la mañana, pongamos por caso, o una tarde entre Karnak y el templo de Luxor sin un autocar a la vista—."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Sea honesto consigo mismo respecto a la resistencia. El verano en Luxor es brutal; incluso en los meses frescos, ocho horas completas entre las tumbas de la orilla occidental y los templos de la oriental constituyen una jornada físicamente exigente. Calzado cómodo, agua y administración del propio ritmo. Su guía le ayudará a secuenciar el día para esquivar el calor de mediodía y los momentos de mayor afluencia."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Se trata de un "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "servicio estrictamente privado, operado en exclusiva para su grupo"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": ": un coche privado con aire acondicionado, un "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "guía egiptólogo licenciado de habla hispana"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": " y "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "una botella de agua mineral por persona"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ", con el día construido en torno a los yacimientos que usted elija. Por su carácter privado, "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "se reserva desde un único viajero"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": ", sin tamaño mínimo de grupo; los grupos más amplios se acomodan en un vehículo adecuado. "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "No hay edad mínima"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": " —las familias son bienvenidas—, aunque ocho horas completas entre tumbas y templos bajo el calor exigen administrar la energía de los más pequeños. Las entradas a los yacimientos se abonan por separado, dado que es usted quien decide los sitios del día (véase la nota práctica más abajo)."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "No hay un itinerario fijo —ese es justamente el sentido del producto—, pero los cinco yacimientos en torno a los que la mayoría de los viajeros articula la jornada conviene entenderlos antes de elegir."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "El "
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Valle de los Reyes"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": ", en la orilla occidental, es el cementerio de los faraones del Imperio Nuevo, aproximadamente entre el 1550 y el 1070 a. C. Más de sesenta tumbas se han excavado en los acantilados calizos de este valle árido, y una entrada estándar permite acceder a tres de ellas. La decoración interior —textos jeroglíficos del Libro de los Muertos, techos astronómicos, retratos del faraón ante los dioses— se conserva de forma notable en numerosas cámaras. La tumba de Tutankamón requiere entrada aparte y resulta notablemente modesta en tamaño frente a las de Seti I o Ramsés VI; su fama proviene de lo que se encontró dentro, no de su arquitectura."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "Justo al sur, el "
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Templo de Hatshepsut"
+      },
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": " en Deir el-Bahari se eleva contra el acantilado en tres terrazas columnadas. Hatshepsut gobernó como faraón por derecho propio durante unos veinte años en el siglo XV a. C., y este templo funerario —diseñado por su arquitecto Senenmut— se halla entre las estructuras más elegantes de Egipto. Los relieves pintados que recogen su expedición comercial al país de Punt están entre las secuencias narrativas mejor conservadas de la antigüedad."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "Los "
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Colosos de Memnón"
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": " se alzan en campo abierto al borde de la llanura aluvial: dos figuras sedentes de Amenhotep III, de unos 18 metros de altura cada una, que en su día flanqueaban la entrada a lo que fue el mayor templo funerario jamás construido en Egipto. El templo, en su mayor parte, ya no existe. Los colosos permanecen, algo erosionados, plenamente imponentes."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Cruzando a la orilla oriental, el "
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Templo de Karnak"
+      },
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": " es menos un edificio único que una ciudad de arquitectura religiosa acumulada a lo largo de unos 1.500 años. La sola Sala Hipóstila —134 columnas, las centrales alcanzando los 21 metros— constituye uno de los espacios interiores más imponentes del mundo antiguo. Los gobernantes egipcios desde el Imperio Medio hasta el periodo ptolemaico añadieron, alteraron y compitieron con lo que sus predecesores habían levantado aquí. Un guía competente no es un lujo en Karnak; es la diferencia entre caminar por un bosque desconcertante de piedra y leer realmente lo que se está viendo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "El "
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Templo de Luxor"
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": ", más próximo al centro de la ciudad moderna, tiene una escala más íntima y se entiende mejor como una composición unitaria. Construido principalmente bajo Amenhotep III y Ramsés II en los siglos XIV y XIII a. C., quedó después englobado por una mezquita —que sigue dentro del recinto— y por un campamento militar romano. La estratificación de civilizaciones aquí es casi absurdamente densa. Merece especialmente verse al atardecer, cuando la iluminación transforma la arenisca y disminuye la afluencia."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Su guía le ayudará a decidir qué combinación tiene sentido según sus intereses, la estación del año y cuánto tiempo desea pasar en cada sitio. No está obligado a los cinco. Dos o tres bien hechos le servirán mejor que cinco a ritmo apresurado."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Contexto práctico"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "Las entradas a cada yacimiento se abonan por separado y no se incluyen en el precio del tour. A día de 2026, la estructura de boletería de Luxor cobra por sitio, con tarifas adicionales para tumbas específicas (la de Nefertari, en el Valle de las Reinas, por ejemplo, conlleva un suplemento que refleja su conservación excepcional). Su guía le informará sobre los precios actuales y sobre qué entradas justifican el suplemento."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "La recogida y el regreso son flexibles dentro de Luxor: su hotel, un atracadero de crucero del Nilo u otro punto acordado de la ciudad. Los traslados desde o hasta el Aeropuerto Internacional de Luxor no forman parte de este servicio."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": "El coche es privado y cuenta con aire acondicionado. En verano, conviene utilizarlo como refugio entre yacimientos, no como mera comodidad."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Luxor no necesita adorno. La historia es real, la escala es verificable y las ocho horas de las que dispone bastan para empezar a entenderla con propiedad."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Comience."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004c",
+       "_type": "span",
+       "marks": [],
+       "text": "Las entradas se mantienen separadas porque es usted quien elige los yacimientos; el concierge puede preparar una secuencia preliminar (orilla occidental temprana para tumbas frescas, orilla oriental para la luz tardía del templo de Luxor) y ajustarla en el día con el guía."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000050",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004e",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "あなたが設計する、ルクソールの一日"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールは、一日でその真価に応えられる街ではありません——けれども、ここでよく費やされた一日は、人類史について知っていたと思っていたことを並べ替えてくれます。ここは古代テーベ、エジプトが力の絶頂にあったころの新王国のファラオの都であり、ローマが若かったころにはすでに古かった場所です。神殿は、いかなる意味でも衰えた廃墟ではありません——巨大で、おおむね無傷で、いまなお人を言葉の途中で立ち止まらせる力をもっています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "このプロダクトは単純です——プライベートの英語対応のエジプト学ガイドと近代的な冷房付きの車を、8時間、まるごとお客様の自由に。遺跡はお客様が選び、ガイドが確かな見識でそれを説明します。団体のではなく、お客様ご自身のペースで動けます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "これは、下調べを終え、何を求めているかを知っている個人旅行者にも、その差配を知識のある誰かに委ねて結果を信じたい方にも、ひとしく合います。ルクソールへの考え抜かれた手ほどきを組み立てる初訪問者にも、ひとつの地域をより深く掘り下げたいリピーターにも——たとえば午前にテーベのネクロポリス、あるいは観光バスを一台も視界に入れずに過ごす、カルナックとルクソール神殿のあいだの午後——同じく理にかなっています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "ご自身の体力については正直になってください。ルクソールの夏は過酷です。涼しい季節であっても、西岸の墓と東岸の神殿にまたがる丸8時間は、体力を要する一日です。履き心地のよい靴をお履きになり、水をお持ちになり、ペースを保ってください。ガイドが、正午の暑さの最悪と人出の最悪を避けるよう、一日の組み立てをお手伝いします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "ここには決まった行程はありません——それがこのツアーの眼目です——けれども大半の訪問者が一日を組み立てる軸にする五つの遺跡は、選ぶ前に理解しておく価値があります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "西岸の"
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "王家の谷"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "は、おおむね紀元前1550〜1070年の新王国のファラオたちの埋葬地です。この乾いた谷の石灰岩の崖には六十を超える墓が穿たれており、標準のチケットでそのうち三つに入れます。内部の装飾——死者の書の象形文字の文章、天文の天井、神々の前に立つファラオの肖像——は、多くの間で並外れてよく保存されています。ツタンカーメンの墓は別のチケットを要し、セティ1世やラムセス6世のものに比べて、その規模はきわだって慎ましいものです——それが有名なのは、その内部で見つかったもののためであって、その建築のためではありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "すぐ南、デイル・エル・バハリの"
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ハトシェプスト葬祭殿"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "が、崖の壁を背に三段の列柱のテラスをなして立ち上がります。ハトシェプストは紀元前15世紀におよそ20年にわたって、女性でありながらファラオとして君臨し、この葬祭殿は——彼女の建築家センエンムトによって設計されました——エジプトでも最も優雅な構造物のひとつです。プントの地への交易遠征を記録した彩色された浮彫は、古代から残る最も見事な物語の連なりのひとつです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "メムノンの巨像"
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [],
+       "text": "は氾濫原の縁の開けた農地に立っています——アメンホテプ3世の二体の座像で、それぞれ高さおよそ18メートル、かつてエジプトでこれまでに築かれた最大の葬祭殿への入口の両脇に立っていました。神殿そのものはおおむね失われています。巨像は残ります——いくらか傷んではいますが、まったくもって堂々と。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000022",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [],
+       "text": "東岸へ渡れば、"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "カルナック神殿"
+      },
+      {
+       "_key": "000000000021",
+       "_type": "span",
+       "marks": [],
+       "text": "は単一の建物というよりも、およそ1,500年にわたって積み重ねられた宗教建築の都市です。大列柱室だけでも——134本の柱、最も高いもので21メートルに達します——古代世界で最も圧倒される内部空間のひとつです。中王国からプトレマイオス朝の時代まで、エジプトの統治者たちはここで先人が築いたものに加え、改め、そして競い合いました。カルナックにおいて知識のあるガイドは贅沢ではありません——それは、石の当惑させる森を歩き抜けることと、目にしているものを実際に読み取ることとの違いなのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000026",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [],
+       "text": "近代の街の中心により近い"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ルクソール神殿"
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [],
+       "text": "は、規模がより親密で、単一の構成としてよりよく理解されます。主として紀元前14世紀と13世紀にアメンホテプ3世とラムセス2世のもとで築かれ、のちにモスク——いまも境内のうちに立っています——とローマの軍営によって囲まれました。ここでの文明の層の重なりは、ほとんど馬鹿げているほど凝縮されています。とりわけ夕暮れに見る価値があり、そのとき照明が砂岩を一変させ、人出も引いていきます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000028",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [],
+       "text": "ガイドが、お客様の関心、季節、そして各遺跡にどれだけ時間をかけたいかをふまえて、どの組み合わせが理にかなうかを決めるお手伝いをします。五つすべてに縛られているわけではありません。きちんとこなす二つか三つのほうが、急いでこなす五つよりも、お客様の役に立ちます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [],
+       "text": "実務的な背景"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000002c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [],
+       "text": "各遺跡の入場料は別途お支払いで、ツアー料金には含まれません。2026年現在、ルクソールのチケット制度は遺跡ごとに課金し、特定の墓には追加料金があります（たとえば王妃の谷のネフェルタリの墓は、その並外れた保存状態を映した割増料金がかかります）。ガイドが、現在の価格と、どのチケットが割増に値するかを助言します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [],
+       "text": "お迎えとお送りはルクソール内で柔軟です——お客様のホテル、ナイル・クルーズの係留地、あるいは街の別の取り決めた地点。ルクソール国際空港への、または空港からの送迎は、このサービスには含まれません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000030",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [],
+       "text": "車はプライベートで冷房付きです。夏には、それを便宜としてではなく、遺跡のあいだの避難所として扱ってください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000032",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000031",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "ルクソールに飾り立ては要りません。歴史は本物で、規模は検証でき、そしてお客様にある8時間は、それをきちんと理解しはじめるのに十分です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000034",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000033",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "始めましょう。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000042",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000041",
+       "_type": "span",
+       "marks": [],
+       "text": "朝に西岸、夕方にルクソール神殿、あるいはまる一日を東岸に——コンシェルジュが、お客様の体力と関心に合わせて、無理のない8時間の組み立てを一緒に決めます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000045",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000043",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58877",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "The freedom is the point here, but eight hours still force choices — Thebes holds more than any one day can. The more we know in advance — first visit or return, tombs or temples, how much walking suits your party — the better your Egyptologist can arrive with a day already shaped. Tell us what you're hoping for."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "La libertad es el punto, pero ocho horas siguen obligando a elegir: Tebas guarda más de lo que cabe en un día. Cuanto más sepamos de antemano — primera visita o regreso, tumbas o templos, cuánto caminar le conviene a tu grupo — mejor llegará tu egiptólogo con el día ya pensado. Cuéntanos qué esperas de Luxor."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "自由に組めることこそこの一日の魅力ですが、八時間でもテーベのすべては収まりません。初めてのご訪問か再訪か、墓と神殿のどちらがお好みか、どのくらい歩けるか——事前に伺えるほど、エジプト学者のガイドは準備を整えてお迎えできます。ご希望をどうぞお聞かせください。"
+  }
+ ],
+ "durationDays": 1,
+ "durationHours": 8,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Full day · ~8 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Día completo · ~8 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "終日・約8時間"
+  }
+ ],
+ "exclusions": [
+  {
+   "_key": "cse7ii8vux",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Entrance fees to each site are paid separately and are not included in the tour price.",
+   "text": "Entrance fees to each site"
+  },
+  {
+   "_key": "nqcs4g33yy",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Transfers to or from Luxor International Airport are not part of this service.",
+   "text": "Transfers to or from Luxor International Airport"
+  },
+  {
+   "_key": "s3644tuu4c",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Las entradas a cada yacimiento se abonan por separado y no se incluyen en el precio del tour.",
+   "text": "Entradas a los yacimientos"
+  },
+  {
+   "_key": "6bfm87gihb",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Los traslados desde o hasta el Aeropuerto Internacional de Luxor no forman parte de este servicio.",
+   "text": "Traslados desde o hasta el Aeropuerto Internacional de Luxor"
+  },
+  {
+   "_key": "c2l1aij2f5",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "各遺跡の入場料は別途お支払いで、ツアー料金には含まれません。",
+   "text": "各遺跡の入場料"
+  },
+  {
+   "_key": "p4pr7nlf7l",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ルクソール国際空港への、または空港からの送迎は、このサービスには含まれません。",
+   "text": "ルクソール国際空港への、または空港からの送迎"
+  }
+ ],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 84,
+  "ja": 91
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A fallen carved obelisk rests amid the ruins and standing obelisks of Karnak Temple in Luxor."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Un obelisco tallado y caído yace entre las ruinas y los obeliscos en pie del templo de Karnak, en Luxor."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ルクソールのカルナック神殿で、立つオベリスクと遺跡の間に横たわる彫刻入りの倒れたオベリスク。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-fcf816b1a9e9c61a3fd62808da3a887d84ee7183-3000x1997-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "A toppled granite obelisk lies among the obelisks of Karnak's great temple."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Un obelisco de granito derribado yace entre los obeliscos del gran templo de Karnak."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "カルナック大神殿のオベリスク群の間に横たわる、倒れた花崗岩のオベリスク。"
+   }
+  ],
+  "crop": {
+   "_type": "sanity.imageCrop",
+   "bottom": 0,
+   "left": 0,
+   "right": 0,
+   "top": 0
+  },
+  "hotspot": {
+   "_type": "sanity.imageHotspot",
+   "height": 0.7,
+   "width": 0.7,
+   "x": 0.5,
+   "y": 0.5
+  }
+ },
+ "inclusions": [
+  {
+   "_key": "4diqdz8drc",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This is a private hire, operated for your party alone — a private, air-conditioned car, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person, with the day built around the sites you choose.",
+   "text": "Private, air-conditioned car"
+  },
+  {
+   "_key": "t67em2g4r2",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This is a private hire, operated for your party alone — a private, air-conditioned car, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person, with the day built around the sites you choose.",
+   "text": "Licensed, English-speaking Egyptologist guide"
+  },
+  {
+   "_key": "1yonw8ms52",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This is a private hire, operated for your party alone — a private, air-conditioned car, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person, with the day built around the sites you choose.",
+   "text": "One bottle of mineral water per person"
+  },
+  {
+   "_key": "f8u2dugu85",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "This product is straightforward: eight hours with a private, English-speaking Egyptologist guide and a modern air-conditioned car, entirely at your disposal.",
+   "text": "Eight hours with a private guide and car at your disposal"
+  },
+  {
+   "_key": "ihkqgv9yaj",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Pickup and drop-off are flexible within Luxor — your hotel, a Nile cruise berth, or another agreed point in the city.",
+   "text": "Flexible pickup and drop-off within Luxor"
+  },
+  {
+   "_key": "kwzfc6fusr",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se trata de un servicio estrictamente privado, operado en exclusiva para su grupo: un coche privado con aire acondicionado, un guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona, con el día construido en torno a los yacimientos que usted elija.",
+   "text": "Coche privado con aire acondicionado"
+  },
+  {
+   "_key": "sebrk0jufl",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se trata de un servicio estrictamente privado, operado en exclusiva para su grupo: un coche privado con aire acondicionado, un guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona, con el día construido en torno a los yacimientos que usted elija.",
+   "text": "Guía egiptólogo licenciado de habla hispana"
+  },
+  {
+   "_key": "mm76jbh3ub",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se trata de un servicio estrictamente privado, operado en exclusiva para su grupo: un coche privado con aire acondicionado, un guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona, con el día construido en torno a los yacimientos que usted elija.",
+   "text": "Una botella de agua mineral por persona"
+  },
+  {
+   "_key": "0f9y7nv5ha",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La recogida y el regreso son flexibles dentro de Luxor: su hotel, un atracadero de crucero del Nilo u otro punto acordado de la ciudad.",
+   "text": "Recogida y regreso flexibles dentro de Luxor"
+  },
+  {
+   "_key": "kxgc8syr62",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "このプロダクトは単純です——プライベートの英語対応のエジプト学ガイドと近代的な冷房付きの車を、8時間、まるごとお客様の自由に。",
+   "text": "プライベートの英語対応のエジプト学ガイド（8時間）"
+  },
+  {
+   "_key": "d7j12mwgdk",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "このプロダクトは単純です——プライベートの英語対応のエジプト学ガイドと近代的な冷房付きの車を、8時間、まるごとお客様の自由に。",
+   "text": "近代的な冷房付きの車（8時間）"
+  },
+  {
+   "_key": "7gdxpf4um4",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "お迎えとお送りはルクソール内で柔軟です——お客様のホテル、ナイル・クルーズの係留地、あるいは街の別の取り決めた地点。",
+   "text": "ルクソール内でのお迎えとお送り（ホテル、ナイル・クルーズの係留地、または取り決めた地点）"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/luxor-private-car-and-guide/"
+ },
+ "priceFrom": 73,
+ "relatedTours": [
+  {
+   "_key": "rel_wp_page_88178",
+   "_ref": "wp-page-88178",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88167",
+   "_ref": "wp-page-88167",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_esna_edfu_kom_ombo_temples_group_day_tour_from_luxor",
+   "_ref": "tour.esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_wp_page_88170",
+   "_ref": "wp-page-88170",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Fully private hire · own licensed Egyptologist · air-conditioned car · entirely flexible itinerary · entrance fees paid on the day"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Servicio estrictamente privado · egiptólogo licenciado propio · coche con aire acondicionado · itinerario plenamente flexible · entradas abonadas en el día · Adaptable, según calor, intereses y resistencia"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "完全プライベートの貸し切り・専属のエジプト学ガイド・冷房付き車両・行程はお客様が決定（入場料は別途）"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Eight hours, sequencing built around your interests"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Ocho horas, con la secuencia construida sobre sus intereses"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "8時間、お客様の組み立て次第で柔軟に"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Luxor — sites chosen on the day (Valley of the Kings, Hatshepsut, Colossi of Memnon, Karnak, Luxor Temple)"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Luxor — yacimientos elegidos en la jornada (Valle de los Reyes, Hatshepsut, Colosos de Memnón, Karnak, templo de Luxor)"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "ルクソール市内（ご自由に選定：王家の谷／ハトシェプスト／メムノン／カルナック／ルクソール神殿など）"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "luxor-private-car-and-guide"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "coche-privado-y-guia-en-luxor"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "puraibeto-ka-gaido-de-meguru-rukusoru-kodai-tebe-de-anata"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Eight hours, one Egyptologist, and a city that was once the most powerful on earth. This is Luxor on your own terms."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Ocho horas, un egiptólogo y una ciudad que fue, en su día, la más poderosa de la tierra. Luxor en sus términos."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "8時間、ひとりのエジプト学者、そしてかつて地上で最も強大だった街。これは、あなたの思いどおりのルクソールです。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Private Car & Guide in Luxor: Build Your Own Day in Ancient Thebes"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Coche privado y guía en Luxor"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "プライベートカー＆ガイドで巡るルクソール：古代テーベで、あなただけの一日を組み立てる"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}
