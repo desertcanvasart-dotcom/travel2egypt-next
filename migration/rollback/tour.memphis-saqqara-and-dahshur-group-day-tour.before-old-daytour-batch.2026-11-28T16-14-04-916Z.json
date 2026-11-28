@@ -1,0 +1,879 @@
+{
+ "_createdAt": "2026-05-28T11:45:27Z",
+ "_id": "tour.memphis-saqqara-and-dahshur-group-day-tour",
+ "_rev": "HhIJb1c6aSZG708L92qCBk",
+ "_type": "tour",
+ "_updatedAt": "2026-11-28T13:39:42Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers who want the engineering logic behind Giza, taken from Djoser's experiment to Snefru's solution"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Quienes quieren entender las piramides mas alla de Guiza"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "ギザを見たうえで「なぜそれが可能だったか」を時代順に読みたい方／古王国時代の彩色浮彫に関心のある方／建築の「失敗」と「修正」の物語に惹かれる方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Memphis, Saqqara & Dahshur: Group Day Tour"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "— The day Egypt learned to build, traced from the first capital through the experiments to the form that worked —"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "The pyramid was not invented at Giza. It was worked out, painfully and experimentally, in the desert south of Cairo across several generations. This shared-departure day follows that working-out in chronological order: Memphis, the political capital that organised the whole enterprise; Saqqara, where Imhotep stacked the first stone tomb in 2650 BC and created the Step Pyramid of Djoser; and Dahshur, where Snefru built two pyramids — the Bent and the Red — in the same reign and finally solved the geometry that his son Khufu would take to Giza."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "By the time you stand in front of the Red Pyramid at the end of the day, the engineering logic that produced everything you have already seen at Giza is legible. That is the value of the order."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "The day, hour by hour"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "09:00 pickup from your hotel. Drive south through the morning traffic to Memphis — roughly thirty kilometres, around forty-five minutes."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000010",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Memphis."
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": " The open-air museum on the site of the first capital of unified Egypt, founded by Menes around the 31st century BC. The reclining colossus of Ramses II in its purpose-built hall, the Alabaster Sphinx in the courtyard, scattered architectural fragments. A short, contextual stop — the city itself lies under the modern village of Mit Rahina, but the museum sets the chronological frame for everything that follows."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Saqqara."
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": " A short drive north-west. The Step Pyramid of Djoser — six stacked mastabas rising to roughly sixty metres, the world's oldest large-scale cut-stone structure, restored after years of conservation and now genuinely legible. The surrounding funerary complex with its dummy doors and reconstructed colonnade. If time allows, one or two of the nearby decorated mastaba tombs whose painted reliefs of Old Kingdom daily life are among the finest surviving examples."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000016",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Dahshur."
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": " Roughly ten kilometres further south. The Bent Pyramid, whose angle changes from 54 degrees to 43 partway up — almost certainly because the builders mid-construction realised the steeper angle was failing. The Red Pyramid, built shortly after with the corrected shallower angle from the base, 105 metres tall, Egypt's third-largest pyramid and the first true smooth-sided pyramid ever completed. You can descend into its interior chambers if you choose — a low passage, not for the claustrophobic, worth the effort for the corbelled chambers at the bottom."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000018",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [],
+       "text": "Return drive to central Cairo. Drop-off at your hotel in the late afternoon."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Three sites, roughly two hundred and fifty years of architectural argument, the entire prehistory of Giza in a single day's drive."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Standing at Dahshur at the end of the afternoon, Khufu finally makes sense."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [],
+       "text": "The natural prelude to a Giza day; we can sequence the two so Khufu lands at the end of an architectural argument rather than the start of an unguided tour."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Menfis, Saqqara y Dahshur: excursión en grupo"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "— El día en que Egipto aprendió a construir, seguido desde la primera capital, pasando por los ensayos, hasta la forma que funcionó —"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "La pirámide no se inventó en Guiza. Se fue resolviendo, con esfuerzo y experimentación, en el desierto al sur de El Cairo a lo largo de varias generaciones. Esta salida compartida sigue ese proceso en orden cronológico: Menfis, la capital política que organizó toda la empresa; Saqqara, donde Imhotep apiló la primera tumba en piedra en 2650 a. C. y creó la pirámide escalonada de Zóser; y Dahshur, donde Snefru construyó dos pirámides — la Romboidal y la Roja — en el mismo reinado y resolvió por fin la geometría que su hijo Keops llevaría a Guiza."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Al final de la jornada, frente a la pirámide Roja, la lógica de ingeniería que produjo todo lo que después se ve en Guiza queda legible. Ése es el valor del orden cronológico."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "El día, hora a hora"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "09:00 recogida en su hotel. Trayecto hacia el sur entre el tráfico matutino hasta Menfis — unos treinta kilómetros, alrededor de cuarenta y cinco minutos."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000010",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Menfis."
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [],
+       "text": " Museo al aire libre situado sobre el emplazamiento de la primera capital del Egipto unificado, fundada por Menes hacia el siglo XXXI a. C. El coloso reclinado de Ramsés II bajo su pabellón, la esfinge de alabastro en el patio, fragmentos arquitectónicos dispersos. Una parada corta de carácter contextual: la ciudad antigua se extiende bajo el actual pueblo de Mit Rahina, pero el museo fija el marco cronológico de todo lo que sigue."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Saqqara."
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": " Breve traslado al noroeste. La pirámide escalonada de Zóser — seis mastabas superpuestas que alcanzan unos sesenta metros, la estructura monumental en piedra tallada más antigua del mundo, restaurada tras años de conservación y hoy plenamente legible. El recinto funerario circundante con sus puertas falsas y la columnata reconstruida. Si el tiempo lo permite, una o dos de las mastabas decoradas cercanas, cuyos relieves policromados de la vida cotidiana del Reino Antiguo se cuentan entre los más finos que sobreviven."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000016",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Dahshur."
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [],
+       "text": " Unos diez kilómetros más al sur. La pirámide Romboidal, cuyo ángulo cambia de 54 grados a 43 a media altura — casi con seguridad porque los constructores comprendieron a mitad de obra que la pendiente más pronunciada estaba fallando. La pirámide Roja, levantada poco después con el ángulo corregido desde la base, 105 metros de altura, tercera mayor pirámide de Egipto y la primera pirámide de caras lisas terminada. Quien lo desee puede descender al interior por un pasadizo bajo — no recomendable para claustrofóbicos — para ver las cámaras de bóveda en saledizo en el fondo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000018",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [],
+       "text": "Regreso por carretera al centro de El Cairo. Llegada a su hotel a media tarde."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Tres sitios, unos doscientos cincuenta años de discusión arquitectónica, toda la prehistoria de Guiza en un solo día de carretera."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Al final de la tarde, frente a Dahshur, Keops empieza por fin a tener sentido."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [],
+       "text": "Es el dia en que la perfeccion de Guiza deja de parecer repentina."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002f",
+       "_type": "span",
+       "marks": [],
+       "text": "Esta es una ruta abierta. Si quieres ajustar el ritmo, cambiar el orden de las visitas o añadir un complemento, podemos adaptarla contigo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "メンフィス・サッカラ・ダハシュール：ピラミッドが完成へ向かった一日"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "カイロの南、最初の都メンフィスから、世界最古の石造大建築サッカラを経て、スネフェル王が幾何学を解き明かしたダハシュールへ。クフ王の仕事の「前史」を、時代順にたどる一日。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "ピラミッドは、ギザで生まれたわけではありません。カイロの南に広がる砂漠で、幾世代もの試行錯誤の末に、文字どおり組み立てられていったものです。この一日は、その「学びの過程」を時代の順にたどります——まず、すべての事業を統べた政治の都メンフィス。次に、紀元前2650年にイムホテプが初めて石を積み上げ、ジェセル王の階段ピラミッドを生んだサッカラ。そして、スネフェル王が同じ治世のうちに屈折ピラミッドと赤ピラミッドの二基を建て、息子クフ王がギザへ持ち込む幾何学を、ついに解き明かしたダハシュール。順序にこそ、この一日の値打ちがあります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "メンフィスは、統一エジプト最初の都の跡に建つ野外博物館です。都を築いたのは、紀元前31世紀ごろのメネス王と伝えられます。専用の覆屋に横たわるラムセス2世の巨像、中庭のアラバスター製スフィンクス、各所に散らばる建築の断片——都そのものは現代の村ミート・ラヒーナの下に眠っていますので、これは文脈づけのための短い立ち寄りです。けれど、ここで枠組みが据えられるからこそ、この先の二つの遺跡が「順序」として読めるようになります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "少し北西へ走るとサッカラ。ジェセル王の階段ピラミッドは、六つのマスタバを積み重ねた高さおよそ60メートルの建造物で、世界最古の大規模な切石建築です。長年の修復を経て、いまは本当に「読める」状態になっています。だまし扉、復元された列柱、葬祭複合体の周壁——イムホテプという史上初めて名の残った建築家が、石を「建てる」とはどういうことかを考え直した場所です。時間が許せば、近くにある古王国時代のマスタバ墓を一つ二つ訪ねます。当時の日常を描いた彩色浮彫が、屈指の保存状態で残っています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "締めくくりはダハシュール。屈折ピラミッドは、途中から角度が54度から43度へと変わっています——ほぼ確実に、建設の半ばで急な角度では崩れると気づいたためです。赤ピラミッドはその直後に、基部から修正後の緩やかな角度で建てられました。高さ105メートル、エジプトで三番目に大きく、史上初めて完成した、真正の滑らかな四角錐です。希望すれば内部の玄室まで下りられます——低い通路と、底に広がる持ち送り構造の天井の部屋です。閉所が苦手な方は、外観だけでも十分に意味は伝わります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "三つの遺跡、およそ二百五十年にわたる建築の試論、そしてギザに至るまでのすべての「前史」が、一日のドライブのなかに収まっています。午後遅く、赤ピラミッドの前に立つころには、クフ王の仕事が、ようやく腑に落ちます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "これは出発点であり、固定パッケージではありません。プライベートの車両に切り替えたい、サッカラの最近の発掘発見を組み込みたい、午後遅くにダハシュールで日没の光を待ちたい——そうした一日の組み立て方は、コンシェルジュとご相談ください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "The natural companion to the Giza morning — many guests run the two on consecutive days for the whole Old Kingdom arc. If you'd rather fold in the Grand Egyptian Museum, or take the same route privately at a slower pace, tell our concierge."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "El compañero natural de la mañana de Guiza — muchos viajeros hacen los dos en días consecutivos para el arco completo del Reino Antiguo. Si prefieres sumar el Gran Museo Egipcio, o la misma ruta en privado y más despacio, díselo a nuestro concierge."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "ギザの午前と対をなす一日です。二日続けて回り、古王国の流れを通しでご覧になる方が多くいらっしゃいます。大エジプト博物館を加えたい、同じ道をゆっくり貸切で、というご希望もコンシェルジュへどうぞ。"
+  }
+ ],
+ "durationHours": 8,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Full day · ~8 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Día completo · ~8 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "終日・約8時間"
+  }
+ ],
+ "exclusions": [],
+ "groupSize": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "4–12 guests"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "4–12 personas"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "4〜12名"
+  }
+ ],
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The Bent Pyramid of Dahshur, its sloping sides changing angle, standing in flat open desert"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "La Pirámide Acodada de Dahshur, con sus caras que cambian de ángulo, en el desierto llano y abierto"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "傾斜の角度が途中で変わる、平らな開けた砂漠に立つダハシュールの屈折ピラミッド。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-7a1fccfd4a377b9d80bbbe55889143283bd64dac-3000x1992-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The Bent Pyramid rises from the desert at Dahshur."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "La Pirámide Acodada se alza en el desierto de Dahshur."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ダハシュールの砂漠にそびえる屈折ピラミッド。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "7e3g7ywwi1",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "09:00 pickup from your hotel.",
+   "text": "09:00 pickup from your hotel"
+  },
+  {
+   "_key": "xjz6iry4eb",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Drop-off at your hotel in the late afternoon.",
+   "text": "Drop-off at your hotel in the late afternoon"
+  },
+  {
+   "_key": "cxort758f7",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "09:00 recogida en su hotel.",
+   "text": "Recogida en su hotel"
+  },
+  {
+   "_key": "6hev3vlvnb",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Llegada a su hotel a media tarde.",
+   "text": "Regreso por carretera a su hotel"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/memphis-saqqara-and-dahshur-group-day-tour/"
+ },
+ "priceFrom": 51,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_alexandria_catacombs_pompeys_pillar_group_day_tour_from_cairo",
+   "_ref": "tour.alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_transfer_from_cairo_airport_to_hotel",
+   "_ref": "tour.transfer-from-cairo-airport-to-hotel",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_cairo_dinner_cruise_with_belly_dancing_show",
+   "_ref": "tour.cairo-dinner-cruise-with-belly-dancing-show",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_nmec_royal_mummies_old_cairo",
+   "_ref": "tour.nmec-royal-mummies-old-cairo",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Shared group departure · licensed Egyptologist guide · air-conditioned vehicle · the three sites taken in chronological order"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Salida compartida arqueologica · Moderado a activo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "乗合の小グループ出発・冷房付き車両・ライセンスを持つエジプト学ガイド・歩く距離は中程度（凹凸のある石灰岩と砂）"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Full day, ≈8–9 hours"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Dia completo"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "一日（ドアtoドアでおよそ8〜9時間）"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Cairo → Memphis (open-air museum) → Saqqara (Step Pyramid of Djoser) → Dahshur (Bent and Red pyramids) → Cairo"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "El Cairo, Menfis, Saqqara y Dahshur"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "カイロ → メンフィス → サッカラ（階段ピラミッド複合体） → ダハシュール（屈折ピラミッド／赤ピラミッド） → カイロへ戻る"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "memphis-saqqara-and-dahshur-group-day-tour"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "menfis-saqqara-y-dahshur-en-grupo-desde-el-cairo"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "menfisusakkaradahashuru-piramiddo-ga-kansei-e-mukatta-ichi"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A shared-departure day at the three sites where the pyramid was invented and perfected — Memphis the first capital, Saqqara's Step Pyramid, Dahshur's Bent and Red pyramids that taught Khufu what he was about to do."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Salida compartida a los tres sitios donde la pirámide fue inventada y perfeccionada — Menfis, primera capital; la pirámide escalonada de Zóser en Saqqara; las pirámides Romboidal y Roja de Dahshur que enseñaron a Keops lo que estaba a punto de hacer."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "カイロの南、最初の都メンフィスから、世界最古の石造大建築サッカラを経て、スネフェル王が幾何学を解き明かしたダハシュールへ。クフ王の仕事の『前史』を、時代順にたどる一日。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Memphis, Saqqara & Dahshur: Group Day Tour from Cairo"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Menfis, Saqqara y Dahshur en grupo desde El Cairo"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "メンフィス・サッカラ・ダハシュール：ピラミッドが完成へ向かった一日"
+  }
+ ],
+ "tourMode": "group",
+ "type": "dayTour"
+}

@@ -1,0 +1,2111 @@
+{
+ "_createdAt": "2026-05-13T22:22:58Z",
+ "_id": "wp-page-88597",
+ "_rev": "K2pi3eY73hTRu2vMGMyRaJ",
+ "_system": {
+  "base": {
+   "id": "wp-page-88597",
+   "rev": "hfH9i9C1WObc0VBSEzdJHU"
+  }
+ },
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:41Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "First-time Aswan visitors who want the city's three definitional sites done in a single, well-paced day — quarry, dam, rescued temple"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Primeras visitas a Asuán que quieren los tres yacimientos definitorios de la ciudad en una sola jornada bien acompasada: cantera, presa y templo rescatado"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "アスワン滞在が一日しかなく、外せない三本柱（古代の石切場・ダム・移設された神殿）を本気で押さえたい旅人"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan in a Day: The Dam, the Temple, and the Stone That Never Left the Ground"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "There is a particular kind of travel day that earns its tiredness — one where you have stood inside a granite quarry older than the Roman Empire, walked the top of a dam that reshaped an entire river system, and crossed by boat to a temple that was dismantled block by block and moved to higher ground before the waters rose. This is that day."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Aswan has always been Egypt's southern threshold: the point where the Nile narrows between black granite outcrops, where Nubia begins, and where pharaohs quarried the hardest stone in the ancient world for their most ambitious monuments. It is a smaller, quieter city than Luxor or Cairo, and the pace of a day here reflects that — this is not a sprint between a dozen sites, but a considered circuit of three places that each reward attention."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "The tour suits most travellers reasonably well. The Unfinished Obelisk involves walking on uneven quarry rock; Philae Temple requires a short felucca or motorboat transfer across the reservoir; the High Dam is largely an outdoor lookout visit. None of it is strenuous, but comfortable shoes and shade-friendly clothing make a real difference in Aswan's dry heat."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "If you are arriving from Luxor or Cairo and treating Aswan as a single-day stop, this itinerary covers the sites that genuinely cannot be skipped. If you have more time, Aswan has further rewards — the Nubian villages, Elephantine Island, the Aga Khan Mausoleum — but they belong to another day."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "This is a "
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "private tour, operated for your party alone"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": " — never shared with other guests. Because it is private, it "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "runs for as few as one traveller, with no minimum group size and no waiting on other bookings"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "; larger parties are accommodated in a suitable vehicle. A "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "private, air-conditioned vehicle"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": ", a "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "licensed, English-speaking Egyptologist guide"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ", and "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "one bottle of mineral water per person"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": " are included in every tier. There is "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "no minimum age"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": " — families are welcome — though Aswan's dry heat is real, so plan around younger children accordingly."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "The tour comes in three tiers, so you only pay for what you want: a "
+      },
+      {
+       "_key": "000000000019",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base"
+      },
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": " package (private vehicle, guide, water, and all logistics); "
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base + Entrance Fees"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": " (the same, plus entry to all three sites and the Philae boat transfer); and "
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base + Entrance Fees & Lunch"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": " (those entrance fees plus a midday meal). Egyptian entrance fees are revised often, so keeping them separate keeps the base fare honest. Tier prices are shown at booking."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "The day begins at the "
+      },
+      {
+       "_key": "000000000023",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Unfinished Obelisk"
+      },
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": ", still lying in its ancient quarry on the southern edge of Aswan. This is one of the most quietly extraordinary sites in Egypt, precisely because nothing here was ever finished. Commissioned during the reign of Hatshepsut (c. 1479–1458 BC), the obelisk was being carved directly from the bedrock when a crack appeared in the granite. Workers downed tools and walked away, leaving behind the largest obelisk ever attempted in ancient Egypt — around 42 metres long and an estimated 1,200 tonnes — still attached to the living rock. What you are looking at is not a ruin but an abandoned workshop: the tool marks, the workers' channels, and the shaping technique are all preserved in situ. Seeing it explains, concretely and immediately, how obelisks were actually made — a question the finished monuments in Luxor, Rome, and Paris never quite answer."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": "From the quarry, the tour moves north to the "
+      },
+      {
+       "_key": "000000000027",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "High Dam"
+      },
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": " — the Sadd el-Ali — completed in 1970 after nearly a decade of construction. President Nasser's decision to build it, and the geopolitical drama that followed when Western funding was withdrawn and the Soviet Union stepped in, is one of the defining stories of post-independence Egypt. The dam is 3,830 metres long, holds back Lake Nasser — one of the largest artificial reservoirs on earth — and generates a significant share of Egypt's electricity. Standing on it gives you a genuine sense of scale: water on one side, the controlled Nile on the other, and the vast flat expanse of the lake stretching south towards Sudan. There is a monument on the dam commemorating Soviet-Egyptian cooperation, worth a few minutes. The visit is primarily a lookout and orientation stop rather than a museum experience, but the engineering context matters — it explains why Philae Temple is where it is."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "That context arrives at the third stop. "
+      },
+      {
+       "_key": "00000000002b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Philae Temple"
+      },
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": " originally stood on the island of Philae, at the first cataract of the Nile, and had been a working religious site from the time of the Ptolemies (c. 280 BC) through to the 6th century AD — one of the last places in Egypt where hieroglyphic inscription continued after the Roman conversion. When the first Aswan Dam was built in 1902, Philae was partially submerged for much of the year; the High Dam threatened to submerge it permanently. Between 1972 and 1980, UNESCO and the Egyptian government carried out one of the largest archaeological salvage operations in history: the temple was dismantled into 40,000 blocks, relocated to the nearby island of Agilika — which was reshaped to match Philae's original topography — and reassembled. It is an almost absurd undertaking, and the result is seamless."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "You reach Agilika by a short motorboat crossing, which gives you your first view of the temple's pylons rising above the water. The main structures are dedicated to Isis, whose cult was centred here, and the carved reliefs retain enough colour and detail to reward close reading. The colonnaded outer court, the two great pylons, the inner sanctuary, and the graceful Kiosk of Trajan — the \"Pharaoh's Bed\" — are all intact and accessible. Allow time to walk the perimeter as well as the interior; the island setting, with the granite boulders of the reservoir visible in every direction, gives Philae a drama that is entirely its own."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "The boat returns you to the mainland, and a vehicle transfer brings the day to a close back at your Aswan hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "Why Philae Matters Beyond Its Beauty"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "It is worth saying plainly: Philae is not simply a picturesque temple on a pretty island. It is the site where Isis worship — one of the most resilient religious traditions of the ancient world, which spread across the Roman Empire and persisted for centuries after Christianity became the state religion — finally came to an end. The last datable hieroglyphic inscription anywhere in Egypt was carved here in 394 AD. The last demotic inscription followed in 452 AD. When the temple was finally closed under the Emperor Justinian around 550 AD, it marked the end of a 3,000-year tradition of Egyptian religious writing. That is the weight the place carries, beneath the tourist photographs."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Aswan rewards the traveller who is willing to look at what was left undone as carefully as what was completed."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "A cracked obelisk, a drowned island, a river brought to heel — the city's landmarks are all, in their different ways, about the limits of ambition meeting the persistence of stone."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000047",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000046",
+       "_type": "span",
+       "marks": [],
+       "text": "Three tiers (Base / + Entrance Fees / + Entrance Fees & Lunch); the bundled tier includes the Philae motorboat. The concierge can extend this into a second day for the Nubian Museum or Elephantine if you have it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000048",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Asuán en un día: la presa, el templo y la piedra que nunca abandonó la cantera"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "La jornada privada que articula los tres yacimientos que sostienen la identidad de la ciudad: granito antiguo, ingeniería del siglo XX y un rescate internacional."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "Hay un tipo concreto de día de viaje que se gana el cansancio: aquel en el que el viajero ha pisado el interior de una cantera de granito más antigua que el Imperio romano, ha caminado sobre una presa que reordenó el sistema fluvial entero y ha cruzado en barca a un templo que se desmontó bloque a bloque y se reinstaló más alto antes de que subieran las aguas. Este es ese día."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "Asuán ha sido siempre el umbral meridional de Egipto: el punto donde el Nilo se estrecha entre afloramientos de granito negro, donde empieza Nubia y donde los faraones extraían la piedra más dura del mundo antiguo para sus monumentos más ambiciosos. Es una ciudad más pequeña y silenciosa que Luxor o El Cairo, y el ritmo de una jornada aquí lo refleja: no es un esprint entre una docena de sitios, sino un circuito mesurado por tres lugares que recompensan la atención."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "El tour se ajusta razonablemente bien a la mayoría de los viajeros. El Obelisco Inacabado obliga a caminar sobre roca de cantera irregular; Philae requiere un breve traslado en faluca o lancha motora cruzando el embalse; la Alta Presa es, sobre todo, una parada de observación al aire libre. Nada de ello es agotador, pero el calzado cómodo y la ropa amable con la sombra marcan diferencia real en el calor seco de Asuán."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "Si llega desde Luxor o El Cairo y maneja Asuán como una sola parada de un día, este itinerario cubre los yacimientos que verdaderamente no pueden saltarse. Si dispone de más tiempo, Asuán reserva otras recompensas —los pueblos nubios, la isla Elefantina, el mausoleo del Aga Khan—, pero pertenecen a otro día."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "Se trata de un "
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "tour estrictamente privado, operado en exclusiva para su grupo"
+      },
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": " y nunca compartido con otros viajeros. Por su carácter privado, "
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "opera desde un único viajero, sin tamaño mínimo de grupo y sin esperas a otras reservas"
+      },
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "; los grupos más amplios se acomodan en un vehículo adecuado. Cada nivel incluye "
+      },
+      {
+       "_key": "000000000011",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "vehículo privado con aire acondicionado"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": ", "
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "guía egiptólogo licenciado de habla hispana"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": " y "
+      },
+      {
+       "_key": "000000000015",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "una botella de agua mineral por persona"
+      },
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": ". "
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "No hay edad mínima"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": " —las familias son bienvenidas—, aunque el calor seco de Asuán es real y conviene planificar en consecuencia con los niños más pequeños."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel "
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": " (vehículo privado, guía, agua y toda la logística); "
+      },
+      {
+       "_key": "00000000001d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base + entradas"
+      },
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": " (lo anterior más el acceso a los tres yacimientos y el traslado en barca a Philae); y "
+      },
+      {
+       "_key": "00000000001f",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Base + entradas y almuerzo"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": " (esas entradas más una comida al mediodía). Las tarifas egipcias se revisan con frecuencia, así que mantenerlas separadas evita inflar el precio base. Los precios por nivel se confirman en el momento de reservar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "El día arranca en el "
+      },
+      {
+       "_key": "000000000025",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Obelisco Inacabado"
+      },
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [],
+       "text": ", todavía tendido en su cantera antigua en el borde sur de Asuán. Es uno de los yacimientos calladamente más extraordinarios de Egipto, precisamente porque nada aquí llegó a terminarse. Encargado durante el reinado de Hatshepsut (hacia 1479-1458 a. C.), el obelisco se estaba tallando directamente sobre la roca madre cuando apareció una fisura en el granito. Los operarios dejaron las herramientas y se marcharon, abandonando allí el mayor obelisco jamás intentado en el Egipto antiguo —unos 42 metros de largo y unas 1.200 toneladas estimadas— aún unido a la roca viva. Lo que se está mirando no es una ruina, sino un taller abandonado: las marcas de las herramientas, los canales de los obreros y la técnica de talla se conservan in situ. Verlo explica, concreta y de inmediato, cómo se hacían realmente los obeliscos, una pregunta que los monumentos terminados de Luxor, Roma y París no terminan de responder."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde la cantera, el tour avanza al norte hasta la "
+      },
+      {
+       "_key": "000000000029",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "Alta Presa"
+      },
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": " —Sadd el-Ali—, completada en 1970 tras casi una década de obra. La decisión del presidente Nasser de levantarla y el drama geopolítico que siguió cuando la financiación occidental se retiró y la Unión Soviética entró a sustituirla es uno de los relatos definitorios del Egipto independiente. La presa mide 3.830 metros de longitud, embalsa el lago Nasser —uno de los mayores reservorios artificiales del planeta— y genera una proporción significativa de la electricidad de Egipto. Estar sobre ella ofrece una percepción genuina de la escala: agua en un lado, Nilo controlado en el otro y la vasta planicie del lago extendiéndose hacia el sur, hacia Sudán. Hay un monumento sobre la presa que conmemora la cooperación soviético-egipcia y que merece unos minutos. La visita es, sobre todo, una parada de orientación y mirador, no una experiencia de museo, pero el contexto ingenieril importa: explica por qué Philae está donde está."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002c",
+       "_type": "span",
+       "marks": [],
+       "text": "Ese contexto desemboca en la tercera parada. El "
+      },
+      {
+       "_key": "00000000002d",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "templo de Philae"
+      },
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": " se alzaba originalmente en la isla de Philae, en la primera catarata del Nilo, y había sido un yacimiento religioso activo desde la época de los Ptolomeos (hacia 280 a. C.) hasta el siglo VI d. C., uno de los últimos lugares de Egipto en los que las inscripciones jeroglíficas continuaron tras la conversión romana. Cuando se construyó la primera presa de Asuán, en 1902, Philae quedó parcialmente sumergido buena parte del año; la Alta Presa amenazaba con anegarlo de manera permanente. Entre 1972 y 1980, la UNESCO y el Gobierno egipcio llevaron a cabo una de las mayores operaciones arqueológicas de rescate de la historia: el templo se desmontó en 40.000 bloques, se trasladó a la cercana isla de Agilkia —remodelada para coincidir con la topografía original de Philae— y se reensambló. Es una empresa rayana en lo absurdo y el resultado es impecable."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000031",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "Se llega a Agilkia mediante un corto traslado en lancha motora, que da la primera vista de los pilonos del templo elevándose sobre el agua. Las estructuras principales están consagradas a Isis, cuyo culto tenía aquí su centro, y los relieves tallados conservan color y detalle suficientes para recompensar una lectura próxima. El patio columnado exterior, los dos grandes pilonos, el sanctasanctórum interior y el grácil Kiosco de Trajano —la «Cama del Faraón»— están íntegros y accesibles. Reserve tiempo para recorrer el perímetro de la isla, además del interior; el emplazamiento, con los bolos de granito del embalse visibles en todas direcciones, confiere a Philae una teatralidad enteramente suya."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000033",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000032",
+       "_type": "span",
+       "marks": [],
+       "text": "La lancha le devuelve a tierra firme y un traslado en vehículo cierra el día de vuelta a su hotel de Asuán."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000035",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000034",
+       "_type": "span",
+       "marks": [],
+       "text": "Por qué Philae importa más allá de su belleza"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "Conviene decirlo con claridad: Philae no es solo un templo pintoresco en una isla bonita. Es el yacimiento donde el culto a Isis —una de las tradiciones religiosas más resistentes del mundo antiguo, que se difundió por el Imperio romano y persistió siglos después de que el cristianismo se convirtiera en la religión del Estado— terminó por extinguirse. La última inscripción jeroglífica datable en todo Egipto se talló aquí en el año 394 d. C. La última inscripción en demótico siguió en el 452 d. C. Cuando el templo se clausuró finalmente bajo el emperador Justiniano hacia el 550 d. C., quedaba marcado el final de una tradición de tres mil años de escritura religiosa egipcia. Ese es el peso que el lugar carga, bajo las fotografías turísticas."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000039",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Asuán recompensa al viajero dispuesto a mirar lo que quedó sin hacer con la misma atención que dedica a lo que se completó."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000003a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Un obelisco fracturado, una isla anegada, un río puesto bajo control: los puntos de referencia de la ciudad tratan, cada uno a su manera, sobre los límites de la ambición frente a la persistencia de la piedra."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004a",
+       "_type": "span",
+       "marks": [],
+       "text": "Los tres niveles (Base / + entradas / + entradas y almuerzo); el nivel con entradas incluye la lancha a Philae. El concierge puede prolongar la ruta a un segundo día para el Museo Nubio o Elefantina si dispone de él."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000004e",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000004c",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "一日で巡るアスワン：ダム、神殿、そして地から離れなかった石"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "その疲れに見合うだけの旅の一日というものがあります——ローマ帝国より古い花崗岩の石切場の中に立ち、ひとつの川の水系をまるごと造り変えたダムの上を歩き、水位が上がる前にブロックごとに解体されて高台へ移された神殿へ、ボートで渡る一日。これがその一日です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "アスワンはずっと、エジプトの南の敷居でした——黒い花崗岩の岩山のあいだでナイルが狭まり、ヌビアが始まり、そしてファラオたちが最も野心的な記念建造物のために、古代世界で最も硬い石を切り出した地点。ルクソールやカイロより小さく、静かな街で、ここでの一日のペースもそれを映しています——これは十数か所の遺跡を駆け抜ける短距離走ではなく、それぞれが注意に報いてくれる三つの場所を、じっくり巡る周遊です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "このツアーは、たいていの旅人にほどよく向いています。未完のオベリスクは凹凸のある石切場の岩を歩き、フィラエ神殿は貯水池を渡る短いフェルッカかモーターボートの移動を要し、ハイダムは大半が屋外の展望の見学です。どれも激しいものではありませんが、履き慣れた靴と日除けになる服装が、アスワンの乾いた暑さのなかでは本当に違いを生みます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "ルクソールやカイロから来て、アスワンを一日の立ち寄りとして扱うなら、この行程は、まぎれもなく飛ばせない遺跡を押さえています。もっと時間があれば、アスワンにはさらなる報い——ヌビアの村々、エレファンティネ島、アガ・ハーン廟——がありますが、それらは別の一日のものです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "行程"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "一日は、アスワンの南端の古代の石切場にいまも横たわる"
+      },
+      {
+       "_key": "000000000013",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "未完のオベリスク"
+      },
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "から始まります。ここは、何ひとつ完成しなかったからこそ、エジプトでも静かに並外れた遺跡のひとつです。ハトシェプストの治世（紀元前1479〜1458年ごろ）に発注されたこのオベリスクは、花崗岩に亀裂が現れたとき、岩盤から直接彫り出されている最中でした。職人たちは道具を置いて立ち去り、古代エジプトで試みられた最大のオベリスク——長さおよそ42メートル、推定およそ1,200トン——を、生きた岩につながったまま残しました。あなたが目にしているのは廃墟ではなく、放棄された作業場です——道具の痕、職人たちの掘り溝、成形の技法が、すべてその場に残っています。それを見ることは、オベリスクが実際にどう造られたのかを、具体的に、ただちに説き明かしてくれます——ルクソール、ローマ、パリの完成した記念建造物が、決して十分には答えてくれない問いです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "石切場から、ツアーは北へ"
+      },
+      {
+       "_key": "000000000017",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "ハイダム"
+      },
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "——サッド・エル・アーリー——へと向かいます。十年近い建設を経て1970年に完成しました。ナーセル大統領がそれを築くと決めたこと、そして西側の資金が引き揚げられソビエト連邦が乗り出したときに続いた地政学のドラマは、独立後のエジプトを定義する物語のひとつです。ダムは長さ3,830メートル、地上最大級の人工貯水池のひとつであるナセル湖をせき止め、エジプトの電力のかなりの割合を生み出します。その上に立つと、規模を実感できます——片側に水、もう一方に制御されたナイル、そして南のスーダンへ向けて広がる湖の広大な平面。ダムの上には、ソビエト・エジプトの協力を記念する記念碑があり、数分の価値があります。見学は博物館の体験というより主に展望と概観の立ち寄りですが、その土木の文脈こそが大切です——なぜフィラエ神殿が今ある場所にあるのかを説き明かしてくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "その文脈が、三つ目の立ち寄りで訪れます。"
+      },
+      {
+       "_key": "00000000001b",
+       "_type": "span",
+       "marks": [
+        "strong"
+       ],
+       "text": "フィラエ神殿"
+      },
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "はもともとナイルの第一急湍にあったフィラエ島に立ち、プトレマイオス朝の時代（紀元前280年ごろ）から紀元6世紀まで、生きた宗教施設でした——ローマの改宗ののちもヒエログリフの碑文が続いた、エジプトでも最後の場所のひとつです。1902年に最初のアスワン・ダムが築かれると、フィラエは一年の大半、部分的に水没しました。ハイダムは、それを永久に水没させる恐れがありました。1972年から1980年にかけて、ユネスコとエジプト政府は史上最大級の考古救出作戦のひとつを実行しました——神殿は4万個のブロックに解体され、近くのアギルキア島——フィラエ本来の地形に合わせて造り変えられました——へ移され、組み直されたのです。ほとんど途方もない事業で、その仕上がりは継ぎ目がありません。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "アギルキアへは短いモーターボートの横断でたどり着き、水面の上にそびえる神殿の塔門が、最初の眺めとして現れます。主要な構造はイシスに捧げられており——その信仰はここを中心としていました——彫られた浮彫は、丹念に読み解くに足る色と細部を残しています。列柱の外庭、二つの大塔門、内陣、そして優美なトラヤヌスのキオスク——「ファラオの寝台」——は、いずれも無傷で立ち入れます。内部だけでなく外周を歩く時間も取ってください。あらゆる方向に貯水池の花崗岩の巨石が見える島の舞台立てが、フィラエに、それだけの劇的さを与えています。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [],
+       "text": "ボートが本土へ戻し、車両での移動が、アスワンのホテルでこの一日を締めくくります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [],
+       "text": "フィラエが、その美しさを超えてなぜ重要なのか"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000025",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000024",
+       "_type": "span",
+       "marks": [],
+       "text": "率直に言っておく価値があります——フィラエは、ただ美しい島に建つ絵になる神殿ではありません。それは、イシス信仰——古代世界で最も粘り強い宗教伝統のひとつで、ローマ帝国じゅうに広まり、キリスト教が国教となったのちも何世紀も存続した——が、ついに終わりを迎えた場所です。エジプトのどこであれ年代の特定できる最後のヒエログリフ碑文は、紀元394年にここで刻まれました。最後のデモティック碑文は紀元452年に続きました。皇帝ユスティニアヌスのもとで紀元550年ごろに神殿がついに閉じられたとき、それは三千年にわたるエジプトの宗教文字の伝統の終わりを画しました。観光写真の下に、この場所が背負っているのは、その重みです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000027",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000026",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "アスワンは、完成したものと同じだけ丹念に、成し遂げられなかったものを見ようとする旅人に報いてくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000029",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000028",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "亀裂の入ったオベリスク、水没した島、御せられた川——この街の名所はいずれも、それぞれのかたちで、野心の限界が石の粘り強さと出会う物語なのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000037",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000036",
+       "_type": "span",
+       "marks": [],
+       "text": "朝のオベリスクから始めるか午後のフィラエを締めにするか、夜のフィラエ光と音のショーと組み合わせるか——コンシェルジュが、暑さと光の角度で三遺跡の順序を組み直します。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000003a",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000038",
+       "_type": "span",
+       "marks": [],
+       "text": ""
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-58758",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "The day ends by mid-afternoon by design — Aswan's light and the river are at their best when you're free to meet them. The three sites are fixed, but their order and your pace at each are not; the day is entirely yours. Tell our concierge who's travelling, and we'll set a rhythm the whole party can keep."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "El día termina a media tarde a propósito: la luz de Asuán y el río lucen mejor cuando estás libre para salir a su encuentro. Los tres sitios están fijados, pero su orden y tu ritmo en cada uno no lo están — la jornada es enteramente tuya. Cuéntale a nuestro concierge quiénes viajan y marcaremos un compás que todo el grupo pueda sostener."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "この一日が午後の半ばで終わるのは意図してのことです——アスワンの光と川は、予定から解かれた時間にこそ真価を見せます。三つの見どころは決まっていますが、回る順番と各所での歩調は決まっていません。一日はまるごとお客様のものです。どなたとの旅かをコンシェルジュにお知らせください。全員が無理なく保てるリズムを整えます。"
+  }
+ ],
+ "days": [
+  {
+   "_key": "day-1",
+   "_type": "tourDay",
+   "dayNumber": 1,
+   "morning": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000001",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "Today's tour will take us on a captivating journey through Aswan's remarkable landmarks:"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000004",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Unfinished Obelisk:"
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [],
+         "text": " We'll start our day marveling at the colossal Unfinished Obelisk, a testament to ancient Egyptian craftsmanship. Learn about its intriguing history dating back to the New Kingdom era and the significance of obelisks in Egyptian culture."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000007",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "High Dam:"
+        },
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [],
+         "text": " Next, we'll visit the iconic High Dam, a feat of engineering built under the leadership of President Gamal Abdel Nasser in 1961. Discover the ingenuity behind this structure, which not only controls the flow of the Nile but also provides vital electricity and irrigation for Egypt."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000a",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Philae Temple:"
+        },
+        {
+         "_key": "000000000009",
+         "_type": "span",
+         "marks": [],
+         "text": " Our journey continues to the enchanting Philae Temple, dedicated to the goddess Isis. Delve into the temple's rich mythology and admire its breathtaking architecture. Learn about the remarkable relocation of the temple to Agilika Island to preserve it from the rising waters of Lake Nasser."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000c",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000b",
+         "_type": "span",
+         "marks": [],
+         "text": "After a day filled with exploration and discovery, we'll conclude the tour with a comfortable transfer back to your hotel in Aswan."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "es",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000001",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "La excursión de hoy nos llevará por un viaje cautivador a través de los extraordinarios monumentos de Asuán:"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000b",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [
+          "strong",
+          "000000000002"
+         ],
+         "text": "Obelisco Inacabado"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": ":"
+        },
+        {
+         "_key": "000000000005",
+         "_type": "span",
+         "marks": [],
+         "text": " Empezaremos el día maravillándonos ante el colosal Obelisco Inacabado, testimonio de la antigua artesanía egipcia."
+        },
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": "Conoce su intrigante historia, que se remonta a la época del Nuevo Reino, y la importancia de los obeliscos en la "
+        },
+        {
+         "_key": "000000000009",
+         "_type": "span",
+         "marks": [
+          "000000000008"
+         ],
+         "text": "cultura egipcia"
+        },
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": "."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000002",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-asuan/el-obelisco-inacabado/"
+         },
+         "_type": "externalLink",
+         "href": "/es/guide/asuan/el-obelisco-inacabado",
+         "newTab": false
+        },
+        {
+         "_key": "000000000008",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/souq-bab-el-louk-el-mercado-fresco-de-el-cairo/"
+         },
+         "_type": "externalLink",
+         "href": "/es/blog/souq-bab-el-louk-el-mercado-fresco-de-el-cairo",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000012",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000d",
+         "_type": "span",
+         "marks": [
+          "00000000000c",
+          "strong"
+         ],
+         "text": "Alta Presa:"
+        },
+        {
+         "_key": "00000000000e",
+         "_type": "span",
+         "marks": [
+          "00000000000c"
+         ],
+         "text": " A continuación, visitaremos la emblemática Presa"
+        },
+        {
+         "_key": "00000000000f",
+         "_type": "span",
+         "marks": [],
+         "text": " Alta, una proeza de la ingeniería construida bajo la dirección del presidente Gamal Abdel Nasser en 1961."
+        },
+        {
+         "_key": "000000000010",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000011",
+         "_type": "span",
+         "marks": [],
+         "text": "Descubre el ingenio que hay detrás de esta estructura, que no sólo controla el caudal del Nilo, sino que también proporciona electricidad e irrigación vitales para Egipto."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "00000000000c",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-asuan/la-presa-alta/"
+         },
+         "_type": "externalLink",
+         "href": "/es/guide/asuan/la-presa-alta-de-asuan",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000020",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000014",
+         "_type": "span",
+         "marks": [
+          "000000000013"
+         ],
+         "text": "Templo de Filae: Nuestro viaje"
+        },
+        {
+         "_key": "000000000015",
+         "_type": "span",
+         "marks": [],
+         "text": " continúa hacia el encantador Templo de Philae, dedicado a la diosa Isis."
+        },
+        {
+         "_key": "000000000016",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000017",
+         "_type": "span",
+         "marks": [],
+         "text": "Adéntrate en la rica mitología "
+        },
+        {
+         "_key": "000000000019",
+         "_type": "span",
+         "marks": [
+          "000000000018"
+         ],
+         "text": "del templo y admira su impresionante arquitectura"
+        },
+        {
+         "_key": "00000000001a",
+         "_type": "span",
+         "marks": [],
+         "text": "."
+        },
+        {
+         "_key": "00000000001b",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000001c",
+         "_type": "span",
+         "marks": [],
+         "text": "Conoce el extraordinario traslado del templo a la isla "
+        },
+        {
+         "_key": "00000000001e",
+         "_type": "span",
+         "marks": [
+          "00000000001d"
+         ],
+         "text": "de Agilika para preservarlo de las aguas crecientes del lago Nasser"
+        },
+        {
+         "_key": "00000000001f",
+         "_type": "span",
+         "marks": [],
+         "text": "."
+        }
+       ],
+       "markDefs": [
+        {
+         "_key": "000000000013",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-esna/"
+         },
+         "_type": "externalLink",
+         "href": "/es/guide/esna",
+         "newTab": false
+        },
+        {
+         "_key": "000000000018",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/espectaculo-de-luz-y-sonido-en-el-templo-de-philae-de-asuan/"
+         },
+         "_type": "externalLink",
+         "href": "/es/luz-y-sonido-en-el-templo-de-philae",
+         "newTab": false
+        },
+        {
+         "_key": "00000000001d",
+         "_pendingInternalRef": {
+          "sourceLocale": "en",
+          "wpUrl": "https://travel2egypt.org/es/crucero-de-4-dias-por-el-lago-nasser-desde-abu-simble/"
+         },
+         "_type": "externalLink",
+         "href": "/es/explorador-del-lago-nasser-crucero-de-4-dias-de-abu-simbel-a-asuan",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000022",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000021",
+         "_type": "span",
+         "marks": [],
+         "text": "Tras un día lleno de exploración y descubrimientos, concluiremos la excursión con un cómodo traslado de vuelta a tu hotel en Asuán."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    },
+    {
+     "_key": "ja",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "000000000001",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000000",
+         "_type": "span",
+         "marks": [],
+         "text": "本日のツアーでは、アスワンの象徴的な名所を巡る魅力的な旅へとご案内します。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000005",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000002",
+         "_type": "span",
+         "marks": [],
+         "text": "未完成のオベリスク:"
+        },
+        {
+         "_key": "000000000003",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000004",
+         "_type": "span",
+         "marks": [],
+         "text": "最初に訪れるのは、巨大な 未完成のオベリスク。これは古代エジプトの卓越した職人技を今に伝える貴重な遺跡です。新王国時代にまで遡るその歴史や、エジプト文化におけるオベリスクの重要性について学びましょう。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "000000000009",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "000000000006",
+         "_type": "span",
+         "marks": [],
+         "text": "ハイダム:"
+        },
+        {
+         "_key": "000000000007",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "000000000008",
+         "_type": "span",
+         "marks": [],
+         "text": "次に訪れるのは、1961年にガマール・アブドゥル＝ナーセル大統領の指導のもと建設された ハイダム。ナイル川の流れを制御し、エジプトに電力と灌漑をもたらすこの壮大な構造物の背後にある技術とその影響を探ります。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000d",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000a",
+         "_type": "span",
+         "marks": [],
+         "text": "フィラエ神殿:"
+        },
+        {
+         "_key": "00000000000b",
+         "_type": "span",
+         "marks": [],
+         "text": "\n"
+        },
+        {
+         "_key": "00000000000c",
+         "_type": "span",
+         "marks": [],
+         "text": "ツアーのハイライトは、女神イシスに捧げられた フィラエ神殿 への訪問です。豊かな神話に彩られたこの神殿の壮麗な建築美を堪能しながら、ナセル湖の水位上昇から守るためにアギリカ島へ移築された驚くべき物語を学びましょう。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "00000000000f",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "00000000000e",
+         "_type": "span",
+         "marks": [],
+         "text": "一日を通じてエジプトの歴史と魅力を満喫した後、快適な専用送迎でアスワンのホテルへお送りします。"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "title": [
+    {
+     "_key": "en",
+     "value": "Aswan's Ancient Marvels: A Day of Discovery"
+    },
+    {
+     "_key": "es",
+     "value": "Día 1 Las antiguas maravillas de Asuán: Un día de descubrimientos"
+    },
+    {
+     "_key": "ja",
+     "value": "1日目 アスワンの古代の驚異：発見の一日"
+    }
+   ]
+  }
+ ],
+ "durationDays": 1,
+ "durationHours": 8,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Full day · ~8 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Día completo · ~8 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "終日・約8時間"
+  }
+ ],
+ "exclusions": [
+  {
+   "_key": "or1bp08amh",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Egyptian entrance fees are revised often, so keeping them separate keeps the base fare honest.",
+   "text": "Entrance fees kept separate from the Base fare"
+  }
+ ],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 105,
+  "ja": 112
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The Unfinished Obelisk lying in the ancient granite quarry at Aswan"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El Obelisco Inacabado en la antigua cantera de granito de Asuán"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "アスワンの古代花崗岩採石場に横たわる未完成のオベリスク"
+   }
+  ],
+  "asset": {
+   "_ref": "image-ebdff24860cb1aec2a31a875375f0167bdc55304-3000x2000-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The Unfinished Obelisk still resting in the bedrock of its Aswan quarry."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "El Obelisco Inacabado sigue reposando en la roca de su cantera de Asuán."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "アスワンの採石場の岩盤に今も横たわる未完成のオベリスク。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "7hbfgayqy7",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A private, air-conditioned vehicle, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person are included in every tier.",
+   "text": "Private, air-conditioned vehicle (all tiers)"
+  },
+  {
+   "_key": "6er2i6wzlu",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A private, air-conditioned vehicle, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person are included in every tier.",
+   "text": "Licensed, English-speaking Egyptologist guide (all tiers)"
+  },
+  {
+   "_key": "2soozfnwmg",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A private, air-conditioned vehicle, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person are included in every tier.",
+   "text": "One bottle of mineral water per person (all tiers)"
+  },
+  {
+   "_key": "3wnf0sw1lt",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all logistics); Base + Entrance Fees (the same, plus entry to all three sites and the Philae boat transfer); and Base + Entrance Fees & Lunch (those entrance fees plus a midday meal).",
+   "text": "All logistics (Base package)"
+  },
+  {
+   "_key": "wlgd9c7m7u",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all logistics); Base + Entrance Fees (the same, plus entry to all three sites and the Philae boat transfer); and Base + Entrance Fees & Lunch (those entrance fees plus a midday meal).",
+   "text": "Entry to all three sites (Base + Entrance Fees and Base + Entrance Fees & Lunch tiers only)"
+  },
+  {
+   "_key": "zws8whughu",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "Three tiers (Base / + Entrance Fees / + Entrance Fees & Lunch); the bundled tier includes the Philae motorboat.",
+   "text": "Philae boat transfer (Base + Entrance Fees and Base + Entrance Fees & Lunch tiers only)"
+  },
+  {
+   "_key": "vvbrobue1z",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all logistics); Base + Entrance Fees (the same, plus entry to all three sites and the Philae boat transfer); and Base + Entrance Fees & Lunch (those entrance fees plus a midday meal).",
+   "text": "Midday meal (Base + Entrance Fees & Lunch tier only)"
+  },
+  {
+   "_key": "eguxnfpnlx",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The boat returns you to the mainland, and a vehicle transfer brings the day to a close back at your Aswan hotel.",
+   "text": "Transfer back to your Aswan hotel"
+  },
+  {
+   "_key": "un7qt96239",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cada nivel incluye vehículo privado con aire acondicionado, guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona.",
+   "text": "Vehículo privado con aire acondicionado"
+  },
+  {
+   "_key": "msu2spw13b",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cada nivel incluye vehículo privado con aire acondicionado, guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona.",
+   "text": "Guía egiptólogo licenciado de habla hispana"
+  },
+  {
+   "_key": "cbt5rilwhm",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cada nivel incluye vehículo privado con aire acondicionado, guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona.",
+   "text": "Una botella de agua mineral por persona"
+  },
+  {
+   "_key": "ixf0jbf6dg",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística); Base + entradas (lo anterior más el acceso a los tres yacimientos y el traslado en barca a Philae); y Base + entradas y almuerzo (esas entradas más una comida al mediodía).",
+   "text": "Toda la logística (nivel Base)"
+  },
+  {
+   "_key": "pl0kr59o07",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística); Base + entradas (lo anterior más el acceso a los tres yacimientos y el traslado en barca a Philae); y Base + entradas y almuerzo (esas entradas más una comida al mediodía).",
+   "text": "Acceso a los tres yacimientos (nivel Base + entradas)"
+  },
+  {
+   "_key": "wag75jm6dr",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Los tres niveles (Base / + entradas / + entradas y almuerzo); el nivel con entradas incluye la lancha a Philae.",
+   "text": "Lancha a Philae (nivel con entradas)"
+  },
+  {
+   "_key": "dogmvu13jz",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística); Base + entradas (lo anterior más el acceso a los tres yacimientos y el traslado en barca a Philae); y Base + entradas y almuerzo (esas entradas más una comida al mediodía).",
+   "text": "Comida al mediodía (nivel Base + entradas y almuerzo)"
+  },
+  {
+   "_key": "satfhtyzjq",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La lancha le devuelve a tierra firme y un traslado en vehículo cierra el día de vuelta a su hotel de Asuán.",
+   "text": "Traslado de vuelta al hotel en Asuán"
+  },
+  {
+   "_key": "afn4nwncrp",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "一日を通じてエジプトの歴史と魅力を満喫した後、快適な専用送迎でアスワンのホテルへお送りします。",
+   "text": "専用送迎でアスワンのホテルへ"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/aswan-full-day-city-tour/"
+ },
+ "priceFrom": 94,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_private_tour_abu_simble_by_bus_from_aswan",
+   "_ref": "tour.private-tour-abu-simble-by-bus-from-aswan",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_abu_simble_by_plane_from_aswan",
+   "_ref": "tour.abu-simble-by-plane-from-aswan",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_abu_simbel_temples_day_tour_from_aswan",
+   "_ref": "tour.abu-simbel-temples-day-tour-from-aswan",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_aswan_airport_transfer",
+   "_ref": "tour.aswan-airport-transfer",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Fully private · own licensed Egyptologist · air-conditioned vehicle · motorboat crossing to Philae · tiered pricing with optional entrance-fee bundle · families welcome"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Estrictamente privado · egiptólogo licenciado propio · vehículo con aire acondicionado · cruce en lancha a Philae · tarifas por niveles con paquete de entradas opcional · familias bienvenidas · Moderado, con calor seco a gestionar"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "完全プライベート・専属のエジプト学ガイド・冷房付き車両・三段階の料金構成・フィラエへのモーターボート往復含む"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Full day, ≈8 hours from morning through to mid-afternoon"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Día completo, unas 8 horas, de la mañana a media tarde"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "終日、およそ8時間"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Aswan — Unfinished Obelisk (granite quarry), High Dam (Sadd el-Ali, completed 1970), Philae Temple on Agilika Island"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Asuán: Obelisco Inacabado (cantera de granito), Alta Presa (Sadd el-Ali, completada en 1970), templo de Philae en la isla de Agilkia"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "アスワン市内（未完のオベリスク → ハイダム → アギルキア島／フィラエ神殿）"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "aswan-full-day-city-tour"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "asuan-en-un-dia-alta-presa-philae-y-obelisco-inacabado"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "asuwan-shujitsu-shinai-tsua-hai-damu-firae-mikan-no"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "One full day, three defining landmarks — from a quarry that changed history to a temple saved from the flood. Aswan at its most essential."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Una jornada completa, tres puntos definitorios: de una cantera que cambió la historia a un templo salvado de las aguas. Asuán en lo esencial."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "まる一日、三つの象徴的な名所——歴史を変えた石切場から、洪水から救われた神殿まで。最も本質的なアスワンを。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Aswan Full-Day City Tour: High Dam, Philae & the Unfinished Obelisk"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Asuán en un día: Alta Presa, Philae y Obelisco Inacabado"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "アスワン終日市内ツアー：ハイダム、フィラエ、未完のオベリスク"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}

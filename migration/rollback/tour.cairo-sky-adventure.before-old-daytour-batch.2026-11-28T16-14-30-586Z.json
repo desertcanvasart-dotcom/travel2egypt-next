@@ -1,0 +1,1073 @@
+{
+ "_createdAt": "2026-05-28T11:45:20Z",
+ "_id": "tour.cairo-sky-adventure",
+ "_rev": "pzh5FM4q1DBt3H4LGqNNJZ",
+ "_type": "tour",
+ "_updatedAt": "2026-11-11T16:44:46Z",
+ "audienceNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Travellers who have already done the ground-level circuit and want to read Cairo as a single layered map — or anyone marking a particular occasion in the air"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayTextValue",
+   "value": "Fotografos, ocasiones especiales y viajeros que buscan una vista unica"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayTextValue",
+   "value": "地上のカイロをすでに知り、遺跡どうしの空間的な関係を一望で読み解きたい方"
+  }
+ ],
+ "body": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Above It All: Cairo by Helicopter"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [],
+       "text": "There is no ground-level vantage point that compresses four thousand years of continuous civilisation into a single frame. That requires altitude. The Cairo Sky Adventure is a private helicopter tour — roughly 40 to 60 minutes in the air — departing from Almaza Airport in Heliopolis and tracing a circuit over the Giza plateau, the Nile corridor, and the medieval heart of the city. The aircraft carries up to three passengers and is chartered for your party alone, making it a private experience by default rather than a shared excursion."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "This is not a tour for visitors who want to stand at the foot of the pyramids and feel their scale. It is for those who already know the monuments and want to understand how they relate to each other — how the three pyramids of Giza align on the plateau, how the Nile bisects the metropolis, how the Fatimid city walls and the Saladin Citadel cluster together on the eastern escarpment. From the ground, Cairo reads as a series of individual sites. From 300 metres, it reads as a coherent urban biography."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "The minimum age is 18. Advance booking is strongly recommended — sunrise and late-afternoon slots fill quickly, and those are the hours worth holding out for. In early morning, the desert light falls at a low angle that throws the pyramid faces into sharp relief and turns the Nile a flat, hammered gold. At midday the plateau is bright but shadowless and loses much of its drama. Plan accordingly."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "The departure point is Almaza Airport in Heliopolis, a district in Cairo's north-east. A private transfer from your hotel to the airport is included, and the ground team handles check-in and the pre-flight safety briefing before you board."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "The Route"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "The flight begins over the Giza plateau, where the three Fourth Dynasty pyramids — Khufu (c. 2560 BC), Khafre, and Menkaure — sit in deliberate alignment that only becomes fully legible from above. The Great Sphinx crouches at the plateau's eastern edge, cut from the living limestone and facing due east, its relationship to the Khafre complex apparent in a way that ground visits rarely make clear."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "From the plateau the helicopter follows the Nile southward into the city. The river is Cairo's organizing spine: everything in this metropolitan area of some 22 million people orients, one way or another, to this corridor of water. Gezira Island sits mid-river, and the Cairo Tower — a 187-metre concrete lattice structure built in 1961 — rises from its northern end, a useful landmark for calibrating the city's modern scale against the ancient one you have just left behind."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "The flight then turns east toward Islamic Cairo. The Saladin Citadel occupies a limestone spur of the Muqattam Hills, placed there in the 1170s AD precisely because the elevation made it defensible; from the air you can read that strategic logic immediately. Below and around it, the Fatimid walls that once enclosed the medieval city of al-Qahira survive in substantial sections, tracing the outline of a settlement founded in 969 AD. The density of minarets in this quarter — seen from above, they are almost countable — gives some sense of what earned this district its reputation as the city of a thousand minarets."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "The return leg sweeps back over the contemporary skyline before the helicopter sets down at Almaza, where a private transfer returns you to your hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "What the Flight Actually Shows You"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "A note on honest expectations: a 40–60 minute circuit at helicopter altitude is an orientation, not an education. You will see the relationships between sites — spatial, geographic, historical — but you will not linger. Photographs through helicopter glass in bright light require some preparation (a polarising filter helps; a phone pressed flat to the window does not). The flight itself is the experience; treat the aerial photography as a bonus rather than the point."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Weather is a factor. Cairo's skies are clear the vast majority of the year, but occasional sandstorms (khamsin) in spring can ground flights on short notice. The operator's safety briefing covers this, and rescheduling procedures should be confirmed at the time of booking."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Cairo is a city most people see at street level, overwhelmed and exhilarated in roughly equal measure. An hour in the air resets the picture entirely — the ancient, the medieval, and the modern arranged below you with the clarity of a map that has come to life."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "That clarity is what this flight is selling, and it delivers it."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000002c",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002a",
+       "_type": "span",
+       "marks": [],
+       "text": "The flight slot is the variable that matters most: sunrise gives the pyramid faces their relief; the hour before sunset turns the Nile gold. Tell us the morning or evening that fits your trip and we will hold the corresponding slot, with khamsin-season rescheduling terms confirmed in writing at booking."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000001",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000000",
+       "_type": "span",
+       "marks": [],
+       "text": "Por encima de todo: El Cairo en helicóptero"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000003",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000002",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Una experiencia privada para leer la escala de la ciudad, el desierto y las pirámides desde una perspectiva imposible a pie."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000005",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000004",
+       "_type": "span",
+       "marks": [],
+       "text": "No hay punto de observación a ras de suelo que comprima cuatro mil años de civilización continua en un solo encuadre. Eso requiere altitud. Cairo Sky Adventure es un vuelo privado en helicóptero —entre 40 y 60 minutos en el aire— que parte del aeropuerto de Almaza, en Heliópolis, y traza un circuito sobre la meseta de Guiza, el corredor del Nilo y el corazón medieval de la ciudad. La aeronave admite hasta tres pasajeros y se contrata para tu grupo en exclusiva, lo que la convierte en una experiencia privada por defecto, no en una excursión compartida."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "No es un tour para quienes quieran plantarse al pie de las pirámides y sentir su escala. Es para quienes ya conocen los monumentos y desean entender cómo se relacionan entre sí: cómo se alinean las tres pirámides de Guiza sobre la meseta, cómo el Nilo divide la metrópoli, cómo las murallas fatimíes y la Ciudadela de Saladino se agrupan en la escarpa oriental. Desde el suelo, El Cairo se lee como una sucesión de sitios sueltos. Desde 300 metros, se lee como una biografía urbana coherente."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "La edad mínima es 18 años. Se recomienda encarecidamente reservar con antelación: los horarios de amanecer y de última hora de la tarde se agotan pronto, y son los que vale la pena reservar. Al amanecer, la luz del desierto cae en un ángulo bajo que recorta las caras de las pirámides con relieve y vuelve el Nilo un oro mate. Al mediodía la meseta brilla, pero queda sin sombras y pierde gran parte de su dramatismo. Conviene planificar en consecuencia."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "El punto de partida es el aeropuerto de Almaza, en Heliópolis, un distrito al noreste de El Cairo. Se incluye el traslado privado desde el hotel hasta el aeropuerto, y el equipo de tierra gestiona la facturación y el briefing de seguridad previo al vuelo antes del embarque."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "La ruta"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "El vuelo se abre sobre la meseta de Guiza, donde las tres pirámides de la IV dinastía —Keops (h. 2560 a. C.), Kefrén y Micerinos— se disponen en una alineación deliberada que solo se hace plenamente legible desde el aire. La Gran Esfinge se agazapa en el borde oriental de la meseta, tallada en la caliza viva y orientada al este; su relación con el complejo de Kefrén resulta evidente de un modo que las visitas a pie rara vez muestran."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "Desde la meseta, el helicóptero sigue el Nilo hacia el sur, hacia la ciudad. El río es el eje vertebrador del Cairo: en esta metrópoli de unos 22 millones de habitantes, todo se orienta, de un modo u otro, a este corredor de agua. La isla de Gezira se sitúa en el centro del cauce, y la Torre del Cairo —una estructura reticular de hormigón de 187 metros levantada en 1961— se eleva en su extremo norte, un buen punto de referencia para calibrar la escala moderna de la ciudad frente a la antigua que se acaba de dejar atrás."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "El vuelo gira entonces hacia el este, hacia el Cairo islámico. La Ciudadela de Saladino ocupa un espolón calizo de los montes de al-Muqattam, instalada allí en la década de 1170 d. C. precisamente porque la elevación la hacía defendible; desde el aire, esa lógica estratégica se lee al instante. Debajo y a su alrededor, las murallas fatimíes que en su día encerraron la ciudad medieval de al-Qahira sobreviven en tramos sustanciales, dibujando el contorno de un asentamiento fundado en el 969 d. C. La densidad de minaretes en este barrio —vistos desde arriba, casi se pueden contar— da medida de lo que ha valido a este distrito la fama de ciudad de los mil minaretes."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "La etapa de regreso barre el horizonte contemporáneo antes de que el helicóptero se pose en Almaza, donde un traslado privado devuelve al viajero a su hotel."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "Lo que el vuelo muestra de verdad"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "Una nota sobre expectativas honestas: un circuito de 40 a 60 minutos a altura de helicóptero es una orientación, no una clase. Se verán las relaciones entre sitios —espaciales, geográficas, históricas—, pero no habrá tiempo para detenerse. Fotografiar a través del vidrio del helicóptero bajo luz fuerte requiere alguna preparación (un filtro polarizador ayuda; un móvil apretado contra la ventanilla, no). El vuelo en sí es la experiencia; conviene tratar la fotografía aérea como un extra, no como el objetivo."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "El tiempo meteorológico es un factor. Los cielos del Cairo están despejados la mayor parte del año, pero las tormentas de arena ocasionales (jamasín) en primavera pueden cancelar vuelos con poca antelación. El briefing del operador cubre este punto, y los procedimientos de reprogramación deben confirmarse al reservar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "El Cairo es una ciudad que la mayoría ve a ras de calle, abrumada y exaltada a partes iguales. Una hora en el aire redibuja la imagen por completo: lo antiguo, lo medieval y lo moderno dispuestos debajo con la claridad de un mapa que cobra vida."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "Esa claridad es lo que este vuelo vende, y lo entrega."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000030",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000002e",
+       "_type": "span",
+       "marks": [],
+       "text": "El horario del vuelo es la variable que más pesa: el amanecer da a las caras de las pirámides su relieve; la hora previa al ocaso vuelve dorado el Nilo. Cuéntanos la mañana o la tarde que mejor se ajusta a tu viaje y reservaremos el horario correspondiente, con los términos de reprogramación por jamasín confirmados por escrito al reservar."
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": [
+    {
+     "_key": "000000000007",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000006",
+       "_type": "span",
+       "marks": [],
+       "text": "すべてを見下ろして：ヘリコプターで巡るカイロ"
+      }
+     ],
+     "markDefs": [],
+     "style": "h2"
+    },
+    {
+     "_key": "000000000009",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000008",
+       "_type": "span",
+       "marks": [],
+       "text": "四千年にわたる連綿たる文明を、ひとつの画面に圧縮できる地上の視点はありません。それには高度が要ります。カイロ・スカイアドベンチャーはプライベートのヘリコプターツアーで——空中でおよそ40分から60分——ヘリオポリスのアルマザ空港を発ち、ギザ高原、ナイルの回廊、そして街の中世の中心を巡る周回を描きます。機体は最大3名を乗せ、お客様のご一行だけのためにチャーターされるため、相乗りの遠足ではなく、おのずとプライベートな体験になります。現在の価格はご予約時にお示しします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000a",
+       "_type": "span",
+       "marks": [],
+       "text": "これは、ピラミッドのふもとに立ってその規模を感じたい方のためのツアーではありません。すでに記念建造物を知っていて、それらが互いにどう関わり合っているかを理解したい方のためのものです——ギザの三つのピラミッドが高原の上でどう整列しているか、ナイルが大都市をどう二分しているか、ファーティマ朝の市壁とサラディン城塞が東の崖の縁にどう寄り集まっているか。地上からは、カイロは個々の遺跡の連なりとして読めます。300メートルの高さからは、ひとつの筋の通った都市の伝記として読めるのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000c",
+       "_type": "span",
+       "marks": [],
+       "text": "参加年齢は18歳以上です。事前のご予約を強くおすすめします——日の出と午後遅くの枠は早く埋まり、そしてそれこそ、待ってでも押さえる価値のある時間帯です。早朝には、砂漠の光が低い角度で差し、ピラミッドの面を鋭い陰影に浮かび上がらせ、ナイルを平らに打ち延ばされた黄金に変えます。正午には高原は明るくとも陰がなく、迫力の多くを失います。それを踏まえてご計画ください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000000f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000000e",
+       "_type": "span",
+       "marks": [],
+       "text": "出発地点はカイロ北東の地区、ヘリオポリスのアルマザ空港です。ホテルから空港へのプライベート送迎が含まれ、地上スタッフがチェックインと、搭乗前の安全説明を執り行います。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000011",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000010",
+       "_type": "span",
+       "marks": [],
+       "text": "ルート"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "000000000013",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000012",
+       "_type": "span",
+       "marks": [],
+       "text": "飛行はギザ高原の上空ではじまります。第四王朝の三つのピラミッド——クフ王（紀元前2560年ごろ）、カフラー王、メンカウラー王——は、上空からはじめて完全に読み取れる意図的な整列のうちに座しています。大スフィンクスは高原の東の縁にうずくまり、生きた石灰岩から彫り出され、真東を向いています。カフラー王の複合体との関係は、地上の訪問ではめったに明らかにならない仕方で見て取れます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000015",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000014",
+       "_type": "span",
+       "marks": [],
+       "text": "高原からヘリコプターはナイルに沿って南へ、街のなかへ入ります。川はカイロの組織の背骨です——およそ2,200万人を擁するこの大都市圏のすべてが、なんらかの形で、この水の回廊を基準に向きを定めています。ゲジーラ島が川の中ほどにあり、カイロタワー——1961年に建てられた高さ187メートルのコンクリートの格子構造——がその北端からそびえ、たった今あとにしてきた古代の規模に対して、街の近代の規模を測るのに役立つ目印になります。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000017",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000016",
+       "_type": "span",
+       "marks": [],
+       "text": "飛行はそれから東へ向きを変え、イスラム・カイロへ。サラディン城塞はムカッタムの丘の石灰岩の尾根を占めており、防衛しやすくなる標高ゆえに、まさにそこへ西暦1170年代に置かれました——上空からは、その戦略的な論理がただちに読み取れます。その下と周囲には、かつて中世の都アル・カーヒラを囲んでいたファーティマ朝の城壁が相当な区間にわたって残り、西暦969年に築かれた集落の輪郭をなぞっています。この一角のミナレットの密度は——上空からはほとんど数えられそうなほどで——この地区に「千のミナレットの都」という評判をもたらしたものを、いくらか感じさせてくれます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000019",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000018",
+       "_type": "span",
+       "marks": [],
+       "text": "帰路は現代のスカイラインの上をひと払いして戻り、ヘリコプターはアルマザに着陸し、そこからプライベート送迎がホテルへお戻しします。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001b",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001a",
+       "_type": "span",
+       "marks": [],
+       "text": "この飛行が実際に見せてくれるもの"
+      }
+     ],
+     "markDefs": [],
+     "style": "h4"
+    },
+    {
+     "_key": "00000000001d",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001c",
+       "_type": "span",
+       "marks": [],
+       "text": "率直な期待についての注記を。ヘリコプターの高度での40〜60分の周回は、見当をつけることであって、学びではありません。遺跡どうしの関係——空間的、地理的、歴史的な——は見えますが、とどまることはありません。明るい光のなか、ヘリコプターのガラス越しの撮影にはいくらかの準備が要ります（偏光フィルターが役立ちます。窓に平らに押しつけたスマートフォンは役立ちません）。飛行そのものが体験です。上空からの撮影は、目的ではなくおまけと心得てください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "00000000001f",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "00000000001e",
+       "_type": "span",
+       "marks": [],
+       "text": "天候は一つの要因です。カイロの空は一年の大半が晴れていますが、春のときおりの砂嵐（ハムシーン）が、急に飛行を見合わせさせることがあります。催行会社の安全説明はこれを取り上げており、振替の手順はご予約時にご確認ください。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000021",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000020",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "カイロは、大半の人が街路の高さで、圧倒と高揚をおおむね半々に味わいながら見る街です。空中での1時間が、その絵をまるごと描き直してくれます——古代の、中世の、そして現代の層が、命を得た地図の明晰さをもって、足の下に並ぶのです。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000023",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000022",
+       "_type": "span",
+       "marks": [
+        "em"
+       ],
+       "text": "その明晰さこそ、この飛行が売っているもので——そして、それはちゃんと届けられます。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    },
+    {
+     "_key": "000000000032",
+     "_type": "block",
+     "children": [
+      {
+       "_key": "000000000030",
+       "_type": "span",
+       "marks": [],
+       "text": "時間帯（日の出か午後遅くか）、撮影機材のご相談、ハムシーン期の振替手順など、飛行をめぐる細部は事前に整えるのが安心です。"
+      }
+     ],
+     "markDefs": [],
+     "style": "normal"
+    }
+   ]
+  }
+ ],
+ "cities": [
+  {
+   "_key": "city-1",
+   "_ref": "wp-page-83284",
+   "_type": "reference"
+  }
+ ],
+ "conciergeNote": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "The airborne minutes are few; the ceremony around them — transfer, briefing, the airport's formalities — fills most of the three hours. That is the honest shape of any charter. The cabin takes three, so it suits a couple or a small party; ask about flying before or after you walk the plateau — each order reshapes the other."
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "Los minutos en el aire son pocos; la ceremonia que los rodea — traslado, briefing, los trámites del aeropuerto — ocupa la mayor parte de las tres horas. Esa es la forma honesta de cualquier vuelo chárter. La cabina admite tres pasajeros, así que es un plan de pareja o de grupo pequeño; pregunta por volar antes o después de pisar la meseta — cada orden transforma al otro."
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "空にいる時間そのものは短く、送迎、ブリーフィング、空港の手続きといった周辺の段取りが三時間の大半を占めます——チャーター飛行とは、正直に言えばそういうものです。機内は三名までですので、お二人か少人数のご旅行に向いています。ギザの台地を歩く前に飛ぶか、歩いた後に飛ぶか——順序で見え方が変わりますので、コンシェルジュにご相談ください。"
+  }
+ ],
+ "durationHours": 3,
+ "durationLabel": [
+  {
+   "_key": "en",
+   "_type": "internationalizedArrayStringValue",
+   "value": "~3 hrs"
+  },
+  {
+   "_key": "es",
+   "_type": "internationalizedArrayStringValue",
+   "value": "~3 h"
+  },
+  {
+   "_key": "ja",
+   "_type": "internationalizedArrayStringValue",
+   "value": "約3時間"
+  }
+ ],
+ "exclusions": [],
+ "guideLanguagePrices": {
+  "_type": "object",
+  "es": 584,
+  "ja": 590
+ },
+ "heroImage": {
+  "_type": "localizedImage",
+  "alt": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "Aerial view of the Great Pyramid of Giza rising from the plateau, with Cairo's streets crowding its edge"
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "Vista aérea de la Gran Pirámide de Guiza alzándose en la meseta, con las calles de El Cairo agolpadas en su borde"
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "台地からそびえるギザの大ピラミッドを空から望む。縁にはカイロの街並みが迫る。"
+   }
+  ],
+  "asset": {
+   "_ref": "image-f09f2a1689fc2c7929454d8d8de2df02e238a0ad-3000x1686-jpg",
+   "_type": "reference"
+  },
+  "caption": [
+   {
+    "_key": "en",
+    "_type": "object",
+    "value": "The Great Pyramid seen from the air above the Giza plateau."
+   },
+   {
+    "_key": "es",
+    "_type": "object",
+    "value": "La Gran Pirámide vista desde el aire sobre la meseta de Guiza."
+   },
+   {
+    "_key": "ja",
+    "_type": "object",
+    "value": "ギザ台地の上空から見た大ピラミッド。"
+   }
+  ]
+ },
+ "inclusions": [
+  {
+   "_key": "qa1znsglo3",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A private transfer from your hotel to the airport is included, and the ground team handles check-in and the pre-flight safety briefing before you board.",
+   "text": "Private transfer from your hotel to the airport"
+  },
+  {
+   "_key": "vzxsmru7n5",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "A private transfer from your hotel to the airport is included, and the ground team handles check-in and the pre-flight safety briefing before you board.",
+   "text": "Check-in and pre-flight safety briefing by the ground team"
+  },
+  {
+   "_key": "9i4pq1trct",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The Cairo Sky Adventure is a private helicopter tour — roughly 40 to 60 minutes in the air — departing from Almaza Airport in Heliopolis and tracing a circuit over the Giza plateau, the Nile corridor, and the medieval heart of the city.",
+   "text": "Private helicopter tour, roughly 40 to 60 minutes in the air"
+  },
+  {
+   "_key": "yimwgof979",
+   "_type": "productFact",
+   "lang": "en",
+   "needsReview": true,
+   "source": "The return leg sweeps back over the contemporary skyline before the helicopter sets down at Almaza, where a private transfer returns you to your hotel.",
+   "text": "Private transfer back to your hotel"
+  },
+  {
+   "_key": "zcgt9ff7sr",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Cairo Sky Adventure es un vuelo privado en helicóptero —entre 40 y 60 minutos en el aire— que parte del aeropuerto de Almaza, en Heliópolis, y traza un circuito sobre la meseta de Guiza, el corredor del Nilo y el corazón medieval de la ciudad.",
+   "text": "Vuelo privado en helicóptero de 40 a 60 minutos"
+  },
+  {
+   "_key": "j5c4xf64du",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se incluye el traslado privado desde el hotel hasta el aeropuerto, y el equipo de tierra gestiona la facturación y el briefing de seguridad previo al vuelo antes del embarque.",
+   "text": "Traslado privado desde el hotel hasta el aeropuerto"
+  },
+  {
+   "_key": "3ztf3wmg8v",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "Se incluye el traslado privado desde el hotel hasta el aeropuerto, y el equipo de tierra gestiona la facturación y el briefing de seguridad previo al vuelo antes del embarque.",
+   "text": "Facturación y briefing de seguridad previo al vuelo"
+  },
+  {
+   "_key": "1ty9q1r8it",
+   "_type": "productFact",
+   "lang": "es",
+   "needsReview": true,
+   "source": "La etapa de regreso barre el horizonte contemporáneo antes de que el helicóptero se pose en Almaza, donde un traslado privado devuelve al viajero a su hotel.",
+   "text": "Traslado privado de regreso al hotel"
+  },
+  {
+   "_key": "dxw6isdci7",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ギザ高原、ナイル、そしてイスラム・カイロの上空をゆく、40〜60分のプライベート・ヘリコプター飛行——最大3名まで。",
+   "text": "40〜60分のプライベート・ヘリコプター飛行"
+  },
+  {
+   "_key": "mjsqe12l5j",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ホテルから空港へのプライベート送迎が含まれ、地上スタッフがチェックインと、搭乗前の安全説明を執り行います。",
+   "text": "ホテルから空港へのプライベート送迎"
+  },
+  {
+   "_key": "k7ew533csy",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "ホテルから空港へのプライベート送迎が含まれ、地上スタッフがチェックインと、搭乗前の安全説明を執り行います。",
+   "text": "地上スタッフによるチェックインと搭乗前の安全説明"
+  },
+  {
+   "_key": "u6e77i6zen",
+   "_type": "productFact",
+   "lang": "ja",
+   "needsReview": true,
+   "source": "帰路は現代のスカイラインの上をひと払いして戻り、ヘリコプターはアルマザに着陸し、そこからプライベート送迎がホテルへお戻しします。",
+   "text": "アルマザからホテルへのプライベート送迎"
+  }
+ ],
+ "itineraryDays": [],
+ "migration": {
+  "wpUrl": "https://travel2egypt.org/cairo-sky-adventure/"
+ },
+ "priceFrom": 572.5,
+ "relatedTours": [
+  {
+   "_key": "rel_tour_alexandria_catacombs_pompeys_pillar_group_day_tour_from_cairo",
+   "_ref": "tour.alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_transfer_from_cairo_airport_to_hotel",
+   "_ref": "tour.transfer-from-cairo-airport-to-hotel",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_cairo_dinner_cruise_with_belly_dancing_show",
+   "_ref": "tour.cairo-dinner-cruise-with-belly-dancing-show",
+   "_type": "reference"
+  },
+  {
+   "_key": "rel_tour_nmec_royal_mummies_old_cairo",
+   "_ref": "tour.nmec-royal-mummies-old-cairo",
+   "_type": "reference"
+  }
+ ],
+ "shapeOfDay": {
+  "character": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Private charter for up to three passengers · licensed professional pilot · flight insurance · hotel transfer in dedicated vehicle · adults only (minimum age 18) · sunrise and late-afternoon slots prioritised"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Charter privado hasta 3 pasajeros con piloto licenciado · Concentrado y dependiente de clima/autorizaciones"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "お客様のご一行だけのプライベートチャーター（最大3名） · プロのパイロット · プライベート送迎・地上スタッフによるチェックイン · 18歳以上 · 早朝または午後遅くの光の時間帯を推奨"
+   }
+  ],
+  "duration": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "40–60 minutes in the air; allow about three hours end-to-end including transfers and briefing"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "40-60 minutos de vuelo; unas 3 horas totales con traslados y briefing"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "飛行40〜60分（送迎を含む半日の段取り）"
+   }
+  ],
+  "where": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Almaza Airport (Heliopolis) over the Giza Plateau, the Nile corridor, and Islamic Cairo"
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Almaza (Heliopolis), meseta de Guiza, corredor del Nilo y El Cairo islamico"
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "ホテル → ヘリオポリス／アルマザ空港 → ギザ高原 → ナイル回廊 → イスラム・カイロ／城塞 → アルマザ空港 → ホテル"
+   }
+  ]
+ },
+ "slug": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "cairo-sky-adventure"
+   }
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "cairo-sky-adventure-helicoptero-sobre-las-piramides-y-el-nilo"
+   }
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": {
+    "_type": "slug",
+    "current": "kairo-sukai-adobencha-piramiddo-to-nairu-no-joku-o-yuku"
+   }
+  }
+ ],
+ "summary": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "A 40–60 minute private helicopter flight over the Giza plateau, the Nile, and Islamic Cairo — for up to three passengers."
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Vuelo privado en helicóptero de 40 a 60 minutos sobre la meseta de Guiza, el Nilo y El Cairo islámico, para hasta tres pasajeros."
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "ギザ高原、ナイル、そしてイスラム・カイロの上空をゆく、40〜60分のプライベート・ヘリコプター飛行——最大3名まで。"
+  }
+ ],
+ "title": [
+  {
+   "_key": "en",
+   "_type": "object",
+   "value": "Cairo Sky Adventure: Helicopter Tour over the Pyramids & Nile"
+  },
+  {
+   "_key": "es",
+   "_type": "object",
+   "value": "Cairo Sky Adventure: helicóptero sobre las pirámides y el Nilo"
+  },
+  {
+   "_key": "ja",
+   "_type": "object",
+   "value": "カイロ・スカイアドベンチャー：ピラミッドとナイルの上空をゆくヘリコプターツアー"
+  }
+ ],
+ "tourMode": "private",
+ "type": "dayTour"
+}
